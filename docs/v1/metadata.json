@@ -1,0 +1,263 @@
+{
+  "Technologies": [
+    {
+      "Name": "Excel",
+      "Image": "",
+      "Subjects": []
+    },
+    {
+      "Name": "Microsoft Teams",
+      "Image": "",
+      "Subjects": [
+        "Meetings",
+        "PSTN Calling"
+      ]
+    },
+    {
+      "Name": "Office 365 Basics",
+      "Image": "",
+      "Subjects": []
+    },
+    {
+      "Name": "OneDrive for Business",
+      "Image": "",
+      "Subjects": []
+    },
+    {
+      "Name": "OneNote",
+      "Image": "",
+      "Subjects": []
+    },
+    {
+      "Name": "Outlook",
+      "Image": "",
+      "Subjects": []
+    },
+    {
+      "Name": "PowerPoint",
+      "Image": "",
+      "Subjects": []
+    },
+    {
+      "Name": "SharePoint Online",
+      "Image": "",
+      "Subjects": []
+    },
+    {
+      "Name": "Word",
+      "Image": "",
+      "Subjects": []
+    },
+    {
+      "Name": "Yammer",
+      "Image": "",
+      "Subjects": []
+    },
+    {
+      "Name": "OneDrive",
+      "Image": "",
+      "Subjects": []
+    },
+    {
+      "Name": "SharePoint",
+      "Image": "",
+      "Subjects": []
+    },
+    {
+      "Name": "Access",
+      "Image": "",
+      "Subjects": []
+    },
+    {
+      "Name": "Project",
+      "Image": "",
+      "Subjects": []
+    },
+    {
+      "Name": "Planner",
+      "Image": "",
+      "Subjects": []
+    },
+    {
+      "Name": "Visio",
+      "Image": "",
+      "Subjects": []
+    },
+    {
+      "Name": "Publisher",
+      "Image": "",
+      "Subjects": []
+    },
+    {
+      "Name": "Skype for Business",
+      "Image": "",
+      "Subjects": []
+    },
+    {
+      "Name": "Forms",
+      "Image": "",
+      "Subjects": []
+    },
+    {
+      "Name": "Collaboration",
+      "Image": "",
+      "Subjects": []
+    }
+  ],
+  "Categories": [
+    {
+      "Name": "Get Started Playlists",
+      "Security": "Visitors",
+      "Image": "",
+      "SubCategories": [
+        {
+          "Name": "First Days",
+          "Image": "images/categories/first_days.png"
+        },
+        {
+          "Name": "Featured",
+          "Image": "images/categories/featured.png"
+        },
+        {
+          "Name": "Recommended",
+          "Image": "images/categories/recommended.png"
+        },
+        {
+          "Name": "Transformation",
+          "Image": "images/categories/transformation.png"
+        }
+      ]
+    },
+    {
+      "Name": "Change Management",
+      "Security": "Owners",
+      "Image": "",
+      "SubCategories": [
+        {
+          "Name": "Prepare for Change",
+          "Image": ""
+        },
+        {
+          "Name": "Manage Change",
+          "Image": ""
+        },
+        {
+          "Name": "Reinforce Change",
+          "Image": ""
+        }
+      ]
+    },
+    {
+      "Name": "Office 365 Apps",
+      "Security": "Visitors",
+      "Image": "",
+      "SubCategories": [
+        {
+          "Name": "Excel Training",
+          "Image": "images/categories/excel_training.png"
+        },
+        {
+          "Name": "Microsoft Teams Training",
+          "Image": "images/categories/microsoft_teams_training.png"
+        },
+        {
+          "Name": "Office 365 Basic Training",
+          "Image": "images/categories/office_365_apps_basic_training.png"
+        },
+        {
+          "Name": "OneDrive for Business Training",
+          "Image": "images/categories/onedrive_training.png"
+        },
+        {
+          "Name": "OneNote Training",
+          "Image": "images/categories/onenote_training.png"
+        },
+        {
+          "Name": "Outlook Training",
+          "Image": "images/categories/outlook_training.png"
+        },
+        {
+          "Name": "PowerPoint Training",
+          "Image": "images/categories/powerpoint_training.png"
+        },
+        {
+          "Name": "SharePoint Online Training",
+          "Image": "images/categories/sharepoint_training.png"
+        },
+        {
+          "Name": "Word Training",
+          "Image": "images/categories/word_training.png"
+        },
+        {
+          "Name": "Yammer Training",
+          "Image": "images/categories/yammer_training.png"
+        }
+      ]
+    },
+    {
+      "Name": "Custom Playlists",
+      "Security": "Visitors",
+      "Image": "",
+      "SubCategories": [
+        {
+          "Name": "First Days",
+          "Image": "images/categories/first_days.png"
+        },
+        {
+          "Name": "Recommended",
+          "Image": "images/categories/customrecommended.png"
+        },
+        {
+          "Name": "Featured",
+          "Image": "images/categories/customfeatured.png"
+        },
+        {
+          "Name": "Transformation",
+          "Image": "images/categories/customtransformation.png"
+        }
+      ]
+    }
+  ],
+  "Audiences": [
+    {
+      "Name": "IT Pros",
+      "Image": ""
+    },
+    {
+      "Name": "HelpDesk",
+      "Image": ""
+    },
+    {
+      "Name": "Change Managers",
+      "Image": ""
+    },
+    {
+      "Name": "Champions/Trainers",
+      "Image": ""
+    },
+    {
+      "Name": "Executive Assistants",
+      "Image": ""
+    },
+    {
+      "Name": "VIPs",
+      "Image": ""
+    },
+    {
+      "Name": "End Users",
+      "Image": ""
+    }
+  ],
+  "Sources": [
+    "SOC",
+    "FastTrack",
+    "M365",
+    "Microsoft",
+    "LinkedIn"
+  ],
+  "Levels": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ]
+}
