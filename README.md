@@ -42,7 +42,7 @@ Either identify an existing, or provision a new, modern communication site in yo
 
 You will want to add everyone who should be able to view content to the Visitors group and everyone who should be able to administer custom playlists to the Members group. To configure the site for Custom Learning the first time the user must be either a site collection administrator or part of the Owners group.
 
-## Add the Custom Learning for Office 365 app to the site
+### Add the Custom Learning for Office 365 app to the site
 1. From the SharePoint site, click the System menu, then click **Add an App**.
 2. Under **Your Apps**, click **From Your Organization**, and then click **Custom Learning for Office 365**.
 
