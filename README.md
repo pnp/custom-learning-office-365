@@ -25,8 +25,9 @@ The Microsoft Custom Learning Web Part is build using the [SharePoint Framework]
 1. Validate that you have met all the prerequisites.
 2. Install the **customlearning.sppkg** file in your Office 365 Tenant App Catalog.
 3. Provision/Identify a modern communication site to act as your Custom Learning for Office 365 home site.
-4. Execute a PowerShell script that will configure your tenant with the appropriate artifacts that Custom Learning depends on.
-5. Navigate to the CustomLearningAdmin.aspx site page to load the admin web part to initialize the custom content configuration.
+4. Add the Custom Learning for Office 365 app to the site
+5. Execute a PowerShell script that will configure your tenant with the appropriate artifacts that Custom Learning depends on.
+6. Navigate to the CustomLearningAdmin.aspx site page to load the admin web part to initialize the custom content configuration.
 
 ### Prerequisites
 You must have set up and configured the tenant-wide App Catalog. Please see [Set up your Office 365 tenant](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant#create-app-catalog-site) and follow the Create app catalog site section. If your tenant-wide App Catalog has already been provisioned, you will need access to an account that has rights to upload a package to it to complete this setup process. Generally, this is an account with the SharePoint administrator role. If an account with that role does not work, go to the SharePoint admin center and find the Site Collection Administrators for the app catalog site collection and either log in as one of the Site Collection Administrators, or add the SharePoint administrator account that failed to the Site Collection Administrators. You will also need access to an account that is a SharePoint Tenant Admin.
