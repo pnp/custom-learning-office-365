@@ -4,11 +4,11 @@ The Microsoft Custom Learning Web Part is build using the [SharePoint Framework]
 
 To manually install and configure the web part and site collection you will need to complete the following steps:
 
-1. Validate that you have met all the prerequisites.
-1. Install the customlearning.sppkg file in your Office 365 Tenant App Catalog.
-1. Provision/Identify a modern communication site to act as your Custom Learning for Office 365 home site.
-1. Execute a PowerShell script that will configure your tenant with the appropriate artifacts that Custom Learning depends on.
-1. Navigate to the CustomLearningAdmin.aspx site page to load the admin web part to initialize the custom content configuration.
+- Validate that you have met all the prerequisites.
+- Install the customlearning.sppkg file in your Office 365 Tenant App Catalog.
+- Provision/Identify a modern communication site to act as your Custom Learning for Office 365 home site.
+- Execute a PowerShell script that will configure your tenant with the appropriate artifacts that Custom Learning depends on.
+- Navigate to the CustomLearningAdmin.aspx site page to load the admin web part to initialize the custom content configuration.
 
 ## Prerequisites
 
