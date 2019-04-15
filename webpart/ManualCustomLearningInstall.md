@@ -4,11 +4,11 @@ The Microsoft Custom Learning Web Part is build using the [SharePoint Framework]
 
 To manually install and configure the web part and site collection you will need to complete the following steps:
 
-- Validate that you have met all the prerequisites.
-- Install the customlearning.sppkg file in your Office 365 Tenant App Catalog.
-- Provision/Identify a modern communication site to act as your Custom Learning for Office 365 home site.
-- Execute a PowerShell script that will configure your tenant with the appropriate artifacts that Custom Learning depends on.
-- Navigate to the CustomLearningAdmin.aspx site page to load the admin web part to initialize the custom content configuration.
+1. Validate that you have met all the prerequisites.
+1. Install the customlearning.sppkg file in your Office 365 Tenant App Catalog.
+1. Provision/Identify a modern communication site to act as your Custom Learning for Office 365 home site.
+1. Execute a PowerShell script that will configure your tenant with the appropriate artifacts that Custom Learning depends on.
+1. Navigate to the CustomLearningAdmin.aspx site page to load the admin web part to initialize the custom content configuration.
 
 ## Prerequisites
 
@@ -28,7 +28,25 @@ Add Custom Learning for Office 365 App to the site collection.
 
 ## Execute PowerShell Configuration Script
 
-A PowerShell script `CustomLearningConfiguration.ps1` is included that you will need to execute to create three [tenant properties](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/tenant-properties) that the solution uses. In addition the script creates two [single part app pages](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/single-part-app-pages) in the site pages library to host the admin and user web parts at a known location.
+A PowerShell script `CustomLearningConfiguration.ps1` is included that you will need to execute to create three [tenant properties](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/tenant-properties) that the solution uses. In addition the script creates two [single part app pages](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/single-part-app-pages) in the site pages library to host the admin and user web parts at a known location. 
+
+Using the script looks like this:
+`.\CustomLearningConfiguration.ps1 -TenantName contoso -SiteCollectionName MicrosoftTraining`
+
+The line above requires that a Communications site exists at `https://contoso.sharepoint.com/sites/MicrosoftTraining`. Enter credentials for a user that both has the SharePoint Administrator role in your tenant and is a site collection owner of the site collection. The script will configure the App Catalog with values the Custom Learning framework needs and create two pages in the site collection to view and configure the Custom Learning content. It will create two pages, CustomLearningViewer.aspx and CustomLearningAdmin.aspx and add the appropriate web parts to each. If either page already exists the script will delete the existing page and create the correct one.
+
+To successfully install Custom Learning for Office 365 you must have an administrative role that allows you write entries to the tenant’s app catalog and you must also be a site collection admin for the site collection you are installing the Custom Learning into. That is not always the same user. To address this the script can run each of these parts separately allowing different users to do the part they have permission to do. First, the user with the administrative rights should run the following command:
+
+`.\CustomLearningConfiguration.ps1 -TenantName contoso -SiteCollectionName CustomLearning -AppCatalogAdminOnly`
+
+When prompted enter the credentials of a user with the SharePoint Administrator Role in your tenant. With the `-AppCatalogAdminOnly` switch the script will only write the configuration values to the tenant’s app catalog and then exit. After that has successfully run a site collection owner for the CustomLearning site collection should run this command:
+
+`.\CustomLearningConfiguration.ps1 -TenantName contoso -SiteCollectionName CustomLearning – SiteAdminOnly`
+
+When prompted enter the credentials of a Site Collection Owner of the CustomLearning Site Collection. The `–SiteAdminOnly` switch tells the configuration script not to try to do any tenant level configuration and jump right to the site collection setup. 
+
+After both parts of the script have successfully executed the Microsoft Custom Learning for Office 365 will be installed and configured and ready for you to customize and use. 
+
 
 ### Disabling Telemetry Collection
 
