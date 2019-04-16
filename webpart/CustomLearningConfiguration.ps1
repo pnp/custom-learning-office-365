@@ -3,7 +3,7 @@
 [string]$SiteCollectionName,
 [switch]$AppCatalogAdminOnly,
 [switch]$SiteAdminOnly)
-
+ 
 if ($AppCatalogAdminOnly -and $SiteAdminOnly) {
     Write-Host "Select either -AppCatalogAdminOnly or -SiteAdminOnly"
     Write-Host "If you want to run both tenant and site admin parts, don't pass either parameter"
@@ -132,36 +132,65 @@ if ($SiteAdmin) {
         # Found the app in the tenant app catalog
         # Install it to the site collection if it's not already there
         Install-PnPApp -Identity $id -ErrorAction SilentlyContinue
-        } else { # couldn't find it in the tenant, check the site collection app catalog
-            if (!(Get-PnPApp -Scope Site | Where-Object -Property Title -Like -Value "Custom Learning for Office 365")) { 
-            # Couldn't find it in the site collection app catalog either
-            Write-Host "Could not find `"Custom Learning for Office 365`" app. Please install in your app catalog and run this script again."
+        } else { 
+            Write-Host "Could not find `"Custom Learning for Office 365`" app. Please install in it your app catalog and run this script again."
             break
+    }
+    # Delete pages if they exist. Alert user.
+    $clv = Get-PnPListItem -List "Site Pages" -Query "<View><Query><Where><Eq><FieldRef Name='FileLeafRef'/><Value Type='Text'>CustomLearningViewer.aspx</Value></Eq></Where></Query></View>"
+    if($clv -ne $null){
+        Write-Host "Found an existing CustomLearningViewer.aspx page. Deleting it."
+        # Renaming and moving to Recycle Bin to prevent potential naming overlap
+        Set-PnPListItem -List "Site Pages" -Identity $clv.Id -Values @{"FileLeafRef" = "CustomLearningViewer$((Get-Date).Minute)$((Get-date).second).aspx"}
+        Move-PnPListItemToRecycleBin -List "Site Pages" -Identity $clv.Id -Force
         }
+    # Now create the page whether it was there before or not
+    $clvPage = Add-PnPClientSidePage "CustomLearningViewer" # Will fail if user can't write to site collection
+    $clvSection = Add-PnPClientSidePageSection -Page $clvPage -SectionTemplate OneColumn -Order 1
+    # Before I try to add the Custom Learning web parts verify they have been deployed to the site collection
+    $timeout = New-TimeSpan -Minutes 1 # wait for a minute then time out
+    $stopwatch = [diagnostics.stopwatch]::StartNew()
+    Write-Host "."
+    while ($stopwatch.elapsed -lt $timeout) {
+        if (Get-PnPAvailableClientSideComponents -page CustomLearningAdmin.aspx -Component "Custom Learning Admin for Office 365 Web Part") {
+            Write-Host "Custom Learning web parts found"
+            break
+            }
+            Write-Host "." -NoNewline
+            Start-Sleep -Seconds 10
+        }
+
+    # loop either timed out or web parts were found. Let's see which it was
+    if (!(Get-PnPAvailableClientSideComponents -page CustomLearningAdmin.aspx -Component "Custom Learning Admin for Office 365 Web Part")) {
+        Write-Host "Could not find Custom Learning Web Parts."
+        Write-Host "Please verify the Custom Learning Package is installed and run this installation script again."
+        break 
+    }
+    
+    Add-PnPClientSideWebPart -Page $clvPage -Component "Custom Learning for Office 365"
+    Set-PnPClientSidePage -Identity $clvPage -Publish
+    $clv = Get-PnPListItem -List "Site Pages" -Query "<View><Query><Where><Eq><FieldRef Name='FileLeafRef'/><Value Type='Text'>CustomLearningViewer.aspx</Value></Eq></Where></Query></View>"
+    $clv["PageLayoutType"] = "SingleWebPartAppPage"
+    $clv.Update()
+    Invoke-PnPQuery # Done with the viewer page
+
+    $cla = Get-PnPListItem -List "Site Pages" -Query "<View><Query><Where><Eq><FieldRef Name='FileLeafRef'/><Value Type='Text'>CustomLearningAdmin.aspx</Value></Eq></Where></Query></View>"
+    if($cla -ne $null){
+        Write-Host "Found an existing CustomLearningAdmin.aspx page. Deleting it."
+        # Renaming and moving to Recycle Bin to prevent potential naming overlap
+        Set-PnPListItem -List "Site Pages" -Identity $cla.Id -Values @{"FileLeafRef" = "CustomLearningAdmin$((Get-Date).Minute)$((Get-date).second).aspx"}
+        Move-PnPListItemToRecycleBin -List "Site Pages" -Identity $cla.Id -Force    
+        }
+
+    $claPage = Add-PnPClientSidePage "CustomLearningAdmin" -Publish
+    $claSection = Add-PnPClientSidePageSection -Page $claPage -SectionTemplate OneColumn -Order 1
+    Add-PnPClientSideWebPart -Page $claPage -Component "Custom Learning Admin for Office 365 Web Part"
+    Set-PnPClientSidePage -Identity $claPage -Publish
+    $cla = Get-PnPListItem -List "Site Pages" -Query "<View><Query><Where><Eq><FieldRef Name='FileLeafRef'/><Value Type='Text'>CustomLearningAdmin.aspx</Value></Eq></Where></Query></View>"
+    $cla["PageLayoutType"] = "SingleWebPartAppPage"
+    $cla.Update()
+    Invoke-PnPQuery # Done with the Admin page
     }
 
-        $clv = Get-PnPListItem -List "Site Pages" -Query "<View><Query><Where><Eq><FieldRef Name='FileLeafRef'/><Value Type='Text'>CustomLearningViewer.aspx</Value></Eq></Where></Query></View>"
-        if($clv -eq $null){
-            $clvPage = Add-PnPClientSidePage "CustomLearningViewer" # Will fail if user can't write to site collection
-            $clvSection = Add-PnPClientSidePageSection -Page $clvPage -SectionTemplate OneColumn -Order 1
-            Add-PnPClientSideWebPart -Page $clvPage -Component "Custom Learning for Office 365"
-            Set-PnPClientSidePage -Identity $clvPage -Publish
-            $clv = Get-PnPListItem -List "Site Pages" -Query "<View><Query><Where><Eq><FieldRef Name='FileLeafRef'/><Value Type='Text'>CustomLearningViewer.aspx</Value></Eq></Where></Query></View>"
-        }
-        $clv["PageLayoutType"] = "SingleWebPartAppPage"
-        $clv.Update()
-        Invoke-PnPQuery
-    
-        $cla = Get-PnPListItem -List "Site Pages" -Query "<View><Query><Where><Eq><FieldRef Name='FileLeafRef'/><Value Type='Text'>CustomLearningAdmin.aspx</Value></Eq></Where></Query></View>"
-        if($cla -eq $null){
-            $claPage = Add-PnPClientSidePage "CustomLearningAdmin" -Publish
-            $claSection = Add-PnPClientSidePageSection -Page $claPage -SectionTemplate OneColumn -Order 1
-            Add-PnPClientSideWebPart -Page $claPage -Component "Custom Learning Admin for Office 365 Web Part"
-            Set-PnPClientSidePage -Identity $claPage -Publish
-            $cla = Get-PnPListItem -List "Site Pages" -Query "<View><Query><Where><Eq><FieldRef Name='FileLeafRef'/><Value Type='Text'>CustomLearningAdmin.aspx</Value></Eq></Where></Query></View>"
-        }
-        $cla["PageLayoutType"] = "SingleWebPartAppPage"
-        $cla.Update()
-        Invoke-PnPQuery
-    }
+Write-Host "Custom Learning Pages created at $clSite"
 #endregion
