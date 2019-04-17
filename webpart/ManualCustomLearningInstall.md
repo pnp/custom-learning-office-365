@@ -5,7 +5,7 @@ The Microsoft Custom Learning Web Part is build using the [SharePoint Framework]
 To manually install and configure the web part and site collection you will need to complete the following steps:
 
 1. Validate that you have met all the prerequisites.
-1. Install the customlearning.sppkg file in your Office 365 Tenant App Catalog.
+1. Install the `customlearning.sppkg` file in your Office 365 Tenant App Catalog.
 1. Provision/Identify a modern communication site to act as your Custom Learning for Office 365 home site.
 1. Execute a PowerShell script that will configure your tenant with the appropriate artifacts that Custom Learning depends on.
 1. Navigate to the CustomLearningAdmin.aspx site page to load the admin web part to initialize the custom content configuration.
@@ -16,7 +16,7 @@ You must have set up and configured the tenant-wide App Catalog. Please see [Set
 
 ## Install WebPart in Tenant App Catalog
 
-To install the Custom Learning for Office 365 solution you will upload thecustomlearning.sppkg file to the tenant-wide App Catalog and deploy it. Please see [Use the App Catalog to make custom business apps available for your SharePoint Online environment](https://docs.microsoft.com/en-us/sharepoint/use-app-catalog) for detailed instructions on how to add an app to the app catalog.
+To install the Custom Learning for Office 365 solution you will upload the `customlearning.sppkg` file to the tenant-wide App Catalog and deploy it. Please see [Use the App Catalog to make custom business apps available for your SharePoint Online environment](https://docs.microsoft.com/en-us/sharepoint/use-app-catalog) for detailed instructions on how to add an app to the app catalog.
 
 ## Provision/Identify Modern Communication Site
 
@@ -28,7 +28,7 @@ Add Custom Learning for Office 365 App to the site collection.
 
 ## Execute PowerShell Configuration Script
 
-A PowerShell script `CustomLearningConfiguration.ps1` is included that you will need to execute to create three [tenant properties](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/tenant-properties) that the solution uses. In addition the script creates two [single part app pages](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/single-part-app-pages) in the site pages library to host the admin and user web parts at a known location. 
+A PowerShell script `CustomLearningConfiguration.ps1` is included that you will need to execute to create three [tenant properties](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/tenant-properties) that the solution uses. In addition the script creates two [single part app pages](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/single-part-app-pages) in the site pages library to host the admin and user web parts at a known location.
 
 Using the script looks like this:
 `.\CustomLearningConfiguration.ps1 -TenantName contoso -SiteCollectionName MicrosoftTraining`
@@ -43,16 +43,15 @@ When prompted enter the credentials of a user with the SharePoint Administrator 
 
 `.\CustomLearningConfiguration.ps1 -TenantName contoso -SiteCollectionName CustomLearning – SiteAdminOnly`
 
-When prompted enter the credentials of a Site Collection Owner of the CustomLearning Site Collection. The `–SiteAdminOnly` switch tells the configuration script not to try to do any tenant level configuration and jump right to the site collection setup. 
+When prompted enter the credentials of a Site Collection Owner of the CustomLearning Site Collection. The `–SiteAdminOnly` switch tells the configuration script not to try to do any tenant level configuration and jump right to the site collection setup.
 
-After both parts of the script have successfully executed the Microsoft Custom Learning for Office 365 will be installed and configured and ready for you to customize and use. 
-
+After both parts of the script have successfully executed the Microsoft Custom Learning for Office 365 will be installed and configured and ready for you to customize and use.
 
 ### Disabling Telemetry Collection
 
-Part of this solution includes anonymized telemetry tracking opt in, which by default is set to on. If you are performing a manual install and you would like to turn telemetry tracking off, please change the `CustomlearningConfiguration.ps1` script to set the $optInTelemetry variable to $false.
+Part of this solution includes anonymized telemetry tracking opt in, which by default is set to on. If you are performing a manual install and you would like to turn telemetry tracking off, please change the `CustomLearningConfiguration.ps1` script to set the $optInTelemetry variable to $false.
 
-If you are not performing a manual install and would like to turn telemetry tracking off, a seperate script `TelemetryOptOut.ps1` has been included that when run will disable telemetry tracking.
+If you are not performing a manual install and would like to turn telemetry tracking off, a separate script `TelemetryOptOut.ps1` has been included that when run will disable telemetry tracking.
 
 ## Initialize web part custom configuration
 

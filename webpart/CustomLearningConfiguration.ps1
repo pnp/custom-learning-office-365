@@ -151,9 +151,11 @@ if ($SiteAdmin) {
     $timeout = New-TimeSpan -Minutes 1 # wait for a minute then time out
     $stopwatch = [diagnostics.stopwatch]::StartNew()
     Write-Host "."
+    $WebPartsFound = $false
     while ($stopwatch.elapsed -lt $timeout) {
-        if (Get-PnPAvailableClientSideComponents -page CustomLearningAdmin.aspx -Component "Custom Learning Admin for Office 365 Web Part") {
+        if (Get-PnPAvailableClientSideComponents -page CustomLearningViewer.aspx -Component "Custom Learning Admin for Office 365 Web Part") {
             Write-Host "Custom Learning web parts found"
+            $WebPartsFound = $true
             break
             }
             Write-Host "." -NoNewline
@@ -161,7 +163,7 @@ if ($SiteAdmin) {
         }
 
     # loop either timed out or web parts were found. Let's see which it was
-    if (!(Get-PnPAvailableClientSideComponents -page CustomLearningAdmin.aspx -Component "Custom Learning Admin for Office 365 Web Part")) {
+    if ($WebPartsFound -eq $false) {
         Write-Host "Could not find Custom Learning Web Parts."
         Write-Host "Please verify the Custom Learning Package is installed and run this installation script again."
         break 
