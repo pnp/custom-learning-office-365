@@ -17,64 +17,46 @@ Note that you can get free developer tenant from [Office 365 developer program](
 
 ## Author(s)
 
-Peter Krebs
+Peter Krebs<br/>
+Julie Turner (Sympraxis Consulting) - [@jfj1997](https://twitter.com/jfj1997)
 
 ## Disclaimer
 
 THIS CODE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.
 
+## Updating the solution
+
+### Current Release Version
+
+![drop](https://img.shields.io/badge/drop-2.0.11-green.svg)
+
+The current solution is provided in it's packaged form in the webpart folder [customlearning.sppkg](./webpart/customlearning.sppkg).
+
+To validate the version of the webpart installed in your tenant you must have access to the tenant-wide App Catalog. The custom learning solution will be installed there and you can verify the current version number against the version number noted above.
+
+![Tenant App Catalog Screenshot](./images/TenantAppCatalog.png)
+
+If you find that your package is out of date, you can download it from this repository and then upload it into your tenant app catalog (you will need appropriate access to do this step). Upload this file into the app catalog by selecting upload, finding the file, and then selecting Deploy.
+
+![Upload new sppkg file to tenant app catalog](./images/UploadPackage.png)
+
+![Deploy package to tenant](./images/DeployCustomLearning.png)
+
+If you've updated the package you will also want to update it in the custom learning site collection. Navigate to the site collection that is your custom learning master site, then site contents, and then click on the menu for `Custom Learning for Office 365` and select Details.
+
+![Site Collection App Version](./images/SiteCollectionAppVersion.png)
+
+If your application needs to be updated in this site colleciton you will see that there is a new versoin and you can select the `Get It` link to update.
+
+![Update App](./images/UpdateApp.png)
+
 ## Manually installing and configuring Custom Learning for Office 365
 
-The Microsoft Custom Learning Web Part is build using the [SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview) version 1.7.1. To manually install and configure the web part and site collection you will need to complete the following steps:
+### Sharepoint Framework Version
 
-1. Validate that you have met all the prerequisites.
-1. Install the `customlearning.sppkg` file in your Office 365 Tenant App Catalog.
-1. Provision/Identify a modern communication site to act as your Custom Learning for Office 365 home site.
-1. Add the Custom Learning for Office 365 app to the site
-1. Execute a PowerShell script that will configure your tenant with the appropriate artifacts that Custom Learning depends on.
-1. Navigate to the CustomLearningAdmin.aspx site page to load the admin web part to initialize the custom content configuration.
+![drop](https://img.shields.io/badge/drop-1.8.0-green.svg)
 
-### Install WebPart in Tenant App Catalog
-
-To install the Custom Learning for Office 365 solution you will upload the `customlearning.sppkg` file to the tenant-wide App Catalog and deploy it. Please see [Use the App Catalog to make custom business apps available for your SharePoint Online environment](https://docs.microsoft.com/en-us/sharepoint/use-app-catalog) for detailed instructions on how to add an app to the app catalog.
-
-### Provision/Identify Modern Communication Site
-
-Either identify an existing, or provision a new, modern communication site in your SharePoint Online tenant. For more information about how to provision a communication site see [Create a communication site](https://support.office.com/en-us/article/create-a-communication-site-in-sharepoint-online-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb) in SharePoint Online and follow the steps to create a communication site.
-
-You will want to add everyone who should be able to view content to the Visitors group and everyone who should be able to administer custom playlists to the Members group. To configure the site for Custom Learning the first time the user must be either a site collection administrator or part of the Owners group.
-
-### Add the Custom Learning for Office 365 app to the site
-
-1. From the SharePoint site, click the System menu, then click **Add an App**.
-2. Under **Your Apps**, click **From Your Organization**, and then click **Custom Learning for Office 365**.
-
-### Execute PowerShell Configuration Script
-
-A PowerShell script `CustomLearningConfiguration.ps1` is included that you will need to execute to create three [tenant properties](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/tenant-properties) that the solution uses. In addition the script creates two [single part app pages](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/single-part-app-pages) in the site pages library to host the admin and user web parts at a known location.
-
-Using the script looks like this:
-`.\CustomLearningConfiguration.ps1 -TenantName contoso -SiteCollectionName MicrosoftTraining`
-
-The line above requires that a Communications site exists at `https://contoso.sharepoint.com/sites/MicrosoftTraining`. Enter credentials for a user that both has the SharePoint Administrator role in your tenant and is a site collection owner of the site collection. The script will configure the App Catalog with values the Custom Learning framework needs and create two pages in the site collection to view and configure the Custom Learning content. It will create two pages, CustomLearningViewer.aspx and CustomLearningAdmin.aspx and add the appropriate web parts to each. If either page already exists the script will delete the existing page and create the correct one.
-
-To successfully install Custom Learning for Office 365 you must have an administrative role that allows you write entries to the tenant’s app catalog and you must also be a site collection admin for the site collection you are installing the Custom Learning into. That is not always the same user. To address this the script can run each of these parts separately allowing different users to do the part they have permission to do. First, the user with the administrative rights should run the following command:
-
-`.\CustomLearningConfiguration.ps1 -TenantName contoso -SiteCollectionName CustomLearning -AppCatalogAdminOnly`
-
-When prompted enter the credentials of a user with the SharePoint Administrator Role in your tenant. With the `-AppCatalogAdminOnly` switch the script will only write the configuration values to the tenant’s app catalog and then exit. After that has successfully run a site collection owner for the CustomLearning site collection should run this command:
-
-`.\CustomLearningConfiguration.ps1 -TenantName contoso -SiteCollectionName CustomLearning – SiteAdminOnly`
-
-When prompted enter the credentials of a Site Collection Owner of the CustomLearning Site Collection. The `–SiteAdminOnly` switch tells the configuration script not to try to do any tenant level configuration and jump right to the site collection setup.
-
-After both parts of the script have successfully executed the Microsoft Custom Learning for Office 365 will be installed and configured and ready for you to customize and use.
-
-### Initialize web part custom configuration
-
-After the PowerShell script is successfully run, please navigate to `<YOUR-SITE-COLLECTION-URL>/SitePages/CustomLearningAdmin.aspx`. Doing so will initialize the CustomConfig list item that sets up custom learning for its first use.
-
-The configuration is now complete. You can move forward with using Custom Learning for Office 365. Please see the user documentation for more information.
+The Microsoft Custom Learning Web Part is build using the [SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview). To manually install and configure the web part and site collection you will need to complete the steps outlined in the [Manual Custom Learning Install Instructions](./webpart/ManualCustomLearningInstall.md)
 
 ## Disabling telemetry collection
 
@@ -91,3 +73,7 @@ If you are not performing a manual install and would like to turn telemetry trac
 ## Contributions
 
 User contributions to Custom Learning for Office 365 are currently not being accepted.  
+
+## Getting Help
+
+If you find you're having difficulty installing the solution, have found what you believe is a bug, or just have general questions please submit an issue in the repository. We try to monitor and respond to issues as fast as you can.
