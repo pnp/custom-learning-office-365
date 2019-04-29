@@ -28,11 +28,11 @@ THIS CODE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPL
 
 ### Current Release Version
 
-![drop](https://img.shields.io/badge/drop-2.0.11-green.svg)
+![drop](https://img.shields.io/badge/drop-2.0.12-green.svg)
 
 The current solution is provided in it's packaged form in the webpart folder [customlearning.sppkg](./webpart/customlearning.sppkg).
 
-To validate the version of the webpart installed in your tenant you must have access to the tenant-wide App Catalog. The custom learning solution will be installed there and you can verify the current version number against the version number noted above.
+To validate the version of the webpart installed in your tenant you must have access to the tenant-wide App Catalog. The custom learning solution will be installed there and you can verify the current version number against the **_version number noted above_** (not the version in the screen shot).
 
 ![Tenant App Catalog Screenshot](./images/TenantAppCatalog.png)
 
