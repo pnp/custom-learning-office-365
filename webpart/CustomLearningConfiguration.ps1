@@ -57,7 +57,7 @@ while ([string]::IsNullOrWhitespace($TenantName))
             }
     } 
 
-$AdminURL = "https://$TenantName.sharepoint.com"
+$AdminURL = "https://$TenantName-admin.sharepoint.com"
 
 # Check if $SiteCollectionName was passed in
 if ([string]::IsNullOrWhitespace($SiteCollectionName) )
@@ -131,7 +131,7 @@ if ($SiteAdmin) {
     if ($id -ne $null) { 
         # Found the app in the tenant app catalog
         # Install it to the site collection if it's not already there
-        Install-PnPApp -Identity $id -ErrorAction SilentlyContinue
+        Install-PnPApp -Identity $id -ErrorAction SilentlyContinue 
         } else { 
             Write-Host "Could not find `"Custom Learning for Office 365`" app. Please install in it your app catalog and run this script again."
             break
@@ -150,7 +150,7 @@ if ($SiteAdmin) {
     # Before I try to add the Custom Learning web parts verify they have been deployed to the site collection
     $timeout = New-TimeSpan -Minutes 1 # wait for a minute then time out
     $stopwatch = [diagnostics.stopwatch]::StartNew()
-    Write-Host "."
+    Write-Host "." -NoNewline
     $WebPartsFound = $false
     while ($stopwatch.elapsed -lt $timeout) {
         if (Get-PnPAvailableClientSideComponents -page CustomLearningViewer.aspx -Component "Custom Learning Admin for Office 365 Web Part") {
