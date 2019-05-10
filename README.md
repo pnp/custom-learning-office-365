@@ -28,7 +28,7 @@ THIS CODE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPL
 
 ### Current Release Version
 
-![drop](https://img.shields.io/badge/drop-2.0.12-green.svg)
+![drop](https://img.shields.io/badge/drop-2.0.13-green.svg)
 
 The current solution is provided in it's packaged form in the webpart folder [customlearning.sppkg](./webpart/customlearning.sppkg).
 
