@@ -1,12 +1,12 @@
-# Custom Learning for Office 365
+# Microsoft 365 learning pathways
 
-Train employees with Custom Learning for Office 365, a digital, customizable learning solution that helps customers transform their organization. Custom Learning for Office 365 provides:
+Train employees with Microsoft 365 learning pathways, a digital, customizable learning solution that helps customers transform their organization. Microsoft 365 learning pathways provides:
 
 - Comprehensive end user training content: product and scenario-based training, in video and article format
 - Easy to install: Deploy from the [SharePoint Provisioning Service](https://provisioning.sharepointpnp.com) within minutes and without any coding
 - Easily customizable: Hide and show content to align with how you have set up Office 365 in your environment
 - Create your own training playlists: Add your own custom training content and playlists to feature your organization-specific scenarios
-- Always up-to-date content: As Office 365 changes, the Custom Learning for Office 365 content will be updated. Content updates will be made and communicated to customers on a monthly basis
+- Always up-to-date content: As Office 365 changes, the Microsoft 365 learning pathways content will be updated. Content updates will be made and communicated to customers on a monthly basis
 
 ## Prerequisites
 
@@ -28,11 +28,11 @@ THIS CODE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPL
 
 ### Current Release Version
 
-![drop](https://img.shields.io/badge/drop-2.0.13-green.svg)
+![drop](https://img.shields.io/badge/drop-2.0.14-green.svg)
 
-The current solution is provided in it's packaged form in the webpart folder [customlearning.sppkg](./webpart/customlearning.sppkg).
+The current solution is provided in it's packaged form in the web part folder [customlearning.sppkg](./webpart/customlearning.sppkg).
 
-To validate the version of the webpart installed in your tenant you must have access to the tenant-wide App Catalog. The custom learning solution will be installed there and you can verify the current version number against the **_version number noted above_** (not the version in the screen shot).
+To validate the version of the web part installed in your tenant you must have access to the tenant-wide App Catalog. The custom learning solution will be installed there and you can verify the current version number against the **_version number noted above_** (not the version in the screen shot).
 
 ![Tenant App Catalog Screenshot](./images/TenantAppCatalog.png)
 
@@ -40,31 +40,31 @@ If you find that your package is out of date, you can download it from this repo
 
 ![Upload new sppkg file to tenant app catalog](./images/UploadPackage.png)
 
-![Deploy package to tenant](./images/DeployCustomLearning.png)
+![Deploy package to tenant](./images/DeployM365LP.png)
 
-If you've updated the package you will also want to update it in the custom learning site collection. Navigate to the site collection that is your custom learning master site, then site contents, and then click on the menu for `Custom Learning for Office 365` and select Details.
+If you've updated the package you will also want to update it in the custom learning site collection. Navigate to the site collection that is your custom learning master site, then site contents, and then click on the menu for `Microsoft 365 learning pathways` and select Details. (Previously called Custom Learning for Office 365)
 
 ![Site Collection App Version](./images/SiteCollectionAppVersion.png)
 
-If your application needs to be updated in this site colleciton you will see that there is a new versoin and you can select the `Get It` link to update.
+If your application needs to be updated in this site collection you will see that there is a new version and you can select the `Get It` link to update.
 
 ![Update App](./images/UpdateApp.png)
 
-## Manually installing and configuring Custom Learning for Office 365
+## Manually installing and configuring Microsoft 365 learning pathways
 
 ### Sharepoint Framework Version
 
 ![drop](https://img.shields.io/badge/drop-1.8.0-green.svg)
 
-The Microsoft Custom Learning Web Part is build using the [SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview). To manually install and configure the web part and site collection you will need to complete the steps outlined in the [Manual Custom Learning Install Instructions](./webpart/ManualCustomLearningInstall.md)
+The Microsoft Custom Learning Web Part is build using the [SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview). To manually install and configure the web part and site collection you will need to complete the steps outlined in the [Manually installing and configuring Microsoft 365 learning pathways Instructions](./webpart/README.md)
 
 ## Disabling telemetry collection
 
-Microsoft collects active usage data from your organization’s use of Custom Learning for Office 365. Microsoft will use this data to help improve the future Custom Learning for Office 365 solutions. To learn more about Microsoft privacy policies see [https://go.microsoft.com/fwlink/?LinkId=521839](https://go.microsoft.com/fwlink/?LinkId=521839).
+Microsoft collects active usage data from your organization’s use of Microsoft 365 learning pathways. Microsoft will use this data to help improve the future Microsoft 365 learning pathways solutions. To learn more about Microsoft privacy policies see [https://go.microsoft.com/fwlink/?LinkId=521839](https://go.microsoft.com/fwlink/?LinkId=521839).
 
 If you would like to opt out of this data collection, please follow these instructions:
 
-1. Go to script `CustomLearningConfiguration.ps1`.
+1. Go to script `M365lpConfiguration.ps1`.
 1. Change the `$optInTelemetry = $true` command line to `$false`.
 1. Run the script with the change implemented.
 
@@ -72,7 +72,7 @@ If you are not performing a manual install and would like to turn telemetry trac
 
 ## Contributions
 
-User contributions to Custom Learning for Office 365 are currently not being accepted.  
+User contributions to Microsoft 365 learning pathways are currently not being accepted.  
 
 ## Getting Help
 

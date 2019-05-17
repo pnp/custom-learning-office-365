@@ -29,5 +29,5 @@ catch {
   break
 }
     
-Set-PnPStorageEntity -Key MicrosoftCustomLearningTelemetryOn -Value $false -Description "Custom Learning Telemetry Collection"
+Set-PnPStorageEntity -Key MicrosoftCustomLearningTelemetryOn -Value $false -Description "Microsoft 365 learning pathways Telemetry Setting"
 Get-PnPStorageEntity -Key MicrosoftCustomLearningTelemetryOn
