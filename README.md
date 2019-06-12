@@ -28,7 +28,7 @@ THIS CODE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPL
 
 ### Current Release Version
 
-![drop](https://img.shields.io/badge/drop-2.0.15-green.svg)
+![drop](https://img.shields.io/badge/drop-2.0.16-green.svg)
 
 For a list of issues/updates made in each release see the [Change Log](./webpart/ChangeLog.md).
 
@@ -53,6 +53,8 @@ If your application needs to be updated in this site collection you will see tha
 ![Update App](./images/UpdateApp.png)
 
 ## Manually installing and configuring Microsoft 365 learning pathways
+
+We encourage you to install the Microsoft 365 learning pathways solution using the [SharePoint Provisioning Service](https://provisioning.sharepointpnp.com/), however we recognize that the permissions that service require are significant and not all organizations will feel comfortable utilizing it. To that end this section outlines a manual method of installing the solution. After complete, updates can be applied by following the section above for [Updating the solution](#Updating-the-solution).
 
 ### Sharepoint Framework Version
 
