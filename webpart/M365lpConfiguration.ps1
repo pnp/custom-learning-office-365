@@ -151,7 +151,7 @@ if ($SiteAdmin) {
   Write-Host "." -NoNewline
   $WebPartsFound = $false
   while ($stopwatch.elapsed -lt $timeout) {
-    if (Get-PnPAvailableClientSideComponents -page CustomLearningViewer.aspx -Component "Microsoft 365 learning pathways Web Part") {
+    if (Get-PnPAvailableClientSideComponents -page CustomLearningViewer.aspx -Component "Microsoft 365 learning pathways") {
       Write-Host "Microsoft 365 learning pathways web parts found"
       $WebPartsFound = $true
       break
@@ -184,7 +184,7 @@ if ($SiteAdmin) {
 
   $claPage = Add-PnPClientSidePage "CustomLearningAdmin" -Publish
   $claSection = Add-PnPClientSidePageSection -Page $claPage -SectionTemplate OneColumn -Order 1
-  Add-PnPClientSideWebPart -Page $claPage -Component "Microsoft 365 learning pathways Web Part"
+  Add-PnPClientSideWebPart -Page $claPage -Component "Microsoft 365 learning pathways"
   Set-PnPClientSidePage -Identity $claPage -Publish
   $cla = Get-PnPListItem -List "Site Pages" -Query "<View><Query><Where><Eq><FieldRef Name='FileLeafRef'/><Value Type='Text'>CustomLearningAdmin.aspx</Value></Eq></Where></Query></View>"
   $cla["PageLayoutType"] = "SingleWebPartAppPage"
