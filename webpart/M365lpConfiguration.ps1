@@ -151,7 +151,7 @@ if ($SiteAdmin) {
   Write-Host "." -NoNewline
   $WebPartsFound = $false
   while ($stopwatch.elapsed -lt $timeout) {
-    if (Get-PnPAvailableClientSideComponents -page CustomLearningViewer.aspx -Component "Microsoft 365 learning pathways administration") {
+    if (Get-PnPAvailableClientSideComponents -page CustomLearningViewer.aspx -Component "Microsoft 365 learning pathways") {
       Write-Host "Microsoft 365 learning pathways web parts found"
       $WebPartsFound = $true
       break
