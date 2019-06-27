@@ -17,8 +17,8 @@ Note that you can get free developer tenant from [Office 365 developer program](
 
 ## Author(s)
 
-Peter Krebs<br/>
-Julie Turner (Sympraxis Consulting) - [@jfj1997](https://twitter.com/jfj1997)
+- Peter Krebs
+- Julie Turner (Sympraxis Consulting) - [@jfj1997](https://twitter.com/jfj1997)
 
 ## Disclaimer
 
@@ -28,7 +28,7 @@ THIS CODE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPL
 
 ### Current Release Version
 
-![drop](https://img.shields.io/badge/drop-2.0.16-green.svg)
+![drop](https://img.shields.io/badge/drop-2.0.17-green.svg)
 
 For a list of issues/updates made in each release see the [Change Log](./webpart/ChangeLog.md).
 
