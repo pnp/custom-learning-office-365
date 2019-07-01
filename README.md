@@ -38,7 +38,13 @@ To validate the version of the web part installed in your tenant you must have a
 
 ![Tenant App Catalog Screenshot](./images/TenantAppCatalog.png)
 
-If you find that your package is out of date, you can download it from this repository and then upload it into your tenant app catalog (you will need appropriate access to do this step). Upload this file into the app catalog by selecting upload, finding the file, and then selecting Deploy.
+If you find that your package is out of date, you can download it from this repository and then upload it into your tenant app catalog (you will need appropriate access to do this step).
+
+To download the SPPKG file, navigate to the [customlearning.sppkg](https://github.com/pnp/custom-learning-office-365/blob/master/webpart/customlearning.sppkg) file in the webpart folder of this repository. Select `download` to save the file to your computer.
+
+![Download SPPKG file screenshot](./images/DownloadSPPKG.png)
+
+Upload this file into the app catalog by selecting upload, finding the file, and then selecting Deploy.
 
 ![Upload new sppkg file to tenant app catalog](./images/UploadPackage.png)
 
