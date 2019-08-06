@@ -85,6 +85,16 @@ if ($AppCatalogAdmin) {
 
   }
   $appcatalog = Get-PnPTenantAppCatalogUrl
+
+  # Explicitly connect to the App Catalog site collection to avoid a potential 403 on Set-PnPStorageEntity
+  try {
+    Connect-PnPOnline -Url $appcatalog -Credentials $Credentials
+  }
+  catch {
+    Write-Host "Failed to authenticate to $appcatalog"
+    Write-Host $_
+    break
+  }
     
   try {
     # Test that user can write values to the App Catalog
