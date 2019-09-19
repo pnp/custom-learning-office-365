@@ -5,14 +5,14 @@
 
 #### Category
 
-- [ ] Question
-- [ ] Typo
-- [ ] Bug
-- [ ] Additional article idea
+>**PROVISIONING NOTE**: If you are having issues with the provisioning service while trying to provision M365 learning pathways please do not post that issue to this repo as we cannot help you here. Please post all questions and issues for the provisioning service to [https://github.com/SharePoint/sp-dev-docs/issues](https://github.com/SharePoint/sp-dev-docs/issues).
 
-> For the above list, an empty checkbox is [ ] as in <kbd>[</kbd><kbd>SPACE</kbd><kbd>]</kbd>. A checked checkbox is [x] with no space between the brackets. Use the `PREVIEW` tab at the top right to preview the rendering before submitting your issue.
+- [ ] Question
+- [ ] Bug
+- [ ] Content
+
 >
-> If you are planning to share a new feature request (enhancement / suggestion), please use SP Dev UserVoice at http://aka.ms/sp-dev-uservoice. (DELETE THIS PARAGRAPH AFTER READING)
+> For the above list, an empty checkbox is [ ] as in <kbd>[</kbd><kbd>SPACE</kbd><kbd>]</kbd>. A checked checkbox is [x] with no space between the brackets. Use the `PREVIEW` tab at the top right to preview the rendering before submitting your issue.
 >
 > _(DELETE THIS PARAGRAPH AFTER READING)_
 >
