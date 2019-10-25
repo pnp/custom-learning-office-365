@@ -17,7 +17,7 @@
 > _(DELETE THIS PARAGRAPH AFTER READING)_
 >
 
-#### Expected or Desired Behavior
+#### Question / Expected or Desired Behavior
 
 > If you are reporting a bug, first please make sure you have the most recent version of the customlearning.sppkg file loaded into your tenant app catalog.  You can see what version is most recent by reviewing the [README.md](../README.md#updating-the-solution) file, Updating the Solution section.
 > If you have the most recent version and are still having difficulties, please describe the expected behavior. If you are suggesting an enhancement please describe thoroughly the enhancement, how it can be achieved, and expected benefit.
