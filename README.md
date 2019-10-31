@@ -33,7 +33,7 @@ THIS CODE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPL
 For a list of issues/updates made in each release see the [Change Log](./webpart/ChangeLog.md).
 
 >**CRITICAL: Version 3.0.0 Upgrade Notice**
-
+>
 >The version 3.0.0 version is a major update and includes changes to the schema. Although it has been tested throughly, as with any major update you should plan for the worst and back up your content before proceeding. There are many third party solutions that will assist you with this, if you do not have access to any then the simplest method is to back up your content using Microsoft Excel. Specifically all the items in the _CustomPlaylists_ and _CustomAssets_ lists plus the `CustomSubCategories` item in the _CustomConfig_ list. Please see [Backup Playlist Content](./webpart/BackupInstructions.md) for more detail instructions.
 
 The current solution is provided in it's packaged form in the web part folder [customlearning.sppkg](./webpart/customlearning.sppkg).
