@@ -44,16 +44,14 @@ while ([string]::IsNullOrWhitespace($TenantName)) {
   # No TenantName was passed, prompt the user
   $TenantName = Read-Host "Please enter your tenant name: (contoso) " 
   $TenantName = $TenantName.Trim()
-  $TestAdminURL = "https://$TenantName-admin.sharepoint.com"
+  $TestTenantURL = "https://$TenantName.sharepoint.com"
   # Test that it's a mostly valid URL
   # This doesn't catch everything
-  if (!([system.uri]::IsWellFormedUriString($TestAdminURL, [System.UriKind]::Absolute))) {
-    Write-Host "$TestAdminURL is not a valid URL."  -BackgroundColor Black -ForegroundColor Red
+  if (!([system.uri]::IsWellFormedUriString($TestTenantURL, [System.UriKind]::Absolute))) {
+    Write-Host "$TestTenantURL is not a valid URL."  -BackgroundColor Black -ForegroundColor Red
     Clear-Variable TenantName
   }
 } 
-
-$AdminURL = "https://$TenantName-admin.sharepoint.com"
 
 # Check if $SiteCollectionName was passed in
 if ([string]::IsNullOrWhitespace($SiteCollectionName) ) {
@@ -63,18 +61,19 @@ if ([string]::IsNullOrWhitespace($SiteCollectionName) ) {
     $SiteCollectionName = "MicrosoftTraining"
   }
 }
+
 $clSite = "https://$TenantName.sharepoint.com/sites/$SiteCollectionName"
+try {
+  Connect-PnPOnline -Url $clSite -Credentials $Credentials
+}
+catch {
+  Write-Host "Failed to authenticate to $clSite"
+  Write-Host $_
+  break
+}
 
 #region Connect to Admin site.
-if ($AppCatalogAdmin) { 
-  try {
-    Connect-PnPOnline -Url $AdminURL -Credentials $Credentials
-  }
-  catch {
-    Write-Host "Failed to authenticate to $AdminURL"
-    Write-Host $_
-    break
-  }
+if ($AppCatalogAdmin) {   
   # Need an App Catalog site collection defined for Set-PnPStorageEntity to work
   if (!(Get-PnPTenantAppCatalogUrl)) {
     Write-Host "Tenant $TenantName must have an App Catalog site defined" -BackgroundColor Black -ForegroundColor Red
@@ -82,13 +81,12 @@ if ($AppCatalogAdmin) {
     Write-Host "`n"
     Disconnect-PnPOnline
     break
-
   }
   $appcatalog = Get-PnPTenantAppCatalogUrl
     
   try {
     # Test that user can write values to the App Catalog
-    Set-PnPStorageEntity -Key MicrosoftCustomLearningCdn -Value "https://pnp.github.io/custom-learning-office-365/" -Description "CDN source for Microsoft Content" -ErrorAction Stop 
+    Set-PnPStorageEntity -Key MicrosoftCustomLearningCdn -Value "https://pnp.github.io/custom-learning-office-365/learningpathways" -Description "CDN source for Microsoft Content" -ErrorAction Stop 
   }
   catch {
     Write-Host "User $($Credentials.UserName) cannot write to App Catalog site" -BackgroundColor Black -ForegroundColor Red
@@ -102,8 +100,7 @@ if ($AppCatalogAdmin) {
   Get-PnPStorageEntity -Key MicrosoftCustomLearningSite
   Set-PnPStorageEntity -Key MicrosoftCustomLearningTelemetryOn -Value $optInTelemetry -Description "Microsoft 365 learning pathways Telemetry Setting"
   Get-PnPStorageEntity -Key MicrosoftCustomLearningTelemetryOn
-    
-  Disconnect-PnPOnline # Disconnect from SharePoint Admin
+  
   if ($AppCatalogAdminOnly) {
     Write-Host "`nTenant is configured. Run this script with the -SiteAdminOnly parameter to configure the site collection"
   }
@@ -112,15 +109,6 @@ if ($AppCatalogAdmin) {
 
 #region Content stuff
 if ($SiteAdmin) { 
-  try {
-    Connect-PnPOnline -Url $clSite -Credentials $Credentials -ErrorAction Stop
-  }
-  catch {
-    Write-Host "Failed to find to $clSite or user $($Credentials.UserName) does not have permission" -BackgroundColor Black -ForegroundColor Red
-    Write-Host "Please create a Modern Communications site at $clsite and rerun this setup script"
-    break
-  } # end catch
-
   # Get the app
   # Check for it at the tenant level first
   $id = (Get-PnPApp | Where-Object -Property title -Like -Value "Microsoft 365 learning pathways").id 
@@ -191,6 +179,8 @@ if ($SiteAdmin) {
   $cla.Update()
   Invoke-PnPQuery # Done with the Admin page
 }
+
+Disconnect-PnPOnline # Disconnect from SharePoint Admin
 
 Write-Host "Microsoft 365 learning pathways Pages created at $clSite"
 #endregion
