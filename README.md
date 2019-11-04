@@ -8,6 +8,9 @@ Train employees with Microsoft 365 learning pathways, a digital, customizable le
 - Create your own training playlists: Add your own custom training content and playlists to feature your organization-specific scenarios
 - Always up-to-date content: As Office 365 changes, the Microsoft 365 learning pathways content will be updated. Content updates will be made and communicated to customers on a monthly basis
 
+## Overview Video
+A video was recorded during a PnP Monthly Community call and that video is available here: [Community Demo - Microsoft 365 Learning Pathways Architectural Overview](https://www.youtube.com/watch?v=S-QFDNRZkGE&feature=youtu.be). It may help you gain a better understanding of what Microsoft 365 learning pathways is and how to go about using it.
+
 ## Prerequisites
 
 - You will need to be a tenant administrator to be able to deploy this solution to the target tenant.
