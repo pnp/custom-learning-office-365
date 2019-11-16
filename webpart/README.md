@@ -30,6 +30,8 @@ Add `Microsoft 365 learning pathways` App to the site collection.
 
 A PowerShell script `M365lpConfiguration.ps1` is included that you will need to execute to create three [tenant properties](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/tenant-properties) that the solution uses. In addition the script creates two [single part app pages](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/single-part-app-pages) in the site pages library to host the admin and user web parts at a known location.
 
+>Note: If you have Multi-factor Authentication set up on your tenant you will need to modify the script to adjust for making a connection that supports MFA. Details can be found here: [PnP Powershell and Multi-factor Authentication](https://www.erwinmcm.com/pnp-powershell-and-multi-factor-authentication/)
+
 Using the script looks like this:
 `.\M365lpConfiguration.ps1 -TenantName contoso -SiteCollectionName MicrosoftTraining`
 
