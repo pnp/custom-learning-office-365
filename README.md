@@ -9,6 +9,7 @@ Train employees with Microsoft 365 learning pathways, a digital, customizable le
 - Always up-to-date content: As Office 365 changes, the Microsoft 365 learning pathways content will be updated. Content updates will be made and communicated to customers on a monthly basis
 
 ## Overview Video
+
 A video was recorded during a PnP Monthly Community call and that video is available here: [Community Demo - Microsoft 365 Learning Pathways Architectural Overview](https://www.youtube.com/watch?v=S-QFDNRZkGE&feature=youtu.be). It may help you gain a better understanding of what Microsoft 365 learning pathways is and how to go about using it.
 
 ## Prerequisites
@@ -31,13 +32,13 @@ THIS CODE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPL
 
 ### Current Release Version
 
-![drop](https://img.shields.io/badge/drop-3.0.0-green.svg)
+![drop](https://img.shields.io/badge/drop-3.0.1-green.svg)
 
 For a list of issues/updates made in each release see the [Change Log](./webpart/ChangeLog.md).
 
->**CRITICAL: Version 3.0.0 Upgrade Notice**
+>**CRITICAL: Version 3.x.x Upgrade Notice**
 >
->The version 3.0.0 version is a major update and includes changes to the schema. Although it has been tested throughly, as with any major update you should plan for the worst and back up your content before proceeding. There are many third party solutions that will assist you with this, if you do not have access to any then the simplest method is to back up your content using Microsoft Excel. Specifically all the items in the _CustomPlaylists_ and _CustomAssets_ lists plus the `CustomSubCategories` item in the _CustomConfig_ list. Please see [Backup Playlist Content](./webpart/BackupInstructions.md) for more detail instructions.
+>The version 3.x.x version is a major update and includes changes to the schema. Although it has been tested thoroughly, as with any major update you should plan for the worst and back up your content before proceeding. There are many third party solutions that will assist you with this, if you do not have access to any then the simplest method is to back up your content using Microsoft Excel. Specifically all the items in the _CustomPlaylists_ and _CustomAssets_ lists plus the `CustomSubCategories` item in the _CustomConfig_ list. Please see [Backup Playlist Content](./webpart/BackupInstructions.md) for more detail instructions.
 
 The current solution is provided in it's packaged form in the web part folder [customlearning.sppkg](./webpart/customlearning.sppkg).
 
