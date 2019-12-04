@@ -29,5 +29,5 @@ catch {
   break
 }
     
-Set-PnPStorageEntity -Key MicrosoftCustomLearningTelemetryOn -Value $false -Description "Microsoft 365 learning pathways Telemetry Setting"
-Get-PnPStorageEntity -Key MicrosoftCustomLearningTelemetryOn
+Set-PnPStorageEntity -Key MicrosoftCustomLearningCdn -Value "https://pnp.github.io/custom-learning-office-365/learningpathways/" -Description "Microsoft 365 learning pathways CDN source" -ErrorAction Stop 
+Get-PnPStorageEntity -Key MicrosoftCustomLearningCdn

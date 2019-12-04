@@ -1,5 +1,15 @@
 # Change Log
 
+## Version 3.0.2
+
+**If updating from version 2.x of the webpart please see the notes about [Version 3.0.0](#version_3_0_0)**
+
+- Bug fix for issue [#161](../../../issues/161) - Content resizing for iFramed custom content showing scroll bars
+- Bug fix for issue [#162](../../../issues/162) - HubNav menu showing in iFramed custom content
+- Bug fix for issue [#163](../../../issues/163) - Updated breadcrumb navigation for consistent experience
+- Updated tenant app property description in manual provisioning script.
+- Added UpdateM365lpCDN.ps1 script to allow users to update to the most optimized CDN url for learning pathways *(this is optional unless you have having difficulty accessing the learning pathways content after the update to version 3.x.x)*
+
 ## Version 3.0.1
 
 **If updating from version 2.x of the webpart please see the notes about [Version 3.0.0](#version_3_0_0)**
@@ -15,15 +25,15 @@ For more information about what features are released please refer to the follow
 
 ## Version 2.0.17
 
-- Fixed Bug #82 - typo
+- Fixed Bug [#82](../../../issues/82) - typo
 - Added version check based on manifest and current web part version installed, notification on admin web part of updates available.
 - Added better error reporting on admin web part load.
 - Added better error information on viewer web part load.
 
 ## Version 2.0.16
 
-- Bug fix for issue #72. When a administrator modified a custom playlist and then refreshed the viewer web part on another page, some content would not be visible.
+- Bug fix for issue [#72](../../../issues/72). When a administrator modified a custom playlist and then refreshed the viewer web part on another page, some content would not be visible.
 
 ## Version 2.0.15
 
-- Bug fix for issue #65. Users with custom assets or custom playlists over 100 were experiencing issues.
+- Bug fix for issue [#65](../../../issues/65). Users with custom assets or custom playlists over 100 were experiencing issues.

@@ -86,7 +86,7 @@ if ($AppCatalogAdmin) {
     
   try {
     # Test that user can write values to the App Catalog
-    Set-PnPStorageEntity -Key MicrosoftCustomLearningCdn -Value "https://pnp.github.io/custom-learning-office-365/learningpathways/" -Description "CDN source for Microsoft Content" -ErrorAction Stop 
+    Set-PnPStorageEntity -Key MicrosoftCustomLearningCdn -Value "https://pnp.github.io/custom-learning-office-365/learningpathways/" -Description "Microsoft 365 learning pathways CDN source" -ErrorAction Stop 
   }
   catch {
     Write-Host "User $($Credentials.UserName) cannot write to App Catalog site" -BackgroundColor Black -ForegroundColor Red
