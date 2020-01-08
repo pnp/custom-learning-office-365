@@ -1,5 +1,11 @@
 # Change Log
 
+## Version 3.0.3
+
+**If updating from version 2.x of the webpart please see the notes about [Version 3.0.0](#version_3_0_0)**
+
+- Bug fix for issue [#174](../../../issues/174) - Link function doesn't work with custom content pack.
+
 ## Version 3.0.2
 
 **If updating from version 2.x of the webpart please see the notes about [Version 3.0.0](#version_3_0_0)**
