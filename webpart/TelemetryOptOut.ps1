@@ -9,8 +9,6 @@ if (Get-Command Get-PnPStoredCredentiaal -ErrorAction SilentlyContinue  ) {
   break
 } 
 
-$Credentials = Get-Credential
-
 # Check if tenant name was passed in
 if ([string]::IsNullOrWhitespace($TenantName)) {
   # No TenantName was passed, prompt the user
@@ -19,9 +17,9 @@ if ([string]::IsNullOrWhitespace($TenantName)) {
 $AdminURL = "https://$TenantName.sharepoint.com"
 
 # Connect to Admin site.
-# Todo: Differentiate between valid $adminurl and authentication error (bad password or no access)
+# 2/6/20 Removed -Credential and replaced it with -UseWebLogin to support MFA. -tk
 try {
-  Connect-PnPOnline -Url $AdminURL -Credentials $Credentials
+  Connect-PnPOnline -Url $AdminURL -UseWebLogin
 }
 catch {
   Write-Host "Failed to authenticate to $AdminURL"
