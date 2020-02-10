@@ -33,12 +33,6 @@ if (!(Get-Command Connect-PnPOnline -ErrorAction SilentlyContinue  )) {
   break
 } 
 
-# Now let's check if $Credentials is empty 
-while ([string]::IsNullOrWhitespace($Credentials)) {
-  # Prompt the user
-  $Credentials = Get-Credential -Message "Please enter SharePoint Online admin account"
-}
-
 # Check if tenant name was passed in
 while ([string]::IsNullOrWhitespace($TenantName)) {
   # No TenantName was passed, prompt the user
@@ -64,7 +58,13 @@ if ([string]::IsNullOrWhitespace($SiteCollectionName) ) {
 
 $clSite = "https://$TenantName.sharepoint.com/sites/$SiteCollectionName"
 try {
-  Connect-PnPOnline -Url $clSite -Credentials $Credentials
+  # If Credentials were passed, try them
+  if ([string]::IsNullOrWhitespace($Credentials)) {
+    Connect-PnPOnline -Url $clSite -Credentials $Credentials -ErrorAction Stop
+  } else {
+    # If not, prompt for authentication. This supports MFA
+    Connect-PnPOnline -Url $clSite -UseWebLogin -ErrorAction Stop
+  }
 }
 catch {
   Write-Host "Failed to authenticate to $clSite"
@@ -89,7 +89,9 @@ if ($AppCatalogAdmin) {
     Set-PnPStorageEntity -Key MicrosoftCustomLearningCdn -Value "https://pnp.github.io/custom-learning-office-365/learningpathways/" -Description "Microsoft 365 learning pathways CDN source" -ErrorAction Stop 
   }
   catch {
-    Write-Host "User $($Credentials.UserName) cannot write to App Catalog site" -BackgroundColor Black -ForegroundColor Red
+    # Get the username and 
+    $user = ((Get-PnPConnection).PSCredential).username 
+    Write-Host "$user cannot write to App Catalog site" -BackgroundColor Black -ForegroundColor Red
     Write-Host "Please make sure they are a Site Collection Admin for $appcatalog"
     Write-Host $_
     Disconnect-PnPOnline
