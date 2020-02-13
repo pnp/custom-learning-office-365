@@ -427,7 +427,7 @@
   "Version": {
     "Manifest": "v2",
     "ManifestMinWebPart": "2.0.16",
-    "CurrentWebPart": "3.0.3",
+    "CurrentWebPart": "3.0.4",
     "RepoURL": "https://github.com/pnp/custom-learning-office-365#updating-the-solution"
   },
   "ContentPacks": [],

@@ -1,14 +1,23 @@
 # Change Log
 
+## Version 3.0.4
+
+**If updating from version 2.x of the web part please see the notes about [Version 3.0.0](#version_3_0_0)**
+
+- Bug fix for issue [#165](../../../issues/165) - Corrected asset URL for 'Create and share files in a library'.
+- Bug fix for issue [#192](../../../issues/195) - Duplicate of 165.
+- Bug fix for issue [#204](../../../issues/204) - Corrected asset URL for 'Import a Word outline into PowerPoint'.
+- Enhancement: No longer display successful save messages that shift the UI when editing custom playlists.
+
 ## Version 3.0.3
 
-**If updating from version 2.x of the webpart please see the notes about [Version 3.0.0](#version_3_0_0)**
+**If updating from version 2.x of the web part please see the notes about [Version 3.0.0](#version_3_0_0)**
 
 - Bug fix for issue [#174](../../../issues/174) - Link function doesn't work with custom content pack.
 
 ## Version 3.0.2
 
-**If updating from version 2.x of the webpart please see the notes about [Version 3.0.0](#version_3_0_0)**
+**If updating from version 2.x of the web part please see the notes about [Version 3.0.0](#version_3_0_0)**
 
 - Bug fix for issue [#161](../../../issues/161) - Content resizing for iFramed custom content showing scroll bars
 - Bug fix for issue [#162](../../../issues/162) - HubNav menu showing in iFramed custom content
@@ -18,14 +27,14 @@
 
 ## Version 3.0.1
 
-**If updating from version 2.x of the webpart please see the notes about [Version 3.0.0](#version_3_0_0)**
+**If updating from version 2.x of the web part please see the notes about [Version 3.0.0](#version_3_0_0)**
 
 - Updated web part so that audience and level are no longer required.
 - Hardened upgrade code from v2 to v3 so that failures will be more evident.
 
 ## Version 3.0.0
 
-**This version is a major release that includes new features and updates to the underlying data structure. You should take appropriate caution when updating to this version of the web part by backing up your learning pathways master site content, specifically your custom subcategories, custom playlists, and custom assets. Please see [Backup Playlist Content](./webpart/BackupInstructions.md) for more detail instructions.**
+**This version is a major release that includes new features and updates to the underlying data structure. You should take appropriate caution when updating to this version of the web part by backing up your learning pathways master site content, specifically your custom subcategories, custom playlists, and custom assets. Please see [Backup Playlist Content](./web part/BackupInstructions.md) for more detail instructions.**
 
 For more information about what features are released please refer to the following article: [Microsoft 365 learning pathways feature updates](https://docs.microsoft.com/en-us/office365/customlearning/custom_featureupdates).
 
