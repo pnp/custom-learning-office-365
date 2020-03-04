@@ -3,7 +3,7 @@ name: Question
 about: Please enter a question about how to install or use Microsoft 365 learning
   pathways
 title: "[QUESTION] "
-labels: question
+labels: 'type: question'
 assignees: juliemturner
 
 ---

@@ -3,7 +3,7 @@ name: Bug report
 about: Please complete the below template to ensure we have the necessary details
   to assist you.
 title: "[BUG] "
-labels: bug
+labels: 'type: bug'
 assignees: juliemturner
 
 ---
