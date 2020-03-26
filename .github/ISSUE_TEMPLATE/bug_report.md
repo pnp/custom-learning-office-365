@@ -3,12 +3,12 @@ name: Bug report
 about: Please complete the below template to ensure we have the necessary details
   to assist you.
 title: "[BUG] "
-labels: ''
+labels: 'type: bug'
 assignees: juliemturner
 
 ---
 
->**PROVISIONING NOTE**: If you are having issues with the provisioning service while trying to provision M365 learning pathways please do not post that issue to this repo as we cannot help you here. Please post all questions and issues for the provisioning service to [https://github.com/SharePoint/sp-dev-docs/issues](https://github.com/SharePoint/sp-dev-docs/issues).
+>**PROVISIONING NOTE**: If you are having issues with the provisioning service while trying to provision M365 learning pathways please do not post that issue to this repo as we cannot help you here. Please post all questions and issues for the provisioning service to [https://github.com/SharePoint/sp-provisioning-service/issues](https://github.com/SharePoint/sp-provisioning-service/issues).
 
 **Describe the bug**
 A clear and concise description of what the bug is.
