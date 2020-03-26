@@ -2,8 +2,8 @@
 name: Enhancement request
 about: Suggest an idea for this project
 title: "[ENHANCEMENT] "
-labels: ''
-assignees: ''
+labels: 'type: enhancement'
+assignees: juliemturner
 
 ---
 
