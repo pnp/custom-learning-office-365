@@ -2687,12 +2687,12 @@
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
+	  "93f43b6a-8eb7-46ac-9b19-8ae42c53eb87",
       "0cdf7a16-a3db-4caa-bb93-90f0ffe1c807",
+      "fcc2ece3-aecb-40c7-a410-0e36b0bdf3d8",	  
       "3f008f2a-c7f2-4183-8635-61375cef1062",
-      "f0802f2f-f3a5-4cba-af50-70759f679d65",
-      "fcc2ece3-aecb-40c7-a410-0e36b0bdf3d8",
-      "c8c64c61-0136-4e47-be9d-263976ce6de5",
-      "93f43b6a-8eb7-46ac-9b19-8ae42c53eb87"
+	  "c8c64c61-0136-4e47-be9d-263976ce6de5",
+      "f0802f2f-f3a5-4cba-af50-70759f679d65"
     ]
   },
   {
