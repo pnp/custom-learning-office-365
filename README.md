@@ -10,7 +10,7 @@ Train employees with Microsoft 365 learning pathways, a digital, customizable le
 
 ## Overview Video
 
-A video was recorded during a PnP Monthly Community call and that video is available here: [Community Demo - Microsoft 365 Learning Pathways Architectural Overview](https://www.youtube.com/watch?v=-sLXl_rKGxQ&t=109s). It may help you gain a better understanding of what Microsoft 365 learning pathways is and how to go about using it.
+A video was recorded during a PnP Monthly Community call and that video is available here: [Community Demo - Microsoft 365 Learning Pathways Architectural Overview](https://www.youtube.com/watch?v=-sLXl_rKGxQ). It may help you gain a better understanding of what Microsoft 365 learning pathways is and how to go about using it.
 
 ## Prerequisites
 
