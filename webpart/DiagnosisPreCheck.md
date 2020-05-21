@@ -13,6 +13,14 @@
 1. If you cannot diagnose the issue based on steps 3 and 4, submit a new [Bug report](https://github.com/pnp/custom-learning-office-365/issues/new/choose) issue. Please follow the template to provide as much information as possible about any errors you saw in the browsers dev tools console or network tab. You may be asked to provide a copy of the browser console log. To do so set the filter back to "Default" and reload the page so the entire page cycle is loaded in the console. Next, right click on the body of the console and select `Save as...` to export the log to a file and follow the directions you'll be given to share that file with support.
 
    ![Dev Tools Console Save Screenshot](../images/DevToolConsoleSave.png)
+   
+1. If you have needed to change the URL of the learning site collection within SharePoint Administration (eg. from O365CL to EnterpriseLearning), you will need to update the storage property, which is held at the app-catalog level - for the tenant, or local site collection.
+
+Connect-PnPOnline https://TENANT.sharepoint.com/
+Get-PnPStorageEntity        (check that the URL is correct - if not, update as below)
+
+Set-PnPStorageEntity -key MicrosoftCustomLearningSite -value /sites/NEWURL
+
 
 Thank you in advance for reviewing these procedures before you submit your issue.  When you do, it greatly reduces the time it takes for the team to provide a solution for you!
 
