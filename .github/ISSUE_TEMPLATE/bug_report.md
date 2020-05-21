@@ -2,8 +2,8 @@
 name: Bug report
 about: Please complete the below template to ensure we have the necessary details
   to assist you.
-title: "[BUG] "
-labels: 'type: bug'
+title: " "
+labels: 'type: something isn''t working'
 assignees: juliemturner
 
 ---
