@@ -76,7 +76,7 @@ We encourage you to install the Microsoft 365 learning pathways solution using t
 
 ### Sharepoint Framework Version
 
-![drop](https://img.shields.io/badge/drop-1.9.1-green.svg)
+![drop](https://img.shields.io/badge/drop-1.10.0-green.svg)
 
 The Microsoft Custom Learning Web Part is build using the [SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview). To manually install and configure the web part and site collection you will need to complete the steps outlined in the [Manually installing and configuring Microsoft 365 learning pathways Instructions](./webpart/README.md)
 
@@ -91,6 +91,10 @@ If you would like to opt out of this data collection, please follow these instru
 1. Run the script with the change implemented.
 
 If you are not performing a manual install and would like to turn telemetry tracking off, a separate script `TelemetryOptOut.ps1` has been included that when run will disable telemetry tracking.
+
+## Changing the URL of your Microsoft 365 learning pathways site
+If you need to rename the url of the main Microsoft 365 learning pathways site you can do so but it will also require you to run a PowerShell script to update the Tenant App property that controls what that site URL is for the web parts. After renaming the URL in the SharePoint Admin Center or via PowerShell additionally run teh following script to update the Tenant App property.
+[UpdateM365lpSiteUrl.ps1](./webpart/UpdateM365lpSiteUrl.ps1)
 
 ## Contributions
 
