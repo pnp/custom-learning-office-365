@@ -1,0 +1,27 @@
+{
+  "Telemetry": {
+    "AppInsightKey": "089e14f6-1341-44b8-9135-71b3e326e914"
+  },
+  "Version": {
+    "Manifest": "v4",
+    "ManifestMinWebPart": "4.0.0",
+    "CurrentWebPart": "4.0.0",
+    "RepoURL": "https://github.com/pnp/custom-learning-office-365#updating-the-solution"
+  },
+  "ContentPacks": [],
+  "AssetOrigins": [
+    "https://support.office.com",
+    "https://docs.microsoft.com"
+  ],
+  "Languages": [
+    "en-US",
+    "de-DE",
+    "es-ES",
+    "fr-FR",
+    "it-IT",
+    "ja-JP",
+    "pt-BR",
+    "ru-RU",
+    "zh-CN"
+  ]
+}
