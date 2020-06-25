@@ -325,7 +325,7 @@
         },
         {
           "Id": "175c2d96-040d-4275-9405-b4549bd63dee",
-          "Name": "Zugriff",
+          "Name": "Access",
           "Image": "images/categories/access.png",
           "TechnologyId": "",
           "SubjectId": null,
