@@ -52,7 +52,7 @@ if ([string]::IsNullOrWhitespace($SiteCollectionName) ) {
 $clSite = "https://$TenantName.sharepoint.com/sites/$SiteCollectionName"
 try {
   # If Credentials were passed, try them
-  if ([string]::IsNullOrWhitespace($Credentials)) {
+  if (-not [string]::IsNullOrWhitespace($Credentials)) {
     Connect-PnPOnline -Url $clSite -Credentials $Credentials -ErrorAction Stop
   } else {
     # If not, prompt for authentication. This supports MFA

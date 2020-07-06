@@ -1,0 +1,482 @@
+{
+  "Technologies": [
+    {
+      "Id": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+      "Name": "Excel",
+      "Subjects": []
+    },
+    {
+      "Id": "33059862-a87d-4b40-9984-be7c6083cf95",
+      "Name": "Forms",
+      "Subjects": []
+    },
+    {
+      "Id": "e75b9087-6bb2-417f-a696-e667bea533a7",
+      "Name": "Microsoft 365",
+      "Subjects": [
+        {
+          "Id": "f1b531e0-2a62-4007-8858-08bd8be6ecae",
+          "Name": "Office 365"
+        },
+        {
+          "Id": "1b22eb5a-2fb4-4706-87d0-68d4823c4ca1",
+          "Name": "Windows 10"
+        }
+      ]
+    },
+    {
+      "Id": "c209f64e-0291-437a-9615-17747eab50d0",
+      "Name": "Microsoft Teams",
+      "Subjects": [
+        {
+          "Id": "3bd4b767-148f-4f53-a206-b42e9f3a73cd",
+          "Name": "PSTN 通話"
+        },
+        {
+          "Id": "615f17eb-2c5b-4494-8541-4304435ca306",
+          "Name": "会議"
+        }
+      ]
+    },
+    {
+      "Id": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+      "Name": "Office 365",
+      "Subjects": []
+    },
+    {
+      "Id": "452e503b-bafb-4023-b00d-b6d9b1701596",
+      "Name": "OneDrive",
+      "Subjects": []
+    },
+    {
+      "Id": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
+      "Name": "OneDrive for Business",
+      "Subjects": []
+    },
+    {
+      "Id": "4ba51921-475f-481d-8bc3-c9b0f658342c",
+      "Name": "OneNote",
+      "Subjects": []
+    },
+    {
+      "Id": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
+      "Name": "Outlook",
+      "Subjects": []
+    },
+    {
+      "Id": "2f571b54-44fa-4778-9277-c7935e36ffb3",
+      "Name": "Planner",
+      "Subjects": []
+    },
+    {
+      "Id": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
+      "Name": "PowerPoint",
+      "Subjects": []
+    },
+    {
+      "Id": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
+      "Name": "SharePoint",
+      "Subjects": [
+        {
+          "Id": "e772e866-7b81-4e5c-bfad-36aa9ee98eaf",
+          "Name": "サイトの計画"
+        },
+        {
+          "Id": "c0af989f-3c4b-4f6f-ba58-7f2a335cb445",
+          "Name": "サイトの作成"
+        },
+        {
+          "Id": "2324ad0f-5577-408f-b5aa-fad1e5a8f208",
+          "Name": "サイトのブランディングとカスタマイズ"
+        }
+      ]
+    },
+    {
+      "Id": "58847f9a-3144-453e-a10e-bc1c00bc3faa",
+      "Name": "Windows 10",
+      "Subjects": []
+    },
+    {
+      "Id": "0eb89b8a-87cf-4388-b146-1e073588b029",
+      "Name": "Word",
+      "Subjects": []
+    },
+    {
+      "Id": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
+      "Name": "Yammer",
+      "Subjects": []
+    },
+    {
+      "Id": "e9d69805-edb5-43da-8258-5520000bf3a6",
+      "Name": "Sway",
+      "Subjects": []
+    },
+    {
+      "Id": "054bac6f-2670-4cd1-8b38-087ff82754a2",
+      "Name": "アクセシビリティ",
+      "Subjects": []
+    },
+    {
+      "Id": "3edeb182-3828-4a83-aef9-928a2693e288",
+      "Name": "iOS および Android 用の Outlook",
+      "Subjects": []
+    },
+    {
+      "Id": "9c18d262-89c5-499b-be11-be58279c86bd",
+      "Name": "Access",
+      "Subjects": []
+    },
+    {
+      "Id": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
+      "Name": "Web 用 Office",
+      "Subjects": []
+    }
+  ],
+  "Categories": [
+    {
+      "Id": "646b4eb4-32c0-4fdc-93fa-0ef895470b74",
+      "Name": "作業の開始",
+      "Image": "",
+      "TechnologyId": "",
+      "SubjectId": "",
+      "Source": "Microsoft",
+      "SubCategories": [
+        {
+          "Id": "9bde32c3-2f0b-4201-b4a3-74cef2c8f61d",
+          "Name": "初日",
+          "Image": "images/categories/first_days.png",
+          "TechnologyId": "",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "07aa7fb7-a187-4a04-a044-f881626a8cba",
+          "Name": "推奨",
+          "Image": "images/categories/recommended.png",
+          "TechnologyId": "",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
+        }
+      ]
+    },
+    {
+      "Id": "4f7378cd-7c40-4a99-9617-94681300c828",
+      "Name": "シナリオ",
+      "Image": "",
+      "TechnologyId": "",
+      "SubjectId": "",
+      "Source": "Microsoft",
+      "SubCategories": [
+        {
+          "Id": "9030ff2c-5549-4ffe-8dc9-4dc184241dec",
+          "Name": "モダン ワークプレイス",
+          "Image": "images/categories/modern_workplace_trainingx.png",
+          "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "9eb8fc25-dd5b-4459-81e9-ae382aca7a78",
+          "Name": "リモートで作業する",
+          "Image": "images/categories/work_remotely.png",
+          "TechnologyId": "",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
+        }
+      ]
+    },
+    {
+      "Id": "618da7fa-0ed2-4653-9dfd-271c3bbe3a44",
+      "Name": "製品",
+      "Image": "",
+      "TechnologyId": "",
+      "SubjectId": "",
+      "Source": "Microsoft",
+      "SubCategories": [
+        {
+          "Id": "46589138-0dde-4ea5-b9a1-313481a8eb06",
+          "Name": "Outlook",
+          "Image": "images/categories/outlook.png",
+          "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "4ee4d22a-7d53-48bb-9a14-adf34d01cd75",
+          "Name": "OneDrive",
+          "Image": "images/categories/onedrive.png",
+          "TechnologyId": "452e503b-bafb-4023-b00d-b6d9b1701596",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "f9b14990-420a-4678-87a8-8428928186c6",
+          "Name": "Word",
+          "Image": "images/categories/word.png",
+          "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "85c785c2-c873-4483-9728-64a367fee3f1",
+          "Name": "Excel",
+          "Image": "images/categories/excel.png",
+          "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "f05d3e34-3299-4776-a505-86f94b794194",
+          "Name": "PowerPoint",
+          "Image": "images/categories/powerpoint.png",
+          "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
+          "Name": "OneNote",
+          "Image": "images/categories/onenote.png",
+          "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "e5e2ae74-20ff-4626-937d-df4ff3405f29",
+          "Name": "SharePoint",
+          "Image": "images/categories/sharepoint.png",
+          "TechnologyId": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
+          "Name": "Microsoft Teams",
+          "Image": "images/categories/teams.png",
+          "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "e83da7d3-653c-4c01-a262-336e07b88aba",
+          "Name": "Yammer",
+          "Image": "images/categories/yammer.png",
+          "TechnologyId": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "beab7761-afae-4987-b8c2-57194fa945b6",
+          "Name": "Office の基本操作",
+          "Image": "images/categories/office_basics.png",
+          "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "fcdc0676-03f7-40b9-80c1-167560c4018d",
+          "Name": "Planner",
+          "Image": "images/categories/planner.png",
+          "TechnologyId": "2f571b54-44fa-4778-9277-c7935e36ffb3",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "daeade40-9dfc-4d82-84be-9ae7544829dc",
+          "Name": "Forms",
+          "Image": "images/categories/forms_training.png",
+          "TechnologyId": "33059862-a87d-4b40-9984-be7c6083cf95",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "92083395-06d0-433f-ba0d-77c958d853b7",
+          "Name": "Sway",
+          "Image": "images/categories/sway.png",
+          "TechnologyId": "e9d69805-edb5-43da-8258-5520000bf3a6",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
+          "Name": "アクセシビリティ",
+          "Image": "images/categories/accessibility.png",
+          "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "175c2d96-040d-4275-9405-b4549bd63dee",
+          "Name": "Access",
+          "Image": "images/categories/access.png",
+          "TechnologyId": "",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "002ce882-04af-491f-9798-71c857606532",
+          "Name": "Web 用 Office",
+          "Image": "images/categories/office_for_web.png",
+          "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
+        }
+      ]
+    },
+    {
+      "Id": "cf28bc20-ee23-4453-954e-43cc43af67b6",
+      "Name": "導入ツール",
+      "Image": "",
+      "TechnologyId": "",
+      "SubjectId": "",
+      "Source": "Microsoft",
+      "SubCategories": [
+        {
+          "Id": "9d9a29c7-72fe-475e-9dd1-d999259d02cb",
+          "Name": "ツール",
+          "Image": "images/categories/toolkit.png",
+          "TechnologyId": "",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "281c0108-6e20-4fc3-9459-ba267857498e",
+          "Name": "管理サクセス センター",
+          "Image": "images/categories/set-up-Microsoft-365-learning-pathway.png",
+          "TechnologyId": "",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
+        }
+      ]
+    }
+  ],
+  "Audiences": [
+    {
+      "Id": "9fcd26c3-bcca-4452-a40a-f87e0daed348",
+      "Name": "管理者"
+    },
+    {
+      "Id": "41779dd0-ae42-4a62-8b66-bd87c137f4ac",
+      "Name": "ヘルプデスク"
+    },
+    {
+      "Id": "97150537-2c2f-42f9-8bc6-73e68fda0d38",
+      "Name": "上司の変更"
+    },
+    {
+      "Id": "304b216c-ea4d-436c-83f8-93ba1319943b",
+      "Name": "チャンピオン/トレーニング"
+    },
+    {
+      "Id": "d093e0b6-b9f1-4b46-877c-0a49e989ee40",
+      "Name": "役員アシスタント"
+    },
+    {
+      "Id": "c92ae45b-8770-48f6-8870-3ec74a310da7",
+      "Name": "VIP"
+    },
+    {
+      "Id": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+      "Name": "エンド ユーザー"
+    },
+    {
+      "Id": "e22b05b1-e778-4c97-9646-b8933c209772",
+      "Name": "コンテンツ エディター"
+    },
+    {
+      "Id": "f110eb03-e899-46a9-83be-8f507dae83c1",
+      "Name": "コンテンツ マネージャー"
+    },
+    {
+      "Id": "a8787978-0ee5-4bc6-9c2c-eb11fc47cbfd",
+      "Name": "グループの所有者"
+    },
+    {
+      "Id": "e2fce8e0-2014-4e36-81a5-0723b85958f8",
+      "Name": "サイト スポンサー"
+    },
+    {
+      "Id": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+      "Name": "すべて"
+    }
+  ],
+  "Sources": [
+    "SOC",
+    "FastTrack",
+    "M365",
+    "Microsoft",
+    "LinkedIn"
+  ],
+  "Levels": [
+    {
+      "Id": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+      "Name": "初心者"
+    },
+    {
+      "Id": "ab49a955-3814-41fa-aa33-1b2757bc28ea",
+      "Name": "中級"
+    },
+    {
+      "Id": "fbc841eb-1082-4c27-b13b-f7965947cb16",
+      "Name": "詳細設定"
+    }
+  ],
+  "StatusTag": [
+    {
+      "Id": "c11c485b-496d-479b-88a3-1744a7a028d7",
+      "Name": "新規"
+    },
+    {
+      "Id": "9d1fab25-ed9c-404e-941b-41e428d18726",
+      "Name": "更新日時"
+    },
+    {
+      "Id": "90fe6290-e063-4778-a8a1-7531c2a0a40e",
+      "Name": "廃止"
+    },
+    {
+      "Id": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+      "Name": "廃止"
+    },
+    {
+      "Id": "42be48f6-1f82-4fda-a757-add2499677d9",
+      "Name": "ベータ版"
+    }
+  ],
+  "Telemetry": {
+    "AppInsightKey": "089e14f6-1341-44b8-9135-71b3e326e914"
+  },
+  "Version": {
+    "Manifest": "v3",
+    "ManifestMinWebPart": "3.0.0",
+    "CurrentWebPart": "3.0.0",
+    "RepoURL": "https://github.com/pnp/custom-learning-office-365#updating-the-solution"
+  },
+  "ContentPacks": [],
+  "AssetOrigins": [
+    "https://support.office.com",
+    "https://docs.microsoft.com"
+  ]
+}
