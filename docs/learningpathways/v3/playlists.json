@@ -17,8 +17,7 @@
       "0cf0055d-49f8-464e-9dfa-8f582b32453b",
       "11a632c1-197e-454f-a515-374a4aa2b3dd",
       "a8af741e-00f2-44c0-a94b-38abd51af01f",
-      "64b51431-c51a-45db-8ddd-d58b9b101c42",
-      "090e74b9-af13-4a8f-a922-04822916c6c4"
+      "64b51431-c51a-45db-8ddd-d58b9b101c42"
     ]
   },
   {
@@ -26,14 +25,14 @@
     "Title": "Intro to Excel",
     "Image": "images/playlists/welcome_to_excel.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Create a new workbook or insert a worksheet. Learn how to use Excel as your calculator or autofill data in cells.",
     "StatusTagId": "",
-    "StatusNote": null,
+    "StatusNote": "",
     "Assets": [
       "82e9eab2-2e4e-463a-baa5-669b6c8ac543",
       "861d97cb-3b33-4978-92e4-9446dc19b8da",
@@ -448,8 +447,6 @@
     "StatusTagId": "",
     "StatusNote": null,
     "Assets": [
-      "bd6cee81-895f-41ca-b940-5e4ad85f18e1",
-      "01a1f301-aa7d-4ecb-beec-e7a6b0127dc9",
       "17b30a75-206f-44e0-9de3-afeedbf6bfa1",
       "505ac90e-bdb8-4dbe-9220-861feb1d6403",
       "96763596-6a87-439e-946d-1c113d34ed95",
@@ -608,11 +605,6 @@
       "97525790-81d9-429e-8ce2-9b5bb891f33d",
       "7c4ceb9b-6700-4a2a-9c89-d2d45e5908c6",
       "7bcb262a-aedd-4c55-92e8-7a055d16c4c0",
-      "16190802-1be2-4e09-a809-d4edffa37a3f",
-      "5b4c9678-09a2-4529-a081-bf326c58f5a7",
-      "a039b302-4e01-4683-8ec8-9ec5ee0d6e1e",
-      "393bd987-c33a-4821-aaea-fd9ea71916cd",
-      "3c4f6521-6ed9-48cf-bf12-6eb3cdbba4c1",
       "36ccdd4c-6858-4ede-8e4a-e571e857352a"
     ]
   },
@@ -1001,9 +993,9 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "Set categories, flags, or reminders. Organize email with folders or set up Rules.",
+    "Description": "Set categories, flags, or reminders. Organize email with folders or set up Rules",
     "StatusTagId": "",
-    "StatusNote": null,
+    "StatusNote": "",
     "Assets": [
       "a894348d-b308-4185-840f-aff63063d076",
       "0616c259-4bc1-4f35-807d-61eb59ac79c1",
@@ -1141,7 +1133,6 @@
     "Assets": [
       "06f64160-9abf-46bb-80d1-9e94d47a0d36",
       "6f37e08a-43a8-40fe-a1d3-3adf6c592fa9",
-      "dafed286-bac0-46cd-ab79-36909e675528",
       "ce655d7b-bc99-4323-be2e-627d3e759528",
       "33b3491e-f0ec-48c4-b9fb-3a5bd8797608",
       "19767daf-672c-43bc-bda1-330b242c57c9",
@@ -1514,7 +1505,6 @@
     "StatusNote": null,
     "Assets": [
       "303eb71a-6bd8-474c-ba06-923e93347224",
-      "d6b60e8f-0530-43bf-b688-e99d36cf5663",
       "153a4f24-5b06-4c8c-a966-1361baf46eb1",
       "cebd7999-e9ad-4b0d-9126-76438798c6b2",
       "6a7abb9e-0a36-448b-8704-f64a92ee2097"
@@ -1539,6 +1529,29 @@
       "873100a0-0fac-4f93-88f7-1a0945ec93ed",
       "93123baa-08fc-408d-af15-a6a87e7b545f",
       "4efd5366-e471-4f9f-b7cf-a40f3e6f8f01"
+    ]
+  },
+  {
+    "Id": "02f5792f-4eed-4122-91ed-348560c3fac9",
+    "Title": "Use Yammer every day",
+    "Image": "images/playlists/use_yammer_every_day.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "e83da7d3-653c-4c01-a262-336e07b88aba",
+    "Description": "Use Yammer as a social networking tool. Learn how to like, reply, and share, post updates, and create groups",
+    "StatusTagId": "",
+    "StatusNote": null,
+    "Assets": [
+      "47526868-b136-40cc-a80d-c870eadd9ba5",
+      "dc06d227-c4c9-4fdb-9bfe-9f6a6b1caa83",
+      "da65b1c3-6651-4141-8dbd-d50d61b98a6e",
+      "53e74097-c1fc-4098-a8ad-cf40b8e02e6c",
+      "52db606b-2f29-4a9a-8cbb-b43bf2a27d2e",
+      "e9f31b53-f1b1-407f-8cd6-6cda93fe23be",
+      "4ca4f40e-f9ee-4554-aa6d-e00687977875"
     ]
   },
   {
@@ -1568,41 +1581,6 @@
     ]
   },
   {
-    "Id": "02f5792f-4eed-4122-91ed-348560c3fac9",
-    "Title": "Use Yammer every day",
-    "Image": "images/playlists/use_yammer_every_day.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "CatId": "e83da7d3-653c-4c01-a262-336e07b88aba",
-    "Description": "Use Yammer as a social networking tool. Learn how to like, reply, and share, post updates, and create groups",
-    "StatusTagId": "",
-    "StatusNote": null,
-    "Assets": [
-      "47526868-b136-40cc-a80d-c870eadd9ba5",
-      "9432d9cb-1380-49d0-b273-5df50fec5d6e",
-      "20a205e4-faf6-45e8-926e-c86be74ca8e8",
-      "ab4b58c4-3495-4148-ad17-60480fecff95",
-      "056f2fb0-b3aa-457f-863a-84315ffd8969",
-      "796f6d15-4769-485c-b448-4ad7ab9516e4",
-      "c2b8d430-003c-4f4a-965e-3e09239c0de6",
-      "2c84287e-c7b2-4010-9732-9d518391bc58",
-      "6bf8268f-bada-4087-8dac-c9c4c0822690",
-      "dc06d227-c4c9-4fdb-9bfe-9f6a6b1caa83",
-      "856d45cc-dd94-48de-bea6-ae4f9ecdc472",
-      "da65b1c3-6651-4141-8dbd-d50d61b98a6e",
-      "53e74097-c1fc-4098-a8ad-cf40b8e02e6c",
-      "52db606b-2f29-4a9a-8cbb-b43bf2a27d2e",
-      "eb096f3b-ef81-49d8-9b44-9bec6fe50c3c",
-      "e9f31b53-f1b1-407f-8cd6-6cda93fe23be",
-      "4ca4f40e-f9ee-4554-aa6d-e00687977875",
-      "544eb5b9-c69a-4609-ac09-bb169b1098d0",
-      "b8e6c9cd-bbca-49b6-bb28-7ed313d52fb0"
-    ]
-  },
-  {
     "Id": "f0e74200-1232-4659-8e66-4a037496dcad",
     "Title": "Planner Quick Start",
     "Image": "images/playlists/planner_quick_start.png",
@@ -1620,7 +1598,6 @@
       "ee61ecb0-a0bb-4c39-8682-f47fe7674f05",
       "c351e8df-080c-4eca-b8c7-37dc3fb1a9c8",
       "31518aac-e136-4ac9-badc-0d0de4e18819",
-      "9ca782c0-a32e-43e8-ba65-057c58da72c6",
       "cbbf3772-4fdd-4f49-aa92-dc2203c062d7"
     ]
   },
@@ -1661,8 +1638,7 @@
       "620daa7a-3e03-4013-8f92-5cce86210ef6",
       "39a23830-452d-474c-ae1f-47a6ebefa21a",
       "384371be-f1e7-4628-bcba-abd3d6123917",
-      "31c4b0cd-a89b-42e7-9429-1c14a1d8ef67",
-      "92f5a54d-1d76-47f9-88c1-91510ff1b0d9"
+      "31c4b0cd-a89b-42e7-9429-1c14a1d8ef67"
     ]
   },
   {
@@ -1878,8 +1854,8 @@
       "4d07b36d-0b31-4d7a-bf97-42c206e726ed",
       "b47af0b6-6471-48d5-8247-b4a01823624b",
       "65bf0728-22fd-4784-b44c-4c6d8024f947",
-      "f80e5ec1-28c2-428f-b495-17875c97910a",
-      "ab6ed4a9-3086-4012-9fbf-06298ca4afb0"
+      "ab6ed4a9-3086-4012-9fbf-06298ca4afb0",
+      "f80e5ec1-28c2-428f-b495-17875c97910a"
     ]
   },
   {
@@ -2023,9 +1999,9 @@
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
+      "7ee9113e-bde4-4381-aa28-e3963c4ddf05",
       "191f671d-bed9-4b80-924a-8e64aae73858",
-      "09931f62-ec76-4ecb-8bd8-c07bc792e00c",
-      "7ee9113e-bde4-4381-aa28-e3963c4ddf05"
+      "09931f62-ec76-4ecb-8bd8-c07bc792e00c"
     ]
   },
   {
@@ -2061,13 +2037,13 @@
     "StatusTagId": "",
     "StatusNote": null,
     "Assets": [
-      "ce53495d-c30e-442a-b1d2-05593cc814c0",
       "9420d2d8-f04d-4d00-b852-2d846dbedfe9",
       "6596fb5a-c25e-4dcb-b034-7cb38b611e38",
       "727e6ff1-ef1c-475d-90d0-196e26b5b753",
-      "5c882b54-d2b1-4270-b65d-79483a2aa3ca",
       "9f920424-7de6-4002-b4ed-6503a3cfae2d",
-      "d47b9703-df15-4a41-b895-e97729062e23"
+      "d47b9703-df15-4a41-b895-e97729062e23",
+      "ce53495d-c30e-442a-b1d2-05593cc814c0",
+      "5c882b54-d2b1-4270-b65d-79483a2aa3ca"
     ]
   },
   {
@@ -2455,13 +2431,13 @@
     "StatusTagId": "",
     "StatusNote": null,
     "Assets": [
-      "062f6252-5feb-4b80-a197-d9dd383aa31c",
-      "0dd16bbf-febf-4de4-95d4-853772ea3809",
       "77d55b36-b274-4fee-acbe-978ccf14c7e6",
       "94d98315-06e7-454c-819d-d5991408bb04",
       "afe89455-43ed-47b9-af79-a82a374ba0bd",
-      "b99bbb59-0e61-4a57-a01e-72f95ae8b815",
-      "37d98b29-08fb-4b8e-ab97-b129a0e9966d"
+      "37d98b29-08fb-4b8e-ab97-b129a0e9966d",
+      "062f6252-5feb-4b80-a197-d9dd383aa31c",
+      "0dd16bbf-febf-4de4-95d4-853772ea3809",
+      "b99bbb59-0e61-4a57-a01e-72f95ae8b815"
     ]
   },
   {
@@ -2571,9 +2547,9 @@
     "StatusTagId": "",
     "StatusNote": null,
     "Assets": [
-      "a5ab9b5c-5f30-486f-8f39-f051bb4afdc2",
       "c570011a-3786-49e9-9017-6a0d7744931e",
-      "7d109c19-ffe7-4274-a821-5432add664c5"
+      "7d109c19-ffe7-4274-a821-5432add664c5",
+      "a5ab9b5c-5f30-486f-8f39-f051bb4afdc2"
     ]
   },
   {
@@ -2687,11 +2663,11 @@
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
-	  "93f43b6a-8eb7-46ac-9b19-8ae42c53eb87",
+      "93f43b6a-8eb7-46ac-9b19-8ae42c53eb87",
       "0cdf7a16-a3db-4caa-bb93-90f0ffe1c807",
-      "fcc2ece3-aecb-40c7-a410-0e36b0bdf3d8",	  
+      "fcc2ece3-aecb-40c7-a410-0e36b0bdf3d8",
       "3f008f2a-c7f2-4183-8635-61375cef1062",
-	  "c8c64c61-0136-4e47-be9d-263976ce6de5",
+      "c8c64c61-0136-4e47-be9d-263976ce6de5",
       "f0802f2f-f3a5-4cba-af50-70759f679d65"
     ]
   },
@@ -2823,6 +2799,25 @@
       "af7f28a8-a3c0-4513-9580-661b0395c10a",
       "73c7be2f-cab5-4870-8bf6-4645c855862a",
       "b55517cc-a4f4-405b-b46f-977f39a91e3c"
+    ]
+  },
+  {
+    "Id": "c9d6e61c-7177-4c39-82ae-f817d45c0096",
+    "Title": "What's New in April 2019",
+    "Image": "images/playlists/office_basics.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "9fcd26c3-bcca-4452-a40a-f87e0daed348",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "SOC",
+    "CatId": "07aa7fb7-a187-4a04-a044-f881626a8cba",
+    "Description": "Here are the new features available for Microsoft 365 for April 2019.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "36bcd322-8344-4a41-973a-1e811add5476",
+      "96450812-b6e6-49d0-909a-fdba33ad08b4",
+      "ab8f6cb4-107a-4f77-b107-be18beb67b33"
     ]
   }
 ]
