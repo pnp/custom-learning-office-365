@@ -3,7 +3,7 @@
 Train employees with Microsoft 365 learning pathways, a digital, customizable learning solution that helps customers transform their organization. Microsoft 365 learning pathways provides:
 
 - Comprehensive end user training content: product and scenario-based training, in video and article format
-- Easy to install: Deploy from the [SharePoint Provisioning Service](https://provisioning.sharepointpnp.com) within minutes and without any coding
+- Easy to install: Deploy from the [SharePoint look book](https://lookbook.microsoft.com) within minutes and without any coding
 - Easily customizable: Hide and show content to align with how you have set up Office 365 in your environment
 - Create your own training playlists: Add your own custom training content and playlists to feature your organization-specific scenarios
 - Always up-to-date content: As Office 365 changes, the Microsoft 365 learning pathways content will be updated. Content updates will be made and communicated to customers on a monthly basis
@@ -16,7 +16,7 @@ A video was recorded during a PnP Monthly Community call and that video is avail
 
 - You will need to be a tenant administrator to be able to deploy this solution to the target tenant.
 Note that you can get free developer tenant from [Office 365 developer program](https://developer.microsoft.com/en-us/office/dev-program), if needed
-- Automatic end-to-end provisioning only works with English tenants. All solutions and web parts are also English in the current implementation
+- Automatic end-to-end provisioning only works with English tenants. With the version 4.x.x release, web parts are available in multiple languages, for more information see [Overview of multilingual support for learning pathways](https://docs.microsoft.com/en-us/office365/customlearning/custom_overview_ml).
 - A tenant `App Catalog` must have been created within the `Apps` option of the SharePoint Admin Center. Please see [Set up your Office 365 tenant](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant#create-app-catalog-site) and follow the Create app catalog site section. If your tenant-wide App Catalog has already been provisioned, you will need access to an account that has rights to upload a package to it to complete this setup process. Generally, this is an account with the SharePoint administrator role. If an account with that role does not work, go to the SharePoint admin center and find the Site Collection Administrators for the app catalog site collection and either log in as one of the Site Collection Administrators, or add the SharePoint administrator account that failed to the Site Collection Administrators. You will also need access to an account that is a SharePoint Tenant Admin.
 
 ## Author(s)
@@ -32,13 +32,17 @@ THIS CODE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPL
 
 ### Current Release Version
 
-![drop](https://img.shields.io/badge/drop-3.0.4-green.svg)
+![drop](https://img.shields.io/badge/drop-4.0.0-green.svg)
 
 For a list of issues/updates made in each release see the [Change Log](./webpart/ChangeLog.md).
 
->**CRITICAL: Version 3.x.x Upgrade Notice**
+>**CRITICAL: Version 4.x.x Upgrade Notice**
 >
->The version 3.x.x version is a major update and includes changes to the schema. Although it has been tested thoroughly, as with any major update you should plan for the worst and back up your content before proceeding. There are many third party solutions that will assist you with this, if you do not have access to any then the simplest method is to back up your content using Microsoft Excel. Specifically all the items in the _CustomPlaylists_ and _CustomAssets_ lists plus the `CustomSubCategories` item in the _CustomConfig_ list. Please see [Backup Playlist Content](./webpart/BackupInstructions.md) for more detail instructions.
+>The version 4.x.x version is a major update and includes changes to the schema as well as support for multilingual pages. 
+
+>**_PLEASE_** review the content of [Adding Multilingual Support to Microsoft 365 learning pathways](./webpart/AddingMultilingualSupport.md) document before proceeding. 
+
+>Although it has been tested thoroughly, as with any major update you should plan for the worst and back up your content first. There are many third party solutions that will assist you with this, if you do not have access to any then the simplest method is to back up your content using Microsoft Excel. Specifically all the items in the _CustomPlaylists_ and _CustomAssets_ lists plus the `CustomSubCategories` item in the _CustomConfig_ list. Please see [Backup Playlist Content](./webpart/BackupInstructions.md) for more detail instructions.
 >
 >*Additional Update for CDN Url*
 >
@@ -72,7 +76,7 @@ If your application needs to be updated in this site collection you will see tha
 
 ## Manually installing and configuring Microsoft 365 learning pathways
 
-We encourage you to install the Microsoft 365 learning pathways solution using the [SharePoint Provisioning Service](https://provisioning.sharepointpnp.com/), however we recognize that the permissions that service require are significant and not all organizations will feel comfortable utilizing it. To that end this section outlines a manual method of installing the solution. After complete, updates can be applied by following the section above for [Updating the solution](#Updating-the-solution).
+We encourage you to install the Microsoft 365 learning pathways solution using the [SharePoint look book](https://lookbook.microsoft.com/), however we recognize that the permissions that service require are significant and not all organizations will feel comfortable utilizing it. To that end this section outlines a manual method of installing the solution. After complete, updates can be applied by following the section above for [Updating the solution](#Updating-the-solution).
 
 ### Sharepoint Framework Version
 
@@ -93,6 +97,7 @@ If you would like to opt out of this data collection, please follow these instru
 If you are not performing a manual install and would like to turn telemetry tracking off, a separate script `TelemetryOptOut.ps1` has been included that when run will disable telemetry tracking.
 
 ## Changing the URL of your Microsoft 365 learning pathways site
+
 If you need to rename the url of the main Microsoft 365 learning pathways site you can do so but it will also require you to run a PowerShell script to update the Tenant App property that controls what that site URL is for the web parts. After renaming the URL in the SharePoint Admin Center or via PowerShell additionally run teh following script to update the Tenant App property.
 [UpdateM365lpSiteUrl.ps1](./webpart/UpdateM365lpSiteUrl.ps1)
 
