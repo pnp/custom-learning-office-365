@@ -4,7 +4,7 @@ With the release of the [Multilingual Pages for SharePoint Online](https://suppo
 
 ## Scenario 1: We do not need multilingual support
 
-Good news, version 4 will work just fine for you if you do not enable the multilingual pages feature in your site collection. By upgrading you get a couple of updates that might be useful to you like an image selector UI for choosing the image for a custom playlist and the addition of a UI for changing the default image to a custom sub category. In addition some other small fixes have been made to the viewer web part.
+Good news, version 4 will work just fine for you if you do not enable the multilingual pages feature in your site collection. By upgrading you get a couple of updates that might be useful to you like an image selector UI for choosing the image for a custom playlist and the addition of a UI for changing the default image to a custom sub category. In addition some other small fixes have been made to the viewer web part. Check out the upgrade instructions outlined in the [Updating the Solution](../README.md#Updating-the-solution).
 
 ## Scenario 2: We need multilingual support and the default language of the site collection is our default language
 
