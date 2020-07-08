@@ -4,7 +4,7 @@ about: Please enter a question about how to install or use Microsoft 365 learnin
   pathways
 title: "[QUESTION] "
 labels: 'type: question'
-assignees: juliemturner
+assignees: ''
 
 ---
 
