@@ -1,5 +1,11 @@
 # Change Log
 
+## Version 4.0.1
+
+**If updating from version 2.x/3/x of the web part please see the notes about [Version 4.0.0](#version_4_0_0)**
+
+- Bug fix for issue [#298](../../../issues/298) - Issue for site's default language being unsupported by multilingual version and not falling back to English (en-us) to match version 3 experience.
+
 ## Version 4.0.0
 
 **This version is a major release that includes new features and updates to the underlying data structure. It will support updating from either the version 2.x or 3.x of the learning pathways solution. You should take appropriate caution when updating to this version of the web part by backing up your learning pathways master site content, specifically your custom subcategories, custom playlists, and custom assets. Please see [Backup Playlist Content](./webpart/BackupInstructions.md) for more detail instructions.**
