@@ -1,5 +1,5 @@
-param([string]$TenantName)
-param([string]$M365LPSiteUrl)
+param([string]$TenantName,
+[string]$M365LPSiteUrl)
 
 # verify the PnP cmdlets we need are installed
 if (Get-Command Get-PnPStoredCredentiaal -ErrorAction SilentlyContinue  ) {
@@ -18,10 +18,15 @@ if ([string]::IsNullOrWhitespace($TenantName)) {
 $AdminURL = "https://$TenantName.sharepoint.com"
 
 # Check if M365 LP Site Url was passed in
+if (!([system.uri]::IsWellFormedUriString($M365LPSiteUrl, [System.UriKind]::Absolute))) {
+  Write-Host "$M365LPSiteUrl is not a valid URL."  -BackgroundColor Black -ForegroundColor Red
+  Clear-Variable M365LPSiteUrl
+}
 if ([string]::IsNullOrWhitespace($M365LPSiteUrl)) {
   # No Site Collection URL was passed, prompt the user
   $M365LPSiteUrl = Read-Host "Please enter the URL of your Microsoft 365 learning pathways site collection: ($AdminURL/sites/M365LP)"
 }
+
 
 # Connect to Admin site.
 # Todo: Differentiate between valid $adminurl and authentication error (bad password or no access)
