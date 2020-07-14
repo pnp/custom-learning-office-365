@@ -32,15 +32,15 @@ THIS CODE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPL
 
 ### Current Release Version
 
-![drop](https://img.shields.io/badge/drop-4.0.1-green.svg)
+![drop](https://img.shields.io/badge/drop-4.0.2-green.svg)
 
 For a list of issues/updates made in each release see the [Change Log](./webpart/ChangeLog.md).
 
 >**CRITICAL: Version 4.x.x Upgrade Notice**
 >
->The version 4.x.x version is a major update and includes changes to the schema as well as support for multilingual pages. 
+>The version 4.x.x version is a major update and includes changes to the schema as well as support for multilingual pages.
 
->**_PLEASE_** review the content of [Adding Multilingual Support to Microsoft 365 learning pathways](./webpart/AddingMultilingualSupport.md) document before proceeding. 
+>**_PLEASE_** review the content of [Adding Multilingual Support to Microsoft 365 learning pathways](./webpart/AddingMultilingualSupport.md) document before proceeding.
 
 >Although it has been tested thoroughly, as with any major update you should plan for the worst and back up your content first. There are many third party solutions that will assist you with this, if you do not have access to any then the simplest method is to back up your content using Microsoft Excel. Specifically all the items in the _CustomPlaylists_ and _CustomAssets_ lists plus the `CustomSubCategories` item in the _CustomConfig_ list. Please see [Backup Playlist Content](./webpart/BackupInstructions.md) for more detail instructions.
 >
