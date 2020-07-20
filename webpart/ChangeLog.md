@@ -1,5 +1,11 @@
 # Change Log
 
+## Version 4.1.0
+
+**If updating from version 2.x/3/x of the web part please see the notes about [Version 4.0.0](#version_4_0_0)**
+
+- Enhancement that adds custom sort capability to a filtered custom learning web part instance. For more details see: [Sort subcategories and playlists](https://docs.microsoft.com/en-us/office365/customlearning/custom_sortsubplay.md).
+
 ## Version 4.0.2
 
 **If updating from version 2.x/3/x of the web part please see the notes about [Version 4.0.0](#version_4_0_0)**
