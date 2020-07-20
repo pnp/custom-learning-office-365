@@ -1,5 +1,11 @@
 # Change Log
 
+## Version 4.1.1
+
+**If updating from version 2.x/3/x of the web part please see the notes about [Version 4.0.0](#version_4_0_0)**
+
+- Bug fix for admin center not notifying of updated version of web part.
+
 ## Version 4.1.0
 
 **If updating from version 2.x/3/x of the web part please see the notes about [Version 4.0.0](#version_4_0_0)**
