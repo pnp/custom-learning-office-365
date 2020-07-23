@@ -4,7 +4,7 @@ about: Please complete the below template to ensure we have the necessary detail
   to assist you.
 title: " "
 labels: 'type: something isn''t working'
-assignees: juliemturner
+assignees: ''
 
 ---
 
