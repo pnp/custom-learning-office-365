@@ -1,5 +1,11 @@
 # Change Log
 
+## Version 4.1.2
+
+**If updating from version 2.x/3/x of the web part please see the notes about [Version 4.0.0](#version_4_0_0)**
+
+- Bug fix for [#320](../../../issues/320) - default site language not in configuredLanguages which caused the inability to create custom sub categories and playlists.
+
 ## Version 4.1.1
 
 **If updating from version 2.x/3/x of the web part please see the notes about [Version 4.0.0](#version_4_0_0)**
