@@ -36,6 +36,8 @@ So for you, there is good news and bad news. The good news is that version 4 wil
 1. Assuming the PowerShell script completed successfully you should be able to navigate to the /NewLP/site pages/CustomLearningAdmin.aspx page which will initiate the upgrade process. Version 4 includes a new upgrade experience that will log every upgrade step that is being processed. The upgrade process can be run again at any time by adding `?forceUpdate=v3` to the end of the admin page url. The `v3` value indicates what version of learning pathways you're upgrading from. For example:
    > `https://contoso.sharepoint.com/sites/M365LP/SitePages/CustomLearningAdmin.aspx?forceUpdate=v3`
 
+>If you no longer need the old learning pathways site, once the new site's admin page (`CustomLearningAdmin.aspx`) is working correctly it can be deleted.
+
 ### Creating a new Microsoft 365 learning pathways site - Custom playlists and assets
 
 After you reestablish your learning pathways site by following the steps above, you will need to work to move the contents of your `CustomPlaylists` list and your `CustomAssets` list. You can also, optionally, move the actual custom pages that make up your custom assets if they live in the existing learning pathways site, and your intent is to delete it.
