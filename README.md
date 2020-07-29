@@ -12,6 +12,8 @@ Train employees with Microsoft 365 learning pathways, a digital, customizable le
 
 A video was recorded during a PnP Monthly Community call and that video is available here: [Community Demo - Microsoft 365 Learning Pathways Architectural Overview](https://www.youtube.com/watch?v=-sLXl_rKGxQ). It may help you gain a better understanding of what Microsoft 365 learning pathways is and how to go about using it.
 
+In addition there is a new recording showing an overview of the V4 multilingual release available here: [Microsoft 365 learning pathways v4 Feature Overview](https://youtu.be/xayqnUAcGXc)
+
 ## Prerequisites
 
 - You will need to be a tenant administrator to be able to deploy this solution to the target tenant.
