@@ -68,13 +68,15 @@ Upload this file into the app catalog by selecting upload, finding the file, and
 
 ![Deploy package to tenant](./images/DeployM365LP.png)
 
-If you've updated the package you will also want to update it in the custom learning site collection. Navigate to the site collection that is your custom learning master site, then site contents, and then click on the menu for `Microsoft 365 learning pathways` and select Details. (Previously called Custom Learning for Office 365)
+If you've updated the package you will also want to update it in the custom learning site collection. Navigate to the site collection that is your custom learning main site, then site contents, and then click on the menu for `Microsoft 365 learning pathways` and select Details. (Previously called Custom Learning for Office 365)
 
 ![Site Collection App Version](./images/SiteCollectionAppVersion.png)
 
 If your application needs to be updated in this site collection you will see that there is a new version and you can select the `Get It` link to update.
 
 ![Update App](./images/UpdateApp.png)
+
+Finally, in your main custom learning site, navigate to the Site Pages library and to the `CustomLearningAdmin.aspx` page. Make sure this admin page load successfully without error. You may be prompted to complete a 'Data Upgrade' if you are updating to a new major version of the solution. Please run the update and assuming everything works as expected you would then close the update and the admin web part will load the content. If you have problems at this point, please open a new issue for assistance.
 
 ## Manually installing and configuring Microsoft 365 learning pathways
 
