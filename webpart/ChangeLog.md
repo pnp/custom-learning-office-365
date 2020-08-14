@@ -1,5 +1,11 @@
 # Change Log
 
+## Version 4.1.3
+
+**If updating from version 2.x/3/x of the web part please see the notes about [Version 4.0.0](#version_4_0_0)**
+
+- Bug fix for [#325](../../../issues/325) - Navigation Bar for End Users and Admin not applying site Theme Colors.
+
 ## Version 4.1.2
 
 **If updating from version 2.x/3/x of the web part please see the notes about [Version 4.0.0](#version_4_0_0)**
