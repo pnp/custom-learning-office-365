@@ -16,11 +16,7 @@
       "Subjects": [
         {
           "Id": "f1b531e0-2a62-4007-8858-08bd8be6ecae",
-          "Name": "Office 365"
-        },
-        {
-          "Id": "1b22eb5a-2fb4-4706-87d0-68d4823c4ca1",
-          "Name": "Windows 10"
+          "Name": "Microsoft 365"
         }
       ]
     },
@@ -186,6 +182,15 @@
           "SubjectId": null,
           "Source": "Microsoft",
           "SubCategories": []
+        },
+        {
+          "Id": "51a0828d-1d27-4931-b547-9f2a698f33d8",
+          "Name": "Security",
+          "Image": "images/categories/LP-security-subcategory.png",
+          "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
         }
       ]
     },
@@ -280,7 +285,7 @@
         },
         {
           "Id": "beab7761-afae-4987-b8c2-57194fa945b6",
-          "Name": "Office basics",
+          "Name": "Microsoft 365 Basics",
           "Image": "images/categories/office_basics.png",
           "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
           "SubjectId": null,
@@ -337,6 +342,15 @@
           "Name": "Office for the web",
           "Image": "images/categories/office_for_web.png",
           "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "1c349520-8cca-43c3-ab41-2cb431f5accf",
+          "Name": "Power Automate",
+          "Image": "",
+          "TechnologyId": "",
           "SubjectId": null,
           "Source": "Microsoft",
           "SubCategories": []
