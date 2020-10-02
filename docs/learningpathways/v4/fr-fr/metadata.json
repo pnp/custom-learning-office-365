@@ -7,7 +7,7 @@
     },
     {
       "Id": "33059862-a87d-4b40-9984-be7c6083cf95",
-      "Name": "Formulaires",
+      "Name": "Forms",
       "Subjects": []
     },
     {
@@ -16,17 +16,13 @@
       "Subjects": [
         {
           "Id": "f1b531e0-2a62-4007-8858-08bd8be6ecae",
-          "Name": "Office 365"
-        },
-        {
-          "Id": "1b22eb5a-2fb4-4706-87d0-68d4823c4ca1",
-          "Name": "Windows 10"
+          "Name": "Microsoft 365"
         }
       ]
     },
     {
       "Id": "c209f64e-0291-437a-9615-17747eab50d0",
-      "Name": "Microsoft Teams",
+      "Name": "Microsoft Teams",
       "Subjects": [
         {
           "Id": "3bd4b767-148f-4f53-a206-b42e9f3a73cd",
@@ -186,6 +182,15 @@
           "SubjectId": null,
           "Source": "Microsoft",
           "SubCategories": []
+        },
+        {
+          "Id": "51a0828d-1d27-4931-b547-9f2a698f33d8",
+          "Name": "Sécurité",
+          "Image": "images/categories/LP-security-subcategory.png",
+          "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
         }
       ]
     },
@@ -262,7 +267,7 @@
         },
         {
           "Id": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-          "Name": "Microsoft Teams",
+          "Name": "Microsoft Teams",
           "Image": "images/categories/teams.png",
           "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
           "SubjectId": null,
@@ -280,7 +285,7 @@
         },
         {
           "Id": "beab7761-afae-4987-b8c2-57194fa945b6",
-          "Name": "Fonctions élémentaires d’Office",
+          "Name": "Informations de base de Microsoft 365",
           "Image": "images/categories/office_basics.png",
           "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
           "SubjectId": null,
@@ -298,7 +303,7 @@
         },
         {
           "Id": "daeade40-9dfc-4d82-84be-9ae7544829dc",
-          "Name": "Formulaires",
+          "Name": "Forms",
           "Image": "images/categories/forms_training.png",
           "TechnologyId": "33059862-a87d-4b40-9984-be7c6083cf95",
           "SubjectId": null,
@@ -325,7 +330,7 @@
         },
         {
           "Id": "175c2d96-040d-4275-9405-b4549bd63dee",
-          "Name": "Accès",
+          "Name": "Access",
           "Image": "images/categories/access.png",
           "TechnologyId": "",
           "SubjectId": null,
@@ -337,6 +342,15 @@
           "Name": "Office pour le web",
           "Image": "images/categories/office_for_web.png",
           "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "1c349520-8cca-43c3-ab41-2cb431f5accf",
+          "Name": "Power Automate",
+          "Image": "",
+          "TechnologyId": "",
           "SubjectId": null,
           "Source": "Microsoft",
           "SubCategories": []
@@ -464,19 +478,5 @@
       "Id": "42be48f6-1f82-4fda-a757-add2499677d9",
       "Name": "Bêta"
     }
-  ],
-  "Telemetry": {
-    "AppInsightKey": "089e14f6-1341-44b8-9135-71b3e326e914"
-  },
-  "Version": {
-    "Manifest": "v3",
-    "ManifestMinWebPart": "3.0.0",
-    "CurrentWebPart": "3.0.0",
-    "RepoURL": "https://github.com/pnp/custom-learning-office-365#updating-the-solution"
-  },
-  "ContentPacks": [],
-  "AssetOrigins": [
-    "https://support.office.com",
-    "https://docs.microsoft.com"
   ]
 }

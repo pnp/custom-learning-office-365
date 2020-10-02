@@ -386,7 +386,7 @@
   },
   {
     "Id": "343e775c-58ee-4a3d-8d52-f4e3f5240d79",
-    "Title": "Anaylze your data quickly",
+    "Title": "Analyze your data quickly",
     "Description": "",
     "Url": "https://support.office.com/en-us/client/343e775c-58ee-4a3d-8d52-f4e3f5240d79?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
@@ -2234,7 +2234,7 @@
   },
   {
     "Id": "c17b6824-cc22-478f-8757-497cc6b57121",
-    "Title": "What is SharePoint Online?",
+    "Title": "What is SharePoint?",
     "Description": "",
     "Url": "https://support.office.com/en-us/client/c17b6824-cc22-478f-8757-497cc6b57121?embed=true",
     "TechnologyId": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
@@ -3400,7 +3400,7 @@
   },
   {
     "Id": "951f29b7-dbd8-446b-8ebe-b924cc620bb2",
-    "Title": "Send an email reciept of responses",
+    "Title": "Send an email receipt of responses",
     "Description": "",
     "Url": "https://support.office.com/en-us/client/951f29b7-dbd8-446b-8ebe-b924cc620bb2?embed=true",
     "TechnologyId": "33059862-a87d-4b40-9984-be7c6083cf95",
@@ -5382,7 +5382,7 @@
     "Id": "f3c24ddc-6434-4c4a-a9bf-52acc9168b29",
     "Title": "Create an Access desktop database",
     "Description": "",
-    "Url": "https://support.office.com/en-us/client/1446ab07-b54a-4b8a-b38e-63bb5db8f9da",
+    "Url": "https://support.office.com/en-us/client/1446ab07-b54a-4b8a-b38e-63bb5db8f9da?embed=true",
     "TechnologyId": "9c18d262-89c5-499b-be11-be58279c86bd",
     "SubjectId": "",
     "Source": "SOC",
@@ -8270,5 +8270,16 @@
     "Source": "SOC",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "New"
+  },
+  {
+    "Id": "f4372eb3-df5b-4a30-ad39-32451c5bcb6f",
+    "Title": "Restore a shared library",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/1e90d01f-0efb-488d-93fb-edcb44e6819d?embed=true",
+    "TechnologyId": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusNote": ""
   }
 ]
