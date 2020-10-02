@@ -25,7 +25,7 @@
     "Title": "Знакомство с Excel",
     "Image": "images/playlists/welcome_to_excel.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -178,6 +178,7 @@
       "8b69760d-f337-4b7b-b72e-d48f29e54ba7",
       "343e775c-58ee-4a3d-8d52-f4e3f5240d79",
       "8d2399ed-748e-4fb5-95c9-eed8177f116d",
+      "447ce791-5207-450d-a57a-b3a4602b54e0",
       "231c42d2-5e58-40e1-99f0-cbe618cfee1d",
       "5459166a-549f-44ef-a285-51d32bebcd5d",
       "426058cb-da1f-4e45-906e-4d40f171801e",
@@ -245,8 +246,8 @@
       "422bf3aa-9ae8-46f1-83a2-e65720e1a34d",
       "6723dc43-dbc0-46e6-af49-8a2d1c5cb937",
       "d7978db0-33b5-4ad3-93ac-ef0bd3c2a670",
-      "1ba8dce3-1122-47f4-8db6-00a4f93117e8",
-      "31e38b35-96ab-447a-acb2-97bb5c0716c0"
+      "31e38b35-96ab-447a-acb2-97bb5c0716c0",
+      "1ba8dce3-1122-47f4-8db6-00a4f93117e8"
     ]
   },
   {
@@ -344,305 +345,169 @@
     "Assets": [
       "089ff1b2-6cd7-4e86-ab50-a4390b4bcb21",
       "4c0ef9a7-0c3e-4a95-aaea-f52f2f81ecbc",
-      "13c4e429-7324-4886-b377-5dbed539193b"
+      "13c4e429-7324-4886-b377-5dbed539193b",
+      "a78606bb-a15f-4f3e-8892-63f735cc1f6a"
     ]
   },
   {
     "Id": "261009d0-8b5c-4302-bb0f-c993e1ebb51c",
-    "Title": "Краткое руководство по Office",
+    "Title": "Краткое руководство по началу работы с Microsoft 365 для бизнеса",
     "Image": "images/playlists/office_365_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "Узнайте о преимуществах приложений Office 365, таких как Word, Excel, PowerPoint и Outlook",
+    "Description": "Изучите основные возможности Microsoft 365 с помощью наших инструкций, которые помогут с началом работы созданием и сохранением файлов, предоставлением общего доступа и совместной работой, а также работой с Microsoft Teams. ",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
-      "56e60c2b-1929-4a04-bd9b-ff5b844364f3",
-      "500d26ea-1f1f-4b6c-a2b7-a44213fca4ec",
-      "84d111d4-cce9-4cef-9240-167dff4b5965",
-      "54db9080-d29f-40d1-9f15-fb6c45952e8f",
-      "c12ff0ac-05b4-4655-afe0-24ba2986849b"
+      "5453895d-5ba2-4ce5-b2b8-8461695f75ad",
+      "21a86754-2b38-4d2b-882c-a26966050921",
+      "5f7689f7-8095-47ed-88ae-a8da2cd873d4",
+      "40ce1d89-995c-4a18-9b7e-7482f8121ece",
+      "ec5c071b-adf4-4bea-b128-5e99a6177b29",
+      "3ccfd6e1-bc78-46b3-979b-2da71905fd7f"
     ]
   },
   {
     "Id": "8f026372-069d-4449-a116-938bf5aae7ea",
-    "Title": "Введение в Office",
+    "Title": "Начало работы с Microsoft 365",
     "Image": "images/playlists/intro_to_office.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "Понимать основы Office 365. Выполняйте вход, получайте помощь и поддержку, используйте элементы SmartArt и диаграммы, а также сотрудничайте в общих документах",
-    "StatusTagId": "",
-    "StatusNote": null,
-    "Assets": [
-      "41684255-24dc-4078-92c2-9a05f6684f63",
-      "f374bfd7-a280-4dae-9274-fbe1b3c04593",
-      "66a288c1-b313-4a18-9621-dc378264232e",
-      "a8b4168b-2529-4ed6-83b4-40505ab922b4",
-      "79133902-8a9d-45e2-bb31-03bcd1613652",
-      "94afb97c-6d4e-4b3c-aa8d-65ef8c7644fe",
-      "3fbd2586-f747-4c2d-9c01-b72b56034b4a"
-    ]
-  },
-  {
-    "Id": "71b756be-b810-483e-aef1-282cefa9d518",
-    "Title": "Что такое Microsoft 365?",
-    "Image": "images/playlists/what_is_office_365.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "Подписка на Microsoft 365 предоставляет последнее приложение Office, возможность установки на различных устройствах, хранилище и обновления, недоступные в другом месте",
+    "Description": "Усвоение основ Microsoft 365, в том числе вход в систему и начало работы с Office.com.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
-      "847caf12-2589-452c-8aca-1c009797678b",
-      "3c7dd576-cbd2-449f-8bb6-f33912c05038",
-      "179728f7-7287-453b-832f-558145681219",
-      "348304c7-1429-4db7-9bcb-97655884a06d",
-      "0ddb9ebf-2850-4533-b07f-cba2c90acbc1"
-    ]
-  },
-  {
-    "Id": "f7fc4bc7-12f5-44bc-9bd4-c122e891061d",
-    "Title": "Хранение в Интернете и совместная работа",
-    "Image": "images/playlists/store_online_and_collaborate.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "Хранить файлы онлайн и файлы соавторов",
-    "StatusTagId": "",
-    "StatusNote": null,
-    "Assets": [
-      "146dd625-a740-4a53-96e4-a02c21d9de3e",
-      "74a26c59-c59a-4d5f-8636-6918fcfcad7b",
-      "07083ba8-0e36-4d9d-aba8-d9ebfd84d6d4",
-      "5734250d-9ba2-4e05-b137-58155ce9d552",
-      "724a3fae-0118-4067-bcf8-d23cc57923ff"
-    ]
-  },
-  {
-    "Id": "fa7efdbf-ddd5-46b4-86c0-4d75b3893c85",
-    "Title": "Распространение и защита",
-    "Image": "images/playlists/distribute_and_protect.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "Распространяйте и защищайте файлы. Научитесь проверять файлы на предмет доступности и совместимости.",
-    "StatusTagId": "",
-    "StatusNote": null,
-    "Assets": [
-      "17b30a75-206f-44e0-9de3-afeedbf6bfa1",
-      "505ac90e-bdb8-4dbe-9220-861feb1d6403",
-      "96763596-6a87-439e-946d-1c113d34ed95",
-      "a494feda-ebd2-4815-b5aa-df7959e2d3ca"
-    ]
-  },
-  {
-    "Id": "ffdf1665-6516-4d78-b9d3-39985b60c06b",
-    "Title": "Просмотр файлов Office",
-    "Image": "images/playlists/view_office_files.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "Переключайтесь между онлайн- и настольными приложениями, увеличивайте или уменьшайте масштаб и просматривайте файлы в нескольких окнах.",
-    "StatusTagId": "",
-    "StatusNote": null,
-    "Assets": [
-      "8524b1c9-2286-431b-946b-1e684d3ee862",
-      "64e5c8c4-1a93-4766-88fc-88086dc90a74",
-      "8c6377a1-ed45-498e-80dc-635a6ae34547"
+      "b78213e0-d1c5-4d99-917f-75903c5377a4",
+      "b5be6bc0-e9c9-48a0-b9a1-bb366e29390e",
+      "6664ef66-de37-4de4-ac51-b8b5db4b5bb8"
     ]
   },
   {
     "Id": "f4bbc974-3e87-4e2b-a4c8-7cb1d3c35fa3",
-    "Title": "Создание файлов Office",
+    "Title": "Создание и сохранение",
     "Image": "images/playlists/create_office_files.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "Создавать, открывать, сохранять и переименовывать файлы и шаблоны. Измените свойства документа и установите параметры восстановления документа.",
-    "StatusTagId": "",
-    "StatusNote": null,
-    "Assets": [
-      "5786b4fc-9265-4490-b4b7-3324579ea260",
-      "05779bd0-2291-4843-9e76-6dfb2b5e5ac2",
-      "9988f769-1a3c-4c9e-9132-e011d9b2419e",
-      "d23cc86c-bbd9-4e0b-b821-16ff90970d3e",
-      "28f55993-d023-4604-b688-584b3a451d52",
-      "ba0f45dd-02e3-4c3e-884b-15ca26aa02e8"
-    ]
-  },
-  {
-    "Id": "ed32ab75-e9b5-4056-a098-17b31f7830e1",
-    "Title": "Оформление файлов",
-    "Image": "images/playlists/design_files.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "Добавляйте, изменяйте размер и форматируйте текстовые поля, выравнивайте объекты, объединяйте рисунки и фигуры, а также группируйте фигуры или отменяйте их группировку",
+    "Description": "О том, как использовать классические приложения, приложения Office.com, сохранять файлы в облаке и синхронизировать файлы по запросу с помощью OneDrive.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
-      "294aa1e1-b4a5-4e28-aa7e-3bf3e46a7ce5",
-      "7b066785-c2d0-4bc7-9297-1f25278a7bdb",
-      "fccf3cb2-cb5c-494f-b8bb-c2b85e1ba123",
-      "fc1da3cf-c721-45fd-b7d1-c470eec95bab"
+      "cddec4f8-b8ca-496f-af33-800d9cdcc15c",
+      "3eb2554d-a4e0-4ae4-9609-1c06913127e1",
+      "f4b41dc8-339c-4653-9f41-328324656f61",
+      "b6b217d2-db1d-4c15-bd78-4e8e273b0190"
+    ]
+  },
+  {
+    "Id": "f7fc4bc7-12f5-44bc-9bd4-c122e891061d",
+    "Title": "Общий доступ и совместная работа",
+    "Image": "images/playlists/store_online_and_collaborate.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
+    "Description": "Предоставление общего доступа к файлам в Microsoft 365 и обучение совместному редактированию файлов, использованию @mentions и дальнейшему отслеживанию.",
+    "StatusTagId": "",
+    "StatusNote": "",
+    "Assets": [
+      "01c6c0a8-ffe9-494d-9c10-e975183b55a8",
+      "97a97677-5730-4a84-9755-c0182404ae33",
+      "abf7940b-f4e7-462b-afda-deed03d6a7e6",
+      "f7b18d2f-e5d1-44da-8d34-ec941041fb8b"
+    ]
+  },
+  {
+    "Id": "fa7efdbf-ddd5-46b4-86c0-4d75b3893c85",
+    "Title": "Работа с Microsoft Teams",
+    "Image": "images/playlists/distribute_and_protect.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
+    "Description": "Сведения о том, как работать с Microsoft Teams, в том числе создавать и форматировать записи, начинать и закреплять чаты, совершать вызовы, присоединяться к собранию Teams, а также советы по улучшению собраний. ",
+    "StatusTagId": "",
+    "StatusNote": "",
+    "Assets": [
+      "aa92f575-ab19-4db1-b201-d5cddf6f9052",
+      "ae20005a-012d-4197-baf5-aab5bc0a66ea",
+      "fc6a571a-6b06-4a2d-bda6-ef62b89a31d7",
+      "4e8f8cce-c4b3-49c6-92d8-1ae2a7ebeea2",
+      "cb53b30d-1af3-4dc4-9678-69b6c1e640a3",
+      "a76fef68-d80d-4e30-88e6-9c85d6e4795a",
+      "d14c1dfb-42fe-4b97-8e40-24b68eb61814"
+    ]
+  },
+  {
+    "Id": "ffdf1665-6516-4d78-b9d3-39985b60c06b",
+    "Title": "Эффективное использование Windows 10",
+    "Image": "images/playlists/view_office_files.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
+    "Description": "Как максимально эффективно пользоваться Windows при поиске своих материалов в Windows 10, использовании Microsoft Edge и поиске в Bing.",
+    "StatusTagId": "",
+    "StatusNote": "",
+    "Assets": [
+      "1dc186e7-53c1-4da5-800e-670da2ce5a81",
+      "eb99a666-f31b-4a19-b3ac-56f07835c6bb",
+      "7cbd34e7-be3e-4464-845e-a7cc5e461878"
     ]
   },
   {
     "Id": "861f0286-c3b5-4a76-9b7e-77c1bf39572d",
-    "Title": "Добавление и редактирование текста",
+    "Title": "Работа на любых устройствах",
     "Image": "images/playlists/add_and_edit_text.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "Добавить и редактировать текст, ссылки и уравнения. Проверьте орфографию и грамматику.",
+    "Description": "Как работать откуда угодно в мобильном приложении OneDrive и мобильном приложении Outlook.",
     "StatusTagId": "",
-    "StatusNote": null,
+    "StatusNote": "",
     "Assets": [
-      "1c696bda-5ea8-435c-9548-f5c59b9e1977",
-      "049aca05-089f-48af-80c3-3adf6d4ff6c1",
-      "6f0f7d58-9b49-4a14-aba8-1de2195c0ab6",
-      "9232f21b-0dd2-4b4c-bbed-4a27492b9fb2",
-      "c32bd7c7-55e2-430e-99f0-18482a11e388",
-      "a12336a4-d56d-4260-b827-88a715385320",
-      "8a55148a-bfef-4290-87f7-5898b825b719"
+      "5d1a7e1c-1cbd-4acc-ae14-91cefdde690d",
+      "1c696bda-5ea8-435c-9548-f5c59b9e1977"
     ]
   },
   {
     "Id": "477ad890-043c-4d3c-982e-40c540f10009",
-    "Title": "Форматирование текста",
+    "Title": "Примечательные функции Microsoft 365",
     "Image": "images/playlists/office_365_format_text.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "Изменить внешний вид текстов, абзацев и списков",
-    "StatusTagId": "",
-    "StatusNote": null,
-    "Assets": [
-      "8a956e59-da12-4df7-9695-64f2f94fa1f2",
-      "b8bd64c0-a698-4177-a890-5645d6c50aa9",
-      "01dff891-ef99-4d8f-8982-d7f05cffc145",
-      "350de24f-e3c6-4fd5-bb3b-127fb32f18ff",
-      "3124a7c2-2541-4d80-8831-c6c9de94aff7"
-    ]
-  },
-  {
-    "Id": "a118d65c-65c6-46ae-8a95-e2e3a14ab578",
-    "Title": "Добавление и форматирование таблиц и диаграмм",
-    "Image": "images/playlists/add_and_format_tabels_and_charts.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "Добавить таблицы и диаграммы, объединить и разделить ячейки таблицы, а также сортировать и разделять таблицы",
-    "StatusTagId": "",
-    "StatusNote": null,
-    "Assets": [
-      "29a1e938-a78e-4205-bdf7-c418ee002da6",
-      "490e418e-cb57-40da-8d5b-b722a5da891f",
-      "3e42e8d8-89e8-4345-a79c-524a815f40ce",
-      "c8057e8f-a89d-4181-a6e8-7cf23c70b254",
-      "f1b798e7-fa25-496c-a434-0c2a15bed09f",
-      "9ad29dda-f690-4b4a-b47f-5d2b5f478dc0",
-      "5b72f010-6121-4b91-9011-120d66b000fb",
-      "e2653a1f-c10d-4e38-94a4-8bded7d13ca6",
-      "f03bf006-3d66-4fad-8adc-9e7919161b05",
-      "a0622cb4-4cb1-49a3-8070-fa52739519fa"
-    ]
-  },
-  {
-    "Id": "18addd5b-bbdc-4d5a-ad3d-20bdcb01183b",
-    "Title": "Добавление и форматирование рисунков",
-    "Image": "images/playlists/add_and_format_pictures.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "С Microsoft 365 вы можете форматировать изображения и тексты, а также добавлять снимки экрана",
+    "Description": "Сведения о функциях и возможностях Microsoft 365, например о конструкторе PowerPoint, идеях в Excel, редакторе в Word, а также о том, как обеспечить доступность содержимого.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
-      "7348945b-a99c-46c8-bfc2-f67d3964f094",
-      "5084480d-5ee5-4a39-8ae2-64bb14a732a0",
-      "299b6f63-b44c-457d-bee7-8f9642018da2",
-      "6bf618fc-17d1-4b65-9abb-2498e9f83e52",
-      "97525790-81d9-429e-8ce2-9b5bb891f33d",
-      "7c4ceb9b-6700-4a2a-9c89-d2d45e5908c6",
-      "7bcb262a-aedd-4c55-92e8-7a055d16c4c0",
-      "36ccdd4c-6858-4ede-8e4a-e571e857352a"
-    ]
-  },
-  {
-    "Id": "03221f2a-d29f-4f5f-af45-2a3cd00ed178",
-    "Title": "Добавление и форматирование фигур",
-    "Image": "images/playlists/add_and_format_shapes.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "Используйте Microsoft 365 для рисования и форматирования фигур",
-    "StatusTagId": "",
-    "StatusNote": "",
-    "Assets": [
-      "ae110358-230f-4258-b5fa-7ba471a71d6b",
-      "07684909-8742-4f7f-9cbb-054ac9640313"
-    ]
-  },
-  {
-    "Id": "65c84168-f7e3-4af6-b9bd-66cd28985021",
-    "Title": "Создание графических элементов WordArt и SmartArt",
-    "Image": "images/playlists/create_wordart_and_smartart.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "Выделите ваши слова с помощью элементов WordArt и SmartArt для добавления контуров, затенения и других эффектов",
-    "StatusTagId": "",
-    "StatusNote": null,
-    "Assets": [
-      "1c3660c8-07e7-4b27-b26e-bec0146715a9",
-      "c6486638-cc22-4729-983c-b2e2b36d9124",
-      "2c2e95da-d325-4cfd-8488-14ddd890d4e3"
+      "0ba87823-c503-430a-aa2d-2bbcaf228b16",
+      "7d4dc4cb-620e-4b5d-89b6-d9da676b7c0a",
+      "b70390dc-e801-4d26-87fe-248f24024268",
+      "3686ff3d-227d-46f8-b81a-527618909fca"
     ]
   },
   {
@@ -686,8 +551,7 @@
       "94c8a731-c774-468e-97a1-5f038bdf330d",
       "586df57b-fdae-439c-ae5b-71cbe5bb0d4c",
       "c45e3f90-14af-4cfa-97f2-137f74d4304e",
-      "8ce30c76-e27b-4e55-9050-082393954213",
-      "90658d87-ff07-4a6a-9c16-542417af8654"
+      "8ce30c76-e27b-4e55-9050-082393954213"
     ]
   },
   {
@@ -707,9 +571,9 @@
       "10f5c3fd-b0f6-40e2-9059-04735ffe01b7",
       "b30da4eb-ddd2-44b6-943b-e6fbfc6b8dde",
       "110ca7b0-ae3d-4e51-a14c-9d583e2d630c",
-      "d26c1b0d-8047-42bf-9104-f6e9a3576e62",
+      "03bb3e62-d16f-4658-a632-ed30121560ef",
       "943c1193-0076-4a85-b07f-a359de11690c",
-      "03bb3e62-d16f-4658-a632-ed30121560ef"
+      "d26c1b0d-8047-42bf-9104-f6e9a3576e62"
     ]
   },
   {
@@ -726,12 +590,12 @@
     "StatusTagId": "",
     "StatusNote": null,
     "Assets": [
-      "5bd927ad-d186-495c-93e8-7ca116fe7b83",
-      "e1f59717-2f02-494d-93c6-8ef9613e82ba",
-      "3cd2e0b9-a2bc-4009-ba4a-88fc1052522f",
       "254ec123-fca9-48e1-ba2b-5e16bab38a6a",
       "99ade958-5c25-444b-9e1e-f222a8976441",
-      "e28db166-76a0-454b-9f71-c26bde579f70"
+      "e1f59717-2f02-494d-93c6-8ef9613e82ba",
+      "e28db166-76a0-454b-9f71-c26bde579f70",
+      "3cd2e0b9-a2bc-4009-ba4a-88fc1052522f",
+      "5bd927ad-d186-495c-93e8-7ca116fe7b83"
     ]
   },
   {
@@ -1064,6 +928,7 @@
       "7ef0d0f2-dc24-45d3-808b-be9747ee69f6",
       "2659f76c-3297-4ff2-ac55-4aa5eda8113b",
       "07fcfb59-f410-4e52-9c60-3b069a805ee5",
+      "cd828eb0-c18b-42ac-9417-3f62aa501329",
       "5f9f856f-72d0-461c-a4c0-6f8dc160eda8"
     ]
   },
@@ -1138,7 +1003,8 @@
       "19767daf-672c-43bc-bda1-330b242c57c9",
       "2e95c36a-0e64-4256-a04b-33501a2ce604",
       "b200f2d7-2301-47f4-8f80-dad8c15a85af",
-      "2a970a4f-4847-43f1-aec7-e392c28eadd5"
+      "2a970a4f-4847-43f1-aec7-e392c28eadd5",
+      "84c79be1-3be5-4659-a3dc-b519e019bbaf"
     ]
   },
   {
@@ -1186,9 +1052,9 @@
       "fe7638e4-76fb-4349-8d81-5eb6679f49d7",
       "65dacbfb-8aec-496e-b9a1-d96cfa86fb52",
       "83e8f205-08bf-4dc1-b4fc-2fbe46873295",
-      "2570dff5-f81c-40bc-b404-e04e95ffab33",
       "1b1172ac-934e-47fd-b43b-7da01607a7f7",
-      "33ac9590-720d-4803-ad6a-0f3de16e5bbf"
+      "33ac9590-720d-4803-ad6a-0f3de16e5bbf",
+      "2570dff5-f81c-40bc-b404-e04e95ffab33"
     ]
   },
   {
@@ -1270,9 +1136,9 @@
     "StatusTagId": "",
     "StatusNote": null,
     "Assets": [
-      "c17b6824-cc22-478f-8757-497cc6b57121",
       "4411e38f-9bc5-4ecc-bd33-3dbe939ac84c",
-      "92b93131-fbef-4894-8ba2-2fdfa90c5b32"
+      "92b93131-fbef-4894-8ba2-2fdfa90c5b32",
+      "c17b6824-cc22-478f-8757-497cc6b57121"
     ]
   },
   {
@@ -1289,11 +1155,11 @@
     "StatusTagId": "",
     "StatusNote": null,
     "Assets": [
+      "2080ed96-2e53-46cb-b208-5901372e3af5",
+      "bc2c99a9-0e40-4eb0-b0e9-4979500c39ed",
       "551e190a-8fbe-47ae-a88a-798b443c46b1",
       "7787a98c-8eb9-407d-8ee7-73a9975caf71",
-      "2a71be2b-e72a-4a55-bfd2-e2a13698c087",
-      "2080ed96-2e53-46cb-b208-5901372e3af5",
-      "bc2c99a9-0e40-4eb0-b0e9-4979500c39ed"
+      "2a71be2b-e72a-4a55-bfd2-e2a13698c087"
     ]
   },
   {
@@ -1310,9 +1176,9 @@
     "StatusTagId": "",
     "StatusNote": null,
     "Assets": [
-      "87a96948-4dd7-43e4-aca1-53f3e18bea9b",
+      "98cb2ff2-c27e-42ea-b055-c2d895f8a5de",
       "88d0ebed-bbd7-4d00-8c1c-0d18a5543b43",
-      "98cb2ff2-c27e-42ea-b055-c2d895f8a5de"
+      "87a96948-4dd7-43e4-aca1-53f3e18bea9b"
     ]
   },
   {
@@ -1441,10 +1307,10 @@
       "cebc3705-c949-42f6-8ed9-534943e1ab5c",
       "b426d3dd-ab7e-40af-91b5-85158b08ad37",
       "be712991-16dd-4b9e-810e-35b5320c922b",
-      "64e36e41-a263-42f9-b213-ab5ab329de82",
+      "09e07ee6-3be4-4fe0-a229-4d36e2087515",
       "032982e2-2afd-4bbd-a520-d01dfc28eba1",
       "69000446-c891-46bb-ac00-1b3e7f6fbb99",
-      "09e07ee6-3be4-4fe0-a229-4d36e2087515"
+      "64e36e41-a263-42f9-b213-ab5ab329de82"
     ]
   },
   {
@@ -1595,10 +1461,10 @@
     "StatusNote": null,
     "Assets": [
       "fe43c972-5a95-4071-86d4-423a64a3b21e",
+      "cbbf3772-4fdd-4f49-aa92-dc2203c062d7",
       "ee61ecb0-a0bb-4c39-8682-f47fe7674f05",
       "c351e8df-080c-4eca-b8c7-37dc3fb1a9c8",
-      "31518aac-e136-4ac9-badc-0d0de4e18819",
-      "cbbf3772-4fdd-4f49-aa92-dc2203c062d7"
+      "31518aac-e136-4ac9-badc-0d0de4e18819"
     ]
   },
   {
@@ -1790,7 +1656,10 @@
       "59fce479-241d-45f2-a79c-e7485fd02066",
       "6f739c5e-bb13-4ce9-9301-abf4a9cac9e2",
       "9655a0e0-34f0-4805-8221-420ae713e0d0",
-      "b1d3baac-83e4-4d1a-8f8c-bb5e02409a37"
+      "b1d3baac-83e4-4d1a-8f8c-bb5e02409a37",
+      "a3d5959b-91ea-4cf0-b60a-e27abe03d59e",
+      "91750070-ca20-4e28-b840-eb16b859422c",
+      "1dc10cd1-fa7d-4ec7-98ec-c5cacdf43d84"
     ]
   },
   {
@@ -1834,6 +1703,7 @@
       "a4a40a7c-b5a8-4a3d-b3db-306b01a2b122",
       "5518c537-dfcb-41ab-ae58-2041e54b5f57",
       "dfa0127d-0a0a-4480-aaca-dd3496000d24",
+      "a63b2257-1515-42d2-aad2-daee4b03dee0",
       "7155bed9-aa2d-4ffb-8e3a-9f3aa8dead91"
     ]
   },
@@ -1851,16 +1721,16 @@
     "StatusTagId": "",
     "StatusNote": null,
     "Assets": [
-      "4d07b36d-0b31-4d7a-bf97-42c206e726ed",
-      "b47af0b6-6471-48d5-8247-b4a01823624b",
-      "65bf0728-22fd-4784-b44c-4c6d8024f947",
       "ab6ed4a9-3086-4012-9fbf-06298ca4afb0",
-      "f80e5ec1-28c2-428f-b495-17875c97910a"
+      "65bf0728-22fd-4784-b44c-4c6d8024f947",
+      "f80e5ec1-28c2-428f-b495-17875c97910a",
+      "b47af0b6-6471-48d5-8247-b4a01823624b",
+      "4d07b36d-0b31-4d7a-bf97-42c206e726ed"
     ]
   },
   {
     "Id": "63354a03-0b23-49c3-bf57-b992fdc3a00a",
-    "Title": "Краткое руководство по Sway",
+    "Title": "Краткое руководство по началу работы со Sway",
     "Image": "images/playlists/sway-quick-start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1870,12 +1740,12 @@
     "CatId": "92083395-06d0-433f-ba0d-77c958d853b7",
     "Description": "Создавайте в Sway, добавляйте контент, оформляйте, делитесь и узнавайте больше",
     "StatusTagId": "",
-    "StatusNote": null,
+    "StatusNote": "",
     "Assets": [
+      "dca12cdb-dfa8-41a9-bfcc-98f29921b80a",
       "95f5e8b4-4027-4169-8253-608493c45f55",
       "096a47ab-3ec5-404d-8481-e5849dca4727",
-      "f865866d-a017-44a3-b065-d4ce762c046a",
-      "dca12cdb-dfa8-41a9-bfcc-98f29921b80a"
+      "f865866d-a017-44a3-b065-d4ce762c046a"
     ]
   },
   {
@@ -2396,8 +2266,8 @@
     "StatusTagId": "",
     "StatusNote": null,
     "Assets": [
-      "669bd71c-95e9-4adb-abb9-e04a4cfc5117",
-      "e4059fd5-20d1-4ff5-a758-8ea3c2ce8c75"
+      "e4059fd5-20d1-4ff5-a758-8ea3c2ce8c75",
+      "669bd71c-95e9-4adb-abb9-e04a4cfc5117"
     ]
   },
   {
@@ -2547,9 +2417,10 @@
     "StatusTagId": "",
     "StatusNote": null,
     "Assets": [
+      "ac343dbd-1ffb-4235-a34f-5b71be6dc9ee",
       "c570011a-3786-49e9-9017-6a0d7744931e",
-      "7d109c19-ffe7-4274-a821-5432add664c5",
-      "a5ab9b5c-5f30-486f-8f39-f051bb4afdc2"
+      "a5ab9b5c-5f30-486f-8f39-f051bb4afdc2",
+      "7d109c19-ffe7-4274-a821-5432add664c5"
     ]
   },
   {
@@ -2638,7 +2509,7 @@
     "SubjectId": "",
     "Source": "SOC",
     "CatId": "9eb8fc25-dd5b-4459-81e9-ae382aca7a78",
-    "Description": "Microsoft Teams и Office 365 помогают выполнять работу (в сотрудничестве с другими пользователями и самостоятельно), где бы вы ни находились. ",
+    "Description": "Microsoft Teams и Office 365 помогают выполнять работу (в сотрудничестве с другими пользователями и самостоятельно), где бы вы сейчас ни находились.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -2733,6 +2604,7 @@
       "b2daf0a6-080f-4844-9d0f-6f171eb72d4e",
       "fed4f1d2-92ed-4539-bbbf-b588ddab62aa",
       "ca68be6a-3798-461a-8247-3350b33cc952",
+      "e76571ce-494d-4119-b2d8-6a61272527db",
       "47069cbb-0d61-4bf3-82bb-f2c70e63b337"
     ]
   },
@@ -2802,22 +2674,107 @@
     ]
   },
   {
-    "Id": "c9d6e61c-7177-4c39-82ae-f817d45c0096",
-    "Title": "Что нового в апреле 2019 года",
-    "Image": "images/playlists/office_basics.png",
+    "Id": "2aa461ea-18f5-47d4-a29c-e63fda70f75b",
+    "Title": "Создание диаграмм",
+    "Image": "images/playlists/access-add-text-and-pictures.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "9fcd26c3-bcca-4452-a40a-f87e0daed348",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "9c18d262-89c5-499b-be11-be58279c86bd",
     "SubjectId": "",
     "Source": "SOC",
-    "CatId": "07aa7fb7-a187-4a04-a044-f881626a8cba",
-    "Description": "Вот новые функции, доступные для Microsoft 365 на апрель 2019 года.",
+    "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
+    "Description": "Как создавать диаграммы Access, в том числе гистограммы, линейчатые диаграммы, графики, круговые и объединенные диаграммы.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
-      "36bcd322-8344-4a41-973a-1e811add5476",
-      "96450812-b6e6-49d0-909a-fdba33ad08b4",
-      "ab8f6cb4-107a-4f77-b107-be18beb67b33"
+      "8e37a32f-561a-4a93-86a9-d580893f4a3d",
+      "78d7d388-413e-4786-9d35-511f11e94632",
+      "e93da2b2-36e7-4ddd-acd5-843d9e199495",
+      "7ea922fd-de6c-4e4e-8135-9319606d2658",
+      "7aa79418-2aaa-44d4-a753-b603e5c987cc"
+    ]
+  },
+  {
+    "Id": "5872570a-e8a6-4d84-8802-4dd053b4dabc",
+    "Title": "Пять простых шагов",
+    "Image": "images/playlists/LP-security-5-simple-steps.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "SOC",
+    "CatId": "51a0828d-1d27-4931-b547-9f2a698f33d8",
+    "Description": "Защита от фишинга, защита от мошеннических сообщений от лица, защита с помощью системы безопасности Windows и более безопасная удаленная работа.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "9b20011b-650e-4cc9-974f-fdae573eeb17",
+      "3b34b713-7c3e-4849-b0e4-1b639d696d99",
+      "9854471f-834b-4a9a-9447-102895925ade",
+      "a461ddbf-ac3b-4c11-a269-f888bccb65dc",
+      "d374a7bc-d763-426a-bda1-c359fbc480a9"
+    ]
+  },
+  {
+    "Id": "72863bbc-46ae-41dc-885d-0edb0a8abaa4",
+    "Title": "Безопасность дома",
+    "Image": "images/playlists/LP-security-security-at-home.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "SOC",
+    "CatId": "51a0828d-1d27-4931-b547-9f2a698f33d8",
+    "Description": "Рекомендации о том, как обеспечить безопасность данных и защитить свою семью с помощью системы безопасности Windows",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "f64cab44-4e2e-4c76-8c45-1d9d15637fb0",
+      "1b7c3060-86cd-4328-bb2b-6864973cbbf0",
+      "bc657c29-77c5-4184-bfdd-2af55cd7b671"
+    ]
+  },
+  {
+    "Id": "e51271b2-b4c0-4038-aa97-e4498c953afe",
+    "Title": "Безопасность на работе",
+    "Image": "images/playlists/LP-security-security-at-work.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "SOC",
+    "CatId": "51a0828d-1d27-4931-b547-9f2a698f33d8",
+    "Description": "\r\nКак обеспечить безопасности компьютера на работе, как работают многофакторная проверка подлинности, брандмауэр и защита сети в безопасности Windows, как предотвратить изменение параметров безопасности с помощью функции защиты от несанкционированного доступа. ",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "3c624ce0-20a6-4f5d-953e-2176412bad6a",
+      "51a18a97-1564-4d0c-a7f3-72661a63f100",
+      "d8a5691e-932e-4a6e-b4cb-30f16145cc5c",
+      "5d0045ef-1906-456c-a3ef-a46bce2b8d12"
+    ]
+  },
+  {
+    "Id": "bb92e79e-fe45-4f82-83ab-704b75bb6223",
+    "Title": "Начало работы с Teams",
+    "Image": "images/playlists/manage_meetings.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "",
+    "Source": "SOC",
+    "CatId": "9bde32c3-2f0b-4201-b4a3-74cef2c8f61d",
+    "Description": "Начало работы с Teams за семь простых шагов Как приступить создать и запустить работу команды, работать в каналах, добавлять файлы и предоставлять к ним общий доступ и управлять собраниями.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "780da5c0-55b6-49cc-bc30-a4084d0bfcc0",
+      "d20b058b-bed7-47e5-8335-5f897bd1a091",
+      "abec0934-ca9d-4920-b4c6-75d4042afea8",
+      "3993d9e5-06b3-4654-9e8f-9d2de79d2f8e",
+      "7843f46f-a3ad-4dd9-9430-867e6362e590",
+      "920382b4-2cca-40f1-ac20-05afed2005bd",
+      "7237da86-9409-40e1-9b05-fc3eba33404c"
     ]
   }
 ]

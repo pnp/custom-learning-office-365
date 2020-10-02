@@ -176,13 +176,13 @@
     "Assets": [
       "201fba6f-daf0-4aaf-98f8-e826da1719d7",
       "8b69760d-f337-4b7b-b72e-d48f29e54ba7",
-      "343e775c-58ee-4a3d-8d52-f4e3f5240d79",
       "8d2399ed-748e-4fb5-95c9-eed8177f116d",
       "447ce791-5207-450d-a57a-b3a4602b54e0",
       "231c42d2-5e58-40e1-99f0-cbe618cfee1d",
       "5459166a-549f-44ef-a285-51d32bebcd5d",
       "426058cb-da1f-4e45-906e-4d40f171801e",
-      "69df61ca-f6f6-42b6-bb13-78bbd64026db"
+      "69df61ca-f6f6-42b6-bb13-78bbd64026db",
+      "343e775c-58ee-4a3d-8d52-f4e3f5240d79"
     ]
   },
   {
@@ -1136,9 +1136,9 @@
     "StatusTagId": "",
     "StatusNote": null,
     "Assets": [
+      "c17b6824-cc22-478f-8757-497cc6b57121",
       "4411e38f-9bc5-4ecc-bd33-3dbe939ac84c",
-      "92b93131-fbef-4894-8ba2-2fdfa90c5b32",
-      "c17b6824-cc22-478f-8757-497cc6b57121"
+      "92b93131-fbef-4894-8ba2-2fdfa90c5b32"
     ]
   },
   {
@@ -1155,11 +1155,11 @@
     "StatusTagId": "",
     "StatusNote": null,
     "Assets": [
-      "2080ed96-2e53-46cb-b208-5901372e3af5",
-      "bc2c99a9-0e40-4eb0-b0e9-4979500c39ed",
       "551e190a-8fbe-47ae-a88a-798b443c46b1",
       "7787a98c-8eb9-407d-8ee7-73a9975caf71",
-      "2a71be2b-e72a-4a55-bfd2-e2a13698c087"
+      "2a71be2b-e72a-4a55-bfd2-e2a13698c087",
+      "2080ed96-2e53-46cb-b208-5901372e3af5",
+      "bc2c99a9-0e40-4eb0-b0e9-4979500c39ed"
     ]
   },
   {
@@ -1177,8 +1177,9 @@
     "StatusNote": null,
     "Assets": [
       "98cb2ff2-c27e-42ea-b055-c2d895f8a5de",
-      "88d0ebed-bbd7-4d00-8c1c-0d18a5543b43",
-      "87a96948-4dd7-43e4-aca1-53f3e18bea9b"
+      "87a96948-4dd7-43e4-aca1-53f3e18bea9b",
+      "f4372eb3-df5b-4a30-ad39-32451c5bcb6f",
+      "88d0ebed-bbd7-4d00-8c1c-0d18a5543b43"
     ]
   },
   {
@@ -2153,8 +2154,8 @@
     "StatusTagId": "",
     "StatusNote": null,
     "Assets": [
-      "f3c24ddc-6434-4c4a-a9bf-52acc9168b29",
-      "6bbb5916-3c01-44a4-8574-39c1ddcde62e"
+      "6bbb5916-3c01-44a4-8574-39c1ddcde62e",
+      "f3c24ddc-6434-4c4a-a9bf-52acc9168b29"
     ]
   },
   {
