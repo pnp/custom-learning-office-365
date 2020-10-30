@@ -16,7 +16,7 @@ if (!($AppCatalogAdminOnly) -and !($SiteAdminOnly)) {
   $SiteAdmin = $true
 }
 #region Legal stuff for Telemetry
-Write-Host "Microsoft collects active usage data from your organization’s use of Microsoft 365 learning pathways. Microsoft will use this data to help improve the future Microsoft 365 learning pathways solutions. To learn more about Microsoft privacy policies see https://go.microsoft.com/fwlink/?LinkId=521839. If you would like to opt out of this data collection, please type Ctrl-C to stop this script and see Readme file (`"Disabling Telemetry Collection section`") for instructions on how to opt out.`n"
+Write-Host "Microsoft collects active usage data from your organization’s use of Microsoft 365 learning pathways and the use of Microsoft’s online content. Microsoft will use this data to help improve the future Microsoft 365 learning pathways solutions. To learn more about Microsoft privacy policies see https://go.microsoft.com/fwlink/?LinkId=521839. If you would like to opt out of this data collection, please type Ctrl-C to stop this script and see Readme file (`"Disabling Telemetry Collection section`") for instructions on how to opt out.`n"
 Read-Host "Press Enter to Continue"
 $optInTelemetry = $true
 #endregion
