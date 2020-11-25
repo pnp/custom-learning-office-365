@@ -683,7 +683,7 @@
   },
   {
     "Id": "b78213e0-d1c5-4d99-917f-75903c5377a4",
-    "Title": "Che cos'è Microsoft 365?",
+    "Title": "Cos'è Microsoft 365?",
     "Description": "",
     "Url": "https://support.office.com/it-it/client/c4001f27-e798-4ed8-93e4-656d5d64d509?embed=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -727,7 +727,7 @@
   },
   {
     "Id": "97a97677-5730-4a84-9755-c0182404ae33",
-    "Title": "Creazione condivisa",
+    "Title": "Collaborare ai documenti",
     "Description": "",
     "Url": "https://support.office.com/it-it/client/75d50118-a87a-423f-99f1-428199907c72?embed=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -793,7 +793,7 @@
   },
   {
     "Id": "1dc186e7-53c1-4da5-800e-670da2ce5a81",
-    "Title": "Trova documenti, app e altro ancora con Cerca",
+    "Title": "Trovare documenti, app e altro ancora con Cerca",
     "Description": "",
     "Url": "https://support.office.com/it-it/client/b1ffd742-60ca-4e8c-8d29-e679dba375f1?embed=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -837,7 +837,7 @@
   },
   {
     "Id": "3eb2554d-a4e0-4ae4-9609-1c06913127e1",
-    "Title": "Con le app di Office.com",
+    "Title": "Usare le app di Office.com",
     "Description": "",
     "Url": "https://support.office.com/it-it/client/4e035176-eec1-400c-a10e-d6605cb873b6?embed=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -980,7 +980,7 @@
   },
   {
     "Id": "10f5c3fd-b0f6-40e2-9059-04735ffe01b7",
-    "Title": "Che cos'è OneDrive?",
+    "Title": "Cos'è OneDrive?",
     "Description": "",
     "Url": "https://support.office.com/it-it/client/10f5c3fd-b0f6-40e2-9059-04735ffe01b7?embed=true",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
@@ -1002,7 +1002,7 @@
   },
   {
     "Id": "110ca7b0-ae3d-4e51-a14c-9d583e2d630c",
-    "Title": "Dati principali di OneDrive",
+    "Title": "Nozioni di base di OneDrive",
     "Description": "",
     "Url": "https://support.office.com/it-it/client/110ca7b0-ae3d-4e51-a14c-9d583e2d630c?embed=true",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
@@ -2234,7 +2234,7 @@
   },
   {
     "Id": "c17b6824-cc22-478f-8757-497cc6b57121",
-    "Title": "Che cos'è SharePoint Online?",
+    "Title": "Cos'è SharePoint Online?",
     "Description": "",
     "Url": "https://support.office.com/it-it/client/c17b6824-cc22-478f-8757-497cc6b57121?embed=true",
     "TechnologyId": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
@@ -7052,8 +7052,8 @@
   },
   {
     "Id": "a63b2257-1515-42d2-aad2-daee4b03dee0",
-    "Title": "To Do rispetto a Planner",
-    "Description": "To Do rispetto a Planner",
+    "Title": "Confronto fra To Do e Planner",
+    "Description": "Confronto fra To Do e Planner",
     "Url": "https://support.office.com/it-it/client/1044260a-3ac9-4006-aa27-f84476a03d23?embed=true",
     "TechnologyId": "2f571b54-44fa-4778-9277-c7935e36ffb3",
     "SubjectId": "",
@@ -7085,7 +7085,7 @@
   },
   {
     "Id": "e76571ce-494d-4119-b2d8-6a61272527db",
-    "Title": "Word sul Web: Trascrivere le registrazioni",
+    "Title": "Word per il Web: Trascrivere le registrazioni",
     "Description": "",
     "Url": "https://support.office.com/it-it/client/7fc2efec-245e-45f0-b053-2a97531ecf57?embed=true",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -7327,7 +7327,7 @@
   },
   {
     "Id": "5d0045ef-1906-456c-a3ef-a46bce2b8d12",
-    "Title": "Impedire modifiche alle impostazioni di sicurezza con Tamper Protection",
+    "Title": "Impedire modifiche alle impostazioni di sicurezza con protezione antimanomissione",
     "Description": "",
     "Url": "https://support.office.com/it-it/client/6fd8d8ff-0e6d-4df5-b994-ea4df20ca969?embed=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -8174,7 +8174,7 @@
   },
   {
     "Id": "abec0934-ca9d-4920-b4c6-75d4042afea8",
-    "Title": "Lavora nei canali",
+    "Title": "Lavorare nei canali",
     "Description": "",
     "Url": "https://support.office.com/it-it/client/99d33aaa-0743-47c6-a476-eb0a24abcb7e?embed=true",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
