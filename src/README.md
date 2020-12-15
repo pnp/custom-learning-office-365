@@ -25,7 +25,7 @@ There are various settings that are required, please review the manual installat
 
 ### Tooling
 
-Node.js version >=8.9.4 <9.0.0 is required to build this project.
+Node.js version 10.x is required to build this project.
 
 ## Known Issues
 
