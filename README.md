@@ -36,7 +36,7 @@ THIS CODE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPL
 
 ![drop](https://img.shields.io/badge/drop-4.1.4-green.svg)
 
-For a list of issues/updates made in each release see the [Change Log](./installation/ChangeLog.md).
+For a list of issues/updates made in each release see the [CHANGELOG](CHANGELOG.md).
 
 >**CRITICAL: Version 4.x.x Upgrade Notice**
 >
