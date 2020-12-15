@@ -84,7 +84,7 @@ We encourage you to install the Microsoft 365 learning pathways solution using t
 
 ### Sharepoint Framework Version
 
-![drop](https://img.shields.io/badge/drop-1.10.0-green.svg)
+![drop](https://img.shields.io/badge/drop-1.11.0-green.svg)
 
 The Microsoft Custom Learning Web Part is build using the [SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview). To manually install and configure the web part and site collection you will need to complete the steps outlined in the [Manually installing and configuring Microsoft 365 learning pathways Instructions](./installation/README.md)
 
@@ -120,3 +120,9 @@ If you find you're having difficulty installing the solution, have found what yo
 
 - This repository is set up to handle three issue types, please choose the one that best represents your reason for submitting (Question, Bug, Enhancement) and then please attempt to fill in the issue template as best as you can. We have created them to help us help expedite a solution.
 - Please **DO NOT** submit a response to a closed issue. If you have the same issue, or a related issue please start a new issue and reference the closed issue(s) by using the pound (#) sign and the issue number, e.g. Related to #1. If you respond to a closed issue you will either not get a response or you may eventually be asked to submit a new issue as we will prioritize open issues.
+
+## Code of Conduct
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+
+### "Sharing is Caring"
