@@ -1,0 +1,1117 @@
+[
+  {
+    "localeId": 1025,
+    "description": "Arabe : Arabie saoudite",
+    "code": "ar-SA"
+  },
+  {
+    "localeId": 1026,
+    "description": "Bulgarian",
+    "code": "bg-BG"
+  },
+  {
+    "localeId": 1027,
+    "description": "Catalan",
+    "code": "ca-ES"
+  },
+  {
+    "localeId": 1028,
+    "description": "Chinois : Taiwan",
+    "code": "zh-TW"
+  },
+  {
+    "localeId": 1029,
+    "description": "Czech",
+    "code": "cs-CZ"
+  },
+  {
+    "localeId": 1030,
+    "description": "Danish",
+    "code": "da-DK"
+  },
+  {
+    "localeId": 1031,
+    "description": "Allemand : Allemagne",
+    "code": "de-DE"
+  },
+  {
+    "localeId": 1032,
+    "description": "Greek",
+    "code": "el-GR"
+  },
+  {
+    "localeId": 1033,
+    "description": "Anglais (États-Unis)",
+    "code": "en-US"
+  },
+  {
+    "localeId": 1034,
+    "description": "Espagnol : Espagne (tri traditionnel)",
+    "code": "es-ES"
+  },
+  {
+    "localeId": 1035,
+    "description": "Finnish",
+    "code": "fi-FI"
+  },
+  {
+    "localeId": 1036,
+    "description": "Français : France",
+    "code": "fr-FR"
+  },
+  {
+    "localeId": 1037,
+    "description": "Hebrew",
+    "code": "he-IL"
+  },
+  {
+    "localeId": 1038,
+    "description": "Hungarian",
+    "code": "hu-HU"
+  },
+  {
+    "localeId": 1039,
+    "description": "Islandais",
+    "code": "is-IS"
+  },
+  {
+    "localeId": 1040,
+    "description": "Italien - Italie",
+    "code": "it-IT"
+  },
+  {
+    "localeId": 1041,
+    "description": "Japanese",
+    "code": "ja-JP"
+  },
+  {
+    "localeId": 1042,
+    "description": "Korean",
+    "code": "ko-KR"
+  },
+  {
+    "localeId": 1043,
+    "description": "Néerlandais : Pays-Bas",
+    "code": "nl-NL"
+  },
+  {
+    "localeId": 1044,
+    "description": "Norvégien (Bokmål)",
+    "code": "nb-NO"
+  },
+  {
+    "localeId": 1045,
+    "description": "Polish",
+    "code": "pl-PL"
+  },
+  {
+    "localeId": 1046,
+    "description": "Brésil : Portugais",
+    "code": "pt-BR"
+  },
+  {
+    "localeId": 1047,
+    "description": "Rhaeto : Romanic",
+    "code": "rm-CH"
+  },
+  {
+    "localeId": 1048,
+    "description": "Romanian",
+    "code": "ro-RO"
+  },
+  {
+    "localeId": 1049,
+    "description": "Russian",
+    "code": "ru-RU"
+  },
+  {
+    "localeId": 1050,
+    "description": "Croatian",
+    "code": "hr-HR"
+  },
+  {
+    "localeId": 1051,
+    "description": "Slovak",
+    "code": "sk-SK"
+  },
+  {
+    "localeId": 1052,
+    "description": "Albanais : Albanie",
+    "code": "sq-AL"
+  },
+  {
+    "localeId": 1053,
+    "description": "Swedish",
+    "code": "sv-SE"
+  },
+  {
+    "localeId": 1054,
+    "description": "Thaï",
+    "code": "th-TH"
+  },
+  {
+    "localeId": 1055,
+    "description": "Turkish",
+    "code": "tr-TR"
+  },
+  {
+    "localeId": 1056,
+    "description": "Urdu : Pakistan",
+    "code": "ur-PK"
+  },
+  {
+    "localeId": 1057,
+    "description": "Indonesian",
+    "code": "id-ID"
+  },
+  {
+    "localeId": 1058,
+    "description": "Ukrainian",
+    "code": "uk-UA"
+  },
+  {
+    "localeId": 1059,
+    "description": "Bélarusse",
+    "code": "be-BY"
+  },
+  {
+    "localeId": 1060,
+    "description": "Slovenian",
+    "code": "sl-SI"
+  },
+  {
+    "localeId": 1061,
+    "description": "Estonian",
+    "code": "et-EE"
+  },
+  {
+    "localeId": 1062,
+    "description": "Latvian",
+    "code": "lv-LV"
+  },
+  {
+    "localeId": 1063,
+    "description": "Lithuanian",
+    "code": "lt-LT"
+  },
+  {
+    "localeId": 1064,
+    "description": "Tadjik",
+    "code": "tg-Cyrl-TJ"
+  },
+  {
+    "localeId": 1065,
+    "description": "Perse",
+    "code": "fa-IR"
+  },
+  {
+    "localeId": 1066,
+    "description": "Vietnamese",
+    "code": "vi-VN"
+  },
+  {
+    "localeId": 1067,
+    "description": "Arménien : Arménie",
+    "code": "hy-AM"
+  },
+  {
+    "localeId": 1068,
+    "description": "Azéri (latin)",
+    "code": "az-Latn-AZ"
+  },
+  {
+    "localeId": 1069,
+    "description": "Basque",
+    "code": "eu-ES"
+  },
+  {
+    "localeId": 1070,
+    "description": "Sorabe",
+    "code": "wen-DE"
+  },
+  {
+    "localeId": 1071,
+    "description": "F.Y.R.O. Macédonien (Macédoine du Nord)\n",
+    "code": "mk-MK"
+  },
+  {
+    "localeId": 1072,
+    "description": "Sutu",
+    "code": "st-ZA"
+  },
+  {
+    "localeId": 1073,
+    "description": "Tsonga",
+    "code": "ts-ZA"
+  },
+  {
+    "localeId": 1074,
+    "description": "Tswana",
+    "code": "tn-ZA"
+  },
+  {
+    "localeId": 1075,
+    "description": "Venda",
+    "code": "ven-ZA"
+  },
+  {
+    "localeId": 1076,
+    "description": "Xhosa",
+    "code": "xh-ZA"
+  },
+  {
+    "localeId": 1077,
+    "description": "Zoulou",
+    "code": "zu-ZA"
+  },
+  {
+    "localeId": 1078,
+    "description": "Afrikaans : Afrique du Sud",
+    "code": "af-ZA"
+  },
+  {
+    "localeId": 1079,
+    "description": "Géorgien",
+    "code": "ka-GE"
+  },
+  {
+    "localeId": 1080,
+    "description": "Faroese",
+    "code": "fo-FO"
+  },
+  {
+    "localeId": 1081,
+    "description": "Hindi",
+    "code": "hi-IN"
+  },
+  {
+    "localeId": 1082,
+    "description": "Maltais",
+    "code": "mt-MT"
+  },
+  {
+    "localeId": 1083,
+    "description": "Sami",
+    "code": "se-NO"
+  },
+  {
+    "localeId": 1084,
+    "description": "Gaélique (Écosse)",
+    "code": "gd-GB"
+  },
+  {
+    "localeId": 1085,
+    "description": "Yiddish",
+    "code": "yi"
+  },
+  {
+    "localeId": 1086,
+    "description": "Malais : Malaisie",
+    "code": "ms-MY"
+  },
+  {
+    "localeId": 1087,
+    "description": "Kazakh",
+    "code": "kk-KZ"
+  },
+  {
+    "localeId": 1088,
+    "description": "Kirghize (cyrillique)",
+    "code": "ky-KG"
+  },
+  {
+    "localeId": 1089,
+    "description": "Swahili",
+    "code": "sw-KE"
+  },
+  {
+    "localeId": 1090,
+    "description": "Turkmène",
+    "code": "tk-TM"
+  },
+  {
+    "localeId": 1091,
+    "description": "Ouzbek (latin)",
+    "code": "uz-Latn-UZ"
+  },
+  {
+    "localeId": 1092,
+    "description": "Tatar",
+    "code": "tt-RU"
+  },
+  {
+    "localeId": 1093,
+    "description": "Bengla (Inde)",
+    "code": "bn-IN"
+  },
+  {
+    "localeId": 1094,
+    "description": "Pendjabi",
+    "code": "pa-IN"
+  },
+  {
+    "localeId": 1095,
+    "description": "Goudjrati",
+    "code": "gu-IN"
+  },
+  {
+    "localeId": 1096,
+    "description": "Odia",
+    "code": "or-IN"
+  },
+  {
+    "localeId": 1097,
+    "description": "Tamoul",
+    "code": "ta-IN"
+  },
+  {
+    "localeId": 1098,
+    "description": "Télougou",
+    "code": "te-IN"
+  },
+  {
+    "localeId": 1099,
+    "description": "Kannada",
+    "code": "kn-IN"
+  },
+  {
+    "localeId": 1100,
+    "description": "Malayalam",
+    "code": "ml-IN"
+  },
+  {
+    "localeId": 1101,
+    "description": "Assamais",
+    "code": "as-IN"
+  },
+  {
+    "localeId": 1102,
+    "description": "Marathe",
+    "code": "mr-IN"
+  },
+  {
+    "localeId": 1103,
+    "description": "Sanskrit",
+    "code": "sa-IN"
+  },
+  {
+    "localeId": 1104,
+    "description": "Mongol (cyrillique)",
+    "code": "mn-MN"
+  },
+  {
+    "localeId": 1105,
+    "description": "Tibétain : République populaire de Chine",
+    "code": "bo-CN"
+  },
+  {
+    "localeId": 1106,
+    "description": "Gallois",
+    "code": "cy-GB"
+  },
+  {
+    "localeId": 1107,
+    "description": "Khmer",
+    "code": "km-KH"
+  },
+  {
+    "localeId": 1108,
+    "description": "Lao",
+    "code": "lo-LA"
+  },
+  {
+    "localeId": 1109,
+    "description": "Birman",
+    "code": "my-MM"
+  },
+  {
+    "localeId": 1110,
+    "description": "Galician",
+    "code": "gl-ES"
+  },
+  {
+    "localeId": 1111,
+    "description": "Konkani",
+    "code": "kok-IN"
+  },
+  {
+    "localeId": 1112,
+    "description": "Manipuri",
+    "code": "mni"
+  },
+  {
+    "localeId": 1113,
+    "description": "Sindhi : Inde",
+    "code": "sd-IN"
+  },
+  {
+    "localeId": 1114,
+    "description": "Syriaque",
+    "code": "syr-SY"
+  },
+  {
+    "localeId": 1115,
+    "description": "Sinhalese : Sri Lanka",
+    "code": "si-LK"
+  },
+  {
+    "localeId": 1116,
+    "description": "Cherokee : États-Unis",
+    "code": "chr-US"
+  },
+  {
+    "localeId": 1117,
+    "description": "Inuktitut",
+    "code": "iu-Cans-CA"
+  },
+  {
+    "localeId": 1118,
+    "description": "Amharique : Éthiopie",
+    "code": "am-ET"
+  },
+  {
+    "localeId": 1119,
+    "description": "Tamazight (arabe)",
+    "code": "tmz"
+  },
+  {
+    "localeId": 1120,
+    "description": "Kashmiri (arabe)",
+    "code": "ks-Arab-IN"
+  },
+  {
+    "localeId": 1121,
+    "description": "Népalais",
+    "code": "ne-NP"
+  },
+  {
+    "localeId": 1122,
+    "description": "Frison : Pays-Bas",
+    "code": "fy-NL"
+  },
+  {
+    "localeId": 1123,
+    "description": "Pachtou",
+    "code": "ps-AF"
+  },
+  {
+    "localeId": 1124,
+    "description": "Filipino",
+    "code": "fil-PH"
+  },
+  {
+    "localeId": 1125,
+    "description": "Divehi",
+    "code": "dv-MV"
+  },
+  {
+    "localeId": 1126,
+    "description": "Edo",
+    "code": "bin-NG"
+  },
+  {
+    "localeId": 1127,
+    "description": "Fulfulde : Nigeria",
+    "code": "fuv-NG"
+  },
+  {
+    "localeId": 1128,
+    "description": "Haoussa : Nigéria",
+    "code": "ha-Latn-NG"
+  },
+  {
+    "localeId": 1129,
+    "description": "Ibibio : Nigeria",
+    "code": "ibb-NG"
+  },
+  {
+    "localeId": 1130,
+    "description": "Yorouba",
+    "code": "yo-NG"
+  },
+  {
+    "localeId": 1131,
+    "description": "Quecha : Bolivie",
+    "code": "quz-BO"
+  },
+  {
+    "localeId": 1132,
+    "description": "Sepedi",
+    "code": "nso-ZA"
+  },
+  {
+    "localeId": 1136,
+    "description": "Igbo : Nigeria",
+    "code": "ig-NG"
+  },
+  {
+    "localeId": 1137,
+    "description": "Kanuri : Nigeria",
+    "code": "kr-NG"
+  },
+  {
+    "localeId": 1138,
+    "description": "Oromo",
+    "code": "gaz-ET"
+  },
+  {
+    "localeId": 1139,
+    "description": "Tigrigna : Éthiopie",
+    "code": "ti-ER"
+  },
+  {
+    "localeId": 1140,
+    "description": "Guarani : Paraguay",
+    "code": "gn-PY"
+  },
+  {
+    "localeId": 1141,
+    "description": "Hawaïen : États-Unis",
+    "code": "haw-US"
+  },
+  {
+    "localeId": 1142,
+    "description": "Latin",
+    "code": "la"
+  },
+  {
+    "localeId": 1143,
+    "description": "Somali",
+    "code": "so-SO"
+  },
+  {
+    "localeId": 1144,
+    "description": "Yi",
+    "code": "ii-CN"
+  },
+  {
+    "localeId": 1145,
+    "description": "Papiamentu",
+    "code": "pap-AN"
+  },
+  {
+    "localeId": 1152,
+    "description": "Ouïgour : Chine",
+    "code": "ug-Arab-CN"
+  },
+  {
+    "localeId": 1153,
+    "description": "Maori : Nouvelle-Zélande",
+    "code": "mi-NZ"
+  },
+  {
+    "localeId": 2049,
+    "description": "Arabe : Irak",
+    "code": "ar-IQ"
+  },
+  {
+    "localeId": 2052,
+    "description": "Chinois : République populaire de Chine",
+    "code": "zh-CN"
+  },
+  {
+    "localeId": 2055,
+    "description": "Allemand : Suisse",
+    "code": "de-CH"
+  },
+  {
+    "localeId": 2057,
+    "description": "Anglais : Royaume-Uni",
+    "code": "en-GB"
+  },
+  {
+    "localeId": 2058,
+    "description": "Espagnol : Mexique",
+    "code": "es-MX"
+  },
+  {
+    "localeId": 2060,
+    "description": "Français : Belgique",
+    "code": "fr-BE"
+  },
+  {
+    "localeId": 2064,
+    "description": "Italien : Suisse",
+    "code": "it-CH"
+  },
+  {
+    "localeId": 2067,
+    "description": "Néerlandais : Belgique",
+    "code": "nl-BE"
+  },
+  {
+    "localeId": 2068,
+    "description": "Norvégien (nynorsk)",
+    "code": "nn-NO"
+  },
+  {
+    "localeId": 2070,
+    "description": "Portugais : Portugal",
+    "code": "pt-PT"
+  },
+  {
+    "localeId": 2072,
+    "description": "Roumain : Moldava",
+    "code": "ro-MD"
+  },
+  {
+    "localeId": 2073,
+    "description": "Russe : Moldava",
+    "code": "ru-MD"
+  },
+  {
+    "localeId": 2074,
+    "description": "Serbe (latin)",
+    "code": "sr-Latn-CS"
+  },
+  {
+    "localeId": 2077,
+    "description": "Suédois : Finlande",
+    "code": "sv-FI"
+  },
+  {
+    "localeId": 2080,
+    "description": "Ourdou : Inde",
+    "code": "ur-IN"
+  },
+  {
+    "localeId": 2092,
+    "description": "Azéri (cyrillique)",
+    "code": "az-Cyrl-AZ"
+  },
+  {
+    "localeId": 2108,
+    "description": "Écossais : Irlande",
+    "code": "ga-IE"
+  },
+  {
+    "localeId": 2110,
+    "description": "Malais : Brunei Darussalam",
+    "code": "ms-BN"
+  },
+  {
+    "localeId": 2115,
+    "description": "Ouzbek (cyrillique)",
+    "code": "uz-Cyrl-UZ"
+  },
+  {
+    "localeId": 2117,
+    "description": "Bengla (Bangladesh)",
+    "code": "bn-BD"
+  },
+  {
+    "localeId": 2118,
+    "description": "Pendjabi (Pakistan)",
+    "code": "pa-PK"
+  },
+  {
+    "localeId": 2128,
+    "description": "Mongol (mongol)",
+    "code": "mn-Mong-CN"
+  },
+  {
+    "localeId": 2129,
+    "description": "Tibétain : Bhoutan",
+    "code": "bo-BT"
+  },
+  {
+    "localeId": 2137,
+    "description": "Sindhi : Pakistan",
+    "code": "sd-PK"
+  },
+  {
+    "localeId": 2143,
+    "description": "Tamazight (Latin)",
+    "code": "tzm-Latn-DZ"
+  },
+  {
+    "localeId": 2144,
+    "description": "Kashmiri (Devanagari)",
+    "code": "ks-Deva-IN"
+  },
+  {
+    "localeId": 2145,
+    "description": "Népalais : Inde",
+    "code": "ne-IN"
+  },
+  {
+    "localeId": 2155,
+    "description": "Quecha : Équateur",
+    "code": "quz-EC"
+  },
+  {
+    "localeId": 2163,
+    "description": "Tigrigna : Eritrea",
+    "code": "ti-ET"
+  },
+  {
+    "localeId": 3073,
+    "description": "Arabe : Égypte",
+    "code": "ar-EG"
+  },
+  {
+    "localeId": 3076,
+    "description": "Chinois : Hong Kong (R.A.S.)",
+    "code": "zh-HK"
+  },
+  {
+    "localeId": 3079,
+    "description": "Allemand : Autriche",
+    "code": "de-AT"
+  },
+  {
+    "localeId": 3081,
+    "description": "Anglais : Australie",
+    "code": "en-AU"
+  },
+  {
+    "localeId": 3082,
+    "description": "Espagnol : Espagne (tri moderne)",
+    "code": "es-ES"
+  },
+  {
+    "localeId": 3084,
+    "description": "Français : Canada",
+    "code": "fr-CA"
+  },
+  {
+    "localeId": 3098,
+    "description": "Serbe (cyrillique)",
+    "code": "sr-Cyrl-CS"
+  },
+  {
+    "localeId": 3179,
+    "description": "Quecha : Pérou",
+    "code": "quz-PE"
+  },
+  {
+    "localeId": 4097,
+    "description": "Arabe : Libye",
+    "code": "ar-LY"
+  },
+  {
+    "localeId": 4100,
+    "description": "Chinois : Singapour",
+    "code": "zh-SG"
+  },
+  {
+    "localeId": 4103,
+    "description": "Allemand : Luxembourg",
+    "code": "de-LU"
+  },
+  {
+    "localeId": 4105,
+    "description": "Anglais : Canada",
+    "code": "en-CA"
+  },
+  {
+    "localeId": 4106,
+    "description": "Espagnol : Guatemala",
+    "code": "es-GT"
+  },
+  {
+    "localeId": 4108,
+    "description": "Français : Suisse",
+    "code": "fr-CH"
+  },
+  {
+    "localeId": 4122,
+    "description": "Croate (Bosnie-Herzégovine)",
+    "code": "hr-BA"
+  },
+  {
+    "localeId": 5121,
+    "description": "Arabe : Algérie",
+    "code": "ar-DZ"
+  },
+  {
+    "localeId": 5124,
+    "description": "Chinois : Macao (R.A.S.)",
+    "code": "zh-MO"
+  },
+  {
+    "localeId": 5127,
+    "description": "Allemand : Liechtenstein",
+    "code": "de-LI"
+  },
+  {
+    "localeId": 5129,
+    "description": "Anglais : Nouvelle-Zélande",
+    "code": "en-NZ"
+  },
+  {
+    "localeId": 5130,
+    "description": "Espagnol : Costa Rica",
+    "code": "es-CR"
+  },
+  {
+    "localeId": 5132,
+    "description": "Français : Luxembourg",
+    "code": "fr-LU"
+  },
+  {
+    "localeId": 5146,
+    "description": "Bosniaque (Bosnie-Herzégovine)",
+    "code": "bs-Latn-BA"
+  },
+  {
+    "localeId": 6145,
+    "description": "Arabe : Maroc",
+    "code": "ar-MO"
+  },
+  {
+    "localeId": 6153,
+    "description": "Anglais : Irlande",
+    "code": "en-IE"
+  },
+  {
+    "localeId": 6154,
+    "description": "Espagnol : Panama",
+    "code": "es-PA"
+  },
+  {
+    "localeId": 6156,
+    "description": "Français : Monaco",
+    "code": "fr-MC"
+  },
+  {
+    "localeId": 7169,
+    "description": "Arabe : Tunisie",
+    "code": "ar-TN"
+  },
+  {
+    "localeId": 7177,
+    "description": "Anglais : Afrique du Sud",
+    "code": "en-ZA"
+  },
+  {
+    "localeId": 7178,
+    "description": "Espagnol : République dominicaine",
+    "code": "es-DO"
+  },
+  {
+    "localeId": 7180,
+    "description": "Français : Antilles",
+    "code": "fr-029"
+  },
+  {
+    "localeId": 8193,
+    "description": "Arabe : Oman",
+    "code": "ar-OM"
+  },
+  {
+    "localeId": 8201,
+    "description": "Anglais : Jamaïque",
+    "code": "en-JM"
+  },
+  {
+    "localeId": 8202,
+    "description": "Espagnol : Venezuela",
+    "code": "es-VE"
+  },
+  {
+    "localeId": 8204,
+    "description": "Anglais : réunion",
+    "code": "fr-RE"
+  },
+  {
+    "localeId": 9217,
+    "description": "Arabe : Yémen",
+    "code": "ar-YE"
+  },
+  {
+    "localeId": 9225,
+    "description": "Anglais : Caraïbes",
+    "code": "en-029"
+  },
+  {
+    "localeId": 9226,
+    "description": "Espagnol : Colombie",
+    "code": "es-CO"
+  },
+  {
+    "localeId": 9228,
+    "description": "Français : République démocratique du Congo",
+    "code": "fr-CG"
+  },
+  {
+    "localeId": 10241,
+    "description": "Arabe : Syrie",
+    "code": "ar-SY"
+  },
+  {
+    "localeId": 10249,
+    "description": "Anglais : Belize",
+    "code": "en-BZ"
+  },
+  {
+    "localeId": 10250,
+    "description": "Espagnol : Pérou",
+    "code": "es-PE"
+  },
+  {
+    "localeId": 10252,
+    "description": "Français : Sénégal",
+    "code": "fr-SN"
+  },
+  {
+    "localeId": 11265,
+    "description": "Arabe : Jordanie",
+    "code": "ar-JO"
+  },
+  {
+    "localeId": 11273,
+    "description": "Anglais : Île de la Trinité",
+    "code": "en-TT"
+  },
+  {
+    "localeId": 11274,
+    "description": "Espagnol : Argentine",
+    "code": "es-AR"
+  },
+  {
+    "localeId": 11276,
+    "description": "Français : Cameroun",
+    "code": "fr-CM"
+  },
+  {
+    "localeId": 12289,
+    "description": "Arabe : Liban",
+    "code": "ar-LB"
+  },
+  {
+    "localeId": 12297,
+    "description": "Anglais : Zimbabwe",
+    "code": "en-ZW"
+  },
+  {
+    "localeId": 12298,
+    "description": "Espagnol : Équateur",
+    "code": "es-EC"
+  },
+  {
+    "localeId": 12300,
+    "description": "Français : Côte d’Ivoire",
+    "code": "fr-CI"
+  },
+  {
+    "localeId": 13313,
+    "description": "Arabe : Koweït",
+    "code": "ar-KW"
+  },
+  {
+    "localeId": 13321,
+    "description": "Anglais : Philippines",
+    "code": "en-PH"
+  },
+  {
+    "localeId": 13322,
+    "description": "Espagnol : Chili",
+    "code": "es-CL"
+  },
+  {
+    "localeId": 13324,
+    "description": "Français : Mali",
+    "code": "fr-ML"
+  },
+  {
+    "localeId": 14337,
+    "description": "Arabe : Émirats arabes unis",
+    "code": "ar-AE"
+  },
+  {
+    "localeId": 14345,
+    "description": "Anglais : Indonésie",
+    "code": "en-ID"
+  },
+  {
+    "localeId": 14346,
+    "description": "Espagnol : Uruguay",
+    "code": "es-UY"
+  },
+  {
+    "localeId": 14348,
+    "description": "Français : Maroc",
+    "code": "fr-MA"
+  },
+  {
+    "localeId": 15361,
+    "description": "Arabe : Bahreïn",
+    "code": "ar-BH"
+  },
+  {
+    "localeId": 15369,
+    "description": "Anglais : Hong Kong (R.A.S.)",
+    "code": "en-HK"
+  },
+  {
+    "localeId": 15370,
+    "description": "Espagnol : Paraguay",
+    "code": "es-PY"
+  },
+  {
+    "localeId": 15372,
+    "description": "Français : Haïti",
+    "code": "fr-HT"
+  },
+  {
+    "localeId": 16385,
+    "description": "Arabe : Qatar",
+    "code": "ar-QA"
+  },
+  {
+    "localeId": 16393,
+    "description": "Anglais : Inde",
+    "code": "en-IN"
+  },
+  {
+    "localeId": 16394,
+    "description": "Espagnol : Bolivie",
+    "code": "es-BO"
+  },
+  {
+    "localeId": 17417,
+    "description": "Anglais : Malaisie",
+    "code": "en-MY"
+  },
+  {
+    "localeId": 17418,
+    "description": "Espagnol : Salvador",
+    "code": "es-SV"
+  },
+  {
+    "localeId": 18441,
+    "description": "Anglais : Singapour",
+    "code": "en-SG"
+  },
+  {
+    "localeId": 18442,
+    "description": "Espagnol : Honduras",
+    "code": "es-HN"
+  },
+  {
+    "localeId": 19466,
+    "description": "Espagnol : Nicaragua",
+    "code": "es-NI"
+  },
+  {
+    "localeId": 20490,
+    "description": "Espagnol : Porto Rico",
+    "code": "es-PR"
+  },
+  {
+    "localeId": 21514,
+    "description": "Espagnol : États-Unis",
+    "code": "es-US"
+  },
+  {
+    "localeId": 58378,
+    "description": "Espagnol : Amérique latine",
+    "code": "es-419"
+  },
+  {
+    "localeId": 58380,
+    "description": "Français : Afrique du Nord",
+    "code": "fr-015"
+  }
+]

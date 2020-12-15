@@ -38,7 +38,7 @@
 
 ## Version 4.0.0
 
-**This version is a major release that includes new features and updates to the underlying data structure. It will support updating from either the version 2.x or 3.x of the learning pathways solution. You should take appropriate caution when updating to this version of the web part by backing up your learning pathways master site content, specifically your custom subcategories, custom playlists, and custom assets. Please see [Backup Playlist Content](./webpart/BackupInstructions.md) for more detail instructions.**
+**This version is a major release that includes new features and updates to the underlying data structure. It will support updating from either the version 2.x or 3.x of the learning pathways solution. You should take appropriate caution when updating to this version of the web part by backing up your learning pathways master site content, specifically your custom subcategories, custom playlists, and custom assets. Please see [Backup Playlist Content](./installation/BackupInstructions.md) for more detail instructions.**
 
 Before updating **please** review the [Adding Multilingual Support](./AddingMultilingualSupport.md) document to completely familiarize yourself with the different options. Taking a few minutes to review the 3 scenarios could save significant problems with your update process.
 
@@ -82,7 +82,7 @@ For more information about what features are released please refer to the follow
 
 ## Version 3.0.0
 
-**This version is a major release that includes new features and updates to the underlying data structure. You should take appropriate caution when updating to this version of the web part by backing up your learning pathways master site content, specifically your custom subcategories, custom playlists, and custom assets. Please see [Backup Playlist Content](./webpart/BackupInstructions.md) for more detail instructions.**
+**This version is a major release that includes new features and updates to the underlying data structure. You should take appropriate caution when updating to this version of the web part by backing up your learning pathways master site content, specifically your custom subcategories, custom playlists, and custom assets. Please see [Backup Playlist Content](./installation/BackupInstructions.md) for more detail instructions.**
 
 For more information about what features are released please refer to the following article: [Microsoft 365 learning pathways feature updates](https://docs.microsoft.com/en-us/office365/customlearning/custom_featureupdates).
 

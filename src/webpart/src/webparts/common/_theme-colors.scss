@@ -1,0 +1,38 @@
+$c-light-gray: #EAEAEA;
+$c-light-gray: rgb(234, 234, 234);
+$c-light-gray: $ouif-bodyText;
+$c-light-gray-darken: $ouif-bodyText;
+$c-blue: #0078DB;
+$c-gray: #9e5b5b;
+$c-gray: $ouif-bodyText;
+$c-background: $ouif-bodyBackground;
+
+:global {
+  .playerctrl {
+    background-color: "[theme:bodyBackground]";
+  }
+
+  .category-label {
+    background-color: $ouif-bodyBackground;
+    color: $ouif-bodyText;
+  }
+
+  .iconbutton {
+    color: $ouif-bodyText;
+
+    svg {
+      fill: $ouif-primaryButtonBackground;
+    }
+
+    &.selected,
+    &:hover {
+      background-color: $ouif-primaryButtonBackgroundHovered;
+      color: $ouif-primaryButtonBackground;
+
+      svg {
+        fill: $ouif-primaryButtonBackground;
+      }
+    }
+  }
+
+}

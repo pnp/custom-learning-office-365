@@ -1,0 +1,1117 @@
+[
+  {
+    "localeId": 1025,
+    "description": "Арабский (Саудовская Аравия)",
+    "code": "ar-SA"
+  },
+  {
+    "localeId": 1026,
+    "description": "Bulgarian",
+    "code": "bg-BG"
+  },
+  {
+    "localeId": 1027,
+    "description": "Catalan",
+    "code": "ca-ES"
+  },
+  {
+    "localeId": 1028,
+    "description": "Китайский (Тайвань)",
+    "code": "zh-TW"
+  },
+  {
+    "localeId": 1029,
+    "description": "Czech",
+    "code": "cs-CZ"
+  },
+  {
+    "localeId": 1030,
+    "description": "Danish",
+    "code": "da-DK"
+  },
+  {
+    "localeId": 1031,
+    "description": "Немецкий (Германия)",
+    "code": "de-DE"
+  },
+  {
+    "localeId": 1032,
+    "description": "Greek",
+    "code": "el-GR"
+  },
+  {
+    "localeId": 1033,
+    "description": "Английский (США)",
+    "code": "en-US"
+  },
+  {
+    "localeId": 1034,
+    "description": "Испанский (Испания, традиционная сортировка)",
+    "code": "es-ES"
+  },
+  {
+    "localeId": 1035,
+    "description": "Finnish",
+    "code": "fi-FI"
+  },
+  {
+    "localeId": 1036,
+    "description": "Французский (Франция)",
+    "code": "fr-FR"
+  },
+  {
+    "localeId": 1037,
+    "description": "Hebrew",
+    "code": "he-IL"
+  },
+  {
+    "localeId": 1038,
+    "description": "Hungarian",
+    "code": "hu-HU"
+  },
+  {
+    "localeId": 1039,
+    "description": "Исландский",
+    "code": "is-IS"
+  },
+  {
+    "localeId": 1040,
+    "description": "Итальянский (Италия)",
+    "code": "it-IT"
+  },
+  {
+    "localeId": 1041,
+    "description": "Japanese",
+    "code": "ja-JP"
+  },
+  {
+    "localeId": 1042,
+    "description": "Korean",
+    "code": "ko-KR"
+  },
+  {
+    "localeId": 1043,
+    "description": "Нидерландский (Нидерланды)",
+    "code": "nl-NL"
+  },
+  {
+    "localeId": 1044,
+    "description": "Норвежский (букмол)",
+    "code": "nb-NO"
+  },
+  {
+    "localeId": 1045,
+    "description": "Polish",
+    "code": "pl-PL"
+  },
+  {
+    "localeId": 1046,
+    "description": "Португальский (Бразилия)",
+    "code": "pt-BR"
+  },
+  {
+    "localeId": 1047,
+    "description": "Ретороманский",
+    "code": "rm-CH"
+  },
+  {
+    "localeId": 1048,
+    "description": "Romanian",
+    "code": "ro-RO"
+  },
+  {
+    "localeId": 1049,
+    "description": "Russian",
+    "code": "ru-RU"
+  },
+  {
+    "localeId": 1050,
+    "description": "Croatian",
+    "code": "hr-HR"
+  },
+  {
+    "localeId": 1051,
+    "description": "Slovak",
+    "code": "sk-SK"
+  },
+  {
+    "localeId": 1052,
+    "description": "Албанский (Албания)",
+    "code": "sq-AL"
+  },
+  {
+    "localeId": 1053,
+    "description": "Swedish",
+    "code": "sv-SE"
+  },
+  {
+    "localeId": 1054,
+    "description": "тайский;",
+    "code": "th-TH"
+  },
+  {
+    "localeId": 1055,
+    "description": "Turkish",
+    "code": "tr-TR"
+  },
+  {
+    "localeId": 1056,
+    "description": "Урду (Пакистан)",
+    "code": "ur-PK"
+  },
+  {
+    "localeId": 1057,
+    "description": "Indonesian",
+    "code": "id-ID"
+  },
+  {
+    "localeId": 1058,
+    "description": "Ukrainian",
+    "code": "uk-UA"
+  },
+  {
+    "localeId": 1059,
+    "description": "Белорусский",
+    "code": "be-BY"
+  },
+  {
+    "localeId": 1060,
+    "description": "Slovenian",
+    "code": "sl-SI"
+  },
+  {
+    "localeId": 1061,
+    "description": "Estonian",
+    "code": "et-EE"
+  },
+  {
+    "localeId": 1062,
+    "description": "Latvian",
+    "code": "lv-LV"
+  },
+  {
+    "localeId": 1063,
+    "description": "Lithuanian",
+    "code": "lt-LT"
+  },
+  {
+    "localeId": 1064,
+    "description": "Таджикский",
+    "code": "tg-Cyrl-TJ"
+  },
+  {
+    "localeId": 1065,
+    "description": "Персидский",
+    "code": "fa-IR"
+  },
+  {
+    "localeId": 1066,
+    "description": "Vietnamese",
+    "code": "vi-VN"
+  },
+  {
+    "localeId": 1067,
+    "description": "Армянский (Армения)",
+    "code": "hy-AM"
+  },
+  {
+    "localeId": 1068,
+    "description": "Азербайджанский (латиница)",
+    "code": "az-Latn-AZ"
+  },
+  {
+    "localeId": 1069,
+    "description": "Basque",
+    "code": "eu-ES"
+  },
+  {
+    "localeId": 1070,
+    "description": "Вендский",
+    "code": "wen-DE"
+  },
+  {
+    "localeId": 1071,
+    "description": "Северная Македония Македонский",
+    "code": "mk-MK"
+  },
+  {
+    "localeId": 1072,
+    "description": "Суто",
+    "code": "st-ZA"
+  },
+  {
+    "localeId": 1073,
+    "description": "Тсонга",
+    "code": "ts-ZA"
+  },
+  {
+    "localeId": 1074,
+    "description": "Тсвана",
+    "code": "tn-ZA"
+  },
+  {
+    "localeId": 1075,
+    "description": "Венда",
+    "code": "ven-ZA"
+  },
+  {
+    "localeId": 1076,
+    "description": "Коса",
+    "code": "xh-ZA"
+  },
+  {
+    "localeId": 1077,
+    "description": "Зулусский",
+    "code": "zu-ZA"
+  },
+  {
+    "localeId": 1078,
+    "description": "Африкаанс (ЮАР)",
+    "code": "af-ZA"
+  },
+  {
+    "localeId": 1079,
+    "description": "Грузинский",
+    "code": "ka-GE"
+  },
+  {
+    "localeId": 1080,
+    "description": "Фарерский",
+    "code": "fo-FO"
+  },
+  {
+    "localeId": 1081,
+    "description": "Hindi",
+    "code": "hi-IN"
+  },
+  {
+    "localeId": 1082,
+    "description": "Мальтийский",
+    "code": "mt-MT"
+  },
+  {
+    "localeId": 1083,
+    "description": "Саамский",
+    "code": "se-NO"
+  },
+  {
+    "localeId": 1084,
+    "description": "Шотландский гэльский (Соединенное Королевство)",
+    "code": "gd-GB"
+  },
+  {
+    "localeId": 1085,
+    "description": "Идиш",
+    "code": "yi"
+  },
+  {
+    "localeId": 1086,
+    "description": "Малайский (Малайзия)",
+    "code": "ms-MY"
+  },
+  {
+    "localeId": 1087,
+    "description": "Kazakh",
+    "code": "kk-KZ"
+  },
+  {
+    "localeId": 1088,
+    "description": "Киргизский (кириллица)",
+    "code": "ky-KG"
+  },
+  {
+    "localeId": 1089,
+    "description": "Суахили",
+    "code": "sw-KE"
+  },
+  {
+    "localeId": 1090,
+    "description": "Туркменский",
+    "code": "tk-TM"
+  },
+  {
+    "localeId": 1091,
+    "description": "Узбекский (латиница)",
+    "code": "uz-Latn-UZ"
+  },
+  {
+    "localeId": 1092,
+    "description": "Татарский",
+    "code": "tt-RU"
+  },
+  {
+    "localeId": 1093,
+    "description": "Бенгальский (Индия)",
+    "code": "bn-IN"
+  },
+  {
+    "localeId": 1094,
+    "description": "Панджаби",
+    "code": "pa-IN"
+  },
+  {
+    "localeId": 1095,
+    "description": "Гуджарати",
+    "code": "gu-IN"
+  },
+  {
+    "localeId": 1096,
+    "description": "Ория",
+    "code": "or-IN"
+  },
+  {
+    "localeId": 1097,
+    "description": "Тамильский",
+    "code": "ta-IN"
+  },
+  {
+    "localeId": 1098,
+    "description": "Телугу",
+    "code": "te-IN"
+  },
+  {
+    "localeId": 1099,
+    "description": "Каннада",
+    "code": "kn-IN"
+  },
+  {
+    "localeId": 1100,
+    "description": "Малаялам",
+    "code": "ml-IN"
+  },
+  {
+    "localeId": 1101,
+    "description": "Ассамский",
+    "code": "as-IN"
+  },
+  {
+    "localeId": 1102,
+    "description": "Маратхи",
+    "code": "mr-IN"
+  },
+  {
+    "localeId": 1103,
+    "description": "санскрит",
+    "code": "sa-IN"
+  },
+  {
+    "localeId": 1104,
+    "description": "Монгольский (кириллица)",
+    "code": "mn-MN"
+  },
+  {
+    "localeId": 1105,
+    "description": "Тибетский (КНР)",
+    "code": "bo-CN"
+  },
+  {
+    "localeId": 1106,
+    "description": "Валлийский",
+    "code": "cy-GB"
+  },
+  {
+    "localeId": 1107,
+    "description": "Кхмерский",
+    "code": "km-KH"
+  },
+  {
+    "localeId": 1108,
+    "description": "Лаос",
+    "code": "lo-LA"
+  },
+  {
+    "localeId": 1109,
+    "description": "Бирманский",
+    "code": "my-MM"
+  },
+  {
+    "localeId": 1110,
+    "description": "Galician",
+    "code": "gl-ES"
+  },
+  {
+    "localeId": 1111,
+    "description": "Конкани",
+    "code": "kok-IN"
+  },
+  {
+    "localeId": 1112,
+    "description": "Манипури",
+    "code": "mni"
+  },
+  {
+    "localeId": 1113,
+    "description": "Синдхи (Индия)",
+    "code": "sd-IN"
+  },
+  {
+    "localeId": 1114,
+    "description": "Сирийский",
+    "code": "syr-SY"
+  },
+  {
+    "localeId": 1115,
+    "description": "Сингальский (Шри-Ланка)",
+    "code": "si-LK"
+  },
+  {
+    "localeId": 1116,
+    "description": "Чероки (США)",
+    "code": "chr-US"
+  },
+  {
+    "localeId": 1117,
+    "description": "Inuktitut",
+    "code": "iu-Cans-CA"
+  },
+  {
+    "localeId": 1118,
+    "description": "Амхарский (Эфиопия)",
+    "code": "am-ET"
+  },
+  {
+    "localeId": 1119,
+    "description": "Тамазигхт (арабское письмо)",
+    "code": "tmz"
+  },
+  {
+    "localeId": 1120,
+    "description": "Кашмири (арабское письмо)",
+    "code": "ks-Arab-IN"
+  },
+  {
+    "localeId": 1121,
+    "description": "Непальский",
+    "code": "ne-NP"
+  },
+  {
+    "localeId": 1122,
+    "description": "Фризский (Нидерланды)",
+    "code": "fy-NL"
+  },
+  {
+    "localeId": 1123,
+    "description": "Пушту",
+    "code": "ps-AF"
+  },
+  {
+    "localeId": 1124,
+    "description": "Филиппинский",
+    "code": "fil-PH"
+  },
+  {
+    "localeId": 1125,
+    "description": "Мальдивский",
+    "code": "dv-MV"
+  },
+  {
+    "localeId": 1126,
+    "description": "Эдо",
+    "code": "bin-NG"
+  },
+  {
+    "localeId": 1127,
+    "description": "Фульфульде (Нигерия)",
+    "code": "fuv-NG"
+  },
+  {
+    "localeId": 1128,
+    "description": "Хауса (Нигерия)",
+    "code": "ha-Latn-NG"
+  },
+  {
+    "localeId": 1129,
+    "description": "Ибибио (Нигерия)",
+    "code": "ibb-NG"
+  },
+  {
+    "localeId": 1130,
+    "description": "Йоруба",
+    "code": "yo-NG"
+  },
+  {
+    "localeId": 1131,
+    "description": "Кечуа (Боливия)",
+    "code": "quz-BO"
+  },
+  {
+    "localeId": 1132,
+    "description": "Сепеди",
+    "code": "nso-ZA"
+  },
+  {
+    "localeId": 1136,
+    "description": "Игбо (Нигерия)",
+    "code": "ig-NG"
+  },
+  {
+    "localeId": 1137,
+    "description": "Канури (Нигерия)",
+    "code": "kr-NG"
+  },
+  {
+    "localeId": 1138,
+    "description": "Оромо",
+    "code": "gaz-ET"
+  },
+  {
+    "localeId": 1139,
+    "description": "Тигринья (Эфиопия)",
+    "code": "ti-ER"
+  },
+  {
+    "localeId": 1140,
+    "description": "Гуарани (Парагвай)",
+    "code": "gn-PY"
+  },
+  {
+    "localeId": 1141,
+    "description": "Гавайский (США)",
+    "code": "haw-US"
+  },
+  {
+    "localeId": 1142,
+    "description": "Латинский",
+    "code": "la"
+  },
+  {
+    "localeId": 1143,
+    "description": "Сомалийский",
+    "code": "so-SO"
+  },
+  {
+    "localeId": 1144,
+    "description": "Ий",
+    "code": "ii-CN"
+  },
+  {
+    "localeId": 1145,
+    "description": "Папьяменто",
+    "code": "pap-AN"
+  },
+  {
+    "localeId": 1152,
+    "description": "Уйгурский (Китай)",
+    "code": "ug-Arab-CN"
+  },
+  {
+    "localeId": 1153,
+    "description": "Маори (Новая Зеландия)",
+    "code": "mi-NZ"
+  },
+  {
+    "localeId": 2049,
+    "description": "Арабский (Ирак)",
+    "code": "ar-IQ"
+  },
+  {
+    "localeId": 2052,
+    "description": "Китайский (КНР)",
+    "code": "zh-CN"
+  },
+  {
+    "localeId": 2055,
+    "description": "Немецкий (Швейцария)",
+    "code": "de-CH"
+  },
+  {
+    "localeId": 2057,
+    "description": "Английский (Соединенное Королевство)",
+    "code": "en-GB"
+  },
+  {
+    "localeId": 2058,
+    "description": "Испанский (Мексика)",
+    "code": "es-MX"
+  },
+  {
+    "localeId": 2060,
+    "description": "Французский (Бельгия)",
+    "code": "fr-BE"
+  },
+  {
+    "localeId": 2064,
+    "description": "Итальянский (Швейцария)",
+    "code": "it-CH"
+  },
+  {
+    "localeId": 2067,
+    "description": "Нидерландский (Бельгия)",
+    "code": "nl-BE"
+  },
+  {
+    "localeId": 2068,
+    "description": "Норвежский (нюнорск)",
+    "code": "nn-NO"
+  },
+  {
+    "localeId": 2070,
+    "description": "Португальский (Португалия)",
+    "code": "pt-PT"
+  },
+  {
+    "localeId": 2072,
+    "description": "Румынский (Республика Молдова)",
+    "code": "ro-MD"
+  },
+  {
+    "localeId": 2073,
+    "description": "Русский (Республика Молдова)",
+    "code": "ru-MD"
+  },
+  {
+    "localeId": 2074,
+    "description": "Сербский (латиница)",
+    "code": "sr-Latn-CS"
+  },
+  {
+    "localeId": 2077,
+    "description": "Шведский (Финляндия)",
+    "code": "sv-FI"
+  },
+  {
+    "localeId": 2080,
+    "description": "Урду (Индия)",
+    "code": "ur-IN"
+  },
+  {
+    "localeId": 2092,
+    "description": "Азербайджанский (кириллица)",
+    "code": "az-Cyrl-AZ"
+  },
+  {
+    "localeId": 2108,
+    "description": "Гэльский (Ирландия)",
+    "code": "ga-IE"
+  },
+  {
+    "localeId": 2110,
+    "description": "Малайский (Бруней-Даруссалам)",
+    "code": "ms-BN"
+  },
+  {
+    "localeId": 2115,
+    "description": "Узбекский (кириллица)",
+    "code": "uz-Cyrl-UZ"
+  },
+  {
+    "localeId": 2117,
+    "description": "Бенгальский (Бангладеш)",
+    "code": "bn-BD"
+  },
+  {
+    "localeId": 2118,
+    "description": "Пенджаби (Пакистан)",
+    "code": "pa-PK"
+  },
+  {
+    "localeId": 2128,
+    "description": "Монгольский (Монголия)",
+    "code": "mn-Mong-CN"
+  },
+  {
+    "localeId": 2129,
+    "description": "Тибетский (Бутан)",
+    "code": "bo-BT"
+  },
+  {
+    "localeId": 2137,
+    "description": "Синдхи (Пакистан)",
+    "code": "sd-PK"
+  },
+  {
+    "localeId": 2143,
+    "description": "Тамазигхт (латиница)",
+    "code": "tzm-Latn-DZ"
+  },
+  {
+    "localeId": 2144,
+    "description": "Кашмири (деванагари)",
+    "code": "ks-Deva-IN"
+  },
+  {
+    "localeId": 2145,
+    "description": "Непальский (Индия)",
+    "code": "ne-IN"
+  },
+  {
+    "localeId": 2155,
+    "description": "Кечуа (Эквадор)",
+    "code": "quz-EC"
+  },
+  {
+    "localeId": 2163,
+    "description": "Тигринья (Эритрея)",
+    "code": "ti-ET"
+  },
+  {
+    "localeId": 3073,
+    "description": "Арабский (Египет)",
+    "code": "ar-EG"
+  },
+  {
+    "localeId": 3076,
+    "description": "Китайский (Гонконг, САР)",
+    "code": "zh-HK"
+  },
+  {
+    "localeId": 3079,
+    "description": "Немецкий (Австрия)",
+    "code": "de-AT"
+  },
+  {
+    "localeId": 3081,
+    "description": "Английский (Австралия)",
+    "code": "en-AU"
+  },
+  {
+    "localeId": 3082,
+    "description": "Испанский (Испания, современная сортировка)",
+    "code": "es-ES"
+  },
+  {
+    "localeId": 3084,
+    "description": "Французский (Канада)",
+    "code": "fr-CA"
+  },
+  {
+    "localeId": 3098,
+    "description": "Сербский (кириллица)",
+    "code": "sr-Cyrl-CS"
+  },
+  {
+    "localeId": 3179,
+    "description": "Кечуа (Перу)",
+    "code": "quz-PE"
+  },
+  {
+    "localeId": 4097,
+    "description": "Арабский (Ливия)",
+    "code": "ar-LY"
+  },
+  {
+    "localeId": 4100,
+    "description": "Китайский (Сингапур)",
+    "code": "zh-SG"
+  },
+  {
+    "localeId": 4103,
+    "description": "Немецкий (Люксембург)",
+    "code": "de-LU"
+  },
+  {
+    "localeId": 4105,
+    "description": "Английский (Канада)",
+    "code": "en-CA"
+  },
+  {
+    "localeId": 4106,
+    "description": "Испанский (Гватемала)",
+    "code": "es-GT"
+  },
+  {
+    "localeId": 4108,
+    "description": "Французский (Швейцария)",
+    "code": "fr-CH"
+  },
+  {
+    "localeId": 4122,
+    "description": "Хорватский (Босния и Герцеговина)",
+    "code": "hr-BA"
+  },
+  {
+    "localeId": 5121,
+    "description": "Арабский (Алжир)",
+    "code": "ar-DZ"
+  },
+  {
+    "localeId": 5124,
+    "description": "Китайский (Макао, САР)",
+    "code": "zh-MO"
+  },
+  {
+    "localeId": 5127,
+    "description": "Немецкий (Лихтенштейн)",
+    "code": "de-LI"
+  },
+  {
+    "localeId": 5129,
+    "description": "Английский (Новая Зеландия)",
+    "code": "en-NZ"
+  },
+  {
+    "localeId": 5130,
+    "description": "Испанский (Коста-Рика)",
+    "code": "es-CR"
+  },
+  {
+    "localeId": 5132,
+    "description": "Французский (Люксембург)",
+    "code": "fr-LU"
+  },
+  {
+    "localeId": 5146,
+    "description": "Боснийский (Босния и Герцеговина)",
+    "code": "bs-Latn-BA"
+  },
+  {
+    "localeId": 6145,
+    "description": "Арабский (Марокко)",
+    "code": "ar-MO"
+  },
+  {
+    "localeId": 6153,
+    "description": "Английский (Ирландия)",
+    "code": "en-IE"
+  },
+  {
+    "localeId": 6154,
+    "description": "Испанский (Панама)",
+    "code": "es-PA"
+  },
+  {
+    "localeId": 6156,
+    "description": "Французский (Монако)",
+    "code": "fr-MC"
+  },
+  {
+    "localeId": 7169,
+    "description": "Арабский (Тунис)",
+    "code": "ar-TN"
+  },
+  {
+    "localeId": 7177,
+    "description": "Английский (ЮАР)",
+    "code": "en-ZA"
+  },
+  {
+    "localeId": 7178,
+    "description": "Испанский (Доминиканская Республика)",
+    "code": "es-DO"
+  },
+  {
+    "localeId": 7180,
+    "description": "Французский (Карибский регион)",
+    "code": "fr-029"
+  },
+  {
+    "localeId": 8193,
+    "description": "Арабский (Оман)",
+    "code": "ar-OM"
+  },
+  {
+    "localeId": 8201,
+    "description": "Английский (Ямайка)",
+    "code": "en-JM"
+  },
+  {
+    "localeId": 8202,
+    "description": "Испанский (Венесуэла)",
+    "code": "es-VE"
+  },
+  {
+    "localeId": 8204,
+    "description": "Французский (Реюньон)",
+    "code": "fr-RE"
+  },
+  {
+    "localeId": 9217,
+    "description": "Арабский (Йемен)",
+    "code": "ar-YE"
+  },
+  {
+    "localeId": 9225,
+    "description": "Английский (Карибский регион)",
+    "code": "en-029"
+  },
+  {
+    "localeId": 9226,
+    "description": "Испанский (Колумбия)",
+    "code": "es-CO"
+  },
+  {
+    "localeId": 9228,
+    "description": "Французский (Демократическая Республика Конго)",
+    "code": "fr-CG"
+  },
+  {
+    "localeId": 10241,
+    "description": "Арабский (Сирия)",
+    "code": "ar-SY"
+  },
+  {
+    "localeId": 10249,
+    "description": "Английский (Белиз)",
+    "code": "en-BZ"
+  },
+  {
+    "localeId": 10250,
+    "description": "Испанский (Перу)",
+    "code": "es-PE"
+  },
+  {
+    "localeId": 10252,
+    "description": "Французский (Сенегал)",
+    "code": "fr-SN"
+  },
+  {
+    "localeId": 11265,
+    "description": "Арабский (Иордания)",
+    "code": "ar-JO"
+  },
+  {
+    "localeId": 11273,
+    "description": "Английский (Тринидад)",
+    "code": "en-TT"
+  },
+  {
+    "localeId": 11274,
+    "description": "Испанский (Аргентина)",
+    "code": "es-AR"
+  },
+  {
+    "localeId": 11276,
+    "description": "Французский (Камерун)",
+    "code": "fr-CM"
+  },
+  {
+    "localeId": 12289,
+    "description": "Арабский (Ливан)",
+    "code": "ar-LB"
+  },
+  {
+    "localeId": 12297,
+    "description": "Английский (Зимбабве)",
+    "code": "en-ZW"
+  },
+  {
+    "localeId": 12298,
+    "description": "Испанский (Эквадор)",
+    "code": "es-EC"
+  },
+  {
+    "localeId": 12300,
+    "description": "Французский (Кот д'Ивуар)",
+    "code": "fr-CI"
+  },
+  {
+    "localeId": 13313,
+    "description": "Арабский (Кувейт)",
+    "code": "ar-KW"
+  },
+  {
+    "localeId": 13321,
+    "description": "Английский (Филиппины)",
+    "code": "en-PH"
+  },
+  {
+    "localeId": 13322,
+    "description": "Испанский (Чили)",
+    "code": "es-CL"
+  },
+  {
+    "localeId": 13324,
+    "description": "Французский (Мали)",
+    "code": "fr-ML"
+  },
+  {
+    "localeId": 14337,
+    "description": "Арабский (ОАЭ)",
+    "code": "ar-AE"
+  },
+  {
+    "localeId": 14345,
+    "description": "Английский (Индонезия)",
+    "code": "en-ID"
+  },
+  {
+    "localeId": 14346,
+    "description": "Испанский (Уругвай)",
+    "code": "es-UY"
+  },
+  {
+    "localeId": 14348,
+    "description": "Французский (Марокко)",
+    "code": "fr-MA"
+  },
+  {
+    "localeId": 15361,
+    "description": "Арабский (Бахрейн)",
+    "code": "ar-BH"
+  },
+  {
+    "localeId": 15369,
+    "description": "Английский (Гонконг, САР)",
+    "code": "en-HK"
+  },
+  {
+    "localeId": 15370,
+    "description": "Испанский (Парагвай)",
+    "code": "es-PY"
+  },
+  {
+    "localeId": 15372,
+    "description": "Французский (Гаити)",
+    "code": "fr-HT"
+  },
+  {
+    "localeId": 16385,
+    "description": "Арабский (Катар)",
+    "code": "ar-QA"
+  },
+  {
+    "localeId": 16393,
+    "description": "Английский (Индия)",
+    "code": "en-IN"
+  },
+  {
+    "localeId": 16394,
+    "description": "Испанский (Боливия)",
+    "code": "es-BO"
+  },
+  {
+    "localeId": 17417,
+    "description": "Английский (Малайзия)",
+    "code": "en-MY"
+  },
+  {
+    "localeId": 17418,
+    "description": "Испанский (Сальвадор)",
+    "code": "es-SV"
+  },
+  {
+    "localeId": 18441,
+    "description": "Английский (Сингапур)",
+    "code": "en-SG"
+  },
+  {
+    "localeId": 18442,
+    "description": "Испанский (Гондурас)",
+    "code": "es-HN"
+  },
+  {
+    "localeId": 19466,
+    "description": "Испанский (Никарагуа)",
+    "code": "es-NI"
+  },
+  {
+    "localeId": 20490,
+    "description": "Испанский (Пуэрто-Рико)",
+    "code": "es-PR"
+  },
+  {
+    "localeId": 21514,
+    "description": "Испанский (США)",
+    "code": "es-US"
+  },
+  {
+    "localeId": 58378,
+    "description": "Испанский (Латинская Америка)",
+    "code": "es-419"
+  },
+  {
+    "localeId": 58380,
+    "description": "Французский (Северная Африка)",
+    "code": "fr-015"
+  }
+]

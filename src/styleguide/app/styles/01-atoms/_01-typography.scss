@@ -1,0 +1,56 @@
+.sample {
+	h1 {
+		@include default-font;
+		@include fs-xxl;
+		font-weight: 100;
+	}
+
+	h2 {
+		// @include default-font;
+		// @include fs-xl;
+	}
+
+	h3 {
+		@include default-font;
+		@include fs-l;
+	}
+
+	h3 {
+		@include default-font;
+		@include fs-l;
+	}
+
+	p {
+		@include default-font;
+		@include fs-m-plus;
+
+		font-weight: 300;
+		line-height: 1.5em;
+	}
+
+	.p-lead {
+		@include default-font;
+		@include fs-xl;
+
+		line-height: 28/12em;
+	}
+}
+
+h1 {
+	@include default-font;
+	@include fs-xxl;
+	font-weight: 100;
+}
+
+h2 {
+	@include default-font;
+	@include fs-xl2;
+}
+
+.fbcolumn {
+	flex-direction: column;
+}
+
+.fbrow {
+	flex-direction: row;
+}
