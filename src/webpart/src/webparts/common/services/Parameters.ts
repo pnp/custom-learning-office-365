@@ -1,12 +1,12 @@
 import { Logger, LogLevel } from "@pnp/logging";
 import { HttpClient } from "@microsoft/sp-http";
 import { IContentPack, IManifest, ICacheConfig, ICDN, ILocale, ICustomCDN, ICategory } from "../models/Models";
-import { IWebPartContext } from "@microsoft/sp-webpart-base";
+import { WebPartContext } from "@microsoft/sp-webpart-base";
 import forEach from "lodash/forEach";
 
 export class Parameters {
   private LOG_SOURCE = "Parameters";
-  private _context: IWebPartContext;
+  private _context: WebPartContext;
   private _httpClient: HttpClient;
   private _userRole: string;
   private _userLanguage: string;
@@ -44,11 +44,11 @@ export class Parameters {
   /**	
   * The webpart's context.
   */
-  get context(): IWebPartContext {
+  get context(): WebPartContext {
     return this._context;
   }
 
-  set context(value: IWebPartContext) {
+  set context(value: WebPartContext) {
     this._context = value;
   }
 
