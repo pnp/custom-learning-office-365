@@ -14,10 +14,12 @@ assignees: ''
 
 ### What is the context of your question
 
-- [] Installation
-- [] Administration
-- [] Custom Content
-- [] M365 learning pathways web part
+- [ ] Installation
+- [ ] Learning Pathways Content
+- [ ] SharePoint Success Content
+- [ ] Administration
+- [ ] Custom Content
+- [ ] Viewer Web Part
 
 ### What is your question
 
