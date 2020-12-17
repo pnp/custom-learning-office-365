@@ -33,7 +33,7 @@
     "gulp-stylelint": "^6.0.0",
     "gulp-useref": "^3.1.4",
     "gulp-wrap": "^0.13.0",
-    "handlebars": "^4.0.11",
+    "handlebars": "^4.5.3",
     "prismjs": "^1.9.0",
     "stylelint": "^8.4.0"
   },
