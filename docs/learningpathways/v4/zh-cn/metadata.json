@@ -345,15 +345,6 @@
           "SubjectId": null,
           "Source": "Microsoft",
           "SubCategories": []
-        },
-        {
-          "Id": "1c349520-8cca-43c3-ab41-2cb431f5accf",
-          "Name": "Power Automate",
-          "Image": "",
-          "TechnologyId": "",
-          "SubjectId": null,
-          "Source": "Microsoft",
-          "SubCategories": []
         }
       ]
     },
