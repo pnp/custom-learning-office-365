@@ -34,23 +34,23 @@ THIS CODE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPL
 
 ### Current Release Version
 
-![drop](https://img.shields.io/badge/drop-4.1.3-green.svg)
+![drop](https://img.shields.io/badge/drop-4.1.4-green.svg)
 
-For a list of issues/updates made in each release see the [Change Log](./webpart/ChangeLog.md).
+For a list of issues/updates made in each release see the [CHANGELOG](CHANGELOG.md).
 
 >**CRITICAL: Version 4.x.x Upgrade Notice**
 >
 >The version 4.x.x version is a major update and includes changes to the schema as well as support for multilingual pages.
 
->**_PLEASE_** review the content of [Adding Multilingual Support to Microsoft 365 learning pathways](./webpart/AddingMultilingualSupport.md) document before proceeding.
+>**_PLEASE_** review the content of [Adding Multilingual Support to Microsoft 365 learning pathways](./installation/AddingMultilingualSupport.md) document before proceeding.
 
->Although it has been tested thoroughly, as with any major update you should plan for the worst and back up your content first. There are many third party solutions that will assist you with this, if you do not have access to any then the simplest method is to back up your content using Microsoft Excel. Specifically all the items in the _CustomPlaylists_ and _CustomAssets_ lists plus the `CustomSubCategories` item in the _CustomConfig_ list. Please see [Backup Playlist Content](./webpart/BackupInstructions.md) for more detail instructions.
+>Although it has been tested thoroughly, as with any major update you should plan for the worst and back up your content first. There are many third party solutions that will assist you with this, if you do not have access to any then the simplest method is to back up your content using Microsoft Excel. Specifically all the items in the _CustomPlaylists_ and _CustomAssets_ lists plus the `CustomSubCategories` item in the _CustomConfig_ list. Please see [Backup Playlist Content](./installation/BackupInstructions.md) for more detail instructions.
 >
 >*Additional Update for CDN Url*
 >
->The base CDN url of the web part has changed in version 3.x.x. For the majority of users the web part will handle this change internally, however, in some instances customers who have installed learning pathways manually between July 27, 2019 and November 4, 2019 may have an invalid CDN endpoint. If after updating to version 3.x.x the content won't load, please run the [UpdateM365lpCDN.ps1](./webpart/UpdateM365lpCDN.ps1) PowerShell script to correct the CDN endpoint. Even if you do not have a problem, you may optionally run this script to update to the most optimized CDN url.
+>The base CDN url of the web part has changed in version 3.x.x. For the majority of users the web part will handle this change internally, however, in some instances customers who have installed learning pathways manually between July 27, 2019 and November 4, 2019 may have an invalid CDN endpoint. If after updating to version 3.x.x the content won't load, please run the [UpdateM365lpCDN.ps1](./installation/UpdateM365lpCDN.ps1) PowerShell script to correct the CDN endpoint. Even if you do not have a problem, you may optionally run this script to update to the most optimized CDN url.
 
-The current solution is provided in it's packaged form in the web part folder [customlearning.sppkg](./webpart/customlearning.sppkg).
+The current solution is provided in it's packaged form in the web part folder [customlearning.sppkg](./installation/customlearning.sppkg).
 
 To validate the version of the web part installed in your tenant you must have access to the tenant-wide App Catalog. The custom learning solution will be installed there and you can verify the current version number against the **_version number noted above_** (not the version in the screen shot).
 
@@ -58,7 +58,7 @@ To validate the version of the web part installed in your tenant you must have a
 
 If you find that your package is out of date, you can download it from this repository and then upload it into your tenant app catalog (you will need appropriate access to do this step).
 
-To download the SPPKG file, navigate to the [customlearning.sppkg](https://github.com/pnp/custom-learning-office-365/blob/master/webpart/customlearning.sppkg) file in the webpart folder of this repository. Select `Download` to save the file to your computer.
+To download the SPPKG file, navigate to the [customlearning.sppkg](https://github.com/pnp/custom-learning-office-365/blob/main/installation/customlearning.sppkg) file in the webpart folder of this repository. Select `Download` to save the file to your computer.
 
 ![Download SPPKG file screenshot](./images/DownloadSPPKG.png)
 
@@ -84,9 +84,9 @@ We encourage you to install the Microsoft 365 learning pathways solution using t
 
 ### Sharepoint Framework Version
 
-![drop](https://img.shields.io/badge/drop-1.10.0-green.svg)
+![drop](https://img.shields.io/badge/drop-1.11.0-green.svg)
 
-The Microsoft Custom Learning Web Part is build using the [SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview). To manually install and configure the web part and site collection you will need to complete the steps outlined in the [Manually installing and configuring Microsoft 365 learning pathways Instructions](./webpart/README.md)
+The Microsoft Custom Learning Web Part is build using the [SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview). To manually install and configure the web part and site collection you will need to complete the steps outlined in the [Manually installing and configuring Microsoft 365 learning pathways Instructions](./installation/README.md)
 
 ## Disabling telemetry collection
 
@@ -103,11 +103,14 @@ If you are not performing a manual install and would like to turn telemetry trac
 ## Changing the URL of your Microsoft 365 learning pathways site
 
 If you need to rename the url of the main Microsoft 365 learning pathways site you can do so but it will also require you to run a PowerShell script to update the Tenant App property that controls what that site URL is for the web parts. After renaming the URL in the SharePoint Admin Center or via PowerShell additionally run teh following script to update the Tenant App property.
-[UpdateM365lpSiteUrl.ps1](./webpart/UpdateM365lpSiteUrl.ps1)
+[UpdateM365lpSiteUrl.ps1](./installation/UpdateM365lpSiteUrl.ps1)
 
 ## Contributions
 
-User contributions to Microsoft 365 learning pathways are currently not being accepted.  
+- At this time **NO** pull-requests will be accepted for the `docs` folder.
+- Target your pull requests to the **dev** branch
+- Keep your pull-requests as simple as possible and describe the changes to help the reviewer understand your work
+- If you have an idea for a larger change to the library please [open an 'Enhancement Idea'](https://github.com/pnp/custom-learning-office-365/issues) and let's discuss before you invest many hours - these are very welcome but want to ensure it is something we can merge before you spend the time :)
 
 ## Getting Help
 
@@ -117,3 +120,9 @@ If you find you're having difficulty installing the solution, have found what yo
 
 - This repository is set up to handle three issue types, please choose the one that best represents your reason for submitting (Question, Bug, Enhancement) and then please attempt to fill in the issue template as best as you can. We have created them to help us help expedite a solution.
 - Please **DO NOT** submit a response to a closed issue. If you have the same issue, or a related issue please start a new issue and reference the closed issue(s) by using the pound (#) sign and the issue number, e.g. Related to #1. If you respond to a closed issue you will either not get a response or you may eventually be asked to submit a new issue as we will prioritize open issues.
+
+## Code of Conduct
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+
+### "Sharing is Caring"

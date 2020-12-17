@@ -1,0 +1,1117 @@
+[
+  {
+    "localeId": 1025,
+    "description": "Arabisch – Saudi-Arabien",
+    "code": "ar-SA"
+  },
+  {
+    "localeId": 1026,
+    "description": "Bulgarisch",
+    "code": "bg-BG"
+  },
+  {
+    "localeId": 1027,
+    "description": "Catalan",
+    "code": "ca-ES"
+  },
+  {
+    "localeId": 1028,
+    "description": "Chinesisch – Taiwan",
+    "code": "zh-TW"
+  },
+  {
+    "localeId": 1029,
+    "description": "Tschechisch",
+    "code": "cs-CZ"
+  },
+  {
+    "localeId": 1030,
+    "description": "Danish",
+    "code": "da-DK"
+  },
+  {
+    "localeId": 1031,
+    "description": "Deutsch – Deutschland",
+    "code": "de-DE"
+  },
+  {
+    "localeId": 1032,
+    "description": "Griechisch",
+    "code": "el-GR"
+  },
+  {
+    "localeId": 1033,
+    "description": "Englisch (USA)",
+    "code": "en-US"
+  },
+  {
+    "localeId": 1034,
+    "description": "Spanisch – Spanien (traditionelle Sortierung)",
+    "code": "es-ES"
+  },
+  {
+    "localeId": 1035,
+    "description": "Finnisch",
+    "code": "fi-FI"
+  },
+  {
+    "localeId": 1036,
+    "description": "Französisch – Frankreich",
+    "code": "fr-FR"
+  },
+  {
+    "localeId": 1037,
+    "description": "Hebräisch",
+    "code": "he-IL"
+  },
+  {
+    "localeId": 1038,
+    "description": "Ungarisch",
+    "code": "hu-HU"
+  },
+  {
+    "localeId": 1039,
+    "description": "Isländisch",
+    "code": "is-IS"
+  },
+  {
+    "localeId": 1040,
+    "description": "Italienisch – Italien",
+    "code": "it-IT"
+  },
+  {
+    "localeId": 1041,
+    "description": "Japanisch",
+    "code": "ja-JP"
+  },
+  {
+    "localeId": 1042,
+    "description": "Koreanisch",
+    "code": "ko-KR"
+  },
+  {
+    "localeId": 1043,
+    "description": "Niederländisch – Niederlande",
+    "code": "nl-NL"
+  },
+  {
+    "localeId": 1044,
+    "description": "Norwegisch (Bokmål)",
+    "code": "nb-NO"
+  },
+  {
+    "localeId": 1045,
+    "description": "Polnisch",
+    "code": "pl-PL"
+  },
+  {
+    "localeId": 1046,
+    "description": "Portugiesisch – Brasilien",
+    "code": "pt-BR"
+  },
+  {
+    "localeId": 1047,
+    "description": "Rätoromanisch",
+    "code": "rm-CH"
+  },
+  {
+    "localeId": 1048,
+    "description": "Rumänisch",
+    "code": "ro-RO"
+  },
+  {
+    "localeId": 1049,
+    "description": "Russisch",
+    "code": "ru-RU"
+  },
+  {
+    "localeId": 1050,
+    "description": "Kroatisch",
+    "code": "hr-HR"
+  },
+  {
+    "localeId": 1051,
+    "description": "Slowakisch",
+    "code": "sk-SK"
+  },
+  {
+    "localeId": 1052,
+    "description": "Albanisch – Albanien",
+    "code": "sq-AL"
+  },
+  {
+    "localeId": 1053,
+    "description": "Schwedisch",
+    "code": "sv-SE"
+  },
+  {
+    "localeId": 1054,
+    "description": "Thailändisch",
+    "code": "th-TH"
+  },
+  {
+    "localeId": 1055,
+    "description": "Türkisch",
+    "code": "tr-TR"
+  },
+  {
+    "localeId": 1056,
+    "description": "Urdu – Pakistan",
+    "code": "ur-PK"
+  },
+  {
+    "localeId": 1057,
+    "description": "Indonesisch",
+    "code": "id-ID"
+  },
+  {
+    "localeId": 1058,
+    "description": "Ukrainisch",
+    "code": "uk-UA"
+  },
+  {
+    "localeId": 1059,
+    "description": "Belarussisch",
+    "code": "be-BY"
+  },
+  {
+    "localeId": 1060,
+    "description": "Slovenian",
+    "code": "sl-SI"
+  },
+  {
+    "localeId": 1061,
+    "description": "Estnisch",
+    "code": "et-EE"
+  },
+  {
+    "localeId": 1062,
+    "description": "Latvian",
+    "code": "lv-LV"
+  },
+  {
+    "localeId": 1063,
+    "description": "Litauisch",
+    "code": "lt-LT"
+  },
+  {
+    "localeId": 1064,
+    "description": "Tadschikisch",
+    "code": "tg-Cyrl-TJ"
+  },
+  {
+    "localeId": 1065,
+    "description": "Persisch",
+    "code": "fa-IR"
+  },
+  {
+    "localeId": 1066,
+    "description": "Vietnamesisch",
+    "code": "vi-VN"
+  },
+  {
+    "localeId": 1067,
+    "description": "Armenisch – Armenien",
+    "code": "hy-AM"
+  },
+  {
+    "localeId": 1068,
+    "description": "Aseri (Lateinisch)",
+    "code": "az-Latn-AZ"
+  },
+  {
+    "localeId": 1069,
+    "description": "Basque",
+    "code": "eu-ES"
+  },
+  {
+    "localeId": 1070,
+    "description": "Sorbisch",
+    "code": "wen-DE"
+  },
+  {
+    "localeId": 1071,
+    "description": "F.Y.R.O. Mazedonisch",
+    "code": "mk-MK"
+  },
+  {
+    "localeId": 1072,
+    "description": "Sutu",
+    "code": "st-ZA"
+  },
+  {
+    "localeId": 1073,
+    "description": "Tsonga",
+    "code": "ts-ZA"
+  },
+  {
+    "localeId": 1074,
+    "description": "Tswana",
+    "code": "tn-ZA"
+  },
+  {
+    "localeId": 1075,
+    "description": "Venda",
+    "code": "ven-ZA"
+  },
+  {
+    "localeId": 1076,
+    "description": "Xhosa",
+    "code": "xh-ZA"
+  },
+  {
+    "localeId": 1077,
+    "description": "Zulu",
+    "code": "zu-ZA"
+  },
+  {
+    "localeId": 1078,
+    "description": "Afrikaans – Südafrika",
+    "code": "af-ZA"
+  },
+  {
+    "localeId": 1079,
+    "description": "Georgisch",
+    "code": "ka-GE"
+  },
+  {
+    "localeId": 1080,
+    "description": "Färöisch",
+    "code": "fo-FO"
+  },
+  {
+    "localeId": 1081,
+    "description": "Hindi",
+    "code": "hi-IN"
+  },
+  {
+    "localeId": 1082,
+    "description": "Maltesisch",
+    "code": "mt-MT"
+  },
+  {
+    "localeId": 1083,
+    "description": "Samisch",
+    "code": "se-NO"
+  },
+  {
+    "localeId": 1084,
+    "description": "Gälisch (Schottland)",
+    "code": "gd-GB"
+  },
+  {
+    "localeId": 1085,
+    "description": "Jiddisch",
+    "code": "yi"
+  },
+  {
+    "localeId": 1086,
+    "description": "Malaiisch – Malaysia",
+    "code": "ms-MY"
+  },
+  {
+    "localeId": 1087,
+    "description": "Kasachisch",
+    "code": "kk-KZ"
+  },
+  {
+    "localeId": 1088,
+    "description": "Kirgisisch (Kyrillisch)",
+    "code": "ky-KG"
+  },
+  {
+    "localeId": 1089,
+    "description": "Kisuaheli",
+    "code": "sw-KE"
+  },
+  {
+    "localeId": 1090,
+    "description": "Turkmenisch",
+    "code": "tk-TM"
+  },
+  {
+    "localeId": 1091,
+    "description": "Usbekisch (Lateinisch)",
+    "code": "uz-Latn-UZ"
+  },
+  {
+    "localeId": 1092,
+    "description": "Tatarisch",
+    "code": "tt-RU"
+  },
+  {
+    "localeId": 1093,
+    "description": "Bengali (Indien)",
+    "code": "bn-IN"
+  },
+  {
+    "localeId": 1094,
+    "description": "Punjabi",
+    "code": "pa-IN"
+  },
+  {
+    "localeId": 1095,
+    "description": "Gujarati",
+    "code": "gu-IN"
+  },
+  {
+    "localeId": 1096,
+    "description": "Odia",
+    "code": "or-IN"
+  },
+  {
+    "localeId": 1097,
+    "description": "Tamil",
+    "code": "ta-IN"
+  },
+  {
+    "localeId": 1098,
+    "description": "Telugu",
+    "code": "te-IN"
+  },
+  {
+    "localeId": 1099,
+    "description": "Kanadisch",
+    "code": "kn-IN"
+  },
+  {
+    "localeId": 1100,
+    "description": "Malayalam",
+    "code": "ml-IN"
+  },
+  {
+    "localeId": 1101,
+    "description": "Assamisch",
+    "code": "as-IN"
+  },
+  {
+    "localeId": 1102,
+    "description": "Marathi",
+    "code": "mr-IN"
+  },
+  {
+    "localeId": 1103,
+    "description": "Sanskrit",
+    "code": "sa-IN"
+  },
+  {
+    "localeId": 1104,
+    "description": "Mongolisch (Kyrillisch)",
+    "code": "mn-MN"
+  },
+  {
+    "localeId": 1105,
+    "description": "Tibetisch – Volksrepublik China",
+    "code": "bo-CN"
+  },
+  {
+    "localeId": 1106,
+    "description": "Walisisch",
+    "code": "cy-GB"
+  },
+  {
+    "localeId": 1107,
+    "description": "Khmer",
+    "code": "km-KH"
+  },
+  {
+    "localeId": 1108,
+    "description": "Laos",
+    "code": "lo-LA"
+  },
+  {
+    "localeId": 1109,
+    "description": "Birmanisch",
+    "code": "my-MM"
+  },
+  {
+    "localeId": 1110,
+    "description": "Gallisch",
+    "code": "gl-ES"
+  },
+  {
+    "localeId": 1111,
+    "description": "Konkani",
+    "code": "kok-IN"
+  },
+  {
+    "localeId": 1112,
+    "description": "Manipuri",
+    "code": "mni"
+  },
+  {
+    "localeId": 1113,
+    "description": "Sindhi – Indien",
+    "code": "sd-IN"
+  },
+  {
+    "localeId": 1114,
+    "description": "Syrisch",
+    "code": "syr-SY"
+  },
+  {
+    "localeId": 1115,
+    "description": "Singhalesisch – Sri Lanka",
+    "code": "si-LK"
+  },
+  {
+    "localeId": 1116,
+    "description": "Cherokee – Vereinigte Staaten",
+    "code": "chr-US"
+  },
+  {
+    "localeId": 1117,
+    "description": "Inuktitut",
+    "code": "iu-Cans-CA"
+  },
+  {
+    "localeId": 1118,
+    "description": "Amharisch – Äthiopien",
+    "code": "am-ET"
+  },
+  {
+    "localeId": 1119,
+    "description": "Tamazight (Arabisch)",
+    "code": "tmz"
+  },
+  {
+    "localeId": 1120,
+    "description": "Kaschmiri (Arabisch)",
+    "code": "ks-Arab-IN"
+  },
+  {
+    "localeId": 1121,
+    "description": "Nepalesisch",
+    "code": "ne-NP"
+  },
+  {
+    "localeId": 1122,
+    "description": "Friesisch – Niederlande",
+    "code": "fy-NL"
+  },
+  {
+    "localeId": 1123,
+    "description": "Paschtu",
+    "code": "ps-AF"
+  },
+  {
+    "localeId": 1124,
+    "description": "Filipino",
+    "code": "fil-PH"
+  },
+  {
+    "localeId": 1125,
+    "description": "Divehi",
+    "code": "dv-MV"
+  },
+  {
+    "localeId": 1126,
+    "description": "Edo",
+    "code": "bin-NG"
+  },
+  {
+    "localeId": 1127,
+    "description": "Fulfulde – Nigeria",
+    "code": "fuv-NG"
+  },
+  {
+    "localeId": 1128,
+    "description": "Haussa – Nigeria",
+    "code": "ha-Latn-NG"
+  },
+  {
+    "localeId": 1129,
+    "description": "Ibibio – Nigeria",
+    "code": "ibb-NG"
+  },
+  {
+    "localeId": 1130,
+    "description": "Yoruba",
+    "code": "yo-NG"
+  },
+  {
+    "localeId": 1131,
+    "description": "Quechua – Bolivien",
+    "code": "quz-BO"
+  },
+  {
+    "localeId": 1132,
+    "description": "Sepedi",
+    "code": "nso-ZA"
+  },
+  {
+    "localeId": 1136,
+    "description": "Igbo – Nigeria",
+    "code": "ig-NG"
+  },
+  {
+    "localeId": 1137,
+    "description": "Kanuri – Nigeria",
+    "code": "kr-NG"
+  },
+  {
+    "localeId": 1138,
+    "description": "Oromo",
+    "code": "gaz-ET"
+  },
+  {
+    "localeId": 1139,
+    "description": "Tigrinya – Äthiopien",
+    "code": "ti-ER"
+  },
+  {
+    "localeId": 1140,
+    "description": "Guarani – Paraguay",
+    "code": "gn-PY"
+  },
+  {
+    "localeId": 1141,
+    "description": "Hawaiisch – Vereinigte Staaten",
+    "code": "haw-US"
+  },
+  {
+    "localeId": 1142,
+    "description": "Latein",
+    "code": "la"
+  },
+  {
+    "localeId": 1143,
+    "description": "Somali",
+    "code": "so-SO"
+  },
+  {
+    "localeId": 1144,
+    "description": "Yi",
+    "code": "ii-CN"
+  },
+  {
+    "localeId": 1145,
+    "description": "Papiamentu",
+    "code": "pap-AN"
+  },
+  {
+    "localeId": 1152,
+    "description": "Uigurisch – China",
+    "code": "ug-Arab-CN"
+  },
+  {
+    "localeId": 1153,
+    "description": "Maori – Neuseeland",
+    "code": "mi-NZ"
+  },
+  {
+    "localeId": 2049,
+    "description": "Arabisch – Irak",
+    "code": "ar-IQ"
+  },
+  {
+    "localeId": 2052,
+    "description": "Chinesisch – Volksrepublik China",
+    "code": "zh-CN"
+  },
+  {
+    "localeId": 2055,
+    "description": "Deutsch – Schweiz",
+    "code": "de-CH"
+  },
+  {
+    "localeId": 2057,
+    "description": "Englisch – Vereinigtes Königreich",
+    "code": "en-GB"
+  },
+  {
+    "localeId": 2058,
+    "description": "Spanisch – Mexiko",
+    "code": "es-MX"
+  },
+  {
+    "localeId": 2060,
+    "description": "Französisch – Belgien",
+    "code": "fr-BE"
+  },
+  {
+    "localeId": 2064,
+    "description": "Italienisch – Schweiz",
+    "code": "it-CH"
+  },
+  {
+    "localeId": 2067,
+    "description": "Niederländisch – Belgien",
+    "code": "nl-BE"
+  },
+  {
+    "localeId": 2068,
+    "description": "Norwegisch (Nynorsk)",
+    "code": "nn-NO"
+  },
+  {
+    "localeId": 2070,
+    "description": "Portugiesisch – Portugal",
+    "code": "pt-PT"
+  },
+  {
+    "localeId": 2072,
+    "description": "Rumänisch – Republik Moldau",
+    "code": "ro-MD"
+  },
+  {
+    "localeId": 2073,
+    "description": "Russisch – Republik Moldau",
+    "code": "ru-MD"
+  },
+  {
+    "localeId": 2074,
+    "description": "Serbisch (Lateinisch)",
+    "code": "sr-Latn-CS"
+  },
+  {
+    "localeId": 2077,
+    "description": "Schwedisch – Finnland",
+    "code": "sv-FI"
+  },
+  {
+    "localeId": 2080,
+    "description": "Urdu – Indien",
+    "code": "ur-IN"
+  },
+  {
+    "localeId": 2092,
+    "description": "Aserbaidschanisch (Kyrillisch)",
+    "code": "az-Cyrl-AZ"
+  },
+  {
+    "localeId": 2108,
+    "description": "Irisch (Irland)",
+    "code": "ga-IE"
+  },
+  {
+    "localeId": 2110,
+    "description": "Malaiisch – Brunei Darussalam",
+    "code": "ms-BN"
+  },
+  {
+    "localeId": 2115,
+    "description": "Usbekisch (Kyrillisch)",
+    "code": "uz-Cyrl-UZ"
+  },
+  {
+    "localeId": 2117,
+    "description": "Bengali (Bangladesch)",
+    "code": "bn-BD"
+  },
+  {
+    "localeId": 2118,
+    "description": "Punjabi (Pakistan)",
+    "code": "pa-PK"
+  },
+  {
+    "localeId": 2128,
+    "description": "Mongolisch (Mongolei)",
+    "code": "mn-Mong-CN"
+  },
+  {
+    "localeId": 2129,
+    "description": "Tibetisch – Bhutan",
+    "code": "bo-BT"
+  },
+  {
+    "localeId": 2137,
+    "description": "Sindhi – Pakistan",
+    "code": "sd-PK"
+  },
+  {
+    "localeId": 2143,
+    "description": "Tamazight (Latein)",
+    "code": "tzm-Latn-DZ"
+  },
+  {
+    "localeId": 2144,
+    "description": "Kashmiri (Devanagari)",
+    "code": "ks-Deva-IN"
+  },
+  {
+    "localeId": 2145,
+    "description": "Nepalesisch (Indien)",
+    "code": "ne-IN"
+  },
+  {
+    "localeId": 2155,
+    "description": "Quechua – Ecuador",
+    "code": "quz-EC"
+  },
+  {
+    "localeId": 2163,
+    "description": "Tigrinya – Eritrea",
+    "code": "ti-ET"
+  },
+  {
+    "localeId": 3073,
+    "description": "Arabisch – Ägypten",
+    "code": "ar-EG"
+  },
+  {
+    "localeId": 3076,
+    "description": "Chinesisch – Hong Kong SAR",
+    "code": "zh-HK"
+  },
+  {
+    "localeId": 3079,
+    "description": "Deutsch – Österreich",
+    "code": "de-AT"
+  },
+  {
+    "localeId": 3081,
+    "description": "Englisch – Australien",
+    "code": "en-AU"
+  },
+  {
+    "localeId": 3082,
+    "description": "Spanisch – Spanien (moderne Sortierung)",
+    "code": "es-ES"
+  },
+  {
+    "localeId": 3084,
+    "description": "Französisch – Kanada",
+    "code": "fr-CA"
+  },
+  {
+    "localeId": 3098,
+    "description": "Serbisch (Kyrillisch)",
+    "code": "sr-Cyrl-CS"
+  },
+  {
+    "localeId": 3179,
+    "description": "Quechua – Peru",
+    "code": "quz-PE"
+  },
+  {
+    "localeId": 4097,
+    "description": "Arabisch – Libyen",
+    "code": "ar-LY"
+  },
+  {
+    "localeId": 4100,
+    "description": "Chinesisch – Singapur",
+    "code": "zh-SG"
+  },
+  {
+    "localeId": 4103,
+    "description": "Deutsch – Luxemburg",
+    "code": "de-LU"
+  },
+  {
+    "localeId": 4105,
+    "description": "Englisch – Kanada",
+    "code": "en-CA"
+  },
+  {
+    "localeId": 4106,
+    "description": "Spanisch – Guatemala",
+    "code": "es-GT"
+  },
+  {
+    "localeId": 4108,
+    "description": "Französisch – Schweiz",
+    "code": "fr-CH"
+  },
+  {
+    "localeId": 4122,
+    "description": "Kroatisch – Bosnien und Herzegowina",
+    "code": "hr-BA"
+  },
+  {
+    "localeId": 5121,
+    "description": "Arabisch – Algerien",
+    "code": "ar-DZ"
+  },
+  {
+    "localeId": 5124,
+    "description": "Chinesisch – Macau (SAR)",
+    "code": "zh-MO"
+  },
+  {
+    "localeId": 5127,
+    "description": "Deutsch – Lichtenstein",
+    "code": "de-LI"
+  },
+  {
+    "localeId": 5129,
+    "description": "Englisch – Neuseeland",
+    "code": "en-NZ"
+  },
+  {
+    "localeId": 5130,
+    "description": "Spanisch – Costa Rica",
+    "code": "es-CR"
+  },
+  {
+    "localeId": 5132,
+    "description": "Französisch – Luxemburg",
+    "code": "fr-LU"
+  },
+  {
+    "localeId": 5146,
+    "description": "Bosnisch – Bosnien und Herzegowina",
+    "code": "bs-Latn-BA"
+  },
+  {
+    "localeId": 6145,
+    "description": "Arabisch – Marokko",
+    "code": "ar-MO"
+  },
+  {
+    "localeId": 6153,
+    "description": "Englisch – Irland",
+    "code": "en-IE"
+  },
+  {
+    "localeId": 6154,
+    "description": "Spanisch – Panama",
+    "code": "es-PA"
+  },
+  {
+    "localeId": 6156,
+    "description": "Französisch – Monaco",
+    "code": "fr-MC"
+  },
+  {
+    "localeId": 7169,
+    "description": "Arabisch – Tunesien",
+    "code": "ar-TN"
+  },
+  {
+    "localeId": 7177,
+    "description": "Englisch – Südafrika",
+    "code": "en-ZA"
+  },
+  {
+    "localeId": 7178,
+    "description": "Spanisch – Dominikanische Republik",
+    "code": "es-DO"
+  },
+  {
+    "localeId": 7180,
+    "description": "Französisch – Französische Antillen",
+    "code": "fr-029"
+  },
+  {
+    "localeId": 8193,
+    "description": "Arabisch – Oman",
+    "code": "ar-OM"
+  },
+  {
+    "localeId": 8201,
+    "description": "Englisch – Jamaika",
+    "code": "en-JM"
+  },
+  {
+    "localeId": 8202,
+    "description": "Spanisch – Venezuela",
+    "code": "es-VE"
+  },
+  {
+    "localeId": 8204,
+    "description": "Französisch – Reunion",
+    "code": "fr-RE"
+  },
+  {
+    "localeId": 9217,
+    "description": "Arabisch – Jemen",
+    "code": "ar-YE"
+  },
+  {
+    "localeId": 9225,
+    "description": "Englisch – Karibik",
+    "code": "en-029"
+  },
+  {
+    "localeId": 9226,
+    "description": "Spanisch – Kolumbien",
+    "code": "es-CO"
+  },
+  {
+    "localeId": 9228,
+    "description": "Französisch – Demokratische Republik Kongo",
+    "code": "fr-CG"
+  },
+  {
+    "localeId": 10241,
+    "description": "Arabisch – Syrien",
+    "code": "ar-SY"
+  },
+  {
+    "localeId": 10249,
+    "description": "Englisch – Belize",
+    "code": "en-BZ"
+  },
+  {
+    "localeId": 10250,
+    "description": "Spanisch – Peru",
+    "code": "es-PE"
+  },
+  {
+    "localeId": 10252,
+    "description": "Französisch – Senegal",
+    "code": "fr-SN"
+  },
+  {
+    "localeId": 11265,
+    "description": "Arabisch – Jordanien",
+    "code": "ar-JO"
+  },
+  {
+    "localeId": 11273,
+    "description": "Englisch – Trinidad",
+    "code": "en-TT"
+  },
+  {
+    "localeId": 11274,
+    "description": "Spanisch – Argentinien",
+    "code": "es-AR"
+  },
+  {
+    "localeId": 11276,
+    "description": "Französisch – Kamerun",
+    "code": "fr-CM"
+  },
+  {
+    "localeId": 12289,
+    "description": "Arabisch – Libanon",
+    "code": "ar-LB"
+  },
+  {
+    "localeId": 12297,
+    "description": "Englisch – Simbabwe",
+    "code": "en-ZW"
+  },
+  {
+    "localeId": 12298,
+    "description": "Spanisch – Ecuador",
+    "code": "es-EC"
+  },
+  {
+    "localeId": 12300,
+    "description": "Französisch – Côte d'Ivoire",
+    "code": "fr-CI"
+  },
+  {
+    "localeId": 13313,
+    "description": "Arabisch – Kuwait",
+    "code": "ar-KW"
+  },
+  {
+    "localeId": 13321,
+    "description": "Englisch – Philippinen",
+    "code": "en-PH"
+  },
+  {
+    "localeId": 13322,
+    "description": "Spanisch – Chile",
+    "code": "es-CL"
+  },
+  {
+    "localeId": 13324,
+    "description": "Französisch – Mali",
+    "code": "fr-ML"
+  },
+  {
+    "localeId": 14337,
+    "description": "Arabisch – Vereinigte Arabische Emirate",
+    "code": "ar-AE"
+  },
+  {
+    "localeId": 14345,
+    "description": "Englisch – Indonesien",
+    "code": "en-ID"
+  },
+  {
+    "localeId": 14346,
+    "description": "Spanisch – Uruguay",
+    "code": "es-UY"
+  },
+  {
+    "localeId": 14348,
+    "description": "Französisch – Marokko",
+    "code": "fr-MA"
+  },
+  {
+    "localeId": 15361,
+    "description": "Arabisch – Bahrain",
+    "code": "ar-BH"
+  },
+  {
+    "localeId": 15369,
+    "description": "Englisch – Hong Kong SAR",
+    "code": "en-HK"
+  },
+  {
+    "localeId": 15370,
+    "description": "Spanisch – Paraguay",
+    "code": "es-PY"
+  },
+  {
+    "localeId": 15372,
+    "description": "Französisch – Haiti",
+    "code": "fr-HT"
+  },
+  {
+    "localeId": 16385,
+    "description": "Arabisch – Katar",
+    "code": "ar-QA"
+  },
+  {
+    "localeId": 16393,
+    "description": "Englisch – Indien",
+    "code": "en-IN"
+  },
+  {
+    "localeId": 16394,
+    "description": "Spanisch – Bolivien",
+    "code": "es-BO"
+  },
+  {
+    "localeId": 17417,
+    "description": "Englisch – Malaysia",
+    "code": "en-MY"
+  },
+  {
+    "localeId": 17418,
+    "description": "Spanisch – El Salvador",
+    "code": "es-SV"
+  },
+  {
+    "localeId": 18441,
+    "description": "Englisch – Singapur",
+    "code": "en-SG"
+  },
+  {
+    "localeId": 18442,
+    "description": "Spanisch – Honduras",
+    "code": "es-HN"
+  },
+  {
+    "localeId": 19466,
+    "description": "Spanisch – Nicaragua",
+    "code": "es-NI"
+  },
+  {
+    "localeId": 20490,
+    "description": "Spanisch – Puerto Rico",
+    "code": "es-PR"
+  },
+  {
+    "localeId": 21514,
+    "description": "Spanisch – Vereinigte Staaten",
+    "code": "es-US"
+  },
+  {
+    "localeId": 58378,
+    "description": "Spanisch – Lateinamerika",
+    "code": "es-419"
+  },
+  {
+    "localeId": 58380,
+    "description": "Französisch – Nordafrika",
+    "code": "fr-015"
+  }
+]

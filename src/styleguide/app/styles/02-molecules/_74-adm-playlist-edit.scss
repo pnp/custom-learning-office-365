@@ -1,0 +1,45 @@
+.pl-edit-item {
+  display: flex;
+
+  height: 3em;
+  padding-left: 1em;
+  margin-bottom: 0.25em;
+
+  cursor: pointer;
+
+  justify-content: space-between;
+  align-items: center;
+
+
+
+  &:hover {
+    color: $c-blue;
+    background-color: $c-light-gray;
+
+    .pl-edit-actions {
+
+      .iconbutton {
+        background-color: $c-light-gray;
+      }
+
+      &:hover {
+
+        .iconbutton {
+          background-color: $c-light-gray-darken;
+        }
+      }
+    }
+  }
+}
+
+.pl-edit-icon {
+  display: inline-block;
+  max-width: 20px;
+  margin-right: 0.5em;
+  align-self: bottom;
+}
+
+.pl-edit-title {
+  line-height: 2em;
+  flex-grow: 1;
+}

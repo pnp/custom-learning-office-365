@@ -1,0 +1,285 @@
+{
+    "patterns": [
+        {
+            "title": "00-colors",
+            "description": "",
+            "filename": "00-colors",
+            "filepath": "atoms/00-colors.hbs"
+        },
+        {
+            "title": "01-fonts",
+            "description": "",
+            "filename": "01-fonts",
+            "filepath": "atoms/01-fonts.hbs"
+        },
+        {
+            "title": "02-headlines",
+            "description": "",
+            "filename": "02-headlines",
+            "filepath": "atoms/02-headlines.hbs"
+        },
+        {
+            "title": "03-paragraph",
+            "description": "",
+            "filename": "03-paragraph",
+            "filepath": "atoms/03-paragraph.hbs"
+        },
+        {
+            "title": "04-lead-paragraph",
+            "description": "",
+            "filename": "04-lead-paragraph",
+            "filepath": "atoms/04-lead-paragraph.hbs"
+        },
+        {
+            "title": "100-test-pattern",
+            "description": "",
+            "filename": "100-test-pattern",
+            "filepath": "atoms/100-test-pattern.hbs"
+        },
+        {
+            "title": "50-icon-buttons",
+            "description": "",
+            "filename": "50-icon-buttons",
+            "filepath": "atoms/50-icon-buttons.hbs"
+        },
+        {
+            "title": "60-playlist",
+            "description": "",
+            "filename": "60-playlist",
+            "filepath": "atoms/60-playlist.hbs"
+        },
+        {
+            "title": "61-link-button",
+            "description": "",
+            "filename": "61-link-button",
+            "filepath": "atoms/61-link-button.hbs"
+        },
+        {
+            "title": "70-adm-label",
+            "description": "",
+            "filename": "70-adm-label",
+            "filepath": "atoms/70-adm-label.hbs"
+        },
+        {
+            "title": "71-adm-menu",
+            "description": "",
+            "filename": "71-adm-menu",
+            "filepath": "atoms/71-adm-menu.hbs"
+        },
+        {
+            "title": "72-adm-category-nav",
+            "description": "",
+            "filename": "72-adm-category-nav",
+            "filepath": "atoms/72-adm-category-nav.hbs"
+        },
+        {
+            "title": "73-adm-content-heading",
+            "description": "",
+            "filename": "73-adm-content-heading",
+            "filepath": "atoms/73-adm-content-heading.hbs"
+        },
+        {
+            "title": "74-admpl-heading",
+            "description": "",
+            "filename": "74-admpl-heading",
+            "filepath": "atoms/74-admpl-heading.hbs"
+        },
+        {
+            "title": "80-slidepanel-header",
+            "description": "",
+            "filename": "80-slidepanel-header",
+            "filepath": "atoms/80-slidepanel-header.hbs"
+        },
+        {
+            "title": "81-button-small",
+            "description": "",
+            "filename": "81-button-small",
+            "filepath": "atoms/81-button-small.hbs"
+        },
+        {
+            "title": "90-fuif-dropdown",
+            "description": "",
+            "filename": "90-fuif-dropdown",
+            "filepath": "atoms/90-fuif-dropdown.hbs"
+        },
+        {
+            "title": "00-header-toolbar",
+            "description": "",
+            "filename": "00-header-toolbar",
+            "filepath": "molecules/00-header-toolbar.hbs"
+        },
+        {
+            "title": "01-header-panel",
+            "description": "",
+            "filename": "01-header-panel",
+            "filepath": "molecules/01-header-panel.hbs"
+        },
+        {
+            "title": "01-molecule",
+            "description": "",
+            "filename": "01-molecule",
+            "filepath": "molecules/01-molecule.hbs"
+        },
+        {
+            "title": "100-pagination",
+            "description": "",
+            "filename": "100-pagination",
+            "filepath": "molecules/100-pagination.hbs"
+        },
+        {
+            "title": "50-playlist-slider",
+            "description": "",
+            "filename": "50-playlist-ctrl",
+            "filepath": "molecules/50-playlist-ctrl.hbs"
+        },
+        {
+            "title": "62-playlist-overview-item copy",
+            "description": "",
+            "filename": "62-playlist-overview-item copy",
+            "filepath": "molecules/62-playlist-overview-item copy.hbs"
+        },
+        {
+            "title": "62-playlist-overview",
+            "description": "",
+            "filename": "62-playlist-overview-item",
+            "filepath": "molecules/62-playlist-overview-item.hbs"
+        },
+        {
+            "title": "63-playlist-overview-item-noimg",
+            "description": "",
+            "filename": "63-playlist-overview-item-noimg",
+            "filepath": "molecules/63-playlist-overview-item-noimg.hbs"
+        },
+        {
+            "title": "63-playlist-overview-item",
+            "description": "",
+            "filename": "63-playlist-overview-item",
+            "filepath": "molecules/63-playlist-overview-item.hbs",
+            "deleted": true
+        },
+        {
+            "title": "64-search-result-item",
+            "description": "",
+            "filename": "64-search-result-item",
+            "filepath": "molecules/64-search-result-item.hbs"
+        },
+        {
+            "title": "72-adm-tabs",
+            "description": "",
+            "filename": "72-adm-tabs",
+            "filepath": "molecules/72-adm-tabs.hbs"
+        },
+        {
+            "title": "73-adm-category-sidebar",
+            "description": "",
+            "filename": "73-adm-category-sidebar",
+            "filepath": "molecules/73-adm-category-sidebar.hbs"
+        },
+        {
+            "title": "74-adm-pl-itemedit",
+            "description": "",
+            "filename": "74-adm-pl-itemedit",
+            "filepath": "molecules/74-adm-pl-itemedit.hbs"
+        },
+        {
+            "title": "80-slider-panel",
+            "description": "",
+            "filename": "80-slidepanel",
+            "filepath": "molecules/80-slidepanel.hbs"
+        },
+        {
+            "title": "90-overview-item",
+            "description": "",
+            "filename": "90-category-item",
+            "filepath": "molecules/90-category-item.hbs"
+        },
+        {
+            "title": "95-asset-edit-header",
+            "description": "",
+            "filename": "95-asset-header-edit",
+            "filepath": "molecules/95-asset-header-edit.hbs"
+        },
+        {
+            "title": "00-learning-header",
+            "description": "",
+            "filename": "00-learning-header",
+            "filepath": "organism/00-learning-header.hbs"
+        },
+        {
+            "title": "01-organism",
+            "description": "",
+            "filename": "01-organism",
+            "filepath": "organism/01-organism.hbs"
+        },
+        {
+            "title": "20-playlist-overview",
+            "description": "",
+            "filename": "20-playlist-overview",
+            "filepath": "organism/20-playlist-overview.hbs"
+        },
+        {
+            "title": "21-playlist-overview",
+            "description": "",
+            "filename": "21-playlist-overview-noimg",
+            "filepath": "organism/21-playlist-overview-noimg.hbs"
+        },
+        {
+            "title": "30-admin-content",
+            "description": "",
+            "filename": "30-admin-content",
+            "filepath": "organism/30-admin-content.hbs"
+        },
+        {
+            "title": "40-category-overview",
+            "description": "",
+            "filename": "40-category-overview",
+            "filepath": "organism/40-category-overview.hbs"
+        },
+        {
+            "title": "01-admin-page",
+            "description": "",
+            "filename": "01-admin-page",
+            "filepath": "pages/01-admin-page.hbs"
+        },
+        {
+            "title": "01-page",
+            "description": "",
+            "filename": "01-page",
+            "filepath": "pages/01-page.hbs"
+        },
+        {
+            "title": "02-playlist-page",
+            "description": "",
+            "filename": "02-playlist-page",
+            "filepath": "pages/02-playlist-page.hbs"
+        },
+        {
+            "title": "01-template",
+            "description": "",
+            "filename": "01-template",
+            "filepath": "templates/01-template.hbs"
+        }
+    ],
+    "folder": [
+        {
+            "name": "atoms",
+            "description": "Contains all atom elements"
+        },
+        {
+            "name": "molecules",
+            "description": "Contains all molecule elements"
+        },
+        {
+            "name": "organism",
+            "description": "Contains all organism elements"
+        },
+        {
+            "name": "templates",
+            "description": "Contains all templates elements"
+        },
+        {
+            "name": "pages",
+            "description": "Contains all pages elements"
+        }
+    ]
+}

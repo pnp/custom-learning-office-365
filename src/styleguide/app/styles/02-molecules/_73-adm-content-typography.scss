@@ -1,0 +1,19 @@
+.admpl-heading {
+	line-height: 2.25em;
+
+	position: relative;
+
+	width: 100%;
+	margin-top: 0;
+
+	border-bottom: 1px $c-gray solid;
+
+}
+.admpl-heading-edit {
+	position: absolute;
+	right: 0;
+
+	// margin-top: -0.30em;
+
+	background-color: transparent;
+}

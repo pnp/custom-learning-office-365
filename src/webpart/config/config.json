@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "custom-learning-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/customLearning/CustomLearningWebPart.js",
+          "manifest": "./src/webparts/customLearning/CustomLearningWebPart.manifest.json"
+        }
+      ]
+    },
+    "custom-learning-admin-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/customLearningAdmin/CustomLearningAdminWebPart.js",
+          "manifest": "./src/webparts/customLearningAdmin/CustomLearningAdminWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "M365LPStrings": "lib/webparts/common/loc/{locale}.js"
+  }
+}

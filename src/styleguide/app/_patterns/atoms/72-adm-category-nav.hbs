@@ -1,0 +1,11 @@
+<ul class="adm-navsubcat">
+  {{#each navsubcat }}
+  <li class="adm-navsubcat-item"><a href="{{ href }}" class="adm-navsubcat-link" title="{{ title }}">{{ title }}</a>
+    <ul class="adm-navsubcat">
+      {{#each subnav }}
+      <li class="adm-navsubcat-item"><a href="{{ href }}" class="adm-navsubcat-link" title="{{ title }}">{{ title }}</a></li>
+      {{/each}}
+    </ul>
+  </li>
+  {{/each}}
+</ul>

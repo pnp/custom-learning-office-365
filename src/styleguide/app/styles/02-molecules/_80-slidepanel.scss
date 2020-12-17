@@ -1,0 +1,29 @@
+.sldpnl-content {
+    padding: 1em 0;
+
+    border-bottom: 1px $c-gray solid;
+}
+
+.selector-row {}
+
+.selector-header {
+    height: 2.25em;
+    padding-right: 1em;
+
+    text-align: left;
+    vertical-align: middle;
+}
+
+.sldpnl {
+    &.hide {
+        .sldpnl-content {
+            display: none;
+        }
+    }
+
+    &.show {
+        .sldpnl-content {
+            display: block;
+        }
+    }
+}
