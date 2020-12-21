@@ -1,6 +1,6 @@
 {
   "name": "customlearning",
-  "version": "4.1.4",
+  "version": "4.2.0",
   "private": true,
   "main": "lib/index.js",
   "engines": {
@@ -22,7 +22,7 @@
     "@microsoft/sp-office-ui-fabric-core": "1.11.0",
     "@microsoft/sp-property-pane": "1.11.0",
     "@microsoft/sp-webpart-base": "1.11.0",
-    "@pnp/sp": "^2.0.11",
+    "@pnp/sp": "^2.1.0-beta10",
     "applicationinsights-js": "^1.0.21",
     "core-js": "^3.6.5",
     "es6-map": "^0.1.5",
