@@ -22,10 +22,10 @@ $optInTelemetry = $true
 #endregion
 # verify the PnP cmdlets we need are installed
 if (!(Get-Command Connect-PnPOnline -ErrorAction SilentlyContinue  )) {
-  Write-Host "Could not find PnP PowerShell cmdlets"
-  Write-Host "Please install them and run this script again"
-  Write-Host "You can install them with the following line:"
-  Write-Host "`nInstall-Module SharePointPnPPowerShellOnline`n"
+  Write-Warning "Could not find PnP PowerShell cmdlets"
+  Write-Warning "Please install them and run this script again"
+  Write-Warning "You can install them with the following line:"
+  Write-Warning "`nInstall-Module PnP.PowerShell`n"
   break
 } 
 # Check if tenant name was passed in
@@ -68,8 +68,8 @@ catch {
 if ($AppCatalogAdmin) {   
   # Need an App Catalog site collection defined for Set-PnPStorageEntity to work
   if (!(Get-PnPTenantAppCatalogUrl)) {
-    Write-Host "Tenant $TenantName must have an App Catalog site defined" -BackgroundColor Black -ForegroundColor Red
-    Write-Host "Please visit https://social.technet.microsoft.com/wiki/contents/articles/36933.create-app-catalog-in-sharepoint-online.aspx to learn how, then run this setup script again"
+    Write-Warning "Tenant $TenantName must have an App Catalog site defined" -BackgroundColor Black -ForegroundColor Red
+    Write-Warning "Please visit https://social.technet.microsoft.com/wiki/contents/articles/36933.create-app-catalog-in-sharepoint-online.aspx to learn how, then run this setup script again"
     Write-Host "`n"
     Disconnect-PnPOnline
     break
@@ -83,9 +83,9 @@ if ($AppCatalogAdmin) {
   catch {
     # Get the username and 
     $user = ((Get-PnPConnection).PSCredential).username 
-    Write-Host "$user cannot write to App Catalog site" -BackgroundColor Black -ForegroundColor Red
-    Write-Host "Please make sure they are a Site Collection Admin for $appcatalog"
-    Write-Host $_
+    Write-Warning "$user cannot write to App Catalog site" -BackgroundColor Black -ForegroundColor Red
+    Write-Warning "Please make sure they are a Site Collection Admin for $appcatalog"
+    Write-Warning $_
     Disconnect-PnPOnline
     break
   }
@@ -111,7 +111,7 @@ if ($SiteAdmin) {
     Install-PnPApp -Identity $id -ErrorAction SilentlyContinue 
   }
   else { 
-    Write-Host "Could not find `"Microsoft 365 learning pathways`" app. Please install in it your app catalog and run this script again."
+    Write-Warning "Could not find `"Microsoft 365 learning pathways`" app. Please install in it your app catalog and run this script again."
     break
   }
   $sitePagesList = Get-PnPList -Identity "SitePages"
@@ -143,8 +143,8 @@ if ($SiteAdmin) {
     }
     # loop either timed out or web parts were found. Let's see which it was
     if ($WebPartsFound -eq $false) {
-      Write-Host "Could not find Microsoft 365 learning pathways Web Parts."
-      Write-Host "Please verify the Microsoft 365 learning pathways Package is installed and run this installation script again."
+      Write-Warning "Could not find Microsoft 365 learning pathways Web Parts."
+      Write-Warning "Please verify the Microsoft 365 learning pathways Package is installed and run this installation script again."
       break 
     }
       
@@ -172,7 +172,7 @@ if ($SiteAdmin) {
     
   }
   else { 
-    Write-Host "Could not find `"Site Pages`" library. Please make sure you are running this on a Modern SharePoint site"
+    Write-Warning "Could not find `"Site Pages`" library. Please make sure you are running this on a Modern SharePoint site"
     break
   }
 }
