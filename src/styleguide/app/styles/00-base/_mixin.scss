@@ -36,6 +36,21 @@
 	}
 }
 
+@mixin themeColor($slotName, $isBackground: false){
+
+	@if $isBackground == true{
+		background-color: "[theme:#{$slotName}]";
+		background-color: var(--#{$slotName});
+		@debug "[theme:#{$slotName}]";
+		@debug var(--#{$slotName});
+	} @else {
+		color: "[theme:#{$slotName}]";
+		color: var(--#{$slotName});
+		@debug "[theme:#{$slotName}]";
+		@debug var(--#{$slotName});
+	}
+
+}
 
 // @mixin multiLineEllipsis($lineHeight: 1.2em, $lineCount: 1, $bgColor: white) {
 //     overflow: hidden;
