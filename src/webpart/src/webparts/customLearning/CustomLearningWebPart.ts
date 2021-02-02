@@ -116,6 +116,10 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
       this.setCSSVariables(this._themeVariant.palette);
       this.setCSSVariables(this._themeVariant["effects"]);
 
+    } else if (window["__themeState__"].theme) {
+
+      // we set transfer semanticColors into CSS variables
+      this.setCSSVariables(window["__themeState__"].theme);
 
     }
 
