@@ -25,7 +25,7 @@ $susy: ("svg-grid-colors": hsl(180, 50%, 80%),
 .customLearning {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding-bottom: 100px;
-  @include themeColor(bodyText);
+  @include themeSlot(bodyText);
       
 
   :global {
@@ -37,7 +37,7 @@ $susy: ("svg-grid-colors": hsl(180, 50%, 80%),
   }
 
   h2 {
-    color: $ouif-bodyText;
+    // color: $ouif-bodyText;
   }
 
   .info {
@@ -179,27 +179,37 @@ $susy: ("svg-grid-colors": hsl(180, 50%, 80%),
       font-size: 14px;
       line-height: 1.5em;
 
-      color: $ouif-primaryButtonTextHovered;
+      // color: $ouif-primaryButtonTextHovered;
+      @include themeSlot(primaryButtonTextHovered);
       border: 1px solid;
-      border-color: $ouif-primaryButtonBackground;
-      background-color: $ouif-primaryButtonBackground;
+      // border-color: $ouif-primaryButtonBackground;
+      @include themeSlot(primaryButtonBackground, border);
+      // background-color: $ouif-primaryButtonBackground;
+      @include themeSlot(primaryButtonBackground, background);
 
       &.selected,
       &.selected:active {
-        color: $ouif-primaryButtonBackground;
+        // color: $ouif-primaryButtonBackground;
+        @include themeSlot(primaryButtonText);
         border: 1px solid;
-        border-color: $ouif-primaryButtonBackground;
-        background-color: $ouif-primaryButtonTextHovered;
+        // border-color: $ouif-primaryButtonBackground;
+        @include themeSlot(primaryButtonBackground, border);
+        // background-color: $ouif-primaryButtonTextHovered;
+        @include themeSlot(primaryButtonBackTextHovered, background);
       }
 
       &:hover {
         color: $ouif-primaryButtonTextHovered;
+        @include themeSlot(primaryButtonTextHovered);
         background-color: $ouif-primaryButtonBackgroundHovered;
+        @include themeSlot(primaryButtonBackgroundHovered);
       }
 
       &:active {
         color: $ouif-primaryButtonBackground;
+        @include themeSlot(primaryButtonBackground);
         background-color: $ouif-primaryButtonTextHovered;
+        @include themeSlot(primaryButtonTextHovered);
       }
     }
   }

@@ -109,7 +109,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
     // If there is a theme variant
     if (this._themeVariant) {
 
-      console.debug(this._themeVariant)
+      console.debug(this._themeVariant);
 
       // we set transfer semanticColors into CSS variables
       this.setCSSVariables(this._themeVariant.semanticColors);

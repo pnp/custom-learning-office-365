@@ -14,6 +14,8 @@
   border-width: 1px;
   border-style: solid;
   border-color: $c-light-gray;
+  @include themeSlot(--primaryButtonBorder, border);
+  @include themeSlot(buttonBackground, border);
   border-radius: 0 0 2px 2px;
   box-shadow: rgba(0, 0, 0, .133) 0 3.2px 7.2px 0, rgba(0, 0, 0, .11) 0 .6px 1.8px 0;
 
@@ -31,12 +33,14 @@
 
     border-radius: 0 0 2px 2px;
     background-color: $c-background;
+    @include themeSlot(buttonBackground, border);
     box-shadow: rgba(0, 0, 0, .133) 0 3.2px 7.2px 0, rgba(0, 0, 0, .11) 0 .6px 1.8px 0;
 
     .fuif-dd-opt {
       line-height: 1.5em;
 
       padding: .25em 1em;
+      @include themeSlot(primaryButtonText);
 
       &:hover {
         background-color: $c-light-gray;
@@ -59,6 +63,7 @@
     display: flex;
 
     justify-content: space-between;
+    @include themeSlot(buttonText);
 
     span {
       margin-left: .5em;
