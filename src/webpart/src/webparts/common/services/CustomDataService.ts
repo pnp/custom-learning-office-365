@@ -118,9 +118,15 @@ export class CustomDataService implements ICustomDataService {
         .get<{ Id: string, Title: string, JSONData: string }[]>();
       if (configResponse.length === 1) {
         if (configResponse[0].JSONData.length > 0) {
-          config = JSON.parse(configResponse[0].JSONData, this.dateTimeReviver);
           config.Id = +configResponse[0].Id;
           config.eTag = JSON.parse(configResponse[0]["odata.etag"]);
+          try {
+            config = JSON.parse(configResponse[0].JSONData, this.dateTimeReviver);
+          } catch (errJSON) {
+            //If JSON data can't be parsed, remove item as it will be regenerated.
+            this._web.lists.getByTitle(CustomListNames.customConfigName).items.getById(config.Id).delete();
+            config = null;
+          }
         }
       } else {
         Logger.write(`${this.LOG_SOURCE} (getCustomConfig) No configuration was found for CDN ${this._cdn} and Language ${language}`, LogLevel.Error);
