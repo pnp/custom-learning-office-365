@@ -1,7 +1,7 @@
 param([string]$TenantName)
 
 # verify the PnP cmdlets we need are installed
-if (Get-Command Connect-PnPOnline -ErrorAction SilentlyContinue  ) {
+if (-not (Get-Command Connect-PnPOnline -ErrorAction SilentlyContinue )) {
   Write-Warning "Could not find PnP PowerShell cmdlets"
   Write-Warning "Please install them and run this script again"
   Write-Warning "You can install them with the following line:"

@@ -2,7 +2,7 @@ param([string]$TenantName,
 [string]$M365LPSiteUrl)
 
 # verify the PnP cmdlets we need are installed
-if (Get-Command Connect-PnPOnline -ErrorAction SilentlyContinue  ) {
+if (-not (Get-Command Connect-PnPOnline -ErrorAction SilentlyContinue)) {
   Write-Warning "Could not find PnP PowerShell cmdlets"
   Write-Warning "Please install them and run this script again"
   Write-Warning "You can install them with the following line:"
@@ -42,4 +42,4 @@ catch {
 Set-PnPStorageEntity -Key MicrosoftCustomLearningSite -Value $M365LPSiteUrl -Description "Microsoft 365 learning pathways Site Collection"
 Get-PnPStorageEntity -Key MicrosoftCustomLearningSite
 
-Connect-PnPOnline
+Disconnect-PnPOnline

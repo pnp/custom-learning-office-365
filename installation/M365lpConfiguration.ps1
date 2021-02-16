@@ -21,7 +21,7 @@ Read-Host "Press Enter to Continue"
 $optInTelemetry = $true
 #endregion
 # verify the PnP cmdlets we need are installed
-if (!(Get-Command Connect-PnPOnline -ErrorAction SilentlyContinue  )) {
+if (-not (Get-Command Connect-PnPOnline -ErrorAction SilentlyContinue  )) {
   Write-Warning "Could not find PnP PowerShell cmdlets"
   Write-Warning "Please install them and run this script again"
   Write-Warning "You can install them with the following line:"
@@ -43,7 +43,7 @@ while ([string]::IsNullOrWhitespace($TenantName)) {
 } 
 # Check if $SiteCollectionName was passed in
 if ([string]::IsNullOrWhitespace($SiteCollectionName) ) {
-  # No TenantName was passed, prompt the user
+  # No Site Collection was passed, prompt the user
   $SiteCollectionName = Read-Host "Please enter your site collection name: (Press Enter for `'MicrosoftTraining`') "
   if ([string]::IsNullOrWhitespace($SiteCollectionName)) {
     $SiteCollectionName = "MicrosoftTraining"
