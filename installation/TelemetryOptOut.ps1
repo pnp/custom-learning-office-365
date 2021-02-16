@@ -1,11 +1,11 @@
 param([string]$TenantName)
 
 # verify the PnP cmdlets we need are installed
-if (Get-Command Get-PnPStoredCredentiaal -ErrorAction SilentlyContinue  ) {
-  Write-Host "Could not find PnP PowerShell cmdlets"
-  Write-Host "Please install them and run this script again"
-  Write-Host "You can install them with the following line:"
-  Write-Host "`nInstall-Module SharePointPnPPowerShellOnline`n"
+if (Get-Command Connect-PnPOnline -ErrorAction SilentlyContinue  ) {
+  Write-Warning "Could not find PnP PowerShell cmdlets"
+  Write-Warning "Please install them and run this script again"
+  Write-Warning "You can install them with the following line:"
+  Write-Warning "`nInstall-Module SharePointPnPPowerShellOnline`n"
   break
 } 
 
@@ -22,10 +22,12 @@ try {
   Connect-PnPOnline -Url $AdminURL -UseWebLogin
 }
 catch {
-  Write-Host "Failed to authenticate to $AdminURL"
-  Write-Host $_
+  Write-Warning "Failed to authenticate to $AdminURL"
+  Write-Warning $_
   break
 }
     
 Set-PnPStorageEntity -Key MicrosoftCustomLearningTelemetryOn -Value $false -Description "Microsoft 365 learning pathways Telemetry Setting"
 Get-PnPStorageEntity -Key MicrosoftCustomLearningTelemetryOn
+
+Disconnect-PnPOnline
