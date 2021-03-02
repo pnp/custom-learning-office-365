@@ -83,7 +83,7 @@
         },
         {
           "Id": "2324ad0f-5577-408f-b5aa-fad1e5a8f208",
-          "Name": "Políticas de identificação visual e personalização"
+          "Name": "Identificação visual e Personalização de sites"
         }
       ]
     },
@@ -124,7 +124,12 @@
     },
     {
       "Id": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
-      "Name": "Office para a Web",
+      "Name": "Office na Web",
+      "Subjects": []
+    },
+    {
+      "Id": "016a561b-1c7a-4528-b0b7-96fcb556a1e1",
+      "Name": "Listas",
       "Subjects": []
     }
   ],
@@ -187,6 +192,15 @@
           "Id": "51a0828d-1d27-4931-b547-9f2a698f33d8",
           "Name": "Segurança",
           "Image": "images/categories/LP-security-subcategory.png",
+          "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
+          "Name": "Local de trabalho híbrido",
+          "Image": "images/categories/hybridwork.png",
           "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
           "SubjectId": null,
           "Source": "Microsoft",
@@ -339,9 +353,18 @@
         },
         {
           "Id": "002ce882-04af-491f-9798-71c857606532",
-          "Name": "Office para a Web",
+          "Name": "Office na Web",
           "Image": "images/categories/office_for_web.png",
           "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "4b40845d-fe5f-428f-8970-58455e5bf262",
+          "Name": "Listas",
+          "Image": "images/categories/lists_cat.png",
+          "TechnologyId": "016a561b-1c7a-4528-b0b7-96fcb556a1e1",
           "SubjectId": null,
           "Source": "Microsoft",
           "SubCategories": []
@@ -455,7 +478,7 @@
     },
     {
       "Id": "9d1fab25-ed9c-404e-941b-41e428d18726",
-      "Name": "Atualizado"
+      "Name": "Atualizado em"
     },
     {
       "Id": "90fe6290-e063-4778-a8a1-7531c2a0a40e",
@@ -469,5 +492,19 @@
       "Id": "42be48f6-1f82-4fda-a757-add2499677d9",
       "Name": "Beta"
     }
+  ],
+  "Telemetry": {
+    "AppInsightKey": "9a46dc18-dca7-4f9c-aaf7-1af9ad28fdda"
+  },
+  "Version": {
+    "Manifest": "v3",
+    "ManifestMinWebPart": "3.0.0",
+    "CurrentWebPart": "4.1.0",
+    "RepoURL": "https://github.com/pnp/custom-learning-office-365#updating-the-solution"
+  },
+  "ContentPacks": [],
+  "AssetOrigins": [
+    "https://support.office.com",
+    "https://docs.microsoft.com"
   ]
 }
