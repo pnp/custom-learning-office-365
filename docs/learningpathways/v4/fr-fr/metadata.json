@@ -22,7 +22,7 @@
     },
     {
       "Id": "c209f64e-0291-437a-9615-17747eab50d0",
-      "Name": "Microsoft Teams",
+      "Name": "Microsoft Teams",
       "Subjects": [
         {
           "Id": "3bd4b767-148f-4f53-a206-b42e9f3a73cd",
@@ -46,7 +46,7 @@
     },
     {
       "Id": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
-      "Name": "OneDrive Entreprise",
+      "Name": "OneDrive Entreprise",
       "Subjects": []
     },
     {
@@ -126,6 +126,11 @@
       "Id": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
       "Name": "Office pour le web",
       "Subjects": []
+    },
+    {
+      "Id": "016a561b-1c7a-4528-b0b7-96fcb556a1e1",
+      "Name": "Listes",
+      "Subjects": []
     }
   ],
   "Categories": [
@@ -187,6 +192,15 @@
           "Id": "51a0828d-1d27-4931-b547-9f2a698f33d8",
           "Name": "Sécurité",
           "Image": "images/categories/LP-security-subcategory.png",
+          "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
+          "Name": "Environnement de travail hybride",
+          "Image": "images/categories/hybridwork.png",
           "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
           "SubjectId": null,
           "Source": "Microsoft",
@@ -267,7 +281,7 @@
         },
         {
           "Id": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-          "Name": "Microsoft Teams",
+          "Name": "Microsoft Teams",
           "Image": "images/categories/teams.png",
           "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
           "SubjectId": null,
@@ -342,6 +356,15 @@
           "Name": "Office pour le web",
           "Image": "images/categories/office_for_web.png",
           "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "4b40845d-fe5f-428f-8970-58455e5bf262",
+          "Name": "Listes",
+          "Image": "images/categories/lists_cat.png",
+          "TechnologyId": "016a561b-1c7a-4528-b0b7-96fcb556a1e1",
           "SubjectId": null,
           "Source": "Microsoft",
           "SubCategories": []
@@ -451,7 +474,7 @@
   "StatusTag": [
     {
       "Id": "c11c485b-496d-479b-88a3-1744a7a028d7",
-      "Name": "Nouveau"
+      "Name": "Nouveauté"
     },
     {
       "Id": "9d1fab25-ed9c-404e-941b-41e428d18726",
@@ -469,5 +492,19 @@
       "Id": "42be48f6-1f82-4fda-a757-add2499677d9",
       "Name": "Bêta"
     }
+  ],
+  "Telemetry": {
+    "AppInsightKey": "9a46dc18-dca7-4f9c-aaf7-1af9ad28fdda"
+  },
+  "Version": {
+    "Manifest": "v3",
+    "ManifestMinWebPart": "3.0.0",
+    "CurrentWebPart": "4.1.0",
+    "RepoURL": "https://github.com/pnp/custom-learning-office-365#updating-the-solution"
+  },
+  "ContentPacks": [],
+  "AssetOrigins": [
+    "https://support.office.com",
+    "https://docs.microsoft.com"
   ]
 }
