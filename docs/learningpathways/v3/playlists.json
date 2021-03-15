@@ -9,7 +9,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "Get up and running quickly with our Excel Quick Start. Learn how to create a workbook, save to OneDrive, analyze and format data, and share workbooks.",
+    "Description": "Get started quickly with the Excel Quick Start guide. Learn how to create a workbook, enter data, save your workbook to OneDrive, automatically fill a column with Flash Fill, quickly calculate with AutoSum, create a chart, or use conditional formatting with Quick Analysis, freeze the top row, share your workbook to collaborate with others, and set up your mobile apps.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -194,7 +194,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "A PivotTable is a powerful tool to calculate, summarize, and analyze data that lets you see comparisons, patterns, and trends in your data. Learn how to create a PivotTable, filter data in a PivotTable, or create a PivotChart.",
+    "Description": "Excel PivotTables are a powerful tool to calculate, summarize, and analyze data and see comparisons, patterns, and trends in your data. Learn how to create a PivotTable to analyze worksheets, tables, and ranges, use the Field List to arrange fields, group or ungroup data, sort data, filter data, and create a PivotChart.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -238,7 +238,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "With Microsoft Teams on your PC, Mac, or mobile device, you can pull together a team, use chat instead of email, secury edit files at the same time, and see likes, @mentions, and replies with just a single tap.",
+    "Description": "Get started quickly with the Microsoft Teams Quick Start guide. Learn how to sign in to Teams, pick a team and channel, chat in Teams, start a new conversation, reply to a conversation, use emojis, memes, and GIFs, share a file, collaborate with @mention, check your Activity Feed, search for messages, people, or files, and set up your mobile apps.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -259,7 +259,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Microsoft Teams is a collaboration app that helps your team stay organized and have conversations—all in one place. Here's a quick look at the left hand side of Teams.",
+    "Description": "Microsoft Teams is a collaboration app that helps your team stay organized and have conversations—all in one place. With Intro to Microsoft Teams, get an overview of teams, channels, meetings, conversations, tabs, share files, collaborate real time, find files, add people to a chat, make a call, manage your calendar, schedule a meeting, join meetings, share content, record a meeting, view our activity feed, and use the command box to search for people, items, or apps.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -296,7 +296,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "To get your team up and running in Microsoft Teams, create a team, add people, and add channels.",
+    "Description": "Use Microsoft Teams to set up and customize your team. Learn how to create a public or private team, add members to a team, create a channel, and use manage team to find members, channels, settings, and apps for your team. There’s also a go-to guide for team owners to add and remove members, add team owners, manage channels, and change team settings. You can also pin a channel and reorder your teams, to organize your teams list.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -335,7 +335,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "In Microsoft Teams, teams are groups of people brought together for work, projects, or common interests. Teams are made up of of channels. Learn how to use teams and channels to hold meetings, have conversations, and work on files together.",
+    "Description": "In Microsoft Teams, channels are where you hold meetings, have conversations, and work on files together. Learn how to create a public or private channel, pin a channel, add a tab, share a file, meet now, show and hide channels, customize channel notifications, reply to a message, like or save a message, use @mention, collaborate on or co-edit a file, start a conversation, send email to a channel, and create a plan with Planner. ",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -439,7 +439,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "Learn to work with Microsoft Teams including Creating and Formatting a post, Start and Pin Chats, Make Calls, Join a Teams meeting, and Tips for Better Meetings. ",
+    "Description": "Work with Microsoft Teams to collaborate with your team, help your team stay organized, and have conversations – all in one place. Learn how to create teams and channels, add a tab, pin a channel, create and format a post, start and pin a chat, make calls, join a Teams meeting, and learn tips and best practices to schedule, start, and run an effective meeting. ",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -542,9 +542,9 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "4ee4d22a-7d53-48bb-9a14-adf34d01cd75",
-    "Description": "Collaborate and stay connected with OneDrive",
+    "Description": "Get started quickly with the OneDrive Quick Start guide. Learn how to upload files and folders, use OneDrive in your browser or on your desktop, save and open files in your Office apps, create a file or folder, manage files and folders, search for files, back up files, share files, manage access and permissions, stop sharing, copy links, change views, collaborate in OneDrive, set up your mobile apps, and work on the go with the OneDrive app on your mobile device.",
     "StatusTagId": "",
-    "StatusNote": null,
+    "StatusNote": "",
     "Assets": [
       "a1397e56-61ec-4ed2-9dac-727bf8ac3357",
       "94c8a731-c774-468e-97a1-5f038bdf330d",
@@ -646,9 +646,9 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-    "Description": "Learn how OneNote is the perfect app for capturing pretty much anything",
+    "Description": "With OneNote, you can type notes or record audio, sketch or write ideas, add a picture, find notes, organize pages into sections and sections into notebooks, and share notebooks to view and contribute together. Watch this Intro to OneNote overview video and then learn how to sign in, add a new page or section, rename a page or section, open a different notebook, and customize OneNote.",
     "StatusTagId": "",
-    "StatusNote": null,
+    "StatusNote": "",
     "Assets": [
       "1b7c6171-61c6-4157-bad5-8480ae8f54a1",
       "478895de-5cda-4e15-bd24-f6b338d4addf"
@@ -720,9 +720,9 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-    "Description": "Stay organized and learn how to find notes no matter where they are",
+    "Description": "To stay organized with OneNote, learn how to search for notes, narrow the search, and organize your notebooks. See how to show navigation panes, move a page from one section to another, copy a page to another section or notebook, and move or copy a section.",
     "StatusTagId": "",
-    "StatusNote": null,
+    "StatusNote": "",
     "Assets": [
       "e10883b2-09a5-49de-8f9b-71605a100504",
       "ff0d5f04-532d-43e6-835a-82c5755374cb"
@@ -775,7 +775,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "With Outlook, you can add an email account, create and send email, manage calander and contacts, and collaborate",
+    "Description": "Get started quickly with the Outlook Quick Start guide. Learn how to add an email account, create and send email, use @mentions, show Focused inbox, manage your calendar and contacts, schedule an appointment using Scheduling Assistant, add a contact, collaborate in Outlook, share a file, set up an online meeting and shared notes, and set up your mobile apps.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -796,9 +796,9 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "Get an overview of Outlook. Learn how to add an Outlook.com, Office 365, or Gmail account.",
+    "Description": "Need to set up and customize Outlook? Learn how Outlook can help you organize your email, manage and share your calendar, share files, stay connected, and add an outlook.com account, Microsoft 365 email account, or Gmail account.",
     "StatusTagId": "",
-    "StatusNote": null,
+    "StatusNote": "",
     "Assets": [
       "10f1fa35-f33a-4cb7-838c-a7f3e6228b20",
       "46274497-95ea-4a7d-9651-d246aa63eb5e",
@@ -856,7 +856,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "Set categories, flags, or reminders. Organize email with folders or set up Rules",
+    "Description": "Learn tips to organize your inbox. Learn how to set a Follow Up flag, view or remove Follow Up flags, set a reminder, find an Action Item, create color categories, assign a color category to an email message, create a folder, move messages into a folder, add a folder to Favorites, or create a rule.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -991,9 +991,9 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
-    "Description": "Use text tables in your presentations. Learn how to check spelling, create and format tables, add slide numbers and pages, and set text direction",
+    "Description": "Want to learn about text and tables with PowerPoint? Learn how to insert WordArt, add a hyperlink to a slide, create a PowerPoint presentation from an outline, check spelling in your presentation, create and format a table, insert a linked Excel chart, add slide numbers, date and time, and set the text direction and position in a shape or text box.",
     "StatusTagId": "",
-    "StatusNote": null,
+    "StatusNote": "",
     "Assets": [
       "06f64160-9abf-46bb-80d1-9e94d47a0d36",
       "6f37e08a-43a8-40fe-a1d3-3adf6c592fa9",
@@ -1191,7 +1191,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-    "Description": "Create, design, edit, and save a document with Word",
+    "Description": "There are several useful options to lay out pages with Word. Learn how to change margins, create newsletter columns, change page orientation, add a border to a page, insert a header or a footer, insert page numbers, and insert a page break.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2790,7 +2790,7 @@
     "SubjectId": "",
     "Source": "SOC",
     "CatId": "9bde32c3-2f0b-4201-b4a3-74cef2c8f61d",
-    "Description": "Get started with Teams with 7 simple steps. Learn how to get your team up and running, work in channels, upload and share files, and manage meetings.",
+    "Description": "Get started with Teams with seven simple steps. After an overview of teams, channels, and how you can work and collaborate all in one place, learn how to get your team up and running, work in channels, upload and share files, start and pin chats, join a Teams meeting, and manage meetings.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
