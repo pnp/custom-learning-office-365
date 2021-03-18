@@ -62,7 +62,7 @@
 		@debug var(--#{$slotName});
 	}
 
-	@else {
+	@if $type==null {
 		@debug "--COLOR";
 		color: "[theme:#{$slotName}]";
 		color: var(--#{$slotName});

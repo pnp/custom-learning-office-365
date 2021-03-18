@@ -15,9 +15,9 @@ $c-background: $ouif-bodyBackground;
 
   .category-label {
     // background-color: $ouif-bodyBackground;
-    @include themeSlot(bodyBackground, background);
+    @include themeSlot(bodyBackground, "background");
     // color: $ouif-bodyText;
-    @include themeSlot(bodyBackground);
+    @include themeSlot(bodyText);
   }
 
   .iconbutton {
@@ -31,13 +31,13 @@ $c-background: $ouif-bodyBackground;
 
     &.selected,
     &:hover {
-      background-color: $ouif-primaryButtonBackgroundHovered;
+      // background-color: $ouif-primaryButtonBackgroundHovered;
       @include themeSlot(primaryButtonBackground, background);
-      color: $ouif-primaryButtonBackground;
-      @include themeSlot(primaryButtonBackground);
+      // color: $ouif-primaryButtonBackground;
+      @include themeSlot(primaryButtonText);
 
       svg {
-        fill: $ouif-primaryButtonBackground;
+        // fill: $ouif-primaryButtonBackground;
         @include themeSlot(primaryButtonBackground, fill)
       }
     }

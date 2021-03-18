@@ -10,7 +10,7 @@
   border-left: none;
   // background-color: $c-background;
   @include themeSlot(buttonBackground, background);
-  @include themeSlot(variantBorder, border);
+  @include themeSlot(ButtonBorder, border);
 
   align-items: center;
   justify-content: space-between;
