@@ -63,7 +63,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
 
   public async onInit(): Promise<void> {
 
-    // Consume the new ThemeProvider service
+    Consume the new ThemeProvider service
     this._themeProvider = this.context.serviceScope.consume(ThemeProvider.serviceKey);
 
     // If it exists, get the theme variant
