@@ -56,6 +56,14 @@ export interface ICustomLearningWebPartProps {
   customSortOrder: string[];
 }
 
+import {
+  ThemeProvider,
+  ThemeChangedEventArgs,
+  IReadonlyTheme,
+  ISemanticColors
+} from '@microsoft/sp-component-base';
+
+
 export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustomLearningWebPartProps> {
   private LOG_SOURCE: string = "CustomLearningWebPart";
   private _isReady: boolean = false;
@@ -86,7 +94,35 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
   private _urlPlaylist: string = this._queryParms.getValue("playlist");
   private _urlAsset: string = this._queryParms.getValue("asset");
 
+  // Theming support for Section
+  private _themeProvider: ThemeProvider;
+  private _themeVariant: IReadonlyTheme | undefined;
+
   public async onInit(): Promise<void> {
+
+    // Consume the new ThemeProvider service
+    this._themeProvider = this.context.serviceScope.consume(ThemeProvider.serviceKey);
+
+    // If it exists, get the theme variant
+    this._themeVariant = this._themeProvider.tryGetTheme();
+
+    // If there is a theme variant
+    if (this._themeVariant) {
+
+      console.debug(this._themeVariant);
+
+      // we set transfer semanticColors into CSS variables
+      this.setCSSVariables(this._themeVariant.semanticColors);
+      this.setCSSVariables(this._themeVariant.palette);
+      this.setCSSVariables(this._themeVariant["effects"]);
+
+    } else if (window["__themeState__"].theme) {
+
+      // we set transfer semanticColors into CSS variables
+      this.setCSSVariables(window["__themeState__"].theme);
+
+    }
+
     try {
       //Initialize PnPLogger
       Logger.subscribe(new ConsoleListener());
@@ -124,6 +160,9 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
       this._isError = true;
       Logger.write(`${err} - ${this.LOG_SOURCE} (onInit) -- Could not initialize web part.`, LogLevel.Error);
     }
+
+    return super.onInit();
+
   }
 
   private getTeamsQueryString(): void {
@@ -507,6 +546,23 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
     this.render();
   }
 
+  private setCSSVariables(theming: any) {
+
+    // request all key defined in theming
+    let themingKeys = Object.keys(theming);
+    // if we have the key
+    if (themingKeys !== null) {
+      // loop over it
+      themingKeys.forEach(key => {
+        // add CSS variable to style property of the web part
+        this.domElement.style.setProperty(`--${key}`, theming[key]);
+
+      });
+
+    }
+
+  }
+
   protected getPropertyPaneConfiguration(): IPropertyPaneConfiguration {
     try {
       let displayFilter: any;
@@ -648,4 +704,15 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
       Logger.write(`${err} - ${this.LOG_SOURCE} (onPropertyPaneFieldChanged) -- Error processing property field changes.`, LogLevel.Error);
     }
   }
+
+  /**
+ * Update the current theme variant reference and re-render.
+ *
+ * @param args The new theme
+ */
+  private _handleThemeChangedEvent(args: ThemeChangedEventArgs): void {
+    this._themeVariant = args.theme;
+    this.render();
+  }
+
 }

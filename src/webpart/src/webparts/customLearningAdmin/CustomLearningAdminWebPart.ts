@@ -35,6 +35,14 @@ import CustomLearningAdmin, { ICustomLearningAdminProps } from "./components/Cus
 export interface ICustomLearningAdminWebPartProps {
 }
 
+
+import {
+  ThemeProvider,
+  ThemeChangedEventArgs,
+  IReadonlyTheme,
+  ISemanticColors
+} from '@microsoft/sp-component-base';
+
 export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<ICustomLearningAdminWebPartProps> {
   private LOG_SOURCE: string = "CustomLearningAdminWebPart";
   private _isReady: boolean = false;
@@ -50,8 +58,34 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
   private _forceUpdate: string;
   private _upgradeNeeded: boolean = false;
   private _updateStartVersion: string;
+  private _themeProvider: ThemeProvider;
+  private _themeVariant: IReadonlyTheme | undefined;
 
   public async onInit(): Promise<void> {
+
+    Consume the new ThemeProvider service
+    this._themeProvider = this.context.serviceScope.consume(ThemeProvider.serviceKey);
+
+    // If it exists, get the theme variant
+    this._themeVariant = this._themeProvider.tryGetTheme();
+
+    // If there is a theme variant
+    if (this._themeVariant) {
+
+      console.debug(this._themeVariant);
+
+      // we set transfer semanticColors into CSS variables
+      this.setCSSVariables(this._themeVariant.semanticColors);
+      this.setCSSVariables(this._themeVariant.palette);
+      this.setCSSVariables(this._themeVariant["effects"]);
+
+    } else if (window["__themeState__"].theme) {
+
+      // we set transfer semanticColors into CSS variables
+      this.setCSSVariables(window["__themeState__"].theme);
+
+    }
+
     try {
       //Initialize PnPLogger
       Logger.subscribe(new ConsoleListener());
@@ -494,6 +528,23 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
     return retVal;
   }
 
+  private setCSSVariables(theming: any) {
+
+    // request all key defined in theming
+    let themingKeys = Object.keys(theming);
+    // if we have the key
+    if (themingKeys !== null) {
+      // loop over it
+      themingKeys.forEach(key => {
+        // add CSS variable to style property of the web part
+        this.domElement.style.setProperty(`--${key}`, theming[key]);
+
+      });
+
+    }
+
+  }
+
   private copyPlaylist = async (playlist: IPlaylist): Promise<string> => {
     try {
       let newPlaylist = cloneDeep(playlist);
@@ -524,4 +575,14 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
       return "0";
     }
   }
+
+    /**
+ * Update the current theme variant reference and re-render.
+ *
+ * @param args The new theme
+ */
+     private _handleThemeChangedEvent(args: ThemeChangedEventArgs): void {
+      this._themeVariant = args.theme;
+      this.render();
+    }
 }

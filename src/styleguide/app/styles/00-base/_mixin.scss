@@ -1,4 +1,4 @@
-@mixin multiLineEllipsis($linesHeight: 1.4em, $lines: 1){
+@mixin multiLineEllipsis($linesHeight: 1.4em, $lines: 1) {
 	line-height: $linesHeight;
 
 	position: relative;
@@ -15,7 +15,7 @@
 	-webkit-box-orient: vertical;
 	-webkit-line-clamp: #{$lines};
 
-	&:after{
+	&:after {
 		position: absolute;
 		right: 0;
 		bottom: 0;
@@ -30,12 +30,47 @@
 
 		background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 75%);
 
-		@supports (-webkit-line-clamp: 1){
+		@supports (-webkit-line-clamp: 1) {
 			display: none !important;
 		}
 	}
 }
 
+@mixin themeSlot($slotName, $type: null) {
+
+	@if $type==background {
+		@debug "--BACKGROUND";
+		background-color: "[theme:#{$slotName}]";
+		background-color: var(--#{$slotName});
+		@debug "[theme:#{$slotName}]";
+		@debug var(--#{$slotName});
+	}
+
+	@if $type==border {
+		@debug "--BORDER";
+		border-color: "[theme:#{$slotName}]";
+		border-color: var(--#{$slotName});
+		@debug "[theme:#{$slotName}]";
+		@debug var(--#{$slotName});
+	}
+
+	@if $type==fill {
+		@debug "--FILL";
+		fill: "[theme:#{$slotName}]";
+		fill: var(--#{$slotName});
+		@debug "[theme:#{$slotName}]";
+		@debug var(--#{$slotName});
+	}
+
+	@if $type==null {
+		@debug "--COLOR";
+		color: "[theme:#{$slotName}]";
+		color: var(--#{$slotName});
+		@debug "[theme:#{$slotName}]";
+		@debug var(--#{$slotName});
+	}
+
+}
 
 // @mixin multiLineEllipsis($lineHeight: 1.2em, $lineCount: 1, $bgColor: white) {
 //     overflow: hidden;
