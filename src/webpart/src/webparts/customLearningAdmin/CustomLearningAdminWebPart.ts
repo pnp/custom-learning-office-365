@@ -63,7 +63,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
 
   public async onInit(): Promise<void> {
 
-    Consume the new ThemeProvider service
+    // Consume the new ThemeProvider service
     this._themeProvider = this.context.serviceScope.consume(ThemeProvider.serviceKey);
 
     // If it exists, get the theme variant
@@ -576,13 +576,13 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
     }
   }
 
-    /**
- * Update the current theme variant reference and re-render.
- *
- * @param args The new theme
- */
-     private _handleThemeChangedEvent(args: ThemeChangedEventArgs): void {
-      this._themeVariant = args.theme;
-      this.render();
-    }
+  /**
+* Update the current theme variant reference and re-render.
+*
+* @param args The new theme
+*/
+  private _handleThemeChangedEvent(args: ThemeChangedEventArgs): void {
+    this._themeVariant = args.theme;
+    this.render();
+  }
 }

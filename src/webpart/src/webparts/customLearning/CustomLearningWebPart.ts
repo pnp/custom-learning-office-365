@@ -59,8 +59,7 @@ export interface ICustomLearningWebPartProps {
 import {
   ThemeProvider,
   ThemeChangedEventArgs,
-  IReadonlyTheme,
-  ISemanticColors
+  IReadonlyTheme
 } from '@microsoft/sp-component-base';
 
 
