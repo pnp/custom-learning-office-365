@@ -61,7 +61,7 @@ export default class ImageSelector extends React.Component<IImageSelectorProps, 
         let fileAsset: IFileAddResult = await sp.web.getFolderByServerRelativeUrl("siteassets").files.add(fileObject.name, fileObject, true);
         this.props.setImageSource(window.location.origin + fileAsset.data.ServerRelativeUrl);
       } catch (err) {
-        Logger.write(`${err} - ${this.LOG_SOURCE} (imageChanged)`, LogLevel.Error);
+        Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (imageChanged) - ${err}`, LogLevel.Error);
       }
     }
   }
@@ -94,7 +94,7 @@ export default class ImageSelector extends React.Component<IImageSelectorProps, 
         </div>
       );
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (render)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);
       return null;
     }
   }

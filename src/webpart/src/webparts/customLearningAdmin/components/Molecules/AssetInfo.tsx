@@ -81,7 +81,7 @@ export default class AssetInfo extends React.Component<IAssetInfoProps, IAssetIn
       }
       array.splice(newIndex, 0, array.splice(oldIndex, 1)[0]);
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (moveAsset)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (moveAsset) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -91,7 +91,7 @@ export default class AssetInfo extends React.Component<IAssetInfoProps, IAssetIn
       this.moveAsset(playlist.Assets, index, index - 1);
       this.props.updatePlaylist(playlist, true);
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (moveAssetUp)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (moveAssetUp) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -101,7 +101,7 @@ export default class AssetInfo extends React.Component<IAssetInfoProps, IAssetIn
       this.moveAsset(playlist.Assets, index, index + 1);
       this.props.updatePlaylist(playlist, true);
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (moveAssetDown)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (moveAssetDown) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -111,7 +111,7 @@ export default class AssetInfo extends React.Component<IAssetInfoProps, IAssetIn
       playlist.Assets.splice(index, 1);
       this.props.updatePlaylist(playlist, true);
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (removeAsset)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (removeAsset) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -171,7 +171,7 @@ export default class AssetInfo extends React.Component<IAssetInfoProps, IAssetIn
         currentPivot: "SearchResults"
       });
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (doSearch)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (doSearch) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -181,7 +181,7 @@ export default class AssetInfo extends React.Component<IAssetInfoProps, IAssetIn
       playlist.Assets.push(assetId);
       this.props.updatePlaylist(playlist, true);
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (insertAsset)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (insertAsset) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -220,7 +220,7 @@ export default class AssetInfo extends React.Component<IAssetInfoProps, IAssetIn
       });
       return success;
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (upsertAsset)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (upsertAsset) - ${err}`, LogLevel.Error);
       return false;
     }
   }
@@ -234,7 +234,7 @@ export default class AssetInfo extends React.Component<IAssetInfoProps, IAssetIn
         this.closeSearch();
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (selectSearchAsset)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (selectSearchAsset) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -321,7 +321,7 @@ export default class AssetInfo extends React.Component<IAssetInfoProps, IAssetIn
         </div>
       );
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (render)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);
       return null;
     }
   }

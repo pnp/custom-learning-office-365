@@ -92,7 +92,7 @@ export default class PlaylistInfo extends React.Component<IPlaylistInfoProps, IP
         (this.props.playlistId === "0") ? true : false
       );
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (constructor)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (constructor) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -112,7 +112,7 @@ export default class PlaylistInfo extends React.Component<IPlaylistInfoProps, IP
         playlistChanged: (this.props.playlistId === "0") ? true : false
       });
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (init)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (init) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -125,7 +125,7 @@ export default class PlaylistInfo extends React.Component<IPlaylistInfoProps, IP
       if (nextState.playlistChanged !== this.state.playlistChanged)
         this.props.setEditPlaylistDirty(nextState.playlistChanged);
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (shouldComponentUpdate)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (shouldComponentUpdate) - ${err}`, LogLevel.Error);
     }
     return true;
   }
@@ -148,7 +148,7 @@ export default class PlaylistInfo extends React.Component<IPlaylistInfoProps, IP
       });
 
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (updatePlaylist)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (updatePlaylist) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -161,7 +161,7 @@ export default class PlaylistInfo extends React.Component<IPlaylistInfoProps, IP
         });
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (savePlaylist)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (savePlaylist) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -184,7 +184,7 @@ export default class PlaylistInfo extends React.Component<IPlaylistInfoProps, IP
           valid = false;
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (playlistValid)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (playlistValid) - ${err}`, LogLevel.Error);
     }
 
     return valid;
@@ -200,7 +200,7 @@ export default class PlaylistInfo extends React.Component<IPlaylistInfoProps, IP
         header = `${strings.PlaylistEditPlaylistDetailsHeader} ${title}`;
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (playlistHeader)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (playlistHeader) - ${err}`, LogLevel.Error);
     }
     return header;
   }
@@ -227,7 +227,7 @@ export default class PlaylistInfo extends React.Component<IPlaylistInfoProps, IP
         retVal.push(close);
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (renderPlaylistButtons)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (renderPlaylistButtons) - ${err}`, LogLevel.Error);
     }
     return retVal;
   }
@@ -281,7 +281,7 @@ export default class PlaylistInfo extends React.Component<IPlaylistInfoProps, IP
         </>
       );
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (render)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);
       return null;
     }
   }

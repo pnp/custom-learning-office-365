@@ -66,7 +66,7 @@ export default class SubCategoryList extends React.Component<ISubCategoryListPro
       event.dataTransfer.setData("text/html", event.currentTarget.nodeName);
       event.dataTransfer.setDragImage(event.currentTarget, 20, 20);
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (startDrag)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (startDrag) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -80,7 +80,7 @@ export default class SubCategoryList extends React.Component<ISubCategoryListPro
       if (!isEqual(this.state.detail, this.props.detail))
         this.props.updateCustomSort(customSortOrder);
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (endDrag)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (endDrag) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -103,7 +103,7 @@ export default class SubCategoryList extends React.Component<ISubCategoryListPro
       detail.splice(index, 0, this._dragResource);
       this.setState({ detail: detail as ICategory[] | IPlaylist[] });
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (dragEnter)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (dragEnter) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -149,7 +149,7 @@ export default class SubCategoryList extends React.Component<ISubCategoryListPro
         </div>
       );
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (render)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);
       return null;
     }
   }

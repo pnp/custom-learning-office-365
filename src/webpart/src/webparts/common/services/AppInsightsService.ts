@@ -53,7 +53,7 @@ class AppInsightsServiceInternal implements IAppInsightsService {
         );
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (trackEvent)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (trackEvent) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -98,7 +98,7 @@ class AppInsightsServiceInternal implements IAppInsightsService {
         LogLevel.Verbose
       );
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (trackEvent)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (trackEvent) - ${err}`, LogLevel.Error);
     }
   }
 

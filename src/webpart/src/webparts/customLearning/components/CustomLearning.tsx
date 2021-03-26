@@ -78,7 +78,7 @@ export class CustomLearningState implements ICustomLearningState {
 }
 
 export default class CustomLearning extends React.Component<ICustomLearningProps, ICustomLearningState> {
-  private LOG_SOURCE = "CustomLearning";
+  private LOG_SOURCE: string = "CustomLearning";
   private _reInit: boolean = false;
 
   private teamsContext: boolean = false;
@@ -113,7 +113,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
         }
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (findParentCategory)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (findParentCategory) - ${err}`, LogLevel.Error);
     }
     return parent;
   }
@@ -128,7 +128,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
         this.state.history.push(new HistoryItem("", strings.NavigationHome, ""));
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (init)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (init) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -187,7 +187,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
           checkPlaylists(pl);
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (getFilterValues)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getFilterValues) - ${err}`, LogLevel.Error);
     }
 
     return filterValues;
@@ -205,7 +205,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
       });
       return filtered;
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (filterPlaylists)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (filterPlaylists) - ${err}`, LogLevel.Error);
       return [];
     }
   }
@@ -233,7 +233,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
         newArray.push(item);
       });
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (applyCustomSort)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (applyCustomSort) - ${err}`, LogLevel.Error);
       return array;
     }
     return newArray;
@@ -367,7 +367,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
         }
       });
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (loadDetail)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (loadDetail) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -385,7 +385,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
       }
       this.loadDetail(template, templateId, history);
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (historyClick)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (historyClick) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -417,7 +417,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
         });
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (selectAsset)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (selectAsset) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -441,7 +441,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
 
       this.loadDetail(this.state.template, this.state.templateId, this.state.history, filterValue);
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (setFilter)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (setFilter) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -462,7 +462,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
         }
       });
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (flattenCategory)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (flattenCategory) - ${err}`, LogLevel.Error);
     }
     return retArray;
   }
@@ -556,7 +556,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
         searchResults: searchResults
       });
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (doSearch)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (doSearch) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -575,7 +575,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
         searchResults: []
       });
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (loadSearchResult)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (loadSearchResult) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -632,7 +632,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
           />;
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (renderContainer)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (renderContainer) - ${err}`, LogLevel.Error);
     }
     return element;
   }
@@ -672,7 +672,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
       element.push(this.renderContainer());
 
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (renderPanel)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (renderPanel) - ${err}`, LogLevel.Error);
     }
     let mainElement = <div className={`${styles.customLearning} ${(params.appPartPage) ? styles.appPartPage : ""}`}>{element}</div>;
     return mainElement;
@@ -701,7 +701,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
         </>
       );
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (render)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);
       return null;
     }
   }

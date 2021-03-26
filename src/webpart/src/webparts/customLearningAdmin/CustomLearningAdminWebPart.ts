@@ -71,19 +71,14 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
 
     // If there is a theme variant
     if (this._themeVariant) {
-
-      console.debug(this._themeVariant);
-
       // we set transfer semanticColors into CSS variables
       this.setCSSVariables(this._themeVariant.semanticColors);
       this.setCSSVariables(this._themeVariant.palette);
       this.setCSSVariables(this._themeVariant["effects"]);
 
     } else if (window["__themeState__"].theme) {
-
       // we set transfer semanticColors into CSS variables
       this.setCSSVariables(window["__themeState__"].theme);
-
     }
 
     try {
@@ -122,7 +117,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
     } catch (err) {
       this._isReady = true;
       this._isError = true;
-      Logger.write(`${err} - ${this.LOG_SOURCE} (onInit) -- Could not start web part.`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (onInit) - ${err} -- Could not start web part.`, LogLevel.Error);
     }
   }
 
@@ -176,7 +171,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
       }
     } catch (err) {
       this.telemetry("false", err.message);
-      Logger.write(`${err} - ${this.LOG_SOURCE} (firstInit) -- Could not start web part.`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (firstInit) - ${err} -- Could not start web part.`, LogLevel.Error);
     }
 
     //Configuration complete, now render
@@ -268,7 +263,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
           }
         }
       } catch (err) {
-        Logger.write(`${err} - ${this.LOG_SOURCE} (render)`, LogLevel.Error);
+        Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);
         element = React.createElement(
           Error,
           {
@@ -339,7 +334,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
         }
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (selectCDN)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (selectCDN) - ${err}`, LogLevel.Error);
     }
     return false;
   }
@@ -364,7 +359,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
       return;
     }
     catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (upsertCustomizations)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (upsertCustomizations) - ${err}`, LogLevel.Error);
       return;
     }
   }
@@ -389,7 +384,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
       return savePlaylist;
     }
     catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (upsertPlaylist)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (upsertPlaylist) - ${err}`, LogLevel.Error);
       return "0";
     }
   }
@@ -406,7 +401,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
       }
     }
     catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (deletePlaylist)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (deletePlaylist) - ${err}`, LogLevel.Error);
     }
     return;
   }
@@ -431,7 +426,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
       return saveAsset;
     }
     catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (upsertPlaylist)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (upsertPlaylist) - ${err}`, LogLevel.Error);
       return "0";
     }
   }
@@ -462,7 +457,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
         return false;
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (upsertCdn)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (upsertCdn) - ${err}`, LogLevel.Error);
       return false;
     }
   }
@@ -485,7 +480,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
         return false;
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (removeCdn)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (removeCdn) - ${err}`, LogLevel.Error);
       return false;
     }
   }
@@ -523,7 +518,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
           forEach(retVal, (val) => { val.Text = `${prefix}${val.Text}`; });
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (translateMLString)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (translateMLString) - ${err}`, LogLevel.Error);
     }
     return retVal;
   }
@@ -571,18 +566,8 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
       return savePlaylist;
     }
     catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (clonePlaylist)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (clonePlaylist) - ${err}`, LogLevel.Error);
       return "0";
     }
-  }
-
-  /**
-* Update the current theme variant reference and re-render.
-*
-* @param args The new theme
-*/
-  private _handleThemeChangedEvent(args: ThemeChangedEventArgs): void {
-    this._themeVariant = args.theme;
-    this.render();
   }
 }
