@@ -4,14 +4,14 @@
     "Title": "Excel Quick Start",
     "Image": "images/playlists/excel_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "Get up and running quickly with our Excel Quick Start. Learn how to create a workbook, save to OneDrive, analyze and format data, and share workbooks.",
+    "Description": "Get started quickly with the Excel Quick Start guide. Learn how to create a workbook, enter data, save your workbook to OneDrive, automatically fill a column with Flash Fill, quickly calculate with AutoSum, create a chart, or use conditional formatting with Quick Analysis, freeze the top row, share your workbook to collaborate with others, and set up your mobile apps.",
     "StatusTagId": "",
-    "StatusNote": null,
+    "StatusNote": "",
     "Assets": [
       "94b00f50-5896-479c-b0c5-ff74603b35a3",
       "0cf0055d-49f8-464e-9dfa-8f582b32453b",
@@ -25,7 +25,7 @@
     "Title": "Intro to Excel",
     "Image": "images/playlists/welcome_to_excel.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -39,7 +39,8 @@
       "48580e26-5b6d-48d3-afb5-317e18006dcb",
       "eda1729c-21eb-4bab-970b-fbb6da8724f3",
       "fe861590-87bc-4a54-be5d-8bf03db07093",
-      "27100426-e111-4f91-8bb4-c46d609dc8ca"
+      "27100426-e111-4f91-8bb4-c46d609dc8ca",
+      "c6c2b9ce-6fdc-4b81-be75-2f295126e8fd"
     ]
   },
   {
@@ -47,14 +48,14 @@
     "Title": "Rows & columns",
     "Image": "images/playlists/rows_and_columns.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Add columns, rows, or cells to an Excel worksheet or delete them. Freeze panes, hide or show rows and columns or filter for unique values.",
     "StatusTagId": "",
-    "StatusNote": null,
+    "StatusNote": "",
     "Assets": [
       "06e7419f-fdea-4f32-bc2b-f73088410881",
       "32bae4a3-7bc2-49a7-9cff-22c399ab09e4",
@@ -70,14 +71,14 @@
     "Title": "Cells",
     "Image": "images/playlists/cells.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Cut, Copy, and Paste to move or copy cell contents. Resize a table, column, or row, Learn how to merge cells, validate data or import/export text.",
     "StatusTagId": "",
-    "StatusNote": null,
+    "StatusNote": "",
     "Assets": [
       "0f8afcb1-5cce-45b6-856d-ba3195adaa9e",
       "03cbab80-5182-4b3d-b93b-ae199c51b505",
@@ -92,14 +93,14 @@
     "Title": "Formatting",
     "Image": "images/playlists/formatting.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Format numbers in cells for things like currency, percentages, decimals, dates, phone numbers, or social security numbers. Set up conditional formatting, align or rotate text, or add a watermark.",
     "StatusTagId": "",
-    "StatusNote": null,
+    "StatusNote": "",
     "Assets": [
       "7957ee2d-c54e-4230-961f-175fad32972c",
       "d644dc7b-d008-4459-86ec-00d4e5988e4d",
@@ -116,27 +117,25 @@
     "Title": "Formulas & functions",
     "Image": "images/playlists/formulas_and_functions.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Learn how to create formulas and use built-in functions to perform calculations and solve problems. Learn to use VLOOKUP, SUM, COUNTIF, IF and more.",
     "StatusTagId": "",
-    "StatusNote": null,
+    "StatusNote": "",
     "Assets": [
       "7068c43a-2e0b-47ea-8b0f-692343447af6",
       "65e4dfc5-5b27-4d90-8c51-a56edfca12a4",
-      "6614f5e7-fcf6-4781-b577-7a9538285353",
+      "95439567-b972-4ba3-858c-da70000c8ad4",
       "fbf3ff68-e9c2-4a2b-8a15-a52ff5729dde",
       "3f12e6c7-887b-487e-a8f3-31742d060729",
       "9b987982-de15-4784-8652-0d963d0eac05",
+      "742ecbd6-edf9-4470-b021-be7a2b7a51b2",
       "8a6ca66e-152f-4d10-848c-cd35b2fc70d2",
       "1c27aedd-870f-41a6-bae2-23d4ca417673",
-      "b12e1cc5-e98a-48d0-af9c-41afd3bda3d5",
-      "08a54094-679a-4381-b461-b0627ef8cd09",
-      "8ad05e62-bc18-49fc-937b-8f4144c256c2",
-      "1246bc29-c113-415d-80ba-7fac257beab2"
+      "6614f5e7-fcf6-4781-b577-7a9538285353"
     ]
   },
   {
@@ -144,20 +143,20 @@
     "Title": "Tables",
     "Image": "images/playlists/tables.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Learn how to create and format tables, sort data, and filter data in a table. Discover how to total data in a table or use slicers to filter data.",
     "StatusTagId": "",
-    "StatusNote": null,
+    "StatusNote": "",
     "Assets": [
+      "bf0ce08b-d012-42ec-8ecf-a2259c9faf3f",
       "7f11ec7c-6c1b-4195-9fa5-b3bc8ea544d4",
       "7fbe34f4-8382-431d-942e-41e9a88f6a96",
-      "3517fa12-353e-4907-b94d-b8e9b500ee33",
-      "bf0ce08b-d012-42ec-8ecf-a2259c9faf3f",
-      "9885a56c-51b5-487a-a168-054afd034631"
+      "9885a56c-51b5-487a-a168-054afd034631",
+      "3517fa12-353e-4907-b94d-b8e9b500ee33"
     ]
   },
   {
@@ -165,14 +164,14 @@
     "Title": "Charts",
     "Image": "images/playlists/charts.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Charts help you visualize your data in a way that creates maximum impact on your audience. Learn to create a chart, add a trendline, analyze data instantly or update an existing chart.",
     "StatusTagId": "",
-    "StatusNote": null,
+    "StatusNote": "",
     "Assets": [
       "201fba6f-daf0-4aaf-98f8-e826da1719d7",
       "8b69760d-f337-4b7b-b72e-d48f29e54ba7",
@@ -190,14 +189,14 @@
     "Title": "PivotTables",
     "Image": "images/playlists/pivottables.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "A PivotTable is a powerful tool to calculate, summarize, and analyze data that lets you see comparisons, patterns, and trends in your data. Learn how to create a PivotTable, filter data in a PivotTable, or create a PivotChart.",
+    "Description": "Excel PivotTables are a powerful tool to calculate, summarize, and analyze data and see comparisons, patterns, and trends in your data. Learn how to create a PivotTable to analyze worksheets, tables, and ranges, use the Field List to arrange fields, group or ungroup data, sort data, filter data, and create a PivotChart.",
     "StatusTagId": "",
-    "StatusNote": null,
+    "StatusNote": "",
     "Assets": [
       "1f0532af-5e59-45e6-830f-0c058157d90c",
       "d7fc5918-12a9-4f99-bd35-e80660468efd",
@@ -211,14 +210,14 @@
     "Title": "Share and co-author",
     "Image": "images/playlists/excel_share_and_co-author.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Learn how to share a workbook with others, right within Excel. You can let them edit the workbook or just view it. Also learn how to lock or unlock specific areas, protect an Excel file, or save to PDF.",
     "StatusTagId": "",
-    "StatusNote": null,
+    "StatusNote": "",
     "Assets": [
       "5223233d-ee42-4331-bb63-6495a5039cc0",
       "7d583ed1-58ca-4906-9596-3b963b57ea7e",
@@ -234,14 +233,14 @@
     "Title": "Teams Quick Start",
     "Image": "images/playlists/teams_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Learn how to create a Team, Use chat, Edit files at the same time, See likes, and Customize",
+    "Description": "Get started quickly with the Microsoft Teams Quick Start guide. Learn how to sign in to Teams, pick a team and channel, chat in Teams, start a new conversation, reply to a conversation, use emojis, memes, and GIFs, share a file, collaborate with @mention, check your Activity Feed, search for messages, people, or files, and set up your mobile apps.",
     "StatusTagId": "",
-    "StatusNote": null,
+    "StatusNote": "",
     "Assets": [
       "422bf3aa-9ae8-46f1-83a2-e65720e1a34d",
       "6723dc43-dbc0-46e6-af49-8a2d1c5cb937",
@@ -255,58 +254,16 @@
     "Title": "Intro to Microsoft Teams",
     "Image": "images/playlists/intro_to_microsoft_teams.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Learn about Teams, Setting up a channel, Meetings, Calls, and other Activities",
+    "Description": "Microsoft Teams is a collaboration app that helps your team stay organized and have conversations—all in one place. With Intro to Microsoft Teams, get an overview of teams, channels, meetings, conversations, tabs, share files, collaborate real time, find files, add people to a chat, make a call, manage your calendar, schedule a meeting, join meetings, share content, record a meeting, view our activity feed, and use the command box to search for people, items, or apps.",
     "StatusTagId": "",
-    "StatusNote": null,
+    "StatusNote": "",
     "Assets": [
       "b98d533f-118e-4bae-bf44-3df2470c2b12"
-    ]
-  },
-  {
-    "Id": "b6b28572-87d3-4c71-a565-8d4a8e18d406",
-    "Title": "Set up and customize your team",
-    "Image": "images/playlists/set_up_and_customize_your_team.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Get up and running with Teams by learning how to create and manage public and private teams",
-    "StatusTagId": "",
-    "StatusNote": null,
-    "Assets": [
-      "702a2977-e662-4038-bef5-bdf8ee47b17b",
-      "92d238e6-0ae2-447e-af90-40b1052c4547",
-      "0db2a152-ac66-48cf-aa24-0eca94bf6c79"
-    ]
-  },
-  {
-    "Id": "d4f4cae2-ce9a-483a-a786-93974e40b482",
-    "Title": "Collaborate in teams and channels",
-    "Image": "images/playlists/collaborate_in_teams_and_channels.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Collaborate in Teams by working in channels and using Planner",
-    "StatusTagId": "",
-    "StatusNote": null,
-    "Assets": [
-      "c3d63c10-77d5-4204-a566-53ddcf723b46",
-      "2766a75b-342a-4ed9-810d-f3c0f06c3207",
-      "a6041b90-0805-4140-b8ae-1ee3805908d7",
-      "99d33aaa-0743-47c6-a476-eb0a24abcb7e",
-      "f5275f98-7ee6-40e1-8c6e-5dc452df128b",
-      "f581aeaf-cc73-4dce-8a7b-12ecce5e7fdf",
-      "d6b86155-c9a5-4c35-a009-67f74ffe0c69"
     ]
   },
   {
@@ -314,12 +271,12 @@
     "Title": "Start chats and calls",
     "Image": "images/playlists/start_chats_calls_and_meetings.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Learn how to make calls in Teams, turn calls into meetings, and present your screen during a meeting",
+    "Description": "Start 1:1 or group chats to collaborate with a smaller group or to talk privately, and pin chats for quick access.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -330,23 +287,65 @@
     ]
   },
   {
-    "Id": "4374d7da-95a5-4e13-a14b-2e43e1277d53",
-    "Title": "Explore apps and tools",
-    "Image": "images/playlists/explore_apps_and_tools.png",
+    "Id": "b6b28572-87d3-4c71-a565-8d4a8e18d406",
+    "Title": "Set up and customize your team",
+    "Image": "images/playlists/set_up_and_customize_your_team.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Explore apps and tools in Teams and learn how to add tools, turn a file into a tab, and use the command box",
+    "Description": "Use Microsoft Teams to set up and customize your team. Learn how to create a public or private team, add members to a team, create a channel, and use manage team to find members, channels, settings, and apps for your team. There’s also a go-to guide for team owners to add and remove members, add team owners, manage channels, and change team settings. You can also pin a channel and reorder your teams, to organize your teams list.",
     "StatusTagId": "",
-    "StatusNote": null,
+    "StatusNote": "",
+    "Assets": [
+      "702a2977-e662-4038-bef5-bdf8ee47b17b",
+      "92d238e6-0ae2-447e-af90-40b1052c4547",
+      "0db2a152-ac66-48cf-aa24-0eca94bf6c79"
+    ]
+  },
+  {
+    "Id": "4374d7da-95a5-4e13-a14b-2e43e1277d53",
+    "Title": "Explore apps and tools",
+    "Image": "images/playlists/explore_apps_and_tools.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
+    "Description": "Explore apps and tools in Teams and learn how to add tools, turn a file into a tab, and use the command box.",
+    "StatusTagId": "",
+    "StatusNote": "",
     "Assets": [
       "089ff1b2-6cd7-4e86-ab50-a4390b4bcb21",
       "4c0ef9a7-0c3e-4a95-aaea-f52f2f81ecbc",
       "13c4e429-7324-4886-b377-5dbed539193b",
       "a78606bb-a15f-4f3e-8892-63f735cc1f6a"
+    ]
+  },
+  {
+    "Id": "d4f4cae2-ce9a-483a-a786-93974e40b482",
+    "Title": "Collaborate in teams and channels",
+    "Image": "images/playlists/collaborate_in_teams_and_channels.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
+    "Description": "In Microsoft Teams, channels are where you hold meetings, have conversations, and work on files together. Learn how to create a public or private channel, pin a channel, add a tab, share a file, meet now, show and hide channels, customize channel notifications, reply to a message, like or save a message, use @mention, collaborate on or co-edit a file, start a conversation, send email to a channel, and create a plan with Planner. ",
+    "StatusTagId": "",
+    "StatusNote": "",
+    "Assets": [
+      "c3d63c10-77d5-4204-a566-53ddcf723b46",
+      "2766a75b-342a-4ed9-810d-f3c0f06c3207",
+      "a6041b90-0805-4140-b8ae-1ee3805908d7",
+      "99d33aaa-0743-47c6-a476-eb0a24abcb7e",
+      "f5275f98-7ee6-40e1-8c6e-5dc452df128b",
+      "f581aeaf-cc73-4dce-8a7b-12ecce5e7fdf",
+      "d6b86155-c9a5-4c35-a009-67f74ffe0c69"
     ]
   },
   {
@@ -440,7 +439,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "Learn to work with Microsoft Teams including Creating and Formatting a post, Start and Pin Chats, Make Calls, Join a Teams meeting, and Tips for Better Meetings. ",
+    "Description": "Work with Microsoft Teams to collaborate with your team, help your team stay organized, and have conversations – all in one place. Learn how to create teams and channels, add a tab, pin a channel, create and format a post, start and pin a chat, make calls, join a Teams meeting, and learn tips and best practices to schedule, start, and run an effective meeting. ",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -543,9 +542,9 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "4ee4d22a-7d53-48bb-9a14-adf34d01cd75",
-    "Description": "Collaborate and stay connected with OneDrive",
+    "Description": "Get started quickly with the OneDrive Quick Start guide. Learn how to upload files and folders, use OneDrive in your browser or on your desktop, save and open files in your Office apps, create a file or folder, manage files and folders, search for files, back up files, share files, manage access and permissions, stop sharing, copy links, change views, collaborate in OneDrive, set up your mobile apps, and work on the go with the OneDrive app on your mobile device.",
     "StatusTagId": "",
-    "StatusNote": null,
+    "StatusNote": "",
     "Assets": [
       "a1397e56-61ec-4ed2-9dac-727bf8ac3357",
       "94c8a731-c774-468e-97a1-5f038bdf330d",
@@ -647,9 +646,9 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-    "Description": "Learn how OneNote is the perfect app for capturing pretty much anything",
+    "Description": "With OneNote, you can type notes or record audio, sketch or write ideas, add a picture, find notes, organize pages into sections and sections into notebooks, and share notebooks to view and contribute together. Watch this Intro to OneNote overview video and then learn how to sign in, add a new page or section, rename a page or section, open a different notebook, and customize OneNote.",
     "StatusTagId": "",
-    "StatusNote": null,
+    "StatusNote": "",
     "Assets": [
       "1b7c6171-61c6-4157-bad5-8480ae8f54a1",
       "478895de-5cda-4e15-bd24-f6b338d4addf"
@@ -721,9 +720,9 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-    "Description": "Stay organized and learn how to find notes no matter where they are",
+    "Description": "To stay organized with OneNote, learn how to search for notes, narrow the search, and organize your notebooks. See how to show navigation panes, move a page from one section to another, copy a page to another section or notebook, and move or copy a section.",
     "StatusTagId": "",
-    "StatusNote": null,
+    "StatusNote": "",
     "Assets": [
       "e10883b2-09a5-49de-8f9b-71605a100504",
       "ff0d5f04-532d-43e6-835a-82c5755374cb"
@@ -776,7 +775,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "With Outlook, you can add an email account, create and send email, manage calander and contacts, and collaborate",
+    "Description": "Get started quickly with the Outlook Quick Start guide. Learn how to add an email account, create and send email, use @mentions, show Focused inbox, manage your calendar and contacts, schedule an appointment using Scheduling Assistant, add a contact, collaborate in Outlook, share a file, set up an online meeting and shared notes, and set up your mobile apps.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -797,9 +796,9 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "Get an overview of Outlook. Learn how to add an Outlook.com, Office 365, or Gmail account.",
+    "Description": "Need to set up and customize Outlook? Learn how Outlook can help you organize your email, manage and share your calendar, share files, stay connected, and add an outlook.com account, Microsoft 365 email account, or Gmail account.",
     "StatusTagId": "",
-    "StatusNote": null,
+    "StatusNote": "",
     "Assets": [
       "10f1fa35-f33a-4cb7-838c-a7f3e6228b20",
       "46274497-95ea-4a7d-9651-d246aa63eb5e",
@@ -857,7 +856,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "Set categories, flags, or reminders. Organize email with folders or set up Rules",
+    "Description": "Learn tips to organize your inbox. Learn how to set a Follow Up flag, view or remove Follow Up flags, set a reminder, find an Action Item, create color categories, assign a color category to an email message, create a folder, move messages into a folder, add a folder to Favorites, or create a rule.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -992,9 +991,9 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
-    "Description": "Use text tables in your presentations. Learn how to check spelling, create and format tables, add slide numbers and pages, and set text direction",
+    "Description": "Want to learn about text and tables with PowerPoint? Learn how to insert WordArt, add a hyperlink to a slide, create a PowerPoint presentation from an outline, check spelling in your presentation, create and format a table, insert a linked Excel chart, add slide numbers, date and time, and set the text direction and position in a shape or text box.",
     "StatusTagId": "",
-    "StatusNote": null,
+    "StatusNote": "",
     "Assets": [
       "06f64160-9abf-46bb-80d1-9e94d47a0d36",
       "6f37e08a-43a8-40fe-a1d3-3adf6c592fa9",
@@ -1155,11 +1154,11 @@
     "StatusTagId": "",
     "StatusNote": null,
     "Assets": [
-      "551e190a-8fbe-47ae-a88a-798b443c46b1",
       "7787a98c-8eb9-407d-8ee7-73a9975caf71",
       "2a71be2b-e72a-4a55-bfd2-e2a13698c087",
       "2080ed96-2e53-46cb-b208-5901372e3af5",
-      "bc2c99a9-0e40-4eb0-b0e9-4979500c39ed"
+      "bc2c99a9-0e40-4eb0-b0e9-4979500c39ed",
+      "551e190a-8fbe-47ae-a88a-798b443c46b1"
     ]
   },
   {
@@ -1192,7 +1191,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-    "Description": "Create, design, edit, and save a document with Word",
+    "Description": "There are several useful options to lay out pages with Word. Learn how to change margins, create newsletter columns, change page orientation, add a border to a page, insert a header or a footer, insert page numbers, and insert a page break.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1493,14 +1492,14 @@
     "Title": "Forms Quick Start",
     "Image": "images/playlists/forms_quick_startx.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "33059862-a87d-4b40-9984-be7c6083cf95",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "daeade40-9dfc-4d82-84be-9ae7544829dc",
     "Description": "Build a form in minutes. Learn how to add questions to your form, define settings, share your form, and check results in just a few easy steps!",
     "StatusTagId": "",
-    "StatusNote": null,
+    "StatusNote": "",
     "Assets": [
       "620daa7a-3e03-4013-8f92-5cce86210ef6",
       "39a23830-452d-474c-ae1f-47a6ebefa21a",
@@ -1510,20 +1509,23 @@
   },
   {
     "Id": "b873fd99-81be-483a-a8e0-16fcfe0fa120",
-    "Title": "Create a form",
+    "Title": "Create a form and view results",
     "Image": "images/playlists/create_a_formx.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "33059862-a87d-4b40-9984-be7c6083cf95",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "daeade40-9dfc-4d82-84be-9ae7544829dc",
     "Description": "Learn how to use Forms to create surveys, quizzes, and polls, and easily see results as they come in.",
     "StatusTagId": "",
-    "StatusNote": null,
+    "StatusNote": "",
     "Assets": [
-      "4ffb64cc-7d5d-402f-b82e-b1d49418fd9d",
-      "a082a018-24a1-48c1-b176-4b3616cdc83d"
+      "9c70b0eb-77db-42a6-95cd-c4fc592ef0f3",
+      "485b6014-94e6-422f-b423-c8a726f4e61d",
+      "88810583-df88-417b-b266-b69488b944a4",
+      "d729f969-1c4b-43d1-926f-fc0261b3bce5",
+      "c197fb7d-f21b-4511-b3b5-5108ea91d51a"
     ]
   },
   {
@@ -1531,7 +1533,7 @@
     "Title": "Share and collaborate",
     "Image": "images/playlists/forms-share-collaborate.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "33059862-a87d-4b40-9984-be7c6083cf95",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -1599,6 +1601,26 @@
     ]
   },
   {
+    "Id": "7a057fc3-74eb-46ab-991d-50e2e665f95d",
+    "Title": "Work with posts and messages",
+    "Image": "images/playlists/work-with-post-and-messages.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
+    "Description": "Learn how to create and format a post or announcement to start a conversation in a channel.",
+    "StatusTagId": "",
+    "StatusNote": "",
+    "Assets": [
+      "238176cf-6428-4ca9-8181-7f7c0fe6ff48",
+      "a8073654-eb8d-44ca-a7ae-1287b32d599d",
+      "206edfa2-2978-4b03-9eec-4d06f33de166",
+      "2f13be6f-3968-4e5c-b020-9532db7b3a18"
+    ]
+  },
+  {
     "Id": "9647e1aa-63a1-48d1-aea9-b0913f0f1e0b",
     "Title": "Use Microsoft 365 across your team",
     "Image": "images/playlists/use_across_team.png",
@@ -1639,6 +1661,24 @@
     ]
   },
   {
+    "Id": "044071b3-a780-4a24-b0b1-a4951ee48a3f",
+    "Title": "Upload and find files",
+    "Image": "images/playlists/upload-and-find-files.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
+    "Description": "Learn how to upload and share files in Microsoft Teams. Also learn how to find and filter files.",
+    "StatusTagId": "",
+    "StatusNote": "",
+    "Assets": [
+      "d46890d8-e8bf-4642-97cd-6379b0c7dddd",
+      "dca01f0e-7335-4c6f-8dd1-d419870e3239"
+    ]
+  },
+  {
     "Id": "1f5ec8e6-5fef-481a-ad87-59842c3d539b",
     "Title": "Day in your digital life with Office 365",
     "Image": "images/playlists/digital_day.png",
@@ -1661,26 +1701,6 @@
       "a3d5959b-91ea-4cf0-b60a-e27abe03d59e",
       "91750070-ca20-4e28-b840-eb16b859422c",
       "1dc10cd1-fa7d-4ec7-98ec-c5cacdf43d84"
-    ]
-  },
-  {
-    "Id": "7a057fc3-74eb-46ab-991d-50e2e665f95d",
-    "Title": "Work with posts and messages",
-    "Image": "images/playlists/work-with-post-and-messages.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Create and format a post to start a conversation in a channel",
-    "StatusTagId": "",
-    "StatusNote": null,
-    "Assets": [
-      "238176cf-6428-4ca9-8181-7f7c0fe6ff48",
-      "a8073654-eb8d-44ca-a7ae-1287b32d599d",
-      "206edfa2-2978-4b03-9eec-4d06f33de166",
-      "2f13be6f-3968-4e5c-b020-9532db7b3a18"
     ]
   },
   {
@@ -1750,21 +1770,23 @@
     ]
   },
   {
-    "Id": "044071b3-a780-4a24-b0b1-a4951ee48a3f",
-    "Title": "Upload and find files",
-    "Image": "images/playlists/upload-and-find-files.png",
+    "Id": "729bcb7f-43bc-4d38-a0df-8fbf38b80e56",
+    "Title": "Set up and attend live events",
+    "Image": "images/playlists/setup-and-attend-live-events.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Upload and find files in Teams",
+    "Description": "Teams live events enables you to produce events for large online audiences with more control over video, audience interaction, and reporting",
     "StatusTagId": "",
-    "StatusNote": null,
+    "StatusNote": "",
     "Assets": [
-      "d46890d8-e8bf-4642-97cd-6379b0c7dddd",
-      "dca01f0e-7335-4c6f-8dd1-d419870e3239"
+      "6dc89bcf-9420-4820-ac10-e1c13d2b2e68",
+      "ee60b41d-4137-4a5e-abfc-35c405006aed",
+      "e0b8a354-3070-4bc6-9923-ef747c8fa9a5",
+      "d1a88b4b-f6d4-47da-a28a-196857b5325b"
     ]
   },
   {
@@ -1837,23 +1859,27 @@
     ]
   },
   {
-    "Id": "729bcb7f-43bc-4d38-a0df-8fbf38b80e56",
-    "Title": "Set up and attend live events",
-    "Image": "images/playlists/setup-and-attend-live-events.png",
+    "Id": "fae33957-cb84-4185-ab78-2bd3818b31ee",
+    "Title": "Manage Meetings",
+    "Image": "images/playlists/manage_meetings.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
-    "SubjectId": "",
-    "Source": "Microsoft",
+    "SubjectId": "615f17eb-2c5b-4494-8541-4304435ca306",
+    "Source": "SOC",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Teams live events enables you to produce events for large online audiences with more control over video, audience interaction, and reporting",
-    "StatusTagId": "",
-    "StatusNote": null,
+    "Description": "View, schedule, and manage appointments and meetings in Microsoft Teams to keep your team on track.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
     "Assets": [
-      "6dc89bcf-9420-4820-ac10-e1c13d2b2e68",
-      "ee60b41d-4137-4a5e-abfc-35c405006aed",
-      "e0b8a354-3070-4bc6-9923-ef747c8fa9a5",
-      "d1a88b4b-f6d4-47da-a28a-196857b5325b"
+      "6dd4a6fd-d88f-4baf-b08e-06755a680926",
+      "006f78bc-67ce-465a-af1c-483534cdb011",
+      "7eb9c719-9452-4a9a-b3b6-69f48149ba1c",
+      "0d231dd0-3e6a-4a7c-a384-04ac44e80807",
+      "d3cc8fad-9655-4f2d-b8f5-197a1b3951a1",
+      "37566690-8652-4eac-abed-bfe6de084828",
+      "b33ae7a4-e14b-4e46-9440-94bfed214415",
+      "22c40436-db14-4863-93c6-aa9a51134edd"
     ]
   },
   {
@@ -1937,41 +1963,18 @@
     ]
   },
   {
-    "Id": "fae33957-cb84-4185-ab78-2bd3818b31ee",
-    "Title": "Manage Meetings",
-    "Image": "images/playlists/manage_meetings.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
-    "SubjectId": "615f17eb-2c5b-4494-8541-4304435ca306",
-    "Source": "SOC",
-    "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "View, schedule, and manage appointments and meetings in Microsoft Teams to keep your team on track.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
-    "StatusNote": "",
-    "Assets": [
-      "6dd4a6fd-d88f-4baf-b08e-06755a680926",
-      "7eb9c719-9452-4a9a-b3b6-69f48149ba1c",
-      "0d231dd0-3e6a-4a7c-a384-04ac44e80807",
-      "d3cc8fad-9655-4f2d-b8f5-197a1b3951a1",
-      "37566690-8652-4eac-abed-bfe6de084828",
-      "b33ae7a4-e14b-4e46-9440-94bfed214415",
-      "22c40436-db14-4863-93c6-aa9a51134edd"
-    ]
-  },
-  {
     "Id": "2b830deb-c2f7-46b4-9c0f-eb3150a9f083",
     "Title": "Manage your activity feed",
     "Image": "images/playlists/manage-your-activity-feed.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Manage your activity feed and know everything that's happening in the team channels you follow",
+    "Description": "Manage your activity feed and know everything that's happening in the team channels you follow.",
     "StatusTagId": "",
-    "StatusNote": null,
+    "StatusNote": "",
     "Assets": [
       "84be203b-a15b-4035-ae34-364440b70026",
       "f44bd700-38dc-4838-87af-a6e6c3fe3998"
@@ -1982,17 +1985,20 @@
     "Title": "Teams on the go",
     "Image": "images/playlists/teams-on-the-go.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Get caught up with everything fast with your activity feed",
+    "Description": "Start a 1:1 or group chat in the Microsoft Teams mobile app to talk privately or collaborate with a smaller group. Create a channel, join a meeting, use your activity feed, or manage notifications on the go, ",
     "StatusTagId": "",
-    "StatusNote": null,
+    "StatusNote": "",
     "Assets": [
+      "32525960-bb69-4c94-a0be-cb6551fafc05",
+      "67e02503-fb3d-4c38-938e-570a04231155",
       "2de922ed-16a4-4685-ae62-6887859a9ff3",
-      "67e02503-fb3d-4c38-938e-570a04231155"
+      "75734507-da8d-4ff1-a541-9136a825581b",
+      "5ba5b778-d656-45b1-91cc-6e9abebe767e"
     ]
   },
   {
@@ -2027,7 +2033,7 @@
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
     "Description": "Outlook mobile helps you find a time when everyone is available for a meeting.",
     "StatusTagId": "",
-    "StatusNote": null,
+    "StatusNote": "",
     "Assets": [
       "672f8ae7-1843-4dff-acb4-d3a998f5f392",
       "555babd1-f307-48ef-a2cf-f6ea1aae6fdc",
@@ -2051,7 +2057,7 @@
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
     "Description": "Outlook Mobile makes it easy to find contacts and learn more about them. ",
     "StatusTagId": "",
-    "StatusNote": null,
+    "StatusNote": "",
     "Assets": [
       "1f238e49-2699-4ff7-b992-3b1b0f35297b",
       "871a7381-5154-4a9d-83df-d59476b7139a",
@@ -2565,6 +2571,26 @@
     ]
   },
   {
+    "Id": "d4b4a842-2858-4cef-a090-51b567d90cc0",
+    "Title": "Common use of functions",
+    "Image": "images/playlists/excel_share_and_co-author.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+    "SubjectId": "",
+    "Source": "SOC",
+    "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
+    "Description": "Automatically number rows, calculate the difference between two dates, define and use names in formulas, and combine text from two or more cells in one cell.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "b12e1cc5-e98a-48d0-af9c-41afd3bda3d5",
+      "08a54094-679a-4381-b461-b0627ef8cd09",
+      "8ad05e62-bc18-49fc-937b-8f4144c256c2",
+      "1246bc29-c113-415d-80ba-7fac257beab2"
+    ]
+  },
+  {
     "Id": "610da080-333a-449f-9f81-21c556c0a961",
     "Title": "Office for the web: Outlook for the web",
     "Image": "images/playlists/Outlook_for_the_web.png",
@@ -2696,8 +2722,47 @@
     ]
   },
   {
+    "Id": "e51271b2-b4c0-4038-aa97-e4498c953afe",
+    "Title": "Cybersecurity fundamentals",
+    "Image": "images/playlists/LP-security-security-at-work.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "SOC",
+    "CatId": "51a0828d-1d27-4931-b547-9f2a698f33d8",
+    "Description": "Keep your computer secure at work, learn about multi-factor authentication, firewall and network protection in Windows security, and prevent changes to security settings with Tamper Protection. ",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "252ec429-8fb8-4c44-9e56-89f3fb0490ac",
+      "51a18a97-1564-4d0c-a7f3-72661a63f100",
+      "08313516-6c01-4f73-9a6c-991a5fc34f07",
+      "ac4d4dbc-c335-4f13-a71e-923330b8a35e"
+    ]
+  },
+  {
+    "Id": "72863bbc-46ae-41dc-885d-0edb0a8abaa4",
+    "Title": "Digital safety",
+    "Image": "images/playlists/LP-security-security-at-home.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "SOC",
+    "CatId": "51a0828d-1d27-4931-b547-9f2a698f33d8",
+    "Description": "Get tips to keep your data safe and help protect your family online with Windows Security.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "9854471f-834b-4a9a-9447-102895925ade",
+      "7f5ff126-4f76-4628-90ec-4ed1e88ef365",
+      "cf0c38c9-168e-47e7-98ea-e2ebf2c31c92"
+    ]
+  },
+  {
     "Id": "5872570a-e8a6-4d84-8802-4dd053b4dabc",
-    "Title": "5 Simple Steps",
+    "Title": "Top threats",
     "Image": "images/playlists/LP-security-5-simple-steps.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2710,49 +2775,9 @@
     "StatusNote": "",
     "Assets": [
       "9b20011b-650e-4cc9-974f-fdae573eeb17",
+      "61e3894f-c7fa-4457-bcf4-25b6ce417e0e",
       "3b34b713-7c3e-4849-b0e4-1b639d696d99",
-      "9854471f-834b-4a9a-9447-102895925ade",
-      "a461ddbf-ac3b-4c11-a269-f888bccb65dc",
-      "d374a7bc-d763-426a-bda1-c359fbc480a9"
-    ]
-  },
-  {
-    "Id": "72863bbc-46ae-41dc-885d-0edb0a8abaa4",
-    "Title": "Security at home",
-    "Image": "images/playlists/LP-security-security-at-home.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "SOC",
-    "CatId": "51a0828d-1d27-4931-b547-9f2a698f33d8",
-    "Description": "Get tips to keep your data safe and help protect your family online with Windows Security.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
-    "StatusNote": "",
-    "Assets": [
-      "f64cab44-4e2e-4c76-8c45-1d9d15637fb0",
-      "1b7c3060-86cd-4328-bb2b-6864973cbbf0",
-      "bc657c29-77c5-4184-bfdd-2af55cd7b671"
-    ]
-  },
-  {
-    "Id": "e51271b2-b4c0-4038-aa97-e4498c953afe",
-    "Title": "Security at work",
-    "Image": "images/playlists/LP-security-security-at-work.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "SOC",
-    "CatId": "51a0828d-1d27-4931-b547-9f2a698f33d8",
-    "Description": "\r\nKeep your computer secure at work, learn about multi-factor authentication, firewall and network protection in Windows security, and prevent changes to security settings with Tamper Protection. ",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
-    "StatusNote": "",
-    "Assets": [
-      "3c624ce0-20a6-4f5d-953e-2176412bad6a",
-      "51a18a97-1564-4d0c-a7f3-72661a63f100",
-      "d8a5691e-932e-4a6e-b4cb-30f16145cc5c",
-      "5d0045ef-1906-456c-a3ef-a46bce2b8d12"
+      "3a62abc0-bb70-4c98-b9ab-7dd48f3ce084"
     ]
   },
   {
@@ -2765,7 +2790,7 @@
     "SubjectId": "",
     "Source": "SOC",
     "CatId": "9bde32c3-2f0b-4201-b4a3-74cef2c8f61d",
-    "Description": "Get started with Teams with 7 simple steps. Learn how to get your team up and running, work in channels, upload and share files, and manage meetings.",
+    "Description": "Get started with Teams with seven simple steps. After an overview of teams, channels, and how you can work and collaborate all in one place, learn how to get your team up and running, work in channels, upload and share files, start and pin chats, join a Teams meeting, and manage meetings.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -2776,6 +2801,201 @@
       "7843f46f-a3ad-4dd9-9430-867e6362e590",
       "920382b4-2cca-40f1-ac20-05afed2005bd",
       "7237da86-9409-40e1-9b05-fc3eba33404c"
+    ]
+  },
+  {
+    "Id": "2ba46e26-5c63-48b9-818c-f49354b3b5d1",
+    "Title": "Manage team schedules with Shifts",
+    "Image": "images/playlists/teams_shifts.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "",
+    "Source": "SOC",
+    "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
+    "Description": "Shifts in Microsoft Teams is a schedule management tool. Learn how to use Shifts to create, update, and manage schedules for your team. \r\n\r\n",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "43e3e7df-9e45-4521-bbec-e0be6c812ffb",
+      "faa8d7d6-3635-459e-a1bb-925c94a7fa59",
+      "b9c56f09-1b13-406f-841c-656fdf251942",
+      "0369eb90-79d0-44c2-95c0-dd7a1ef495cd",
+      "c5714c3b-f123-4c9c-9d5d-0d13e6581559"
+    ]
+  },
+  {
+    "Id": "0c7a8a54-f7fc-4464-8f21-67c961b84f7c",
+    "Title": "Get started with Lists",
+    "Image": "images/playlists/lists_get_started.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "TechnologyId": "016a561b-1c7a-4528-b0b7-96fcb556a1e1",
+    "SubjectId": "",
+    "Source": "SOC",
+    "CatId": "4b40845d-fe5f-428f-8970-58455e5bf262",
+    "Description": "Track information and organize work with Microsoft Lists. Create a list from scratch, from Excel, from an existing list, or from a template.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "ee8076b6-4270-46c7-bd5d-f575b59d9474",
+      "5b16f46a-b2f7-4c47-b753-e1aeada713bd",
+      "bc79367d-29d0-412f-968a-ff880fd1c830",
+      "d265d970-039c-4a9e-9c48-f50f75ecd954",
+      "89f17abb-a39e-4fec-bfaa-de60bc2e554a",
+      "675d6755-5e48-4691-8e08-4ea419602187",
+      "20437c9e-d618-4a76-a957-9ad3e9fe6824",
+      "a76e1836-6d5b-415a-9221-974d145c01ef"
+    ]
+  },
+  {
+    "Id": "ed55052f-97a3-495c-937f-273c89775b69",
+    "Title": "Linked data types",
+    "Image": "images/playlists/excel_linked_data_types.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+    "SubjectId": "",
+    "Source": "SOC",
+    "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
+    "Description": "With linked data types, you can insert and work with reliable data from trusted online data sources. ",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "7e57b140-159f-457a-8ee6-5276bbaf395a",
+      "cf0e75c4-04cd-4260-8648-3cd7bd5f8c56",
+      "ec09d1da-476c-4945-a595-9f9aa816dd53"
+    ]
+  },
+  {
+    "Id": "19a310b9-b50c-44ae-96e2-b30f17a38528",
+    "Title": "Run effective meetings",
+    "Image": "images/playlists/hybrid_eff_meetings.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "SOC",
+    "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
+    "Description": "Learn how to plan and lead effective hybrid meetings. Learn what to do before, during and after meetings, how to engage an audience and reduce meeting fatigue. ",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "1a747a9c-dc47-480e-b3d7-1df74cbe2d29",
+      "e67f90ca-657b-4fc7-8382-6bb6e87f3b4b",
+      "d868fd47-9aeb-46c2-b86c-8f02c89eac60",
+      "cbacc0cb-73c3-4f95-b3f5-44b3af30fbae",
+      "4ecdbc37-c34c-40b0-87fb-619e7625d1e2",
+      "54302a7f-833c-4690-902b-1621f45dcb61",
+      "c570f04f-08d9-4a37-b59d-8c92b47c26b9",
+      "3a70afb4-a7b7-4dc4-ab56-e232a988c6ff",
+      "2f1621f6-aace-403f-8394-8d2f0183b96c"
+    ]
+  },
+  {
+    "Id": "3cbbe474-ef4d-4154-aeb1-9a01d51764d4",
+    "Title": "Create inclusive meeting environments",
+    "Image": "images/playlists/hybrid_incl_meetings.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "SOC",
+    "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
+    "Description": "Learn how to create inclusie meeting environments, make meetings and related content accessible for all. Limit distractions in meetings and build empathy across time zone.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "1a583551-1f93-4d71-bac1-5881d5f8b1e7",
+      "7f1a4746-bfa5-49d3-8686-3b59dc3391b9",
+      "8fcf1237-4ba5-46b2-a3cb-19d9d526b409",
+      "4a5a9fae-5803-4ce2-9f54-77535f6a6618"
+    ]
+  },
+  {
+    "Id": "fdaae787-a991-40ae-ad83-87f05c8cf8ea",
+    "Title": "Asynchronous collaboration and co-authoring",
+    "Image": "images/playlists/hybrid_async_collab.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "SOC",
+    "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
+    "Description": "Learn how to reduce or replace meetings with asynchronous collaboration. Collaborate and co-author shared content. Collaborate in Teams, SharePoint, and OneDrive. ",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "1311f213-f56b-4c15-b496-5ecff888cd66",
+      "c7fa8661-7524-43bf-9f6f-2cd5ac42a73a",
+      "5237d4b4-b7d7-408c-8a3a-f42b9af87c41",
+      "ed846cbd-a58b-4d4d-94b5-c813216b569f",
+      "8f1c87cc-61ff-4bac-9bca-18f8512c5065",
+      "c88c3ce7-a460-4c8f-a496-6c00f790a9c7",
+      "bf1852e6-bb03-49a5-b1e8-e1e821158ac8",
+      "caa8d7bb-7bb5-4833-add5-6b855c84fd95",
+      "acfddc7a-1f95-4515-bc8d-06bc5cccd528"
+    ]
+  },
+  {
+    "Id": "a9047d0c-b690-4a43-9ad3-78ee5c1d5d7b",
+    "Title": "Walkie Talkie, Tasks, and Praise",
+    "Image": "images/playlists/teams_walkie.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "",
+    "Source": "SOC",
+    "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
+    "Description": "Learn how to use the Walkie Talkie Teams app to turn your work phone into a simple and secure instant voice communication device, how to use the Tasks app in Teams, and how to communicate and recognize your Firstline team with Praise.  ",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "891f92f0-7014-4d6d-b888-9ccfe2d25fa5",
+      "362a1ec7-06ca-40df-bf68-a9edd830683e",
+      "125ebed0-45fb-4b5c-a6c4-fd84dffff334",
+      "1567a3c0-38de-4d02-81b3-73571a708b42",
+      "62e14a8f-ca13-4ad0-b551-e2dda01193a9"
+    ]
+  },
+  {
+    "Id": "6f3bbc71-627d-4427-9635-6aadd0a203f9",
+    "Title": "Reach large audiences with live events",
+    "Image": "images/playlists/hybrid_live_events.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "SOC",
+    "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
+    "Description": "Learn how to use Microsoft Teams for live events. Organize a live event in the new Yammer. Schedule a live event in Yammer using Teams.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "0ca67c26-f365-47d0-b1fe-f2f670288927",
+      "c9bd21e2-4cef-4473-b1f0-147e8f144af0",
+      "36d3f3b4-866a-4169-8d10-c78e6bdde2d9",
+      "22e085c6-9923-43bd-b363-33d1e81c40d6",
+      "5066fb5a-a8c1-48cb-b1aa-9b0e2b4a1e7e"
+    ]
+  },
+  {
+    "Id": "634948c6-8f39-4bc4-a0ee-f42dc12b511c",
+    "Title": "Create approvals",
+    "Image": "images/playlists/teams_approvals.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "",
+    "Source": "SOC",
+    "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
+    "Description": "Approvals in Microsoft Teams is a way to streamline all of your requests and processes with your team or partners. Learn how to create new approvals, view the ones sent your way, and see all of your previous approvals in one place.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "fc8da528-2cbd-4079-accd-8435ab70cabd",
+      "0da0c87d-ea04-41fe-bf2a-dbae4d98e185",
+      "079cd574-3e04-4dc1-bcc1-6d0797970723"
     ]
   }
 ]
