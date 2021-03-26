@@ -139,7 +139,7 @@ export default class AssetSearchPanel extends React.Component<IAssetSearchPanelP
         </div>
       );
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (assetHeader)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (assetHeader) - ${err}`, LogLevel.Error);
       return null;
     }
   }

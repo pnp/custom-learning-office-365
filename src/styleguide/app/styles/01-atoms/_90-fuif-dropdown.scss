@@ -1,71 +1,85 @@
-.fuif-dd {
-  font-size: 16px;
-  font-weight: 400;
+.fuif-dd{
+	// border-color: $c-light-gray;
+	// @include themeSlot(primaryButtonBorder, border);
+	@include themeSlot(buttonBackground, border);
+	@include themeSlot(primaryButtonBorder, border);
 
-  position: relative;
+	font-size: 16px;
+	font-weight: 400;
 
-  box-sizing: border-box;
-  min-width: 300px;
-  padding: .25em 1em;
+	position: relative;
 
-  cursor: pointer;
+	box-sizing: border-box;
+	min-width: 300px;
+	padding: .25em 1em;
 
-  border: 1px $c-gray solid;
-  border-width: 1px;
-  border-style: solid;
-  border-color: $c-light-gray;
-  border-radius: 0 0 2px 2px;
-  box-shadow: rgba(0, 0, 0, .133) 0 3.2px 7.2px 0, rgba(0, 0, 0, .11) 0 .6px 1.8px 0;
+	cursor: pointer;
 
-  .fuif-dd-opts {
-    position: absolute;
-    z-index: 10;
-    top: 2.65em;
-    left: 0;
+	border-radius: 2px 2px 2px 2px;
+	box-shadow: rgba(0, 0, 0, .133) 0 3.2px 7.2px 0, rgba(0, 0, 0, .11) 0 .6px 1.8px 0;
 
-    display: none;
+	.fuif-dd-opts{
+		// background-color: $c-background;
+		@include themeSlot(primaryButtonBorder, border);
 
-    box-sizing: border-box;
-    min-width: 100%;
-    padding: .5em 0;
+		position: absolute;
+		z-index: 10;
+		top: 2.65em;
+		left: 0;
 
-    border-radius: 0 0 2px 2px;
-    background-color: $c-background;
-    box-shadow: rgba(0, 0, 0, .133) 0 3.2px 7.2px 0, rgba(0, 0, 0, .11) 0 .6px 1.8px 0;
+		display: none;
 
-    .fuif-dd-opt {
-      line-height: 1.5em;
+		box-sizing: border-box;
+		min-width: 100%;
+		padding: .5em 0;
 
-      padding: .25em 1em;
+		border-radius: 0 0 2px 2px;
+		box-shadow: rgba(0, 0, 0, .133) 0 3.2px 7.2px 0, rgba(0, 0, 0, .11) 0 .6px 1.8px 0;
 
-      &:hover {
-        background-color: $c-light-gray;
-      }
+		.fuif-dd-opt{
+			@include themeSlot(primaryButtonBackground, background);
+			@include themeSlot(primaryButtonText);
 
-      &.selected {
-        background-color: $c-light-gray;
-      }
-    }
+			line-height: 1.5em;
 
-    &.selected,
-    &:hover {
-      display: block;
-    }
-  }
+			padding: .25em 1em;
 
-  .fuif-dd-title {
-    line-height: 2em;
+			&:hover{
+				@include themeSlot(buttonBackgroundHovered, background);
+				@include themeSlot(buttonTextHovered);
 
-    display: flex;
+				// background-color: $c-light-gray;
+			}
 
-    justify-content: space-between;
+			&.selected{
+				@include themeSlot(buttonBackgroundHovered, background);
+				@include themeSlot(buttonTextHovered);
 
-    span {
-      margin-left: .5em;
-    }
-  }
+				// background-color: $c-light-gray;
+			}
+		}
 
-  .fuif-dd:active>.fuif-dd-opts {
-    display: block;
-  }
+		&.selected,
+		&:hover{
+			display: block;
+		}
+	}
+
+	.fuif-dd-title{
+		@include themeSlot(buttonText);
+
+		line-height: 2em;
+
+		display: flex;
+
+		justify-content: space-between;
+
+		span{
+			margin-left: .5em;
+		}
+	}
+
+	.fuif-dd:active > .fuif-dd-opts{
+		display: block;
+	}
 }

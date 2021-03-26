@@ -68,7 +68,7 @@ export default class PlaylistDetails extends React.Component<IPlaylistDetailsPro
       (playlist.Image as IMultilingualString[])[currentIndex].Text = imageSrc;
       this.props.updatePlaylist(playlist, false);
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (setImageSource)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (setImageSource) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -84,7 +84,7 @@ export default class PlaylistDetails extends React.Component<IPlaylistDetailsPro
         this.props.updatePlaylist(playlist, false);
       });
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (addLanguage)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (addLanguage) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -106,7 +106,7 @@ export default class PlaylistDetails extends React.Component<IPlaylistDetailsPro
         this.props.updatePlaylist(playlist, false);
       });
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (removeLanguage)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (removeLanguage) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -213,7 +213,7 @@ export default class PlaylistDetails extends React.Component<IPlaylistDetailsPro
         </div>
       );
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (render)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);
       return null;
     }
   }

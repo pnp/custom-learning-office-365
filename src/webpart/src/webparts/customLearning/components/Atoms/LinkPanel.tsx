@@ -52,7 +52,7 @@ export default class LinkPanel extends React.Component<ILinkPanelProps, ILinkPan
       document.execCommand('copy');
       element.removeChild(selBox);
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (linkClick)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (linkClick) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -67,7 +67,7 @@ export default class LinkPanel extends React.Component<ILinkPanelProps, ILinkPan
         </div>
       );
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (render)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);
       return null;
     }
   }

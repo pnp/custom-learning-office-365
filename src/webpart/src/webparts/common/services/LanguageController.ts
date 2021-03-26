@@ -15,7 +15,7 @@ export interface ILanguageController extends IDataService {
 }
 
 export default class LanguageController implements ILanguageController {
-  private LOG_SOURCE = "LanguageController";
+  private LOG_SOURCE: string = "LanguageController";
   private _ready: boolean = true;
 
   public dataServices: { code: string, dataService: IDataService, cacheConfig: ICacheConfig }[] = [];
@@ -38,7 +38,7 @@ export default class LanguageController implements ILanguageController {
         //});
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (init)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (init) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -196,7 +196,7 @@ export default class LanguageController implements ILanguageController {
         }
       });
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (getPlaylistTranslations)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getPlaylistTranslations) - ${err}`, LogLevel.Error);
     }
     return retVal;
   }
@@ -212,7 +212,7 @@ export default class LanguageController implements ILanguageController {
         }
       });
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (getAssetTranslations)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getAssetTranslations) - ${err}`, LogLevel.Error);
     }
     return retVal;
   }

@@ -84,7 +84,7 @@ export default class Category extends React.Component<ICategoryProps, ICategoryS
         !isEqual(nextProps.playlists, this.props.playlists))
         this._reInit = true;
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (shouldComponentUpdate)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (shouldComponentUpdate) - ${err}`, LogLevel.Error);
     }
     return true;
   }
@@ -113,7 +113,7 @@ export default class Category extends React.Component<ICategoryProps, ICategoryS
         }
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (componentDidUpdate)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (componentDidUpdate) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -179,7 +179,7 @@ export default class Category extends React.Component<ICategoryProps, ICategoryS
         editRedirectSelected: null
       });
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (selectCategory)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (selectCategory) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -227,7 +227,7 @@ export default class Category extends React.Component<ICategoryProps, ICategoryS
       });
       return success;
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (upsertPlaylist)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (upsertPlaylist) - ${err}`, LogLevel.Error);
       return false;
     }
   }
@@ -242,7 +242,7 @@ export default class Category extends React.Component<ICategoryProps, ICategoryS
         selectedSubCategory: subcategory
       });
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (editPlaylist)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (editPlaylist) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -387,7 +387,7 @@ export default class Category extends React.Component<ICategoryProps, ICategoryS
         </div>
       );
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (render)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);
       return null;
     }
   }

@@ -24,7 +24,6 @@ export interface IDataService {
   playlistsAll: IPlaylist[];
   assetsAll: IAsset[];
   init(): Promise<void>;
-  //isReady(): Promise<boolean>;
   getCacheConfig(): Promise<ICacheConfig>;
   getMetadata(): Promise<IMetadata>;
   refreshCache(cache: ICacheConfig): Promise<ICacheConfig>;
@@ -34,17 +33,15 @@ export interface IDataService {
 }
 
 export class DataService implements IDataService {
-  private LOG_SOURCE = "DataService";
+  private LOG_SOURCE: string = "DataService";
 
   public metadata: IMetadata;
   public customization: ICustomizations;
   public categoriesAll: ICategory[];
   public playlistsAll: IPlaylist[];
   public assetsAll: IAsset[];
-  //private _cdn: string;
   private _cdnBase: string;
   private _language: string;
-  //private _ready: boolean = false;
   private _downloadedPlaylists: IPlaylist[];
   private _downloadedAssets: IAsset[];
   private _customDataService: ICustomDataService;
@@ -55,16 +52,13 @@ export class DataService implements IDataService {
 
   constructor(cdn: string, language: string, customization?: ICustomizations) {
     try {
-      //this._cdn = cdn;
       this._language = language;
       if (customization)
         this.customization = customization;
       this._customDataService = new CustomDataService(cdn);
       this._cdnBase = params.baseCdnPath;
-      //this._ready = true;
-      //this.loadCdns();
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (constructor)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (constructor) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -72,55 +66,6 @@ export class DataService implements IDataService {
     if (!this.customization)
       this.customization = await this._customDataService.getCustomization();
   }
-
-  // private async delay(ms: number): Promise<any> {
-  //   return new Promise(resolve => setTimeout(resolve, ms));
-  // }
-
-  // public async isReady(): Promise<boolean> {
-  //   let startTime = new Date().getTime();
-  //   while (!this._ready || new Date().getTime() - startTime > 60000) {
-  //     await this.delay(200);
-  //   }
-  //   return this._ready;
-  // }
-
-  // private async loadCdns(): Promise<void> {
-  //   try {
-  //     //Append any custom CDN if not already loaded...
-  //     if (params.customCDN === null) {
-  //       params.allCdn = [new CDN("Default", "Microsoft 365 learning pathways", params.baseCdnPath)];
-  //       params.customCDN = await this._customDataService.getCustomCDN();
-  //       if (params.customCDN && params.customCDN.CDNs.length > 0) {
-  //         // forEach(params.customCDN.CDNs, (cdn) => {
-  //         //   cdn.Base = `${cdn.Base}${params.manifestVersion}/`;
-  //         // });
-  //         params.allCdn = params.allCdn.concat(params.customCDN.CDNs);
-  //       }
-  //     }
-
-  //     this._cdnBase = params.baseCdnPath;
-  //     this._ready = true;
-
-  //     //Get learning pathways CDN from app property
-  //     if (this._cdn !== params.currentCdn) {
-  //       let cdnCustom: ICDN = find(params.customCDN.CDNs, { Id: this._cdn });
-  //       if (cdnCustom) {
-  //         params.currentCdn = cdnCustom.Name;
-  //         params.baseCdnPath = cdnCustom.Base;
-  //       } else {
-  //         Logger.write(`${this.LOG_SOURCE} (loadCdnBase) -- Could not find alternate CDN: ${this._cdn}.`, LogLevel.Error);
-  //         return;
-  //       }
-  //     }
-
-  //     this._cdnBase = params.baseCdnPath;
-  //     this._ready = true;
-  //   } catch (err) {
-  //     Logger.write(`${err} - ${this.LOG_SOURCE} (loadCdnBase)`, LogLevel.Error);
-  //   }
-  //   return;
-  // }
 
   public async getCacheConfig(): Promise<ICacheConfig> {
     let retVal = await this._customDataService.getCacheConfig(this._language);
@@ -130,8 +75,6 @@ export class DataService implements IDataService {
   //Loads Metadata.json file from Microsoft CDN
   public async getMetadata(): Promise<IMetadata> {
     try {
-      //let ready: boolean = await this.isReady();
-      //if (this._ready) {
       let results: HttpClientResponse = await params.httpClient.fetch(`${this._cdnBase}${this._language}/metadata.json`, HttpClient.configurations.v1, this.fieldOptions);
       if (results.ok) {
         let resultsJson: IMetadata = await results.json();
@@ -144,16 +87,13 @@ export class DataService implements IDataService {
         }
         return resultsJson;
       } else {
-        Logger.write(`${this.LOG_SOURCE} (getMetadata) Fetch Error: ${results.statusText}`, LogLevel.Error);
+        Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getMetadata) Fetch Error: ${results.statusText}`, LogLevel.Error);
         return null;
       }
-      // } else {
-      //   Logger.write(`Webpart Not Ready - ${this.LOG_SOURCE} (getMetadata)`, LogLevel.Error);
-      // }
       return null;
     }
     catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (getMetadata)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getMetadata) - ${err}`, LogLevel.Error);
       return null;
     }
   }
@@ -161,8 +101,6 @@ export class DataService implements IDataService {
   //Loads playlists.json file from Microsoft CDN
   private async getPlaylists(): Promise<IPlaylist[]> {
     try {
-      //let ready: boolean = await this.isReady();
-      //if (this._ready) {
       let results: HttpClientResponse = await params.httpClient.fetch(`${this._cdnBase}${this._language}/playlists.json`, HttpClient.configurations.v1, this.fieldOptions);
       if (results.ok) {
         let resultsJson: IPlaylist[] = await results.json();
@@ -172,14 +110,11 @@ export class DataService implements IDataService {
         }
         return resultsJson;
       } else {
-        Logger.write(`${this.LOG_SOURCE} (getPlaylists) Fetch Error: ${results.statusText}`, LogLevel.Error);
+        Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getPlaylists) Fetch Error: ${results.statusText}`, LogLevel.Error);
         return null;
       }
-      // } else {
-      //   return null;
-      // }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (getPlaylists)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getPlaylists) - ${err}`, LogLevel.Error);
       return null;
     }
   }
@@ -187,8 +122,6 @@ export class DataService implements IDataService {
   //Loads assets.json file from Microsoft CDN
   private async getAssets(): Promise<IAsset[]> {
     try {
-      //let ready: boolean = await this.isReady();
-      //if (ready) {
       let results: HttpClientResponse = await params.httpClient.fetch(`${this._cdnBase}${this._language}/assets.json`, HttpClient.configurations.v1, this.fieldOptions);
       if (results.ok) {
         let resultsJson: IAsset[] = await results.json();
@@ -196,11 +129,8 @@ export class DataService implements IDataService {
       } else {
         return null;
       }
-      // } else {
-      //   return null;
-      // }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (getAssets)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getAssets) - ${err}`, LogLevel.Error);
       return null;
     }
   }
@@ -247,7 +177,7 @@ export class DataService implements IDataService {
         }
       });
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (refreshPlaylistsAll)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (refreshPlaylistsAll) - ${err}`, LogLevel.Error);
     }
 
     return playlists;
@@ -283,7 +213,7 @@ export class DataService implements IDataService {
         }
       });
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (refreshAssetsAll)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (refreshAssetsAll) - ${err}`, LogLevel.Error);
     }
     return assets;
   }
@@ -324,32 +254,36 @@ export class DataService implements IDataService {
 
       return p;
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (filterPlaylists)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (filterPlaylists) - ${err}`, LogLevel.Error);
     }
   }
 
   private calculateCategoryCount(categories: ICategory[], playlists: IPlaylist[]): void {
-    for (let countC = 0; countC < categories.length; countC++) {
-      if (categories[countC].SubCategories.length > 0) {
+    try {
+      for (let countC = 0; countC < categories.length; countC++) {
+        if (categories[countC].SubCategories.length > 0) {
 
-        categories[countC].SubCategories = remove(categories[countC].SubCategories, (sc) => {
-          if (sc.Source !== CustomWebpartSource.Tenant) return true;
-          let foundTranslation = find((sc.Name as IMultilingualString[]), { LanguageCode: this._language });
-          return (foundTranslation) ? true : false;
-        });
+          categories[countC].SubCategories = remove(categories[countC].SubCategories, (sc) => {
+            if (sc.Source !== CustomWebpartSource.Tenant) return true;
+            let foundTranslation = find((sc.Name as IMultilingualString[]), { LanguageCode: this._language });
+            return (foundTranslation) ? true : false;
+          });
 
-        //Flatten custom assets for language
-        forEach(categories[countC].SubCategories, (sc) => {
-          if (sc.Source === CustomWebpartSource.Tenant) {
-            let name = find((sc.Name as IMultilingualString[]), { LanguageCode: this._language }).Text;
-            sc.Name = name;
-            let image = find((sc.Image as IMultilingualString[]), { LanguageCode: this._language }).Text;
-            sc.Image = image;
-          }
-          let selectedPlaylist = countBy(playlists, { 'CatId': sc.Id });
-          sc.Count = selectedPlaylist.true ? selectedPlaylist.true : 0;
-        });
+          //Flatten custom assets for language
+          forEach(categories[countC].SubCategories, (sc) => {
+            if (sc.Source === CustomWebpartSource.Tenant) {
+              let name = find((sc.Name as IMultilingualString[]), { LanguageCode: this._language }).Text;
+              sc.Name = name;
+              let image = find((sc.Image as IMultilingualString[]), { LanguageCode: this._language }).Text;
+              sc.Image = image;
+            }
+            let selectedPlaylist = countBy(playlists, { 'CatId': sc.Id });
+            sc.Count = selectedPlaylist.true ? selectedPlaylist.true : 0;
+          });
+        }
       }
+    } catch (err) {
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (calculateCategoryCount) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -364,8 +298,12 @@ export class DataService implements IDataService {
       }
     }
 
-    for (let i = 0; i < categories.length; i++) {
-      getPath(categories[i], []);
+    try {
+      for (let i = 0; i < categories.length; i++) {
+        getPath(categories[i], []);
+      }
+    } catch (err) {
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (loadChildrenPath) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -483,11 +421,11 @@ export class DataService implements IDataService {
         }
       } else {
         cache = null;
-        Logger.write(`${this.LOG_SOURCE} (refreshCache) Could not retrieve metadata from CDN source: ${this._cdnBase}`, LogLevel.Error);
+        Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (refreshCache) Could not retrieve metadata from CDN source: ${this._cdnBase}`, LogLevel.Error);
       }
     } catch (err) {
       cache = null;
-      Logger.write(`${err} - ${this.LOG_SOURCE} (refreshCache)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (refreshCache) - ${err}`, LogLevel.Error);
     }
 
     return cache;
@@ -527,7 +465,7 @@ export class DataService implements IDataService {
       let updateConfig = await this._customDataService.modifyCache(c);
       cache.eTag = updateConfig;
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (refreshCacheCustomOnly)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (refreshCacheCustomOnly) - ${err}`, LogLevel.Error);
     }
     return cache;
   }

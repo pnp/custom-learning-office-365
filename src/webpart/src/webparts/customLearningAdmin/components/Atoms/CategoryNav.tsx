@@ -86,7 +86,7 @@ export default class CategoryNav extends React.Component<ICategoryNavProps, ICat
         navGroups.push(navGroup);
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (getNavItems)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getNavItems) - ${err}`, LogLevel.Error);
     }
     return navGroups;
   }
@@ -107,7 +107,7 @@ export default class CategoryNav extends React.Component<ICategoryNavProps, ICat
         />
       );
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (render)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);
       return null;
     }
   }
