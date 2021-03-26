@@ -53,7 +53,7 @@ export default class CategoryHeadingDetail extends React.Component<ICategoryHead
       (heading.Name as IMultilingualString[])[index].Text = name;
       this.props.updateHeading(heading);
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (setHeadingName)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (setHeadingName) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -65,7 +65,7 @@ export default class CategoryHeadingDetail extends React.Component<ICategoryHead
       });
       this.props.updateHeading(heading);
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (setImageSource)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (setImageSource) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -76,7 +76,7 @@ export default class CategoryHeadingDetail extends React.Component<ICategoryHead
       (heading.Image as IMultilingualString[]).push(new MultilingualString(option.key as string, (heading.Image as IMultilingualString[])[0].Text));
       this.props.updateHeading(heading);
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (addLanguage)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (addLanguage) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -86,7 +86,7 @@ export default class CategoryHeadingDetail extends React.Component<ICategoryHead
       (heading.Name as IMultilingualString[]).splice(index, 1);
       this.props.updateHeading(heading);
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (deleteLanguage)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (deleteLanguage) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -153,7 +153,7 @@ export default class CategoryHeadingDetail extends React.Component<ICategoryHead
         </div>
       );
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (render)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);
       return null;
     }
   }

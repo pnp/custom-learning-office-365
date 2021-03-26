@@ -16,7 +16,7 @@ export interface IConfigService {
 }
 
 export class ConfigService implements IConfigService {
-  private LOG_SOURCE = "ConfigService";
+  private LOG_SOURCE: string = "ConfigService";
   private _learningWeb: IWeb;
 
   constructor(learningWeb: IWeb) {
@@ -49,11 +49,11 @@ export class ConfigService implements IConfigService {
               }
             }
           } catch (err) {
-            Logger.write(`${err} - ${this.LOG_SOURCE} (validatePlaylists)`, LogLevel.Error);
+            Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (validatePlaylists) - ${err}`, LogLevel.Error);
             return false;
           }
         } else {
-          Logger.write(`${this.LOG_SOURCE} (validatePlaylists) -- User does not have appropriate rights to create field in custom playlists list.`, LogLevel.Error);
+          Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (validatePlaylists) -- User does not have appropriate rights to create field in custom playlists list.`, LogLevel.Error);
           return false;
         }
       }
@@ -68,11 +68,11 @@ export class ConfigService implements IConfigService {
           await view.fields.add("JSONData");
           await view.fields.add("CDN");
         } catch (err) {
-          Logger.write(`${err} - ${this.LOG_SOURCE} (validatePlaylists)`, LogLevel.Error);
+          Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (validatePlaylists) - ${err} - `, LogLevel.Error);
           return false;
         }
       } else {
-        Logger.write(`${this.LOG_SOURCE} (validatePlaylists) -- User does not have appropriate rights to create custom playlists list.`, LogLevel.Error);
+        Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (validatePlaylists) -- User does not have appropriate rights to create custom playlists list.`, LogLevel.Error);
         return false;
       }
     }
@@ -105,11 +105,11 @@ export class ConfigService implements IConfigService {
               }
             }
           } catch (err) {
-            Logger.write(`${err} - ${this.LOG_SOURCE} (validateAssets)`, LogLevel.Error);
+            Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (validateAssets) - ${err} - `, LogLevel.Error);
             return false;
           }
         } else {
-          Logger.write(`${this.LOG_SOURCE} (validateAssets) -- User does not have appropriate rights to create field in custom assets list.`, LogLevel.Error);
+          Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (validateAssets) -- User does not have appropriate rights to create field in custom assets list.`, LogLevel.Error);
           return false;
         }
       }
@@ -124,11 +124,11 @@ export class ConfigService implements IConfigService {
           await view.fields.add("JSONData");
           await view.fields.add("CDN");
         } catch (err) {
-          Logger.write(`${err} - ${this.LOG_SOURCE} (validateAssets)`, LogLevel.Error);
+          Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (validateAssets) - ${err} - `, LogLevel.Error);
           return false;
         }
       } else {
-        Logger.write(`${this.LOG_SOURCE} (validateAssets) -- User does not have appropriate rights to create custom assets list.`, LogLevel.Error);
+        Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (validateAssets) -- User does not have appropriate rights to create custom assets list.`, LogLevel.Error);
         return false;
       }
     }
@@ -145,7 +145,7 @@ export class ConfigService implements IConfigService {
       retVal.push(targetGroupId);
       retVal.push(roleDefinitionId);
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (validateAssets)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (validateAssets) - ${err}`, LogLevel.Error);
     }
     return retVal;
   }
@@ -190,11 +190,11 @@ export class ConfigService implements IConfigService {
               }
             }
           } catch (err) {
-            Logger.write(`${err} - ${this.LOG_SOURCE} (validateConfig)`, LogLevel.Error);
+            Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (validateConfig) - ${err}`, LogLevel.Error);
             return false;
           }
         } else {
-          Logger.write(`${this.LOG_SOURCE} (validateConfig) -- User does not have appropriate rights to create field in custom config list.`, LogLevel.Error);
+          Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (validateConfig) -- User does not have appropriate rights to create field in custom config list.`, LogLevel.Error);
           return false;
         }
       }
@@ -216,15 +216,15 @@ export class ConfigService implements IConfigService {
             await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).roleAssignments.getById(configPermissions[0]).delete();
             await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).roleAssignments.add(configPermissions[0], configPermissions[1]);
           } else {
-            Logger.write(`${this.LOG_SOURCE} (validateConfig) - ${CustomListNames.customConfigName} list created but permissions could not be set.`, LogLevel.Error);
+            Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (validateConfig) - ${CustomListNames.customConfigName} list created but permissions could not be set.`, LogLevel.Error);
             return false;
           }
         } catch (err) {
-          Logger.write(`${err} - ${this.LOG_SOURCE} (validateConfig)`, LogLevel.Error);
+          Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (validateConfig) - ${err}`, LogLevel.Error);
           return false;
         }
       } else {
-        Logger.write(`${this.LOG_SOURCE} (validateConfig) -- User does not have appropriate rights to create custom config list.`, LogLevel.Error);
+        Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (validateConfig) -- User does not have appropriate rights to create custom config list.`, LogLevel.Error);
         return false;
       }
     }

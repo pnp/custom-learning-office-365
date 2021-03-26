@@ -28,7 +28,7 @@ export interface IInitService {
 }
 
 export class InitService implements IInitService {
-  private LOG_SOURCE = "InitService";
+  private LOG_SOURCE: string = "InitService";
   private locals: ILocale[] = [];
   private _cdn: string;
   private _assetOrigins: string[];
@@ -67,7 +67,7 @@ export class InitService implements IInitService {
         }
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (initialize)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (initialize) - ${err}`, LogLevel.Error);
     }
     return retVal;
   }
@@ -86,7 +86,7 @@ export class InitService implements IInitService {
         };
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (convertLocal)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (convertLocal) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -120,7 +120,7 @@ export class InitService implements IInitService {
         retVal = true;
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (loadLanguage)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (loadLanguage) - ${err}`, LogLevel.Error);
     }
     return retVal;
   }
@@ -138,7 +138,7 @@ export class InitService implements IInitService {
       params.configuredLanguages = mlLanguages;
       retVal = true;
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (loadConfiguredLanguages)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (loadConfiguredLanguages) - ${err}`, LogLevel.Error);
     }
     return retVal;
   }
@@ -167,16 +167,16 @@ export class InitService implements IInitService {
           if (cdnCustom) {
             params.baseCdnPath = cdnCustom.Base;
           } else {
-            Logger.write(`${this.LOG_SOURCE} (loadCdnBase) -- Could not find alternate CDN: ${this._cdn}.`, LogLevel.Error);
+            Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (loadCdnBase) -- Could not find alternate CDN: ${this._cdn}.`, LogLevel.Error);
             return;
           }
         }
         retVal = true;
       } else {
-        Logger.write(`${this.LOG_SOURCE} (loadCdnBase) -- Tenant property 'MicrosoftCustomLearningCdn' has not been set.`, LogLevel.Error);
+        Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (loadCdnBase) -- Tenant property 'MicrosoftCustomLearningCdn' has not been set.`, LogLevel.Error);
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (loadCdnBase)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (loadCdnBase) - ${err} - `, LogLevel.Error);
     }
     return retVal;
   }
@@ -190,10 +190,10 @@ export class InitService implements IInitService {
         params.telemetryOn = (telemetryOn.Value.toLowerCase() == "true");
         retVal = true;
       } else {
-        Logger.write(`${this.LOG_SOURCE} (setLearningSite) -- Tenant property 'MicrosoftCustomLearningTelemetryOn' has not been set.`, LogLevel.Error);
+        Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (setLearningSite) -- Tenant property 'MicrosoftCustomLearningTelemetryOn' has not been set.`, LogLevel.Error);
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (loadLearningSite)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (loadLearningSite) - ${err}`, LogLevel.Error);
     }
     return retVal;
   }
@@ -211,10 +211,10 @@ export class InitService implements IInitService {
         }
         retVal = true;
       } else {
-        Logger.write(`${this.LOG_SOURCE} (setLearningSite) -- Tenant property 'MicrosoftCustomLearningSite' has not been set.`, LogLevel.Error);
+        Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (setLearningSite) -- Tenant property 'MicrosoftCustomLearningSite' has not been set.`, LogLevel.Error);
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (loadLearningSite)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (loadLearningSite) - ${err}`, LogLevel.Error);
     }
     return retVal;
   }
@@ -236,7 +236,7 @@ export class InitService implements IInitService {
         this._assetOrigins = manifest.AssetOrigins;
         this._telemetryKey = manifest.Telemetry.AppInsightKey;
       } else {
-        Logger.write(`${this.LOG_SOURCE} (getManifest) Fetch Error: ${results.statusText}`, LogLevel.Error);
+        Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getManifest) Fetch Error: ${results.statusText}`, LogLevel.Error);
         return retVal;
       }
 
@@ -245,7 +245,7 @@ export class InitService implements IInitService {
       retVal = true;
     }
     catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (getManifest)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getManifest) - ${err}`, LogLevel.Error);
     }
     return retVal;
   }
@@ -271,7 +271,7 @@ export class InitService implements IInitService {
         params.userRole = Roles.Visitors;
       retVal = true;
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (loadUserRole)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (loadUserRole) - ${err}`, LogLevel.Error);
     }
     return retVal;
   }
@@ -295,7 +295,7 @@ export class InitService implements IInitService {
       }
       return true;
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (validateLists)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (validateLists) - ${err}`, LogLevel.Error);
       return false;
     }
   }

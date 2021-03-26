@@ -35,6 +35,14 @@ import CustomLearningAdmin, { ICustomLearningAdminProps } from "./components/Cus
 export interface ICustomLearningAdminWebPartProps {
 }
 
+
+import {
+  ThemeProvider,
+  ThemeChangedEventArgs,
+  IReadonlyTheme,
+  ISemanticColors
+} from '@microsoft/sp-component-base';
+
 export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<ICustomLearningAdminWebPartProps> {
   private LOG_SOURCE: string = "CustomLearningAdminWebPart";
   private _isReady: boolean = false;
@@ -50,8 +58,29 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
   private _forceUpdate: string;
   private _upgradeNeeded: boolean = false;
   private _updateStartVersion: string;
+  private _themeProvider: ThemeProvider;
+  private _themeVariant: IReadonlyTheme | undefined;
 
   public async onInit(): Promise<void> {
+
+    // Consume the new ThemeProvider service
+    this._themeProvider = this.context.serviceScope.consume(ThemeProvider.serviceKey);
+
+    // If it exists, get the theme variant
+    this._themeVariant = this._themeProvider.tryGetTheme();
+
+    // If there is a theme variant
+    if (this._themeVariant) {
+      // we set transfer semanticColors into CSS variables
+      this.setCSSVariables(this._themeVariant.semanticColors);
+      this.setCSSVariables(this._themeVariant.palette);
+      this.setCSSVariables(this._themeVariant["effects"]);
+
+    } else if (window["__themeState__"].theme) {
+      // we set transfer semanticColors into CSS variables
+      this.setCSSVariables(window["__themeState__"].theme);
+    }
+
     try {
       //Initialize PnPLogger
       Logger.subscribe(new ConsoleListener());
@@ -88,7 +117,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
     } catch (err) {
       this._isReady = true;
       this._isError = true;
-      Logger.write(`${err} - ${this.LOG_SOURCE} (onInit) -- Could not start web part.`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (onInit) - ${err} -- Could not start web part.`, LogLevel.Error);
     }
   }
 
@@ -142,7 +171,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
       }
     } catch (err) {
       this.telemetry("false", err.message);
-      Logger.write(`${err} - ${this.LOG_SOURCE} (firstInit) -- Could not start web part.`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (firstInit) - ${err} -- Could not start web part.`, LogLevel.Error);
     }
 
     //Configuration complete, now render
@@ -234,7 +263,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
           }
         }
       } catch (err) {
-        Logger.write(`${err} - ${this.LOG_SOURCE} (render)`, LogLevel.Error);
+        Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);
         element = React.createElement(
           Error,
           {
@@ -305,7 +334,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
         }
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (selectCDN)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (selectCDN) - ${err}`, LogLevel.Error);
     }
     return false;
   }
@@ -330,7 +359,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
       return;
     }
     catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (upsertCustomizations)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (upsertCustomizations) - ${err}`, LogLevel.Error);
       return;
     }
   }
@@ -355,7 +384,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
       return savePlaylist;
     }
     catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (upsertPlaylist)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (upsertPlaylist) - ${err}`, LogLevel.Error);
       return "0";
     }
   }
@@ -372,7 +401,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
       }
     }
     catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (deletePlaylist)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (deletePlaylist) - ${err}`, LogLevel.Error);
     }
     return;
   }
@@ -397,7 +426,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
       return saveAsset;
     }
     catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (upsertPlaylist)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (upsertPlaylist) - ${err}`, LogLevel.Error);
       return "0";
     }
   }
@@ -428,7 +457,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
         return false;
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (upsertCdn)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (upsertCdn) - ${err}`, LogLevel.Error);
       return false;
     }
   }
@@ -451,7 +480,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
         return false;
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (removeCdn)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (removeCdn) - ${err}`, LogLevel.Error);
       return false;
     }
   }
@@ -489,9 +518,26 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
           forEach(retVal, (val) => { val.Text = `${prefix}${val.Text}`; });
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (translateMLString)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (translateMLString) - ${err}`, LogLevel.Error);
     }
     return retVal;
+  }
+
+  private setCSSVariables(theming: any) {
+
+    // request all key defined in theming
+    let themingKeys = Object.keys(theming);
+    // if we have the key
+    if (themingKeys !== null) {
+      // loop over it
+      themingKeys.forEach(key => {
+        // add CSS variable to style property of the web part
+        this.domElement.style.setProperty(`--${key}`, theming[key]);
+
+      });
+
+    }
+
   }
 
   private copyPlaylist = async (playlist: IPlaylist): Promise<string> => {
@@ -520,7 +566,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
       return savePlaylist;
     }
     catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (clonePlaylist)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (clonePlaylist) - ${err}`, LogLevel.Error);
       return "0";
     }
   }

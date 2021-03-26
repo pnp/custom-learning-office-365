@@ -41,7 +41,7 @@ export interface IUpdateFunctions {
 }
 
 export class CustomDataService implements ICustomDataService {
-  private LOG_SOURCE = "CustomDataService";
+  private LOG_SOURCE: string = "CustomDataService";
   private _web: IWeb;
   private _cdn: string;
 
@@ -50,7 +50,7 @@ export class CustomDataService implements ICustomDataService {
       this._web = Web(params.learningSiteUrl);
       this._cdn = currentCDN;
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (constructor)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (constructor) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -98,7 +98,7 @@ export class CustomDataService implements ICustomDataService {
       if (callBack)
         callBack();
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (doDataUpgrade)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (doDataUpgrade) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -118,17 +118,23 @@ export class CustomDataService implements ICustomDataService {
         .get<{ Id: string, Title: string, JSONData: string }[]>();
       if (configResponse.length === 1) {
         if (configResponse[0].JSONData.length > 0) {
-          config = JSON.parse(configResponse[0].JSONData, this.dateTimeReviver);
           config.Id = +configResponse[0].Id;
           config.eTag = JSON.parse(configResponse[0]["odata.etag"]);
+          try {
+            config = JSON.parse(configResponse[0].JSONData, this.dateTimeReviver);
+          } catch (errJSON) {
+            //If JSON data can't be parsed, remove item as it will be regenerated.
+            this._web.lists.getByTitle(CustomListNames.customConfigName).items.getById(config.Id).delete();
+            config = null;
+          }
         }
       } else {
-        Logger.write(`${this.LOG_SOURCE} (getCustomConfig) No configuration was found for CDN ${this._cdn} and Language ${language}`, LogLevel.Error);
+        Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getCustomConfig) No configuration was found for CDN ${this._cdn} and Language ${language}`, LogLevel.Error);
         config = null;
       }
     } catch (err) {
       config = null;
-      Logger.write(`${err} - ${this.LOG_SOURCE} (getCustomConfig)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getCustomConfig) - ${err}`, LogLevel.Error);
     }
 
     return config;
@@ -155,7 +161,7 @@ export class CustomDataService implements ICustomDataService {
       }
     } catch (err) {
       config = null;
-      Logger.write(`${err} - ${this.LOG_SOURCE} (getCustomization)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getCustomization) - ${err}`, LogLevel.Error);
     }
 
     return config;
@@ -180,7 +186,7 @@ export class CustomDataService implements ICustomDataService {
       }
     } catch (err) {
       cdn = null;
-      Logger.write(`${err} - ${this.LOG_SOURCE} (getCustomCDN)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getCustomCDN) - ${err}`, LogLevel.Error);
     }
 
     return cdn;
@@ -203,11 +209,11 @@ export class CustomDataService implements ICustomDataService {
           playlist.Id = `${playlists[i].Id}`;
           customPlaylists.push(playlist);
         } catch (err) {
-          Logger.write(`${err} - ${this.LOG_SOURCE} (getCustomPlaylists)`, LogLevel.Error);
+          Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getCustomPlaylists) - ${err}`, LogLevel.Error);
         }
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (getCustomPlaylists)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getCustomPlaylists) - ${err}`, LogLevel.Error);
     }
 
     return customPlaylists;
@@ -228,7 +234,7 @@ export class CustomDataService implements ICustomDataService {
         asset.Id = `${assets[i].Id}`;
         customAssets.push(asset);
       } catch (err) {
-        Logger.write(`${err} - ${this.LOG_SOURCE} (getCustomAssets)`, LogLevel.Error);
+        Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getCustomAssets) - ${err}`, LogLevel.Error);
       }
     }
     return customAssets;
@@ -248,7 +254,7 @@ export class CustomDataService implements ICustomDataService {
       let updatedPlaylistResponse = await this._web.lists.getByTitle(CustomListNames.customPlaylistsName).items.getById(+newPlaylistResponse.data.Id).update(item);
       return newPlaylistResponse.data.Id;
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (createPlaylist)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (createPlaylist) - ${err}`, LogLevel.Error);
       return 0;
     }
   }
@@ -267,7 +273,7 @@ export class CustomDataService implements ICustomDataService {
 
       return updatedPlaylistResponse.data["odata.etag"].split('\"')[1].toString();
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (modifyPlaylist)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (modifyPlaylist) - ${err}`, LogLevel.Error);
       return "0";
     }
   }
@@ -280,7 +286,7 @@ export class CustomDataService implements ICustomDataService {
 
       return true;
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (deletePlaylist)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (deletePlaylist) - ${err}`, LogLevel.Error);
       return false;
     }
   }
@@ -297,7 +303,7 @@ export class CustomDataService implements ICustomDataService {
       let updatedAssetResponse = await this._web.lists.getByTitle(CustomListNames.customAssetsName).items.getById(+newAssetResponse.data.Id).update(item);
       return newAssetResponse.data.Id;
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (createAsset)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (createAsset) - ${err}`, LogLevel.Error);
       return 0;
     }
   }
@@ -314,7 +320,7 @@ export class CustomDataService implements ICustomDataService {
 
       return updatedAssetResponse.data["odata.etag"].split('\"')[1].toString();
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (modifyAsset)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (modifyAsset) - ${err}`, LogLevel.Error);
       return "0";
     }
   }
@@ -331,7 +337,7 @@ export class CustomDataService implements ICustomDataService {
 
       return newConfigResponse.data.Id;
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (createConfig)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (createConfig) - ${err}`, LogLevel.Error);
       return 0;
     }
   }
@@ -348,7 +354,7 @@ export class CustomDataService implements ICustomDataService {
 
       return updatedConfigResponse.data["odata.etag"].split('\"')[1].toString();
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (modifyConfig)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (modifyConfig) - ${err}`, LogLevel.Error);
       return "0";
     }
   }
@@ -361,7 +367,7 @@ export class CustomDataService implements ICustomDataService {
 
       return newConfigResponse.data.Id;
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (createCustomization)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (createCustomization) - ${err}`, LogLevel.Error);
       return 0;
     }
   }
@@ -377,7 +383,7 @@ export class CustomDataService implements ICustomDataService {
 
       return updatedConfigResponse.data["odata.etag"].split('\"')[1].toString();
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (modifyCustomization)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (modifyCustomization) - ${err}`, LogLevel.Error);
       return "0";
     }
   }
@@ -394,7 +400,7 @@ export class CustomDataService implements ICustomDataService {
 
       return (cdn.Id === 0) ? cdnResponse.data.Id.toString() : cdnResponse.data["odata.etag"].split('\"')[1].toString();
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (createSubCategories)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (createSubCategories) - ${err}`, LogLevel.Error);
       return null;
     }
   }

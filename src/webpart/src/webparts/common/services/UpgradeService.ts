@@ -105,7 +105,7 @@ export class UpgradeService implements IUpgradeService {
         item[key] = (c[key]) ? c[key] : "";
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (fixCacheConfigModel)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (fixCacheConfigModel) - ${err}`, LogLevel.Error);
     }
     return item;
   }
@@ -142,7 +142,7 @@ export class UpgradeService implements IUpgradeService {
         });
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (uCacheConfigV2V3)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (uCacheConfigV2V3) - ${err}`, LogLevel.Error);
     }
 
     workingConfig['@odata.etag'] = await this._updateFunctions.modifyCache((workingConfig as any), "Default");
@@ -159,7 +159,7 @@ export class UpgradeService implements IUpgradeService {
       returnConfig.WebPartVersion = params.webPartVersion;
       returnConfig.ManifestVersion = params.manifestVersion;
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (uCacheConfigV3V4)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (uCacheConfigV3V4) - ${err}`, LogLevel.Error);
     }
 
     returnConfig['@odata.etag'] = await this._updateFunctions.modifyCache(returnConfig, "Default");
@@ -175,7 +175,7 @@ export class UpgradeService implements IUpgradeService {
         item[key] = (c[key]) ? c[key] : "";
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (fixCategoryModel)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (fixCategoryModel) - ${err}`, LogLevel.Error);
     }
     return item;
   }
@@ -204,7 +204,7 @@ export class UpgradeService implements IUpgradeService {
       }
       workingSubCat['@odata.etag'] = await this._updateFunctions.modifyCustomization(workingSubCat as ICustomizations, "Default");
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (uCustomizationsV2V3)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (uCustomizationsV2V3) - ${err}`, LogLevel.Error);
       workingSubCat = cloneDeep(currentSubCat);
     }
     return workingSubCat;
@@ -244,7 +244,7 @@ export class UpgradeService implements IUpgradeService {
 
       workingSubCat['@odata.etag'] = await this._updateFunctions.modifyCustomization(workingSubCat, "Default");
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (uCustomizationsV3V4)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (uCustomizationsV3V4) - ${err}`, LogLevel.Error);
       workingSubCat = cloneDeep(currentSubCat) as ICustomizations;
     }
     return workingSubCat;
@@ -259,7 +259,7 @@ export class UpgradeService implements IUpgradeService {
         item[key] = (p[key]) ? p[key] : "";
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (fixPlaylistModel)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (fixPlaylistModel) - ${err}`, LogLevel.Error);
     }
     return item;
   }
@@ -295,7 +295,7 @@ export class UpgradeService implements IUpgradeService {
         }
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (uPlaylistsV2V3)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (uPlaylistsV2V3) - ${err}`, LogLevel.Error);
       workingPlaylists = cloneDeep(currentPlaylists);
     }
     return workingPlaylists;
@@ -331,7 +331,7 @@ export class UpgradeService implements IUpgradeService {
         }
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (uPlaylistsV3V4)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (uPlaylistsV3V4) - ${err}`, LogLevel.Error);
       workingPlaylists = cloneDeep(currentPlaylists);
     }
     return workingPlaylists;
@@ -346,7 +346,7 @@ export class UpgradeService implements IUpgradeService {
         item[key] = (a[key]) ? a[key] : "";
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (fixAssetModel)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (fixAssetModel) - ${err}`, LogLevel.Error);
     }
 
     return item;
@@ -373,7 +373,7 @@ export class UpgradeService implements IUpgradeService {
         }
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (uAssetsV2V3)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (uAssetsV2V3) - ${err}`, LogLevel.Error);
       workingAssets = cloneDeep(currentAssets);
     }
     return workingAssets;
@@ -408,7 +408,7 @@ export class UpgradeService implements IUpgradeService {
         }
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (uAssetsV3V4)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (uAssetsV3V4) - ${err}`, LogLevel.Error);
       workingAssets = cloneDeep(currentAssets);
     }
     return workingAssets;

@@ -67,7 +67,7 @@ export default class PlaylistControl extends React.Component<IPlaylistControlPro
       if (!this.props.currentAsset || this.props.assets.length < 1) return true;
       return (this.props.currentAsset.Id === this.props.assets[this.props.assets.length - 1].Id);
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (doDisableAdvance)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (doDisableAdvance) - ${err}`, LogLevel.Error);
       return true;
     }
   }
@@ -77,7 +77,7 @@ export default class PlaylistControl extends React.Component<IPlaylistControlPro
       if (!this.props.currentAsset || this.props.assets.length < 1) return true;
       return (this.props.currentAsset.Id === this.props.assets[0].Id);
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (doDisableBack)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (doDisableBack) - ${err}`, LogLevel.Error);
       return true;
     }
   }
@@ -87,7 +87,7 @@ export default class PlaylistControl extends React.Component<IPlaylistControlPro
       let currentIdx = indexOf(this.props.assets, this.props.currentAsset);
       this.props.selectAsset(this.props.assets[(currentIdx + 1)].Id);
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (playlistAdvance)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (playlistAdvance) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -96,7 +96,7 @@ export default class PlaylistControl extends React.Component<IPlaylistControlPro
       let currentIdx = indexOf(this.props.assets, this.props.currentAsset);
       this.props.selectAsset(this.props.assets[(currentIdx - 1)].Id);
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (playlistBack)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (playlistBack) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -139,7 +139,7 @@ export default class PlaylistControl extends React.Component<IPlaylistControlPro
         </div>
       );
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (render)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);
       return null;
     }
   }

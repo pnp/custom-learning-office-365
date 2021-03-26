@@ -39,7 +39,7 @@ export default class SearchPanel extends React.Component<ISearchPanelProps, ISea
       if (this.props.panelOpen && this.props.searchResults.length < 1)
         this.searchInput.focus();
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (componentDidMount)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (componentDidMount) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -55,7 +55,7 @@ export default class SearchPanel extends React.Component<ISearchPanelProps, ISea
         this.setState({ searchValue: "" });
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (componentDidUpdate)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (componentDidUpdate) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -64,7 +64,7 @@ export default class SearchPanel extends React.Component<ISearchPanelProps, ISea
       this.setState({ searchValue: searchValue });
       this.props.doSearch(searchValue);
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (executeSearch)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (executeSearch) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -95,7 +95,7 @@ export default class SearchPanel extends React.Component<ISearchPanelProps, ISea
         </div>
       );
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (render)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);
       return null;
     }
   }
