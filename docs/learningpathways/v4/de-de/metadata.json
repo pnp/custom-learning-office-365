@@ -12,11 +12,11 @@
     },
     {
       "Id": "e75b9087-6bb2-417f-a696-e667bea533a7",
-      "Name": "Microsoft 365",
+      "Name": "Microsoft 365",
       "Subjects": [
         {
           "Id": "f1b531e0-2a62-4007-8858-08bd8be6ecae",
-          "Name": "Microsoft 365"
+          "Name": "Microsoft 365"
         }
       ]
     },
@@ -71,7 +71,7 @@
     },
     {
       "Id": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
-      "Name": "SharePoint",
+      "Name": "Microsoft Office SharePoint Online",
       "Subjects": [
         {
           "Id": "e772e866-7b81-4e5c-bfad-36aa9ee98eaf",
@@ -83,7 +83,7 @@
         },
         {
           "Id": "2324ad0f-5577-408f-b5aa-fad1e5a8f208",
-          "Name": "Website-Branding und-Anpassung"
+          "Name": "Website-Branding und Anpassung"
         }
       ]
     },
@@ -109,7 +109,7 @@
     },
     {
       "Id": "054bac6f-2670-4cd1-8b38-087ff82754a2",
-      "Name": "Barrierefreiheit",
+      "Name": "Bedienungshilfen",
       "Subjects": []
     },
     {
@@ -125,6 +125,11 @@
     {
       "Id": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
       "Name": "Office für das Web",
+      "Subjects": []
+    },
+    {
+      "Id": "016a561b-1c7a-4528-b0b7-96fcb556a1e1",
+      "Name": "Listen",
       "Subjects": []
     }
   ],
@@ -187,6 +192,15 @@
           "Id": "51a0828d-1d27-4931-b547-9f2a698f33d8",
           "Name": "Sicherheit",
           "Image": "images/categories/LP-security-subcategory.png",
+          "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
+          "Name": "Hybridarbeitsplatz",
+          "Image": "images/categories/hybridwork.png",
           "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
           "SubjectId": null,
           "Source": "Microsoft",
@@ -258,7 +272,7 @@
         },
         {
           "Id": "e5e2ae74-20ff-4626-937d-df4ff3405f29",
-          "Name": "SharePoint",
+          "Name": "Microsoft Office SharePoint Online",
           "Image": "images/categories/sharepoint.png",
           "TechnologyId": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
           "SubjectId": null,
@@ -267,7 +281,7 @@
         },
         {
           "Id": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-          "Name": "Microsoft Teams",
+          "Name": "Microsoft Teams",
           "Image": "images/categories/teams.png",
           "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
           "SubjectId": null,
@@ -321,7 +335,7 @@
         },
         {
           "Id": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
-          "Name": "Barrierefreiheit",
+          "Name": "Bedienungshilfen",
           "Image": "images/categories/accessibility.png",
           "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
           "SubjectId": null,
@@ -342,6 +356,15 @@
           "Name": "Office für das Web",
           "Image": "images/categories/office_for_web.png",
           "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "4b40845d-fe5f-428f-8970-58455e5bf262",
+          "Name": "Listen",
+          "Image": "images/categories/lists_cat.png",
+          "TechnologyId": "016a561b-1c7a-4528-b0b7-96fcb556a1e1",
           "SubjectId": null,
           "Source": "Microsoft",
           "SubCategories": []
@@ -445,7 +468,7 @@
     },
     {
       "Id": "fbc841eb-1082-4c27-b13b-f7965947cb16",
-      "Name": "Erfahrene Benutzer"
+      "Name": "Erweitert"
     }
   ],
   "StatusTag": [
@@ -469,5 +492,19 @@
       "Id": "42be48f6-1f82-4fda-a757-add2499677d9",
       "Name": "Beta"
     }
+  ],
+  "Telemetry": {
+    "AppInsightKey": "9a46dc18-dca7-4f9c-aaf7-1af9ad28fdda"
+  },
+  "Version": {
+    "Manifest": "v3",
+    "ManifestMinWebPart": "3.0.0",
+    "CurrentWebPart": "4.1.0",
+    "RepoURL": "https://github.com/pnp/custom-learning-office-365#updating-the-solution"
+  },
+  "ContentPacks": [],
+  "AssetOrigins": [
+    "https://support.office.com",
+    "https://docs.microsoft.com"
   ]
 }
