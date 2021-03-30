@@ -36,7 +36,7 @@ export class LearningHeaderState implements ILearningHeaderState {
 }
 
 export default class LearningHeader extends React.Component<ILearningHeaderProps, ILearningHeaderState> {
-  private LOG_SOURCE = "LearningHeader";
+  private LOG_SOURCE: string = "LearningHeader";
   private _reInit: boolean = false;
 
   constructor(props) {
@@ -78,7 +78,7 @@ export default class LearningHeader extends React.Component<ILearningHeaderProps
         });
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (buttonClick)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (buttonClick) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -87,7 +87,7 @@ export default class LearningHeader extends React.Component<ILearningHeaderProps
       this.setState({ panelOpen: "" });
       this.props.loadSearchResult(subcategoryId, playlistId, assetId);
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (loadSearchResultClosePanel)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (loadSearchResultClosePanel) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -115,7 +115,7 @@ export default class LearningHeader extends React.Component<ILearningHeaderProps
         </div>
       );
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (render)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);
       return null;
     }
   }

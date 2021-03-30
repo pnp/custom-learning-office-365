@@ -40,7 +40,7 @@ export default class HeaderPanel extends React.Component<IHeaderPanelProps, IHea
         this.props.doSearch("");
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (componentDidUpdate)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (componentDidUpdate) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -67,7 +67,7 @@ export default class HeaderPanel extends React.Component<IHeaderPanelProps, IHea
         element
       );
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (render)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);
       return null;
     }
   }

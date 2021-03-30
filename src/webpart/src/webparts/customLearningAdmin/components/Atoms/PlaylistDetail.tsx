@@ -112,7 +112,7 @@ export default class PlaylistDetail extends React.Component<IPlaylistDetailProps
         levelDropdown,
         audienceDropdown);
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (initState)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (initState) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -137,7 +137,7 @@ export default class PlaylistDetail extends React.Component<IPlaylistDetailProps
       (editDetail[fieldName] as IMultilingualString)[this.props.currentLangIndex].Text = newValue;
       this.props.updateDetail(editDetail, false);
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (textFieldChanged)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (textFieldChanged) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -147,7 +147,7 @@ export default class PlaylistDetail extends React.Component<IPlaylistDetailProps
       editDetail[fieldName] = option.key.toString();
       this.props.updateDetail(editDetail, false);
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (dropdownChanged)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (dropdownChanged) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -157,7 +157,7 @@ export default class PlaylistDetail extends React.Component<IPlaylistDetailProps
       editDetail.CatId = itemKey;
       this.props.updateDetail(editDetail, false);
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (selectCatId)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (selectCatId) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -274,7 +274,7 @@ export default class PlaylistDetail extends React.Component<IPlaylistDetailProps
         </div >
       );
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (render)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);
       return null;
     }
   }

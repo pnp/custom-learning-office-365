@@ -66,7 +66,7 @@ export default class HeaderToolbar extends React.Component<IHeaderToolbarProps, 
       let history = find(this.props.history, { Id: item.key });
       this.props.historyClick(history.Template, history.Id, true);
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (onBreadcrumbItemClicked)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (onBreadcrumbItemClicked) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -82,7 +82,7 @@ export default class HeaderToolbar extends React.Component<IHeaderToolbarProps, 
         this._breadcrumbMax = window.matchMedia("(max-width: 480px)").matches || sectionClass;
       } catch (err) {
         this._breadcrumbMax = false;
-        Logger.write(`${err} - ${this.LOG_SOURCE} (render) - media matching not supported in browser`, LogLevel.Error);
+        Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err} -- media matching not supported in browser`, LogLevel.Error);
       }
 
       let breadcrumbItems: IBreadcrumbItem[] = [];
@@ -121,7 +121,7 @@ export default class HeaderToolbar extends React.Component<IHeaderToolbarProps, 
         </div>
       );
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (render)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);
       return null;
     }
   }

@@ -190,7 +190,7 @@ gulp.task('sass:lint', () => {
 
 });
 // SASS compilation
-gulp.task('sass:compile', ['sass:lint'], () => {
+gulp.task('sass:compile', () => {
 
     var watches = config.watches.styles;
     

@@ -97,7 +97,7 @@ export default class CategoryHeading extends React.Component<ICategoryHeadingPro
           </h3>);
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (renderHeading)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (renderHeading) - ${err}`, LogLevel.Error);
       return null;
     }
   }
@@ -158,7 +158,7 @@ export default class CategoryHeading extends React.Component<ICategoryHeadingPro
         }
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (renderButtons)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (renderButtons) - ${err}`, LogLevel.Error);
     }
     return retVal;
   }
@@ -174,7 +174,7 @@ export default class CategoryHeading extends React.Component<ICategoryHeadingPro
         </div>
       );
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (render)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);
       return null;
     }
   }

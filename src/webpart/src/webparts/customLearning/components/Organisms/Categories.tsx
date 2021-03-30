@@ -21,7 +21,7 @@ export class CategoriesState implements ICategoriesState {
 }
 
 export default class Categories extends React.Component<ICategoriesProps, ICategoriesState> {
-  private LOG_SOURCE = "Categories";
+  private LOG_SOURCE: string = "Categories";
 
   constructor(props) {
     super(props);
@@ -57,7 +57,7 @@ export default class Categories extends React.Component<ICategoriesProps, ICateg
         </>
       );
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (render)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);
       return null;
     }
   }
