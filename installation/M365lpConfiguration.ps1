@@ -1,8 +1,93 @@
-﻿param([PSCredential]$Credentials,
-  [string]$TenantName,
-  [string]$SiteCollectionName,
-  [switch]$AppCatalogAdminOnly,
-  [switch]$SiteAdminOnly)
+﻿[CmdletBinding()]Param(
+  [Parameter(Mandatory = $false, ParameterSetName = "Credentials")]
+  [PSCredential]$Credentials,
+
+  [Parameter(Mandatory = $false, ParameterSetName = "Credentials")]
+  [Switch]$CurrentCredentials,
+
+  [Parameter(Mandatory = $false, ParameterSetName = "ACSAppOnly")]
+  [String]$Realm,
+
+  [Parameter(Mandatory = $false, ParameterSetName = "ACSAppOnly")]
+  [String]$ClientSecret,
+
+  [Parameter(Mandatory = $true, ParameterSetName = "SPOManagement")]
+  [Switch]$SPOManagementShell,
+
+  [Parameter(Mandatory = $true, ParameterSetName = "DeviceLogin")]
+  [Switch]$DeviceLogin,
+
+  [Parameter(Mandatory = $false, ParameterSetName = "DeviceLogin")]
+  [Parameter(Mandatory = $false, ParameterSetName = "Interative")]
+  [Switch]$LaunchBrowser,
+
+  [Parameter(Mandatory = $false, ParameterSetName = "Credentials")]
+  [Parameter(Mandatory = $true, ParameterSetName = "AppOnlyAADCertificate")]
+  [Parameter(Mandatory = $true, ParameterSetName = "AppOnlyAADThumbprint")]
+  [Parameter(Mandatory = $true, ParameterSetName = "ACSAppOnly")]
+  [Parameter(Mandatory = $false, ParameterSetName = "Interactive")]
+  [Parameter(Mandatory = $false, ParameterSetName = "DeviceLogin")]
+  [String]$ClientId,
+
+  [Parameter(Mandatory = $false, ParameterSetName = "Credentials")]
+  [String]$RedirectUri,
+
+  [Parameter(Mandatory = $true, ParameterSetName = "AppOnlyAADCertificate")]
+  [Parameter(Mandatory = $true, ParameterSetName = "AppOnlyAADThumbprint")]
+  [Parameter(Mandatory = $false, ParameterSetName = "Interactive")]
+  [String]$TenantName,
+ 
+  [Parameter(Mandatory = $false, ParameterSetName = "AppOnlyAADCertificate")]
+  [String]$CertificatePath,
+
+  [Parameter(Mandatory = $false, ParameterSetName = "AppOnlyAADCertificate")]
+  [SecureString]$CertificatePassword,
+
+  [Parameter(Mandatory = $true, ParameterSetName = "AppOnlyAADThumbprint")]
+  [String]$Thumbprint,
+
+  [Parameter(Mandatory = $false, ParameterSetName = "Credentials")]
+  [Parameter(Mandatory = $false, ParameterSetName = "AppOnlyAADCertificate")]
+  [Parameter(Mandatory = $false, ParameterSetName = "AppOnlyAADThumbprint")]
+  [Parameter(Mandatory = $false, ParameterSetName = "ACSAppOnly")]
+  [Parameter(Mandatory = $false, ParameterSetName = "DeviceLogin")]
+  [Parameter(Mandatory = $false, ParameterSetName = "Interactive")]
+  [Parameter(Mandatory = $false, ParameterSetName = "AccessToken")]
+  [ValidateSet("Production", "China", "Germany", "USGovernment", "USGovernmentHigh", "USGovernmentDoD")]
+  [String]$AzureEnvironment = "Production",
+
+  [Parameter(Mandatory = $true, ParameterSetName = "Interactive")]
+  [Switch]$Interactive,
+
+  [Parameter(Mandatory = $true, ParameterSetName = "AccessToken")]
+  [String]$AccessToken,
+
+  [Parameter(Mandatory = $false, ParameterSetName = "Credentials")]
+  [Parameter(Mandatory = $false, ParameterSetName = "AppOnlyAADCertificate")]
+  [Parameter(Mandatory = $false, ParameterSetName = "AppOnlyAADThumbprint")]
+  [Parameter(Mandatory = $false, ParameterSetName = "ACSAppOnly")]
+  [Parameter(Mandatory = $false, ParameterSetName = "DeviceLogin")]
+  [Parameter(Mandatory = $false, ParameterSetName = "Interactive")]
+  [Parameter(Mandatory = $false, ParameterSetName = "AccessToken")]
+  [String]$SiteCollectionName,
+
+  [Parameter(Mandatory = $false, ParameterSetName = "Credentials")]
+  [Parameter(Mandatory = $false, ParameterSetName = "AppOnlyAADCertificate")]
+  [Parameter(Mandatory = $false, ParameterSetName = "AppOnlyAADThumbprint")]
+  [Parameter(Mandatory = $false, ParameterSetName = "ACSAppOnly")]
+  [Parameter(Mandatory = $false, ParameterSetName = "DeviceLogin")]
+  [Parameter(Mandatory = $false, ParameterSetName = "Interactive")]
+  [Parameter(Mandatory = $false, ParameterSetName = "AccessToken")]
+  [Switch]$AppCatalogAdminOnly,
+  
+  [Parameter(Mandatory = $false, ParameterSetName = "Credentials")]
+  [Parameter(Mandatory = $false, ParameterSetName = "AppOnlyAADCertificate")]
+  [Parameter(Mandatory = $false, ParameterSetName = "AppOnlyAADThumbprint")]
+  [Parameter(Mandatory = $false, ParameterSetName = "ACSAppOnly")]
+  [Parameter(Mandatory = $false, ParameterSetName = "DeviceLogin")]
+  [Parameter(Mandatory = $false, ParameterSetName = "Interactive")]
+  [Parameter(Mandatory = $false, ParameterSetName = "AccessToken")]
+  [Switch]$SiteAdminOnly)
  
 if ($AppCatalogAdminOnly -and $SiteAdminOnly) {
   Write-Host "Select either -AppCatalogAdminOnly or -SiteAdminOnly"
