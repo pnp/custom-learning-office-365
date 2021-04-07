@@ -121,24 +121,6 @@
   [Parameter(Mandatory = $false, ParameterSetName = "DeviceLogin")]
   [Parameter(Mandatory = $false, ParameterSetName = "Interactive")]
   [Parameter(Mandatory = $false, ParameterSetName = "AccessToken")]
-  [String]$TenantAdminUrl,
-
-  [Parameter(Mandatory = $false, ParameterSetName = "Credentials")]
-  [Parameter(Mandatory = $false, ParameterSetName = "AppOnlyAADCertificate")]
-  [Parameter(Mandatory = $false, ParameterSetName = "AppOnlyAADThumbprint")]
-  [Parameter(Mandatory = $false, ParameterSetName = "ACSAppOnly")]
-  [Parameter(Mandatory = $false, ParameterSetName = "DeviceLogin")]
-  [Parameter(Mandatory = $false, ParameterSetName = "Interactive")]
-  [Parameter(Mandatory = $false, ParameterSetName = "AccessToken")]
-  [String]$SiteCollectionUrl,
-
-  [Parameter(Mandatory = $false, ParameterSetName = "Credentials")]
-  [Parameter(Mandatory = $false, ParameterSetName = "AppOnlyAADCertificate")]
-  [Parameter(Mandatory = $false, ParameterSetName = "AppOnlyAADThumbprint")]
-  [Parameter(Mandatory = $false, ParameterSetName = "ACSAppOnly")]
-  [Parameter(Mandatory = $false, ParameterSetName = "DeviceLogin")]
-  [Parameter(Mandatory = $false, ParameterSetName = "Interactive")]
-  [Parameter(Mandatory = $false, ParameterSetName = "AccessToken")]
   [Switch]$AppCatalogAdminOnly,
   
   [Parameter(Mandatory = $false, ParameterSetName = "Credentials")]
@@ -252,7 +234,44 @@ Function Connect-SPO {
     $connected = $false;
   }
 }
+
+Function Get-TenantURL {
+  # Check if tenant name was passed in
+  while ([string]::IsNullOrWhitespace($TenantName)) {
+    # No TenantName was passed, prompt the user
+    $TenantName = Read-Host "Please enter your tenant name: (contoso) "; 
+    $TenantName = $TenantName.Trim();
+  }
+  if ($TenantName -imatch "(.+)\.onmicrosoft\..+") {
+    $script:TenantNamePartial = $Matches[1];
+    $script:TenantNameFull = $TenantName;
+  }
+  else {
+    $script:TenantNamePartial = $TenantName;
+    $script:TenantNameFull = "$TenantName.onmicrosoft.com";
+  }
+  # Construct the URL from the environment.
+  Switch ($AzureEnvironment) {
+    "Production" { $TenantURL = "https://$($script:TenantNamePartial)-admin.sharepoint.com"; }
+    "China" { $TenantURL = "https://$($script:TenantNamePartial)-admin.sharepoint.cn"; }
+    "Germany" { $TenantURL = "https://$($script:TenantNamePartial)-admin.sharepoint.de"; }
+    "USGovernment" { $TenantURL = "https://$($script:TenantNamePartial)-admin.sharepoint.com"; }
+    "USGovernmentHigh" { $TenantURL = "https://$($script:TenantNamePartial)-admin.sharepoint.us"; }
+    "USGovernmentDoD" { $TenantURL = "https://$($script:TenantNamePartial)-admin.sharepoint-mil.us"; }
+  }
+  # Test that it's a mostly valid URL
+  # This doesn't catch everything
+  if (!([system.uri]::IsWellFormedUriString($TenantURL, [System.UriKind]::Absolute))) {
+    Write-Host "$TenantURL is not a valid URL." -BackgroundColor Black -ForegroundColor Red;
+    Clear-Variable TenantNameFull -Scope Script;
+    Clear-Variable TenantNamePartial -Scope Script;
+    return $null;
+  }
+  return $TenantURL;
+}
  
+################# Do the work #################
+
 if ($AppCatalogAdminOnly -and $SiteAdminOnly) {
   Write-Host "Select either -AppCatalogAdminOnly or -SiteAdminOnly";
   Write-Host "If you want to run both tenant and site admin parts, don't pass either parameter";
@@ -264,12 +283,13 @@ if (!($AppCatalogAdminOnly) -and !($SiteAdminOnly)) {
   $AppCatalogAdmin = $true;
   $SiteAdmin = $true;
 }
-#region Legal stuff for Telemetry
+
+# Legal stuff for Telemetry
 Write-Host "Microsoft collects active usage data from your organization’s use of Microsoft 365 learning pathways and the use of Microsoft’s online content. Microsoft will use this data to help improve the future Microsoft 365 learning pathways solutions. To learn more about Microsoft privacy policies see https://go.microsoft.com/fwlink/?LinkId=521839. If you would like to opt out of this data collection, please type Ctrl-C to stop this script and see Readme file (`"Disabling Telemetry Collection section`") for instructions on how to opt out.`n";
 Read-Host "Press Enter to Continue";
 $optInTelemetry = $true;
-#endregion
-# verify the PnP cmdlets we need are installed
+
+# Verify the PnP cmdlets we need are installed
 if (-not (Get-Command Connect-PnPOnline -ErrorAction SilentlyContinue  )) {
   Write-Warning "Could not find PnP PowerShell cmdlets";
   Write-Warning "Please install them and run this script again";
@@ -277,36 +297,9 @@ if (-not (Get-Command Connect-PnPOnline -ErrorAction SilentlyContinue  )) {
   Write-Warning "`nInstall-Module PnP.PowerShell`n";
   break;
 } 
-# Check if tenant name was passed in
-while ([string]::IsNullOrWhitespace($TenantName)) {
-  # No TenantName was passed, prompt the user
-  $TenantName = Read-Host "Please enter your tenant name: (contoso) "; 
-  $TenantName = $TenantName.Trim();
-}
-if ($TenantName -imatch "(.+)\.onmicrosoft\..+") {
-  $TenantNamePartial = $Matches[1];
-  $TenantNameFull = $TenantName;
-} else {
-  $TenantNamePartial = $TenantName;
-  $TenantNameFull = "$TenantName.onmicrosoft.com";
-}
-Switch ($AzureEnvironment) {
-  "Production" { $TestTenantURL = "https://$TenantNamePartial.sharepoint.com"; }
-  "China" { $TestTenantURL = "https://$TenantNamePartial.sharepoint.cn"; }
-  "Germany" { $TestTenantURL = "https://$TenantNamePartial.sharepoint.de"; }
-  "USGovernment" { $TestTenantURL = "https://$TenantNamePartial.sharepoint.com"; }
-  "USGovernmentHigh" { $TestTenantURL = "https://$TenantNamePartial.sharepoint.us"; }
-  "USGovernmentDoD" { $TestTenantURL = "https://$TenantNamePartial.sharepoint-mil.us"; }
-}
-  
-# Test that it's a mostly valid URL
-# This doesn't catch everything
-if (!([system.uri]::IsWellFormedUriString($TestTenantURL, [System.UriKind]::Absolute))) {
-  Write-Host "$TestTenantURL is not a valid URL." -BackgroundColor Black -ForegroundColor Red;
-  Clear-Variable TenantName;
-  Clear-Variable TenantNamePartial;
-}
 
+# Get the tenant Url.
+$taSite = Get-TenantURL;
 # Check if $SiteCollectionName was passed in
 if ([string]::IsNullOrWhitespace($SiteCollectionName) ) {
   # No Site Collection was passed, prompt the user
@@ -315,36 +308,9 @@ if ([string]::IsNullOrWhitespace($SiteCollectionName) ) {
     $SiteCollectionName = "MicrosoftTraining";
   }
 }
-Switch ($AzureEnvironment) {
-  "Production" { 
-    $clSite = "https://$TenantNamePartial.sharepoint.com/sites/$SiteCollectionName"; 
-    $taSite = "https://$TenantNamePartial-admin.sharepoint.com";
-  }
-  "China" { 
-    $clSite = "https://$TenantNamePartial.sharepoint.cn/sites/$SiteCollectionName"; 
-    $taSite = "https://$TenantNamePartial-admin.sharepoint.cn";
-  }
-  "Germany" { 
-    $clSite = "https://$TenantNamePartial.sharepoint.de/sites/$SiteCollectionName";
-    $taSite = "https://$TenantNamePartial-admin.sharepoint.de"; 
-  }
-  "USGovernment" { 
-    $clSite = "https://$TenantNamePartial.sharepoint.com/sites/$SiteCollectionName";
-    $taSite = "https://$TenantNamePartial-admin.sharepoint.com"; 
-  }
-  "USGovernmentHigh" { 
-    $clSite = "https://$TenantNamePartial.sharepoint.us/sites/$SiteCollectionName";
-    $taSite = "https://$TenantNamePartial-admin.sharepoint.us"; 
-  }
-  "USGovernmentDoD" { 
-    $clSite = "https://$TenantNamePartial.sharepoint-mil.us/sites/$SiteCollectionName";
-    $taSite = "https://$TenantNamePartial-admin.sharepoint-mil.us"; 
-  }
-}
-if (![String]::IsNullOrEmpty($TenantAdminUrl)) { $taSite = $TenantAdminUrl; }
-if (![String]::IsNullOrEmpty($SiteCollectionUrl)) { $clSite = $SiteCollectionUrl; }
+$clSite = ($taSite -replace '-admin.', '.') + "/sites/$SiteCollectionName";
 
-#region Connect to Admin site.
+# Connect to Admin site.
 if ($AppCatalogAdmin) {  
   Connect-SPO -siteUrl $taSite -callback { 
     # Need an App Catalog site collection defined for Set-PnPStorageEntity to work
@@ -391,8 +357,8 @@ if ($AppCatalogAdmin) {
     }
   }
 }
-#endregion
-#region Content stuff
+
+# Content stuff
 if ($SiteAdmin) { 
   Connect-SPO -siteUrl $clSite -callback { 
     # Allow custom scripts.
@@ -472,4 +438,4 @@ if ($SiteAdmin) {
   }
 }
 Write-Host "Microsoft 365 learning pathways Pages created at $clSite";
-#endregion
+
