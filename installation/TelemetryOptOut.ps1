@@ -33,8 +33,8 @@
           -AzureEnvironment Production `
           -SharePointDelegatePermissions AllSites.FullControl `
           -SharePointApplicationPermissions Sites.FullControl.All `
-          -GraphApplicationPermissions Group.ReadWrite.All `
-          -GraphDelegatePermissions Group.ReadWrite.All
+          -GraphApplicationPermissions Sites.ReadWrite.All `
+          -GraphDelegatePermissions Sites.ReadWrite.All
 
   7. Make a note of the provide credentials and consent to the allow the permissions.
 
