@@ -102,7 +102,8 @@ export default class SubCategoryItem extends React.Component<ISubCategoryItemPro
           data-index={this.props.index}
         >
           <div className="plov-img">
-            <img src={this.props.imageSource} width="278px" height="200px" loading="lazy" />
+            {/* <img src={this.props.imageSource} width="278px" height="200px" loading="lazy" /> */}
+            <img src={this.props.imageSource} width="320" height="180" loading="lazy" />
           </div>
           <div className="plov-desc">
             <h3 className="plov-title">{this.props.title}</h3>

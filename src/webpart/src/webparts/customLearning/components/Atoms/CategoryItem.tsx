@@ -68,7 +68,8 @@ export default class CategoryItem extends React.Component<ICategoryItemProps, IC
           data-index={this.props.index}
         >
           <div className="category-icon">
-            <img src={categoryImage} loading="lazy" width="278" height="200" />
+            {/* <img src={categoryImage} loading="lazy" width="278" height="200" /> */}
+            <img src={categoryImage} loading="lazy" width="320" height="180" />
           </div>
           <div className="category-label">
             {this.props.dragMode &&
