@@ -5,7 +5,7 @@ import { WebPartContext } from "@microsoft/sp-webpart-base";
 import forEach from "lodash/forEach";
 
 export class Parameters {
-  private LOG_SOURCE = "Parameters";
+  private LOG_SOURCE: string = "Parameters";
   private _context: WebPartContext;
   private _httpClient: HttpClient;
   private _userRole: string;
@@ -156,7 +156,7 @@ export class Parameters {
       });
       this._supportedLanguages = supportedLanguages;
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (set:manifest)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (set:manifest) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -243,7 +243,7 @@ export class Parameters {
         this._lastUpdatedCache = value.LastUpdated;
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (set:customCacheConfig)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (set:customCacheConfig) - ${err}`, LogLevel.Error);
     }
   }
 

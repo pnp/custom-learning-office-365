@@ -8,7 +8,9 @@
   border: 1px $c-gray solid;
   border-right: none;
   border-left: none;
-  background-color: $c-background;
+  // background-color: $c-background;
+  @include themeSlot(buttonBackground, background);
+  @include themeSlot(ButtonBorder, border);
 
   align-items: center;
   justify-content: space-between;
@@ -39,6 +41,7 @@
 
   &-dropdown {
     border-color: whitesmoke;
+    @include themeSlot(buttonBorder, border);
   }
 
   @media screen and (max-width: 768px) {

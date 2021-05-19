@@ -56,6 +56,12 @@ export interface ICustomLearningWebPartProps {
   customSortOrder: string[];
 }
 
+import {
+  ThemeProvider,
+  IReadonlyTheme
+} from '@microsoft/sp-component-base';
+
+
 export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustomLearningWebPartProps> {
   private LOG_SOURCE: string = "CustomLearningWebPart";
   private _isReady: boolean = false;
@@ -86,7 +92,29 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
   private _urlPlaylist: string = this._queryParms.getValue("playlist");
   private _urlAsset: string = this._queryParms.getValue("asset");
 
+  // Theming support for Section
+  private _themeProvider: ThemeProvider;
+  private _themeVariant: IReadonlyTheme | undefined;
+
   public async onInit(): Promise<void> {
+
+    // Consume the new ThemeProvider service
+    this._themeProvider = this.context.serviceScope.consume(ThemeProvider.serviceKey);
+
+    // If it exists, get the theme variant
+    this._themeVariant = this._themeProvider.tryGetTheme();
+
+    // If there is a theme variant
+    if (this._themeVariant) {
+      // we set transfer semanticColors into CSS variables
+      this.setCSSVariables(this._themeVariant.semanticColors);
+      this.setCSSVariables(this._themeVariant.palette);
+      this.setCSSVariables(this._themeVariant["effects"]);
+    } else if (window["__themeState__"].theme) {
+      // we set transfer semanticColors into CSS variables
+      this.setCSSVariables(window["__themeState__"].theme);
+    }
+
     try {
       //Initialize PnPLogger
       Logger.subscribe(new ConsoleListener());
@@ -122,8 +150,11 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
     } catch (err) {
       this._isReady = true;
       this._isError = true;
-      Logger.write(`${err} - ${this.LOG_SOURCE} (onInit) -- Could not initialize web part.`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (onInit) - ${err} -- Could not initialize web part.`, LogLevel.Error);
     }
+
+    return super.onInit();
+
   }
 
   private getTeamsQueryString(): void {
@@ -141,7 +172,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
         }
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (getTeamsQueryString) Error loading query string parameters from teams context.`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getTeamsQueryString) - ${err} -- Error loading query string parameters from teams context.`, LogLevel.Error);
     }
   }
 
@@ -163,9 +194,9 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
       AppInsightsService.initialize(this._cacheController.CDN, this._cacheController.cacheConfig.TelemetryKey);
       AppInsightsService.trackEvent(this.LOG_SOURCE);
 
-      Logger.write(`Initialized Microsoft 365 learning pathways - Tenant: ${this.context.pageContext.aadInfo.tenantId}`, LogLevel.Info);
+      Logger.write(`🎓Initialized Microsoft 365 learning pathways - Tenant: ${this.context.pageContext.aadInfo.tenantId}`, LogLevel.Info);
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (firstInit) -- Could not initialize web part.`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (firstInit) - ${err} -- Could not initialize web part.`, LogLevel.Error);
     }
 
     //Configuration complete, now render
@@ -190,10 +221,10 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
         }
       } else {
         this._validConfig = false;
-        Logger.write(`${this.LOG_SOURCE} (configCDN) -- Could not get a valid configuration; Please contact your learning administrator.`, LogLevel.Error);
+        Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (configCDN) -- Could not get a valid configuration; Please contact your learning administrator.`, LogLevel.Error);
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (configCDN) -- Could not get a valid configuration.`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (configCDN) - ${err} -- Could not get a valid configuration.`, LogLevel.Error);
     }
 
     return retVal;
@@ -356,7 +387,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
         options.push({ key: "Default", text: strings.M365Title });
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (getDefaultCDNPropertyPaneOptions) -- Error loading CDN property pane options.`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getDefaultCDNPropertyPaneOptions) - ${err} -- Error loading CDN property pane options.`, LogLevel.Error);
     }
     this._ppDefaultCDN = options;
   }
@@ -367,7 +398,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
       options.push({ key: WebpartMode.full, text: strings.WebPartModeFull });
       options.push({ key: WebpartMode.contentonly, text: strings.WebPartModeContentOnly });
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (getWebpartModePropertyPaneOptions) -- Error loading webpart mode property pane options.`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getWebpartModePropertyPaneOptions) -- ${err} -- Error loading webpart mode property pane options.`, LogLevel.Error);
     }
     this._ppWebpartMode = options;
   }
@@ -380,7 +411,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
       options.push({ key: PropertyPaneFilters.subcategory, text: strings.PropertyPaneFilterSubCategory });
       options.push({ key: PropertyPaneFilters.playlist, text: strings.PropertyPaneFilterPlaylist });
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (getDefaultFilterPropertyPaneOptions) -- Error loading filter property pane options.`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getDefaultFilterPropertyPaneOptions) - ${err} -- Error loading filter property pane options.`, LogLevel.Error);
     }
     this._ppFilters = options;
   }
@@ -398,7 +429,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
         }
         options = sortBy(options, ["text"]);
       } catch (err) {
-        Logger.write(`${err} - ${this.LOG_SOURCE} (getCategoryPropertyPaneOptions) -- Error loading category property pane options.`, LogLevel.Error);
+        Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getCategoryPropertyPaneOptions) - ${err} -- Error loading category property pane options.`, LogLevel.Error);
       }
     }
     this._ppCategory = options;
@@ -424,7 +455,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
           }
         }
       } catch (err) {
-        Logger.write(`${err} - ${this.LOG_SOURCE} (getSubCategoryPropertyPaneOptions) -- Error loading sub-category property pane options.`, LogLevel.Error);
+        Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getSubCategoryPropertyPaneOptions) - ${err} -- Error loading sub-category property pane options.`, LogLevel.Error);
       }
     }
     this._ppSubCategory = options;
@@ -453,7 +484,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
               plItems[catId] = [];
             } else {
               catId = "";
-              Logger.write(`${this.LOG_SOURCE} (getPlaylistPropertyPaneOptions) -- Could not find category id: ${catId}.`, LogLevel.Error);
+              Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getPlaylistPropertyPaneOptions) -- Could not find category id: ${catId}.`, LogLevel.Error);
             }
           }
           if (catId.length > 0) {
@@ -469,7 +500,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
           options = options.concat(plItems[categories[c].key]);
         }
       } catch (err) {
-        Logger.write(`${err} - ${this.LOG_SOURCE} (getPlaylistPropertyPaneOptions) -- Error loading playlist property pane options.`, LogLevel.Error);
+        Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getPlaylistPropertyPaneOptions) - ${err} -- Error loading playlist property pane options.`, LogLevel.Error);
       }
     }
     this._ppPlaylist = options;
@@ -491,7 +522,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
             });
         }
       } catch (err) {
-        Logger.write(`${err} - ${this.LOG_SOURCE} (loadPlayListAssets) -- Error loading playlist assets property pane options.`, LogLevel.Error);
+        Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (loadPlayListAssets) - ${err} -- Error loading playlist assets property pane options.`, LogLevel.Error);
       }
     }
     this._ppAssets = options;
@@ -505,6 +536,23 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
   private resetCustomSortOrder = () => {
     this.properties.customSortOrder = [];
     this.render();
+  }
+
+  private setCSSVariables(theming: any) {
+
+    // request all key defined in theming
+    let themingKeys = Object.keys(theming);
+    // if we have the key
+    if (themingKeys !== null) {
+      // loop over it
+      themingKeys.forEach(key => {
+        // add CSS variable to style property of the web part
+        this.domElement.style.setProperty(`--${key}`, theming[key]);
+
+      });
+
+    }
+
   }
 
   protected getPropertyPaneConfiguration(): IPropertyPaneConfiguration {
@@ -604,7 +652,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
 
       return configuration;
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (getPropertyPaneConfiguration) -- Error loading property pane configuration.`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getPropertyPaneConfiguration) - ${err} -- Error loading property pane configuration.`, LogLevel.Error);
       return null;
     }
   }
@@ -645,7 +693,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
         super.onPropertyPaneFieldChanged(propertyPath, oldValue, newValue);
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (onPropertyPaneFieldChanged) -- Error processing property field changes.`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (onPropertyPaneFieldChanged) - ${err} -- Error processing property field changes.`, LogLevel.Error);
     }
   }
 }

@@ -33,7 +33,7 @@ declare module 'react' {
 
 
 export default class AssetView extends React.Component<IAssetViewProps, IAssetViewState> {
-  private LOG_SOURCE = "AssetView";
+  private LOG_SOURCE: string = "AssetView";
   private _IFrame: React.RefObject<HTMLIFrameElement>;
   private _IFrameCont;
 
@@ -60,7 +60,7 @@ export default class AssetView extends React.Component<IAssetViewProps, IAssetVi
           iFrameCont.style.height = "0px";
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (shouldComponentUpdate)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (shouldComponentUpdate) - ${err}`, LogLevel.Error);
     }
     return true;
   }
@@ -71,7 +71,7 @@ export default class AssetView extends React.Component<IAssetViewProps, IAssetVi
       AppInsightsService.trackViewAsset(this.props.playlistId, this.props.playlistName, this.props.asset);
       this._IFrame.current.contentWindow.location.replace(this.decorateAssetUrl());
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (componentDidUpdate)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (componentDidUpdate) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -84,7 +84,7 @@ export default class AssetView extends React.Component<IAssetViewProps, IAssetVi
         this._IFrame.current.contentWindow.location.replace(this.decorateAssetUrl());
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (componentDidMount)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (componentDidMount) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -114,7 +114,7 @@ export default class AssetView extends React.Component<IAssetViewProps, IAssetVi
         this.resizeFrame(height);
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (handleIFrameSize)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (handleIFrameSize) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -128,7 +128,7 @@ export default class AssetView extends React.Component<IAssetViewProps, IAssetVi
         document.documentElement.scrollTop = 0;
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (resizeFrame)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (resizeFrame) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -186,7 +186,7 @@ export default class AssetView extends React.Component<IAssetViewProps, IAssetVi
         }, 5000);
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (resizeIFrame)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (resizeIFrame) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -213,7 +213,7 @@ export default class AssetView extends React.Component<IAssetViewProps, IAssetVi
         </div>
       );
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (render)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);
       return null;
     }
   }

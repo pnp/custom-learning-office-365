@@ -112,7 +112,7 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
       this.setState({ working: true });
       this.props.upsertCustomizations(newConfig).then(() => { this.setState({ working: false }); });
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (updateTechnologyVisibility)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (updateTechnologyVisibility) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -132,7 +132,7 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
       this.setState({ working: true });
       this.props.upsertCustomizations(newConfig).then(() => { this.setState({ working: false }); });
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (updateSubCategoryVisibility)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (updateSubCategoryVisibility) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -152,7 +152,7 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
       this.setState({ working: true });
       this.props.upsertCustomizations(newConfig).then(() => { this.setState({ working: false }); });
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (updatePlaylistVisibility)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (updatePlaylistVisibility) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -178,7 +178,7 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
       this.setState({ working: true });
       this.props.upsertCustomizations(customization).then(() => { this.setState({ working: false }); });
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (upsertSubCategory)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (upsertSubCategory) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -190,7 +190,7 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
       this.setState({ working: true });
       this.props.upsertCustomizations(customization).then(() => { this.setState({ working: false }); });
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (deleteSubCategory)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (deleteSubCategory) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -230,7 +230,7 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
           />;
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (getContainer)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getContainer) - ${err}`, LogLevel.Error);
     }
     return element;
   }
@@ -264,7 +264,7 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
         retVal = true;
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (upsertCdn)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (upsertCdn) - ${err}`, LogLevel.Error);
     }
     return retVal;
   }
@@ -331,7 +331,7 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
         </div >
       );
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (render)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);
       return null;
     }
   }
