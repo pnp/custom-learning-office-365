@@ -1,11 +1,12 @@
 {
+  "$schema": "https://microsoft.github.io/customlearning_staging/schemas/v4/manifest.json",
   "Telemetry": {
     "AppInsightKey": "9a46dc18-dca7-4f9c-aaf7-1af9ad28fdda"
   },
   "Version": {
     "Manifest": "v4",
     "ManifestMinWebPart": "4.0.0",
-    "CurrentWebPart": "4.1.4",
+    "CurrentWebPart": "4.2.0",
     "RepoURL": "https://github.com/pnp/custom-learning-office-365#updating-the-solution"
   },
   "ContentPacks": [

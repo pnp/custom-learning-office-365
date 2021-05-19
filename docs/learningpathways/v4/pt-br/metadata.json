@@ -1,8 +1,28 @@
 {
   "Technologies": [
     {
-      "Id": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
-      "Name": "Excel",
+      "Id": "016a561b-1c7a-4528-b0b7-96fcb556a1e1",
+      "Name": "Listas",
+      "Subjects": []
+    },
+    {
+      "Id": "054bac6f-2670-4cd1-8b38-087ff82754a2",
+      "Name": "Acessibilidade",
+      "Subjects": []
+    },
+    {
+      "Id": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+      "Name": "Office 365",
+      "Subjects": []
+    },
+    {
+      "Id": "0eb89b8a-87cf-4388-b146-1e073588b029",
+      "Name": "Word",
+      "Subjects": []
+    },
+    {
+      "Id": "2f571b54-44fa-4778-9277-c7935e36ffb3",
+      "Name": "Planner",
       "Subjects": []
     },
     {
@@ -11,12 +31,77 @@
       "Subjects": []
     },
     {
-      "Id": "e75b9087-6bb2-417f-a696-e667bea533a7",
-      "Name": "Microsoft 365",
+      "Id": "3edeb182-3828-4a83-aef9-928a2693e288",
+      "Name": "Outlook para iOS e Android",
+      "Subjects": []
+    },
+    {
+      "Id": "452e503b-bafb-4023-b00d-b6d9b1701596",
+      "Name": "OneDrive",
+      "Subjects": []
+    },
+    {
+      "Id": "4ba51921-475f-481d-8bc3-c9b0f658342c",
+      "Name": "OneNote",
+      "Subjects": []
+    },
+    {
+      "Id": "58847f9a-3144-453e-a10e-bc1c00bc3faa",
+      "Name": "Windows 10",
+      "Subjects": []
+    },
+    {
+      "Id": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
+      "Name": "PowerPoint",
+      "Subjects": []
+    },
+    {
+      "Id": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
+      "Name": "OneDrive for Business",
+      "Subjects": []
+    },
+    {
+      "Id": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
+      "Name": "Office na Web",
+      "Subjects": []
+    },
+    {
+      "Id": "9c18d262-89c5-499b-be11-be58279c86bd",
+      "Name": "Access",
+      "Subjects": []
+    },
+    {
+      "Id": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
+      "Name": "Yammer",
+      "Subjects": []
+    },
+    {
+      "Id": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
+      "Name": "SharePoint",
       "Subjects": [
         {
-          "Id": "f1b531e0-2a62-4007-8858-08bd8be6ecae",
-          "Name": "Microsoft 365"
+          "Id": "2324ad0f-5577-408f-b5aa-fad1e5a8f208",
+          "Name": "Identificação visual e Personalização de sites"
+        },
+        {
+          "Id": "2a5f3071-3cf3-45f0-949a-cafc07af413b",
+          "Name": "Políticas"
+        },
+        {
+          "Id": "41128013-96b4-442f-b44f-a30b232a2782",
+          "Name": "Gerenciamento de sites"
+        },
+        {
+          "Id": "839db42f-02e6-4d57-93c2-b061f8075c95",
+          "Name": "Compartilhamento de site"
+        },
+        {
+          "Id": "c0af989f-3c4b-4f6f-ba58-7f2a335cb445",
+          "Name": "Criação de site"
+        },
+        {
+          "Id": "e772e866-7b81-4e5c-bfad-36aa9ee98eaf",
+          "Name": "Planejamento de site"
         }
       ]
     },
@@ -35,101 +120,41 @@
       ]
     },
     {
-      "Id": "0ae04ffb-5e69-461d-919d-a2215109bf49",
-      "Name": "Office 365",
-      "Subjects": []
-    },
-    {
-      "Id": "452e503b-bafb-4023-b00d-b6d9b1701596",
-      "Name": "OneDrive",
-      "Subjects": []
-    },
-    {
-      "Id": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
-      "Name": "OneDrive for Business",
-      "Subjects": []
-    },
-    {
-      "Id": "4ba51921-475f-481d-8bc3-c9b0f658342c",
-      "Name": "OneNote",
-      "Subjects": []
-    },
-    {
       "Id": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
       "Name": "Outlook",
       "Subjects": []
     },
     {
-      "Id": "2f571b54-44fa-4778-9277-c7935e36ffb3",
-      "Name": "Planner",
+      "Id": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+      "Name": "Excel",
       "Subjects": []
     },
     {
-      "Id": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
-      "Name": "PowerPoint",
+      "Id": "d984257a-d122-45bb-a04a-a2fcdfe8007e",
+      "Name": "Stream",
       "Subjects": []
     },
     {
-      "Id": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
-      "Name": "SharePoint",
+      "Id": "e75b9087-6bb2-417f-a696-e667bea533a7",
+      "Name": "Microsoft 365",
       "Subjects": [
         {
-          "Id": "e772e866-7b81-4e5c-bfad-36aa9ee98eaf",
-          "Name": "Planejamento de site"
+          "Id": "78444c91-e53b-4f0b-8c85-e5cb925c4b7f",
+          "Name": "Office 365"
         },
         {
-          "Id": "c0af989f-3c4b-4f6f-ba58-7f2a335cb445",
-          "Name": "Criação de site"
+          "Id": "9cd68cb5-26f5-4a29-952f-3b812fcb7414",
+          "Name": "Windows 10"
         },
         {
-          "Id": "2324ad0f-5577-408f-b5aa-fad1e5a8f208",
-          "Name": "Identificação visual e Personalização de sites"
+          "Id": "f1b531e0-2a62-4007-8858-08bd8be6ecae",
+          "Name": "Microsoft 365"
         }
       ]
     },
     {
-      "Id": "58847f9a-3144-453e-a10e-bc1c00bc3faa",
-      "Name": "Windows 10",
-      "Subjects": []
-    },
-    {
-      "Id": "0eb89b8a-87cf-4388-b146-1e073588b029",
-      "Name": "Word",
-      "Subjects": []
-    },
-    {
-      "Id": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
-      "Name": "Yammer",
-      "Subjects": []
-    },
-    {
       "Id": "e9d69805-edb5-43da-8258-5520000bf3a6",
       "Name": "Sway",
-      "Subjects": []
-    },
-    {
-      "Id": "054bac6f-2670-4cd1-8b38-087ff82754a2",
-      "Name": "Acessibilidade",
-      "Subjects": []
-    },
-    {
-      "Id": "3edeb182-3828-4a83-aef9-928a2693e288",
-      "Name": "Outlook para iOS e Android",
-      "Subjects": []
-    },
-    {
-      "Id": "9c18d262-89c5-499b-be11-be58279c86bd",
-      "Name": "Access",
-      "Subjects": []
-    },
-    {
-      "Id": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
-      "Name": "Office na Web",
-      "Subjects": []
-    },
-    {
-      "Id": "016a561b-1c7a-4528-b0b7-96fcb556a1e1",
-      "Name": "Listas",
       "Subjects": []
     }
   ],
@@ -147,7 +172,7 @@
           "Name": "Primeiros dias",
           "Image": "images/categories/first_days.png",
           "TechnologyId": "",
-          "SubjectId": null,
+          "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
         },
@@ -156,7 +181,7 @@
           "Name": "Recomendado",
           "Image": "images/categories/recommended.png",
           "TechnologyId": "",
-          "SubjectId": null,
+          "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
         }
@@ -175,7 +200,7 @@
           "Name": "Local de trabalho moderno",
           "Image": "images/categories/modern_workplace_trainingx.png",
           "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-          "SubjectId": null,
+          "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
         },
@@ -184,7 +209,7 @@
           "Name": "Trabalhar remotamente",
           "Image": "images/categories/work_remotely.png",
           "TechnologyId": "",
-          "SubjectId": null,
+          "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
         },
@@ -193,7 +218,7 @@
           "Name": "Segurança",
           "Image": "images/categories/LP-security-subcategory.png",
           "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-          "SubjectId": null,
+          "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
         },
@@ -202,7 +227,7 @@
           "Name": "Local de trabalho híbrido",
           "Image": "images/categories/hybridwork.png",
           "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-          "SubjectId": null,
+          "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
         }
@@ -221,7 +246,7 @@
           "Name": "Outlook",
           "Image": "images/categories/outlook.png",
           "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
-          "SubjectId": null,
+          "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
         },
@@ -230,7 +255,7 @@
           "Name": "OneDrive",
           "Image": "images/categories/onedrive.png",
           "TechnologyId": "452e503b-bafb-4023-b00d-b6d9b1701596",
-          "SubjectId": null,
+          "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
         },
@@ -239,7 +264,7 @@
           "Name": "Word",
           "Image": "images/categories/word.png",
           "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
-          "SubjectId": null,
+          "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
         },
@@ -248,7 +273,7 @@
           "Name": "Excel",
           "Image": "images/categories/excel.png",
           "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
-          "SubjectId": null,
+          "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
         },
@@ -257,7 +282,7 @@
           "Name": "PowerPoint",
           "Image": "images/categories/powerpoint.png",
           "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
-          "SubjectId": null,
+          "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
         },
@@ -266,7 +291,7 @@
           "Name": "OneNote",
           "Image": "images/categories/onenote.png",
           "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
-          "SubjectId": null,
+          "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
         },
@@ -275,7 +300,7 @@
           "Name": "SharePoint",
           "Image": "images/categories/sharepoint.png",
           "TechnologyId": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
-          "SubjectId": null,
+          "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
         },
@@ -284,7 +309,7 @@
           "Name": "Microsoft Teams",
           "Image": "images/categories/teams.png",
           "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
-          "SubjectId": null,
+          "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
         },
@@ -293,7 +318,7 @@
           "Name": "Yammer",
           "Image": "images/categories/yammer.png",
           "TechnologyId": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
-          "SubjectId": null,
+          "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
         },
@@ -302,7 +327,7 @@
           "Name": "Básico do Microsoft 365",
           "Image": "images/categories/office_basics.png",
           "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
-          "SubjectId": null,
+          "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
         },
@@ -311,7 +336,7 @@
           "Name": "Planner",
           "Image": "images/categories/planner.png",
           "TechnologyId": "2f571b54-44fa-4778-9277-c7935e36ffb3",
-          "SubjectId": null,
+          "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
         },
@@ -320,7 +345,7 @@
           "Name": "Forms",
           "Image": "images/categories/forms_training.png",
           "TechnologyId": "33059862-a87d-4b40-9984-be7c6083cf95",
-          "SubjectId": null,
+          "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
         },
@@ -329,7 +354,7 @@
           "Name": "Sway",
           "Image": "images/categories/sway.png",
           "TechnologyId": "e9d69805-edb5-43da-8258-5520000bf3a6",
-          "SubjectId": null,
+          "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
         },
@@ -338,7 +363,7 @@
           "Name": "Acessibilidade",
           "Image": "images/categories/accessibility.png",
           "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
-          "SubjectId": null,
+          "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
         },
@@ -347,7 +372,7 @@
           "Name": "Access",
           "Image": "images/categories/access.png",
           "TechnologyId": "",
-          "SubjectId": null,
+          "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
         },
@@ -356,7 +381,7 @@
           "Name": "Office na Web",
           "Image": "images/categories/office_for_web.png",
           "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
-          "SubjectId": null,
+          "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
         },
@@ -365,7 +390,7 @@
           "Name": "Listas",
           "Image": "images/categories/lists_cat.png",
           "TechnologyId": "016a561b-1c7a-4528-b0b7-96fcb556a1e1",
-          "SubjectId": null,
+          "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
         }
@@ -384,7 +409,7 @@
           "Name": "Ferramentas",
           "Image": "images/categories/toolkit.png",
           "TechnologyId": "",
-          "SubjectId": null,
+          "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
         },
@@ -393,7 +418,7 @@
           "Name": "Centro de Recursos para o Sucesso do Administrador",
           "Image": "images/categories/set-up-Microsoft-365-learning-pathway.png",
           "TechnologyId": "",
-          "SubjectId": null,
+          "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
         }
@@ -402,52 +427,52 @@
   ],
   "Audiences": [
     {
-      "Id": "9fcd26c3-bcca-4452-a40a-f87e0daed348",
-      "Name": "Administrador"
-    },
-    {
-      "Id": "41779dd0-ae42-4a62-8b66-bd87c137f4ac",
-      "Name": "Central de Ajuda"
-    },
-    {
-      "Id": "97150537-2c2f-42f9-8bc6-73e68fda0d38",
-      "Name": "Gerenciador de Mudanças"
+      "Id": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+      "Name": "Todos"
     },
     {
       "Id": "304b216c-ea4d-436c-83f8-93ba1319943b",
       "Name": "Especialistas/Treinador"
     },
     {
-      "Id": "d093e0b6-b9f1-4b46-877c-0a49e989ee40",
-      "Name": "Assistente executivo"
-    },
-    {
-      "Id": "c92ae45b-8770-48f6-8870-3ec74a310da7",
-      "Name": "VIP"
+      "Id": "41779dd0-ae42-4a62-8b66-bd87c137f4ac",
+      "Name": "Central de Ajuda"
     },
     {
       "Id": "82a23325-2e47-4ff9-8747-b6e01c452b81",
       "Name": "Usuário Final"
     },
     {
-      "Id": "e22b05b1-e778-4c97-9646-b8933c209772",
-      "Name": "Editor de conteúdo"
+      "Id": "97150537-2c2f-42f9-8bc6-73e68fda0d38",
+      "Name": "Gerenciador de Mudanças"
     },
     {
-      "Id": "f110eb03-e899-46a9-83be-8f507dae83c1",
-      "Name": "Gerente de Conteúdo"
+      "Id": "9fcd26c3-bcca-4452-a40a-f87e0daed348",
+      "Name": "Administrador"
     },
     {
       "Id": "a8787978-0ee5-4bc6-9c2c-eb11fc47cbfd",
       "Name": "Proprietário do grupo"
     },
     {
+      "Id": "c92ae45b-8770-48f6-8870-3ec74a310da7",
+      "Name": "VIP"
+    },
+    {
+      "Id": "d093e0b6-b9f1-4b46-877c-0a49e989ee40",
+      "Name": "Assistente executivo"
+    },
+    {
+      "Id": "e22b05b1-e778-4c97-9646-b8933c209772",
+      "Name": "Editor de conteúdo"
+    },
+    {
       "Id": "e2fce8e0-2014-4e36-81a5-0723b85958f8",
       "Name": "Patrocinador do site"
     },
     {
-      "Id": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-      "Name": "Todos"
+      "Id": "f110eb03-e899-46a9-83be-8f507dae83c1",
+      "Name": "Gerente de Conteúdo"
     }
   ],
   "Sources": [
@@ -473,38 +498,24 @@
   ],
   "StatusTag": [
     {
-      "Id": "c11c485b-496d-479b-88a3-1744a7a028d7",
-      "Name": "Novo"
-    },
-    {
-      "Id": "9d1fab25-ed9c-404e-941b-41e428d18726",
-      "Name": "Atualizado em"
-    },
-    {
-      "Id": "90fe6290-e063-4778-a8a1-7531c2a0a40e",
-      "Name": "Desativação"
+      "Id": "42be48f6-1f82-4fda-a757-add2499677d9",
+      "Name": "Beta"
     },
     {
       "Id": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
       "Name": "Desativado"
     },
     {
-      "Id": "42be48f6-1f82-4fda-a757-add2499677d9",
-      "Name": "Beta"
+      "Id": "90fe6290-e063-4778-a8a1-7531c2a0a40e",
+      "Name": "Desativação"
+    },
+    {
+      "Id": "9d1fab25-ed9c-404e-941b-41e428d18726",
+      "Name": "Atualizado em"
+    },
+    {
+      "Id": "c11c485b-496d-479b-88a3-1744a7a028d7",
+      "Name": "Novo"
     }
-  ],
-  "Telemetry": {
-    "AppInsightKey": "9a46dc18-dca7-4f9c-aaf7-1af9ad28fdda"
-  },
-  "Version": {
-    "Manifest": "v3",
-    "ManifestMinWebPart": "3.0.0",
-    "CurrentWebPart": "4.1.0",
-    "RepoURL": "https://github.com/pnp/custom-learning-office-365#updating-the-solution"
-  },
-  "ContentPacks": [],
-  "AssetOrigins": [
-    "https://support.office.com",
-    "https://docs.microsoft.com"
   ]
 }

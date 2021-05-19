@@ -1,5 +1,9 @@
 # Change Log
 
+## Content Update 2021/May
+
+Please see details of content update in the following location: [Microsoft 365 Learning Pathways Content Updates](https://docs.microsoft.com/en-us/office365/customlearning/custom_contentupdates)
+
 ## Version 4.2
 
 - Added support for SharePoint section background colors. Because this update requires a change to the web part manifest, after the solution is deployed into the tenant app catalog, any existing web parts will need to be removed and added again to take advantage of the theme backgrounds. This is an optional step and only required if you need support for section background colors.
