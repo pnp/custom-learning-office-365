@@ -113,7 +113,7 @@ export default class AssetDetails extends React.Component<IAssetDetailsProps, IA
         assetChanged: true
       });
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (addLanguage)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (addLanguage) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -134,7 +134,7 @@ export default class AssetDetails extends React.Component<IAssetDetailsProps, IA
         assetChanged: true
       });
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (removeLanguage)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (removeLanguage) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -217,7 +217,7 @@ export default class AssetDetails extends React.Component<IAssetDetailsProps, IA
         </div>
       );
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (render)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);
       return null;
     }
   }

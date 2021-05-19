@@ -26,7 +26,7 @@ export class CategoryListState implements ICategoryListState {
 }
 
 export default class CategoryList extends React.Component<ICategoryListProps, ICategoryListState> {
-  private LOG_SOURCE = "CategoryList";
+  private LOG_SOURCE: string = "CategoryList";
   private _updateState: boolean;
   private _dragResource: ICategory;
 
@@ -62,7 +62,7 @@ export default class CategoryList extends React.Component<ICategoryListProps, IC
       event.dataTransfer.setData("text/html", event.currentTarget.nodeName);
       event.dataTransfer.setDragImage(event.currentTarget, 20, 20);
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (startDrag)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (startDrag) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -76,7 +76,7 @@ export default class CategoryList extends React.Component<ICategoryListProps, IC
       if (!isEqual(this.state.subcategories, this.props.subcategories))
         this.props.updateCustomSort(customSortOrder);
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (endDrag)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (endDrag) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -99,7 +99,7 @@ export default class CategoryList extends React.Component<ICategoryListProps, IC
       subcategories.splice(index, 0, this._dragResource);
       this.setState({ subcategories: subcategories });
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (dragEnter)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (dragEnter) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -129,7 +129,7 @@ export default class CategoryList extends React.Component<ICategoryListProps, IC
         </div>
       );
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (render)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);
       return null;
     }
   }

@@ -71,7 +71,7 @@ export default class AssetDetail extends React.Component<IAssetDetailProps, IAss
       (editAsset[fieldName] as IMultilingualString[])[this.props.currentLangIndex].Text = newValue;
       this.props.updateDetail(editAsset);
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (multiLangFieldChanged)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (multiLangFieldChanged) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -81,7 +81,7 @@ export default class AssetDetail extends React.Component<IAssetDetailProps, IAss
       editAsset[fieldName] = option.key.toString();
       this.props.updateDetail(editAsset);
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (dropdownChanged)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (dropdownChanged) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -100,7 +100,7 @@ export default class AssetDetail extends React.Component<IAssetDetailProps, IAss
       this.multiLangFieldChanged(`${document.location.origin}${pageItem.FileRef}`, "Url");
     } catch (err) {
       let errMsg = err.message;
-      Logger.write(`${err} - ${this.LOG_SOURCE} (createPage)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (createPage) - ${err}`, LogLevel.Error);
       this.setState({ startCreatePage: false, pageCreateError: `There was an error creating the page. '${errMsg}'` });
     }
   }
@@ -150,7 +150,7 @@ export default class AssetDetail extends React.Component<IAssetDetailProps, IAss
         <PrimaryButton onClick={() => { this.setState({ pageCreateError: "" }); }}>{strings.TryAgain}</PrimaryButton>];
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (getAssetUrlFields)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getAssetUrlFields) - ${err}`, LogLevel.Error);
     }
     return retVal;
   }
@@ -220,7 +220,7 @@ export default class AssetDetail extends React.Component<IAssetDetailProps, IAss
         </div>
       );
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (render)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);
       return null;
     }
   }

@@ -18,7 +18,7 @@ export interface ICacheController {
 }
 
 export default class CacheController implements ICacheController {
-  private LOG_SOURCE = "CacheController";
+  private LOG_SOURCE: string = "CacheController";
 
   private _isValid: boolean = true;
   private _cdn: string;
@@ -110,7 +110,7 @@ export default class CacheController implements ICacheController {
         this._ready = true;
       }
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (doInit)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (doInit) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -122,7 +122,7 @@ export default class CacheController implements ICacheController {
       }
       return this._ready;
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (IsReady)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (isReady) - ${err}`, LogLevel.Error);
       return false;
     }
   }
@@ -142,7 +142,7 @@ export default class CacheController implements ICacheController {
         }
       });
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (getFlatCategory)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getFlatCategory) - ${err}`, LogLevel.Error);
     }
     return flatCategory;
   }

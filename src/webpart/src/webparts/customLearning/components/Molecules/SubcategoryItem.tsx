@@ -63,7 +63,7 @@ export default class SubCategoryItem extends React.Component<ISubCategoryItemPro
           this.onMediaQueryChange(480);
       });
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (constructor) - media event listeners not supported in browser`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (constructor) - ${err} -- media event listeners not supported in browser`, LogLevel.Error);
     }
   }
 
@@ -119,7 +119,7 @@ export default class SubCategoryItem extends React.Component<ISubCategoryItemPro
         </div>
       );
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (render)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);
       return null;
     }
   }

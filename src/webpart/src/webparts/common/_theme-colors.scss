@@ -10,27 +10,35 @@ $c-background: $ouif-bodyBackground;
 :global {
   .playerctrl {
     background-color: "[theme:bodyBackground]";
+    @include themeSlot(bodyBackground, background);
   }
 
   .category-label {
-    background-color: $ouif-bodyBackground;
-    color: $ouif-bodyText;
+    // background-color: $ouif-bodyBackground;
+    @include themeSlot(bodyBackground, "background");
+    // color: $ouif-bodyText;
+    @include themeSlot(bodyText);
   }
 
   .iconbutton {
     color: $ouif-bodyText;
+    @include themeSlot(bodyText);
 
     svg {
       fill: $ouif-primaryButtonBackground;
+      @include themeSlot(primaryButtonBackground, fill)
     }
 
     &.selected,
     &:hover {
-      background-color: $ouif-primaryButtonBackgroundHovered;
-      color: $ouif-primaryButtonBackground;
+      // background-color: $ouif-primaryButtonBackgroundHovered;
+      @include themeSlot(primaryButtonBackground, background);
+      // color: $ouif-primaryButtonBackground;
+      @include themeSlot(primaryButtonText);
 
       svg {
-        fill: $ouif-primaryButtonBackground;
+        // fill: $ouif-primaryButtonBackground;
+        @include themeSlot(primaryButtonBackground, fill)
       }
     }
   }

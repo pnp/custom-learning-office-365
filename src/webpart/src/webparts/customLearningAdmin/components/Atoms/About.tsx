@@ -75,7 +75,7 @@ export default class About extends React.Component<IAboutProps, IAboutState> {
         </div>
       );
     } catch (err) {
-      Logger.write(`${err} - ${this.LOG_SOURCE} (render)`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);
       return null;
     }
   }

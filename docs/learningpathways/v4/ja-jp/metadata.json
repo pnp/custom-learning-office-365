@@ -114,7 +114,7 @@
     },
     {
       "Id": "3edeb182-3828-4a83-aef9-928a2693e288",
-      "Name": "iOS および Android 用の Outlook",
+      "Name": "iOS 版および Android 版 Outlook",
       "Subjects": []
     },
     {
@@ -124,14 +124,19 @@
     },
     {
       "Id": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
-      "Name": "Web 用 Office",
+      "Name": "Webアプリ上の Office",
+      "Subjects": []
+    },
+    {
+      "Id": "016a561b-1c7a-4528-b0b7-96fcb556a1e1",
+      "Name": "リスト",
       "Subjects": []
     }
   ],
   "Categories": [
     {
       "Id": "646b4eb4-32c0-4fdc-93fa-0ef895470b74",
-      "Name": "概要",
+      "Name": "作業の開始",
       "Image": "",
       "TechnologyId": "",
       "SubjectId": "",
@@ -187,6 +192,15 @@
           "Id": "51a0828d-1d27-4931-b547-9f2a698f33d8",
           "Name": "セキュリティ",
           "Image": "images/categories/LP-security-subcategory.png",
+          "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
+          "Name": "ハイブリッド ワークプレイス",
+          "Image": "images/categories/hybridwork.png",
           "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
           "SubjectId": null,
           "Source": "Microsoft",
@@ -339,9 +353,18 @@
         },
         {
           "Id": "002ce882-04af-491f-9798-71c857606532",
-          "Name": "Web 用 Office",
+          "Name": "Webアプリ上の Office",
           "Image": "images/categories/office_for_web.png",
           "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "4b40845d-fe5f-428f-8970-58455e5bf262",
+          "Name": "リスト",
+          "Image": "images/categories/lists_cat.png",
+          "TechnologyId": "016a561b-1c7a-4528-b0b7-96fcb556a1e1",
           "SubjectId": null,
           "Source": "Microsoft",
           "SubCategories": []
@@ -445,7 +468,7 @@
     },
     {
       "Id": "fbc841eb-1082-4c27-b13b-f7965947cb16",
-      "Name": "詳細設定"
+      "Name": "詳細情報"
     }
   ],
   "StatusTag": [
@@ -469,5 +492,19 @@
       "Id": "42be48f6-1f82-4fda-a757-add2499677d9",
       "Name": "ベータ版"
     }
+  ],
+  "Telemetry": {
+    "AppInsightKey": "9a46dc18-dca7-4f9c-aaf7-1af9ad28fdda"
+  },
+  "Version": {
+    "Manifest": "v3",
+    "ManifestMinWebPart": "3.0.0",
+    "CurrentWebPart": "4.1.0",
+    "RepoURL": "https://github.com/pnp/custom-learning-office-365#updating-the-solution"
+  },
+  "ContentPacks": [],
+  "AssetOrigins": [
+    "https://support.office.com",
+    "https://docs.microsoft.com"
   ]
 }

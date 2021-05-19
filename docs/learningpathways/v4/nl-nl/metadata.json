@@ -119,12 +119,17 @@
     },
     {
       "Id": "9c18d262-89c5-499b-be11-be58279c86bd",
-      "Name": "Access",
+      "Name": "Toegang",
       "Subjects": []
     },
     {
       "Id": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
       "Name": "Webversie van Office",
+      "Subjects": []
+    },
+    {
+      "Id": "016a561b-1c7a-4528-b0b7-96fcb556a1e1",
+      "Name": "Lijsten",
       "Subjects": []
     }
   ],
@@ -187,6 +192,15 @@
           "Id": "51a0828d-1d27-4931-b547-9f2a698f33d8",
           "Name": "Beveiliging",
           "Image": "images/categories/LP-security-subcategory.png",
+          "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
+          "Name": "Hybride werkplek",
+          "Image": "images/categories/hybridwork.png",
           "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
           "SubjectId": null,
           "Source": "Microsoft",
@@ -330,7 +344,7 @@
         },
         {
           "Id": "175c2d96-040d-4275-9405-b4549bd63dee",
-          "Name": "Access",
+          "Name": "Toegang",
           "Image": "images/categories/access.png",
           "TechnologyId": "",
           "SubjectId": null,
@@ -342,6 +356,15 @@
           "Name": "Webversie van Office",
           "Image": "images/categories/office_for_web.png",
           "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "4b40845d-fe5f-428f-8970-58455e5bf262",
+          "Name": "Lijsten",
+          "Image": "images/categories/lists_cat.png",
+          "TechnologyId": "016a561b-1c7a-4528-b0b7-96fcb556a1e1",
           "SubjectId": null,
           "Source": "Microsoft",
           "SubCategories": []
@@ -424,7 +447,7 @@
     },
     {
       "Id": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-      "Name": "Iedereen"
+      "Name": "Alle"
     }
   ],
   "Sources": [
@@ -469,5 +492,19 @@
       "Id": "42be48f6-1f82-4fda-a757-add2499677d9",
       "Name": "Bèta"
     }
+  ],
+  "Telemetry": {
+    "AppInsightKey": "9a46dc18-dca7-4f9c-aaf7-1af9ad28fdda"
+  },
+  "Version": {
+    "Manifest": "v3",
+    "ManifestMinWebPart": "3.0.0",
+    "CurrentWebPart": "4.1.0",
+    "RepoURL": "https://github.com/pnp/custom-learning-office-365#updating-the-solution"
+  },
+  "ContentPacks": [],
+  "AssetOrigins": [
+    "https://support.office.com",
+    "https://docs.microsoft.com"
   ]
 }
