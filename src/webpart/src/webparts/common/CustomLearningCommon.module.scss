@@ -26,7 +26,7 @@ $susy: ("svg-grid-colors": hsl(180, 50%, 80%),
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding-bottom: 100px;
   @include themeSlot(bodyText);
-      
+
 
   :global {
     @import "../../../../styleguide/app/styles/main.spfx";
@@ -170,6 +170,15 @@ $susy: ("svg-grid-colors": hsl(180, 50%, 80%),
           column-count: 1;
           align-self: stretch;
         }
+      }
+    }
+
+    .plov-desc {
+      .truncateToggle {
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        padding-left: 10px;
       }
     }
   }

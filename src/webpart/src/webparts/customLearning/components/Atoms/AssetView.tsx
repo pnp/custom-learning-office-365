@@ -58,6 +58,8 @@ export default class AssetView extends React.Component<IAssetViewProps, IAssetVi
         let iFrameCont = (document.getElementsByClassName(styles.outerframe))[0] as HTMLElement;
         if (iFrameCont)
           iFrameCont.style.height = "0px";
+        //Scroll to top
+        window.scrollTo(0, 0);
       }
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (shouldComponentUpdate) - ${err}`, LogLevel.Error);
