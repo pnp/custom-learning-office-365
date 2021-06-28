@@ -11,217 +11,246 @@ $susy: ("svg-grid-colors": hsl(180, 50%, 80%),
   "spread": "wide",
 );
 
-.loadingShimmer {
-  margin-left: 16px;
+.loadingShimmer{
+	margin-left: 16px;
 
-  &.appPartPage {
-    box-sizing: border-box;
-    max-width: 1268px;
-    margin: 0 auto;
-    padding: 0 1em;
-  }
+	&.appPartPage{
+		box-sizing: border-box;
+		max-width: 1268px;
+		margin: 0 auto;
+		padding: 0 1em;
+	}
 }
 
-.customLearning {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding-bottom: 100px;
-  @include themeSlot(bodyText);
+.customLearning{
+	@include themeSlot(bodyText);
+
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+	padding-bottom: 100px;
 
 
-  :global {
-    @import "../../../../styleguide/app/styles/main.spfx";
+	:global{
+		@import "../../../../styleguide/app/styles/main.spfx";
 
-    .ms-SearchBox {
-      background-color: $c-background;
-    }
-  }
+		.ms-SearchBox{
+			background-color: $c-background;
+		}
+	}
 
-  // h2 {
-  //   // color: $ouif-bodyText;
-  // }
+	// h2 {
+	//   // color: $ouif-bodyText;
+	// }
 
-  .info {
-    color: #107c10;
-  }
+	.info{
+		color: #107c10;
+	}
 
-  .error {
-    color: #a80000;
-  }
+	.error{
+		color: #a80000;
+	}
 
-  .title {
-    margin: 0;
-    padding-left: 10px;
-  }
+	.title{
+		margin: 0;
+		padding-left: 10px;
+	}
 
-  &.appPartPage {
-    box-sizing: border-box;
-    max-width: 1268px;
-    margin: 0 auto 100px;
-    padding: 0 1em;
+	&.appPartPage{
+		box-sizing: border-box;
+		max-width: 1268px;
+		margin: 0 auto 100px;
+		padding: 0 1em;
 
-    :global {
-      .category-item {
-        width: calc(#{span(2 narrow)} - .1px);
+		:global{
+			.category-item{
+				width: calc(#{span(2 narrow)} - .1px);
 
-        &:nth-child(6n+1) {
-          margin-left: 0;
+				&:nth-child(6n+1){
+					margin-left: 0;
+				}
+
+				@media screen and (min-width: 1024px){
+				}
+			}
+		}
+	}
+
+	.spouterframe{
+		position: relative;
+
+		display: flex;
+
+		height: 6000px;
+		min-height: 100vh;
+	}
+
+	.outerframe{
+		@extend .spouterframe;
+
+		min-height: auto;
+		padding: 0;
+	}
+
+	.innerframe{
+		position: absolute;
+		top: 0;
+		left: 0;
+
+		width: 100%;
+		height: 100%;
+	}
+
+	.semiBold{
+		font-weight: 600;
+	}
+
+	.buttonMargin{
+		margin-top: 20px;
+		margin-right: 20px;
+	}
+
+	.primaryButton,
+	.primaryButton:hover{
+		white-space: nowrap;
+
+		color: $ouif-primaryButtonText;
+		border-color: $ouif-primaryButtonBackground;
+		background-color: $ouif-primaryButtonBackground;
+
+		svg{
+			fill: $ouif-primaryButtonText;
+		}
+	}
+
+	:global{
+		.transparentButton{
+			background-color: transparent;
+		}
+
+
+		.buttonRight{
+			cursor: pointer;
+			text-align: right;
+		}
+
+		.adm-content-playlist{
+			display: block;
+
+			box-sizing: border-box;
+
+			li{
+				display: inline-block;
+
+				box-sizing: border-box;
+				width: 100%;
+
+				break-inside: avoid-column;
+			}
+		}
+
+		.pl-edit-item{
+			box-sizing: border-box;
+
+			background-color: transparent;
+
+			&:hover{
+				color: $ouif-primaryButtonBackground;
+				background-color: transparent;
+
+				.pl-edit-actions{
+					.iconbutton{
+						background-color: transparent;
+					}
+				}
+			}
+		}
+
+		.adm-header-edit{
+			color: #000;
+
+			@media screen and (max-width: 1024px){
+				.plov{
+					align-self: stretch;
+					column-count: 1;
+				}
+			}
+		}
+
+		.plov-desc{
+			.truncateToggle{
+				display: flex;
+
+				width: 100%;
+				height: 1em;
+				padding-left: 10px;
+
+        // remove
+				border-top: 1px var(--neutralTertiary) solid;
+
+        &.expanded{
+          border-bottom: 1px var(--neutralTertiary) solid;
+        }
+        &.notExpanded{
+          border-top: 1px var(--neutralTertiary) solid;
         }
 
-        @media screen and (min-width: 1024px) {}
-      }
-    }
-  }
+				align-items: top;
+				justify-content: center;
+        margin-top: 0.75rem;
 
-  .spouterframe {
-    position: relative;
+				svg{
+          margin-top: -0.5rem;
+					max-width: 16px;
 
-    display: flex;
+					fill: var(--bodyText);
+				}
+			}
+		}
+	}
 
-    min-height: 100vh;
-    height: 6000px;
-  }
+	:global{
+		.pagination-button{
+			// color: $ouif-primaryButtonTextHovered;
+			@include themeSlot(primaryButtonTextHovered);
+			// border-color: $ouif-primaryButtonBackground;
+			@include themeSlot(primaryButtonBackground, border);
+			// background-color: $ouif-primaryButtonBackground;
+			@include themeSlot(primaryButtonBackground, background);
 
-  .outerframe {
-    @extend .spouterframe;
+			font-size: 14px;
+			line-height: 1.5em;
 
-    min-height: auto;
-    padding: 0;
-  }
+			border: 1px solid;
 
-  .innerframe {
-    position: absolute;
-    top: 0;
-    left: 0;
+			&.selected,
+			&.selected:active{
+				// color: $ouif-primaryButtonBackground;
+				@include themeSlot(primaryButtonText);
+				// border-color: $ouif-primaryButtonBackground;
+				@include themeSlot(primaryButtonBackground, border);
+				// background-color: $ouif-primaryButtonTextHovered;
+				@include themeSlot(primaryButtonBackTextHovered, background);
 
-    width: 100%;
-    height: 100%;
-  }
+				border: 1px solid;
+			}
 
-  .semiBold {
-    font-weight: 600;
-  }
+			&:hover{
+				@include themeSlot(primaryButtonTextHovered);
+				@include themeSlot(primaryButtonBackgroundHovered);
 
-  .buttonMargin {
-    margin-top: 20px;
-    margin-right: 20px;
-  }
+				color: $ouif-primaryButtonTextHovered;
+				background-color: $ouif-primaryButtonBackgroundHovered;
+			}
 
-  .primaryButton,
-  .primaryButton:hover {
-    color: $ouif-primaryButtonText;
-    border-color: $ouif-primaryButtonBackground;
-    background-color: $ouif-primaryButtonBackground;
-    white-space: nowrap;
+			&:active{
+				@include themeSlot(primaryButtonBackground);
+				@include themeSlot(primaryButtonTextHovered);
 
-    svg {
-      fill: $ouif-primaryButtonText;
-    }
-  }
-
-  :global {
-
-    .transparentButton {
-      background-color: transparent;
-    }
-
-
-    .buttonRight {
-      text-align: right;
-      cursor: pointer;
-    }
-
-    .adm-content-playlist {
-      display: block;
-
-      box-sizing: border-box;
-
-      li {
-        display: inline-block;
-
-        box-sizing: border-box;
-        width: 100%;
-
-        break-inside: avoid-column;
-      }
-    }
-
-    .pl-edit-item {
-      box-sizing: border-box;
-
-      background-color: transparent;
-
-      &:hover {
-        color: $ouif-primaryButtonBackground;
-        background-color: transparent;
-
-        .pl-edit-actions {
-          .iconbutton {
-            background-color: transparent;
-          }
-        }
-      }
-    }
-
-    .adm-header-edit {
-      color: #000;
-
-      @media screen and (max-width: 1024px) {
-        .plov {
-          column-count: 1;
-          align-self: stretch;
-        }
-      }
-    }
-
-    .plov-desc {
-      .truncateToggle {
-        display: inline-block;
-        width: 1em;
-        height: 1em;
-        padding-left: 10px;
-      }
-    }
-  }
-
-  :global {
-    .pagination-button {
-      font-size: 14px;
-      line-height: 1.5em;
-
-      // color: $ouif-primaryButtonTextHovered;
-      @include themeSlot(primaryButtonTextHovered);
-      border: 1px solid;
-      // border-color: $ouif-primaryButtonBackground;
-      @include themeSlot(primaryButtonBackground, border);
-      // background-color: $ouif-primaryButtonBackground;
-      @include themeSlot(primaryButtonBackground, background);
-
-      &.selected,
-      &.selected:active {
-        // color: $ouif-primaryButtonBackground;
-        @include themeSlot(primaryButtonText);
-        border: 1px solid;
-        // border-color: $ouif-primaryButtonBackground;
-        @include themeSlot(primaryButtonBackground, border);
-        // background-color: $ouif-primaryButtonTextHovered;
-        @include themeSlot(primaryButtonBackTextHovered, background);
-      }
-
-      &:hover {
-        color: $ouif-primaryButtonTextHovered;
-        @include themeSlot(primaryButtonTextHovered);
-        background-color: $ouif-primaryButtonBackgroundHovered;
-        @include themeSlot(primaryButtonBackgroundHovered);
-      }
-
-      &:active {
-        color: $ouif-primaryButtonBackground;
-        @include themeSlot(primaryButtonBackground);
-        background-color: $ouif-primaryButtonTextHovered;
-        @include themeSlot(primaryButtonTextHovered);
-      }
-    }
-  }
+				color: $ouif-primaryButtonBackground;
+				background-color: $ouif-primaryButtonTextHovered;
+			}
+		}
+	}
 }
 
 // RWD SharePoint optimization
