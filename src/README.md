@@ -10,8 +10,8 @@ This solution contains two web parts that when used together provide a client si
 
 ## Applies to
 
-* [SharePoint Framework](https://dev.office.com/sharepoint)
-* [Office 365 tenant](https://dev.office.com/sharepoint/docs/spfx/set-up-your-development-environment)
+* [SharePoint Framework](https://docs.microsoft.com/sharepoint/dev/spfx/sharepoint-framework-overview)
+* [Office 365 tenant](https://docs.microsoft.com/sharepoint/dev/spfx/set-up-your-development-environment)
 
 ## Prerequisites
 
@@ -26,6 +26,7 @@ There are various settings that are required, please review the manual installat
 ### Tooling
 
 Node.js version 10.x is required to build this project.
+[PnP PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps) is required to run DeveloperSetup.ps1
 
 ## Known Issues
 
