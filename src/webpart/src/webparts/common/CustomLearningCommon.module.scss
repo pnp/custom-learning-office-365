@@ -6,15 +6,15 @@
 // import theme colors specific to all controls
 @import "theme-colors";
 $susy: ("svg-grid-colors": hsl(180, 50%, 80%),
-  "columns": susy-repeat(12),
-  "gutters": 32px,
-  "spread": "wide",
+	"columns": susy-repeat(12),
+	"gutters": 32px,
+	"spread": "wide",
 );
 
-.loadingShimmer{
+.loadingShimmer {
 	margin-left: 16px;
 
-	&.appPartPage{
+	&.appPartPage {
 		box-sizing: border-box;
 		max-width: 1268px;
 		margin: 0 auto;
@@ -22,7 +22,7 @@ $susy: ("svg-grid-colors": hsl(180, 50%, 80%),
 	}
 }
 
-.customLearning{
+.customLearning {
 	@include themeSlot(bodyText);
 
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -30,10 +30,10 @@ $susy: ("svg-grid-colors": hsl(180, 50%, 80%),
 	padding-bottom: 100px;
 
 
-	:global{
+	:global {
 		@import "../../../../styleguide/app/styles/main.spfx";
 
-		.ms-SearchBox{
+		.ms-SearchBox {
 			background-color: $c-background;
 		}
 	}
@@ -42,40 +42,39 @@ $susy: ("svg-grid-colors": hsl(180, 50%, 80%),
 	//   // color: $ouif-bodyText;
 	// }
 
-	.info{
+	.info {
 		color: #107c10;
 	}
 
-	.error{
+	.error {
 		color: #a80000;
 	}
 
-	.title{
+	.title {
 		margin: 0;
 		padding-left: 10px;
 	}
 
-	&.appPartPage{
+	&.appPartPage {
 		box-sizing: border-box;
 		max-width: 1268px;
 		margin: 0 auto 100px;
 		padding: 0 1em;
 
-		:global{
-			.category-item{
+		:global {
+			.category-item {
 				width: calc(#{span(2 narrow)} - .1px);
 
-				&:nth-child(6n+1){
+				&:nth-child(6n+1) {
 					margin-left: 0;
 				}
 
-				@media screen and (min-width: 1024px){
-				}
+				@media screen and (min-width: 1024px) {}
 			}
 		}
 	}
 
-	.spouterframe{
+	.spouterframe {
 		position: relative;
 
 		display: flex;
@@ -84,14 +83,14 @@ $susy: ("svg-grid-colors": hsl(180, 50%, 80%),
 		min-height: 100vh;
 	}
 
-	.outerframe{
+	.outerframe {
 		@extend .spouterframe;
 
 		min-height: auto;
 		padding: 0;
 	}
 
-	.innerframe{
+	.innerframe {
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -100,45 +99,45 @@ $susy: ("svg-grid-colors": hsl(180, 50%, 80%),
 		height: 100%;
 	}
 
-	.semiBold{
+	.semiBold {
 		font-weight: 600;
 	}
 
-	.buttonMargin{
+	.buttonMargin {
 		margin-top: 20px;
 		margin-right: 20px;
 	}
 
 	.primaryButton,
-	.primaryButton:hover{
+	.primaryButton:hover {
 		white-space: nowrap;
 
 		color: $ouif-primaryButtonText;
 		border-color: $ouif-primaryButtonBackground;
 		background-color: $ouif-primaryButtonBackground;
 
-		svg{
+		svg {
 			fill: $ouif-primaryButtonText;
 		}
 	}
 
-	:global{
-		.transparentButton{
+	:global {
+		.transparentButton {
 			background-color: transparent;
 		}
 
 
-		.buttonRight{
+		.buttonRight {
 			cursor: pointer;
 			text-align: right;
 		}
 
-		.adm-content-playlist{
+		.adm-content-playlist {
 			display: block;
 
 			box-sizing: border-box;
 
-			li{
+			li {
 				display: inline-block;
 
 				box-sizing: border-box;
@@ -148,68 +147,72 @@ $susy: ("svg-grid-colors": hsl(180, 50%, 80%),
 			}
 		}
 
-		.pl-edit-item{
+		.pl-edit-item {
 			box-sizing: border-box;
 
 			background-color: transparent;
 
-			&:hover{
+			&:hover {
 				color: $ouif-primaryButtonBackground;
 				background-color: transparent;
 
-				.pl-edit-actions{
-					.iconbutton{
+				.pl-edit-actions {
+					.iconbutton {
 						background-color: transparent;
 					}
 				}
 			}
 		}
 
-		.adm-header-edit{
+		.adm-header-edit {
 			color: #000;
 
-			@media screen and (max-width: 1024px){
-				.plov{
+			@media screen and (max-width: 1024px) {
+				.plov {
 					align-self: stretch;
 					column-count: 1;
 				}
 			}
 		}
 
-		.plov-desc{
-			.truncateToggle{
+		.plov-desc {
+			.truncateToggle {
 				display: flex;
 
 				width: 100%;
 				height: 1em;
 				padding-left: 10px;
 
-        // remove
-				border-top: 1px var(--neutralTertiary) solid;
-
-        &.expanded{
-          border-bottom: 1px var(--neutralTertiary) solid;
-        }
-        &.notExpanded{
-          border-top: 1px var(--neutralTertiary) solid;
-        }
-
-				align-items: top;
-				justify-content: center;
-        margin-top: 0.75rem;
-
-				svg{
-          margin-top: -0.5rem;
-					max-width: 16px;
+				svg {
+					margin-top: -0.5rem;
+					width: 1rem;
 
 					fill: var(--bodyText);
 				}
+				
+				&.expanded {
+					border-bottom: 1px var(--neutralTertiary) solid;
+					svg{
+						margin-top: 0rem;
+						margin-bottom: -0.5rem;
+					}
+				}
+
+				&.notExpanded {
+					border-top: 1px var(--neutralTertiary) solid;
+				}
+
+				align-items: top;
+				justify-content: center;
+				margin-top: 0.75rem;
+
+
 			}
 		}
 	}
 
-	:global{
-		.pagination-button{
+	:global {
+		.pagination-button {
 			// color: $ouif-primaryButtonTextHovered;
 			@include themeSlot(primaryButtonTextHovered);
 			// border-color: $ouif-primaryButtonBackground;
@@ -223,7 +226,7 @@ $susy: ("svg-grid-colors": hsl(180, 50%, 80%),
 			border: 1px solid;
 
 			&.selected,
-			&.selected:active{
+			&.selected:active {
 				// color: $ouif-primaryButtonBackground;
 				@include themeSlot(primaryButtonText);
 				// border-color: $ouif-primaryButtonBackground;
@@ -234,7 +237,7 @@ $susy: ("svg-grid-colors": hsl(180, 50%, 80%),
 				border: 1px solid;
 			}
 
-			&:hover{
+			&:hover {
 				@include themeSlot(primaryButtonTextHovered);
 				@include themeSlot(primaryButtonBackgroundHovered);
 
@@ -242,7 +245,7 @@ $susy: ("svg-grid-colors": hsl(180, 50%, 80%),
 				background-color: $ouif-primaryButtonBackgroundHovered;
 			}
 
-			&:active{
+			&:active {
 				@include themeSlot(primaryButtonBackground);
 				@include themeSlot(primaryButtonTextHovered);
 
