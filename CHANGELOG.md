@@ -1,5 +1,12 @@
 # Change Log
 
+## Version 4.3
+
+- Added support for longer descriptions in playlists.
+- Fixed bug with changing themes requiring a page refresh.
+- Optimized image rendering to support 16:9 aspect ratio
+- Update web part to SPFx 1.12.1
+
 ## Content Update 2021/May
 
 Please see details of content update in the following location: [Microsoft 365 Learning Pathways Content Updates](https://docs.microsoft.com/en-us/office365/customlearning/custom_contentupdates)

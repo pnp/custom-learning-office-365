@@ -1,11 +1,12 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 import isEqual from "lodash/isEqual";
-import Dotdotdot from "react-dotdotdot";
+import Truncate from 'react-truncate';
 
 import { IMetadataEntry } from "../../../common/models/Models";
 import * as strings from "M365LPStrings";
 import { Icon } from "office-ui-fabric-react";
+import { ButtonTypes } from "../../../common/models/Enums";
 
 export interface ISubCategoryItemProps {
   index: number;
@@ -23,12 +24,16 @@ export interface ISubCategoryItemProps {
 export interface ISubCategoryItemState {
   mediaSize: number;
   clamp: number;
+  expanded: boolean;
+  truncated: boolean;
 }
 
 export class SubCategoryItemState implements ISubCategoryItemState {
   constructor(
     public mediaSize: number = 1024,
-    public clamp: number = 4
+    public clamp: number = 4,
+    public expanded: boolean = false,
+    public truncated: boolean = false
   ) { }
 }
 
@@ -87,6 +92,23 @@ export default class SubCategoryItem extends React.Component<ISubCategoryItemPro
     return true;
   }
 
+  private _handleTruncate = (truncated) => {
+    if (this.state.truncated !== truncated) {
+      this.setState({
+        truncated
+      });
+    }
+  }
+
+  private _toggleLines = (event: React.MouseEvent<HTMLSpanElement, MouseEvent>) => {
+    event.preventDefault();
+    event.stopPropagation();
+
+    this.setState({
+      expanded: !this.state.expanded
+    });
+  }
+
   public render(): React.ReactElement<ISubCategoryItemProps> {
     try {
       return (
@@ -102,12 +124,23 @@ export default class SubCategoryItem extends React.Component<ISubCategoryItemPro
           data-index={this.props.index}
         >
           <div className="plov-img">
-            <img src={this.props.imageSource} width="278px" height="200px" loading="lazy" />
+            <img src={this.props.imageSource} width="320" height="180" loading="lazy" />
           </div>
           <div className="plov-desc">
             <h3 className="plov-title">{this.props.title}</h3>
-            <p className="plov-short">
-              <Dotdotdot clamp={this.state.clamp} tagName="span" useNativeClamp={true}>{this.props.description}</Dotdotdot>
+            <p>
+              <Truncate
+                lines={!this.state.expanded && this.state.clamp}
+                ellipsis={(
+                  <span className="truncateToggle notExpanded" onClick={this._toggleLines} aria-hidden="true" dangerouslySetInnerHTML={{ "__html": ButtonTypes.ArrowDown.SVG }} ></span>
+                )}
+                onTruncate={this._handleTruncate}
+              >
+                {this.props.description}
+              </Truncate>
+              {!this.state.truncated && this.state.expanded && (
+                <span className="truncateToggle expanded" onClick={this._toggleLines} aria-hidden="true" dangerouslySetInnerHTML={{ "__html": ButtonTypes.ArrowUp.SVG }} ></span>
+              )}
             </p>
             <div className="plov-audience">{(this.props.audience.Name.length > 0) ? this.props.audience.Name : strings.FilterNotSet}</div>
           </div>

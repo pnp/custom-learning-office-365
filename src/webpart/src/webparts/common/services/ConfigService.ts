@@ -145,7 +145,7 @@ export class ConfigService implements IConfigService {
       retVal.push(targetGroupId);
       retVal.push(roleDefinitionId);
     } catch (err) {
-      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (validateAssets) - ${err}`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getRoleInformation) - ${err}`, LogLevel.Error);
     }
     return retVal;
   }

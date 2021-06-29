@@ -58,7 +58,9 @@ export interface ICustomLearningWebPartProps {
 
 import {
   ThemeProvider,
-  IReadonlyTheme
+  IReadonlyTheme,
+  ThemeChangedEventArgs,
+  ISemanticColors
 } from '@microsoft/sp-component-base';
 
 
@@ -114,6 +116,9 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
       // we set transfer semanticColors into CSS variables
       this.setCSSVariables(window["__themeState__"].theme);
     }
+
+    // Handle theme changes
+    this._themeProvider.themeChangedEvent.add(this, this._handleThemeChangedEvent);
 
     try {
       //Initialize PnPLogger
@@ -176,6 +181,17 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
     }
   }
 
+
+  private _handleThemeChangedEvent(args: ThemeChangedEventArgs): void {
+
+    this._themeVariant = args.theme;
+
+    this.setCSSVariables(this._themeVariant.semanticColors);
+    this.setCSSVariables(this._themeVariant.palette);
+    this.setCSSVariables(this._themeVariant["effects"]);
+
+  }
+  
   private async firstInit(): Promise<void> {
     try {
       let currentCdn = this._urlCDN;
