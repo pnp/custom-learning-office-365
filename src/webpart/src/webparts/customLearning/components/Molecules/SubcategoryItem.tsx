@@ -132,14 +132,14 @@ export default class SubCategoryItem extends React.Component<ISubCategoryItemPro
               <Truncate
                 lines={!this.state.expanded && this.state.clamp}
                 ellipsis={(
-                  <span className="truncateToggle" onClick={this._toggleLines} aria-hidden="true" dangerouslySetInnerHTML={{ "__html": ButtonTypes.ArrowDown.SVG }} ></span>
+                  <span className="truncateToggle notExpanded" onClick={this._toggleLines} aria-hidden="true" dangerouslySetInnerHTML={{ "__html": ButtonTypes.ArrowDown.SVG }} ></span>
                 )}
                 onTruncate={this._handleTruncate}
               >
                 {this.props.description}
               </Truncate>
               {!this.state.truncated && this.state.expanded && (
-                <span className="truncateToggle" onClick={this._toggleLines} aria-hidden="true" dangerouslySetInnerHTML={{ "__html": ButtonTypes.ArrowUp.SVG }} ></span>
+                <span className="truncateToggle expanded" onClick={this._toggleLines} aria-hidden="true" dangerouslySetInnerHTML={{ "__html": ButtonTypes.ArrowUp.SVG }} ></span>
               )}
             </p>
             <div className="plov-audience">{(this.props.audience.Name.length > 0) ? this.props.audience.Name : strings.FilterNotSet}</div>
