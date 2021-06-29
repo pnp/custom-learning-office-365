@@ -6,7 +6,7 @@ This solution contains two web parts that when used together provide a client si
 
 ## Used SharePoint Framework Version
 
-![drop](https://img.shields.io/badge/drop-1.11-green.svg)
+![drop](https://img.shields.io/badge/drop-1.12.1-green.svg)
 
 ## Applies to
 
@@ -39,9 +39,7 @@ Microsoft 365 learning pathways | Julie Turner (Sympraxis Consulting) - [@jfj199
 
 ## Version history
 
-Version|Date|Comments
--------|----|--------
-4.1.13|Dec 17, 2020|Initial open source release. Please see [CHANGELOG](src/CHANGELOG.md) for details.
+Please see [CHANGELOG](src/CHANGELOG.md) for details.
 
 ## Disclaimer
 

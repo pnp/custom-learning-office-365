@@ -5,6 +5,7 @@
 - Added support for longer descriptions in playlists.
 - Fixed bug with changing themes requiring a page refresh.
 - Optimized image rendering to support 16:9 aspect ratio
+- Update web part to SPFx 1.12.1
 
 ## Version 4.2
 
