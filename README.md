@@ -82,7 +82,7 @@ Finally, in your main custom learning site, navigate to the Site Pages library a
 
 We encourage you to install the Microsoft 365 learning pathways solution using the [SharePoint look book](https://lookbook.microsoft.com/), however we recognize that the permissions that service require are significant and not all organizations will feel comfortable utilizing it. To that end this section outlines a manual method of installing the solution. After complete, updates can be applied by following the section above for [Updating the solution](#Updating-the-solution).
 
-### Sharepoint Framework Version
+### SharePoint Framework Version
 
 ![drop](https://img.shields.io/badge/drop-1.12.1-green.svg)
 
