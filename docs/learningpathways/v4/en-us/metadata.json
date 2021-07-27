@@ -397,53 +397,6 @@
       ]
     },
     {
-      "Id": "6c3fb610-2c8e-4e90-88f5-b20d27894a95",
-      "Name": "Other Training",
-      "Image": "",
-      "TechnologyId": "",
-      "SubjectId": "",
-      "Source": "Custom",
-      "SubCategories": [
-        {
-          "Id": "c233bc38-4907-48a2-9c1f-6b82e0ac9253",
-          "Name": "New Hire Onboarding",
-          "Image": "images/categories/recommended.png",
-          "TechnologyId": "",
-          "SubjectId": "",
-          "Source": "Custom",
-          "SubCategories": []
-        }
-      ]
-    },
-    {
-      "Id": "4307412b-a65b-4f87-b3d1-873755419eed",
-      "Name": "Dynamics 365",
-      "Image": "",
-      "TechnologyId": "",
-      "SubjectId": "",
-      "Source": "Custom",
-      "SubCategories": [
-        {
-          "Id": "21711057-1278-4cc7-a3e9-60f1964f5303",
-          "Name": "D365 for Field Service",
-          "Image": "images/categories/modern_workplace_trainingx.png",
-          "TechnologyId": "",
-          "SubjectId": "",
-          "Source": "Microsoft",
-          "SubCategories": []
-        },
-        {
-          "Id": "d4e7e073-d866-45a5-adb5-0e0755f666f9",
-          "Name": "D365 for Finance and Operations",
-          "Image": "images/categories/work_remotely.png",
-          "TechnologyId": "",
-          "SubjectId": "",
-          "Source": "Microsoft",
-          "SubCategories": []
-        }
-      ]
-    },
-    {
       "Id": "cf28bc20-ee23-4453-954e-43cc43af67b6",
       "Name": "Adoption Tools",
       "Image": "",
