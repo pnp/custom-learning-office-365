@@ -1,3 +1,163 @@
+{
+  "Technologies": [
+    {
+      "Id": "016a561b-1c7a-4528-b0b7-96fcb556a1e1",
+      "Name": "Lists",
+      "Subjects": []
+    },
+    {
+      "Id": "054bac6f-2670-4cd1-8b38-087ff82754a2",
+      "Name": "Accessibility",
+      "Subjects": []
+    },
+    {
+      "Id": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+      "Name": "Office 365",
+      "Subjects": []
+    },
+    {
+      "Id": "0eb89b8a-87cf-4388-b146-1e073588b029",
+      "Name": "Word",
+      "Subjects": []
+    },
+    {
+      "Id": "2f571b54-44fa-4778-9277-c7935e36ffb3",
+      "Name": "Planner",
+      "Subjects": []
+    },
+    {
+      "Id": "33059862-a87d-4b40-9984-be7c6083cf95",
+      "Name": "Forms",
+      "Subjects": []
+    },
+    {
+      "Id": "3edeb182-3828-4a83-aef9-928a2693e288",
+      "Name": "Outlook for iOS and Android",
+      "Subjects": []
+    },
+    {
+      "Id": "452e503b-bafb-4023-b00d-b6d9b1701596",
+      "Name": "OneDrive",
+      "Subjects": []
+    },
+    {
+      "Id": "4ba51921-475f-481d-8bc3-c9b0f658342c",
+      "Name": "OneNote",
+      "Subjects": []
+    },
+    {
+      "Id": "58847f9a-3144-453e-a10e-bc1c00bc3faa",
+      "Name": "Windows 10",
+      "Subjects": []
+    },
+    {
+      "Id": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
+      "Name": "PowerPoint",
+      "Subjects": []
+    },
+    {
+      "Id": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
+      "Name": "OneDrive for Business",
+      "Subjects": []
+    },
+    {
+      "Id": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
+      "Name": "Office for the web",
+      "Subjects": []
+    },
+    {
+      "Id": "9c18d262-89c5-499b-be11-be58279c86bd",
+      "Name": "Access",
+      "Subjects": []
+    },
+    {
+      "Id": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
+      "Name": "Yammer",
+      "Subjects": []
+    },
+    {
+      "Id": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
+      "Name": "SharePoint",
+      "Subjects": [
+        {
+          "Id": "2324ad0f-5577-408f-b5aa-fad1e5a8f208",
+          "Name": "Site Branding and Customization"
+        },
+        {
+          "Id": "2a5f3071-3cf3-45f0-949a-cafc07af413b",
+          "Name": "Policies"
+        },
+        {
+          "Id": "41128013-96b4-442f-b44f-a30b232a2782",
+          "Name": "Site Management"
+        },
+        {
+          "Id": "839db42f-02e6-4d57-93c2-b061f8075c95",
+          "Name": "Site Sharing"
+        },
+        {
+          "Id": "c0af989f-3c4b-4f6f-ba58-7f2a335cb445",
+          "Name": "Site Creation"
+        },
+        {
+          "Id": "e772e866-7b81-4e5c-bfad-36aa9ee98eaf",
+          "Name": "Site Planning"
+        }
+      ]
+    },
+    {
+      "Id": "c209f64e-0291-437a-9615-17747eab50d0",
+      "Name": "Microsoft Teams",
+      "Subjects": [
+        {
+          "Id": "3bd4b767-148f-4f53-a206-b42e9f3a73cd",
+          "Name": "PSTN Calling"
+        },
+        {
+          "Id": "615f17eb-2c5b-4494-8541-4304435ca306",
+          "Name": "Meetings"
+        }
+      ]
+    },
+    {
+      "Id": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
+      "Name": "Outlook",
+      "Subjects": []
+    },
+    {
+      "Id": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+      "Name": "Excel",
+      "Subjects": []
+    },
+    {
+      "Id": "d984257a-d122-45bb-a04a-a2fcdfe8007e",
+      "Name": "Stream",
+      "Subjects": []
+    },
+    {
+      "Id": "e75b9087-6bb2-417f-a696-e667bea533a7",
+      "Name": "Microsoft 365",
+      "Subjects": [
+        {
+          "Id": "78444c91-e53b-4f0b-8c85-e5cb925c4b7f",
+          "Name": "Office 365"
+        },
+        {
+          "Id": "9cd68cb5-26f5-4a29-952f-3b812fcb7414",
+          "Name": "Windows 10"
+        },
+        {
+          "Id": "f1b531e0-2a62-4007-8858-08bd8be6ecae",
+          "Name": "Microsoft 365"
+        }
+      ]
+    },
+    {
+      "Id": "e9d69805-edb5-43da-8258-5520000bf3a6",
+      "Name": "Sway",
+      "Subjects": []
+    }
+  ],
   "Categories": [
     {
       "Id": "61d973a4-eac0-49ed-8829-357cec212ae6",
