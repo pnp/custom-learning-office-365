@@ -436,26 +436,7 @@
       "TechnologyId": "",
       "SubjectId": "",
       "Source": "Custom",
-      "SubCategories": [
-        {
-          "Id": "ad349210-55b7-46ee-84d0-450eead77b1e",
-          "Name": "D365 for Field Service",
-          "Image": "images/categories/d365-fs-icon.ng",
-          "TechnologyId": "",
-          "SubjectId": "",
-          "Source": "Custom",
-          "SubCategories": []
-        },
-        {
-          "Id": "f10e5da2-77f6-4640-a27c-bf31da728f98",
-          "Name": "D365 for Finance and Operations",
-          "Image": "images/categories/d365-icon.png",
-          "TechnologyId": "",
-          "SubjectId": "",
-          "Source": "Custom",
-          "SubCategories": []
-        }
-      ]
+      "SubCategories": [ ]
     },
     {
       "Id": "d13d5333-7ded-496b-bf54-cc8f2d361b52",
@@ -464,26 +445,7 @@
       "TechnologyId": "",
       "SubjectId": "",
       "Source": "Custom",
-      "SubCategories": [
-        {
-          "Id": "dba1a97e-ddac-440b-b80d-9159b2c874ff",
-          "Name": "New Hire Onboarding",
-          "Image": "images/categories/toolkit.png",
-          "TechnologyId": "",
-          "SubjectId": "",
-          "Source": "Custom",
-          "SubCategories": []
-        },
-		{
-          "Id": "dba1a97e-ddac-440b-b80d-9159b2c874ff",
-          "Name": "Employee Offboarding",
-          "Image": "images/categories/toolkit.png",
-          "TechnologyId": "",
-          "SubjectId": "",
-          "Source": "Custom",
-          "SubCategories": []
-        }		  
-      ]
+      "SubCategories": [ ]
     }
   ],
   "Audiences": [
