@@ -423,6 +423,53 @@
           "SubCategories": []
         }
       ]
+    },
+    {
+      "Id": "22ad5edb-eb2f-4d11-bf5a-4239b5601341",
+      "Name": "D365 Training",
+      "Image": "",
+      "TechnologyId": "",
+      "SubjectId": "",
+      "Source": "Custom",
+      "SubCategories": [
+        {
+          "Id": "ad349210-55b7-46ee-84d0-450eead77b1e",
+          "Name": "Dynamics 365 for Field Service",
+          "Image": "images/categories/toolkit.png",
+          "TechnologyId": "",
+          "SubjectId": "",
+          "Source": "Custom",
+          "SubCategories": []
+        },
+        {
+          "Id": "f10e5da2-77f6-4640-a27c-bf31da728f98",
+          "Name": "Dynamics 365 for Finance and Operations",
+          "Image": "images/categories/set-up-Microsoft-365-learning-pathway.png",
+          "TechnologyId": "",
+          "SubjectId": "",
+          "Source": "Custom",
+          "SubCategories": []
+        }
+      ]
+    },
+    {
+      "Id": "d13d5333-7ded-496b-bf54-cc8f2d361b52",
+      "Name": "Other Training",
+      "Image": "",
+      "TechnologyId": "",
+      "SubjectId": "",
+      "Source": "Custom",
+      "SubCategories": [
+        {
+          "Id": "dba1a97e-ddac-440b-b80d-9159b2c874ff",
+          "Name": "New Hire Onboarding",
+          "Image": "images/categories/toolkit.png",
+          "TechnologyId": "",
+          "SubjectId": "",
+          "Source": "Custom",
+          "SubCategories": []
+        }
+      ]
     }
   ],
   "Audiences": [
