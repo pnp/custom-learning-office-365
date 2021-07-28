@@ -156,11 +156,6 @@
       "Id": "e9d69805-edb5-43da-8258-5520000bf3a6",
       "Name": "Sway",
       "Subjects": []
-    },
-    {
-      "Id": "edac23dac61c47d49a9cf3a19dd1ca11",
-      "Name": "Dynamics 365",
-      "Subjects": []
     }
   ],
   "Categories": [
@@ -428,24 +423,6 @@
           "SubCategories": []
         }
       ]
-    },
-    {
-      "Id": "22ad5edb-eb2f-4d11-bf5a-4239b5601341",
-      "Name": "D365 Training",
-      "Image": "",
-      "TechnologyId": "",
-      "SubjectId": "",
-      "Source": "Custom",
-      "SubCategories": []
-    },
-    {
-      "Id": "d13d5333-7ded-496b-bf54-cc8f2d361b52",
-      "Name": "Other Training",
-      "Image": "",
-      "TechnologyId": "",
-      "SubjectId": "",
-      "Source": "Custom",
-      "SubCategories": []
     }
   ],
   "Audiences": [
