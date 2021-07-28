@@ -436,7 +436,7 @@
       "TechnologyId": "",
       "SubjectId": "",
       "Source": "Custom",
-      "SubCategories": [ ]
+      "SubCategories": []
     },
     {
       "Id": "d13d5333-7ded-496b-bf54-cc8f2d361b52",
@@ -445,7 +445,7 @@
       "TechnologyId": "",
       "SubjectId": "",
       "Source": "Custom",
-      "SubCategories": [ ]
+      "SubCategories": []
     }
   ],
   "Audiences": [
