@@ -160,6 +160,24 @@
   ],
   "Categories": [
     {
+      "Id": "22ad5edb-eb2f-4d11-bf5a-4239b5601341",
+      "Name": "D365 Training",
+      "Image": "",
+      "TechnologyId": "",
+      "SubjectId": "",
+      "Source": "Custom",
+      "SubCategories": []
+    },
+    {
+      "Id": "d13d5333-7ded-496b-bf54-cc8f2d361b52",
+      "Name": "Other Training",
+      "Image": "",
+      "TechnologyId": "",
+      "SubjectId": "",
+      "Source": "Custom",
+      "SubCategories": []
+    },
+    {
       "Id": "646b4eb4-32c0-4fdc-93fa-0ef895470b74",
       "Name": "Get started",
       "Image": "",
@@ -395,24 +413,6 @@
           "SubCategories": []
         }
       ]
-    },
-    {
-      "Id": "22ad5edb-eb2f-4d11-bf5a-4239b5601341",
-      "Name": "D365 Training",
-      "Image": "",
-      "TechnologyId": "",
-      "SubjectId": "",
-      "Source": "Custom",
-      "SubCategories": []
-    },
-    {
-      "Id": "d13d5333-7ded-496b-bf54-cc8f2d361b52",
-      "Name": "Other Training",
-      "Image": "",
-      "TechnologyId": "",
-      "SubjectId": "",
-      "Source": "Custom",
-      "SubCategories": []
     },
     {
       "Id": "cf28bc20-ee23-4453-954e-43cc43af67b6",
