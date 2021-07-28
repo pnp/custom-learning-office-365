@@ -156,6 +156,11 @@
       "Id": "e9d69805-edb5-43da-8258-5520000bf3a6",
       "Name": "Sway",
       "Subjects": []
+    },
+    {
+      "Id": "c6307dcd-cfea-4e78-b1c4-e3d0ab7e9ceb",
+      "Name": "Dynamics 365",
+      "Subjects": []
     }
   ],
   "Categories": [
