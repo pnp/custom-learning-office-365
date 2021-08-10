@@ -160,17 +160,17 @@
   ],
   "Categories": [
     
-     {
-      "Id": "",
-      "Name": "TANIOBIS Test",
+    {
+      "Id": "c11",
+      "Name": "Starten Sie bei TANIOBIS",
       "Image": "",
       "TechnologyId": "",
       "SubjectId": "",
-      "Source": "Microsoft",
+      "Source": "",
       "SubCategories": [
         {
-          "Id": "",
-          "Name": "ersteTage",
+          "Id": "sc11",
+          "Name": "Lernen Sie unsere Applikationen kennen",
           "Image": "images/categories/first_days.png",
           "TechnologyId": "",
           "SubjectId": "",
@@ -178,8 +178,8 @@
           "SubCategories": []
         },
         {
-          "Id": "",
-          "Name": "noch eine",
+          "Id": "sc22",
+          "Name": "SAP",
           "Image": "images/categories/recommended.png",
           "TechnologyId": "",
           "SubjectId": "",
@@ -187,7 +187,8 @@
           "SubCategories": []
         }
       ]
-    }
+    },
+    
     
     {
       "Id": "646b4eb4-32c0-4fdc-93fa-0ef895470b74",
