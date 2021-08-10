@@ -160,7 +160,7 @@
   ],
   "Categories": [
     {
-      "Id": "",
+      "Id": "c11",
       "Name": "Get started at TANIOBIS",
       "Image": "",
       "TechnologyId": "",
@@ -168,8 +168,8 @@
       "Source": "",
       "SubCategories": [
         {
-          "Id": "",
-          "Name": "First days WITH THIS OH MANN",
+          "Id": "sc11",
+          "Name": "Know your Business applications",
           "Image": "images/categories/first_days.png",
           "TechnologyId": "",
           "SubjectId": "",
@@ -177,8 +177,8 @@
           "SubCategories": []
         },
         {
-          "Id": "",
-          "Name": "Recommended PLEASE GO",
+          "Id": "sc22",
+          "Name": "SAP",
           "Image": "images/categories/recommended.png",
           "TechnologyId": "",
           "SubjectId": "",
