@@ -216,7 +216,25 @@
           "Image": "images/categories/customtransformation.png"
         }
       ]
+    }  
+     {
+      "Name": "TANIOBIS Playlist",
+      "Security": "Visitors",
+      "Image": "",
+      "SubCategories": [
+        {
+          "Name": "Erste unterkategory",
+          "Image": "images/categories/first_days.png"
+        },
+        {
+          "Name": "empfohlen",
+          "Image": "images/categories/customrecommended.png"
+        }
+      ]
     }
+    
+    
+    
   ],
   "Audiences": [
     {
