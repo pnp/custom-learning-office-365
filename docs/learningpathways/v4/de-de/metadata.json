@@ -159,6 +159,36 @@
     }
   ],
   "Categories": [
+    
+     {
+      "Id": "",
+      "Name": "TANIOBIS Test",
+      "Image": "",
+      "TechnologyId": "",
+      "SubjectId": "",
+      "Source": "Microsoft",
+      "SubCategories": [
+        {
+          "Id": "",
+          "Name": "ersteTage",
+          "Image": "images/categories/first_days.png",
+          "TechnologyId": "",
+          "SubjectId": "",
+          "Source": "",
+          "SubCategories": []
+        },
+        {
+          "Id": "",
+          "Name": "noch eine",
+          "Image": "images/categories/recommended.png",
+          "TechnologyId": "",
+          "SubjectId": "",
+          "Source": "",
+          "SubCategories": []
+        }
+      ]
+    }
+    
     {
       "Id": "646b4eb4-32c0-4fdc-93fa-0ef895470b74",
       "Name": "Erste Schritte",
