@@ -175,16 +175,7 @@
     },
     {
       "Id": "d13d5333-7ded-496b-bf54-cc8f2d361b52",
-      "Name": "Information Technology",
-      "Image": "",
-      "TechnologyId": "",
-      "SubjectId": "",
-      "Source": "Custom",
-      "SubCategories": []
-    },
-    {
-      "Id": "44592551e1c04b6dadf94639227a9b08",
-      "Name": "Human Resources",
+      "Name": "IT and HR",
       "Image": "",
       "TechnologyId": "",
       "SubjectId": "",
