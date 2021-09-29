@@ -27,7 +27,7 @@
     },
     {
       "Id": "33059862-a87d-4b40-9984-be7c6083cf95",
-      "Name": "Forms",
+      "Name": "Microsoft Forms",
       "Subjects": []
     },
     {
@@ -62,7 +62,7 @@
     },
     {
       "Id": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
-      "Name": "Office na Web",
+      "Name": "Office para a Web",
       "Subjects": []
     },
     {
@@ -81,7 +81,7 @@
       "Subjects": [
         {
           "Id": "2324ad0f-5577-408f-b5aa-fad1e5a8f208",
-          "Name": "Identificação visual e Personalização de sites"
+          "Name": "Personalização e identidade visual do site"
         },
         {
           "Id": "2a5f3071-3cf3-45f0-949a-cafc07af413b",
@@ -89,19 +89,19 @@
         },
         {
           "Id": "41128013-96b4-442f-b44f-a30b232a2782",
-          "Name": "Gerenciamento de sites"
+          "Name": "Gerenciamento de Sites"
         },
         {
           "Id": "839db42f-02e6-4d57-93c2-b061f8075c95",
-          "Name": "Compartilhamento de site"
+          "Name": "Compartilhamento de Sites"
         },
         {
           "Id": "c0af989f-3c4b-4f6f-ba58-7f2a335cb445",
-          "Name": "Criação de site"
+          "Name": "Criação de Site"
         },
         {
           "Id": "e772e866-7b81-4e5c-bfad-36aa9ee98eaf",
-          "Name": "Planejamento de site"
+          "Name": "Planejamento de Site"
         }
       ]
     },
@@ -111,7 +111,7 @@
       "Subjects": [
         {
           "Id": "3bd4b767-148f-4f53-a206-b42e9f3a73cd",
-          "Name": "Chamadas PSTN"
+          "Name": "Chamada PSTN"
         },
         {
           "Id": "615f17eb-2c5b-4494-8541-4304435ca306",
@@ -122,6 +122,11 @@
     {
       "Id": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
       "Name": "Outlook",
+      "Subjects": []
+    },
+    {
+      "Id": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
+      "Name": "Microsoft Edge",
       "Subjects": []
     },
     {
@@ -161,7 +166,7 @@
   "Categories": [
     {
       "Id": "646b4eb4-32c0-4fdc-93fa-0ef895470b74",
-      "Name": "Introdução",
+      "Name": "Começar",
       "Image": "",
       "TechnologyId": "",
       "SubjectId": "",
@@ -227,6 +232,15 @@
           "Name": "Local de trabalho híbrido",
           "Image": "images/categories/hybridwork.png",
           "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "a7f1ca95-e0eb-4715-b846-89fc8d2afa56",
+          "Name": "Colaboração",
+          "Image": "images/categories/customfeatured.png",
+          "TechnologyId": "",
           "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
@@ -324,7 +338,7 @@
         },
         {
           "Id": "beab7761-afae-4987-b8c2-57194fa945b6",
-          "Name": "Básico do Microsoft 365",
+          "Name": "Microsoft 365 Noções básicas",
           "Image": "images/categories/office_basics.png",
           "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
           "SubjectId": "",
@@ -342,7 +356,7 @@
         },
         {
           "Id": "daeade40-9dfc-4d82-84be-9ae7544829dc",
-          "Name": "Forms",
+          "Name": "Microsoft Forms",
           "Image": "images/categories/forms_training.png",
           "TechnologyId": "33059862-a87d-4b40-9984-be7c6083cf95",
           "SubjectId": "",
@@ -362,7 +376,7 @@
           "Id": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
           "Name": "Acessibilidade",
           "Image": "images/categories/accessibility.png",
-          "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
+          "TechnologyId": "",
           "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
@@ -378,7 +392,7 @@
         },
         {
           "Id": "002ce882-04af-491f-9798-71c857606532",
-          "Name": "Office na Web",
+          "Name": "Office para a Web",
           "Image": "images/categories/office_for_web.png",
           "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
           "SubjectId": "",
@@ -390,6 +404,15 @@
           "Name": "Listas",
           "Image": "images/categories/lists_cat.png",
           "TechnologyId": "016a561b-1c7a-4528-b0b7-96fcb556a1e1",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "77a22995-0b6d-488c-9747-dea9a7705711",
+          "Name": "Microsoft Edge",
+          "Image": "images/categories/customfeatured.png",
+          "TechnologyId": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
           "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
@@ -415,7 +438,7 @@
         },
         {
           "Id": "281c0108-6e20-4fc3-9459-ba267857498e",
-          "Name": "Centro de Recursos para o Sucesso do Administrador",
+          "Name": "Centro de Sucesso do Administrador",
           "Image": "images/categories/set-up-Microsoft-365-learning-pathway.png",
           "TechnologyId": "",
           "SubjectId": "",
@@ -428,15 +451,15 @@
   "Audiences": [
     {
       "Id": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-      "Name": "Todos"
+      "Name": "All"
     },
     {
       "Id": "304b216c-ea4d-436c-83f8-93ba1319943b",
-      "Name": "Especialistas/Treinador"
+      "Name": "Campeões/Treinador"
     },
     {
       "Id": "41779dd0-ae42-4a62-8b66-bd87c137f4ac",
-      "Name": "Central de Ajuda"
+      "Name": "HelpDesk"
     },
     {
       "Id": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -444,15 +467,15 @@
     },
     {
       "Id": "97150537-2c2f-42f9-8bc6-73e68fda0d38",
-      "Name": "Gerenciador de Mudanças"
+      "Name": "Gerenciador de Alterações"
     },
     {
       "Id": "9fcd26c3-bcca-4452-a40a-f87e0daed348",
-      "Name": "Administrador"
+      "Name": "Admin"
     },
     {
       "Id": "a8787978-0ee5-4bc6-9c2c-eb11fc47cbfd",
-      "Name": "Proprietário do grupo"
+      "Name": "Proprietário do Grupo"
     },
     {
       "Id": "c92ae45b-8770-48f6-8870-3ec74a310da7",
@@ -460,19 +483,19 @@
     },
     {
       "Id": "d093e0b6-b9f1-4b46-877c-0a49e989ee40",
-      "Name": "Assistente executivo"
+      "Name": "Assistente Executivo"
     },
     {
       "Id": "e22b05b1-e778-4c97-9646-b8933c209772",
-      "Name": "Editor de conteúdo"
+      "Name": "Editor de Conteúdo"
     },
     {
       "Id": "e2fce8e0-2014-4e36-81a5-0723b85958f8",
-      "Name": "Patrocinador do site"
+      "Name": "Patrocinador do Site"
     },
     {
       "Id": "f110eb03-e899-46a9-83be-8f507dae83c1",
-      "Name": "Gerente de Conteúdo"
+      "Name": "Gerenciador de Conteúdo"
     }
   ],
   "Sources": [
@@ -503,15 +526,15 @@
     },
     {
       "Id": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
-      "Name": "Desativado"
+      "Name": "Aposentado"
     },
     {
       "Id": "90fe6290-e063-4778-a8a1-7531c2a0a40e",
-      "Name": "Desativação"
+      "Name": "Reformar"
     },
     {
       "Id": "9d1fab25-ed9c-404e-941b-41e428d18726",
-      "Name": "Atualizado em"
+      "Name": "Atualizado"
     },
     {
       "Id": "c11c485b-496d-479b-88a3-1744a7a028d7",

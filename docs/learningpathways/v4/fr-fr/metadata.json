@@ -12,7 +12,7 @@
     },
     {
       "Id": "0ae04ffb-5e69-461d-919d-a2215109bf49",
-      "Name": "Office 365",
+      "Name": "Office 365",
       "Subjects": []
     },
     {
@@ -27,7 +27,7 @@
     },
     {
       "Id": "33059862-a87d-4b40-9984-be7c6083cf95",
-      "Name": "Forms",
+      "Name": "Microsoft Forms",
       "Subjects": []
     },
     {
@@ -47,7 +47,7 @@
     },
     {
       "Id": "58847f9a-3144-453e-a10e-bc1c00bc3faa",
-      "Name": "Windows 10",
+      "Name": "Windows 10",
       "Subjects": []
     },
     {
@@ -57,12 +57,12 @@
     },
     {
       "Id": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
-      "Name": "OneDrive Entreprise",
+      "Name": "OneDrive Entreprise",
       "Subjects": []
     },
     {
       "Id": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
-      "Name": "Office pour le web",
+      "Name": "Office sur le Web",
       "Subjects": []
     },
     {
@@ -89,7 +89,7 @@
         },
         {
           "Id": "41128013-96b4-442f-b44f-a30b232a2782",
-          "Name": "Gestion de site"
+          "Name": "Gestion du site"
         },
         {
           "Id": "839db42f-02e6-4d57-93c2-b061f8075c95",
@@ -107,11 +107,11 @@
     },
     {
       "Id": "c209f64e-0291-437a-9615-17747eab50d0",
-      "Name": "Microsoft Teams",
+      "Name": "Microsoft Teams",
       "Subjects": [
         {
           "Id": "3bd4b767-148f-4f53-a206-b42e9f3a73cd",
-          "Name": "Fonctionnalité d’appel RTC"
+          "Name": "Appels PSTN"
         },
         {
           "Id": "615f17eb-2c5b-4494-8541-4304435ca306",
@@ -122,6 +122,11 @@
     {
       "Id": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
       "Name": "Outlook",
+      "Subjects": []
+    },
+    {
+      "Id": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
+      "Name": "Microsoft Edge",
       "Subjects": []
     },
     {
@@ -136,19 +141,19 @@
     },
     {
       "Id": "e75b9087-6bb2-417f-a696-e667bea533a7",
-      "Name": "Microsoft 365",
+      "Name": "Microsoft 365",
       "Subjects": [
         {
           "Id": "78444c91-e53b-4f0b-8c85-e5cb925c4b7f",
-          "Name": "Office 365"
+          "Name": "Office 365"
         },
         {
           "Id": "9cd68cb5-26f5-4a29-952f-3b812fcb7414",
-          "Name": "Windows 10"
+          "Name": "Windows 10"
         },
         {
           "Id": "f1b531e0-2a62-4007-8858-08bd8be6ecae",
-          "Name": "Microsoft 365"
+          "Name": "Microsoft 365"
         }
       ]
     },
@@ -161,7 +166,7 @@
   "Categories": [
     {
       "Id": "646b4eb4-32c0-4fdc-93fa-0ef895470b74",
-      "Name": "Prise en main",
+      "Name": "Commencer",
       "Image": "",
       "TechnologyId": "",
       "SubjectId": "",
@@ -178,7 +183,7 @@
         },
         {
           "Id": "07aa7fb7-a187-4a04-a044-f881626a8cba",
-          "Name": "Recommandé",
+          "Name": "Nos recommandations",
           "Image": "images/categories/recommended.png",
           "TechnologyId": "",
           "SubjectId": "",
@@ -224,9 +229,18 @@
         },
         {
           "Id": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
-          "Name": "Environnement de travail hybride",
+          "Name": "Espace de travail hybride",
           "Image": "images/categories/hybridwork.png",
           "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "a7f1ca95-e0eb-4715-b846-89fc8d2afa56",
+          "Name": "Collaboration",
+          "Image": "images/categories/customfeatured.png",
+          "TechnologyId": "",
           "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
@@ -306,7 +320,7 @@
         },
         {
           "Id": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-          "Name": "Microsoft Teams",
+          "Name": "Microsoft Teams",
           "Image": "images/categories/teams.png",
           "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
           "SubjectId": "",
@@ -324,7 +338,7 @@
         },
         {
           "Id": "beab7761-afae-4987-b8c2-57194fa945b6",
-          "Name": "Informations de base de Microsoft 365",
+          "Name": "Microsoft 365 Informations de base",
           "Image": "images/categories/office_basics.png",
           "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
           "SubjectId": "",
@@ -342,7 +356,7 @@
         },
         {
           "Id": "daeade40-9dfc-4d82-84be-9ae7544829dc",
-          "Name": "Forms",
+          "Name": "Microsoft Forms",
           "Image": "images/categories/forms_training.png",
           "TechnologyId": "33059862-a87d-4b40-9984-be7c6083cf95",
           "SubjectId": "",
@@ -362,7 +376,7 @@
           "Id": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
           "Name": "Accessibilité",
           "Image": "images/categories/accessibility.png",
-          "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
+          "TechnologyId": "",
           "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
@@ -378,7 +392,7 @@
         },
         {
           "Id": "002ce882-04af-491f-9798-71c857606532",
-          "Name": "Office pour le web",
+          "Name": "Office sur le Web",
           "Image": "images/categories/office_for_web.png",
           "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
           "SubjectId": "",
@@ -390,6 +404,15 @@
           "Name": "Listes",
           "Image": "images/categories/lists_cat.png",
           "TechnologyId": "016a561b-1c7a-4528-b0b7-96fcb556a1e1",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "77a22995-0b6d-488c-9747-dea9a7705711",
+          "Name": "Microsoft Edge",
+          "Image": "images/categories/customfeatured.png",
+          "TechnologyId": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
           "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
@@ -428,15 +451,15 @@
   "Audiences": [
     {
       "Id": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-      "Name": "Tous"
+      "Name": "Tout"
     },
     {
       "Id": "304b216c-ea4d-436c-83f8-93ba1319943b",
-      "Name": "Champions/professeur"
+      "Name": "Champions/Formateur"
     },
     {
       "Id": "41779dd0-ae42-4a62-8b66-bd87c137f4ac",
-      "Name": "Support technique"
+      "Name": "HelpDesk"
     },
     {
       "Id": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -444,7 +467,7 @@
     },
     {
       "Id": "97150537-2c2f-42f9-8bc6-73e68fda0d38",
-      "Name": "Gestionnaire de modification"
+      "Name": "Change Manager"
     },
     {
       "Id": "9fcd26c3-bcca-4452-a40a-f87e0daed348",
@@ -452,7 +475,7 @@
     },
     {
       "Id": "a8787978-0ee5-4bc6-9c2c-eb11fc47cbfd",
-      "Name": "Propriétaire de groupe"
+      "Name": "Propriétaire du groupe"
     },
     {
       "Id": "c92ae45b-8770-48f6-8870-3ec74a310da7",
@@ -460,7 +483,7 @@
     },
     {
       "Id": "d093e0b6-b9f1-4b46-877c-0a49e989ee40",
-      "Name": "Assistant direction"
+      "Name": "Assistant de direction"
     },
     {
       "Id": "e22b05b1-e778-4c97-9646-b8933c209772",
@@ -468,7 +491,7 @@
     },
     {
       "Id": "e2fce8e0-2014-4e36-81a5-0723b85958f8",
-      "Name": "Sponsor du site"
+      "Name": "Promoteur de site"
     },
     {
       "Id": "f110eb03-e899-46a9-83be-8f507dae83c1",
@@ -503,11 +526,11 @@
     },
     {
       "Id": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
-      "Name": "Supprimée"
+      "Name": "Retrait"
     },
     {
       "Id": "90fe6290-e063-4778-a8a1-7531c2a0a40e",
-      "Name": "Supprimera"
+      "Name": "Retrait"
     },
     {
       "Id": "9d1fab25-ed9c-404e-941b-41e428d18726",
@@ -515,7 +538,7 @@
     },
     {
       "Id": "c11c485b-496d-479b-88a3-1744a7a028d7",
-      "Name": "Nouveauté"
+      "Name": "Nouveau"
     }
   ]
 }

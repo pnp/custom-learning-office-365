@@ -9,7 +9,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9bde32c3-2f0b-4201-b4a3-74cef2c8f61d",
-    "Description": "Microsoft 365 を 6 つの簡単な手順ですばやく開始する方法の詳細",
+    "Description": "6 つの簡単な手順Microsoft 365を開始します。office.com でサインインして作業を開始し、クラウドで安全にファイルを作成して保存し、ファイルを共有し、他のユーザーとリアルタイムで共同作業を行い、Microsoft チームとチームやチャネルでチームと協力し、モバイル アプリをセットアップし、新しい作業を試します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -24,7 +24,7 @@
   },
   {
     "Id": "bb92e79e-fe45-4f82-83ab-704b75bb6223",
-    "Title": "Teams の使用を開始する",
+    "Title": "Teams の使用",
     "Image": "images/playlists/manage_meetings.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -32,7 +32,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9bde32c3-2f0b-4201-b4a3-74cef2c8f61d",
-    "Description": "7 つの簡単なステップで Teams を開始します。チーム、チャネル、および自分の作業と共同作業をすべて 1 か所で行う方法の概要を説明した後、チームを立ち上げて実行する方法、チャネルで作業する方法、ファイルをアップロードおよび共有する方法、チャットを開始および固定する方法、Teams 会議に参加する方法、会議を管理する方法について説明します。",
+    "Description": "7 つの簡単な手順Teamsを使用して、アプリケーションの使用を開始します。チームとチャネルの概要、チームの立ち上げと実行、チャネルでの作業、ファイルのアップロードと共有、チャットの開始とピン留め、Teams 会議への参加、会議の管理を行う方法について説明します。",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -47,7 +47,7 @@
   },
   {
     "Id": "31fe13c5-ec7d-4a3c-98db-89292b0c0824",
-    "Title": "Teams でチャットベースのワークスペースを作成する",
+    "Title": "チャット ベースのワークスペースを作成するには、Teams",
     "Image": "images/playlists/provide_a_chat-based_workspace_with_teams.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -55,7 +55,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "07aa7fb7-a187-4a04-a044-f881626a8cba",
-    "Description": "チームとして何かを創り出し、決定を下す場所があれば、達成できることに制限はありません。チャット、ミーティング、ファイルの共有、およびビジネス アプリの操作が可能な共有ワークスペースで、Teams を使用してすべてをまとめる方法を説明します。",
+    "Description": "チームとして決定を下す場所がある場合、達成できる範囲に制限はありません。Teams を使用して、チャット、会い、ファイルの共有、ビジネス アプリの使用を行える共有ワークスペースですべてをまとめる方法について説明します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -70,7 +70,7 @@
   },
   {
     "Id": "fe736497-1a7c-4397-9963-17aab7e64557",
-    "Title": "インパクトのあるコンテンツを一緒に作成",
+    "Title": "インパクトのあるコンテンツをまとめて作成する",
     "Image": "images/playlists/create_impactful_content_together.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -78,7 +78,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "07aa7fb7-a187-4a04-a044-f881626a8cba",
-    "Description": "どこからでも迅速に作業できます。Office を OneDrive と SharePoint と統合し、文書にアクセスし、文書を共有し、共同作成する方法について説明します。",
+    "Description": "インパクトのあるコンテンツを一緒に作成Microsoft 365。Microsoft 365 の概要、サインイン、ファイルの作成、保存、共有、他のユーザーとの共同作業、OneDrive から SharePoint Online へのファイルの移動、ファイルまたはフォルダーの共有の方法について説明します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -93,7 +93,7 @@
   },
   {
     "Id": "2ab5e51a-67b9-44af-9ca6-de681329f813",
-    "Title": "OneDrive でファイルを保存して共有する",
+    "Title": "ファイルを保存して共有OneDrive",
     "Image": "images/playlists/save_and_share_files_with_onedrive.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -101,7 +101,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "07aa7fb7-a187-4a04-a044-f881626a8cba",
-    "Description": "OneDrive を使用して Microsoft Office ドキュメント、その他のファイル、さらにはフォルダー全体を他のユーザーと共有する方法について説明します。OneDrive に保存したファイルとフォルダーは、それらを共有することに決めるまで非公開で、いつでも共有を停止できます。",
+    "Description": "ファイルを保存して共有する方法については、OneDrive。OneDrive の概要、OneDrive の基本、ファイルとフォルダーの作成とアップロード、ファイルとフォルダーの同期、携帯電話またはタブレットでの OneDrive モバイル アプリのセットアップについて説明します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -118,7 +118,7 @@
   },
   {
     "Id": "a40ae370-557f-4a5b-9b17-3d14bbb6893e",
-    "Title": "SharePoint でサイトおよびコンテンツを共有する",
+    "Title": "サイトとコンテンツを他のユーザーと共有SharePoint",
     "Image": "images/playlists/share_sites_and_content_with_sharepoint.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -126,7 +126,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "07aa7fb7-a187-4a04-a044-f881626a8cba",
-    "Description": "SharePoint は、イントラネットでの共有と共同作業を強化します。チーム サイトまたはイントラネット サイト内、および組織の内外にあるファイルまたはフォルダーを管理および共有する方法について説明します。",
+    "Description": "サイトとコンテンツを他のユーザーと共有するSharePoint。SharePoint Online の概要、サイト、ニュース、コンテンツの検索とフォロー、ドキュメント ライブラリ内のファイルの作成、アップロードと共有、ファイルとフォルダーの同期、ファイルオンデマンドでのファイルの同期、モバイル デバイスでの接続を続ける。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -140,7 +140,7 @@
   },
   {
     "Id": "1bb00cc3-21a5-432d-b535-4b970feb332c",
-    "Title": "Yammer で組織に接続する",
+    "Title": "Connectを使用して組織をYammer",
     "Image": "images/playlists/connect_your_organization_with_yammer.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -148,7 +148,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "07aa7fb7-a187-4a04-a044-f881626a8cba",
-    "Description": "Yammer を使用すると、存在を知らなかった組織全体のユーザーや情報に接続できます。Yammer を使用して、どこからでも、アイデアのディスカッション、最新情報の共有、同僚からの回答のクラウドソーシングを行うことができます。",
+    "Description": "Connectを使用して組織をYammer。Yammer の概要を確認し、プロファイルのサインインと編集、通知の設定 、投稿への返信、共有、ファイルの投稿と更新と添付、コミュニティへの参加と作成、ファイルとコミュニティ リソースの共有を行う方法について説明します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -162,8 +162,30 @@
     ]
   },
   {
+    "Id": "a19e4916-4fbe-42e4-95b6-8e85cb12a47b",
+    "Title": "グループ作業",
+    "Image": "images/playlists/playlist_bw.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "a7f1ca95-e0eb-4715-b846-89fc8d2afa56",
+    "Description": "一緒に頑張ってください。Microsoft 365 を使用すると、誰とでも、どこでもコラボレーションできます。Microsoft 365 製品とサービスで共有、共同編集、コメント、会議する方法を説明します。",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "0849ef75-564f-450a-93e5-b27508d81c53",
+      "651e1cb9-9a51-46dc-8d32-bdb7d928eedd",
+      "b85eef71-e96b-4325-9501-228588728bc9",
+      "5bec897f-4e36-43f8-9d9d-c41cb4917d9c",
+      "80640ac4-b009-42ea-abcb-660e729e63e5",
+      "cf26a4a6-00e5-4ef4-98c5-cec5bf441da6"
+    ]
+  },
+  {
     "Id": "19a310b9-b50c-44ae-96e2-b30f17a38528",
-    "Title": "効果的な会議を実施する",
+    "Title": "効果的な会議を実行する",
     "Image": "images/playlists/hybrid_eff_meetings.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -171,7 +193,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
-    "Description": "効果的なハイブリッド会議を計画し、進行する方法について説明します。会議前、会議中、会議後に行うべきこと、聴衆を引き付ける方法、会議の疲労を軽減する方法について説明します。",
+    "Description": "効果的なハイブリッド会議を実行する方法について説明します。効果的な会議のヒント、会議に関する考慮事項、ハイブリッド会議の前、中、後の操作、効果的な会議のスケジュール設定、計画、開催方法、会議チェックリストのフォロー、対象ユーザーの関与、会議の疲れを軽減する方法について説明します。",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
@@ -188,7 +210,7 @@
   },
   {
     "Id": "3cbbe474-ef4d-4154-aeb1-9a01d51764d4",
-    "Title": "包括的な会議環境を作る",
+    "Title": "包括的な会議環境を作成する",
     "Image": "images/playlists/hybrid_incl_meetings.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -196,8 +218,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
-    "Description": "包括的な会議環境を作り、会議や関連するコンテンツを誰もが利用しやすいものにする方法について説明します。会議において気を散らす要因となるものを制限し、タイム ゾーンを越えた共感を築き上げます。",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "Description": "包括的な会議環境の作成、会議や関連コンテンツへのアクセスを可能にする方法、会議の集中を制限する方法、タイム ゾーンをまたがる共感を構築する方法について学習します。",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "1a583551-1f93-4d71-bac1-5881d5f8b1e7",
@@ -208,7 +230,7 @@
   },
   {
     "Id": "fdaae787-a991-40ae-ad83-87f05c8cf8ea",
-    "Title": "非同期の共同作業と共同編集",
+    "Title": "非同期コラボレーションと共同編集",
     "Image": "images/playlists/hybrid_async_collab.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -216,8 +238,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
-    "Description": "会議を減らすか、非同期の共同作業に置き換える方法について説明します。共有コンテンツの共同作業と共同編集。Teams、SharePoint、OneDrive で共同作業を行います。",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "Description": "更新された対象ユーザー",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "1311f213-f56b-4c15-b496-5ecff888cd66",
@@ -233,7 +255,7 @@
   },
   {
     "Id": "6f3bbc71-627d-4427-9635-6aadd0a203f9",
-    "Title": "ライブ イベントを使用して多くの対象ユーザーに配信する",
+    "Title": "ライブ イベントで多数のユーザーにリーチする",
     "Image": "images/playlists/hybrid_live_events.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -241,7 +263,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
-    "Description": "Microsoft Teams でのライブ イベントの使用方法について説明します。新しい Yammer でライブ イベントを整理します。Teams を使用して Yammer でライブ イベントのスケジュールを設定します。",
+    "Description": "ライブ イベントで多数の対象ユーザーにリーチします。Teams でライブ イベントを開始、計画、スケジュール、およびライブ イベントをスケジュールする方法についてYammer。",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -262,7 +284,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
-    "Description": "自分が健康でいられるようにセルフケアを実践する方法について説明します。食事、休憩、移動の時間を予定表でブロックします。Microsoft Teams で状態を設定して空き時間またはビジー状態であることを示し、境界を明確にします。進行中のソーシャル ワークや仕事関連の会話用の Teams チャネルを利用して他の人とつながります。Teams の通知を管理して、通知がどのように、いつ、どこに表示されるかを決定します。集中力を維持する必要があるときに気が散らないように、Windows 10 で集中モードをオンにします。",
+    "Description": "健康でいられるようになるセルフケアのヒントを実践して健康を維持します。食事、休憩、移動の時間を予定表でブロックします。Microsoft Teams で状態を設定して、空き時間/取り込み中を示します。ソーシャル ワークや仕事関連の会話用の Teams チャネルを利用して他の人とつながります。Teams の通知を管理して、通知がどのように、いつ、どこに表示されるかを決定します。Windows 10 でフォーカスをオンにすると、集中する必要があるときに気が散らないようにします。",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -271,7 +293,7 @@
       "d5e2099d-6696-474b-b358-bd5ccb5e0657",
       "ce36ed14-6bc9-4775-a33e-6629ba4ff78e",
       "1cc31834-5fe5-412b-8edb-43fecc78413d",
-      "10-5492a638-b5a3-1ee0-0c4f-5ae044450e09"
+      "5492a638-b5a3-1ee0-0c4f-5ae044450e09"
     ]
   },
   {
@@ -313,7 +335,7 @@
   },
   {
     "Id": "fa3a7737-b33d-4481-9b80-416d20b9ca9f",
-    "Title": "仕事とデバイス全体で Microsoft 365 を使用する",
+    "Title": "作業Microsoft 365デバイス全体でアプリを使用する",
     "Image": "images/playlists/use_across_devices.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -321,7 +343,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9030ff2c-5549-4ffe-8dc9-4dc184241dec",
-    "Description": "Microsoft 365 とクラウドの力により、新しくさらに生産的な方法で、どこからでもどのデバイスでも簡単に作業できるようになります。",
+    "Description": "Microsoft 365 を使用して、仕事やデバイスをまたがって接続を続け、ノートを取り、読み取り、任意のデバイス上のファイルにアクセスし、インパクトのあるコンテンツを作成し、時間を節約し、デジタル インクで自由に表現し、3D で作業を生き生きとさせる、作業のアクセスを可能にする、仕事の安全とプライベートを確保します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -346,7 +368,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9030ff2c-5549-4ffe-8dc9-4dc184241dec",
-    "Description": "チームのつながり方や情報のやり取りの方法が進化しています。ユーザーは、どこにいてもチームメイトと共同作業することが求められています。",
+    "Description": "チーム全体で Microsoft 365 を使用して、チームの作成と整理、チームの会話の最適化、Microsoft Teams での共同作業、会議の管理、およびファイルの共同作業を行います。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -359,7 +381,7 @@
   },
   {
     "Id": "cb4effb6-f78e-444a-98b7-6274ad2fe70c",
-    "Title": "組織全体で Microsoft 365 を使用する",
+    "Title": "組織全体Microsoft 365を使用する",
     "Image": "images/playlists/use_across_org.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -367,7 +389,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9030ff2c-5549-4ffe-8dc9-4dc184241dec",
-    "Description": "組織全体で Microsoft 365 を使用する",
+    "Description": "組織Microsoft 365を使用して、Yammer での会社のネットワーク、SharePoint の会社のホーム ベース、および Microsoft Stream の会社のビデオ ポータルを設定します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -378,7 +400,7 @@
   },
   {
     "Id": "1f5ec8e6-5fef-481a-ad87-59842c3d539b",
-    "Title": "Office 365 でデジタル ライフの一日を始める",
+    "Title": "デジタルライフの一日をOffice 365",
     "Image": "images/playlists/digital_day.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -386,7 +408,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9030ff2c-5549-4ffe-8dc9-4dc184241dec",
-    "Description": "Office 365 で仕事を簡素化する新しい方法を発見する",
+    "Description": "デジタルライフをシンプルにする新しい方法をOffice 365。デジタルの日を始める方法、朝のコーヒーで完了できるタスク、通学中、オフィスでの会議、同僚との共同作業、会社間の接続、フィッシング詐欺から身を守る方法について説明します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -401,7 +423,7 @@
   },
   {
     "Id": "e51271b2-b4c0-4038-aa97-e4498c953afe",
-    "Title": "サイバーセキュリティの基本",
+    "Title": "サイバーセキュリティの基礎",
     "Image": "images/playlists/LP-security-security-at-work.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -409,7 +431,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "51a0828d-1d27-4931-b547-9f2a698f33d8",
-    "Description": "コンピューターを職場で安全に保ち、Windows セキュリティでの多要素認証、ファイアウォール、ネットワーク保護について学び、改ざん防止機能を使用してセキュリティ設定が変更されないようにします。",
+    "Description": "サイバーセキュリティの基礎を使用して、サイバーセキュリティと多要素認証の機能、Windows セキュリティでのファイアウォールとネットワーク保護、過剰共有の危険性、改ざん防止による変更を防ぐためにデバイスをセキュリティで保護する方法について学習します。",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -421,7 +443,7 @@
   },
   {
     "Id": "72863bbc-46ae-41dc-885d-0edb0a8abaa4",
-    "Title": "デジタル セキュリティ",
+    "Title": "デジタルの安全性",
     "Image": "images/playlists/LP-security-security-at-home.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -429,7 +451,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "51a0828d-1d27-4931-b547-9f2a698f33d8",
-    "Description": "データを安全に保ち、Windows セキュリティを使用して家族をオンラインで保護するためのヒントを入手してください。",
+    "Description": "このデジタル セーフティ モジュールを使用してデータを安全に保つヒントを得る。自宅での作業を安全に行い、OneDrive で共同作業を行い、ワイヤレス接続を使用して安全に作業し、家族をオンラインで保護する方法についてWindows セキュリティ。",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -440,7 +462,7 @@
   },
   {
     "Id": "5872570a-e8a6-4d84-8802-4dd053b4dabc",
-    "Title": "脅威トップ",
+    "Title": "トップの脅威",
     "Image": "images/playlists/LP-security-5-simple-steps.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -448,7 +470,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "51a0828d-1d27-4931-b547-9f2a698f33d8",
-    "Description": "フィッシングから身を守り、技術サポートの詐欺を回避し、Windows セキュリティで保護された状態を保ち、自宅でより安全に仕事を行います。",
+    "Description": "このデジタル セーフティ モジュールを使用して、データを安全に保つためのヒントを入手してください。自宅でより安全に作業する方法、OneDrive で共同作業する方法、ワイヤレス接続を介してより安全になる方法、および Windows セキュリティを使用してオンラインで家族を保護する方法を学びます。",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -460,7 +482,7 @@
   },
   {
     "Id": "35f25052-fa93-4daf-8d2e-b29935a002d0",
-    "Title": "Microsoft 365 を使用してリモートで作業する",
+    "Title": "アプリケーションを使用してリモートMicrosoft 365",
     "Image": "images/playlists/work_remotely_with_o365.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -468,7 +490,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9eb8fc25-dd5b-4459-81e9-ae382aca7a78",
-    "Description": "Microsoft Teams と Office 365 は、今日どこにいても他の人と一緒に、そして自分で作業を完了できるようにします。",
+    "Description": "Microsoft TeamsとOffice 365、どこにいても、他のユーザーと、自分で作業を行うのに役立ちます。",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -489,7 +511,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9eb8fc25-dd5b-4459-81e9-ae382aca7a78",
-    "Description": "共同作業を最大限に活用しましょう。Office 365 を使用すると、どこでも誰とでも、共同作業を行えます。",
+    "Description": "Microsoft 365 と コラボレーションしてどこからでも最高の作業を行うためのいくつかのベスト プラクティスを学びます。 Microsoft 365 の概要を確認し、office.com で開始し、Office 365 ファイルでコメントと @メンションを行い、同時にファイルで共同作成し、より良い会議のヒントを取得し、モバイル デバイスで作業します。",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -511,7 +533,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-    "Description": "Access を使用して、コードの記述やデータベースの専門的な知識なしで、データベースを構築する",
+    "Description": "Access クイック スタートをすぐに開始します。データベースの作成、Excel からのデータのインポート、主キーの追加、データベースのバックアップ、分割クエリ、分割フォーム、またはレポートの作成を行います。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -523,7 +545,7 @@
   },
   {
     "Id": "3c376578-f821-4184-9365-75011c163f68",
-    "Title": "Access の概要",
+    "Title": "Access のイントロ",
     "Image": "images/playlists/access-intro-to-access.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -531,7 +553,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-    "Description": "Access を使用すると、コードの記述やデータベースの専門的な知識がなくても、データベースを構築できます。",
+    "Description": "Access のイントロでは、テンプレートを使用してデータベースをすばやく作成し、データを検索してレポートし、豊富なデータ入力フォームを作成し、データ ソースをインポート、変換、エクスポートする方法について説明します。データベースの概念と用語、優れたデータベース設計、テーブル、クエリ、フォーム、レポート、マクロ、モジュールなど、データベース オブジェクトを含むデータベースを作成する手順について説明します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -550,7 +572,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-    "Description": "デスクトップ データベースをすばやく作成するには、Access で提供されている多数のテンプレートの 1 つを使用します。または、ニーズを満たすテンプレートが見つからない場合、データベースを一から作成します。",
+    "Description": "Access データベースの作成方法、デスクトップ データベースまたは Access Web アプリの作成方法、違い、IT 要件、データとデザインへのアクセス、ビジネス目標と要件など、設計上の考慮事項について説明します。テンプレート、スクラッチ、または Access Web アプリからデータベースを作成します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -568,7 +590,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-    "Description": "表を作成してデータ型を設定する方法の詳細",
+    "Description": "テーブルを作成し、データ型を設定する方法について説明します",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -578,7 +600,7 @@
   },
   {
     "Id": "6649c605-0d13-4420-9282-3fa590c2fbc4",
-    "Title": "リレーションシップを使う",
+    "Title": "リレーションシップを使用する",
     "Image": "images/playlists/access-use-relations.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -586,7 +608,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-    "Description": "データベースにテーブルを作成し、それらの間のリレーションシップを作成する方法について学習します。",
+    "Description": "Access のリレーションシップを使用して、テーブル間でデータを結合することでリレーショナル データベースの機能を活用します。リレーションシップ ビュー、テーブル間のリレーションシップの種類、リレーションシップの編集方法について説明します。ルックアップ ウィザード、リレーションシップ ウィンドウを使用してリレーションシップを作成し、一対一リレーションシップと多対多リレーションシップを作成する方法について学習します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -599,7 +621,7 @@
   },
   {
     "Id": "56aba6b0-660b-4f8c-a7d8-9b1ad7593bb4",
-    "Title": "データを追加/編集する",
+    "Title": "データの追加と編集",
     "Image": "images/playlists/access-add-and-edit-data.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -607,7 +629,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-    "Description": "リストを Excel で管理するのが難しくなってきた場合、クエリやレポート機能を活用できるため、Access に移行するのはよいアイデアです。",
+    "Description": "Access でデータを追加および編集する方法と、Excel スプレッドシートからデータをコピーすることで、効率的な編集、強力なクエリ、便利なレポート機能を活用する方法について説明します。Excel スプレッドシートや SharePoint サイトなどの他のソースでデータを管理している場合は、Access データベースのデータにリンクして、常に最新のデータを操作することもできます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -617,7 +639,7 @@
   },
   {
     "Id": "b16495f6-4216-4eed-b208-7280a885ebbf",
-    "Title": "クエリを使ってデータを管理する",
+    "Title": "クエリを使用してデータを管理する",
     "Image": "images/playlists/access-manage-data-with-queries.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -625,7 +647,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-    "Description": "クエリを使用して、データに基づいてビジネスに関する質問などに回答したり、一括更新を迅速かつ簡単に実行したり、データベースから情報を削除したりします。",
+    "Description": "Access でクエリを使用してデータを管理し、ビジネスの質問に答え、一括更新を行い、データベースからデータを削除します。クエリの詳細、クエリの使い方、クエリの作成方法について説明します。クエリ デザインを使用してクイック検索のための基本的なクエリを作成し、結合、外部結合、中間テーブルを使用して、複数のデータ ソースを持つクエリを作成する方法について説明します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -646,7 +668,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-    "Description": "フォームとレポートの同じセットを使用することが多い場合は、それらをまとめてグループ化するナビゲーション フォームを作成します。",
+    "Description": "多くの場合、同じフォームとレポートのセットを使用する場合は、Access デスクトップ データベースでナビゲーション フォームを作成して、それらをグループ化できます。フォームまたはレポートをナビゲーション フォームに追加する方法、ラベルを変更する方法、視覚的なテーマを適用する方法、ナビゲーション フォームを既定の表示フォームとして設定する方法について説明します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -655,7 +677,7 @@
   },
   {
     "Id": "8580d541-b2ba-4ae2-bd06-ec26ebc59485",
-    "Title": "レポートの作成",
+    "Title": "レポートを作成する",
     "Image": "images/playlists/access-create-reports.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -663,7 +685,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-    "Description": "データベースを他のユーザーと共有する前に、情報をわかりやすい形式で格納します。レポートを使用して、データベース内の情報を表示、書式設定、および要約します。",
+    "Description": "Access でレポートを作成して書式設定し、簡単に表示および理解する方法について説明します。Access レポート ツールを使用して基本的なレポートを作成する方法、レポート フィールドにグループ化、並べ替え、または合計を追加する方法、テーマまたはロゴを追加する方法、条件付き書式ルールを使用してデータを強調表示する方法、レポートを印刷する方法について説明します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -681,7 +703,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-    "Description": "デスクトップ データベースのバックアップ コピーを作成して、[元に戻す] コマンドで誤りの修正、不明なオブジェクトの復元、破損したデータの回復が不可能な場合に、重要なデータを回復する方法について説明します。",
+    "Description": "Access でデータベースを保護します。システム障害が発生した場合、データベースが破損または不足している場合、古いバージョンを確認する必要がある場合、またはデータベースを復元する必要がある場合は、データベースの定期的なバックアップを保持するベスト プラクティスです。次の簡単な手順で、データベースをバックアップし、データベースを復元する方法について説明します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -698,8 +720,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-    "Description": "列、棒、線、円、複合グラフを含む Access グラフを作成する方法について説明します。",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "Description": "Access でグラフを作成して、便利なビジュアル形式でデータを表示します。列グラフ、棒グラフ、線グラフ、円グラフ、複合グラフを作成して書式設定する方法について学習します。",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "8e37a32f-561a-4a93-86a9-d580893f4a3d",
@@ -711,15 +733,15 @@
   },
   {
     "Id": "fbf60a54-6a6c-4c6d-a121-c478f9531a98",
-    "Title": "Microsoft 365 アクセシビリティの概要とリソース",
+    "Title": "Microsoft 365アクセシビリティの概要とリソース",
     "Image": "images/playlists/microsoft-365-accessiblitiy-overview-and-resources.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+    "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
-    "Description": "メール メッセージを送信する前に、またはドキュメントやスプレッドシートを共有する前に、アクセシビリティ チェックを実行して、すべてのユーザーにとって、読みやすく、編集しやすい Microsoft Office コンテンツであることを確認します。",
+    "Description": "アクセシビリティの概要とリソースMicrosoft 365すぐに開始できます。メールを送信したり、ファイルを共有したりする前に、アクセシビリティ チェックを実行して、すべての機能を持つユーザーがコンテンツにアクセスして読み取りや編集を行える必要があります。アクセシビリティのMicrosoft 365の概要、アクセシビリティ チェックの詳細、アクセシビリティ対応のテンプレートのOffice。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -730,15 +752,15 @@
   },
   {
     "Id": "cf352e8f-caf6-4e52-86d5-ae218004e089",
-    "Title": "Outlook でよりアクセシビリティの高いメール メッセージを作成する",
+    "Title": "よりアクセスしやすいメール メッセージを作成Outlook",
     "Image": "images/playlists/create-more-accessible-emails-in-outlook.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
+    "TechnologyId": "",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
-    "Description": "Outlook でよりアクセシビリティの高いメール メッセージを作成する",
+    "Description": "視覚に制限があるユーザーや視覚Outlook、よりアクセスしやすいメール メッセージを作成できます。HTML を既定のメッセージ形式として設定し、既定のフォントを設定し、アクセス可能な署名を作成し、画像に代替テキストを追加し、箇条書きまたは表を作成して、スクリーン リーダーが順序と関係を伝えるのに役立つ構造を追加します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -749,15 +771,15 @@
   },
   {
     "Id": "76253e80-b36d-479a-9267-e73f2b5a8600",
-    "Title": "よりアクセシビリティの高い Word 文書を作成する",
+    "Title": "よりアクセスしやすい Word 文書を作成する",
     "Image": "images/playlists/create-more-accessible-word-documents.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
+    "TechnologyId": "",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
-    "Description": "よりアクセシビリティの高い Word 文書を作成する",
+    "Description": "アクセシビリティ チェックを使用してアクセシビリティの高い Word 文書を作成し、アクセシビリティの問題をチェックして修正します。画像やオブジェクトに代替テキストを追加し、見出しスタイルを使用してアクセシビリティを向上し、わかりやすいファイル名とハイパーリンクを作成し、テーブル内の情報を整理してリレーションシップを表示し、スクリーン リーダーを使用するユーザーがファイルをよりアクセシビリティの高い場所にするためのヒントを学習します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -772,15 +794,15 @@
   },
   {
     "Id": "c4d3a610-6289-4979-b0b6-b679ef28c13b",
-    "Title": "よりアクセシビリティの高い Excel ブックを作成する",
+    "Title": "よりアクセスしやすいブックExcel作成する",
     "Image": "images/playlists/create-more-accessible-excel-spread-sheets.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
+    "TechnologyId": "",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
-    "Description": "よりアクセシビリティの高い Excel ブックを作成する",
+    "Description": "グラフ、表、説明Excel、画像やオブジェクトに代替テキストを追加して、よりアクセスしやすいブックを作成します。アクセス可能なテンプレートの検索と使用、アクセス可能なテンプレート機能の探索、見出し、ラベル、ワークシート名の説明を行って、読み取り障がいのあるユーザーや視覚障がいのあるユーザーを含むすべてのユーザーがデータにアクセスし、理解しやすくします。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -791,15 +813,15 @@
   },
   {
     "Id": "776fc7e7-cd09-4968-887f-cc04e8558b9e",
-    "Title": "PowerPoint でよりアクセシビリティの高いスライドを作成する",
+    "Title": "よりアクセスしやすいスライドを作成PowerPoint",
     "Image": "images/playlists/create-more-accessible-slides.in-powerpoint.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
+    "TechnologyId": "",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
-    "Description": "すべてのユーザーがアクセスできるように PowerPoint のスライドにコンテンツを配置する方法の詳細",
+    "Description": "よりアクセスしやすいプレゼンテーションPowerPoint作成します。アクセス可能な読み順でスライドを作成し、アクセス可能なテンプレートとフォントを使用し、グラフ、画像、その他のビジュアルに代替テキストを追加します。色覚障がいのある方や視覚障がいのある方や読書障がいのある方がグラフ、グラフ、画像をより使いやすいものにするためのヒントとベスト プラクティスについて説明します。スクリーン リーダーで読み上げ可能な形式でプレゼンテーションを保存します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -812,15 +834,15 @@
   },
   {
     "Id": "a8cbac83-f7e8-45ff-a4a6-6b04f31a5745",
-    "Title": "Excel クイック スタート",
+    "Title": "Excelクイック スタート",
     "Image": "images/playlists/excel_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "Excel クイック スタート ガイドを使用してすぐに作業を開始できます。ブックの作成、データの入力、ブックの OneDrive への保存、フラッシュ フィルによる列の自動入力、AutoSum を使用したすばやい計算、グラフの作成、クイック分析での条件付き書式の使用、先頭行の固定、他のユーザーと共同作業するためのブックの共有、モバイル アプリの設定を行う方法について説明します。",
+    "Description": "クイック スタート ガイドをExcelを開始します。ブックを作成する方法、データを入力する方法、ブックを OneDrive に保存する方法、列にフラッシュ フィルを自動的に入力する方法、オートUM ですばやく計算する方法、グラフを作成する方法、クイック分析で条件付き書式を使用する方法、一番上の行を固定する方法、ブックを共有して他のユーザーと共同作業する方法、モバイル アプリを設定する方法について説明します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -836,12 +858,12 @@
     "Title": "Excel の概要",
     "Image": "images/playlists/welcome_to_excel.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "新しいブックを作成するか、ワークシートを挿入します。Excel を計算機として使用する方法、セルのデータをオートフィルする方法について説明します。",
+    "Description": "この Excel 入門コースでは、ブックの作成、ワークシートの挿入または削除、ワークシートの移動、コピー、印刷、Excel の電卓としての使用、データの自動入力、ドロップダウン リストの作成などの方法を学びます。",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
@@ -859,19 +881,19 @@
     "Title": "行と列",
     "Image": "images/playlists/rows_and_columns.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "列、行、セルを Excel ワークシートに追加または削除します。ウィンドウ枠の固定、行と列の表示/非表示の切り替え、固有の値のフィルター処理を行います。",
+    "Description": "Excel の行と列を使用してデータを整理します。行と列の挿入または削除、Excel でのコンテンツの選択、行と列をロックするためのウィンドウのフリーズ、行または列の非表示または表示、一意の値のフィルタリングまたは重複値の削除、テキストの異なる列への分割、および連続した日付のリストの作成",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "06e7419f-fdea-4f32-bc2b-f73088410881",
       "32bae4a3-7bc2-49a7-9cff-22c399ab09e4",
       "94708bae-df5c-4c3b-888c-621cf5d4bc94",
-      "659c2cad-802e-44ee-a614-dde8443579f8",
+      "95146525-ce4f-4ff6-a118-c0724deb1a98",
       "36ffe8ad-b6f6-4cfb-a55e-da3f5cd40d24",
       "0edb925e-2af7-47fb-895a-28a07d5b73d4",
       "8c3fb3c7-8e61-415f-9663-b58055f252ed"
@@ -882,12 +904,12 @@
     "Title": "セル",
     "Image": "images/playlists/cells.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "セルのコンテンツを移動またはコピーして、切り取り、コピー、貼り付けを行います。表、列、または行のサイズを変更したり、セルを結合したり、データを検証したり、テキストをインポートまたはエクスポートしたりする方法について説明します。",
+    "Description": "Excel セルの操作 -セルの移動またはコピー、列の幅または行の高さの変更、ワークシート上のテキストまたは数値の検索または置換、セルの結合と結合解除、セルへのデータの入力規則の適用、テキスト (.txt または .csv) ファイルのインポートまたはエクスポートを行う方法について説明します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -904,12 +926,12 @@
     "Title": "書式設定",
     "Image": "images/playlists/formatting.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "通貨、パーセンテージ、小数、日付、電話番号、社会保障番号などにセル内の数値を書式設定できます。条件付き書式の設定、テキストの整列や回転、透かしの追加を行います。",
+    "Description": "時間を節約し、ワーク シートをあなたとあなたのチームに役立たせるために、Excel でフォーマットを行う方法について説明します。数値 (通貨、パーセンテージ、日付、電話番号) の書式設定、条件付き書式の使用による視覚的な手がかりの提供、セルの書式設定の変更またはコピー、透かしの追加、ゼロ値の表示または非表示、カスタム数値形式の作成などの役立つヒントについて説明します。",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
@@ -925,16 +947,16 @@
   },
   {
     "Id": "9baa4835-b7d5-4e7e-8bea-0a53a1b91229",
-    "Title": "数式と関数",
+    "Title": "数式&関数",
     "Image": "images/playlists/formulas_and_functions.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "数式を作成したり組み込み関数を使用したりして、計算を実行し、問題を解決する方法について説明します。VLOOKUP、SUM、COUNTIF、IF などの使用方法について説明します。",
-    "StatusTagId": "",
+    "Description": "数式Excel関数を使用して、計算を実行し、問題を解決します。XLOOKUP、VLOOKUP、SUM、SUMIF、SUMIFS、COUNTIF、IF、IFS、MATCH を使用して、値の検索、計算、時間の節約、データの自動管理を行う方法について説明します。",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "7068c43a-2e0b-47ea-8b0f-692343447af6",
@@ -951,16 +973,16 @@
   },
   {
     "Id": "94333445-037d-4222-aa99-a84b1f6125f0",
-    "Title": "表",
+    "Title": "テーブル",
     "Image": "images/playlists/tables.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "表の作成と書式設定、データの並べ替え、表のデータのフィルター処理を行う方法について説明します。表のデータを集計する方法や、スライサーを使用してデータをフィルター処理する方法について説明します。",
-    "StatusTagId": "",
+    "Description": "データを視覚的にグループ化Excel分析するために、テーブルを作成して書式設定します。範囲またはテーブルのデータの並べ替えとフィルター処理、データの合計、スライサーを使用したデータのフィルター処理の方法について学習します。",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "bf0ce08b-d012-42ec-8ecf-a2259c9faf3f",
@@ -975,13 +997,13 @@
     "Title": "グラフ",
     "Image": "images/playlists/charts.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "グラフでは、対象ユーザーに最も大きな効果がある方法でデータを可視化できます。グラフを作成する方法、近似曲線を追加する方法、データをすぐに分析する方法、既存のグラフを更新する方法について説明します。",
-    "StatusTagId": "",
+    "Description": "Excel のグラフは、オーディエンスに最大の影響を与える方法でデータを視覚化するのに役立ちます。グラフの作成、タイトルの追加または削除、グラフの凡例の表示または非表示、2 次軸の追加または削除、トレンド ラインまたはスパーク ラインの追加によるデータ トレンドの表示、クイック分析を使用した完璧なグラフの選択の方法を学びます。",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "201fba6f-daf0-4aaf-98f8-e826da1719d7",
@@ -1000,12 +1022,12 @@
     "Title": "ピボットテーブル",
     "Image": "images/playlists/pivottables.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "Excel のピボットテーブルは、データの計算、要約、分析を行う強力なツールです。データの比較や、パターン、傾向を確認することができます。ワークシート、テーブル、範囲を分析するためにピボットテーブルを作成する方法、フィールド リストを使用してフィールドを配置する方法、データをグループ化またはグループ解除する方法、データを並べ替える方法、データをフィルター処理する方法、ピボットグラフを作成する方法について説明します。",
+    "Description": "Excelピボットテーブルは、データを計算、集計、分析し、データの比較、パターン、傾向を確認する強力なツールです。ピボットテーブルを作成してワークシート、テーブル、範囲を分析する方法、フィールド リストを使用してフィールドの配置、データのグループ化またはグループ解除、データの並べ替え、データのフィルター処理、ピボットグラフ の作成を行う方法について説明します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1021,12 +1043,12 @@
     "Title": "共有と共同編集",
     "Image": "images/playlists/excel_share_and_co-author.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "Excel 内で直接、他のユーザーとブックを共有する方法について説明します。他のユーザーにブックの表示のみ、または編集を許可することができます。特定の領域をロックまたはロック解除する方法、Excel ファイルを保護する方法、PDF に保存する方法についても説明します。",
+    "Description": "リアルタイムで他のユーザーと共同作業を行Excel共有および共同編集する方法について学習します。コメントとノートの使い方、同じファイルで同時に共同作業する方法、他のユーザーが自分と共有しているファイルの表示、ブックの特定の領域のロックまたはロック解除、Excel ファイルの保護、Excel ファイルを PDF に保存または変換する方法について説明します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1044,12 +1066,12 @@
     "Title": "関数の一般的な使用",
     "Image": "images/playlists/excel_share_and_co-author.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "自動的に行に番号を付けたり、2 つの日付の差を計算したり、数式で名前を定義して使用したり、2 つ以上のセルのテキストを 1 つのセルに結合したりすることができます。",
+    "Description": "行に自動的に番号を付け、2 つの日付の差を計算し、数式で名前を定義して使用し、1 つのセル内の 2 つ以上のセルのテキストを結合します。",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -1064,12 +1086,12 @@
     "Title": "リンクされたデータ型",
     "Image": "images/playlists/excel_linked_data_types.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "リンクされたデータ型を使用すると、信頼されたオンライン データ ソースからの信頼できるデータを挿入し、操作することができます。",
+    "Description": "Excel でリンクされたデータ型を使用して、都市、食品、株式、地理などの主題に関するデータを取得する方法について説明します。また、組織が提供するデータ型は、Power BI。",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -1080,15 +1102,15 @@
   },
   {
     "Id": "0c7a8a54-f7fc-4464-8f21-67c961b84f7c",
-    "Title": "Lists の使用を開始する",
+    "Title": "リストの使用",
     "Image": "images/playlists/lists_get_started.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "016a561b-1c7a-4528-b0b7-96fcb556a1e1",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "4b40845d-fe5f-428f-8970-58455e5bf262",
-    "Description": "Microsoft Lists を使用して情報を追跡し、作業を整理します。Excel、既存のリスト、またはテンプレートを基に、リストを一から作成します。",
+    "Description": "情報を追跡Microsoft Lists作業を整理する方法について、このページを参照してください。リスト アプリからリストを作成し、Teams チャネルでリストを作成する、リスト アイテムを追加または編集する、リストのビューを作成または変更する、リスト ビューを編集する、リストを検索して管理する、リストまたはリスト アイテムを共有する、ビジネス情報を追跡する。",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -1112,7 +1134,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "開始、ファイルの作成と保存、共有と共同作業、および Microsoft Teams の操作に役立つチュートリアルを使用して、Microsoft365 の基本について説明します。",
+    "Description": "Microsoft 365 クイック スタートをすぐに始めましょう。 オンラインでファイルを作成して操作する方法、OneDrive にファイルをアップロードする方法、ファイルとフォルダーを共有する方法、リアルタイムで他のユーザーと共同作業する方法、すべてのデバイスのどこからでも機能するようにモバイル アプリを設定する方法について説明します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1126,7 +1148,7 @@
   },
   {
     "Id": "8f026372-069d-4449-a116-938bf5aae7ea",
-    "Title": "Microsoft 365 の使用を開始する",
+    "Title": "Microsoft 365 の使用",
     "Image": "images/playlists/intro_to_office.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1134,7 +1156,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "サインインや Office.com の使用開始など、Microsoft365 の基本を理解します。",
+    "Description": "生産性を次のレベルにMicrosoft 365を開始する方法について説明します。Teams アプリと Office アプリで作業する Microsoft 365 の概要を確認し、他のユーザーと共同作業を行い、クラウドにファイルを安全に保存し、接続を確保し、インテリジェントな機能を使用してさらに多くの作業を実現します。サインインして使用を開始する方法については、office.com。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1145,22 +1167,21 @@
   },
   {
     "Id": "f4bbc974-3e87-4e2b-a4c8-7cb1d3c35fa3",
-    "Title": "作成と保存",
+    "Title": "作成して保存する",
     "Image": "images/playlists/create_office_files.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "デスクトップ アプリの使用方法、Office.com アプリの使用方法、ファイルをクラウドに保存する方法、OneDrive とオンデマンドでファイルを同期する方法について説明します。",
-    "StatusTagId": "",
+    "Description": "ファイルを作成して保存するには、Microsoft 365。デスクトップ アプリとアプリを使用して、Office アプリ間で同じ方法でファイルOffice保存する方法 office.com します。ファイルをクラウドに保存するには、OneDrive を使用してファイルを保存し、ファイルをオンデマンドで同期します。ファイルを作成し、Microsoft 365。デスクトップ アプリとアプリを使用して、Office アプリ間で同じ方法でファイルOffice保存する方法 office.com します。ファイルをクラウドに保存するには、OneDriveを使用してファイルをファイル オンデマンドで同期します。",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "cddec4f8-b8ca-496f-af33-800d9cdcc15c",
       "3eb2554d-a4e0-4ae4-9609-1c06913127e1",
-      "f4b41dc8-339c-4653-9f41-328324656f61",
-      "b6b217d2-db1d-4c15-bd78-4e8e273b0190"
+      "f4b41dc8-339c-4653-9f41-328324656f61"
     ]
   },
   {
@@ -1173,7 +1194,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "Microsoft 365 でファイルを共有し、ファイルの共同作成、@メンションの使用、およびフォローアップの方法についても説明します。",
+    "Description": "ファイルを共有して共同作業Microsoft 365、作業を行う場所はどこでも簡単です。ファイルの共有、アクセス許可の設定、リンクのコピー、同じファイルでの共同作業と共同編集を同時に行う方法、@mentions を使用して他のユーザーの注意を引く方法、フォローアップを使用して、戻りたい領域を強調表示する方法、会話に他のユーザーを招待する方法について学習します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1193,7 +1214,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "Microsoft Teams を使用すると、チームとの共同作業、チームの整理と維持、および会話をすべて 1 か所で行うことができます。チームとチャネルの作成、タブの追加、チャネルのピン留め、投稿の作成と書式設定、チャットの開始とピン留め、電話の発信、Teams 会議への参加を行う方法と、効果的な会議のスケジュール、開始、実行のためのヒントとベスト プラクティスについて説明します。",
+    "Description": "Microsoft Teams を使用すると、チームとの共同作業、チームの整理と維持、および会話をすべて 1 か所で行うことができます。チームとチャネルの作成、タブの追加、チャネルのピン留め、投稿の作成と書式設定、チャットの開始とピン留め、電話の発信、Teams 会議への参加を行う方法と、効果的な会議のスケジュール、開始、実行のためのヒントとベスト プラクティスについて説明します",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1208,7 +1229,7 @@
   },
   {
     "Id": "ffdf1665-6516-4d78-b9d3-39985b60c06b",
-    "Title": "Windows を最大限に活用する",
+    "Title": "最新の情報をWindows",
     "Image": "images/playlists/view_office_files.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1216,7 +1237,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "Windows 10 で自分のものを見つける方法、Microsoft Edge を使用する方法、Bing で検索する方法を学び、Windows を最大限に活用します。",
+    "Description": "ドキュメントの検索と検索Windowsツールを使って、機能を利用できます。検索バー、タスク ビュー、エクスプローラーの使い方について学習します。モバイル デバイスMicrosoft Edge、プライバシー設定、言語の切り替え、カスタマイズされたタブ、コレクション、Edge の使用について説明します。Web Microsoft Search組織Bing検索結果を取得するには、次のコマンドを使用します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1227,7 +1248,7 @@
   },
   {
     "Id": "861f0286-c3b5-4a76-9b7e-77c1bf39572d",
-    "Title": "どこからでも作業できる",
+    "Title": "どこからでも作業する",
     "Image": "images/playlists/add_and_edit_text.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1235,7 +1256,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "OneDrive モバイル アプリと Outlook モバイル アプリを使用して、どこからでも作業する方法について説明します。",
+    "Description": "このMicrosoft 365、どこからでも作業できます。モバイル デバイス上OneDriveアプリを使用して、どこからでもモバイル デバイス上のファイルにアクセス、アップロード、共有できます。iOS または Android Outlookアプリの接続を設定します。時間を節約し、より迅速に達成するために役立つ、上位 10 のヒントを紹介します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1245,7 +1266,7 @@
   },
   {
     "Id": "477ad890-043c-4d3c-982e-40c540f10009",
-    "Title": "Microsoft 365 の優れた機能",
+    "Title": "クール Microsoft 365機能",
     "Image": "images/playlists/office_365_format_text.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1253,7 +1274,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "PowerPoint デザイナー、Excel のアイデア、Word のエディター、アクセシビリティの高いコンテンツを作成するなどの Microsoft365 の優れた機能について説明します。",
+    "Description": "Microsoft の便利な機能について説明します。デザイナーを使用して、プロフェッショナルな外観PowerPoint作成します。データの分析を使用して、データの概要、傾向、パターンを視覚的に把握Excel for the web。Word のエディターからスペル、文章校正、および修正候補を取得します。コンテンツのアクセスを高くする方法について学習します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1264,16 +1285,81 @@
     ]
   },
   {
+    "Id": "d8ec3a54-3ddf-4e02-8631-b89c3f032184",
+    "Title": "作業の開始",
+    "Image": "images/playlists/playlist_bw.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "77a22995-0b6d-488c-9747-dea9a7705711",
+    "Description": "お気に入りにサイトを追加する方法、設定/ツール/インターネット オプションを見つける方法、既定の検索エンジンを Microsoft Edge に変更する方法など、Microsoft Edge の使用を開始する方法を説明します。さらに、サインインし、デバイス間で Microsoft Edge を同期する方法、または Microsoft Edge のユーザー補助機能を見つける方法を説明します。",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "3f4bb0ff-58de-2188-55c0-f560b7e20bea",
+      "eb40d818-fd1f-cb19-d943-6fcfd1d9a935",
+      "22a00d4e-adf3-943a-fe83-74c3cd9bca24",
+      "f863c519-5994-a8ed-6859-00fbc123b782",
+      "4c696192-338e-9465-b2cd-bd9b698ad19a",
+      "e6ffa79b-ed52-aa32-47e2-5d5597fe4674"
+    ]
+  },
+  {
+    "Id": "479705db-2e50-4a8b-8a2e-a2a3d59ce61b",
+    "Title": "プライバシーとセキュリティ",
+    "Image": "images/playlists/playlist_bw.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "77a22995-0b6d-488c-9747-dea9a7705711",
+    "Description": "プライバシー設定の構成、追跡防止、InPrivate ブラウズ、閲覧履歴の削除、ポップアップのブロック、Cookie の削除など、Microsoft Edge が Web を閲覧する際の安全性を維持する方法の詳細をご覧ください。",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "8c923c9d-4ef2-849d-a399-4de716ecbbaf",
+      "5ac125e8-9b90-8d59-fa2c-7f2e9a44d869",
+      "e6f47704-340c-7d4f-b00d-d0cf35aa1fcc",
+      "00cf7943-a9e1-975a-a33d-ac10ce454ca4",
+      "1d8ba4f8-f385-9a0b-e944-aa47339b6bb5",
+      "63947406-40ac-c3b8-57b9-2a946a29ae09"
+    ]
+  },
+  {
+    "Id": "2af83d1d-0ad1-4194-bcaa-939f32153a87",
+    "Title": "個人用設定",
+    "Image": "images/playlists/playlist_bw.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "77a22995-0b6d-488c-9747-dea9a7705711",
+    "Description": "ホーム ページの変更、拡張機能の追加、ダーク テーマの使用、Micrsoft Edge での他の言語の使用、テキスト サイズの増加など、Microsoft Edge をパーソナライズしてブラウザーを独自に作成する方法について説明します。",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "a531e1b8-ed54-d057-0262-cc5983a065c6",
+      "f3522273-d067-7435-6a9d-fdb99213e9a8",
+      "9b74617b-f542-77ed-033b-1a5cfb17a2df",
+      "4da8b5e0-11ce-7ea4-81d7-4e332eec551f",
+      "1d5830c3-eee3-8eaa-836b-abcc37d99b9a"
+    ]
+  },
+  {
     "Id": "77061d5e-2222-4748-ac80-7d03d2587bd3",
     "Title": "Forms クイック スタート",
     "Image": "images/playlists/forms_quick_startx.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "33059862-a87d-4b40-9984-be7c6083cf95",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "daeade40-9dfc-4d82-84be-9ae7544829dc",
-    "Description": "数分でフォームを作成するフォームへの質問の追加、設定の定義、フォームの共有、結果の確認をいくつかの簡単な手順を通して行う方法について説明します。",
+    "Description": "数分でフォームを作成します。いくつかの簡単な手順で、フォームに質問を追加する方法、設定を定義する方法、フォームを共有する方法、結果を確認する方法について説明します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1285,15 +1371,15 @@
   },
   {
     "Id": "b873fd99-81be-483a-a8e0-16fcfe0fa120",
-    "Title": "フォームを作成して集計結果を表示する",
+    "Title": "フォームを作成して結果を表示する",
     "Image": "images/playlists/create_a_formx.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "33059862-a87d-4b40-9984-be7c6083cf95",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "daeade40-9dfc-4d82-84be-9ae7544829dc",
-    "Description": "フォームを使用してアンケート、テスト、投票を作成し、集計結果を簡単に表示する方法について説明します。",
+    "Description": "フォームを使用してアンケート、クイズ、投票を作成し、結果を簡単に確認する方法について学習します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1309,12 +1395,12 @@
     "Title": "共有と共同作業",
     "Image": "images/playlists/forms-share-collaborate.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "33059862-a87d-4b40-9984-be7c6083cf95",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "daeade40-9dfc-4d82-84be-9ae7544829dc",
-    "Description": "テストやフォームを同僚と共同作業する方法、テストやフォームを他のユーザーが自由に使用できるようにテンプレートとして共有する方法について説明します。",
+    "Description": "クイズやフォームで同僚と共同作業を行い、他のユーザーが個別に使用するテンプレートとしてクイズやフォームを共有する方法について説明します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1329,15 +1415,15 @@
   },
   {
     "Id": "d3acd5c2-0488-4104-935a-61fda884bc49",
-    "Title": "Teams クイック スタート",
+    "Title": "Teamsクイック スタート",
     "Image": "images/playlists/teams_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Microsoft Teams クイック スタート ガイドを使用してすぐに作業を開始できます。Teams へのサインイン、チームとチャネルの選択、Teams でのチャット、新しい会話の開始、会話への返信、絵文字、ミーム、GIF の使用、ファイルの共有、@メンションを使用した共同作業、アクティビティ フィードの確認、メッセージ、人、ファイルの検索、モバイル アプリの設定を行う方法について説明します。",
+    "Description": "クイック スタート ガイドのMicrosoft Teamsを開始します。Teams へのサインイン、チームとチャネルの選択、Teams でのチャット、新しい会話の開始、会話への返信、絵文字、ミーム、GIF の使用、ファイルの共有、@mention との共同作業、アクティビティ フィードの確認、メッセージ、ユーザー、ファイルの検索、モバイル アプリの設定を行う方法について説明します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1350,16 +1436,16 @@
   },
   {
     "Id": "bc9d8a0a-58f1-42cc-bdcf-9ee10b73ba24",
-    "Title": "Microsoft Teams の概要",
+    "Title": "Microsoft Teams のMicrosoft Teams",
     "Image": "images/playlists/intro_to_microsoft_teams.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Microsoft Teams は、1 つの場所でチームを常に整理された状態に保ち、会話を行えるコラボレーション アプリです。「Microsoft Teams の概要」では、チーム、チャネル、会議、会話、タブ、ファイルの共有、リアル タイムでの共同作業、ファイルの検索、チャットへにユーザーの追加、電話の発信、予定表の管理、会議のスケジュール作成、会議への参加、コンテンツの共有、会議の記録、アクティビティ フィードの表示、コマンド ボックスを使用したユーザー、アイテム、アプリの検索について、概要を説明します。",
-    "StatusTagId": "",
+    "Description": "Microsoft Teamsは、チームが整理され、会話を行うのに役立つコラボレーション アプリです。すべて 1 か所で行います。Microsoft Teams の概要を使用して、チーム、チャネル、会議、会話、タブ、ファイルの共有、リアルタイムでの共同作業、ファイルの検索、チャットへのユーザーの追加、通話の作成、予定表の管理、会議のスケジュール設定、会議への参加、コンテンツの共有、会議の記録、アクティビティ フィードの表示、コマンド ボックスを使用して、ユーザー、アイテム、、 またはアプリ。",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "b98d533f-118e-4bae-bf44-3df2470c2b12"
@@ -1370,19 +1456,21 @@
     "Title": "チャットと通話を開始する",
     "Image": "images/playlists/start_chats_calls_and_meetings.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "1:1 チャットやグループ チャットを開始して、少人数のグループで共同作業をしたり、個人的な会話をしたり、チャットを固定してすばやくアクセスしたりすることができます。",
+    "Description": "Microsoft Teams を使用してチャットと通話を開始します。1 対 1 またはグループ チャットを開始する方法、チャットからビデオおよび音声通話を発信する方法、チャットをピン留めしてすばやくアクセスする方法、電話をかける方法、チャットを非表示にする方法、メッセージを削除する方法、および代理で電話をかけたり応答したりする代理人を設定する方法を学びます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
+      "425d6970-6e27-47b6-bc61-4c38fff51c4f",
       "3ba7bca7-2b2a-4df4-8ccc-5a772eae1d83",
+      "0a27994b-4d5d-4ac1-a40d-83b72edca946",
+      "d3fb0e97-4afa-4919-86e8-021102ed5c2b",
       "712ef898-a27e-42fa-a9c1-bfd0733bae97",
-      "1f8eecb7-0714-4147-abfa-07dcc14c21d6",
-      "0a27994b-4d5d-4ac1-a40d-83b72edca946"
+      "1f8eecb7-0714-4147-abfa-07dcc14c21d6"
     ]
   },
   {
@@ -1390,12 +1478,12 @@
     "Title": "チームをセットアップしてカスタマイズする",
     "Image": "images/playlists/set_up_and_customize_your_team.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Microsoft Teams を使用して、チームを設定してカスタマイズします。パブリックまたはプライベート チームを作成する方法、チームにメンバーを追加する方法、チャネルを作成する方法、チームの管理を使用してチームのメンバー、チャネル、設定、アプリを検索する方法について説明します。また、チームの所有者がメンバーの追加と削除、チーム所有者の追加、チャネルの管理、チーム設定の変更を行うための、チーム所有者向けの導入ガイドもあります。チャネルをピン留めしてチームを並べ替えて、チーム リストを整理することもできます。",
+    "Description": "チームをセットアップしてカスタマイズMicrosoft Teams。パブリックチームまたはプライベート チームの作成、メンバーの追加、チャネルの作成、チームの管理を使用して、チームのメンバー、チャネル、設定、アプリを検索します。メンバーの追加と削除、チーム所有者の追加、チャネルの管理、チーム設定の変更については、チーム所有者向け移動ガイドを参照してください。チャネルをピン留めし、チームを並べ替え、チーム リストを整理できます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1409,17 +1497,16 @@
     "Title": "アプリとツールを探索する",
     "Image": "images/playlists/explore_apps_and_tools.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Teams のアプリとツールを検索し、ツールを追加する方法、ファイルをタブに変更する方法、コマンド ボックスを使用する方法についての詳細をご覧ください。",
+    "Description": "アプリを使用すると、Microsoft Teams でさらに多くのことができます。アプリとツールを探索する方法、タブとメッセージにアプリを追加する方法、チャネル全体に役立つ通知にコネクタを使用する方法を学びます。ファイルをタブとして表示する方法や、コマンドボックスを使用して検索する方法、クイック アクションの実行、アプリの起動に役立つ方法など、役立つヒントを学びます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "089ff1b2-6cd7-4e86-ab50-a4390b4bcb21",
-      "4c0ef9a7-0c3e-4a95-aaea-f52f2f81ecbc",
       "13c4e429-7324-4886-b377-5dbed539193b",
       "a78606bb-a15f-4f3e-8892-63f735cc1f6a"
     ]
@@ -1429,16 +1516,17 @@
     "Title": "チームとチャネルでの共同作業",
     "Image": "images/playlists/collaborate_in_teams_and_channels.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Microsoft Teams では、チャネルは、会議の開催、会話、ファイルでの共同作業を行う場所です。パブリックまたはプライベート チャネルの作成、チャネルのピン留め、タブの追加、ファイルの共有、今すぐ会議、チャネルの表示と非表示の切り替え、チャネルの通知のカスタマイズ、メッセージへの返信、メッセージのいいね! の評価または保存、@メンションの使用、ファイルの共同作業または共同編集、会話の開始、チャネルへのメールの送信、Planner を使用したプランの作成を行う方法について説明します。",
+    "Description": "Microsoft Teams でのチームとチャネルでの共同作業。パブリックまたはプライベート チャネルの作成、チャネルのピン留め、タブの追加、ファイルの共有、今すぐ会議、チャネルの表示と非表示の切り替え、チャネルの通知のカスタマイズ、メッセージへの返信、メッセージのいいね! の評価または保存、@メンションの使用、ファイルの共同作業または共同編集、会話の開始、チャネルへのメールの送信、Planner を使用したプランの作成を行う方法について説明します。",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "c3d63c10-77d5-4204-a566-53ddcf723b46",
+      "4fe74e73-e12d-4c67-8cba-d06ce8e48c24",
       "2766a75b-342a-4ed9-810d-f3c0f06c3207",
       "a6041b90-0805-4140-b8ae-1ee3805908d7",
       "99d33aaa-0743-47c6-a476-eb0a24abcb7e",
@@ -1453,18 +1541,17 @@
     "Title": "投稿とメッセージを使用する",
     "Image": "images/playlists/work-with-post-and-messages.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "投稿やお知らせを作成して書式設定し、チャネルで会話を開始する方法について説明します。",
+    "Description": "Microsoft Teams で投稿やメッセージを操作します。投稿を作成してフォーマットする方法、複数のチャネルにメッセージを投稿する方法、@メンションで注目を集める方法、投稿またはメッセージを保存する方法を学びます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "238176cf-6428-4ca9-8181-7f7c0fe6ff48",
       "a8073654-eb8d-44ca-a7ae-1287b32d599d",
-      "206edfa2-2978-4b03-9eec-4d06f33de166",
       "2f13be6f-3968-4e5c-b020-9532db7b3a18"
     ]
   },
@@ -1473,12 +1560,12 @@
     "Title": "ファイルのアップロードと検索",
     "Image": "images/playlists/upload-and-find-files.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Microsoft Teams でファイルのアップロード、検索、共有を行う方法について説明します。また、ファイルの検索とフィルター処理を行う方法についても説明します。",
+    "Description": "Microsoft Teams でファイルをアップロードして検索します。ファイルをアップロードして共有する方法、チャネルにファイルを添付する方法、ファイルを [ファイル] タブにアップロードする方法、チャネル間で最近表示または編集、作成または編集、または Teams からダウンロードしたファイルを検索する方法について説明します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1488,15 +1575,15 @@
   },
   {
     "Id": "729bcb7f-43bc-4d38-a0df-8fbf38b80e56",
-    "Title": "ライブ イベントを設定して参加する",
+    "Title": "ライブ イベントを設定して出席する",
     "Image": "images/playlists/setup-and-attend-live-events.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Teams ライブ イベントを使用すると、ビデオ、参加者の操作、レポートをより細かく制御できる、大規模なオンライン参加者を対象としたイベントを作成できます",
+    "Description": "大規模なオンライン イベントをホストしていますか?Microsoft Teamsライブ イベントは Teams 会議の拡張機能であり、ビデオ、視聴者の対話、レポートを制御し、大規模なオンライン対象ユーザー向けイベントを生成できます。ライブ イベントの作成、ライブ イベントの生成、ライブ イベントへの参加と参加、質問のモデレートを行う方法について学習します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1508,23 +1595,23 @@
   },
   {
     "Id": "fae33957-cb84-4185-ab78-2bd3818b31ee",
-    "Title": "会議を管理する",
+    "Title": "会議を管理",
     "Image": "images/playlists/manage_meetings.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "615f17eb-2c5b-4494-8541-4304435ca306",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Microsoft Teams で予定や会議を表示、スケジュール、管理して、チームの進捗状況を把握します。",
+    "Description": "Microsoft Teams で効果的な会議を管理および実行するためのヒントとベストプラクティスを学びます。Teams ミーティングに参加し、Meet Now でインスタント ミーティングを作成し、チャネルでミーティングを行い、ミーティングを表示およびスケジュールし、ミーティング中に画面または PowerPoint スライドを表示し、Teams ミーティング中に移動して、アクティビティを確認し、ミーティング中に作業を続けます。このビデオトレーニングを見て、その方法を確認してください。",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "6dd4a6fd-d88f-4baf-b08e-06755a680926",
       "006f78bc-67ce-465a-af1c-483534cdb011",
       "7eb9c719-9452-4a9a-b3b6-69f48149ba1c",
-      "0d231dd0-3e6a-4a7c-a384-04ac44e80807",
       "d3cc8fad-9655-4f2d-b8f5-197a1b3951a1",
+      "10b2e2a2-c6e7-4905-9c2d-648e26c957ea",
       "37566690-8652-4eac-abed-bfe6de084828",
       "b33ae7a4-e14b-4e46-9440-94bfed214415",
       "22c40436-db14-4863-93c6-aa9a51134edd"
@@ -1535,12 +1622,12 @@
     "Title": "アクティビティ フィードを管理する",
     "Image": "images/playlists/manage-your-activity-feed.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "アクティビティ フィードを管理し、フォローしているチーム チャネルで発生するあらゆることを把握します。",
+    "Description": "Microsoft Teams 左側のレールにある [アクティビティ] アイコンを選択してアクティビティ フィードを管理します。これにより、フォローしているチーム チャネルで発生したすべての概要が表示されます。アクティビティ フィードをフィルター処理し、通知設定を管理して、受信する通知、受信場所、および頻度を制御する方法について学習します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1550,15 +1637,15 @@
   },
   {
     "Id": "90ecbd2b-a1a7-4da1-8355-c1f65c4af298",
-    "Title": "外出先での Teams",
+    "Title": "Teamsに移動する",
     "Image": "images/playlists/teams-on-the-go.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Microsoft Teams モバイル アプリで 1:1 チャットやグループ チャットを開始して、個人的な会話をしたり、少人数のグループで共同作業をしたりすることができます。外出先で、チャネルの作成、会議への参加、アクティビティ フィードの使用、通知の管理を行えます。",
+    "Description": "Microsoft Teams モバイル アプリで 1 対 1 またはグループ チャットを開始して、プライベートで会話したり、小さなグループと共同作業を行います。チャネルの作成、会議への参加、アクティビティ フィードの使用、または移動時の通知の管理",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1571,15 +1658,15 @@
   },
   {
     "Id": "2ba46e26-5c63-48b9-818c-f49354b3b5d1",
-    "Title": "Shifts を使用してチームのスケジュールを管理する",
+    "Title": "Shifts を使用してチームスケジュールを管理する",
     "Image": "images/playlists/teams_shifts.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Microsoft Teams に含まれている Shifts は、スケジュール管理ツールです。Shifts を使用してチームのスケジュールを作成、更新、および管理する方法について説明します。",
+    "Description": "チームのスケジュールを作成、更新、管理するために、Microsoft Teamsシフトを使用してチームスケジュールを管理する方法について学習します。マネージャーは、シフト スケジュールの作成と管理、要求の確認、承認、または拒否を行います。フロントラインワーカーは、シフトを使用してスケジュールを表示および管理し、チームとの同期を取り合えます。",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -1591,24 +1678,25 @@
     ]
   },
   {
-    "Id": "a9047d0c-b690-4a43-9ad3-78ee5c1d5d7b",
-    "Title": "トランシーバー、Tasks、称賛",
-    "Image": "images/playlists/teams_walkie.png",
+    "Id": "6f59454d-6ed1-4733-8825-c9616564565d",
+    "Title": "予約を作成して管理する",
+    "Image": "images/playlists/playlist_bw.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "トランシーバー Teams アプリを使用して仕事用のスマートフォンをシンプルで安全なインスタント音声コミュニケーション デバイスへと変える方法、Teams での Tasks アプリの使用方法、称賛を使用して現場のチームとコミュニケーションを取り、貢献を称える方法について説明します。",
+    "Description": "Microsoft Teams で予約すると、チームの予定とカレンダーをすべて 1 か所で追跡、管理、および整理できます。予約カレンダーを作成してチーム メンバーを追加したり、新しい予定の種類を作成したり、スタッフや出席者の対面や仮想訪問を作成および管理したりできます。",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
-      "891f92f0-7014-4d6d-b888-9ccfe2d25fa5",
-      "362a1ec7-06ca-40df-bf68-a9edd830683e",
-      "125ebed0-45fb-4b5c-a6c4-fd84dffff334",
-      "1567a3c0-38de-4d02-81b3-73571a708b42",
-      "62e14a8f-ca13-4ad0-b551-e2dda01193a9"
+      "42d4e852-8e99-4d8f-9b70-d7fc93973cb5",
+      "921cfd26-a24d-4aca-9004-561594112148",
+      "6c579f61-8adb-4514-9458-021de2023fa0",
+      "810eac77-6a65-4dc8-964d-c00eadf43887",
+      "a86a4007-e26c-4909-9893-f7036e2747cd",
+      "95cea12d-2220-421f-a663-6efb20913c7f"
     ]
   },
   {
@@ -1616,7 +1704,7 @@
     "Title": "承認の作成",
     "Image": "images/playlists/teams_approvals.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -1625,15 +1713,18 @@
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
+      "079cd574-3e04-4dc1-bcc1-6d0797970723",
       "fc8da528-2cbd-4079-accd-8435ab70cabd",
       "0da0c87d-ea04-41fe-bf2a-dbae4d98e185",
-      "079cd574-3e04-4dc1-bcc1-6d0797970723",
-      "e94cd617-b48e-433c-94c3-7f944a3a8579"
+      "e94cd617-b48e-433c-94c3-7f944a3a8579",
+      "c33ecf9f-b745-4287-b104-ac69469745e0",
+      "7d281bf2-4e60-42ea-afc3-e472dd20c93d",
+      "944b2b8b-f840-44a4-a83d-53ef71b92c1f"
     ]
   },
   {
     "Id": "eda0aa68-24ac-46a1-83db-e04f929be0d6",
-    "Title": "Office on the web:作業の開始",
+    "Title": "Office for the web: 使用を開始する",
     "Image": "images/playlists/office_for_the_web_get_started.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1641,7 +1732,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
-    "Description": "それが一日の始まりであっても、休憩から戻ったときでも、Office.com からすぐに作業に取りかかれます。",
+    "Description": "Office.com は、1 日の始めでも、仕事に戻る場合でも、開始する最適な場所です。",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -1654,7 +1745,7 @@
   },
   {
     "Id": "610da080-333a-449f-9f81-21c556c0a961",
-    "Title": "Web 用 Office:Web 用 Outlook",
+    "Title": "Office for the web: Outlook用のデータ",
     "Image": "images/playlists/Outlook_for_the_web.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1662,7 +1753,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
-    "Description": "Outlook on the web では、メール、予定表、連絡先にいつでもすばやくアクセスできます。いくつかの優れた機能を次に示します。メッセージを送信しファイルを共有して、他のユーザーと共同作業を行います。",
+    "Description": "Outlook on the webを使用すると、メール、予定表、連絡先を簡単に簡単に維持できます。使用する便利な機能の一部を次に示します。メッセージを送信し、ファイルを共有して他のユーザーと共同作業を行います。",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -1677,7 +1768,7 @@
   },
   {
     "Id": "e2fb04a4-7e0c-40ff-994b-d92c80c00df0",
-    "Title": "Web 用 Office:Web 用 Word",
+    "Title": "Office for the web: Word for the web",
     "Image": "images/playlists/word_for_the_web.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1685,7 +1776,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
-    "Description": "Web 用 Word では、文書を作成したり、テキストや画像、アートを追加したり、ファイルを共有したりすることができます。",
+    "Description": "このWord for the web、ドキュメントの作成、テキスト、画像、アートの追加、ファイルの共有を行って、場所に関係なく他のユーザーと作業できます。",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -1699,7 +1790,7 @@
   },
   {
     "Id": "803f7002-9bc0-4d96-a898-9770f1b8bcdf",
-    "Title": "Web 用 Office:Web 用 Excel",
+    "Title": "Office用: Web Excelの使用",
     "Image": "images/playlists/excel_for_the_web_for.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1707,7 +1798,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
-    "Description": "Web 用 Excel により、ほとんど場所を問わず、どのデバイスでも Excel の機能にアクセスできます。",
+    "Description": "Excel for the webを使用すると、ほぼすべての場所Excelデバイスで使用できる機能を利用できます。",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -1722,7 +1813,7 @@
   },
   {
     "Id": "164ee353-bb72-4e17-8bed-d7824241b341",
-    "Title": "Web 用 Office:Web 用 PowerPoint",
+    "Title": "Office for the web: PowerPoint for the web",
     "Image": "images/playlists/office_for_the_web_for.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1730,7 +1821,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
-    "Description": "Web 用 PowerPoint では、ほぼどこからでもあらゆるデバイスでプレゼンテーションを作成、編集、および発表する機能が提供されています。",
+    "Description": "PowerPoint for the webでは、ほぼすべての場所から、任意のデバイスでプレゼンテーションを作成、編集、プレゼンテーションできます。",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -1744,7 +1835,7 @@
   },
   {
     "Id": "69149089-33ca-4e3c-863d-713768570323",
-    "Title": "Web 用 Office:ドキュメントを共有する",
+    "Title": "Office for the web: ドキュメントを共有する",
     "Image": "images/playlists/office_for__web_share_documents.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1752,7 +1843,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
-    "Description": "Office 365 を使用すると、どこで作業していても簡単に他のユーザーとドキュメントを共有できます。",
+    "Description": "ドキュメントの共有は、Office 365場所を問い合Office 365簡単に共有できます。",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -1764,7 +1855,7 @@
   },
   {
     "Id": "c9ecc2e9-bc17-496a-8b0b-9242b6bb3eaf",
-    "Title": "OneDrive クイックスタート",
+    "Title": "OneDriveクイック スタート",
     "Image": "images/playlists/onedrive_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1772,7 +1863,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "4ee4d22a-7d53-48bb-9a14-adf34d01cd75",
-    "Description": "OneDrive クイック スタート ガイドを使用してすぐに作業を開始できます。ファイルとフォルダーのアップロード、ブラウザーまたはデスクトップでの OneDrive の使用、Office アプリでのファイルの保存とオープン、ファイルまたはフォルダーの作成、ファイルとフォルダーの管理、ファイルの検索、ファイルのバックアップ、ファイルの共有、アクセスとアクセス許可の管理、共有の停止、リンクのコピー、ビューの変更、OneDrive での共同作業、モバイル アプリの設定、外出先でのモバイル デバイス上の OneDrive アプリでの作業について説明します。",
+    "Description": "クイック スタート ガイドをOneDriveを開始します。アップロードファイルとフォルダーを作成するには、ブラウザーまたはデスクトップで OneDrive を使用し、Office アプリでファイルを保存して開く、ファイルとフォルダーの作成と管理、ファイルの検索、バックアップ、共有、アクセスとアクセス許可の管理、リンクのコピー、ビューの変更、OneDrive での共同作業、モバイル アプリの移動作業のセットアップを行います。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1793,7 +1884,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "4ee4d22a-7d53-48bb-9a14-adf34d01cd75",
-    "Description": "Onedrive、OneDrive の基本、OneDrive のセットアップの詳細情報",
+    "Description": "OneDrive の使用を開始して、ファイルへのアクセスと編集、情報の共有、ファイルのクラウドへの保存を行って、他のユーザーとファイルを操作できるようにし、ファイルを保護およびバックアップします。 OneDrive とは何か、開始方法、ナビゲーション ウィンドウとツールバーの使用方法、モバイル アプリのセットアップ方法について説明します。 このビデオ トレーニングを見て、その方法を確認してください。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1807,7 +1898,7 @@
   },
   {
     "Id": "3c24a6b8-a3d7-4133-ba59-08d705fe8160",
-    "Title": "OneDrive でファイルを管理する",
+    "Title": "ファイルを管理するには、OneDrive",
     "Image": "images/playlists/manage_your_files.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1815,7 +1906,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "4ee4d22a-7d53-48bb-9a14-adf34d01cd75",
-    "Description": "OneDrive を使用して、どこからでもファイルやフォルダーにアクセスする",
+    "Description": "アップロードファイルを作成して、ファイルを管理OneDriveどこからでもファイルにアクセスできます。ファイルとフォルダーのアップロード、ファイルとフォルダーの作成、削除されたファイルの削除と復元、クラウド内のファイルの削除、OneDrive Backup のオン、OneDrive の復元を行う方法について説明します。その方法については、このビデオ トレーニングをご覧ください。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1829,7 +1920,7 @@
   },
   {
     "Id": "f007841f-fde2-463c-8043-035084c00ba5",
-    "Title": "OneDrive で共有して同期する",
+    "Title": "共有と同期を行OneDrive",
     "Image": "images/playlists/onedrive_share_and_sync.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1837,7 +1928,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "4ee4d22a-7d53-48bb-9a14-adf34d01cd75",
-    "Description": "OneDrive を使用してファイルを共有し、表示と編集を制御し、同時に共同作業を行う",
+    "Description": "OneDriveまたは学校で共有および同期する方法について学習します。ファイルとフォルダーの共有、OneDrive ファイルとフォルダーの同期、ディスク領域の管理、OneDrive Files On-Demand とのファイルの同期を行って、OneDrive または SharePoint Online のすべてのファイルにアクセスできます。ダウンロードしてデバイス上の記憶域を使用する必要はありません。その方法については、このビデオ トレーニングをご覧ください。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1848,7 +1939,7 @@
   },
   {
     "Id": "a324d70a-4727-43e3-b78a-be93092d3dd0",
-    "Title": "OneNote クイック スタート",
+    "Title": "OneNoteクイック スタート",
     "Image": "images/playlists/onenote_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1856,7 +1947,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-    "Description": "OneNote でノートブックを作成する方法の詳細",
+    "Description": "クイック スタートを使用してOneNoteを開始します。ノートブックを作成、開き、切り替えます。メモを取り、ページとセクションを追加します。ページまたはノートブック全体を共有して、他のユーザーと整理および共同作業を行います。どこからでもファイルにアクセスするモバイル アプリを設定します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1868,7 +1959,7 @@
   },
   {
     "Id": "55d81409-752a-4bd8-8c2b-cfc937359358",
-    "Title": "OneNote の概要",
+    "Title": "OneNote のOneNote",
     "Image": "images/playlists/intro_to_onenote.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1876,7 +1967,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-    "Description": "OneNote を使用すると、メモの入力やオーディオの録音、アイデアのスケッチや書き込み、写真の追加、メモの検索、ページのセクションへの整理とセクションのノートブックへの整理、一緒に表示、投稿するためのノートブックの共有を行うことができます。この「OneNoteの概要」ビデオをご視聴いただいた後、サインインする方法、新しいページまたはセクションを追加する方法、ページまたはセクションの名前の変更する方法、別のノートブックを開く方法、OneNote をカスタマイズする方法について説明します。",
+    "Description": "OneNote では、ノートを入力したり、オーディオを録音したり、アイデアをスケッチまたは書き込みしたり、画像を追加したり、ノートを見つけたり、セクションやセクションにページを整理してノートブックに整理したり、ノートブックを共有して一緒に表示したり投稿したりすることができます。OneNote の概要に関するこのビデオをご覧ください。サインイン、新しいページまたはセクションの追加、ページまたはセクションの名前の変更、別のノートブックの開き方、OneNote のカスタマイズを行う方法について説明します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1886,7 +1977,7 @@
   },
   {
     "Id": "b63ab88a-2478-44a0-80a9-661849142f29",
-    "Title": "OneNote でメモを取る",
+    "Title": "ノートを使ってメモを取OneNote",
     "Image": "images/playlists/take_notes.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1894,7 +1985,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-    "Description": "好きなようにメモを取り、写真やファイルを挿入して、ノートブックでのスペースを作成します。",
+    "Description": "このOneNote、ノートの入力、ノートの書き込み、手書きのノートのテキストへの変換、オーディオ ノートの録音など、思い通りの方法でノートを作成できます。画像、ファイル、ビデオを挿入します。必要な数のページ、セクション、ノートブックを作成します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1905,7 +1996,7 @@
   },
   {
     "Id": "8c0e0a94-ac56-4ed8-a385-caea31145761",
-    "Title": "OneNote でメモを書式設定する",
+    "Title": "ノートの書式を設定OneNote",
     "Image": "images/playlists/format_notes.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1913,7 +2004,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-    "Description": "ノート、ページ、表を書式設定して、目的に合わせて表示する",
+    "Description": "ノートの書式OneNote、好みで見た目に合います。テキストの強調表示、リストの作成、テキストのインデント、ノートの配置、スタイルの適用を行います。ページまたはセクションに背景色を適用して、視覚的に魅力的にします。表を挿入して書式設定し、情報を視覚的に整理します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1924,7 +2015,7 @@
   },
   {
     "Id": "17a6d04a-e893-4b67-932f-529f70868150",
-    "Title": "OneNote で描画およびスケッチする",
+    "Title": "図を使って描画およびスケッチOneNote",
     "Image": "images/playlists/draw_and_sketch.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1932,7 +2023,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-    "Description": "OneNote で描画やスケッチをして、ノートを生き生きとしたものにする",
+    "Description": "ノートを描くOneNoteスケッチして、ノートを生き生きと引き出します。ペン、鉛筆、蛍光ペン、太さ、色を選択できます。円、三角形、四角形などの図形を作成したり、指、ペン、またはマウスで図形を描画したり、OneNoteすると、図形が自動的にクリーンアップされます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1942,7 +2033,7 @@
   },
   {
     "Id": "352e7758-5888-40c5-b765-edc83d7c64b3",
-    "Title": "OneNote で常に整理された状態を保つ",
+    "Title": "他のユーザーと一緒にOneNote",
     "Image": "images/playlists/stay_organized.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1950,7 +2041,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-    "Description": "OneNote で常に整理された状態を保つために、メモの検索、検索の絞り込み、ノートブックの整理を行う方法を説明します。ナビゲーション ウィンドウの表示、あるセクションから別のセクションへのページの移動、別のセクションまたはノートブックへのページのコピー、セクションの移動またはコピーを行う方法を確認します。",
+    "Description": "ノートブックを使ってOneNoteするには、ノートの検索、検索の絞り込み、ノートブックの整理を行う方法について学習します。ナビゲーション ウィンドウを表示する方法、あるセクションから別のセクションにページを移動する方法、ページを別のセクションまたはノートブックにコピーする方法、セクションを移動またはコピーする方法を説明します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1960,7 +2051,7 @@
   },
   {
     "Id": "30190ee7-5d18-4c8c-9104-42b06388bee7",
-    "Title": "OneNote で共有して同期する",
+    "Title": "共有と同期を行OneNote",
     "Image": "images/playlists/share_and_sync.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1968,7 +2059,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-    "Description": "ノートを他のユーザーと共有し、個人用のノートをパスワードで保護する",
+    "Description": "ノートブック全体を共有して同期OneNote他のユーザーと共同作業を行います。共有、共有するユーザー、ページまたはノートブックのみを編集または表示できるかどうかを選択します。また、非公開にしたいノートブック セクションをロックまたはパスワードで保護できます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1978,7 +2069,7 @@
   },
   {
     "Id": "54d20fd4-0c72-404a-b0d8-93e64fcc0e36",
-    "Title": "モバイル デバイスの OneNote",
+    "Title": "OneNoteデバイスでの使用",
     "Image": "images/playlists/onenote_on_mobile_devices.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1986,7 +2077,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-    "Description": "iOS、Android、およびオンラインで OneNote を使用して、どこにいてもノートに接続して作業する",
+    "Description": "モバイル OneNoteを使用して、どこにいてもノートに接続して作業できます。iOS OneNote、OneNote for Android、または OneNote Online で使用します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1997,7 +2088,7 @@
   },
   {
     "Id": "e66fa8f3-ec7e-47f9-9d79-4d334f157563",
-    "Title": "Outlook クイック スタート",
+    "Title": "Outlookクイック スタート",
     "Image": "images/playlists/outlook_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2005,7 +2096,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "Outlook クイック スタート ガイドを使用してすぐに作業を開始できます。メール アカウントの追加、メールの作成と送信、@メンションの使用、優先受信トレイの表示、予定表と連絡先の管理、スケジュール アシスタントを使用した予定の設定、連絡先の追加、Outlook での共同作業、ファイルの共有、オンライン会議と共有のメモの設定、モバイル アプリの設定を行う方法について説明します。",
+    "Description": "クイック スタート ガイドをOutlookを開始します。メール アカウントの追加、メールの作成と送信、@mentions の使用、集中受信トレイの表示、予定表と連絡先の管理、スケジュール アシスタント を使用した予定のスケジュール設定、連絡先の追加、Outlook での共同作業、ファイルの共有、オンライン会議と共有ノートの設定、モバイル アプリの設定を行う方法について説明します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2018,7 +2109,7 @@
   },
   {
     "Id": "79fe1eb2-571e-4cbe-98b9-913692ddd387",
-    "Title": "Outlook を設定してカスタマイズする",
+    "Title": "設定とカスタマイズを行Outlook",
     "Image": "images/playlists/set_up_and_customize.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2026,7 +2117,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "Outlook を設定してカスタマイズする必要がありますか?Outlook を使用して、メールの整理、予定表の管理と共有、ファイルの共有、接続の維持、および outlook.com アカウント、Microsoft 365 メール アカウント、または Gmail アカウントの追加を行う方法を説明します。",
+    "Description": "アプリをセットアップしてカスタマイズするOutlook?Outlookの整理、予定表の管理と共有、ファイルの共有、接続の確認、outlook.com アカウント、Microsoft 365 メール アカウント、または Gmail アカウントの追加に役立つ方法について説明します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2045,8 +2136,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "Microsoft Outlook 受信トレイをご確認ください。",
-    "StatusTagId": "",
+    "Description": "Outlook でメールの作成と送信、メール署名の作成、添付ファイルの送受信、送信されたメールの取り消しまたは置換を行う方法について学習します。その方法については、このビデオ トレーニングをご覧ください。",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "c6c261e3-d50a-43a6-816f-35fe1e53acc6",
@@ -2066,8 +2157,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "不在時の自動応答を設定します。",
-    "StatusTagId": "",
+    "Description": "メールを管理する方法については、Outlook。自動応答を使用して、メッセージへの自動応答、メールの検索とフィルター処理、検索の絞り込み、会話の無視、および [スレッドのクリーンアップ] を使用して受信トレイをクリーンアップします。その方法については、このビデオ トレーニングをご覧ください。",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "cc0e480f-973e-4412-a27b-8a52108d6d51",
@@ -2086,8 +2177,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "受信トレイを整理するヒントを説明します。フォローアップ フラグの設定、フォローアップ フラグの表示または削除、リマインダーの設定、実施項目の検索、色分類項目の作成、メール メッセージへの色分類項目の割り当て、フォルダーの作成、メッセージのフォルダーへの移動、フォルダーのお気に入りへの追加、ルールの作成を行う方法について説明します。",
-    "StatusTagId": "",
+    "Description": "受信トレイを整理するためのヒントについて学習します。フラグの設定、フラグの表示または削除、アラームの設定、アクション アイテムの検索、色分類項目の作成、メール メッセージへの色分類項目の割り当て、フォルダーの作成、フォルダーへのメッセージの移動、お気に入りにフォルダーの追加、ルールの作成を行う方法について説明します。",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "a894348d-b308-4185-840f-aff63063d076",
@@ -2105,7 +2196,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "連絡先の追加、連絡先グループの作成、連絡先のインポートおよびエクスポート、タスクやタスク一覧の作成を行います。",
+    "Description": "連絡先とタスクを管理して、Outlook。連絡先の追加、連絡先グループの作成、Gmail の連絡先のインポート、連絡先のエクスポート、タスクと To Do リストの作成を行う方法について説明します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2126,7 +2217,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "予定や会議の作成、予定表の共有、または予定表アイテムの検索を行います。",
+    "Description": "スケジュールを整理するために、Outlookを使用する方法について学習します。日、週、月の間で予定表ビューを切り替える、予定と会議を作成する、オンライン会議をスケジュールする、予定表を共有する、予定表をインポートする、予定表アイテムを検索する、重要な会議を見逃さないので色分類項目とアラームを使用する、共有予定表プレビューを有効にする。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2141,7 +2232,7 @@
   },
   {
     "Id": "cf0a88b6-99be-4db9-8312-a762cfd9976a",
-    "Title": "Outlook モバイル:受信トレイを管理する",
+    "Title": "Outlook: 受信トレイを管理する",
     "Image": "images/playlists/outlook-mobile-manage-your-inbox.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2149,7 +2240,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "受信トレイを管理し、[出欠確認] で素早く招待する方法、右にスワイプして受信トレイを管理する方法、優先受信トレイを作成する方法、Android ウィジェットを使用する方法を説明します。",
+    "Description": "モバイルで受信トレイをOutlookします。メールを再生する方法、RSVP ですぐに招待する方法、左にスワイプして右にスワイプして受信トレイを管理する方法、メッセージを [フォーカス付き] と [その他] に並べ替え、Android ウィジェットを使用して、Android のホーム画面から毎日、1 日使用するツールにアクセスする方法について説明します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2161,7 +2252,7 @@
   },
   {
     "Id": "07666fb2-f6a8-416d-9805-78072ade58ca",
-    "Title": "Outlook モバイル:時間を管理する",
+    "Title": "Outlook: 時間を管理する",
     "Image": "images/playlists/outlook-mobile-manage-your-time.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2169,7 +2260,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "Outlook Mobile で、会議に全員が出席できる時間を見つけることができます。",
+    "Description": "モバイルOutlookを使用して、時間の管理、会議のスケジュール設定、全員の利用可能時間の確認を行います。会議の場所アシスタントの使用、会議の空き時間情報の送信、予定表の共有、予定表の結合と結合、通知の管理を行います。モバイル向けヒントのOutlook 10 について学習します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2185,28 +2276,31 @@
   },
   {
     "Id": "a0cbd9cd-bfeb-4976-b39d-8c21da669d0f",
-    "Title": "Outlook モバイル:ユーザーと接続",
-    "Image": "images/playlists/outlook-mobile-people-and-connections.png",
+    "Title": "Outlook: ユーザーと接続",
+    "Image": "images/playlists/outlook-mobile-manage-your-time.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "3edeb182-3828-4a83-aef9-928a2693e288",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "Outlook Mobile を使用すると、簡単に連絡先を検索して詳細情報を得ることができます。",
+    "Description": "モバイルOutlookを使用して、時間の管理、会議のスケジュール設定、全員の利用可能時間の確認を行います。会議の場所アシスタントの使用、会議の空き時間情報の送信、予定表の共有、予定表の結合と結合、通知の管理を行います。モバイルのヒントのOutlook 10 を確認します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
-      "1f238e49-2699-4ff7-b992-3b1b0f35297b",
-      "871a7381-5154-4a9d-83df-d59476b7139a",
-      "7fa421df-1bdf-4374-84e8-a8d45307020e",
-      "20ec8c7f-3109-4be6-ae14-10dd7ba7e99b",
-      "152146fb-0400-45fb-913d-98761810aea4"
+      "672f8ae7-1843-4dff-acb4-d3a998f5f392",
+      "555babd1-f307-48ef-a2cf-f6ea1aae6fdc",
+      "f21a4063-db88-40ab-9376-8e324711f6d8",
+      "6d35e08b-ca70-42b8-abf7-cca1ddbd267d",
+      "0e8be5a2-c2e1-4702-bb76-0ee7228b9d35",
+      "82fa4ae4-e978-4603-8460-a6293eacd38b",
+      "0b32ebf0-fae9-4815-a061-94048d0799ef",
+      "615b74e8-37e7-43a3-9ac3-a41c5e30843a"
     ]
   },
   {
     "Id": "8405be6d-8da0-40d4-aa5c-ac00d4697c2b",
-    "Title": "Outlook モバイル:検索と共有",
+    "Title": "Outlook: 検索と共有",
     "Image": "images/playlists/outlook-mobile-search-and-share.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2214,7 +2308,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "Outlook Mobile で Microsoft Search を使用すると、必要な情報をすばやく検索できます。メール検索の改善により、最上位の連絡先、予定表のイベント、ファイルに簡単にアクセスできます。",
+    "Description": "Outlook mobile で検索する方法、ファイルと写真を共有する方法、タイトル、件名、メール アドレス、イベントの説明で予定表を検索する方法、および [検索] アイコンを使用してメールの添付ファイルを検索する方法について説明します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2234,7 +2328,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "fcdc0676-03f7-40b9-80c1-167560c4018d",
-    "Description": "Planner を発見する - タスクを管理して更新情報を取得する",
+    "Description": "Planner クイック スタートをすぐに開始します。サインイン、プランの作成、プランへのユーザーの追加、タスクのバケットの設定、タスクの追加、期限、コメントと添付ファイルの追加、プランの進捗状況の表示、メールの更新と通知の取得、Planner を使用するモバイル デバイスの設定を行う方法について説明します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2255,7 +2349,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "fcdc0676-03f7-40b9-80c1-167560c4018d",
-    "Description": "Planner を使用してイベントの計画、コンテンツの発行、プロセスの追跡を行う",
+    "Description": "Planner でボードのアイデアを得る。製品の発売、顧客のサポート、コンテンツの公開、進捗状況の追跡など、イベントを計画します。実際の例を参照して、Planner の使い方に関するアイデアを得る。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2267,7 +2361,7 @@
   },
   {
     "Id": "4a1a5131-1a63-4398-8105-ae9a18c20af8",
-    "Title": "Planner を使用する",
+    "Title": "Planner の使用",
     "Image": "images/playlists/planner_use_planner.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2275,7 +2369,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "fcdc0676-03f7-40b9-80c1-167560c4018d",
-    "Description": "タスクの管理、プランの作成、スケジュールの設定を行う",
+    "Description": "Planner を使用して、チームを編成し、進捗レポートを表示し、個々の割り当てを追跡します。 計画を作成する方法、バケットとタスクを追加する方法、タスクと期日を割り当てる方法、および計画を Teams に追加する方法を学びます。 Planner と ToDo を比較し、スケジュール ビューを使用してカレンダーでタスクを整理し、Outlook カレンダーで Planner のスケジュールを確認します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2300,7 +2394,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
-    "Description": "PowerPoint でプレゼンテーションを作成する",
+    "Description": "PowerPoint クイック スタート ガイドをすぐに開始します。プレゼンテーションの作成、スライド、画像、図形、またはグラフの追加、OneDrive への保存、プレゼンテーションの名前の変更、テーマと PowerPoint Designer の使用、トランジションとアニメーションの追加、他のユーザーとの共有と共同作業、コメントの追加、編集中のチャット、以前のバージョンの復元、プレゼンター ビューとノートの使用、モバイル アプリの設定など、さまざまな機能があります。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2314,7 +2408,7 @@
   },
   {
     "Id": "b7593732-a75a-4542-9d72-4932c505b92f",
-    "Title": "PowerPoint へようこそ",
+    "Title": "この方法のPowerPoint",
     "Image": "images/playlists/welcome_to_powerpoint.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2322,7 +2416,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
-    "Description": "最初からプレゼンテーションを作成するか、組み込みのグラフィック、フォント、および、テキスト、画像、コンテンツのプレースホルダーを含むテーマからプレゼンテーションを作成する",
+    "Description": "この PowerPoint コースの紹介では、PowerPoint を使用してプレゼンテーションの作成、テキスト、画像、アート、ビデオの追加、PowerPoint Designer を使用したプロフェッショナルなデザインの選択、画面切り替えとアニメーションの追加、OneDrive に保存してどこからでもファイルにアクセスする方法、他のユーザーと共同作業するために作業を共有する方法について説明します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2342,7 +2436,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
-    "Description": "スライド マスターでスライドをデザイン、編集、整理する方法の詳細。",
+    "Description": "PowerPoint でスライドとレイアウトを作成する方法を学びます。 スライド マスターの作成、スライドの追加、再配置、複製、移動、スライド レイアウトの適用、テーマを使用したスライドへの色とデザインの追加、新しいプレゼンテーションへのテンプレートの適用、PowerPoint Designer でのデザインのアイデアの取得、スライド マスターのカスタマイズ方法について説明します。 このビデオ トレーニングを見て、その方法を確認してください。",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
@@ -2351,7 +2445,7 @@
       "d98e245b-7cd5-4813-a893-70a3dac60971",
       "6f0ec776-cc58-4d0c-baab-051ba837b7a0",
       "434b92d7-5347-4197-8d5c-d5b23219cf28",
-      "9e64b176-7d80-4390-84d2-f61247209780",
+      "05bcb3c2-872a-4eaf-8b9f-f6a6ceccd3c9",
       "1246244d-f465-4e4f-b9f9-49acdae00ff1",
       "314cfd6f-dfb0-44f6-8bf5-8d7c2f4f4332",
       "fcedcc77-e229-4519-9e42-58759da72d33",
@@ -2372,12 +2466,12 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
-    "Description": "PowerPoint のテキストと表に関する詳細を確認しますか?WordArt の挿入、スライドへのハイパーリンクの追加、アウトラインからの PowerPoint プレゼンテーションの作成、プレゼンテーションのスペルチェック、表の作成と書式設定、リンクされた Excel グラフの挿入、スライド番号、日付と時刻の追加、図形またはテキスト ボックス内のテキストの方向と位置の設定を行う方法について説明します。",
+    "Description": "WordArt の挿入、スライドへのハイパーリンクの追加、アウトラインからの PowerPoint プレゼンテーションの作成、プレゼンテーションのスペルチェック、表の作成と書式設定、リンクされた Excel グラフの挿入、スライド番号、日付と時刻の追加、図形またはテキスト ボックス内のテキストの方向と位置の設定を行う方法について説明します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "06f64160-9abf-46bb-80d1-9e94d47a0d36",
-      "239c6c94-d52f-480c-99ae-8b0acf7df6d9",
+      "f37e08a-43a8-40fe-a1d3-3adf6c592fa9",
       "ce655d7b-bc99-4323-be2e-627d3e759528",
       "33b3491e-f0ec-48c4-b9fb-3a5bd8797608",
       "19767daf-672c-43bc-bda1-330b242c57c9",
@@ -2397,7 +2491,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
-    "Description": "PowerPoint を使用して、コンピューターやインターネットから図、写真、クリップ アート、その他の画像をスライド ショーに挿入できます。",
+    "Description": "PowerPoint に写真やグラフィックを追加して、プレゼンテーションを視覚的に魅力的なものにします。 画像の挿入、芸術的効果の適用、SmartArt の追加、背景画像または会社のロゴの追加、チャートやグラフの追加、またはアイコンの挿入の方法について説明します。",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
@@ -2417,7 +2511,7 @@
   },
   {
     "Id": "e1144779-6751-4415-a1d4-24e0303ea6db",
-    "Title": "スライドショーを表示する",
+    "Title": "スライドショーの表示",
     "Image": "images/playlists/present_slideshows.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2425,7 +2519,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
-    "Description": "スライドショーを表示する方法、発表者のノートを追加する方法、スライドショーを記録して印刷する方法、自動プレゼンテーションを作成する方法について説明します。",
+    "Description": "PowerPoint でスライド ショーを表示する方法を学びます。スライドにスピーカー ノートを追加し、時間と配信のリハーサルを行い、ナレーション付きのスライド ショーを記録し、スライド、配布物、またはノートを印刷して、自走式のプレゼンテーションを作成します。",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
@@ -2447,22 +2541,22 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
-    "Description": "スライド間で画面切り替えを追加、変更、または削除する方法、テキストやオブジェクトにアニメーションを設定する方法、ビデオを挿入またはビデオにリンクする方法、オーディオを追加または削除する方法の詳細",
+    "Description": "PowerPoint にアニメーション、ビデオ、オーディオを追加して、プレゼンテーションをより魅力的でプロフェッショナルなものにします。スライド間のトランジションの追加、テキストまたはオブジェクトのアニメーション化、モーフ トランジションの使用、ビデオの挿入、オーディオまたは音楽の追加、画面の記録とプレゼンテーションへの埋め込み。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
-      "7db07067-4d78-40b5-bc87-5ff4f5ff6ff7",
       "e89a076e-ed81-404e-9598-021a918fa1ba",
+      "7db07067-4d78-40b5-bc87-5ff4f5ff6ff7",
+      "efa900e1-3b09-453e-a4c2-ee672c2088f1",
+      "94b100a6-c1cc-4ef4-9f13-35ee20de950e",
       "bb7fc99c-71ef-48e3-ac1a-3ebafcd9f3ed",
       "eeac1757-5f20-4379-95f2-0d0cd151d5b8",
-      "efa900e1-3b09-453e-a4c2-ee672c2088f1",
-      "8340ec69-4cee-4fe1-ab96-4849154bc6db",
       "45336fff-9afd-4d92-ade2-c0b2b4186db6"
     ]
   },
   {
     "Id": "ee7fc2e1-a42d-452e-ab90-e8131b08a9b1",
-    "Title": "PowerPoint で共有して共同編集する",
+    "Title": "他のユーザーと共有して共同編集PowerPoint",
     "Image": "images/playlists/share_and_co-author.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2470,7 +2564,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
-    "Description": "プレゼンテーションの共有と共同編集、コメントの使用、プレゼンテーションの検査、および PowerPoint プレゼンテーションの PDF 形式での保存を行う",
+    "Description": "リアルタイムで他のユーザーと共有PowerPoint共同編集します。コメントの使用、プレゼンテーションの共有、プレゼンテーションをビデオとして保存、プレゼンテーションを検査して個人情報や機密情報を削除したり、プレゼンテーションを PDF として保存したりします。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2483,7 +2577,7 @@
   },
   {
     "Id": "24216b89-7d0d-4263-b61e-2ecbda58f1df",
-    "Title": "SharePoint Online クイック スタート",
+    "Title": "SharePointオンライン クイック スタート",
     "Image": "images/playlists/sharepoint_online_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2491,7 +2585,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "e5e2ae74-20ff-4626-937d-df4ff3405f29",
-    "Description": "イントラネット サイトの構築とカスタマイズ、他のユーザーとの共同作業、ワークフローを使用した毎日の日常業務の管理、情報の保存を行う",
+    "Description": "Word クイック スタート ガイドをすぐに使い始めましょう。SharePoint へのサインイン、ニュースや情報の検索と検出、サイトの検索、サイトの作成、リストまたはドキュメント ライブラリの追加、フィルターを使用した表示の変更、ページの追加、Web パーツの追加、他のユーザーとの共同作業、ドキュメント ライブラリからのドキュメントの開き、ドキュメントの共有、コンピューターへのファイルの同期、モバイル アプリの設定を行う方法について説明します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2504,7 +2598,7 @@
   },
   {
     "Id": "4d722e7d-6cb1-4399-998d-6f8645f63ffa",
-    "Title": "SharePoint Online の概要",
+    "Title": "SharePoint Online のイントロ",
     "Image": "images/playlists/intro_to_sharepoint_online.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2512,7 +2606,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "e5e2ae74-20ff-4626-937d-df4ff3405f29",
-    "Description": "サイトを学習してフォローを行い、モバイルで接続を維持する",
+    "Description": "SharePoint Online のこのイントロトロでは、SharePoint を使用してイントラネット サイト、ページ、ドキュメント ライブラリとリストを作成し、サイトとニュースを検索してフォローし、モバイルで接続を続け続けする方法について説明します。その方法については、このビデオ トレーニングをご覧ください。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2523,7 +2617,7 @@
   },
   {
     "Id": "d542016a-fdf9-4c8e-b4ea-eed1afc7df93",
-    "Title": "サイト、投稿、およびリストを作成する",
+    "Title": "サイト、投稿、リストを作成する",
     "Image": "images/playlists/create_sites_posts_and_lists.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2531,7 +2625,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "e5e2ae74-20ff-4626-937d-df4ff3405f29",
-    "Description": "チーム サイトを作成して接続を維持してコミュニケーションを取り、リストを更新し、ニュース投稿を追加または削除し、Web パーツを追加する",
+    "Description": "SharePoint Online でサイト、投稿、リストを作成して、チームまたは組織に接続します。チーム サイトまたはコミュニケーション サイトの注意、サイト上のニュース、アクティビティ、ドキュメントの探索、リストの使用、フィルター、更新を行って、チームの追跡を維持し、ニュース投稿を追加または削除し、アイデアや情報をチームに伝えるページを作成します。その方法については、このビデオ トレーニングをご覧ください。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2544,7 +2638,7 @@
   },
   {
     "Id": "6601f080-d86a-4d0c-9e60-150746bf8f96",
-    "Title": "SharePoint で共有して同期する",
+    "Title": "共有と同期を行SharePoint",
     "Image": "images/playlists/sharepoint_online_share_and_sync.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2552,7 +2646,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "e5e2ae74-20ff-4626-937d-df4ff3405f29",
-    "Description": "作成、共有、SharePoint ファイル",
+    "Description": "ファイルの作成、共有、SharePointする",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2572,7 +2666,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "92083395-06d0-433f-ba0d-77c958d853b7",
-    "Description": "Sway での作成、コンテンツの追加、デザインと共有、詳細情報",
+    "Description": "Sway での作成、コンテンツの追加、デザインと共有、詳細",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2592,7 +2686,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "92083395-06d0-433f-ba0d-77c958d853b7",
-    "Description": "Sway の共有、パスワードの追加、プライバシーの設定とアクセシビリティ機能の確認、キーボード ショートカットの確認を行う",
+    "Description": "Sway を共有してアクセスする方法について学習します。Sway を共有する方法、パスワードを追加する方法、プライバシー設定を設定する方法、アクセシビリティ機能を使用して Sway をアクセシビリティ対応にする方法、Sway のキーボード ショートカットについて説明します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2613,7 +2707,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "92083395-06d0-433f-ba0d-77c958d853b7",
-    "Description": "Sway の共有、パスワードの追加、プライバシーの設定とアクセシビリティ機能の確認、キーボード ショートカットの確認を行う",
+    "Description": "Sway にコンテンツを追加する方法について学習します。Sway へのコンテンツのインポート、コンテンツの検索、ビデオファイルとオーディオ ファイルの追加、Sway への Office ファイル、フォーム、その他のコンテンツの埋め込み、フォーカス ポイントの追加、カードのコピーと貼り付け、QuickStarter を使用して Sway をすばやく作成します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2640,7 +2734,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "92083395-06d0-433f-ba0d-77c958d853b7",
-    "Description": "Sway でのコンテンツの追加または削除、管理者の設定の確認、ファイル サイズの制限、よく寄せられる質問",
+    "Description": "Sway をカスタマイズして Sway 情報フッターを削除する、管理者設定を使用する、ファイル サイズの制限を参照する、よく寄せられる質問の回答、Sway の管理者向けヘルプを参照する。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2661,7 +2755,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-    "Description": "Word でページをレイアウトするための便利なオプションがいくつかあります。余白の変更、ニュースレターの段組みの作成、ページの向きの変更、ページへの罫線の追加、ヘッダーまたはフッターの挿入、ページ番号の挿入、ページ区切りの挿入を行う方法について説明します。",
+    "Description": "Word クイック スタート ガイドをすぐに使い始めましょう。ドキュメントの作成、テキストの追加と書式設定、画像、図形、SmartArt、グラフの追加、OneDrive への文書の保存、スタイルとテーマを使用したデザインと編集、スペル チェックと文章校正、テキストの検索と置換、文書の共有、他のユーザーとの共同作業、変更の追跡とレビュー、モバイル アプリの設定を行う方法について学習します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2682,7 +2776,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-    "Description": "文書の作成と書式設定、変更履歴の記録、他のユーザーとの共同作業を行う",
+    "Description": "この Word の紹介では、文書を作成し、Word を使用して変更を確認および追跡する方法、エディターを使用してスペル チェック、文章校正、文章校正を行う方法、文書を OneDrive に保存してコンピューター、タブレット、電話からファイルにアクセスする方法、他のユーザーとチャット、コメント、共同作業を行う作業を共有する方法について説明します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2692,7 +2786,7 @@
   },
   {
     "Id": "f74d0622-642d-4f98-906f-2960a2c05d31",
-    "Title": "Word での書き込みと編集",
+    "Title": "Word で書き込みと編集を行う",
     "Image": "images/playlists/write_and_edit.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2700,7 +2794,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-    "Description": "Word でテキストを追加、置換、書式設定するハイパーリンクを挿入および削除して、単語数を表示する",
+    "Description": "この記事で書き込みをMicrosoft Word。テキストの追加と編集、テキストの検索と置換、文章校正とスペル チェック、単語数の表示、ハイパーリンクの挿入と削除を行う方法について学習します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2722,8 +2816,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-    "Description": "ニュースレターの列の作成、印刷の向きの変更、枠線、ヘッダー、フッターの追加、ページ区切り、段落番号の挿入、目次の作成を行う",
-    "StatusTagId": "",
+    "Description": "Word でページをレイアウトするには、いくつかの便利なオプションがあります。余白の変更、ニュースレターの列の作成、ページの向きの変更、ページへの罫線の追加、ヘッダーまたはフッターの挿入、ページ番号の挿入、およびページ切り替えの挿入を行う方法について学習します。",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "c95c1ea1-70b1-4dde-a1da-f5aa2042c829",
@@ -2746,7 +2840,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-    "Description": "表、画像、アイコン、ワードアート、透かしを挿入する画像を回転させて、画像の周囲でテキストを折り返す方法について説明します。",
+    "Description": "Word に表、画像、透かしを挿入する方法を説明します。 表を作成し、画像を追加し、アイコンやワード アートを挿入し、定規を表示または非表示にし、画像または図形を回転させ、画像の周りにテキストを折り返します。",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
@@ -2770,7 +2864,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-    "Description": "文書を PDF に保存、印刷、または変換します。封筒とラベルを印刷します。",
+    "Description": "Word で保存して印刷する方法について学習します。OneDrive にファイルを保存すると、どこからでもファイルにアクセスしたり、Word 文書を PDF に変換または保存したり、PDF を編集したり、文書を印刷したり、封筒を印刷したり、ラベルを作成して印刷したり、または、メール リストのラベルを印刷したりすることができます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2785,7 +2879,7 @@
   },
   {
     "Id": "fb5155d7-a802-4e95-b1ce-f8baea8cb44b",
-    "Title": "Word で共有して共同編集する",
+    "Title": "Word で共有と共同編集を行う",
     "Image": "images/playlists/share_and_coauthor.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2793,7 +2887,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-    "Description": "コメントを追加したり、変更を追跡したりして、Word で共同作業します。Word をモバイル デバイスで使用します。",
+    "Description": "Word で共有と共同編集を行う方法について学習します。文書の共有、Word 文書での他のユーザーとの共同作業、コメントの挿入または削除、変更の追跡、変更の確認と承諾、モバイル デバイスでの単語の使用を行います。その方法については、このビデオ トレーニングをご覧ください。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2807,7 +2901,7 @@
   },
   {
     "Id": "26aa6ac6-24aa-43c5-ad1c-d93359ab3674",
-    "Title": "レポートで Word を使用する",
+    "Title": "Word をレポートに使用する",
     "Image": "images/playlists/use_word_for_school.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2815,7 +2909,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-    "Description": "Word で演算式または数式の入力、段落のインデント、行の挿入、文献目録の作成、脚注と文末脚注の挿入を行う",
+    "Description": "Word で数式または数式を記述する、段落のインデントを設定する、行を挿入する、文献目録を作成する、脚注と文末脚注を挿入する",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2836,8 +2930,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-    "Description": "Word をアクセシビリティ対応にする方法:スクリーン リーダー、ショートカット、操作アシストを使用する",
-    "StatusTagId": "",
+    "Description": "Word でアクセシビリティと使いやすさを向上させる方法について学習します。スクリーン リーダーを使用し、ラーニング Tools を使用して読み流しや理解を支援し、アクセシビリティ チェックを使用してドキュメントをアクセシビリティ対応にし、タスクをすばやく実行するためのキーボード ショートカットを学習します。",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "303eb71a-6bd8-474c-ba06-923e93347224",
@@ -2848,7 +2942,7 @@
   },
   {
     "Id": "2885901b-1655-4311-a7f9-025852a659e4",
-    "Title": "Word でテキストを追加し、書式設定する",
+    "Title": "Word でテキストを追加して書式設定する",
     "Image": "images/playlists/word_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2856,7 +2950,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-    "Description": "テキストの書式設定、箇条書きまたは番号付きリストの作成、Word での行間隔の変更、スタイルの適用、テーマの適用を行う方法の詳細",
+    "Description": "Word でテキストの書式を設定する方法について学習します。フォント、フォント サイズ、フォントの色、書式のコピー/貼り付けによる書式設定のコピー、箇条書きまたは段落番号の作成、行間の変更、スタイルとテーマの適用を行って、Word 文書のデザインを視覚的に強化します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2897,7 +2991,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "e83da7d3-653c-4c01-a262-336e07b88aba",
-    "Description": "Yammer を展開するための戦略を計画し、Yammer の使用例を特定し、Yammer の使用例のコミュニティを作成して、導入の準備をします。導入後は、ユーザーを教育し、Yammer の継続的な使用を促進し、Yammer を SharePoint に統合します。",
+    "Description": "これらのヒントやベスト プラクティスを参考にして、Yammer ネットワークのロールアウトを成功させましょう。Yammer の概要、戦略の計画、Yammer ネットワークのカスタマイズ、適切なユース ケースの特定、コミュニティの作成、開始の準備、ユーザーへの教育、継続的な使用の推進、Teams、SharePoint Online、Outlook などへの Yammer の統合、成功の測定などです。",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
@@ -2923,7 +3017,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "e83da7d3-653c-4c01-a262-336e07b88aba",
-    "Description": "Yammer を毎日使用して、重要事項を把握し、他のユーザーの知識に触れて、既存の作業に活かします。プロファイルと設定を変更する方法、Yammer の会話を開始する方法、Yammer コミュニティに参加する方法、Yammer の通知とアナウンスを管理する方法、Yammer のベストプラクティスに従って Yammer を仕事の重要な部分にする方法について説明します。",
+    "Description": "Yammer を日常的に使用して、組織内の人、リーダー、コミュニティとの交流を深め、知識を共有する方法について説明します。Yammer の概要を理解し、Yammer のプロファイルと設定の変更、会話の開始、投稿の操作、ファイルの添付、コミュニティの検出と参加、通知を使用したつながりの維持、お知らせの操作を行い、Yammer を最大限に活用するためのヒントとベスト プラクティスについて学びます。",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
@@ -2937,7 +3031,7 @@
   },
   {
     "Id": "d4df5f82-2049-4c03-aab3-50e5a2dc8ad2",
-    "Title": "新機能、変更内容",
+    "Title": "新機能、変更された機能",
     "Image": "images/playlists/set-up-Microsoft-365-learning-pathway.png",
     "LevelId": "ab49a955-3814-41fa-aa33-1b2757bc28ea",
     "AudienceId": "9fcd26c3-bcca-4452-a40a-f87e0daed348",
@@ -2945,7 +3039,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
-    "Description": "Microsoft 365 学習経路の最新の更新の新機能/変更内容を確認する",
+    "Description": "学習経路の最新の更新プログラムの新機能/変更Microsoft 365確認する",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2965,7 +3059,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
-    "Description": "学習経路コンテンツおよびコンテンツ タイプを確認します。組織に最適なものを決定します。",
+    "Description": "[パスラーニングコンテンツとコンテンツ タイプ] を確認します。組織に対して機能する機能を決定します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2983,7 +3077,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
-    "Description": "学習経路サイトをカスタマイズする方法、コンテンツを非表示にする方法、およびカスタム再生リストを作成する方法について説明します。",
+    "Description": "ラーニングパスウェイ サイトをカスタマイズする方法、コンテンツを非表示および表示する方法、カスタムプレイリストを作成する方法について説明します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2999,7 +3093,7 @@
   },
   {
     "Id": "66f9b195-d48e-49e3-bb0e-1848a49b1351",
-    "Title": "導入の促進",
+    "Title": "導入を推進する",
     "Image": "images/playlists/drive-adoption-of-learning-pathways.png",
     "LevelId": "ab49a955-3814-41fa-aa33-1b2757bc28ea",
     "AudienceId": "9fcd26c3-bcca-4452-a40a-f87e0daed348",
@@ -3007,7 +3101,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
-    "Description": "学習経路の導入を促進するためのリソースとベスト プラクティスを発見する",
+    "Description": "ラーニング Pathways の導入を促進するためのリソースとベスト プラクティスを発見する",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -3016,7 +3110,7 @@
   },
   {
     "Id": "08365272-6868-4482-9384-b720d0121533",
-    "Title": "効果を測定する",
+    "Title": "影響を測定する",
     "Image": "images/playlists/measure-your-impact.png",
     "LevelId": "ab49a955-3814-41fa-aa33-1b2757bc28ea",
     "AudienceId": "9fcd26c3-bcca-4452-a40a-f87e0daed348",
@@ -3024,7 +3118,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
-    "Description": "管理者は、SharePoint に組み込まれているサイトの使用状況レポート機能を活用して、Microsoft 365 ラーニング パスの組織的な影響を評価する必要があります。",
+    "Description": "管理者は、SharePointの組み込みサイト使用状況レポート機能を利用して、学習経路の組織への影響Microsoft 365する必要があります。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
