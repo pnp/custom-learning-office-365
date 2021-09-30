@@ -1,5 +1,269 @@
 [
   {
+    "Id": "0849ef75-564f-450a-93e5-b27508d81c53",
+    "Title": "Get started",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/0849ef75-564f-450a-93e5-b27508d81c53?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "1539f168-f27c-4215-9319-a5fafd76eec6",
+    "Title": "Use more accessible colors and styles in slides",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/65c8c964-9449-4b5f-88ea-e226abd68337?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "20a02e3c-437e-4ab2-8441-9f902e78c675",
+    "Title": "Create more accessible slides",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/794fc5da-f686-464d-8c29-1c6ab8515465?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "5bec897f-4e36-43f8-9d9d-c41cb4917d9c",
+    "Title": "Comment",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/5bec897f-4e36-43f8-9d9d-c41cb4917d9c?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "5c882b54-d2b1-4270-b65d-79483a2aa3ca",
+    "Title": "Create accessible file names",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/4e73d73a-aedc-47af-88e4-8f2375a69fad?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "651e1cb9-9a51-46dc-8d32-bdb7d928eedd",
+    "Title": "Share",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/651e1cb9-9a51-46dc-8d32-bdb7d928eedd?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "6596fb5a-c25e-4dcb-b034-7cb38b611e38",
+    "Title": "Improve heading accessibility",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/68f1eeff-6113-410f-8313-b5d382cc3be1?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "727e6ff1-ef1c-475d-90d0-196e26b5b753",
+    "Title": "Create accessible links",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/28305cc8-3be2-417c-a313-dc22082d1ee0?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "80640ac4-b009-42ea-abcb-660e729e63e5",
+    "Title": "Meet",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/80640ac4-b009-42ea-abcb-660e729e63e5?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "8b97437b-107f-43e5-8280-17ac317995fa",
+    "Title": "Start with an accessible Excel template",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/918db751-1585-41c5-9ddf-5d7a0915afaf?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "8e7eadca-6501-4ac5-b616-f94c2c491629",
+    "Title": "Save a presentation in a different format",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/37d012a1-2b59-4ff7-b6d3-71b850ea7a5d?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "908d26b8-0c45-44c1-9a83-b8ff583aa4ef",
+    "Title": "Create more accessible tables in Excel",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/86e50f77-0f15-4537-ab1d-62d0e4cd5645?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "9420d2d8-f04d-4d00-b852-2d846dbedfe9",
+    "Title": "Improve accessibility with alt text",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/9c57ee44-bb48-40e3-aad4-7647fc1dba51?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "9f920424-7de6-4002-b4ed-6503a3cfae2d",
+    "Title": "Create accessible tables",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/cb464015-59dc-46a0-ac01-6217c62210e5?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "a02cbbff-d56f-477d-bd8b-d485408ae5eb",
+    "Title": "Design slides for people with dyslexia",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/a2158953-84d7-4894-8f6c-1c9968709041?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "b6826ecd-5865-4db4-a8e7-f5a33d2799b5",
+    "Title": "Improve image accessibility in email",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/e93969e3-21c1-47ad-a4c5-0e5fb868a7f8?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "b85eef71-e96b-4325-9501-228588728bc9",
+    "Title": "Co-author",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/b85eef71-e96b-4325-9501-228588728bc9?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "ce53495d-c30e-442a-b1d2-05593cc814c0",
+    "Title": "Check document accessibility",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/9d660cba-1fcd-45ad-a9d1-c4f4b5eb5b7d?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "cf26a4a6-00e5-4ef4-98c5-cec5bf441da6",
+    "Title": "Mobile",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/cf26a4a6-00e5-4ef4-98c5-cec5bf441da6?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "d47b9703-df15-4a41-b895-e97729062e23",
+    "Title": "Creating accessible documents",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/8d720231-495a-489c-a27a-eaf98f85c4f3?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "d8de6398-e129-4019-8b34-b241e164456a",
+    "Title": "Improve email accessibility",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/ebf3730a-18f8-4b57-81d1-730086231775?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "e4ebc1c2-4781-4201-b6a6-bd3b02c25197",
+    "Title": "Add accessible tables and lists to email",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/dcaa9ca4-be57-4499-8af7-56409ab73b18?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "e69562f7-e875-485d-839b-cb66b5d98023",
+    "Title": "Create more accessible charts in Excel",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/19e81ce7-88af-4a3f-a4ef-a26c344527b3?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "ebbbe5e7-a950-46b8-b63a-738a87b5a49a",
+    "Title": "Improve image accessibility in PowerPoint",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/2e7fdfc4-1fa5-4092-be4b-8a4ca592197c?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
     "Id": "20437c9e-d618-4a76-a957-9ad3e9fe6824",
     "Title": "Share a list or list item",
     "Description": "",
@@ -99,17 +363,6 @@
     "StatusNote": ""
   },
   {
-    "Id": "1539f168-f27c-4215-9319-a5fafd76eec6",
-    "Title": "Use more accessible colors and styles in slides",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/65c8c964-9449-4b5f-88ea-e226abd68337?embed=true",
-    "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
     "Id": "191f671d-bed9-4b80-924a-8e64aae73858",
     "Title": "Get accessible templates for Office",
     "Description": "",
@@ -121,197 +374,10 @@
     "StatusNote": ""
   },
   {
-    "Id": "20a02e3c-437e-4ab2-8441-9f902e78c675",
-    "Title": "Create more accessible slides",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/794fc5da-f686-464d-8c29-1c6ab8515465?embed=true",
-    "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "5c882b54-d2b1-4270-b65d-79483a2aa3ca",
-    "Title": "Create accessible file names",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/4e73d73a-aedc-47af-88e4-8f2375a69fad?embed=true",
-    "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "6596fb5a-c25e-4dcb-b034-7cb38b611e38",
-    "Title": "Improve heading accessibility",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/68f1eeff-6113-410f-8313-b5d382cc3be1?embed=true",
-    "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "727e6ff1-ef1c-475d-90d0-196e26b5b753",
-    "Title": "Create accessible links",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/28305cc8-3be2-417c-a313-dc22082d1ee0?embed=true",
-    "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
     "Id": "7ee9113e-bde4-4381-aa28-e3963c4ddf05",
     "Title": "Use the Accessibility Checker",
     "Description": "",
     "Url": "https://support.office.com/en-us/client/38059c2d-45ef-4830-9797-618f0e96f3ab?embed=true",
-    "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "8b97437b-107f-43e5-8280-17ac317995fa",
-    "Title": "Start with an accessible Excel template",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/918db751-1585-41c5-9ddf-5d7a0915afaf?embed=true",
-    "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "8e7eadca-6501-4ac5-b616-f94c2c491629",
-    "Title": "Save a presentation in a different format",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/37d012a1-2b59-4ff7-b6d3-71b850ea7a5d?embed=true",
-    "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "908d26b8-0c45-44c1-9a83-b8ff583aa4ef",
-    "Title": "Create more accessible tables in Excel",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/86e50f77-0f15-4537-ab1d-62d0e4cd5645?embed=true",
-    "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "9420d2d8-f04d-4d00-b852-2d846dbedfe9",
-    "Title": "Improve accessibility with alt text",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/9c57ee44-bb48-40e3-aad4-7647fc1dba51?embed=true",
-    "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "9f920424-7de6-4002-b4ed-6503a3cfae2d",
-    "Title": "Create accessible tables",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/cb464015-59dc-46a0-ac01-6217c62210e5?embed=true",
-    "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "a02cbbff-d56f-477d-bd8b-d485408ae5eb",
-    "Title": "Design slides for people with dyslexia",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/a2158953-84d7-4894-8f6c-1c9968709041?embed=true",
-    "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "b6826ecd-5865-4db4-a8e7-f5a33d2799b5",
-    "Title": "Improve image accessibility in email",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/e93969e3-21c1-47ad-a4c5-0e5fb868a7f8?embed=true",
-    "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "ce53495d-c30e-442a-b1d2-05593cc814c0",
-    "Title": "Check document accessibility",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/9d660cba-1fcd-45ad-a9d1-c4f4b5eb5b7d?embed=true",
-    "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "d47b9703-df15-4a41-b895-e97729062e23",
-    "Title": "Creating accessible documents",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/8d720231-495a-489c-a27a-eaf98f85c4f3?embed=true",
-    "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "d8de6398-e129-4019-8b34-b241e164456a",
-    "Title": "Improve email accessibility",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/ebf3730a-18f8-4b57-81d1-730086231775?embed=true",
-    "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "e4ebc1c2-4781-4201-b6a6-bd3b02c25197",
-    "Title": "Add accessible tables and lists to email",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/dcaa9ca4-be57-4499-8af7-56409ab73b18?embed=true",
-    "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "e69562f7-e875-485d-839b-cb66b5d98023",
-    "Title": "Create more accessible charts in Excel",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/19e81ce7-88af-4a3f-a4ef-a26c344527b3?embed=true",
-    "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "ebbbe5e7-a950-46b8-b63a-738a87b5a49a",
-    "Title": "Improve image accessibility in PowerPoint",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/2e7fdfc4-1fa5-4092-be4b-8a4ca592197c?embed=true",
     "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -495,6 +561,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "260a0f94-239a-4d85-8b5d-c8f99806bcd7",
+    "Title": "Sign In",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/260a0f94-239a-4d85-8b5d-c8f99806bcd7?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
     "Id": "28f55993-d023-4604-b688-584b3a451d52",
     "Title": "Set document recovery options",
     "Description": "",
@@ -649,6 +726,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "3eb2554d-a4e0-4ae4-9609-1c06913127e1",
+    "Title": "Using Office.com apps",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/4e035176-eec1-400c-a10e-d6605cb873b6?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
     "Id": "3f008f2a-c7f2-4183-8635-61375cef1062",
     "Title": "Best practices for collaborating: Co-author",
     "Description": "",
@@ -704,6 +792,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "4ca4f40e-f9ee-4554-aa6d-e00687977875",
+    "Title": "Create and edit files",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/4ca4f40e-f9ee-4554-aa6d-e00687977875?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
     "Id": "500d26ea-1f1f-4b6c-a2b7-a44213fca4ec",
     "Title": "Create in Microsoft 365 for business",
     "Description": "",
@@ -730,6 +829,17 @@
     "Title": "Move, resize, and rotate pictures",
     "Description": "",
     "Url": "https://support.office.com/en-us/client/5084480d-5ee5-4a39-8ae2-64bb14a732a0?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
+    "Id": "519ad2a0-9b74-49bb-97ee-0d4c4494a7c5",
+    "Title": "Meet in a channel",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/519ad2a0-9b74-49bb-97ee-0d4c4494a7c5?embed=true",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -1001,6 +1111,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "8c490008-3fb1-41b4-8152-6266b4474b05",
+    "Title": "Turn a file into a tab",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/8c490008-3fb1-41b4-8152-6266b4474b05?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
     "Id": "8c6377a1-ed45-498e-80dc-635a6ae34547",
     "Title": "View files in split and multiple windows",
     "Description": "",
@@ -1016,6 +1137,17 @@
     "Title": "Add links in a file",
     "Description": "",
     "Url": "https://support.office.com/en-us/client/9232f21b-0dd2-4b4c-bbed-4a27492b9fb2?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
+    "Id": "93123baa-08fc-408d-af15-a6a87e7b545f",
+    "Title": "Collaborate",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/54db9080-d29f-40d1-9f15-fb6c45952e8f?embed=true",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -1079,7 +1211,7 @@
   },
   {
     "Id": "9ad29dda-f690-4b4a-b47f-5d2b5f478dc0",
-    "Title": "Sort table contents",
+    "Title": "Sort table of contents",
     "Description": "",
     "Url": "https://support.office.com/en-us/client/9ad29dda-f690-4b4a-b47f-5d2b5f478dc0?embed=true",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -1166,6 +1298,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "b2ffb135-7069-4880-84ee-5b27f402418b",
+    "Title": "Get attention with @mentions",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/b2ffb135-7069-4880-84ee-5b27f402418b?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
     "Id": "b422f96b-2363-431c-adbb-e904c5a1ab21",
     "Title": "Real world guidance for your Champion program",
     "Description": "",
@@ -1225,6 +1368,17 @@
     "Title": "Recover Office files",
     "Description": "",
     "Url": "https://support.office.com/en-us/client/ba0f45dd-02e3-4c3e-884b-15ca26aa02e8?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
+    "Id": "bc428cc5-9ea2-4be5-87b1-ba434481b964",
+    "Title": "Move around during a Teams meeting",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/bc428cc5-9ea2-4be5-87b1-ba434481b964?embed=true",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -1309,6 +1463,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "cddec4f8-b8ca-496f-af33-800d9cdcc15c",
+    "Title": "Using the Desktop Apps",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/16ccf5c7-7bba-4c8b-a712-45698b761fa8?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
     "Id": "d23cc86c-bbd9-4e0b-b821-16ff90970d3e",
     "Title": "Change document properties",
     "Description": "",
@@ -1386,6 +1551,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "e9f31b53-f1b1-407f-8cd6-6cda93fe23be",
+    "Title": "Discover and search in Yammer",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/e9f31b53-f1b1-407f-8cd6-6cda93fe23be?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
     "Id": "f03bf006-3d66-4fad-8adc-9e7919161b05",
     "Title": "Import a chart",
     "Description": "",
@@ -1423,6 +1599,28 @@
     "Title": "Sign in to Office",
     "Description": "",
     "Url": "https://support.office.com/en-us/client/f374bfd7-a280-4dae-9274-fbe1b3c04593?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
+    "Id": "f4b41dc8-339c-4653-9f41-328324656f61",
+    "Title": "Save files to the cloud",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/2b46d39f-84e9-496b-be5d-82301a176e2c?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "f4e556cc-c893-4a34-b198-b6fc98396823",
+    "Title": "Sync with OneDive Files On Demand",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/f4e556cc-c893-4a34-b198-b6fc98396823?embed=true",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -1525,7 +1723,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": ""
   },
   {
@@ -1673,13 +1871,13 @@
   },
   {
     "Id": "5bb888e7-0f8f-4d94-a7e1-6d1ccb250ded",
-    "Title": "Create a table of contents",
+    "Title": "Insert a Table of Contents",
     "Description": "",
-    "Url": "https://support.office.com/en-us/client/5bb888e7-0f8f-4d94-a7e1-6d1ccb250ded?embed=true",
+    "Url": "https://support.office.com/en-us/client/882e8564-0edb-435e-84b5-1d8552ccf0c0?embed=true",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": ""
   },
   {
@@ -1965,7 +2163,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": ""
   },
   {
@@ -2086,7 +2284,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": ""
   },
   {
@@ -2541,39 +2739,6 @@
     "StatusNote": ""
   },
   {
-    "Id": "152146fb-0400-45fb-913d-98761810aea4",
-    "Title": "Add folders & groups to Favorites",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/450021d7-0035-4276-8817-351cf2f493d2?embed=true",
-    "TechnologyId": "3edeb182-3828-4a83-aef9-928a2693e288",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "1f238e49-2699-4ff7-b992-3b1b0f35297b",
-    "Title": "Learn about contacts",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/72518d01-9739-435a-8722-0da211a885b1?embed=true",
-    "TechnologyId": "3edeb182-3828-4a83-aef9-928a2693e288",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "20ec8c7f-3109-4be6-ae14-10dd7ba7e99b",
-    "Title": "Favorite contacts & set notifications",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/d7cce114-3f45-4d33-8683-af4f303d6e2d?embed=true",
-    "TechnologyId": "3edeb182-3828-4a83-aef9-928a2693e288",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
     "Id": "2163e940-2b8a-45ae-937e-5c4460a43839",
     "Title": "Search email attachments",
     "Description": "",
@@ -2651,17 +2816,6 @@
     "StatusNote": ""
   },
   {
-    "Id": "7fa421df-1bdf-4374-84e8-a8d45307020e",
-    "Title": "Use @mentions",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/ae422550-c61b-4daf-897b-748abe92e31f?embed=true",
-    "TechnologyId": "3edeb182-3828-4a83-aef9-928a2693e288",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
     "Id": "82fa4ae4-e978-4603-8460-a6293eacd38b",
     "Title": "Outlook training",
     "Description": "",
@@ -2677,17 +2831,6 @@
     "Title": "RSVP to invites instantly",
     "Description": "",
     "Url": "https://support.office.com/en-us/client/f42861b5-ac25-4887-af57-c80efc8ea3d9?embed=true",
-    "TechnologyId": "3edeb182-3828-4a83-aef9-928a2693e288",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "871a7381-5154-4a9d-83df-d59476b7139a",
-    "Title": "Scan or tap to add contacts",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/4818ef14-0fc8-4ec2-bb4d-440ea8cae17b?embed=true",
     "TechnologyId": "3edeb182-3828-4a83-aef9-928a2693e288",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3241,7 +3384,7 @@
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": ""
   },
   {
@@ -3290,9 +3433,9 @@
   },
   {
     "Id": "65dacbfb-8aec-496e-b9a1-d96cfa86fb52",
-    "Title": "Add speaker notes",
+    "Title": "Add speaker notes to your slides",
     "Description": "",
-    "Url": "https://support.office.com/en-us/client/65dacbfb-8aec-496e-b9a1-d96cfa86fb52?embed=true",
+    "Url": "https://support.office.com/en-us/client/26985155-35f5-45ba-812b-e1bd3c48928e?embed=true",
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3311,17 +3454,6 @@
     "StatusNote": ""
   },
   {
-    "Id": "6f37e08a-43a8-40fe-a1d3-3adf6c592fa9",
-    "Title": "Add a hyperlink to a slide",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/239c6c94-d52f-480c-99ae-8b0acf7df6d9?embed=true",
-    "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
-    "StatusNote": ""
-  },
-  {
     "Id": "7da68d81-eda5-441d-9948-883ba5fb95ae",
     "Title": "Add pictures to slides",
     "Description": "",
@@ -3334,9 +3466,9 @@
   },
   {
     "Id": "7db07067-4d78-40b5-bc87-5ff4f5ff6ff7",
-    "Title": "Add animations to slides",
+    "Title": "Animate text or objects",
     "Description": "",
-    "Url": "https://support.office.com/en-us/client/7db07067-4d78-40b5-bc87-5ff4f5ff6ff7?embed=true",
+    "Url": "https://support.office.com/en-us/client/305a1c94-83b1-4778-8df5-fcf7a9b7b7c6?embed=true",
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3488,9 +3620,9 @@
   },
   {
     "Id": "ba919059-523d-40a8-b99c-08d18996c09d",
-    "Title": "Save presentations as videos",
+    "Title": "Save a presentation as a video",
     "Description": "",
-    "Url": "https://support.office.com/en-us/client/ba919059-523d-40a8-b99c-08d18996c09d?embed=true",
+    "Url": "https://support.office.com/en-us/client/2983c837-64de-40fe-9412-c1786d0d2ed2?embed=true",
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3516,7 +3648,7 @@
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": ""
   },
   {
@@ -3565,9 +3697,9 @@
   },
   {
     "Id": "e89a076e-ed81-404e-9598-021a918fa1ba",
-    "Title": "Add transitions between slides",
+    "Title": "Add, change, or remove transitions between slides",
     "Description": "",
-    "Url": "https://support.office.com/en-us/client/e89a076e-ed81-404e-9598-021a918fa1ba?embed=true",
+    "Url": "https://support.office.com/en-us/client/3f8244bf-f893-4efd-a7eb-3a4845c9c971?embed=true",
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3605,6 +3737,17 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "f37e08a-43a8-40fe-a1d3-3adf6c592fa9",
+    "Title": "Add a hyperlink to a slide",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/239c6c94-d52f-480c-99ae-8b0acf7df6d9?embed=true",
+    "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": ""
   },
   {
@@ -4484,7 +4627,7 @@
     "TechnologyId": "9c18d262-89c5-499b-be11-be58279c86bd",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -4495,7 +4638,7 @@
     "TechnologyId": "9c18d262-89c5-499b-be11-be58279c86bd",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -4528,7 +4671,7 @@
     "TechnologyId": "9c18d262-89c5-499b-be11-be58279c86bd",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -4550,7 +4693,7 @@
     "TechnologyId": "9c18d262-89c5-499b-be11-be58279c86bd",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -4591,6 +4734,17 @@
     "Title": "What is Access",
     "Description": "",
     "Url": "https://support.office.com/en-us/client/f2338765-ff59-4cfc-b8ba-74059fcb1874?embed=true",
+    "TechnologyId": "9c18d262-89c5-499b-be11-be58279c86bd",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "bb3a899a-3c49-4bfb-9cbc-b6eecd592b90",
+    "Title": "Create a database",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/f200d95b-e429-4acc-98c1-b883d4e9fc0a?embed=true",
     "TechnologyId": "9c18d262-89c5-499b-be11-be58279c86bd",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -4649,7 +4803,7 @@
     "TechnologyId": "9c18d262-89c5-499b-be11-be58279c86bd",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -4741,17 +4895,6 @@
     "StatusNote": ""
   },
   {
-    "Id": "4ca4f40e-f9ee-4554-aa6d-e00687977875",
-    "Title": "Create and edit files",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/4ca4f40e-f9ee-4554-aa6d-e00687977875?embed=true",
-    "TechnologyId": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
-    "StatusNote": ""
-  },
-  {
     "Id": "4efd5366-e471-4f9f-b7cf-a40f3e6f8f01",
     "Title": "Set up your mobile apps",
     "Description": "",
@@ -4815,17 +4958,6 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
-    "StatusNote": ""
-  },
-  {
-    "Id": "93123baa-08fc-408d-af15-a6a87e7b545f",
-    "Title": "Collaborate",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/54db9080-d29f-40d1-9f15-fb6c45952e8f?embed=true",
-    "TechnologyId": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -4936,17 +5068,6 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
-    "StatusNote": ""
-  },
-  {
-    "Id": "e9f31b53-f1b1-407f-8cd6-6cda93fe23be",
-    "Title": "Discover and search in Yammer",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/e9f31b53-f1b1-407f-8cd6-6cda93fe23be?embed=true",
-    "TechnologyId": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -5309,18 +5430,7 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "0d231dd0-3e6a-4a7c-a384-04ac44e80807",
-    "Title": "Meet in a channel",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/519ad2a0-9b74-49bb-97ee-0d4c4494a7c5?embed=true",
-    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
-    "SubjectId": "615f17eb-2c5b-4494-8541-4304435ca306",
-    "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": ""
   },
   {
@@ -5354,6 +5464,17 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "10b2e2a2-c6e7-4905-9c2d-648e26c957ea",
+    "Title": "Schedule a webinar",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/10b2e2a2-c6e7-4905-9c2d-648e26c957ea?embed=true",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "615f17eb-2c5b-4494-8541-4304435ca306",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -5401,17 +5522,6 @@
     "StatusNote": ""
   },
   {
-    "Id": "206edfa2-2978-4b03-9eec-4d06f33de166",
-    "Title": "Get attention with @mentions",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/b2ffb135-7069-4880-84ee-5b27f402418b?embed=true",
-    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
     "Id": "22c40436-db14-4863-93c6-aa9a51134edd",
     "Title": "Move around during a Teams meeting",
     "Description": "",
@@ -5441,7 +5551,7 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -5529,7 +5639,7 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": ""
   },
   {
@@ -5544,6 +5654,28 @@
     "StatusNote": ""
   },
   {
+    "Id": "425d6970-6e27-47b6-bc61-4c38fff51c4f",
+    "Title": "Overview of Teams calls",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/425d6970-6e27-47b6-bc61-4c38fff51c4f?embed=true",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "42d4e852-8e99-4d8f-9b70-d7fc93973cb5",
+    "Title": "What is Bookings?",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/42d4e852-8e99-4d8f-9b70-d7fc93973cb5?embed=true",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "43e3e7df-9e45-4521-bbec-e0be6c812ffb",
     "Title": "What is Shifts?",
     "Description": "",
@@ -5555,14 +5687,14 @@
     "StatusNote": ""
   },
   {
-    "Id": "4c0ef9a7-0c3e-4a95-aaea-f52f2f81ecbc",
-    "Title": "Turn a file into a tab",
+    "Id": "4fe74e73-e12d-4c67-8cba-d06ce8e48c24",
+    "Title": "Create a channel",
     "Description": "",
-    "Url": "https://support.office.com/en-us/client/8c490008-3fb1-41b4-8152-6266b4474b05?embed=true",
+    "Url": "https://support.office.com/en-us/client/4fe74e73-e12d-4c67-8cba-d06ce8e48c24?embed=true",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -5596,6 +5728,17 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "6c579f61-8adb-4514-9458-021de2023fa0",
+    "Title": "Add staff and view a calendar",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/6c579f61-8adb-4514-9458-021de2023fa0?embed=true",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -5639,7 +5782,7 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -5698,14 +5841,36 @@
     "StatusNote": ""
   },
   {
+    "Id": "7d281bf2-4e60-42ea-afc3-e472dd20c93d",
+    "Title": "Create approvals with templates",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/7d281bf2-4e60-42ea-afc3-e472dd20c93d?embed=true",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "7eb9c719-9452-4a9a-b3b6-69f48149ba1c",
-    "Title": "Create instant meetings with Meet now",
+    "Title": "Meet instantly",
     "Description": "",
     "Url": "https://support.office.com/en-us/client/26e06837-853d-4df1-a729-06bf700d4ecf?embed=true",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "615f17eb-2c5b-4494-8541-4304435ca306",
     "Source": "Microsoft",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusNote": ""
+  },
+  {
+    "Id": "810eac77-6a65-4dc8-964d-c00eadf43887",
+    "Title": "Create an appointment type",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/810eac77-6a65-4dc8-964d-c00eadf43887?embed=true",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -5727,7 +5892,7 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -5735,6 +5900,17 @@
     "Title": "Join a Teams meeting",
     "Description": "",
     "Url": "https://support.office.com/en-us/client/078e9868-f1aa-4414-8bb9-ee88e9236ee4?embed=true",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "921cfd26-a24d-4aca-9004-561594112148",
+    "Title": "Create a Bookings calendar",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/921cfd26-a24d-4aca-9004-561594112148?embed=true",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -5753,6 +5929,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "944b2b8b-f840-44a4-a83d-53ef71b92c1f",
+    "Title": "Create org-wide templates",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/944b2b8b-f840-44a4-a83d-53ef71b92c1f?embed=true",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "94d98315-06e7-454c-819d-d5991408bb04",
     "Title": "Use the command box",
     "Description": "",
@@ -5761,6 +5948,17 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "95cea12d-2220-421f-a663-6efb20913c7f",
+    "Title": "Join a Bookings appointment",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/95cea12d-2220-421f-a663-6efb20913c7f?embed=true",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -5782,7 +5980,7 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -5801,6 +5999,17 @@
     "Title": "Post a message to multiple channels",
     "Description": "",
     "Url": "https://support.office.com/en-us/client/2cdaa17e-d548-46e7-907d-4e50b7e8f8b9?embed=true",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "a86a4007-e26c-4909-9893-f7036e2747cd",
+    "Title": "Conduct a Bookings appointment",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/a86a4007-e26c-4909-9893-f7036e2747cd?embed=true",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -5848,7 +6057,7 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": ""
   },
   {
@@ -5867,6 +6076,17 @@
     "Title": "Create a Shifts schedule",
     "Description": "",
     "Url": "https://support.office.com/en-us/client/2b94ca38-36db-4a1c-8fee-f8f0fec9a984?embed=true",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "c33ecf9f-b745-4287-b104-ac69469745e0",
+    "Title": "Discover templates in Approvals",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/c33ecf9f-b745-4287-b104-ac69469745e0?embed=true",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -5924,6 +6144,17 @@
     "Url": "https://support.office.com/en-us/client/ba44d0fd-da3c-4541-a3eb-a868f5e2b137?embed=true",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "615f17eb-2c5b-4494-8541-4304435ca306",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "d3fb0e97-4afa-4919-86e8-021102ed5c2b",
+    "Title": "Tips for Teams calls",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/d3fb0e97-4afa-4919-86e8-021102ed5c2b?embed=true",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
@@ -5991,7 +6222,7 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -6079,7 +6310,7 @@
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": ""
   },
   {
@@ -6128,13 +6359,13 @@
   },
   {
     "Id": "2a065b67-f991-4d22-9fb6-5d3160acd23b",
-    "Title": "Ignore conversations",
+    "Title": "Ignore email conversations",
     "Description": "",
     "Url": "https://support.office.com/en-us/client/2a065b67-f991-4d22-9fb6-5d3160acd23b?embed=true",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": ""
   },
   {
@@ -6145,7 +6376,7 @@
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": ""
   },
   {
@@ -6194,13 +6425,13 @@
   },
   {
     "Id": "400d4d45-8e2d-46a2-8cb5-ddabf12489ed",
-    "Title": "Create and send email",
+    "Title": "Create, send, and reply to an email",
     "Description": "",
     "Url": "https://support.office.com/en-us/client/400d4d45-8e2d-46a2-8cb5-ddabf12489ed?embed=true",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": ""
   },
   {
@@ -6387,18 +6618,18 @@
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": ""
   },
   {
     "Id": "d32cd5ad-c7c5-49df-814d-4c17a5d3beb0",
-    "Title": "Sending and receiving attachments",
+    "Title": "Send and receive attachments",
     "Description": "",
     "Url": "https://support.office.com/en-us/client/d32cd5ad-c7c5-49df-814d-4c17a5d3beb0?embed=true",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": ""
   },
   {
@@ -6410,6 +6641,193 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "00cf7943-a9e1-975a-a33d-ac10ce454ca4",
+    "Title": "View and delete browser history in Microsoft Edge",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/00cf7943-a9e1-975a-a33d-ac10ce454ca4?embed=true",
+    "TechnologyId": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "1d5830c3-eee3-8eaa-836b-abcc37d99b9a",
+    "Title": "Increase default text size in Microsoft Edge",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/1d5830c3-eee3-8eaa-836b-abcc37d99b9a?embed=true",
+    "TechnologyId": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "1d8ba4f8-f385-9a0b-e944-aa47339b6bb5",
+    "Title": "Block pop-ups in Microsoft Edge",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/1d8ba4f8-f385-9a0b-e944-aa47339b6bb5?embed=true",
+    "TechnologyId": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "22a00d4e-adf3-943a-fe83-74c3cd9bca24",
+    "Title": "Find the settings/tools/internet options in Microsoft Edge",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/22a00d4e-adf3-943a-fe83-74c3cd9bca24?embed=true",
+    "TechnologyId": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "3f4bb0ff-58de-2188-55c0-f560b7e20bea",
+    "Title": "Get to know Microsoft Edge",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/3f4bb0ff-58de-2188-55c0-f560b7e20bea?embed=true",
+    "TechnologyId": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "4c696192-338e-9465-b2cd-bd9b698ad19a",
+    "Title": "Accessibility features in Microsoft Edge",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/4c696192-338e-9465-b2cd-bd9b698ad19a?embed=true",
+    "TechnologyId": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "4da8b5e0-11ce-7ea4-81d7-4e332eec551f",
+    "Title": "Use Microsoft Edge in another language",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/4da8b5e0-11ce-7ea4-81d7-4e332eec551f?embed=true",
+    "TechnologyId": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "5ac125e8-9b90-8d59-fa2c-7f2e9a44d869",
+    "Title": "Learn about tracking prevention",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/5ac125e8-9b90-8d59-fa2c-7f2e9a44d869?embed=true",
+    "TechnologyId": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "63947406-40ac-c3b8-57b9-2a946a29ae09",
+    "Title": "Delete cookies in Microsoft Edge",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/63947406-40ac-c3b8-57b9-2a946a29ae09?embed=true",
+    "TechnologyId": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "8c923c9d-4ef2-849d-a399-4de716ecbbaf",
+    "Title": "Configure your privacy settings so they're right for you",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/8c923c9d-4ef2-849d-a399-4de716ecbbaf?embed=true",
+    "TechnologyId": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "9b74617b-f542-77ed-033b-1a5cfb17a2df",
+    "Title": "Use the dark theme in Microsoft Edge",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/9b74617b-f542-77ed-033b-1a5cfb17a2df?embed=true",
+    "TechnologyId": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "a531e1b8-ed54-d057-0262-cc5983a065c6",
+    "Title": "Change your browser home page",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/a531e1b8-ed54-d057-0262-cc5983a065c6?embed=true",
+    "TechnologyId": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "e6f47704-340c-7d4f-b00d-d0cf35aa1fcc",
+    "Title": "Browse InPrivate",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/e6f47704-340c-7d4f-b00d-d0cf35aa1fcc?embed=true",
+    "TechnologyId": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "e6ffa79b-ed52-aa32-47e2-5d5597fe4674",
+    "Title": "Sign in to sync Microsoft Edge across devices",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/e6ffa79b-ed52-aa32-47e2-5d5597fe4674?embed=true",
+    "TechnologyId": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "eb40d818-fd1f-cb19-d943-6fcfd1d9a935",
+    "Title": "Add a site to my favorites in Microsoft Edge",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/eb40d818-fd1f-cb19-d943-6fcfd1d9a935?embed=true",
+    "TechnologyId": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "f3522273-d067-7435-6a9d-fdb99213e9a8",
+    "Title": "Find, add, or remove extensions in Microsoft Edge",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/f3522273-d067-7435-6a9d-fdb99213e9a8?embed=true",
+    "TechnologyId": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "f863c519-5994-a8ed-6859-00fbc123b782",
+    "Title": "Change your default search engine",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/f863c519-5994-a8ed-6859-00fbc123b782?embed=true",
+    "TechnologyId": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -6530,7 +6948,7 @@
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -6563,7 +6981,7 @@
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -6574,7 +6992,7 @@
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": ""
   },
   {
@@ -6651,7 +7069,7 @@
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": ""
   },
   {
@@ -6673,7 +7091,7 @@
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": ""
   },
   {
@@ -6684,7 +7102,7 @@
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -6755,7 +7173,7 @@
   },
   {
     "Id": "5223233d-ee42-4331-bb63-6495a5039cc0",
-    "Title": "Share a workbook",
+    "Title": "Share your Excel workbook with others",
     "Description": "",
     "Url": "https://support.office.com/en-us/client/5223233d-ee42-4331-bb63-6495a5039cc0?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
@@ -6805,7 +7223,7 @@
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -6882,7 +7300,7 @@
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -6986,13 +7404,13 @@
   },
   {
     "Id": "82e9eab2-2e4e-463a-baa5-669b6c8ac543",
-    "Title": "Create a workbook",
+    "Title": "Create a new workbook",
     "Description": "",
     "Url": "https://support.office.com/en-us/client/82e9eab2-2e4e-463a-baa5-669b6c8ac543?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": ""
   },
   {
@@ -7036,7 +7454,7 @@
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": ""
   },
   {
@@ -7058,7 +7476,7 @@
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": ""
   },
   {
@@ -7124,7 +7542,7 @@
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": ""
   },
   {
@@ -7157,7 +7575,7 @@
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -7198,17 +7616,6 @@
     "Title": "Import or export text",
     "Description": "",
     "Url": "https://support.office.com/en-us/client/5250ac4c-663c-47ce-937b-339e391393ba?embed=true",
-    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "bb3a899a-3c49-4bfb-9cbc-b6eecd592b90",
-    "Title": "Create a database",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/f200d95b-e429-4acc-98c1-b883d4e9fc0a?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -7392,17 +7799,6 @@
     "StatusNote": ""
   },
   {
-    "Id": "10-5492a638-b5a3-1ee0-0c4f-5ae044450e09",
-    "Title": "Turn on the Focus assistant in Windows",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/10-5492a638-b5a3-1ee0-0c4f-5ae044450e09?embed=true",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
-    "StatusNote": ""
-  },
-  {
     "Id": "11376a10-48e3-47a1-8e45-efd1394e96c4",
     "Title": "Develop impactful content",
     "Description": "",
@@ -7421,7 +7817,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -7454,7 +7850,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -7689,17 +8085,6 @@
     "StatusNote": ""
   },
   {
-    "Id": "3eb2554d-a4e0-4ae4-9609-1c06913127e1",
-    "Title": "Using Office.com apps",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/4e035176-eec1-400c-a10e-d6605cb873b6?embed=true",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
     "Id": "40ce1d89-995c-4a18-9b7e-7482f8121ece",
     "Title": "Save",
     "Description": "",
@@ -7751,7 +8136,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -7806,7 +8191,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -7840,6 +8225,17 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "5492a638-b5a3-1ee0-0c4f-5ae044450e09",
+    "Title": "Turn on the Focus assistant in Windows",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/5492a638-b5a3-1ee0-0c4f-5ae044450e09?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -8037,7 +8433,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -8070,7 +8466,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -8081,7 +8477,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -8334,7 +8730,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -8375,17 +8771,6 @@
     "Title": "Sign in",
     "Description": "",
     "Url": "https://support.office.com/en-us/client/260a0f94-239a-4d85-8b5d-c8f99806bcd7?embed=true",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "b6b217d2-db1d-4c15-bd78-4e8e273b0190",
-    "Title": "Sync Files on Demand with OneDrive",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/f4e556cc-c893-4a34-b198-b6fc98396823?embed=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -8477,7 +8862,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -8521,7 +8906,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -8543,7 +8928,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -8565,7 +8950,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -8595,17 +8980,6 @@
     "Title": "Make your work and PC accessible",
     "Description": "",
     "Url": "https://support.office.com/en-us/client/9e32cc6e-ae87-4bcf-97d0-88903dbdd776?embed=true",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "cddec4f8-b8ca-496f-af33-800d9cdcc15c",
-    "Title": "Using the Desktop Apps",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/16ccf5c7-7bba-4c8b-a712-45698b761fa8?embed=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -8730,7 +9104,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -8749,17 +9123,6 @@
     "Title": "Over morning coffee",
     "Description": "",
     "Url": "https://docs.microsoft.com/office365/customlearning/ditl_coffee?context=context%2Fchromeless&linktarget=true",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "f4b41dc8-339c-4653-9f41-328324656f61",
-    "Title": "Save files to the cloud",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/2b46d39f-84e9-496b-be5d-82301a176e2c?embed=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
