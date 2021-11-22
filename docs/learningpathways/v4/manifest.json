@@ -1,5 +1,4 @@
 {
-  "$schema": "https://microsoft.github.io/customlearning_staging/schemas/v4/manifest.json",
   "Telemetry": {
     "AppInsightKey": "9a46dc18-dca7-4f9c-aaf7-1af9ad28fdda"
   },
@@ -19,10 +18,7 @@
       "CdnBase": "https://pnp.github.io/custom-learning-office-365/sss/"
     }
   ],
-  "AssetOrigins": [
-    "https://support.office.com",
-    "https://docs.microsoft.com"
-  ],
+  "AssetOrigins": ["https://support.office.com", "https://docs.microsoft.com"],
   "Languages": [
     "en-US",
     "de-DE",

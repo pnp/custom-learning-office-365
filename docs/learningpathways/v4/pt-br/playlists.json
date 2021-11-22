@@ -9,7 +9,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9bde32c3-2f0b-4201-b4a3-74cef2c8f61d",
-    "Description": "Saiba como começar a trabalhar rapidamente com o Microsoft 365 com seis etapas simples",
+    "Description": "Começar a Microsoft 365 em seis etapas simples. Entre e office.com, crie e salve arquivos com segurança na nuvem, compartilhe arquivos e colabore com outras pessoas em tempo real, trabalhe com sua equipe em equipes e canais com as equipes da Microsoft, configurar seus aplicativos móveis e experimentar coisas novas.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -24,7 +24,7 @@
   },
   {
     "Id": "bb92e79e-fe45-4f82-83ab-704b75bb6223",
-    "Title": "Introdução ao Teams",
+    "Title": "Começar a Teams",
     "Image": "images/playlists/manage_meetings.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -32,7 +32,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9bde32c3-2f0b-4201-b4a3-74cef2c8f61d",
-    "Description": "Comece a usar o Teams com sete etapas simples. Após uma visão geral das equipes, canais e como você pode trabalhar e colaborar em um só lugar, saiba como colocar sua equipe em ação, trabalhar em canais, carregar e compartilhar arquivos, iniciar e marcar chats, participar de uma reunião do Teams e gerenciar reuniões.",
+    "Description": "Começar a Teams com sete etapas simples. Obter uma visão geral das equipes e canais, saiba como colocar sua equipe em funcionamento, trabalhar em canais, carregar e compartilhar arquivos, iniciar e fixar chats, participar de uma reunião Teams e gerenciar reuniões.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -47,7 +47,7 @@
   },
   {
     "Id": "31fe13c5-ec7d-4a3c-98db-89292b0c0824",
-    "Title": "Criar um espaço de trabalho baseado em chat com o Teams",
+    "Title": "Criar um espaço de trabalho baseado em chat com Teams",
     "Image": "images/playlists/provide_a_chat-based_workspace_with_teams.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -55,7 +55,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "07aa7fb7-a187-4a04-a044-f881626a8cba",
-    "Description": "Quando você tem um local para criar e tomar decisões como uma equipe, não há limites para o que você pode conseguir. Aprenda a usar o Teams para reunir tudo em um espaço de trabalho compartilhado, onde você pode conversar, fazer reuniões, compartilhar arquivos e trabalhar com os aplicativos de negócios.",
+    "Description": "Quando você tem um lugar para criar e tomar decisões como uma equipe, não há limite para o que você pode alcançar. Saiba como usar o Teams reunir tudo em um espaço de trabalho compartilhado onde você pode conversar, reunir, compartilhar arquivos e trabalhar com aplicativos de negócios.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -70,7 +70,7 @@
   },
   {
     "Id": "fe736497-1a7c-4397-9963-17aab7e64557",
-    "Title": "Crie um conteúdo de impacto em parceria",
+    "Title": "Criar conteúdo impactante juntos",
     "Image": "images/playlists/create_impactful_content_together.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -78,7 +78,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "07aa7fb7-a187-4a04-a044-f881626a8cba",
-    "Description": "Realize tarefas de praticamente qualquer lugar, muito mais rápido. Aprenda a aproveitar a integração do Office com o OneDrive e o SharePoint para acessar, compartilhar e criar documentos em parceria.",
+    "Description": "Crie conteúdo impactante em conjunto Microsoft 365. Obter uma visão geral Microsoft 365, saiba como entrar, criar, salvar e compartilhar arquivos, colaborar com outras pessoas, mover um arquivo do OneDrive para o SharePoint Online e compartilhar um arquivo ou pasta.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -93,7 +93,7 @@
   },
   {
     "Id": "2ab5e51a-67b9-44af-9ca6-de681329f813",
-    "Title": "Salvar e compartilhar arquivos com o OneDrive",
+    "Title": "Salvar e compartilhar arquivos com OneDrive",
     "Image": "images/playlists/save_and_share_files_with_onedrive.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -101,7 +101,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "07aa7fb7-a187-4a04-a044-f881626a8cba",
-    "Description": "Saiba como compartilhar documentos do Microsoft Office, outros tipos de arquivos e pastas inteiras com outras pessoas. Os arquivos e pastas armazenados no OneDrive são particulares, até você decidir compartilhá-los. É possível parar de compartilhar a qualquer momento.",
+    "Description": "Saiba como salvar e compartilhar arquivos com OneDrive. Obter uma visão geral do OneDrive, aprender OneDrive noções básicas, criar e carregar arquivos e pastas, sincronizar arquivos e pastas e configurar o aplicativo móvel OneDrive em seu telefone ou tablet.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -118,7 +118,7 @@
   },
   {
     "Id": "a40ae370-557f-4a5b-9b17-3d14bbb6893e",
-    "Title": "Compartilhar sites e conteúdos com o SharePoint",
+    "Title": "Compartilhar sites e conteúdo com SharePoint",
     "Image": "images/playlists/share_sites_and_content_with_sharepoint.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -126,7 +126,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "07aa7fb7-a187-4a04-a044-f881626a8cba",
-    "Description": "O SharePoint reforça o compartilhamento e a colaboração na intranet. Aprenda a gerenciar e compartilhar arquivos ou pastas em sites de equipes ou sites da intranet, e dentro ou fora da sua organização.",
+    "Description": "Saiba como compartilhar sites e conteúdo com SharePoint. Obter uma visão geral do SharePoint Online, encontrar e acompanhar sites, notícias e conteúdo, criar, carregar e compartilhar arquivos em uma biblioteca de documentos, sincronizar arquivos e pastas, sincronizar arquivos com arquivos sob demanda e permanecer conectado em seu dispositivo móvel.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -140,7 +140,7 @@
   },
   {
     "Id": "1bb00cc3-21a5-432d-b535-4b970feb332c",
-    "Title": "Conectar sua organização com o Yammer",
+    "Title": "Conexão sua organização com Yammer",
     "Image": "images/playlists/connect_your_organization_with_yammer.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -148,7 +148,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "07aa7fb7-a187-4a04-a044-f881626a8cba",
-    "Description": "O Yammer permite conexões a pessoas e informações de toda a sua organização que você nem sabia que existia. Saiba como usar o Yammer para discutir ideias, compartilhar atualizações e respostas de colegas de trabalho de qualquer lugar.",
+    "Description": "Conexão sua organização com Yammer. Obter uma visão geral do Yammer, saiba como entrar e editar seu perfil, definir notificações, como, responder e compartilhar postagens, postar e atualizar e anexar arquivos, ingressar e criar comunidades e compartilhar arquivos e recursos da comunidade.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -162,8 +162,30 @@
     ]
   },
   {
+    "Id": "a19e4916-4fbe-42e4-95b6-8e85cb12a47b",
+    "Title": "Colaboração",
+    "Image": "images/playlists/playlist_bw.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "a7f1ca95-e0eb-4715-b846-89fc8d2afa56",
+    "Description": "Faça seu melhor trabalho em conjunto. Com Microsoft 365, você pode colaborar com qualquer pessoa, em qualquer lugar. Saiba como compartilhar, trabalhar em coautoria, comentar e reunir-se com Microsoft 365 produtos e serviços.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "0849ef75-564f-450a-93e5-b27508d81c53",
+      "651e1cb9-9a51-46dc-8d32-bdb7d928eedd",
+      "b85eef71-e96b-4325-9501-228588728bc9",
+      "5bec897f-4e36-43f8-9d9d-c41cb4917d9c",
+      "80640ac4-b009-42ea-abcb-660e729e63e5",
+      "cf26a4a6-00e5-4ef4-98c5-cec5bf441da6"
+    ]
+  },
+  {
     "Id": "19a310b9-b50c-44ae-96e2-b30f17a38528",
-    "Title": "Realizar reuniões eficazes",
+    "Title": "Executar reuniões efetivas",
     "Image": "images/playlists/hybrid_eff_meetings.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -171,7 +193,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
-    "Description": "Aprenda como planejar e liderar reuniões híbridas eficazes. Aprenda o que fazer antes, durante e depois das reuniões, como envolver o público e reduzir o cansaço das reuniões.",
+    "Description": "Saiba como executar reuniões híbridas eficazes. Saiba dicas de reunião eficazes, considerações de reunião, o que fazer antes, durante e após reuniões híbridas, como agendar, planejar e conduzir reuniões efetivas, seguir uma lista de verificação de reunião, envolver sua audiência e reduzir o fatiga da reunião.",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
@@ -188,7 +210,7 @@
   },
   {
     "Id": "3cbbe474-ef4d-4154-aeb1-9a01d51764d4",
-    "Title": "Criar ambientes inclusivos de reunião",
+    "Title": "Criar ambientes de reunião inclusivos",
     "Image": "images/playlists/hybrid_incl_meetings.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -196,8 +218,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
-    "Description": "Aprenda a criar ambientes de reunião inclusivos, tornar as reuniões e o conteúdo relacionado acessíveis para todos. Limite as distrações em reuniões e crie empatia em todos os fusos horários.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "Description": "Saiba como criar ambientes de reunião inclusivos, tornar reuniões e conteúdo relacionado acessível para todos, limitar distrações em reuniões e criar empatia no fuso horário.",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "1a583551-1f93-4d71-bac1-5881d5f8b1e7",
@@ -208,7 +230,7 @@
   },
   {
     "Id": "fdaae787-a991-40ae-ad83-87f05c8cf8ea",
-    "Title": "Colaboração assíncrona e coautoria",
+    "Title": "Colaboração assíncrona e coautor",
     "Image": "images/playlists/hybrid_async_collab.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -216,8 +238,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
-    "Description": "Aprenda como reduzir ou substituir reuniões com colaboração assíncrona. Colabore e seja coautor de conteúdo compartilhado. Colaborar no Teams, Microsoft Office SharePoint Online e OneDrive.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "Description": "Público-alvo atualizado",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "1311f213-f56b-4c15-b496-5ecff888cd66",
@@ -233,7 +255,7 @@
   },
   {
     "Id": "6f3bbc71-627d-4427-9635-6aadd0a203f9",
-    "Title": "Alcançar grandes públicos com eventos ao vivo",
+    "Title": "Alcançar grandes audiências com eventos ao vivo",
     "Image": "images/playlists/hybrid_live_events.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -241,7 +263,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
-    "Description": "Aprenda a usar o Microsoft Teams para eventos ao vivo. Organizar um evento ao vivo no novo Yammer. Agende um evento ao vivo no Yammer usando o Teams.",
+    "Description": "Alcançar grandes audiências com eventos ao vivo. Saiba como começar, planejar e agendar um evento ao vivo no Teams e agendar um evento ao vivo em Yammer.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -262,7 +284,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
-    "Description": "Saiba como praticar o autocuidado para o seu bem-estar pessoal. Bloqueie seu calendário para refeições, intervalos e deslocamento. Defina limites definindo seu status no Microsoft Teams para indicar que está livre ou ocupado. Conecte-se com outras pessoas por meio de um canal do Teams para trabalho social contínuo ou conversas relacionadas ao trabalho. Gerencie notificações no Teams para determinar como, quando e onde suas notificações aparecem. Ative o assistente de foco no Windows 10 para evitar distrações quando precisar se concentrar.",
+    "Description": "Fique bem praticando dicas de autocuidado para o seu bem-estar pessoal. Bloqueie seu calendário para refeições, intervalos e deslocamento. Defina seu status no Microsoft Teams para indicar horários livres ou ocupados. Conecte-se com outras pessoas em um canal do Microsoft Teams para conversas sociais ou relacionadas ao trabalho. Gerencie notificações no Teams para determinar como, quando e onde suas notificações aparecerão. Ative o assistente de foco no Windows 10 para evitar distrações quando precisar se concentrar.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -271,7 +293,7 @@
       "d5e2099d-6696-474b-b358-bd5ccb5e0657",
       "ce36ed14-6bc9-4775-a33e-6629ba4ff78e",
       "1cc31834-5fe5-412b-8edb-43fecc78413d",
-      "10-5492a638-b5a3-1ee0-0c4f-5ae044450e09"
+      "5492a638-b5a3-1ee0-0c4f-5ae044450e09"
     ]
   },
   {
@@ -284,7 +306,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
-    "Description": "O capital social e outras medidas de conexão social estão associados a uma melhor saúde e satisfação no trabalho. Para se manter conectado em um local de trabalho híbrido, saiba como criar canais sociais usando reuniões e chat do Teams para receber pequenos grupos na hora do almoço, em horas sociais, e outros espaços casuais que podem imitar o “water cooler”(conversas informais) que acontecem no escritório, independentemente do local de trabalho. Mantenha as reuniões individuais agendadas regularmente e considere dividir uma reunião individual em 2 reuniões mais curtas ao longo da semana. As conversas no canal no Teams também são uma ótima maneira de manter toda a equipe informada.",
+    "Description": "O capital social e outras medidas de conexão social estão associados a uma melhor saúde e satisfação no trabalho. Para permanecer conectado em um local de trabalho híbrido, aprenda a criar canais sociais usando reuniões do Teams e chat para hospedar almoços de pequenos grupos, horas sociais e outros espaços casuais que possam imitar o \"refrigerador de água\" no escritório, independentemente do local de trabalho. Mantenha programados regularmente 1:1 e considere dividir uma reunião 1:1 em 2 reuniões mais curtas ao longo da semana. As conversas em canal do Teams também são uma ótima maneira de manter toda a equipe informada.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -313,7 +335,7 @@
   },
   {
     "Id": "fa3a7737-b33d-4481-9b80-416d20b9ca9f",
-    "Title": "Usar o Microsoft 365 no seu trabalho e nos seus dispositivos",
+    "Title": "Use Microsoft 365 seu trabalho e dispositivos",
     "Image": "images/playlists/use_across_devices.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -321,7 +343,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9030ff2c-5549-4ffe-8dc9-4dc184241dec",
-    "Description": "O Microsoft 365 e o poder da nuvem facilitam o seu trabalho com soluções novas e produtivas, de qualquer lugar, em qualquer dispositivo.",
+    "Description": "Use Microsoft 365 seu trabalho e dispositivos para permanecer conectado, fazer anotações e ler, acessar seus arquivos em qualquer dispositivo, criar conteúdo impactante, economizar tempo, expressar-se livremente com tinta digital, dar vida ao trabalho com 3D, tornar seu trabalho acessível e manter-se seguro e privado no trabalho.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -338,7 +360,7 @@
   },
   {
     "Id": "9647e1aa-63a1-48d1-aea9-b0913f0f1e0b",
-    "Title": "Usar o Microsoft 365 com sua equipe",
+    "Title": "Usar o Microsoft 365 em sua equipe",
     "Image": "images/playlists/use_across_team.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -346,7 +368,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9030ff2c-5549-4ffe-8dc9-4dc184241dec",
-    "Description": "Como a conexão das equipes e a troca de informações está evoluindo. As pessoas esperam colaborar com os colegas de equipe em qualquer lugar que elas estejam.",
+    "Description": "Use o Microsoft 365 na sua equipe para criar e organizar as equipes, otimizar conversas em equipe, trabalhar em conjunto no Microsoft Teams, gerenciar reuniões e colaborar em arquivos.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -359,7 +381,7 @@
   },
   {
     "Id": "cb4effb6-f78e-444a-98b7-6274ad2fe70c",
-    "Title": "Usar o Microsoft 365 em sua organização",
+    "Title": "Use Microsoft 365 em toda a sua organização",
     "Image": "images/playlists/use_across_org.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -367,7 +389,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9030ff2c-5549-4ffe-8dc9-4dc184241dec",
-    "Description": "Usar o Microsoft 365 em sua organização",
+    "Description": "Use Microsoft 365 sua organização para configurar a rede da sua empresa no Yammer, a base da sua empresa no SharePoint e o portal de vídeo da sua empresa no Microsoft Stream.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -378,7 +400,7 @@
   },
   {
     "Id": "1f5ec8e6-5fef-481a-ad87-59842c3d539b",
-    "Title": "Dia da vida digital com o Office 365",
+    "Title": "Dia em sua vida digital com Office 365",
     "Image": "images/playlists/digital_day.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -386,7 +408,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9030ff2c-5549-4ffe-8dc9-4dc184241dec",
-    "Description": "Descubra novas maneiras de simplificar o seu trabalho com o Office 365",
+    "Description": "Descubra novas maneiras de simplificar seu dia em sua vida digital com Office 365. Confira como iniciar seu dia digital, tarefas que você pode concluir durante o café da manhã, durante o trajeto, reunião no escritório, colaboração com colegas, conexão em toda a empresa e como se proteger contra phishing.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -401,7 +423,7 @@
   },
   {
     "Id": "e51271b2-b4c0-4038-aa97-e4498c953afe",
-    "Title": "Fundamentos da segurança cibernética",
+    "Title": "Fundamentos de segurança cibernética",
     "Image": "images/playlists/LP-security-security-at-work.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -409,7 +431,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "51a0828d-1d27-4931-b547-9f2a698f33d8",
-    "Description": "Mantenha seu computador seguro no trabalho; saiba mais sobre a autenticação multifator, a proteção de rede e o firewall na segurança do Windows e evite alterações nas configurações de segurança com a Proteção contra Violações.",
+    "Description": "Com os fundamentos de segurança cibernética, saiba o que são a segurança cibernética e a autenticação multifaionária, o firewall e a proteção de rede em Windows segurança, os perigos do compartilhamento em excesso e como proteger seu dispositivo para evitar alterações na segurança com a Proteção contra Violações.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -421,7 +443,7 @@
   },
   {
     "Id": "72863bbc-46ae-41dc-885d-0edb0a8abaa4",
-    "Title": "Segurança Digital",
+    "Title": "Segurança digital",
     "Image": "images/playlists/LP-security-security-at-home.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -429,7 +451,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "51a0828d-1d27-4931-b547-9f2a698f33d8",
-    "Description": "Obtenha dicas para manter seus dados seguros e ajudar a proteger sua família online com a Segurança do Windows.",
+    "Description": "Obter dicas para manter seus dados seguros com este módulo de segurança digital. Saiba como trabalhar em casa com mais segurança, colaborar no OneDrive, estar mais seguro sobre conexões sem fio e proteger sua família online com Segurança do Windows.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -440,7 +462,7 @@
   },
   {
     "Id": "5872570a-e8a6-4d84-8802-4dd053b4dabc",
-    "Title": "As principais ameaças",
+    "Title": "Principais ameaças",
     "Image": "images/playlists/LP-security-5-simple-steps.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -448,7 +470,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "51a0828d-1d27-4931-b547-9f2a698f33d8",
-    "Description": "Proteja-se contra phishing, evite fraudes no suporte técnico, permaneça protegido com a Segurança do Windows e trabalhe em casa com mais segurança.",
+    "Description": "Obtenha dicas para manter seus dados seguros com este módulo de segurança digital. Saiba como trabalhar em casa com mais segurança, colaborar no OneDrive, estar mais seguro em conexões sem fio e proteger sua família online com a Segurança do Windows.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -460,7 +482,7 @@
   },
   {
     "Id": "35f25052-fa93-4daf-8d2e-b29935a002d0",
-    "Title": "Trabalhar remotamente com o Microsoft 365",
+    "Title": "Trabalhar remotamente com Microsoft 365",
     "Image": "images/playlists/work_remotely_with_o365.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -468,7 +490,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9eb8fc25-dd5b-4459-81e9-ae382aca7a78",
-    "Description": "O Microsoft Teams e o Office 365 ajudam você a realizar seu trabalho, com outras pessoas e por conta própria, onde quer que você esteja hoje.",
+    "Description": "Microsoft Teams e Office 365 ajudá-lo a fazer o trabalho — com outras pessoas e por conta própria — onde quer que esteja hoje.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -489,7 +511,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9eb8fc25-dd5b-4459-81e9-ae382aca7a78",
-    "Description": "Realize o seu melhor trabalho em grupo. Com o Office 365, você pode colaborar com qualquer pessoa, em qualquer lugar.",
+    "Description": "Aprenda estas práticas recomendadas para colaborar com o Microsoft 365 para fazer seu melhor trabalho em conjunto de qualquer lugar. Obtenha uma visão geral do Microsoft 365, inicie em office.com, comente e @mencione em um arquivo do Office 365, seja coautor em arquivos ao mesmo tempo, receba dicas para melhores reuniões e trabalhe em seus dispositivos móveis.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -503,7 +525,7 @@
   },
   {
     "Id": "d59b1053-3756-4d9f-82a8-0ac97b11529c",
-    "Title": "Início rápido do Access",
+    "Title": "Acessar Início Rápido",
     "Image": "images/playlists/access-quick-start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -511,7 +533,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-    "Description": "Com o Access, você pode criar um banco de dados sem precisar escrever códigos ou ser um especialista em bancos de dados",
+    "Description": "Comece rapidamente com o Início Rápido do Access. Crie um banco de dados, importe dados Excel, adicione uma chave primária, faça backup do banco de dados e crie uma consulta dividida, formulário dividido ou relatório.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -531,7 +553,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-    "Description": "Com o Access, você pode criar um banco de dados sem precisar escrever códigos ou ser um especialista em bancos de dados.",
+    "Description": "Com a Introdução ao Access, saiba como o Access pode ajudá-lo a usar modelos para criar bancos de dados rapidamente, encontrar e relatar dados, criar formulários de entrada de dados ricos e importar, transformar e exportar fontes de dados. Aprenda conceitos e termos do banco de dados, bom design de banco de dados e etapas para criar um banco de dados com objetos de banco de dados como tabelas, consultas, formulários, relatórios, macros e módulos.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -542,7 +564,7 @@
   },
   {
     "Id": "e112c3e9-685f-41a0-abb5-718ee4f43bb5",
-    "Title": "Criar um novo banco de dados do Access",
+    "Title": "Criar um banco de dados do Access",
     "Image": "images/playlists/access-create-an-access-database.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -550,7 +572,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-    "Description": "Para criar rapidamente um banco de dados da área de trabalho, use um dos diversos modelos fornecidos com o Access. Caso contrário, se você não encontrar um modelo que atenda às suas necessidades, crie um banco de dados do zero.",
+    "Description": "Saiba como criar um banco de dados do Access, seja para criar um banco de dados de área de trabalho ou um aplicativo Web do Access, as diferenças e considerações de design, como requisitos de IT, acesso a dados e design e metas de negócios e requisitos. Crie bancos de dados a partir de um modelo, um scratch ou um aplicativo Web do Access.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -568,7 +590,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-    "Description": "Aprenda a criar tabelas e definir tipos de dados",
+    "Description": "Saiba como criar tabelas e definir tipos de dados",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -578,7 +600,7 @@
   },
   {
     "Id": "6649c605-0d13-4420-9282-3fa590c2fbc4",
-    "Title": "Relações de uso",
+    "Title": "Usar relacionamentos",
     "Image": "images/playlists/access-use-relations.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -586,7 +608,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-    "Description": "Quando você tiver tabelas em seu banco de dados, saiba como criar relações entre elas.",
+    "Description": "Use relações no Access para aproveitar o poder dos bancos de dados relacionais combinando dados entre tabelas. Saiba mais sobre o modo de exibição Relações, os tipos de relações entre tabelas e como editar relacionamentos. Crie relações com o Assistente de Procurar, o Painel de Relações e saiba como criar relacionamentos um para um e muitos para muitos.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -607,7 +629,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-    "Description": "Se a sua lista estiver ficando difícil de gerenciar no Excel, é uma boa ideia movê-la para o Access de forma que você possa aproveitar seus recursos de consulta e de relatório.",
+    "Description": "Saiba como adicionar e editar dados no Access e aproveitar a edição simplificada, a consulta eficiente e os recursos de relatório úteis copiando dados de uma planilha Excel simplificada. Se você mantiver dados em outras fontes, como planilhas Excel e sites SharePoint, também poderá vincular aos dados do banco de dados do Access, para sempre garantir que você esteja trabalhando com os dados mais recentes",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -625,7 +647,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-    "Description": "Use as consultas para responder perguntas sobre negócios ou outras com base em dados, para fazer atualizações em massa rápidas e fáceis ou para excluir informações do banco de dados.",
+    "Description": "Gerencie dados com consultas no Access para responder a perguntas comerciais, fazer atualizações em massa ou excluir dados do banco de dados. Saiba quais são as consultas, como elas são usadas e como criar consultas. Saiba como criar consultas básicas para pesquisa rápida com Design de Consulta e usar junções, junções externas e tabelas intermediárias para criar consultas com mais de uma fonte de dados.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -646,7 +668,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-    "Description": "Se você geralmente usa o mesmo conjunto de formulários e relatórios, crie um formulário de navegação que agrupe-os.",
+    "Description": "Se você geralmente usa o mesmo conjunto de formulários e relatórios, pode criar um formulário de navegação nos bancos de dados da área de trabalho do Access para agrupar eles. Saiba como adicionar um formulário ou relatório ao formulário de navegação, alterar o rótulo, aplicar um tema visual e definir o formulário de navegação como o formulário de exibição padrão.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -663,7 +685,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-    "Description": "Antes de compartilhar seu banco de dados com outras pessoas, coloque as informações em um formato que seja fácil de entender. Visualize, formate e resuma as informações no seu banco de dados com relatórios.",
+    "Description": "Saiba como criar e formatar relatórios no Access para que seja fácil de visualizar e entender. Saiba como criar relatórios básicos usando ferramentas de relatório do Access, adicionar agrupação, classificação ou totais para relatar campos, adicionar um tema ou logotipo, realçar dados com uma regra de formatação condicional e imprimir um relatório.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -681,7 +703,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-    "Description": "Saiba como criar cópias de backup do seu banco de dados de área de trabalho para recuperar os dados vitais quando o comando Desfazer não for suficiente para corrigir um erro, restaurar um objeto ausente ou organizar dados corrompidos.",
+    "Description": "Proteja seus bancos de dados no Access. É uma prática prática manter um backup regular do banco de dados em caso de falha do sistema, um banco de dados está danificado ou faltando dados, você precisa revisar uma versão mais antiga ou você precisa restaurar seu banco de dados. Saiba como fazer backup de um banco de dados e restaurar um banco de dados com estas etapas simples.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -698,8 +720,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-    "Description": "Saiba como criar gráficos do Access, incluindo colunas, barras, linhas, gráficos de pizza e de combinação.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "Description": "Crie gráficos no Access para exibir dados em um formato visual útil. Saiba como criar e formatar um gráfico de colunas, gráfico de barras, gráfico de linha, gráfico de pizza e gráfico de combinação.",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "8e37a32f-561a-4a93-86a9-d580893f4a3d",
@@ -711,15 +733,15 @@
   },
   {
     "Id": "fbf60a54-6a6c-4c6d-a121-c478f9531a98",
-    "Title": "Visão geral e recursos de acessibilidade do Microsoft 365",
+    "Title": "Microsoft 365 Visão geral e recursos de acessibilidade",
     "Image": "images/playlists/microsoft-365-accessiblitiy-overview-and-resources.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+    "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
-    "Description": "Antes de enviar sua mensagem de e-mail ou compartilhar seu documento ou planilha, execute o Verificador de Acessibilidade para garantir que seu conteúdo do Microsoft Office seja fácil para pessoas de todas as habilidades lerem e editarem.",
+    "Description": "Começar rapidamente com a visão geral Microsoft 365 acessibilidade e recursos. Antes de enviar seu email ou compartilhar um arquivo, execute o Verificador de Acessibilidade para garantir que seu conteúdo seja acessível para pessoas de todas as habilidades de leitura e edição. Consulte a Microsoft 365 introdução de acessibilidade, saiba mais sobre o Verificador de Acessibilidade e obter modelos acessíveis para Office.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -730,15 +752,15 @@
   },
   {
     "Id": "cf352e8f-caf6-4e52-86d5-ae218004e089",
-    "Title": "Criar mensagens de e-mail mais acessíveis no Outlook",
+    "Title": "Criar mensagens de email mais acessíveis Outlook",
     "Image": "images/playlists/create-more-accessible-emails-in-outlook.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
+    "TechnologyId": "",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
-    "Description": "Criar mensagens de email mais acessíveis no Outlook",
+    "Description": "Crie mensagens de email mais acessíveis no Outlook garantindo que elas sejam acessíveis a pessoas com visão limitada ou sem visão. Definir HTML como o formato de mensagem padrão, definir uma fonte padrão, criar uma assinatura acessível, adicionar texto alt a imagens e criar listas ou tabelas com marcador para adicionar estrutura que ajude os leitores de tela a comunicar a ordem e os relacionamentos.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -753,11 +775,11 @@
     "Image": "images/playlists/create-more-accessible-word-documents.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
+    "TechnologyId": "",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
-    "Description": "Criar documentos do Word mais acessíveis",
+    "Description": "Crie documentos do Word mais acessíveis com o Verificador de Acessibilidade para verificar e corrigir problemas de acessibilidade. Adicione texto alt a imagens e objetos, use estilos de título para melhorar a acessibilidade, criar nomes de arquivos significativos e hiperlinks, organizar informações em tabelas para mostrar relacionamentos e aprender dicas que fazem com que os arquivos se aprimoram para pessoas com leitores de tela.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -772,15 +794,15 @@
   },
   {
     "Id": "c4d3a610-6289-4979-b0b6-b679ef28c13b",
-    "Title": "Criar pastas de trabalho mais acessíveis do Excel",
+    "Title": "Criar Excel de trabalho mais acessíveis",
     "Image": "images/playlists/create-more-accessible-excel-spread-sheets.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
+    "TechnologyId": "",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
-    "Description": "Criar pastas de trabalho do Excel mais acessíveis",
+    "Description": "Crie mais Excel de trabalho usando gráficos, tabelas, rótulos descritivos e adicionando texto alt a imagens e objetos. Encontre e use um modelo acessível, explore recursos de modelo acessíveis e faça seus títulos, rótulos e nomes de planilha descritivos para tornar os dados acessíveis e compreensíveis para todos, incluindo pessoas com deficiências de leitura ou visão.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -795,11 +817,11 @@
     "Image": "images/playlists/create-more-accessible-slides.in-powerpoint.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
+    "TechnologyId": "",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
-    "Description": "Saiba como colocar conteúdo em seus slides do PowerPoint para torná-los acessíveis a todos",
+    "Description": "Crie apresentações PowerPoint mais acessíveis. Crie slides com uma ordem de leitura acessível, use modelos e fontes acessíveis e adicione texto alt a gráficos, imagens e outros elementos visuais Saiba dicas e práticas recomendadas para tornar gráficos, gráficos e imagens mais acessíveis para pessoas que têm uma visão ou deficiência de leitura. Salve sua apresentação em um formato que possa ser lido por um leitor de tela.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -812,15 +834,15 @@
   },
   {
     "Id": "a8cbac83-f7e8-45ff-a4a6-6b04f31a5745",
-    "Title": "Início rápido do Excel",
+    "Title": "Excel Início Rápido",
     "Image": "images/playlists/excel_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "Comece a trabalhar rapidamente com o Guia de Início Rápido do Excel. Saiba como criar uma pasta de trabalho, inserir dados, salvar sua pasta de trabalho no OneDrive, preencher automaticamente uma coluna com o Preenchimento Relâmpago, calcular rapidamente com o AutoSoma, criar um gráfico ou usar a formatação condicional com a Análise Rápida, congelar a linha superior, compartilhar sua pasta de trabalho para colaborar com outras pessoas e configurar os aplicativos móveis.",
+    "Description": "Comece rapidamente com o guia Excel início rápido. Saiba como criar uma lista de trabalho, inserir dados, salvar sua lista de trabalho no OneDrive, preencher automaticamente uma coluna com o Preenchimento Flash, calcular rapidamente com o AutoSum, criar um gráfico ou usar formatação condicional com Análise Rápida, congelar a linha superior, compartilhar sua agenda de trabalho para colaborar com outras pessoas e configurar seus aplicativos móveis.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -836,12 +858,12 @@
     "Title": "Introdução ao Excel",
     "Image": "images/playlists/welcome_to_excel.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "Crie uma nova pasta de trabalho ou inserir uma planilha. Aprender a usar o Excel como calculadora ou dados de autopreenchimento em células.",
+    "Description": "Confira esta introdução ao curso do Excel para saber como criar uma pasta de trabalho, inserir ou excluir uma planilha, mover, copiar ou imprimir uma planilha, usar o Excel como calculadora, preencher dados automaticamente e criar uma lista suspensa.",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
@@ -859,19 +881,19 @@
     "Title": "Linhas e colunas",
     "Image": "images/playlists/rows_and_columns.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "Adicionar ou exclua colunas, linhas ou células a uma planilha do Excel. Congelar painéis, ocultar ou mostrar linhas e colunas ou filtros para valores exclusivos.",
+    "Description": "Use linhas e colunas do Excel para organizar seus dados. Saiba como inserir ou excluir linhas e colunas, selecionar conteúdo no Excel, congelar painéis para bloquear linhas e colunas, ocultar ou mostrar linhas ou colunas, filtrar valores exclusivos ou remover valores duplicados, dividir texto em colunas diferentes e criar uma lista de datas sequenciais",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "06e7419f-fdea-4f32-bc2b-f73088410881",
       "32bae4a3-7bc2-49a7-9cff-22c399ab09e4",
       "94708bae-df5c-4c3b-888c-621cf5d4bc94",
-      "659c2cad-802e-44ee-a614-dde8443579f8",
+      "95146525-ce4f-4ff6-a118-c0724deb1a98",
       "36ffe8ad-b6f6-4cfb-a55e-da3f5cd40d24",
       "0edb925e-2af7-47fb-895a-28a07d5b73d4",
       "8c3fb3c7-8e61-415f-9663-b58055f252ed"
@@ -882,12 +904,12 @@
     "Title": "Células",
     "Image": "images/playlists/cells.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "Recortar, copiar e colar para mover ou copiar o conteúdo da célula. Redimensione uma tabela, uma coluna ou uma linha, aprenda a mesclagem de células, validação de dados ou importação/exportação de texto.",
+    "Description": "Saiba como trabalhar com células Excel - mover ou copiar células, alterar a largura da coluna ou a altura da linha, encontrar ou substituir texto ou números em uma planilha, mesclar e desmercar células, aplicar validação de dados a células e importar ou exportar arquivos de texto (.txt ou .csv).",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -904,12 +926,12 @@
     "Title": "Formatação",
     "Image": "images/playlists/formatting.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "Formate números nas células, como moeda, porcentagens, decimais, datas, números de telefone ou números de seguro social. Configure a formatação condicional, alinhe ou gire o texto ou adicione uma marca d' água.",
+    "Description": "Saiba como formatar no Excel para economizar tempo e tornar sua planilha útil para você e sua equipe. Aprenda dicas úteis de como formatar números (moedas, porcentagens, datas, números de telefone), usar formatação condicional para fornecer indicações visuais, alterar ou copiar formatação de célula, adicionar uma marca-d'água, exibir ou ocultar valores nulos e criar um formato de número personalizado.",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
@@ -925,16 +947,16 @@
   },
   {
     "Id": "9baa4835-b7d5-4e7e-8bea-0a53a1b91229",
-    "Title": "Funções e fórmulas",
+    "Title": "Fórmulas & funções",
     "Image": "images/playlists/formulas_and_functions.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "Aprenda como criar fórmulas e usar funções internas para realizar cálculos e resolver problemas. Aprenda a usar VLOOKUP, SUM, COUNTIF, IF e muito mais.",
-    "StatusTagId": "",
+    "Description": "Use Excel e funções para realizar cálculos e resolver problemas. Saiba como usar XLOOKUP, VLOOKUP, SUM, SUMIF, SUMIFS, COUNTIF, IF, IFS e MATCH para encontrar valores, fazer cálculos, economizar tempo e gerenciar dados automaticamente.",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "7068c43a-2e0b-47ea-8b0f-692343447af6",
@@ -954,13 +976,13 @@
     "Title": "Tabelas",
     "Image": "images/playlists/tables.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "Aprenda a criar e formatar tabelas, classificar dados e filtrar dados em uma tabela. Descubra como totalizar os dados em uma tabela ou use segmentações de dados para filtrar os dados.",
-    "StatusTagId": "",
+    "Description": "Criar e formatar tabelas Excel agrupar visualmente e analisar dados. Saiba como classificar e filtrar dados em um intervalo ou tabela, dados totais e usar slicers para filtrar dados.",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "bf0ce08b-d012-42ec-8ecf-a2259c9faf3f",
@@ -975,13 +997,13 @@
     "Title": "Gráficos",
     "Image": "images/playlists/charts.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "Gráficos ajudam a visualizar seus dados de uma forma que cria o máximo impacto para o público. Aprenda a criar um gráfico, adicionar uma linha de tendência, analisar dados instantaneamente ou atualizar um gráfico existente.",
-    "StatusTagId": "",
+    "Description": "Os gráficos no Excel ajudam você a visualizar seus dados de uma maneira que cria o impacto máximo no seu público. Saiba como criar um gráfico, adicionar ou remover títulos, mostrar ou ocultar uma legenda do gráfico, adicionar ou remover um eixo secundário, adicionar um minigráfico ou linha de tendência para mostrar tendências de dados e usar a Análise Rápida para escolher o gráfico perfeito.",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "201fba6f-daf0-4aaf-98f8-e826da1719d7",
@@ -1000,12 +1022,12 @@
     "Title": "Tabelas Dinâmicas",
     "Image": "images/playlists/pivottables.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "As Tabelas Dinâmicas do Excel são uma ferramenta poderosa para calcular, resumir e analisar dados e ver comparações, padrões e tendências em seus dados. Saiba como criar uma Tabela Dinâmica para analisar planilhas, tabelas e intervalos. Use o painel Lista de Campos para organizar campos, agrupar ou desagrupar dados, classificar e filtrar dados, e criar um Gráfico Dinâmico.",
+    "Description": "Excel Tabelas Dinâmicas são uma ferramenta poderosa para calcular, resumir e analisar dados e ver comparações, padrões e tendências em seus dados. Saiba como criar uma Tabela Dinâmica para analisar planilhas, tabelas e intervalos, use a Lista de Campos para organizar campos, agrupar ou desagrupar dados, classificar dados, filtrar dados e criar um Gráfico Dinâmico.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1018,15 +1040,15 @@
   },
   {
     "Id": "3ee48085-019d-4256-9ad5-c2d03c82238c",
-    "Title": "Compartilhar e trabalhar em coautoria",
+    "Title": "Compartilhar e coautor",
     "Image": "images/playlists/excel_share_and_co-author.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "Aprenda a compartilhar uma pasta de trabalho com outras pessoas, de dentro do próprio Excel. Você pode permitir que elas editem ou apenas visualizem a pasta de trabalho. Saiba também como bloquear ou desbloquear áreas específicas, proteger um arquivo do Excel ou salvar em PDF.",
+    "Description": "Saiba como compartilhar e coautor em Excel colaborar com outras pessoas em tempo real. Veja como usar comentários e anotações, colaborar no mesmo arquivo ao mesmo tempo, ver arquivos que outras pessoas compartilharam com você, bloquear ou desbloquear áreas específicas de uma pasta de trabalho, proteger um arquivo Excel e salvar ou converter um arquivo Excel em um PDF.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1044,12 +1066,12 @@
     "Title": "Uso comum de funções",
     "Image": "images/playlists/excel_share_and_co-author.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "Numere linhas automaticamente, calcule a diferença entre duas datas, defina e use nomes em fórmulas e combine texto de duas ou mais células em uma célula.",
+    "Description": "Numerar automaticamente linhas, calcular a diferença entre duas datas, definir e usar nomes em fórmulas e combinar texto de duas ou mais células em uma célula.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -1064,12 +1086,12 @@
     "Title": "Tipos de dados vinculados",
     "Image": "images/playlists/excel_linked_data_types.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "Com os tipos de dados vinculados, você pode inserir e trabalhar com dados confiáveis de fontes de dados online confiáveis.",
+    "Description": "Saiba como usar tipos de dados vinculados no Excel para obter dados sobre assuntos como cidades, alimentos, ações, geografia e muito mais. Você também pode obter tipos de dados fornecidos por sua organização por meio Power BI.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -1080,15 +1102,15 @@
   },
   {
     "Id": "0c7a8a54-f7fc-4464-8f21-67c961b84f7c",
-    "Title": "Introdução ao aplicativo Listas",
+    "Title": "Começar com listas",
     "Image": "images/playlists/lists_get_started.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "016a561b-1c7a-4528-b0b7-96fcb556a1e1",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "4b40845d-fe5f-428f-8970-58455e5bf262",
-    "Description": "Rastreie informações e organize o trabalho com as Listas da Microsoft. Crie uma lista do zero, a partir do Excel, de uma lista existente ou de um modelo.",
+    "Description": "Para começar, Listas da Microsoft controlar informações e organizar o trabalho. Crie uma lista do aplicativo Listas, crie uma lista em um canal Teams, adicione ou edite itens de lista, crie ou altere o modo de exibição de uma lista, edite um modo de exibição de lista, encontre e gerencie suas listas, compartilhe um item de lista ou lista e acompanhe as informações comerciais.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -1104,7 +1126,7 @@
   },
   {
     "Id": "261009d0-8b5c-4302-bb0f-c993e1ebb51c",
-    "Title": "Início rápido do Microsoft 365 para empresas",
+    "Title": "Início Rápido do Microsoft 365 para empresas",
     "Image": "images/playlists/office_365_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1112,7 +1134,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "Aprenda as noções básicas do Microsoft 365 com nossos tutoriais que ajudarão você a começar, criar e salvar arquivos, compartilhar e colaborar e trabalhar com o Microsoft Teams.",
+    "Description": "Inicie rapidamente com o Início Rápido do Microsoft 365. Saiba como criar e trabalhar em arquivos online, carregar arquivos no OneDrive, compartilhar arquivos e pastas, colaborar com outras pessoas em tempo real e configurar seus aplicativos móveis para funcionar de qualquer lugar em todos os seus dispositivos.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1126,7 +1148,7 @@
   },
   {
     "Id": "8f026372-069d-4449-a116-938bf5aae7ea",
-    "Title": "Introdução ao Microsoft 365",
+    "Title": "Começar a Microsoft 365",
     "Image": "images/playlists/intro_to_office.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1134,7 +1156,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "Compreenda as noções básicas do Microsoft 365, incluindo Entrar e Começar em Office.com.",
+    "Description": "Saiba como começar a Microsoft 365 para levar sua produtividade para o próximo nível. Obter uma visão geral do Microsoft 365 para trabalhar no Teams e nos aplicativos Office, colaborar com outras pessoas, salvar com segurança seus arquivos na nuvem, permanecer conectado e obter mais recursos inteligentes. Veja como entrar e começar a office.com.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1149,23 +1171,22 @@
     "Image": "images/playlists/create_office_files.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "Aprenda a usar aplicativos da área de trabalho, aplicativos do Office.com, salvar arquivos na nuvem e sincronizar arquivos sob demanda com o OneDrive.",
-    "StatusTagId": "",
+    "Description": "Crie e salve arquivos usando Microsoft 365. Saiba como criar e salvar arquivos da mesma maneira em Office aplicativos usando os aplicativos Office da área de trabalho e office.com aplicativos. Salve arquivos na nuvem usando OneDrive e sincronize arquivos com Arquivos sob Demanda.Crie e salve arquivos usando Microsoft 365. Saiba como criar e salvar arquivos da mesma maneira em Office aplicativos usando os aplicativos Office da área de trabalho e office.com aplicativos. Salve arquivos na nuvem usando OneDrive e sincronizar arquivos com Arquivos sob Demanda.",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "cddec4f8-b8ca-496f-af33-800d9cdcc15c",
       "3eb2554d-a4e0-4ae4-9609-1c06913127e1",
-      "f4b41dc8-339c-4653-9f41-328324656f61",
-      "b6b217d2-db1d-4c15-bd78-4e8e273b0190"
+      "f4b41dc8-339c-4653-9f41-328324656f61"
     ]
   },
   {
     "Id": "f7fc4bc7-12f5-44bc-9bd4-c122e891061d",
-    "Title": "Compartilhe e colabore",
+    "Title": "Compartilhar e colaborar",
     "Image": "images/playlists/store_online_and_collaborate.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1173,7 +1194,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "Compartilhar arquivos no Microsoft 365 e aprender a trabalhar em coautoria em arquivos, usar @menções e acompanhamento.",
+    "Description": "Onde quer que você esteja trabalhando Microsoft 365, é simples compartilhar e colaborar em seus arquivos. Saiba como compartilhar um arquivo, definir permissões, copiar um link, colaborar e coautor no mesmo arquivo ao mesmo tempo, usar o @mentions para chamar a atenção de alguém e usar acompanhamentos para realçar áreas às quais você deseja voltar ou puxar outras pessoas para a conversa.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1193,7 +1214,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "Use o Microsoft Teams para colaborar com sua equipe, ajudá-la a se manter organizada e se comunicar - tudo em um só lugar. Saiba como criar equipes e canais, adicionar uma guia, fixar um canal, criar e formatar uma postagem, iniciar e fixar um chat, fazer chamadas, participar de uma reunião do Teams e aprender dicas e práticas recomendadas para agendar, iniciar e executar um reunião eficaz.",
+    "Description": "Trabalhe com o Microsoft Teams para colaborar com sua equipe, ajudar sua equipe a se manter organizada e ter conversas – tudo em um só lugar. Saiba como criar equipes e canais, adicionar uma guia, fixar um canal, criar e formatar uma postagem, iniciar e fixar um chat, fazer chamadas, ingressar em uma reunião do Teams e aprender dicas e práticas recomendadas para agendar, iniciar e executar uma reunião eficaz",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1208,7 +1229,7 @@
   },
   {
     "Id": "ffdf1665-6516-4d78-b9d3-39985b60c06b",
-    "Title": "Aproveite ao máximo o Windows",
+    "Title": "Obter o máximo de Windows",
     "Image": "images/playlists/view_office_files.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1216,7 +1237,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "Tire o máximo proveito do Windows aprendendo a localizar seus itens no Windows 10, usar o Microsoft Edge e pesquisar com o Bing.",
+    "Description": "Obter o máximo de Windows ferramentas para ajudá-lo a pesquisar e encontrar documentos. Saiba como usar a barra de pesquisa, o Task View e o Explorador de Arquivos. Saiba mais Microsoft Edge, configurações de privacidade, alternamento entre idiomas, guias personalizadas, Coleções e uso de Borda em seu dispositivo móvel. Use Pesquisa da Microsoft em Bing para obter resultados de pesquisa da Web e da sua organização.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1227,7 +1248,7 @@
   },
   {
     "Id": "861f0286-c3b5-4a76-9b7e-77c1bf39572d",
-    "Title": "Trabalhe em praticamente qualquer lugar",
+    "Title": "Trabalhar de qualquer lugar",
     "Image": "images/playlists/add_and_edit_text.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1235,7 +1256,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "Aprenda a trabalhar em praticamente qualquer lugar usando o aplicativo móvel do OneDrive e o aplicativo móvel do Outlook.",
+    "Description": "Com Microsoft 365, você pode trabalhar em qualquer lugar. De definir o aplicativo OneDrive celular em seu dispositivo móvel para acessar, carregar e compartilhar seus arquivos em seu dispositivo móvel de qualquer lugar. Configurar o aplicativo Outlook celular para iOS ou Android para permanecer conectado. Obter as 10 principais dicas para ajudá-lo a economizar tempo e obter mais rapidez.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1245,7 +1266,7 @@
   },
   {
     "Id": "477ad890-043c-4d3c-982e-40c540f10009",
-    "Title": "Recursos interessantes da Microsoft 365",
+    "Title": "Recursos Microsoft 365 legais",
     "Image": "images/playlists/office_365_format_text.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1253,7 +1274,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "Saiba mais sobre os recursos interessantes do Microsoft 365, como o Designer do PowerPoint, Ideias no Excel, Editor no Word e como tornar seu conteúdo acessível.",
+    "Description": "Saiba mais sobre recursos legais da Microsoft. Crie slides de aparência profissional com PowerPoint Designer. Obtenha informações sobre seus dados por meio de resumos visuais, tendências e padrões com Analisar dados em Excel para a Web. Obter sugestões de ortografia, gramática e escrita do Editor no Word. Saiba como tornar seu conteúdo mais acessível.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1264,16 +1285,81 @@
     ]
   },
   {
+    "Id": "d8ec3a54-3ddf-4e02-8631-b89c3f032184",
+    "Title": "Introdução",
+    "Image": "images/playlists/playlist_bw.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "77a22995-0b6d-488c-9747-dea9a7705711",
+    "Description": "Saiba como começar a usar o Microsoft Edge, incluindo como adicionar um site aos seus favoritos, como encontrar as configurações/ferramentas/opções da Internet ou como alterar o mecanismo de pesquisa padrão para Microsoft Edge. Além disso, saiba como entrar para sincronizar Microsoft Edge entre dispositivos ou como descobrir os recursos de acessibilidade no Microsoft Edge.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "3f4bb0ff-58de-2188-55c0-f560b7e20bea",
+      "eb40d818-fd1f-cb19-d943-6fcfd1d9a935",
+      "22a00d4e-adf3-943a-fe83-74c3cd9bca24",
+      "f863c519-5994-a8ed-6859-00fbc123b782",
+      "4c696192-338e-9465-b2cd-bd9b698ad19a",
+      "e6ffa79b-ed52-aa32-47e2-5d5597fe4674"
+    ]
+  },
+  {
+    "Id": "479705db-2e50-4a8b-8a2e-a2a3d59ce61b",
+    "Title": "Privacidade e segurança",
+    "Image": "images/playlists/playlist_bw.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "77a22995-0b6d-488c-9747-dea9a7705711",
+    "Description": "Saiba mais sobre como o Microsoft Edge ajuda a manter você seguro ao navegar na Web, incluindo a definição de configurações de privacidade, a prevenção de rastreamento, a navegação InPrivate, a exclusão do histórico do navegador, o bloqueio de pop-ups e a exclusão de cookies.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "8c923c9d-4ef2-849d-a399-4de716ecbbaf",
+      "5ac125e8-9b90-8d59-fa2c-7f2e9a44d869",
+      "e6f47704-340c-7d4f-b00d-d0cf35aa1fcc",
+      "00cf7943-a9e1-975a-a33d-ac10ce454ca4",
+      "1d8ba4f8-f385-9a0b-e944-aa47339b6bb5",
+      "63947406-40ac-c3b8-57b9-2a946a29ae09"
+    ]
+  },
+  {
+    "Id": "2af83d1d-0ad1-4194-bcaa-939f32153a87",
+    "Title": "Personalizar",
+    "Image": "images/playlists/playlist_bw.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "77a22995-0b6d-488c-9747-dea9a7705711",
+    "Description": "Saiba como personalizar o Microsoft Edge e tornar o navegador seu, incluindo a alteração da página inicial, a adição de extensões, o uso do tema escuro, o uso de outros idiomas no Micrsoft Edge e o aumento do tamanho do texto.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "a531e1b8-ed54-d057-0262-cc5983a065c6",
+      "f3522273-d067-7435-6a9d-fdb99213e9a8",
+      "9b74617b-f542-77ed-033b-1a5cfb17a2df",
+      "4da8b5e0-11ce-7ea4-81d7-4e332eec551f",
+      "1d5830c3-eee3-8eaa-836b-abcc37d99b9a"
+    ]
+  },
+  {
     "Id": "77061d5e-2222-4748-ac80-7d03d2587bd3",
-    "Title": "Início rápido do Microsoft Forms",
+    "Title": "Início Rápido do Forms",
     "Image": "images/playlists/forms_quick_startx.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "33059862-a87d-4b40-9984-be7c6083cf95",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "daeade40-9dfc-4d82-84be-9ae7544829dc",
-    "Description": "Criar um formulário em minutos. Aprenda a adicionar perguntas ao seu formulário, definir as configurações, compartilhar seu formulário e verificar os resultados em apenas algumas etapas fáceis!",
+    "Description": "Crie um formulário em minutos. Saiba como adicionar perguntas ao formulário, definir configurações, compartilhar seu formulário e verificar resultados em apenas algumas etapas fáceis!",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1285,15 +1371,15 @@
   },
   {
     "Id": "b873fd99-81be-483a-a8e0-16fcfe0fa120",
-    "Title": "Crie um formulário e exiba os resultados",
+    "Title": "Criar um formulário e exibir resultados",
     "Image": "images/playlists/create_a_formx.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "33059862-a87d-4b40-9984-be7c6083cf95",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "daeade40-9dfc-4d82-84be-9ae7544829dc",
-    "Description": "Aprenda a usar o Forms para criar pesquisas, testes e votações e ver facilmente os resultados conforme eles forem chegando.",
+    "Description": "Saiba como usar o Forms para criar pesquisas, testes e sondagens e ver facilmente os resultados conforme eles chegam.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1306,15 +1392,15 @@
   },
   {
     "Id": "fe752d83-36ae-4209-92f8-e340e9bf696e",
-    "Title": "Compartilhe e colabore",
+    "Title": "Compartilhar e colaborar",
     "Image": "images/playlists/forms-share-collaborate.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "33059862-a87d-4b40-9984-be7c6083cf95",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "daeade40-9dfc-4d82-84be-9ae7544829dc",
-    "Description": "Saiba como colaborar com colegas em seus testes, e formulários e a compartilhar seu questionário ou formulário como um modelo para outras pessoas usarem de maneira independente.",
+    "Description": "Saiba como colaborar com colegas em seus quizzes e formulários e compartilhar seu quiz ou formulário como um modelo para outras pessoas usarem de forma independente.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1329,15 +1415,15 @@
   },
   {
     "Id": "d3acd5c2-0488-4104-935a-61fda884bc49",
-    "Title": "Início rápido do Teams",
+    "Title": "Teams Início Rápido",
     "Image": "images/playlists/teams_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Comece a trabalhar rapidamente com o Guia de Início Rápido do Microsoft Teams. Saiba como entrar no Teams, escolher uma equipe e um canal, bater um papo no Teams, iniciar uma nova conversa, responder a uma conversa, usar emojis, memes e GIFs, compartilhar um arquivo, colaborar com @menção, verificar seu Feed de atividades, pesquisar mensagens, pessoas ou arquivos e configurar seus aplicativos móveis.",
+    "Description": "Comece rapidamente com o guia Microsoft Teams Início Rápido. Saiba como entrar no Teams, escolher uma equipe e um canal, conversar no Teams, iniciar uma nova conversa, responder a uma conversa, usar emojis, memes e GIFs, compartilhar um arquivo, colaborar com o @mention, verificar seu Feed de Atividades, pesquisar mensagens, pessoas ou arquivos e configurar seus aplicativos móveis.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1353,13 +1439,13 @@
     "Title": "Introdução ao Microsoft Teams",
     "Image": "images/playlists/intro_to_microsoft_teams.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "O Microsoft Teams é um aplicativo de colaboração que ajuda sua equipe a se manter organizada e se comunicar - tudo em um só lugar. Com a Introdução ao Microsoft Teams, obtenha uma visão geral das equipes, canais, reuniões, conversas, guias, compartilhe arquivos, colabore em tempo real, encontre arquivos, adicione pessoas a um chat, faça chamadas, gerencie seu calendário, agende uma reunião, participe de reuniões, compartilhe conteúdo, grave uma reunião, veja o feed de atividades e use a caixa de comandos para pesquisar pessoas, itens ou aplicativos.",
-    "StatusTagId": "",
+    "Description": "Microsoft Teams é um aplicativo de colaboração que ajuda sua equipe a se manter organizada e a ter conversas— tudo em um só lugar. Com Introdução ao Microsoft Teams, obter uma visão geral das equipes, canais, reuniões, conversas, guias, compartilhar arquivos, colaborar em tempo real, encontrar arquivos, adicionar pessoas a um chat, fazer uma chamada, gerenciar seu calendário, agendar uma reunião, participar de reuniões, compartilhar conteúdo, gravar uma reunião, exibir nosso feed de atividades e usar a caixa de comando para pesquisar pessoas, itens, ou aplicativos.",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "b98d533f-118e-4bae-bf44-3df2470c2b12"
@@ -1370,19 +1456,21 @@
     "Title": "Iniciar chats e chamadas",
     "Image": "images/playlists/start_chats_calls_and_meetings.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Inicie chats 1:1 ou em grupo para colaborar com um grupo menor ou para falar em particular e marque chats para acesso rápido.",
+    "Description": "Use o Microsoft Teams para iniciar chats e chamadas. Saiba como iniciar um em um ou chats em grupo, fazer chamadas de áudio e vídeo de chats, fixar chats para acesso rápido, fazer chamadas, ocultar chats, excluir mensagens e configurar um representante para fazer ou atender chamadas em seu nome.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
+      "425d6970-6e27-47b6-bc61-4c38fff51c4f",
       "3ba7bca7-2b2a-4df4-8ccc-5a772eae1d83",
+      "0a27994b-4d5d-4ac1-a40d-83b72edca946",
+      "d3fb0e97-4afa-4919-86e8-021102ed5c2b",
       "712ef898-a27e-42fa-a9c1-bfd0733bae97",
-      "1f8eecb7-0714-4147-abfa-07dcc14c21d6",
-      "0a27994b-4d5d-4ac1-a40d-83b72edca946"
+      "1f8eecb7-0714-4147-abfa-07dcc14c21d6"
     ]
   },
   {
@@ -1390,12 +1478,12 @@
     "Title": "Configurar e personalizar sua equipe",
     "Image": "images/playlists/set_up_and_customize_your_team.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Use o Microsoft Teams para configurar e personalizar sua equipe. Saiba como criar uma equipe pública ou privada, adicionar membros a uma equipe, criar um canal e usar o gerenciamento de equipe para encontrar membros, canais, configurações e aplicativos para sua equipe. Há também um guia prático para os proprietários de equipe adicionar e remover membros, adicionar proprietários de equipes, gerenciar canais e alterar as configurações da equipe. Você também pode fixar um canal e reordenar suas equipes para organizar a lista de equipes.",
+    "Description": "Configurar e personalizar sua equipe em Microsoft Teams. Crie uma equipe pública ou privada, adicione membros, crie um canal e use gerenciar a equipe para encontrar membros, canais, configurações e aplicativos para sua equipe. Consulte o guia de orientação para proprietários de equipe adicionar e remover membros, adicionar proprietários de equipe, gerenciar canais e alterar configurações de equipe. Você também pode fixar um canal e reordenar suas equipes para organizar sua lista de equipes.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1409,17 +1497,16 @@
     "Title": "Explorar aplicativos e ferramentas",
     "Image": "images/playlists/explore_apps_and_tools.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Explorar aplicativos e ferramentas no Teams e aprenda a adicionar ferramentas, transformar um arquivo em uma guia e usar a caixa de comando.",
+    "Description": "Os aplicativos permitem que você faça mais no Microsoft Teams. Saiba como explorar aplicativos e ferramentas, adicionar aplicativos em guias e mensagens, e usar conectores para notificações que são úteis para todo o canal. Saiba dicas úteis como transformar um arquivo em uma guia e como usar a caixa de comando para ajudar você a pesquisar, tomar ações rápidas ou lançar aplicativos.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "089ff1b2-6cd7-4e86-ab50-a4390b4bcb21",
-      "4c0ef9a7-0c3e-4a95-aaea-f52f2f81ecbc",
       "13c4e429-7324-4886-b377-5dbed539193b",
       "a78606bb-a15f-4f3e-8892-63f735cc1f6a"
     ]
@@ -1429,16 +1516,17 @@
     "Title": "Colaborar em equipes e canais",
     "Image": "images/playlists/collaborate_in_teams_and_channels.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "No Microsoft Teams, os canais são onde você faz reuniões, conversa e trabalha em arquivos em conjunto. Saiba como criar um canal público ou privado, fixar um canal, adicionar uma guia, compartilhar um arquivo, reunir-se agora, mostrar e ocultar canais, personalizar notificações do canal, responder a uma mensagem, curtir ou salvar uma mensagem, usar @menção, colaborar ou coeditar um arquivo, iniciar uma conversa, enviar email para um canal e criar um plano com o Microsoft Planner.",
+    "Description": "Colabore em equipes e canais no Microsoft Teams. Saiba como criar um canal público ou privado, fixar um canal, adicionar uma guia, compartilhar um arquivo, reunir agora, mostrar e ocultar canais, personalizar notificações de canal, responder a uma mensagem, curtir ou salvar uma mensagem, usar @menção, colaborar em ou coeditar um arquivo, iniciar uma conversa, enviar email para um canal e criar um plano com o Microsoft Planner.",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "c3d63c10-77d5-4204-a566-53ddcf723b46",
+      "4fe74e73-e12d-4c67-8cba-d06ce8e48c24",
       "2766a75b-342a-4ed9-810d-f3c0f06c3207",
       "a6041b90-0805-4140-b8ae-1ee3805908d7",
       "99d33aaa-0743-47c6-a476-eb0a24abcb7e",
@@ -1450,21 +1538,20 @@
   },
   {
     "Id": "7a057fc3-74eb-46ab-991d-50e2e665f95d",
-    "Title": "Trabalhar com mensagens e postagens",
+    "Title": "Trabalhar com postagens e mensagens",
     "Image": "images/playlists/work-with-post-and-messages.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Saiba como criar e formatar uma postagem ou anúncio para iniciar uma conversa em um canal.",
+    "Description": "Trabalhe com postagens e mensagens no Microsoft Teams. Aprenda a criar e formatar uma postagem, postar uma mensagem em vários canais, obter atenção com @menções e salvar uma postagem ou mensagem.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "238176cf-6428-4ca9-8181-7f7c0fe6ff48",
       "a8073654-eb8d-44ca-a7ae-1287b32d599d",
-      "206edfa2-2978-4b03-9eec-4d06f33de166",
       "2f13be6f-3968-4e5c-b020-9532db7b3a18"
     ]
   },
@@ -1473,12 +1560,12 @@
     "Title": "Carregar e localizar arquivos",
     "Image": "images/playlists/upload-and-find-files.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Aprenda a carregar e compartilhar arquivos no Microsoft Teams. Saiba também como localizar e filtrar arquivos.",
+    "Description": "Carregue e localize arquivos no Microsoft Teams. Aprenda como enviar e compartilhar arquivos, anexar um arquivo em um canal, enviar um arquivo na guia Arquivos e encontrar os arquivos que você visualizou ou editou recentemente, criou ou editou nos canais, ou baixou do Teams.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1491,12 +1578,12 @@
     "Title": "Configurar e participar de eventos ao vivo",
     "Image": "images/playlists/setup-and-attend-live-events.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Os eventos ao vivo do Teams permitem que você produza eventos para grandes audiências online com mais controle sobre o vídeo, interação com o público e relatórios.",
+    "Description": "Hospedando um grande evento online? Microsoft Teams ao vivo é uma extensão de reuniões Teams, permitindo que você produza eventos para grandes audiências online com mais controle sobre vídeo, interação de audiência e relatórios. Saiba como criar um evento ao vivo, produzir um evento ao vivo, participar e participar de um evento ao vivo e perguntas moderadas.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1508,23 +1595,23 @@
   },
   {
     "Id": "fae33957-cb84-4185-ab78-2bd3818b31ee",
-    "Title": "Gerenciar reuniões",
+    "Title": "Gerenciar Reuniões",
     "Image": "images/playlists/manage_meetings.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "615f17eb-2c5b-4494-8541-4304435ca306",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Exiba, agende e gerencie compromissos e reuniões no Microsoft Teams para manter sua equipe sob controle.",
+    "Description": "Aprenda dicas e melhores práticas para gerenciar e realizar reuniões eficazes no Microsoft Teams. Participe de uma reunião do Teams, crie reuniões instantâneas com o Meet Now, encontre-se em um canal, veja e agende reuniões, mostre sua tela ou slides em PowerPoint durante uma reunião e mova-se durante uma reunião de Teams para verificar as atividades e continuar trabalhando durante uma reunião. Assista a este vídeo de treinamento para descobrir como.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "6dd4a6fd-d88f-4baf-b08e-06755a680926",
       "006f78bc-67ce-465a-af1c-483534cdb011",
       "7eb9c719-9452-4a9a-b3b6-69f48149ba1c",
-      "0d231dd0-3e6a-4a7c-a384-04ac44e80807",
       "d3cc8fad-9655-4f2d-b8f5-197a1b3951a1",
+      "10b2e2a2-c6e7-4905-9c2d-648e26c957ea",
       "37566690-8652-4eac-abed-bfe6de084828",
       "b33ae7a4-e14b-4e46-9440-94bfed214415",
       "22c40436-db14-4863-93c6-aa9a51134edd"
@@ -1535,12 +1622,12 @@
     "Title": "Gerenciar seu feed de atividades",
     "Image": "images/playlists/manage-your-activity-feed.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Gerenciar seu feed de atividades para saber tudo o que está acontecendo nos canais da equipe que você segue.",
+    "Description": "Selecione o ícone Atividade no trilho Microsoft Teams esquerdo para gerenciar seu feed de atividades, o que fornece um resumo de tudo o que aconteceu nos canais de equipes que você segue. Saiba como filtrar o feed de atividades e gerenciar suas configurações de notificação para controlar quais notificações você recebe, onde você as recebe e com que frequência.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1550,15 +1637,15 @@
   },
   {
     "Id": "90ecbd2b-a1a7-4da1-8355-c1f65c4af298",
-    "Title": "Teams em qualquer lugar",
+    "Title": "Teams em uso",
     "Image": "images/playlists/teams-on-the-go.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Inicie um chat 1:1 ou em grupo no aplicativo móvel Microsoft Teams para conversar em particular ou colaborar com um grupo menor. Crie um canal, participe de uma reunião, use seu feed de atividades ou gerencie notificações de qualquer lugar,",
+    "Description": "Inicie um chat 1:1 ou em grupo no aplicativo móvel Microsoft Teams para falar em particular ou colaborar com um grupo menor. Crie um canal, participe de uma reunião, use seu feed de atividades ou gerencie notificações em tempo há pouco,",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1571,15 +1658,15 @@
   },
   {
     "Id": "2ba46e26-5c63-48b9-818c-f49354b3b5d1",
-    "Title": "Gerenciar cronogramas de equipe com os Turnos",
+    "Title": "Gerenciar agendamentos de equipe com turnos",
     "Image": "images/playlists/teams_shifts.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Turnos no Microsoft Teams é uma ferramenta de gerenciamento de agendamento. Saiba como usar os Turnos para criar, atualizar e gerenciar cronogramas da sua equipe.",
+    "Description": "Saiba como gerenciar agendamentos de equipe com turnos em Microsoft Teams para criar, atualizar e gerenciar agendas para sua equipe. Os gerentes podem criar e gerenciar agendamentos de turno e revisar, aprovar ou negar solicitações. Os funcionários de linha de frente podem usar Shifts para exibir e gerenciar sua agenda e permanecer em sincronia com sua equipe.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -1591,24 +1678,25 @@
     ]
   },
   {
-    "Id": "a9047d0c-b690-4a43-9ad3-78ee5c1d5d7b",
-    "Title": "Walkie Talkie, Tasks e Elogio",
-    "Image": "images/playlists/teams_walkie.png",
+    "Id": "6f59454d-6ed1-4733-8825-c9616564565d",
+    "Title": "Criar e gerenciar reservas",
+    "Image": "images/playlists/playlist_bw.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Aprenda como usar o aplicativo Walkie Talkie Teams para transformar seu telefone comercial em um dispositivo de comunicação de voz instantânea simples e seguro, como usar o aplicativo Tarefas no Teams e como se comunicar e reconhecer sua equipe de Linha de Frente e Elogiar.",
+    "Description": "O Bookings no Microsoft Teams permite acompanhar, gerenciar e organizar os compromissos e calendários da sua equipe em um só lugar. Você pode criar um calendário do Bookings e adicionar membros da equipe a ele, criar novos tipos de compromisso e criar e gerenciar visitas presenciais e virtuais para sua equipe e participantes.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
-      "891f92f0-7014-4d6d-b888-9ccfe2d25fa5",
-      "362a1ec7-06ca-40df-bf68-a9edd830683e",
-      "125ebed0-45fb-4b5c-a6c4-fd84dffff334",
-      "1567a3c0-38de-4d02-81b3-73571a708b42",
-      "62e14a8f-ca13-4ad0-b551-e2dda01193a9"
+      "42d4e852-8e99-4d8f-9b70-d7fc93973cb5",
+      "921cfd26-a24d-4aca-9004-561594112148",
+      "6c579f61-8adb-4514-9458-021de2023fa0",
+      "810eac77-6a65-4dc8-964d-c00eadf43887",
+      "a86a4007-e26c-4909-9893-f7036e2747cd",
+      "95cea12d-2220-421f-a663-6efb20913c7f"
     ]
   },
   {
@@ -1616,24 +1704,27 @@
     "Title": "Criar aprovações",
     "Image": "images/playlists/teams_approvals.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Aprovações no Microsoft Teams são uma forma de agilizar todas as suas solicitações e processos com sua equipe ou parceiros. Saiba como criar novas aprovações, visualizar aquelas enviadas para você e ver todas as suas aprovações anteriores em um só lugar.",
+    "Description": "As aprovações no Microsoft Teams são uma forma de simplificar todos os seus pedidos e processos com sua equipe ou parceiros. Saiba como criar novas aprovações, veja as que lhe foram enviadas e veja todas as suas aprovações anteriores em um só lugar.",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
+      "079cd574-3e04-4dc1-bcc1-6d0797970723",
       "fc8da528-2cbd-4079-accd-8435ab70cabd",
       "0da0c87d-ea04-41fe-bf2a-dbae4d98e185",
-      "079cd574-3e04-4dc1-bcc1-6d0797970723",
-      "e94cd617-b48e-433c-94c3-7f944a3a8579"
+      "e94cd617-b48e-433c-94c3-7f944a3a8579",
+      "c33ecf9f-b745-4287-b104-ac69469745e0",
+      "7d281bf2-4e60-42ea-afc3-e472dd20c93d",
+      "944b2b8b-f840-44a4-a83d-53ef71b92c1f"
     ]
   },
   {
     "Id": "eda0aa68-24ac-46a1-83db-e04f929be0d6",
-    "Title": "Office para a Web: Introdução",
+    "Title": "Office para a Web: Começar",
     "Image": "images/playlists/office_for_the_web_get_started.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1641,7 +1732,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
-    "Description": "O Office.com é melhor lugar para começar o dia ou se você quiser acessar os seus trabalhos.",
+    "Description": "Office.com é o melhor lugar para começar, seja o início do dia ou você está voltando ao trabalho.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -1662,7 +1753,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
-    "Description": "O Outlook na Web torna seus emails, calendário e contatos mais facilmente acessíveis para você. Aqui estão alguns dos ótimos recursos para uso. Envie mensagens e compartilhe arquivos para colaborar com outras pessoas.",
+    "Description": "Outlook na Web torna mais simples manter seus emails, calendários e contatos à sua disposição. Aqui estão alguns dos recursos excelentes a usar. Envie mensagens e compartilhe arquivos para colaborar com outras pessoas.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -1685,7 +1776,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
-    "Description": "Com o Word para a Web, crie documentos, adicione texto, imagens e artes, e compartilhe o arquivo para trabalhar com outras pessoas, independentemente de onde você esteja.",
+    "Description": "Com Word para a Web, crie documentos, adicione texto, imagens e arte e compartilhe seu arquivo para trabalhar com outras pessoas , independentemente de onde você está.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -1707,7 +1798,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
-    "Description": "O Excel para Web permite usar o Excel em qualquer dispositivo e em praticamente qualquer lugar.",
+    "Description": "Excel para a Web dá a você o poder de Excel em qualquer dispositivo, de praticamente qualquer lugar.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -1730,7 +1821,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
-    "Description": "O PowerPoint para Web permite criar, editar e apresentar apresentações em qualquer dispositivo, de praticamente qualquer lugar.",
+    "Description": "PowerPoint para a Web a capacidade de criar, editar e apresentar apresentações em qualquer dispositivo, de praticamente qualquer lugar.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -1744,7 +1835,7 @@
   },
   {
     "Id": "69149089-33ca-4e3c-863d-713768570323",
-    "Title": "Office para a Web: Compartilhar seus documentos",
+    "Title": "Office para a Web: compartilhar seus documentos",
     "Image": "images/playlists/office_for__web_share_documents.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1752,7 +1843,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
-    "Description": "É muito simples compartilhar documentos de onde quer que você esteja trabalhando no Office 365.",
+    "Description": "Onde quer que você esteja trabalhando Office 365, é simples compartilhar seus documentos.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -1764,7 +1855,7 @@
   },
   {
     "Id": "c9ecc2e9-bc17-496a-8b0b-9242b6bb3eaf",
-    "Title": "Início rápido do OneDrive",
+    "Title": "OneDrive QuickStart",
     "Image": "images/playlists/onedrive_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1772,7 +1863,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "4ee4d22a-7d53-48bb-9a14-adf34d01cd75",
-    "Description": "Comece a trabalhar rapidamente com o Guia de Início Rápido do OneDrive. Saiba como carregar arquivos e pastas, usar o OneDrive em seu navegador ou área de trabalho, salvar e abrir arquivos em seus aplicativos do Office, criar um arquivo ou pasta, gerenciar arquivos e pastas, pesquisar arquivos, fazer backup de arquivos, compartilhar arquivos, gerenciar o acesso e permissões, interromper o compartilhamento, copiar links, alterar visualizações, colaborar no OneDrive, configurar seus aplicativos móveis e trabalhar em qualquer lugar com o aplicativo do OneDrive em seu dispositivo móvel.",
+    "Description": "Comece rapidamente com o guia OneDrive Início Rápido. Upload arquivos e pastas, use o OneDrive no navegador ou na área de trabalho, salve e abra arquivos em seus aplicativos do Office, crie e gerencie arquivos e pastas, pesquise, fazer o back-up e compartilhe arquivos, gerenciar acesso e permissões, copiar links, alterar exibições, colaborar no OneDrive, configurar seus aplicativos móveis para funcionar em qualquer lugar.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1793,7 +1884,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "4ee4d22a-7d53-48bb-9a14-adf34d01cd75",
-    "Description": "Saiba mais sobre o OneDrive, noções básicas do OneDrive e como configurar o OneDrive",
+    "Description": "Comece a usar o OneDrive para acessar e editar arquivos, compartilhar informações, salvar seus arquivos na nuvem para que você possa trabalhar em arquivos com outras pessoas e manter seus arquivos protegidos e com backup. Saiba o que é o OneDrive, como começar, como usar o Painel de Navegação e a Barra de Ferramentas e como configurar seus aplicativos móveis. Assista a este treinamento em vídeo para ver como.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1807,7 +1898,7 @@
   },
   {
     "Id": "3c24a6b8-a3d7-4133-ba59-08d705fe8160",
-    "Title": "Gerencie seus arquivos com o OneDrive",
+    "Title": "Gerenciar seus arquivos com OneDrive",
     "Image": "images/playlists/manage_your_files.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1815,7 +1906,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "4ee4d22a-7d53-48bb-9a14-adf34d01cd75",
-    "Description": "Acesse arquivos e pastas em praticamente qualquer lugar com o OneDrive",
+    "Description": "Upload arquivos para que você possa gerenciar seus arquivos em OneDrive e chegar a eles de qualquer lugar. Saiba como carregar arquivos e pastas, criar arquivos e pastas, excluir e restaurar arquivos excluídos, excluir arquivos na nuvem, ativar o backup OneDrive e restaurar sua OneDrive. Assista a este treinamento em vídeo para ver como.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1829,7 +1920,7 @@
   },
   {
     "Id": "f007841f-fde2-463c-8043-035084c00ba5",
-    "Title": "Compartilhar e sincronizar com o OneDrive",
+    "Title": "Compartilhar e sincronizar com OneDrive",
     "Image": "images/playlists/onedrive_share_and_sync.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1837,7 +1928,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "4ee4d22a-7d53-48bb-9a14-adf34d01cd75",
-    "Description": "Usar o OneDrive para compartilhar arquivos, controlar a exibição e a edição, além de trabalhar em conjunto ao mesmo tempo",
+    "Description": "Saiba como compartilhar e sincronizar em OneDrive trabalho ou escola. Compartilhe arquivos e pastas OneDrive, sincronize arquivos e pastas, gerencie o espaço em disco e sincronize arquivos com arquivos sob demanda do OneDrive para chegar a todos os seus arquivos no OneDrive ou no SharePoint Online, sem precisar baixá-los e usar espaço de armazenamento em seu dispositivo. Assista a este treinamento em vídeo para ver como.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1848,7 +1939,7 @@
   },
   {
     "Id": "a324d70a-4727-43e3-b78a-be93092d3dd0",
-    "Title": "Início Rápido do OneNote",
+    "Title": "OneNote Início Rápido",
     "Image": "images/playlists/onenote_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1856,7 +1947,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-    "Description": "Aprenda a criar um bloco de anotações no OneNote",
+    "Description": "Comece rapidamente com o OneNote Início Rápido. Criar, abrir e alternar entre blocos de anotações. Tome notas e adicione páginas e seções. Compartilhe páginas ou um bloco de anotações inteiro para permanecer organizado e colaborar com outras pessoas. Configurar seus aplicativos móveis para chegar aos arquivos de qualquer lugar.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1876,7 +1967,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-    "Description": "Com o OneNote, você pode digitar anotações ou gravar áudio, esboçar ou escrever ideias, adicionar uma imagem, localizar anotações, organizar páginas em seções e seções em anotações, e compartilhar blocos de anotações para visualizar e contribuir em conjunto. Assista a este vídeo de visão geral da Introdução ao OneNote e saiba como entrar, adicionar uma nova página ou seção, renomear uma página ou seção, abrir um bloco de anotações diferente e personalizar o OneNote.",
+    "Description": "Com OneNote, você pode digitar anotações ou gravar ideias de áudio, rascunho ou gravação, adicionar uma imagem, encontrar anotações, organizar páginas em seções e seções em blocos de anotações e compartilhar blocos de anotações para exibir e contribuir juntos. Assista a este vídeo de introdução OneNote visão geral e aprenda a entrar, adicionar uma nova página ou seção, renomear uma página ou seção, abrir um bloco de anotações diferente e personalizar OneNote.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1886,7 +1977,7 @@
   },
   {
     "Id": "b63ab88a-2478-44a0-80a9-661849142f29",
-    "Title": "Fazer anotações com o OneNote",
+    "Title": "Anotações com OneNote",
     "Image": "images/playlists/take_notes.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1894,7 +1985,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-    "Description": "Faça anotações da maneira desejada, insira imagens e arquivos e crie mais espaço em seu bloco de anotações.",
+    "Description": "Com OneNote, faça anotações da maneira que você deseja – digite anotações, escreva anotações, converta anotações manuscritas em texto e até grave notas de áudio. Insira imagens, arquivos e vídeos. Crie quantas páginas, seções e blocos de anotações precisar.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1905,7 +1996,7 @@
   },
   {
     "Id": "8c0e0a94-ac56-4ed8-a385-caea31145761",
-    "Title": "Formatar anotações com o OneNote",
+    "Title": "Formatar notas com OneNote",
     "Image": "images/playlists/format_notes.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1913,7 +2004,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-    "Description": "Formatar anotações, páginas e tabelas para deixá-las da maneira que você deseja",
+    "Description": "Formatar anotações OneNote fazer com que elas pareçam exatamente como você deseja. Realça o texto, crie listas, texto recuado, alinhe anotações e aplique estilos. Aplique uma cor de plano de fundo a uma página ou seção para torná-la mais atraente visualmente. Inserir e formatar uma tabela para organizar visualmente informações.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1924,7 +2015,7 @@
   },
   {
     "Id": "17a6d04a-e893-4b67-932f-529f70868150",
-    "Title": "Desenhar e esboçar com o OneNote",
+    "Title": "Desenhar e desenhar com OneNote",
     "Image": "images/playlists/draw_and_sketch.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1932,7 +2023,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-    "Description": "Desenhe ou faça esboços no OneNote para dar destaque às anotações",
+    "Description": "Desenhar ou desenhar em OneNote para dar vida a suas anotações. Você pode selecionar uma caneta, lápis ou realçador, a espessura e a cor. Crie formas como um círculo, um triângulo ou um retângulo ou até mesmo desenhar formas com seu dedo, caneta ou mouse e OneNote as limpará para você.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1942,7 +2033,7 @@
   },
   {
     "Id": "352e7758-5888-40c5-b765-edc83d7c64b3",
-    "Title": "Manter-se organizado com o OneNote",
+    "Title": "Mantenha-se organizado com OneNote",
     "Image": "images/playlists/stay_organized.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1950,7 +2041,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-    "Description": "Para se manter organizado com o OneNote, saiba como pesquisar anotações, restringir a pesquisa e organizar seus blocos de anotações. Veja como mostrar os painéis de navegação, mover uma página de uma seção para outra, copiar uma página para outra seção ou bloco de anotações e mover ou copiar uma seção.",
+    "Description": "Para se manter organizado com OneNote, saiba como pesquisar anotações, restringir a pesquisa e organizar seus blocos de anotações. Veja como mostrar painéis de navegação, mover uma página de uma seção para outra, copiar uma página para outra seção ou bloco de anotações e mover ou copiar uma seção.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1960,7 +2051,7 @@
   },
   {
     "Id": "30190ee7-5d18-4c8c-9104-42b06388bee7",
-    "Title": "Compartilhar e sincronizar com o OneNote",
+    "Title": "Compartilhar e sincronizar com OneNote",
     "Image": "images/playlists/share_and_sync.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1968,7 +2059,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-    "Description": "Compartilhe suas anotações com outras pessoas e proteja com senha anotações particulares",
+    "Description": "Compartilhe e sincronize todo o bloco OneNote bloco de anotações para colaborar com outras pessoas. Selecione compartilhar, com quem você deseja compartilhar e se eles podem editar ou exibir somente sua página ou bloco de anotações. Você também pode bloquear ou proteger por senha seções de bloco de anotações que deseja manter em particular.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1986,7 +2077,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-    "Description": "Use o OneNote no iOS, Android e online para se conectar e trabalhar com suas anotações em praticamente qualquer lugar.",
+    "Description": "Use OneNote em seus dispositivos móveis para que você possa se conectar e trabalhar com suas anotações onde quer que esteja. Use OneNote iOS, OneNote para Android ou OneNote Online.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1997,7 +2088,7 @@
   },
   {
     "Id": "e66fa8f3-ec7e-47f9-9d79-4d334f157563",
-    "Title": "Início rápido do Outlook",
+    "Title": "Outlook Início Rápido",
     "Image": "images/playlists/outlook_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2005,7 +2096,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "Comece a trabalhar rapidamente com o Guia de Início Rápido do Outlook. Saiba como adicionar uma conta de email, criar e enviar email, usar @menções, mostrar a Caixa de Entrada Destaques, gerenciar sua agenda e contatos, agendar um compromisso usando o Assistente de Agendamento, adicionar um contato, colaborar no Outlook, compartilhar um arquivo, configurar uma reunião e anotações compartilhadas, e configurar seus aplicativos móveis.",
+    "Description": "Comece rapidamente com o guia Outlook Início Rápido. Saiba como adicionar uma conta de email, criar e enviar emails, usar @mentions, mostrar caixa de entrada focada, gerenciar seu calendário e contatos, agendar um compromisso usando o Assistente de Agendamento, adicionar um contato, colaborar no Outlook, compartilhar um arquivo, configurar uma reunião online e anotações compartilhadas e configurar seus aplicativos móveis.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2018,7 +2109,7 @@
   },
   {
     "Id": "79fe1eb2-571e-4cbe-98b9-913692ddd387",
-    "Title": "Configurar e personalizar o Outlook",
+    "Title": "Configurar e personalizar Outlook",
     "Image": "images/playlists/set_up_and_customize.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2026,7 +2117,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "Precisa configurar e personalizar o Outlook? Saiba como o Outlook pode ajudá-lo a organizar seu email, gerenciar e compartilhar seu calendário, compartilhar arquivos, ficar conectado e adicionar uma conta outlook.com, conta de email do Microsoft 365 ou do Gmail.",
+    "Description": "Precisa configurar e personalizar Outlook? Saiba como Outlook pode ajudá-lo a organizar seu email, gerenciar e compartilhar seu calendário, compartilhar arquivos, permanecer conectado e adicionar uma conta outlook.com, uma conta de email Microsoft 365 ou conta do Gmail.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2045,8 +2136,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "Descubra a caixa de entrada do Microsoft Outlook",
-    "StatusTagId": "",
+    "Description": "Saiba como criar e enviar emails em Outlook, criar uma assinatura de email, enviar e receber anexos e retirar ou substituir um email enviado. Assista a este treinamento em vídeo para ver como.",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "c6c261e3-d50a-43a6-816f-35fe1e53acc6",
@@ -2058,7 +2149,7 @@
   },
   {
     "Id": "8d87d80d-b5df-45a9-9164-e03d74cca066",
-    "Title": "Gerenciar e-mail",
+    "Title": "Gerenciar email",
     "Image": "images/playlists/manage_email.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2066,8 +2157,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "Configurar respostas automáticas para quando você estiver fora do escritório",
-    "StatusTagId": "",
+    "Description": "Saiba como gerenciar seu email no Outlook. Use Respostas Automáticas para responder automaticamente a mensagens, pesquisar e filtrar emails, refinar suas pesquisas, ignorar conversas e usar a Conversa limpa para limpar sua caixa de entrada. Assista a este treinamento em vídeo para ver como.",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "cc0e480f-973e-4412-a27b-8a52108d6d51",
@@ -2078,7 +2169,7 @@
   },
   {
     "Id": "ab55d6d4-c932-48a5-a062-a5e760fda581",
-    "Title": "Organizar a caixa de entrada",
+    "Title": "Organizar sua caixa de entrada",
     "Image": "images/playlists/organize_your_inbox.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2086,8 +2177,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "Aprenda dicas para organizar sua caixa de entrada. Saiba como definir um sinalizador de acompanhamento, visualizar ou remover sinalizadores de acompanhamento, definir um lembrete, encontrar um item de ação, criar categorias de cores, atribuir uma categoria de cor a uma mensagem de email, criar uma pasta, mover mensagens para uma pasta, adicionar uma pasta para Favoritos ou criar um filtro.",
-    "StatusTagId": "",
+    "Description": "Saiba dicas para organizar sua caixa de entrada. Saiba como definir um sinalizador Follow Up, exibir ou remover sinalizadores de Acompanhamento, definir um lembrete, encontrar um Item de Ação, criar categorias de cores, atribuir uma categoria de cor a uma mensagem de email, criar uma pasta, mover mensagens em uma pasta, adicionar uma pasta aos Favoritos ou criar uma regra.",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "a894348d-b308-4185-840f-aff63063d076",
@@ -2097,7 +2188,7 @@
   },
   {
     "Id": "94a14949-5322-4bfb-b45a-f66e67286e98",
-    "Title": "Contatos e tarefas no Outlook",
+    "Title": "Contatos e tarefas em Outlook",
     "Image": "images/playlists/contacts_and_tasks.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2105,7 +2196,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "Adicione um contato, crie um grupo de contatos, importe e exporte contatos ou crie tarefas ou uma lista de tarefas pendentes.",
+    "Description": "Acompanhe seus contatos e tarefas em Outlook. Saiba como adicionar um contato, criar um grupo de contatos, importar contatos do Gmail, exportar contatos e criar tarefas e uma lista de tarefas a fazer.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2126,7 +2217,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "Crie compromissos e reuniões, compartilhe seu calendário ou pesquise os itens do calendário.",
+    "Description": "Saiba como usar seu calendário em Outlook organizar sua agenda. Alternar seu modo de exibição de calendário entre dia, semana ou mês, criar compromissos e reuniões, agendar uma reunião online, compartilhar seu calendário, importar calendários, pesquisar itens de calendário, usar categorias de cores e lembretes para que você nunca perca uma reunião importante e ativar a visualização do Calendário Compartilhado.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2141,7 +2232,7 @@
   },
   {
     "Id": "cf0a88b6-99be-4db9-8312-a762cfd9976a",
-    "Title": "Outlook Mobile: Gerencie sua caixa de entrada",
+    "Title": "Outlook celular: Gerenciar sua caixa de entrada",
     "Image": "images/playlists/outlook-mobile-manage-your-inbox.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2149,7 +2240,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "Gerencie a sua caixa de entrada e aprenda como fazer a confirmação de presença instantânea para convites, deslize o dedo para a direita para gerenciar sua caixa de entrada, crie a caixa de entrada prioritária e use widgets Android.",
+    "Description": "Gerencie sua caixa de entrada Outlook celular. Saiba como reproduzir seus emails, RSVP para convidar instantaneamente, passar o dedo para a esquerda e passar o dedo para a direita para gerenciar sua caixa de entrada, classificar mensagens em Destaques e Outros para se concentrar no que importa e usar widgets Android para acessar as ferramentas que você usa o dia todo, todos os dias direto da tela inicial do Android.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2161,7 +2252,7 @@
   },
   {
     "Id": "07666fb2-f6a8-416d-9805-78072ade58ca",
-    "Title": "Outlook Mobile: Gerencie seu tempo",
+    "Title": "Outlook celular: gerenciar seu tempo",
     "Image": "images/playlists/outlook-mobile-manage-your-time.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2169,7 +2260,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "O Outlook Mobile ajuda você a encontrar um horário em que todos estejam disponíveis para uma reunião.",
+    "Description": "Use Outlook celular para gerenciar seu tempo, agendar reuniões e ver quando todos estão disponíveis. Use o assistente de local de reunião, envie disponibilidade de reunião, compartilhe seu calendário, mesclar e combinar calendários e gerenciar suas notificações. Saiba as 10 principais dicas Outlook mobile.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2185,28 +2276,31 @@
   },
   {
     "Id": "a0cbd9cd-bfeb-4976-b39d-8c21da669d0f",
-    "Title": "Outlook Mobile: Pessoas e conexões",
-    "Image": "images/playlists/outlook-mobile-people-and-connections.png",
+    "Title": "Outlook: pessoas e conexões",
+    "Image": "images/playlists/outlook-mobile-manage-your-time.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "3edeb182-3828-4a83-aef9-928a2693e288",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "O Outlook Mobile torna mais fácil localizar contatos e saber mais sobre eles.",
+    "Description": "Use Outlook celular para gerenciar seu tempo, agendar reuniões e ver quando todos estão disponíveis. Use o assistente de local de reunião, envie disponibilidade de reunião, compartilhe seu calendário, mesclar e combinar calendários e gerenciar suas notificações. Saiba as 10 principais dicas Outlook mobile.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
-      "1f238e49-2699-4ff7-b992-3b1b0f35297b",
-      "871a7381-5154-4a9d-83df-d59476b7139a",
-      "7fa421df-1bdf-4374-84e8-a8d45307020e",
-      "20ec8c7f-3109-4be6-ae14-10dd7ba7e99b",
-      "152146fb-0400-45fb-913d-98761810aea4"
+      "672f8ae7-1843-4dff-acb4-d3a998f5f392",
+      "555babd1-f307-48ef-a2cf-f6ea1aae6fdc",
+      "f21a4063-db88-40ab-9376-8e324711f6d8",
+      "6d35e08b-ca70-42b8-abf7-cca1ddbd267d",
+      "0e8be5a2-c2e1-4702-bb76-0ee7228b9d35",
+      "82fa4ae4-e978-4603-8460-a6293eacd38b",
+      "0b32ebf0-fae9-4815-a061-94048d0799ef",
+      "615b74e8-37e7-43a3-9ac3-a41c5e30843a"
     ]
   },
   {
     "Id": "8405be6d-8da0-40d4-aa5c-ac00d4697c2b",
-    "Title": "Outlook Mobile: Pesquisar e compartilhar",
+    "Title": "Outlook mobile: Pesquisar e compartilhar",
     "Image": "images/playlists/outlook-mobile-search-and-share.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2214,7 +2308,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "A Pesquisa da Microsoft no aplicativo móvel do Outlook encontra o que você precisa rapidamente. Acesse facilmente seus principais contatos, eventos de calendário e arquivos com a pesquisa de email aprimorada.",
+    "Description": "Saiba como pesquisar no Outlook, compartilhar arquivos e fotos, pesquisar seu calendário por título, assunto, endereço de email ou descrição de evento e usar o ícone pesquisar para encontrar anexos de email.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2234,7 +2328,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "fcdc0676-03f7-40b9-80c1-167560c4018d",
-    "Description": "Descubra o Planner: gerenciar tarefas e obter atualizações",
+    "Description": "Comece rapidamente com o Início Rápido do Planner. Saiba como entrar, criar um plano, adicionar pessoas a um plano, configurar buckets para tarefas, adicionar tarefas, datas de vencimento, comentários e anexos, exibir o progresso de um plano e obter atualizações e notificações de email e configurar seu dispositivo móvel para usar o Planner em qualquer lugar.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2247,7 +2341,7 @@
   },
   {
     "Id": "66e36e66-d38b-4103-9c34-1201c2f2eb7f",
-    "Title": "Ideias para o seu quadro",
+    "Title": "Ideias para seu quadro",
     "Image": "images/playlists/planner_use_planner.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2255,7 +2349,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "fcdc0676-03f7-40b9-80c1-167560c4018d",
-    "Description": "Use o Planner para planejar um evento, publicar conteúdo e acompanhar um processo",
+    "Description": "Obter ideias para seu quadro no Planner. Planeje um evento como um lançamento de produto, suporte aos clientes, publique conteúdo ou acompanhe o progresso. Confira exemplos da vida real para obter ideias sobre como você pode usar o Planner.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2275,7 +2369,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "fcdc0676-03f7-40b9-80c1-167560c4018d",
-    "Description": "Gerencie tarefas, crie planos e cronogramas",
+    "Description": "Use o Planner para organizar sua equipe, ver relatórios de progresso e acompanhar atribuições individuais. Saiba como criar um plano, adicionar buckets e tarefas, atribuir tarefas e datas de conclusão e adicionar um plano ao Teams. Compare o Planner com o ToDo, use o Modo de Exibição de Agendamento para organizar suas tarefas em um calendário e ver sua agenda do Planner no calendário do Outlook.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2300,7 +2394,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
-    "Description": "Criar apresentações com o PowerPoint",
+    "Description": "Inicie rapidamente com o Guia Inicio Rápido do PowerPoint. Criar uma apresentação, adicionar um slide, imagem, forma ou gráfico, salvar no OneDrive, renomear uma apresentação, usar temas e o PowerPoint Designer, adicionar transições e animações, compartilhar e colaborar com outros, adicionar comentários, conversar durante a edição, restaurar versões anteriores, usar o Modo de Exibição do Apresentador e Anotações, e configurar seus aplicativos móveis.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2314,7 +2408,7 @@
   },
   {
     "Id": "b7593732-a75a-4542-9d72-4932c505b92f",
-    "Title": "Bem-vindo ao PowerPoint",
+    "Title": "Introdução ao PowerPoint",
     "Image": "images/playlists/welcome_to_powerpoint.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2322,7 +2416,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
-    "Description": "Crie uma apresentação do zero ou com base em um tema com gráficos internos, fontes e espaços reservados para texto, imagens e conteúdo.",
+    "Description": "Nesta introdução ao curso de PowerPoint, saiba como você pode usar o PowerPoint para criar apresentações, adicionar texto, imagens, arte e vídeos, selecionar um design profissional com o designer do PowerPoint, adicionar transições e animações, salvar no OneDrive para chegar aos arquivos de qualquer lugar e compartilhar seu trabalho para colaborar com outras pessoas.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2342,7 +2436,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
-    "Description": "Saiba como criar, editar e organizar seus slides com o slide mestre.",
+    "Description": "Aprenda como criar slides e layouts em PowerPoint. Criar um slide mestre, adicionar, reorganizar, duplicar e mover slides, aplicar um layout de slides, adicionar cor e design a seus slides com temas, aplicar um modelo a uma nova apresentação, receber ideias de design com o PowerPoint Designer e personalizar um slide mestre. Assista a este vídeo de treinamento para saber como.",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
@@ -2351,7 +2445,7 @@
       "d98e245b-7cd5-4813-a893-70a3dac60971",
       "6f0ec776-cc58-4d0c-baab-051ba837b7a0",
       "434b92d7-5347-4197-8d5c-d5b23219cf28",
-      "9e64b176-7d80-4390-84d2-f61247209780",
+      "05bcb3c2-872a-4eaf-8b9f-f6a6ceccd3c9",
       "1246244d-f465-4e4f-b9f9-49acdae00ff1",
       "314cfd6f-dfb0-44f6-8bf5-8d7c2f4f4332",
       "fcedcc77-e229-4519-9e42-58759da72d33",
@@ -2364,7 +2458,7 @@
   },
   {
     "Id": "9933fa88-bb9e-4dec-8124-abe44b89222c",
-    "Title": "Texto e tabelas com o PowerPoint",
+    "Title": "Texto e tabelas com PowerPoint",
     "Image": "images/playlists/text_and_tables.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2372,12 +2466,12 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
-    "Description": "Quer saber mais sobre texto e tabelas com o PowerPoint? Saiba como inserir WordArt, adicionar um hiperlink a um slide, criar uma apresentação do PowerPoint a partir de uma estrutura de tópicos, verificar a ortografia em sua apresentação, criar e formatar uma tabela, inserir um gráfico do Excel vinculado, adicionar números de slides, data e hora e definir o direção e posição do texto em uma forma ou caixa de texto.",
+    "Description": "Quer saber mais sobre texto e tabelas com o PowerPoint? Saiba como inserir WordArt, adicionar um hiperlink a um slide, criar uma apresentação do PowerPoint a partir de uma estrutura de tópicos, verificar a ortografia da apresentação, criar e formatar uma tabela, inserir um gráfico vinculado do Excel, adicionar números de slides, data e hora, bem como definir a direção e a posição do texto em uma forma ou caixa de texto.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "06f64160-9abf-46bb-80d1-9e94d47a0d36",
-      "239c6c94-d52f-480c-99ae-8b0acf7df6d9",
+      "f37e08a-43a8-40fe-a1d3-3adf6c592fa9",
       "ce655d7b-bc99-4323-be2e-627d3e759528",
       "33b3491e-f0ec-48c4-b9fb-3a5bd8797608",
       "19767daf-672c-43bc-bda1-330b242c57c9",
@@ -2397,7 +2491,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
-    "Description": "Com o PowerPoint você pode inserir figuras, fotos, clip-art ou outras imagens do seu computador ou da internet em sua apresentação de slides.",
+    "Description": "Adicione imagens e elementos gráficos no PowerPoint para tornar sua apresentação visualmente atraente. Saiba como inserir uma imagem, aplicar um efeito artístico, adicionar SmartArt, adicionar uma imagem de plano de fundo ou logotipo da empresa, adicionar gráficos e elementos gráficos ou inserir ícones.",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
@@ -2425,7 +2519,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
-    "Description": "Saiba como fazer apresentações de slides, adicionar anotações do orador, gravar e imprimir uma apresentação de slides e criar uma apresentação de autoexecução.",
+    "Description": "Aprenda como fazer apresentações de slides no PowerPoint. Adicionar anotações do orador aos slides, ensaiar o tempo e a entrega, gravar uma apresentação de slides com narração, imprimir seus slides, apostilas ou anotações e criar uma apresentação autoexecutável.",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
@@ -2447,22 +2541,22 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
-    "Description": "Aprenda a adicionar, alterar ou remover transições entre slides, animar textos ou objetos, inserir ou vincular a um vídeo e adicionar ou excluir áudio",
+    "Description": "Adicione animação, vídeo e áudio no PowerPoint para tornar sua apresentação mais envolvente e profissional. Adicione transições entre slides, texto ou objetos animados, use a transição Transformar, insira um vídeo, adicione áudio ou música, grave sua tela e insira ela na sua apresentação.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
-      "7db07067-4d78-40b5-bc87-5ff4f5ff6ff7",
       "e89a076e-ed81-404e-9598-021a918fa1ba",
+      "7db07067-4d78-40b5-bc87-5ff4f5ff6ff7",
+      "efa900e1-3b09-453e-a4c2-ee672c2088f1",
+      "94b100a6-c1cc-4ef4-9f13-35ee20de950e",
       "bb7fc99c-71ef-48e3-ac1a-3ebafcd9f3ed",
       "eeac1757-5f20-4379-95f2-0d0cd151d5b8",
-      "efa900e1-3b09-453e-a4c2-ee672c2088f1",
-      "8340ec69-4cee-4fe1-ab96-4849154bc6db",
       "45336fff-9afd-4d92-ade2-c0b2b4186db6"
     ]
   },
   {
     "Id": "ee7fc2e1-a42d-452e-ab90-e8131b08a9b1",
-    "Title": "Compartilhar e trabalhar em coautoria com o PowerPoint",
+    "Title": "Compartilhar e coautor com PowerPoint",
     "Image": "images/playlists/share_and_co-author.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2470,7 +2564,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
-    "Description": "Compartilhe e trabalhe em coautoria em uma apresentação, use comentários, inspecione uma apresentação e salve a apresentação do PowerPoint como um PDF",
+    "Description": "Compartilhar e coautor com outras pessoas PowerPoint em tempo real. Trabalhe com comentários, compartilhe sua apresentação, salve uma apresentação como um vídeo, inspecione uma apresentação para remover informações pessoais e confidenciais ou salve uma apresentação como um PDF.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2483,7 +2577,7 @@
   },
   {
     "Id": "24216b89-7d0d-4263-b61e-2ecbda58f1df",
-    "Title": "Início Rápido do SharePoint Online",
+    "Title": "SharePoint Início rápido online",
     "Image": "images/playlists/sharepoint_online_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2491,7 +2585,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "e5e2ae74-20ff-4626-937d-df4ff3405f29",
-    "Description": "Crie e personalize sites da intranet, colabore com outras pessoas, gerencie sua rotina diária com fluxos de trabalho e armazene suas informações",
+    "Description": "Comece rapidamente com o guia Início Rápido do Word. Saiba como entrar no SharePoint, pesquisar e descobrir notícias e informações, encontrar seu site, criar um site, adicionar uma lista ou biblioteca de documentos, usar filtros para modificar o que você vê, adicionar uma página, adicionar uma Web Part, colaborar com outras pessoas, abrir um documento de uma biblioteca de documentos, compartilhar um documento, sincronizar arquivos no computador e configurar seus aplicativos móveis.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2512,7 +2606,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "e5e2ae74-20ff-4626-937d-df4ff3405f29",
-    "Description": "Aprenda e siga sites e permaneça conectado a dispositivos móveis",
+    "Description": "Com esta introdução ao SharePoint Online, saiba como você pode usar o SharePoint para criar sites de intranet, páginas, bibliotecas de documentos e listas, encontrar e seguir sites e notícias e permanecer conectado no celular. Assista a este treinamento em vídeo para ver como.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2531,7 +2625,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "e5e2ae74-20ff-4626-937d-df4ff3405f29",
-    "Description": "Crie um site de equipe para permanecer conectado e comunicar, atualizar listas, adicionar ou remover uma postagem de notícias e adicionar Web Parts",
+    "Description": "Crie sites, postagens e listas em SharePoint Online para conectar sua equipe ou organização. Cuidado com um site de equipe ou site de Comunicação, explore notícias, atividades e documentos em seu site, use, filtre e atualize listas para manter sua equipe no controle, adicionar ou remover uma postagem de notícias e criar uma página para comunicar ideias ou informações à sua equipe. Assista a este treinamento em vídeo para ver como.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2544,7 +2638,7 @@
   },
   {
     "Id": "6601f080-d86a-4d0c-9e60-150746bf8f96",
-    "Title": "Compartilhar e sincronizar com o SharePoint",
+    "Title": "Compartilhar e sincronizar com SharePoint",
     "Image": "images/playlists/sharepoint_online_share_and_sync.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2552,7 +2646,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "e5e2ae74-20ff-4626-937d-df4ff3405f29",
-    "Description": "Criar, compartilhar e arquivos do SharePoint",
+    "Description": "Criar, compartilhar e SharePoint arquivos",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2564,7 +2658,7 @@
   },
   {
     "Id": "63354a03-0b23-49c3-bf57-b992fdc3a00a",
-    "Title": "Início rápido do Sway",
+    "Title": "Início Rápido do Sway",
     "Image": "images/playlists/sway-quick-start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2572,7 +2666,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "92083395-06d0-433f-ba0d-77c958d853b7",
-    "Description": "Crie no Sway, adicione conteúdo, projete e compartilhe e saiba mais",
+    "Description": "Criar no Sway, adicionar conteúdo, design e compartilhamento e saiba mais",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2592,7 +2686,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "92083395-06d0-433f-ba0d-77c958d853b7",
-    "Description": "Compartilhar seu Sway, adicionar uma senha, verificar as configurações de privacidade e os recursos de acessibilidade e revisar os atalhos de teclado",
+    "Description": "Saiba como compartilhar e acessar o Sway. Veja como compartilhar seu Sway, adicionar uma senha, definir configurações de privacidade, usar recursos de acessibilidade para tornar seu Sway acessível e aprender atalhos de teclado do Sway.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2613,7 +2707,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "92083395-06d0-433f-ba0d-77c958d853b7",
-    "Description": "Compartilhe seu Sway, adicione uma senha, verifique as configurações de privacidade e os recursos de acessibilidade e revise os atalhos de teclado",
+    "Description": "Saiba como adicionar conteúdo ao Sway. Importe conteúdo para o Sway, pesquise conteúdo, adicione arquivos de vídeo e áudio, insinue um arquivo de Office, formulário ou outro conteúdo no Sway, adicione Pontos de Foco, copie e colar cartões e use o QuickStarter para criar um Sway rapidamente.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2640,7 +2734,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "92083395-06d0-433f-ba0d-77c958d853b7",
-    "Description": "Adicione ou remova conteúdo no Sway, verifique as configurações do administrador, os limites de tamanho do arquivo e as perguntas frequentes",
+    "Description": "Personalize o Sway para remover o rodapé informativo do Sway, use as configurações de administrador, veja os limites de tamanho de arquivo e obtenha respostas para as perguntas frequentes e ajuda do administrador sobre o Sway.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2653,7 +2747,7 @@
   },
   {
     "Id": "a958fdc7-d697-43f1-b3b3-a3f467ff94cd",
-    "Title": "Início rápido do Word",
+    "Title": "Início Rápido do Word",
     "Image": "images/playlists/word_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2661,7 +2755,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-    "Description": "Há várias opções úteis para organizar páginas com o Word. Saiba como alterar margens, criar colunas de boletins informativos, alterar orientação da página, adicionar uma borda a uma página, inserir um cabeçalho ou rodapé, inserir números de página e inserir uma quebra de página.",
+    "Description": "Comece rapidamente com o guia Início Rápido do Word. Saiba como criar um documento, adicionar e formatar texto, adicionar imagens, formas, SmartArt e gráficos, salvar seu documento no OneDrive, projetar e editar usando estilos e temas, verificar ortografia e gramática, localizar e substituir texto, compartilhar seu documento, colaborar com outras pessoas, acompanhar e revisar alterações e configurar seus aplicativos móveis.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2682,7 +2776,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-    "Description": "Crie e formate um documento, controle alterações e colabore com outras pessoas",
+    "Description": "Com esta introdução ao Word, confira como criar um documento e usar o Word para revisar e rastrear alterações, melhorar sua ortografia, gramática e escrever com Editor, salve seus documentos no OneDrive para chegar aos arquivos do seu computador, tablet ou telefone e compartilhe seu trabalho para conversar, comentar e colaborar com outras pessoas onde quer que estejam.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2692,7 +2786,7 @@
   },
   {
     "Id": "f74d0622-642d-4f98-906f-2960a2c05d31",
-    "Title": "Escrever e editar com o Word",
+    "Title": "Gravar e editar com o Word",
     "Image": "images/playlists/write_and_edit.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2700,7 +2794,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-    "Description": "Adicionar, substituir e formatar texto no Word. Inserir e remover hiperlinks e mostrar contagem de palavras",
+    "Description": "Faça sua melhor escrita em Microsoft Word. Saiba como adicionar e editar texto, encontrar e substituir texto, verificar gramática e ortografia, mostrar contagem de palavras e inserir e remover hiperlinks.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2714,7 +2808,7 @@
   },
   {
     "Id": "2bb5f49a-da1c-49e8-b7e8-04cfc6936f25",
-    "Title": "Dispor páginas com o Word",
+    "Title": "Estabelecer páginas com o Word",
     "Image": "images/playlists/layout_pages.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2722,8 +2816,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-    "Description": "Criar uma coluna de boletim informativo, alterar a orientação da página, adicionar uma borda, cabeçalho ou rodapé, inserir uma quebra de página ou um número e criar um sumário",
-    "StatusTagId": "",
+    "Description": "Há várias opções úteis para estabelecer páginas com o Word. Saiba como alterar margens, criar colunas de boletim informativo, alterar a orientação da página, adicionar uma borda a uma página, inserir um header ou um rodapé, inserir números de página e inserir uma quebra de página.",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "c95c1ea1-70b1-4dde-a1da-f5aa2042c829",
@@ -2746,7 +2840,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-    "Description": "Insira tabelas, imagens, ícones, WordArt e marcas d' água. Aprenda a girar uma imagem e a fazer a quebra de texto ao redor de uma imagem.",
+    "Description": "Saiba como inserir tabelas, imagens e marcas d'água no Word. Crie uma tabela, adicione uma imagem, insira um ícone e WordArt, mostre ou oculte a régua, gire uma imagem ou forma e encapsule o texto ao redor de uma imagem.",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
@@ -2770,7 +2864,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-    "Description": "Salvar, imprimir ou converter um documento em PDF. Imprimir envelopes e rótulos.",
+    "Description": "Saiba como salvar e imprimir no Word. Salve um arquivo OneDrive para que você possa chegar a ele de qualquer lugar, converter ou salvar um documento do Word em um PDF, editar um PDF, imprimir seu documento, imprimir um envelope, criar e imprimir rótulos ou imprimir rótulos para sua lista de emails.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2785,7 +2879,7 @@
   },
   {
     "Id": "fb5155d7-a802-4e95-b1ce-f8baea8cb44b",
-    "Title": "Compartilhar e trabalhar em coautoria com o Word",
+    "Title": "Compartilhar e coautor com o Word",
     "Image": "images/playlists/share_and_coauthor.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2793,7 +2887,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-    "Description": "Colabore no Word, fornecendo comentários e controlando alterações. Usar o Word em um dispositivo móvel.",
+    "Description": "Saiba como compartilhar e coautor no Word. Compartilhe um documento, colabore com outras pessoas em seus documentos do Word, insira ou exclua um comentário, acompanhe as alterações, revise e aceite alterações controladas e use o word em um dispositivo móvel. Assista a este treinamento em vídeo para ver como.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2815,7 +2909,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-    "Description": "Escreva uma equação ou fórmula no Word, recue um parágrafo, insira linhas, crie uma bibliografia e insira notas de rodapé e notas de fim",
+    "Description": "Escreva uma equação ou fórmula no Word, recua um parágrafo, insere linhas, crie uma bibliografia e insira notas de rodapé e notas de fim",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2828,7 +2922,7 @@
   },
   {
     "Id": "4210a245-a2ae-4b6a-88a7-83ebef901aa7",
-    "Title": "Melhorar a acessibilidade e facilitar o uso com o Word",
+    "Title": "Melhorar a acessibilidade e a facilidade de uso com o Word",
     "Image": "images/playlists/improve_accessibility_and_ease_of_use.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2836,8 +2930,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-    "Description": "Saiba como tornar o Word acessível: Use um leitor de tela, atalhos e faça outras coisas com o Diga-me",
-    "StatusTagId": "",
+    "Description": "Saiba como melhorar a acessibilidade e a facilidade de uso no Word. Use um leitor de tela, use Learning Ferramentas para ajudar na leitura de fluência e compreensão, use o Verificador de Acessibilidade para tornar os documentos acessíveis e aprenda atalhos de teclado para executar tarefas rapidamente.",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "303eb71a-6bd8-474c-ba06-923e93347224",
@@ -2856,7 +2950,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-    "Description": "Saiba como formatar texto, criar uma lista numerada ou com marcadores, alterar o espaçamento entre linhas no Word, aplicar estilos e temas",
+    "Description": "Saiba como formatar texto no Word. Altere a fonte, o tamanho da fonte, a cor da fonte, a formatação de cópia com o Format Painter, crie uma lista com marcador ou numerada, altere o espaçamento de linha e aplique estilos e temas para aprimorar visualmente o design do documento do Word.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2869,7 +2963,7 @@
   },
   {
     "Id": "575bed47-83d8-49cb-affa-51d9497ab93b",
-    "Title": "Início rápido do Yammer",
+    "Title": "Início Rápido do Yammer",
     "Image": "images/playlists/yammer_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2877,7 +2971,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "e83da7d3-653c-4c01-a262-336e07b88aba",
-    "Description": "Comece a trabalhar rapidamente com o Início rápido do Yammer. Entre no Yammer e participe das conversas da comunidade, descubra quais os itens mais populares em sua organização e configure o aplicativo móvel do Yammer para usar o Yammer em qualquer lugar.",
+    "Description": "Comece rapidamente com o Início Rápido do Yammer. Entre no Yammer e participe das conversas da comunidade, descubra o que é tendência em sua organização e configure o aplicativo móvel Yammer para usar o Yammer em trânsito.",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
@@ -2889,7 +2983,7 @@
   },
   {
     "Id": "19382980-771c-413e-a2af-626165fdabba",
-    "Title": "Implementar uma rede bem-sucedida do Yammer",
+    "Title": "Implantar uma rede bem-sucedida do Yammer",
     "Image": "images/playlists/roll_out_a_successful_yammer_network.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2897,7 +2991,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "e83da7d3-653c-4c01-a262-336e07b88aba",
-    "Description": "Planeje uma estratégia para implantar o Yammer, identifique os casos de uso do Yammer, crie uma comunidade para os casos de uso do Yammer e prepare-se para o lançamento. Após o lançamento, instrua os usuários, promova o envolvimento contínuo do Yammer e integre o Yammer ao SharePoint.",
+    "Description": "Siga estas dicas e práticas recomendadas para implantar uma rede bem-sucedida do Yammer. Obtenha uma visão geral do Yammer, planeje sua estratégia, personalize uma rede do Yammer, identifique os casos de uso certos, crie uma comunidade, prepare-se para o lançamento, instrua os usuários, incentive o engajamento contínuo, integre o Yammer ao Teams, SharePoint Online e Outlook e meça o sucesso.",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
@@ -2923,7 +3017,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "e83da7d3-653c-4c01-a262-336e07b88aba",
-    "Description": "Use o Yammer todos os dias para se manter informado sobre assuntos relevantes, aproveitar o conhecimento de outras pessoas e desenvolver o trabalho existente. Saiba como alterar seu perfil e configurações, iniciar uma conversa do Yammer, participar de uma comunidade do Yammer, gerenciar notificações e anúncios do Yammer e seguir as práticas recomendadas do Yammer para tornar o Yammer uma parte importante do seu trabalho.",
+    "Description": "Saiba como usar o Yammer todos os dias para se envolver com pessoas, líderes e comunidades na sua organização e compartilhar conhecimentos. Obtenha uma visão geral do Yammer, altere seu perfil e configurações do Yammer, inicie uma conversa, trabalhe com postagens, anexe arquivos, descubra e ingresse em comunidades, use as notificações para se manter conectado, trabalhe com comunicados e aprenda dicas e práticas recomendadas para aproveitar ao máximo o Yammer.",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
@@ -2937,7 +3031,7 @@
   },
   {
     "Id": "d4df5f82-2049-4c03-aab3-50e5a2dc8ad2",
-    "Title": "Novidades, o que mudou",
+    "Title": "Novidades, O que mudou",
     "Image": "images/playlists/set-up-Microsoft-365-learning-pathway.png",
     "LevelId": "ab49a955-3814-41fa-aa33-1b2757bc28ea",
     "AudienceId": "9fcd26c3-bcca-4452-a40a-f87e0daed348",
@@ -2945,7 +3039,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
-    "Description": "Descubra o que há de novo ou o que mudou para a atualização mais recente dos caminhos de aprendizagem do Microsoft 365",
+    "Description": "Descubra o que há de novo/o que foi alterado para a atualização mais recente dos Microsoft 365 de aprendizado",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2957,7 +3051,7 @@
   },
   {
     "Id": "9a105f80-b260-44ad-ba1a-8e2ea9f5bfdc",
-    "Title": "Planejar o conteúdo de aprendizagem",
+    "Title": "Planejar seu conteúdo de aprendizagem",
     "Image": "images/playlists/plan-your-traning-content.png",
     "LevelId": "ab49a955-3814-41fa-aa33-1b2757bc28ea",
     "AudienceId": "9fcd26c3-bcca-4452-a40a-f87e0daed348",
@@ -2965,7 +3059,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
-    "Description": "Revisar os caminhos de aprendizagem e os tipos de conteúdo. Decide o que funciona para a sua organização.",
+    "Description": "Revise Learning conteúdo e tipos de conteúdo do Pathways. Decida o que funciona para sua organização.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2975,7 +3069,7 @@
   },
   {
     "Id": "545e374b-f33e-4d62-8e6f-3ec36b6b28fe",
-    "Title": "Personalizar os caminhos de aprendizagem",
+    "Title": "Personalizar caminhos de aprendizado",
     "Image": "images/playlists/customize-learning-pathways.png",
     "LevelId": "ab49a955-3814-41fa-aa33-1b2757bc28ea",
     "AudienceId": "9fcd26c3-bcca-4452-a40a-f87e0daed348",
@@ -2983,7 +3077,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
-    "Description": "Saiba como personalizar o site de dos Caminhos de aprendizagem, como ocultar e mostrar conteúdo e como criar listas de reprodução personalizadas.",
+    "Description": "Saiba como personalizar o site Learning Caminhos, como ocultar e mostrar conteúdo e como criar playlists personalizadas.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2999,7 +3093,7 @@
   },
   {
     "Id": "66f9b195-d48e-49e3-bb0e-1848a49b1351",
-    "Title": "Adoção da unidade",
+    "Title": "Impulsionar a adoção",
     "Image": "images/playlists/drive-adoption-of-learning-pathways.png",
     "LevelId": "ab49a955-3814-41fa-aa33-1b2757bc28ea",
     "AudienceId": "9fcd26c3-bcca-4452-a40a-f87e0daed348",
@@ -3007,7 +3101,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
-    "Description": "Descubra os recursos e as práticas recomendadas para conduzir a adoção de Caminhos de Aprendizagem",
+    "Description": "Descobrir recursos e práticas recomendadas para impulsionar a adoção de Learning Caminhos",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -3024,7 +3118,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
-    "Description": "Os administradores devem aproveitar os recursos internos de relatórios de uso de sites do SharePoint para medir o impacto da organização sobre os Roteiros de aprendizagem do Microsoft 365.",
+    "Description": "Os administradores devem aproveitar SharePoint recursos de relatório de uso de site integrados para medir o impacto organizacional dos Microsoft 365 de aprendizado.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -3041,7 +3135,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9d9a29c7-72fe-475e-9dd1-d999259d02cb",
-    "Description": "Impulsione a adoção dos serviços do Office 365 com essas práticas recomendadas",
+    "Description": "Impulsione a adoção dos seus serviços do Office 365 com essas práticas recomendadas",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [

@@ -27,7 +27,7 @@
     },
     {
       "Id": "33059862-a87d-4b40-9984-be7c6083cf95",
-      "Name": "Forms",
+      "Name": "Microsoft Forms",
       "Subjects": []
     },
     {
@@ -122,6 +122,11 @@
     {
       "Id": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
       "Name": "Outlook",
+      "Subjects": []
+    },
+    {
+      "Id": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
+      "Name": "Microsoft Edge",
       "Subjects": []
     },
     {
@@ -227,6 +232,15 @@
           "Name": "Hybrid workplace",
           "Image": "images/categories/hybridwork.png",
           "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "a7f1ca95-e0eb-4715-b846-89fc8d2afa56",
+          "Name": "Collaboration",
+          "Image": "images/categories/Collaboration_Category.png",
+          "TechnologyId": "",
           "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
@@ -362,7 +376,7 @@
           "Id": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
           "Name": "Accessibility",
           "Image": "images/categories/accessibility.png",
-          "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
+          "TechnologyId": "",
           "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
@@ -390,6 +404,15 @@
           "Name": "Lists",
           "Image": "images/categories/lists_cat.png",
           "TechnologyId": "016a561b-1c7a-4528-b0b7-96fcb556a1e1",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "77a22995-0b6d-488c-9747-dea9a7705711",
+          "Name": "Microsoft Edge",
+          "Image": "images/categories/Edge.png",
+          "TechnologyId": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
           "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
