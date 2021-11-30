@@ -237,6 +237,15 @@
           "SubCategories": []
         },
         {
+          "Id": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
+          "Name": "Accessibility",
+          "Image": "images/categories/accessibility.png",
+          "TechnologyId": "",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
           "Id": "a7f1ca95-e0eb-4715-b846-89fc8d2afa56",
           "Name": "Collaboration",
           "Image": "images/categories/Collaboration_Category.png",
@@ -368,15 +377,6 @@
           "Name": "Sway",
           "Image": "images/categories/sway.png",
           "TechnologyId": "e9d69805-edb5-43da-8258-5520000bf3a6",
-          "SubjectId": "",
-          "Source": "Microsoft",
-          "SubCategories": []
-        },
-        {
-          "Id": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
-          "Name": "Accessibility",
-          "Image": "images/categories/accessibility.png",
-          "TechnologyId": "",
           "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []

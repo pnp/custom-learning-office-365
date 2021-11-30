@@ -237,9 +237,18 @@
           "SubCategories": []
         },
         {
+          "Id": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
+          "Name": "Toegankelijkheid",
+          "Image": "images/categories/accessibility.png",
+          "TechnologyId": "",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
           "Id": "a7f1ca95-e0eb-4715-b846-89fc8d2afa56",
           "Name": "Samenwerking",
-          "Image": "images/categories/customfeatured.png",
+          "Image": "images/categories/Collaboration_Category.png",
           "TechnologyId": "",
           "SubjectId": "",
           "Source": "Microsoft",
@@ -373,15 +382,6 @@
           "SubCategories": []
         },
         {
-          "Id": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
-          "Name": "Toegankelijkheid",
-          "Image": "images/categories/accessibility.png",
-          "TechnologyId": "",
-          "SubjectId": "",
-          "Source": "Microsoft",
-          "SubCategories": []
-        },
-        {
           "Id": "175c2d96-040d-4275-9405-b4549bd63dee",
           "Name": "Access",
           "Image": "images/categories/access.png",
@@ -411,7 +411,7 @@
         {
           "Id": "77a22995-0b6d-488c-9747-dea9a7705711",
           "Name": "Microsoft Edge",
-          "Image": "images/categories/customfeatured.png",
+          "Image": "images/categories/Edge.png",
           "TechnologyId": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
           "SubjectId": "",
           "Source": "Microsoft",

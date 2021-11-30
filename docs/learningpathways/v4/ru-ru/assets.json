@@ -276,7 +276,7 @@
   },
   {
     "Id": "5b16f46a-b2f7-4c47-b753-e1aeada713bd",
-    "Title": "Создание списка в канале Teams канале",
+    "Title": "Создание списка в Teams канале",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/7d2538c0-0177-4dcc-8e4c-44d218fc5a85?embed=true",
     "TechnologyId": "016a561b-1c7a-4528-b0b7-96fcb556a1e1",
@@ -287,7 +287,7 @@
   },
   {
     "Id": "675d6755-5e48-4691-8e08-4ea419602187",
-    "Title": "Поиск списка и управление им",
+    "Title": "Поиск списков и управление ими",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/514c5923-43e1-4e2f-beb5-e1de24bc37ed?embed=true",
     "TechnologyId": "016a561b-1c7a-4528-b0b7-96fcb556a1e1",
@@ -353,7 +353,7 @@
   },
   {
     "Id": "09931f62-ec76-4ecb-8bd8-c07bc792e00c",
-    "Title": "Microsoft 365 Постройка по специальным возможности",
+    "Title": "Microsoft 365 \"Intro\" для людей с специальными Microsoft 365",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/c38a3d2c-7f0a-46d5-9ec8-f9509a6d23d8?embed=true",
     "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
@@ -364,7 +364,7 @@
   },
   {
     "Id": "191f671d-bed9-4b80-924a-8e64aae73858",
-    "Title": "Получите шаблоны со доступными Office",
+    "Title": "Получите шаблоны со Office",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/ca086caa-2bd2-4ac8-8c12-4cd495bd4d76?embed=true",
     "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
@@ -429,6 +429,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "06e7419f-fdea-4f32-bc2b-f73088410881",
+    "Title": "Вставка и удаление строк и столбцов",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/7450f58a-517f-48ae-bace-248346e52275?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
     "Id": "07083ba8-0e36-4d9d-aba8-d9ebfd84d6d4",
     "Title": "Добавление и просмотр примечаний",
     "Description": "",
@@ -452,24 +463,24 @@
   },
   {
     "Id": "0bf64fa2-7ad2-483d-a0f5-d91d1f956b24",
-    "Title": "Удаленная работа: удаленная работа с Office 365",
+    "Title": "Удаленная работа с Office 365",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/2bf4ff0f-00a5-40e8-8641-58d4190f6aa0?embed=true",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
     "Id": "0cdf7a16-a3db-4caa-bb93-90f0ffe1c807",
     "Title": "Рекомендации по совместной работе: начало работы",
     "Description": "",
-    "Url": "https://support.office.com/client/get-started-at-office-com-0849ef75-564f-450a-93e5-b27508d81c53?embed=true",
+    "Url": "https://support.office.com/client/0849ef75-564f-450a-93e5-b27508d81c53",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -551,13 +562,24 @@
   },
   {
     "Id": "1fa93876-0318-4622-b473-142a3bfd6495",
-    "Title": "Войти",
+    "Title": "Шаг 1. Вход",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/1fa93876-0318-4622-b473-142a3bfd6495?embed=true",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "22c40436-db14-4863-93c6-aa9a51134edd",
+    "Title": "Навигация во время собрания Teams",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/bc428cc5-9ea2-4be5-87b1-ba434481b964?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -616,6 +638,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "2b3bf84a-1960-4b3f-8d68-dbdaa8865e97",
+    "Title": "Удаление личных сведений",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/2b3bf84a-1960-4b3f-8d68-dbdaa8865e97?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
     "Id": "2c2e95da-d325-4cfd-8488-14ddd890d4e3",
     "Title": "Создание графического элемента SmartArt на основе списка",
     "Description": "",
@@ -627,10 +660,43 @@
     "StatusNote": ""
   },
   {
+    "Id": "2e95c36a-0e64-4256-a04b-33501a2ce604",
+    "Title": "Разделение таблицы между двумя слайдами",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/2e95c36a-0e64-4256-a04b-33501a2ce604?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
     "Id": "3124a7c2-2541-4d80-8831-c6c9de94aff7",
     "Title": "Изменение оформления абзацев",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/3124a7c2-2541-4d80-8831-c6c9de94aff7?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
+    "Id": "314cfd6f-dfb0-44f6-8bf5-8d7c2f4f4332",
+    "Title": "Упорядочение слайдов по разделам",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/314cfd6f-dfb0-44f6-8bf5-8d7c2f4f4332?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
+    "Id": "318bf5a5-460c-4fe4-b134-dac2aba286fe",
+    "Title": "Формат рисунков на слайдах",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/318bf5a5-460c-4fe4-b134-dac2aba286fe?embed=true",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -663,7 +729,7 @@
     "Id": "365-378767af-7ac3-4d68-9d0f-709b6948a76b",
     "Title": "Добро пожаловать в Microsoft 365",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/3911be4e-23fa-47f1-8bc4-1c25f8b7fadc?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/378767af-7ac3-4d68-9d0f-709b6948a76b?embed=true",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -727,7 +793,7 @@
   },
   {
     "Id": "3eb2554d-a4e0-4ae4-9609-1c06913127e1",
-    "Title": "Использование Office.com",
+    "Title": "Работа в Интернете",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/4e035176-eec1-400c-a10e-d6605cb873b6?embed=true",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -744,7 +810,29 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
+    "Id": "3f9b241c-b12d-4527-a391-0dab21170b29",
+    "Title": "Знакомство с Power Query",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/3f9b241c-b12d-4527-a391-0dab21170b29?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
+    "Id": "3faf8a07-26ed-4b76-b6a0-43cca013e6d3",
+    "Title": "Исправления в Word",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/3faf8a07-26ed-4b76-b6a0-43cca013e6d3?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -770,6 +858,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "41bc6777-3b46-4984-bc5b-615ea7786ab1",
+    "Title": "Поворот и зеркальное отражение объектов",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/41bc6777-3b46-4984-bc5b-615ea7786ab1?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
     "Id": "490e418e-cb57-40da-8d5b-b722a5da891f",
     "Title": "Добавление и удаление строк и столбцов таблицы",
     "Description": "",
@@ -782,7 +881,7 @@
   },
   {
     "Id": "4a358470-a1a3-4796-84ec-45adf4895473",
-    "Title": "Работа с командой",
+    "Title": "Шаг 4. Работа с командой",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/4a358470-a1a3-4796-84ec-45adf4895473?embed=true",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -796,6 +895,17 @@
     "Title": "Создание и изменение файлов",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/4ca4f40e-f9ee-4554-aa6d-e00687977875?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
+    "Id": "4d452495-f8c0-4b15-bac3-8015a8adbe0e",
+    "Title": "Добавление и удаление комментариев или ответ на них",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/4d452495-f8c0-4b15-bac3-8015a8adbe0e?embed=true",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -850,11 +960,22 @@
     "Id": "51a6abf0-6f5b-4092-9872-5b517c5a8bd8",
     "Title": "Создание и организация команд",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/104c7d91-b25a-453d-beee-ba64b6c6fc2d?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/ea9aa9c2-ae29-44ca-b838-4424b4daa44d?embed=true",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "56d8b2d3-2f31-4f50-abae-6154c1f969a9",
+    "Title": "Группирование и разгруппирование объектов",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/56d8b2d3-2f31-4f50-abae-6154c1f969a9?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -913,6 +1034,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "5f961535-a2ae-4914-a24a-94c669903ae3",
+    "Title": "Выравнивание и размещение объектов",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/5f961535-a2ae-4914-a24a-94c669903ae3?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
     "Id": "5f9e1449-baf4-40ec-9e56-7291e55aaed4",
     "Title": "Использование отзывов пользователей для повышения принятия",
     "Description": "",
@@ -961,6 +1093,17 @@
     "Title": "Поиск и замена текста",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/6f0f7d58-9b49-4a14-aba8-1de2195c0ab6?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
+    "Id": "7155bed9-aa2d-4ffb-8e3a-9f3aa8dead91",
+    "Title": "Просмотр задач Планировщика в Microsoft To-Do",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/4cac0115-4e4c-44f7-80ae-d1e25ec0527e?embed=true",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -1045,8 +1188,19 @@
     "StatusNote": ""
   },
   {
+    "Id": "81cccf31-9219-4c89-b7ba-9f25ad429c4a",
+    "Title": "Наложение объектов на слайдах",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/81cccf31-9219-4c89-b7ba-9f25ad429c4a?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
     "Id": "83cbb1c1-024e-4fcd-92e6-fdc0263d0c68",
-    "Title": "Удаленная работа: хранение файлов",
+    "Title": "Хранение ваших файлов",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/5fab6a1e-c1c0-4d97-9250-b514f6428849?embed=true",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -1060,6 +1214,17 @@
     "Title": "Что такое Office 365?",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/847caf12-2589-452c-8aca-1c009797678b?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
+    "Id": "84c79be1-3be5-4659-a3dc-b519e019bbaf",
+    "Title": "Преобразование рукописных фрагментов в фигуры, текст и математические символы в PowerPoint для Microsoft 365",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/0740dec3-6291-4c1f-8baa-011d18449919?embed=true",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -1137,6 +1302,17 @@
     "Title": "Добавление ссылок в файл",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/9232f21b-0dd2-4b4c-bbed-4a27492b9fb2?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
+    "Id": "92d238e6-0ae2-447e-af90-40b1052c4547",
+    "Title": "Руководство для владельцев команд",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/92d238e6-0ae2-447e-af90-40b1052c4547?embed=true",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -1254,6 +1430,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "a5ab9b5c-5f30-486f-8f39-f051bb4afdc2",
+    "Title": "Обновление содержимого за апрель 2020 г.",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/553c549a-c26b-4287-9b83-e6473fe663a2?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
     "Id": "a6541b69-3ef6-41ba-a2bb-90c7fcf41c16",
     "Title": "Во Microsoft 365",
     "Description": "",
@@ -1265,8 +1452,19 @@
     "StatusNote": ""
   },
   {
+    "Id": "a78606bb-a15f-4f3e-8892-63f735cc1f6a",
+    "Title": "Использование приложения \"Задачи\" в Teams",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/e32639f3-2e07-4b62-9a8c-fd706c12c070?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
     "Id": "a8b4168b-2529-4ed6-83b4-40505ab922b4",
-    "Title": "Справка и поддержка",
+    "Title": "Техническая поддержка и справка",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/d3c495a5-d7a1-4e59-997b-5ce61768262e?embed=true",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -1288,7 +1486,7 @@
   },
   {
     "Id": "aff8463a-540a-4441-bdf3-11d1e433488e",
-    "Title": "Удаленная работа: дополнительные альтернативы",
+    "Title": "Дополнительные альтернативы",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/86559dc9-3aa1-479d-976f-5c2698ee78d5?embed=true",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -1310,7 +1508,7 @@
   },
   {
     "Id": "b422f96b-2363-431c-adbb-e904c5a1ab21",
-    "Title": "Практические советы по лидерской программе",
+    "Title": "Практические советы по программе лидеров",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/24f64658-d9d6-4d2f-9d76-82d60670488f?embed=true",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -1331,8 +1529,19 @@
     "StatusNote": ""
   },
   {
+    "Id": "b5be6bc0-e9c9-48a0-b9a1-bb366e29390e",
+    "Title": "Вход",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/260a0f94-239a-4d85-8b5d-c8f99806bcd7?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
     "Id": "b7f52310-54dd-4701-be3c-c0acbb8d998b",
-    "Title": "Новые возможности",
+    "Title": "Шаг 6. Новые возможности",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/b7f52310-54dd-4701-be3c-c0acbb8d998b?embed=true",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -1375,6 +1584,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "bb7fc99c-71ef-48e3-ac1a-3ebafcd9f3ed",
+    "Title": "Добавление, форматирование и запись видео",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/bb7fc99c-71ef-48e3-ac1a-3ebafcd9f3ed?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
     "Id": "bc428cc5-9ea2-4be5-87b1-ba434481b964",
     "Title": "Навигация во время собрания Teams",
     "Description": "",
@@ -1387,7 +1607,7 @@
   },
   {
     "Id": "be096b45-709c-473a-afb9-f7a998b3f435",
-    "Title": "Совместное работа и совместное работа",
+    "Title": "Шаг 3. Совместное работа и совместное работа",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/be096b45-709c-473a-afb9-f7a998b3f435?embed=true",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -1397,8 +1617,19 @@
     "StatusNote": ""
   },
   {
+    "Id": "be712991-16dd-4b9e-810e-35b5320c922b",
+    "Title": "Печать наклеек с обратным адресом",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/be712991-16dd-4b9e-810e-35b5320c922b?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
     "Id": "c0a66323-d0ac-4c7f-8aa3-8eca9bf92817",
-    "Title": "Настройка мобильных приложений",
+    "Title": "Шаг 5. Настройка мобильных приложений",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/c0a66323-d0ac-4c7f-8aa3-8eca9bf92817?embed=true",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -1423,6 +1654,28 @@
     "Title": "Внедрение файлов и вставка ссылок на них",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/c32bd7c7-55e2-430e-99f0-18482a11e388?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
+    "Id": "c570011a-3786-49e9-9017-6a0d7744931e",
+    "Title": "Управление обновлениями контента",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/51eb4c0d-f80c-4e98-84d2-08e13ef091b4?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
+    "Id": "c5714c3b-f123-4c9c-9d5d-0d13e6581559",
+    "Title": "Приложение \"Смены\" для сотрудников без компьютеров",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/74f47ad2-7b6a-4605-8cf4-2b6ceb1cdcae?embed=true",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -1459,7 +1712,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -1486,7 +1739,7 @@
   },
   {
     "Id": "d41383d4-bedb-4ae8-9c13-3c6c25242aef",
-    "Title": "Участие в общедоступной лидерской программе Microsoft 365",
+    "Title": "Участие в общедоступной программе лидеров Microsoft 365",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/74ca729d-f51b-4ae6-8944-b3b838e4eb08?embed=true",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -1497,7 +1750,7 @@
   },
   {
     "Id": "d76f6ade-0e4e-48d5-9fc1-17480b7e041e",
-    "Title": "Удаленная работа: начало работы на сайте Office.com",
+    "Title": "Начало работы",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/bf323219-273c-46cb-a166-0bb258d29e7a?embed=true",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -1508,7 +1761,7 @@
   },
   {
     "Id": "dbf2c1f3-dbc5-45a8-9f04-2d9a7e97032f",
-    "Title": "Удаленная работа: общение или встреча",
+    "Title": "Общение или встреча",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/34dd1c2a-8921-45a5-a22e-60ac515039ce?embed=true",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -1519,7 +1772,7 @@
   },
   {
     "Id": "dbf90b66-4789-40d0-a383-0beb3773a333",
-    "Title": "Начало планирования лидерской программы",
+    "Title": "Начало создания программы лидеров",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/8ac0c945-ee18-477b-86dd-bf43357a5c2a?embed=true",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -1540,10 +1793,32 @@
     "StatusNote": ""
   },
   {
+    "Id": "ddd609c6-62c6-4de2-9b5c-930a25138cfd",
+    "Title": "Добавление подложки",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/ddd609c6-62c6-4de2-9b5c-930a25138cfd?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
     "Id": "e2653a1f-c10d-4e38-94a4-8bded7d13ca6",
     "Title": "Добавление диаграмм",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/e2653a1f-c10d-4e38-94a4-8bded7d13ca6?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
+    "Id": "e76571ce-494d-4119-b2d8-6a61272527db",
+    "Title": "Транскрибирование записей",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/7fc2efec-245e-45f0-b053-2a97531ecf57?embed=true",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -1580,7 +1855,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -1628,8 +1903,30 @@
     "StatusNote": ""
   },
   {
+    "Id": "f5275f98-7ee6-40e1-8c6e-5dc452df128b",
+    "Title": "Совместная работа над файлом",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/058173f5-031b-4f37-8724-ce2a50aa1d1d?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
+    "Id": "faa8d7d6-3635-459e-a1bb-925c94a7fa59",
+    "Title": "Приложение \"Смены\" для руководителей",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/29a6726d-0152-45cd-8bfc-393e2229608e?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
     "Id": "fb440590-1b4d-4562-94ba-61123b299e3d",
-    "Title": "Создание и сохранение",
+    "Title": "Шаг 2. Создание и сохранение",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/fb440590-1b4d-4562-94ba-61123b299e3d?embed=true",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -1640,7 +1937,7 @@
   },
   {
     "Id": "fc1da3cf-c721-45fd-b7d1-c470eec95bab",
-    "Title": "Группировка и разгруппировка фигур, рисунков и объектов",
+    "Title": "Группирование и разгруппирование фигур, рисунков и объектов",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/fc1da3cf-c721-45fd-b7d1-c470eec95bab?embed=true",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -1657,7 +1954,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -1665,6 +1962,28 @@
     "Title": "Наложение фигур, рисунков и объектов",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/fccf3cb2-cb5c-494f-b8bb-c2b85e1ba123?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
+    "Id": "fcedcc77-e229-4519-9e42-58759da72d33",
+    "Title": "Добавление логотипа на слайды",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/fcedcc77-e229-4519-9e42-58759da72d33?embed=true",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusNote": ""
+  },
+  {
+    "Id": "fdcad9ad-4f13-4f5b-9910-12b4108a4c86",
+    "Title": "Общий доступ к презентации",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/fdcad9ad-4f13-4f5b-9910-12b4108a4c86?embed=true",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -1686,7 +2005,7 @@
     "Id": "03c66bc2-c636-427a-9d1b-3e3345103b2e",
     "Title": "Принятие отслеживаемых изменений",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/03c66bc2-c636-427a-9d1b-3e3345103b2e?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/4838d24c-d5d1-4c6c-8e39-78b44bd2b4cc?embed=true",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -1695,9 +2014,9 @@
   },
   {
     "Id": "08789bf9-4ced-489e-b87b-16f8dfbbbc79",
-    "Title": "Добавление объекта WordArt",
+    "Title": "Вставка объекта WordArt",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/08789bf9-4ced-489e-b87b-16f8dfbbbc79?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/1c2ddb98-a711-487e-b4e0-c30f1d002b26?embed=true",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -1706,7 +2025,7 @@
   },
   {
     "Id": "09e07ee6-3be4-4fe0-a229-4d36e2087515",
-    "Title": "Печать почтовых наклеев",
+    "Title": "Печать наклеев для списка рассылки",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/276a2cd1-74d2-43d0-ab5a-b90460358ad5?embed=true",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
@@ -1717,9 +2036,9 @@
   },
   {
     "Id": "153a4f24-5b06-4c8c-a966-1361baf46eb1",
-    "Title": "Обучение в Word",
+    "Title": "Обучение Инструменты в Word",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/153a4f24-5b06-4c8c-a966-1361baf46eb1?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/a857949f-c91e-4c97-977c-a4efcaf9b3c1?embed=true",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -1741,11 +2060,22 @@
     "Id": "183d9245-b791-4cd3-9ec2-093258a78a52",
     "Title": "Вставка разрыва страницы",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/183d9245-b791-4cd3-9ec2-093258a78a52?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/7613ff46-96e5-4e46-9491-40d7d410a043?embed=true",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "197ba630-0f5f-4a8e-9a77-3712475e806a",
+    "Title": "Отслеживание изменений",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/197ba630-0f5f-4a8e-9a77-3712475e806a?embed=true",
+    "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -1763,7 +2093,7 @@
     "Id": "28508ada-9a3c-4333-a17b-cb29723eb64c",
     "Title": "Создание документа",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/4505de9c-7dbd-418b-9252-7ededcd75147?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/28508ada-9a3c-4333-a17b-cb29723eb64c?embed=true",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -1826,21 +2156,10 @@
     "StatusNote": ""
   },
   {
-    "Id": "3faf8a07-26ed-4b76-b6a0-43cca013e6d3",
-    "Title": "Отслеживание изменений в Word",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/3faf8a07-26ed-4b76-b6a0-43cca013e6d3?embed=true",
-    "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
     "Id": "4505de9c-7dbd-418b-9252-7ededcd75147",
     "Title": "Создание документа",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/4505de9c-7dbd-418b-9252-7ededcd75147?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/aafc163a-3a06-45a9-b451-cb7250dcbaa1?embed=true",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -1862,7 +2181,7 @@
     "Id": "4f799df7-4ca4-4670-afd3-6135768b01d0",
     "Title": "Написание формулы или формулы",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/4f799df7-4ca4-4670-afd3-6135768b01d0?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/1d01cabc-ceb1-458d-bc70-7f9737722702?embed=true",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -1870,8 +2189,19 @@
     "StatusNote": ""
   },
   {
+    "Id": "55922445-1629-4a9f-ae63-1e2c1f295fdf",
+    "Title": "Применение тем",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/55922445-1629-4a9f-ae63-1e2c1f295fdf?embed=true",
+    "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "5bb888e7-0f8f-4d94-a7e1-6d1ccb250ded",
-    "Title": "Вставка окаймленного",
+    "Title": "Вставка осодержимого",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/882e8564-0edb-435e-84b5-1d8552ccf0c0?embed=true",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
@@ -1926,9 +2256,9 @@
   },
   {
     "Id": "68d147fc-69f6-4339-b2c7-8a7ee9d81be3",
-    "Title": "Что такое Word",
+    "Title": "Что такое Word?",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/68d147fc-69f6-4339-b2c7-8a7ee9d81be3?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/aee9c7ff-f9c5-415f-80dc-103ad5e344d7?embed=true",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -1959,7 +2289,7 @@
   },
   {
     "Id": "6f9aad7c-1c58-40da-a65b-0c1282837aaf",
-    "Title": "Проверка орфографии, грамматики и четкости",
+    "Title": "Проверка грамматики, орфографии и многого другое в Word",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/0f43bf32-ccde-40c5-b16a-c6a282c0d251?embed=true",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
@@ -1981,13 +2311,24 @@
   },
   {
     "Id": "7dd3040c-3f30-4fdd-bab0-8586492a1f1d",
-    "Title": "Совместное работа над документами Word с помощью совместной работы в режиме реального времени",
+    "Title": "Совместное работа над документами Word",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/7dd3040c-3f30-4fdd-bab0-8586492a1f1d?embed=true",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "82086c07-2afa-4982-9d7d-9c9141d5035b",
+    "Title": "Создание и печать наклеев",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/82086c07-2afa-4982-9d7d-9c9141d5035b?embed=true",
+    "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -2016,7 +2357,7 @@
     "Id": "92701e68-148d-42d3-9cd3-7eeab997a738",
     "Title": "Совместное документа",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/92701e68-148d-42d3-9cd3-7eeab997a738?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/d39f3cd8-0aa0-412f-9a35-1abba926d354?embed=true",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -2124,7 +2465,7 @@
   },
   {
     "Id": "b47af0b6-6471-48d5-8247-b4a01823624b",
-    "Title": "Изменение междустрок в Word",
+    "Title": "Изменение междустрок",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/1970e24a-441c-473d-918f-c6805237fbf4?embed=true",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
@@ -2135,20 +2476,9 @@
   },
   {
     "Id": "bc819ecd-9887-4a15-8eda-d90cbc58f8fb",
-    "Title": "Проектирование и редактирование",
+    "Title": "Разработка и редактирование",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/bc819ecd-9887-4a15-8eda-d90cbc58f8fb?embed=true",
-    "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "be712991-16dd-4b9e-810e-35b5320c922b",
-    "Title": "Печать наклеев обратного адреса",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/be712991-16dd-4b9e-810e-35b5320c922b?embed=true",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -2159,7 +2489,7 @@
     "Id": "c95c1ea1-70b1-4dde-a1da-f5aa2042c829",
     "Title": "Изменение полей",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/c95c1ea1-70b1-4dde-a1da-f5aa2042c829?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/da21a474-99d8-4e54-b12d-a8a14ea7ce02?embed=true",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -2214,7 +2544,7 @@
     "Id": "d832a10c-ef2e-4cff-988a-02bd582db12f",
     "Title": "Вставка header or footer",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/d832a10c-ef2e-4cff-988a-02bd582db12f?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/b87ee4df-abc1-41f8-995b-b39f6d99c7ed?embed=true",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -2225,7 +2555,7 @@
     "Id": "d85d0739-bbb9-4236-b6a4-4955b1f9a8d1",
     "Title": "Добавление и редактирование текста",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/b266ef98-66b4-4dda-adf3-55665693d0a6?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/ed1e3147-a846-41ca-8087-49e324cb50bd?embed=true",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -2236,7 +2566,7 @@
     "Id": "d98e8b70-48a5-4267-8826-915590739a91",
     "Title": "Использование Word на мобильных устройствах",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/d98e8b70-48a5-4267-8826-915590739a91?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/93446a8c-3809-4227-902c-11f11ebe8c2a?embed=true",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -2247,7 +2577,7 @@
     "Id": "d9917030-32db-458c-b119-3a942e5f6ef4",
     "Title": "Вставка значков",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/d9917030-32db-458c-b119-3a942e5f6ef4?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/4c8c86aa-a844-4edb-aee0-02b7387fc99d?embed=true",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -2256,7 +2586,7 @@
   },
   {
     "Id": "dc8a4e0d-209f-43b8-b967-8e65da24d4c7",
-    "Title": "Отображение и скрытие линейки",
+    "Title": "Отображение линейки",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/dc8a4e0d-209f-43b8-b967-8e65da24d4c7?embed=true",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
@@ -2266,21 +2596,21 @@
     "StatusNote": ""
   },
   {
-    "Id": "ddd609c6-62c6-4de2-9b5c-930a25138cfd",
-    "Title": "Добавление водяного знака",
+    "Id": "f40cd198-dbce-4ba2-9cf3-04ff6d364db0",
+    "Title": "Быстрое делайте с помощью",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/ddd609c6-62c6-4de2-9b5c-930a25138cfd?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/f40cd198-dbce-4ba2-9cf3-04ff6d364db0?embed=true",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
     "Id": "f50e232f-5873-47a3-9d29-61bea3949c11",
     "Title": "Вставка номеров",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/f50e232f-5873-47a3-9d29-61bea3949c11?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/9f366518-0500-4b45-903d-987d3827c007?embed=true",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -2288,14 +2618,14 @@
     "StatusNote": ""
   },
   {
-    "Id": "f80e5ec1-28c2-428f-b495-17875c97910a",
-    "Title": "Применение тем",
+    "Id": "f90f26a5-2101-4a75-bbfe-f27ef05002de",
+    "Title": "Вставка подложки",
     "Description": "",
-    "Url": "https://support.office.com/client/555922445-1629-4a9f-ae63-1e2c1f295fdf?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/f90f26a5-2101-4a75-bbfe-f27ef05002de?embed=true",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -2333,7 +2663,7 @@
   },
   {
     "Id": "5518c537-dfcb-41ab-ae58-2041e54b5f57",
-    "Title": "Представление расписания в Планировщике (Майкрософт)",
+    "Title": "Использование представления расписания",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/1b46f8a4-a29a-4d18-8276-4e4d2af5a953?embed=true",
     "TechnologyId": "2f571b54-44fa-4778-9277-c7935e36ffb3",
@@ -2354,21 +2684,10 @@
     "StatusNote": ""
   },
   {
-    "Id": "7155bed9-aa2d-4ffb-8e3a-9f3aa8dead91",
-    "Title": "Просмотр задач Планировщика в Microsoft To-Do",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/4cac0115-4e4c-44f7-80ae-d1e25ec0527e?embed=true",
-    "TechnologyId": "2f571b54-44fa-4778-9277-c7935e36ffb3",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
     "Id": "a31a35ea-d833-4570-b304-24f75fc6761d",
     "Title": "Создание плана с помощью Планировщика в Teams",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/62798a9f-e8f7-4722-a700-27dd28a06ee0?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/fa65ee5c-3c9b-42da-97b3-2fcd1a1c626d?embed=true",
     "TechnologyId": "2f571b54-44fa-4778-9277-c7935e36ffb3",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -2461,6 +2780,17 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "e32639f3-2e07-4b62-9a8c-fd706c12c070",
+    "Title": "Использование приложения \"Задачи\" в Teams",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/e32639f3-2e07-4b62-9a8c-fd706c12c070?embed=true",
+    "TechnologyId": "2f571b54-44fa-4778-9277-c7935e36ffb3",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -2695,184 +3025,8 @@
     "StatusNote": ""
   },
   {
-    "Id": "0324004b-c482-4b97-b782-c70755b399c7",
-    "Title": "Outlook поиска в календаре",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/973cc5a4-4dc0-4297-adbf-e35779c18281?embed=true",
-    "TechnologyId": "3edeb182-3828-4a83-aef9-928a2693e288",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "047452a6-b15b-41da-bf0d-f363c9166604",
-    "Title": "Outlook Мини-приложения для Android",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/2e90a23a-b056-4469-9e09-1223ee2c1cbd?embed=true",
-    "TechnologyId": "3edeb182-3828-4a83-aef9-928a2693e288",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "0b32ebf0-fae9-4815-a061-94048d0799ef",
-    "Title": "Управление уведомлениями",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/d3b5a22b-919c-4d30-a26f-ae9a0a78ba90?embed=true",
-    "TechnologyId": "3edeb182-3828-4a83-aef9-928a2693e288",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "0e8be5a2-c2e1-4702-bb76-0ee7228b9d35",
-    "Title": "Объединение и объединение календарей",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/114b5924-7c5c-43f5-8073-6fc2c389075e?embed=true",
-    "TechnologyId": "3edeb182-3828-4a83-aef9-928a2693e288",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "2163e940-2b8a-45ae-937e-5c4460a43839",
-    "Title": "Поиск вложений в сообщения электронной почты",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/eaadb9e5-fe39-42d0-a9a2-63609147ff10?embed=true",
-    "TechnologyId": "3edeb182-3828-4a83-aef9-928a2693e288",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "2c0422bf-014d-440f-b568-7c1e555ed8f6",
-    "Title": "Фильтр \"Отфильтрованный почтовый ящик\"",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/d9af3f3a-3a7d-4898-8079-39df8924f8e1?embed=true",
-    "TechnologyId": "3edeb182-3828-4a83-aef9-928a2693e288",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "555babd1-f307-48ef-a2cf-f6ea1aae6fdc",
-    "Title": "Помощник по месту проведения собрания",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/3218816c-4c1d-4e30-be3e-444bdb23f9c6?embed=true",
-    "TechnologyId": "3edeb182-3828-4a83-aef9-928a2693e288",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "615b74e8-37e7-43a3-9ac3-a41c5e30843a",
-    "Title": "10 лучших советов Outlook мобильных устройств",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/cb00cf88-2cee-4a71-a833-061a96d774ce?embed=true",
-    "TechnologyId": "3edeb182-3828-4a83-aef9-928a2693e288",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "62a04aec-5562-458e-89a3-07136c6eeff1",
-    "Title": "Проведите пальцем & управление почтовым ящиком",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/621bbc87-c743-4099-9d86-30aad418b020?embed=true",
-    "TechnologyId": "3edeb182-3828-4a83-aef9-928a2693e288",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "672f8ae7-1843-4dff-acb4-d3a998f5f392",
-    "Title": "Простое планирование",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/11c5bee5-d78a-4a2b-80c2-2b386ddb4470?embed=true",
-    "TechnologyId": "3edeb182-3828-4a83-aef9-928a2693e288",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "6d35e08b-ca70-42b8-abf7-cca1ddbd267d",
-    "Title": "Общий доступ к календарю",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/e6c3563d-8dfb-4de3-bff8-c630d4a265ec?embed=true",
-    "TechnologyId": "3edeb182-3828-4a83-aef9-928a2693e288",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "82fa4ae4-e978-4603-8460-a6293eacd38b",
-    "Title": "Outlook обучение",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/86d5c448-c899-4c0d-90a9-cbf991164c34?embed=true",
-    "TechnologyId": "3edeb182-3828-4a83-aef9-928a2693e288",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "86e20346-b8a7-49ef-b73e-962b72566ce3",
-    "Title": "Быстрое приглашение в RSVP",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/f42861b5-ac25-4887-af57-c80efc8ea3d9?embed=true",
-    "TechnologyId": "3edeb182-3828-4a83-aef9-928a2693e288",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "da0fcac5-7ef3-4241-a1ff-68faaeedbfba",
-    "Title": "Простой поиск",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/07df353b-e866-4c49-9d7c-dbbdf00a9223?embed=true",
-    "TechnologyId": "3edeb182-3828-4a83-aef9-928a2693e288",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "e819162c-1907-4606-a152-c07e1811089e",
-    "Title": "Поделиться файлами и фотографиями",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/dc56dbdd-f03a-4a16-8d3d-e498bea45bac?embed=true",
-    "TechnologyId": "3edeb182-3828-4a83-aef9-928a2693e288",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "f21a4063-db88-40ab-9376-8e324711f6d8",
-    "Title": "Отправка данных о доступности собрания",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/31f975ab-38b5-48c5-a2e7-6a960aefd9fc?embed=true",
-    "TechnologyId": "3edeb182-3828-4a83-aef9-928a2693e288",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
     "Id": "1b7c6171-61c6-4157-bad5-8480ae8f54a1",
-    "Title": "Что OneNote?",
+    "Title": "Что такое OneNote?",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/1b7c6171-61c6-4157-bad5-8480ae8f54a1?embed=true",
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
@@ -2896,7 +3050,7 @@
     "Id": "3356f32e-f966-46dc-8d0e-0d61836c1bd1",
     "Title": "Делиться информацией и организовывать свою порядок",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/3356f32e-f966-46dc-8d0e-0d61836c1bd1?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/b2f5babb-e9a5-4e07-a1c2-ffb60eca3b9e?embed=true",
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -2951,7 +3105,7 @@
     "Id": "6be33cf9-f7c3-4421-9d74-469a259952d3",
     "Title": "Создание записной книжки",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/6be33cf9-f7c3-4421-9d74-469a259952d3?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/2a7a7160-95f6-4b30-b21f-df35401bcd42?embed=true",
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3039,7 +3193,7 @@
     "Id": "a49a3e1d-eafd-4cd0-8a1e-1e0cf558323d",
     "Title": "Заметки",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/a49a3e1d-eafd-4cd0-8a1e-1e0cf558323d?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/71117249-c218-40d0-a7be-c49d2008837e?embed=true",
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3050,7 +3204,7 @@
     "Id": "a9909ff8-3604-4b34-b59b-be5f00a25611",
     "Title": "Настройка мобильных приложений",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/a9909ff8-3604-4b34-b59b-be5f00a25611?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/a0628ad1-319f-429f-a79a-c188272d3c98?embed=true",
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3059,7 +3213,7 @@
   },
   {
     "Id": "b533bc33-f852-48d7-b55f-5a858174ca16",
-    "Title": "OneNote Онлайн",
+    "Title": "OneNote Online",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/b533bc33-f852-48d7-b55f-5a858174ca16?embed=true",
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
@@ -3102,6 +3256,28 @@
     "StatusNote": ""
   },
   {
+    "Id": "02f83d65-ec10-4365-b88f-17c19e0dc5cb",
+    "Title": "Идеи для оформления слайдов",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/02f83d65-ec10-4365-b88f-17c19e0dc5cb?embed=true",
+    "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "036d317b-3251-4237-8ddc-22f4668e2b56",
+    "Title": "Настройка образца слайдов",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/036d317b-3251-4237-8ddc-22f4668e2b56?embed=true",
+    "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
     "Id": "055d5d36-00fe-4e34-ba80-8d360cf9dd59",
     "Title": "Использование диаграмм и графиков в презентации",
     "Description": "",
@@ -3125,9 +3301,9 @@
   },
   {
     "Id": "06f64160-9abf-46bb-80d1-9e94d47a0d36",
-    "Title": "Добавление объектов WordArt на слайды",
+    "Title": "Добавление объекта WordArt",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/06f64160-9abf-46bb-80d1-9e94d47a0d36?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/c5070583-1ebe-4dc4-a41f-5e3729adce54?embed=true",
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3147,7 +3323,7 @@
   },
   {
     "Id": "094a6796-1d07-4a44-b4ef-9f0ffc6f667d",
-    "Title": "Вставка значков",
+    "Title": "Вставка значков в Microsoft Office",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/e2459f17-3996-4795-996e-b9a13486fa79?embed=true",
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
@@ -3158,7 +3334,7 @@
   },
   {
     "Id": "0cb51a2c-872d-4fa0-aca7-4ad7d9b1492a",
-    "Title": "Группирование и разгруппирование объектов",
+    "Title": "Создание, объединение и группировка объектов на слайде",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/86f4be3b-0596-46d4-8200-1c9c308f5e3c?embed=true",
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
@@ -3168,10 +3344,21 @@
     "StatusNote": ""
   },
   {
-    "Id": "1246244d-f465-4e4f-b9f9-49acdae00ff1",
-    "Title": "Добавление водяного знака на слайды",
+    "Id": "0e85b85c-5aa7-4d47-9381-b800c63bf740",
+    "Title": "Проверка презентации",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/1246244d-f465-4e4f-b9f9-49acdae00ff1?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/0e85b85c-5aa7-4d47-9381-b800c63bf740?embed=true",
+    "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "158e6dba-e53e-479b-a6fc-caab72609689",
+    "Title": "Применение макета слайда",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/158e6dba-e53e-479b-a6fc-caab72609689?embed=true",
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3180,7 +3367,7 @@
   },
   {
     "Id": "16465bf5-32ef-4d92-86ff-a0d15646ce39",
-    "Title": "Добавление и изменение визуальных эффектов для рисунков",
+    "Title": "Применение художественного эффекта к рисунку",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/1d4bf84a-ab8b-4b3e-be78-78b0ed9f4ede?embed=true",
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
@@ -3190,21 +3377,10 @@
     "StatusNote": ""
   },
   {
-    "Id": "19767daf-672c-43bc-bda1-330b242c57c9",
-    "Title": "Вставка данных Excel в PowerPoint",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/19767daf-672c-43bc-bda1-330b242c57c9?embed=true",
-    "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
     "Id": "1b1172ac-934e-47fd-b43b-7da01607a7f7",
-    "Title": "Печать презентаций",
+    "Title": "Печать слайдов, раздаточных материалов или заметок PowerPoint",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/1b1172ac-934e-47fd-b43b-7da01607a7f7?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/194d4320-aa03-478b-9300-df25f0d15dc4?embed=true",
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3215,7 +3391,7 @@
     "Id": "2016-422250f8-5721-4cea-92cc-202fa7b89617",
     "Title": "Создание презентации",
     "Description": "",
-    "Url": "https://support.office.com/client/2016-422250f8-5721-4cea-92cc-202fa7b89617?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/422250f8-5721-4cea-92cc-202fa7b89617?embed=true",
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3224,7 +3400,7 @@
   },
   {
     "Id": "22830909-bfcc-4ffe-ba12-04cf7f0f9f35",
-    "Title": "Наложение объектов на слайдах",
+    "Title": "Перемещение объектов, заполнителей и фигур на задний или передний план",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/9a3b64b2-f1ac-42bc-ad97-ab30fad93de4?embed=true",
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
@@ -3235,9 +3411,9 @@
   },
   {
     "Id": "2570dff5-f81c-40bc-b404-e04e95ffab33",
-    "Title": "Запись презентации",
+    "Title": "Запись слайд-шоу с указанием длительности речевого сопровождения и показа слайдов",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/2570dff5-f81c-40bc-b404-e04e95ffab33?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/0b9502c6-5f6c-40ae-b1e7-e47d8741161c?embed=true",
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3267,50 +3443,6 @@
     "StatusNote": ""
   },
   {
-    "Id": "2b3bf84a-1960-4b3f-8d68-dbdaa8865e97",
-    "Title": "Удаление личных сведений",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/2b3bf84a-1960-4b3f-8d68-dbdaa8865e97?embed=true",
-    "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "2e95c36a-0e64-4256-a04b-33501a2ce604",
-    "Title": "Разделение таблицы между двумя слайдами",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/2e95c36a-0e64-4256-a04b-33501a2ce604?embed=true",
-    "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "314cfd6f-dfb0-44f6-8bf5-8d7c2f4f4332",
-    "Title": "Упорядочение слайдов по разделам",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/314cfd6f-dfb0-44f6-8bf5-8d7c2f4f4332?embed=true",
-    "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "318bf5a5-460c-4fe4-b134-dac2aba286fe",
-    "Title": "Формат рисунков на слайдах",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/318bf5a5-460c-4fe4-b134-dac2aba286fe?embed=true",
-    "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
     "Id": "33ac9590-720d-4803-ad6a-0f3de16e5bbf",
     "Title": "Создание автоматической презентации",
     "Description": "",
@@ -3323,31 +3455,9 @@
   },
   {
     "Id": "33b3491e-f0ec-48c4-b9fb-3a5bd8797608",
-    "Title": "Добавление таблицы на слайд",
+    "Title": "Создание и форматирование таблицы",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/33b3491e-f0ec-48c4-b9fb-3a5bd8797608?embed=true",
-    "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "41bc6777-3b46-4984-bc5b-615ea7786ab1",
-    "Title": "Поворот и зеркальное отражение объектов",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/41bc6777-3b46-4984-bc5b-615ea7786ab1?embed=true",
-    "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "434b92d7-5347-4197-8d5c-d5b23219cf28",
-    "Title": "Изменение образцов слайдов",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/434b92d7-5347-4197-8d5c-d5b23219cf28?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/67481ec8-a031-42fb-9a83-2aec5f442b11?embed=true",
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3366,17 +3476,6 @@
     "StatusNote": ""
   },
   {
-    "Id": "4d452495-f8c0-4b15-bac3-8015a8adbe0e",
-    "Title": "Добавление при комментариев, ответ на них и их удаление",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/4d452495-f8c0-4b15-bac3-8015a8adbe0e?embed=true",
-    "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
     "Id": "568fd2e2-0b87-471e-b5f9-fe9279f967c5",
     "Title": "Создание презентации",
     "Description": "",
@@ -3388,30 +3487,8 @@
     "StatusNote": ""
   },
   {
-    "Id": "56d8b2d3-2f31-4f50-abae-6154c1f969a9",
-    "Title": "Группирование и разгруппирование объектов",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/56d8b2d3-2f31-4f50-abae-6154c1f969a9?embed=true",
-    "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "5f961535-a2ae-4914-a24a-94c669903ae3",
-    "Title": "Выравнивание и размещение объектов",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/5f961535-a2ae-4914-a24a-94c669903ae3?embed=true",
-    "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
     "Id": "5f9cc860-d199-4d85-ad1b-4b74018acf5b",
-    "Title": "Что PowerPoint?",
+    "Title": "Что такое PowerPoint?",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/5f9cc860-d199-4d85-ad1b-4b74018acf5b?embed=true",
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
@@ -3443,10 +3520,21 @@
     "StatusNote": ""
   },
   {
-    "Id": "6f0ec776-cc58-4d0c-baab-051ba837b7a0",
-    "Title": "Идеи для оформления слайдов",
+    "Id": "6c081407-e683-4424-a425-b4ab483d6edd",
+    "Title": "Вставка связанной диаграммы Excel в PowerPoint",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/6f0ec776-cc58-4d0c-baab-051ba837b7a0?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/6c081407-e683-4424-a425-b4ab483d6edd?embed=true",
+    "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "7a17358c-b76e-4c94-84db-604e1bba76da",
+    "Title": "Добавление фонового рисунка на слайды",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/7a17358c-b76e-4c94-84db-604e1bba76da?embed=true",
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3455,9 +3543,9 @@
   },
   {
     "Id": "7da68d81-eda5-441d-9948-883ba5fb95ae",
-    "Title": "Добавление рисунков к слайдам",
+    "Title": "Вставка рисунка в PowerPoint",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/7da68d81-eda5-441d-9948-883ba5fb95ae?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/5f7368d2-ee94-4b94-a6f2-a663646a07e1?embed=true",
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3487,36 +3575,14 @@
     "StatusNote": ""
   },
   {
-    "Id": "81cccf31-9219-4c89-b7ba-9f25ad429c4a",
-    "Title": "Наложение объектов на слайдах",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/81cccf31-9219-4c89-b7ba-9f25ad429c4a?embed=true",
-    "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
     "Id": "83e8f205-08bf-4dc1-b4fc-2fbe46873295",
-    "Title": "Репетиция презентации и отсчет времени",
+    "Title": "Репетиция и планирование времени проведения презентации",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/83e8f205-08bf-4dc1-b4fc-2fbe46873295?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/8424270a-d865-4aed-a321-1d2dd656381a?embed=true",
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "84c79be1-3be5-4659-a3dc-b519e019bbaf",
-    "Title": "Преобразование рукописных фрагментов в фигуры, текст и математические символы в PowerPoint для Microsoft 365",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/0740dec3-6291-4c1f-8baa-011d18449919?embed=true",
-    "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -3543,20 +3609,9 @@
   },
   {
     "Id": "95ab736a-8bf7-404b-bcc0-18354e126584",
-    "Title": "Выравнивание объектов",
+    "Title": "Направляющие для выравнивания объектов на слайде в PowerPoint",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/33854dfa-e0d1-43ff-8971-667b19512de3?embed=true",
-    "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "9acfa241-0be7-4f18-860f-3dcd6a61818c",
-    "Title": "Применение тем к презентациям",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/9acfa241-0be7-4f18-860f-3dcd6a61818c?embed=true",
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3586,14 +3641,47 @@
     "StatusNote": ""
   },
   {
+    "Id": "a54d6866-8c32-4fbc-b15d-6fcc4bd1edf6",
+    "Title": "Добавление цветов и оформления слайдов с помощью тем",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/a54d6866-8c32-4fbc-b15d-6fcc4bd1edf6?embed=true",
+    "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "a6308d9d-a0a8-443b-8e1c-0f4983f0afd1",
+    "Title": "Поделитесь своей PowerPoint презентацией с другими",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/a6308d9d-a0a8-443b-8e1c-0f4983f0afd1?embed=true",
+    "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "a6875594-f531-4e8b-97ff-cbd05634ab18",
     "Title": "Добавление фонового рисунка к слайдам",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/a6875594-f531-4e8b-97ff-cbd05634ab18?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/4b0b98d4-774c-4e08-9c38-e8c92f58c957?embed=true",
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusNote": ""
+  },
+  {
+    "Id": "a8f071fa-6e5d-4c37-a025-1cf48a76eb38",
+    "Title": "Добавление, изменение, скрытие и удаление",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/a8f071fa-6e5d-4c37-a025-1cf48a76eb38?embed=true",
+    "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -3630,17 +3718,6 @@
     "StatusNote": ""
   },
   {
-    "Id": "bb7fc99c-71ef-48e3-ac1a-3ebafcd9f3ed",
-    "Title": "Добавление, форматирование и запись видео",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/bb7fc99c-71ef-48e3-ac1a-3ebafcd9f3ed?embed=true",
-    "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
     "Id": "c641613c-435a-4c0e-9e89-2b4cedb6198a",
     "Title": "Добавление и форматирование",
     "Description": "",
@@ -3653,7 +3730,7 @@
   },
   {
     "Id": "cd828eb0-c18b-42ac-9417-3f62aa501329",
-    "Title": "Показ презентации в PowerPoint",
+    "Title": "Проведение презентации",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/a0a97646-6f92-4099-ade7-a5281a8841fe?embed=true",
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
@@ -3666,7 +3743,7 @@
     "Id": "ce655d7b-bc99-4323-be2e-627d3e759528",
     "Title": "Проверка орфографии в презентации",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/dafed286-bac0-46cd-ab79-36909e675528?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/b953b97e-367c-4b28-835e-1a6d26405492?embed=true",
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3674,10 +3751,10 @@
     "StatusNote": ""
   },
   {
-    "Id": "d3df465b-7564-4eb5-9f31-e9ac854b2d5d",
-    "Title": "Добавление логотипа на слайды",
+    "Id": "d3d4ece5-e965-45eb-9423-c34e61b34616",
+    "Title": "Применение шаблона к новой презентации",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/7a17358c-b76e-4c94-84db-604e1bba76da?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/d3d4ece5-e965-45eb-9423-c34e61b34616?embed=true",
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3685,10 +3762,10 @@
     "StatusNote": ""
   },
   {
-    "Id": "d98e245b-7cd5-4813-a893-70a3dac60971",
-    "Title": "Применение и изменение макета слайда",
+    "Id": "de4bf162-e9cc-4f58-b64a-7ab09443b9f8",
+    "Title": "Упорядочение слайдов PowerPoint по разделам",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/d98e245b-7cd5-4813-a893-70a3dac60971?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/de4bf162-e9cc-4f58-b64a-7ab09443b9f8?embed=true",
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3707,10 +3784,21 @@
     "StatusNote": ""
   },
   {
-    "Id": "ed299a87-43e2-4a18-a3ba-cc90c2149e33",
-    "Title": "Создание графического элемента SmartArt",
+    "Id": "ea4cc5f5-ea5d-4213-9c7d-ed01a7952ed0",
+    "Title": "Добавление подложки \"ЧЕРНОВИК\" на фон слайдов",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/ed299a87-43e2-4a18-a3ba-cc90c2149e33?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/ea4cc5f5-ea5d-4213-9c7d-ed01a7952ed0?embed=true",
+    "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "ed299a87-43e2-4a18-a3ba-cc90c2149e33",
+    "Title": "Добавление объектов SmartArt к слайдам",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/1f033051-901b-44ae-a9f5-4d23996679c8?embed=true",
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3730,7 +3818,7 @@
   },
   {
     "Id": "efa900e1-3b09-453e-a4c2-ee672c2088f1",
-    "Title": "Трансформация слайдов",
+    "Title": "Использование перехода \"Трансформация\" в PowerPoint",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/8dd1c7b2-b935-44f5-a74c-741d8d9244ea?embed=true",
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
@@ -3762,21 +3850,10 @@
     "StatusNote": ""
   },
   {
-    "Id": "fcedcc77-e229-4519-9e42-58759da72d33",
-    "Title": "Добавление логотипа на слайды",
+    "Id": "f6294909-04e9-4020-b9a8-4587b112692c",
+    "Title": "Создание презентации PowerPoint из структуры",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/fcedcc77-e229-4519-9e42-58759da72d33?embed=true",
-    "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "fdcad9ad-4f13-4f5b-9910-12b4108a4c86",
-    "Title": "Совместное показ презентации",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/fdcad9ad-4f13-4f5b-9910-12b4108a4c86?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/f6294909-04e9-4020-b9a8-4587b112692c?embed=true",
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3818,7 +3895,7 @@
   },
   {
     "Id": "10f5c3fd-b0f6-40e2-9059-04735ffe01b7",
-    "Title": "Что такое OneDrive?",
+    "Title": "Что собой представляет OneDrive?",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/10f5c3fd-b0f6-40e2-9059-04735ffe01b7?embed=true",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
@@ -3853,7 +3930,7 @@
     "Id": "254ec123-fca9-48e1-ba2b-5e16bab38a6a",
     "Title": "Восстановление OneDrive",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/3bd43b2b-be98-48a8-a866-878e91263d01?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/5a3dc200-3537-49b6-9f51-09cd74bc962a?embed=true",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3884,7 +3961,7 @@
   },
   {
     "Id": "3cd2e0b9-a2bc-4009-ba4a-88fc1052522f",
-    "Title": "Включить резервное копирование OneDrive.",
+    "Title": "Включить резервное копирование OneDrive",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/4e44ceab-bcdf-4d17-9ae0-6f00f6080adb?embed=true",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
@@ -3906,7 +3983,7 @@
   },
   {
     "Id": "4fe9c70f-7831-4beb-982e-ac9dc75fbfe6",
-    "Title": "OneDrive Основы",
+    "Title": "OneDrive основы",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/4fe9c70f-7831-4beb-982e-ac9dc75fbfe6?embed=true",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
@@ -3928,7 +4005,7 @@
   },
   {
     "Id": "5bd927ad-d186-495c-93e8-7ca116fe7b83",
-    "Title": "Upload файлы и папки",
+    "Title": "Upload файлов и папок",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/5bd927ad-d186-495c-93e8-7ca116fe7b83?embed=true",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
@@ -3939,7 +4016,7 @@
   },
   {
     "Id": "62e8d748-7877-420f-b600-24b56562aa70",
-    "Title": "Синхронизация файлов с помощью OneDrive по запросу",
+    "Title": "Синхронизация файлов с OneDrive файлы по запросу",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/62e8d748-7877-420f-b600-24b56562aa70?embed=true",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
@@ -3996,7 +4073,7 @@
     "Id": "943c1193-0076-4a85-b07f-a359de11690c",
     "Title": "Настройка iPhone и iPad",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/ed5af2c2-39a8-4684-a17c-fcde3742d4be?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/81267c98-49cd-48dc-882b-f17785914673?embed=true",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -4027,7 +4104,7 @@
   },
   {
     "Id": "99ade958-5c25-444b-9e1e-f222a8976441",
-    "Title": "Что происходит при удалении файлов",
+    "Title": "Удаление файлов в облаке",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/57dda49f-0e55-41eb-bb6a-c61caa8cca03?embed=true",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
@@ -4125,8 +4202,19 @@
     "StatusNote": ""
   },
   {
+    "Id": "f8c24f1a-9dfb-4ede-94c5-931a45646a96",
+    "Title": "Управление диском",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/f8c24f1a-9dfb-4ede-94c5-931a45646a96?embed=true",
+    "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "07175043-fa5f-4eca-bb44-c8f13f585ecd",
-    "Title": "PowerPoint для Интернета: вставка рисунков, фигур и других",
+    "Title": "Вставка рисунков, фигур и других",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/cb0de057-9251-4172-b880-96ffdb472203?embed=true",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4137,7 +4225,7 @@
   },
   {
     "Id": "19ec0716-957a-46df-8b94-acb32832f0ef",
-    "Title": "Office для Интернета: создание документов",
+    "Title": "Создание документов",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/08e83f3b-5dbf-4874-9c81-9ae06266163f?embed=true",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4148,7 +4236,7 @@
   },
   {
     "Id": "1b661d1e-c4a6-4613-98b1-b09bb05473c8",
-    "Title": "Excel для Интернета: вставка стеблиной",
+    "Title": "Вставка стеблиной",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/18fb0032-b01a-4c99-9a5f-7ab09edde05a?embed=true",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4159,7 +4247,7 @@
   },
   {
     "Id": "27adea70-a2e4-4c73-8062-8070588fe6aa",
-    "Title": "PowerPoint для Интернета: разработка слайдов",
+    "Title": "Разработка слайдов",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/e7f57871-f97e-48aa-9541-fc2ac0eff720?embed=true",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4170,7 +4258,7 @@
   },
   {
     "Id": "38a368cf-15b6-4ca0-804c-8d0fdc5f3683",
-    "Title": "Excel для Интернета: идеи",
+    "Title": "Анализ данных",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/aa105149-1e48-446d-b3df-872dff70a866?embed=true",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4181,7 +4269,7 @@
   },
   {
     "Id": "3950c751-2292-47c0-966b-912a2b289b96",
-    "Title": "PowerPoint для Интернета: PowerPoint в Интернете",
+    "Title": "Узнать, как это PowerPoint для Интернета",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/4756ec6a-1c3d-4b9c-b6b8-ac37f2236b9f?embed=true",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4192,7 +4280,7 @@
   },
   {
     "Id": "39d8fb04-8063-482f-93e3-2fc4f6f421a9",
-    "Title": "Office для Интернета: совместное просмотр документов",
+    "Title": "Совместное документов",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/b8b4498b-f365-499d-b9a7-5ec65e2ab00d?embed=true",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4203,7 +4291,7 @@
   },
   {
     "Id": "45b3af18-fecf-4dec-9e48-59e4548d1e2f",
-    "Title": "PowerPoint для Интернета: когда вы будете готовы к тому, чтобы начать",
+    "Title": "Когда вы будете готовы к тому, чтобы начать",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/15be3ec0-5b12-4b05-95c6-48da42883404?embed=true",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4214,7 +4302,7 @@
   },
   {
     "Id": "47069cbb-0d61-4bf3-82bb-f2c70e63b337",
-    "Title": "Word для Интернета: интересные Word для Интернета",
+    "Title": "Интересные вещи в Word для Интернета",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/a2ca6252-01ab-48fa-8c42-0fb1d54969ff?embed=true",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4225,7 +4313,7 @@
   },
   {
     "Id": "4d39f76b-ee15-4029-8a4c-fa7d14f0c80f",
-    "Title": "Excel для Интернета: Excel для Интернета",
+    "Title": "Узнать, как Excel для Интернета",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/c8545b3f-3b5a-4fa3-bf02-dfbaca82313a?embed=true",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4236,7 +4324,7 @@
   },
   {
     "Id": "4f23fd44-75b2-4e03-8cf7-f69b0abaf629",
-    "Title": "Office в Интернете: поиск",
+    "Title": "Поиск",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/82db9126-8571-4ca0-b897-4c610d86221e?embed=true",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4247,7 +4335,7 @@
   },
   {
     "Id": "5b424d93-175c-4e36-8331-56af9125a551",
-    "Title": "PowerPoint для Интернета: анимация и переходы",
+    "Title": "Анимация и переходы",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/07a941fb-b027-4f3e-b514-cd9866723f45?embed=true",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4258,7 +4346,7 @@
   },
   {
     "Id": "6f208b1e-32a8-4cb3-9966-6bf5d04d6a52",
-    "Title": "Excel для Интернета: Paint с помощью условного форматирования",
+    "Title": "Условное форматирование",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/d1d92998-d8ed-4e05-9763-2fbc7ccc45a2?embed=true",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4269,7 +4357,7 @@
   },
   {
     "Id": "73c7be2f-cab5-4870-8bf6-4645c855862a",
-    "Title": "Office для Интернета: защита ваших docs только для определенных людей",
+    "Title": "Защита ваших docs только для определенных людей",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/9643e7bb-8e66-49a5-9305-823d5f4f870e?embed=true",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4280,7 +4368,7 @@
   },
   {
     "Id": "8f2d5696-581b-4ca8-804d-022cfc2aef22",
-    "Title": "Office для Интернета: рекомендуемые файлы",
+    "Title": "Рекомендуемые файлы",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/3b28d5cb-5684-462e-8251-64c5a88d1973?embed=true",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4291,7 +4379,7 @@
   },
   {
     "Id": "9ee15b3a-3003-4706-b7b1-456688c999f0",
-    "Title": "Office в Интернете: вернуться к работе",
+    "Title": "Вернуться к работе",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/9da7f0de-9012-4f14-9e66-0b4314f873f0?embed=true",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4302,7 +4390,7 @@
   },
   {
     "Id": "a213fd6b-a510-47f3-b39f-b9795f35b5f4",
-    "Title": "Word для Интернета: Word для Интернета",
+    "Title": "Узнать, как Word для Интернета",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/a278ea8f-face-4775-889e-7bd6e224f08e?embed=true",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4313,7 +4401,7 @@
   },
   {
     "Id": "a544ec77-ffa8-47de-9e8d-de57a02bb5a5",
-    "Title": "Office в Интернете: начало работы",
+    "Title": "Начало работы",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/91b69f9c-9410-4eba-8b4f-8dab3efa43d1?embed=true",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4324,7 +4412,7 @@
   },
   {
     "Id": "af7f28a8-a3c0-4513-9580-661b0395c10a",
-    "Title": "Office для Интернета: создание ссылки для совместной связи",
+    "Title": "Создание ссылки для совместной связи",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/8257f6da-d5db-4207-a654-925644e3f35c?embed=true",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4335,7 +4423,7 @@
   },
   {
     "Id": "b2daf0a6-080f-4844-9d0f-6f171eb72d4e",
-    "Title": "Word для Интернета: изменение макета документа",
+    "Title": "Изменение макета документа",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/d8eae84b-756b-4e7d-8b3d-7fbcb41e50cc?embed=true",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4346,7 +4434,7 @@
   },
   {
     "Id": "b55517cc-a4f4-405b-b46f-977f39a91e3c",
-    "Title": "Office для Интернета: поделиться с кем-то за пределами организации",
+    "Title": "Поделиться с кем-то за пределами организации",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/bcc53392-8f87-4314-b8dc-c56715e9fc83?embed=true",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4357,7 +4445,7 @@
   },
   {
     "Id": "b65ec000-8e8e-47c6-b05c-d2763fe95d42",
-    "Title": "Excel для Интернета: экономия времени с помощью flash fill",
+    "Title": "\"Flash Fill\"",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/9159216a-75a0-4c11-82e6-8eca29cb3b89?embed=true",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4368,7 +4456,7 @@
   },
   {
     "Id": "bf8f12d4-3c64-4e52-9b08-a55c3d903e86",
-    "Title": "PowerPoint для Интернета: создание презентации вместе с другими людьми",
+    "Title": "Создание презентации вместе с другими людьми",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/e7f9bba4-c6c4-4ada-adf5-70bcdf2aafa9?embed=true",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4379,7 +4467,7 @@
   },
   {
     "Id": "ca68be6a-3798-461a-8247-3350b33cc952",
-    "Title": "Word для Интернета: совместной работы в Интернете",
+    "Title": "Работайте вместе в Интернете",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/f6ba9c53-76cd-4dd3-9f1f-33a357c9463e?embed=true",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4390,7 +4478,7 @@
   },
   {
     "Id": "cdc69020-376d-4e05-bbe6-2457ad9be8e9",
-    "Title": "Outlook в Интернете: Outlook веб",
+    "Title": "Подробнее о Outlook веб",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/3f1a229b-0d60-438f-b515-dd7a28026bc1?embed=true",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4401,7 +4489,7 @@
   },
   {
     "Id": "d1233064-273d-4d58-a955-686688f4b529",
-    "Title": "Excel для Интернета: совместное работа",
+    "Title": "Сотрудничать",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/b2054e75-e999-4146-8f46-159c4364a6aa?embed=true",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4412,7 +4500,7 @@
   },
   {
     "Id": "d360bf65-a55d-482b-889c-2add6da96df9",
-    "Title": "Outlook в Интернете: создание подписи и автоматического",
+    "Title": "Создание подписи и автоматического",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/fff72394-8de9-48ce-92ab-13cc120f6545?embed=true",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4423,7 +4511,7 @@
   },
   {
     "Id": "e33f0fd2-f936-4c5b-a0c6-552da24fe00e",
-    "Title": "Excel для Интернета: создание формул",
+    "Title": "Создание формул",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/b0c54a42-0057-41dc-9d33-098deccb2278?embed=true",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4434,7 +4522,7 @@
   },
   {
     "Id": "e51e4a78-5643-4168-8aec-57c0f22f5a51",
-    "Title": "Outlook в Интернете: создание сообщений",
+    "Title": "Создание сообщений электронной почты и",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/af51a804-70f1-4fc1-a9f1-a568e7fd5d85?embed=true",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4444,19 +4532,8 @@
     "StatusNote": ""
   },
   {
-    "Id": "e76571ce-494d-4119-b2d8-6a61272527db",
-    "Title": "Word для Интернета: перезаписи записей",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/7fc2efec-245e-45f0-b053-2a97531ecf57?embed=true",
-    "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
-    "StatusNote": ""
-  },
-  {
     "Id": "fed4f1d2-92ed-4539-bbbf-b588ddab62aa",
-    "Title": "Word для Интернета: вставка таблиц и рисунков",
+    "Title": "Вставка таблиц и рисунков",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/9e2be863-fcb8-4f20-af24-905121643da8?embed=true",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4642,6 +4719,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "7bf7ccc9-0850-48f2-858f-273271d30fa0",
+    "Title": "База данных рабочего стола или веб-приложение?",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/7bf7ccc9-0850-48f2-858f-273271d30fa0?embed=true",
+    "TechnologyId": "9c18d262-89c5-499b-be11-be58279c86bd",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "7c563fdf-dce4-4cf8-86f7-dcca482864b6",
     "Title": "Резервное копирование базы данных",
     "Description": "",
@@ -4731,13 +4819,24 @@
   },
   {
     "Id": "ab834695-6093-4e1f-9d95-db4622f14677",
-    "Title": "Что такое Access",
+    "Title": "Что такое Access?",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/f2338765-ff59-4cfc-b8ba-74059fcb1874?embed=true",
     "TechnologyId": "9c18d262-89c5-499b-be11-be58279c86bd",
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "ac5a2bfb-4537-469c-8580-50eb24053383",
+    "Title": "Создание таблиц с помощью конструктора",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/ac5a2bfb-4537-469c-8580-50eb24053383?embed=true",
+    "TechnologyId": "9c18d262-89c5-499b-be11-be58279c86bd",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -4775,7 +4874,7 @@
   },
   {
     "Id": "e1948cff-6bcd-4b08-a1f0-89e587a36770",
-    "Title": "Создание запроса, формы или отчета в Access",
+    "Title": "Создание запроса, формы или отчета",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/04eb597f-cb77-47be-83ed-1b8325b34cde?embed=true",
     "TechnologyId": "9c18d262-89c5-499b-be11-be58279c86bd",
@@ -4918,7 +5017,7 @@
   },
   {
     "Id": "53e74097-c1fc-4098-a8ad-cf40b8e02e6c",
-    "Title": "Изменение уведомлений и получение объявлений",
+    "Title": "Уведомления и объявления",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/53e74097-c1fc-4098-a8ad-cf40b8e02e6c?embed=true",
     "TechnologyId": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
@@ -5061,7 +5160,7 @@
   },
   {
     "Id": "dc06d227-c4c9-4fdb-9bfe-9f6a6b1caa83",
-    "Title": "Изменение профиля и параметров Yammer",
+    "Title": "Изменение профиля и параметров",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/ab813bce-5312-4688-94ee-70018545cd3c?embed=true",
     "TechnologyId": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
@@ -5203,6 +5302,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "4b3e25c7-e464-41dc-8486-cef28d7130e0",
+    "Title": "Изучение сайта",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/4b3e25c7-e464-41dc-8486-cef28d7130e0?embed=true",
+    "TechnologyId": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "4d1e11bf-8ddc-499d-b889-2b48d10b1ce8",
     "Title": "Создание сайта",
     "Description": "",
@@ -5237,7 +5347,7 @@
   },
   {
     "Id": "551e190a-8fbe-47ae-a88a-798b443c46b1",
-    "Title": "Создание информационного SharePoint группы или информационного сайта",
+    "Title": "Создание сайта группы или информационного сайта",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/551e190a-8fbe-47ae-a88a-798b443c46b1?embed=true",
     "TechnologyId": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
@@ -5251,17 +5361,6 @@
     "Title": "Синхронизация файлов с помощью запроса",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/6e01573e-49cc-45f0-8786-e0b89288ac04?embed=true",
-    "TechnologyId": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "7787a98c-8eb9-407d-8ee7-73a9975caf71",
-    "Title": "Изучение сайта группы",
-    "Description": "",
-    "Url": "https://support.office.com/client/4b3e25c7-e464-41dc-8486-cef28d7130e0f?embed=true",
     "TechnologyId": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -5413,7 +5512,7 @@
   },
   {
     "Id": "089ff1b2-6cd7-4e86-ab50-a4390b4bcb21",
-    "Title": "Использование приложений",
+    "Title": "Поиск и использование приложений",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/6e22a734-c002-4da0-ba63-681f155b142d?embed=true",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -5446,9 +5545,9 @@
   },
   {
     "Id": "0db2a152-ac66-48cf-aa24-0eca94bf6c79",
-    "Title": "Уорхомите свой список команд",
+    "Title": "Управление настройками команды",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/741bf760-39fc-4807-ad8b-92558273f542?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/92d238e6-0ae2-447e-af90-40b1052c4547?embed=true",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -5489,6 +5588,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "164a6fee-3705-4e5e-9b5d-3a8509386693",
+    "Title": "Поиск и фильтрация людей и файлов",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/164a6fee-3705-4e5e-9b5d-3a8509386693?embed=true",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "180ed260-d3ef-4247-9f24-1984fc76d5f0",
     "Title": "Работа с внешними гостями",
     "Description": "",
@@ -5496,7 +5606,7 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -5519,17 +5629,6 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "22c40436-db14-4863-93c6-aa9a51134edd",
-    "Title": "Навигация во время собрания Teams",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/bc428cc5-9ea2-4be5-87b1-ba434481b964?embed=true",
-    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
-    "SubjectId": "615f17eb-2c5b-4494-8541-4304435ca306",
-    "Source": "Microsoft",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": ""
   },
   {
@@ -5577,6 +5676,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "31682332-4dba-42e5-9e3b-bf7dd178d106",
+    "Title": "Поиск и фильтрация сообщений",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/31682332-4dba-42e5-9e3b-bf7dd178d106?embed=true",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "31e38b35-96ab-447a-acb2-97bb5c0716c0",
     "Title": "Сотрудничать",
     "Description": "",
@@ -5589,7 +5699,7 @@
   },
   {
     "Id": "32525960-bb69-4c94-a0be-cb6551fafc05",
-    "Title": "Создайте канал в",
+    "Title": "Создание канала в",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/e7a76df3-bfe7-42aa-b016-8f5334e48877?embed=true",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -5611,7 +5721,7 @@
   },
   {
     "Id": "37d98b29-08fb-4b8e-ab97-b129a0e9966d",
-    "Title": "Добавление вкладок в группы",
+    "Title": "Добавление вкладок в команды",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/37d98b29-08fb-4b8e-ab97-b129a0e9966d?embed=true",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -5646,7 +5756,7 @@
     "Id": "422bf3aa-9ae8-46f1-83a2-e65720e1a34d",
     "Title": "Что Microsoft Teams?",
     "Description": "",
-    "Url": "https://support.office.com/client/4422bf3aa-9ae8-46f1-83a2-e65720e1a34d?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/422bf3aa-9ae8-46f1-83a2-e65720e1a34d?embed=true",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -5698,12 +5808,34 @@
     "StatusNote": ""
   },
   {
+    "Id": "56eca039-312a-41b2-923d-870439901e49",
+    "Title": "Советы по файлам Teams",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/56eca039-312a-41b2-923d-870439901e49?embed=true",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "5ba5b778-d656-45b1-91cc-6e9abebe767e",
     "Title": "Начните чат в",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/9c7b1258-28f0-434a-a341-569ea0b36f05?embed=true",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "63633f7d-b713-4d66-9dd9-e50eeae43e5d",
+    "Title": "Добавление вопросов и ответов в вебинары и собрания",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/63633f7d-b713-4d66-9dd9-e50eeae43e5d?embed=true",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "615f17eb-2c5b-4494-8541-4304435ca306",
     "Source": "Microsoft",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
@@ -5765,7 +5897,7 @@
   },
   {
     "Id": "702a2977-e662-4038-bef5-bdf8ee47b17b",
-    "Title": "Запуск команды",
+    "Title": "Создание команды с помощью шаблонов",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/702a2977-e662-4038-bef5-bdf8ee47b17b?embed=true",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -5776,7 +5908,7 @@
   },
   {
     "Id": "712ef898-a27e-42fa-a9c1-bfd0733bae97",
-    "Title": "Скрытие чатов, удаление сообщений",
+    "Title": "Скрытие чатов и удаление сообщений",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/10e105ed-0c22-4d94-b7b6-d543a27c472b?embed=true",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -5918,17 +6050,6 @@
     "StatusNote": ""
   },
   {
-    "Id": "92d238e6-0ae2-447e-af90-40b1052c4547",
-    "Title": "Руководство для владельцев команд",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/92d238e6-0ae2-447e-af90-40b1052c4547?embed=true",
-    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
     "Id": "944b2b8b-f840-44a4-a83d-53ef71b92c1f",
     "Title": "Создание шаблонов для всей организации",
     "Description": "",
@@ -5984,17 +6105,6 @@
     "StatusNote": ""
   },
   {
-    "Id": "a78606bb-a15f-4f3e-8892-63f735cc1f6a",
-    "Title": "Использование приложения \"Задачи\" в Teams",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/e32639f3-2e07-4b62-9a8c-fd706c12c070?embed=true",
-    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
-    "StatusNote": ""
-  },
-  {
     "Id": "a8073654-eb8d-44ca-a7ae-1287b32d599d",
     "Title": "Публикация сообщения в нескольких каналах",
     "Description": "",
@@ -6040,7 +6150,7 @@
   },
   {
     "Id": "b33ae7a4-e14b-4e46-9440-94bfed214415",
-    "Title": "Демонстрация слайдов PowerPoint",
+    "Title": "Совет. Отображение слайдов PowerPoint",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/ddfc73dd-b957-4f2b-8e42-ce078f51873c?embed=true",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6102,17 +6212,6 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "c5714c3b-f123-4c9c-9d5d-0d13e6581559",
-    "Title": "Смены для сотрудников без телефонии",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/74f47ad2-7b6a-4605-8cf4-2b6ceb1cdcae?embed=true",
-    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -6193,17 +6292,6 @@
     "StatusNote": ""
   },
   {
-    "Id": "dca01f0e-7335-4c6f-8dd1-d419870e3239",
-    "Title": "Поиск и фильтрация файлов",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/b05c40d3-05ff-4e18-9289-05b3601e552f?embed=true",
-    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
     "Id": "e0b8a354-3070-4bc6-9923-ef747c8fa9a5",
     "Title": "Участие в трансляции",
     "Description": "",
@@ -6248,17 +6336,6 @@
     "StatusNote": ""
   },
   {
-    "Id": "f5275f98-7ee6-40e1-8c6e-5dc452df128b",
-    "Title": "Совместная работа над файлом",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/058173f5-031b-4f37-8724-ce2a50aa1d1d?embed=true",
-    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
     "Id": "f581aeaf-cc73-4dce-8a7b-12ecce5e7fdf",
     "Title": "Совет. Отправка электронной почты в канал",
     "Description": "",
@@ -6267,17 +6344,6 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "faa8d7d6-3635-459e-a1bb-925c94a7fa59",
-    "Title": "Смены для руководителей",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/29a6726d-0152-45cd-8bfc-393e2229608e?embed=true",
-    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -6293,9 +6359,31 @@
   },
   {
     "Id": "003be9d3-ccf7-4eea-be34-9501f6b38fbc",
-    "Title": "Импорт контактов",
+    "Title": "Импорт контактов Gmail",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/003be9d3-ccf7-4eea-be34-9501f6b38fbc?embed=true",
+    "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "0324004b-c482-4b97-b782-c70755b399c7",
+    "Title": "Outlook поиска в календаре",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/973cc5a4-4dc0-4297-adbf-e35779c18281?embed=true",
+    "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "047452a6-b15b-41da-bf0d-f363c9166604",
+    "Title": "Outlook мини-приложения Для Android",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/2e90a23a-b056-4469-9e09-1223ee2c1cbd?embed=true",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -6314,8 +6402,30 @@
     "StatusNote": ""
   },
   {
+    "Id": "0b32ebf0-fae9-4815-a061-94048d0799ef",
+    "Title": "Управление уведомлениями",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/d3b5a22b-919c-4d30-a26f-ae9a0a78ba90?embed=true",
+    "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "0e8be5a2-c2e1-4702-bb76-0ee7228b9d35",
+    "Title": "Объединение и объединение календарей",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/114b5924-7c5c-43f5-8073-6fc2c389075e?embed=true",
+    "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
     "Id": "10f1fa35-f33a-4cb7-838c-a7f3e6228b20",
-    "Title": "Что Outlook",
+    "Title": "Что Outlook?",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/10f1fa35-f33a-4cb7-838c-a7f3e6228b20?embed=true",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
@@ -6358,6 +6468,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "2163e940-2b8a-45ae-937e-5c4460a43839",
+    "Title": "Поиск вложений в сообщения электронной почты",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/eaadb9e5-fe39-42d0-a9a2-63609147ff10?embed=true",
+    "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
     "Id": "2a065b67-f991-4d22-9fb6-5d3160acd23b",
     "Title": "Игнорировать беседы электронной",
     "Description": "",
@@ -6366,6 +6487,17 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusNote": ""
+  },
+  {
+    "Id": "2c0422bf-014d-440f-b568-7c1e555ed8f6",
+    "Title": "Фильтр \"Отфильтрованный почтовый ящик\"",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/d9af3f3a-3a7d-4898-8079-39df8924f8e1?embed=true",
+    "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -6425,7 +6557,7 @@
   },
   {
     "Id": "400d4d45-8e2d-46a2-8cb5-ddabf12489ed",
-    "Title": "Создание, отправка сообщений электронной почты",
+    "Title": "Создание, отправка сообщений",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/400d4d45-8e2d-46a2-8cb5-ddabf12489ed?embed=true",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
@@ -6457,10 +6589,43 @@
     "StatusNote": ""
   },
   {
+    "Id": "555babd1-f307-48ef-a2cf-f6ea1aae6fdc",
+    "Title": "Помощник по месту проведения собрания",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/3218816c-4c1d-4e30-be3e-444bdb23f9c6?embed=true",
+    "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
     "Id": "59230c47-6fe9-46bd-8646-e1118e9eb973",
     "Title": "Использование категорий и напоминаний календаря",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/59230c47-6fe9-46bd-8646-e1118e9eb973?embed=true",
+    "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "615b74e8-37e7-43a3-9ac3-a41c5e30843a",
+    "Title": "10 лучших советов Outlook мобильных устройств",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/cb00cf88-2cee-4a71-a833-061a96d774ce?embed=true",
+    "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "62a04aec-5562-458e-89a3-07136c6eeff1",
+    "Title": "Проведите пальцем & управление почтовым ящиком",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/621bbc87-c743-4099-9d86-30aad418b020?embed=true",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -6483,6 +6648,28 @@
     "Title": "Сотрудничать",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/63bf693d-76d4-410b-89d2-a3b63c729c22?embed=true",
+    "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "672f8ae7-1843-4dff-acb4-d3a998f5f392",
+    "Title": "Простое планирование",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/11c5bee5-d78a-4a2b-80c2-2b386ddb4470?embed=true",
+    "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "6d35e08b-ca70-42b8-abf7-cca1ddbd267d",
+    "Title": "Общий доступ к календарю",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/e6c3563d-8dfb-4de3-bff8-c630d4a265ec?embed=true",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -6535,7 +6722,7 @@
   },
   {
     "Id": "7c031aff-0ceb-435a-ada9-a389cfc8ddca",
-    "Title": "Добавление учетной записи Outlook.com или Microsoft 365 учетной записи",
+    "Title": "Добавление учетной записи Outlook.com или Microsoft 365",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/7c031aff-0ceb-435a-ada9-a389cfc8ddca?embed=true",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
@@ -6545,8 +6732,30 @@
     "StatusNote": ""
   },
   {
+    "Id": "82fa4ae4-e978-4603-8460-a6293eacd38b",
+    "Title": "Outlook обучение",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/86d5c448-c899-4c0d-90a9-cbf991164c34?embed=true",
+    "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "86e20346-b8a7-49ef-b73e-962b72566ce3",
+    "Title": "Быстрое приглашение в RSVP",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/f42861b5-ac25-4887-af57-c80efc8ea3d9?embed=true",
+    "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
     "Id": "8e564127-15a0-4cf6-b974-f2101f5e256e",
-    "Title": "Отобирать или заменять отправленные сообщения",
+    "Title": "Отзыв или замена отправленного сообщения электронной почты",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/8e564127-15a0-4cf6-b974-f2101f5e256e?embed=true",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
@@ -6601,7 +6810,7 @@
   },
   {
     "Id": "c6c261e3-d50a-43a6-816f-35fe1e53acc6",
-    "Title": "Добро пожаловать в почтовый ящик",
+    "Title": "Добро пожаловать в электронную почту",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/c6c261e3-d50a-43a6-816f-35fe1e53acc6?embed=true",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
@@ -6612,7 +6821,7 @@
   },
   {
     "Id": "cc0e480f-973e-4412-a27b-8a52108d6d51",
-    "Title": "Настройка автоматического ответа",
+    "Title": "Настройка автоматического ответа (вне офиса)",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/cc0e480f-973e-4412-a27b-8a52108d6d51?embed=true",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
@@ -6633,10 +6842,43 @@
     "StatusNote": ""
   },
   {
+    "Id": "da0fcac5-7ef3-4241-a1ff-68faaeedbfba",
+    "Title": "Простой поиск",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/07df353b-e866-4c49-9d7c-dbbdf00a9223?embed=true",
+    "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "e819162c-1907-4606-a152-c07e1811089e",
+    "Title": "Поделиться файлами и фотографиями",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/dc56dbdd-f03a-4a16-8d3d-e498bea45bac?embed=true",
+    "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
     "Id": "e9da47c4-9b89-4b49-b945-a204aeea6726",
     "Title": "Добавление учетной записи электронной почты",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/e9da47c4-9b89-4b49-b945-a204aeea6726?embed=true",
+    "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "f21a4063-db88-40ab-9376-8e324711f6d8",
+    "Title": "Отправка данных о доступности собрания",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/31f975ab-38b5-48c5-a2e7-6a960aefd9fc?embed=true",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -6831,10 +7073,10 @@
     "StatusNote": ""
   },
   {
-    "Id": "038055a0-9ba8-4f70-9a00-84bd41a48a3f",
-    "Title": "Группировка и разгруппировка данных в pivotTable",
+    "Id": "01832226-31b5-4568-8806-38c37dcc180e",
+    "Title": "Фильтрация данных в диапазоне или таблице",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/038055a0-9ba8-4f70-9a00-84bd41a48a3f?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/01832226-31b5-4568-8806-38c37dcc180e?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -6843,7 +7085,7 @@
   },
   {
     "Id": "03cbab80-5182-4b3d-b93b-ae199c51b505",
-    "Title": "Изменение ширины столбца или высоты строки",
+    "Title": "Изменение ширины столбца или высоты строки в Excel",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/4c0b8edc-4fb6-4af0-9374-7a953f48527b?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
@@ -6853,10 +7095,10 @@
     "StatusNote": ""
   },
   {
-    "Id": "06e7419f-fdea-4f32-bc2b-f73088410881",
-    "Title": "Вставка и удаление строк и столбцов",
+    "Id": "043e1c7d-7726-4e80-8f32-07b23e057f89",
+    "Title": "Функция СУММ",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/7450f58a-517f-48ae-bace-248346e52275?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/043e1c7d-7726-4e80-8f32-07b23e057f89?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -6875,6 +7117,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "0c303d16-f765-4807-b978-359c5f98d6d0",
+    "Title": "Фильтрация ненужных строк",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/0c303d16-f765-4807-b978-359c5f98d6d0?embed=true",
+    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "0cf0055d-49f8-464e-9dfa-8f582b32453b",
     "Title": "Сохраните книгу в OneDrive",
     "Description": "",
@@ -6886,14 +7139,14 @@
     "StatusNote": ""
   },
   {
-    "Id": "0edb925e-2af7-47fb-895a-28a07d5b73d4",
-    "Title": "Разделение данных по нескольким столбцам",
+    "Id": "0dec75cd-4e83-4b39-81a5-9f604be95da0",
+    "Title": "Разделение данных на несколько столбцов",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/0edb925e-2af7-47fb-895a-28a07d5b73d4?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/0dec75cd-4e83-4b39-81a5-9f604be95da0?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -6952,14 +7205,14 @@
     "StatusNote": ""
   },
   {
-    "Id": "1404c8ee-ea47-4e4b-a6a0-9bd694eb8c7d",
-    "Title": "У упорядока полей в pivotTable с помощью списка полей",
+    "Id": "1474e169-008c-4783-926b-5c60e620f5ca",
+    "Title": "Показ тенденций изменения данных с помощью спарклайнов",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/1404c8ee-ea47-4e4b-a6a0-9bd694eb8c7d?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/1474e169-008c-4783-926b-5c60e620f5ca?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": ""
   },
   {
@@ -6985,50 +7238,6 @@
     "StatusNote": ""
   },
   {
-    "Id": "16301bbd-6aa6-4fd7-8cde-b60e8d599b6e",
-    "Title": "Добавление подложки в Excel",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/16301bbd-6aa6-4fd7-8cde-b60e8d599b6e?embed=true",
-    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
-    "StatusNote": ""
-  },
-  {
-    "Id": "1c27aedd-870f-41a6-bae2-23d4ca417673",
-    "Title": "СУММЕ ЕСЛИМЕСЯК",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/1c27aedd-870f-41a6-bae2-23d4ca417673?embed=true",
-    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "1f0532af-5e59-45e6-830f-0c058157d90c",
-    "Title": "Фильтрация данных в pivotTable",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/1f0532af-5e59-45e6-830f-0c058157d90c?embed=true",
-    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "201fba6f-daf0-4aaf-98f8-e826da1719d7",
-    "Title": "Отображение и скрытие легенды диаграммы",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/201fba6f-daf0-4aaf-98f8-e826da1719d7?embed=true",
-    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
     "Id": "231c42d2-5e58-40e1-99f0-cbe618cfee1d",
     "Title": "Создание диаграммы от начала до конца",
     "Description": "",
@@ -7040,8 +7249,41 @@
     "StatusNote": ""
   },
   {
+    "Id": "23c84e31-fc11-425d-ab03-5630f247b566",
+    "Title": "IfS",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/23c84e31-fc11-425d-ab03-5630f247b566?embed=true",
+    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusNote": ""
+  },
+  {
+    "Id": "249f966b-a9d5-4b0f-b31a-12651785d29d",
+    "Title": "Фильтрация данных с помощью",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/249f966b-a9d5-4b0f-b31a-12651785d29d?embed=true",
+    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusNote": ""
+  },
+  {
+    "Id": "25aba4e0-3373-40f9-9c91-670ca0ac0499",
+    "Title": "Просмотр примененных действий",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/25aba4e0-3373-40f9-9c91-670ca0ac0499?embed=true",
+    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "26858ae7-bcd5-4a8d-96f7-182473c34bd8",
-    "Title": "Outlook в Интернете: создание и изменение контакта",
+    "Title": "Создание и изменение контакта",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/fff455df-7470-4648-9696-9400e9da5eab?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
@@ -7062,21 +7304,10 @@
     "StatusNote": ""
   },
   {
-    "Id": "32bae4a3-7bc2-49a7-9cff-22c399ab09e4",
-    "Title": "Выделение содержимого ячеек в Excel",
+    "Id": "29fecbcc-d1b9-42c1-9d76-eff3ce5f7249",
+    "Title": "Применение проверки данных к ячейкам",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/23f64223-2b6b-453a-8688-248355f10fa9?embed=true",
-    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
-    "StatusNote": ""
-  },
-  {
-    "Id": "343e775c-58ee-4a3d-8d52-f4e3f5240d79",
-    "Title": "Быстрый анализ данных",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/343e775c-58ee-4a3d-8d52-f4e3f5240d79?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/29fecbcc-d1b9-42c1-9d76-eff3ce5f7249?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -7084,10 +7315,21 @@
     "StatusNote": ""
   },
   {
-    "Id": "3517fa12-353e-4907-b94d-b8e9b500ee33",
-    "Title": "Фильтрация данных с помощью",
+    "Id": "30b14928-5550-41f5-97ca-7a3e9c363ed7",
+    "Title": "Разделение текста на столбцы с помощью мастера распределения текста по столбцам",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/3517fa12-353e-4907-b94d-b8e9b500ee33?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/30b14928-5550-41f5-97ca-7a3e9c363ed7?embed=true",
+    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "32bae4a3-7bc2-49a7-9cff-22c399ab09e4",
+    "Title": "Выделение содержимого ячеек в Excel",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/23f64223-2b6b-453a-8688-248355f10fa9?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -7117,10 +7359,10 @@
     "StatusNote": ""
   },
   {
-    "Id": "3f12e6c7-887b-487e-a8f3-31742d060729",
-    "Title": "ЕСЛИ",
+    "Id": "43980e05-a585-4fcd-bd91-80160adfebec",
+    "Title": "У упорядока полей в pivotTable с помощью списка полей",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/3f12e6c7-887b-487e-a8f3-31742d060729?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/43980e05-a585-4fcd-bd91-80160adfebec?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -7128,21 +7370,10 @@
     "StatusNote": ""
   },
   {
-    "Id": "426058cb-da1f-4e45-906e-4d40f171801e",
-    "Title": "Добавление и удаление вспомогательной оси на диаграмме в Excel",
+    "Id": "44e3e65a-59d4-4ea6-b681-2e48e983d7b8",
+    "Title": "Добавление данных и обновление запроса",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/426058cb-da1f-4e45-906e-4d40f171801e?embed=true",
-    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "447ce791-5207-450d-a57a-b3a4602b54e0",
-    "Title": "Использование связанных типов данных в Excel",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/7530df24-3e3f-40a2-9cd0-3c31120831bb?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/44e3e65a-59d4-4ea6-b681-2e48e983d7b8?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -7162,7 +7393,7 @@
   },
   {
     "Id": "48580e26-5b6d-48d3-afb5-317e18006dcb",
-    "Title": "Перемещение и копирование листов или данных с листов",
+    "Title": "Перемещение и копирование листов или данных листов",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/47207967-bbb2-4e95-9b5c-3c174aa69328?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
@@ -7172,10 +7403,10 @@
     "StatusNote": ""
   },
   {
-    "Id": "5223233d-ee42-4331-bb63-6495a5039cc0",
-    "Title": "Совместное Excel книгой",
+    "Id": "4cf3c009-1482-4908-922a-997c32ea8250",
+    "Title": "Добавление и удаление названий в диаграмме",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/5223233d-ee42-4331-bb63-6495a5039cc0?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/4cf3c009-1482-4908-922a-997c32ea8250?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -7183,14 +7414,25 @@
     "StatusNote": ""
   },
   {
-    "Id": "5459166a-549f-44ef-a285-51d32bebcd5d",
-    "Title": "Добавление и удаление названий в диаграмме",
+    "Id": "4d0f13ac-53b7-422e-afd2-abd7ff379c64",
+    "Title": "Определение и использование имен в формулах",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/5459166a-549f-44ef-a285-51d32bebcd5d?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/4d0f13ac-53b7-422e-afd2-abd7ff379c64?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "546ed85c-48ee-4d3b-bfd8-e17cc6e4dba5",
+    "Title": "Преобразование типа данных",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/546ed85c-48ee-4d3b-bfd8-e17cc6e4dba5?embed=true",
+    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -7205,10 +7447,21 @@
     "StatusNote": ""
   },
   {
+    "Id": "5d663010-fee5-4953-a2ab-18f529543fd5",
+    "Title": "Отображение и скрытие легенды или таблицы данных на диаграмме",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/5d663010-fee5-4953-a2ab-18f529543fd5?embed=true",
+    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
     "Id": "6207db27-7981-4b83-bd29-cc68c333dcfa",
     "Title": "Копирование форматирования ячеек",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/6207db27-7981-4b83-bd29-cc68c333dcfa?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/b9fe82ea-c0a0-41de-837b-d2f15dd41ea9?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -7241,7 +7494,7 @@
     "Id": "65e4dfc5-5b27-4d90-8c51-a56edfca12a4",
     "Title": "ВРОТ.В.В.В",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/65e4dfc5-5b27-4d90-8c51-a56edfca12a4?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/942f678a-1bfc-4ccf-8dfa-f5057ded5c65?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -7249,10 +7502,21 @@
     "StatusNote": ""
   },
   {
-    "Id": "65f504d8-160b-4a05-ac30-46fbd5227a52",
-    "Title": "Примечания и заметки",
+    "Id": "6893cfa3-e484-4a1a-93db-3d3798f5c2a6",
+    "Title": "Создание условного столбца",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/65f504d8-160b-4a05-ac30-46fbd5227a52?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/6893cfa3-e484-4a1a-93db-3d3798f5c2a6?embed=true",
+    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "69aed7c9-4e8a-4755-a9bc-aa8bbff73be2",
+    "Title": "Функция ЕСЛИ",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/69aed7c9-4e8a-4755-a9bc-aa8bbff73be2?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -7260,25 +7524,14 @@
     "StatusNote": ""
   },
   {
-    "Id": "6614f5e7-fcf6-4781-b577-7a9538285353",
-    "Title": "Функция СУММ",
+    "Id": "6f40e6e4-85af-45e0-b39d-65dd504a3246",
+    "Title": "Вставка и удаление строк и столбцов",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/6614f5e7-fcf6-4781-b577-7a9538285353?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/6f40e6e4-85af-45e0-b39d-65dd504a3246?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "69df61ca-f6f6-42b6-bb13-78bbd64026db",
-    "Title": "Обновление данных в диаграмме",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/69df61ca-f6f6-42b6-bb13-78bbd64026db?embed=true",
-    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -7293,10 +7546,10 @@
     "StatusNote": ""
   },
   {
-    "Id": "707db3cb-e41e-495d-a592-464b9fbee17d",
+    "Id": "7359d4ae-7213-4ac2-b058-f75e9311b599",
     "Title": "Защита Excel файла",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/707db3cb-e41e-495d-a592-464b9fbee17d?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/7359d4ae-7213-4ac2-b058-f75e9311b599?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -7305,7 +7558,7 @@
   },
   {
     "Id": "742ecbd6-edf9-4470-b021-be7a2b7a51b2",
-    "Title": "Функция MATCH",
+    "Title": "МАТЧ",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/e8dffd45-c762-47d6-bf89-533f4a37673a?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
@@ -7315,10 +7568,21 @@
     "StatusNote": ""
   },
   {
-    "Id": "74ce8afc-2446-4816-80ee-20ca7fb71793",
-    "Title": "Создание таблицы для анализа данных на",
+    "Id": "7530df24-3e3f-40a2-9cd0-3c31120831bb",
+    "Title": "Преобразование текста в связанный тип данных в Excel (предварительный просмотр)",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/74ce8afc-2446-4816-80ee-20ca7fb71793?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/7530df24-3e3f-40a2-9cd0-3c31120831bb?embed=true",
+    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "77b781bf-5074-41b0-897a-dc37d4515f27",
+    "Title": "Сортировка данных в таблице",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/77b781bf-5074-41b0-897a-dc37d4515f27?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -7338,7 +7602,7 @@
   },
   {
     "Id": "7a5ac6a0-2caa-4cfc-8ae5-c542d6437ded",
-    "Title": "Однов Excel над книгами с помощью совместной работы",
+    "Title": "Однов Excel вместе с другими книгами с помощью совместной работы",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/7152aa8b-b791-414c-a3bb-3024e46fb104?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
@@ -7370,43 +7634,21 @@
     "StatusNote": ""
   },
   {
-    "Id": "7f11ec7c-6c1b-4195-9fa5-b3bc8ea544d4",
-    "Title": "Сортировка данных в таблице",
+    "Id": "7f9dce9c-5f27-422e-bc77-5a52ec83b3e8",
+    "Title": "Создание столбца из примера",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/7f11ec7c-6c1b-4195-9fa5-b3bc8ea544d4?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/7f9dce9c-5f27-422e-bc77-5a52ec83b3e8?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "7fbe34f4-8382-431d-942e-41e9a88f6a96",
-    "Title": "Фильтрация данных в диапазоне или таблице",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/7fbe34f4-8382-431d-942e-41e9a88f6a96?embed=true",
-    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "82cfacc1-46ed-400f-863d-1ee0400f5fa7",
-    "Title": "Проверка данных в ячейках",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/82cfacc1-46ed-400f-863d-1ee0400f5fa7?embed=true",
-    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
     "Id": "82e9eab2-2e4e-463a-baa5-669b6c8ac543",
     "Title": "Создание книги",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/82e9eab2-2e4e-463a-baa5-669b6c8ac543?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/ae99f19b-cecb-4aa0-92c8-7126d6212a83?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -7417,18 +7659,29 @@
     "Id": "861d97cb-3b33-4978-92e4-9446dc19b8da",
     "Title": "Вставка и удаление листов",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/861d97cb-3b33-4978-92e4-9446dc19b8da?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/19d3d21e-a3b3-4e13-a422-d1f43f1faaf2?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "89c22826-5594-455c-b448-b2cd0e1869f3",
+    "Title": "Выбор типов данных с помощью селектора данных",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/89c22826-5594-455c-b448-b2cd0e1869f3?embed=true",
+    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
     "Id": "8a6ca66e-152f-4d10-848c-cd35b2fc70d2",
     "Title": "СУММЕ ЕСЛИ",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/8a6ca66e-152f-4d10-848c-cd35b2fc70d2?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/c44b60c3-c9f4-4789-80fe-28a07f9b75b1?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -7436,10 +7689,10 @@
     "StatusNote": ""
   },
   {
-    "Id": "8ad05e62-bc18-49fc-937b-8f4144c256c2",
-    "Title": "Определение и использование имен в формулах",
+    "Id": "8aad8e15-afb7-4adb-b8a5-6ab187ce4f61",
+    "Title": "Импорт из таблицы Excel",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/8ad05e62-bc18-49fc-937b-8f4144c256c2?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/8aad8e15-afb7-4adb-b8a5-6ab187ce4f61?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -7469,21 +7722,21 @@
     "StatusNote": ""
   },
   {
-    "Id": "8d2399ed-748e-4fb5-95c9-eed8177f116d",
-    "Title": "Показ тенденций изменения данных с помощью спарклайнов",
+    "Id": "8d8a52bb-03c3-4933-ab6c-330aabf1e589",
+    "Title": "Совместное Excel книгой",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/8d2399ed-748e-4fb5-95c9-eed8177f116d?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/8d8a52bb-03c3-4933-ab6c-330aabf1e589?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
-    "Id": "94708bae-df5c-4c3b-888c-621cf5d4bc94",
-    "Title": "Закрепление столбцов и строк",
+    "Id": "91da1e2f-5db1-41e9-8908-e1a2e14dd5a9",
+    "Title": "Добавление и удаление вспомогательной оси на диаграмме в Excel",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/94708bae-df5c-4c3b-888c-621cf5d4bc94?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/91da1e2f-5db1-41e9-8908-e1a2e14dd5a9?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -7492,7 +7745,7 @@
   },
   {
     "Id": "94b00f50-5896-479c-b0c5-ff74603b35a3",
-    "Title": "Создание книги в Excel",
+    "Title": "Создание книги",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/94b00f50-5896-479c-b0c5-ff74603b35a3?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
@@ -7524,6 +7777,28 @@
     "StatusNote": ""
   },
   {
+    "Id": "973d28d9-c51d-4dde-83be-898ecdf3efab",
+    "Title": "Что такое связанные типы данных в Excel?",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/973d28d9-c51d-4dde-83be-898ecdf3efab?embed=true",
+    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "9776678e-c608-4a7c-9679-5c70e374f9be",
+    "Title": "Обновление данных в диаграмме",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/9776678e-c608-4a7c-9679-5c70e374f9be?embed=true",
+    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
     "Id": "9885a56c-51b5-487a-a168-054afd034631",
     "Title": "Итог данных в Excel таблицы",
     "Description": "",
@@ -7535,25 +7810,58 @@
     "StatusNote": ""
   },
   {
-    "Id": "9b987982-de15-4784-8652-0d963d0eac05",
-    "Title": "IfS",
+    "Id": "9bdc9d30-4277-4888-b606-ae9927a650bb",
+    "Title": "СУММЕ ЕСЛИМЕСЯК",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/9b987982-de15-4784-8652-0d963d0eac05?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/9bdc9d30-4277-4888-b606-ae9927a650bb?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
     "Id": "9d7d2acb-7071-4d9f-bf22-35303d7cc5f8",
     "Title": "Объединение и объединение ячеек",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/0ab9aabe-ce0a-4869-ba57-cce6d69144d2?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/5cbd15d5-9375-4540-907f-c673a93fcedf?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "9e382e73-7f5e-495a-a8dc-be8225b1bb78",
+    "Title": "Выбор диаграммы с помощью экспресс-анализа",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/9e382e73-7f5e-495a-a8dc-be8225b1bb78?embed=true",
+    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "a0945ce6-0b35-45e2-bda1-e9f0d9806404",
+    "Title": "Настройка строки заголовков",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/a0945ce6-0b35-45e2-bda1-e9f0d9806404?embed=true",
+    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "a372182a-d733-484e-825c-18ddf3edf009",
+    "Title": "Добавление подложки в Excel",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/a372182a-d733-484e-825c-18ddf3edf009?embed=true",
+    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": ""
   },
   {
@@ -7579,8 +7887,19 @@
     "StatusNote": ""
   },
   {
+    "Id": "a9a84538-bfe9-40a9-a8e9-f99134456576",
+    "Title": "Создание таблицы для анализа данных на",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/a9a84538-bfe9-40a9-a8e9-f99134456576?embed=true",
+    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
     "Id": "aa6be949-6848-449a-8f04-ad994056cc8d",
-    "Title": "Outlook в Интернете: запланировать встречу или собрание",
+    "Title": "Запланировать встречу или собрание",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/1199a77d-caa8-4f99-ac24-dfa5392b6be9?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
@@ -7612,8 +7931,19 @@
     "StatusNote": ""
   },
   {
+    "Id": "b13eed81-33fe-410d-9247-1747269c28e4",
+    "Title": "Импорт данных из Интернета",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/b13eed81-33fe-410d-9247-1747269c28e4?embed=true",
+    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "b24c6835-466c-4b17-a921-3f4d6fd07a7c",
-    "Title": "Импорт и экспорт текста",
+    "Title": "Импорт и экспорт текстовых файлов (.txt или .csv)",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/5250ac4c-663c-47ce-937b-339e391393ba?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
@@ -7623,10 +7953,10 @@
     "StatusNote": ""
   },
   {
-    "Id": "bf0ce08b-d012-42ec-8ecf-a2259c9faf3f",
-    "Title": "Создание и форматирование таблиц",
+    "Id": "c1b1e057-6990-4c38-b52b-8255538e7b1c",
+    "Title": "Создание сводная диаграмма",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/bf0ce08b-d012-42ec-8ecf-a2259c9faf3f?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/c1b1e057-6990-4c38-b52b-8255538e7b1c?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -7645,8 +7975,52 @@
     "StatusNote": ""
   },
   {
+    "Id": "c9d1ddd0-6580-47d1-82bc-c84a5a340725",
+    "Title": "Группировка и разгруппировка данных в pivotTable",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/c9d1ddd0-6580-47d1-82bc-c84a5a340725?embed=true",
+    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "cb37c233-1d4e-4187-ad68-c847a13d73ad",
+    "Title": "Примечания и заметки",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/cb37c233-1d4e-4187-ad68-c847a13d73ad?embed=true",
+    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "cbd17828-7a50-4dc6-9aac-20af4ef6d8a6",
+    "Title": "Слияние запросов и объединение таблиц",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/cbd17828-7a50-4dc6-9aac-20af4ef6d8a6?embed=true",
+    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "cc1ed287-3a97-4e95-b377-ddfafe79fa8f",
+    "Title": "Фильтрация данных в pivotTable",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/cc1ed287-3a97-4e95-b377-ddfafe79fa8f?embed=true",
+    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
     "Id": "cf0e75c4-04cd-4260-8648-3cd7bd5f8c56",
-    "Title": "Использование селектора данных для указания типов данных \"Организация\"",
+    "Title": "Использование селектора данных для указания типов данных организации",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/70728707-42ea-441f-a927-1d8fd9f13f1e?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
@@ -7667,10 +8041,10 @@
     "StatusNote": ""
   },
   {
-    "Id": "d7fc5918-12a9-4f99-bd35-e80660468efd",
-    "Title": "Создание сводная диаграмма",
+    "Id": "dab2ffc9-020d-4026-8121-67dd25f2508f",
+    "Title": "Закрепление областей окна для блокировки строк и столбцов",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/d7fc5918-12a9-4f99-bd35-e80660468efd?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/dab2ffc9-020d-4026-8121-67dd25f2508f?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -7679,7 +8053,7 @@
   },
   {
     "Id": "dab74563-548b-4585-8fc8-1f399ccad66e",
-    "Title": "Outlook в Интернете: поиск сообщений электронной почты, контактов и событий",
+    "Title": "Поиск электронной почты, контактов и событий",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/52ebbf58-1f74-4a91-82f5-d224b75dfc9e?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
@@ -7689,10 +8063,32 @@
     "StatusNote": ""
   },
   {
+    "Id": "e81aa349-b006-4f8a-9806-5af9df0ac664",
+    "Title": "Создание и форматирование таблиц",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/e81aa349-b006-4f8a-9806-5af9df0ac664?embed=true",
+    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
     "Id": "ec09d1da-476c-4945-a595-9f9aa816dd53",
     "Title": "Просмотр и вставка данных из типа данных организации",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/c7686113-f906-40c8-b9eb-d97c41702469?embed=true",
+    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "ecb036a9-4339-4b01-984c-c3246e4efc93",
+    "Title": "Просмотр и вставка данных из типа данных",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/ecb036a9-4339-4b01-984c-c3246e4efc93?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -7725,7 +8121,7 @@
     "Id": "f8b36f10-c4a1-4320-9cc1-9984eb9abd45",
     "Title": "Доступные числовые форматы в Excel",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/e6656c9b-a36a-4143-8fe4-5b6de0d9486b?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/0afe8f52-97db-41f1-b972-4b46e9f1e8d2?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -7755,17 +8151,6 @@
     "StatusNote": ""
   },
   {
-    "Id": "01c6c0a8-ffe9-494d-9c10-e975183b55a8",
-    "Title": "Совместное Microsoft 365",
-    "Description": "",
-    "Url": "https://support.office.com/client/365-8f63c80b-9e19-4cd3-ba5b-dc94089459ce?embed=true",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
     "Id": "08313516-6c01-4f73-9a6c-991a5fc34f07",
     "Title": "Опасности oversharing",
     "Description": "",
@@ -7777,8 +8162,19 @@
     "StatusNote": ""
   },
   {
+    "Id": "08eb637b-9c8e-4f3c-a705-2aa6849f398e",
+    "Title": "3D-образные",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/08eb637b-9c8e-4f3c-a705-2aa6849f398e?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "0ba87823-c503-430a-aa2d-2bbcaf228b16",
-    "Title": "PowerPoint Дизайнер",
+    "Title": "PowerPoint конструктора",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/e54c0ec3-399a-41bd-b924-301abd7f115d?embed=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -8262,7 +8658,7 @@
   },
   {
     "Id": "5a3f5f60-4cc8-4bf8-bd41-d99c4c297589",
-    "Title": "SharePoint: домашняя база вашей компании",
+    "Title": "SharePoint",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/2ebcfb7f-dc5e-4202-a6bb-366c6578c242?embed=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -8284,7 +8680,7 @@
   },
   {
     "Id": "5d1a7e1c-1cbd-4acc-ae14-91cefdde690d",
-    "Title": "Outlook мобильного приложения",
+    "Title": "Outlook мобильное приложение",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/49a81f33-38ce-4097-864c-883f5f1031a4?embed=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -8405,7 +8801,7 @@
   },
   {
     "Id": "7d109c19-ffe7-4274-a821-5432add664c5",
-    "Title": "Обновления функций версии 3.0 за ноябрь 2019 г.",
+    "Title": "Обучение обновлений функций дорожки",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/19b7fb86-c10a-4bb4-a046-8f05ab1486a4?embed=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -8416,7 +8812,7 @@
   },
   {
     "Id": "7d4dc4cb-620e-4b5d-89b6-d9da676b7c0a",
-    "Title": "Идеи в Excel",
+    "Title": "Анализ данных в Excel",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/0bf9b811-0c6a-4130-b6df-ee14245a14c8?embed=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -8470,6 +8866,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "8f63c80b-9e19-4cd3-ba5b-dc94089459ce",
+    "Title": "Совместное Microsoft 365",
+    "Description": "",
+    "Url": "https://support.office.com/ru-ru/client/8f63c80b-9e19-4cd3-ba5b-dc94089459ce?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "8fcf1237-4ba5-46b2-a3cb-19d9d526b409",
     "Title": "Ограничение отвлекающих факторов на собраниях",
     "Description": "",
@@ -8499,7 +8906,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -8559,7 +8966,7 @@
   },
   {
     "Id": "9aef3bef-66d8-416c-8284-599cba190245",
-    "Title": "Измерение влияния на дорожки обучения",
+    "Title": "Измерение влияния дорожки обучения",
     "Description": "",
     "Url": "https://support.office.com/client/3638d73e3-8dbc-4dda-b60a-5ec697a5dfc7?embed=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -8581,7 +8988,7 @@
   },
   {
     "Id": "a3d5959b-91ea-4cf0-b60a-e27abe03d59e",
-    "Title": "Защита от фишинга",
+    "Title": "Защита от фишинговых",
     "Description": "",
     "Url": "https://support.microsoft.com/help/4033787/windows-protect-yourself-from-phishing?nochromenochrome",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -8613,19 +9020,8 @@
     "StatusNote": ""
   },
   {
-    "Id": "a5ab9b5c-5f30-486f-8f39-f051bb4afdc2",
-    "Title": "Обновление содержимого за апрель 2020 г.",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/553c549a-c26b-4287-9b83-e6473fe663a2?embed=true",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
     "Id": "a6ff7745-0ab0-470f-8d77-5302cd94ebeb",
-    "Title": "Как поддерживать благополучие на гибридном рабочем месте",
+    "Title": "Как поддерживать баланс между работой и личной жизнью на гибридном рабочем месте",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/a6ff7745-0ab0-470f-8d77-5302cd94ebeb?embed=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -8669,7 +9065,7 @@
   },
   {
     "Id": "aa92f575-ab19-4db1-b201-d5cddf6f9052",
-    "Title": "Знакомство с Microsoft Teams",
+    "Title": "Знакомство с Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/c73e430e-4183-4ded-b66e-35a844fd4017?embed=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -8702,13 +9098,13 @@
   },
   {
     "Id": "ac343dbd-1ffb-4235-a34f-5b71be6dc9ee",
-    "Title": "Обновление содержимого за сентябрь 2020",
+    "Title": "Обучение дорожки обновления контента",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/baf75dc9-bded-4cb7-9634-04c5150870b0?embed=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": ""
   },
   {
@@ -8767,14 +9163,14 @@
     "StatusNote": ""
   },
   {
-    "Id": "b5be6bc0-e9c9-48a0-b9a1-bb366e29390e",
-    "Title": "Войти",
+    "Id": "b670f6e8-182f-4493-bf46-075d81e61728",
+    "Title": "Работа там, где вы хотите",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/260a0f94-239a-4d85-8b5d-c8f99806bcd7?embed=true",
+    "Url": "https://support.office.com/ru-ru/client/b670f6e8-182f-4493-bf46-075d81e61728?embed=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -8812,7 +9208,7 @@
   },
   {
     "Id": "baf5345c-fee6-4900-ba44-1f53a1dbfeb9",
-    "Title": "Microsoft Stream: видео портал вашей компании",
+    "Title": "Microsoft Stream",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/c3240bd5-5f80-4fd0-a37d-7a3275605f3a?embed=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -8866,17 +9262,6 @@
     "StatusNote": ""
   },
   {
-    "Id": "c570011a-3786-49e9-9017-6a0d7744931e",
-    "Title": "Управление обновлениями контента",
-    "Description": "",
-    "Url": "https://support.office.com/ru-ru/client/51eb4c0d-f80c-4e98-84d2-08e13ef091b4?embed=true",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
     "Id": "c570f04f-08d9-4a37-b59d-8c92b47c26b9",
     "Title": "Вовлечение аудитории в гибридные собрания",
     "Description": "",
@@ -8911,7 +9296,7 @@
   },
   {
     "Id": "c828dfeb-1fd1-4c39-a3c6-cf8df3669693",
-    "Title": "Планирование содержимого для обучения",
+    "Title": "Планирование учебных материалов",
     "Description": "",
     "Url": "https://support.office.com/client/587c3b8a9-f521-478e-bee8-a9cf420b5580?embed=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9109,7 +9494,7 @@
   },
   {
     "Id": "f24fad2b-1455-4f3c-9e17-d843a6936f70",
-    "Title": "Yammer: социальная сеть вашей компании",
+    "Title": "Yammer",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/5a72290d-725b-4c19-af48-599207d16b47?embed=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9153,24 +9538,13 @@
   },
   {
     "Id": "fc6a571a-6b06-4a2d-bda6-ef62b89a31d7",
-    "Title": "Создание и форматирование публикации",
+    "Title": "Создание и форматирование записи",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/cf5361b6-469d-466b-a52c-1ef7108a2eb1?embed=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
-    "StatusNote": ""
-  },
-  {
-    "Id": "fc785f57-3d4e-414d-a387-9289d1abd903",
-    "Title": "Трехуголовая работа",
-    "Description": "",
-    "Url": "https://support.office.com/client/3d-08eb637b-9c8e-4f3c-a705-2aa6849f398e?embed=true",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -9197,7 +9571,7 @@
   },
   {
     "Id": "096a47ab-3ec5-404d-8481-e5849dca4727",
-    "Title": "Добавление содержимого в Sway",
+    "Title": "Добавление содержимого",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/e2b76a21-cdf8-4a0a-913f-44bc1b8e0206?embed=true",
     "TechnologyId": "e9d69805-edb5-43da-8258-5520000bf3a6",
@@ -9351,7 +9725,7 @@
   },
   {
     "Id": "95f5e8b4-4027-4169-8253-608493c45f55",
-    "Title": "Создание в Sway",
+    "Title": "Создать",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/db30c63b-6548-456d-b0e2-9fcd68bfa7a0?embed=true",
     "TechnologyId": "e9d69805-edb5-43da-8258-5520000bf3a6",
@@ -9428,7 +9802,7 @@
   },
   {
     "Id": "dca12cdb-dfa8-41a9-bfcc-98f29921b80a",
-    "Title": "Вход в Sway",
+    "Title": "Войти",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/b60d6dc4-d2bc-4740-ab1d-e2c4071dca03?embed=true",
     "TechnologyId": "e9d69805-edb5-43da-8258-5520000bf3a6",
@@ -9439,7 +9813,7 @@
   },
   {
     "Id": "f865866d-a017-44a3-b065-d4ce762c046a",
-    "Title": "Разработка и совместное работа в Sway",
+    "Title": "Разработка и совместное оформление",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/client/7f430406-71c5-40a8-8003-bec531579f0b?embed=true",
     "TechnologyId": "e9d69805-edb5-43da-8258-5520000bf3a6",
