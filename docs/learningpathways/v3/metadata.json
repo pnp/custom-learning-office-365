@@ -1,6 +1,5 @@
 {
-  "Technologies": [
-    {
+  "Technologies": [{
       "Id": "016a561b-1c7a-4528-b0b7-96fcb556a1e1",
       "Name": "Lists",
       "Subjects": []
@@ -78,8 +77,7 @@
     {
       "Id": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
       "Name": "SharePoint",
-      "Subjects": [
-        {
+      "Subjects": [{
           "Id": "2324ad0f-5577-408f-b5aa-fad1e5a8f208",
           "Name": "Site Branding and Customization"
         },
@@ -108,8 +106,7 @@
     {
       "Id": "c209f64e-0291-437a-9615-17747eab50d0",
       "Name": "Microsoft Teams",
-      "Subjects": [
-        {
+      "Subjects": [{
           "Id": "3bd4b767-148f-4f53-a206-b42e9f3a73cd",
           "Name": "PSTN Calling"
         },
@@ -142,8 +139,7 @@
     {
       "Id": "e75b9087-6bb2-417f-a696-e667bea533a7",
       "Name": "Microsoft 365",
-      "Subjects": [
-        {
+      "Subjects": [{
           "Id": "78444c91-e53b-4f0b-8c85-e5cb925c4b7f",
           "Name": "Office 365"
         },
@@ -163,16 +159,14 @@
       "Subjects": []
     }
   ],
-  "Categories": [
-    {
+  "Categories": [{
       "Id": "646b4eb4-32c0-4fdc-93fa-0ef895470b74",
       "Name": "Get started",
       "Image": "",
       "TechnologyId": "",
       "SubjectId": "",
       "Source": "Microsoft",
-      "SubCategories": [
-        {
+      "SubCategories": [{
           "Id": "9bde32c3-2f0b-4201-b4a3-74cef2c8f61d",
           "Name": "First days",
           "Image": "images/categories/first_days.png",
@@ -199,8 +193,7 @@
       "TechnologyId": "",
       "SubjectId": "",
       "Source": "Microsoft",
-      "SubCategories": [
-        {
+      "SubCategories": [{
           "Id": "9030ff2c-5549-4ffe-8dc9-4dc184241dec",
           "Name": "Modern workplace",
           "Image": "images/categories/modern_workplace_trainingx.png",
@@ -237,6 +230,15 @@
           "SubCategories": []
         },
         {
+          "Id": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
+          "Name": "Accessibility",
+          "Image": "images/categories/accessibility.png",
+          "TechnologyId": "",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
           "Id": "a7f1ca95-e0eb-4715-b846-89fc8d2afa56",
           "Name": "Collaboration",
           "Image": "images/categories/Collaboration_Category.png",
@@ -254,8 +256,7 @@
       "TechnologyId": "",
       "SubjectId": "",
       "Source": "Microsoft",
-      "SubCategories": [
-        {
+      "SubCategories": [{
           "Id": "46589138-0dde-4ea5-b9a1-313481a8eb06",
           "Name": "Outlook",
           "Image": "images/categories/outlook.png",
@@ -373,15 +374,6 @@
           "SubCategories": []
         },
         {
-          "Id": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
-          "Name": "Accessibility",
-          "Image": "images/categories/accessibility.png",
-          "TechnologyId": "",
-          "SubjectId": "",
-          "Source": "Microsoft",
-          "SubCategories": []
-        },
-        {
           "Id": "175c2d96-040d-4275-9405-b4549bd63dee",
           "Name": "Access",
           "Image": "images/categories/access.png",
@@ -426,8 +418,7 @@
       "TechnologyId": "",
       "SubjectId": "",
       "Source": "Microsoft",
-      "SubCategories": [
-        {
+      "SubCategories": [{
           "Id": "9d9a29c7-72fe-475e-9dd1-d999259d02cb",
           "Name": "Tools",
           "Image": "images/categories/toolkit.png",
@@ -448,8 +439,7 @@
       ]
     }
   ],
-  "Audiences": [
-    {
+  "Audiences": [{
       "Id": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
       "Name": "All"
     },
@@ -498,9 +488,14 @@
       "Name": "Content Manager"
     }
   ],
-  "Sources": ["SOC", "FastTrack", "M365", "Microsoft", "LinkedIn"],
-  "Levels": [
-    {
+  "Sources": [
+    "SOC",
+    "FastTrack",
+    "M365",
+    "Microsoft",
+    "LinkedIn"
+  ],
+  "Levels": [{
       "Id": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
       "Name": "Beginner"
     },
@@ -513,8 +508,7 @@
       "Name": "Advanced"
     }
   ],
-  "StatusTag": [
-    {
+  "StatusTag": [{
       "Id": "42be48f6-1f82-4fda-a757-add2499677d9",
       "Name": "Beta"
     },
@@ -541,9 +535,12 @@
   "Version": {
     "Manifest": "v3",
     "ManifestMinWebPart": "3.0.0",
-    "CurrentWebPart": "4.3.0",
+    "CurrentWebPart": "4.3.1",
     "RepoURL": "https://github.com/pnp/custom-learning-office-365#updating-the-solution"
   },
   "ContentPacks": [],
-  "AssetOrigins": ["https://support.office.com", "https://docs.microsoft.com"]
+  "AssetOrigins": [
+    "https://support.office.com",
+    "https://docs.microsoft.com"
+  ]
 }

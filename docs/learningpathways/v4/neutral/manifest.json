@@ -1,0 +1,37 @@
+{
+  "Telemetry": {
+    "AppInsightKey": "9a46dc18-dca7-4f9c-aaf7-1af9ad28fdda"
+  },
+  "Version": {
+    "Manifest": "v4",
+    "ManifestMinWebPart": "4.0.0",
+    "CurrentWebPart": "4.1.3",
+    "RepoURL": "https://github.com/pnp/custom-learning-office-365#updating-the-solution"
+  },
+  "ContentPacks": [
+    {
+      "Id": "a748d357-1879-436f-96fc-20dd1fed87bb",
+      "Name": "SharePoint Success Site",
+      "Description": "Add the SharePoint Success Site content pack to access playlists that support training new SharePoint Site owners on how to create high-impact sites.",
+      "Image": "https://microsoft.github.io/customlearning_staging/sss/v4/en-us/images/categories/AddSSS.png",
+      "ProvisionUrl": "https://provisioning-test.sharepointpnp.com/details/0b860749-56a0-4c4c-992c-536d56d9accf",
+      "CdnBase": "https://microsoft.github.io/customlearning_staging/sss/"
+    }
+  ],
+  "AssetOrigins": [
+    "https://support.office.com",
+    "https://docs.microsoft.com"
+  ],
+  "Languages": [
+    "en-US",
+    "de-DE",
+    "es-ES",
+    "fr-FR",
+    "it-IT",
+    "ja-JP",
+    "nl-NL",
+    "pt-BR",
+    "ru-RU",
+    "zh-CN"
+  ]
+}
