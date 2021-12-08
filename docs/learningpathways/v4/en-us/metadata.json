@@ -180,7 +180,16 @@
     },
     {
       "Id": "d13d5333-7ded-496b-bf54-cc8f2d361b52",
-      "Name": "IT and HR",
+      "Name": "IT Resources",
+      "Image": "",
+      "TechnologyId": "",
+      "SubjectId": "",
+      "Source": "Custom",
+      "SubCategories": []
+    },
+    {
+      "Id": "d0846cd7-c1c9-4d2f-a647-6395b0eeddc6",
+      "Name": "Manager Resources",
       "Image": "",
       "TechnologyId": "",
       "SubjectId": "",
