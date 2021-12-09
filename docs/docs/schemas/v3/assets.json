@@ -1,0 +1,131 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "array",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "minItems": 1,
+  "examples": [
+    [
+      {
+        "Id": "94b00f50-5896-479c-b0c5-ff74603b35a3",
+        "Title": "Create a worksheet",
+        "Description": "",
+        "Url": "https://support.office.com/en-us/client/94b00f50-5896-479c-b0c5-ff74603b35a3?embed=true",
+        "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+        "SubjectId": "",
+        "Source": "Microsoft",
+        "StatusTagId": "",
+        "StatusNote": ""
+      },
+      {
+        "Id": "0cf0055d-49f8-464e-9dfa-8f582b32453b",
+        "Title": "Save your workbook to OneDrive",
+        "Description": "",
+        "Url": "https://support.office.com/en-us/client/0cf0055d-49f8-464e-9dfa-8f582b32453b?embed=true",
+        "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+        "SubjectId": "",
+        "Source": "Microsoft",
+        "StatusTagId": "",
+        "StatusNote": ""
+      }
+    ]
+  ],
+  "items": {
+    "$id": "#/items",
+    "anyOf": [
+      {
+        "$id": "#/items/anyOf/0",
+        "type": "object",
+        "title": "Asset object entry",
+        "description": "Represents an asset that can appear within one or more playlists.",
+        "examples": [
+          {
+            "Id": "94b00f50-5896-479c-b0c5-ff74603b35a3",
+            "Title": "Create a worksheet",
+            "Description": "",
+            "Url": "https://support.office.com/en-us/client/94b00f50-5896-479c-b0c5-ff74603b35a3?embed=true",
+            "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+            "SubjectId": "",
+            "Source": "Microsoft",
+            "StatusTagId": "",
+            "StatusNote": ""
+          }
+        ],
+        "required": [
+          "Id",
+          "Title",
+          "Url",
+          "TechnologyId",
+          "Source"
+        ],
+        "properties": {
+          "Id": {
+            "$id": "#/items/anyOf/0/properties/Id",
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}[-]([0-9a-f]{4}[-]){3}[0-9a-f]{12}$",
+            "title": "Asset ID",
+            "description": "An asset GUID string."
+          },
+          "Title": {
+            "$id": "#/items/anyOf/0/properties/Title",
+            "type": "string",
+            "title": "Asset title",
+            "description": "The title of the asset."
+          },
+          "Description": {
+            "$id": "#/items/anyOf/0/properties/Description",
+            "type": "string",
+            "title": "(Optional) Asset description",
+            "description": "A brief description of the asset."
+          },
+          "Url": {
+            "$id": "#/items/anyOf/0/properties/Url",
+            "type": "string",
+            "pattern": "^https://",
+            "title": "Asset URL",
+            "description": "Link the asset."
+          },
+          "TechnologyId": {
+            "$id": "#/items/anyOf/0/properties/TechnologyId",
+            "type": "string",
+            "title": "Technology ID",
+            "description": "One of the technology values from metadata."
+          },
+          "SubjectId": {
+            "$id": "#/items/anyOf/0/properties/SubjectId",
+            "type": "string",
+            "title": "(Optional) Subject ID",
+            "description": "One of the subject values associated with the technology."
+          },
+          "Source": {
+            "$id": "#/items/anyOf/0/properties/Source",
+            "type": "string",
+            "title": "Content source ID",
+            "description": "Specifies where the content came from.",
+            "default": "Microsoft",
+            "enum": [
+              "SOC",
+              "FastTrack",
+              "M365",
+              "Microsoft",
+              "LinkedIn"
+            ]
+          },
+          "StatusTagId": {
+            "$id": "#/items/anyOf/0/properties/StatusTagId",
+            "type": "string",
+            "title": "(Optional) Status ID",
+            "description": "One of the status values from metadata."
+          },
+          "StatusNote": {
+            "$id": "#/items/anyOf/0/properties/StatusNote",
+            "type": "string",
+            "title": "(Optional) Status note",
+            "description": "Additional information about the status."
+          }
+        }
+      }
+    ]
+  }
+}

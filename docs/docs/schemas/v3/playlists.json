@@ -1,0 +1,237 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "array",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": [],
+    "examples": [
+        [
+            {
+                "Id": "a8cbac83-f7e8-45ff-a4a6-6b04f31a5745",
+                "Title": "Excel Quick Start",
+                "Image": "images/playlists/excel_quick_start.png",
+                "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+                "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+                "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+                "SubjectId": "",
+                "Source": "Microsoft",
+                "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
+                "Description": "Get up and running quickly with our Excel Quick Start. Learn how to create a workbook, save to OneDrive, analyze and format data, and share workbooks.",
+                "StatusTagId": "",
+                "StatusNote": null,
+                "Assets": [
+                    "94b00f50-5896-479c-b0c5-ff74603b35a3",
+                    "0cf0055d-49f8-464e-9dfa-8f582b32453b",
+                    "11a632c1-197e-454f-a515-374a4aa2b3dd",
+                    "a8af741e-00f2-44c0-a94b-38abd51af01f",
+                    "64b51431-c51a-45db-8ddd-d58b9b101c42"
+                ]
+            }
+        ]
+    ],
+    "additionalItems": true,
+    "items": {
+        "$id": "#/items",
+        "anyOf": [
+            {
+                "$id": "#/items/anyOf/0",
+                "type": "object",
+                "title": "Playlist object",
+                "description": "A playlist object.",
+                "default": {},
+                "examples": [
+                    {
+                        "Id": "a8cbac83-f7e8-45ff-a4a6-6b04f31a5745",
+                        "Title": "Excel Quick Start",
+                        "Image": "images/playlists/excel_quick_start.png",
+                        "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+                        "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+                        "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+                        "SubjectId": "",
+                        "Source": "Microsoft",
+                        "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
+                        "Description": "Get up and running quickly with our Excel Quick Start. Learn how to create a workbook, save to OneDrive, analyze and format data, and share workbooks.",
+                        "StatusTagId": "",
+                        "StatusNote": null,
+                        "Assets": [
+                            "94b00f50-5896-479c-b0c5-ff74603b35a3",
+                            "0cf0055d-49f8-464e-9dfa-8f582b32453b",
+                            "11a632c1-197e-454f-a515-374a4aa2b3dd",
+                            "a8af741e-00f2-44c0-a94b-38abd51af01f",
+                            "64b51431-c51a-45db-8ddd-d58b9b101c42"
+                        ]
+                    }
+                ],
+                "required": [
+                    "Id",
+                    "Title",
+                    "Image",
+                    "LevelId",
+                    "AudienceId",
+                    "TechnologyId",
+                    "SubjectId",
+                    "Source",
+                    "CatId",
+                    "Description",
+                    "StatusTagId",
+                    "StatusNote",
+                    "Assets"
+                ],
+                "properties": {
+                    "Id": {
+                        "$id": "#/items/anyOf/0/properties/Id",
+                        "type": "string",
+                        "title": "Playlist ID",
+                        "description": "Unique identifier for this instance.",
+                        "default": "",
+                        "examples": [
+                            "a8cbac83-f7e8-45ff-a4a6-6b04f31a5745"
+                        ]
+                    },
+                    "Title": {
+                        "$id": "#/items/anyOf/0/properties/Title",
+                        "type": "string",
+                        "title": "Playlist title",
+                        "description": "Title of the playlist.",
+                        "default": "",
+                        "examples": [
+                            "Excel Quick Start"
+                        ]
+                    },
+                    "Image": {
+                        "$id": "#/items/anyOf/0/properties/Image",
+                        "type": "string",
+                        "title": "Playlist thumbnail",
+                        "description": "URL to 280x200 image for the playlist.",
+                        "default": "",
+                        "examples": [
+                            "images/playlists/excel_quick_start.png"
+                        ]
+                    },
+                    "LevelId": {
+                        "$id": "#/items/anyOf/0/properties/LevelId",
+                        "type": ["null", "string"],
+                        "title": "Playlist proficiency level",
+                        "description": "Proficiency level GUID from metadata.",
+                        "default": "",
+                        "examples": [
+                            "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524"
+                        ]
+                    },
+                    "AudienceId": {
+                        "$id": "#/items/anyOf/0/properties/AudienceId",
+                        "type": ["null", "string"],
+                        "title": "Playlist audience",
+                        "description": "Audience GUID from metadata.",
+                        "default": "",
+                        "examples": [
+                            "82a23325-2e47-4ff9-8747-b6e01c452b81"
+                        ]
+                    },
+                    "TechnologyId": {
+                        "$id": "#/items/anyOf/0/properties/TechnologyId",
+                        "type": "string",
+                        "title": "Playlist technology ID",
+                        "description": "Technology GUID from metadata.",
+                        "default": "",
+                        "examples": [
+                            "d3ee44dc-f4ff-424b-a3be-3580954fc479"
+                        ]
+                    },
+                    "SubjectId": {
+                        "$id": "#/items/anyOf/0/properties/SubjectId",
+                        "type": "string",
+                        "title": "Playlist subject ID",
+                        "description": "Subject GUID from metadata.",
+                        "default": "",
+                        "examples": [
+                            ""
+                        ]
+                    },
+                    "Source": {
+                        "$id": "#/items/anyOf/0/properties/Source",
+                        "type": "string",
+                        "title": "Playlist content source",
+                        "description": "Original source of playlist content.",
+                        "default": "",
+                        "examples": [
+                            "Microsoft"
+                        ]
+                    },
+                    "CatId": {
+                        "$id": "#/items/anyOf/0/properties/CatId",
+                        "type": "string",
+                        "title": "Playlist category ID",
+                        "description": "Category GUID from metadata.",
+                        "default": "",
+                        "examples": [
+                            "85c785c2-c873-4483-9728-64a367fee3f1"
+                        ]
+                    },
+                    "Description": {
+                        "$id": "#/items/anyOf/0/properties/Description",
+                        "type": "string",
+                        "title": "Playlist description",
+                        "description": "A brief abstract to explain the purpose of the playlist.",
+                        "default": "",
+                        "examples": [
+                            "Get up and running quickly with our Excel Quick Start. Learn how to create a workbook, save to OneDrive, analyze and format data, and share workbooks."
+                        ]
+                    },
+                    "StatusTagId": {
+                        "$id": "#/items/anyOf/0/properties/StatusTagId",
+                        "type": "string",
+                        "title": "Playlist status ID",
+                        "description": "Status GUID from metadata.",
+                        "default": "",
+                        "examples": [
+                            ""
+                        ]
+                    },
+                    "StatusNote": {
+                        "$id": "#/items/anyOf/0/properties/StatusNote",
+                        "type": ["null", "string"],
+                        "title": "Playlist status note",
+                        "description": "Additional information about the playlist.",
+                        "default": null,
+                        "examples": [
+                            null
+                        ]
+                    },
+                    "Assets": {
+                        "$id": "#/items/anyOf/0/properties/Assets",
+                        "type": "array",
+                        "title": "List of assets",
+                        "description": "The list of playlist assets.",
+                        "default": [],
+                        "examples": [
+                            [
+                                "94b00f50-5896-479c-b0c5-ff74603b35a3",
+                                "0cf0055d-49f8-464e-9dfa-8f582b32453b"
+                            ]
+                        ],
+                        "additionalItems": true,
+                        "items": {
+                            "$id": "#/items/anyOf/0/properties/Assets/items",
+                            "anyOf": [
+                                {
+                                    "$id": "#/items/anyOf/0/properties/Assets/items/anyOf/0",
+                                    "type": "string",
+                                    "title": "Asset ID",
+                                    "description": "The GUID of the assets from assets.json.",
+                                    "default": "",
+                                    "examples": [
+                                        "94b00f50-5896-479c-b0c5-ff74603b35a3",
+                                        "0cf0055d-49f8-464e-9dfa-8f582b32453b"
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false
+            }
+        ]
+    }
+}

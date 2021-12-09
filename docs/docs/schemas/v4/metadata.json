@@ -1,0 +1,715 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://microsoft.com/customlearning/v4/metadata",
+    "type": "object",
+    "title": "The custom learning metadata schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": {},
+    "examples": [
+        {
+            "Technologies": [
+                {
+                    "Id": "e75b9087-6bb2-417f-a696-e667bea533a7",
+                    "Name": "Microsoft 365",
+                    "Subjects": [
+                        {
+                            "Id": "f1b531e0-2a62-4007-8858-08bd8be6ecae",
+                            "Name": "Office 365"
+                        },
+                        {
+                            "Id": "1b22eb5a-2fb4-4706-87d0-68d4823c4ca1",
+                            "Name": "Windows 10"
+                        }
+                    ]
+                }
+            ],
+            "Categories": [
+                {
+                    "Id": "646b4eb4-32c0-4fdc-93fa-0ef895470b74",
+                    "Name": "Get started",
+                    "Image": "",
+                    "TechnologyId": "",
+                    "SubjectId": "",
+                    "Source": "Microsoft",
+                    "SubCategories": [
+                        {
+                            "Id": "9bde32c3-2f0b-4201-b4a3-74cef2c8f61d",
+                            "Name": "First days",
+                            "Image": "images/categories/first_days.png",
+                            "TechnologyId": "",
+                            "SubjectId": null,
+                            "Source": "Microsoft",
+                            "SubCategories": []
+                        }
+                    ]
+                }
+            ],
+            "Audiences": [
+                {
+                    "Id": "9fcd26c3-bcca-4452-a40a-f87e0daed348",
+                    "Name": "Admin"
+                }
+            ],
+            "Sources": [
+                "SOC",
+                "FastTrack",
+                "M365",
+                "Microsoft",
+                "LinkedIn"
+            ],
+            "Levels": [
+                {
+                    "Id": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+                    "Name": "Beginner"
+                }
+            ],
+            "StatusTag": [
+                {
+                    "Id": "c11c485b-496d-479b-88a3-1744a7a028d7",
+                    "Name": "New"
+                }
+            ]
+        }
+    ],
+    "required": [
+        "Technologies",
+        "Categories",
+        "Audiences",
+        "Sources",
+        "Levels",
+        "StatusTag"
+    ],
+    "properties": {
+        "$schema": {
+            "type":"string",
+            "default": "https://microsoft.github.io/customlearning_staging/schemas/v4/metadata.json"
+        },
+        "Technologies": {
+            "$id": "#/properties/Technologies",
+            "type": "array",
+            "title": "The Technologies schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": [],
+            "examples": [
+                [
+                    {
+                        "Id": "e75b9087-6bb2-417f-a696-e667bea533a7",
+                        "Name": "Microsoft 365",
+                        "Subjects": [
+                            {
+                                "Id": "f1b531e0-2a62-4007-8858-08bd8be6ecae",
+                                "Name": "Office 365"
+                            },
+                            {
+                                "Id": "1b22eb5a-2fb4-4706-87d0-68d4823c4ca1",
+                                "Name": "Windows 10"
+                            }
+                        ]
+                    }
+                ]
+            ],
+            "additionalItems": true,
+            "items": {
+                "$id": "#/properties/Technologies/items",
+                "anyOf": [
+                    {
+                        "$id": "#/properties/Technologies/items/anyOf/0",
+                        "type": "object",
+                        "title": "The first anyOf schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": {},
+                        "examples": [
+                            {
+                                "Id": "e75b9087-6bb2-417f-a696-e667bea533a7",
+                                "Name": "Microsoft 365",
+                                "Subjects": [
+                                    {
+                                        "Id": "f1b531e0-2a62-4007-8858-08bd8be6ecae",
+                                        "Name": "Office 365"
+                                    },
+                                    {
+                                        "Id": "1b22eb5a-2fb4-4706-87d0-68d4823c4ca1",
+                                        "Name": "Windows 10"
+                                    }
+                                ]
+                            }
+                        ],
+                        "required": [
+                            "Id",
+                            "Name",
+                            "Subjects"
+                        ],
+                        "properties": {
+                            "Id": {
+                                "$id": "#/properties/Technologies/items/anyOf/0/properties/Id",
+                                "type": "string",
+                                "title": "The Id schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "e75b9087-6bb2-417f-a696-e667bea533a7"
+                                ]
+                            },
+                            "Name": {
+                                "$id": "#/properties/Technologies/items/anyOf/0/properties/Name",
+                                "type": "string",
+                                "title": "The Name schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "Microsoft 365"
+                                ]
+                            },
+                            "Subjects": {
+                                "$id": "#/properties/Technologies/items/anyOf/0/properties/Subjects",
+                                "type": "array",
+                                "title": "The Subjects schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": [],
+                                "examples": [
+                                    [
+                                        {
+                                            "Id": "f1b531e0-2a62-4007-8858-08bd8be6ecae",
+                                            "Name": "Office 365"
+                                        },
+                                        {
+                                            "Id": "1b22eb5a-2fb4-4706-87d0-68d4823c4ca1",
+                                            "Name": "Windows 10"
+                                        }
+                                    ]
+                                ],
+                                "additionalItems": true,
+                                "items": {
+                                    "$id": "#/properties/Technologies/items/anyOf/0/properties/Subjects/items",
+                                    "anyOf": [
+                                        {
+                                            "$id": "#/properties/Technologies/items/anyOf/0/properties/Subjects/items/anyOf/0",
+                                            "type": "object",
+                                            "title": "The first anyOf schema",
+                                            "description": "An explanation about the purpose of this instance.",
+                                            "default": {},
+                                            "examples": [
+                                                {
+                                                    "Id": "f1b531e0-2a62-4007-8858-08bd8be6ecae",
+                                                    "Name": "Office 365"
+                                                }
+                                            ],
+                                            "required": [
+                                                "Id",
+                                                "Name"
+                                            ],
+                                            "properties": {
+                                                "Id": {
+                                                    "$id": "#/properties/Technologies/items/anyOf/0/properties/Subjects/items/anyOf/0/properties/Id",
+                                                    "type": "string",
+                                                    "title": "The Id schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": "",
+                                                    "examples": [
+                                                        "f1b531e0-2a62-4007-8858-08bd8be6ecae"
+                                                    ]
+                                                },
+                                                "Name": {
+                                                    "$id": "#/properties/Technologies/items/anyOf/0/properties/Subjects/items/anyOf/0/properties/Name",
+                                                    "type": "string",
+                                                    "title": "The Name schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": "",
+                                                    "examples": [
+                                                        "Office 365"
+                                                    ]
+                                                }
+                                            },
+                                            "additionalProperties": true
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "additionalProperties": true
+                    }
+                ]
+            }
+        },
+        "Categories": {
+            "$id": "#/properties/Categories",
+            "type": "array",
+            "title": "The Categories schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": [],
+            "examples": [
+                [
+                    {
+                        "Id": "646b4eb4-32c0-4fdc-93fa-0ef895470b74",
+                        "Name": "Get started",
+                        "Image": "",
+                        "TechnologyId": "",
+                        "SubjectId": "",
+                        "Source": "Microsoft",
+                        "SubCategories": [
+                            {
+                                "Id": "9bde32c3-2f0b-4201-b4a3-74cef2c8f61d",
+                                "Name": "First days",
+                                "Image": "images/categories/first_days.png",
+                                "TechnologyId": "",
+                                "SubjectId": null,
+                                "Source": "Microsoft",
+                                "SubCategories": []
+                            }
+                        ]
+                    }
+                ]
+            ],
+            "additionalItems": true,
+            "items": {
+                "$id": "#/properties/Categories/items",
+                "anyOf": [
+                    {
+                        "$id": "#/properties/Categories/items/anyOf/0",
+                        "type": "object",
+                        "title": "The first anyOf schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": {},
+                        "examples": [
+                            {
+                                "Id": "646b4eb4-32c0-4fdc-93fa-0ef895470b74",
+                                "Name": "Get started",
+                                "Image": "",
+                                "TechnologyId": "",
+                                "SubjectId": "",
+                                "Source": "Microsoft",
+                                "SubCategories": [
+                                    {
+                                        "Id": "9bde32c3-2f0b-4201-b4a3-74cef2c8f61d",
+                                        "Name": "First days",
+                                        "Image": "images/categories/first_days.png",
+                                        "TechnologyId": "",
+                                        "SubjectId": null,
+                                        "Source": "Microsoft",
+                                        "SubCategories": []
+                                    }
+                                ]
+                            }
+                        ],
+                        "required": [
+                            "Id",
+                            "Name",
+                            "Image",
+                            "TechnologyId",
+                            "SubjectId",
+                            "Source",
+                            "SubCategories"
+                        ],
+                        "properties": {
+                            "Id": {
+                                "$id": "#/properties/Categories/items/anyOf/0/properties/Id",
+                                "type": "string",
+                                "title": "The Id schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "646b4eb4-32c0-4fdc-93fa-0ef895470b74"
+                                ]
+                            },
+                            "Name": {
+                                "$id": "#/properties/Categories/items/anyOf/0/properties/Name",
+                                "type": "string",
+                                "title": "The Name schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "Get started"
+                                ]
+                            },
+                            "Image": {
+                                "$id": "#/properties/Categories/items/anyOf/0/properties/Image",
+                                "type": "string",
+                                "title": "The Image schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    ""
+                                ]
+                            },
+                            "TechnologyId": {
+                                "$id": "#/properties/Categories/items/anyOf/0/properties/TechnologyId",
+                                "type": "string",
+                                "title": "The TechnologyId schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    ""
+                                ]
+                            },
+                            "SubjectId": {
+                                "$id": "#/properties/Categories/items/anyOf/0/properties/SubjectId",
+                                "type": "string",
+                                "title": "The SubjectId schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    ""
+                                ]
+                            },
+                            "Source": {
+                                "$id": "#/properties/Categories/items/anyOf/0/properties/Source",
+                                "type": "string",
+                                "title": "The Source schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "Microsoft"
+                                ]
+                            },
+                            "SubCategories": {
+                                "$id": "#/properties/Categories/items/anyOf/0/properties/SubCategories",
+                                "type": "array",
+                                "title": "The SubCategories schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": [],
+                                "examples": [
+                                    [
+                                        {
+                                            "Id": "9bde32c3-2f0b-4201-b4a3-74cef2c8f61d",
+                                            "Name": "First days",
+                                            "Image": "images/categories/first_days.png",
+                                            "TechnologyId": "",
+                                            "SubjectId": null,
+                                            "Source": "Microsoft",
+                                            "SubCategories": []
+                                        }
+                                    ]
+                                ],
+                                "additionalItems": true,
+                                "items": {
+                                    "$id": "#/properties/Categories/items/anyOf/0/properties/SubCategories/items",
+                                    "anyOf": [
+                                        {
+                                            "$id": "#/properties/Categories/items/anyOf/0/properties/SubCategories/items/anyOf/0",
+                                            "type": "object",
+                                            "title": "The first anyOf schema",
+                                            "description": "An explanation about the purpose of this instance.",
+                                            "default": {},
+                                            "examples": [
+                                                {
+                                                    "Id": "9bde32c3-2f0b-4201-b4a3-74cef2c8f61d",
+                                                    "Name": "First days",
+                                                    "Image": "images/categories/first_days.png",
+                                                    "TechnologyId": "",
+                                                    "SubjectId": null,
+                                                    "Source": "Microsoft",
+                                                    "SubCategories": []
+                                                }
+                                            ],
+                                            "required": [
+                                                "Id",
+                                                "Name",
+                                                "Image",
+                                                "TechnologyId",
+                                                "SubjectId",
+                                                "Source",
+                                                "SubCategories"
+                                            ],
+                                            "properties": {
+                                                "Id": {
+                                                    "$id": "#/properties/Categories/items/anyOf/0/properties/SubCategories/items/anyOf/0/properties/Id",
+                                                    "type": "string",
+                                                    "title": "The Id schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": "",
+                                                    "examples": [
+                                                        "9bde32c3-2f0b-4201-b4a3-74cef2c8f61d"
+                                                    ]
+                                                },
+                                                "Name": {
+                                                    "$id": "#/properties/Categories/items/anyOf/0/properties/SubCategories/items/anyOf/0/properties/Name",
+                                                    "type": "string",
+                                                    "title": "The Name schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": "",
+                                                    "examples": [
+                                                        "First days"
+                                                    ]
+                                                },
+                                                "Image": {
+                                                    "$id": "#/properties/Categories/items/anyOf/0/properties/SubCategories/items/anyOf/0/properties/Image",
+                                                    "type": "string",
+                                                    "title": "The Image schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": "",
+                                                    "examples": [
+                                                        "images/categories/first_days.png"
+                                                    ]
+                                                },
+                                                "TechnologyId": {
+                                                    "$id": "#/properties/Categories/items/anyOf/0/properties/SubCategories/items/anyOf/0/properties/TechnologyId",
+                                                    "type": "string",
+                                                    "title": "The TechnologyId schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": "",
+                                                    "examples": [
+                                                        ""
+                                                    ]
+                                                },
+                                                "SubjectId": {
+                                                    "$id": "#/properties/Categories/items/anyOf/0/properties/SubCategories/items/anyOf/0/properties/SubjectId",
+                                                    "type": ["null", "string"],
+                                                    "title": "The SubjectId schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": "",
+                                                    "examples": [
+                                                        ""
+                                                    ]
+                                                },
+                                                "Source": {
+                                                    "$id": "#/properties/Categories/items/anyOf/0/properties/SubCategories/items/anyOf/0/properties/Source",
+                                                    "type": "string",
+                                                    "title": "The Source schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": "",
+                                                    "examples": [
+                                                        "Microsoft"
+                                                    ]
+                                                },
+                                                "SubCategories": {
+                                                    "$id": "#/properties/Categories/items/anyOf/0/properties/SubCategories/items/anyOf/0/properties/SubCategories",
+                                                    "type": "array",
+                                                    "title": "The SubCategories schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": [],
+                                                    "examples": [
+                                                        []
+                                                    ],
+                                                    "additionalItems": true,
+                                                    "items": {
+                                                        "$id": "#/properties/Categories/items/anyOf/0/properties/SubCategories/items/anyOf/0/properties/SubCategories/items"
+                                                    }
+                                                }
+                                            },
+                                            "additionalProperties": true
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "additionalProperties": true
+                    }
+                ]
+            }
+        },
+        "Audiences": {
+            "$id": "#/properties/Audiences",
+            "type": "array",
+            "title": "The Audiences schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": [],
+            "examples": [
+                [
+                    {
+                        "Id": "9fcd26c3-bcca-4452-a40a-f87e0daed348",
+                        "Name": "Admin"
+                    }
+                ]
+            ],
+            "additionalItems": true,
+            "items": {
+                "$id": "#/properties/Audiences/items",
+                "anyOf": [
+                    {
+                        "$id": "#/properties/Audiences/items/anyOf/0",
+                        "type": "object",
+                        "title": "The first anyOf schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": {},
+                        "examples": [
+                            {
+                                "Id": "9fcd26c3-bcca-4452-a40a-f87e0daed348",
+                                "Name": "Admin"
+                            }
+                        ],
+                        "required": [
+                            "Id",
+                            "Name"
+                        ],
+                        "properties": {
+                            "Id": {
+                                "$id": "#/properties/Audiences/items/anyOf/0/properties/Id",
+                                "type": "string",
+                                "title": "The Id schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "9fcd26c3-bcca-4452-a40a-f87e0daed348"
+                                ]
+                            },
+                            "Name": {
+                                "$id": "#/properties/Audiences/items/anyOf/0/properties/Name",
+                                "type": "string",
+                                "title": "The Name schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "Admin"
+                                ]
+                            }
+                        },
+                        "additionalProperties": true
+                    }
+                ]
+            }
+        },
+        "Sources": {
+            "$id": "#/properties/Sources",
+            "type": "array",
+            "title": "The Sources schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": [],
+            "examples": [
+                [
+                    "SOC",
+                    "FastTrack"
+                ]
+            ],
+            "additionalItems": true,
+            "items": {
+                "$id": "#/properties/Sources/items",
+                "anyOf": [
+                    {
+                        "$id": "#/properties/Sources/items/anyOf/0",
+                        "type": "string",
+                        "title": "The first anyOf schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "SOC",
+                            "FastTrack"
+                        ]
+                    }
+                ]
+            }
+        },
+        "Levels": {
+            "$id": "#/properties/Levels",
+            "type": "array",
+            "title": "The Levels schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": [],
+            "examples": [
+                [
+                    {
+                        "Id": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+                        "Name": "Beginner"
+                    }
+                ]
+            ],
+            "additionalItems": true,
+            "items": {
+                "$id": "#/properties/Levels/items",
+                "anyOf": [
+                    {
+                        "$id": "#/properties/Levels/items/anyOf/0",
+                        "type": "object",
+                        "title": "The first anyOf schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": {},
+                        "examples": [
+                            {
+                                "Id": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+                                "Name": "Beginner"
+                            }
+                        ],
+                        "required": [
+                            "Id",
+                            "Name"
+                        ],
+                        "properties": {
+                            "Id": {
+                                "$id": "#/properties/Levels/items/anyOf/0/properties/Id",
+                                "type": "string",
+                                "title": "The Id schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524"
+                                ]
+                            },
+                            "Name": {
+                                "$id": "#/properties/Levels/items/anyOf/0/properties/Name",
+                                "type": "string",
+                                "title": "The Name schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "Beginner"
+                                ]
+                            }
+                        },
+                        "additionalProperties": true
+                    }
+                ]
+            }
+        },
+        "StatusTag": {
+            "$id": "#/properties/StatusTag",
+            "type": "array",
+            "title": "The StatusTag schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": [],
+            "examples": [
+                [
+                    {
+                        "Id": "c11c485b-496d-479b-88a3-1744a7a028d7",
+                        "Name": "New"
+                    }
+                ]
+            ],
+            "additionalItems": true,
+            "items": {
+                "$id": "#/properties/StatusTag/items",
+                "anyOf": [
+                    {
+                        "$id": "#/properties/StatusTag/items/anyOf/0",
+                        "type": "object",
+                        "title": "The first anyOf schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": {},
+                        "examples": [
+                            {
+                                "Id": "c11c485b-496d-479b-88a3-1744a7a028d7",
+                                "Name": "New"
+                            }
+                        ],
+                        "required": [
+                            "Id",
+                            "Name"
+                        ],
+                        "properties": {
+                            "Id": {
+                                "$id": "#/properties/StatusTag/items/anyOf/0/properties/Id",
+                                "type": "string",
+                                "title": "The Id schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "c11c485b-496d-479b-88a3-1744a7a028d7"
+                                ]
+                            },
+                            "Name": {
+                                "$id": "#/properties/StatusTag/items/anyOf/0/properties/Name",
+                                "type": "string",
+                                "title": "The Name schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "New"
+                                ]
+                            }
+                        },
+                        "additionalProperties": true
+                    }
+                ]
+            }
+        }
+    },
+    "additionalProperties": false
+}

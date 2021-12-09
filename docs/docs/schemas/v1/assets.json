@@ -1,0 +1,179 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "array",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": [],
+    "examples": [
+        [
+            {
+                "Id": "94b00f50-5896-479c-b0c5-ff74603b35a3",
+                "Title": "Create a worksheet",
+                "Description": "",
+                "Url": "https://support.office.com/en-us/client/94b00f50-5896-479c-b0c5-ff74603b35a3?embed=true&ns=trainingservices&version=1",
+                "Level": "Beginner",
+                "Audience": "End Users",
+                "Technology": "Excel",
+                "Subject": "",
+                "Category": "Office 365 Apps",
+                "SubCategory": "Excel Training",
+                "Source": "Microsoft"
+            }
+        ]
+    ],
+    "additionalItems": true,
+    "items": {
+        "$id": "#/items",
+        "anyOf": [
+            {
+                "$id": "#/items/anyOf/0",
+                "type": "object",
+                "title": "The first anyOf schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": {},
+                "examples": [
+                    {
+                        "Id": "94b00f50-5896-479c-b0c5-ff74603b35a3",
+                        "Title": "Create a worksheet",
+                        "Description": "",
+                        "Url": "https://support.office.com/en-us/client/94b00f50-5896-479c-b0c5-ff74603b35a3?embed=true&ns=trainingservices&version=1",
+                        "Level": "Beginner",
+                        "Audience": "End Users",
+                        "Technology": "Excel",
+                        "Subject": "",
+                        "Category": "Office 365 Apps",
+                        "SubCategory": "Excel Training",
+                        "Source": "Microsoft"
+                    }
+                ],
+                "required": [
+                    "Id",
+                    "Title",
+                    "Description",
+                    "Url",
+                    "Level",
+                    "Audience",
+                    "Technology",
+                    "Subject",
+                    "Category",
+                    "SubCategory",
+                    "Source"
+                ],
+                "properties": {
+                    "Id": {
+                        "$id": "#/items/anyOf/0/properties/Id",
+                        "type": "string",
+                        "title": "The Id schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "94b00f50-5896-479c-b0c5-ff74603b35a3"
+                        ]
+                    },
+                    "Title": {
+                        "$id": "#/items/anyOf/0/properties/Title",
+                        "type": "string",
+                        "title": "The Title schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "Create a worksheet"
+                        ]
+                    },
+                    "Description": {
+                        "$id": "#/items/anyOf/0/properties/Description",
+                        "type": "string",
+                        "title": "The Description schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            ""
+                        ]
+                    },
+                    "Url": {
+                        "$id": "#/items/anyOf/0/properties/Url",
+                        "type": "string",
+                        "title": "The Url schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "https://support.office.com/en-us/client/94b00f50-5896-479c-b0c5-ff74603b35a3?embed=true&ns=trainingservices&version=1"
+                        ]
+                    },
+                    "Level": {
+                        "$id": "#/items/anyOf/0/properties/Level",
+                        "type": "string",
+                        "title": "The Level schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "Beginner"
+                        ]
+                    },
+                    "Audience": {
+                        "$id": "#/items/anyOf/0/properties/Audience",
+                        "type": "string",
+                        "title": "The Audience schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "End Users"
+                        ]
+                    },
+                    "Technology": {
+                        "$id": "#/items/anyOf/0/properties/Technology",
+                        "type": "string",
+                        "title": "The Technology schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "Excel"
+                        ]
+                    },
+                    "Subject": {
+                        "$id": "#/items/anyOf/0/properties/Subject",
+                        "type": "string",
+                        "title": "The Subject schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            ""
+                        ]
+                    },
+                    "Category": {
+                        "$id": "#/items/anyOf/0/properties/Category",
+                        "type": "string",
+                        "title": "The Category schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "Office 365 Apps"
+                        ]
+                    },
+                    "SubCategory": {
+                        "$id": "#/items/anyOf/0/properties/SubCategory",
+                        "type": "string",
+                        "title": "The SubCategory schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "Excel Training"
+                        ]
+                    },
+                    "Source": {
+                        "$id": "#/items/anyOf/0/properties/Source",
+                        "type": "string",
+                        "title": "The Source schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "Microsoft"
+                        ]
+                    }
+                },
+                "additionalProperties": false
+            }
+        ]
+    }
+}

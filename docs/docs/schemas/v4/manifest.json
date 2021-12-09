@@ -1,0 +1,309 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://microsoft.com/customlearning/v4/manifest",
+    "type": "object",
+    "title": "The custom learning manifest schema",
+    "description": "",
+    "default": {},
+    "examples": [
+        {
+            "Telemetry": {
+                "AppInsightKey": "{{GUID}}"
+            },
+            "Version": {
+                "Manifest": "v4",
+                "ManifestMinWebPart": "4.0.0",
+                "CurrentWebPart": "10.0.0",
+                "RepoURL": "https://some-url.local/"
+            },
+            "ContentPacks": [
+                {
+                    "Id": "a748d357-1879-436f-96fc-20dd1fed87bb",
+                    "Name": "SharePoint Success Site",
+                    "Description": "The SharePoint Success Site will deploy a site collection with pre-configured pages featuring learning content for SharePoint",
+                    "Image": "https://microsoft.github.io/customlearning_staging/sss/v4/en-us/images/categories/AddSSS.png",
+                    "ProvisionUrl": "https://provisioning-test.sharepointpnp.com/details/0b860749-56a0-4c4c-992c-536d56d9accf",
+                    "CdnBase": "https://microsoft.github.io/customlearning_staging/sss/"
+                }
+            ],
+            "AssetOrigins": [
+                "https://localhost"
+            ],
+            "Languages": [
+                "en-US"
+            ]
+        }
+    ],
+    "required": [
+        "Telemetry",
+        "Version",
+        "ContentPacks",
+        "AssetOrigins",
+        "Languages"
+    ],
+    "properties": {
+        "$schema": {
+            "type": "string",
+            "default": "https://microsoft.github.io/customlearning_staging/schemas/v4/manifest.json"
+        },
+        "Telemetry": {
+            "$id": "#/properties/Telemetry",
+            "type": "object",
+            "title": "Telemetry configuration",
+            "description": "Key associated with the telemetry service.",
+            "default": {},
+            "required": [
+                "AppInsightKey"
+            ],
+            "properties": {
+                "AppInsightKey": {
+                    "$id": "#/properties/Telemetry/properties/AppInsightKey",
+                    "type": ["null", "string"],
+                    "title": "Application Insights connection key",
+                    "description": "Connection GUID for telemetry service.",
+                    "default": ""
+                }
+            },
+            "additionalProperties": false
+        },
+        "Version": {
+            "$id": "#/properties/Version",
+            "type": "object",
+            "title": "Version configuration",
+            "description": "Supported versions for web part.",
+            "default": {},
+            "examples": [
+                {
+                    "Manifest": "v4",
+                    "ManifestMinWebPart": "4.0.0",
+                    "CurrentWebPart": "10.0.0",
+                    "RepoURL": "https://some-url.com/"
+                }
+            ],
+            "required": [
+                "Manifest",
+                "ManifestMinWebPart",
+                "CurrentWebPart",
+                "RepoURL"
+            ],
+            "properties": {
+                "Manifest": {
+                    "$id": "#/properties/Version/properties/Manifest",
+                    "type": "string",
+                    "pattern": "^v\\d+",
+                    "title": "Manifest schema version",
+                    "description": "Value used by web part when reading schema files.",
+                    "default": "",
+                    "examples": [
+                        "v4"
+                    ]
+                },
+                "ManifestMinWebPart": {
+                    "$id": "#/properties/Version/properties/ManifestMinWebPart",
+                    "type": "string",
+                    "pattern": "^(\\d{1,2}\\.){2}\\d+$",
+                    "title": "Minimum web part version",
+                    "description": "Web part must be greater than or equal to this version to read this file.",
+                    "default": "",
+                    "examples": [
+                        "4.0.0"
+                    ]
+                },
+                "CurrentWebPart": {
+                    "$id": "#/properties/Version/properties/CurrentWebPart",
+                    "type": "string",
+                    "pattern": "^(\\d{1,2}\\.){2}\\d+$",
+                    "title": "Latest version of web part",
+                    "description": "Web part version of the latest public release.",
+                    "default": "",
+                    "examples": [
+                        "10.0.0"
+                    ]
+                },
+                "RepoURL": {
+                    "$id": "#/properties/Version/properties/RepoURL",
+                    "type": "string",
+                    "title": "Public installation repository",
+                    "description": "URL to web part package and installation instructions.",
+                    "default": "",
+                    "examples": [
+                        "https://some-url.local/"
+                    ]
+                }
+            },
+            "additionalProperties": true
+        },
+        "ContentPacks": {
+            "$id": "#/properties/ContentPacks",
+            "type": "array",
+            "title": "Published content packs",
+            "description": "A list of published content pack configurations.",
+            "default": [],
+            "examples": [
+                [
+                    {
+                        "Id": "a748d357-1879-436f-96fc-20dd1fed87bb",
+                        "Name": "SharePoint Success Site",
+                        "Description": "The SharePoint Success Site will deploy a site collection with pre-configured pages featuring learning content for SharePoint",
+                        "Image": "https://microsoft.github.io/customlearning_staging/sss/v4/en-us/images/categories/AddSSS.png",
+                        "ProvisionUrl": "https://provisioning-test.sharepointpnp.com/details/0b860749-56a0-4c4c-992c-536d56d9accf",
+                        "CdnBase": "https://microsoft.github.io/customlearning_staging/sss/"
+                    }
+                ]
+            ],
+            "additionalItems": true,
+            "items": {
+                "$id": "#/properties/ContentPacks/items",
+                "anyOf": [
+                    {
+                        "$id": "#/properties/ContentPacks/items/anyOf/0",
+                        "type": "object",
+                        "title": "Content pack configuration",
+                        "description": "A content pack configuration.",
+                        "default": {},
+                        "examples": [
+                            {
+                                "Id": "a748d357-1879-436f-96fc-20dd1fed87bb",
+                                "Name": "SharePoint Success Site",
+                                "Description": "The SharePoint Success Site will deploy a site collection with pre-configured pages featuring learning content for SharePoint",
+                                "Image": "https://microsoft.github.io/customlearning_staging/sss/v4/en-us/images/categories/AddSSS.png",
+                                "ProvisionUrl": "https://provisioning-test.sharepointpnp.com/details/0b860749-56a0-4c4c-992c-536d56d9accf",
+                                "CdnBase": "https://microsoft.github.io/customlearning_staging/sss/"
+                            }
+                        ],
+                        "required": [
+                            "Id",
+                            "Name",
+                            "Description",
+                            "Image",
+                            "CdnBase"
+                        ],
+                        "properties": {
+                            "Id": {
+                                "$id": "#/properties/ContentPacks/items/anyOf/0/properties/Id",
+                                "type": "string",
+                                "title": "Content pack ID",
+                                "description": "A GUID to represent the contact pack.",
+                                "default": "",
+                                "examples": [
+                                    "a748d357-1879-436f-96fc-20dd1fed87bb"
+                                ]
+                            },
+                            "Name": {
+                                "$id": "#/properties/ContentPacks/items/anyOf/0/properties/Name",
+                                "type": "string",
+                                "title": "Content pack name",
+                                "description": "Name of the content pack.",
+                                "default": "",
+                                "examples": [
+                                    "SharePoint Success Site"
+                                ]
+                            },
+                            "Description": {
+                                "$id": "#/properties/ContentPacks/items/anyOf/0/properties/Description",
+                                "type": "string",
+                                "title": "Content pack description",
+                                "description": "More information about the content pack.",
+                                "default": "",
+                                "examples": [
+                                    "The SharePoint Success Site will deploy a site collection with pre-configured pages featuring learning content for SharePoint"
+                                ]
+                            },
+                            "Image": {
+                                "$id": "#/properties/ContentPacks/items/anyOf/0/properties/Image",
+                                "type": "string",
+                                "pattern": "^https://",
+                                "title": "Content pack thumbnail",
+                                "description": "URL to a 280x200 image file.",
+                                "default": "",
+                                "examples": [
+                                    "https://microsoft.github.io/customlearning_staging/sss/v4/en-us/images/categories/AddSSS.png"
+                                ]
+                            },
+                            "ProvisionUrl": {
+                                "$id": "#/properties/ContentPacks/items/anyOf/0/properties/ProvisionUrl",
+                                "type": "string",
+                                "title": "(Optional) Content pack website provisioning URL",
+                                "description": "URL to project on Look Book provisioning service.",
+                                "default": "",
+                                "examples": [
+                                    "https://provisioning-test.sharepointpnp.com/details/0b860749-56a0-4c4c-992c-536d56d9accf"
+                                ]
+                            },
+                            "CdnBase": {
+                                "$id": "#/properties/ContentPacks/items/anyOf/0/properties/CdnBase",
+                                "type": "string",
+                                "title": "Content pack base URL",
+                                "description": "URL to content pack hosting.",
+                                "default": "",
+                                "examples": [
+                                    "https://microsoft.github.io/customlearning_staging/sss/"
+                                ]
+                            }
+                        },
+                        "additionalProperties": false
+                    }
+                ]
+            }
+        },
+        "AssetOrigins": {
+            "$id": "#/properties/AssetOrigins",
+            "type": "array",
+            "title": "Allowed URLs for assets",
+            "description": "List of allowed URLs for content assets.",
+            "default": [],
+            "examples": [
+                [
+                    "https://localhost"
+                ]
+            ],
+            "additionalItems": true,
+            "items": {
+                "$id": "#/properties/AssetOrigins/items",
+                "anyOf": [
+                    {
+                        "$id": "#/properties/AssetOrigins/items/anyOf/0",
+                        "type": "string",
+                        "pattern": "^https://",
+                        "title": "Base URL for allowed asset",
+                        "description": "A URL starting with https://.",
+                        "default": "",
+                        "examples": [
+                            "https://localhost"
+                        ]
+                    }
+                ]
+            }
+        },
+        "Languages": {
+            "$id": "#/properties/Languages",
+            "type": "array",
+            "title": "Supported languages",
+            "description": "List of languages supported by this CDN.",
+            "default": [],
+            "examples": [
+                [
+                    "en-US"
+                ]
+            ],
+            "additionalItems": true,
+            "items": {
+                "$id": "#/properties/Languages/items",
+                "anyOf": [
+                    {
+                        "$id": "#/properties/Languages/items/anyOf/0",
+                        "type": "string",
+                        "pattern": "^[a-z]{2,3}(-[A-Z][a-z]{3})?(-[A-Z]{2})?$",
+                        "title": "A language identifier",
+                        "description": "Any IETF language code.",
+                        "default": "",
+                        "examples": [
+                            "en-US"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "additionalProperties": false
+}

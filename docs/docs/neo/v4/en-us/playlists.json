@@ -1,0 +1,19 @@
+[
+  {
+    "Id": "cb71fccb-afa4-4ae8-8c0f-8594e0fc5aef",
+    "Title": "Test Corporate Playlist",
+    "Image": "images/playlists/Make_Personal.png",
+    "LevelId": "bc5103a3-c98a-4284-989d-c1a7cd2ba6ff",
+    "AudienceId": "d81eab6b-1ddf-4985-8596-bce72fdf015c",
+    "TechnologyId": "ae7216d1-1e5f-41b8-a8a3-9d9b258c94c5",
+    "SubjectId": "",
+    "Source": "SOC",
+    "CatId": "9bde32c3-2f0b-4201-b4a3-74cef2c8f61d",
+    "Description": "My playkist",
+    "StatusTagId": "d062c73d-305b-404c-ad9b-2943001213bb",
+    "StatusNote": "",
+    "Assets": [
+      "7dcd4e25-c2b0-4904-baf9-c19236bcbc7c"
+    ]
+  }
+]

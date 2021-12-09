@@ -1,0 +1,13 @@
+[
+  {
+    "Id": "7dcd4e25-c2b0-4904-baf9-c19236bcbc7c",
+    "Title": "test",
+    "Description": "test",
+    "Url": "https://support.office.com/en-us/client/422bf3aa-9ae8-46f1-83a2-e65720e1a34d?embed=true",
+    "TechnologyId": "ae7216d1-1e5f-41b8-a8a3-9d9b258c94c5",
+    "SubjectId": "",
+    "Source": "SOC",
+    "StatusTagId": "d062c73d-305b-404c-ad9b-2943001213bb",
+    "StatusNote": ""
+  }
+]

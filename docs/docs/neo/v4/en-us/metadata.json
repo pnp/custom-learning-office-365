@@ -1,0 +1,260 @@
+{
+  "Technologies": [
+    {
+      "Id": "ae7216d1-1e5f-41b8-a8a3-9d9b258c94c5",
+      "Name": "Excel",
+      "Subjects": []
+    },
+    {
+      "Id": "fe7e564c-9fe7-46da-97e2-6e88cb21be8e",
+      "Name": "Forms",
+      "Subjects": []
+    },
+    {
+      "Id": "c32e497a-ffe9-420e-b813-37d3a89de89f",
+      "Name": "Microsoft 365",
+      "Subjects": [
+        {
+          "Id": "9e5de3fa-92e0-42a4-a593-b738a0507459",
+          "Name": "Office 365"
+        },
+        {
+          "Id": "fb7f5e5c-f5c8-4a4e-a952-7f7e65a934a4",
+          "Name": "Windows 10"
+        }
+      ]
+    },
+    {
+      "Id": "fbd7f5cb-a3d8-4ade-b659-af5d9fc0ffcc",
+      "Name": "Microsoft Teams",
+      "Subjects": [
+        {
+          "Id": "9ba43bed-a7ba-46b6-bacf-ab6eafa9246a",
+          "Name": "PSTN Calling"
+        },
+        {
+          "Id": "483536d1-2a16-4632-95aa-f7e0adfb54a1",
+          "Name": "Meetings"
+        }
+      ]
+    },
+    {
+      "Id": "f18adcfc-223e-4c84-bb39-4331841383af",
+      "Name": "Office 365",
+      "Subjects": []
+    },
+    {
+      "Id": "82dc4593-c6bb-4194-beb3-9c170a2b2c70",
+      "Name": "OneDrive",
+      "Subjects": []
+    },
+    {
+      "Id": "431ab025-2bdf-49b0-9832-e2b8cce7cccd",
+      "Name": "OneDrive for Business",
+      "Subjects": []
+    },
+    {
+      "Id": "0e4e3d9e-22f5-4b4b-9d59-a5c15f7b74e0",
+      "Name": "OneNote",
+      "Subjects": []
+    },
+    {
+      "Id": "20358684-2134-4e8a-b3e1-a2ee355c019e",
+      "Name": "Outlook",
+      "Subjects": []
+    },
+    {
+      "Id": "366e55ea-1c9d-4011-ab91-cd86b4fb68a6",
+      "Name": "Planner",
+      "Subjects": []
+    },
+    {
+      "Id": "fdcc25e5-38e3-4855-b6db-9f8f0b650e4e",
+      "Name": "PowerPoint",
+      "Subjects": []
+    },
+    {
+      "Id": "dcc220d0-e8fe-4c27-b728-577c93bbd77b",
+      "Name": "SharePoint",
+      "Subjects": [
+        {
+          "Id": "84872bbf-3efc-4b76-8339-920eddce8683",
+          "Name": "Site Planning"
+        },
+        {
+          "Id": "61650cee-391e-4cf4-a2f6-62074e249fb8",
+          "Name": "Site Creation"
+        },
+        {
+          "Id": "ab848c32-a88f-40d8-bf63-0c573578adde",
+          "Name": "Site Branding and Customization"
+        }
+      ]
+    },
+    {
+      "Id": "80f92a80-5864-4cd1-9e1a-3ca8f69da295",
+      "Name": "Skype for Business ",
+      "Subjects": []
+    },
+    {
+      "Id": "df708cd8-1d0e-4e0f-85d9-213ac40fde9a",
+      "Name": "Stream",
+      "Subjects": []
+    },
+    {
+      "Id": "02126235-117c-4860-aa3a-0d2513794844",
+      "Name": "Windows 10",
+      "Subjects": []
+    },
+    {
+      "Id": "60af1173-bac4-483d-b203-5852b1bc6170",
+      "Name": "Word",
+      "Subjects": []
+    },
+    {
+      "Id": "1b5ca529-2450-48ab-a72e-6d13906ac770",
+      "Name": "Yammer",
+      "Subjects": []
+    }
+  ],
+  "Categories": [
+    {
+      "Id": "646b4eb4-32c0-4fdc-93fa-0ef895470b74",
+      "Name": "New Employee Onboarding",
+      "Image": "images/categories/Checklist.png",
+      "TechnologyId": "c32e497a-ffe9-420e-b813-37d3a89de89f",
+      "SubjectId": "9e5de3fa-92e0-42a4-a593-b738a0507459",
+      "Source": "Microsoft",
+      "SubCategories": [
+        {
+          "Id": "9bde32c3-2f0b-4201-b4a3-74cef2c8f61d",
+          "Name": "Corporate",
+          "Image": "images/categories/Create_Customize.png",
+          "TechnologyId": "",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "07aa7fb7-a187-4a04-a044-f881626a8cba",
+          "Name": "Role",
+          "Image": "images/categories/SharePoint_Types.png",
+          "TechnologyId": "",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "f47ea81c-028d-4de6-bfbd-0ab09c75dcec",
+          "Name": "Departnment",
+          "Image": "images/categories/first_days.png",
+          "TechnologyId": "",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "e5bb9323-d1d7-4d8d-8496-a2b4225a73fb",
+          "Name": "Region",
+          "Image": "",
+          "TechnologyId": "c32e497a-ffe9-420e-b813-37d3a89de89f",
+          "SubjectId": null,
+          "Source": "Microsoft",
+          "SubCategories": []
+        }
+      ]
+    }
+  ],
+  "Audiences": [
+    {
+      "Id": "d81eab6b-1ddf-4985-8596-bce72fdf015c",
+      "Name": "New hire"
+    },
+    {
+      "Id": "371bac00-5849-44cf-b611-9bba6bdf28c8",
+      "Name": "Pre-start hire"
+    },
+    {
+      "Id": "436e1593-3c70-47cf-ba8f-43c15c4ef576",
+      "Name": "Manager"
+    },
+    {
+      "Id": "237fe08a-253d-4773-a705-f1b080f86dee",
+      "Name": "Other"
+    }
+  ],
+  "Sources": [
+    "SOC",
+    "FastTrack",
+    "M365",
+    "Microsoft",
+    "LinkedIn"
+  ],
+  "Levels": [
+    {
+      "Id": "bc5103a3-c98a-4284-989d-c1a7cd2ba6ff",
+      "Name": "Intern"
+    },
+    {
+      "Id": "2d8a1ae4-423f-42ef-bdfd-029d07255351",
+      "Name": "College hire"
+    },
+    {
+      "Id": "bf92f991-12c3-4de0-b3a9-183696b03a49",
+      "Name": "Experienced hire"
+    },
+    {
+      "Id": "a33a52ef-f013-420e-9351-70daffe8e567",
+      "Name": "Rehire"
+    },
+    {
+      "Id": "afd5aef9-7b97-48a1-a346-58b252b9c464",
+      "Name": "Not applicable"
+    }
+  ],
+  "StatusTag": [
+    {
+      "Id": "d062c73d-305b-404c-ad9b-2943001213bb",
+      "Name": "New"
+    },
+    {
+      "Id": "165d9ddb-740b-433c-bd19-a993076a2c6b",
+      "Name": "Updated"
+    },
+    {
+      "Id": "a1c8a279-747c-4d39-9432-49c5b79b8e9b",
+      "Name": "Retiring"
+    },
+    {
+      "Id": "47adee93-f773-4913-97e8-2e241b8552f6",
+      "Name": "Retired"
+    },
+    {
+      "Id": "3a21c4bb-0230-43c4-9b88-3a6dc9519045",
+      "Name": "Beta"
+    }
+  ],
+  "Telemetry": {
+    "AppInsightKey": ""
+  },
+  "Version": {
+    "Manifest": "v3",
+    "ManifestMinWebPart": "3.0.0",
+    "CurrentWebPart": "3.0.0",
+    "RepoURL": "https://github.com/pnp/custom-learning-office-365#updating-the-solution"
+  },
+  "ContentPacks": [
+    {
+      "Id": "2eebc26f-1ea2-4224-b875-8d24a88119b6",
+      "Name": "SharePoint Success Kit",
+      "Description": "The SharePoint Success Kit will deploy a site collection with pre-configured pages featuring learning content for SharePoint",
+      "Image": "",
+      "ProvisionUrl": "https://provisioning.sharepointpnp.com/home/details?packageId=3df8bd55-b872-4c9d-88e3-6b2f05344239",
+      "CdnBase": "https://microsoft.github.io/customlearning_staging/NEO/"
+    }
+  ],
+  "AssetOrigins": [
+    "https://support.office.com",
+    "https://docs.microsoft.com"
+  ]
+}
