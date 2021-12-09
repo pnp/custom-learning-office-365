@@ -1,0 +1,128 @@
+<html>
+
+<head>
+  <title>styleguide</title>
+
+  <!-- build:css styles/vendor.css -->
+  <!-- PRISMJS: The folloing line handle the syntax highlighter color theme
+    possible values: prism, prism-coy, prism-dark, prism-funky, prism-okaidia, prism-solarizedlight, prism-tomorrow
+  -->
+  <link rel="stylesheet" href="/prismjs/themes/prism-okaidia.css" type="text/css">
+  <!-- /PRISMJS -->
+  <link rel="stylesheet" href="/styles/ssg.core.css" type="text/css">
+  <!-- endbuild -->
+
+  <!-- build:css styles/main.css -->
+  <!-- <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/9.6.1/css/fabric.min.css"> -->
+  <link rel="stylesheet" href="/styles/main.css" type="text/css">
+  <link ref="font" href="https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/Bold/latest.woff2" type="woff2">
+  <!-- endbuild -->
+
+  <!-- Documentation and Data -->
+  <!-- build:js scripts/ssg.data.js -->
+  <script src="/scripts/ssg.doc.js"></script>
+  <script src="/_data/ssg.data.js"></script>
+  <!-- endbuild -->
+  <!-- // Documentation and Data -->
+</head>
+
+<body>
+  <div class="ssg-toc hidden">
+    <div class="ssg-toc-search">
+      <input id="toc-searchbox" placeholder="Search" type="input" value="" class="ssg-toc-searchbox">
+      <button class="ssg-toc-searchbutton">search</button>
+    </div>
+    <div class="ssg-toc-inner"></div>
+  </div>
+  <div class="ssg-toolbar">
+    <div class="ssg-section ssg-core-filter">
+      <button class="ssg-button active" data-filter="atoms">atoms</button>
+      <button class="ssg-button" data-filter="molecules">molecules</button>
+      <button class="ssg-button" data-filter="organism">organism</button>
+      <button class="ssg-button" data-filter="templates">templates</button>
+      <button class="ssg-button" data-filter="pages">pages</button>
+    </div>
+    <div class="ssg-section ssg-core-toc">
+      <button class="ssg-button" data-action="ssg-toc">toc</button>
+    </div>
+    <div class="ssg-section ssg-core-viewport">
+      <input id="ssg-in-width" class="ssg-input" value="1920" size="4">
+      <span class="ssg-label">x</span>
+      <input id="ssg-in-height" class="ssg-input" value="768" size="4">
+      <button class="ssg-button" data-viewport="320">S</button>
+      <button class="ssg-button" data-viewport="768">M</button>
+      <button class="ssg-button" data-viewport="1024">L</button>
+      <button class="ssg-button" data-viewport="3500">UWD</button>
+      <button class="ssg-button active" data-viewport="full">Full</button>
+      <button class="ssg-button" data-viewport="disco">Disco</button>
+    </div>
+    <div class="ssg-section ssg-core-nav hidden">
+      <button class="ssg-button" data-filter="ssg-left">&lt;</button>
+      <span class="ssg-label" id="ssg-item-nav-label">Current Label</span>
+      <button class="ssg-button" data-filter="ssg-right">&gt;</button>
+    </div>
+    <div class="ssg-section ssg-core-view">
+      <!-- <button class="ssg-button" data-action="ssg-isolate">Isolate</button> -->
+      <button class="ssg-button" data-action="ssg-code">Code</button>
+      <button class="ssg-button" data-action="ssg-annot">Annotation</button>
+    </div>
+  </div>
+  <div class="ssg-wrapper">
+    <div class="ssg-patterns">
+      <div class="ssg-patterns-inner" style="width: 100%">
+      </div>
+    </div>
+    <div id="ssg-content">
+
+    </div>
+    <div id="ssg-docbar" class="ssg-docbar">
+      <div id="ssg-docbar-actions">
+        <button class="ssg-button">
+          &lt;
+        </button>
+        <button class="ssg-button">
+          &gt;
+        </button>
+      </div>
+      <div id="ssg-docbar-inner">
+
+      </div>
+    </div>
+
+    <!-- Core Scripts -->
+
+    <!-- build:js scripts/vendor.core.js -->
+    <script src="/es6-promise/dist/es6-promise.js"></script>
+    <script src="/handlebars/dist/handlebars.js"></script>
+    <script src="/scripts/ssgCore.template.js"></script>
+    <script src="/scripts/ssg.templates.js"></script>
+    <script src="/scripts/ssg.ui.js"></script>
+    <script src="/scripts/ssg.ui.helper.js"></script>
+    <script src="/prismjs/prism.js"></script>
+    <script src="/prismjs/plugins/autoloader/prism-autoloader.js"></script>
+    <script type="text/javascript">
+      Prism.plugins.autoloader.languages_path = '/prismjs/components/';
+    </script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/vendor.js -->
+
+        <!-- endbuild -->
+
+        <!-- build:js scripts/ssg.core.js -->
+        <script src="/scripts/ssg.templates.js"></script>
+        <script src="/scripts/ssg.ui.js"></script>
+        <!-- endbuild -->
+
+        <!-- // Core Scripts -->
+        <!-- build:js scripts/main.js -->
+        <script src="/scripts/main.js"></script>
+        <!-- endbuild -->
+        <script type="text/javascript">
+          Prism.plugins.autoloader.languages_path = '/prismjs/components/';
+        </script>
+
+
+</body>
+
+</html>

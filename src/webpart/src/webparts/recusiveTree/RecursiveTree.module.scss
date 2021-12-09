@@ -1,0 +1,67 @@
+.recursiveTreeRequired {
+  color: rgb(168, 0, 0);
+  padding-left: 5px;
+}
+
+.recursiveTree {
+  border: 1px solid #dfdfdf;
+
+  &.error {
+    border-color: rgb(168, 0, 0);
+  }
+
+  &.disabled {
+    color: rgb(166, 166, 166);
+    background-color: rgb(244, 244, 244);
+  }
+
+  .recursiveCont {
+    display: none;
+
+    &.showCont {
+      display: block;
+    }
+
+    &.level0 {
+      margin-left: 5px;
+    }
+
+    &.level1 {
+      margin-left: 20px;
+    }
+
+    &.level2 {
+      margin-left: 40px;
+    }
+
+    &.level3 {
+      margin-left: 60px;
+    }
+
+    &.level4 {
+      margin-left: 80px;
+    }
+
+    &.level5 {
+      margin-left: 100px;
+    }
+
+    &.level6 {
+      margin-left: 120px;
+    }
+  }
+
+  .recursiveIcon {
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .recursiveTerm {
+    display: inline-block;
+    margin: 5px 0 5px 5px;
+  }
+}
+
+.recursiveError {
+  color: rgb(168, 0, 0);
+}

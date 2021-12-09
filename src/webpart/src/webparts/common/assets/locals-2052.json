@@ -1,0 +1,1117 @@
+[
+  {
+    "localeId": 1025,
+    "description": "阿拉伯语 - 沙特阿拉伯",
+    "code": "ar-SA"
+  },
+  {
+    "localeId": 1026,
+    "description": "保加利亚语",
+    "code": "bg-BG"
+  },
+  {
+    "localeId": 1027,
+    "description": "加泰罗尼亚语",
+    "code": "ca-ES"
+  },
+  {
+    "localeId": 1028,
+    "description": "中文 - 台湾",
+    "code": "zh-TW"
+  },
+  {
+    "localeId": 1029,
+    "description": "捷克语",
+    "code": "cs-CZ"
+  },
+  {
+    "localeId": 1030,
+    "description": "丹麦语",
+    "code": "da-DK"
+  },
+  {
+    "localeId": 1031,
+    "description": "德语 - 德国",
+    "code": "de-DE"
+  },
+  {
+    "localeId": 1032,
+    "description": "希腊语",
+    "code": "el-GR"
+  },
+  {
+    "localeId": 1033,
+    "description": "英语 - 美国",
+    "code": "en-US"
+  },
+  {
+    "localeId": 1034,
+    "description": "西班牙语 - 西班牙（传统风格）",
+    "code": "es-ES"
+  },
+  {
+    "localeId": 1035,
+    "description": "芬兰语",
+    "code": "fi-FI"
+  },
+  {
+    "localeId": 1036,
+    "description": "法语 - 法国",
+    "code": "fr-FR"
+  },
+  {
+    "localeId": 1037,
+    "description": "希伯来语",
+    "code": "he-IL"
+  },
+  {
+    "localeId": 1038,
+    "description": "匈牙利语",
+    "code": "hu-HU"
+  },
+  {
+    "localeId": 1039,
+    "description": "冰岛语",
+    "code": "is-IS"
+  },
+  {
+    "localeId": 1040,
+    "description": "意大利语 - 意大利",
+    "code": "it-IT"
+  },
+  {
+    "localeId": 1041,
+    "description": "日语",
+    "code": "ja-JP"
+  },
+  {
+    "localeId": 1042,
+    "description": "朝鲜语",
+    "code": "ko-KR"
+  },
+  {
+    "localeId": 1043,
+    "description": "荷兰语 - 荷兰",
+    "code": "nl-NL"
+  },
+  {
+    "localeId": 1044,
+    "description": "挪威语(博克马尔语)",
+    "code": "nb-NO"
+  },
+  {
+    "localeId": 1045,
+    "description": "波兰语",
+    "code": "pl-PL"
+  },
+  {
+    "localeId": 1046,
+    "description": "葡萄牙语 - 巴西",
+    "code": "pt-BR"
+  },
+  {
+    "localeId": 1047,
+    "description": "拉托 - 罗马语",
+    "code": "rm-CH"
+  },
+  {
+    "localeId": 1048,
+    "description": "罗马尼亚语",
+    "code": "ro-RO"
+  },
+  {
+    "localeId": 1049,
+    "description": "俄语",
+    "code": "ru-RU"
+  },
+  {
+    "localeId": 1050,
+    "description": "克罗地亚语",
+    "code": "hr-HR"
+  },
+  {
+    "localeId": 1051,
+    "description": "斯洛伐克语",
+    "code": "sk-SK"
+  },
+  {
+    "localeId": 1052,
+    "description": "阿尔巴尼亚语 - 阿尔巴尼亚",
+    "code": "sq-AL"
+  },
+  {
+    "localeId": 1053,
+    "description": "瑞典语",
+    "code": "sv-SE"
+  },
+  {
+    "localeId": 1054,
+    "description": "泰语",
+    "code": "th-TH"
+  },
+  {
+    "localeId": 1055,
+    "description": "土耳其语",
+    "code": "tr-TR"
+  },
+  {
+    "localeId": 1056,
+    "description": "乌尔都语 - 巴基斯坦",
+    "code": "ur-PK"
+  },
+  {
+    "localeId": 1057,
+    "description": "印度尼西亚语",
+    "code": "id-ID"
+  },
+  {
+    "localeId": 1058,
+    "description": "乌克兰语",
+    "code": "uk-UA"
+  },
+  {
+    "localeId": 1059,
+    "description": "白俄罗斯语",
+    "code": "be-BY"
+  },
+  {
+    "localeId": 1060,
+    "description": "斯洛文尼亚语",
+    "code": "sl-SI"
+  },
+  {
+    "localeId": 1061,
+    "description": "爱沙尼亚语",
+    "code": "et-EE"
+  },
+  {
+    "localeId": 1062,
+    "description": "拉脱维亚语",
+    "code": "lv-LV"
+  },
+  {
+    "localeId": 1063,
+    "description": "立陶宛语",
+    "code": "lt-LT"
+  },
+  {
+    "localeId": 1064,
+    "description": "塔吉克语",
+    "code": "tg-Cyrl-TJ"
+  },
+  {
+    "localeId": 1065,
+    "description": "波斯语",
+    "code": "fa-IR"
+  },
+  {
+    "localeId": 1066,
+    "description": "越南语",
+    "code": "vi-VN"
+  },
+  {
+    "localeId": 1067,
+    "description": "亚美尼亚语 - 亚美尼亚",
+    "code": "hy-AM"
+  },
+  {
+    "localeId": 1068,
+    "description": "阿塞拜疆语（拉丁语）",
+    "code": "az-Latn-AZ"
+  },
+  {
+    "localeId": 1069,
+    "description": "Basque",
+    "code": "eu-ES"
+  },
+  {
+    "localeId": 1070,
+    "description": "索布语",
+    "code": "wen-DE"
+  },
+  {
+    "localeId": 1071,
+    "description": "F.Y.R.O.马其顿语",
+    "code": "mk-MK"
+  },
+  {
+    "localeId": 1072,
+    "description": "苏图语",
+    "code": "st-ZA"
+  },
+  {
+    "localeId": 1073,
+    "description": "汤加语",
+    "code": "ts-ZA"
+  },
+  {
+    "localeId": 1074,
+    "description": "茨瓦纳语",
+    "code": "tn-ZA"
+  },
+  {
+    "localeId": 1075,
+    "description": "文达语",
+    "code": "ven-ZA"
+  },
+  {
+    "localeId": 1076,
+    "description": "科萨语",
+    "code": "xh-ZA"
+  },
+  {
+    "localeId": 1077,
+    "description": "祖鲁语",
+    "code": "zu-ZA"
+  },
+  {
+    "localeId": 1078,
+    "description": "南非荷兰语 - 南非",
+    "code": "af-ZA"
+  },
+  {
+    "localeId": 1079,
+    "description": "格鲁吉亚语",
+    "code": "ka-GE"
+  },
+  {
+    "localeId": 1080,
+    "description": "法罗语",
+    "code": "fo-FO"
+  },
+  {
+    "localeId": 1081,
+    "description": "印地语",
+    "code": "hi-IN"
+  },
+  {
+    "localeId": 1082,
+    "description": "马耳他语",
+    "code": "mt-MT"
+  },
+  {
+    "localeId": 1083,
+    "description": "萨米语",
+    "code": "se-NO"
+  },
+  {
+    "localeId": 1084,
+    "description": "盖尔语（苏格兰）",
+    "code": "gd-GB"
+  },
+  {
+    "localeId": 1085,
+    "description": "意第绪语",
+    "code": "yi"
+  },
+  {
+    "localeId": 1086,
+    "description": "马来语 - 马来西亚",
+    "code": "ms-MY"
+  },
+  {
+    "localeId": 1087,
+    "description": "哈萨克语",
+    "code": "kk-KZ"
+  },
+  {
+    "localeId": 1088,
+    "description": "吉尔吉斯语（西里尔文）",
+    "code": "ky-KG"
+  },
+  {
+    "localeId": 1089,
+    "description": "斯瓦希里语",
+    "code": "sw-KE"
+  },
+  {
+    "localeId": 1090,
+    "description": "土库曼语",
+    "code": "tk-TM"
+  },
+  {
+    "localeId": 1091,
+    "description": "乌兹别克语（拉丁语）",
+    "code": "uz-Latn-UZ"
+  },
+  {
+    "localeId": 1092,
+    "description": "鞑靼语",
+    "code": "tt-RU"
+  },
+  {
+    "localeId": 1093,
+    "description": "孟加拉语（印度）",
+    "code": "bn-IN"
+  },
+  {
+    "localeId": 1094,
+    "description": "旁遮普语",
+    "code": "pa-IN"
+  },
+  {
+    "localeId": 1095,
+    "description": "古吉拉特语",
+    "code": "gu-IN"
+  },
+  {
+    "localeId": 1096,
+    "description": "奥里雅语",
+    "code": "or-IN"
+  },
+  {
+    "localeId": 1097,
+    "description": "泰米尔语",
+    "code": "ta-IN"
+  },
+  {
+    "localeId": 1098,
+    "description": "泰卢固语",
+    "code": "te-IN"
+  },
+  {
+    "localeId": 1099,
+    "description": "卡纳达语",
+    "code": "kn-IN"
+  },
+  {
+    "localeId": 1100,
+    "description": "马拉雅拉姆语",
+    "code": "ml-IN"
+  },
+  {
+    "localeId": 1101,
+    "description": "阿萨姆语",
+    "code": "as-IN"
+  },
+  {
+    "localeId": 1102,
+    "description": "马拉地语",
+    "code": "mr-IN"
+  },
+  {
+    "localeId": 1103,
+    "description": "梵语",
+    "code": "sa-IN"
+  },
+  {
+    "localeId": 1104,
+    "description": "蒙古语（西里尔文）",
+    "code": "mn-MN"
+  },
+  {
+    "localeId": 1105,
+    "description": "藏语 - 中华人民共和国",
+    "code": "bo-CN"
+  },
+  {
+    "localeId": 1106,
+    "description": "威尔士语",
+    "code": "cy-GB"
+  },
+  {
+    "localeId": 1107,
+    "description": "高棉语",
+    "code": "km-KH"
+  },
+  {
+    "localeId": 1108,
+    "description": "老挝",
+    "code": "lo-LA"
+  },
+  {
+    "localeId": 1109,
+    "description": "缅甸语",
+    "code": "my-MM"
+  },
+  {
+    "localeId": 1110,
+    "description": "加利西亚语",
+    "code": "gl-ES"
+  },
+  {
+    "localeId": 1111,
+    "description": "孔卡尼语",
+    "code": "kok-IN"
+  },
+  {
+    "localeId": 1112,
+    "description": "曼尼普尔语",
+    "code": "mni"
+  },
+  {
+    "localeId": 1113,
+    "description": "信德语 - 印度",
+    "code": "sd-IN"
+  },
+  {
+    "localeId": 1114,
+    "description": "叙利亚语",
+    "code": "syr-SY"
+  },
+  {
+    "localeId": 1115,
+    "description": "僧伽罗语 - 斯里兰卡",
+    "code": "si-LK"
+  },
+  {
+    "localeId": 1116,
+    "description": "切罗基语 - 美国",
+    "code": "chr-US"
+  },
+  {
+    "localeId": 1117,
+    "description": "Inuktitut",
+    "code": "iu-Cans-CA"
+  },
+  {
+    "localeId": 1118,
+    "description": "阿姆哈拉语 - 埃塞俄比亚",
+    "code": "am-ET"
+  },
+  {
+    "localeId": 1119,
+    "description": "塔马塞特语（阿拉伯语）",
+    "code": "tmz"
+  },
+  {
+    "localeId": 1120,
+    "description": "克什米尔语（阿拉伯语）",
+    "code": "ks-Arab-IN"
+  },
+  {
+    "localeId": 1121,
+    "description": "尼泊尔语",
+    "code": "ne-NP"
+  },
+  {
+    "localeId": 1122,
+    "description": "弗里西亚语 - 荷兰",
+    "code": "fy-NL"
+  },
+  {
+    "localeId": 1123,
+    "description": "普什图语",
+    "code": "ps-AF"
+  },
+  {
+    "localeId": 1124,
+    "description": "菲律宾语",
+    "code": "fil-PH"
+  },
+  {
+    "localeId": 1125,
+    "description": "迪维希语",
+    "code": "dv-MV"
+  },
+  {
+    "localeId": 1126,
+    "description": "比尼语",
+    "code": "bin-NG"
+  },
+  {
+    "localeId": 1127,
+    "description": "富尔贝语 - 尼日利亚",
+    "code": "fuv-NG"
+  },
+  {
+    "localeId": 1128,
+    "description": "豪撒语 - 尼日利亚",
+    "code": "ha-Latn-NG"
+  },
+  {
+    "localeId": 1129,
+    "description": "伊比比奥语 - 尼日利亚",
+    "code": "ibb-NG"
+  },
+  {
+    "localeId": 1130,
+    "description": "约鲁巴语",
+    "code": "yo-NG"
+  },
+  {
+    "localeId": 1131,
+    "description": "古印加吉查语 - 玻利维亚",
+    "code": "quz-BO"
+  },
+  {
+    "localeId": 1132,
+    "description": "塞佩提语",
+    "code": "nso-ZA"
+  },
+  {
+    "localeId": 1136,
+    "description": "伊博语 - 尼日利亚",
+    "code": "ig-NG"
+  },
+  {
+    "localeId": 1137,
+    "description": "卡努里语 - 尼日利亚",
+    "code": "kr-NG"
+  },
+  {
+    "localeId": 1138,
+    "description": "奥罗莫语",
+    "code": "gaz-ET"
+  },
+  {
+    "localeId": 1139,
+    "description": "提格里尼亚语 - 埃塞俄比亚",
+    "code": "ti-ER"
+  },
+  {
+    "localeId": 1140,
+    "description": "瓜拉尼语 - 巴拉圭",
+    "code": "gn-PY"
+  },
+  {
+    "localeId": 1141,
+    "description": "夏威夷语 - 美国",
+    "code": "haw-US"
+  },
+  {
+    "localeId": 1142,
+    "description": "拉丁语",
+    "code": "la"
+  },
+  {
+    "localeId": 1143,
+    "description": "索马里语",
+    "code": "so-SO"
+  },
+  {
+    "localeId": 1144,
+    "description": "彝语",
+    "code": "ii-CN"
+  },
+  {
+    "localeId": 1145,
+    "description": "或门托语",
+    "code": "pap-AN"
+  },
+  {
+    "localeId": 1152,
+    "description": "维吾尔语 - 中国",
+    "code": "ug-Arab-CN"
+  },
+  {
+    "localeId": 1153,
+    "description": "毛利语 - 新西兰",
+    "code": "mi-NZ"
+  },
+  {
+    "localeId": 2049,
+    "description": "阿拉伯语 - 伊拉克",
+    "code": "ar-IQ"
+  },
+  {
+    "localeId": 2052,
+    "description": "中文 - 中华人民共和国",
+    "code": "zh-CN"
+  },
+  {
+    "localeId": 2055,
+    "description": "德语 - 瑞士",
+    "code": "de-CH"
+  },
+  {
+    "localeId": 2057,
+    "description": "英语 - 英国",
+    "code": "en-GB"
+  },
+  {
+    "localeId": 2058,
+    "description": "西班牙语 - 墨西哥",
+    "code": "es-MX"
+  },
+  {
+    "localeId": 2060,
+    "description": "法语 - 比利时",
+    "code": "fr-BE"
+  },
+  {
+    "localeId": 2064,
+    "description": "意大利语 - 瑞士",
+    "code": "it-CH"
+  },
+  {
+    "localeId": 2067,
+    "description": "荷兰语 - 比利时",
+    "code": "nl-BE"
+  },
+  {
+    "localeId": 2068,
+    "description": "挪威语（尼诺斯克语）",
+    "code": "nn-NO"
+  },
+  {
+    "localeId": 2070,
+    "description": "葡萄牙语 - 葡萄牙",
+    "code": "pt-PT"
+  },
+  {
+    "localeId": 2072,
+    "description": "罗马尼亚语 - 莫达瓦",
+    "code": "ro-MD"
+  },
+  {
+    "localeId": 2073,
+    "description": "俄语 - 罗马尼亚语",
+    "code": "ru-MD"
+  },
+  {
+    "localeId": 2074,
+    "description": "塞尔维亚语(拉丁语)",
+    "code": "sr-Latn-CS"
+  },
+  {
+    "localeId": 2077,
+    "description": "瑞典语 - 芬兰",
+    "code": "sv-FI"
+  },
+  {
+    "localeId": 2080,
+    "description": "乌尔都语 - 印度",
+    "code": "ur-IN"
+  },
+  {
+    "localeId": 2092,
+    "description": "阿塞拜疆语（西里尔文）",
+    "code": "az-Cyrl-AZ"
+  },
+  {
+    "localeId": 2108,
+    "description": "盖尔语（爱尔兰）",
+    "code": "ga-IE"
+  },
+  {
+    "localeId": 2110,
+    "description": "马来语 - 文莱达鲁萨兰国",
+    "code": "ms-BN"
+  },
+  {
+    "localeId": 2115,
+    "description": "乌兹别克语（西里尔文）",
+    "code": "uz-Cyrl-UZ"
+  },
+  {
+    "localeId": 2117,
+    "description": "孟加拉语（孟加拉国）",
+    "code": "bn-BD"
+  },
+  {
+    "localeId": 2118,
+    "description": "旁遮普语（巴基斯坦）",
+    "code": "pa-PK"
+  },
+  {
+    "localeId": 2128,
+    "description": "蒙古语（蒙古语）",
+    "code": "mn-Mong-CN"
+  },
+  {
+    "localeId": 2129,
+    "description": "藏语 - 不丹",
+    "code": "bo-BT"
+  },
+  {
+    "localeId": 2137,
+    "description": "信德语 - 巴基斯坦",
+    "code": "sd-PK"
+  },
+  {
+    "localeId": 2143,
+    "description": "柏柏尔语（拉丁文）",
+    "code": "tzm-Latn-DZ"
+  },
+  {
+    "localeId": 2144,
+    "description": "克什米尔语（梵文）",
+    "code": "ks-Deva-IN"
+  },
+  {
+    "localeId": 2145,
+    "description": "尼泊尔语 - 印度",
+    "code": "ne-IN"
+  },
+  {
+    "localeId": 2155,
+    "description": "古印加吉查语 - 厄瓜多尔",
+    "code": "quz-EC"
+  },
+  {
+    "localeId": 2163,
+    "description": "提尼亚语 - 厄立特里亚",
+    "code": "ti-ET"
+  },
+  {
+    "localeId": 3073,
+    "description": "阿拉伯语 - 埃及",
+    "code": "ar-EG"
+  },
+  {
+    "localeId": 3076,
+    "description": "中文 - 香港特别行政区",
+    "code": "zh-HK"
+  },
+  {
+    "localeId": 3079,
+    "description": "德语 - 奥地利",
+    "code": "de-AT"
+  },
+  {
+    "localeId": 3081,
+    "description": "英语 - 澳大利亚",
+    "code": "en-AU"
+  },
+  {
+    "localeId": 3082,
+    "description": "西班牙语 - 西班牙（现代风格）",
+    "code": "es-ES"
+  },
+  {
+    "localeId": 3084,
+    "description": "法语 - 加拿大",
+    "code": "fr-CA"
+  },
+  {
+    "localeId": 3098,
+    "description": "塞尔维亚语(西里尔文)",
+    "code": "sr-Cyrl-CS"
+  },
+  {
+    "localeId": 3179,
+    "description": "古印加吉查语 - 秘鲁",
+    "code": "quz-PE"
+  },
+  {
+    "localeId": 4097,
+    "description": "阿拉伯语 - 利比亚",
+    "code": "ar-LY"
+  },
+  {
+    "localeId": 4100,
+    "description": "中文 - 新加坡",
+    "code": "zh-SG"
+  },
+  {
+    "localeId": 4103,
+    "description": "德语 - 卢森堡",
+    "code": "de-LU"
+  },
+  {
+    "localeId": 4105,
+    "description": "英语 - 加拿大",
+    "code": "en-CA"
+  },
+  {
+    "localeId": 4106,
+    "description": "西班牙语 - 危地马拉",
+    "code": "es-GT"
+  },
+  {
+    "localeId": 4108,
+    "description": "法语 - 瑞士",
+    "code": "fr-CH"
+  },
+  {
+    "localeId": 4122,
+    "description": "克罗地亚语（波斯尼亚/黑塞哥维那）",
+    "code": "hr-BA"
+  },
+  {
+    "localeId": 5121,
+    "description": "阿拉伯语 - 阿尔及利亚",
+    "code": "ar-DZ"
+  },
+  {
+    "localeId": 5124,
+    "description": "中文 - 澳门特别行政区",
+    "code": "zh-MO"
+  },
+  {
+    "localeId": 5127,
+    "description": "德语 - 列支敦士登",
+    "code": "de-LI"
+  },
+  {
+    "localeId": 5129,
+    "description": "英语 - 新西兰",
+    "code": "en-NZ"
+  },
+  {
+    "localeId": 5130,
+    "description": "西班牙语 - 哥斯达黎加",
+    "code": "es-CR"
+  },
+  {
+    "localeId": 5132,
+    "description": "法语 - 卢森堡",
+    "code": "fr-LU"
+  },
+  {
+    "localeId": 5146,
+    "description": "波斯尼亚语（波斯尼亚/黑塞哥维那）",
+    "code": "bs-Latn-BA"
+  },
+  {
+    "localeId": 6145,
+    "description": "阿拉伯语 - 摩洛哥",
+    "code": "ar-MO"
+  },
+  {
+    "localeId": 6153,
+    "description": "英语 - 爱尔兰",
+    "code": "en-IE"
+  },
+  {
+    "localeId": 6154,
+    "description": "西班牙语 - 巴拿马",
+    "code": "es-PA"
+  },
+  {
+    "localeId": 6156,
+    "description": "法语 - 摩纳哥",
+    "code": "fr-MC"
+  },
+  {
+    "localeId": 7169,
+    "description": "阿拉伯语 - 突尼斯",
+    "code": "ar-TN"
+  },
+  {
+    "localeId": 7177,
+    "description": "英语 - 南非",
+    "code": "en-ZA"
+  },
+  {
+    "localeId": 7178,
+    "description": "西班牙语 - 多米尼加共和国",
+    "code": "es-DO"
+  },
+  {
+    "localeId": 7180,
+    "description": "法语 - 西印度群岛",
+    "code": "fr-029"
+  },
+  {
+    "localeId": 8193,
+    "description": "阿拉伯语 - 阿曼",
+    "code": "ar-OM"
+  },
+  {
+    "localeId": 8201,
+    "description": "英语 - 牙买加",
+    "code": "en-JM"
+  },
+  {
+    "localeId": 8202,
+    "description": "西班牙语 - 委内瑞拉",
+    "code": "es-VE"
+  },
+  {
+    "localeId": 8204,
+    "description": "法语 - 留尼汪岛",
+    "code": "fr-RE"
+  },
+  {
+    "localeId": 9217,
+    "description": "阿拉伯语 - 也门",
+    "code": "ar-YE"
+  },
+  {
+    "localeId": 9225,
+    "description": "英语 - 加勒比地区",
+    "code": "en-029"
+  },
+  {
+    "localeId": 9226,
+    "description": "西班牙语 - 哥伦比亚",
+    "code": "es-CO"
+  },
+  {
+    "localeId": 9228,
+    "description": "法语 - 刚果民主共和国",
+    "code": "fr-CG"
+  },
+  {
+    "localeId": 10241,
+    "description": "阿拉伯语 - 叙利亚",
+    "code": "ar-SY"
+  },
+  {
+    "localeId": 10249,
+    "description": "英语 - 伯利兹",
+    "code": "en-BZ"
+  },
+  {
+    "localeId": 10250,
+    "description": "西班牙语 - 秘鲁",
+    "code": "es-PE"
+  },
+  {
+    "localeId": 10252,
+    "description": "法语 - 塞内加尔",
+    "code": "fr-SN"
+  },
+  {
+    "localeId": 11265,
+    "description": "阿拉伯语 - 约旦",
+    "code": "ar-JO"
+  },
+  {
+    "localeId": 11273,
+    "description": "英语 - 特立尼达",
+    "code": "en-TT"
+  },
+  {
+    "localeId": 11274,
+    "description": "西班牙语 - 阿根廷",
+    "code": "es-AR"
+  },
+  {
+    "localeId": 11276,
+    "description": "法语 - 喀麦隆",
+    "code": "fr-CM"
+  },
+  {
+    "localeId": 12289,
+    "description": "阿拉伯语 - 黎巴嫩",
+    "code": "ar-LB"
+  },
+  {
+    "localeId": 12297,
+    "description": "英语 - 津巴布韦",
+    "code": "en-ZW"
+  },
+  {
+    "localeId": 12298,
+    "description": "西班牙语 - 厄瓜多尔",
+    "code": "es-EC"
+  },
+  {
+    "localeId": 12300,
+    "description": "法语 - 科特迪瓦",
+    "code": "fr-CI"
+  },
+  {
+    "localeId": 13313,
+    "description": "阿拉伯语 - 科威特",
+    "code": "ar-KW"
+  },
+  {
+    "localeId": 13321,
+    "description": "英语 - 菲律宾",
+    "code": "en-PH"
+  },
+  {
+    "localeId": 13322,
+    "description": "西班牙语 - 智利",
+    "code": "es-CL"
+  },
+  {
+    "localeId": 13324,
+    "description": "法语 - 马里",
+    "code": "fr-ML"
+  },
+  {
+    "localeId": 14337,
+    "description": "阿拉伯语 - 阿拉伯联合酋长国",
+    "code": "ar-AE"
+  },
+  {
+    "localeId": 14345,
+    "description": "英语 - 印度尼西亚",
+    "code": "en-ID"
+  },
+  {
+    "localeId": 14346,
+    "description": "西班牙语 - 乌拉圭",
+    "code": "es-UY"
+  },
+  {
+    "localeId": 14348,
+    "description": "法语 - 摩洛哥",
+    "code": "fr-MA"
+  },
+  {
+    "localeId": 15361,
+    "description": "阿拉伯语 - 巴林",
+    "code": "ar-BH"
+  },
+  {
+    "localeId": 15369,
+    "description": "英语 - 香港特别行政区",
+    "code": "en-HK"
+  },
+  {
+    "localeId": 15370,
+    "description": "西班牙语 - 巴拉圭",
+    "code": "es-PY"
+  },
+  {
+    "localeId": 15372,
+    "description": "法语 - 海地",
+    "code": "fr-HT"
+  },
+  {
+    "localeId": 16385,
+    "description": "阿拉伯语 - 卡塔尔",
+    "code": "ar-QA"
+  },
+  {
+    "localeId": 16393,
+    "description": "英语 - 印度",
+    "code": "en-IN"
+  },
+  {
+    "localeId": 16394,
+    "description": "西班牙语 - 玻利维亚",
+    "code": "es-BO"
+  },
+  {
+    "localeId": 17417,
+    "description": "英语 - 马来西亚",
+    "code": "en-MY"
+  },
+  {
+    "localeId": 17418,
+    "description": "西班牙语 - 萨尔瓦多",
+    "code": "es-SV"
+  },
+  {
+    "localeId": 18441,
+    "description": "英语 - 新加坡",
+    "code": "en-SG"
+  },
+  {
+    "localeId": 18442,
+    "description": "西班牙语 - 洪都拉斯",
+    "code": "es-HN"
+  },
+  {
+    "localeId": 19466,
+    "description": "西班牙语 - 尼加拉瓜",
+    "code": "es-NI"
+  },
+  {
+    "localeId": 20490,
+    "description": "西班牙语 - 波多黎各",
+    "code": "es-PR"
+  },
+  {
+    "localeId": 21514,
+    "description": "西班牙语 - 美国",
+    "code": "es-US"
+  },
+  {
+    "localeId": 58378,
+    "description": "西班牙语 - 拉丁美洲",
+    "code": "es-419"
+  },
+  {
+    "localeId": 58380,
+    "description": "法语 - 北非",
+    "code": "fr-015"
+  }
+]

@@ -1,0 +1,242 @@
+{
+  "Technologies": [
+    {
+      "Id": "189210ba-eae3-473a-8ef6-ba3e211d7e0a",
+      "Name": "Microsoft 365",
+      "Subjects": [
+        {
+          "Id": "78444c91-e53b-4f0b-8c85-e5cb925c4b7f",
+          "Name": "Office 365"
+        },
+        {
+          "Id": "9cd68cb5-26f5-4a29-952f-3b812fcb7414",
+          "Name": "Windows 10"
+        }
+      ]
+    },
+    {
+      "Id": "96b73bcc-84f6-4b60-a17a-44630cb89157",
+      "Name": "Microsoft Teams",
+      "Subjects": [
+        {
+          "Id": "f359a147-9720-4dbd-aba2-14655b4f1876",
+          "Name": "Llamadas RTC"
+        },
+        {
+          "Id": "ff9a730c-f974-42af-a30b-06c7ac2d11fa",
+          "Name": "Reuniones"
+        }
+      ]
+    },
+    {
+      "Id": "646c9351-5bc3-42c1-b852-183051fa5e87",
+      "Name": "Office 365",
+      "Subjects": []
+    },
+    {
+      "Id": "8932dbd0-31f7-4fe4-ada1-878a923b0449",
+      "Name": "OneDrive para la Empresa",
+      "Subjects": []
+    },
+    {
+      "Id": "aa90a736-5b7d-4d9a-8088-4e9c41ff9841",
+      "Name": "SharePoint",
+      "Subjects": [
+        {
+          "Id": "53486dd0-d94e-4da8-94ec-2942faacaad6",
+          "Name": "Planeación de sitios"
+        },
+        {
+          "Id": "1401f04e-3a22-491c-bf18-f37833e215a5",
+          "Name": "Creación de sitios"
+        },
+        {
+          "Id": "80058d77-cd63-40c9-acf9-6dd8f7ffc8ac",
+          "Name": "Marca y personalización de sitios"
+        },
+        {
+          "Id": "839db42f-02e6-4d57-93c2-b061f8075c95",
+          "Name": "Uso compartido de sitios"
+        },
+        {
+          "Id": "41128013-96b4-442f-b44f-a30b232a2782",
+          "Name": "Administración de sitio"
+        },
+        {
+          "Id": "2a5f3071-3cf3-45f0-949a-cafc07af413b",
+          "Name": "Directivas"
+        }
+      ]
+    },
+    {
+      "Id": "60a36957-a8d4-48d5-8b89-55c1864d307f",
+      "Name": "Windows 10",
+      "Subjects": []
+    },
+    {
+      "Id": "648f1c86-fc4b-408e-a925-0819b35b0fe1",
+      "Name": "Yammer",
+      "Subjects": []
+    },
+    {
+      "Id": "d984257a-d122-45bb-a04a-a2fcdfe8007e",
+      "Name": "Stream",
+      "Subjects": []
+    }
+  ],
+  "Categories": [
+    {
+      "Id": "51fa7728-5658-4a2e-b08e-e004ca0f3b46",
+      "Name": "Sitio de éxito de SharePoint",
+      "Image": "",
+      "TechnologyId": "aa90a736-5b7d-4d9a-8088-4e9c41ff9841",
+      "SubjectId": "",
+      "Source": "",
+      "SubCategories": [
+        {
+          "Id": "5f078eee-488b-4d28-b2a4-2a68a6662db6",
+          "Name": "Planear la configuración",
+          "Image": "images/categories/Plan_Site.png",
+          "TechnologyId": "aa90a736-5b7d-4d9a-8088-4e9c41ff9841",
+          "SubjectId": null,
+          "Source": "",
+          "SubCategories": []
+        },
+        {
+          "Id": "35d96c14-6269-4cdf-8ac1-2944bb278860",
+          "Name": "Crear un plan",
+          "Image": "images/categories/Build_Site.png",
+          "TechnologyId": "aa90a736-5b7d-4d9a-8088-4e9c41ff9841",
+          "SubjectId": null,
+          "Source": "",
+          "SubCategories": []
+        },
+        {
+          "Id": "6be8e21b-c070-4305-a3d1-996569adcfbe",
+          "Name": "Iniciar y administrar el sitio",
+          "Image": "images/categories/Launch_Site.png",
+          "TechnologyId": "aa90a736-5b7d-4d9a-8088-4e9c41ff9841",
+          "SubjectId": null,
+          "Source": "",
+          "SubCategories": []
+        },
+        {
+          "Id": "4f65a4f2-c43a-415b-b576-13744eb618b2",
+          "Name": "Creación de sitios avanzada",
+          "Image": "images/categories/Advance_Site.png",
+          "TechnologyId": "aa90a736-5b7d-4d9a-8088-4e9c41ff9841",
+          "SubjectId": null,
+          "Source": "",
+          "SubCategories": []
+        }
+      ]
+    }
+  ],
+  "Audiences": [
+    {
+      "Id": "3b8f0120-1b35-49ac-9f51-1c30551c0ea8",
+      "Name": ""
+    },
+    {
+      "Id": "27513aaf-fee5-4f27-b924-e31d865e4092",
+      "Name": "Servicio de asistencia"
+    },
+    {
+      "Id": "4aa421d1-dc55-4b87-aa63-f1845ae49d98",
+      "Name": "Cambiar administrador"
+    },
+    {
+      "Id": "4e425c61-28fa-4606-afe8-5df5974ec243",
+      "Name": "Campeones e instructor"
+    },
+    {
+      "Id": "e43ac038-f77b-4c08-87d1-a623e2b3323e",
+      "Name": "Asistente Ejecutivo"
+    },
+    {
+      "Id": "823ca3d1-4cea-48af-8112-d8341e1514f5",
+      "Name": "VIP"
+    },
+    {
+      "Id": "16a2aa54-3bf8-4a75-aea5-bc70650c94b3",
+      "Name": "Usuario final"
+    },
+    {
+      "Id": "28abd597-fc2f-4922-9fab-122b3c1bad0f",
+      "Name": "Editor de contenido"
+    },
+    {
+      "Id": "45eaf6fe-7d2d-468a-9b43-091c7602d46a",
+      "Name": "Administrador de contenido"
+    },
+    {
+      "Id": "28067f25-40f0-4774-9971-b079d7a29f1b",
+      "Name": "Propietario del grupo"
+    },
+    {
+      "Id": "678c6d05-d27c-4a4e-afa8-532e6d1e7ab4",
+      "Name": "Patrocinador del sitio"
+    },
+    {
+      "Id": "283b65f1-fcde-4a0a-8fa4-947a3d2bd40b",
+      "Name": "Todo"
+    }
+  ],
+  "Sources": [
+    "SOC",
+    "FastTrack",
+    "M365",
+    "Microsoft",
+    "LinkedIn"
+  ],
+  "Levels": [
+    {
+      "Id": "4bdd44af-d093-454d-941b-a46812de8870",
+      "Name": "Principiante"
+    },
+    {
+      "Id": "b6eb2e21-6614-4d38-abb1-260cdf83f449",
+      "Name": "Intermedio"
+    },
+    {
+      "Id": "bd8f9e7a-0ab7-4289-b330-129fb277f738",
+      "Name": "Avanzado"
+    }
+  ],
+  "StatusTag": [
+    {
+      "Id": "b139cdb6-7ca2-4913-a118-0d8d2b20333c",
+      "Name": "Nuevo"
+    },
+    {
+      "Id": "5022e586-e10c-41f6-a17e-5bbe5f213452",
+      "Name": "Actualizado"
+    },
+    {
+      "Id": "1a82c2c0-5773-41e6-a450-776c18621144",
+      "Name": "Retirar"
+    },
+    {
+      "Id": "e5653e35-2e7f-47f6-9257-1b6be501f26e",
+      "Name": "Retirado"
+    },
+    {
+      "Id": "51237b71-fc44-4c13-b6d2-67bb054e14e5",
+      "Name": "Beta"
+    }
+  ],
+  "Telemetry": {
+    "AppInsightKey": "e55c65a8-29a3-4898-81f8-4c3e62ac3c60"
+  },
+  "Version": {
+    "Manifest": "v3",
+    "ManifestMinWebPart": "3.0.0",
+    "CurrentWebPart": "3.0.0",
+    "RepoURL": "https://github.com/pnp/custom-learning-office-365#updating-the-solution"
+  },
+  "ContentPacks": [],
+  "AssetOrigins": [
+    "https://support.office.com",
+    "https://docs.microsoft.com"
+  ]
+}

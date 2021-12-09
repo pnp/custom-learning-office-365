@@ -1,0 +1,268 @@
+@import "node_modules/susy/sass/susy";
+@import "node_modules/susy/sass/plugins/svg-grid";
+@import "./node_modules/spfx-uifabric-themes/ouif.theme";
+@import "../../../../styleguide/app/styles/00-base/mixin";
+
+// import theme colors specific to all controls
+@import "theme-colors";
+$susy: ("svg-grid-colors": hsl(180, 50%, 80%),
+	"columns": susy-repeat(12),
+	"gutters": 32px,
+	"spread": "wide",
+);
+
+.loadingShimmer {
+	margin-left: 16px;
+
+	&.appPartPage {
+		box-sizing: border-box;
+		max-width: 1268px;
+		margin: 0 auto;
+		padding: 0 1em;
+	}
+}
+
+.customLearning {
+	@include themeSlot(bodyText);
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  padding-bottom: 100px;
+
+
+	:global {
+		@import "../../../../styleguide/app/styles/main.spfx";
+
+		.ms-SearchBox {
+			background-color: $c-background;
+		}
+	}
+
+  // h2 {
+  //   // color: $ouif-bodyText;
+  // }
+
+	.info {
+		color: #107c10;
+	}
+
+	.error {
+		color: #a80000;
+	}
+
+	.title {
+		margin: 0;
+		padding-left: 10px;
+	}
+
+	&.appPartPage {
+		box-sizing: border-box;
+		max-width: 1268px;
+		margin: 0 auto 100px;
+		padding: 0 1em;
+
+		:global {
+			.category-item {
+				width: calc(#{span(2 narrow)} - .1px);
+
+				&:nth-child(6n+1) {
+					margin-left: 0;
+				}
+
+				@media screen and (min-width: 1024px) {}
+			}
+		}
+	}
+
+	.spouterframe {
+		position: relative;
+
+    display: flex;
+
+    height: 6000px;
+    min-height: 100vh;
+  }
+
+	.outerframe {
+		@extend .spouterframe;
+
+    min-height: auto;
+    padding: 0;
+  }
+
+	.innerframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+
+    width: 100%;
+    height: 100%;
+  }
+
+	.semiBold {
+		font-weight: 600;
+	}
+
+	.buttonMargin {
+		margin-top: 20px;
+		margin-right: 20px;
+	}
+
+	.primaryButton,
+	.primaryButton:hover {
+		white-space: nowrap;
+
+    color: $ouif-primaryButtonText;
+    border-color: $ouif-primaryButtonBackground;
+    background-color: $ouif-primaryButtonBackground;
+
+		svg {
+			fill: $ouif-primaryButtonText;
+		}
+	}
+
+	:global {
+		.transparentButton {
+			background-color: transparent;
+		}
+
+
+		.buttonRight {
+			cursor: pointer;
+			text-align: right;
+		}
+
+		.adm-content-playlist {
+			display: block;
+
+      box-sizing: border-box;
+
+			li {
+				display: inline-block;
+
+        box-sizing: border-box;
+        width: 100%;
+
+        break-inside: avoid-column;
+      }
+    }
+
+		.pl-edit-item {
+			box-sizing: border-box;
+
+      background-color: transparent;
+
+			&:hover {
+				color: $ouif-primaryButtonBackground;
+				background-color: transparent;
+
+				.pl-edit-actions {
+					.iconbutton {
+						background-color: transparent;
+					}
+				}
+			}
+		}
+
+		.adm-header-edit {
+			color: #000;
+
+			@media screen and (max-width: 1024px) {
+				.plov {
+					align-self: stretch;
+					column-count: 1;
+				}
+			}
+		}
+
+		.plov-desc {
+			.truncateToggle {
+				display: flex;
+
+        width: 100%;
+        height: 1em;
+        padding-left: 10px;
+
+				svg {
+					margin-top: -0.5rem;
+					width: 1rem;
+
+					fill: var(--bodyText);
+				}
+				
+				&.expanded {
+					border-bottom: 1px var(--neutralTertiary) solid;
+					svg{
+						margin-top: 0rem;
+						margin-bottom: -0.5rem;
+					}
+				}
+
+				&.notExpanded {
+					border-top: 1px var(--neutralTertiary) solid;
+				}
+
+				align-items: top;
+				justify-content: center;
+				margin-top: 0.75rem;
+
+
+			}
+		}
+	}
+
+	:global {
+		.pagination-button {
+			// color: $ouif-primaryButtonTextHovered;
+			@include themeSlot(primaryButtonTextHovered);
+			// border-color: $ouif-primaryButtonBackground;
+			@include themeSlot(primaryButtonBackground, border);
+			// background-color: $ouif-primaryButtonBackground;
+			@include themeSlot(primaryButtonBackground, background);
+
+      &.selected,
+      &.selected:active {
+        // color: $ouif-primaryButtonBackground;
+        @include themeSlot(primaryButtonText);
+        // border-color: $ouif-primaryButtonBackground;
+        @include themeSlot(primaryButtonBackground, border);
+        // background-color: $ouif-primaryButtonTextHovered;
+        @include themeSlot(primaryButtonBackTextHovered, background);
+
+        border: 1px solid;
+      }
+
+			&.selected,
+			&.selected:active {
+				// color: $ouif-primaryButtonBackground;
+				@include themeSlot(primaryButtonText);
+				// border-color: $ouif-primaryButtonBackground;
+				@include themeSlot(primaryButtonBackground, border);
+				// background-color: $ouif-primaryButtonTextHovered;
+				@include themeSlot(primaryButtonBackTextHovered, background);
+
+        color: $ouif-primaryButtonTextHovered;
+        background-color: $ouif-primaryButtonBackgroundHovered;
+      }
+
+			&:hover {
+				@include themeSlot(primaryButtonTextHovered);
+				@include themeSlot(primaryButtonBackgroundHovered);
+
+				color: $ouif-primaryButtonTextHovered;
+				background-color: $ouif-primaryButtonBackgroundHovered;
+			}
+
+			&:active {
+				@include themeSlot(primaryButtonBackground);
+				@include themeSlot(primaryButtonTextHovered);
+
+				color: $ouif-primaryButtonBackground;
+				background-color: $ouif-primaryButtonTextHovered;
+			}
+		}
+	}
+}
+
+// RWD SharePoint optimization
+@import "rwd-opt";

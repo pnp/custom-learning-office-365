@@ -1,0 +1,76 @@
+.headerpanel{
+	display: flex;
+
+	box-sizing: border-box;
+	padding: 1em;
+
+	background-color: $c-light-gray;
+
+	justify-content: space-between;
+
+	@media screen and (max-width: 480px){
+		flex-direction: column;
+	}
+
+	// background-color: lime;
+	.ms-SearchBox{
+		width: 100%;
+
+		background-color: white;
+	}
+}
+
+.headerpanel-heading{
+	margin: 0;
+}
+
+.headerpanel-left{
+	@include gridSpanLarge(7);
+
+	@media screen and (max-width: 480px){
+		@include gridSpanLarge(12);
+	}
+}
+
+.headerpanel-right{
+	@include gridSpanLarge(4);
+
+	@media screen and (max-width: 480px){
+		@include gridSpanLarge(12);
+
+		margin-top: 30px;
+	}
+}
+
+.headerpanel-close{
+	width: 100%;
+
+	align-content: flex-end;
+	align-items: flex-end;
+	// background-color: lime;
+	flex-basis: 100%;
+}
+
+.headerpanel-search{
+	@extend .headerpanel-close;
+
+	align-content: flex-start;
+	align-items: flex-start;
+}
+
+.copypanel{
+	display: flex;
+	flex-direction: row;
+
+	align-content: stretch;
+	flex-grow: 1;
+
+	.ms-TextField{
+		border-right: none;
+
+		flex-basis: 100%;
+	}
+	.ms-Button{
+		flex-shrink: 0;
+	}
+}

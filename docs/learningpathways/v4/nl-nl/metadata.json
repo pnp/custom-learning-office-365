@@ -1,0 +1,544 @@
+{
+  "Technologies": [
+    {
+      "Id": "016a561b-1c7a-4528-b0b7-96fcb556a1e1",
+      "Name": "Lijsten",
+      "Subjects": []
+    },
+    {
+      "Id": "054bac6f-2670-4cd1-8b38-087ff82754a2",
+      "Name": "Toegankelijkheid",
+      "Subjects": []
+    },
+    {
+      "Id": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+      "Name": "Office 365",
+      "Subjects": []
+    },
+    {
+      "Id": "0eb89b8a-87cf-4388-b146-1e073588b029",
+      "Name": "Word",
+      "Subjects": []
+    },
+    {
+      "Id": "2f571b54-44fa-4778-9277-c7935e36ffb3",
+      "Name": "Planner",
+      "Subjects": []
+    },
+    {
+      "Id": "33059862-a87d-4b40-9984-be7c6083cf95",
+      "Name": "Microsoft Forms",
+      "Subjects": []
+    },
+    {
+      "Id": "3edeb182-3828-4a83-aef9-928a2693e288",
+      "Name": "Outlook voor iOS en Android",
+      "Subjects": []
+    },
+    {
+      "Id": "452e503b-bafb-4023-b00d-b6d9b1701596",
+      "Name": "OneDrive",
+      "Subjects": []
+    },
+    {
+      "Id": "4ba51921-475f-481d-8bc3-c9b0f658342c",
+      "Name": "OneNote",
+      "Subjects": []
+    },
+    {
+      "Id": "58847f9a-3144-453e-a10e-bc1c00bc3faa",
+      "Name": "Windows 10",
+      "Subjects": []
+    },
+    {
+      "Id": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
+      "Name": "PowerPoint",
+      "Subjects": []
+    },
+    {
+      "Id": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
+      "Name": "OneDrive voor Bedrijven",
+      "Subjects": []
+    },
+    {
+      "Id": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
+      "Name": "webversie van Office",
+      "Subjects": []
+    },
+    {
+      "Id": "9c18d262-89c5-499b-be11-be58279c86bd",
+      "Name": "Access",
+      "Subjects": []
+    },
+    {
+      "Id": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
+      "Name": "Yammer",
+      "Subjects": []
+    },
+    {
+      "Id": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
+      "Name": "SharePoint",
+      "Subjects": [
+        {
+          "Id": "2324ad0f-5577-408f-b5aa-fad1e5a8f208",
+          "Name": "Site-huisstijl en -aanpassing"
+        },
+        {
+          "Id": "2a5f3071-3cf3-45f0-949a-cafc07af413b",
+          "Name": "Beleid"
+        },
+        {
+          "Id": "41128013-96b4-442f-b44f-a30b232a2782",
+          "Name": "Sitebeheer"
+        },
+        {
+          "Id": "839db42f-02e6-4d57-93c2-b061f8075c95",
+          "Name": "Site delen"
+        },
+        {
+          "Id": "c0af989f-3c4b-4f6f-ba58-7f2a335cb445",
+          "Name": "Site maken"
+        },
+        {
+          "Id": "e772e866-7b81-4e5c-bfad-36aa9ee98eaf",
+          "Name": "Siteplanning"
+        }
+      ]
+    },
+    {
+      "Id": "c209f64e-0291-437a-9615-17747eab50d0",
+      "Name": "Microsoft Teams",
+      "Subjects": [
+        {
+          "Id": "3bd4b767-148f-4f53-a206-b42e9f3a73cd",
+          "Name": "Bellen via PSTN"
+        },
+        {
+          "Id": "615f17eb-2c5b-4494-8541-4304435ca306",
+          "Name": "Vergaderingen"
+        }
+      ]
+    },
+    {
+      "Id": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
+      "Name": "Outlook",
+      "Subjects": []
+    },
+    {
+      "Id": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
+      "Name": "Microsoft Edge",
+      "Subjects": []
+    },
+    {
+      "Id": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+      "Name": "Excel",
+      "Subjects": []
+    },
+    {
+      "Id": "d984257a-d122-45bb-a04a-a2fcdfe8007e",
+      "Name": "Stream",
+      "Subjects": []
+    },
+    {
+      "Id": "e75b9087-6bb2-417f-a696-e667bea533a7",
+      "Name": "Microsoft 365",
+      "Subjects": [
+        {
+          "Id": "78444c91-e53b-4f0b-8c85-e5cb925c4b7f",
+          "Name": "Office 365"
+        },
+        {
+          "Id": "9cd68cb5-26f5-4a29-952f-3b812fcb7414",
+          "Name": "Windows 10"
+        },
+        {
+          "Id": "f1b531e0-2a62-4007-8858-08bd8be6ecae",
+          "Name": "Microsoft 365"
+        }
+      ]
+    },
+    {
+      "Id": "e9d69805-edb5-43da-8258-5520000bf3a6",
+      "Name": "Sway",
+      "Subjects": []
+    }
+  ],
+  "Categories": [
+    {
+      "Id": "646b4eb4-32c0-4fdc-93fa-0ef895470b74",
+      "Name": "Aan de slag",
+      "Image": "",
+      "TechnologyId": "",
+      "SubjectId": "",
+      "Source": "Microsoft",
+      "SubCategories": [
+        {
+          "Id": "9bde32c3-2f0b-4201-b4a3-74cef2c8f61d",
+          "Name": "Eerste dagen",
+          "Image": "images/categories/first_days.png",
+          "TechnologyId": "",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "07aa7fb7-a187-4a04-a044-f881626a8cba",
+          "Name": "Aanbevolen",
+          "Image": "images/categories/recommended.png",
+          "TechnologyId": "",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        }
+      ]
+    },
+    {
+      "Id": "4f7378cd-7c40-4a99-9617-94681300c828",
+      "Name": "Scenario's",
+      "Image": "",
+      "TechnologyId": "",
+      "SubjectId": "",
+      "Source": "Microsoft",
+      "SubCategories": [
+        {
+          "Id": "9030ff2c-5549-4ffe-8dc9-4dc184241dec",
+          "Name": "Moderne werkplek",
+          "Image": "images/categories/modern_workplace_trainingx.png",
+          "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "9eb8fc25-dd5b-4459-81e9-ae382aca7a78",
+          "Name": "Op afstand werken",
+          "Image": "images/categories/work_remotely.png",
+          "TechnologyId": "",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "51a0828d-1d27-4931-b547-9f2a698f33d8",
+          "Name": "Beveiliging",
+          "Image": "images/categories/LP-security-subcategory.png",
+          "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
+          "Name": "Hybride werkplek",
+          "Image": "images/categories/hybridwork.png",
+          "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
+          "Name": "Toegankelijkheid",
+          "Image": "images/categories/accessibility.png",
+          "TechnologyId": "",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "a7f1ca95-e0eb-4715-b846-89fc8d2afa56",
+          "Name": "Samenwerking",
+          "Image": "images/categories/Collaboration_Category.png",
+          "TechnologyId": "",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        }
+      ]
+    },
+    {
+      "Id": "618da7fa-0ed2-4653-9dfd-271c3bbe3a44",
+      "Name": "Producten",
+      "Image": "",
+      "TechnologyId": "",
+      "SubjectId": "",
+      "Source": "Microsoft",
+      "SubCategories": [
+        {
+          "Id": "46589138-0dde-4ea5-b9a1-313481a8eb06",
+          "Name": "Outlook",
+          "Image": "images/categories/outlook.png",
+          "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "4ee4d22a-7d53-48bb-9a14-adf34d01cd75",
+          "Name": "OneDrive",
+          "Image": "images/categories/onedrive.png",
+          "TechnologyId": "452e503b-bafb-4023-b00d-b6d9b1701596",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "f9b14990-420a-4678-87a8-8428928186c6",
+          "Name": "Word",
+          "Image": "images/categories/word.png",
+          "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "85c785c2-c873-4483-9728-64a367fee3f1",
+          "Name": "Excel",
+          "Image": "images/categories/excel.png",
+          "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "f05d3e34-3299-4776-a505-86f94b794194",
+          "Name": "PowerPoint",
+          "Image": "images/categories/powerpoint.png",
+          "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
+          "Name": "OneNote",
+          "Image": "images/categories/onenote.png",
+          "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "e5e2ae74-20ff-4626-937d-df4ff3405f29",
+          "Name": "SharePoint",
+          "Image": "images/categories/sharepoint.png",
+          "TechnologyId": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
+          "Name": "Microsoft Teams",
+          "Image": "images/categories/teams.png",
+          "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "e83da7d3-653c-4c01-a262-336e07b88aba",
+          "Name": "Yammer",
+          "Image": "images/categories/yammer.png",
+          "TechnologyId": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "beab7761-afae-4987-b8c2-57194fa945b6",
+          "Name": "Microsoft 365 Basisbeginselen",
+          "Image": "images/categories/office_basics.png",
+          "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "fcdc0676-03f7-40b9-80c1-167560c4018d",
+          "Name": "Planner",
+          "Image": "images/categories/planner.png",
+          "TechnologyId": "2f571b54-44fa-4778-9277-c7935e36ffb3",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "daeade40-9dfc-4d82-84be-9ae7544829dc",
+          "Name": "Microsoft Forms",
+          "Image": "images/categories/forms_training.png",
+          "TechnologyId": "33059862-a87d-4b40-9984-be7c6083cf95",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "92083395-06d0-433f-ba0d-77c958d853b7",
+          "Name": "Sway",
+          "Image": "images/categories/sway.png",
+          "TechnologyId": "e9d69805-edb5-43da-8258-5520000bf3a6",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "175c2d96-040d-4275-9405-b4549bd63dee",
+          "Name": "Access",
+          "Image": "images/categories/access.png",
+          "TechnologyId": "",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "002ce882-04af-491f-9798-71c857606532",
+          "Name": "webversie van Office",
+          "Image": "images/categories/office_for_web.png",
+          "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "4b40845d-fe5f-428f-8970-58455e5bf262",
+          "Name": "Lijsten",
+          "Image": "images/categories/lists_cat.png",
+          "TechnologyId": "016a561b-1c7a-4528-b0b7-96fcb556a1e1",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "77a22995-0b6d-488c-9747-dea9a7705711",
+          "Name": "Microsoft Edge",
+          "Image": "images/categories/Edge.png",
+          "TechnologyId": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        }
+      ]
+    },
+    {
+      "Id": "cf28bc20-ee23-4453-954e-43cc43af67b6",
+      "Name": "Hulpprogramma's voor acceptatie",
+      "Image": "",
+      "TechnologyId": "",
+      "SubjectId": "",
+      "Source": "Microsoft",
+      "SubCategories": [
+        {
+          "Id": "9d9a29c7-72fe-475e-9dd1-d999259d02cb",
+          "Name": "Hulpmiddelen",
+          "Image": "images/categories/toolkit.png",
+          "TechnologyId": "",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "281c0108-6e20-4fc3-9459-ba267857498e",
+          "Name": "Beheersuccescentrum",
+          "Image": "images/categories/set-up-Microsoft-365-learning-pathway.png",
+          "TechnologyId": "",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        }
+      ]
+    }
+  ],
+  "Audiences": [
+    {
+      "Id": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+      "Name": "Alles"
+    },
+    {
+      "Id": "304b216c-ea4d-436c-83f8-93ba1319943b",
+      "Name": "Kampioenen/trainer"
+    },
+    {
+      "Id": "41779dd0-ae42-4a62-8b66-bd87c137f4ac",
+      "Name": "HelpDesk"
+    },
+    {
+      "Id": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+      "Name": "Eindgebruiker"
+    },
+    {
+      "Id": "97150537-2c2f-42f9-8bc6-73e68fda0d38",
+      "Name": "Manager wijzigen"
+    },
+    {
+      "Id": "9fcd26c3-bcca-4452-a40a-f87e0daed348",
+      "Name": "Beheerder"
+    },
+    {
+      "Id": "a8787978-0ee5-4bc6-9c2c-eb11fc47cbfd",
+      "Name": "Groepseigenaar"
+    },
+    {
+      "Id": "c92ae45b-8770-48f6-8870-3ec74a310da7",
+      "Name": "VIP"
+    },
+    {
+      "Id": "d093e0b6-b9f1-4b46-877c-0a49e989ee40",
+      "Name": "Executive Assistant"
+    },
+    {
+      "Id": "e22b05b1-e778-4c97-9646-b8933c209772",
+      "Name": "Inhoudseditor"
+    },
+    {
+      "Id": "e2fce8e0-2014-4e36-81a5-0723b85958f8",
+      "Name": "Sitesponsor"
+    },
+    {
+      "Id": "f110eb03-e899-46a9-83be-8f507dae83c1",
+      "Name": "Inhoudsbeheer"
+    }
+  ],
+  "Sources": [
+    "SOC",
+    "FastTrack",
+    "M365",
+    "Microsoft",
+    "LinkedIn"
+  ],
+  "Levels": [
+    {
+      "Id": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+      "Name": "Beginner"
+    },
+    {
+      "Id": "ab49a955-3814-41fa-aa33-1b2757bc28ea",
+      "Name": "Intermediate"
+    },
+    {
+      "Id": "fbc841eb-1082-4c27-b13b-f7965947cb16",
+      "Name": "Geavanceerd"
+    }
+  ],
+  "StatusTag": [
+    {
+      "Id": "42be48f6-1f82-4fda-a757-add2499677d9",
+      "Name": "Beta"
+    },
+    {
+      "Id": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+      "Name": "Teruggetrokken"
+    },
+    {
+      "Id": "90fe6290-e063-4778-a8a1-7531c2a0a40e",
+      "Name": "Met pensioen gaan"
+    },
+    {
+      "Id": "9d1fab25-ed9c-404e-941b-41e428d18726",
+      "Name": "Bijgewerkt"
+    },
+    {
+      "Id": "c11c485b-496d-479b-88a3-1744a7a028d7",
+      "Name": "Nieuw"
+    }
+  ]
+}

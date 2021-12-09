@@ -1,0 +1,46 @@
+$c-light-gray: #EAEAEA;
+$c-light-gray: rgb(234, 234, 234);
+$c-light-gray: $ouif-bodyText;
+$c-light-gray-darken: $ouif-bodyText;
+$c-blue: #0078DB;
+$c-gray: #9e5b5b;
+$c-gray: $ouif-bodyText;
+$c-background: $ouif-bodyBackground;
+
+:global {
+  .playerctrl {
+    background-color: "[theme:bodyBackground]";
+    @include themeSlot(bodyBackground, background);
+  }
+
+  .category-label {
+    // background-color: $ouif-bodyBackground;
+    @include themeSlot(bodyBackground, "background");
+    // color: $ouif-bodyText;
+    @include themeSlot(bodyText);
+  }
+
+  .iconbutton {
+    color: $ouif-bodyText;
+    @include themeSlot(bodyText);
+
+    svg {
+      fill: $ouif-primaryButtonBackground;
+      @include themeSlot(primaryButtonBackground, fill)
+    }
+
+    &.selected,
+    &:hover {
+      // background-color: $ouif-primaryButtonBackgroundHovered;
+      @include themeSlot(primaryButtonBackground, background);
+      // color: $ouif-primaryButtonBackground;
+      @include themeSlot(primaryButtonText);
+
+      svg {
+        // fill: $ouif-primaryButtonBackground;
+        @include themeSlot(primaryButtonBackground, fill)
+      }
+    }
+  }
+
+}

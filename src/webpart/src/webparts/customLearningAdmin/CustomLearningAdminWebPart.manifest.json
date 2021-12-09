@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "c6062b6a-f22c-4475-897b-25081673c54a",
+  "alias": "CustomLearningAdminWebPart",
+  "componentType": "WebPart",
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+  "supportsThemeVariants": true,
+  "hiddenFromToolbox": true,
+  "supportedHosts": [
+    "SharePointWebPart"
+  ],
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Other
+      "group": {
+        "default": "Other"
+      },
+      "title": {
+        "default": "Microsoft 365 learning pathways administration"
+      },
+      "description": {
+        "default": "Administrate learning experience and create and manage custom content."
+      },
+      "officeFabricIconFontName": "BankSolid",
+      "properties": {}
+    }
+  ]
+}

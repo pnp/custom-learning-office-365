@@ -1,0 +1,239 @@
+[
+  {
+    "Id": "55f5e633-845f-4022-86aa-476af175a9ab",
+    "Title": "Введение в SharePoint",
+    "Image": "images/playlists/Intro_SharePoint.png",
+    "LevelId": "4bdd44af-d093-454d-941b-a46812de8870",
+    "AudienceId": "3b8f0120-1b35-49ac-9f51-1c30551c0ea8",
+    "TechnologyId": "aa90a736-5b7d-4d9a-8088-4e9c41ff9841",
+    "SubjectId": "",
+    "Source": "SOC",
+    "CatId": "5f078eee-488b-4d28-b2a4-2a68a6662db6",
+    "Description": "Узнайте, как можно работать с SharePoint",
+    "StatusTagId": "b139cdb6-7ca2-4913-a118-0d8d2b20333c",
+    "StatusNote": "",
+    "Assets": [
+      "d97dd190-397a-4037-86e8-9cb4d9beb358",
+      "ad905a16-d54d-4fd0-be6a-d108165735d7",
+      "06883190-b2a3-4e66-8e71-b8e16915460c",
+      "2f36ab3e-0bf1-4d60-b9aa-3584e2271219",
+      "809ef3fb-4201-446b-8e0d-b239bac5db52"
+    ]
+  },
+  {
+    "Id": "0d0b5435-5a58-4b69-a313-277763cf00ba",
+    "Title": "Начало работы",
+    "Image": "images/playlists/Checklist.png",
+    "LevelId": "4bdd44af-d093-454d-941b-a46812de8870",
+    "AudienceId": "3b8f0120-1b35-49ac-9f51-1c30551c0ea8",
+    "TechnologyId": "aa90a736-5b7d-4d9a-8088-4e9c41ff9841",
+    "SubjectId": "",
+    "Source": "SOC",
+    "CatId": "5f078eee-488b-4d28-b2a4-2a68a6662db6",
+    "Description": "Узнайте, как приступить к работе, а также изучите основы проектирования и дизайна",
+    "StatusTagId": "b139cdb6-7ca2-4913-a118-0d8d2b20333c",
+    "StatusNote": "",
+    "Assets": [
+      "cf88a968-dda9-4889-8829-3578493f2967",
+      "7f5376ca-07d4-4718-a8b6-6b8eb148af26",
+      "3e57a28d-6205-4aab-8c97-ef20ce5a7ba6"
+    ]
+  },
+  {
+    "Id": "2d57566c-3eb2-4e46-9f0c-7727e075902c",
+    "Title": "Типы сайтов SharePoint",
+    "Image": "images/playlists/SharePoint_Types.png",
+    "LevelId": "4bdd44af-d093-454d-941b-a46812de8870",
+    "AudienceId": "3b8f0120-1b35-49ac-9f51-1c30551c0ea8",
+    "TechnologyId": "aa90a736-5b7d-4d9a-8088-4e9c41ff9841",
+    "SubjectId": "",
+    "Source": "SOC",
+    "CatId": "5f078eee-488b-4d28-b2a4-2a68a6662db6",
+    "Description": "Общайтесь со своей командой и широкой аудиторией",
+    "StatusTagId": "b139cdb6-7ca2-4913-a118-0d8d2b20333c",
+    "StatusNote": "",
+    "Assets": [
+      "651cff1e-a1c8-4f9b-b026-9883141ce685",
+      "cd4764b9-6005-4eb3-b414-8376983f3792"
+    ]
+  },
+  {
+    "Id": "dfa8c1ef-d86e-46b9-a956-a62cca4d659f",
+    "Title": "Списки и библиотеки SharePoint",
+    "Image": "images/playlists/Share_Content_Data.png",
+    "LevelId": "4bdd44af-d093-454d-941b-a46812de8870",
+    "AudienceId": "3b8f0120-1b35-49ac-9f51-1c30551c0ea8",
+    "TechnologyId": "aa90a736-5b7d-4d9a-8088-4e9c41ff9841",
+    "SubjectId": "",
+    "Source": "SOC",
+    "CatId": "5f078eee-488b-4d28-b2a4-2a68a6662db6",
+    "Description": "Узнайте, как добавлять и упорядочивать файлы в списках и библиотеках SharePoint",
+    "StatusTagId": "b139cdb6-7ca2-4913-a118-0d8d2b20333c",
+    "StatusNote": "",
+    "Assets": [
+      "d59696be-04aa-4bba-a932-c5b0f9c18d97",
+      "9b104b0a-ceeb-4d64-bde9-6f0646279d67",
+      "bd0f823f-04e7-46c4-a441-6fdcc27f649d",
+      "e9721652-7d13-4327-84ce-432a07697db4"
+    ]
+  },
+  {
+    "Id": "89b78762-f538-4850-b4f1-f1e402bc836f",
+    "Title": "Создание и настройка сайта",
+    "Image": "images/playlists/Create_Customize.png",
+    "LevelId": "4bdd44af-d093-454d-941b-a46812de8870",
+    "AudienceId": "3b8f0120-1b35-49ac-9f51-1c30551c0ea8",
+    "TechnologyId": "aa90a736-5b7d-4d9a-8088-4e9c41ff9841",
+    "SubjectId": "",
+    "Source": "SOC",
+    "CatId": "35d96c14-6269-4cdf-8ac1-2944bb278860",
+    "Description": "Настройте внешний вид сайта, навигацию и ресурсы, доступные для посетителей",
+    "StatusTagId": "b139cdb6-7ca2-4913-a118-0d8d2b20333c",
+    "StatusNote": "",
+    "Assets": [
+      "273a0341-123c-473e-a35a-241342b5977d",
+      "69ee4906-8006-4f74-8b69-263881c1a240",
+      "d24f6e10-708a-46fb-b50b-26e6f8e3129c",
+      "ad7d7d4d-f9b4-4097-80eb-8816a8003374",
+      "0040579b-5271-4a4c-bc4e-83dcbf8c243a"
+    ]
+  },
+  {
+    "Id": "b92b3650-9648-4b8c-a429-978d3bdc509d",
+    "Title": "Использование веб-элементов для упорядочения контента",
+    "Image": "images/playlists/Upload_Organize.png",
+    "LevelId": "4bdd44af-d093-454d-941b-a46812de8870",
+    "AudienceId": "3b8f0120-1b35-49ac-9f51-1c30551c0ea8",
+    "TechnologyId": "aa90a736-5b7d-4d9a-8088-4e9c41ff9841",
+    "SubjectId": "",
+    "Source": "SOC",
+    "CatId": "35d96c14-6269-4cdf-8ac1-2944bb278860",
+    "Description": "Узнайте, как добавить текст, изображения, видео и друге веб-элементы ",
+    "StatusTagId": "b139cdb6-7ca2-4913-a118-0d8d2b20333c",
+    "StatusNote": "",
+    "Assets": [
+      "efca39c9-07b3-4d40-9c90-022dc73ea611",
+      "0992789e-a982-422b-b6be-13463544092f",
+      "b47bf41b-369f-4f69-9821-e749a2654f71",
+      "54b87754-a8cc-4b64-8a66-660899c90625",
+      "93123e74-5122-407e-9256-5cbc58674cd6",
+      "636c403e-235e-47bb-9186-d3dacc98edfc"
+    ]
+  },
+  {
+    "Id": "a3a85097-39d1-404f-be39-3c41af827e34",
+    "Title": "Предоставление доступа к сайту другим пользователям",
+    "Image": "images/playlists/Share_Others.png",
+    "LevelId": "4bdd44af-d093-454d-941b-a46812de8870",
+    "AudienceId": "3b8f0120-1b35-49ac-9f51-1c30551c0ea8",
+    "TechnologyId": "aa90a736-5b7d-4d9a-8088-4e9c41ff9841",
+    "SubjectId": "",
+    "Source": "SOC",
+    "CatId": "6be8e21b-c070-4305-a3d1-996569adcfbe",
+    "Description": "Расскажите посетителям о своем сайте, добавив участников ",
+    "StatusTagId": "b139cdb6-7ca2-4913-a118-0d8d2b20333c",
+    "StatusNote": "",
+    "Assets": [
+      "cb7144ef-27af-4cac-9b49-1ad15e129ea4"
+    ]
+  },
+  {
+    "Id": "6181273c-2f16-487b-a28b-fb4862f69428",
+    "Title": "Измерение и обслуживание",
+    "Image": "images/playlists/Maintain_Analytics.png",
+    "LevelId": "4bdd44af-d093-454d-941b-a46812de8870",
+    "AudienceId": "3b8f0120-1b35-49ac-9f51-1c30551c0ea8",
+    "TechnologyId": "aa90a736-5b7d-4d9a-8088-4e9c41ff9841",
+    "SubjectId": "",
+    "Source": "SOC",
+    "CatId": "6be8e21b-c070-4305-a3d1-996569adcfbe",
+    "Description": "Изучайте метрики сайта и сведения о параметрах",
+    "StatusTagId": "b139cdb6-7ca2-4913-a118-0d8d2b20333c",
+    "StatusNote": "",
+    "Assets": [
+      "603b00b9-efd6-4e4f-a174-6565375ac529",
+      "d43e875f-02e2-4ed6-83f5-8b4700f8bac3",
+      "00827e92-460c-417d-b141-9b5fb91d8c42"
+    ]
+  },
+  {
+    "Id": "225da9d7-e8da-40fe-92e4-f7a3fceb2842",
+    "Title": "Создание возможностей совместной работы на сайте",
+    "Image": "images/playlists/Make_Collaborative.png",
+    "LevelId": "4bdd44af-d093-454d-941b-a46812de8870",
+    "AudienceId": "3b8f0120-1b35-49ac-9f51-1c30551c0ea8",
+    "TechnologyId": "aa90a736-5b7d-4d9a-8088-4e9c41ff9841",
+    "SubjectId": "",
+    "Source": "SOC",
+    "CatId": "4f65a4f2-c43a-415b-b576-13744eb618b2",
+    "Description": "Узнайте, как сайты групп SharePoint работают с Microsoft Teams",
+    "StatusTagId": "b139cdb6-7ca2-4913-a118-0d8d2b20333c",
+    "StatusNote": "",
+    "Assets": [
+      "765f3fe7-7822-4d09-abe9-9d24a3b569d7",
+      "ebf49e3b-98f8-49a2-b048-ce55c7d3d914",
+      "c9e42071-d443-4ca5-85b0-042590484a8e",
+      "612dff49-7273-46a0-85ae-0edc6b1c62b5",
+      "c62777e3-3b77-4b3d-aff1-590a9e9646c1"
+    ]
+  },
+  {
+    "Id": "4c0af6a7-0d18-4fbf-a459-3533db7d5d35",
+    "Title": "Как сделать сайт интересным",
+    "Image": "images/playlists/Make_Engaging.png",
+    "LevelId": "4bdd44af-d093-454d-941b-a46812de8870",
+    "AudienceId": "3b8f0120-1b35-49ac-9f51-1c30551c0ea8",
+    "TechnologyId": "aa90a736-5b7d-4d9a-8088-4e9c41ff9841",
+    "SubjectId": "",
+    "Source": "SOC",
+    "CatId": "4f65a4f2-c43a-415b-b576-13744eb618b2",
+    "Description": "Постройте сообщество и культуру, улучшив впечатления от просмотра",
+    "StatusTagId": "b139cdb6-7ca2-4913-a118-0d8d2b20333c",
+    "StatusNote": "",
+    "Assets": [
+      "ec77aaec-df07-4b28-983d-c7d1789fa537",
+      "bd3193b4-6aff-440a-878a-8c09ac310931",
+      "c08df100-c8ff-46c3-9d85-dfecfa98b520",
+      "025b9dd4-1e4f-46ac-9004-753a46cc6df3"
+    ]
+  },
+  {
+    "Id": "5d8de491-43a0-4773-943a-9a82a790aa39",
+    "Title": "Как сделать сайт индивидуальным",
+    "Image": "images/playlists/Make_Personal.png",
+    "LevelId": "4bdd44af-d093-454d-941b-a46812de8870",
+    "AudienceId": "3b8f0120-1b35-49ac-9f51-1c30551c0ea8",
+    "TechnologyId": "aa90a736-5b7d-4d9a-8088-4e9c41ff9841",
+    "SubjectId": "",
+    "Source": "SOC",
+    "CatId": "4f65a4f2-c43a-415b-b576-13744eb618b2",
+    "Description": "Целевые страницы, новости, файлы и ссылки в меню для определенных аудиторий ",
+    "StatusTagId": "b139cdb6-7ca2-4913-a118-0d8d2b20333c",
+    "StatusNote": "",
+    "Assets": [
+      "7e63eb42-2f1f-4afb-b6e3-43ada4faf681",
+      "b2258863-188f-4714-9fa0-54836385bff4",
+      "7757a6d8-ad47-4ef9-be64-3879b6324093",
+      "581f02ec-0666-4406-80a9-510d67feed77",
+      "889942d3-5ec1-43fa-b56c-6d5be1a51a4b",
+      "7ed6a352-9328-49ad-9ee1-0baaeedef979"
+    ]
+  },
+  {
+    "Id": "0c9c117e-aebc-48ed-9f9b-82a5c26464ab",
+    "Title": "Как сделать сайт мобильным",
+    "Image": "images/playlists/Make_Mobile.png",
+    "LevelId": "4bdd44af-d093-454d-941b-a46812de8870",
+    "AudienceId": "3b8f0120-1b35-49ac-9f51-1c30551c0ea8",
+    "TechnologyId": "aa90a736-5b7d-4d9a-8088-4e9c41ff9841",
+    "SubjectId": "",
+    "Source": "SOC",
+    "CatId": "4f65a4f2-c43a-415b-b576-13744eb618b2",
+    "Description": "Сделайте просмотр сайта с сайта с мобильного устройства удобным и побудите пользователей скачать мобильное приложение SharePoint",
+    "StatusTagId": "b139cdb6-7ca2-4913-a118-0d8d2b20333c",
+    "StatusNote": "",
+    "Assets": [
+      "720182be-f59c-4dd4-ae7f-82fda5ffa5ec"
+    ]
+  }
+]

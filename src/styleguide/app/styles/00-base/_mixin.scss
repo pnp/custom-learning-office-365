@@ -1,0 +1,153 @@
+@mixin multiLineEllipsis($linesHeight: 1.4em, $lines: 1) {
+	line-height: $linesHeight;
+
+	position: relative;
+
+	display: block;
+	display: -webkit-box;
+	overflow: hidden;
+
+	height: calc(#{$linesHeight} * #{$lines});
+	padding: 0 !important;
+
+	text-overflow: ellipsis;
+
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: #{$lines};
+
+	&:after {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+
+		display: block;
+
+		width: 25%;
+		height: $linesHeight;
+
+		content: "...";
+		text-align: right;
+
+		background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 75%);
+
+		@supports (-webkit-line-clamp: 1) {
+			display: none !important;
+		}
+	}
+}
+
+@mixin themeSlot($slotName, $type: null) {
+
+	@if $type==background {
+		@debug "--BACKGROUND";
+		background-color: "[theme:#{$slotName}]";
+		background-color: var(--#{$slotName});
+		@debug "[theme:#{$slotName}]";
+		@debug var(--#{$slotName});
+	}
+
+	@if $type==border {
+		@debug "--BORDER";
+		border-color: "[theme:#{$slotName}]";
+		border-color: var(--#{$slotName});
+		@debug "[theme:#{$slotName}]";
+		@debug var(--#{$slotName});
+	}
+
+	@if $type==fill {
+		@debug "--FILL";
+		fill: "[theme:#{$slotName}]";
+		fill: var(--#{$slotName});
+		@debug "[theme:#{$slotName}]";
+		@debug var(--#{$slotName});
+	}
+
+	@if $type==null {
+		@debug "--COLOR";
+		color: "[theme:#{$slotName}]";
+		color: var(--#{$slotName});
+		@debug "[theme:#{$slotName}]";
+		@debug var(--#{$slotName});
+	}
+
+}
+
+// @mixin multiLineEllipsis($lineHeight: 1.2em, $lineCount: 1, $bgColor: white) {
+//     overflow: hidden;
+//     position: relative;
+//     line-height: $lineHeight;
+//     max-height: $lineHeight * $lineCount;
+//     margin-right: -1em;
+//     padding-right: 1em;
+
+//     &:before {
+//         content: '...';
+//         position: absolute;
+//         right: 0;
+//         bottom: 0;
+//     }
+
+//     &:after {
+//         content: '';
+//         position: absolute;
+//         right: 0;
+//         width: 1em;
+//         height: 1em;
+//         margin-top: 0.2em;
+//         background: $bgColor;
+//     }
+// }
+
+// @mixin multiLineEllipsis($font-size: $paragraph-font-size, $line-height: 1.4, $lines-to-show: 3, $excerpt-bg: transparent){
+// 	/* Fallback for non-webkit */
+// 	font-size: $font-size;
+// 	line-height: $line-height;
+
+// 	display: block;
+// 	/* Fallback for non-webkit */
+// 	display: -webkit-box;
+// 	overflow: hidden;
+
+// 	max-height: $font-size*$line-height*$lines-to-show;
+
+// 	text-overflow: ellipsis;
+
+// 	background: $excerpt-bg;
+
+// 	-webkit-box-orient: vertical;
+// 	-webkit-line-clamp: $lines-to-show;
+
+// 	@-moz-document url-prefix(){
+// 		position: relative;
+
+// 		overflow: hidden;
+
+// 		&:before{
+// 			position: absolute;
+// 			right: 0;
+// 			bottom: 0;
+
+// 			float: right;
+
+// 			width: 3rem;
+// 			margin-left: -3rem;
+
+// 			content: "\2026";
+
+// 			background: $excerpt-bg;
+// 			background-color: lime;
+// 		}
+
+// 		&:after{
+// 			position: absolute;
+// 			z-index: 1;
+
+// 			width: 100%;
+// 			height: 50px;
+
+// 			content: "";
+
+// 			background: $excerpt-bg;
+// 		}
+// 	}
+// }

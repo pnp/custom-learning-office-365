@@ -1,0 +1,71 @@
+.adm-navsubcat{
+	padding: 0;
+
+	list-style-type: none;
+
+	& > li > .adm-navsubcat{
+		padding-left: 1.5em;
+	}
+}
+
+.adm-navsubcat-item{
+	line-height: 1.5em;
+}
+
+.adm-navsubcat-link{
+	@include fs-m-plus;
+
+	line-height: 1.7em;
+
+	display: inline-block;
+
+	box-sizing: border-box;
+	width: 100%;
+
+	transition: height .66s ease-out;
+	text-decoration: none;
+
+	color: $c-gray;
+
+	&.selected,
+	&:hover{
+		font-weight: bold;
+		line-height: 1.69em;
+	}
+}
+
+.adm-navsection-subcat{
+	box-sizing: border-box;
+	width: span(3 narrow of 12);
+	@media screen and (max-width: 768px){
+		width: span(4 narrow of 12);
+	}
+	@media screen and (max-width: 480px){
+		width: span(12 narrow of 12);
+	}
+}
+
+.adm-category-srch{
+	box-sizing: border-box;
+	width: calc(100% - 50px);
+	margin-right: -2em;
+	margin-left: 2em;
+	padding-top: 5px;
+}
+
+.cmdbar-beta{
+	display: flex;
+
+	padding: .25em;
+
+	// background-color: rgb(244, 244, 244);
+
+	align-content: center;
+	.ms-SearchBox{
+		width: auto;
+		margin-left: 1em;
+
+		flex-basis: 400px;
+	}
+}
+

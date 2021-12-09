@@ -1,0 +1,221 @@
+/**
+* RWD Design optimsations for SPFx
+@Author: Stefan Bauer
+*/
+
+:global {
+
+  // full width canvas
+  .CanvasSection-xl12 {
+    .category-item {
+      &:nth-child(6n+1) {
+        margin-left: 0;
+      }
+
+      @media screen and (max-width: 960px) {
+        &:nth-child(6n+1) {
+          margin-left: 32px;
+        }
+      }
+    }
+  }
+
+  .CanvasSection-xl8 {
+    .category-item {
+      @media screen and (min-width: 1024px) {
+        width: calc(#{span(3 narrow)} - .1px);
+
+        &:nth-child(4n+1) {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+
+
+  .CanvasSection-xl6 {
+    .category-item {
+      @media screen and (min-width: 1280px) {
+        width: calc(#{span(4 narrow)} - .1px);
+
+        &:nth-child(3n+1) {
+          margin-left: 0;
+        }
+      }
+
+      @media screen and (min-width: 1024px) and (max-width: 1280px) {
+        width: calc(#{span(3 narrow)} - .1px);
+
+        &:nth-child(4n+1) {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+
+  .CanvasSection-xl4 {
+    .category-item {
+      width: calc(#{span(6 narrow)} - .1px);
+
+      @media screen and (min-width: 1024px) {
+        &:nth-child(2n+1) {
+          margin-left: 0;
+        }
+      }
+    }
+
+    @media screen and (max-width:480px),
+    screen and (min-width: 1024px) {
+      .playerctrl {
+        max-width: 100%;
+        white-space: normal;
+
+        flex-wrap: wrap;
+
+        .playerctrl-title {
+          break-after: always;
+          flex-basis: 100%;
+          flex-shrink: 0;
+          order: 1;
+          page-break-after: always;
+        }
+
+        .playerctrl-prev {
+          position: static;
+
+          display: flex;
+
+          text-align: left;
+
+          break-before: always;
+          flex-basis: 50%;
+          order: 2;
+          page-break-before: always;
+
+          button {
+            min-width: 112px;
+
+            white-space: nowrap;
+          }
+        }
+
+        .playerctrl-next {
+          position: relative;
+          position: static;
+
+          display: flex;
+
+          min-width: 112px;
+
+          break-after: always;
+          flex-basis: 50%;
+          flex-wrap: nowrap;
+          justify-content: flex-end;
+          order: 3;
+
+          button {
+            min-width: 112px;
+
+            white-space: nowrap;
+          }
+        }
+      }
+    }
+  }
+
+  .CanvasSection-xl4 {
+    :local {
+      .customLearning {
+        :global {
+          .headerpanel {
+            flex-direction: column;
+
+            &-left,
+            &-right {
+              width: unset;
+
+              flex-basis: unset;
+            }
+          }
+
+          .plov {
+            column-count: 1;
+          }
+
+          .sldpnl {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  // default width for tablets
+  @media screen and (min-width: 960px) and (max-width: 1023.9999999px) {
+
+    .CanvasSection-xl12,
+    .CanvasSection-xl8,
+    .CanvasSection-xl6,
+    .CanvasSection-xl4 {
+      .category-item {
+        width: calc(#{span(2 narrow)} - .1px);
+
+        &:nth-child(6n+1) {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 640px) and (max-width: 959.9999px) {
+
+    .CanvasSection-xl12,
+    .CanvasSection-xl8,
+    .CanvasSection-xl6,
+    .CanvasSection-xl4 {
+      .category-item {
+        width: calc(#{span(3 narrow)} - .1px);
+
+        &:nth-child(4n+1) {
+          margin-left: 0;
+        }
+
+        // &:nth-child(6n+1){
+        //   margin-left: 32px;
+        // }
+      }
+    }
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 640px) {
+
+    .CanvasSection-xl12,
+    .CanvasSection-xl8,
+    .CanvasSection-xl6,
+    .CanvasSection-xl4 {
+      .category-item {
+        width: calc(#{span(6 narrow)} - .1px);
+
+        &:nth-child(2n+1) {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+
+    .CanvasSection-xl12,
+    .CanvasSection-xl8,
+    .CanvasSection-xl6,
+    .CanvasSection-xl4 {
+      .category-item {
+        width: calc(#{span(12 narrow)} - .1px);
+
+        &:nth-child(n) {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}

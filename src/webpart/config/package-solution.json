@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Microsoft 365 learning pathways",
+    "id": "26c9cd9f-db62-49b1-b102-7f0dad281ea0",
+    "version": "4.3.1.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Julie Turner/Stefan Bauer",
+      "privacyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+      "termsOfUseUrl": "https://unpkg.com/@microsoft/sp-core-library@1.8.2/EULA/Microsoft%20Sharepoint%20Framework%20-%20Standalone%20(free)%20Use%20Terms.docx",
+      "websiteUrl": "https://github.com/pnp/custom-learning-office-365",
+      "mpnId": "M365PnP"
+    }
+  },
+  "paths": {
+    "zippedPackage": "solution/customlearning.sppkg"
+  }
+}

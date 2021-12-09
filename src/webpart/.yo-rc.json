@@ -1,0 +1,12 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": false,
+    "environment": "spo",
+    "version": "1.12.1",
+    "libraryName": "customlearning",
+    "libraryId": "26c9cd9f-db62-49b1-b102-7f0dad281ea0",
+    "packageManager": "npm",
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
