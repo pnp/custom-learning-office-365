@@ -248,8 +248,8 @@
         {
           "Id": "a7f1ca95-e0eb-4715-b846-89fc8d2afa56",
           "Name": "Colaboración",
-          "Image": "images/categories/Collaboration_Category.png",
-          "TechnologyId": "",
+          "Image": "images/categories/customfeatured.png",
+          "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
           "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
