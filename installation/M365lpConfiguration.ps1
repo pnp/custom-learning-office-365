@@ -27,7 +27,9 @@ if (-not (Get-Module -ListAvailable -Name SharePointPnPPowerShellOnline )) {
   Write-Warning "You can install them it the following line:"
   Write-Warning "`nInstall-Module SharePointPnPPowerShellOnline`n"
   return
-} 
+} else {
+  Import-Module -Name SharePointPnPPowerShellOnline -DisableNameChecking
+}
 # Check if tenant name was passed in
 while ([string]::IsNullOrWhitespace($TenantName)) {
   # No TenantName was passed, prompt the user
@@ -53,10 +55,10 @@ $clSite = "https://$TenantName.sharepoint.com/sites/$SiteCollectionName"
 try {
   # If Credentials were passed, try them
   if (-not [string]::IsNullOrWhitespace($Credentials)) {
-    Connect-PnPOnline -Url $clSite -Credentials $Credentials -ErrorAction Stop
+    SharePointPnPPowerShellOnline\Connect-PnPOnline -Url $clSite -Credentials $Credentials -ErrorAction Stop
   } else {
     # If not, prompt for authentication. This supports MFA
-    Connect-PnPOnline -Url $clSite -UseWebLogin -ErrorAction Stop
+    SharePointPnPPowerShellOnline\Connect-PnPOnline -Url $clSite -UseWebLogin -ErrorAction Stop
   }
 }
 catch {
