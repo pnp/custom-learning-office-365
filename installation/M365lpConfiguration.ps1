@@ -7,7 +7,7 @@
 if ($AppCatalogAdminOnly -and $SiteAdminOnly) {
   Write-Host "Select either -AppCatalogAdminOnly or -SiteAdminOnly"
   Write-Host "If you want to run both tenant and site admin parts, don't pass either parameter"
-  break
+  return
 }
 $AppCatalogAdmin = $AppCatalogAdminOnly
 $SiteAdmin = $SiteAdminOnly
@@ -20,14 +20,16 @@ Write-Host "Microsoft collects active usage data from your organization’s use 
 Read-Host "Press Enter to Continue"
 $optInTelemetry = $true
 #endregion
-# verify the PnP cmdlets we need are installed
-if (-not (Get-Command Connect-PnPOnline -ErrorAction SilentlyContinue  )) {
-  Write-Warning "Could not find PnP PowerShell cmdlets"
-  Write-Warning "Please install them and run this script again"
-  Write-Warning "You can install them with the following line:"
-  Write-Warning "`nInstall-Module PnP.PowerShell`n"
-  break
-} 
+# verify the SharePointPnPPowerShellOnline module we need is installed
+if (-not (Get-Module -ListAvailable -Name SharePointPnPPowerShellOnline )) {
+  Write-Warning "Could not find the SharePointPnPPowerShellOnline module"
+  Write-Warning "Please install it and run this script again"
+  Write-Warning "You can install them it the following line:"
+  Write-Warning "`nInstall-Module SharePointPnPPowerShellOnline`n"
+  return
+} else {
+  Import-Module -Name SharePointPnPPowerShellOnline -DisableNameChecking
+}
 # Check if tenant name was passed in
 while ([string]::IsNullOrWhitespace($TenantName)) {
   # No TenantName was passed, prompt the user
@@ -53,16 +55,16 @@ $clSite = "https://$TenantName.sharepoint.com/sites/$SiteCollectionName"
 try {
   # If Credentials were passed, try them
   if (-not [string]::IsNullOrWhitespace($Credentials)) {
-    Connect-PnPOnline -Url $clSite -Credentials $Credentials -ErrorAction Stop
+    SharePointPnPPowerShellOnline\Connect-PnPOnline -Url $clSite -Credentials $Credentials -ErrorAction Stop
   } else {
     # If not, prompt for authentication. This supports MFA
-    Connect-PnPOnline -Url $clSite -UseWebLogin -ErrorAction Stop
+    SharePointPnPPowerShellOnline\Connect-PnPOnline -Url $clSite -UseWebLogin -ErrorAction Stop
   }
 }
 catch {
   Write-Host "Failed to authenticate to $clSite"
   Write-Host $_
-  break
+  return
 }
 #region Connect to Admin site.
 if ($AppCatalogAdmin) {   
@@ -72,7 +74,7 @@ if ($AppCatalogAdmin) {
     Write-Warning "Please visit https://social.technet.microsoft.com/wiki/contents/articles/36933.create-app-catalog-in-sharepoint-online.aspx to learn how, then run this setup script again"
     Write-Host "`n"
     Disconnect-PnPOnline
-    break
+    return
   }
   $appcatalog = Get-PnPTenantAppCatalogUrl
     
@@ -87,7 +89,7 @@ if ($AppCatalogAdmin) {
     Write-Warning "Please make sure they are a Site Collection Admin for $appcatalog"
     Write-Warning $_
     Disconnect-PnPOnline
-    break
+    return
   }
   Get-PnPStorageEntity -Key MicrosoftCustomLearningCdn
   Set-PnPStorageEntity -Key MicrosoftCustomLearningSite -Value $clSite -Description "Microsoft 365 learning pathways Site Collection"
@@ -105,7 +107,7 @@ if ($SiteAdmin) {
   # Get the app
   # Check for it at the tenant level first
   $id = (Get-PnPApp | Where-Object -Property title -Like -Value "Microsoft 365 learning pathways").id 
-  if ($id -ne $null) { 
+  if ($null -ne $id) { 
     # Found the app in the tenant app catalog
     # Install it to the site collection if it's not already there
     Install-PnPApp -Identity $id -ErrorAction SilentlyContinue 
@@ -115,10 +117,10 @@ if ($SiteAdmin) {
     break
   }
   $sitePagesList = Get-PnPList -Identity "SitePages"
-  if($sitePagesList -ne $null) {    
+  if($null -ne $sitePagesList) {    
     # Delete pages if they exist. Alert user.
     $clv = Get-PnPListItem -List $sitePagesList -Query "<View><Query><Where><Eq><FieldRef Name='FileLeafRef'/><Value Type='Text'>CustomLearningViewer.aspx</Value></Eq></Where></Query></View>"
-    if ($clv -ne $null) {
+    if ($null -ne $clv) {
       Write-Host "Found an existing CustomLearningViewer.aspx page. Deleting it."
       # Renaming and moving to Recycle Bin to prevent potential naming overlap
       Set-PnPListItem -List $sitePagesList -Identity $clv.Id -Values @{"FileLeafRef" = "CustomLearningViewer$((Get-Date).Minute)$((Get-date).second).aspx" }
@@ -155,7 +157,7 @@ if ($SiteAdmin) {
     $clv.Update()
     Invoke-PnPQuery # Done with the viewer page
     $cla = Get-PnPListItem -List $sitePagesList -Query "<View><Query><Where><Eq><FieldRef Name='FileLeafRef'/><Value Type='Text'>CustomLearningAdmin.aspx</Value></Eq></Where></Query></View>"
-    if ($cla -ne $null) {
+    if ($null -ne $cla) {
       Write-Host "Found an existing CustomLearningAdmin.aspx page. Deleting it."
       # Renaming and moving to Recycle Bin to prevent potential naming overlap
       Set-PnPListItem -List $sitePagesList -Identity $cla.Id -Values @{"FileLeafRef" = "CustomLearningAdmin$((Get-Date).Minute)$((Get-date).second).aspx" }
@@ -173,7 +175,7 @@ if ($SiteAdmin) {
   }
   else { 
     Write-Warning "Could not find `"Site Pages`" library. Please make sure you are running this on a Modern SharePoint site"
-    break
+    return
   }
 }
 Disconnect-PnPOnline # Disconnect from SharePoint Admin
