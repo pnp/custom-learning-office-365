@@ -1,16 +1,5 @@
 # Microsoft 365 learning pathways
 
-## Service Health: SP Look Book Provisioning Site & Solution Provisioning Down for Maintenance
-**Important!**
-**Service Interruption - Impacted Service:** Provisioning from SharePoint Look Book.
-
-**Experience Impact:** Site & solution provisioning unavailable including Microsoft 365 Learning Pathways.
-
-**Details:** The provisioning capability from the SharePoint Look Book is currently undergoing maintenance.  Manual implementation of the M365 Learning Pathways webpart can be accomplished and instructions exist in our documentation (https://aka.ms/M365LPDocs). There is no impact to currently operating customers, previously provisioned templates or streaming content for Learning Pathways. There is no current workaround for site template provisioning.  
-
-
-**Expected Resolution:**  February 4, 2022 or earlier
-
 Train employees with Microsoft 365 learning pathways, a digital, customizable learning solution that helps customers transform their organization. Microsoft 365 learning pathways provides:
 
 - Comprehensive end user training content: product and scenario-based training, in video and article format
