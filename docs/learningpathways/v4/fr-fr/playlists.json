@@ -268,7 +268,7 @@
     "Image": "images/playlists/playlist_bw.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "a7f1ca95-e0eb-4715-b846-89fc8d2afa56",
@@ -518,8 +518,7 @@
       "59fce479-241d-45f2-a79c-e7485fd02066",
       "6f739c5e-bb13-4ce9-9301-abf4a9cac9e2",
       "9655a0e0-34f0-4805-8221-420ae713e0d0",
-      "b1d3baac-83e4-4d1a-8f8c-bb5e02409a37",
-      "a3d5959b-91ea-4cf0-b60a-e27abe03d59e"
+      "b1d3baac-83e4-4d1a-8f8c-bb5e02409a37"
     ]
   },
   {
@@ -813,7 +812,7 @@
   },
   {
     "Id": "a8cbac83-f7e8-45ff-a4a6-6b04f31a5745",
-    "Title": "Excel Démarrage rapide",
+    "Title": "démarrage rapide Excel",
     "Image": "images/playlists/excel_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -821,7 +820,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "Commencez rapidement avec le Excel guide de démarrage rapide. Découvrez comment créer un fichier de calcul, entrer des données, enregistrer votre fichier dans OneDrive, remplir automatiquement une colonne avec remplissage flash, calculer rapidement avec la fonction De remplissage automatique, créer un graphique ou utiliser une mise en forme conditionnelle avec l’Analyse rapide, figer la ligne supérieure, partager votre fichier pour collaborer avec d’autres personnes et configurer vos applications mobiles.",
+    "Description": "Démarrage rapidement avec le guide de démarrage rapide Excel. Découvrez comment créer un classeur, entrer des données, enregistrer votre classeur pour OneDrive et remplir automatiquement une colonne avec Flash Remplissage. Découvrez également comment calculer rapidement avec AutoSum, créer un graphique ou utiliser la mise en forme conditionnelle avec l’analyse rapide, figer la ligne supérieure, partager votre classeur pour collaborer avec d’autres personnes et configurer vos applications mobiles.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2742,6 +2741,48 @@
       "0e1f467f-0cf1-425a-ab03-4d28c7693043",
       "1839cbb2-820e-4fa4-b1e3-f582c0d9330e",
       "11fc6ef4-03ac-4f67-a7e3-e5ea59edeff8"
+    ]
+  },
+  {
+    "Id": "918d6186-5b0d-47ed-8370-8e3b66c578aa",
+    "Title": "Prise en main de Viva Connections.",
+    "Image": "images/playlists/vivaconnections_getstarted.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "e031aa9d-5421-4ee9-8bc6-1b871bafc7f0",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "6682f5e0-9f2a-4cd3-9ada-d404b8d34761",
+    "Description": "Microsoft Viva Connections fournit une base de base personnalisée et actionnable qui vous permet d’effectuer des tâches quotidiennes des employés, de rester connecté aux actualités de l’entreprise et d’accéder aux ressources—sans quitter votre hub pour le travail d’équipe.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "8b4e7f76-f305-49a9-b6d2-09378476f95b",
+      "3da30f39-684a-4bde-bb81-2e1407d59b52",
+      "753e0607-0bfd-4712-ad7e-18490dd565a2"
+    ]
+  },
+  {
+    "Id": "4914ee96-5306-44a1-a27e-0aa297b66ff8",
+    "Title": "Prise en main de Viva Learning",
+    "Image": "images/playlists/vivalearning_getstarted.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "fa2b8bc0-3316-4102-a5a0-d71610d49d2a",
+    "Description": "Viva Learning crée un hub central pour l'apprentissage dans Teams où les gens peuvent partager, recommander et apprendre des bibliothèques de contenu à travers une organisation pour permettre aux équipes et aux individus de faire de l'apprentissage une partie naturelle de leur journée. Cela inclut l'accès aux bibliothèques de contenu de LinkedIn Learning, Microsoft Learn, Microsoft 365 Training et des fournisseurs de contenu tiers et des systèmes de gestion de l'apprentissage, ainsi qu'au contenu que votre entreprise ajoute à Viva Learning.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "01bfed12-c327-41e0-a68f-7fa527dcc98a",
+      "6badc784-0948-4922-94cc-85cd987def0a",
+      "09a94473-cdd4-463b-9dbe-8e6648eb9bdb",
+      "ca774f08-6bed-441b-a74b-3aac15cd9019",
+      "77f9dcbf-41a8-4b19-b4d1-b99c406f37b8",
+      "b1ef9cb6-c2b1-4c64-aaf9-72f598e42688",
+      "692bfe1a-0e8d-467c-b5a7-4e17c132ae93"
     ]
   },
   {
