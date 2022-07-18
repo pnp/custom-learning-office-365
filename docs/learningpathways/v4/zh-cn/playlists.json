@@ -209,7 +209,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
-    "Description": "使用辅助功能检查器创建更易于访问的 Word 文档，以检查和更正辅助功能问题。向图像和对象添加替换文字，使用标题样式提高可访问性，创建有意义的文件名和超链接，整理表格中的信息以显示关系，并学习使具有屏幕阅读器的人更易于访问文件的提示。",
+    "Description": "使用辅助功能检查器创建更易于访问的 Word 文档，以检查和纠正辅助功能问题。 向图像和对象添加替换文字，使用标题样式改进辅助功能，创建有意义的文件名和超链接，在表中组织信息以显示关系，并了解使具有屏幕阅读器的用户更易于访问文件的提示。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -218,8 +218,7 @@
       "6596fb5a-c25e-4dcb-b034-7cb38b611e38",
       "727e6ff1-ef1c-475d-90d0-196e26b5b753",
       "5c882b54-d2b1-4270-b65d-79483a2aa3ca",
-      "9f920424-7de6-4002-b4ed-6503a3cfae2d",
-      "d47b9703-df15-4a41-b895-e97729062e23"
+      "9f920424-7de6-4002-b4ed-6503a3cfae2d"
     ]
   },
   {
@@ -2281,7 +2280,7 @@
   },
   {
     "Id": "a0cbd9cd-bfeb-4976-b39d-8c21da669d0f",
-    "Title": "人员与连接",
+    "Title": "人员和连接",
     "Image": "images/playlists/outlook-mobile-people-and-connections.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2289,7 +2288,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "使用Outlook移动版管理您的时间、安排会议以及查看每个人何时可用。使用会议位置助手、发送会议可用性、共享日历、合并和合并日历以及管理通知。了解 10 大Outlook移动提示。",
+    "Description": "使用 Outlook 移动版中的人员和连接了解联系人、扫描联系人或添加联系人。 使用@mentions、收藏的联系人和设置通知，或将文件夹和组添加到收藏夹。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2297,10 +2296,7 @@
       "555babd1-f307-48ef-a2cf-f6ea1aae6fdc",
       "f21a4063-db88-40ab-9376-8e324711f6d8",
       "6d35e08b-ca70-42b8-abf7-cca1ddbd267d",
-      "0e8be5a2-c2e1-4702-bb76-0ee7228b9d35",
-      "82fa4ae4-e978-4603-8460-a6293eacd38b",
-      "0b32ebf0-fae9-4815-a061-94048d0799ef",
-      "615b74e8-37e7-43a3-9ac3-a41c5e30843a"
+      "0e8be5a2-c2e1-4702-bb76-0ee7228b9d35"
     ]
   },
   {

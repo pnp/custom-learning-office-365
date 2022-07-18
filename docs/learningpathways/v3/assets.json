@@ -143,17 +143,6 @@
     "StatusNote": ""
   },
   {
-    "Id": "d47b9703-df15-4a41-b895-e97729062e23",
-    "Title": "Creating accessible documents",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/8d720231-495a-489c-a27a-eaf98f85c4f3?embed=true",
-    "TechnologyId": "",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
     "Id": "d8de6398-e129-4019-8b34-b241e164456a",
     "Title": "Improve email accessibility",
     "Description": "",
@@ -6425,9 +6414,9 @@
   },
   {
     "Id": "0e8be5a2-c2e1-4702-bb76-0ee7228b9d35",
-    "Title": "Merge or combine calendars",
+    "Title": "Add folders and groups to Favorites",
     "Description": "",
-    "Url": "https://support.office.com/en-us/client/114b5924-7c5c-43f5-8073-6fc2c389075e?embed=true",
+    "Url": "https://support.office.com/en-us/client/450021d7-0035-4276-8817-351cf2f493d2?embed=true",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -6601,9 +6590,9 @@
   },
   {
     "Id": "555babd1-f307-48ef-a2cf-f6ea1aae6fdc",
-    "Title": "Meeting location assistant",
+    "Title": "Scan or tap to add contacts",
     "Description": "",
-    "Url": "https://support.office.com/en-us/client/3218816c-4c1d-4e30-be3e-444bdb23f9c6?embed=true",
+    "Url": "https://support.office.com/en-us/client/4818ef14-0fc8-4ec2-bb4d-440ea8cae17b?embed=true",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -6667,9 +6656,9 @@
   },
   {
     "Id": "672f8ae7-1843-4dff-acb4-d3a998f5f392",
-    "Title": "Scheduling made easy",
+    "Title": "Learn about contacts",
     "Description": "",
-    "Url": "https://support.office.com/en-us/client/11c5bee5-d78a-4a2b-80c2-2b386ddb4470?embed=true",
+    "Url": "https://support.office.com/en-us/client/72518d01-9739-435a-8722-0da211a885b1?embed=true",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -6678,9 +6667,9 @@
   },
   {
     "Id": "6d35e08b-ca70-42b8-abf7-cca1ddbd267d",
-    "Title": "Calendar sharing",
+    "Title": "Favorite contacts and set notifications",
     "Description": "",
-    "Url": "https://support.office.com/en-us/client/e6c3563d-8dfb-4de3-bff8-c630d4a265ec?embed=true",
+    "Url": "https://support.office.com/en-us/client/d7cce114-3f45-4d33-8683-af4f303d6e2d?embed=true",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -6887,9 +6876,9 @@
   },
   {
     "Id": "f21a4063-db88-40ab-9376-8e324711f6d8",
-    "Title": "Send meeting availability",
+    "Title": "Use @mentions",
     "Description": "",
-    "Url": "https://support.office.com/en-us/client/31f975ab-38b5-48c5-a2e7-6a960aefd9fc?embed=true",
+    "Url": "https://support.office.com/en-us/client/ae422550-c61b-4daf-897b-748abe92e31f?embed=true",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",

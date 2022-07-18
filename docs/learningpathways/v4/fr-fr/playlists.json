@@ -209,7 +209,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
-    "Description": "Créez des documents Word plus accessibles avec le Correcteur d’accessibilité pour vérifier et corriger les problèmes d’accessibilité. Ajoutez un texte de alt aux images et aux objets, utilisez les styles de titre pour améliorer l’accessibilité, créez des noms de fichiers et des liens hypertexte significatifs, organisez les informations dans les tableaux pour montrer les relations et apprenez des conseils pour rendre les fichiers plus accessibles aux personnes qui utilisent des lecteurs d’écran.",
+    "Description": "Créez des documents Word plus accessibles avec le vérificateur d’accessibilité pour vérifier et corriger les problèmes d’accessibilité. Ajoutez du texte de remplacement aux images et aux objets, utilisez des styles de titre pour améliorer l’accessibilité, créez des noms de fichiers significatifs et des liens hypertexte, organisez des informations dans des tableaux pour afficher les relations et découvrez des conseils qui rendent les fichiers plus accessibles pour les personnes ayant des lecteurs d’écran.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -218,8 +218,7 @@
       "6596fb5a-c25e-4dcb-b034-7cb38b611e38",
       "727e6ff1-ef1c-475d-90d0-196e26b5b753",
       "5c882b54-d2b1-4270-b65d-79483a2aa3ca",
-      "9f920424-7de6-4002-b4ed-6503a3cfae2d",
-      "d47b9703-df15-4a41-b895-e97729062e23"
+      "9f920424-7de6-4002-b4ed-6503a3cfae2d"
     ]
   },
   {
@@ -2281,7 +2280,7 @@
   },
   {
     "Id": "a0cbd9cd-bfeb-4976-b39d-8c21da669d0f",
-    "Title": "Personnes et connexions",
+    "Title": "Contacts et connexions",
     "Image": "images/playlists/outlook-mobile-people-and-connections.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2289,7 +2288,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "Utilisez Outlook mobile pour gérer votre temps, planifier des réunions et voir quand tout le monde est disponible. Utilisez l’Assistant Localisation de réunion, envoyez la disponibilité pour les réunions, partagez votre calendrier, fusionnez et combinez des calendriers, et gérez vos notifications. Découvrez les 10 principaux conseils Outlook’utilisation des appareils mobiles.",
+    "Description": "Utilisez Contacts et connexions dans Outlook Mobile pour en savoir plus sur les contacts, analyser les contacts ou ajouter des contacts. Utilisez @mentions, des contacts favoris et définissez des notifications ou ajoutez des dossiers et des groupes aux favoris.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2297,10 +2296,7 @@
       "555babd1-f307-48ef-a2cf-f6ea1aae6fdc",
       "f21a4063-db88-40ab-9376-8e324711f6d8",
       "6d35e08b-ca70-42b8-abf7-cca1ddbd267d",
-      "0e8be5a2-c2e1-4702-bb76-0ee7228b9d35",
-      "82fa4ae4-e978-4603-8460-a6293eacd38b",
-      "0b32ebf0-fae9-4815-a061-94048d0799ef",
-      "615b74e8-37e7-43a3-9ac3-a41c5e30843a"
+      "0e8be5a2-c2e1-4702-bb76-0ee7228b9d35"
     ]
   },
   {
