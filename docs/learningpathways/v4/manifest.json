@@ -6,17 +6,19 @@
   "Version": {
     "Manifest": "v4",
     "ManifestMinWebPart": "4.0.0",
-    "CurrentWebPart": "4.3.1",
+    "CurrentWebPart": "4.2.0",
     "RepoURL": "https://github.com/pnp/custom-learning-office-365#updating-the-solution"
   },
-  "ContentPacks": [{
-    "Id": "a748d357-1879-436f-96fc-20dd1fed87bb",
-    "Name": "SharePoint Success Site",
-    "Description": "Add the SharePoint Success Site content pack to access playlists that support training new SharePoint Site owners on how to create high-impact sites.",
-    "Image": "https://pnp.github.io/custom-learning-office-365/sss/v4/en-us/images/categories/AddSSS.png",
-    "ProvisionUrl": "https://lookbook.microsoft.com/details/0b860749-56a0-4c4c-992c-536d56d9accf",
-    "CdnBase": "https://pnp.github.io/custom-learning-office-365/sss/"
-  }],
+  "ContentPacks": [
+    {
+      "Id": "a748d357-1879-436f-96fc-20dd1fed87bb",
+      "Name": "SharePoint Success Site",
+      "Description": "Add the SharePoint Success Site content pack to access playlists that support training new SharePoint Site owners on how to create high-impact sites.",
+      "Image": "https://pnp.github.io/custom-learning-office-365/sss/v4/en-us/images/categories/AddSSS.png",
+      "ProvisionUrl": "https://lookbook.microsoft.com/details/0b860749-56a0-4c4c-992c-536d56d9accf",
+      "CdnBase": "https://pnp.github.io/custom-learning-office-365/sss/"
+    }
+  ],
   "AssetOrigins": [
     "https://support.office.com",
     "https://docs.microsoft.com"

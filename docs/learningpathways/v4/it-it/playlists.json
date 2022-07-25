@@ -209,7 +209,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
-    "Description": "Creare documenti di Word più accessibili con Verifica accessibilità per verificare e correggere i problemi di accessibilità. Aggiungere testo alternativo a immagini e oggetti, usare gli stili titolo per migliorare l'accessibilità, creare nomi di file e collegamenti ipertestuali significativi, organizzare le informazioni nelle tabelle per mostrare le relazioni e ottenere suggerimenti che rendono i file più accessibili per gli utenti con utilità per la lettura dello schermo.",
+    "Description": "Creare documenti di Word più accessibili con Verifica accessibilità per verificare e correggere i problemi di accessibilità. Aggiungere testo alternativo a immagini e oggetti, usare gli stili titolo per migliorare l'accessibilità, creare nomi di file e collegamenti ipertestuali significativi, organizzare le informazioni nelle tabelle per mostrare le relazioni e suggerimenti per rendere i file più accessibili per gli utenti con utilità per la lettura dello schermo.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -218,8 +218,7 @@
       "6596fb5a-c25e-4dcb-b034-7cb38b611e38",
       "727e6ff1-ef1c-475d-90d0-196e26b5b753",
       "5c882b54-d2b1-4270-b65d-79483a2aa3ca",
-      "9f920424-7de6-4002-b4ed-6503a3cfae2d",
-      "d47b9703-df15-4a41-b895-e97729062e23"
+      "9f920424-7de6-4002-b4ed-6503a3cfae2d"
     ]
   },
   {
@@ -268,7 +267,7 @@
     "Image": "images/playlists/playlist_bw.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "a7f1ca95-e0eb-4715-b846-89fc8d2afa56",
@@ -518,8 +517,7 @@
       "59fce479-241d-45f2-a79c-e7485fd02066",
       "6f739c5e-bb13-4ce9-9301-abf4a9cac9e2",
       "9655a0e0-34f0-4805-8221-420ae713e0d0",
-      "b1d3baac-83e4-4d1a-8f8c-bb5e02409a37",
-      "a3d5959b-91ea-4cf0-b60a-e27abe03d59e"
+      "b1d3baac-83e4-4d1a-8f8c-bb5e02409a37"
     ]
   },
   {
@@ -813,7 +811,7 @@
   },
   {
     "Id": "a8cbac83-f7e8-45ff-a4a6-6b04f31a5745",
-    "Title": "Excel Guida introduttiva",
+    "Title": "Guida introduttiva di Excel",
     "Image": "images/playlists/excel_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -821,7 +819,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "Introduzione alla guida introduttiva Excel guida introduttiva. Informazioni su come creare una cartella di lavoro, immettere dati, salvare la cartella di lavoro in OneDrive, riempire automaticamente una colonna con Anteprima anteprima, calcolare rapidamente con Somma automatica, creare un grafico o usare la formattazione condizionale con Analisi rapida, bloccare la riga superiore, condividere la cartella di lavoro per collaborare con altri utenti e configurare le app per dispositivi mobili.",
+    "Description": "Attività iniziali rapidamente con la guida introduttiva Excel. Informazioni su come creare una cartella di lavoro, immettere dati, salvare la cartella di lavoro in OneDrive e riempire automaticamente una colonna con Flash Riempimento. Informazioni su come calcolare rapidamente con Somma automatica, creare un grafico o usare la formattazione condizionale con Analisi rapida, bloccare la riga superiore, condividere la cartella di lavoro per collaborare con altri utenti e configurare le app per dispositivi mobili.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2290,7 +2288,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "Usa Outlook cellulare per gestire il tuo tempo, pianificare riunioni e vedere quando tutti sono disponibili. Usare l'Assistente posizione riunione, inviare la disponibilità della riunione, condividere il calendario, unire e combinare calendari e gestire le notifiche. Scopri i 10 suggerimenti Outlook per dispositivi mobili.",
+    "Description": "Usare Persone e connessioni in Outlook Mobile per informazioni sui contatti, analizzare i contatti o aggiungere contatti. Usa @mentions, i contatti preferiti e imposta notifiche o aggiungi cartelle e gruppi ai Preferiti.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2298,10 +2296,7 @@
       "555babd1-f307-48ef-a2cf-f6ea1aae6fdc",
       "f21a4063-db88-40ab-9376-8e324711f6d8",
       "6d35e08b-ca70-42b8-abf7-cca1ddbd267d",
-      "0e8be5a2-c2e1-4702-bb76-0ee7228b9d35",
-      "82fa4ae4-e978-4603-8460-a6293eacd38b",
-      "0b32ebf0-fae9-4815-a061-94048d0799ef",
-      "615b74e8-37e7-43a3-9ac3-a41c5e30843a"
+      "0e8be5a2-c2e1-4702-bb76-0ee7228b9d35"
     ]
   },
   {
@@ -2742,6 +2737,48 @@
       "0e1f467f-0cf1-425a-ab03-4d28c7693043",
       "1839cbb2-820e-4fa4-b1e3-f582c0d9330e",
       "11fc6ef4-03ac-4f67-a7e3-e5ea59edeff8"
+    ]
+  },
+  {
+    "Id": "918d6186-5b0d-47ed-8370-8e3b66c578aa",
+    "Title": "Introduzione a Viva Connections",
+    "Image": "images/playlists/vivaconnections_getstarted.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "e031aa9d-5421-4ee9-8bc6-1b871bafc7f0",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "6682f5e0-9f2a-4cd3-9ada-d404b8d34761",
+    "Description": "Microsoft Viva Connections fornisce una base di partenza personalizzata e fruibile che ti consente di completare le attività quotidiane dei dipendenti, rimanere in contatto con le notizie aziendali e accedere alle risorse—il tutto senza lasciare il tuo hub per il lavoro di squadra.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "8b4e7f76-f305-49a9-b6d2-09378476f95b",
+      "3da30f39-684a-4bde-bb81-2e1407d59b52",
+      "753e0607-0bfd-4712-ad7e-18490dd565a2"
+    ]
+  },
+  {
+    "Id": "4914ee96-5306-44a1-a27e-0aa297b66ff8",
+    "Title": "Introduzione a Viva Learning",
+    "Image": "images/playlists/vivalearning_getstarted.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "fa2b8bc0-3316-4102-a5a0-d71610d49d2a",
+    "Description": "Viva Learning crea un hub centrale per l'apprendimento in Teams, in cui le persone possono condividere, consigliare e imparare dalle raccolte di contenuti in un'organizzazione per consentire ai team e ai singoli utenti di rendere l'apprendimento una parte naturale della giornata. Sono inclusi l'accesso alle raccolte contenuto da LinkedIn Learning, Microsoft Learn, Microsoft 365 Training e provider di contenuti di terze parti e sistemi di gestione dell'apprendimento, oltre ai contenuti aggiunti dall'azienda a Viva Learning.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "01bfed12-c327-41e0-a68f-7fa527dcc98a",
+      "6badc784-0948-4922-94cc-85cd987def0a",
+      "09a94473-cdd4-463b-9dbe-8e6648eb9bdb",
+      "ca774f08-6bed-441b-a74b-3aac15cd9019",
+      "77f9dcbf-41a8-4b19-b4d1-b99c406f37b8",
+      "b1ef9cb6-c2b1-4c64-aaf9-72f598e42688",
+      "692bfe1a-0e8d-467c-b5a7-4e17c132ae93"
     ]
   },
   {

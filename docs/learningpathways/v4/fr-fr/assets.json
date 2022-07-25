@@ -1,16 +1,5 @@
 [
   {
-    "Id": "0849ef75-564f-450a-93e5-b27508d81c53",
-    "Title": "Démarrer",
-    "Description": "",
-    "Url": "https://support.office.com/fr-fr/client/0849ef75-564f-450a-93e5-b27508d81c53?embed=true",
-    "TechnologyId": "",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
-    "StatusNote": ""
-  },
-  {
     "Id": "1539f168-f27c-4215-9319-a5fafd76eec6",
     "Title": "Utiliser des couleurs et des styles plus accessibles dans les diapositives",
     "Description": "",
@@ -33,17 +22,6 @@
     "StatusNote": ""
   },
   {
-    "Id": "5bec897f-4e36-43f8-9d9d-c41cb4917d9c",
-    "Title": "Commenter",
-    "Description": "",
-    "Url": "https://support.office.com/fr-fr/client/5bec897f-4e36-43f8-9d9d-c41cb4917d9c?embed=true",
-    "TechnologyId": "",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
-    "StatusNote": ""
-  },
-  {
     "Id": "5c882b54-d2b1-4270-b65d-79483a2aa3ca",
     "Title": "Créer des noms de fichiers accessibles",
     "Description": "",
@@ -52,17 +30,6 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "651e1cb9-9a51-46dc-8d32-bdb7d928eedd",
-    "Title": "Partager",
-    "Description": "",
-    "Url": "https://support.office.com/fr-fr/client/651e1cb9-9a51-46dc-8d32-bdb7d928eedd?embed=true",
-    "TechnologyId": "",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -85,17 +52,6 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "80640ac4-b009-42ea-abcb-660e729e63e5",
-    "Title": "Rencontrer",
-    "Description": "",
-    "Url": "https://support.office.com/fr-fr/client/80640ac4-b009-42ea-abcb-660e729e63e5?embed=true",
-    "TechnologyId": "",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -133,7 +89,7 @@
   },
   {
     "Id": "9420d2d8-f04d-4d00-b852-2d846dbedfe9",
-    "Title": "Améliorer l’accessibilité grâce aux textes de alt",
+    "Title": "Améliorer l’accessibilité avec du texte de remplacement",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/client/9c57ee44-bb48-40e3-aad4-7647fc1dba51?embed=true",
     "TechnologyId": "",
@@ -144,7 +100,7 @@
   },
   {
     "Id": "9f920424-7de6-4002-b4ed-6503a3cfae2d",
-    "Title": "Créer des tableaux accessibles",
+    "Title": "Créer des tables accessibles",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/client/cb464015-59dc-46a0-ac01-6217c62210e5?embed=true",
     "TechnologyId": "",
@@ -176,43 +132,10 @@
     "StatusNote": ""
   },
   {
-    "Id": "b85eef71-e96b-4325-9501-228588728bc9",
-    "Title": "Co-créer",
-    "Description": "",
-    "Url": "https://support.office.com/fr-fr/client/b85eef71-e96b-4325-9501-228588728bc9?embed=true",
-    "TechnologyId": "",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
-    "StatusNote": ""
-  },
-  {
     "Id": "ce53495d-c30e-442a-b1d2-05593cc814c0",
-    "Title": "Vérifier l’accessibilité du document",
+    "Title": "Vérifier l’accessibilité des documents",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/client/9d660cba-1fcd-45ad-a9d1-c4f4b5eb5b7d?embed=true",
-    "TechnologyId": "",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "cf26a4a6-00e5-4ef4-98c5-cec5bf441da6",
-    "Title": "Mobile",
-    "Description": "",
-    "Url": "https://support.office.com/fr-fr/client/cf26a4a6-00e5-4ef4-98c5-cec5bf441da6?embed=true",
-    "TechnologyId": "",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
-    "StatusNote": ""
-  },
-  {
-    "Id": "d47b9703-df15-4a41-b895-e97729062e23",
-    "Title": "Création de documents accessibles",
-    "Description": "",
-    "Url": "https://support.office.com/fr-fr/client/8d720231-495a-489c-a27a-eaf98f85c4f3?embed=true",
     "TechnologyId": "",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3253,6 +3176,83 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "01bfed12-c327-41e0-a68f-7fa527dcc98a",
+    "Title": "Viva Learning Overview",
+    "Description": "",
+    "Url": "https://support.office.com/fr-fr/client/01bfed12-c327-41e0-a68f-7fa527dcc98a?embed=true",
+    "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "09a94473-cdd4-463b-9dbe-8e6648eb9bdb",
+    "Title": "Découvrir le contenu de Viva Learning",
+    "Description": "",
+    "Url": "https://support.office.com/fr-fr/client/09a94473-cdd4-463b-9dbe-8e6648eb9bdb?embed=true",
+    "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "692bfe1a-0e8d-467c-b5a7-4e17c132ae93",
+    "Title": "Apporter votre propre contenu à Viva Learning",
+    "Description": "",
+    "Url": "https://support.office.com/fr-fr/client/692bfe1a-0e8d-467c-b5a7-4e17c132ae93?embed=true",
+    "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "6badc784-0948-4922-94cc-85cd987def0a",
+    "Title": "Apprentissage social avec Viva Learning",
+    "Description": "",
+    "Url": "https://support.office.com/fr-fr/client/6badc784-0948-4922-94cc-85cd987def0a?embed=true",
+    "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "77f9dcbf-41a8-4b19-b4d1-b99c406f37b8",
+    "Title": "Recommander et gérer du contenu dans Viva Learning",
+    "Description": "",
+    "Url": "https://support.office.com/fr-fr/client/77f9dcbf-41a8-4b19-b4d1-b99c406f37b8?embed=true",
+    "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "b1ef9cb6-c2b1-4c64-aaf9-72f598e42688",
+    "Title": "Fournisseurs de contenu Learning pour Viva Learning",
+    "Description": "",
+    "Url": "https://support.office.com/fr-fr/client/b1ef9cb6-c2b1-4c64-aaf9-72f598e42688?embed=true",
+    "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "ca774f08-6bed-441b-a74b-3aac15cd9019",
+    "Title": "Personnaliser votre apprentissage avec Viva Learning",
+    "Description": "",
+    "Url": "https://support.office.com/fr-fr/client/ca774f08-6bed-441b-a74b-3aac15cd9019?embed=true",
+    "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -6414,9 +6414,9 @@
   },
   {
     "Id": "0e8be5a2-c2e1-4702-bb76-0ee7228b9d35",
-    "Title": "Fusionner ou combiner des calendriers",
+    "Title": "Ajouter des dossiers et des groupes aux Favoris",
     "Description": "",
-    "Url": "https://support.office.com/fr-fr/client/114b5924-7c5c-43f5-8073-6fc2c389075e?embed=true",
+    "Url": "https://support.office.com/fr-fr/client/450021d7-0035-4276-8817-351cf2f493d2?embed=true",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -6590,9 +6590,9 @@
   },
   {
     "Id": "555babd1-f307-48ef-a2cf-f6ea1aae6fdc",
-    "Title": "Assistant Localisation de réunion",
+    "Title": "Analyser ou appuyer pour ajouter des contacts",
     "Description": "",
-    "Url": "https://support.office.com/fr-fr/client/3218816c-4c1d-4e30-be3e-444bdb23f9c6?embed=true",
+    "Url": "https://support.office.com/fr-fr/client/4818ef14-0fc8-4ec2-bb4d-440ea8cae17b?embed=true",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -6656,9 +6656,9 @@
   },
   {
     "Id": "672f8ae7-1843-4dff-acb4-d3a998f5f392",
-    "Title": "Planification facilitée",
+    "Title": "En savoir plus sur les contacts",
     "Description": "",
-    "Url": "https://support.office.com/fr-fr/client/11c5bee5-d78a-4a2b-80c2-2b386ddb4470?embed=true",
+    "Url": "https://support.office.com/fr-fr/client/72518d01-9739-435a-8722-0da211a885b1?embed=true",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -6667,9 +6667,9 @@
   },
   {
     "Id": "6d35e08b-ca70-42b8-abf7-cca1ddbd267d",
-    "Title": "Partage de calendrier",
+    "Title": "Contacts favoris et notifications définies",
     "Description": "",
-    "Url": "https://support.office.com/fr-fr/client/e6c3563d-8dfb-4de3-bff8-c630d4a265ec?embed=true",
+    "Url": "https://support.office.com/fr-fr/client/d7cce114-3f45-4d33-8683-af4f303d6e2d?embed=true",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -6876,9 +6876,9 @@
   },
   {
     "Id": "f21a4063-db88-40ab-9376-8e324711f6d8",
-    "Title": "Envoyer la disponibilité pour les réunions",
+    "Title": "Utiliser @mentions",
     "Description": "",
-    "Url": "https://support.office.com/fr-fr/client/31f975ab-38b5-48c5-a2e7-6a960aefd9fc?embed=true",
+    "Url": "https://support.office.com/fr-fr/client/ae422550-c61b-4daf-897b-748abe92e31f?embed=true",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -7129,7 +7129,7 @@
   },
   {
     "Id": "0cf0055d-49f8-464e-9dfa-8f582b32453b",
-    "Title": "Enregistrer votre OneDrive",
+    "Title": "Enregistrez votre classeur dans OneDrive",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/client/0cf0055d-49f8-464e-9dfa-8f582b32453b?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
@@ -7173,7 +7173,7 @@
   },
   {
     "Id": "11a632c1-197e-454f-a515-374a4aa2b3dd",
-    "Title": "Analyser et formater",
+    "Title": "Analyser et mettre en forme",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/client/11a632c1-197e-454f-a515-374a4aa2b3dd?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
@@ -7745,7 +7745,7 @@
   },
   {
     "Id": "94b00f50-5896-479c-b0c5-ff74603b35a3",
-    "Title": "Créer un workbook",
+    "Title": "Créer un classeur",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/client/94b00f50-5896-479c-b0c5-ff74603b35a3?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
@@ -8151,10 +8151,54 @@
     "StatusNote": ""
   },
   {
+    "Id": "3da30f39-684a-4bde-bb81-2e1407d59b52",
+    "Title": "Viva Connections sur votre bureau",
+    "Description": "",
+    "Url": "https://support.office.com/fr-fr/client/3da30f39-684a-4bde-bb81-2e1407d59b52?embed=true",
+    "TechnologyId": "e031aa9d-5421-4ee9-8bc6-1b871bafc7f0",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "753e0607-0bfd-4712-ad7e-18490dd565a2",
+    "Title": "Viva Connections en déplacement",
+    "Description": "",
+    "Url": "https://support.office.com/fr-fr/client/753e0607-0bfd-4712-ad7e-18490dd565a2?embed=true",
+    "TechnologyId": "e031aa9d-5421-4ee9-8bc6-1b871bafc7f0",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "8b4e7f76-f305-49a9-b6d2-09378476f95b",
+    "Title": "Votre intranet est maintenant dans Microsoft Teams",
+    "Description": "",
+    "Url": "https://support.office.com/fr-fr/client/8b4e7f76-f305-49a9-b6d2-09378476f95b?embed=true",
+    "TechnologyId": "e031aa9d-5421-4ee9-8bc6-1b871bafc7f0",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "08313516-6c01-4f73-9a6c-991a5fc34f07",
     "Title": "Risques liés au partage à l’autre",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/client/79330a32-4ee1-433a-812e-fe4bb3d34511?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "0849ef75-564f-450a-93e5-b27508d81c53",
+    "Title": "Démarrer",
+    "Description": "",
+    "Url": "https://support.office.com/fr-fr/client/0849ef75-564f-450a-93e5-b27508d81c53?embed=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -8668,6 +8712,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "5bec897f-4e36-43f8-9d9d-c41cb4917d9c",
+    "Title": "Commenter",
+    "Description": "",
+    "Url": "https://support.office.com/fr-fr/client/5bec897f-4e36-43f8-9d9d-c41cb4917d9c?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "5d0045ef-1906-456c-a3ef-a46bce2b8d12",
     "Title": "Empêcher la modification des paramètres de sécurité avec la protection contre les falsifications",
     "Description": "",
@@ -8705,6 +8760,17 @@
     "Title": "Comment un logiciel malveillant peut infecter votre PC?",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/client/872bf025-623d-735d-1033-ea4d456fb76b?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "651e1cb9-9a51-46dc-8d32-bdb7d928eedd",
+    "Title": "Partager",
+    "Description": "",
+    "Url": "https://support.office.com/fr-fr/client/651e1cb9-9a51-46dc-8d32-bdb7d928eedd?embed=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -8837,6 +8903,17 @@
     "Title": "Collaborer en OneDrive",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/client/586df57b-fdae-439c-ae5b-71cbe5bb0d4c?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "80640ac4-b009-42ea-abcb-660e729e63e5",
+    "Title": "Rencontrer",
+    "Description": "",
+    "Url": "https://support.office.com/fr-fr/client/80640ac4-b009-42ea-abcb-660e729e63e5?embed=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -8984,17 +9061,6 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
-    "StatusNote": ""
-  },
-  {
-    "Id": "a3d5959b-91ea-4cf0-b60a-e27abe03d59e",
-    "Title": "Protégez-vous des tentatives de",
-    "Description": "",
-    "Url": "https://support.microsoft.com/help/4033787/windows-protect-yourself-from-phishing?nochromenochrome",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -9207,6 +9273,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "b85eef71-e96b-4325-9501-228588728bc9",
+    "Title": "Co-créer",
+    "Description": "",
+    "Url": "https://support.office.com/fr-fr/client/b85eef71-e96b-4325-9501-228588728bc9?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "baf5345c-fee6-4900-ba44-1f53a1dbfeb9",
     "Title": "Microsoft Stream",
     "Description": "",
@@ -9387,6 +9464,17 @@
     "Title": "Sécurité sur les connexions sans fil",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/client/2614313a-7330-4d18-b619-0abec460fcba?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "cf26a4a6-00e5-4ef4-98c5-cec5bf441da6",
+    "Title": "Mobile",
+    "Description": "",
+    "Url": "https://support.office.com/fr-fr/client/cf26a4a6-00e5-4ef4-98c5-cec5bf441da6?embed=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
