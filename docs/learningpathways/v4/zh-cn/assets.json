@@ -1,16 +1,5 @@
 [
   {
-    "Id": "0849ef75-564f-450a-93e5-b27508d81c53",
-    "Title": "入门",
-    "Description": "",
-    "Url": "https://support.office.com/zh-cn/client/0849ef75-564f-450a-93e5-b27508d81c53?embed=true",
-    "TechnologyId": "",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
-    "StatusNote": ""
-  },
-  {
     "Id": "1539f168-f27c-4215-9319-a5fafd76eec6",
     "Title": "在幻灯片中使用更易于访问的颜色和样式",
     "Description": "",
@@ -33,19 +22,8 @@
     "StatusNote": ""
   },
   {
-    "Id": "5bec897f-4e36-43f8-9d9d-c41cb4917d9c",
-    "Title": "评论",
-    "Description": "",
-    "Url": "https://support.office.com/zh-cn/client/5bec897f-4e36-43f8-9d9d-c41cb4917d9c?embed=true",
-    "TechnologyId": "",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
-    "StatusNote": ""
-  },
-  {
     "Id": "5c882b54-d2b1-4270-b65d-79483a2aa3ca",
-    "Title": "创建易于访问的文件名",
+    "Title": "创建辅助文件名",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/4e73d73a-aedc-47af-88e4-8f2375a69fad?embed=true",
     "TechnologyId": "",
@@ -55,19 +33,8 @@
     "StatusNote": ""
   },
   {
-    "Id": "651e1cb9-9a51-46dc-8d32-bdb7d928eedd",
-    "Title": "共享",
-    "Description": "",
-    "Url": "https://support.office.com/zh-cn/client/651e1cb9-9a51-46dc-8d32-bdb7d928eedd?embed=true",
-    "TechnologyId": "",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
-    "StatusNote": ""
-  },
-  {
     "Id": "6596fb5a-c25e-4dcb-b034-7cb38b611e38",
-    "Title": "提高标题辅助功能",
+    "Title": "改进标题辅助功能",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/68f1eeff-6113-410f-8313-b5d382cc3be1?embed=true",
     "TechnologyId": "",
@@ -78,24 +45,13 @@
   },
   {
     "Id": "727e6ff1-ef1c-475d-90d0-196e26b5b753",
-    "Title": "创建可访问的链接",
+    "Title": "创建辅助链接",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/28305cc8-3be2-417c-a313-dc22082d1ee0?embed=true",
     "TechnologyId": "",
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "80640ac4-b009-42ea-abcb-660e729e63e5",
-    "Title": "会议",
-    "Description": "",
-    "Url": "https://support.office.com/zh-cn/client/80640ac4-b009-42ea-abcb-660e729e63e5?embed=true",
-    "TechnologyId": "",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -144,7 +100,7 @@
   },
   {
     "Id": "9f920424-7de6-4002-b4ed-6503a3cfae2d",
-    "Title": "创建易于访问的表",
+    "Title": "创建辅助表",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/cb464015-59dc-46a0-ac01-6217c62210e5?embed=true",
     "TechnologyId": "",
@@ -176,43 +132,10 @@
     "StatusNote": ""
   },
   {
-    "Id": "b85eef71-e96b-4325-9501-228588728bc9",
-    "Title": "共同创作",
-    "Description": "",
-    "Url": "https://support.office.com/zh-cn/client/b85eef71-e96b-4325-9501-228588728bc9?embed=true",
-    "TechnologyId": "",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
-    "StatusNote": ""
-  },
-  {
     "Id": "ce53495d-c30e-442a-b1d2-05593cc814c0",
     "Title": "检查文档辅助功能",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/9d660cba-1fcd-45ad-a9d1-c4f4b5eb5b7d?embed=true",
-    "TechnologyId": "",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "cf26a4a6-00e5-4ef4-98c5-cec5bf441da6",
-    "Title": "移动",
-    "Description": "",
-    "Url": "https://support.office.com/zh-cn/client/cf26a4a6-00e5-4ef4-98c5-cec5bf441da6?embed=true",
-    "TechnologyId": "",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
-    "StatusNote": ""
-  },
-  {
-    "Id": "d47b9703-df15-4a41-b895-e97729062e23",
-    "Title": "创建易于访问的文档",
-    "Description": "",
-    "Url": "https://support.office.com/zh-cn/client/8d720231-495a-489c-a27a-eaf98f85c4f3?embed=true",
     "TechnologyId": "",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3253,6 +3176,83 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "01bfed12-c327-41e0-a68f-7fa527dcc98a",
+    "Title": "Viva Learning 概述",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/01bfed12-c327-41e0-a68f-7fa527dcc98a?embed=true",
+    "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "09a94473-cdd4-463b-9dbe-8e6648eb9bdb",
+    "Title": "发现 Viva Learning 内容",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/09a94473-cdd4-463b-9dbe-8e6648eb9bdb?embed=true",
+    "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "692bfe1a-0e8d-467c-b5a7-4e17c132ae93",
+    "Title": "将自己的内容引入 Viva Learning",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/692bfe1a-0e8d-467c-b5a7-4e17c132ae93?embed=true",
+    "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "6badc784-0948-4922-94cc-85cd987def0a",
+    "Title": "使用 Viva Learning 进行社交学习",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/6badc784-0948-4922-94cc-85cd987def0a?embed=true",
+    "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "77f9dcbf-41a8-4b19-b4d1-b99c406f37b8",
+    "Title": "在 Viva Learning 中推荐和管理内容",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/77f9dcbf-41a8-4b19-b4d1-b99c406f37b8?embed=true",
+    "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "b1ef9cb6-c2b1-4c64-aaf9-72f598e42688",
+    "Title": "Viva Learning 的学习内容提供程序",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/b1ef9cb6-c2b1-4c64-aaf9-72f598e42688?embed=true",
+    "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "ca774f08-6bed-441b-a74b-3aac15cd9019",
+    "Title": "使用 Viva Learning 个性化学习",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/ca774f08-6bed-441b-a74b-3aac15cd9019?embed=true",
+    "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -6414,9 +6414,9 @@
   },
   {
     "Id": "0e8be5a2-c2e1-4702-bb76-0ee7228b9d35",
-    "Title": "合并或合并日历",
+    "Title": "将文件夹和组添加到收藏夹",
     "Description": "",
-    "Url": "https://support.office.com/zh-cn/client/114b5924-7c5c-43f5-8073-6fc2c389075e?embed=true",
+    "Url": "https://support.office.com/zh-cn/client/450021d7-0035-4276-8817-351cf2f493d2?embed=true",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -6590,9 +6590,9 @@
   },
   {
     "Id": "555babd1-f307-48ef-a2cf-f6ea1aae6fdc",
-    "Title": "会议位置助手",
+    "Title": "扫描或点击以添加联系人",
     "Description": "",
-    "Url": "https://support.office.com/zh-cn/client/3218816c-4c1d-4e30-be3e-444bdb23f9c6?embed=true",
+    "Url": "https://support.office.com/zh-cn/client/4818ef14-0fc8-4ec2-bb4d-440ea8cae17b?embed=true",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -6612,7 +6612,7 @@
   },
   {
     "Id": "615b74e8-37e7-43a3-9ac3-a41c5e30843a",
-    "Title": "10 大Outlook移动提示",
+    "Title": "移动Outlook 10 大提示",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/cb00cf88-2cee-4a71-a833-061a96d774ce?embed=true",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
@@ -6656,9 +6656,9 @@
   },
   {
     "Id": "672f8ae7-1843-4dff-acb4-d3a998f5f392",
-    "Title": "轻松安排日程",
+    "Title": "了解联系人",
     "Description": "",
-    "Url": "https://support.office.com/zh-cn/client/11c5bee5-d78a-4a2b-80c2-2b386ddb4470?embed=true",
+    "Url": "https://support.office.com/zh-cn/client/72518d01-9739-435a-8722-0da211a885b1?embed=true",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -6667,9 +6667,9 @@
   },
   {
     "Id": "6d35e08b-ca70-42b8-abf7-cca1ddbd267d",
-    "Title": "日历共享",
+    "Title": "收藏的联系人和设置通知",
     "Description": "",
-    "Url": "https://support.office.com/zh-cn/client/e6c3563d-8dfb-4de3-bff8-c630d4a265ec?embed=true",
+    "Url": "https://support.office.com/zh-cn/client/d7cce114-3f45-4d33-8683-af4f303d6e2d?embed=true",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -6876,9 +6876,9 @@
   },
   {
     "Id": "f21a4063-db88-40ab-9376-8e324711f6d8",
-    "Title": "发送会议可用性",
+    "Title": "使用@mentions",
     "Description": "",
-    "Url": "https://support.office.com/zh-cn/client/31f975ab-38b5-48c5-a2e7-6a960aefd9fc?embed=true",
+    "Url": "https://support.office.com/zh-cn/client/ae422550-c61b-4daf-897b-748abe92e31f?embed=true",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -7866,7 +7866,7 @@
   },
   {
     "Id": "a8af741e-00f2-44c0-a94b-38abd51af01f",
-    "Title": "协作",
+    "Title": "合作",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/a8af741e-00f2-44c0-a94b-38abd51af01f?embed=true",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
@@ -8151,10 +8151,54 @@
     "StatusNote": ""
   },
   {
+    "Id": "3da30f39-684a-4bde-bb81-2e1407d59b52",
+    "Title": "桌面上的 Viva Connections",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/3da30f39-684a-4bde-bb81-2e1407d59b52?embed=true",
+    "TechnologyId": "e031aa9d-5421-4ee9-8bc6-1b871bafc7f0",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "753e0607-0bfd-4712-ad7e-18490dd565a2",
+    "Title": "移动设备上的 Viva Connections",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/753e0607-0bfd-4712-ad7e-18490dd565a2?embed=true",
+    "TechnologyId": "e031aa9d-5421-4ee9-8bc6-1b871bafc7f0",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "8b4e7f76-f305-49a9-b6d2-09378476f95b",
+    "Title": "你的 Intranet 现在位于 Microsoft Teams",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/8b4e7f76-f305-49a9-b6d2-09378476f95b?embed=true",
+    "TechnologyId": "e031aa9d-5421-4ee9-8bc6-1b871bafc7f0",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "08313516-6c01-4f73-9a6c-991a5fc34f07",
     "Title": "过度共享带来危险",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/79330a32-4ee1-433a-812e-fe4bb3d34511?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "0849ef75-564f-450a-93e5-b27508d81c53",
+    "Title": "入门",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/0849ef75-564f-450a-93e5-b27508d81c53?embed=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -8668,6 +8712,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "5bec897f-4e36-43f8-9d9d-c41cb4917d9c",
+    "Title": "评论",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/5bec897f-4e36-43f8-9d9d-c41cb4917d9c?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "5d0045ef-1906-456c-a3ef-a46bce2b8d12",
     "Title": "使用“篡改保护”防止更改安全设置",
     "Description": "",
@@ -8705,6 +8760,17 @@
     "Title": "恶意软件如何感染你的电脑",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/872bf025-623d-735d-1033-ea4d456fb76b?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "651e1cb9-9a51-46dc-8d32-bdb7d928eedd",
+    "Title": "共享",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/651e1cb9-9a51-46dc-8d32-bdb7d928eedd?embed=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -8837,6 +8903,17 @@
     "Title": "通过协作OneDrive",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/586df57b-fdae-439c-ae5b-71cbe5bb0d4c?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "80640ac4-b009-42ea-abcb-660e729e63e5",
+    "Title": "会议",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/80640ac4-b009-42ea-abcb-660e729e63e5?embed=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -8984,17 +9061,6 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
-    "StatusNote": ""
-  },
-  {
-    "Id": "a3d5959b-91ea-4cf0-b60a-e27abe03d59e",
-    "Title": "防范网络钓鱼",
-    "Description": "",
-    "Url": "https://support.microsoft.com/help/4033787/windows-protect-yourself-from-phishing?nochromenochrome",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -9207,6 +9273,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "b85eef71-e96b-4325-9501-228588728bc9",
+    "Title": "共同创作",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/b85eef71-e96b-4325-9501-228588728bc9?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "baf5345c-fee6-4900-ba44-1f53a1dbfeb9",
     "Title": "Microsoft Stream",
     "Description": "",
@@ -9387,6 +9464,17 @@
     "Title": "通过无线连接更安全",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/2614313a-7330-4d18-b619-0abec460fcba?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "cf26a4a6-00e5-4ef4-98c5-cec5bf441da6",
+    "Title": "移动",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/cf26a4a6-00e5-4ef4-98c5-cec5bf441da6?embed=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",

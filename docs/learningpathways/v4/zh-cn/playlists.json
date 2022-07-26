@@ -209,7 +209,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
-    "Description": "使用辅助功能检查器创建更易于访问的 Word 文档，以检查和更正辅助功能问题。向图像和对象添加替换文字，使用标题样式提高可访问性，创建有意义的文件名和超链接，整理表格中的信息以显示关系，并学习使具有屏幕阅读器的人更易于访问文件的提示。",
+    "Description": "使用辅助功能检查器创建更易于访问的 Word 文档，以检查和纠正辅助功能问题。 向图像和对象添加替换文字，使用标题样式改进辅助功能，创建有意义的文件名和超链接，在表中组织信息以显示关系，并了解使具有屏幕阅读器的用户更易于访问文件的提示。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -218,8 +218,7 @@
       "6596fb5a-c25e-4dcb-b034-7cb38b611e38",
       "727e6ff1-ef1c-475d-90d0-196e26b5b753",
       "5c882b54-d2b1-4270-b65d-79483a2aa3ca",
-      "9f920424-7de6-4002-b4ed-6503a3cfae2d",
-      "d47b9703-df15-4a41-b895-e97729062e23"
+      "9f920424-7de6-4002-b4ed-6503a3cfae2d"
     ]
   },
   {
@@ -268,7 +267,7 @@
     "Image": "images/playlists/playlist_bw.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "a7f1ca95-e0eb-4715-b846-89fc8d2afa56",
@@ -518,8 +517,7 @@
       "59fce479-241d-45f2-a79c-e7485fd02066",
       "6f739c5e-bb13-4ce9-9301-abf4a9cac9e2",
       "9655a0e0-34f0-4805-8221-420ae713e0d0",
-      "b1d3baac-83e4-4d1a-8f8c-bb5e02409a37",
-      "a3d5959b-91ea-4cf0-b60a-e27abe03d59e"
+      "b1d3baac-83e4-4d1a-8f8c-bb5e02409a37"
     ]
   },
   {
@@ -813,7 +811,7 @@
   },
   {
     "Id": "a8cbac83-f7e8-45ff-a4a6-6b04f31a5745",
-    "Title": "Excel快速入门",
+    "Title": "Excel快速\"开始\"菜单",
     "Image": "images/playlists/excel_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -821,7 +819,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "快速入门Excel快速入门指南。了解如何创建工作簿、输入数据、将工作簿保存到 OneDrive、使用快速填充自动填充列、使用\"自动计算\"快速计算、创建图表或使用条件格式进行快速分析、冻结首行、共享工作簿以与他人协作以及设置移动应用。",
+    "Description": "开始快速Excel快速\"开始\"菜单指南。 了解如何创建工作簿、输入数据、将工作簿保存到OneDrive，以及如何使用 Flash Fill 自动填充列。 另请了解如何使用 AutoSum 快速计算、创建图表或将条件格式与快速分析配合使用、冻结顶部行、共享工作簿以与他人协作以及设置移动应用。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2282,7 +2280,7 @@
   },
   {
     "Id": "a0cbd9cd-bfeb-4976-b39d-8c21da669d0f",
-    "Title": "人员与连接",
+    "Title": "人员和连接",
     "Image": "images/playlists/outlook-mobile-people-and-connections.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2290,7 +2288,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "使用Outlook移动版管理您的时间、安排会议以及查看每个人何时可用。使用会议位置助手、发送会议可用性、共享日历、合并和合并日历以及管理通知。了解 10 大Outlook移动提示。",
+    "Description": "使用 Outlook 移动版中的人员和连接了解联系人、扫描联系人或添加联系人。 使用@mentions、收藏的联系人和设置通知，或将文件夹和组添加到收藏夹。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2298,10 +2296,7 @@
       "555babd1-f307-48ef-a2cf-f6ea1aae6fdc",
       "f21a4063-db88-40ab-9376-8e324711f6d8",
       "6d35e08b-ca70-42b8-abf7-cca1ddbd267d",
-      "0e8be5a2-c2e1-4702-bb76-0ee7228b9d35",
-      "82fa4ae4-e978-4603-8460-a6293eacd38b",
-      "0b32ebf0-fae9-4815-a061-94048d0799ef",
-      "615b74e8-37e7-43a3-9ac3-a41c5e30843a"
+      "0e8be5a2-c2e1-4702-bb76-0ee7228b9d35"
     ]
   },
   {
@@ -2742,6 +2737,48 @@
       "0e1f467f-0cf1-425a-ab03-4d28c7693043",
       "1839cbb2-820e-4fa4-b1e3-f582c0d9330e",
       "11fc6ef4-03ac-4f67-a7e3-e5ea59edeff8"
+    ]
+  },
+  {
+    "Id": "918d6186-5b0d-47ed-8370-8e3b66c578aa",
+    "Title": "Viva Connections 入门",
+    "Image": "images/playlists/vivaconnections_getstarted.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "e031aa9d-5421-4ee9-8bc6-1b871bafc7f0",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "6682f5e0-9f2a-4cd3-9ada-d404b8d34761",
+    "Description": "Microsoft Viva Connections 提供了一个个性化且可操作的大本营，可用于完成日常员工任务、保持与公司新闻的连接，并访问资源—而所有这些都无需离开中心进行团队合作。",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "8b4e7f76-f305-49a9-b6d2-09378476f95b",
+      "3da30f39-684a-4bde-bb81-2e1407d59b52",
+      "753e0607-0bfd-4712-ad7e-18490dd565a2"
+    ]
+  },
+  {
+    "Id": "4914ee96-5306-44a1-a27e-0aa297b66ff8",
+    "Title": "Viva Learning 入门",
+    "Image": "images/playlists/vivalearning_getstarted.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "fa2b8bc0-3316-4102-a5a0-d71610d49d2a",
+    "Description": "Viva Learning 在 Teams 中创建了一个用于学习的中心，用户可以在其中共享、推荐和从组织中的内容库中学习，以使团队和个人能够自然而然地完成学习。这包括从 LinkedIn Learning、Microsoft Learn、Microsoft 365 培训、第三方内容提供程序和学习管理系统访问内容库，以及公司添加到 Viva Learning 的内容。",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "01bfed12-c327-41e0-a68f-7fa527dcc98a",
+      "6badc784-0948-4922-94cc-85cd987def0a",
+      "09a94473-cdd4-463b-9dbe-8e6648eb9bdb",
+      "ca774f08-6bed-441b-a74b-3aac15cd9019",
+      "77f9dcbf-41a8-4b19-b4d1-b99c406f37b8",
+      "b1ef9cb6-c2b1-4c64-aaf9-72f598e42688",
+      "692bfe1a-0e8d-467c-b5a7-4e17c132ae93"
     ]
   },
   {
