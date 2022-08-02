@@ -46,6 +46,11 @@
       "Subjects": []
     },
     {
+      "Id": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
+      "Name": "Viva Learning",
+      "Subjects": []
+    },
+    {
       "Id": "58847f9a-3144-453e-a10e-bc1c00bc3faa",
       "Name": "Windows 10",
       "Subjects": []
@@ -137,6 +142,11 @@
     {
       "Id": "d984257a-d122-45bb-a04a-a2fcdfe8007e",
       "Name": "Stream",
+      "Subjects": []
+    },
+    {
+      "Id": "e031aa9d-5421-4ee9-8bc6-1b871bafc7f0",
+      "Name": "Viva Connections",
       "Subjects": []
     },
     {
@@ -248,8 +258,8 @@
         {
           "Id": "a7f1ca95-e0eb-4715-b846-89fc8d2afa56",
           "Name": "Samenwerking",
-          "Image": "images/categories/Collaboration_Category.png",
-          "TechnologyId": "",
+          "Image": "images/categories/customfeatured.png",
+          "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
           "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
@@ -413,6 +423,24 @@
           "Name": "Microsoft Edge",
           "Image": "images/categories/Edge.png",
           "TechnologyId": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "6682f5e0-9f2a-4cd3-9ada-d404b8d34761",
+          "Name": "Viva Connections",
+          "Image": "images/categories/vivaconnections.png",
+          "TechnologyId": "e031aa9d-5421-4ee9-8bc6-1b871bafc7f0",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "fa2b8bc0-3316-4102-a5a0-d71610d49d2a",
+          "Name": "Viva Learning",
+          "Image": "images/categories/vivalearning_learningpathways.png",
+          "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
           "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
