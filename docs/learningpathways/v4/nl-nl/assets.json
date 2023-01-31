@@ -6886,6 +6886,116 @@
     "StatusNote": ""
   },
   {
+    "Id": "0587147d-84ed-438f-8a24-5c75f539814c",
+    "Title": "Create OKRs with Viva Goals",
+    "Description": "",
+    "Url": "https://support.office.com/nl-nl/client/0587147d-84ed-438f-8a24-5c75f539814c?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "1b39a4b9-fcf1-4078-9f81-49593e667e9d",
+    "Title": "Viva Goals Quick Start",
+    "Description": "",
+    "Url": "https://support.office.com/nl-nl/client/1b39a4b9-fcf1-4078-9f81-49593e667e9d?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "365500a4-0599-41cd-bc86-09bef4206284",
+    "Title": "Engage with Viva Goals",
+    "Description": "",
+    "Url": "https://support.office.com/nl-nl/client/365500a4-0599-41cd-bc86-09bef4206284?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "43673d1c-0dd7-42ba-97aa-6e712db171d1",
+    "Title": "Collaborate with Viva Goals",
+    "Description": "",
+    "Url": "https://support.office.com/nl-nl/client/43673d1c-0dd7-42ba-97aa-6e712db171d1?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "70da5353-257c-41a5-adef-7a62f80acbdc",
+    "Title": "Quick Start for Executives",
+    "Description": "",
+    "Url": "https://support.office.com/nl-nl/client/70da5353-257c-41a5-adef-7a62f80acbdc?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "bd651be7-472a-4f40-8fdd-6fcead79f3ad",
+    "Title": "Introducing Microsoft Viva Goals",
+    "Description": "",
+    "Url": "https://support.office.com/nl-nl/client/bd651be7-472a-4f40-8fdd-6fcead79f3ad?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "c0244789-4388-4d2d-9d20-3678900d9b98",
+    "Title": "Check-in with Viva Goals",
+    "Description": "",
+    "Url": "https://support.office.com/nl-nl/client/c0244789-4388-4d2d-9d20-3678900d9b98?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "c0d9f91e-22e6-48ea-ba3a-23ebe7f059d8",
+    "Title": "Close with Viva Goals",
+    "Description": "",
+    "Url": "https://support.office.com/nl-nl/client/c0d9f91e-22e6-48ea-ba3a-23ebe7f059d8?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "cd7ba092-fecb-484b-bf17-ebc80b3d25bf",
+    "Title": "Quick Start in Teams",
+    "Description": "",
+    "Url": "https://support.office.com/nl-nl/client/cd7ba092-fecb-484b-bf17-ebc80b3d25bf?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "d195c526-1b6b-45e1-82fd-8daa21dd84a4",
+    "Title": "Review Dashboards with Viva Goals",
+    "Description": "",
+    "Url": "https://support.office.com/nl-nl/client/d195c526-1b6b-45e1-82fd-8daa21dd84a4?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
     "Id": "00cf7943-a9e1-975a-a33d-ac10ce454ca4",
     "Title": "Browsergeschiedenis bekijken en verwijderen in Microsoft Edge",
     "Description": "",

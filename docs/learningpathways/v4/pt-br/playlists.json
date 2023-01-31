@@ -2759,6 +2759,32 @@
     ]
   },
   {
+    "Id": "5633fa3b-20ea-4d0a-ba50-d8db1fa1ee0b",
+    "Title": "Get started with Viva Goals",
+    "Image": "images/playlists/vivagoals_getstarted.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "0f76af36-ace7-4e17-9ccf-e82c6d5ff24f",
+    "Description": "Microsoft Viva Goals aligns you to your organization’s strategic priorities and unites teams around mission and purpose. In Get started with Viva Goals, learn how to create objectives, key results, and projects. Also learn how to check-in and update your progress, and score and reflect on your goals.",
+    "StatusTagId": "",
+    "StatusNote": "",
+    "Assets": [
+      "bd651be7-472a-4f40-8fdd-6fcead79f3ad",
+      "1b39a4b9-fcf1-4078-9f81-49593e667e9d",
+      "cd7ba092-fecb-484b-bf17-ebc80b3d25bf",
+      "70da5353-257c-41a5-adef-7a62f80acbdc",
+      "43673d1c-0dd7-42ba-97aa-6e712db171d1",
+      "0587147d-84ed-438f-8a24-5c75f539814c",
+      "c0244789-4388-4d2d-9d20-3678900d9b98",
+      "c0d9f91e-22e6-48ea-ba3a-23ebe7f059d8",
+      "365500a4-0599-41cd-bc86-09bef4206284",
+      "d195c526-1b6b-45e1-82fd-8daa21dd84a4"
+    ]
+  },
+  {
     "Id": "4914ee96-5306-44a1-a27e-0aa297b66ff8",
     "Title": "Introdução à Aprendizagem do Viva",
     "Image": "images/playlists/vivalearning_getstarted.png",
