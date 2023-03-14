@@ -248,6 +248,8 @@ declare interface IM365LPStrings {
   ValidateBase: string;
   CustomizeSort: string;
   ResetSort: string;
+  ModifyUrlOnNavigation: string;
+  CustomViewerUrl: string;
 }
 
 declare module 'M365LPStrings' {
