@@ -1,5 +1,9 @@
 # Change Log
 
+## Version 4.4
+
+- Bug fix for [#726](../../../issues/726) - When saving custom assets, resets hidden categories to be visible.
+
 ## Version 4.3
 
 - Added support for longer descriptions in playlists.
