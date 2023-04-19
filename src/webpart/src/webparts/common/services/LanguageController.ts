@@ -84,11 +84,6 @@ export default class LanguageController implements ILanguageController {
     return this.dataServices[0].dataService.assetsAll;
   }
 
-  // public async isReady(): Promise<boolean> {
-  //   let isReady = await this.dataServices[0].dataService.isReady();
-  //   return isReady;
-  // }
-
   public async getCacheConfig(): Promise<ICacheConfig> {
     if (!this.dataServices[0].cacheConfig)
       this.dataServices[0].cacheConfig = await this.dataServices[0].dataService.getCacheConfig();

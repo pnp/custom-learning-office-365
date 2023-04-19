@@ -34,7 +34,7 @@ THIS CODE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPL
 
 ### Current Release Version
 
-![drop](https://img.shields.io/badge/drop-4.3-green.svg)
+![drop](https://img.shields.io/badge/drop-4.4-green.svg)
 
 For a list of issues/updates made in each release see the [CHANGELOG](CHANGELOG.md).
 

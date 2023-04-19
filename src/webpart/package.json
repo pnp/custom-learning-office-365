@@ -1,7 +1,7 @@
 {
   "name": "customlearning",
   "description": "Microsoft 365 learning pathways",
-  "version": "4.3.1",
+  "version": "4.4.0",
   "private": true,
   "main": "lib/index.js",
   "scripts": {

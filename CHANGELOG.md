@@ -1,8 +1,9 @@
 # Change Log
 
-## Version 4.3.1
+## Version 4.4
 
-- Added fix for display issue when expanded to full screen. See Issue [#606](../../../issues/606)
+- Bug fix for [#726](../../../issues/726) - When saving custom assets, resets hidden categories to be visible.
+- Enhancement for [#728](../../../issues/728) - Doubled default height of iFrame for content that doesn't report it's size to the parent.
 
 ## Version 4.3
 
