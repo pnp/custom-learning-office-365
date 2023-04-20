@@ -191,7 +191,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
     this.setCSSVariables(this._themeVariant["effects"]);
 
   }
-  
+
   private async firstInit(): Promise<void> {
     try {
       let currentCdn = this._urlCDN;
@@ -347,7 +347,8 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
           customSortOrder: this.properties.customSortOrder,
           teamsEntityId: this.context.sdks.microsoftTeams?.context?.entityId,
           cacheController: this._cacheController,
-          updateCustomSort: this.updateCustomSort
+          updateCustomSort: this.updateCustomSort,
+          getCSSVariablesOnElement: this.getCSSVariablesOnElement,
         };
 
         element = React.createElement(React.Suspense, { fallback: shimmer },
@@ -569,6 +570,27 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
 
     }
 
+  }
+
+  private getCSSVariablesOnElement = (): any => {
+    let retVal: any = {};
+    try {
+      let styles: CSSStyleDeclaration = this.domElement.style;
+
+      // request all key defined in theming
+      let themingKeys = Object.keys(styles);
+      // if we have the key
+      if (themingKeys !== null) {
+        // loop over it
+        themingKeys.forEach(key => {
+          retVal[styles[key]] = styles.getPropertyValue(styles[key]);
+        });
+      }
+    } catch (err) {
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getCSSVariablesOnElement) - ${err} -- Error getting styles`, LogLevel.Error);
+    }
+
+    return retVal;
   }
 
   protected getPropertyPaneConfiguration(): IPropertyPaneConfiguration {
