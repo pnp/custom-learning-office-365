@@ -455,6 +455,18 @@ export class DataService implements IDataService {
         });
       }
 
+      //Merge customer hidden subcategories
+      if (this.customization.HiddenSubCategories.length > 0) {
+        cache.Categories = remove(cache.Categories, (item) => {
+          if (item.SubCategories.length > 0) {
+            item.SubCategories = remove(item.SubCategories, (sub) => {
+              return (this.customization.HiddenSubCategories.indexOf(sub.Id) < 0);
+            });
+          }
+          return (item.SubCategories.length > 0);
+        });
+      }
+
       //Make a copy for public property (includes custom sub categories)
       this.categoriesAll = cloneDeep(cache.Categories);
 
