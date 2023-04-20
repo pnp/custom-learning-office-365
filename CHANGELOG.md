@@ -1,5 +1,9 @@
 # Change Log
 
+## Version 4.3.1
+
+- Added fix for display issue when expanded to full screen. See Issue [#606](../../../issues/606)
+
 ## Version 4.3
 
 - Added support for longer descriptions in playlists.

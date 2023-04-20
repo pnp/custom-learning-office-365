@@ -3,7 +3,7 @@
 Train employees with Microsoft 365 learning pathways, a digital, customizable learning solution that helps customers transform their organization. Microsoft 365 learning pathways provides:
 
 - Comprehensive end user training content: product and scenario-based training, in video and article format
-- Easy to install: Deploy from the [SharePoint look book](https://lookbook.microsoft.com) within minutes and without any coding
+- Easy to install: Deploy from the [SharePoint look book](https://lookbook.microsoft.com) within minutes and without any coding. Look book version is 4.3.
 - Easily customizable: Hide and show content to align with how you have set up Office 365 in your environment
 - Create your own training playlists: Add your own custom training content and playlists to feature your organization-specific scenarios
 - Always up-to-date content: As Office 365 changes, the Microsoft 365 learning pathways content will be updated. Content updates will be made and communicated to customers on a monthly basis
