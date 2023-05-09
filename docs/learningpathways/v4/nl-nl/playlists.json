@@ -1,7 +1,7 @@
 [
   {
     "Id": "959166d8-1cb7-4315-af20-541598ebecaa",
-    "Title": "Zes eenvoudige stappen: welkom bij Microsoft 365",
+    "Title": "Zes eenvoudige stappen - Welkom bij Microsoft 365",
     "Image": "images/playlists/six_simple_steps_-_welcome_to_office_365.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -9,7 +9,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9bde32c3-2f0b-4201-b4a3-74cef2c8f61d",
-    "Description": "Lees hoe u snel aan de slag kunt met Microsoft 365 in zes eenvoudige stappen",
+    "Description": "Aan de slag met Microsoft 365 in zes eenvoudige stappen. Meld u aan en ga aan de slag bij office.com, maak en sla bestanden veilig op in de cloud, deel bestanden en werk in realtime samen met anderen, werk met uw team in teams en kanalen met Microsoft-teams, stel uw mobiele apps in en probeer nieuwe dingen.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -32,7 +32,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9bde32c3-2f0b-4201-b4a3-74cef2c8f61d",
-    "Description": "Aan de slag met Teams in zeven eenvoudige stappen. Na een overzicht van teams, kanalen en hoe je kunt werken en samenwerken op één plek, leert je hoe je je team op weg kunt helpen, kunt werken in kanalen, bestanden kunt uploaden en delen, chats kunt starten en vastmaken, kunt deelnemen aan een Teams-vergadering en vergaderingen kunt beheren.",
+    "Description": "Aan de slag met Teams met zeven eenvoudige stappen. Krijg een overzicht van teams en kanalen, leer hoe u uw team aan de slag kunt krijgen, in kanalen kunt werken, bestanden kunt uploaden en delen, chats kunt starten en vastmaken, deel kunt nemen aan een Teams-vergadering en vergaderingen kunt beheren.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -47,7 +47,7 @@
   },
   {
     "Id": "31fe13c5-ec7d-4a3c-98db-89292b0c0824",
-    "Title": "Een werkruimte met chatfunctie maken met Teams",
+    "Title": "Een werkruimte op basis van chat maken met Teams",
     "Image": "images/playlists/provide_a_chat-based_workspace_with_teams.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -55,7 +55,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "07aa7fb7-a187-4a04-a044-f881626a8cba",
-    "Description": "Als u een plek hebt om als team te creëren en beslissingen te nemen, is er geen limiet aan wat u kunt bereiken. Leer hoe u Teams kunt gebruiken om alles samen te brengen in een gedeelde werkruimte waar u kunt chatten, vergaderen, bestanden kunt delen en met zakelijke apps kunt werken.",
+    "Description": "Wanneer u als team een plek hebt om beslissingen te maken en te nemen, is er geen limiet voor wat u kunt bereiken. Meer informatie over het gebruik Teams alles samen te brengen in een gedeelde werkruimte waar u kunt chatten, vergaderen, bestanden kunt delen en kunt werken met zakelijke apps.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -70,7 +70,7 @@
   },
   {
     "Id": "fe736497-1a7c-4397-9963-17aab7e64557",
-    "Title": "Maak samen indrukwekkende inhoud",
+    "Title": "Samen impactvolle inhoud maken",
     "Image": "images/playlists/create_impactful_content_together.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -78,7 +78,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "07aa7fb7-a187-4a04-a044-f881626a8cba",
-    "Description": "Krijg zaken van vrijwel overal sneller gedaan. Lees hoe u kunt profiteren van de Office-integratie met OneDrive en SharePoint om documenten te openen, te delen en samen te werken.",
+    "Description": "Maak samen impactvolle inhoud in Microsoft 365. Krijg een overzicht van Microsoft 365, leer hoe u zich kunt aanmelden, bestanden kunt maken, opslaan en delen, met anderen kunt samenwerken, een bestand van OneDrive naar SharePoint Online kunt verplaatsen en een bestand of map kunt delen.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -101,7 +101,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "07aa7fb7-a187-4a04-a044-f881626a8cba",
-    "Description": "Informatie over het gebruik van OneDrive om Microsoft Office-documenten, andere bestanden en hele mappen met anderen te delen. De bestanden en mappen die u in OneDrive opslaat, zijn privé tot u besluit ze te delen. U kunt op elk gewenst moment stoppen met delen.",
+    "Description": "Meer informatie over het opslaan en delen van bestanden met OneDrive. Krijg een overzicht van OneDrive, leer OneDrive basisbeginselen, maak en upload bestanden en mappen, Synchroniseer bestanden en mappen en stel de OneDrive mobiele app in op uw telefoon of tablet.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -126,7 +126,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "07aa7fb7-a187-4a04-a044-f881626a8cba",
-    "Description": "SharePoint maakt delen en samenwerken op intranet mogelijk. Informatie over het beheren en delen van bestanden of mappen, binnen teamsites of intranetsites en binnen of buiten uw organisatie.",
+    "Description": "Meer informatie over het delen van sites en inhoud met SharePoint. Krijg een overzicht van SharePoint Online, vind en volg sites, nieuws en inhoud, maak, upload en deel bestanden in een documentbibliotheek, synchroniseer bestanden en mappen, synchroniseer bestanden met Bestanden op aanvraag en blijf verbonden op uw mobiele apparaat.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -140,7 +140,7 @@
   },
   {
     "Id": "1bb00cc3-21a5-432d-b535-4b970feb332c",
-    "Title": "Uw organisatie verbinden met Yammer",
+    "Title": "Verbinding maken uw organisatie met Yammer",
     "Image": "images/playlists/connect_your_organization_with_yammer.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -148,7 +148,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "07aa7fb7-a187-4a04-a044-f881626a8cba",
-    "Description": "Yammer maakt verbindingen mogelijk met mensen en informatie uit uw hele organisatie waarvan u niet wist dat ze bestonden. Leer hoe u Yammer kunt gebruiken om ideeën te bespreken, updates te delen en via crowdsourcing antwoorden van collega's te verzamelen.",
+    "Description": "Verbinding maken uw organisatie met Yammer. Krijg een overzicht van Yammer, leer hoe u zich kunt aanmelden en uw profiel kunt bewerken, meldingen kunt instellen, berichten leuk vindt, beantwoordt en deelt, bestanden post en bijwerkt en bijwerkt, deel kunt nemen aan community's en hoe u bestanden en communitybronnen kunt delen.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -162,8 +162,130 @@
     ]
   },
   {
+    "Id": "fbf60a54-6a6c-4c6d-a121-c478f9531a98",
+    "Title": "Microsoft 365 Toegankelijkheidsoverzicht en -resources",
+    "Image": "images/playlists/microsoft-365-accessiblitiy-overview-and-resources.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
+    "Description": "Ga snel aan de slag met het Microsoft 365 toegankelijkheidsoverzicht en -resources. Voordat u uw e-mail verstuurt of een bestand deelt, moet u de Toegankelijkheidscontrole uitvoeren om ervoor te zorgen dat uw inhoud toegankelijk is voor personen met alle mogelijkheden om te lezen en bewerken. Bekijk het Microsoft 365 toegankelijkheidsintro, lees meer over de Toegankelijkheidscontrole en krijg toegankelijke sjablonen voor Office.",
+    "StatusTagId": "",
+    "StatusNote": "",
+    "Assets": [
+      "7ee9113e-bde4-4381-aa28-e3963c4ddf05",
+      "191f671d-bed9-4b80-924a-8e64aae73858",
+      "09931f62-ec76-4ecb-8bd8-c07bc792e00c"
+    ]
+  },
+  {
+    "Id": "cf352e8f-caf6-4e52-86d5-ae218004e089",
+    "Title": "Meer toegankelijke e-mailberichten maken in Outlook",
+    "Image": "images/playlists/create-more-accessible-emails-in-outlook.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
+    "Description": "Maak toegankelijkere e-mailberichten in Outlook door ervoor te zorgen dat ze toegankelijk zijn voor mensen met een beperkt of geen gezichtsvermogen. Stel HTML in als de standaardnotatie voor berichten, stel een standaardlettertype in, maak een toegankelijke handtekening, voeg alternatieve tekst toe aan afbeeldingen en maak lijsten of tabellen met opsommingstekens om structuur toe te voegen waarmee schermlezers de volgorde en relaties kunnen communiceren.",
+    "StatusTagId": "",
+    "StatusNote": "",
+    "Assets": [
+      "d8de6398-e129-4019-8b34-b241e164456a",
+      "b6826ecd-5865-4db4-a8e7-f5a33d2799b5",
+      "e4ebc1c2-4781-4201-b6a6-bd3b02c25197"
+    ]
+  },
+  {
+    "Id": "76253e80-b36d-479a-9267-e73f2b5a8600",
+    "Title": "Toegankelijkere Word-documenten maken",
+    "Image": "images/playlists/create-more-accessible-word-documents.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
+    "Description": "Maak toegankelijkere Word-documenten met Toegankelijkheidscontrole om toegankelijkheidsproblemen te controleren en op te lossen. Voeg alternatieve tekst toe aan afbeeldingen en objecten, gebruik kopstijlen om de toegankelijkheid te verbeteren, maak betekenisvolle bestandsnamen en hyperlinks, organiseer informatie in tabellen om relaties weer te geven en leer tips die bestanden toegankelijker maken voor mensen met schermlezers.",
+    "StatusTagId": "",
+    "StatusNote": "",
+    "Assets": [
+      "ce53495d-c30e-442a-b1d2-05593cc814c0",
+      "9420d2d8-f04d-4d00-b852-2d846dbedfe9",
+      "6596fb5a-c25e-4dcb-b034-7cb38b611e38",
+      "727e6ff1-ef1c-475d-90d0-196e26b5b753",
+      "5c882b54-d2b1-4270-b65d-79483a2aa3ca",
+      "9f920424-7de6-4002-b4ed-6503a3cfae2d"
+    ]
+  },
+  {
+    "Id": "c4d3a610-6289-4979-b0b6-b679ef28c13b",
+    "Title": "Toegankelijkere werkmappen Excel maken",
+    "Image": "images/playlists/create-more-accessible-excel-spread-sheets.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
+    "Description": "Maak toegankelijkere Excel met grafieken, tabellen, beschrijvende labels en voeg alternatieve tekst toe aan afbeeldingen en objecten. Zoek en gebruik een toegankelijke sjabloon, verken toegankelijke sjabloonfuncties en maak uw koppen, etiketten en werkbladnamen beschrijvend om gegevens toegankelijk en begrijpelijk te maken voor iedereen, inclusief mensen met een lees- of gezichtsbeperking.",
+    "StatusTagId": "",
+    "StatusNote": "",
+    "Assets": [
+      "8b97437b-107f-43e5-8280-17ac317995fa",
+      "908d26b8-0c45-44c1-9a83-b8ff583aa4ef",
+      "e69562f7-e875-485d-839b-cb66b5d98023"
+    ]
+  },
+  {
+    "Id": "776fc7e7-cd09-4968-887f-cc04e8558b9e",
+    "Title": "Toegankelijkere presentaties PowerPoint maken",
+    "Image": "images/playlists/create-more-accessible-slides.in-powerpoint.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
+    "Description": "Maak toegankelijker PowerPoint presentaties. Dia's maken met een toegankelijke leesorder, toegankelijke sjablonen en lettertypen gebruiken en alternatieve tekst toevoegen aan grafieken, afbeeldingen en andere visuele elementen Leer tips en best practices om grafieken, grafieken en afbeeldingen toegankelijker te maken voor mensen die kleurenblind zijn of een visuele of leesbeperking hebben. Sla uw presentatie op in een indeling die kan worden gelezen door een schermlezer.",
+    "StatusTagId": "",
+    "StatusNote": "",
+    "Assets": [
+      "20a02e3c-437e-4ab2-8441-9f902e78c675",
+      "ebbbe5e7-a950-46b8-b63a-738a87b5a49a",
+      "1539f168-f27c-4215-9319-a5fafd76eec6",
+      "a02cbbff-d56f-477d-bd8b-d485408ae5eb",
+      "8e7eadca-6501-4ac5-b616-f94c2c491629"
+    ]
+  },
+  {
+    "Id": "a19e4916-4fbe-42e4-95b6-8e85cb12a47b",
+    "Title": "Samenwerking",
+    "Image": "images/playlists/playlist_bw.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "a7f1ca95-e0eb-4715-b846-89fc8d2afa56",
+    "Description": "Samen het beste werk leveren. Met Microsoft 365 kunt u overal en met iedereen samenwerken. Ontdek hoe u kunt delen, cocreëren, opmerkingen plaatsen en vergaderen met Microsoft 365-producten en -services.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "0849ef75-564f-450a-93e5-b27508d81c53",
+      "651e1cb9-9a51-46dc-8d32-bdb7d928eedd",
+      "b85eef71-e96b-4325-9501-228588728bc9",
+      "5bec897f-4e36-43f8-9d9d-c41cb4917d9c",
+      "80640ac4-b009-42ea-abcb-660e729e63e5",
+      "cf26a4a6-00e5-4ef4-98c5-cec5bf441da6"
+    ]
+  },
+  {
     "Id": "19a310b9-b50c-44ae-96e2-b30f17a38528",
-    "Title": "Effectieve vergaderingen houden",
+    "Title": "Effectieve vergaderingen uitvoeren",
     "Image": "images/playlists/hybrid_eff_meetings.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -171,7 +293,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
-    "Description": "Leer hoe u effectieve hybride vergaderingen kunt plannen en leiden. Leer wat u voor, tijdens en na een vergadering moet doen, hoe u een publiek betrokken houdt en de vermoeidheid van vergaderen vermindert.",
+    "Description": "Meer informatie over het uitvoeren van effectieve hybride vergaderingen. Leer effectieve vergadertips, vergaderoverwegingen, wat u moet doen voor, tijdens en na hybride vergaderingen, hoe u effectieve vergaderingen kunt plannen, plannen en leiden, een controlelijst voor vergaderingen kunt volgen, uw publiek kunt betrekken en vergadermoeheid kunt verminderen.",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
@@ -188,7 +310,7 @@
   },
   {
     "Id": "3cbbe474-ef4d-4154-aeb1-9a01d51764d4",
-    "Title": "Maak omgevingen voor inclusieve vergadering",
+    "Title": "Inclusieve vergaderomgevingen maken",
     "Image": "images/playlists/hybrid_incl_meetings.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -196,8 +318,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
-    "Description": "Leer hoe u overzichtelijke vergaderomgevingen kunt maken en vergaderingen en verwante inhoud toegankelijk kunt maken voor iedereen. Beperk afleidingen in vergaderingen en bouw begrip op in verschillende tijdzones.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "Description": "Leer hoe u inclusieve vergaderomgevingen kunt maken, vergaderingen en gerelateerde inhoud toegankelijk kunt maken voor iedereen, afleidingen in vergaderingen kunt beperken en empathie kunt opbouwen in de tijdzone.",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "1a583551-1f93-4d71-bac1-5881d5f8b1e7",
@@ -208,7 +330,7 @@
   },
   {
     "Id": "fdaae787-a991-40ae-ad83-87f05c8cf8ea",
-    "Title": "Asynchrone samenwerking en cocreatie",
+    "Title": "Asynchrone samenwerking en co-authoring",
     "Image": "images/playlists/hybrid_async_collab.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -216,8 +338,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
-    "Description": "Lees hoe u vergaderingen kunt verminderen of vervangen door asynchroon samenwerken. Werk samen en cocreëer gedeelde inhoud. Samenwerken in Teams, SharePoint en OneDrive.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "Description": "Meer informatie over het beperken of vervangen van vergaderingen door asynchrone samenwerking en coauteuring. Leer best practices voor samenwerking in Microsoft 365, coauteur van gedeelde bestanden in Office-apps, Teams, OneDrive en SharePoint en problemen met veelvoorkomende fouten bij het maken van coauteurproblemen op te lossen.",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "1311f213-f56b-4c15-b496-5ecff888cd66",
@@ -233,7 +355,7 @@
   },
   {
     "Id": "6f3bbc71-627d-4427-9635-6aadd0a203f9",
-    "Title": "Een groot publiek bereiken met livegebeurtenissen",
+    "Title": "Grote doelgroepen bereiken met livegebeurtenissen",
     "Image": "images/playlists/hybrid_live_events.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -241,7 +363,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
-    "Description": "Informatie over het gebruik van Microsoft Teams voor live evenementen. Organiseer een livegebeurtenis in de nieuwe Yammer. Plan een livegebeurtenis in Yammer met behulp van Teams.",
+    "Description": "Bereik grote doelgroepen met livegebeurtenissen. Leer hoe u aan de slag gaat, een livegebeurtenis in uw Teams en een livegebeurtenis in uw Yammer.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -262,7 +384,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
-    "Description": "Leer hoe u voor uzelf zorgt en uw persoonlijke welzijn verbetert. Houd uw agenda leeg voor maaltijden, pauzes en beweging. Bepaal uw grenzen door uw status in te stellen in Microsoft Teams om aan te geven of u vrij of bezet bent. Maak verbinding met anderen via een Teams-kanaal voor doorlopend sociaal werk of werkgerelateerde gesprekken. Beheer meldingen in Teams om te bepalen hoe, wanneer en waar uw meldingen worden weergegeven. Schakel Concentratiehulp in Windows 10 in om afleiding te voorkomen wanneer u gefocust moet blijven.",
+    "Description": "Blijf gezond door zelfzorgtips voor uw persoonlijk welzijn toe te passen. Blok uw agenda voor maaltijden, pauzes en beweging. Stel uw status in Microsoft Teams in om vrije of drukke tijden aan te geven. Maak verbinding met anderen in een Teams-kanaal voor sociale of werkgerelateerde gesprekken. Beheer meldingen in Teams om te bepalen hoe, wanneer en waar uw meldingen verschijnen. Schakel Concentratiehulp in Windows 10 in om afleidingen te vermijden wanneer u zich moet concentreren.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -271,7 +393,7 @@
       "d5e2099d-6696-474b-b358-bd5ccb5e0657",
       "ce36ed14-6bc9-4775-a33e-6629ba4ff78e",
       "1cc31834-5fe5-412b-8edb-43fecc78413d",
-      "10-5492a638-b5a3-1ee0-0c4f-5ae044450e09"
+      "5492a638-b5a3-1ee0-0c4f-5ae044450e09"
     ]
   },
   {
@@ -284,7 +406,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
-    "Description": "Sociaal kapitaal en andere soorten sociale verbindingen helpen bij het verbeteren van de gezondheid en tevredenheid over de functie. Om verbonden te blijven in een hybride werkplek, leert u hoe u sociale kanalen maakt met behulp van Teams-vergaderingen en -chats om kleine groepslunches, sociale uren en andere informele ruimten te hosten die het 'koffiezetapparaat' in het kantoor kunnen nabootsen, ongeacht de werklocatie. Houd regelmatig geplande 1:1's en overweeg om één 1:1-vergadering te splitsen in twee kortere vergaderingen gedurende de week. Kanaalgesprekken in Teams zijn ook een uitstekende manier om het hele team op de hoogte te houden.",
+    "Description": "Sociaal kapitaal en andere maateenheden van sociale verbinding worden geassocieerd met een betere gezondheid en werktevredenheid. Leer hoe je sociale kanalen maakt met Teams-vergaderingen en chat om kleine groepslunches, sociale uren en andere informele ruimten te hosten die de waterkoeler nabootsen op kantoor om verbonden te blijven in een hybride werkplek, ongeacht de werklocatie. Houd regelmatig geplande een-op-een-vergaderingen en overweeg een een-op-een-vergadering te splitsen in 2 kortere vergaderingen gedurende de week. Kanaalgesprekken in Teams zijn ook een uitstekende manier om het hele team op de hoogte te houden.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -303,7 +425,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
-    "Description": "Stel uw fysieke en virtuele werkruimte in voor productiviteit. Leer welke taken en vergadertypen beter zijn voor hybride werk of persoonlijk werk, zodat u uw planning van tevoren kunt maken. Maak focustijd in Teams, plan rustige uren en rustige dagen in en stel een statusbericht in Teams in. Bepaal ter bevordering van de teamproductiviteit welke dagen het beste zijn voor fysieke vergaderingen en welk type werk op afstand kan worden uitgevoerd. Bepaal ook zelf wanneer vergaderingen (fysiek of op afstand) nodig zijn en wanneer ze optioneel zijn.",
+    "Description": "Stel de fysieke en virtuele werkruimte in voor productiviteit. Ontdek welke taken en vergadertypen beter zijn voor hybride werk of persoonlijk werk, zodat je jouw planning van tevoren kunt plannen. Maak focustijd in Teams, stel stiltetijd en stiltedagen in en stel een statusbericht op in Teams. Bepaal voor teamproductiviteit welke dagen het beste zijn voor persoonlijke vergaderingen en welk type werk op afstand kan worden uitgevoerd. Bepaal ook wanneer vergaderingen (persoonlijk of extern) nodig zijn en wanneer ze optioneel zijn.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -313,7 +435,7 @@
   },
   {
     "Id": "fa3a7737-b33d-4481-9b80-416d20b9ca9f",
-    "Title": "Microsoft 365 gebruiken op al uw werk en apparaten",
+    "Title": "Gebruik Microsoft 365 op uw werk en apparaten",
     "Image": "images/playlists/use_across_devices.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -321,17 +443,17 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9030ff2c-5549-4ffe-8dc9-4dc184241dec",
-    "Description": "Microsoft 365 en de kracht van de cloud zorgen ervoor dat u makkelijk op nieuwe en productieve manieren kunt werken, overal en op elk apparaat.",
+    "Description": "Gebruik Microsoft 365 op uw werk en apparaten om verbonden te blijven, notities te maken en te lezen, toegang te krijgen tot uw bestanden op elk apparaat, impactvolle inhoud te maken, tijd te besparen, u vrijelijk uit te drukken met digitale inkt, uw werk tot leven te brengen met 3D, uw werk toegankelijk te maken en veilig en privé te blijven op het werk.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "26dc26c2-f0aa-46d6-a7ca-d41c95324789",
       "b77aeff7-6385-4921-be7d-461f241e74a8",
-      "b2c9a7eb-6941-44ca-a273-ddc76f6d4153",
       "11376a10-48e3-47a1-8e45-efd1394e96c4",
+      "b2c9a7eb-6941-44ca-a273-ddc76f6d4153",
       "13c08ec7-7756-4b80-a21b-60224ba348f5",
       "299b847d-fc47-4e69-9ad7-c62bd16f32ca",
-      "fc785f57-3d4e-414d-a387-9289d1abd903",
+      "08eb637b-9c8e-4f3c-a705-2aa6849f398e",
       "ccf0401e-14e1-4597-ae88-e35d98b51b09",
       "a450d2f1-f8e9-452e-b570-088e214dcc0e"
     ]
@@ -346,7 +468,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9030ff2c-5549-4ffe-8dc9-4dc184241dec",
-    "Description": "De manier waarop teams contact houden en informatie uitwisselen, wordt steeds beter ontwikkeld. Samen kunnen werken met collega's wordt heel normaal gevonden, waar ze zich ook bevinden.",
+    "Description": "Gebruik Microsoft 365 in uw team om teams te maken en organiseren, teamgesprekken te optimaliseren, samen te werken in Microsoft Teams, vergaderingen te beheren en samen te werken aan bestanden.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -359,7 +481,7 @@
   },
   {
     "Id": "cb4effb6-f78e-444a-98b7-6274ad2fe70c",
-    "Title": "Microsoft 365 gebruiken in de hele organisatie",
+    "Title": "Gebruik Microsoft 365 in uw organisatie",
     "Image": "images/playlists/use_across_org.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -367,7 +489,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9030ff2c-5549-4ffe-8dc9-4dc184241dec",
-    "Description": "Microsoft 365 gebruiken in de hele organisatie",
+    "Description": "Gebruik Microsoft 365 in uw organisatie om het netwerk van uw bedrijf in te stellen in Yammer, de thuisbasis van uw bedrijf in SharePoint en de videoportal van uw bedrijf in Microsoft Stream.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -378,7 +500,7 @@
   },
   {
     "Id": "1f5ec8e6-5fef-481a-ad87-59842c3d539b",
-    "Title": "Een dag in uw digitale leven met Office 365",
+    "Title": "Dag in uw digitale leven met Office 365",
     "Image": "images/playlists/digital_day.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -386,7 +508,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9030ff2c-5549-4ffe-8dc9-4dc184241dec",
-    "Description": "Ontdek nieuwe manieren om uw werkdag te vereenvoudigen met Office365",
+    "Description": "Ontdek nieuwe manieren om uw dag in uw digitale leven te vereenvoudigen met Office 365. Bekijk hoe u uw digitale dag start, taken die u kunt uitvoeren tijdens uw ochtendkoffie, tijdens uw reis, vergadering op kantoor, samenwerken met collega's, verbinding maken in het hele bedrijf en hoe u uzelf kunt beschermen tegen phishing.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -395,8 +517,7 @@
       "59fce479-241d-45f2-a79c-e7485fd02066",
       "6f739c5e-bb13-4ce9-9301-abf4a9cac9e2",
       "9655a0e0-34f0-4805-8221-420ae713e0d0",
-      "b1d3baac-83e4-4d1a-8f8c-bb5e02409a37",
-      "a3d5959b-91ea-4cf0-b60a-e27abe03d59e"
+      "b1d3baac-83e4-4d1a-8f8c-bb5e02409a37"
     ]
   },
   {
@@ -409,7 +530,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "51a0828d-1d27-4931-b547-9f2a698f33d8",
-    "Description": "Houd uw computer veilig op het werk, leer meer over meervoudige verificatie, firewall- en netwerkbeveiliging in Windows-beveiliging en voorkom wijzigingen in beveiligingsinstellingen met bescherming tegen knoeien.",
+    "Description": "Met cyberbeveiligingsprincipes leert u wat cyberbeveiliging en meervoudige verificatie zijn, firewall- en netwerkbeveiliging in Windows-beveiliging, de gevaren van oversharing en hoe u uw apparaat kunt beveiligen om wijzigingen te voorkomen met Tamper Protection.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -429,7 +550,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "51a0828d-1d27-4931-b547-9f2a698f33d8",
-    "Description": "Tips voor het beveiligen van uw gegevens en het beschermen van uw gezin online met Windows-beveiliging.",
+    "Description": "Krijg tips om uw gegevens veilig te houden met deze digitale veiligheidsmodule. Leer hoe u veiliger thuis kunt werken, kunt samenwerken in OneDrive, veiliger kunt werken via draadloze verbindingen en uw gezin online kunt beschermen met Windows-beveiliging.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -440,7 +561,7 @@
   },
   {
     "Id": "5872570a-e8a6-4d84-8802-4dd053b4dabc",
-    "Title": "Grootste bedreigingen",
+    "Title": "Belangrijkste bedreigingen",
     "Image": "images/playlists/LP-security-5-simple-steps.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -448,7 +569,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "51a0828d-1d27-4931-b547-9f2a698f33d8",
-    "Description": "Bescherm uzelf tegen phishing, voorkom oplichting met technische ondersteuning en blijf beschermd met Windows-beveiliging en werk veiliger vanuit huis.",
+    "Description": "Bekijk tips om je gegevens veilig te houden met deze digitale veiligheidsmodule. Leer veiliger thuiswerken, leer samenwerken in OneDrive, leer veiliger omgaan met draadloze verbindingen en bescherm je gezin online met Windows-beveiliging.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -460,7 +581,7 @@
   },
   {
     "Id": "35f25052-fa93-4daf-8d2e-b29935a002d0",
-    "Title": "Op afstand werken met Microsoft 365",
+    "Title": "Werken op afstand met Microsoft 365",
     "Image": "images/playlists/work_remotely_with_o365.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -468,11 +589,10 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9eb8fc25-dd5b-4459-81e9-ae382aca7a78",
-    "Description": "Met Microsoft Teams en Office 365 kunt u alleen of met anderen aan de slag, waar u ook bent.",
+    "Description": "Microsoft Teams en Office 365 u helpen uw werk gedaan te krijgen, met anderen en alleen, waar u zich nu ook kunt vinden.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
-      "0bf64fa2-7ad2-483d-a0f5-d91d1f956b24",
       "d76f6ade-0e4e-48d5-9fc1-17480b7e041e",
       "dbf2c1f3-dbc5-45a8-9f04-2d9a7e97032f",
       "83cbb1c1-024e-4fcd-92e6-fdc0263d0c68",
@@ -480,30 +600,8 @@
     ]
   },
   {
-    "Id": "b7fa7e0e-2282-48d3-8010-3b28d5dc3d04",
-    "Title": "Aanbevolen procedures voor samenwerken met Microsoft 365",
-    "Image": "images/playlists/best_practices_collaborating.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "CatId": "9eb8fc25-dd5b-4459-81e9-ae382aca7a78",
-    "Description": "Doe uw beste werk samen. Met Office 365 kunt u met iedereen en overal samenwerken.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
-    "StatusNote": "",
-    "Assets": [
-      "93f43b6a-8eb7-46ac-9b19-8ae42c53eb87",
-      "0cdf7a16-a3db-4caa-bb93-90f0ffe1c807",
-      "fcc2ece3-aecb-40c7-a410-0e36b0bdf3d8",
-      "3f008f2a-c7f2-4183-8635-61375cef1062",
-      "c8c64c61-0136-4e47-be9d-263976ce6de5",
-      "f0802f2f-f3a5-4cba-af50-70759f679d65"
-    ]
-  },
-  {
     "Id": "d59b1053-3756-4d9f-82a8-0ac97b11529c",
-    "Title": "Aan de slag met Access",
+    "Title": "Snel aan de slag met Access",
     "Image": "images/playlists/access-quick-start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -511,7 +609,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-    "Description": "Met Access kunt u een database bouwen zonder dat u hiervoor code hoeft te schrijven of veel ervaring nodig hebt",
+    "Description": "Ga snel aan de slag met De snelstart van Access. Maak een database, importeer gegevens uit Excel, voeg een primaire sleutel toe, maak een back-up van uw database en maak een gesplitste query, gesplitst formulier of rapport.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -523,7 +621,7 @@
   },
   {
     "Id": "3c376578-f821-4184-9365-75011c163f68",
-    "Title": "Inleiding tot Access",
+    "Title": "Intro voor Access",
     "Image": "images/playlists/access-intro-to-access.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -531,7 +629,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-    "Description": "Met Access kunt u een database bouwen zonder dat u hiervoor code hoeft te schrijven of veel ervaring nodig hebt.",
+    "Description": "Met Intro naar Access leert u hoe u met Access sjablonen kunt gebruiken om snel databases te maken, gegevens te zoeken en te rapporteren, uitgebreide gegevensinvoerformulieren te maken en gegevensbronnen te importeren, te transformeren en te exporteren. Leer databaseconcepten en -termen, een goed databaseontwerp en stappen om een database te maken met databaseobjecten zoals tabellen, query's, formulieren, rapporten, macro's en modules.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -550,12 +648,13 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-    "Description": "Als u snel een bureaubladdatabase wilt maken, gebruikt u een van de sjablonen die beschikbaar zijn in Access. Als u geen geschikte sjabloon kunt vinden, maakt u een volledig nieuwe database.",
+    "Description": "Informatie over het maken van een Access-database, of u nu een bureaubladdatabase of een Access-web-app maakt, de verschillen en ontwerpoverwegingen zoals IT-vereisten, toegang tot gegevens en ontwerp en zakelijke doelstellingen en vereisten. Databases maken op basis van een sjabloon, een kras of een Access-web-app.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
-      "6bbb5916-3c01-44a4-8574-39c1ddcde62e",
-      "f3c24ddc-6434-4c4a-a9bf-52acc9168b29"
+      "7bf7ccc9-0850-48f2-858f-273271d30fa0",
+      "f3c24ddc-6434-4c4a-a9bf-52acc9168b29",
+      "6bbb5916-3c01-44a4-8574-39c1ddcde62e"
     ]
   },
   {
@@ -568,11 +667,12 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-    "Description": "Tabellen maken en gegevenstypen instellen",
+    "Description": "Informatie over het maken van tabellen en het instellen van gegevenstypen",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "7dfc2f4c-688c-4f97-824a-7d0bae14c3eb",
+      "ac5a2bfb-4537-469c-8580-50eb24053383",
       "660be5b5-c859-405e-81e6-b486f753792c"
     ]
   },
@@ -586,15 +686,15 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-    "Description": "Zodra u tabellen in uw database hebt, kunt u relaties tussen de tabellen maken.",
+    "Description": "Gebruik relaties in Access om de kracht van relationele databases te benutten door gegevens in verschillende tabellen te combineren. Meer informatie over de weergave Relaties, de typen relaties tussen tabellen en het bewerken van relaties. Maak relaties met de wizard Opzoeken, het deelvenster Relaties en leer hoe u een-op-een- en veel-op-veel-relaties maakt.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "462b1bf8-d12f-423a-aa30-17c1f2379fd8",
+      "6520c707-a605-4b88-aab0-2edc03112ecf",
       "710dde6d-b6fd-4ee5-9162-1fcfbd53c461",
       "a04334bb-8f43-4ed1-9ed2-84154ae4b300",
-      "927577a1-b6db-46e7-a6ff-74af8e6aacd4",
-      "6520c707-a605-4b88-aab0-2edc03112ecf"
+      "927577a1-b6db-46e7-a6ff-74af8e6aacd4"
     ]
   },
   {
@@ -607,7 +707,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-    "Description": "Als het lastig wordt om de lijst in Excel te beheren, is het handig om deze naar Access te verplaatsen zodat u de query- en rapportagefuncties van Access kunt benutten.",
+    "Description": "Lees hoe u gegevens toevoegt en bewerkt in Access en profiteer van de gestroomlijnde bewerkingsmogelijkheden, krachtige query's en handige rapportagemogelijkheden door gegevens te kopiëren uit een Excel spreadsheet. Als u gegevens in andere bronnen bijhoudt, zoals Excel spreadsheets en SharePoint-sites, kunt u ook een koppeling maken naar de gegevens uit uw Access-database, zodat u altijd met de meest recente gegevens werkt",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -625,7 +725,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-    "Description": "Gebruik query's om zakelijke of andere vragen te beantwoorden op basis van gegevens en om snel en eenvoudig bulkupdates door te voeren of informatie uit de database te verwijderen.",
+    "Description": "Beheer gegevens met query's in Access om zakelijke vragen te beantwoorden, bulksgewijs bij te werken of gegevens uit de database te verwijderen. Lees wat query's zijn, hoe ze worden gebruikt en hoe u query's maakt. Informatie over het maken van basisquery's voor snel zoeken met Queryontwerp en joins, outer joins en tussenliggende tabellen gebruiken om query's te maken met meer dan één gegevensbron.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -646,7 +746,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-    "Description": "Als u vaak dezelfde set formulieren en rapporten gebruikt, kunt u deze items groeperen in een navigatieformulier.",
+    "Description": "Als u vaak dezelfde set formulieren en rapporten gebruikt, kunt u een navigatieformulier maken in Access-bureaubladdatabases om ze samen te groepen. Meer informatie over het toevoegen van een formulier of rapport aan het navigatieformulier, het label wijzigen, een visueel thema toepassen en het navigatieformulier instellen als het standaardweergaveformulier.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -663,12 +763,12 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-    "Description": "Deel de database pas met anderen nadat u de gegevens hebt weergegeven in een indeling die gemakkelijk te begrijpen is. U kunt de gegevens in de database weergeven, opmaken en samenvatten met behulp van rapporten.",
+    "Description": "Meer informatie over het maken en opmaken van rapporten in Access, zodat u ze gemakkelijk kunt bekijken en begrijpen. Informatie over het maken van basisrapporten met access-rapporthulpmiddelen, het toevoegen van groeperingen, sorteren of totalen aan rapportvelden, het toevoegen van een thema of logo, het markeren van gegevens met een regel voor voorwaardelijke opmaak en het afdrukken van een rapport.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
-      "e4059fd5-20d1-4ff5-a758-8ea3c2ce8c75",
-      "669bd71c-95e9-4adb-abb9-e04a4cfc5117"
+      "669bd71c-95e9-4adb-abb9-e04a4cfc5117",
+      "e4059fd5-20d1-4ff5-a758-8ea3c2ce8c75"
     ]
   },
   {
@@ -681,7 +781,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-    "Description": "Leer hoe u reservekopieën van uw desktopdatabase maakt om uw belangrijke gegevens te herstellen wanneer de opdracht Ongedaan maken niet voldoende is om een fout op te lossen, een ontbrekend object terug te zetten of beschadigde gegevens te repareren.",
+    "Description": "Bescherm uw databases in Access. Het is een goede gewoonte om regelmatig een back-up van uw database te maken in het geval van een systeemfout, een database is beschadigd of gegevens ontbreekt, u moet een oudere versie controleren of u moet de database herstellen. Meer informatie over het maken van een back-up van een database en het herstellen van een database met deze eenvoudige stappen.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -690,7 +790,7 @@
   },
   {
     "Id": "2aa461ea-18f5-47d4-a29c-e63fda70f75b",
-    "Title": "Diagrammen maken",
+    "Title": "Grafieken maken",
     "Image": "images/playlists/access-add-text-and-pictures.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -698,8 +798,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-    "Description": "Leer hoe u Access-grafieken maakt, inclusief kolom-, staaf-, lijn-, cirkel- en combinatiediagrammen.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "Description": "Maak grafieken in Access om gegevens weer te geven in een handige visuele indeling. Meer informatie over het maken en opmaken van een kolomdiagram, staafdiagram, lijndiagram, cirkeldiagram en keuzelijst met invoerdiagram.",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "8e37a32f-561a-4a93-86a9-d580893f4a3d",
@@ -710,117 +810,16 @@
     ]
   },
   {
-    "Id": "fbf60a54-6a6c-4c6d-a121-c478f9531a98",
-    "Title": "Overzicht en informatiebronnen voor toegankelijkheid van Microsoft 365",
-    "Image": "images/playlists/microsoft-365-accessiblitiy-overview-and-resources.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
-    "Description": "Voordat u uw e-mailbericht verzendt of uw document of spreadsheet deelt, voert u de toegankelijkheidscontrole uit om ervoor te zorgen dat uw Microsoft Office-inhoud gemakkelijk te lezen en te bewerken is voor mensen met een beperking.",
-    "StatusTagId": "",
-    "StatusNote": "",
-    "Assets": [
-      "7ee9113e-bde4-4381-aa28-e3963c4ddf05",
-      "191f671d-bed9-4b80-924a-8e64aae73858",
-      "09931f62-ec76-4ecb-8bd8-c07bc792e00c"
-    ]
-  },
-  {
-    "Id": "cf352e8f-caf6-4e52-86d5-ae218004e089",
-    "Title": "Beter toegankelijke e-mailberichten maken in Outlook",
-    "Image": "images/playlists/create-more-accessible-emails-in-outlook.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
-    "Description": "Beter toegankelijke e-mailberichten maken in Outlook",
-    "StatusTagId": "",
-    "StatusNote": "",
-    "Assets": [
-      "d8de6398-e129-4019-8b34-b241e164456a",
-      "b6826ecd-5865-4db4-a8e7-f5a33d2799b5",
-      "e4ebc1c2-4781-4201-b6a6-bd3b02c25197"
-    ]
-  },
-  {
-    "Id": "76253e80-b36d-479a-9267-e73f2b5a8600",
-    "Title": "Beter toegankelijke Word-documenten maken",
-    "Image": "images/playlists/create-more-accessible-word-documents.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
-    "Description": "Beter toegankelijke Word-documenten maken",
-    "StatusTagId": "",
-    "StatusNote": "",
-    "Assets": [
-      "9420d2d8-f04d-4d00-b852-2d846dbedfe9",
-      "6596fb5a-c25e-4dcb-b034-7cb38b611e38",
-      "727e6ff1-ef1c-475d-90d0-196e26b5b753",
-      "9f920424-7de6-4002-b4ed-6503a3cfae2d",
-      "d47b9703-df15-4a41-b895-e97729062e23",
-      "ce53495d-c30e-442a-b1d2-05593cc814c0",
-      "5c882b54-d2b1-4270-b65d-79483a2aa3ca"
-    ]
-  },
-  {
-    "Id": "c4d3a610-6289-4979-b0b6-b679ef28c13b",
-    "Title": "Beter toegankelijke Excel-werkmappen maken",
-    "Image": "images/playlists/create-more-accessible-excel-spread-sheets.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
-    "Description": "Beter toegankelijke Excel-werkmappen maken",
-    "StatusTagId": "",
-    "StatusNote": "",
-    "Assets": [
-      "8b97437b-107f-43e5-8280-17ac317995fa",
-      "908d26b8-0c45-44c1-9a83-b8ff583aa4ef",
-      "e69562f7-e875-485d-839b-cb66b5d98023"
-    ]
-  },
-  {
-    "Id": "776fc7e7-cd09-4968-887f-cc04e8558b9e",
-    "Title": "Beter toegankelijke PowerPoint-dia's maken",
-    "Image": "images/playlists/create-more-accessible-slides.in-powerpoint.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
-    "Description": "Leer hoe u inhoud in uw PowerPoint-dia's plaatst om deze voor iedereen toegankelijk te maken",
-    "StatusTagId": "",
-    "StatusNote": "",
-    "Assets": [
-      "20a02e3c-437e-4ab2-8441-9f902e78c675",
-      "ebbbe5e7-a950-46b8-b63a-738a87b5a49a",
-      "1539f168-f27c-4215-9319-a5fafd76eec6",
-      "a02cbbff-d56f-477d-bd8b-d485408ae5eb",
-      "8e7eadca-6501-4ac5-b616-f94c2c491629"
-    ]
-  },
-  {
     "Id": "a8cbac83-f7e8-45ff-a4a6-6b04f31a5745",
-    "Title": "Aan de slag met Excel",
+    "Title": "Excel Snelle Startmenu",
     "Image": "images/playlists/excel_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "Snel aan de slag met de handleiding Aan de slag met Excel. Leer hoe u een werkmap maakt, gegevens invoert, een werkmap opslaat in OneDrive, een kolom automatisch invult met Snelvullen, snel rekent met AutoSum, een grafiek maakt of voorwaardelijke opmaak gebruikt met Snelle analyse, de bovenste rij blokkeert, uw werkmap deelt voor samenwerken met anderen en uw mobiele apps instelt.",
+    "Description": "Aan de slag snel met de handleiding Excel Snelle Startmenu. Leer hoe u een werkmap maakt, gegevens invoert, de werkmap opslaat in OneDrive en automatisch een kolom vult met Snel aanvullen. Leer ook hoe u snel kunt berekenen met AutoSom, een grafiek kunt maken of voorwaardelijke opmaak kunt gebruiken met Snelle analyse, de bovenste rij kunt blokkeren, uw werkmap kunt delen om samen te werken met anderen en uw mobiele apps kunt instellen.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -836,12 +835,12 @@
     "Title": "Inleiding tot Excel",
     "Image": "images/playlists/welcome_to_excel.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "Maak een nieuwe werkmap of voeg een werkblad in. Lees hoe u Excel als uw rekenmachine gebruikt of gegevens in cellen automatisch aanvult.",
+    "Description": "Bekijk deze cursus 'Inleiding tot Excel' voor meer informatie over werkmappen maken, een werkblad invoegen, verwijderen, verplaatsen, kopiëren of afdrukken, Excel als rekenmachine gebruiken, gegevens automatisch doorvoeren en een vervolgkeuzelijst maken.",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
@@ -859,21 +858,21 @@
     "Title": "Rijen en kolommen",
     "Image": "images/playlists/rows_and_columns.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "Voeg kolommen, rijen of cellen toe aan een Excel-werkblad of verwijder deze. Deelvensters blokkeren, rijen en kolommen verbergen of weergeven of filteren op unieke waarden.",
+    "Description": "Gebruik Excel-rijen en -kolommen om je gegevens te organiseren. Leer hoe je rijen en kolommen invoegt of verwijdert, inhoud in Excel selecteert, deelvensters blokkeert om rijen en kolommen te vergrendelen, rijen of kolommen verbergt of weergeeft, filtert op unieke waarden of dubbele waarden verwijdert, tekst splitst in verschillende kolommen en een lijst met opeenvolgende datums maakt",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
-      "06e7419f-fdea-4f32-bc2b-f73088410881",
+      "6f40e6e4-85af-45e0-b39d-65dd504a3246",
       "32bae4a3-7bc2-49a7-9cff-22c399ab09e4",
-      "94708bae-df5c-4c3b-888c-621cf5d4bc94",
-      "659c2cad-802e-44ee-a614-dde8443579f8",
+      "dab2ffc9-020d-4026-8121-67dd25f2508f",
+      "95146525-ce4f-4ff6-a118-c0724deb1a98",
       "36ffe8ad-b6f6-4cfb-a55e-da3f5cd40d24",
-      "0edb925e-2af7-47fb-895a-28a07d5b73d4",
+      "30b14928-5550-41f5-97ca-7a3e9c363ed7",
       "8c3fb3c7-8e61-415f-9663-b58055f252ed"
     ]
   },
@@ -882,12 +881,12 @@
     "Title": "Cellen",
     "Image": "images/playlists/cells.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "Knippen, kopiëren en plakken als u de celinhoud wilt verplaatsen of kopiëren. De grootte van een tabel, kolom of rij wijzigen, meer informatie over het samenvoegen van cellen, het valideren van gegevens of het importeren/exporteren van tekst.",
+    "Description": "Lees hoe u met Excel-cellen kunt werken: cellen verplaatsen of kopiëren, de kolombreedte of rijhoogte wijzigen, tekst of getallen op een werkblad zoeken of vervangen, cellen samenvoegen en samenvoegen, gegevensvalidatie toepassen op cellen en tekstbestanden (.txt of .csv) importeren of exporteren.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -895,7 +894,7 @@
       "03cbab80-5182-4b3d-b93b-ae199c51b505",
       "1123fcbc-f571-45fb-a74a-316f09b3fe29",
       "9d7d2acb-7071-4d9f-bf22-35303d7cc5f8",
-      "82cfacc1-46ed-400f-863d-1ee0400f5fa7",
+      "29fecbcc-d1b9-42c1-9d76-eff3ce5f7249",
       "b24c6835-466c-4b17-a921-3f4d6fd07a7c"
     ]
   },
@@ -904,49 +903,49 @@
     "Title": "Opmaak",
     "Image": "images/playlists/formatting.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "Getallen in cellen opmaken als valuta, percentages, decimalen, datums, telefoonnummers of burgerservicenummers. Voorwaardelijke opmaak instellen, tekst uitlijnen of draaien of een watermerk toevoegen.",
+    "Description": "Leer hoe u Excel kunt opmaken om tijd te besparen en uw werkblad nuttig te maken voor u en uw team. Leer handige tips, zoals hoe u getallen (valuta's, percentages, datums, telefoonnummers) opmaakt, voorwaardelijke opmaak gebruikt om visuele aanwijzingen te geven, celopmaak wijzigt of kopieert, een watermerk toevoegt, nulwaarden weergeeft of verbergt en een aangepaste getalnotatie maakt.",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
+      "f8b36f10-c4a1-4320-9cc1-9984eb9abd45",
       "7957ee2d-c54e-4230-961f-175fad32972c",
+      "483730f9-7cdb-4d67-b9e6-ffabd6401e16",
       "d644dc7b-d008-4459-86ec-00d4e5988e4d",
       "6207db27-7981-4b83-bd29-cc68c333dcfa",
+      "a372182a-d733-484e-825c-18ddf3edf009",
       "14c9018b-5431-43db-b1ea-39dd8c75de96",
-      "b0b4def0-411d-4a6c-885e-a8d4d75b54bf",
-      "f8b36f10-c4a1-4320-9cc1-9984eb9abd45",
-      "483730f9-7cdb-4d67-b9e6-ffabd6401e16",
-      "16301bbd-6aa6-4fd7-8cde-b60e8d599b6e"
+      "b0b4def0-411d-4a6c-885e-a8d4d75b54bf"
     ]
   },
   {
     "Id": "9baa4835-b7d5-4e7e-8bea-0a53a1b91229",
-    "Title": "Formules en functies",
+    "Title": "Formules & functies",
     "Image": "images/playlists/formulas_and_functions.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "Leer hoe u formules maakt en ingebouwde functies gebruikt om berekeningen uit te voeren en problemen op te lossen. Meer informatie over het gebruik van VERT.ZOEKEN, SOM, AANTAL.ALS, ALS en meer.",
-    "StatusTagId": "",
+    "Description": "Gebruik Excel formules en functies om berekeningen uit te voeren en problemen op te lossen. Informatie over het gebruik van XLOOKUP, VERT.ZOEKEN, SOM, SOM.ALS, SOMMEN.ALS, AANTAL.ALS, ALS, ALS en OVEREENKOMST om waarden te vinden, berekeningen uit te voeren, tijd te besparen en gegevens automatisch te beheren.",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "7068c43a-2e0b-47ea-8b0f-692343447af6",
-      "65e4dfc5-5b27-4d90-8c51-a56edfca12a4",
       "95439567-b972-4ba3-858c-da70000c8ad4",
+      "65e4dfc5-5b27-4d90-8c51-a56edfca12a4",
+      "043e1c7d-7726-4e80-8f32-07b23e057f89",
       "fbf3ff68-e9c2-4a2b-8a15-a52ff5729dde",
-      "3f12e6c7-887b-487e-a8f3-31742d060729",
-      "9b987982-de15-4784-8652-0d963d0eac05",
-      "742ecbd6-edf9-4470-b021-be7a2b7a51b2",
+      "69aed7c9-4e8a-4755-a9bc-aa8bbff73be2",
+      "23c84e31-fc11-425d-ab03-5630f247b566",
       "8a6ca66e-152f-4d10-848c-cd35b2fc70d2",
-      "1c27aedd-870f-41a6-bae2-23d4ca417673",
-      "6614f5e7-fcf6-4781-b577-7a9538285353"
+      "9bdc9d30-4277-4888-b606-ae9927a650bb",
+      "742ecbd6-edf9-4470-b021-be7a2b7a51b2"
     ]
   },
   {
@@ -954,20 +953,20 @@
     "Title": "Tabellen",
     "Image": "images/playlists/tables.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "Informatie over het maken en opmaken van tabellen, het sorteren van gegevens en het filteren van gegevens in een tabel. Ontdek hoe u gegevens in een tabel kunt optellen of Slicers gebruikt om gegevens te filteren.",
-    "StatusTagId": "",
+    "Description": "Tabellen maken en opmaken in Excel om gegevens visueel te groepen en te analyseren. Informatie over het sorteren en filteren van gegevens in een bereik of tabel, totale gegevens en het gebruik van slicers om gegevens te filteren.",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
-      "bf0ce08b-d012-42ec-8ecf-a2259c9faf3f",
-      "7f11ec7c-6c1b-4195-9fa5-b3bc8ea544d4",
-      "7fbe34f4-8382-431d-942e-41e9a88f6a96",
+      "e81aa349-b006-4f8a-9806-5af9df0ac664",
+      "77b781bf-5074-41b0-897a-dc37d4515f27",
+      "01832226-31b5-4568-8806-38c37dcc180e",
       "9885a56c-51b5-487a-a168-054afd034631",
-      "3517fa12-353e-4907-b94d-b8e9b500ee33"
+      "249f966b-a9d5-4b0f-b31a-12651785d29d"
     ]
   },
   {
@@ -975,24 +974,23 @@
     "Title": "Grafieken",
     "Image": "images/playlists/charts.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "Met diagrammen kunt u uw gegevens zodanig visualiseren dat het effect op uw publiek maximaal is. Leer hoe u een grafiek maakt, een trendlijn toevoegt, gegevens onmiddellijk analyseert of een bestaande grafiek bijwerkt.",
-    "StatusTagId": "",
+    "Description": "Grafieken in Excel helpen u uw gegevens te visualiseren op een manier die een maximale impact heeft op uw publiek. Leer hoe u een diagram maakt, titels toevoegt of verwijdert, een diagramlegenda weergeeft of verbergt, een secundaire as toevoegt of verwijdert, een trendlijn of sparkline toevoegt om gegevenstrends weer te geven en Snelle analyse gebruikt om de perfecte diagram te kiezen.",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
-      "201fba6f-daf0-4aaf-98f8-e826da1719d7",
-      "8b69760d-f337-4b7b-b72e-d48f29e54ba7",
-      "8d2399ed-748e-4fb5-95c9-eed8177f116d",
-      "447ce791-5207-450d-a57a-b3a4602b54e0",
       "231c42d2-5e58-40e1-99f0-cbe618cfee1d",
-      "5459166a-549f-44ef-a285-51d32bebcd5d",
-      "426058cb-da1f-4e45-906e-4d40f171801e",
-      "69df61ca-f6f6-42b6-bb13-78bbd64026db",
-      "343e775c-58ee-4a3d-8d52-f4e3f5240d79"
+      "4cf3c009-1482-4908-922a-997c32ea8250",
+      "5d663010-fee5-4953-a2ab-18f529543fd5",
+      "91da1e2f-5db1-41e9-8908-e1a2e14dd5a9",
+      "8b69760d-f337-4b7b-b72e-d48f29e54ba7",
+      "9e382e73-7f5e-495a-a8dc-be8225b1bb78",
+      "9776678e-c608-4a7c-9679-5c70e374f9be",
+      "1474e169-008c-4783-926b-5c60e620f5ca"
     ]
   },
   {
@@ -1000,62 +998,62 @@
     "Title": "Draaitabellen",
     "Image": "images/playlists/pivottables.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "Excel-draaitabellen zijn een krachtig hulpmiddel om gegevens te berekenen, samen te vatten en te analyseren alsook om vergelijkingen, patronen en trends in uw gegevens te zien. Lees hoe u een draaitabel maakt om werkbladen, tabellen en bereiken te analyseren, de lijst met velden te gebruiken om velden te rangschikken, gegevens te groeperen of de groepering ervan op te opheffen, gegevens te sorteren, gegevens te filteren en een draaigrafiek te maken.",
+    "Description": "Excel Draaitabellen zijn een krachtig hulpmiddel voor het berekenen, samenvatten en analyseren van gegevens en het bekijken van vergelijkingen, patronen en trends in uw gegevens. Lees hoe u een draaitabel maakt om werkbladen, tabellen en bereik te analyseren, de lijst met velden te gebruiken om velden te rangschikken, gegevens te groeperen of de groepering te opheffen, gegevens te sorteren, gegevens te filteren en een Draaigrafiek.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
-      "1f0532af-5e59-45e6-830f-0c058157d90c",
-      "d7fc5918-12a9-4f99-bd35-e80660468efd",
-      "74ce8afc-2446-4816-80ee-20ca7fb71793",
-      "1404c8ee-ea47-4e4b-a6a0-9bd694eb8c7d",
-      "038055a0-9ba8-4f70-9a00-84bd41a48a3f"
+      "a9a84538-bfe9-40a9-a8e9-f99134456576",
+      "43980e05-a585-4fcd-bd91-80160adfebec",
+      "c9d1ddd0-6580-47d1-82bc-c84a5a340725",
+      "cc1ed287-3a97-4e95-b377-ddfafe79fa8f",
+      "c1b1e057-6990-4c38-b52b-8255538e7b1c"
     ]
   },
   {
     "Id": "3ee48085-019d-4256-9ad5-c2d03c82238c",
-    "Title": "Delen en samenwerken",
+    "Title": "Delen en coauthoren met Excel",
     "Image": "images/playlists/excel_share_and_co-author.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "Informatie over het delen van een werkmap met anderen, rechtstreeks vanuit Excel. U kunt instellen dat andere gebruikers de werkmap kunnen bewerken of alleen kunnen weergeven. Meer informatie over het vergrendelen of ontgrendelen van specifieke gebieden, het beveiligen van een Excel-bestand of het opslaan van bestanden in PDF.",
+    "Description": "Meer informatie over het delen en coauthoren in Excel om in realtime samen te werken met anderen. Bekijk hoe u opmerkingen en notities kunt gebruiken, tegelijkertijd kunt samenwerken aan hetzelfde bestand, bestanden kunt bekijken die anderen met u hebben gedeeld, specifieke gebieden van een werkmap kunt vergrendelen of ontgrendelen, een Excel-bestand kunt beveiligen en een Excel-bestand kunt opslaan of converteren naar een PDF-bestand.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
-      "5223233d-ee42-4331-bb63-6495a5039cc0",
+      "8d8a52bb-03c3-4933-ab6c-330aabf1e589",
+      "cb37c233-1d4e-4187-ad68-c847a13d73ad",
+      "7a5ac6a0-2caa-4cfc-8ae5-c542d6437ded",
       "7d583ed1-58ca-4906-9596-3b963b57ea7e",
       "551958e1-7da6-467c-8a91-1b3389626425",
-      "a94dbe7d-3508-485d-9d98-fc6aead695b7",
-      "65f504d8-160b-4a05-ac30-46fbd5227a52",
-      "7a5ac6a0-2caa-4cfc-8ae5-c542d6437ded",
-      "707db3cb-e41e-495d-a592-464b9fbee17d"
+      "7359d4ae-7213-4ac2-b058-f75e9311b599",
+      "a94dbe7d-3508-485d-9d98-fc6aead695b7"
     ]
   },
   {
     "Id": "d4b4a842-2858-4cef-a090-51b567d90cc0",
     "Title": "Veelgebruikte functies",
-    "Image": "images/playlists/excel_share_and_co-author.png",
+    "Image": "images/playlists/common-use-of-functions.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "Rijen automatisch nummeren, het verschil tussen twee datums berekenen, namen definiëren en gebruiken in formules en de tekst van twee of meer cellen in één cel combineren.",
+    "Description": "Automatisch rijen nummeren, het verschil tussen twee datums berekenen, namen definiëren en gebruiken in formules en tekst uit twee of meer cellen in één cel combineren.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "b12e1cc5-e98a-48d0-af9c-41afd3bda3d5",
       "08a54094-679a-4381-b461-b0627ef8cd09",
-      "8ad05e62-bc18-49fc-937b-8f4144c256c2",
+      "4d0f13ac-53b7-422e-afd2-abd7ff379c64",
       "1246bc29-c113-415d-80ba-7fac257beab2"
     ]
   },
@@ -1064,18 +1062,49 @@
     "Title": "Gekoppelde gegevenstypen",
     "Image": "images/playlists/excel_linked_data_types.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-    "Description": "Met gekoppelde gegevenstypen kunt u betrouwbare gegevens uit vertrouwde onlinegegevensbronnen invoegen en hiermee werken.",
+    "Description": "Meer informatie over het gebruik van gekoppelde gegevenstypen in Excel gegevens over onderwerpen zoals steden, voedingsmiddelen, aandelen, geografie en meer. U kunt ook gegevenstypen van uw organisatie krijgen via Power BI.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
+      "973d28d9-c51d-4dde-83be-898ecdf3efab",
+      "7530df24-3e3f-40a2-9cd0-3c31120831bb",
+      "89c22826-5594-455c-b448-b2cd0e1869f3",
+      "ecb036a9-4339-4b01-984c-c3246e4efc93",
       "7e57b140-159f-457a-8ee6-5276bbaf395a",
       "cf0e75c4-04cd-4260-8648-3cd7bd5f8c56",
       "ec09d1da-476c-4945-a595-9f9aa816dd53"
+    ]
+  },
+  {
+    "Id": "a11d16cf-2fff-40b9-8d92-817bf652ee70",
+    "Title": "Power Query leren kennen",
+    "Image": "images/playlists/Get to know Power Query.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
+    "Description": "Ga aan de slag met Power Query voor Excel en til uw vaardigheden voor gegevenstransformatie naar een hoger niveau. Importeer gegevens vanaf het web of vanuit een Excel-tabel. Stel een veldnamenrij in, converteer een gegevenstype of filter overbodige rijen. Splits gegevens in meerdere kolommen of voeg query's samen en bundel tabellen.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "b13eed81-33fe-410d-9247-1747269c28e4",
+      "8aad8e15-afb7-4adb-b8a5-6ab187ce4f61",
+      "a0945ce6-0b35-45e2-bda1-e9f0d9806404",
+      "546ed85c-48ee-4d3b-bfd8-e17cc6e4dba5",
+      "0c303d16-f765-4807-b978-359c5f98d6d0",
+      "0dec75cd-4e83-4b39-81a5-9f604be95da0",
+      "7f9dce9c-5f27-422e-bc77-5a52ec83b3e8",
+      "6893cfa3-e484-4a1a-93db-3d3798f5c2a6",
+      "cbd17828-7a50-4dc6-9aac-20af4ef6d8a6",
+      "25aba4e0-3373-40f9-9c91-670ca0ac0499",
+      "44e3e65a-59d4-4ea6-b681-2e48e983d7b8"
     ]
   },
   {
@@ -1083,20 +1112,20 @@
     "Title": "Aan de slag met Lijsten",
     "Image": "images/playlists/lists_get_started.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "016a561b-1c7a-4528-b0b7-96fcb556a1e1",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "4b40845d-fe5f-428f-8970-58455e5bf262",
-    "Description": "Houd informatie bij en organiseer werk met Microsoft Lijsten. Een nieuwe lijst maken vanaf Excel, een bestaande lijst of een sjabloon.",
+    "Description": "Aan de slag met Microsoft Lijsten om informatie bij te houden en werk te organiseren. Maak een lijst met de app Lijsten, maak een lijst in een Teams-kanaal, voeg lijstitems toe of bewerk ze, maak of wijzig de weergave van een lijst, bewerk een lijstweergave, zoek en beheer uw lijsten, deel een lijst of lijstitem en houd zakelijke gegevens bij.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "ee8076b6-4270-46c7-bd5d-f575b59d9474",
       "5b16f46a-b2f7-4c47-b753-e1aeada713bd",
       "bc79367d-29d0-412f-968a-ff880fd1c830",
-      "d265d970-039c-4a9e-9c48-f50f75ecd954",
       "89f17abb-a39e-4fec-bfaa-de60bc2e554a",
+      "d265d970-039c-4a9e-9c48-f50f75ecd954",
       "675d6755-5e48-4691-8e08-4ea419602187",
       "20437c9e-d618-4a76-a957-9ad3e9fe6824",
       "a76e1836-6d5b-415a-9221-974d145c01ef"
@@ -1112,16 +1141,16 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "Meer informatie over de basisbeginselen van Microsoft 365 met onze tutorials die u helpen aan de slag te gaan: bestanden maken en opslaan, delen en samenwerken en werken met Microsoft Teams.",
+    "Description": "Ga snel aan de slag met de Microsoft 365 Snel starten. Leer hoe u online bestanden maakt en daaraan werkt, bestanden naar OneDrive uploadt, bestanden en mappen deelt, in realtime samenwerkt met anderen en uw mobiele apps instelt om overal op al uw apparaten te werken.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
-      "5453895d-5ba2-4ce5-b2b8-8461695f75ad",
-      "21a86754-2b38-4d2b-882c-a26966050921",
+      "3ccfd6e1-bc78-46b3-979b-2da71905fd7f",
       "5f7689f7-8095-47ed-88ae-a8da2cd873d4",
       "40ce1d89-995c-4a18-9b7e-7482f8121ece",
-      "ec5c071b-adf4-4bea-b128-5e99a6177b29",
-      "3ccfd6e1-bc78-46b3-979b-2da71905fd7f"
+      "5453895d-5ba2-4ce5-b2b8-8461695f75ad",
+      "21a86754-2b38-4d2b-882c-a26966050921",
+      "ec5c071b-adf4-4bea-b128-5e99a6177b29"
     ]
   },
   {
@@ -1134,13 +1163,13 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "Informatie over de basisbeginselen van Microsoft 365, waaronder aanmelden en aan de slag gaan op Office.com.",
+    "Description": "Leer hoe u aan de slag kunt met Microsoft 365 om uw productiviteit naar een hoger niveau te tillen. Krijg een overzicht van Microsoft 365 om te werken in Teams en de Office-apps, samen te werken met anderen, uw bestanden veilig op te slaan in de cloud, verbonden te blijven en meer te bereiken met intelligente functies. Bekijk hoe u zich kunt aanmelden en aan de slag kunt office.com.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "b78213e0-d1c5-4d99-917f-75903c5377a4",
-      "b5be6bc0-e9c9-48a0-b9a1-bb366e29390e",
-      "6664ef66-de37-4de4-ac51-b8b5db4b5bb8"
+      "6664ef66-de37-4de4-ac51-b8b5db4b5bb8",
+      "b670f6e8-182f-4493-bf46-075d81e61728"
     ]
   },
   {
@@ -1149,18 +1178,17 @@
     "Image": "images/playlists/create_office_files.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "Lees meer over hoe u desktop-apps en Office.com-apps gebruikt, bestanden in de cloud opslaat en bestanden op aanvraag synchroniseert met OneDrive.",
-    "StatusTagId": "",
+    "Description": "Bestanden maken en opslaan met Microsoft 365. Lees hoe u bestanden op dezelfde manier kunt maken en opslaan in Office-apps met behulp van de Office-bureaublad-apps en office.com-apps. Bestanden opslaan in de cloud met OneDrive en bestanden synchroniseren met Bestanden op aanvraag.Bestanden maken en opslaan met Microsoft 365. Lees hoe u bestanden op dezelfde manier kunt maken en opslaan in Office-apps met de Office-bureaublad-apps en office.com-apps. Bestanden opslaan in de cloud met OneDrive en bestanden synchroniseren met Bestanden op aanvraag.",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
-      "cddec4f8-b8ca-496f-af33-800d9cdcc15c",
-      "3eb2554d-a4e0-4ae4-9609-1c06913127e1",
       "f4b41dc8-339c-4653-9f41-328324656f61",
-      "b6b217d2-db1d-4c15-bd78-4e8e273b0190"
+      "cddec4f8-b8ca-496f-af33-800d9cdcc15c",
+      "3eb2554d-a4e0-4ae4-9609-1c06913127e1"
     ]
   },
   {
@@ -1173,11 +1201,11 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "Bestanden delen in Microsoft 365 en meer informatie over het samenwerken aan bestanden, het gebruik van @vermeldingen en opvolgingsprocedures.",
+    "Description": "Waar u ook werkt in Microsoft 365, het is eenvoudig om uw bestanden te delen en samen te werken. Meer informatie over het delen van een bestand, het instellen van machtigingen, het kopiëren van een koppeling, samenwerken en tegelijkertijd samenwerken aan hetzelfde bestand, het gebruik van @mentions om de aandacht van iemand te trekken en follow-ups te gebruiken om gebieden te markeren waar u naar wilt teruggaan of anderen in het gesprek te trekken.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
-      "01c6c0a8-ffe9-494d-9c10-e975183b55a8",
+      "8f63c80b-9e19-4cd3-ba5b-dc94089459ce",
       "97a97677-5730-4a84-9755-c0182404ae33",
       "abf7940b-f4e7-462b-afda-deed03d6a7e6",
       "f7b18d2f-e5d1-44da-8d34-ec941041fb8b"
@@ -1193,7 +1221,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "Werk met Microsoft Teams om samen te werken met uw team, uw team te helpen georganiseerd te blijven en gesprekken te voeren, en dat allemaal op één plek. Leer hoe u teams en kanalen maakt, een tab toevoegt, een kanaal vastmaakt, een post maakt en opmaakt, een chat start en vastmaakt, deelneemt aan een Teams-vergadering en tips en best practices voor het plannen, starten en leiden van een effectieve vergadering krijgt.",
+    "Description": "Werk met Microsoft Teams om samen te werken met uw team, uw team te helpen georganiseerd te blijven en gesprekken te voeren, en dat allemaal op één plek. Leer hoe u teams en kanalen maakt, een tabblad toevoegt, een kanaal vastmaakt, een post maakt en opmaakt, een chat start en vastmaakt, deelneemt aan een Teams-vergadering en tips en best practices krijgt voor het plannen, starten en leiden van een effectieve vergadering.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1208,7 +1236,7 @@
   },
   {
     "Id": "ffdf1665-6516-4d78-b9d3-39985b60c06b",
-    "Title": "Optimaal gebruikmaken van Windows 10",
+    "Title": "Haal alles uit uw Windows",
     "Image": "images/playlists/view_office_files.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1216,7 +1244,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "Maak optimaal gebruik van Windows. U leert hoe u uw spullen kunt zoeken in Windows 10, Microsoft Edge gebruikt en met Bing kunt zoeken.",
+    "Description": "Haal alles uit uw Windows met hulpprogramma's waarmee u documenten kunt zoeken en zoeken. Meer informatie over het gebruik van de zoekbalk, taakweergave en Verkenner. Meer informatie Microsoft Edge, privacy-instellingen, schakelen tussen talen, gepersonaliseerde tabbladen, Verzamelingen en het gebruik van Edge op uw mobiele apparaat. Gebruik Microsoft Search in Bing om zoekresultaten van het web en uw organisatie te krijgen.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1227,7 +1255,7 @@
   },
   {
     "Id": "861f0286-c3b5-4a76-9b7e-77c1bf39572d",
-    "Title": "Werken vanaf elke locatie",
+    "Title": "Overal werken",
     "Image": "images/playlists/add_and_edit_text.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1235,17 +1263,17 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "Leer hoe u overal kunt werken met de mobiele OneDrive-app en de mobiele Outlook-app.",
+    "Description": "Met Microsoft 365 kunt u overal werken. Stel ons de OneDrive mobiele app op uw mobiele apparaat in om uw bestanden vanaf elke locatie op uw mobiele apparaat te openen, te uploaden en te delen. Stel de mobiele Outlook voor iOS of Android in om verbonden te blijven. Krijg de tien beste tips om tijd te besparen en sneller te werken.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
-      "5d1a7e1c-1cbd-4acc-ae14-91cefdde690d",
-      "1c696bda-5ea8-435c-9548-f5c59b9e1977"
+      "1c696bda-5ea8-435c-9548-f5c59b9e1977",
+      "5d1a7e1c-1cbd-4acc-ae14-91cefdde690d"
     ]
   },
   {
     "Id": "477ad890-043c-4d3c-982e-40c540f10009",
-    "Title": "Leuke functies van Microsoft 365",
+    "Title": "Coole Microsoft 365 functies",
     "Image": "images/playlists/office_365_format_text.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1253,7 +1281,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-    "Description": "Meer informatie over leuke functies van Microsoft 365, zoals PowerPoint Designer, Ideeën in Excel, Editor in Word en het toegankelijk maken van uw inhoud.",
+    "Description": "Meer informatie over coole Microsoft-functies. Maak professioneel uitziende dia's met PowerPoint Designer. Krijg inzicht in uw gegevens via visuele samenvattingen, trends en patronen met Gegevens analyseren in webversie van Excel. Ontvang suggesties voor spelling, grammatica en schrijven van Editor in Word. Lees hoe u uw inhoud toegankelijker kunt maken.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1264,16 +1292,81 @@
     ]
   },
   {
+    "Id": "d8ec3a54-3ddf-4e02-8631-b89c3f032184",
+    "Title": "Aan de slag",
+    "Image": "images/playlists/Edge_GetStarted.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "77a22995-0b6d-488c-9747-dea9a7705711",
+    "Description": "Meer informatie over hoe u aan de slag gaat met Microsoft Edge. U leert hoe u een site toevoegt aan uw favorieten, de instellingen/hulpmiddelen/internetopties vindt of de standaardzoekmachine wijzigt in Microsoft Edge. Daarnaast leert u om het aanmelden bij Microsoft Edge te synchroniseren op verschillende apparaten of hoe u de toegankelijkheidsfuncties in Microsoft Edge kunt vinden.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "3f4bb0ff-58de-2188-55c0-f560b7e20bea",
+      "eb40d818-fd1f-cb19-d943-6fcfd1d9a935",
+      "22a00d4e-adf3-943a-fe83-74c3cd9bca24",
+      "f863c519-5994-a8ed-6859-00fbc123b782",
+      "4c696192-338e-9465-b2cd-bd9b698ad19a",
+      "e6ffa79b-ed52-aa32-47e2-5d5597fe4674"
+    ]
+  },
+  {
+    "Id": "479705db-2e50-4a8b-8a2e-a2a3d59ce61b",
+    "Title": "Privacy en beveiliging",
+    "Image": "images/playlists/Edge_Security.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "77a22995-0b6d-488c-9747-dea9a7705711",
+    "Description": "Meer informatie over hoe Microsoft Edge u veilig kan houden wanneer u op het web surft, door onder andere het configureren van privacy-instellingen, traceringspreventie, InPrivate-browsing, het verwijderen van de browsergeschiedenis, het blokkeren van pop-ups en het verwijderen van cookies.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "8c923c9d-4ef2-849d-a399-4de716ecbbaf",
+      "5ac125e8-9b90-8d59-fa2c-7f2e9a44d869",
+      "e6f47704-340c-7d4f-b00d-d0cf35aa1fcc",
+      "00cf7943-a9e1-975a-a33d-ac10ce454ca4",
+      "1d8ba4f8-f385-9a0b-e944-aa47339b6bb5",
+      "63947406-40ac-c3b8-57b9-2a946a29ae09"
+    ]
+  },
+  {
+    "Id": "2af83d1d-0ad1-4194-bcaa-939f32153a87",
+    "Title": "Aan persoonlijke voorkeur aanpassen",
+    "Image": "images/playlists/Edge_Personalize.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "77a22995-0b6d-488c-9747-dea9a7705711",
+    "Description": "Meer informatie over het personaliseren van Microsoft Edge en u deze eigen maken, waaronder het wijzigen van de startpagina, het toevoegen van extensies, het gebruiken van het donkere thema, het gebruiken van andere talen in Microsoft Edge en het vergroten van de tekstgrootte.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "a531e1b8-ed54-d057-0262-cc5983a065c6",
+      "f3522273-d067-7435-6a9d-fdb99213e9a8",
+      "9b74617b-f542-77ed-033b-1a5cfb17a2df",
+      "4da8b5e0-11ce-7ea4-81d7-4e332eec551f",
+      "1d5830c3-eee3-8eaa-836b-abcc37d99b9a"
+    ]
+  },
+  {
     "Id": "77061d5e-2222-4748-ac80-7d03d2587bd3",
-    "Title": "Aan de slag met Formulieren",
+    "Title": "Snel aan de slag met formulieren",
     "Image": "images/playlists/forms_quick_startx.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "33059862-a87d-4b40-9984-be7c6083cf95",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "daeade40-9dfc-4d82-84be-9ae7544829dc",
-    "Description": "Een formulier maken in enkele minuten. Leer in een paar eenvoudige stappen hoe u vragen aan uw formulier kunt toevoegen, instellingen kunt definiëren, uw formulier kunt delen en de resultaten kunt controleren!",
+    "Description": "Maak in enkele minuten een formulier. In een paar eenvoudige stappen leert u hoe u vragen kunt toevoegen aan uw formulier, instellingen kunt definiëren, uw formulier kunt delen en de resultaten kunt controleren.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1288,12 +1381,12 @@
     "Title": "Een formulier maken en resultaten weergeven",
     "Image": "images/playlists/create_a_formx.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "33059862-a87d-4b40-9984-be7c6083cf95",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "daeade40-9dfc-4d82-84be-9ae7544829dc",
-    "Description": "Leer hoe u Formulieren kunt gebruiken om enquêtes, toetsen en peilingen te maken en bekijk eenvoudig de resultaten zodra ze binnenkomen.",
+    "Description": "Lees hoe u formulieren gebruikt om enquêtes, toetsvragen en peilingen te maken en eenvoudig resultaten te zien wanneer ze binnen komen.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1309,12 +1402,12 @@
     "Title": "Delen en samenwerken",
     "Image": "images/playlists/forms-share-collaborate.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "33059862-a87d-4b40-9984-be7c6083cf95",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "daeade40-9dfc-4d82-84be-9ae7544829dc",
-    "Description": "Leer hoe u met collega's kunt samenwerken aan uw toetsen en formulieren en deel uw toets of formulier als een sjabloon zodat anderen deze onafhankelijk kunnen gebruiken.",
+    "Description": "Lees hoe u met collega's kunt samenwerken aan uw toets en formulieren en hoe u uw toets of formulier kunt delen als een sjabloon die anderen onafhankelijk kunnen gebruiken.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1329,15 +1422,15 @@
   },
   {
     "Id": "d3acd5c2-0488-4104-935a-61fda884bc49",
-    "Title": "Snel aan de slag met Teams",
+    "Title": "Teams Aan de slag",
     "Image": "images/playlists/teams_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Snel aan de slag met de handleiding Aan de slag met Microsoft Teams. Leer hoe u zich aanmeldt bij Teams, een team en kanaal kiest, chat in Teams, een nieuw gesprek begint, reageert op een gesprek, emoji's, memes en GIF's gebruikt, een bestand deelt, samenwerkt met @vermeldingen, uw activiteitenfeed checkt, berichten, mensen of bestanden zoekt en uw mobiele apps instelt.",
+    "Description": "Ga snel aan de slag met Microsoft Teams handleiding Aan de slag. Lees hoe u zich kunt aanmelden bij Teams, een team en kanaal kunt kiezen, kunt chatten in Teams, een nieuw gesprek kunt starten, een gesprek kunt beantwoorden, emoji's, memes en GIF's kunt gebruiken, een bestand kunt delen, kunt samenwerken met @mention, uw activiteitenfeed kunt controleren, berichten, personen of bestanden kunt zoeken en uw mobiele apps kunt instellen.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1350,16 +1443,16 @@
   },
   {
     "Id": "bc9d8a0a-58f1-42cc-bdcf-9ee10b73ba24",
-    "Title": "Introductie tot Microsoft Teams",
+    "Title": "Intro voor Microsoft Teams",
     "Image": "images/playlists/intro_to_microsoft_teams.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Microsoft Teams is een samenwerkings-app waarmee u en uw team georganiseerd kunnen blijven en gesprekken kunnen voeren, en dat allemaal op dezelfde plaats. Met de inleiding voor Microsoft Teams krijgt u een overzicht van teams, kanalen, vergaderingen, gesprekken, tabbladen, bestanden delen, in realtime samenwerken, bestanden zoeken, personen toevoegen aan een chatgesprek, bellen, uw agenda beheren, een vergadering plannen, deelnemen aan vergaderingen, inhoud delen, een vergadering opnemen, onze activiteitenfeed bekijken en het opdrachtvak gebruiken om personen, items of apps te zoeken.",
-    "StatusTagId": "",
+    "Description": "Microsoft Teams is een samenwerkings-app waarmee uw team georganiseerd blijft en gesprekken voert, allemaal op één plek. Met Intro naar Microsoft Teams krijgt u een overzicht van teams, kanalen, vergaderingen, gesprekken, tabbladen, bestanden delen, in realtime samenwerken, bestanden zoeken, personen toevoegen aan een chatgesprek, een gesprek voeren, uw agenda beheren, een vergadering plannen, deelnemen aan vergaderingen, inhoud delen, een vergadering opnemen, onze activiteitenfeed bekijken en het opdrachtvak gebruiken om te zoeken naar personen, items of apps.",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "b98d533f-118e-4bae-bf44-3df2470c2b12"
@@ -1367,22 +1460,24 @@
   },
   {
     "Id": "2346ff06-6646-4084-845d-2ee5971f3634",
-    "Title": "Starten met chatten en oproepen",
+    "Title": "Starten met chatten en gesprekken",
     "Image": "images/playlists/start_chats_calls_and_meetings.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Start één-op-één- of groepschats om samen te werken met een kleinere groep of om privé te praten, maak daarbij uw chats vast om ze snel te openen.",
+    "Description": "Gebruik Microsoft Teams om chats en gesprekken te starten. Leer hoe u privé- of groepchats start, video- en audiogesprekken voert vanuit chats, chats vastmaakt voor snelle toegang, belt, chats verbergt, berichten verwijdert en een gedelegeerde instelt om namens u oproepen te plaatsen of beantwoorden.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "3ba7bca7-2b2a-4df4-8ccc-5a772eae1d83",
+      "425d6970-6e27-47b6-bc61-4c38fff51c4f",
+      "0a27994b-4d5d-4ac1-a40d-83b72edca946",
+      "d3fb0e97-4afa-4919-86e8-021102ed5c2b",
       "712ef898-a27e-42fa-a9c1-bfd0733bae97",
-      "1f8eecb7-0714-4147-abfa-07dcc14c21d6",
-      "0a27994b-4d5d-4ac1-a40d-83b72edca946"
+      "1f8eecb7-0714-4147-abfa-07dcc14c21d6"
     ]
   },
   {
@@ -1390,38 +1485,36 @@
     "Title": "Uw team instellen en aanpassen",
     "Image": "images/playlists/set_up_and_customize_your_team.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Gebruik Microsoft Teams om uw team in te stellen en aan te passen. Leer hoe u een openbaar of persoonlijk team maakt, leden toevoegt aan een team, een kanaal maakt en team beheren gebruikt om leden, kanalen, instellingen en apps voor uw team te zoeken. Er is ook een handleiding om teameigenaren te helpen bij het toevoegen en verwijderen van leden, het toevoegen van teameigenaren, het beheren van kanalen en het wijzigen van teaminstellingen. U kunt ook een kanaal vastmaken en uw teams opnieuw ordenen, om uw lijst met teams te organiseren.",
+    "Description": "Stel uw team in Microsoft Teams. Maak een openbaar of privéteam, voeg leden toe, maak een kanaal en gebruik team beheren om leden, kanalen, instellingen en apps voor uw team te zoeken. Zie de handleiding voor teameigenaren om leden toe te voegen en te verwijderen, teameigenaren toe te voegen, kanalen te beheren en teaminstellingen te wijzigen. U kunt ook een kanaal vastmaken en uw teams opnieuw ordenen om uw teamslijst te ordenen.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "702a2977-e662-4038-bef5-bdf8ee47b17b",
-      "92d238e6-0ae2-447e-af90-40b1052c4547",
+      "180ed260-d3ef-4247-9f24-1984fc76d5f0",
       "0db2a152-ac66-48cf-aa24-0eca94bf6c79"
     ]
   },
   {
     "Id": "4374d7da-95a5-4e13-a14b-2e43e1277d53",
-    "Title": "Apps en hulpmiddelen verkennen",
+    "Title": "Apps en hulpprogramma's verkennen",
     "Image": "images/playlists/explore_apps_and_tools.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Verken apps en hulpmiddelen in Teams en leer hoe u hulpmiddelen toevoegt, een bestand in een tabblad verandert en het opdrachtvenster gebruikt.",
+    "Description": "Met apps kunt u meer doen in Microsoft Teams. Leer hoe u apps en hulpmiddelen verkent, apps toevoegt aan tabbladen en berichten, en connectors gebruikt voor meldingen die handig zijn voor het hele kanaal. Leer handige tips, zoals hoe u een bestand omzet in een tabblad en hoe u het opdrachtvak gebruikt om u te helpen zoeken, snelle acties te ondernemen of apps te starten.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "089ff1b2-6cd7-4e86-ab50-a4390b4bcb21",
-      "4c0ef9a7-0c3e-4a95-aaea-f52f2f81ecbc",
-      "13c4e429-7324-4886-b377-5dbed539193b",
-      "a78606bb-a15f-4f3e-8892-63f735cc1f6a"
+      "13c4e429-7324-4886-b377-5dbed539193b"
     ]
   },
   {
@@ -1429,74 +1522,74 @@
     "Title": "Samenwerken in teams en kanalen",
     "Image": "images/playlists/collaborate_in_teams_and_channels.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "In Microsoft Teams gebruikt u kanalen voor het houden vergaderingen en gesprekken en om samen te werken aan bestanden. Leer hoe u een openbaar of privé-kanaal maakt, een kanaal vastmaakt, een tabblad toevoegt, een bestand deelt, kanalen weergeeft en verbergt, kanaalmeldingen aanpast, reageert op een bericht, een bericht leuk vindt of opslaat, @vermeldingen gebruikt, samenwerkt aan een bestand, een gesprek start, een e-mail naar een kanaal stuurt en een plan maakt met Planner.",
+    "Description": "Werk samen in teams en kanalen in Microsoft Teams. Leer hoe je een openbaar of privé-kanaal maakt, een kanaal vastmaakt, een tabblad toevoegt, een bestand deelt, nu vergadert, kanalen weergeeft en verbergt, kanaalmeldingen aanpast, reageert op een bericht, een bericht leuk vindt of opslaat, @vermelding gebruikt, samenwerkt aan een bestand, een gesprek start, een e-mail naar een kanaal stuurt en een plan maakt met Planner.",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "c3d63c10-77d5-4204-a566-53ddcf723b46",
+      "4fe74e73-e12d-4c67-8cba-d06ce8e48c24",
       "2766a75b-342a-4ed9-810d-f3c0f06c3207",
       "a6041b90-0805-4140-b8ae-1ee3805908d7",
       "99d33aaa-0743-47c6-a476-eb0a24abcb7e",
-      "180ed260-d3ef-4247-9f24-1984fc76d5f0",
-      "f5275f98-7ee6-40e1-8c6e-5dc452df128b",
       "f581aeaf-cc73-4dce-8a7b-12ecce5e7fdf",
       "d6b86155-c9a5-4c35-a009-67f74ffe0c69"
     ]
   },
   {
     "Id": "7a057fc3-74eb-46ab-991d-50e2e665f95d",
-    "Title": "Werken met publicaties en berichten",
+    "Title": "Werken met posts en berichten",
     "Image": "images/playlists/work-with-post-and-messages.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Meer informatie over hoe u een post of aankondiging kunt maken en plaatsen om een gesprek te starten in een kanaal.",
+    "Description": "Werken met posts en berichten in Microsoft Teams. Leer hoe u een post schrijft en opmaakt, een bericht post naar meerdere kanalen, iemands aandacht trekt met @vermelding en een post of bericht opslaat.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "238176cf-6428-4ca9-8181-7f7c0fe6ff48",
       "a8073654-eb8d-44ca-a7ae-1287b32d599d",
-      "206edfa2-2978-4b03-9eec-4d06f33de166",
       "2f13be6f-3968-4e5c-b020-9532db7b3a18"
     ]
   },
   {
     "Id": "044071b3-a780-4a24-b0b1-a4951ee48a3f",
-    "Title": "Uploaden en bestanden zoeken",
+    "Title": "Bestanden zoeken en vinden",
     "Image": "images/playlists/upload-and-find-files.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Leer hoe u bestanden kunt uploaden, doorzoeken en delen in Microsoft Teams. Leer ook hoe u bestanden kunt zoeken en filteren.",
+    "Description": "Bestanden uploaden en zoeken in Microsoft Teams. Meer informatie over het uploaden en delen van bestanden, het bijvoegen van een bestand in een kanaal, het uploaden van een bestand naar het tabblad Bestanden en het zoeken naar bestanden die u onlangs hebt bekeken of bewerkt, gemaakt of bewerkt in verschillende kanalen of die u hebt gedownload vanuit Teams.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "d46890d8-e8bf-4642-97cd-6379b0c7dddd",
-      "dca01f0e-7335-4c6f-8dd1-d419870e3239"
+      "164a6fee-3705-4e5e-9b5d-3a8509386693",
+      "31682332-4dba-42e5-9e3b-bf7dd178d106",
+      "56eca039-312a-41b2-923d-870439901e49"
     ]
   },
   {
     "Id": "729bcb7f-43bc-4d38-a0df-8fbf38b80e56",
-    "Title": "Live-gebeurtenissen instellen en bijwonen",
+    "Title": "Livegebeurtenissen instellen en bijwonen",
     "Image": "images/playlists/setup-and-attend-live-events.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Met live-gebeurtenissen van Teams kunt u gebeurtenissen maken voor een groot online publiek met meer controle over video, interactie met het publiek en rapportage",
+    "Description": "Organiseert u een groot onlineevenement? Microsoft Teams livegebeurtenissen is een uitbreiding van Teams vergaderingen, zodat u evenementen kunt maken voor grote onlinepublieken met meer controle over video, interactie met het publiek en rapportage. Meer informatie over het maken van een livegebeurtenis, het maken van een live-gebeurtenis, het bijwonen en deelnemen aan een livegebeurtenis en het beantwoorden van vragen.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1511,23 +1604,23 @@
     "Title": "Vergaderingen beheren",
     "Image": "images/playlists/manage_meetings.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "615f17eb-2c5b-4494-8541-4304435ca306",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Bekijk, plan en beheer afspraken en vergaderingen in Microsoft Teams om uw team op schema te houden.",
+    "Description": "Leer tips en aanbevolen procedures voor het beheren en uitvoeren van effectieve vergaderingen in Microsoft Teams. Neem deel aan een Teams-vergadering, maak directe vergaderingen met Nu vergaderen, vergader in een kanaal, bekijk en plan vergaderingen, toon uw scherm of PowerPoint-dia's tijdens een vergadering en verplaats u tijdens een Teams-vergadering om activiteiten te controleren en te blijven werken tijdens een vergadering. Bekijk deze videotraining om te zien hoe.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "6dd4a6fd-d88f-4baf-b08e-06755a680926",
       "006f78bc-67ce-465a-af1c-483534cdb011",
       "7eb9c719-9452-4a9a-b3b6-69f48149ba1c",
-      "0d231dd0-3e6a-4a7c-a384-04ac44e80807",
       "d3cc8fad-9655-4f2d-b8f5-197a1b3951a1",
+      "10b2e2a2-c6e7-4905-9c2d-648e26c957ea",
+      "63633f7d-b713-4d66-9dd9-e50eeae43e5d",
       "37566690-8652-4eac-abed-bfe6de084828",
-      "b33ae7a4-e14b-4e46-9440-94bfed214415",
-      "22c40436-db14-4863-93c6-aa9a51134edd"
+      "b33ae7a4-e14b-4e46-9440-94bfed214415"
     ]
   },
   {
@@ -1535,12 +1628,12 @@
     "Title": "Uw activiteitsfeed beheren",
     "Image": "images/playlists/manage-your-activity-feed.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Beheer uw activiteitsfeed voor een overzicht van wat er allemaal gebeurt in de teamkanalen die u volgt.",
+    "Description": "Selecteer het pictogram Activiteit in Microsoft Teams linkerspoor om uw activiteitsfeed te beheren, zodat u een overzicht krijgt van alles wat er is gebeurd in de teamskanalen die u volgt. Lees hoe u uw activiteitsfeed filtert en uw instellingen voor meldingen beheert om te bepalen welke meldingen u ontvangt, waar u ze ontvangt en hoe vaak.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1553,20 +1646,20 @@
     "Title": "Teams onderweg",
     "Image": "images/playlists/teams-on-the-go.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Start een één-op-één- of groepschat in de mobiele app van Microsoft Teams om privé te praten of samen te werken met een kleinere groep. Maak een kanaal, neem deel aan een vergadering, gebruik uw activiteitenfeed of beheer meldingen onderweg,",
+    "Description": "Start een 1:1- of groepschat in Microsoft Teams mobiele app om privé te praten of samen te werken met een kleinere groep. Een kanaal maken, deelnemen aan een vergadering, uw activiteitenfeed gebruiken of onderweg meldingen beheren,",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
+      "5ba5b778-d656-45b1-91cc-6e9abebe767e",
       "32525960-bb69-4c94-a0be-cb6551fafc05",
       "67e02503-fb3d-4c38-938e-570a04231155",
       "2de922ed-16a4-4685-ae62-6887859a9ff3",
-      "75734507-da8d-4ff1-a541-9136a825581b",
-      "5ba5b778-d656-45b1-91cc-6e9abebe767e"
+      "75734507-da8d-4ff1-a541-9136a825581b"
     ]
   },
   {
@@ -1574,41 +1667,40 @@
     "Title": "Teamplanningen beheren met Diensten",
     "Image": "images/playlists/teams_shifts.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Diensten in Microsoft Teams is een hulpprogramma voor planningsbeheer. Informatie over het gebruik van Diensten om planningen voor uw team te maken, bij te werken en te beheren.",
+    "Description": "Lees hoe u teamplanningen beheert met Shifts in Microsoft Teams om planningen voor uw team te maken, bij te werken en te beheren. Managers kunnen dienstplanningen maken en beheren en aanvragen controleren, goedkeuren of weigeren. Werknemers in de frontlinie kunnen Diensten gebruiken om hun planning te bekijken en te beheren en in synchronisatie te blijven met hun team.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "43e3e7df-9e45-4521-bbec-e0be6c812ffb",
-      "faa8d7d6-3635-459e-a1bb-925c94a7fa59",
       "b9c56f09-1b13-406f-841c-656fdf251942",
-      "0369eb90-79d0-44c2-95c0-dd7a1ef495cd",
-      "c5714c3b-f123-4c9c-9d5d-0d13e6581559"
+      "0369eb90-79d0-44c2-95c0-dd7a1ef495cd"
     ]
   },
   {
-    "Id": "a9047d0c-b690-4a43-9ad3-78ee5c1d5d7b",
-    "Title": "Walkie Talkie, Taken en Complimenten",
-    "Image": "images/playlists/teams_walkie.png",
+    "Id": "6f59454d-6ed1-4733-8825-c9616564565d",
+    "Title": "Reserveringen maken en beheren",
+    "Image": "images/playlists/teams_bookings.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Leer hoe u de app Walkie Talkie Teams kunt gebruiken om uw telefoon op uw werk om te zetten in een eenvoudig en veilig apparaat voor directe spraakcommunicatie, hoe u de app Taken gebruikt in Teams, en hoe u uw Firstline-team complimenten geeft en herkent.",
+    "Description": "Met Bookings in Microsoft Teams kun je de afspraken en agenda's van je team op één plek bijhouden, beheren en organiseren. Je kunt een Bookings-agenda maken en er teamleden aan toevoegen, nieuwe afspraaktypen maken en persoonlijke en virtuele bezoeken maken en beheren voor je medewerkers en genodigden.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
-      "891f92f0-7014-4d6d-b888-9ccfe2d25fa5",
-      "362a1ec7-06ca-40df-bf68-a9edd830683e",
-      "125ebed0-45fb-4b5c-a6c4-fd84dffff334",
-      "1567a3c0-38de-4d02-81b3-73571a708b42",
-      "62e14a8f-ca13-4ad0-b551-e2dda01193a9"
+      "42d4e852-8e99-4d8f-9b70-d7fc93973cb5",
+      "921cfd26-a24d-4aca-9004-561594112148",
+      "6c579f61-8adb-4514-9458-021de2023fa0",
+      "810eac77-6a65-4dc8-964d-c00eadf43887",
+      "a86a4007-e26c-4909-9893-f7036e2747cd",
+      "95cea12d-2220-421f-a663-6efb20913c7f"
     ]
   },
   {
@@ -1616,24 +1708,27 @@
     "Title": "Goedkeuringen maken",
     "Image": "images/playlists/teams_approvals.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-    "Description": "Goedkeuringen in Microsoft Teams zijn een manier om al uw aanvragen en processen te stroomlijnen met uw team of partners. Leer hoe u nieuwe goedkeuringen kunt maken, goedkeuringen die op uw eigen manier zijn verzonden weer kunt geven en hoe u al uw vorige goedkeuringen op één plaats kunt bekijken.",
+    "Description": "Goedkeuringen in Microsoft Teams is een manier om al je aanvragen en processen te stroomlijnen met je team of partners. Leer hoe je nieuwe goedkeuringen maakt, de goedkeuringen bekijkt die naar jou zijn verzonden en al je vorige goedkeuringen op één plek bekijkt.",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
+      "079cd574-3e04-4dc1-bcc1-6d0797970723",
       "fc8da528-2cbd-4079-accd-8435ab70cabd",
       "0da0c87d-ea04-41fe-bf2a-dbae4d98e185",
-      "079cd574-3e04-4dc1-bcc1-6d0797970723",
-      "e94cd617-b48e-433c-94c3-7f944a3a8579"
+      "e94cd617-b48e-433c-94c3-7f944a3a8579",
+      "c33ecf9f-b745-4287-b104-ac69469745e0",
+      "7d281bf2-4e60-42ea-afc3-e472dd20c93d",
+      "944b2b8b-f840-44a4-a83d-53ef71b92c1f"
     ]
   },
   {
     "Id": "eda0aa68-24ac-46a1-83db-e04f929be0d6",
-    "Title": "Webversie van Office: Aan de slag",
+    "Title": "Aan de slag",
     "Image": "images/playlists/office_for_the_web_get_started.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1641,7 +1736,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
-    "Description": "Office.com is de beste plaats om te beginnen, of het nu het begin van de dag is of wanneer u terugkeert naar uw werk.",
+    "Description": "Office.com is de beste plek om te beginnen, of dit nu het begin van de dag is of dat u weer aan het werk gaat.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -1654,7 +1749,7 @@
   },
   {
     "Id": "610da080-333a-449f-9f81-21c556c0a961",
-    "Title": "Webversie van Office: Webversie van Outlook",
+    "Title": "Outlook voor het web",
     "Image": "images/playlists/Outlook_for_the_web.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1662,7 +1757,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
-    "Description": "Outlook op het web maakt het eenvoudig om uw e-mail, agenda en contacten binnen handbereik te houden. Hier zijn enkele handige functies die u kunt gebruiken. Verzend berichten en deel bestanden om samen te werken met anderen.",
+    "Description": "webversie van Outlook maakt het eenvoudig om uw e-mail, agenda en contactpersonen binnen handbereik te houden. Hier zijn een paar van de geweldige functies die u kunt gebruiken. Berichten verzenden en bestanden delen om samen te werken met anderen.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -1677,7 +1772,7 @@
   },
   {
     "Id": "e2fb04a4-7e0c-40ff-994b-d92c80c00df0",
-    "Title": "Webversie van Office: Webversie van Word",
+    "Title": "webversie van Word",
     "Image": "images/playlists/word_for_the_web.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1685,7 +1780,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
-    "Description": "Met de webversie van Word kunt u documenten maken, tekst, afbeeldingen en illustraties toevoegen en uw bestanden delen om met anderen samen te werken, waar u ook bent.",
+    "Description": "Met webversie van Word kunt u documenten maken, tekst, afbeeldingen en afbeeldingen toevoegen en uw bestand delen om met anderen te werken, waar u ook bent.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -1693,13 +1788,12 @@
       "b2daf0a6-080f-4844-9d0f-6f171eb72d4e",
       "fed4f1d2-92ed-4539-bbbf-b588ddab62aa",
       "ca68be6a-3798-461a-8247-3350b33cc952",
-      "e76571ce-494d-4119-b2d8-6a61272527db",
       "47069cbb-0d61-4bf3-82bb-f2c70e63b337"
     ]
   },
   {
     "Id": "803f7002-9bc0-4d96-a898-9770f1b8bcdf",
-    "Title": "Webversie van Office: Webversie van Excel",
+    "Title": "Excel voor het web",
     "Image": "images/playlists/excel_for_the_web_for.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1707,22 +1801,22 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
-    "Description": "De webversie van Excel biedt u de kracht van Excel op elk apparaat, vanaf vrijwel elke locatie.",
+    "Description": "webversie van Excel biedt u de kracht van Excel op elk apparaat, vanaf vrijwel elke locatie.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "4d39f76b-ee15-4029-8a4c-fa7d14f0c80f",
       "e33f0fd2-f936-4c5b-a0c6-552da24fe00e",
       "1b661d1e-c4a6-4613-98b1-b09bb05473c8",
-      "38a368cf-15b6-4ca0-804c-8d0fdc5f3683",
-      "d1233064-273d-4d58-a955-686688f4b529",
+      "6f208b1e-32a8-4cb3-9966-6bf5d04d6a52",
       "b65ec000-8e8e-47c6-b05c-d2763fe95d42",
-      "6f208b1e-32a8-4cb3-9966-6bf5d04d6a52"
+      "38a368cf-15b6-4ca0-804c-8d0fdc5f3683",
+      "d1233064-273d-4d58-a955-686688f4b529"
     ]
   },
   {
     "Id": "164ee353-bb72-4e17-8bed-d7824241b341",
-    "Title": "Webversie van Office: Webversie van PowerPoint",
+    "Title": "webversie van PowerPoint",
     "Image": "images/playlists/office_for_the_web_for.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1730,21 +1824,21 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
-    "Description": "Met de webversie van PowerPoint kunt u op elk apparaat presentaties maken, bewerken en presenteren, vanaf vrijwel elke locatie.",
+    "Description": "webversie van PowerPoint biedt u de mogelijkheid om presentaties te maken, bewerken en presenteren op elk apparaat, vanaf vrijwel elke locatie.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "3950c751-2292-47c0-966b-912a2b289b96",
+      "27adea70-a2e4-4c73-8062-8070588fe6aa",
       "07175043-fa5f-4eca-bb44-c8f13f585ecd",
       "5b424d93-175c-4e36-8331-56af9125a551",
       "bf8f12d4-3c64-4e52-9b08-a55c3d903e86",
-      "45b3af18-fecf-4dec-9e48-59e4548d1e2f",
-      "27adea70-a2e4-4c73-8062-8070588fe6aa"
+      "45b3af18-fecf-4dec-9e48-59e4548d1e2f"
     ]
   },
   {
     "Id": "69149089-33ca-4e3c-863d-713768570323",
-    "Title": "Webversie van Office: Uw documenten delen",
+    "Title": "Uw documenten delen",
     "Image": "images/playlists/office_for__web_share_documents.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1752,7 +1846,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
-    "Description": "Wanneer u in Office 365 werkt, kunt u eenvoudig uw documenten met anderen delen.",
+    "Description": "Waar u ook werkt in Office 365, het is eenvoudig om uw documenten te delen.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -1764,7 +1858,7 @@
   },
   {
     "Id": "c9ecc2e9-bc17-496a-8b0b-9242b6bb3eaf",
-    "Title": "Aan de slag met OneDrive",
+    "Title": "OneDrive Aan de slag",
     "Image": "images/playlists/onedrive_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1772,7 +1866,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "4ee4d22a-7d53-48bb-9a14-adf34d01cd75",
-    "Description": "Snel aan de slag met de handleiding Aan de slag met OneDrive. Leer hoe u bestanden en mappen uploadt, OneDrive in uw browser of op uw desktop gebruikt, bestanden opslaat en opent in uw Office-apps, een bestand of map maakt, bestanden en mappen beheert, bestanden zoekt, een back-up maakt van bestanden, bestanden deelt, toegang en machtigingen beheert, stopt met delen, koppelingen kopieert, weergaven wijzigt, samenwerkt in OneDrive, uw mobiele apps instelt en onderweg werkt met de OneDrive-app op uw mobiele apparaat.",
+    "Description": "Ga snel aan de slag met OneDrive handleiding Aan de slag. Upload bestanden en mappen kunt u OneDrive gebruiken in uw browser of op uw bureaublad, bestanden opslaan en openen in uw Office-apps, bestanden en mappen maken en beheren, bestanden zoeken, back-up maken en delen, toegang en machtigingen beheren, koppelingen kopiëren, weergaven wijzigen, samenwerken in OneDrive, uw mobiele apps instellen om onderweg te werken.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1793,7 +1887,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "4ee4d22a-7d53-48bb-9a14-adf34d01cd75",
-    "Description": "Meer informatie over OneDrive, basisprincipes van OneDrive en OneDrive instellen",
+    "Description": "Ga aan de slag met OneDrive om bestanden te openen en bewerken, informatie te delen, uw bestanden op te slaan in de cloud zodat u er met anderen aan kunt samenwerken, en uw bestanden veilig te houden en er een back-up van te maken. Leer wat OneDrive is, hoe u aan de slag gaat, hoe u het navigatiedeelvenster en de werkbalk gebruikt en hoe u uw mobiele apps instelt. Bekijk deze videotraining om te zien hoe.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1807,7 +1901,7 @@
   },
   {
     "Id": "3c24a6b8-a3d7-4133-ba59-08d705fe8160",
-    "Title": "Uw bestanden beheren in OneDrive",
+    "Title": "Uw bestanden beheren met OneDrive",
     "Image": "images/playlists/manage_your_files.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1815,16 +1909,16 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "4ee4d22a-7d53-48bb-9a14-adf34d01cd75",
-    "Description": "Overal toegang tot bestanden en mappen met OneDrive",
+    "Description": "Upload bestanden zodat u uw bestanden kunt beheren in OneDrive en ze vanaf elke locatie kunt openen. Lees hoe u bestanden en mappen uploadt, bestanden en mappen maakt, verwijderde bestanden verwijdert en terugzetten, bestanden in de cloud verwijdert, OneDrive Back-up in- en herstelt en uw OneDrive. Bekijk deze videotraining om te zien hoe u dit kunt doen.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
-      "254ec123-fca9-48e1-ba2b-5e16bab38a6a",
-      "99ade958-5c25-444b-9e1e-f222a8976441",
+      "5bd927ad-d186-495c-93e8-7ca116fe7b83",
       "e1f59717-2f02-494d-93c6-8ef9613e82ba",
       "e28db166-76a0-454b-9f71-c26bde579f70",
+      "99ade958-5c25-444b-9e1e-f222a8976441",
       "3cd2e0b9-a2bc-4009-ba4a-88fc1052522f",
-      "5bd927ad-d186-495c-93e8-7ca116fe7b83"
+      "254ec123-fca9-48e1-ba2b-5e16bab38a6a"
     ]
   },
   {
@@ -1837,18 +1931,19 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "4ee4d22a-7d53-48bb-9a14-adf34d01cd75",
-    "Description": "Gebruik OneDrive om bestanden te delen, het bekijken en bewerken te beheren en tegelijkertijd samen te werken",
+    "Description": "Meer informatie over delen en synchroniseren in OneDrive werk of school. Bestanden en mappen delen, OneDrive bestanden en mappen synchroniseren, schijfruimte beheren en bestanden synchroniseren met OneDrive Files On-Demand om al uw bestanden in OneDrive of SharePoint Online te openen, zonder ze te moeten downloaden en opslagruimte op uw apparaat te gebruiken. Bekijk deze videotraining om te zien hoe u dit kunt doen.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "72f26d6c-bf9e-432c-8b96-e3c2437f5b65",
       "3b8246e0-cc3c-4ae7-b4e1-4b4b37d27f68",
+      "f8c24f1a-9dfb-4ede-94c5-931a45646a96",
       "62e8d748-7877-420f-b600-24b56562aa70"
     ]
   },
   {
     "Id": "a324d70a-4727-43e3-b78a-be93092d3dd0",
-    "Title": "Aan de slag met OneNote",
+    "Title": "OneNote Aan de slag",
     "Image": "images/playlists/onenote_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1856,7 +1951,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-    "Description": "Meer informatie over het maken van een notitieblok in OneNote",
+    "Description": "Ga snel aan de slag met OneNote Aan de slag. Maak, open en schakel tussen notitieblokken. Maak notities en voeg pagina's en secties toe. Deel pagina's of een heel notitieblok om georganiseerd te blijven en samen te werken met anderen. Stel uw mobiele apps in om vanaf elke locatie toegang te krijgen tot uw bestanden.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1868,7 +1963,7 @@
   },
   {
     "Id": "55d81409-752a-4bd8-8c2b-cfc937359358",
-    "Title": "Inleiding tot OneNote",
+    "Title": "Intro voor OneNote",
     "Image": "images/playlists/intro_to_onenote.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1876,7 +1971,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-    "Description": "Met OneNote kunt u notities typen of audio opnemen, schetsen of ideeën schrijven, een afbeelding toevoegen, notities zoeken, pagina's organiseren in secties en secties in notitieblokken, en notitieblokken delen om deze weer te geven en samen bij te dragen. Bekijk deze overzichtsvideo van een inleiding voor OneNote en leer hoe u zich aanmeldt, een nieuwe pagina of sectie toevoegt, de naam van een pagina of sectie wijzigt, een ander notitieblok opent en OneNote aanpast.",
+    "Description": "Met OneNote kunt u notities typen of audio opnemen, schetsen of ideeën schrijven, een afbeelding toevoegen, notities zoeken, pagina's in secties en secties in notitieblokken ordenen en notitieblokken delen om samen te bekijken en bij te dragen. Bekijk deze intro om OneNote overzichtsvideo te bekijken en leer hoe u zich kunt aanmelden, een nieuwe pagina of sectie kunt toevoegen, de naam van een pagina of sectie kunt wijzigen, een ander notitieblok kunt openen en de OneNote.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1886,7 +1981,7 @@
   },
   {
     "Id": "b63ab88a-2478-44a0-80a9-661849142f29",
-    "Title": "Maak notities met OneNote",
+    "Title": "Notities maken met OneNote",
     "Image": "images/playlists/take_notes.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1894,7 +1989,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-    "Description": "Maak notities zoals u dat wilt, voeg afbeeldingen en bestanden toe en creëer meer ruimte in uw notitieblok.",
+    "Description": "Maak OneNote notities zoals u wilt: typ notities, schrijf notities, converteert handgeschreven notities naar tekst en neemt zelfs audionotities op. Afbeeldingen, bestanden en video's invoegen. Maak zoveel pagina's, secties en notitieblokken als u nodig hebt.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1913,7 +2008,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-    "Description": "Maak notities, pagina's en tabellen op zodat ze eruitzien zoals u dat wilt",
+    "Description": "Maak notities op in OneNote om ze er precies zo uit te laten zien als u wilt. Markeer tekst, maak lijsten, inspringingstekst, lijn notities uit en pas stijlen toe. Pas een achtergrondkleur toe op een pagina of sectie om deze visueel aantrekkelijker te maken. Voeg een tabel in en maak deze op om informatie visueel te ordenen.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1932,7 +2027,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-    "Description": "Teken of schets in OneNote om uw notities tot leven te brengen",
+    "Description": "Teken of schets in OneNote om uw notities tot leven te brengen. U kunt een pen, potlood of markeerstift, de dikte en de kleur selecteren. Maak vormen zoals een cirkel, driehoek of rechthoek, of teken zelfs vormen met uw vinger, pen of muis en OneNote deze voor u op.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1942,7 +2037,7 @@
   },
   {
     "Id": "352e7758-5888-40c5-b765-edc83d7c64b3",
-    "Title": "Uw werk organiseren met OneNote",
+    "Title": "Georganiseerd blijven met OneNote",
     "Image": "images/playlists/stay_organized.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1950,7 +2045,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-    "Description": "Om georganiseerd te blijven met OneNote, leert u hoe u notities zoekt, zoekopdrachten verfijnt en uw notitieblokken organiseert. Ontdek hoe u navigatiedeelvensters weergeeft, een pagina van de ene sectie naar een andere verplaatst, een pagina kopieert naar een andere sectie of notitieblok en een sectie verplaatst of kopieert.",
+    "Description": "Als u op de hoogte wilt OneNote, leert u hoe u notities kunt zoeken, de zoekopdracht kunt beperken en uw notitieblokken kunt ordenen. Bekijk hoe u navigatiedeelvensters kunt weergeven, een pagina van de ene sectie naar de andere kunt verplaatsen, een pagina naar een andere sectie of notitieblok kunt kopiëren en een sectie kunt verplaatsen of kopiëren.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1968,7 +2063,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-    "Description": "Notities delen met anderen en persoonlijke notities met een wachtwoord beveiligen",
+    "Description": "Deel en synchroniseer uw OneNote notitieblok om samen te werken met anderen. Selecteer Delen, met wie u wilt delen en of ze uw pagina of notitieblok kunnen bewerken of alleen kunnen bekijken. U kunt notitiebloksecties die u privé wilt houden, ook vergrendelen of met een wachtwoord beveiligen.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1986,7 +2081,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-    "Description": "Gebruik OneNote op iOS, Android en online, zodat u overal verbinding kunt maken en kunt werken met uw aantekeningen, waar u ook bent",
+    "Description": "Gebruik OneNote op uw mobiele apparaten, zodat u overal verbinding kunt maken en met uw notities kunt werken. Gebruik OneNote in iOS, OneNote voor Android of OneNote Online.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1997,7 +2092,7 @@
   },
   {
     "Id": "e66fa8f3-ec7e-47f9-9d79-4d334f157563",
-    "Title": "Snel starten met Outlook",
+    "Title": "Outlook Aan de slag",
     "Image": "images/playlists/outlook_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2005,7 +2100,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "Snel aan de slag met de handleiding Aan de slag met Outlook. Leer hoe u een e-mailaccount toevoegt, een e-mail maakt en verstuurt, @vermeldingen gebruikt, Postvak IN met prioriteit weergeeft, uw agenda en contacten beheert, een afspraak plant met Planningassistent, een contactpersoon toevoegt, samenwerkt in Outlook, een bestand deelt, een onlinevergadering en gedeelde notities opstelt en uw mobiele apps instelt.",
+    "Description": "Ga snel aan de slag met Outlook handleiding Aan de slag. Meer informatie over het toevoegen van een e-mailaccount, het maken en verzenden van e-mail, het gebruik van @mentions, het tonen van Postvak IN met focus, het beheren van uw agenda en contactpersonen, het plannen van een afspraak met Planningassistent, het toevoegen van een contactpersoon, het samenwerken aan Outlook, het delen van een bestand, het instellen van een onlinevergadering en gedeelde notities en het instellen van uw mobiele apps.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2018,7 +2113,7 @@
   },
   {
     "Id": "79fe1eb2-571e-4cbe-98b9-913692ddd387",
-    "Title": "Outlook installeren en aanpassen",
+    "Title": "Het instellen en aanpassen van Outlook",
     "Image": "images/playlists/set_up_and_customize.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2026,18 +2121,18 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "Wilt u Outlook installeren en aanpassen? Leer hoe Outlook u kan helpen bij het organiseren van uw e-mail, het beheren en delen van uw agenda, het delen van bestanden, het maken van connecties met anderen en het toevoegen van een outlook.com-account, Microsoft 365-e-mailaccount of Gmail-account.",
+    "Description": "Wilt u uw Outlook? Lees hoe Outlook u kunt helpen uw e-mail te ordenen, uw agenda te beheren en te delen, bestanden te delen, verbonden te blijven en een outlook.com-account, Microsoft 365-e-mailaccount of Gmail-account toe te voegen.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "10f1fa35-f33a-4cb7-838c-a7f3e6228b20",
-      "46274497-95ea-4a7d-9651-d246aa63eb5e",
-      "7c031aff-0ceb-435a-ada9-a389cfc8ddca"
+      "7c031aff-0ceb-435a-ada9-a389cfc8ddca",
+      "46274497-95ea-4a7d-9651-d246aa63eb5e"
     ]
   },
   {
     "Id": "44bb07ac-1c25-43fa-885d-4a0476734c9f",
-    "Title": "E-mailberichten maken en verzenden",
+    "Title": "E-mail maken en verzenden",
     "Image": "images/playlists/create_and_send_email.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2045,8 +2140,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "Uw postvak IN ontdekken in Microsoft Outlook",
-    "StatusTagId": "",
+    "Description": "Meer informatie over het maken en verzenden van e-Outlook, het maken van een e-mailhandtekening, het verzenden en ontvangen van bijlagen en het intrekken of vervangen van een verzonden e-mailbericht. Bekijk deze videotraining om te zien hoe u dit kunt doen.",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "c6c261e3-d50a-43a6-816f-35fe1e53acc6",
@@ -2066,8 +2161,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "Automatische antwoorden instellen voor wanneer u niet aanwezig bent",
-    "StatusTagId": "",
+    "Description": "Meer informatie over het beheren van uw e-mail in Outlook. Gebruik Automatische antwoorden om berichten automatisch te beantwoorden, e-mail te zoeken en te filteren, uw zoekopdrachten te verfijnen, gesprekken te negeren en Gesprek ops schonen te gebruiken om uw Postvak IN op te schonen. Bekijk deze videotraining om te zien hoe u dit kunt doen.",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "cc0e480f-973e-4412-a27b-8a52108d6d51",
@@ -2078,7 +2173,7 @@
   },
   {
     "Id": "ab55d6d4-c932-48a5-a062-a5e760fda581",
-    "Title": "Uw postvak IN ordenen",
+    "Title": "Uw Postvak IN organiseren",
     "Image": "images/playlists/organize_your_inbox.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2086,8 +2181,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "Krijg tips voor het organiseren van uw postvak IN. Leer hoe u een Opvolgingsvlag instelt, een Opvolgingsvlag bekijkt of verwijdert, een reminder instelt, een Actie-item zoekt, kleurcategorieën maakt, een kleurcategorie toewijst aan een e-mailbericht, een map maakt, berichten naar een map verplaatst, een map toevoegt aan Favorieten of een regel maakt.",
-    "StatusTagId": "",
+    "Description": "Meer informatie over tips om uw Postvak IN te ordenen. Informatie over het instellen van een opvolgingsvlag, het weergeven of verwijderen van opvolgingsvlaggen, het instellen van een herinnering, het zoeken naar een actie-item, het maken van kleurcategorieën, het toewijzen van een kleurcategorie aan een e-mailbericht, het maken van een map, het verplaatsen van berichten naar een map, het toevoegen van een map aan Favorieten of het maken van een regel.",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "a894348d-b308-4185-840f-aff63063d076",
@@ -2105,7 +2200,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "Voeg een contactpersoon toe, maak een groep met contactpersonen, importeer en exporteer contacten of maak taken of een takenlijst.",
+    "Description": "Houd uw contactpersonen en taken bij in Outlook. Informatie over het toevoegen van een contactpersoon, het maken van een groep contactpersonen, het importeren van Gmail-contactpersonen, het exporteren van contactpersonen en het maken van taken en een takenlijst.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2118,7 +2213,7 @@
   },
   {
     "Id": "534d99cd-2b9b-4a9d-acde-c83fcfc082aa",
-    "Title": "Outlook-agenda",
+    "Title": "Outlook Agenda",
     "Image": "images/playlists/calendar.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2126,7 +2221,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "Afspraken en vergaderingen maken, uw agenda delen of zoeken naar agenda-items.",
+    "Description": "Meer informatie over het gebruik van uw agenda in Outlook om uw planning te organiseren. Schakel uw agendaweergave tussen dag, week of maand, maak afspraken en vergaderingen, plan een onlinevergadering, deel uw agenda, importeer agenda's, zoek naar agenda-items, gebruik kleurcategorieën en herinneringen, zodat u nooit een belangrijke vergadering mist en schakel een voorbeeld van gedeelde agenda in.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2141,15 +2236,15 @@
   },
   {
     "Id": "cf0a88b6-99be-4db9-8312-a762cfd9976a",
-    "Title": "Outlook Mobile: Uw postvak IN beheren",
+    "Title": "Uw Postvak IN beheren",
     "Image": "images/playlists/outlook-mobile-manage-your-inbox.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "3edeb182-3828-4a83-aef9-928a2693e288",
+    "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "Beheer uw postvak IN en leer hoe u direct kunt reageren op uitnodigingen, veeg naar rechts om uw postvak IN te beheren, maak een postvak IN met prioriteit en gebruik Android-widgets.",
+    "Description": "Beheer uw Postvak IN in Outlook mobiel. Lees hoe u uw e-mailberichten kunt afspelen, RSVP om direct uitnodigingen af te spelen, naar links te swipen en naar rechts te swipen om uw Postvak IN te beheren, berichten te sorteren in Focused en Overige om u te concentreren op wat belangrijk is en Android-widgets te gebruiken om de hulpprogramma's te openen die u de hele dag gebruikt, elke dag direct vanaf het startscherm van Android.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2161,15 +2256,15 @@
   },
   {
     "Id": "07666fb2-f6a8-416d-9805-78072ade58ca",
-    "Title": "Outlook Mobile: Beheer uw tijd",
+    "Title": "Uw tijd beheren",
     "Image": "images/playlists/outlook-mobile-manage-your-time.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "3edeb182-3828-4a83-aef9-928a2693e288",
+    "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "Met Outlook Mobile kunt u een tijdstip zoeken waarop iedereen beschikbaar is voor een vergadering.",
+    "Description": "Gebruik Outlook mobiele telefoon om uw tijd te beheren, vergaderingen te plannen en te zien wanneer iedereen beschikbaar is. Gebruik de locatieassistent voor de vergadering, verzend de beschikbaarheid van de vergadering, deel uw agenda, voeg agenda's samen en combineer agenda's en beheer uw meldingen. Meer informatie over de tien beste Outlook mobiele tips.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2185,36 +2280,36 @@
   },
   {
     "Id": "a0cbd9cd-bfeb-4976-b39d-8c21da669d0f",
-    "Title": "Outlook Mobile: Personen en verbindingen",
+    "Title": "Personen en verbindingen",
     "Image": "images/playlists/outlook-mobile-people-and-connections.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "3edeb182-3828-4a83-aef9-928a2693e288",
+    "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "Outlook Mobile maakt het gemakkelijk om contactpersonen te vinden en meer te weten te komen over hen.",
+    "Description": "Gebruik Personen en verbindingen in Outlook Mobile voor meer informatie over contactpersonen, het scannen van contactpersonen of het toevoegen van contactpersonen. Gebruik @mentions, favoriete contactpersonen en stel meldingen in of voeg mappen en groepen toe aan favorieten.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
-      "1f238e49-2699-4ff7-b992-3b1b0f35297b",
-      "871a7381-5154-4a9d-83df-d59476b7139a",
-      "7fa421df-1bdf-4374-84e8-a8d45307020e",
-      "20ec8c7f-3109-4be6-ae14-10dd7ba7e99b",
-      "152146fb-0400-45fb-913d-98761810aea4"
+      "672f8ae7-1843-4dff-acb4-d3a998f5f392",
+      "555babd1-f307-48ef-a2cf-f6ea1aae6fdc",
+      "f21a4063-db88-40ab-9376-8e324711f6d8",
+      "6d35e08b-ca70-42b8-abf7-cca1ddbd267d",
+      "0e8be5a2-c2e1-4702-bb76-0ee7228b9d35"
     ]
   },
   {
     "Id": "8405be6d-8da0-40d4-aa5c-ac00d4697c2b",
-    "Title": "Outlook Mobile: Zoeken en delen",
+    "Title": "Zoeken en delen",
     "Image": "images/playlists/outlook-mobile-search-and-share.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
-    "TechnologyId": "3edeb182-3828-4a83-aef9-928a2693e288",
+    "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "Met Microsoft Search in de mobiele Outlook-App kunt u snel vinden wat u nodig hebt. Krijg moeiteloos toegang tot uw contactpersonen, agenda-items en bestanden met verbeterde zoekfunctie voor e-mail.",
+    "Description": "Lees hoe u kunt zoeken in Outlook mobiele telefoon, bestanden en foto's kunt delen, uw agenda kunt doorzoeken op titel, onderwerp, e-mailadres of gebeurtenisbeschrijving en het pictogram Zoeken kunt gebruiken om e-mailbijlagen te zoeken.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2234,7 +2329,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "fcdc0676-03f7-40b9-80c1-167560c4018d",
-    "Description": "Ontdek Planner: taken beheren en updates ontvangen",
+    "Description": "Ga snel aan de slag met de Planner Quick Start. Leer hoe u zich kunt aanmelden, een plan kunt maken, personen kunt toevoegen aan een plan, buckets voor taken kunt instellen, taken, einddatums, opmerkingen en bijlagen kunt toevoegen, de voortgang van een plan kunt bekijken en e-mailupdates en meldingen kunt ontvangen en uw mobiele apparaat kunt instellen om Planner overal te gebruiken.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2248,14 +2343,14 @@
   {
     "Id": "66e36e66-d38b-4103-9c34-1201c2f2eb7f",
     "Title": "Ideeën voor uw bord",
-    "Image": "images/playlists/planner_use_planner.png",
+    "Image": "images/playlists/planner_ideas_for_board.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "2f571b54-44fa-4778-9277-c7935e36ffb3",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "fcdc0676-03f7-40b9-80c1-167560c4018d",
-    "Description": "Planner gebruiken om een gebeurtenis te plannen, inhoud te publiceren en de voortgang bij te houden",
+    "Description": "Ideeën voor uw bord krijgen in Planner. Plan een gebeurtenis zoals een productlancering, ondersteuning van klanten, publiceer inhoud of volg de voortgang. Bekijk voorbeelden van het echte leven om ideeën te krijgen over hoe u Planner kunt gebruiken.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2275,7 +2370,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "fcdc0676-03f7-40b9-80c1-167560c4018d",
-    "Description": "Beheer taken, maak plannen en planningen",
+    "Description": "Gebruik Planner om uw team te organiseren, voortgangsrapporten te bekijken en afzonderlijke toewijzingen bij te houden. Leer hoe u een plan maakt, buckets en taken toevoegt, taken en einddatums toewijst en een plan toevoegt aan Teams. Vergelijk Planner met ToDo, gebruik Planningweergave om uw taken in een agenda te organiseren en bekijk uw Planner-schema in de Outlook-agenda.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2283,11 +2378,11 @@
       "c141a2f5-7bfa-4279-81f7-a8c9153bab7b",
       "6e2c3b55-d9b8-44fc-9d60-021a43a4777b",
       "a31a35ea-d833-4570-b304-24f75fc6761d",
+      "e32639f3-2e07-4b62-9a8c-fd706c12c070",
+      "a63b2257-1515-42d2-aad2-daee4b03dee0",
       "a4a40a7c-b5a8-4a3d-b3db-306b01a2b122",
       "5518c537-dfcb-41ab-ae58-2041e54b5f57",
-      "dfa0127d-0a0a-4480-aaca-dd3496000d24",
-      "a63b2257-1515-42d2-aad2-daee4b03dee0",
-      "7155bed9-aa2d-4ffb-8e3a-9f3aa8dead91"
+      "dfa0127d-0a0a-4480-aaca-dd3496000d24"
     ]
   },
   {
@@ -2300,7 +2395,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
-    "Description": "Presentaties maken met PowerPoint",
+    "Description": "Ga snel aan de slag met de PowerPoint Snel starten-handleiding. Maak een presentatie, voeg een dia, afbeelding, vorm of grafiek toe, sla op in OneDrive, wijzig de naam van een presentatie, gebruik thema's en PowerPoint Designer, voeg overgangen en animaties toe, deel en werk samen met anderen, voeg opmerkingen toe, chat tijdens het bewerken, herstel eerdere versies, gebruik Weergave voor presentator en Notities voor presentator en stel uw mobiele apps in.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2314,7 +2409,7 @@
   },
   {
     "Id": "b7593732-a75a-4542-9d72-4932c505b92f",
-    "Title": "Welkom bij PowerPoint",
+    "Title": "Intro voor PowerPoint",
     "Image": "images/playlists/welcome_to_powerpoint.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2322,7 +2417,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
-    "Description": "Maak een geheel nieuwe presentatie of op basis van een thema met ingebouwde afbeeldingen, lettertypen en tijdelijke aanduidingen voor tekst, afbeeldingen en inhoud.",
+    "Description": "In deze intro voor PowerPoint-cursus leert u hoe u PowerPoint kunt gebruiken om presentaties te maken, tekst, afbeeldingen, afbeeldingen en video's toe te voegen, een professioneel ontwerp te selecteren met PowerPoint Designer, overgangen en animaties toe te voegen, op te slaan in OneDrive om uw bestanden vanaf elke locatie te openen en uw werk te delen om samen te werken met anderen.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2342,24 +2437,24 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
-    "Description": "Leer hoe u uw dia's ontwerpt, bewerkt en organiseert met SlideMaster.",
+    "Description": "Leer hoe u dia's en indelingen in PowerPoint maakt. Leer hoe u een diamodel maakt, dia's toevoegt, opnieuw ordent, dupliceert en verplaatst, een dia-indeling toepast, kleur en ontwerp aan uw dia's toevoegt met thema's, een sjabloon toepast op een nieuwe presentatie, ontwerpideeën opdoet met PowerPoint Designer en een diamodel aanpast. Bekijk deze videotraining om te zien hoe.",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "9bdaa597-38b8-4d15-948d-8125893ff060",
       "8bf2b58d-df6c-4e5f-90e3-ade289a2d64d",
-      "d98e245b-7cd5-4813-a893-70a3dac60971",
-      "6f0ec776-cc58-4d0c-baab-051ba837b7a0",
-      "434b92d7-5347-4197-8d5c-d5b23219cf28",
-      "9e64b176-7d80-4390-84d2-f61247209780",
-      "1246244d-f465-4e4f-b9f9-49acdae00ff1",
-      "314cfd6f-dfb0-44f6-8bf5-8d7c2f4f4332",
-      "fcedcc77-e229-4519-9e42-58759da72d33",
+      "158e6dba-e53e-479b-a6fc-caab72609689",
+      "a54d6866-8c32-4fbc-b15d-6fcc4bd1edf6",
+      "d3d4ece5-e965-45eb-9423-c34e61b34616",
+      "02f83d65-ec10-4365-b88f-17c19e0dc5cb",
+      "036d317b-3251-4237-8ddc-22f4668e2b56",
+      "05bcb3c2-872a-4eaf-8b9f-f6a6ceccd3c9",
+      "de4bf162-e9cc-4f58-b64a-7ab09443b9f8",
+      "ea4cc5f5-ea5d-4213-9c7d-ed01a7952ed0",
       "0cb51a2c-872d-4fa0-aca7-4ad7d9b1492a",
       "95ab736a-8bf7-404b-bcc0-18354e126584",
       "22830909-bfcc-4ffe-ba12-04cf7f0f9f35",
-      "ad817e63-084c-4a80-92c9-d28aef174667",
-      "9acfa241-0be7-4f18-860f-3dcd6a61818c"
+      "ad817e63-084c-4a80-92c9-d28aef174667"
     ]
   },
   {
@@ -2372,19 +2467,18 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
-    "Description": "Wilt u meer leren over tekst en tabellen met PowerPoint? Leer hoe u WordArt invoegt, een hyperlink toevoegt aan een dia, een PowerPoint-presentatie van een contour maakt, spelling controleert in uw presentatie, een tabel maakt of opmaakt, een gekoppelde Excel-grafiek invoegt, dianummers, datum en tijd toevoegt en de tekstrichting en -positie instelt in een vorm of tekstvak.",
+    "Description": "Wilt u meer leren over tekst en tabellen met PowerPoint? Leer hoe u WordArt invoegt, een hyperlink toevoegt aan een dia, een PowerPoint-presentatie van een overzicht maakt, spelling controleert in uw presentatie, een tabel maakt en opmaakt, een gekoppelde Excel-grafiek invoegt, dianummers, datum en tijd toevoegt en de tekstrichting en -positie instelt in een vorm of tekstvak.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "06f64160-9abf-46bb-80d1-9e94d47a0d36",
-      "239c6c94-d52f-480c-99ae-8b0acf7df6d9",
+      "f37e08a-43a8-40fe-a1d3-3adf6c592fa9",
+      "f6294909-04e9-4020-b9a8-4587b112692c",
       "ce655d7b-bc99-4323-be2e-627d3e759528",
       "33b3491e-f0ec-48c4-b9fb-3a5bd8797608",
-      "19767daf-672c-43bc-bda1-330b242c57c9",
-      "2e95c36a-0e64-4256-a04b-33501a2ce604",
+      "6c081407-e683-4424-a425-b4ab483d6edd",
       "b200f2d7-2301-47f4-8f80-dad8c15a85af",
-      "2a970a4f-4847-43f1-aec7-e392c28eadd5",
-      "84c79be1-3be5-4659-a3dc-b519e019bbaf"
+      "2a970a4f-4847-43f1-aec7-e392c28eadd5"
     ]
   },
   {
@@ -2397,22 +2491,17 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
-    "Description": "Met PowerPoint kunt u afbeeldingen, foto’s, illustraties of andere plaatjes invoegen in uw diavoorstelling vanaf uw computer of vanaf het internet.",
+    "Description": "Voeg afbeeldingen en graphics toe in PowerPoint om uw presentatie visueel aantrekkelijk te maken. Leer hoe u een afbeelding invoegt, een artistiek effect toepast, SmartArt toevoegt, een achtergrondafbeelding of bedrijfslogo toevoegt, diagrammen en grafieken toevoegt of pictogrammen invoegt.",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "7da68d81-eda5-441d-9948-883ba5fb95ae",
-      "318bf5a5-460c-4fe4-b134-dac2aba286fe",
-      "a6875594-f531-4e8b-97ff-cbd05634ab18",
-      "ed299a87-43e2-4a18-a3ba-cc90c2149e33",
-      "56d8b2d3-2f31-4f50-abae-6154c1f969a9",
-      "5f961535-a2ae-4914-a24a-94c669903ae3",
-      "81cccf31-9219-4c89-b7ba-9f25ad429c4a",
-      "41bc6777-3b46-4984-bc5b-615ea7786ab1",
       "16465bf5-32ef-4d92-86ff-a0d15646ce39",
-      "d3df465b-7564-4eb5-9f31-e9ac854b2d5d",
-      "094a6796-1d07-4a44-b4ef-9f0ffc6f667d",
-      "055d5d36-00fe-4e34-ba80-8d360cf9dd59"
+      "ed299a87-43e2-4a18-a3ba-cc90c2149e33",
+      "7a17358c-b76e-4c94-84db-604e1bba76da",
+      "a6875594-f531-4e8b-97ff-cbd05634ab18",
+      "055d5d36-00fe-4e34-ba80-8d360cf9dd59",
+      "094a6796-1d07-4a44-b4ef-9f0ffc6f667d"
     ]
   },
   {
@@ -2425,16 +2514,16 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
-    "Description": "Leer hoe u diavoorstellingen kunt presenteren, sprekernotities kunt toevoegen, een diavoorstelling kunt opnemen en afdrukken en een zelf-lopende presentatie kunt maken.",
+    "Description": "Leer hoe u diavoorstellingen presenteert in PowerPoint. Voeg sprekersnotities toe aan uw dia's, oefen de tijd en levering, neem een diavoorstelling op met gesproken tekst, druk uw dia's, hand-outs of notities af en maak een automatische presentatie.",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "fe7638e4-76fb-4349-8d81-5eb6679f49d7",
       "65dacbfb-8aec-496e-b9a1-d96cfa86fb52",
       "83e8f205-08bf-4dc1-b4fc-2fbe46873295",
+      "2570dff5-f81c-40bc-b404-e04e95ffab33",
       "1b1172ac-934e-47fd-b43b-7da01607a7f7",
-      "33ac9590-720d-4803-ad6a-0f3de16e5bbf",
-      "2570dff5-f81c-40bc-b404-e04e95ffab33"
+      "33ac9590-720d-4803-ad6a-0f3de16e5bbf"
     ]
   },
   {
@@ -2447,22 +2536,21 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
-    "Description": "Informatie over het toevoegen, wijzigen of verwijderen van overgangen tussen dia's, tekst of objecten van animatie voorzien, een video invoegen of een koppeling naar een video toevoegen en geluid toevoegen of verwijderen",
+    "Description": "Voeg animatie, video en audio toe in PowerPoint om uw presentatie boeiender en professioneler te maken. Voeg overgangseffecten tussen dia's, animaties van tekst of objecten, morphing-overgangen, video, audio of muziek toe of maak een schermopname die u kunt insluiten in uw presentatie.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
-      "7db07067-4d78-40b5-bc87-5ff4f5ff6ff7",
       "e89a076e-ed81-404e-9598-021a918fa1ba",
-      "bb7fc99c-71ef-48e3-ac1a-3ebafcd9f3ed",
-      "eeac1757-5f20-4379-95f2-0d0cd151d5b8",
+      "7db07067-4d78-40b5-bc87-5ff4f5ff6ff7",
       "efa900e1-3b09-453e-a4c2-ee672c2088f1",
-      "8340ec69-4cee-4fe1-ab96-4849154bc6db",
+      "94b100a6-c1cc-4ef4-9f13-35ee20de950e",
+      "eeac1757-5f20-4379-95f2-0d0cd151d5b8",
       "45336fff-9afd-4d92-ade2-c0b2b4186db6"
     ]
   },
   {
     "Id": "ee7fc2e1-a42d-452e-ab90-e8131b08a9b1",
-    "Title": "Delen en samenwerken met PowerPoint",
+    "Title": "Delen en coauthoren met PowerPoint",
     "Image": "images/playlists/share_and_co-author.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2470,20 +2558,20 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
-    "Description": "Een presentatie delen en samenwerken, opmerkingen gebruiken, een presentatie controleren en de PowerPoint-presentatie opslaan als een PDF-bestand",
+    "Description": "Deel en coauteur met anderen in PowerPoint in realtime. Werk met opmerkingen, deel uw presentatie, sla een presentatie op als een video, controleer een presentatie om persoonlijke en vertrouwelijke informatie te verwijderen of sla een presentatie op als pdf-bestand.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
-      "4d452495-f8c0-4b15-bac3-8015a8adbe0e",
-      "fdcad9ad-4f13-4f5b-9910-12b4108a4c86",
+      "a8f071fa-6e5d-4c37-a025-1cf48a76eb38",
+      "a6308d9d-a0a8-443b-8e1c-0f4983f0afd1",
       "ba919059-523d-40a8-b99c-08d18996c09d",
-      "2b3bf84a-1960-4b3f-8d68-dbdaa8865e97",
+      "0e85b85c-5aa7-4d47-9381-b800c63bf740",
       "f3d7ab9b-3fb9-4d94-9d60-344d6b4538e9"
     ]
   },
   {
     "Id": "24216b89-7d0d-4263-b61e-2ecbda58f1df",
-    "Title": "Aan de slag met SharePoint Online",
+    "Title": "SharePoint online aan de slag",
     "Image": "images/playlists/sharepoint_online_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2491,7 +2579,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "e5e2ae74-20ff-4626-937d-df4ff3405f29",
-    "Description": "Maak en verbeter intranetsites, werk samen met anderen, beheer uw dagelijkse routine met werkstromen en sla uw informatie op",
+    "Description": "Ga snel aan de slag met de handleiding Aan de slag met Word. Leer hoe u zich kunt aanmelden bij SharePoint, nieuws en informatie kunt zoeken en ontdekken, uw site kunt zoeken, een site kunt maken, een lijst of documentbibliotheek kunt toevoegen, filters kunt gebruiken om te wijzigen wat u ziet, een pagina toevoegt, een webonderdeel toevoegt, met anderen samenwerkt, een document opent vanuit een documentbibliotheek, een document deelt, bestanden synchroniseert met uw computer, en stel uw mobiele apps in.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2504,7 +2592,7 @@
   },
   {
     "Id": "4d722e7d-6cb1-4399-998d-6f8645f63ffa",
-    "Title": "Inleiding tot SharePoint Online",
+    "Title": "Intro voor SharePoint Online",
     "Image": "images/playlists/intro_to_sharepoint_online.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2512,7 +2600,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "e5e2ae74-20ff-4626-937d-df4ff3405f29",
-    "Description": "Volg sites en blijf verbonden op mobiele apparaten",
+    "Description": "Met deze intro voor SharePoint Online leert u hoe u SharePoint kunt gebruiken om intranetsites, pagina's, documentbibliotheken en lijsten te maken, sites en nieuws te zoeken en te volgen en verbonden te blijven op mobiele apparaten. Bekijk deze videotraining om te zien hoe u dit kunt doen.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2531,15 +2619,15 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "e5e2ae74-20ff-4626-937d-df4ff3405f29",
-    "Description": "Een teamsite maken om verbonden te blijven en te communiceren, lijsten bij te werken, een nieuwsbericht toe te voegen of te verwijderen en webonderdelen toe te voegen",
+    "Description": "Maak sites, berichten en lijsten in SharePoint Online om uw team of organisatie te verbinden. Zorg voor een teamsite of communicatiesite, verken nieuws, activiteiten en documenten op uw site, gebruik lijsten, filter en werk lijsten bij om uw team op de hoogte te houden, een nieuwsbericht toe te voegen of te verwijderen en maak een pagina om ideeën of informatie over te brengen aan uw team. Bekijk deze videotraining om te zien hoe u dit kunt doen.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
-      "7787a98c-8eb9-407d-8ee7-73a9975caf71",
+      "551e190a-8fbe-47ae-a88a-798b443c46b1",
+      "4b3e25c7-e464-41dc-8486-cef28d7130e0",
       "2a71be2b-e72a-4a55-bfd2-e2a13698c087",
       "2080ed96-2e53-46cb-b208-5901372e3af5",
-      "bc2c99a9-0e40-4eb0-b0e9-4979500c39ed",
-      "551e190a-8fbe-47ae-a88a-798b443c46b1"
+      "bc2c99a9-0e40-4eb0-b0e9-4979500c39ed"
     ]
   },
   {
@@ -2552,7 +2640,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "e5e2ae74-20ff-4626-937d-df4ff3405f29",
-    "Description": "SharePoint-bestanden maken en delen",
+    "Description": "Bestanden maken, delen en SharePoint maken",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2572,7 +2660,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "92083395-06d0-433f-ba0d-77c958d853b7",
-    "Description": "Creëren in Sway, inhoud toevoegen, ontwerpen en delen, en meer informatie",
+    "Description": "Maken in Sway, Inhoud toevoegen, Ontwerpen en delen en Meer informatie",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2592,7 +2680,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "92083395-06d0-433f-ba0d-77c958d853b7",
-    "Description": "Uw Sway delen, een wachtwoord toevoegen, privacy-instellingen en toegankelijkheidsfuncties controleren en toetsenbordsneltoetsen bekijken",
+    "Description": "Meer informatie over het delen en openen van Sway. Lees hoe u uw Sway deelt, een wachtwoord toevoegt, privacy-instellingen invoegt, toegankelijkheidsfuncties gebruikt om uw Sway toegankelijk te maken en Sway-sneltoetsen te leren kennen.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2613,7 +2701,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "92083395-06d0-433f-ba0d-77c958d853b7",
-    "Description": "Uw Sway delen, een wachtwoord toevoegen, privacy-instellingen en toegankelijkheidsfuncties controleren en toetsenbordsneltoetsen bekijken",
+    "Description": "Meer informatie over het toevoegen van inhoud aan Sway. Importeer inhoud in Sway, zoek naar inhoud, voeg video- en audiobestanden toe, insluit een Office-bestand, formulier of andere inhoud in Sway, voeg Focuspunten toe, kopieer en plak kaarten en gebruik QuickStarter om snel een Sway te maken.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2640,7 +2728,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "92083395-06d0-433f-ba0d-77c958d853b7",
-    "Description": "Inhoud toevoegen aan of verwijderen uit Sway, beheerdersinstellingen bekijken, maximale bestandsgrootte en veelgestelde vragen",
+    "Description": "Pas Sway aan om de Sway-informatievoettekst te verwijderen, beheerdersinstellingen te gebruiken, limieten voor bestandsgroottes te bekijken en antwoorden te krijgen op veelgestelde vragen en Help voor beheerders voor Sway.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2649,6 +2737,48 @@
       "0e1f467f-0cf1-425a-ab03-4d28c7693043",
       "1839cbb2-820e-4fa4-b1e3-f582c0d9330e",
       "11fc6ef4-03ac-4f67-a7e3-e5ea59edeff8"
+    ]
+  },
+  {
+    "Id": "918d6186-5b0d-47ed-8370-8e3b66c578aa",
+    "Title": "Aan de slag met Viva Connections",
+    "Image": "images/playlists/vivaconnections_getstarted.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "e031aa9d-5421-4ee9-8bc6-1b871bafc7f0",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "6682f5e0-9f2a-4cd3-9ada-d404b8d34761",
+    "Description": "Microsoft Viva Connections biedt een persoonlijke en bruikbare basis waarmee u dagelijkse werknemerstaken kunt uitvoeren, verbonden kunt blijven met bedrijfsnieuws en toegang hebt tot resources, zonder uw hub te verlaten voor teamwork.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "8b4e7f76-f305-49a9-b6d2-09378476f95b",
+      "3da30f39-684a-4bde-bb81-2e1407d59b52",
+      "753e0607-0bfd-4712-ad7e-18490dd565a2"
+    ]
+  },
+  {
+    "Id": "4914ee96-5306-44a1-a27e-0aa297b66ff8",
+    "Title": "Aan de slag met Viva Learning",
+    "Image": "images/playlists/vivalearning_getstarted.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "fa2b8bc0-3316-4102-a5a0-d71610d49d2a",
+    "Description": "Viva Learning maakt een centrale trainingshub in Teams waar mensen inhoudsbibliotheken in een organisatie kunnen delen, aanbevelen en hiervan leren om teams en personen in staat te stellen om training op een natuurlijke manier in hun dag in te passen. Dit omvat toegang tot inhoudsbibliotheken vanuit LinkedIn Learning, Microsoft Learn, Microsoft 365 Training en externe inhoudsproviders en trainingsbeheersystemen, evenals inhoud die uw bedrijf toevoegt aan Viva Learning.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "01bfed12-c327-41e0-a68f-7fa527dcc98a",
+      "6badc784-0948-4922-94cc-85cd987def0a",
+      "09a94473-cdd4-463b-9dbe-8e6648eb9bdb",
+      "ca774f08-6bed-441b-a74b-3aac15cd9019",
+      "77f9dcbf-41a8-4b19-b4d1-b99c406f37b8",
+      "b1ef9cb6-c2b1-4c64-aaf9-72f598e42688",
+      "692bfe1a-0e8d-467c-b5a7-4e17c132ae93"
     ]
   },
   {
@@ -2661,7 +2791,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-    "Description": "Er zijn verschillende handige opties om pagina's in te delen met Word. Leer hoe u marges wijzigt, nieuwsbriefkolommen maakt, afdrukstand wijzigt, een rand aan een pagina toevoegt, een kop- of voettekst toevoegt, paginanummers invoegt en een pagina-einde toevoegt.",
+    "Description": "Ga snel aan de slag met de handleiding Aan de slag met Word. Informatie over het maken van een document, het toevoegen en opmaken van tekst, het toevoegen van afbeeldingen, vormen, SmartArt en grafieken, het opslaan van uw document in OneDrive, ontwerpen en bewerken met stijlen en thema's, spelling en grammatica controleren, tekst zoeken en vervangen, uw document delen, samenwerken met anderen, wijzigingen bijhouden en controleren en uw mobiele apps instellen.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2674,7 +2804,7 @@
   },
   {
     "Id": "5250bdca-1dac-4242-9ec9-3badda06b5f8",
-    "Title": "Welkom bij Word",
+    "Title": "Intro naar Word",
     "Image": "images/playlists/welcome_to_word.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2682,7 +2812,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-    "Description": "Een document maken en opmaken, wijzigingen bijhouden en samenwerken met anderen",
+    "Description": "Met deze introductie in Word kunt u zien hoe u een document maakt en woorden gebruikt om wijzigingen te bekijken en bij te houden, uw spelling, grammatica en schrijven te verbeteren met Editor, uw documenten op te slaan in OneDrive om uw bestanden te openen vanaf uw computer, tablet of telefoon, en uw werk te delen om te chatten, opmerkingen te maken en samen te werken met anderen, waar ze ook zijn.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2692,7 +2822,7 @@
   },
   {
     "Id": "f74d0622-642d-4f98-906f-2960a2c05d31",
-    "Title": "Schrijven en bewerken met Word",
+    "Title": "Schrijven en bewerken",
     "Image": "images/playlists/write_and_edit.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2700,21 +2830,21 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-    "Description": "Tekst toevoegen, vervangen en opmaken in Word. Voeg hyperlinks in en verwijder deze en laat het aantal woorden zien",
+    "Description": "Schrijf het beste in Microsoft Word. Informatie over het toevoegen en bewerken van tekst, het zoeken en vervangen van tekst, het controleren van grammatica en spelling, het weergeven van het aantal woorden en het invoegen en verwijderen van hyperlinks.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "d85d0739-bbb9-4236-b6a4-4955b1f9a8d1",
-      "2eb1d51f-a897-4d73-ba76-c550f005e5ef",
-      "b045f7e9-7321-40dc-9ae6-b6d4edb89799",
       "5f8e48e0-4c15-48d9-b059-04b9038310dc",
       "6f9aad7c-1c58-40da-a65b-0c1282837aaf",
-      "ab3fdbda-e994-4ff1-9b8a-a8bc81569e05"
+      "ab3fdbda-e994-4ff1-9b8a-a8bc81569e05",
+      "2eb1d51f-a897-4d73-ba76-c550f005e5ef",
+      "b045f7e9-7321-40dc-9ae6-b6d4edb89799"
     ]
   },
   {
     "Id": "2bb5f49a-da1c-49e8-b7e8-04cfc6936f25",
-    "Title": "Pagina's indelen met Word",
+    "Title": "Pagina's in een lay-out",
     "Image": "images/playlists/layout_pages.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2722,8 +2852,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-    "Description": "Ontwerp een nieuwsbrief, wijzig de paginarichting, voeg een rand, koptekst of voettekst toe, voeg een pagina-einde of nummer in en maak een inhoudsopgave",
-    "StatusTagId": "",
+    "Description": "Er zijn verschillende handige opties om pagina's in te delen met Word. Informatie over het wijzigen van marges, het maken van nieuwsbriefkolommen, het wijzigen van de afdrukstand, het toevoegen van een rand aan een pagina, het invoegen van een kop- of voettekst, het invoegen van paginanummers en het invoegen van een pagina-break.",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "c95c1ea1-70b1-4dde-a1da-f5aa2042c829",
@@ -2746,7 +2876,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-    "Description": "Tabellen, afbeeldingen, pictogrammen, WordArt en watermerken invoegen. Lees hoe u een afbeelding kunt draaien en tekst rond een afbeelding kunt laten teruglopen.",
+    "Description": "Leer hoe u tabellen, afbeeldingen en watermerken invoegt in Word. Leer hoe u een tabel maakt, een afbeelding toevoegt, een pictogram en WordArt invoegt, de liniaal weergeeft of verbergt, een afbeelding of vorm draait en tekst laat teruglopen rond een afbeelding.",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
@@ -2754,7 +2884,7 @@
       "c999d2ba-3811-463d-93d5-8ff9be6967cc",
       "d9917030-32db-458c-b119-3a942e5f6ef4",
       "08789bf9-4ced-489e-b87b-16f8dfbbbc79",
-      "ddd609c6-62c6-4de2-9b5c-930a25138cfd",
+      "f90f26a5-2101-4a75-bbfe-f27ef05002de",
       "dc8a4e0d-209f-43b8-b967-8e65da24d4c7",
       "1a47bea9-473d-4ef7-aa2a-3697991558d4",
       "78fbe0c2-43f9-47fc-8e3d-2391840ee1e2"
@@ -2770,22 +2900,22 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-    "Description": "Een document opslaan, afdrukken of converteren naar PDF. Enveloppen en etiketten afdrukken.",
+    "Description": "Meer informatie over het opslaan en afdrukken in Word. Sla een bestand op in OneDrive zodat u het vanaf elke locatie kunt openen, een Word-document kunt converteren of opslaan in een PDF-bestand, een PDF-bestand kunt bewerken, uw document kunt afdrukken, een envelop kunt afdrukken, etiketten kunt maken en afdrukken of etiketten kunt afdrukken voor uw adressenlijst.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
-      "cebc3705-c949-42f6-8ed9-534943e1ab5c",
-      "b426d3dd-ab7e-40af-91b5-85158b08ad37",
-      "be712991-16dd-4b9e-810e-35b5320c922b",
-      "09e07ee6-3be4-4fe0-a229-4d36e2087515",
+      "64e36e41-a263-42f9-b213-ab5ab329de82",
       "032982e2-2afd-4bbd-a520-d01dfc28eba1",
       "69000446-c891-46bb-ac00-1b3e7f6fbb99",
-      "64e36e41-a263-42f9-b213-ab5ab329de82"
+      "cebc3705-c949-42f6-8ed9-534943e1ab5c",
+      "b426d3dd-ab7e-40af-91b5-85158b08ad37",
+      "82086c07-2afa-4982-9d7d-9c9141d5035b",
+      "09e07ee6-3be4-4fe0-a229-4d36e2087515"
     ]
   },
   {
     "Id": "fb5155d7-a802-4e95-b1ce-f8baea8cb44b",
-    "Title": "Delen en samenwerken met Word",
+    "Title": "Delen en coauthoren met Word",
     "Image": "images/playlists/share_and_coauthor.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2793,22 +2923,22 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-    "Description": "Werk samen in Word door opmerkingen in te voegen en wijzigingen bij te houden. Word gebruiken op een mobiel apparaat.",
+    "Description": "Meer informatie over delen en coauthoren in Word. Deel een document, werk samen met anderen aan uw Word-documenten, voeg een opmerking in of verwijder deze, volg wijzigingen, controleer en accepteer bijgespoorde wijzigingen en gebruik woord op een mobiel apparaat. Bekijk deze videotraining om te zien hoe u dit kunt doen.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "92701e68-148d-42d3-9cd3-7eeab997a738",
       "7dd3040c-3f30-4fdd-bab0-8586492a1f1d",
       "8d3f868a-867e-4df2-8c68-bf96671641e2",
-      "3faf8a07-26ed-4b76-b6a0-43cca013e6d3",
+      "197ba630-0f5f-4a8e-9a77-3712475e806a",
       "03c66bc2-c636-427a-9d1b-3e3345103b2e",
       "d98e8b70-48a5-4267-8826-915590739a91"
     ]
   },
   {
     "Id": "26aa6ac6-24aa-43c5-ad1c-d93359ab3674",
-    "Title": "Word gebruiken voor rapporten",
-    "Image": "images/playlists/use_word_for_school.png",
+    "Title": "Word voor school gebruiken",
+    "Image": "images/playlists/use_word_for_reports.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
@@ -2836,11 +2966,12 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-    "Description": "Meer informatie over het toegankelijk maken van Word: Een schermlezer gebruiken, sneltoetsen en dingen doen met Uitleg",
-    "StatusTagId": "",
+    "Description": "Meer informatie over het verbeteren van toegankelijkheid en gebruiksgemak in Word. Gebruik een schermlezer, gebruik Learning Hulpprogramma's om te helpen bij het lezen van vloeiendheid en begrip, gebruik Toegankelijkheidscontrole om documenten toegankelijk te maken en leer sneltoetsen om taken snel uit te voeren.",
+    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "303eb71a-6bd8-474c-ba06-923e93347224",
+      "f40cd198-dbce-4ba2-9cf3-04ff6d364db0",
       "153a4f24-5b06-4c8c-a966-1361baf46eb1",
       "cebd7999-e9ad-4b0d-9126-76438798c6b2",
       "6a7abb9e-0a36-448b-8704-f64a92ee2097"
@@ -2848,23 +2979,23 @@
   },
   {
     "Id": "2885901b-1655-4311-a7f9-025852a659e4",
-    "Title": "Tekst toevoegen en opmaken met Word",
-    "Image": "images/playlists/word_quick_start.png",
+    "Title": "Tekst opmaken",
+    "Image": "images/playlists/add_format_text.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-    "Description": "Lees over het opmaken van een tekst, het maken van een lijst met opsommingstekens of een genummerde lijst, het wijzigen van de regelafstand in Word, het toepassen van stijlen en het toepassen van thema‘s",
+    "Description": "Meer informatie over het opmaken van tekst in Word. Wijzig het lettertype, de tekengrootte, de tekenkleur, kopieer opmaak met Opmaak kopiëren/ plakken, maak een lijst met opsommingstekens of genummerde tekst, wijzig de regelafstand en pas stijlen en thema's toe om het ontwerp van uw Word-document visueel te verbeteren.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "ab6ed4a9-3086-4012-9fbf-06298ca4afb0",
-      "65bf0728-22fd-4784-b44c-4c6d8024f947",
-      "f80e5ec1-28c2-428f-b495-17875c97910a",
+      "4d07b36d-0b31-4d7a-bf97-42c206e726ed",
       "b47af0b6-6471-48d5-8247-b4a01823624b",
-      "4d07b36d-0b31-4d7a-bf97-42c206e726ed"
+      "65bf0728-22fd-4784-b44c-4c6d8024f947",
+      "55922445-1629-4a9f-ae63-1e2c1f295fdf"
     ]
   },
   {
@@ -2877,7 +3008,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "e83da7d3-653c-4c01-a262-336e07b88aba",
-    "Description": "Snel aan de slag met de handleiding Aan de slag met Yammer. Meld u aan bij Yammer en neem deel aan communitygesprekken, ontdek wat in uw organisatie trending is en stel de mobiele Yammer-app in voor het gebruik van Yammer onderweg.",
+    "Description": "Ga snel aan de slag met Aan de slag met Yammer. Meld u aan bij Yammer en neem deel aan communitygesprekken, ontdek wat in de organisatie trending is en stel de mobiele Yammer-app in voor het gebruik van Yammer onderweg.",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
@@ -2897,7 +3028,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "e83da7d3-653c-4c01-a262-336e07b88aba",
-    "Description": "Plan een strategie voor het implementeren van Yammer, identificeer Yammer-use cases, maak een community voor de Yammer-use cases en bereid u voor op de introductie. Na de introductie moet u gebruikers informeren, de continue betrokkenheid van Yammer vergroten en Yammer integreren in SharePoint.",
+    "Description": "Volg deze tips en aanbevolen procedures om een succesvol Yammer-netwerk te implementeren. Krijg een overzicht van Yammer, plan je strategie, personaliseer een Yammer-netwerk, identificeer de juiste gebruikscases, maak een community aan, bereid je voor op de lancering, train gebruikers, stimuleer continue betrokkenheid, integreer Yammer in Teams, SharePoint Online en Outlook en meet het succes.",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
@@ -2923,21 +3054,21 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "e83da7d3-653c-4c01-a262-336e07b88aba",
-    "Description": "Gebruik Yammer elke dag om op de hoogte te blijven van belangrijke ontwikkelingen, gebruik te maken van de kennis van anderen en voort te borduren op bestaand werk. Leer hoe u uw profiel en instellingen wijzigt, een Yammer-gesprek start, lid wordt van een Yammer-community, Yammer-meldingen en -aankondigingen beheert en de best practices voor Yammer volgt om Yammer een belangrijk onderdeel van uw werkdag te maken.",
+    "Description": "Ontdek hoe je Yammer elke dag kan gebruiken om contact te leggen met mensen, leiders en community's in je organisatie en om kennis te delen. Krijg een overzicht van Yammer, wijzig je Yammer-profiel en -instellingen, start een gesprek, werk met posts, voeg bestanden toe, ontdek en neem deel aan community's, gebruik meldingen om verbonden te blijven, werk met aankondigingen en leer tips en aanbevolen procedures om optimaal gebruik te maken van Yammer.",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
     "StatusNote": "",
     "Assets": [
       "47526868-b136-40cc-a80d-c870eadd9ba5",
       "dc06d227-c4c9-4fdb-9bfe-9f6a6b1caa83",
       "da65b1c3-6651-4141-8dbd-d50d61b98a6e",
-      "53e74097-c1fc-4098-a8ad-cf40b8e02e6c",
       "52db606b-2f29-4a9a-8cbb-b43bf2a27d2e",
+      "53e74097-c1fc-4098-a8ad-cf40b8e02e6c",
       "b8e6c9cd-bbca-49b6-bb28-7ed313d52fb0"
     ]
   },
   {
     "Id": "d4df5f82-2049-4c03-aab3-50e5a2dc8ad2",
-    "Title": "Wat is er nieuw en wat is er veranderd",
+    "Title": "Wat is er nieuw, wat is er gewijzigd",
     "Image": "images/playlists/set-up-Microsoft-365-learning-pathway.png",
     "LevelId": "ab49a955-3814-41fa-aa33-1b2757bc28ea",
     "AudienceId": "9fcd26c3-bcca-4452-a40a-f87e0daed348",
@@ -2945,19 +3076,17 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
-    "Description": "Ontdek wat er nieuw en veranderd is voor de nieuwste update van Microsoft 365-leertrajecten",
+    "Description": "Ontdek wat er nieuw is/wat er is gewijzigd voor de nieuwste update van Microsoft 365 leerpaden",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "ac343dbd-1ffb-4235-a34f-5b71be6dc9ee",
-      "c570011a-3786-49e9-9017-6a0d7744931e",
-      "a5ab9b5c-5f30-486f-8f39-f051bb4afdc2",
       "7d109c19-ffe7-4274-a821-5432add664c5"
     ]
   },
   {
     "Id": "9a105f80-b260-44ad-ba1a-8e2ea9f5bfdc",
-    "Title": "Plan uw leerinhoud",
+    "Title": "Uw leerinhoud plannen",
     "Image": "images/playlists/plan-your-traning-content.png",
     "LevelId": "ab49a955-3814-41fa-aa33-1b2757bc28ea",
     "AudienceId": "9fcd26c3-bcca-4452-a40a-f87e0daed348",
@@ -2965,7 +3094,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
-    "Description": "Bekijk de leertrajecten en de inhoudstypen. Bepaal wat werkt voor uw organisatie.",
+    "Description": "Bekijk Learning Pathways-inhouds- en inhoudstypen. Bepaal wat werkt voor uw organisatie.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2975,7 +3104,7 @@
   },
   {
     "Id": "545e374b-f33e-4d62-8e6f-3ec36b6b28fe",
-    "Title": "Leertrajecten aanpassen",
+    "Title": "Leerpaden aanpassen",
     "Image": "images/playlists/customize-learning-pathways.png",
     "LevelId": "ab49a955-3814-41fa-aa33-1b2757bc28ea",
     "AudienceId": "9fcd26c3-bcca-4452-a40a-f87e0daed348",
@@ -2983,7 +3112,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
-    "Description": "Leer hoe u de leertrajectensite kunt aanpassen, hoe u inhoud kunt verbergen en weergeven en hoe u aangepaste afspeellijsten maakt.",
+    "Description": "Lees hoe u de site Learning pathways kunt aanpassen, hoe u inhoud kunt verbergen en weergeven en hoe u aangepaste afspeellijsten kunt maken.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2999,7 +3128,7 @@
   },
   {
     "Id": "66f9b195-d48e-49e3-bb0e-1848a49b1351",
-    "Title": "Implementatie stimuleren",
+    "Title": "Acceptatie van station",
     "Image": "images/playlists/drive-adoption-of-learning-pathways.png",
     "LevelId": "ab49a955-3814-41fa-aa33-1b2757bc28ea",
     "AudienceId": "9fcd26c3-bcca-4452-a40a-f87e0daed348",
@@ -3007,7 +3136,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
-    "Description": "Ontdek hulpmiddelen en aanbevolen procedures om de ingebruikname van Leertrajecten te stimuleren",
+    "Description": "Informatiebronnen en best practices ontdekken voor het stimuleren van acceptatie van Learning Pathways",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -3016,7 +3145,7 @@
   },
   {
     "Id": "08365272-6868-4482-9384-b720d0121533",
-    "Title": "De effecten meten",
+    "Title": "Impact meten",
     "Image": "images/playlists/measure-your-impact.png",
     "LevelId": "ab49a955-3814-41fa-aa33-1b2757bc28ea",
     "AudienceId": "9fcd26c3-bcca-4452-a40a-f87e0daed348",
@@ -3024,7 +3153,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
-    "Description": "Beheerders kunnen gebruikmaken van SharePoints ingebouwde rapportagemogelijkheden voor sitegebruik om de organisatorische impact van de Microsoft 365-leerpaden te meten.",
+    "Description": "Beheerders moeten gebruikmaken SharePoint de ingebouwde rapportagemogelijkheden voor sitegebruik om de impact van de Microsoft 365 leerpaden te meten.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -3033,7 +3162,7 @@
   },
   {
     "Id": "037adb49-b480-4a70-8389-5caeaec1a640",
-    "Title": "Een kampioenprogramma maken",
+    "Title": "Een Champion-programma maken",
     "Image": "images/playlists/items.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "304b216c-ea4d-436c-83f8-93ba1319943b",
@@ -3041,7 +3170,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9d9a29c7-72fe-475e-9dd1-d999259d02cb",
-    "Description": "Stimuleer implementatie van uw Office 365-services met deze aanbevolen procedures",
+    "Description": "Stimuleer ingebruikname van uw Office 365-services met deze aanbevolen procedures",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [

@@ -41,6 +41,7 @@ export interface ICustomLearningProps {
   teamsEntityId: string;
   cacheController: ICacheController;
   updateCustomSort: (customSortOrder: string[]) => void;
+  getCSSVariablesOnElement: () => any;
 }
 
 export interface ICustomLearningState {
@@ -92,14 +93,14 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
     this.teamsContext = props.teamsEntityId && props.teamsEntityId.length > 0;
     if (this.teamsContext)
       this.teamsContextUrl = `https://teams.microsoft.com/l/entity/141d4ab7-b6ca-4bf4-ac59-25b7bf93642d/${props.teamsEntityId}?context={"subEntityId":`;
-    
+
     if (this.props.modifyUrlOnNavigation) {
       window.addEventListener('popstate', (e) => {
         this.setState(e.state);
       });  
     }
 
-      this.init();
+    this.init();
   }
 
   private findParentCategory(id: string, categories: ICategory[], lastParent: ICategory[]): ICategory[] {
@@ -683,7 +684,9 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (renderPanel) - ${err}`, LogLevel.Error);
     }
+
     let mainElement = <div className={`${styles.customLearning} ${(params.appPartPage) ? styles.appPartPage : ""}`}>{element}</div>;
+
     return mainElement;
   }
 
@@ -711,16 +714,24 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
               onDismiss={() => { this.setState({ renderPanel: false }); }}
               type={PanelType.custom}
               customWidth="100%"
+              styles={{
+                root: this.props.getCSSVariablesOnElement()
+              }}
               headerText={(this.state.detail) ? (this.state.detail as IPlaylist).Title as string : ""}
             >
               {this.renderPanel(true)}
+
+
             </Panel>
           }
           {!this.state.renderPanel &&
             this.renderPanel(false)
           }
+
+
         </>
       );
+
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);
       return null;

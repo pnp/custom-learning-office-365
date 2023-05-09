@@ -34,11 +34,12 @@ declare module 'react' {
 
 export default class AssetView extends React.Component<IAssetViewProps, IAssetViewState> {
   private LOG_SOURCE: string = "AssetView";
+  private HEIGHT_DEFAULT: number = 12000;
   private _IFrame: React.RefObject<HTMLIFrameElement>;
   private _IFrameCont;
 
   private _messageReceived: boolean = false;
-  private _Height: number = 6000;
+  private _Height: number = 12000;
 
   constructor(props) {
     super(props);
@@ -108,7 +109,7 @@ export default class AssetView extends React.Component<IAssetViewProps, IAssetVi
       //Callback function from post message to get iFrame content size.
       if (includes(this.props.assetOrigins, event.origin) && event.data.indexOf("") > -1) {
         this._messageReceived = true;
-        let height = 6000;
+        let height = this.HEIGHT_DEFAULT;
         let messageArray = event.data.split("=");
         if (messageArray.length > 0 && messageArray[0] === "help_getClientHeight" && !isNaN(+messageArray[1]) && +messageArray !== height) {
           height = +messageArray[1];
@@ -172,7 +173,7 @@ export default class AssetView extends React.Component<IAssetViewProps, IAssetVi
             }
           }, 2000);
         } catch (err) {
-          this._Height = 6000;
+          this._Height = this.HEIGHT_DEFAULT;
         }
         this.resizeFrame(this._Height);
       } else {
@@ -182,7 +183,7 @@ export default class AssetView extends React.Component<IAssetViewProps, IAssetVi
           if (this._messageReceived) {
             this._messageReceived = false;
           } else {
-            this.resizeFrame(6000);
+            this.resizeFrame(this.HEIGHT_DEFAULT);
             Logger.write(`Origin ${url.origin} is not responding in a timely manner to "help_getClientHeight" post message. Default iFrame height set. - ${this.LOG_SOURCE} (resizeIFrame)`, LogLevel.Error);
           }
         }, 5000);
