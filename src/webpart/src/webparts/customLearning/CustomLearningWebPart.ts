@@ -54,6 +54,8 @@ export interface ICustomLearningWebPartProps {
   defaultCDN: string;
   customSort: boolean;
   customSortOrder: string[];
+  modifyUrlOnNavigation: boolean;
+  customLearningViewerUrl: string;
 }
 
 import {
@@ -347,8 +349,10 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
           customSortOrder: this.properties.customSortOrder,
           teamsEntityId: this.context.sdks.microsoftTeams?.context?.entityId,
           cacheController: this._cacheController,
+          customLearningViewerUrl: this.properties.customLearningViewerUrl,
+          modifyUrlOnNavigation: this.properties.modifyUrlOnNavigation,
           updateCustomSort: this.updateCustomSort,
-          getCSSVariablesOnElement: this.getCSSVariablesOnElement,
+          getCSSVariablesOnElement: this.getCSSVariablesOnElement
         };
 
         element = React.createElement(React.Suspense, { fallback: shimmer },
@@ -621,6 +625,12 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
                     label: strings.WebpartModeLabel,
                     options: this._ppWebpartMode,
                     selectedKey: this.properties.webpartMode
+                  }),
+                  PropertyPaneToggle('modifyUrlOnNavigation', {
+                    label: strings.ModifyUrlOnNavigation,
+                  }),
+                  PropertyPaneTextField('customLearningViewerUrl', {
+                    label: strings.CustomViewerUrl
                   })
                 ]
               }
