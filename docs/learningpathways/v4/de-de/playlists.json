@@ -1132,6 +1132,28 @@
     ]
   },
   {
+    "Id": "eb082894-4f5d-4260-ad4d-d2ad2b4eeb36",
+    "Title": "Get started with Microsoft Loop",
+    "Image": "images/categories/loop.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "11842e4a-cc70-4367-b0e7-b4c6343adec9",
+    "Description": "Microsoft Loop combines a powerful and flexible canvas with portable components that move freely and stay in sync across applications — enabling teams to think, plan, and create together.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "9f4d8d4f-dfc6-4518-9ef6-069408c21f0c",
+      "ee2a584b-5785-4dd6-8a2d-956131a29c81",
+      "ca5252e7-8201-4490-a6d9-59f20df864c6",
+      "c5f08f54-995e-473e-be6e-7f92555da347",
+      "9b47c279-011d-4042-bd7f-8bbfca0cb136",
+      "645cc20d-5c98-4bdb-b559-380c5a27c5e5"
+    ]
+  },
+  {
     "Id": "261009d0-8b5c-4302-bb0f-c993e1ebb51c",
     "Title": "Microsoft 365 für Unternehmen – Schnellstart",
     "Image": "images/playlists/office_365_quick_start.png",
@@ -2701,7 +2723,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "92083395-06d0-433f-ba0d-77c958d853b7",
-    "Description": "Erfahren Sie, wie Sie Inhalte zu Sway hinzufügen. Importieren Sie Inhalte in Sway, suchen Sie nach Inhalten, fügen Sie Video- und Audiodateien hinzu, betten Sie eine Office-Datei, ein Formular oder andere Inhalte in Sway ein, fügen Sie Fokuspunkte hinzu, kopieren und fügen Sie Karten ein, und verwenden Sie Schnellstarter, um schnell ein Sway zu erstellen.",
+    "Description": "Erfahren Sie, wie Sie inhalte zu Sway hinzufügen. Importieren Sie Inhalte in Sway, suchen Sie nach Inhalten, fügen Sie Video- und Audiodateien hinzu, betten Sie eine Office-Datei, ein Formular oder andere Inhalte in Sway ein, fügen Sie Fokuspunkte hinzu, kopieren und einfügen Sie Karten, und verwenden Sie Schnellstarter, um schnell eine Sway zu erstellen.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2749,7 +2771,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6682f5e0-9f2a-4cd3-9ada-d404b8d34761",
-    "Description": "Microsoft Viva Connections bietet eine personalisierte und umsetzbare Startbasis, mit der Sie tägliche Mitarbeiteraufgaben erledigen, mit Unternehmensneuigkeiten in Verbindung bleiben und auf Ressourcen zugreifen können – alles, ohne Ihren Hub für Teamarbeit verlassen zu müssen.",
+    "Description": "Microsoft Viva Connections bietet eine personalisierte und umsetzbare Basis, mit der Sie tägliche Mitarbeiteraufgaben erledigen, mit Unternehmensnachrichten in Verbindung bleiben und auf Ressourcen zugreifen können, ohne Ihren Hub für Teamarbeit zu verlassen.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -2759,8 +2781,34 @@
     ]
   },
   {
+    "Id": "5633fa3b-20ea-4d0a-ba50-d8db1fa1ee0b",
+    "Title": "Erste Schritte mit Viva Goals",
+    "Image": "images/playlists/vivagoals_getstarted.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "0f76af36-ace7-4e17-9ccf-e82c6d5ff24f",
+    "Description": "Microsoft Viva Goals richtet die strategischen Prioritäten Ihrer Organisation aus und vereint Teams um gemeinsame Missionen und Zwecke. Unter Erste Schritte mit Viva Goals erfahren Sie, wie Sie Ziele, wichtige Ergebnisse und Projekte erstellen. Außerdem erfahren Sie, wie Sie einchecken und Ihren Fortschritt aktualisieren und Ihre Ziele erzielen und reflektieren.",
+    "StatusTagId": "",
+    "StatusNote": "",
+    "Assets": [
+      "bd651be7-472a-4f40-8fdd-6fcead79f3ad",
+      "1b39a4b9-fcf1-4078-9f81-49593e667e9d",
+      "cd7ba092-fecb-484b-bf17-ebc80b3d25bf",
+      "70da5353-257c-41a5-adef-7a62f80acbdc",
+      "43673d1c-0dd7-42ba-97aa-6e712db171d1",
+      "0587147d-84ed-438f-8a24-5c75f539814c",
+      "c0244789-4388-4d2d-9d20-3678900d9b98",
+      "c0d9f91e-22e6-48ea-ba3a-23ebe7f059d8",
+      "365500a4-0599-41cd-bc86-09bef4206284",
+      "d195c526-1b6b-45e1-82fd-8daa21dd84a4"
+    ]
+  },
+  {
     "Id": "4914ee96-5306-44a1-a27e-0aa297b66ff8",
-    "Title": "Starten Sie mit Viva Learning durch",
+    "Title": "Erste Schritte mit Viva Learning",
     "Image": "images/playlists/vivalearning_getstarted.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2768,7 +2816,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "fa2b8bc0-3316-4102-a5a0-d71610d49d2a",
-    "Description": "Viva Learning schafft einen zentralen Knotenpunkt für das Lernen in Teams, wo Menschen Inhaltsbibliotheken im gesamten Unternehmen teilen, empfehlen und daraus lernen können, um Teams und Einzelpersonen zu befähigen, das Lernen zu einem natürlichen Teil ihres Tages zu machen. Dies umfasst den Zugriff auf Inhaltsbibliotheken von LinkedIn Learning, Microsoft Learn, Microsoft 365 Training und Inhaltsanbietern von Drittanbietern und Lernmanagementsystemen sowie Inhalten, die Ihr Unternehmen zu Viva Learning hinzufügt.",
+    "Description": "Viva Learning erstellt einen zentralen Lernhub in Teams, in dem Personen Inhaltsbibliotheken in einer Organisation freigeben, empfehlen und lernen können, damit Teams und Einzelpersonen das Lernen zu einem natürlichen Bestandteil ihres Tages machen können. Dies umfasst den Zugriff auf Inhaltsbibliotheken von LinkedIn Learning, Microsoft Learn, Microsoft 365 Training und Drittanbietern von Inhaltsanbietern und Lernverwaltungssystemen sowie auf Inhalte, die Ihr Unternehmen Viva Learning hinzufügt.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
