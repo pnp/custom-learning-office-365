@@ -1133,7 +1133,7 @@
   },
   {
     "Id": "eb082894-4f5d-4260-ad4d-d2ad2b4eeb36",
-    "Title": "Get started with Microsoft Loop",
+    "Title": "Microsoft Loopの概要",
     "Image": "images/categories/loop.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1141,7 +1141,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "11842e4a-cc70-4367-b0e7-b4c6343adec9",
-    "Description": "Microsoft Loop combines a powerful and flexible canvas with portable components that move freely and stay in sync across applications — enabling teams to think, plan, and create together.",
+    "Description": "Microsoft Loopは、強力で柔軟なキャンバスと、自由に移動し、アプリケーション間で同期を維持するポータブル コンポーネントを組み合わせて、チームが一緒に考え、計画し、作成できるようにします。",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
