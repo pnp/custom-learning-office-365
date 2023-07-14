@@ -33,12 +33,14 @@ if (-not (Get-Module -ListAvailable -Name PnP.PowerShell )) {
     Write-Warning "`nInstall-Module PnP.PowerShell`n"
     Write-Warning "`nInstall-Module SharePointPnPPowerShellOnline`n"
     return
-  } else {
+  }
+  else {
     Import-Module -Name SharePointPnPPowerShellOnline -DisableNameChecking
     $moduleUsed = "SharePointPnPPowerShellOnline"
   }
   
-} else {
+}
+else {
   Import-Module -Name PnP.PowerShell -DisableNameChecking
   $moduleUsed = "PnP.PowerShell"
 }
@@ -70,15 +72,18 @@ try {
   if (-not [string]::IsNullOrWhitespace($Credentials)) {
     if ($moduleUsed -eq "SharePointPnPPowerShellOnline") {
       SharePointPnPPowerShellOnline\Connect-PnPOnline -Url $clSite -Credentials $Credentials -ErrorAction Stop
-    } else {
+    }
+    else {
       PnP.PowerShell\Connect-PnPOnline -Url $clSite -Credentials $Credentials -ErrorAction Stop
     }
     
-  } else {
+  }
+  else {
     # If not, prompt for authentication. This supports MFA
     if ($moduleUsed -eq "SharePointPnPPowerShellOnline") {
       SharePointPnPPowerShellOnline\Connect-PnPOnline -Url $clSite -UseWebLogin -ErrorAction Stop
-    } else {
+    }
+    else {
       PnP.PowerShell\Connect-PnPOnline -Url $clSite -Interactive -ErrorAction Stop
     }
   }
@@ -138,8 +143,8 @@ if ($SiteAdmin) {
     Write-Warning "Could not find `"Microsoft 365 learning pathways`" app. Please install in it your app catalog and run this script again."
     break
   }
-  $sitePagesList = Get-PnPList -Identity "SitePages"
-  if($null -ne $sitePagesList) {    
+  $sitePagesList = Get-PnPList -Identity "Site Pages"
+  if ($null -ne $sitePagesList) {    
     # Delete pages if they exist. Alert user.
     $clv = Get-PnPListItem -List $sitePagesList -Query "<View><Query><Where><Eq><FieldRef Name='FileLeafRef'/><Value Type='Text'>CustomLearningViewer.aspx</Value></Eq></Where></Query></View>"
     if ($null -ne $clv) {
@@ -194,7 +199,8 @@ if ($SiteAdmin) {
       $cla["PageLayoutType"] = "SingleWebPartAppPage"
       $cla.Update()
       Invoke-PnPQuery # Done with the Admin page
-    } else {
+    }
+    else {
       # Now create the page whether it was there before or not
       $clvPage = Add-PnPPage "CustomLearningViewer" # Will fail if user can't write to site collection
       $clvSection = Add-PnPPageSection -Page $clvPage -SectionTemplate OneColumn -Order 1
@@ -204,7 +210,7 @@ if ($SiteAdmin) {
       Write-Host "." -NoNewline
       $WebPartsFound = $false
       while ($stopwatch.elapsed -lt $timeout) {
-        if (Get-PnPPageComponent -page CustomLearningViewer.aspx -ListAvailable | Where-Object {$_.Name -eq "Microsoft 365 learning pathways administration"}) {
+        if (Get-PnPPageComponent -page CustomLearningViewer.aspx -ListAvailable | Where-Object { $_.Name -eq "Microsoft 365 learning pathways administration" }) {
           Write-Host "Microsoft 365 learning pathways web parts found"
           $WebPartsFound = $true
           break
