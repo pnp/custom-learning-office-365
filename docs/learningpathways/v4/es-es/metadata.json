@@ -451,6 +451,15 @@
           "SubCategories": []
         },
         {
+          "Id": "5a46b888-8b65-40aa-8644-c77cd487de13",
+          "Name": "Viva Engage",
+          "Image": "images/categories/Viva_Engage.png",
+          "TechnologyId": "",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
           "Id": "0f76af36-ace7-4e17-9ccf-e82c6d5ff24f",
           "Name": "Viva Goals",
           "Image": "images/categories/vivagoals_learningpathways.png",

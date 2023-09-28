@@ -430,7 +430,8 @@
           "TechnologyId": "",
           "SubjectId": "",
           "Source": "Microsoft",
-          "SubCategories": []
+          "SubCategories": [],
+          "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7"
         },
         {
           "Id": "77a22995-0b6d-488c-9747-dea9a7705711",
@@ -446,6 +447,15 @@
           "Name": "Viva Connections",
           "Image": "images/categories/vivaconnections.png",
           "TechnologyId": "e031aa9d-5421-4ee9-8bc6-1b871bafc7f0",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "5a46b888-8b65-40aa-8644-c77cd487de13",
+          "Name": "Viva Engage",
+          "Image": "images/categories/Viva_Engage.png",
+          "TechnologyId": "",
           "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
