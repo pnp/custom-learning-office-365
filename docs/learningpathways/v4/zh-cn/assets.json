@@ -1,5 +1,16 @@
 [
   {
+    "Id": "0d9f6fd5-6b0c-45a2-a0aa-0576ae1f6895",
+    "Title": "Analytics in Viva Engage",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/0d9f6fd5-6b0c-45a2-a0aa-0576ae1f6895?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "1539f168-f27c-4215-9319-a5fafd76eec6",
     "Title": "在幻灯片中使用更易于访问的颜色和样式",
     "Description": "",
@@ -8,6 +19,50 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "1816888d-a0c9-49a5-9d20-e8e5eb2ca94f",
+    "Title": "View similar or related questions",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/1816888d-a0c9-49a5-9d20-e8e5eb2ca94f?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "18446401-7118-43bb-843a-d6ec7b63d896",
+    "Title": "Answer, upvote, or react to a question",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/18446401-7118-43bb-843a-d6ec7b63d896?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "1be9cf71-af3c-4968-bc83-b3d4ea0fc5d4",
+    "Title": "Add community members with a CSV file",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/1be9cf71-af3c-4968-bc83-b3d4ea0fc5d4?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "1ee29da1-5250-4c1e-b773-e7a78cfaf5d4",
+    "Title": "Join and create a community in Viva Engage",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/1ee29da1-5250-4c1e-b773-e7a78cfaf5d4?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -22,6 +77,94 @@
     "StatusNote": ""
   },
   {
+    "Id": "266f50b0-632f-404f-a18a-f3ef3a3c8db0",
+    "Title": "Discover the features that keep you connected on the Viva Engage mobile app",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/266f50b0-632f-404f-a18a-f3ef3a3c8db0?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "2885e8d8-cb6c-4c11-b9aa-ed24a497b467",
+    "Title": "Leadership corner in Viva Engage",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/2885e8d8-cb6c-4c11-b9aa-ed24a497b467?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "2cacf1e5-d1c1-4570-ad16-9ca088bb3535",
+    "Title": "AMA events in Viva Engage",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/2cacf1e5-d1c1-4570-ad16-9ca088bb3535?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "2f0a64a3-c5c0-45cd-b3f1-e1e06732f89f",
+    "Title": "Delegation in Viva Engage",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/2f0a64a3-c5c0-45cd-b3f1-e1e06732f89f?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "341b706c-3d99-46fc-a1a0-32d17dffbee0",
+    "Title": "Why am I receiving the storyline updates?",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/341b706c-3d99-46fc-a1a0-32d17dffbee0?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "3e75fbe9-1b3e-48b5-8e4b-af2716b7873a",
+    "Title": "Manage community members in Viva Engage",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/3e75fbe9-1b3e-48b5-8e4b-af2716b7873a?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "4da377f1-90f5-46f5-b986-f0bb703efff6",
+    "Title": "Search across all questions and answers",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/4da377f1-90f5-46f5-b986-f0bb703efff6?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "57ab702a-7633-47c3-a827-4f7e86bacbf7",
+    "Title": "Explore and filter questions",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/57ab702a-7633-47c3-a827-4f7e86bacbf7?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "5c882b54-d2b1-4270-b65d-79483a2aa3ca",
     "Title": "创建辅助文件名",
     "Description": "",
@@ -30,6 +173,17 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "645cc20d-5c98-4bdb-b559-380c5a27c5e5",
+    "Title": "在 web Word 中使用循环组件",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/645cc20d-5c98-4bdb-b559-380c5a27c5e5?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -55,6 +209,39 @@
     "StatusNote": ""
   },
   {
+    "Id": "729f9fce-3aa6-4478-888c-a1543918c284",
+    "Title": "Get started with Viva Engage",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/729f9fce-3aa6-4478-888c-a1543918c284?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "763d9317-abfd-4127-bdad-4857e8ff7c1f",
+    "Title": "View personal Answers analytics",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/763d9317-abfd-4127-bdad-4857e8ff7c1f?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "84753c5c-b591-43c8-a9ac-88f4698eaa7d",
+    "Title": "Audience Configuration in Viva Engage",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/84753c5c-b591-43c8-a9ac-88f4698eaa7d?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "8b97437b-107f-43e5-8280-17ac317995fa",
     "Title": "从可访问的模板Excel开始",
     "Description": "",
@@ -63,6 +250,28 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "8c546afb-db48-4105-b0dd-88b339739d94",
+    "Title": "Search for a Viva Engage campaign",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/8c546afb-db48-4105-b0dd-88b339739d94?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "8db19630-ecd0-4d1e-b735-437aea62e248",
+    "Title": "Storyline Announcements in Viva Engage",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/8db19630-ecd0-4d1e-b735-437aea62e248?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -99,6 +308,61 @@
     "StatusNote": ""
   },
   {
+    "Id": "953110a6-e1ed-4677-918f-97b15fc691ee",
+    "Title": "View all campaigns in the discovery hub",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/953110a6-e1ed-4677-918f-97b15fc691ee?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "968d35c0-f60c-4e32-85a2-18aea34774bc",
+    "Title": "Create polls, praise, and questions",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/968d35c0-f60c-4e32-85a2-18aea34774bc?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "99c35fbe-d2f5-40e6-b129-fc5a2871334b",
+    "Title": "Earn and view badges",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/99c35fbe-d2f5-40e6-b129-fc5a2871334b?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "9b47c279-011d-4042-bd7f-8bbfca0cb136",
+    "Title": "在 Outlook 中使用循环组件",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/9b47c279-011d-4042-bd7f-8bbfca0cb136?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "9f4d8d4f-dfc6-4518-9ef6-069408c21f0c",
+    "Title": "Microsoft Loop入门",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/9f4d8d4f-dfc6-4518-9ef6-069408c21f0c?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "9f920424-7de6-4002-b4ed-6503a3cfae2d",
     "Title": "创建辅助表",
     "Description": "",
@@ -121,6 +385,39 @@
     "StatusNote": ""
   },
   {
+    "Id": "a3511146-66c0-4e59-90b7-2a1841c6674b",
+    "Title": "Ask a question",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/a3511146-66c0-4e59-90b7-2a1841c6674b?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "ae0590f3-b222-4469-b033-44d4e2e4f12e",
+    "Title": "Receive notifications",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/ae0590f3-b222-4469-b033-44d4e2e4f12e?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "b2a43cce-0e29-491a-b9f3-29c1096af9b7",
+    "Title": "Add an executive sponsor to your campaign",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/b2a43cce-0e29-491a-b9f3-29c1096af9b7?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "b6826ecd-5865-4db4-a8e7-f5a33d2799b5",
     "Title": "提高电子邮件中的图像可访问性",
     "Description": "",
@@ -132,6 +429,39 @@
     "StatusNote": ""
   },
   {
+    "Id": "c5f08f54-995e-473e-be6e-7f92555da347",
+    "Title": "Whiteboard 中的编辑循环组件",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/c5f08f54-995e-473e-be6e-7f92555da347?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "ca5252e7-8201-4490-a6d9-59f20df864c6",
+    "Title": "如何在 Microsoft Teams 中发送循环组件",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/ca5252e7-8201-4490-a6d9-59f20df864c6?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "cba3c38e-77c6-4ee6-9d5d-6c20522b1fa0",
+    "Title": "Storyline in Viva Engage",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/cba3c38e-77c6-4ee6-9d5d-6c20522b1fa0?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "ce53495d-c30e-442a-b1d2-05593cc814c0",
     "Title": "检查文档辅助功能",
     "Description": "",
@@ -140,6 +470,17 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "d7b05128-f80b-4c16-b561-3ddce518eb14",
+    "Title": "Campaigns in Viva Engage",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/d7b05128-f80b-4c16-b561-3ddce518eb14?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -165,6 +506,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "e6331234-e044-4009-a0c8-7c519a2cf668",
+    "Title": "Answers in Viva: Overview",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/e6331234-e044-4009-a0c8-7c519a2cf668?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "e69562f7-e875-485d-839b-cb66b5d98023",
     "Title": "在图表中创建更易于访问的Excel",
     "Description": "",
@@ -184,6 +536,39 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "ee2a584b-5785-4dd6-8a2d-956131a29c81",
+    "Title": "循环组件简介",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/ee2a584b-5785-4dd6-8a2d-956131a29c81?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "fc2b05a7-bb79-49e0-be9f-9e63c5a35222",
+    "Title": "Set up Viva Engage on your mobile phone",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/fc2b05a7-bb79-49e0-be9f-9e63c5a35222?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "fd3cf456-28e1-4621-b683-b0d21348a935",
+    "Title": "View and follow topics",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/fd3cf456-28e1-4621-b683-b0d21348a935?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -3180,7 +3565,7 @@
   },
   {
     "Id": "01bfed12-c327-41e0-a68f-7fa527dcc98a",
-    "Title": "Viva Learning 概述",
+    "Title": "Viva Learning概述",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/01bfed12-c327-41e0-a68f-7fa527dcc98a?embed=true",
     "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
@@ -3191,7 +3576,7 @@
   },
   {
     "Id": "09a94473-cdd4-463b-9dbe-8e6648eb9bdb",
-    "Title": "发现 Viva Learning 内容",
+    "Title": "发现Viva Learning内容",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/09a94473-cdd4-463b-9dbe-8e6648eb9bdb?embed=true",
     "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
@@ -3202,7 +3587,7 @@
   },
   {
     "Id": "692bfe1a-0e8d-467c-b5a7-4e17c132ae93",
-    "Title": "将自己的内容引入 Viva Learning",
+    "Title": "将自己的内容引入Viva Learning",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/692bfe1a-0e8d-467c-b5a7-4e17c132ae93?embed=true",
     "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
@@ -3213,7 +3598,7 @@
   },
   {
     "Id": "6badc784-0948-4922-94cc-85cd987def0a",
-    "Title": "使用 Viva Learning 进行社交学习",
+    "Title": "使用Viva Learning 进行社交学习",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/6badc784-0948-4922-94cc-85cd987def0a?embed=true",
     "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
@@ -3224,7 +3609,7 @@
   },
   {
     "Id": "77f9dcbf-41a8-4b19-b4d1-b99c406f37b8",
-    "Title": "在 Viva Learning 中推荐和管理内容",
+    "Title": "推荐和管理Viva Learning 中的内容",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/77f9dcbf-41a8-4b19-b4d1-b99c406f37b8?embed=true",
     "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
@@ -3235,7 +3620,7 @@
   },
   {
     "Id": "b1ef9cb6-c2b1-4c64-aaf9-72f598e42688",
-    "Title": "Viva Learning 的学习内容提供程序",
+    "Title": "适用于Viva Learning 的学习内容提供程序",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/b1ef9cb6-c2b1-4c64-aaf9-72f598e42688?embed=true",
     "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
@@ -3246,7 +3631,7 @@
   },
   {
     "Id": "ca774f08-6bed-441b-a74b-3aac15cd9019",
-    "Title": "使用 Viva Learning 个性化学习",
+    "Title": "使用Viva Learning 个性化学习",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/ca774f08-6bed-441b-a74b-3aac15cd9019?embed=true",
     "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
@@ -4918,7 +5303,7 @@
   },
   {
     "Id": "175d913b-386d-4fa7-933b-b9b7ff8f4b4e",
-    "Title": "集成 Yammer",
+    "Title": "Integrate Yammer",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/175d913b-386d-4fa7-933b-b9b7ff8f4b4e?embed=true",
     "TechnologyId": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
@@ -4929,7 +5314,7 @@
   },
   {
     "Id": "1b0f3b3e-89ee-4b66-aac5-30def12f287c",
-    "Title": "什么是 Yammer？",
+    "Title": "What is Yammer?",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/1b0f3b3e-89ee-4b66-aac5-30def12f287c?embed=true",
     "TechnologyId": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
@@ -4984,7 +5369,7 @@
   },
   {
     "Id": "47526868-b136-40cc-a80d-c870eadd9ba5",
-    "Title": "什么是 Yammer？",
+    "Title": "What is Yammer?",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/47526868-b136-40cc-a80d-c870eadd9ba5?embed=true",
     "TechnologyId": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
@@ -5006,7 +5391,7 @@
   },
   {
     "Id": "52db606b-2f29-4a9a-8cbb-b43bf2a27d2e",
-    "Title": "加入社区",
+    "Title": "Join a community",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/52db606b-2f29-4a9a-8cbb-b43bf2a27d2e?embed=true",
     "TechnologyId": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
@@ -5017,7 +5402,7 @@
   },
   {
     "Id": "53e74097-c1fc-4098-a8ad-cf40b8e02e6c",
-    "Title": "通知和公告",
+    "Title": "Notifications and announcements",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/53e74097-c1fc-4098-a8ad-cf40b8e02e6c?embed=true",
     "TechnologyId": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
@@ -5028,7 +5413,7 @@
   },
   {
     "Id": "7f0cf5d8-1f9d-48d2-a83c-d777578fa4a0",
-    "Title": "为用例创建社区",
+    "Title": "Create a community for a use case",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/7f0cf5d8-1f9d-48d2-a83c-d777578fa4a0?embed=true",
     "TechnologyId": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
@@ -5039,7 +5424,7 @@
   },
   {
     "Id": "83237bfc-517a-492c-8fff-ae369a1f6fc8",
-    "Title": "培训用户",
+    "Title": "Educate users",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/83237bfc-517a-492c-8fff-ae369a1f6fc8?embed=true",
     "TechnologyId": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
@@ -5061,7 +5446,7 @@
   },
   {
     "Id": "a19aedab-6dc8-44b1-a8c3-72c38abf18b4",
-    "Title": "规划策略",
+    "Title": "Plan your strategy",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/a19aedab-6dc8-44b1-a8c3-72c38abf18b4?embed=true",
     "TechnologyId": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
@@ -5072,7 +5457,7 @@
   },
   {
     "Id": "af6075de-475a-4e8e-9d04-0da4b6014814",
-    "Title": "确定恰当的用例",
+    "Title": "Identify the right use cases",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/af6075de-475a-4e8e-9d04-0da4b6014814?embed=true",
     "TechnologyId": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
@@ -5094,7 +5479,7 @@
   },
   {
     "Id": "b8e6c9cd-bbca-49b6-bb28-7ed313d52fb0",
-    "Title": "保持操作",
+    "Title": "Keep it going",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/b8e6c9cd-bbca-49b6-bb28-7ed313d52fb0?embed=true",
     "TechnologyId": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
@@ -5105,7 +5490,7 @@
   },
   {
     "Id": "ba276bcc-dfd8-48e9-970d-6c854b501da2",
-    "Title": "推动持续参与",
+    "Title": "Drive ongoing engagement",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/ba276bcc-dfd8-48e9-970d-6c854b501da2?embed=true",
     "TechnologyId": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
@@ -5127,7 +5512,7 @@
   },
   {
     "Id": "bea38233-f248-4665-903f-558f731ea54c",
-    "Title": "对 Yammer 网络进行个性化设置",
+    "Title": "Personalize a Yammer Network",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/bea38233-f248-4665-903f-558f731ea54c?embed=true",
     "TechnologyId": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
@@ -5149,7 +5534,7 @@
   },
   {
     "Id": "da65b1c3-6651-4141-8dbd-d50d61b98a6e",
-    "Title": "开始对话",
+    "Title": "Start a conversation",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/da65b1c3-6651-4141-8dbd-d50d61b98a6e?embed=true",
     "TechnologyId": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
@@ -5160,7 +5545,7 @@
   },
   {
     "Id": "dc06d227-c4c9-4fdb-9bfe-9f6a6b1caa83",
-    "Title": "更改配置文件和设置",
+    "Title": "Change profile and settings",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/ab813bce-5312-4688-94ee-70018545cd3c?embed=true",
     "TechnologyId": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
@@ -5171,7 +5556,7 @@
   },
   {
     "Id": "ef2ff162-bc37-4aaf-a1e6-703d2745c99c",
-    "Title": "准备启动",
+    "Title": "Prepare for launch",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/ef2ff162-bc37-4aaf-a1e6-703d2745c99c?embed=true",
     "TechnologyId": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
@@ -5182,7 +5567,7 @@
   },
   {
     "Id": "f6047dff-8dc3-4d1e-a939-617e02211f3e",
-    "Title": "衡量成功程度",
+    "Title": "Measure success",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/f6047dff-8dc3-4d1e-a939-617e02211f3e?embed=true",
     "TechnologyId": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
@@ -6886,6 +7271,116 @@
     "StatusNote": ""
   },
   {
+    "Id": "0587147d-84ed-438f-8a24-5c75f539814c",
+    "Title": "使用 Viva Goals 创建 OKR",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/0587147d-84ed-438f-8a24-5c75f539814c?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "1b39a4b9-fcf1-4078-9f81-49593e667e9d",
+    "Title": "Viva Goals快速入门",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/1b39a4b9-fcf1-4078-9f81-49593e667e9d?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "365500a4-0599-41cd-bc86-09bef4206284",
+    "Title": "与Viva Goals互动",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/365500a4-0599-41cd-bc86-09bef4206284?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "43673d1c-0dd7-42ba-97aa-6e712db171d1",
+    "Title": "使用Viva Goals进行协作",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/43673d1c-0dd7-42ba-97aa-6e712db171d1?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "70da5353-257c-41a5-adef-7a62f80acbdc",
+    "Title": "面向高管的快速入门",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/70da5353-257c-41a5-adef-7a62f80acbdc?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "bd651be7-472a-4f40-8fdd-6fcead79f3ad",
+    "Title": "Microsoft Viva Goals简介",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/bd651be7-472a-4f40-8fdd-6fcead79f3ad?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "c0244789-4388-4d2d-9d20-3678900d9b98",
+    "Title": "使用Viva Goals办理登机手续",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/c0244789-4388-4d2d-9d20-3678900d9b98?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "c0d9f91e-22e6-48ea-ba3a-23ebe7f059d8",
+    "Title": "使用Viva Goals关闭",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/c0d9f91e-22e6-48ea-ba3a-23ebe7f059d8?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "cd7ba092-fecb-484b-bf17-ebc80b3d25bf",
+    "Title": "Teams 中的快速入门",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/cd7ba092-fecb-484b-bf17-ebc80b3d25bf?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "d195c526-1b6b-45e1-82fd-8daa21dd84a4",
+    "Title": "使用Viva Goals查看仪表板",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/d195c526-1b6b-45e1-82fd-8daa21dd84a4?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
     "Id": "00cf7943-a9e1-975a-a33d-ac10ce454ca4",
     "Title": "在 Microsoft Edge 中查看和删除浏览器历史记录",
     "Description": "",
@@ -8152,7 +8647,7 @@
   },
   {
     "Id": "3da30f39-684a-4bde-bb81-2e1407d59b52",
-    "Title": "桌面上的 Viva Connections",
+    "Title": "桌面上的Viva Connections",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/3da30f39-684a-4bde-bb81-2e1407d59b52?embed=true",
     "TechnologyId": "e031aa9d-5421-4ee9-8bc6-1b871bafc7f0",
@@ -8163,7 +8658,7 @@
   },
   {
     "Id": "753e0607-0bfd-4712-ad7e-18490dd565a2",
-    "Title": "移动设备上的 Viva Connections",
+    "Title": "Viva Connections",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/753e0607-0bfd-4712-ad7e-18490dd565a2?embed=true",
     "TechnologyId": "e031aa9d-5421-4ee9-8bc6-1b871bafc7f0",
@@ -8178,6 +8673,17 @@
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/8b4e7f76-f305-49a9-b6d2-09378476f95b?embed=true",
     "TechnologyId": "e031aa9d-5421-4ee9-8bc6-1b871bafc7f0",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "064a323e-6dc7-40e9-ab1b-199de8d39db5",
+    "Title": "Inline suggestions",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/064a323e-6dc7-40e9-ab1b-199de8d39db5?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
@@ -8217,6 +8723,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "0b0c0c20-8fa1-44b9-b5bc-57f160046639",
+    "Title": "Schedule send suggestions",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/0b0c0c20-8fa1-44b9-b5bc-57f160046639?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "0ba87823-c503-430a-aa2d-2bbcaf228b16",
     "Title": "PowerPoint设计器",
     "Description": "",
@@ -8232,6 +8749,17 @@
     "Title": "使用实时事件来接触大量受众",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/08d4d9df-d1a7-4968-b844-51c9d4aae3c2?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "0e8b9a77-d1ce-4139-82bc-e91a3cb909c3",
+    "Title": "Digest email",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/0e8b9a77-d1ce-4139-82bc-e91a3cb909c3?embed=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -8283,6 +8811,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "17962415-0c3a-4931-9aa8-3191a7b6337a",
+    "Title": "Meeting category insights",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/17962415-0c3a-4931-9aa8-3191a7b6337a?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "1a583551-1f93-4d71-bac1-5881d5f8b1e7",
     "Title": "创建包容性会议环境",
     "Description": "",
@@ -8331,6 +8870,17 @@
     "Title": "管理 Teams 中的通知",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/1cc31834-5fe5-412b-8edb-43fecc78413d?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "1d501790-479b-44f4-9876-97538869fc73",
+    "Title": "Viva Insights overview",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/1d501790-479b-44f4-9876-97538869fc73?embed=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -8415,6 +8965,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "2eb63cc8-a6a1-4ab8-b643-80da6562aa22",
+    "Title": "Meeting effectiveness surveys",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/2eb63cc8-a6a1-4ab8-b643-80da6562aa22?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "2f1621f6-aace-403f-8394-8d2f0183b96c",
     "Title": "减轻会议疲劳",
     "Description": "",
@@ -8423,6 +8984,28 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "30c3d08b-5761-4ff7-ba7d-32d9f00759a4",
+    "Title": "Shared meeting plan",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/30c3d08b-5761-4ff7-ba7d-32d9f00759a4?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "32d22a61-280f-487d-b352-47effe338fbb",
+    "Title": "Shared no-meeting day plan",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/32d22a61-280f-487d-b352-47effe338fbb?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -8503,6 +9086,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "3b8db3ff-17b7-4d41-b2eb-f593530abfc7",
+    "Title": "Discover the Viva Insights app",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/3b8db3ff-17b7-4d41-b2eb-f593530abfc7?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "3c624ce0-20a6-4f5d-953e-2176412bad6a",
     "Title": "确保工作中的计算机安全无虞",
     "Description": "",
@@ -8533,6 +9127,28 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "41e6274d-a1ac-42a5-8e9e-ac432e0447c9",
+    "Title": "Focus with Viva Insights",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/41e6274d-a1ac-42a5-8e9e-ac432e0447c9?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "45b4f206-b1da-4082-bf5e-5a35232b70b8",
+    "Title": "Inspiration library",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/45b4f206-b1da-4082-bf5e-5a35232b70b8?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -8569,6 +9185,28 @@
     "StatusNote": ""
   },
   {
+    "Id": "48b73ccf-4086-4f13-9f62-dcee91a9df6d",
+    "Title": "Outlook add-in",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/48b73ccf-4086-4f13-9f62-dcee91a9df6d?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "4977c923-f3d1-4134-9d1c-ee29dc01ae27",
+    "Title": "Praise",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/4977c923-f3d1-4134-9d1c-ee29dc01ae27?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "4a5a9fae-5803-4ce2-9f54-77535f6a6618",
     "Title": "跨时区构建灵活性",
     "Description": "",
@@ -8577,6 +9215,17 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "4c6881d6-e73f-408d-91df-a3e2b93272f3",
+    "Title": "How to find Viva Topics",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/4c6881d6-e73f-408d-91df-a3e2b93272f3?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -8690,6 +9339,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "55379cb7-cf2a-408d-b740-2b2082eb3743",
+    "Title": "Reflect",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/55379cb7-cf2a-408d-b740-2b2082eb3743?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "59fce479-241d-45f2-a79c-e7485fd02066",
     "Title": "在上下班期间",
     "Description": "",
@@ -8716,6 +9376,17 @@
     "Title": "评论",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/5bec897f-4e36-43f8-9d9d-c41cb4917d9c?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "5bef3020-2679-4045-81cb-bcbc37218332",
+    "Title": "Understanding Viva Topics",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/5bef3020-2679-4045-81cb-bcbc37218332?embed=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -8789,6 +9460,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "6847226d-e5b1-498a-a7a5-e77d4405bb97",
+    "Title": "Shared focus plan",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/6847226d-e5b1-498a-a7a5-e77d4405bb97?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "699cf41d-7bb1-497e-82c8-067650637d2e",
     "Title": "休息和安排个人时间",
     "Description": "",
@@ -8822,6 +9504,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "6e7d28b2-6b0e-4367-9b52-1999a86eb391",
+    "Title": "Viva Insights Home tab",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/6e7d28b2-6b0e-4367-9b52-1999a86eb391?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "6f739c5e-bb13-4ce9-9301-abf4a9cac9e2",
     "Title": "在办公室开会",
     "Description": "",
@@ -8830,6 +9523,28 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "6f9a22b6-b269-4264-93f2-55b5254d3c62",
+    "Title": "Schedule send",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/6f9a22b6-b269-4264-93f2-55b5254d3c62?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "72458b43-11a3-40b8-8b6f-14f6a0977e4b",
+    "Title": "Wellbeing tab in Viva Insights",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/72458b43-11a3-40b8-8b6f-14f6a0977e4b?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -8921,10 +9636,32 @@
     "StatusNote": ""
   },
   {
+    "Id": "83d09caa-bfe8-4cb9-8f64-30afd79cc75d",
+    "Title": "Use Insights in Outlook",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/83d09caa-bfe8-4cb9-8f64-30afd79cc75d?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "8b6e7a53-d2a9-49bc-98a8-74b82c95dd07",
     "Title": "在混合工作场所保持联系",
     "Description": "",
     "Url": "https://support.office.com/zh-cn/client/8b6e7a53-d2a9-49bc-98a8-74b82c95dd07?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "8be83785-f5ec-4e84-8cff-f0abb117f876",
+    "Title": "Virtual commute",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/8be83785-f5ec-4e84-8cff-f0abb117f876?embed=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -8940,6 +9677,17 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "8f2c038c-f80c-4512-bf4c-90a0423377f2",
+    "Title": "Personal Insights privacy",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/8f2c038c-f80c-4512-bf4c-90a0423377f2?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -9061,6 +9809,28 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusNote": ""
+  },
+  {
+    "Id": "9e45de86-690c-493b-a4f0-1b53c42d3fcf",
+    "Title": "Verified topics",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/9e45de86-690c-493b-a4f0-1b53c42d3fcf?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "a079a744-010e-4fee-8552-a2799d0c62ea",
+    "Title": "Create a focus plan",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/a079a744-010e-4fee-8552-a2799d0c62ea?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -9229,6 +9999,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "b326af14-e527-43c2-a4d8-92f6700ce18f",
+    "Title": "Suggested tasks",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/b326af14-e527-43c2-a4d8-92f6700ce18f?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "b670f6e8-182f-4493-bf46-075d81e61728",
     "Title": "在需要作业",
     "Description": "",
@@ -9295,6 +10076,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "bb64b2f9-78bb-464c-bdfe-16f4b4ac0805",
+    "Title": "Create and edit Viva Topics",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/bb64b2f9-78bb-464c-bdfe-16f4b4ac0805?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "bc657c29-77c5-4184-bfdd-2af55cd7b671",
     "Title": "使用 Windows 安全中心在网络上保护你的家庭",
     "Description": "",
@@ -9350,6 +10142,28 @@
     "StatusNote": ""
   },
   {
+    "Id": "c5c807e1-b10c-4d41-9120-b2ac914dcc72",
+    "Title": "Mindfulness content",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/c5c807e1-b10c-4d41-9120-b2ac914dcc72?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "c5ed2ff1-f4f3-4d4b-a9af-dbbe8aad1229",
+    "Title": "How to use Viva Topics",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/c5ed2ff1-f4f3-4d4b-a9af-dbbe8aad1229?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "c6385f9c-cf80-4eba-84da-645994e56ebb",
     "Title": "在 Microsoft Teams 中协同工作",
     "Description": "",
@@ -9394,6 +10208,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "c8df3951-ade3-4eb2-8339-a8ce5d04c550",
+    "Title": "Network",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/c8df3951-ade3-4eb2-8339-a8ce5d04c550?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "c9bd21e2-4cef-4473-b1f0-147e8f144af0",
     "Title": "开始使用 Microsoft Teams 实时事件",
     "Description": "",
@@ -9435,6 +10260,17 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "cca98877-be3a-47f3-ad4a-acc88111f0cb",
+    "Title": "Teamwork tab",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/cca98877-be3a-47f3-ad4a-acc88111f0cb?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -9504,6 +10340,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "d4c26f87-1f5b-4f90-895d-8b702e84a7b4",
+    "Title": "Discover Viva Topics",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/d4c26f87-1f5b-4f90-895d-8b702e84a7b4?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "d5e2099d-6696-474b-b358-bd5ccb5e0657",
     "Title": "规划和遵守界限",
     "Description": "",
@@ -9537,6 +10384,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "da568337-8568-47cd-9f47-213537873571",
+    "Title": "Time management features",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/da568337-8568-47cd-9f47-213537873571?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "e67f90ca-657b-4fc7-8382-6bb6e87f3b4b",
     "Title": "混合会议",
     "Description": "",
@@ -9545,6 +10403,17 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "e7d25f88-d102-4740-a7d0-af8610b457c5",
+    "Title": "Set up the app",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/e7d25f88-d102-4740-a7d0-af8610b457c5?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -9570,6 +10439,28 @@
     "StatusNote": ""
   },
   {
+    "Id": "ec70888d-8840-4f20-9819-af6bfc17e143",
+    "Title": "Quiet time",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/ec70888d-8840-4f20-9819-af6bfc17e143?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "ecfd76f9-52ef-4882-9235-be1f59c25967",
+    "Title": "Opt out of Viva Insights",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/ecfd76f9-52ef-4882-9235-be1f59c25967?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "ed846cbd-a58b-4d4d-94b5-c813216b569f",
     "Title": "共同创作Microsoft 365文件",
     "Description": "",
@@ -9578,6 +10469,17 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "f07f80a1-177d-4541-9185-31493b74fc0f",
+    "Title": "Introduction",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/f07f80a1-177d-4541-9185-31493b74fc0f?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -9600,6 +10502,17 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "f41f7aa9-6d4a-40bb-b00a-36170f9dbbba",
+    "Title": "Meeting habits",
+    "Description": "",
+    "Url": "https://support.office.com/zh-cn/client/f41f7aa9-6d4a-40bb-b00a-36170f9dbbba?embed=true",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {

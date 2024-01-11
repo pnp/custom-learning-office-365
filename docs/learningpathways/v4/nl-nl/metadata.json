@@ -76,6 +76,11 @@
       "Subjects": []
     },
     {
+      "Id": "9ca56ec3-333e-47cf-8f51-8262cd83557a",
+      "Name": "Lus",
+      "Subjects": []
+    },
+    {
       "Id": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
       "Name": "Yammer",
       "Subjects": []
@@ -127,6 +132,11 @@
     {
       "Id": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
       "Name": "Outlook",
+      "Subjects": []
+    },
+    {
+      "Id": "c9886f47-0928-4408-a2f7-c0328bca7122",
+      "Name": "Viva Goals",
       "Subjects": []
     },
     {
@@ -357,7 +367,7 @@
         },
         {
           "Id": "beab7761-afae-4987-b8c2-57194fa945b6",
-          "Name": "Microsoft 365 Basisbeginselen",
+          "Name": "Basisbeginselen van Microsoft 365",
           "Image": "images/categories/office_basics.png",
           "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
           "SubjectId": "",
@@ -419,6 +429,15 @@
           "SubCategories": []
         },
         {
+          "Id": "11842e4a-cc70-4367-b0e7-b4c6343adec9",
+          "Name": "Lus",
+          "Image": "images/categories/loop.png",
+          "TechnologyId": "",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
           "Id": "77a22995-0b6d-488c-9747-dea9a7705711",
           "Name": "Microsoft Edge",
           "Image": "images/categories/Edge.png",
@@ -437,10 +456,46 @@
           "SubCategories": []
         },
         {
+          "Id": "5a46b888-8b65-40aa-8644-c77cd487de13",
+          "Name": "Viva Engage",
+          "Image": "images/categories/Viva_Engage.png",
+          "TechnologyId": "",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "0f76af36-ace7-4e17-9ccf-e82c6d5ff24f",
+          "Name": "Viva Goals",
+          "Image": "images/categories/vivagoals_learningpathways.png",
+          "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "a5ff73a8-2910-4126-a49a-76396b5f2edb",
+          "Name": "Viva Insights",
+          "Image": "images/categories/Viva_Insights.png",
+          "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
           "Id": "fa2b8bc0-3316-4102-a5a0-d71610d49d2a",
           "Name": "Viva Learning",
           "Image": "images/categories/vivalearning_learningpathways.png",
           "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "b9000a99-95b3-40cd-872f-26366a07fbdf",
+          "Name": "Viva Topics",
+          "Image": "images/categories/Viva_Topics.png",
+          "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
           "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
