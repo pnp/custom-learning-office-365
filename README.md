@@ -1,3 +1,7 @@
+# Outage Notice Janaury 23, 2024
+
+It has been brought to our attention that there is an issue with the video provider for the video assets that are being surfaced inside Learning Pathways. While this isn't an issue with Learning Pathways we undertsand it affects our users. The appropraite content owners have been identified and we are working to fix the problem. Please keep an eye on [Issue 767](https://github.com/pnp/custom-learning-office-365/issues/767) for the resoution to this item.  
+
 # Microsoft 365 learning pathways
 
 Train employees with Microsoft 365 learning pathways, a digital, customizable learning solution that helps customers transform their organization. Microsoft 365 learning pathways provides:
