@@ -1,4 +1,4 @@
-# Outage Notice Janaury 23, 2024 - Updated January 31,2024
+# Outage Notice Updated January 31,2024
 
 ## The issue has been resolved as of January 31, 2024
 
