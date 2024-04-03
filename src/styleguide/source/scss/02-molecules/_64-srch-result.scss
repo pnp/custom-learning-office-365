@@ -1,0 +1,60 @@
+.srchr-add-btn {
+  margin: 10px 0;
+}
+
+.srchr-item {
+  display: flex;
+
+  margin-bottom: .5em;
+}
+
+.srchr-cb {
+  display: flex;
+
+  padding-right: .25em;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.srchr-img {
+  width: 15%;
+
+  img {
+    width: 100%;
+  }
+}
+
+.srchr-desc {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  min-height: 100%;
+  padding: 0 1em;
+
+  justify-content: space-between;
+}
+
+.srchr-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.srchr-category {
+  @include fs-m;
+}
+
+.srchr-meta {
+  @include fs-m;
+
+  width: 100%;
+  margin-bottom: .5em;
+
+  align-self: flex-end;
+}
+
+.srchr-metalabel {
+  font-weight: bold;
+}

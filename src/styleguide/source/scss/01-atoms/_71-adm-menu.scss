@@ -1,0 +1,49 @@
+.adm-cattype {
+	@include fs-xl;
+
+	display: inline-block;
+
+	height: 1em+.5em;
+	margin: 0;
+	margin-left: .5em;
+	padding: 0;
+
+	list-style-type: none;
+}
+
+.adm-cattype-item {
+	position: relative;
+
+	display: inline-block;
+
+	cursor: pointer;
+
+	&+& {
+		margin-left: .5em;
+	}
+
+	&:before {
+		position: absolute;
+		bottom: -.25em;
+		left: 0;
+
+		display: block;
+
+		width: 0;
+
+		content: " ";
+		transition: all .125s ease-in-out;
+
+		opacity: 0;
+		border-bottom: 1px $c-gray solid;
+	}
+
+	.selected,
+	&:hover {
+		&:before {
+			width: 100%;
+
+			opacity: 1;
+		}
+	}
+}

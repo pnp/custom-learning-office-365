@@ -1,0 +1,212 @@
+.adm-content {
+  display: flex;
+  padding-top: 80px;
+
+  @media screen and (max-width: 1268px) {
+    padding-top: 100px;
+  }
+
+  &.nomsg {
+    padding-top: 50px;
+  }
+
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+  }
+}
+
+.adm-content-main {
+  width: span(9 wide of 12);
+  margin-top: .5em;
+  margin-left: gutter();
+
+  h2 {
+    margin-top: 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    width: span(8 narrow of 12);
+  }
+
+  @media screen and (max-width: 480px) {
+    width: span(12 narrow of 12);
+    margin-left: 0;
+  }
+}
+
+.adm-content-section {
+  h3 {
+    font-weight: 400;
+  }
+
+  .learningwrapper {}
+}
+
+.adm-content-section+.adm-content-section {
+  margin-top: 1em;
+}
+
+.adm-content-playlist {
+  margin: 0;
+  margin-bottom: 2em;
+  padding: 0;
+  padding-top: .5em;
+
+  list-style-type: none;
+
+  column-count: 2;
+  column-gap: 8.3%;
+
+  li {
+    break-inside: avoid-column;
+  }
+
+  @media screen and (max-width: 1280px) {
+    column-count: 1;
+  }
+}
+
+.adm-itemedit {
+  display: flex;
+  flex-direction: row;
+
+  margin: 1em 0 1em;
+  padding-top: 1em;
+
+  .ms-Dropdown-container {
+    width: calc(100% - 48px);
+  }
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.adm-header-message {
+  position: fixed;
+  max-width: calc(1268px - 2em);
+  width: 100%;
+  background-color: #fff;
+  z-index: 100;
+  margin: 45px auto 0 auto;
+  // box-shadow: 0 6px 4px 2px rgba(255, 255, 255, .5);
+}
+
+.adm-header-nav-cont {
+  display: flex;
+  flex-direction: row;
+  height: 45px;
+  position: fixed;
+  max-width: calc(1268px - 2em);
+  width: 100%;
+  z-index: 100;
+  margin: 0 auto;
+  background-color: "[theme:bodyBackground]";
+
+  &.nomsg {
+    // box-shadow: 0 6px 4px 2px rgba(255, 255, 255, .5);
+  }
+
+  .adm-header-nav {
+    flex-basis: 100%;
+
+    @media screen and (max-width: 1268px) {
+      flex-basis: calc(100% - 520px);
+    }
+
+  }
+
+  .adm-header-button {
+    width: 30px;
+    font-size: 1em;
+    cursor: pointer;
+
+    >div {
+      align-content: center;
+      margin: 13px 0;
+      height: 17px;
+      font-weight: 400;
+    }
+  }
+
+  .adm-header-spin {
+    display: inherit;
+    width: 80px;
+  }
+
+  .adm-header-cat {
+    width: 200px;
+    margin-top: 6px;
+    margin-left: 20px;
+  }
+
+}
+
+.adm-header-nav-subcont {
+  @extend .adm-header-nav-cont;
+  position: relative;
+}
+
+.adm-header-edit {
+  padding: 60px 2em 1.5em;
+  background-color: #eaeaea;
+}
+
+.adm-itemleft {
+  width: span(4 narrow of 9);
+
+  text-align: left;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+.adm-itemright {
+  width: span(5 narrow last of 9);
+  margin-left: gutter();
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.adm-itemaction {
+  margin-top: 1em;
+
+  text-align: right;
+
+  border: 1px $c-light-gray solid;
+  border-right: none;
+  border-left: none;
+  padding: 0.4em 0 0.5em;
+
+  button+button {
+    margin-left: 1em;
+  }
+
+  &.hidden {
+    visibility: hidden;
+  }
+}
+
+.adm-assetSearch {
+  &:nth-child(2) {
+    width: 100%;
+  }
+}
+
+.adm-fieldvalue {
+  margin-top: 0;
+}
+
+.adm-itemimage {
+  position: static;
+
+  width: 100%;
+  max-width: 840px;
+  height: auto;
+  max-height: 200px;
+  max-height: 1200px;
+}

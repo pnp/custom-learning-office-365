@@ -1,0 +1,20 @@
+.learningheader {
+	.headerpanel {
+		display: none;
+
+		margin-bottom: 2em;
+
+		&.show {
+			display: flex;
+		}
+	}
+}
+.learningwrapper{
+	padding: 0 0px;
+}
+.ms-CommandBarItem-text{
+	cursor: pointer;
+}
+.ms-SearchBox{
+	background-color: white;
+}
