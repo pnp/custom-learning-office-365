@@ -1,3 +1,5 @@
+@use '../00-base/colors' as colors;
+
 .srch-result {
     padding: 0.5em;
 
@@ -6,7 +8,7 @@
     }
 
     .plov-item{
-        border-bottom: 1px $c-light-gray-darken solid;
+        border-bottom: 1px colors.$c-light-gray-darken solid;
     }
 
     .plov-desc {

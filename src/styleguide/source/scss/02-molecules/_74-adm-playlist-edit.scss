@@ -1,3 +1,5 @@
+@use '../00-base/colors' as colors;
+
 .pl-edit-item {
   display: flex;
 
@@ -13,19 +15,19 @@
 
 
   &:hover {
-    color: $c-blue;
-    background-color: $c-light-gray;
+    color: colors.$c-blue;
+    background-color: colors.$c-light-gray;
 
     .pl-edit-actions {
 
       .iconbutton {
-        background-color: $c-light-gray;
+        background-color: colors.$c-light-gray;
       }
 
       &:hover {
 
         .iconbutton {
-          background-color: $c-light-gray-darken;
+          background-color: colors.$c-light-gray-darken;
         }
       }
     }

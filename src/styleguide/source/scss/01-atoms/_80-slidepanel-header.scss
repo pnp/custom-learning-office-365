@@ -1,3 +1,6 @@
+@use '../00-base/base.settings' as base;
+@use '../00-base/colors' as colors;
+
 .sldpnl {
   width: span(6 narrow of 12);
   padding: 2em 0;
@@ -7,7 +10,7 @@
   }
 
   &-header {
-    border: 1px $c-gray solid;
+    border: 1px colors.$c-gray solid;
     border-left: none;
     border-right: none;
     display: flex;
@@ -17,7 +20,7 @@
   }
 
   &-title {
-    @include fs-xl;
+    @include base.fs-xl;
     line-height: 175%;
     margin: 0.25em 0;
   }

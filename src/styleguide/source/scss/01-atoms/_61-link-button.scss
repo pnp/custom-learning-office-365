@@ -1,5 +1,8 @@
+@use '../00-base/colors' as colors;
+@use '../00-base/base.settings' as base;
+
 .link-btn {
-	@include fs-m-plus;
+	@include base.fs-m-plus;
 
 	display: flex;
 
@@ -35,12 +38,12 @@
 	}
 
 	&:hover {
-		color: $c-blue;
+		color: colors.$c-blue;
 
 		.link-btn-icon {
 			svg {
 				path {
-					fill: $c-blue;
+					fill: colors.$c-blue;
 				}
 			}
 		}

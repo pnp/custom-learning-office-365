@@ -1,3 +1,5 @@
+@use '../00-base/colors' as colors;
+
 .header-toolbar {
 	position: relative;
 
@@ -36,5 +38,5 @@
 	width: calc(100% - 3*41px);
 	padding: .35em .5em .5em;
 
-	background-color: $c-light-gray;
+	background-color: colors.$c-light-gray;
 }

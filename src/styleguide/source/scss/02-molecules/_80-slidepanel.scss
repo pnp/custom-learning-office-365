@@ -1,7 +1,9 @@
+@use '../00-base/colors' as colors;
+
 .sldpnl-content {
     padding: 1em 0;
 
-    border-bottom: 1px $c-gray solid;
+    border-bottom: 1px colors.$c-gray solid;
 }
 
 .selector-row {}

@@ -1,3 +1,5 @@
+@use '../00-base/base.settings' as base;
+
 .srchr-add-btn {
   margin: 10px 0;
 }
@@ -43,11 +45,11 @@
 }
 
 .srchr-category {
-  @include fs-m;
+  @include base.fs-m;
 }
 
 .srchr-meta {
-  @include fs-m;
+  @include base.fs-m;
 
   width: 100%;
   margin-bottom: .5em;

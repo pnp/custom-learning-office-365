@@ -1,5 +1,8 @@
+@use '../00-base/base.settings' as base;
+@use '../00-base/colors' as colors;
+
 .btn-small {
-    @include fs-m-plus;
+    @include base.fs-m-plus;
 
     padding: .25em .75em .36em;
 
@@ -11,6 +14,6 @@
 
     &:hover,
     &.selected {
-        background-color: $c-light-gray;
+        background-color: colors.$c-light-gray;
     }
 }

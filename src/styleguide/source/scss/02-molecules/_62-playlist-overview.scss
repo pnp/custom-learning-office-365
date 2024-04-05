@@ -1,3 +1,6 @@
+@use '../00-base/colors' as colors;
+@use '../00-base/base.settings' as base;
+@use '../00-base/mixin' as mixin;
 // plov = Play List Overview
 .plov {
   column-count: 2;
@@ -14,7 +17,7 @@
   }
 
   &-title {
-    @include fs-l;
+    @include base.fs-l;
 
     margin-top: 0;
     margin-bottom: 0;
@@ -26,7 +29,7 @@
   }
 
   &-audience {
-    @include fs-m;
+    @include base.fs-m;
 
     font-weight: 600;
 
@@ -63,7 +66,7 @@
 }
 
 .plov-short {
-  @include multiLineEllipsis(1.5em, 4);
+  @include mixin.multiLineEllipsis(1.5em, 4);
 
   margin-top: .25em;
   margin-bottom: .25em;
@@ -73,15 +76,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    @include multiLineEllipsis(1.5em, 2);
+    @include mixin.multiLineEllipsis(1.5em, 2);
   }
 
   @media screen and (max-width: 768px) {
-    @include multiLineEllipsis(1.5em, 5);
+    @include mixin.multiLineEllipsis(1.5em, 5);
   }
 
   @media screen and (max-width: 480px) {
-    @include multiLineEllipsis(1.5em, 4);
+    @include mixin.multiLineEllipsis(1.5em, 4);
   }
 }
 
@@ -139,7 +142,7 @@
   padding-top: 1em;
   padding-bottom: 1em;
 
-  border-bottom: 1px $c-light-gray solid;
+  border-bottom: 1px colors.$c-light-gray solid;
 
   break-inside: avoid-column;
 
@@ -166,7 +169,7 @@
     &:hover {
       text-decoration: none;
 
-      background-color: $c-light-gray;
+      background-color: colors.$c-light-gray;
     }
 
     //background: pink;

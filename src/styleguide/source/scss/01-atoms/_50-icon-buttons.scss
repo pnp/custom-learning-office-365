@@ -1,3 +1,5 @@
+@use '../00-base/mixin' as mixin;
+
 .iconbutton{
 	position: relative;
 
@@ -49,6 +51,6 @@
 
 button.iconbutton{
 	svg{
-		@include themeSlot(bodyText, fill);
+		@include mixin.themeSlot(bodyText, fill);
 	}
 }

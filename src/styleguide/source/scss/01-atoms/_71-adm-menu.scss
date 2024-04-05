@@ -1,5 +1,8 @@
+@use '../00-base/base.settings' as base;
+@use '../00-base/colors' as colors;
+
 .adm-cattype {
-	@include fs-xl;
+	@include base.fs-xl;
 
 	display: inline-block;
 
@@ -35,7 +38,7 @@
 		transition: all .125s ease-in-out;
 
 		opacity: 0;
-		border-bottom: 1px $c-gray solid;
+		border-bottom: 1px colors.$c-gray solid;
 	}
 
 	.selected,

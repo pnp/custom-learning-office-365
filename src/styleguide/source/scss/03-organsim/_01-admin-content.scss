@@ -1,3 +1,6 @@
+
+@use '../00-base/colors' as colors;
+
 .adm-content {
   display: flex;
   padding-top: 80px;
@@ -177,7 +180,7 @@
 
   text-align: right;
 
-  border: 1px $c-light-gray solid;
+  border: 1px colors.$c-light-gray solid;
   border-right: none;
   border-left: none;
   padding: 0.4em 0 0.5em;

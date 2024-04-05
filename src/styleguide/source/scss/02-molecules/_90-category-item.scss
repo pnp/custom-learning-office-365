@@ -1,6 +1,8 @@
 @use 'sass:math';
+@use '../00-base/colors' as colors;
+@use '../00-base/mixin' as mixin;
 
-.category-overview{
+.category-overview {
 	display: flex;
 
 	width: calc(100% - .1px);
@@ -8,13 +10,13 @@
 	align-content: flex-start;
 	flex-wrap: wrap;
 
-	&.editSort{
-		.category-item{
+	&.editSort {
+		.category-item {
 			box-sizing: border-box;
 
 			cursor: move;
 
-			.category-handle{
+			.category-handle {
 				display: inline-block;
 
 				width: 1em;
@@ -22,23 +24,23 @@
 				margin-left: -10px;
 				padding-top: 5px;
 
-				.category-handle-icon{
+				.category-handle-icon {
 					display: none;
 				}
 			}
 
-			&:hover{
+			&:hover {
 				background-color: rgba(lightgray, .6);
 
-				*{
+				* {
 					pointer-events: none;
 				}
 
-				.category-label{
+				.category-label {
 					background-color: rgba(lightgray, .6);
 				}
 
-				.category-handle-icon{
+				.category-handle-icon {
 					line-height: math.div(1, 1.25) * 1em;
 
 					display: inherit;
@@ -48,7 +50,7 @@
 	}
 }
 
-.category-item{
+.category-item {
 	display: inline-block;
 
 	box-sizing: border-box;
@@ -58,45 +60,45 @@
 
 	transition: all 125ms ease;
 
-	border: 1px $c-light-gray solid;
+	border: 1px colors.$c-light-gray solid;
 	background-color: white;
 
 	flex-shrink: 0;
 
-	&:hover{
+	&:hover {
 		cursor: pointer;
 
-		border: 1px $c-gray solid;
-    @include themeSlot(buttonHoverBorder, border);
+		border: 1px colors.$c-gray solid;
+		@include mixin.themeSlot(buttonHoverBorder, border);
 	}
 }
 
-.category-icon{
-	img{
+.category-icon {
+	img {
 		width: 100%;
 		height: auto;
 	}
 }
 
-.category-edit{
+.category-edit {
 	display: inline-block;
 
 	width: calc(100% - 100px);
 
-	.adm-itemedit{
+	.adm-itemedit {
 		border-top: 1px black solid;
 	}
 }
 
-.category-heading{
+.category-heading {
 	display: inline-block;
 
 	margin-top: 6px;
 	margin-bottom: 3px;
 }
 
-.category-label{
-	@include themeSlot(bodytext);
+.category-label {
+	@include mixin.themeSlot(bodytext);
 
 	line-height: 1.25em;
 

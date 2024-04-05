@@ -1,5 +1,7 @@
+@use '../00-base/base.settings' as base;
+
 .admin-label {
-	@include fs-xl2;
+	@include base.fs-xl2;
 
 	display: inline-block;
 }
