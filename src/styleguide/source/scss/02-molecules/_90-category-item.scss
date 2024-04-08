@@ -29,7 +29,7 @@
 					display: none;
 				}
 			}
-
+			&:active,
 			&:hover {
 				background-color: rgba(lightgray, .6);
 
@@ -52,19 +52,18 @@
 }
 
 .category-item {
-	display: inline-block;
+	width: 100%;
+	height: 100%;;
 
 	box-sizing: border-box;
-	width: calc(#{span(2 narrow)} - .1px);
-	margin-bottom: gutter();
-	margin-left: gutter();
 
 	transition: all 125ms ease;
 
 	border: 1px colors.$c-light-gray solid;
 	background-color: white;
 
-	flex-shrink: 0;
+	border-radius: 0.5em;
+	overflow: hidden;
 
 	&:hover {
 		cursor: pointer;
@@ -78,6 +77,7 @@
 	img {
 		width: 100%;
 		height: auto;
+		aspect-ratio: 1 / 1;
 	}
 }
 
@@ -101,7 +101,9 @@
 .category-label {
 	@include mixin.themeSlot(bodytext);
 
-	line-height: 1.25em;
+	line-height: 1.25;
+	font-size: 1em;
 
 	padding: .35em 1em .5em;
+	margin: 0;
 }

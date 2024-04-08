@@ -38,15 +38,15 @@
         }
     ],
     "plTitle": "Teams Quick Start",
-    "plImgUrl": "images/Teams/01-teams_quick_start.png",
+    "plImgUrl": "/images/Teams/01-teams_quick_start.png",
     "playlist": [
         {
             "plTitle": "Teams Quick Start",
-            "plImgUrl": "images/Teams/01-teams_quick_start.png"
+            "plImgUrl": "/images/Teams/01-teams_quick_start.png"
         },
         {
             "plTitle": "Intro to Microsoft Teams",
-            "plImgUrl": "images/Teams/02-intro_to_microsoft_teams.png"
+            "plImgUrl": "/images/Teams/02-intro_to_microsoft_teams.png"
         }
     ],
     "navsubcat": [
