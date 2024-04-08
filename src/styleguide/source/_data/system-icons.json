@@ -1,0 +1,56 @@
+{
+    "icons": [
+        {
+            "icon-name": "icon-link-regular",
+            "title": "icon-link-regular"
+        },
+        {
+            "icon-name": "icon-chevron-left-filled",
+            "title": "icon-chevron-left-filled"
+        },
+        {
+            "icon-name": "icon-chevron-right-filled",
+            "title": "icon-chevron-right-filled"
+        },
+        {
+            "icon-name": "icon-chevron-down-filled",
+            "title": "icon-chevron-down-filled"
+        },
+        {
+            "icon-name": "icon-chevron-up-filled",
+            "title": "icon-chevron-up-filled"
+        },
+        {
+            "icon-name": "icon-eye-filled",
+            "title": "icon-eye-filled"
+        },
+        {
+            "icon-name": "icon-eye-off-filled",
+            "title": "icon-eye-filled"
+        },
+        {
+            "icon-name": "icon-pen-regular",
+            "title": "icon-pen-regular"
+        },
+        {
+            "icon-name": "icon-pen-filled",
+            "title": "icon-pen-filled"
+        },
+        {
+            "icon-name": "icon-search-regular",
+            "title": "icon-search-regular"
+        },
+        {
+            "icon-name": "icon-search-filled",
+            "title": "icon-search-filled"
+        },
+        {
+            "icon-name": "icon-settings-regular",
+            "title": "icon-settings-regular"
+        },
+        {
+            "icon-name": "icon-settings-filled",
+            "title": "icon-settings-filled"
+        }
+    ]
+}

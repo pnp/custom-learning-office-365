@@ -64,3 +64,4 @@ typings/
 
 # ignore styleguide tmp folder
 .tmp
+.DS_Store
