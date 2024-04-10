@@ -51,6 +51,30 @@
         {
             "icon-name": "icon-settings-filled",
             "title": "icon-settings-filled"
+        },
+        {
+            "icon-name": "icon-save-regular",
+            "title": "icon-save-regular"
+        },
+        {
+            "icon-name": "icon-save-filled",
+            "title": "icon-save-filled"
+        },
+        {
+            "icon-name": "icon-dismiss-regular",
+            "title": "icon-save-regular"
+        },
+        {
+            "icon-name": "icon-dismiss-filled",
+            "title": "icon-save-filled"
+        },
+        {
+            "icon-name": "icon-star-regular",
+            "title": "icon-save-regular"
+        },
+        {
+            "icon-name": "icon-star-filled",
+            "title": "icon-save-filled"
         }
     ]
 }

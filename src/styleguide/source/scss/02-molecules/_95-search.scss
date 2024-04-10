@@ -31,12 +31,13 @@
                 ;
             }
         }
+    }
+}
 
-        .plov-audience {
-            text-decoration: none;
-            .plov-title {
-                font-size: 14px;
-            }
-        }
+.plov-audience {
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    .plov-title {
+        font-size: 14px;
     }
 }

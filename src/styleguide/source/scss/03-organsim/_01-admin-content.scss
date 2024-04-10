@@ -2,7 +2,12 @@
 @use '../00-base/colors' as colors;
 
 .adm-content {
-  display: flex;
+
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: clamp(1rem, 2vw, 2rem);
+  margin-inline: clamp(1rem, 2vw, 2rem);
+
   padding-top: 80px;
 
   @media screen and (max-width: 1268px) {
@@ -19,9 +24,7 @@
 }
 
 .adm-content-main {
-  width: span(9 wide of 12);
-  margin-top: .5em;
-  margin-left: gutter();
+  grid-column: 2 / span 3;
 
   h2 {
     margin-top: 0;
@@ -58,7 +61,7 @@
   list-style-type: none;
 
   column-count: 2;
-  column-gap: 8.3%;
+  column-gap: clamp(1rem, 2vw, 2rem);
 
   li {
     break-inside: avoid-column;

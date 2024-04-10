@@ -2,9 +2,10 @@
 
 .pl-edit-item {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
   height: 3em;
-  padding-left: 1em;
   margin-bottom: 0.25em;
 
   cursor: pointer;
@@ -34,14 +35,20 @@
   }
 }
 
+.pl-edit-actions{
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  gap: 0.5rem;
+}
+
 .pl-edit-icon {
   display: inline-block;
   max-width: 20px;
-  margin-right: 0.5em;
   align-self: bottom;
 }
 
 .pl-edit-title {
-  line-height: 2em;
+  line-height: 1.25;
   flex-grow: 1;
 }
