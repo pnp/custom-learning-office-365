@@ -1,79 +1,79 @@
 {
     "icons": [
         {
-            "icon-name": "icon-link-regular",
+            "iconname": "icon-link-regular",
             "title": "icon-link-regular"
         },
         {
-            "icon-name": "icon-chevron-left-filled",
+            "iconname": "icon-chevron-left-filled",
             "title": "icon-chevron-left-filled"
         },
         {
-            "icon-name": "icon-chevron-right-filled",
+            "iconname": "icon-chevron-right-filled",
             "title": "icon-chevron-right-filled"
         },
         {
-            "icon-name": "icon-chevron-down-filled",
+            "iconname": "icon-chevron-down-filled",
             "title": "icon-chevron-down-filled"
         },
         {
-            "icon-name": "icon-chevron-up-filled",
+            "iconname": "icon-chevron-up-filled",
             "title": "icon-chevron-up-filled"
         },
         {
-            "icon-name": "icon-eye-filled",
+            "iconname": "icon-eye-filled",
             "title": "icon-eye-filled"
         },
         {
-            "icon-name": "icon-eye-off-filled",
+            "iconname": "icon-eye-off-filled",
             "title": "icon-eye-filled"
         },
         {
-            "icon-name": "icon-pen-regular",
+            "iconname": "icon-pen-regular",
             "title": "icon-pen-regular"
         },
         {
-            "icon-name": "icon-pen-filled",
+            "iconname": "icon-pen-filled",
             "title": "icon-pen-filled"
         },
         {
-            "icon-name": "icon-search-regular",
+            "iconname": "icon-search-regular",
             "title": "icon-search-regular"
         },
         {
-            "icon-name": "icon-search-filled",
+            "iconname": "icon-search-filled",
             "title": "icon-search-filled"
         },
         {
-            "icon-name": "icon-settings-regular",
+            "iconname": "icon-settings-regular",
             "title": "icon-settings-regular"
         },
         {
-            "icon-name": "icon-settings-filled",
+            "iconname": "icon-settings-filled",
             "title": "icon-settings-filled"
         },
         {
-            "icon-name": "icon-save-regular",
+            "iconname": "icon-save-regular",
             "title": "icon-save-regular"
         },
         {
-            "icon-name": "icon-save-filled",
+            "iconname": "icon-save-filled",
             "title": "icon-save-filled"
         },
         {
-            "icon-name": "icon-dismiss-regular",
+            "iconname": "icon-dismiss-regular",
             "title": "icon-save-regular"
         },
         {
-            "icon-name": "icon-dismiss-filled",
+            "iconname": "icon-dismiss-filled",
             "title": "icon-save-filled"
         },
         {
-            "icon-name": "icon-star-regular",
+            "iconname": "icon-star-regular",
             "title": "icon-save-regular"
         },
         {
-            "icon-name": "icon-star-filled",
+            "iconname": "icon-star-filled",
             "title": "icon-save-filled"
         }
     ]
