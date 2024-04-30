@@ -1,0 +1,22 @@
+{
+    "tool-item": [
+        {
+            "button": {
+                "title": "Get the link",
+                "iconname": "icon-link-regular"
+            }
+        },
+        {
+            "button": {
+                "title": "Search",
+                "iconname": "icon-search-regular"
+            }
+        },
+        {
+            "button": {
+                "title": "Menu",
+                "iconname": "icon-burger-regular"
+            }
+        }
+    ]
+}

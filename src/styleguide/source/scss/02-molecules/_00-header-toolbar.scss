@@ -1,13 +1,11 @@
 @use '../00-base/colors' as colors;
 
 .header-toolbar {
-	position: relative;
+	width: 100%;
 
 	display: flex;
-
-	align-content: flex-start;
-	flex: 1;
-	flex-wrap: nowrap;
+	justify-content: space-between;
+	flex-direction: row;
 
 	@media screen and (max-width: 768px) {
 		flex-direction: column;
@@ -26,6 +24,18 @@
 		text-align: right;
 	}
 }
+
+.header-toolbar{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: inline-flex;
+	gap: 0.5rem;
+	.hoo-buttonicon{
+		color: currentColor;
+	}
+}
+
 .header-actions{
 	@media screen and (max-width: 768px) {
 		text-align: right;
