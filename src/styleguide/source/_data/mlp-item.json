@@ -1,0 +1,37 @@
+{
+    "pl-edit-items": [
+        {
+            "button": {
+                "iconname": "icon-chevron-up-filled",
+                "label": "Button",
+                "description": "Primary with description",
+                "aria-label": "Button"
+            }
+        },
+        {
+            "button": {
+                "iconname": "icon-chevron-down-filled",
+                "label": "Button",
+                "description": "Primary with description",
+                "aria-label": "Button"
+            }
+        },
+        {
+            "button": {
+                "iconname": "icon-eye-filled",
+                "label": "Button",
+                "description": "Primary with description",
+                "aria-label": "Button"
+            }
+        },
+        {
+            "button": {
+                "iconname": "icon-pen-regular",
+                "label": "Button",
+                "description": "Primary with description",
+                "aria-label": "Button"
+            }
+        }
+
+    ]
+}

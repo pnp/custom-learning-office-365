@@ -1,5 +1,6 @@
 @use 'node_modules/@n8d/htwoo-core/lib/sass/01-atoms/icons/index' as hooIcons;
 @use 'node_modules/@n8d/htwoo-core/lib/sass/01-atoms/buttons/index' as hooButtons;
+@use 'node_modules/@n8d/htwoo-core/lib/sass/02-molecules/menu' as hooBreadcrumb;
 
 // Core stuff
 @use '00-base/index' as base;

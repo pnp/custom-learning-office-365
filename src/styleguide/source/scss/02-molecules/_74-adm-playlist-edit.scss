@@ -13,6 +13,9 @@
   justify-content: space-between;
   align-items: center;
 
+  .hoo-buttonicon{
+    color: currentColor;
+  }
 
 
   &:hover {
@@ -40,6 +43,9 @@
   flex-direction: row;
   align-self: flex-start;
   gap: 0.5rem;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .pl-edit-icon {
