@@ -36,5 +36,14 @@
                 "title": "Edit this playlist entry"
             }
         }
-    ]
+    ],
+    "pl-header-action": {
+        "button": {
+            "iconname": "icon-pen-regular",
+            "label": "Button",
+            "description": "Primary with description",
+            "aria-label": "Button",
+            "title": "Edit playlist entry"
+        }
+    }
 }
