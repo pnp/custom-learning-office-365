@@ -1,11 +1,12 @@
 <div class="header-toolbar">
   <div class="header-breadcrumb">
     Breadcrumb >
+    {{> molecules-hoo-breadcrumb }}
   </div>
   <div class="header-actions">
     <menu class="header-toolbar">
       {{#each tool-item}}
-      <li>{{>  atoms-hoo-button-icon }}</li>
+      <li>{{> atoms-hoo-button-icon }}</li>
       {{/each}}
     </menu>
     {{!-- <button class="iconbutton link">
