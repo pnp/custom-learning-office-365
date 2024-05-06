@@ -5,7 +5,8 @@
                 "iconname": "icon-chevron-up-filled",
                 "label": "Button",
                 "description": "Primary with description",
-                "aria-label": "Button"
+                "aria-label": "Button",
+                "title": "Move Up"
             }
         },
         {
@@ -13,7 +14,8 @@
                 "iconname": "icon-chevron-down-filled",
                 "label": "Button",
                 "description": "Primary with description",
-                "aria-label": "Button"
+                "aria-label": "Button",
+                "title": "Move down"
             }
         },
         {
@@ -21,7 +23,8 @@
                 "iconname": "icon-eye-filled",
                 "label": "Button",
                 "description": "Primary with description",
-                "aria-label": "Button"
+                "aria-label": "Button",
+                "title": "Click to hide from playlist"
             }
         },
         {
@@ -29,9 +32,9 @@
                 "iconname": "icon-pen-regular",
                 "label": "Button",
                 "description": "Primary with description",
-                "aria-label": "Button"
+                "aria-label": "Button",
+                "title": "Edit this playlist entry"
             }
         }
-
     ]
 }

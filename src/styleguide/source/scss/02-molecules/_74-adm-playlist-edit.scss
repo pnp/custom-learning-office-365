@@ -1,9 +1,12 @@
 @use '../00-base/colors' as colors;
+@use '../../../node_modules/@n8d/htwoo-core/lib/sass/00-base/global.vars' as glob;
 
 .pl-edit-item {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  align-content: center;
 
   height: 3em;
   margin-bottom: 0.25em;
@@ -13,14 +16,11 @@
   justify-content: space-between;
   align-items: center;
 
-  .hoo-buttonicon{
-    color: currentColor;
-  }
-
-
   &:hover {
-    color: colors.$c-blue;
     background-color: colors.$c-light-gray;
+    .pl-edit-title{
+        color: glob.$theme-600;
+    }
 
     .pl-edit-actions {
 
@@ -41,7 +41,6 @@
 .pl-edit-actions{
   display: flex;
   flex-direction: row;
-  align-self: flex-start;
   gap: 0.5rem;
   list-style-type: none;
   padding: 0;

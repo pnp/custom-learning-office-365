@@ -1,6 +1,42 @@
 
 <!--DO NOT REMOVE-->
 {{{ patternLabFoot }}}
+<script src="../../js/main.js" type="module"></script>
+<script src="../../js/themeswitch/index.js" type="module"></script>
+<script>
 
+    var layoutMode = null;
+
+    // changing logo accordingly
+    var evtLocationStorageUpdates = () => {
+
+        console.debug("Storage Event Fired");
+
+        let patternlab = JSON.parse(window.localStorage.getItem('patternlab'));
+
+        if (patternlab.app.layoutMode !== layoutMode && patternlab.app.layoutMode === "vertical") {
+            console.log("Layout is not vertical");
+            let image = window.parent.document.querySelector(".pl-c-logo__img");
+            if (image) {
+                image.src = "styleguide/images/htwoo-logo-vertical.jpg";
+            }
+        }
+        if (patternlab.app.layoutMode !== layoutMode && patternlab.app.layoutMode === "horizontal") {
+            console.log("Layout is not horizontal");
+            let image = window.parent.document.querySelector(".pl-c-logo__img");
+            if (image) {
+                image.src = "styleguide/images/htwoo-logo-horizontal.png";
+            }
+            console.log("IMAGE ", image);
+        }
+
+        layoutMode = patternlab.app.layoutMode;
+
+    }
+    // register event listener
+    window.addEventListener('storage', evtLocationStorageUpdates);
+    // on first run detect layout
+    evtLocationStorageUpdates();
+</script>
 </body>
 </html>

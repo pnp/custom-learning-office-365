@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "@n8d/htwoo-core": "^2.4.0",
+    "plugin-design": "file:helpers/node/plugin-design",
     "gulp": "^5.0.0",
     "gulp-autoprefixer": "^9.0.0",
     "gulp-if": "^3.0.0",

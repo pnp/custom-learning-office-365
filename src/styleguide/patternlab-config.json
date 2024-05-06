@@ -105,6 +105,12 @@
       "extend": "helpers/*.js"
     }
   },
+  "plugins": {
+    "plugin-design": {
+      "enabled": true,
+      "initialized": false
+    }
+  },
   "uikits": [
     {
       "name": "uikit-workshop",
