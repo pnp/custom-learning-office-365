@@ -1,12 +1,15 @@
 @use '../00-base/colors' as colors;
+@use 'node_modules/@n8d/htwoo-core/lib/sass/00-base/_global.vars.scss' as dt;
 
 .headerpanel{
 	display: flex;
 
 	box-sizing: border-box;
 	padding: 1em;
+	border-radius: 0.5rem;
 
 	background-color: colors.$c-light-gray;
+	background-color: dt.$neutral-200;
 
 	justify-content: space-between;
 
