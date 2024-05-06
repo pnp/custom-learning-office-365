@@ -11,6 +11,7 @@
     "pl:serve": "patternlab serve --config ./patternlab-config.json",
     "pl:version": "patternlab --version",
     "gulp:serve": "gulp",
+    "prestart": "npx shx mkdir -p public/plugins/ && npx shx cp -r source/plugins/plugin-design/ public/plugins/",
     "start": "run-p gulp:serve pl:serve"
   },
   "keywords": [],

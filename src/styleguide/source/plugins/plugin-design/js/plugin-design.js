@@ -60,15 +60,15 @@ var PluginUIExtension = {
    */
   init: async function () {
 
-    let logoImg = document.querySelector(".pl-c-logo__img");
+    // let logoImg = document.querySelector(".pl-c-logo__img");
 
-    if (logoImg) {
-      logoImg.style.height = "auto";
-      logoImg.style.width = "100%";
-      logoImg.style.maxHeight = "100%";
-      logoImg.removeAttribute('height');
-      logoImg.removeAttribute('width');
-    }
+    // if (logoImg) {
+    //   logoImg.style.height = "auto";
+    //   logoImg.style.width = "100%";
+    //   logoImg.style.maxHeight = "100%";
+    //   logoImg.removeAttribute('height');
+    //   logoImg.removeAttribute('width');
+    // }
 
     let matchMedia = window.matchMedia('screen and (max-width: 768px)');
 
