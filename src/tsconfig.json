@@ -1,0 +1,7 @@
+{
+    "files": [],
+    "references": {
+        {"path": "spfx-project-1"},
+        {"path": "spfx-project-2"}
+    }
+}

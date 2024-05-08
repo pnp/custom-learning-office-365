@@ -1,0 +1,7 @@
+{
+    "name": "microsoft-learning-pathways",
+    "workspaces": [
+        "styleguide",
+        "webpart"
+    ]
+}

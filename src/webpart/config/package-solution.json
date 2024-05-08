@@ -1,6 +1,28 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
+    "features": [
+      {
+        "title": "customlearning CustomLearningWebPart Feature",
+        "description": "The feature that activates CustomLearningWebPart from the customlearning solution.",
+        "id": "141d4ab7-b6ca-4bf4-ac59-25b7bf93642d",
+        "version": "4.4.0.0",
+        "componentIds": [
+          "141d4ab7-b6ca-4bf4-ac59-25b7bf93642d"
+        ]
+      }
+    ],
+    "metadata": {
+      "shortDescription": {
+        "default": "customlearning description"
+      },
+      "longDescription": {
+        "default": "customlearning description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
     "name": "Microsoft 365 learning pathways",
     "id": "26c9cd9f-db62-49b1-b102-7f0dad281ea0",
     "version": "4.4.0.0",

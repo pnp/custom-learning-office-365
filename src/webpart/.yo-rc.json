@@ -2,11 +2,16 @@
   "@microsoft/generator-sharepoint": {
     "isCreatingSolution": false,
     "environment": "spo",
-    "version": "1.12.1",
+    "version": "1.18.2",
     "libraryName": "customlearning",
     "libraryId": "26c9cd9f-db62-49b1-b102-7f0dad281ea0",
     "packageManager": "npm",
     "isDomainIsolated": false,
-    "componentType": "webpart"
+    "componentType": "webpart",
+    "nodeVersion": "18.19.0"
+  },
+  "sdkVersions": {
+    "@microsoft/teams-js": "2.12.0",
+    "@microsoft/microsoft-graph-client": "3.0.2"
   }
 }
