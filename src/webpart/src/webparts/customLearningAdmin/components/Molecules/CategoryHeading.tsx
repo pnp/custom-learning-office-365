@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
-import isEqual from "lodash/isEqual";
+import isEqual from "lodash-es/isEqual";
 
 import { IconButton } from "office-ui-fabric-react";
 
@@ -10,7 +10,7 @@ import { ICategory, IMultilingualString } from "../../../common/models/Models";
 import Button from "../../../common/components/Atoms/Button";
 import { ButtonTypes } from "../../../common/models/Enums";
 import CategoryHeadingDetail from "../Atoms/CategoryHeadingDetail";
-import cloneDeep from "lodash/cloneDeep";
+import cloneDeep from "lodash-es/cloneDeep";
 
 export interface ICategoryHeadingProps {
   heading: ICategory;

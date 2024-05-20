@@ -1,17 +1,17 @@
 import * as React from 'react';
 import { Logger, LogLevel } from "@pnp/logging";
 
-import isEqual from "lodash/isEqual";
-import find from "lodash/find";
-import findIndex from "lodash/findIndex";
-import includes from "lodash/includes";
-import cloneDeep from "lodash/cloneDeep";
-import filter from "lodash/filter";
-import indexOf from "lodash/indexOf";
-import concat from "lodash/concat";
-import forEach from "lodash/forEach";
-import uniqBy from "lodash/uniqBy";
-import sortBy from "lodash/sortBy";
+import isEqual from "lodash-es/isEqual";
+import find from "lodash-es/find";
+import findIndex from "lodash-es/findIndex";
+import includes from "lodash-es/includes";
+import cloneDeep from "lodash-es/cloneDeep";
+import filter from "lodash-es/filter";
+import indexOf from "lodash-es/indexOf";
+import concat from "lodash-es/concat";
+import forEach from "lodash-es/forEach";
+import uniqBy from "lodash-es/uniqBy";
+import sortBy from "lodash-es/sortBy";
 import { PanelType, Panel } from 'office-ui-fabric-react';
 
 import styles from "../../common/CustomLearningCommon.module.scss";

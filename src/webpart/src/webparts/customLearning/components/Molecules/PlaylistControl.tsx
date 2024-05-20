@@ -1,7 +1,7 @@
 import * as React from "react";
 
-import isEqual from "lodash/isEqual";
-import indexOf from "lodash/indexOf";
+import isEqual from "lodash-es/isEqual";
+import indexOf from "lodash-es/indexOf";
 import { Logger, LogLevel } from "@pnp/logging";
 import { Dropdown, IDropdownOption, Icon } from "office-ui-fabric-react";
 

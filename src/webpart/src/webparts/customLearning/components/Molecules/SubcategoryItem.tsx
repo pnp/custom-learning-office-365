@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
-import isEqual from "lodash/isEqual";
+import isEqual from "lodash-es/isEqual";
 import Truncate from 'react-truncate';
 
 import { IMetadataEntry } from "../../../common/models/Models";

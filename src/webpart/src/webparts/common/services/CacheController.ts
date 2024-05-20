@@ -4,7 +4,7 @@ import { Roles } from "../models/Enums";
 import { CacheConfig, ICacheConfig, ICategory } from "../models/Models";
 import { DataService } from "./DataService";
 import { params } from "./Parameters";
-import find from "lodash/find";
+import find from "lodash-es/find";
 import { forEach } from "lodash";
 
 export interface ICacheController {
@@ -90,7 +90,7 @@ export default class CacheController implements ICacheController {
           }
         } else {
           //Check if upgrade is necessary
-          let configManifest: string = this._cacheConfig.ManifestVersion || (this._cacheConfig.WebPartVersion) ? `v${this._cacheConfig.WebPartVersion.substring(0, 1)}` : null;
+          let configManifest = this._cacheConfig.ManifestVersion || (this._cacheConfig.WebPartVersion) ? `v${this._cacheConfig.WebPartVersion.substring(0, 1)}` : null;
           if (!configManifest || configManifest >= params.manifestVersion) {
             //If upgrade isn't needed; Test if cache is out of date
             let yesterday: Date = new Date();

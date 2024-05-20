@@ -1,8 +1,8 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
-import isEqual from "lodash/isEqual";
-import forEach from "lodash/forEach";
+import isEqual from "lodash-es/isEqual";
+import forEach from "lodash-es/forEach";
 import { Label, Icon, TextField, arraysEqual } from "office-ui-fabric-react";
 
 import * as strings from "M365LPStrings";

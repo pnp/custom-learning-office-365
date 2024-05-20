@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { Logger, LogLevel } from '@pnp/logging';
 
-import isEqual from "lodash/isEqual";
-import includes from "lodash/includes";
+import isEqual from "lodash-es/isEqual";
+import includes from "lodash-es/includes";
 import { IAsset } from '../../../common/models/Models';
 import styles from "../../../common/CustomLearningCommon.module.scss";
 import { CustomWebpartSource } from '../../../common/models/Enums';

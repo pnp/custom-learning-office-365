@@ -21,18 +21,19 @@ import {
   PropertyPaneButton,
   PropertyPaneButtonType
 } from "@microsoft/sp-property-pane";
-import { sp } from '@pnp/sp';
+import {  ThemeProvider} from '@microsoft/sp-component-base';
+import { app } from "@microsoft/teams-js-v2";
 
-import sortBy from "lodash/sortBy";
-import find from "lodash/find";
-import cloneDeep from "lodash/cloneDeep";
+import sortBy from "lodash-es/sortBy";
+import find from "lodash-es/find";
+import cloneDeep from "lodash-es/cloneDeep";
 
 import { Logger, LogLevel, ConsoleListener } from "@pnp/logging";
-import { UrlQueryParameterCollection } from '@microsoft/sp-core-library';
 
 import { params } from "../common/services/Parameters";
 import { AppInsightsService } from "../common/services/AppInsightsService";
-import { initializeIcons } from '@uifabric/icons';
+import { symset } from '@n8d/htwoo-react/SymbolSet';
+import { SPFxThemes, ISPFxThemes } from '@n8d/htwoo-react/SPFxThemes';
 
 import * as strings from "M365LPStrings";
 import ShimmerViewer from "../common/components/Atoms/ShimmerViewer";
@@ -56,14 +57,6 @@ export interface ICustomLearningWebPartProps {
   customSortOrder: string[];
 }
 
-import {
-  ThemeProvider,
-  IReadonlyTheme,
-  ThemeChangedEventArgs,
-  ISemanticColors
-} from '@microsoft/sp-component-base';
-
-
 export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustomLearningWebPartProps> {
   private LOG_SOURCE: string = "CustomLearningWebPart";
   private _isReady: boolean = false;
@@ -71,6 +64,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
   private _cacheController: ICacheController;
   private _validSetup: boolean = false;
   private _validConfig: boolean = false;
+  private _teamsContext: app.Context;
 
   private _webpartMode: string = "";
   private _startType: string = "";
@@ -86,54 +80,34 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
   private _ppAssets: IPropertyPaneDropdownOption[];
 
   //Get the values from the query string if necessary
-  private _queryParms: UrlQueryParameterCollection = new UrlQueryParameterCollection(window.location.href);
-  private _urlWebpartMode: string = this._queryParms.getValue("webpartmode");
-  private _urlCDN: string = this._queryParms.getValue("cdn");
-  private _urlCategory: string = this._queryParms.getValue("category");
-  private _urlSubCategory: string = this._queryParms.getValue("subcategory");
-  private _urlPlaylist: string = this._queryParms.getValue("playlist");
-  private _urlAsset: string = this._queryParms.getValue("asset");
+  private _queryParms: URLSearchParams = new URLSearchParams(window.location.href);
+  private _urlWebpartMode = this._queryParms.get("webpartmode");
+  private _urlCDN = this._queryParms.get("cdn");
+  private _urlCategory = this._queryParms.get("category");
+  private _urlSubCategory = this._queryParms.get("subcategory");
+  private _urlPlaylist = this._queryParms.get("playlist");
+  private _urlAsset = this._queryParms.get("asset");
 
   // Theming support for Section
-  private _themeProvider: ThemeProvider;
-  private _themeVariant: IReadonlyTheme | undefined;
+  private _themeProvider: ThemeProvider;  
+  private _spfxThemes: ISPFxThemes = new SPFxThemes();
 
   public async onInit(): Promise<void> {
 
     // Consume the new ThemeProvider service
     this._themeProvider = this.context.serviceScope.consume(ThemeProvider.serviceKey);
-
-    // If it exists, get the theme variant
-    this._themeVariant = this._themeProvider.tryGetTheme();
-
-    // If there is a theme variant
-    if (this._themeVariant) {
-      // we set transfer semanticColors into CSS variables
-      this.setCSSVariables(this._themeVariant.semanticColors);
-      this.setCSSVariables(this._themeVariant.palette);
-      this.setCSSVariables(this._themeVariant["effects"]);
-    } else if (window["__themeState__"].theme) {
-      // we set transfer semanticColors into CSS variables
-      this.setCSSVariables(window["__themeState__"].theme);
-    }
-
-    // Handle theme changes
-    this._themeProvider.themeChangedEvent.add(this, this._handleThemeChangedEvent);
+    this._spfxThemes.initThemeHandler(this.domElement, this._themeProvider, this.context.sdks?.microsoftTeams);
 
     try {
       //Initialize PnPLogger
-      Logger.subscribe(new ConsoleListener());
+      Logger.subscribe(ConsoleListener());
       Logger.activeLogLevel = LogLevel.Info;
 
-      //Initialize UI Fabric Icons
-      initializeIcons();
+      //Initialize hTWOo Icons
+      await symset.initSymbols();
 
       //Save context
       params.context = this.context;
-
-      //Initialize PnPJs
-      let ie11Mode: boolean = (!!window.MSInputMethodContext && !!document["documentMode"]);
-      sp.setup({ ie11: ie11Mode, spfxContext: this.context });
 
       //Set HttpClient
       params.httpClient = this.context.httpClient;
@@ -148,8 +122,10 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
       params.userLanguage = this.context.pageContext.cultureInfo.currentUICultureName.toLowerCase();
 
       //If in Teams context get Query String Parameters from Teams Context
-      if (this.context.sdks?.microsoftTeams)
+      if (this.context.sdks?.microsoftTeams){
         this.getTeamsQueryString();
+        this._teamsContext = await this.context.sdks.microsoftTeams?.teamsJs.app.getContext();
+      }
 
       this.firstInit();
     } catch (err) {
@@ -165,9 +141,9 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
   private getTeamsQueryString(): void {
     try {
       // Get configuration from the Teams SDK
-      if (this.context.sdks.microsoftTeams.context) {
-        if (this.context.sdks.microsoftTeams.context?.subEntityId?.length > 0) {
-          let queryString = this.context.sdks.microsoftTeams.context.subEntityId.split(":");
+      if (this._teamsContext != null) {
+        if (this._teamsContext.page?.subPageId != null && this._teamsContext.page.subPageId?.length > 0) {
+          let queryString = this._teamsContext.page.subPageId?.split(":");
           this._urlWebpartMode = queryString[0];
           this._urlCDN = queryString[1];
           this._urlCategory = queryString[2];
@@ -181,17 +157,6 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
     }
   }
 
-
-  private _handleThemeChangedEvent(args: ThemeChangedEventArgs): void {
-
-    this._themeVariant = args.theme;
-
-    this.setCSSVariables(this._themeVariant.semanticColors);
-    this.setCSSVariables(this._themeVariant.palette);
-    this.setCSSVariables(this._themeVariant["effects"]);
-
-  }
-
   private async firstInit(): Promise<void> {
     try {
       let currentCdn = this._urlCDN;
@@ -203,8 +168,9 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
 
       await this.configCDN(currentCdn);
 
-      if (this.context.propertyPane.isPropertyPaneOpen)
+      if (this.context.propertyPane.isPropertyPaneOpen()){
         this.context.propertyPane.refresh();
+      }
 
       // Initialize App Insights
       AppInsightsService.initialize(this._cacheController.CDN, this._cacheController.cacheConfig.TelemetryKey);
@@ -293,7 +259,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
         } else if ((this._urlPlaylist) && (this._urlPlaylist != "")) {
           this._startType = Templates.Playlist;
           this._startLocation = this._urlPlaylist;
-          this._startAsset = this._urlAsset;
+          this._startAsset = this._urlAsset as string;
         } else if ((this._urlAsset) && (this._urlAsset != "")) {
           this._startType = Templates.Asset;
           this._startLocation = this._urlAsset;
@@ -345,7 +311,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
           webpartTitle: this.properties.title,
           customSort: this.properties.customSort ? this.properties.customSort : false,
           customSortOrder: this.properties.customSortOrder,
-          teamsEntityId: this.context.sdks.microsoftTeams?.context?.entityId,
+          teamsEntityId: this._teamsContext.page.subPageId ?? '',
           cacheController: this._cacheController,
           updateCustomSort: this.updateCustomSort,
           getCSSVariablesOnElement: this.getCSSVariablesOnElement,
@@ -491,7 +457,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
         for (let i = 0; i < cachedPlaylists.length; i++) {
           if (catId === "" || catId !== cachedPlaylists[i].CatId) {
             catId = cachedPlaylists[i].CatId;
-            let category: ICategory = find(this._cacheController.flatCategory, { Id: catId });
+            let category: ICategory | undefined = find(this._cacheController.flatCategory, { Id: catId });
             if (category) {
               categories.push({
                 key: category.Id,
@@ -527,9 +493,9 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
     let options: IPropertyPaneDropdownOption[] = [];
     if (this._validConfig) {
       try {
-        let detail: ICategory[] | IPlaylist[] | IPlaylist;
+        let detail: ICategory[] | IPlaylist[] | IPlaylist | undefined;
         detail = find(this._cacheController.cacheConfig.CachedPlaylists, { Id: templateId });
-        if (!detail) { return null; }
+        if (!detail) { return; }
         for (let i = 0; i < (detail as IPlaylist).Assets.length; i++) {
           let a = find(this._cacheController.cacheConfig.CachedAssets, { Id: (detail as IPlaylist).Assets[i] });
           if (a)
@@ -555,23 +521,6 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
     this.render();
   }
 
-  private setCSSVariables(theming: any) {
-
-    // request all key defined in theming
-    let themingKeys = Object.keys(theming);
-    // if we have the key
-    if (themingKeys !== null) {
-      // loop over it
-      themingKeys.forEach(key => {
-        // add CSS variable to style property of the web part
-        this.domElement.style.setProperty(`--${key}`, theming[key]);
-
-      });
-
-    }
-
-  }
-
   private getCSSVariablesOnElement = (): any => {
     let retVal: any = {};
     try {
@@ -582,7 +531,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
       // if we have the key
       if (themingKeys !== null) {
         // loop over it
-        themingKeys.forEach(key => {
+        themingKeys.forEach((key: string) => {
           retVal[styles[key]] = styles.getPropertyValue(styles[key]);
         });
       }
@@ -594,40 +543,40 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
   }
 
   protected getPropertyPaneConfiguration(): IPropertyPaneConfiguration {
+    let configuration: IPropertyPaneConfiguration = {
+      pages: [
+        {
+          header: {
+            description: strings.LPViewerPropertyDescription
+          },
+          groups: [
+            {
+              groupName: strings.LPViewerPropertyGroupName,
+              groupFields: [
+                PropertyPaneDropdown('defaultCDN', {
+                  label: strings.DefaultCDNLabel,
+                  options: this._ppDefaultCDN,
+                  selectedKey: this.properties.defaultCDN
+                }),
+                PropertyPaneTextField('title', {
+                  label: strings.WebpartTitleLabel,
+                }),
+                PropertyPaneDropdown('webpartMode', {
+                  label: strings.WebpartModeLabel,
+                  options: this._ppWebpartMode,
+                  selectedKey: this.properties.webpartMode
+                })
+              ]
+            }
+          ]
+        }
+      ]
+    };
+
     try {
       let displayFilter: any;
       let assetList: any;
-      let defaultFilter: any;
-      let customSort: any;
-      let configuration: IPropertyPaneConfiguration = {
-        pages: [
-          {
-            header: {
-              description: strings.LPViewerPropertyDescription
-            },
-            groups: [
-              {
-                groupName: strings.LPViewerPropertyGroupName,
-                groupFields: [
-                  PropertyPaneDropdown('defaultCDN', {
-                    label: strings.DefaultCDNLabel,
-                    options: this._ppDefaultCDN,
-                    selectedKey: this.properties.defaultCDN
-                  }),
-                  PropertyPaneTextField('title', {
-                    label: strings.WebpartTitleLabel,
-                  }),
-                  PropertyPaneDropdown('webpartMode', {
-                    label: strings.WebpartModeLabel,
-                    options: this._ppWebpartMode,
-                    selectedKey: this.properties.webpartMode
-                  })
-                ]
-              }
-            ]
-          }
-        ]
-      };
+      let defaultFilter: any;      
 
       defaultFilter = PropertyPaneDropdown('defaultFilter', {
         label: strings.DefaultFilterLabel,
@@ -687,12 +636,10 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
         })
         );
       }
-
-      return configuration;
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getPropertyPaneConfiguration) - ${err} -- Error loading property pane configuration.`, LogLevel.Error);
-      return null;
-    }
+    }    
+    return configuration;
   }
 
   protected async onPropertyPaneFieldChanged(propertyPath: string, oldValue: any, newValue: any): Promise<void> {

@@ -1,23 +1,16 @@
-import "core-js/stable/array/from";
-import "core-js/stable/array/fill";
-import "core-js/stable/array/iterator";
-import "core-js/stable/promise";
-import "core-js/stable/reflect";
-import "es6-map/implement";
-import "whatwg-fetch";
-
 import * as React from 'react';
 import * as ReactDom from 'react-dom';
-import { sp } from '@pnp/sp';
-import find from "lodash/find";
-import cloneDeep from "lodash/cloneDeep";
-import findIndex from "lodash/findIndex";
-import remove from "lodash/remove";
-import forEach from "lodash/forEach";
-import { Version, UrlQueryParameterCollection } from '@microsoft/sp-core-library';
+import find from "lodash-es/find";
+import cloneDeep from "lodash-es/cloneDeep";
+import findIndex from "lodash-es/findIndex";
+import remove from "lodash-es/remove";
+import forEach from "lodash-es/forEach";
+import { Version } from '@microsoft/sp-core-library';
 import { BaseClientSideWebPart } from "@microsoft/sp-webpart-base";
 import { Logger, ConsoleListener, LogLevel } from '@pnp/logging';
-import { initializeIcons } from '@uifabric/icons';
+import { symset } from '@n8d/htwoo-react/SymbolSet';
+import { SPFxThemes, ISPFxThemes } from '@n8d/htwoo-react/SPFxThemes';
+import { ThemeProvider } from '@microsoft/sp-component-base';
 
 import { params } from "../common/services/Parameters";
 import * as strings from "M365LPStrings";
@@ -35,14 +28,6 @@ import CustomLearningAdmin, { ICustomLearningAdminProps } from "./components/Cus
 export interface ICustomLearningAdminWebPartProps {
 }
 
-
-import {
-  ThemeProvider,
-  ThemeChangedEventArgs,
-  IReadonlyTheme,
-  ISemanticColors
-} from '@microsoft/sp-component-base';
-
 export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<ICustomLearningAdminWebPartProps> {
   private LOG_SOURCE: string = "CustomLearningAdminWebPart";
   private _isReady: boolean = false;
@@ -51,47 +36,31 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
   private _firstConfig: boolean = false;
   private _validConfig: boolean = false;
   private _languageController: ILanguageController;
-  private _cacheConfig: ICacheConfig = new CacheConfig();
+  private _cacheConfig: ICacheConfig | null = new CacheConfig();
   private _cdn: string = "";
   private _customService: ICustomDataService;
   private _webpartVersion: string;
-  private _forceUpdate: string;
   private _upgradeNeeded: boolean = false;
   private _updateStartVersion: string;
   private _themeProvider: ThemeProvider;
-  private _themeVariant: IReadonlyTheme | undefined;
+  private _queryParms: URLSearchParams = new URLSearchParams(window.location.href);
+  private _forceUpdate = this._queryParms.get("forceUpdate");
+  private _spfxThemes: ISPFxThemes = new SPFxThemes();
 
   public async onInit(): Promise<void> {
 
     // Consume the new ThemeProvider service
     this._themeProvider = this.context.serviceScope.consume(ThemeProvider.serviceKey);
 
-    // If it exists, get the theme variant
-    this._themeVariant = this._themeProvider.tryGetTheme();
-
-    // If there is a theme variant
-    if (this._themeVariant) {
-      // we set transfer semanticColors into CSS variables
-      this.setCSSVariables(this._themeVariant.semanticColors);
-      this.setCSSVariables(this._themeVariant.palette);
-      this.setCSSVariables(this._themeVariant["effects"]);
-
-    } else if (window["__themeState__"].theme) {
-      // we set transfer semanticColors into CSS variables
-      this.setCSSVariables(window["__themeState__"].theme);
-    }
+    this._spfxThemes.initThemeHandler(this.domElement, this._themeProvider, this.context.sdks?.microsoftTeams);
 
     try {
       //Initialize PnPLogger
-      Logger.subscribe(new ConsoleListener());
+      Logger.subscribe(ConsoleListener());
       Logger.activeLogLevel = LogLevel.Info;
 
-      //Initialize UI Fabric Icons
-      initializeIcons();
-
-      //Initialize PnPJs
-      let ie11Mode: boolean = (!!window.MSInputMethodContext && !!document["documentMode"]);
-      sp.setup({ ie11: ie11Mode, spfxContext: this.context });
+      //Initialize hTWOo Icons
+      await symset.initSymbols();
 
       //Save context for PnPSPFxReactFilePicker
       params.context = this.context;
@@ -107,10 +76,6 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
 
       //Set User Language
       params.userLanguage = this.context.pageContext.cultureInfo.currentUICultureName;
-
-      //Check for force update parameter
-      let queryParms: UrlQueryParameterCollection = new UrlQueryParameterCollection(window.location.href);
-      this._forceUpdate = queryParms.getValue("forceUpdate");
 
       this.render();
       this.firstInit();
@@ -143,10 +108,10 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
             this._cacheConfig = new CacheConfig();
           } else {
             //Check if upgrade is necessary
-            let configManifest: string = this._cacheConfig.ManifestVersion || (this._cacheConfig.WebPartVersion) ? `v${this._cacheConfig.WebPartVersion.substring(0, 1)}` : null;
+            let configManifest = this._cacheConfig.ManifestVersion || (this._cacheConfig.WebPartVersion) ? `v${this._cacheConfig.WebPartVersion.substring(0, 1)}` : null;
             if ((configManifest && configManifest < params.manifestVersion) || (this._forceUpdate && this._forceUpdate < params.manifestVersion)) {
-              let versions: string[] = [configManifest, this._forceUpdate].sort();
-              this._updateStartVersion = versions[0];
+              let versions: (string | null)[] = [configManifest, this._forceUpdate].sort();
+              this._updateStartVersion = versions[0] as string;
               this._upgradeNeeded = true;
             }
           }
@@ -227,7 +192,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
             const props: ICustomLearningAdminProps = {
               validConfig: this._validConfig,
               currentWebpart: this._webpartVersion,
-              cacheConfig: this._cacheConfig,
+              cacheConfig: this._cacheConfig as ICacheConfig,
               customization: this._languageController.customization,
               categoriesAll: this._languageController.categoriesAll,
               technologiesAll: (this._languageController.metadata) ? this._languageController.metadata.Technologies : [],
@@ -308,10 +273,10 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
             this._cacheConfig = new CacheConfig();
           } else {
             //Check if upgrade is necessary
-            let configManifest: string = this._cacheConfig.ManifestVersion || (this._cacheConfig.WebPartVersion) ? `v${this._cacheConfig.WebPartVersion.substring(0, 1)}` : null;
+            let configManifest = this._cacheConfig.ManifestVersion || (this._cacheConfig.WebPartVersion) ? `v${this._cacheConfig.WebPartVersion.substring(0, 1)}` : null;
             if ((configManifest && configManifest < params.manifestVersion) || (this._forceUpdate && this._forceUpdate < params.manifestVersion)) {
-              let versions: string[] = [configManifest, this._forceUpdate].sort();
-              this._updateStartVersion = versions[0];
+              let versions: (string | null)[] = [configManifest, this._forceUpdate].sort();
+              this._updateStartVersion = versions[0] as string;
               this._upgradeNeeded = true;
               this.render();
               return true;
@@ -352,7 +317,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
       if (saveCustomization !== "0") {
         this._languageController.customization = newCustomizations;
         //Reset config and render
-        this._cacheConfig = await this._languageController.refreshCache(this._cacheConfig);
+        this._cacheConfig = await this._languageController.refreshCache(this._cacheConfig as ICacheConfig);
         this.render();
       }
 
@@ -504,7 +469,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
     return playlist;
   }
 
-  private translateMLString(translations: IPlaylistTranslation[], source: string | IMultilingualString[], prefix: string): IMultilingualString[] {
+  private translateMLString(translations: IPlaylistTranslation[], source: string | IMultilingualString[], prefix: string | null): IMultilingualString[] {
     let retVal: IMultilingualString[] = [];
     try {
       if (translations) {
@@ -521,23 +486,6 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (translateMLString) - ${err}`, LogLevel.Error);
     }
     return retVal;
-  }
-
-  private setCSSVariables(theming: any) {
-
-    // request all key defined in theming
-    let themingKeys = Object.keys(theming);
-    // if we have the key
-    if (themingKeys !== null) {
-      // loop over it
-      themingKeys.forEach(key => {
-        // add CSS variable to style property of the web part
-        this.domElement.style.setProperty(`--${key}`, theming[key]);
-
-      });
-
-    }
-
   }
 
   private copyPlaylist = async (playlist: IPlaylist): Promise<string> => {

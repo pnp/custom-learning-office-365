@@ -1,8 +1,8 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
-import isEqual from "lodash/isEqual";
-import filter from "lodash/filter";
+import isEqual from "lodash-es/isEqual";
+import filter from "lodash-es/filter";
 import Button from "../../../common/components/Atoms/Button";
 import { ButtonTypes, FilterTypes } from "../../../common/models/Enums";
 import TextButton from "../../../common/components/Atoms/TextButton";

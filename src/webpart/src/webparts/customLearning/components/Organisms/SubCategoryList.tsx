@@ -1,9 +1,9 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
-import map from "lodash/map";
-import filter from "lodash/filter";
-import isEqual from "lodash/isEqual";
+import map from "lodash-es/map";
+import filter from "lodash-es/filter";
+import isEqual from "lodash-es/isEqual";
 
 import { ICategory, IPlaylist } from '../../../common/models/Models';
 import { Templates } from "../../../common/models/Enums";

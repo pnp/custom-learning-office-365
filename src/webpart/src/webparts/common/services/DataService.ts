@@ -1,13 +1,13 @@
 import { Logger, LogLevel } from "@pnp/logging";
-import find from 'lodash/find';
-import findIndex from 'lodash/findIndex';
-import cloneDeep from 'lodash/cloneDeep';
-import forEach from 'lodash/forEach';
-import filter from 'lodash/filter';
-import remove from 'lodash/remove';
-import includes from 'lodash/includes';
-import countBy from 'lodash/countBy';
-import flatMapDeep from 'lodash/flatMapDeep';
+import find from 'lodash-es/find';
+import findIndex from 'lodash-es/findIndex';
+import cloneDeep from 'lodash-es/cloneDeep';
+import forEach from 'lodash-es/forEach';
+import filter from 'lodash-es/filter';
+import remove from 'lodash-es/remove';
+import includes from 'lodash-es/includes';
+import countBy from 'lodash-es/countBy';
+import flatMapDeep from 'lodash-es/flatMapDeep';
 
 
 import * as strings from "M365LPStrings";
