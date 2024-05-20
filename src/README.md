@@ -58,3 +58,9 @@ Please see [CHANGELOG](src/CHANGELOG.md) for details.
   * `gulp serve`
 
 <img src="https://telemetry.sharepointpnp.com/sp-dev-solutions/solutions/M365LP" />
+
+## Run Workspace
+
+Use `npm run` followed by one of the following options:
+
+* styleguide - starts the styleguide

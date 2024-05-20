@@ -3,5 +3,8 @@
     "workspaces": [
         "styleguide",
         "webpart"
-    ]
+    ],
+    "scripts": {
+        "styleguide": "npm start --workspace=styleguide"
+    }
 }
