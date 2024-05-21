@@ -1,11 +1,11 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
-import isEqual from "lodash/isEqual";
-import find from "lodash/find";
-import findIndex from "lodash/findIndex";
-import cloneDeep from "lodash/cloneDeep";
-import filter from "lodash/filter";
+import isEqual from "lodash-es/isEqual";
+import find from "lodash-es/find";
+import findIndex from "lodash-es/findIndex";
+import cloneDeep from "lodash-es/cloneDeep";
+import filter from "lodash-es/filter";
 import { MessageBar, MessageBarType, MessageBarButton } from 'office-ui-fabric-react';
 
 import * as strings from "M365LPStrings";

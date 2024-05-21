@@ -1,16 +1,13 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
-
-import isEqual from "lodash/isEqual";
-import find from "lodash/find";
+import find from "lodash-es/find";
+import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
 import { Pivot, PivotItem, Dropdown, IDropdownOption, CommandBar, ICommandBarItemProps, IButtonProps, IContextualMenuStyles, Spinner } from 'office-ui-fabric-react';
 
 import { params } from "../../../common/services/Parameters";
 import * as strings from "M365LPStrings";
 import ContentPack from "../Molecules/ContentPack";
 import { ICDN, CDN } from "../../../common/models/Models";
-import Button from "../../../common/components/Atoms/Button";
-import { ButtonTypes } from "../../../common/models/Enums";
 import CdnEdit from "../Atoms/CdnEdit";
 import About from "../Atoms/About";
 
@@ -41,7 +38,7 @@ export class AdminMenuState implements IAdminMenuState {
   ) { }
 }
 
-export default class AdminMenu extends React.Component<IAdminMenuProps, IAdminMenuState> {
+export default class AdminMenu extends React.PureComponent<IAdminMenuProps, IAdminMenuState> {
   private LOG_SOURCE: string = "AdminMenu";
   private _tabOptions: IDropdownOption[] = [
     { key: "Category", text: strings.AdminMenuCategoryLabel },
@@ -54,15 +51,9 @@ export default class AdminMenu extends React.Component<IAdminMenuProps, IAdminMe
     this.state = new AdminMenuState(currentCDN);
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<IAdminMenuProps>, nextState: Readonly<IAdminMenuState>) {
-    if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
-      return false;
-    return true;
-  }
-
   private selectCDN = async (item: PivotItem): Promise<void> => {
     if (this.props.loadingCdn) return;
-    let retVal = await this.props.selectCDN(item.props.itemKey);
+    await this.props.selectCDN(item.props.itemKey);
   }
 
   private editCdn = async (cdn: ICDN): Promise<void> => {
@@ -172,6 +163,7 @@ export default class AdminMenu extends React.Component<IAdminMenuProps, IAdminMe
     window.open(`https://docs.microsoft.com/${params.defaultLanguage}/office365/customlearning/custom_successcenter`, "_blank");
   }
 
+  //TODO: Missing delete icon and help/question icon
   public render(): React.ReactElement<IAdminMenuProps> {
     const _overflowItems: ICommandBarItemProps[] = [
       { key: 'addContentPack', text: strings.AdminAddCdnLabel, onClick: this.toggleAdd, iconProps: { iconName: 'CloudAdd' } },
@@ -202,30 +194,28 @@ export default class AdminMenu extends React.Component<IAdminMenuProps, IAdminMe
                 );
               })}
             </Pivot>
-            <Button buttonType={ButtonTypes.Delete}
+            <HOOButton type={HOOButtonType.Icon}
+              iconName=""
+              iconTitle={strings.AdminDeleteCdnLabel}
               onClick={this.removeCdn}
               disabled={this.props.currentCDNId === "Default"}
-              selected={this.state.showEditCDN}
-              title={strings.AdminDeleteCdnLabel}
-            />
-            <Button buttonType={ButtonTypes.Edit}
+              rootElementAttributes={{ className: (this.state.showEditCDN) ? "selected" : "" }} />
+            <HOOButton type={HOOButtonType.Icon}
+              iconName="icon-pen-regular"
+              iconTitle={strings.AdminEditCdnLabel}
               onClick={this.toggleEdit}
               disabled={this.props.currentCDNId === "Default"}
-              selected={this.state.showEditCDN}
-              title={strings.AdminEditCdnLabel}
-            />
+              rootElementAttributes={{ className: (this.state.showEditCDN) ? "selected" : "" }} />
             <CommandBar
               items={[]}
               overflowItems={_overflowItems}
               overflowButtonProps={overflowProps}
               styles={menuStyles}
             />
-            <Button buttonType={ButtonTypes.Question}
-              onClick={this.openDocumentation}
-              disabled={false}
-              selected={false}
-              title={strings.DocumentationLinkLabel}
-            />
+            <HOOButton type={HOOButtonType.Icon}
+              iconName=""
+              iconTitle={strings.DocumentationLinkLabel}
+              onClick={this.openDocumentation}/>
             <div className="adm-header-spin">
               {this.props.working &&
                 <Spinner label={strings.AdminSavingNotification} labelPosition="right" />

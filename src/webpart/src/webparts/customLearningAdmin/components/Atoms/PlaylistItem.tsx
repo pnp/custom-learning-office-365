@@ -1,9 +1,8 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
+import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
+import isEqual from "lodash-es/isEqual";
 
-import isEqual from "lodash/isEqual";
-import Button from "../../../common/components/Atoms/Button";
-import { ButtonTypes } from "../../../common/models/Enums";
 import * as strings from "M365LPStrings";
 
 export interface IPlaylistItemProps {
@@ -40,6 +39,7 @@ export default class PlaylistItem extends React.Component<IPlaylistItemProps, IP
     return true;
   }
 
+  //TODO: Missing icon name for delete - line 58
   public render(): React.ReactElement<IPlaylistItemProps> {
     try {
       // Setting title for aria-label and title
@@ -53,10 +53,13 @@ export default class PlaylistItem extends React.Component<IPlaylistItemProps, IP
           <span className="pl-edit-title" onClick={this.props.onClick}>{this.props.playlistTitle}</span>
           <span className="pl-edit-actions">
             {this.props.playlistEditable &&
-              <Button title={strings.PlaylistItemPlaylistDelete} buttonType={ButtonTypes.Delete} onClick={this.props.onDelete} disabled={false} />
+              <HOOButton type={HOOButtonType.Icon} iconName="" onClick={this.props.onDelete} label={strings.PlaylistItemPlaylistDelete} />
             }
             {!this.props.playlistEditable &&
-              <Button title={`${(this.props.playlistVisible) ? strings.Hide : strings.Show} ${strings.PlaylistItemPlaylistHeadingLabel}`} buttonType={(this.props.playlistVisible) ? ButtonTypes.Show : ButtonTypes.Hide} onClick={() => { this.props.onVisible(this.props.playlistId, this.props.playlistVisible); }} disabled={false} />
+              <HOOButton type={HOOButtonType.Icon} 
+                iconName={(this.props.playlistVisible) ? "icon-eye-filled" : "icon-eye-off-filled"} 
+                iconTitle={`${(this.props.playlistVisible) ? strings.Hide : strings.Show} ${strings.PlaylistItemPlaylistHeadingLabel}`} 
+                onClick={() => { this.props.onVisible(this.props.playlistId, this.props.playlistVisible); }} />
             }
           </span>
         </div>

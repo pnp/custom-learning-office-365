@@ -1,8 +1,8 @@
 import { Logger, LogLevel } from "@pnp/logging";
 import { HttpClient } from "@microsoft/sp-http";
-import { IContentPack, IManifest, ICacheConfig, ICDN, ILocale, ICustomCDN, ICategory } from "../models/Models";
+import { IContentPack, IManifest, ICacheConfig, ICDN, ILocale, ICustomCDN } from "../models/Models";
 import { WebPartContext } from "@microsoft/sp-webpart-base";
-import forEach from "lodash/forEach";
+import forEach from "lodash-es/forEach";
 
 export class Parameters {
   private LOG_SOURCE: string = "Parameters";

@@ -1,4 +1,4 @@
-import { getGUID } from "@pnp/common";
+import { getGUID } from "@pnp/core";
 import { params } from "../services/Parameters";
 import { CustomWebpartSource } from './Enums';
 
@@ -188,9 +188,9 @@ export interface IPlaylist {
   Title: string | IMultilingualString[];
   Image: string | IMultilingualString[];
   LevelId: string;
-  LevelValue: IMetadataEntry;
+  LevelValue?: IMetadataEntry | null;
   AudienceId: string;
-  AudienceValue: IMetadataEntry;
+  AudienceValue?: IMetadataEntry | null;
   TechnologyId: string;
   SubjectId: string;
   Source: string;
@@ -207,9 +207,9 @@ export class Playlist implements IPlaylist {
     public Title: string | IMultilingualString[] = [new MultilingualString()],
     public Image: string | IMultilingualString[] = [new MultilingualString()],
     public LevelId: string = "",
-    public LevelValue: IMetadataEntry = null,
+    public LevelValue: IMetadataEntry | null = null,
     public AudienceId: string = "",
-    public AudienceValue: IMetadataEntry = null,
+    public AudienceValue: IMetadataEntry | null = null,
     public TechnologyId: string = "",
     public SubjectId: string = "",
     public Source: string = CustomWebpartSource.Tenant,
@@ -291,16 +291,16 @@ export class FilterValue implements IFilterValue {
 }
 
 export interface IHistoryItem {
-  Id: string;
-  Name: string;
-  Template: string;
+  Id: string | null;
+  Name: string | null;
+  Template: string | null;
 }
 
 export class HistoryItem implements IHistoryItem {
   constructor(
-    public Id: string = null,
-    public Name: string = null,
-    public Template: string = null
+    public Id: string | null = null,
+    public Name: string | null = null,
+    public Template: string | null = null
   ) { }
 }
 

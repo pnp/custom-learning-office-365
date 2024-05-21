@@ -1,10 +1,10 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
-import isEqual from "lodash/isEqual";
-import forEach from "lodash/forEach";
-import find from "lodash/find";
-import cloneDeep from "lodash/cloneDeep";
+import isEqual from "lodash-es/isEqual";
+import forEach from "lodash-es/forEach";
+import find from "lodash-es/find";
+import cloneDeep from "lodash-es/cloneDeep";
 import { Dropdown, IDropdownOption, Label, TextField, TooltipHost, ITooltipHostStyles } from 'office-ui-fabric-react';
 
 import { IPlaylist, ICategory, ITechnology, IMetadataEntry, IMultilingualString } from "../../../common/models/Models";

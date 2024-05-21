@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
-import isEqual from "lodash/isEqual";
+import isEqual from "lodash-es/isEqual";
 import { Fabric, Shimmer, ShimmerElementType, mergeStyles } from 'office-ui-fabric-react';
 
 import { params } from "../../services/Parameters";

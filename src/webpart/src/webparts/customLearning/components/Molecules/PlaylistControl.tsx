@@ -1,15 +1,13 @@
 import * as React from "react";
 
-import isEqual from "lodash/isEqual";
-import indexOf from "lodash/indexOf";
+import isEqual from "lodash-es/isEqual";
+import indexOf from "lodash-es/indexOf";
 import { Logger, LogLevel } from "@pnp/logging";
-import { Dropdown, IDropdownOption, Icon } from "office-ui-fabric-react";
+import { IDropdownOption, Icon } from "office-ui-fabric-react";
+import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
 
-import styles from "../../../common/CustomLearningCommon.module.scss";
 import * as strings from "M365LPStrings";
-import { ButtonTypes } from "../../../common/models/Enums";
 import { IAsset } from "../../../common/models/Models";
-import Button from "../../../common/components/Atoms/Button";
 
 export interface IPlaylistControlProps {
   currentAsset: IAsset;
@@ -108,13 +106,14 @@ export default class PlaylistControl extends React.Component<IPlaylistControlPro
     });
   }
 
+  //TODO: Missing icon name for playlist full screen - line 136
   public render(): React.ReactElement<IPlaylistControlProps> {
     if (!this.props.currentAsset) return null;
     try {
       return (
         <div data-component={this.LOG_SOURCE} className="playerctrl">
           <span className="playerctrl-prev">
-            <Button className={styles.primaryButton} buttonType={ButtonTypes.ChevronLeft} onClick={this.playlistBack} disabled={this.disableBack()} postTextLabel={strings.PlaylistPrevious} title={strings.PlaylistPrevious} />
+            <HOOButton type={HOOButtonType.Primary} iconName="icon-chevron-left-regular" onClick={this.playlistBack} disabled={this.disableBack()} label={strings.PlaylistPrevious} iconTitle={strings.PlaylistPrevious}/>
           </span>
           <span className="playerctrl-title">
             <div className="fuif-dd">
@@ -131,10 +130,10 @@ export default class PlaylistControl extends React.Component<IPlaylistControlPro
                 })}
               </div>
             </div>
-            <Button buttonType={ButtonTypes.FullScreen} onClick={this.props.renderPanel} disabled={false} title={strings.PlaylistFullScreen} />
+            <HOOButton type={HOOButtonType.Icon} iconName="" iconTitle={strings.PlaylistFullScreen} onClick={this.props.renderPanel}/>
           </span>
           <span className="playerctrl-next">
-            <Button className={styles.primaryButton} buttonType={ButtonTypes.ChevronRight} onClick={this.playlistAdvance} disabled={this.disableAdvance()} preTextLabel={strings.PlaylistNext} title={strings.PlaylistNext} />
+          <HOOButton type={HOOButtonType.Primary} iconRight="icon-chevron-right-regular" onClick={this.playlistAdvance} disabled={this.disableAdvance()} label={strings.PlaylistNext} iconTitle={strings.PlaylistNext}/>
           </span>
         </div>
       );

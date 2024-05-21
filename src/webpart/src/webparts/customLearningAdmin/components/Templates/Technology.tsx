@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
-import isEqual from "lodash/isEqual";
+import isEqual from "lodash-es/isEqual";
 import { ITechnology, ISubject } from "../../../common/models/Models";
 import TechnologyHeading from "../Atoms/TechnologyHeading";
 import TechnologySubjectEdit from "../Atoms/TechnologySubjectEdit";

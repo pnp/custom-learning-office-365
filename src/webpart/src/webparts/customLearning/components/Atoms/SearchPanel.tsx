@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
-import isEqual from "lodash/isEqual";
+import isEqual from "lodash-es/isEqual";
 import { SearchBox, ISearchBox } from 'office-ui-fabric-react';
 import SearchResults from "../../../common/components/Molecules/SearchResults";
 import { ISearchResult } from "../../../common/models/Models";

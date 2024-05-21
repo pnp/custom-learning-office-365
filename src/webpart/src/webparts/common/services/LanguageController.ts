@@ -1,6 +1,6 @@
 import { Logger, LogLevel } from "@pnp/logging";
-import forEach from 'lodash/forEach';
-import find from "lodash/find";
+import forEach from 'lodash-es/forEach';
+import find from "lodash-es/find";
 
 import { params } from "./Parameters";
 import { IDataService, DataService } from "./DataService";
@@ -30,12 +30,10 @@ export default class LanguageController implements ILanguageController {
       this.dataServices.push({ code: params.defaultLanguage, dataService: new DataService(this._cdn, params.defaultLanguage), cacheConfig: null });
       await this.dataServices[0].dataService.init();
       if (params.multilingualEnabled) {
-        //this.dataServices[0].dataService.isReady().then(() => {
         forEach(params.configuredLanguages, (language, idx) => {
           if (idx > 0)
             this.dataServices.push({ code: language.code, dataService: new DataService(this._cdn, language.code, this.dataServices[0].dataService.customization), cacheConfig: null });
         });
-        //});
       }
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (init) - ${err}`, LogLevel.Error);

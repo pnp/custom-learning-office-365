@@ -1,15 +1,15 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
-import isEqual from "lodash/isEqual";
-import filter from "lodash/filter";
-import includes from "lodash/includes";
-import concat from "lodash/concat";
-import uniqBy from "lodash/uniqBy";
-import sortBy from "lodash/sortBy";
-import find from "lodash/find";
-import cloneDeep from "lodash/cloneDeep";
-import forEach from "lodash/forEach";
+import isEqual from "lodash-es/isEqual";
+import filter from "lodash-es/filter";
+import includes from "lodash-es/includes";
+import concat from "lodash-es/concat";
+import uniqBy from "lodash-es/uniqBy";
+import sortBy from "lodash-es/sortBy";
+import find from "lodash-es/find";
+import cloneDeep from "lodash-es/cloneDeep";
+import forEach from "lodash-es/forEach";
 
 import { Pivot, PivotItem, SearchBox, CommandBarButton } from "office-ui-fabric-react";
 

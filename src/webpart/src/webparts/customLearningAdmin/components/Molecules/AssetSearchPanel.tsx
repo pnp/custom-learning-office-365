@@ -1,10 +1,10 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
-import isEqual from "lodash/isEqual";
-import cloneDeep from "lodash/cloneDeep";
-import find from "lodash/find";
-import includes from "lodash/includes";
+import isEqual from "lodash-es/isEqual";
+import cloneDeep from "lodash-es/cloneDeep";
+import find from "lodash-es/find";
+import includes from "lodash-es/includes";
 
 import { PrimaryButton, Label } from "office-ui-fabric-react";
 

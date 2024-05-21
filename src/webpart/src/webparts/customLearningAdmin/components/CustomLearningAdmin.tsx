@@ -1,12 +1,12 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
-import isEqual from "lodash/isEqual";
-import cloneDeep from "lodash/cloneDeep";
-import find from "lodash/find";
-import pull from "lodash/pull";
-import remove from "lodash/remove";
-import findIndex from "lodash/findIndex";
+import isEqual from "lodash-es/isEqual";
+import cloneDeep from "lodash-es/cloneDeep";
+import find from "lodash-es/find";
+import pull from "lodash-es/pull";
+import remove from "lodash-es/remove";
+import findIndex from "lodash-es/findIndex";
 import { MessageBar, MessageBarType, Link } from "office-ui-fabric-react";
 
 import { params } from "../../common/services/Parameters";
