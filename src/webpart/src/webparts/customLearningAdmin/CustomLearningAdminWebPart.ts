@@ -7,10 +7,11 @@ import remove from "lodash-es/remove";
 import forEach from "lodash-es/forEach";
 import { Version } from '@microsoft/sp-core-library';
 import { BaseClientSideWebPart } from "@microsoft/sp-webpart-base";
+import { ThemeProvider } from '@microsoft/sp-component-base';
 import { Logger, ConsoleListener, LogLevel } from '@pnp/logging';
 import { symset } from '@n8d/htwoo-react/SymbolSet';
 import { SPFxThemes, ISPFxThemes } from '@n8d/htwoo-react/SPFxThemes';
-import { ThemeProvider } from '@microsoft/sp-component-base';
+import mlpicons from "../../../../../../styleguide/source/images/mlp-icons.svg";
 
 import { params } from "../common/services/Parameters";
 import * as strings from "M365LPStrings";
@@ -60,7 +61,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
       Logger.activeLogLevel = LogLevel.Info;
 
       //Initialize hTWOo Icons
-      await symset.initSymbols();
+      await symset.initSymbols(mlpicons);
 
       //Save context for PnPSPFxReactFilePicker
       params.context = this.context;

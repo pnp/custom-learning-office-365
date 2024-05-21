@@ -1,11 +1,9 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
-
-import isEqual from "lodash-es/isEqual";
 import filter from "lodash-es/filter";
-import Button from "../../../common/components/Atoms/Button";
-import { ButtonTypes, FilterTypes } from "../../../common/models/Enums";
-import TextButton from "../../../common/components/Atoms/TextButton";
+import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
+
+import { FilterTypes } from "../../../common/models/Enums";
 import { IFilter, IFilterValue } from "../../../common/models/Models";
 import * as strings from "M365LPStrings";
 
@@ -25,18 +23,12 @@ export class FilterPanelState implements IFilterPanelState {
   ) { }
 }
 
-export default class FilterPanel extends React.Component<IFilterPanelProps, IFilterPanelState> {
+export default class FilterPanel extends React.PureComponent<IFilterPanelProps, IFilterPanelState> {
   private LOG_SOURCE: string = "FilterPanel";
 
   constructor(props) {
     super(props);
     this.state = new FilterPanelState();
-  }
-
-  public shouldComponentUpdate(nextProps: Readonly<IFilterPanelProps>, nextState: Readonly<IFilterPanelState>) {
-    if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
-      return false;
-    return true;
   }
 
   public showFilter = (): void => {
@@ -57,7 +49,7 @@ export default class FilterPanel extends React.Component<IFilterPanelProps, IFil
               {strings.FilterPanelHeader}
             </div>
             <div className="sldpnl-toggle">
-              <Button buttonType={(this.state.show) ? ButtonTypes.ChevronUp : ButtonTypes.ChevronDown} disabled={false} onClick={() => { this.showFilter(); }} />
+              <HOOButton type={HOOButtonType.Icon} iconName={(this.state.show) ? "icon-chevron-up-regular" : "icon-chevron-down-regular"} disabled={false} onClick={() => { this.showFilter(); }} />
             </div>
           </div>
           <div className="sldpnl-content">
@@ -67,7 +59,10 @@ export default class FilterPanel extends React.Component<IFilterPanelProps, IFil
                 <td className="selector-data">
                   {filterValuesAudience.map((audience) => {
                     return (
-                      <TextButton onClick={() => { this.props.setFilter(audience); }} label={audience.Value} selected={this.props.filter.Audience.indexOf(audience.Key) > -1} />
+                      <HOOButton type={HOOButtonType.Standard}
+                        label={audience.Value}
+                        onClick={() => { this.props.setFilter(audience); }}
+                        rootElementAttributes={{ className: (this.props.filter.Audience.indexOf(audience.Key) > -1) ? "selected" : "" }} />
                     );
                   })}
                 </td>
@@ -77,7 +72,10 @@ export default class FilterPanel extends React.Component<IFilterPanelProps, IFil
                 <td className="selector-data">
                   {filterValuesLevel.map((level) => {
                     return (
-                      <TextButton onClick={() => { this.props.setFilter(level); }} label={level.Value} selected={this.props.filter.Level.indexOf(level.Key) > -1} />
+                      <HOOButton type={HOOButtonType.Standard}
+                        onClick={() => { this.props.setFilter(level); }}
+                        label={level.Value}
+                        rootElementAttributes={{ className: (this.props.filter.Level.indexOf(level.Key) > -1) ? "selected" : "" }} />
                     );
                   })}
                 </td>

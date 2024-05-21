@@ -34,6 +34,7 @@ import { params } from "../common/services/Parameters";
 import { AppInsightsService } from "../common/services/AppInsightsService";
 import { symset } from '@n8d/htwoo-react/SymbolSet';
 import { SPFxThemes, ISPFxThemes } from '@n8d/htwoo-react/SPFxThemes';
+import mlpicons from "../../../../../../styleguide/source/images/mlp-icons.svg";
 
 import * as strings from "M365LPStrings";
 import ShimmerViewer from "../common/components/Atoms/ShimmerViewer";
@@ -104,7 +105,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
       Logger.activeLogLevel = LogLevel.Info;
 
       //Initialize hTWOo Icons
-      await symset.initSymbols();
+      await symset.initSymbols(mlpicons);
 
       //Save context
       params.context = this.context;
