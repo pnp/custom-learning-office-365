@@ -39,7 +39,6 @@ export default class PlaylistItem extends React.Component<IPlaylistItemProps, IP
     return true;
   }
 
-  //TODO: Missing icon name for delete - line 58
   public render(): React.ReactElement<IPlaylistItemProps> {
     try {
       // Setting title for aria-label and title
@@ -53,7 +52,7 @@ export default class PlaylistItem extends React.Component<IPlaylistItemProps, IP
           <span className="pl-edit-title" onClick={this.props.onClick}>{this.props.playlistTitle}</span>
           <span className="pl-edit-actions">
             {this.props.playlistEditable &&
-              <HOOButton type={HOOButtonType.Icon} iconName="" onClick={this.props.onDelete} label={strings.PlaylistItemPlaylistDelete} />
+              <HOOButton type={HOOButtonType.Icon} iconName="icon-delete-regular" onClick={this.props.onDelete} label={strings.PlaylistItemPlaylistDelete} />
             }
             {!this.props.playlistEditable &&
               <HOOButton type={HOOButtonType.Icon} 

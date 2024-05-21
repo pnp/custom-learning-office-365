@@ -91,7 +91,6 @@ export default class CategoryHeading extends React.PureComponent<ICategoryHeadin
     }
   }
 
-  //TODO: Need an icon for "Add" - line 136,153 and "Delete" - line 114
   private renderButtons = () => {
     let retVal = [];
     try {
@@ -104,7 +103,7 @@ export default class CategoryHeading extends React.PureComponent<ICategoryHeadin
           );
         retVal.push(
           <HOOButton type={HOOButtonType.Icon}
-            iconName=""
+            iconName="icon-delete-regular"
             iconTitle={strings.DeleteButton}
             onClick={this.onDelete}
             disabled={!this.props.canDelete} />
@@ -134,7 +133,7 @@ export default class CategoryHeading extends React.PureComponent<ICategoryHeadin
         if (this.props.addPlaylist) {
           retVal.push(
             <HOOButton type={HOOButtonType.Icon}
-            iconName=""
+            iconName="icon-add-regular"
             iconTitle={strings.CategoryHeadingAddPlaylistToSubcategory}
             onClick={this.props.addPlaylist} />
           );

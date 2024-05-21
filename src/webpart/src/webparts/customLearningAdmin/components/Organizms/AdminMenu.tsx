@@ -163,7 +163,6 @@ export default class AdminMenu extends React.PureComponent<IAdminMenuProps, IAdm
     window.open(`https://docs.microsoft.com/${params.defaultLanguage}/office365/customlearning/custom_successcenter`, "_blank");
   }
 
-  //TODO: Missing delete icon and help/question icon
   public render(): React.ReactElement<IAdminMenuProps> {
     const _overflowItems: ICommandBarItemProps[] = [
       { key: 'addContentPack', text: strings.AdminAddCdnLabel, onClick: this.toggleAdd, iconProps: { iconName: 'CloudAdd' } },
@@ -195,7 +194,7 @@ export default class AdminMenu extends React.PureComponent<IAdminMenuProps, IAdm
               })}
             </Pivot>
             <HOOButton type={HOOButtonType.Icon}
-              iconName=""
+              iconName="icon-delete-regular"
               iconTitle={strings.AdminDeleteCdnLabel}
               onClick={this.removeCdn}
               disabled={this.props.currentCDNId === "Default"}
@@ -213,7 +212,7 @@ export default class AdminMenu extends React.PureComponent<IAdminMenuProps, IAdm
               styles={menuStyles}
             />
             <HOOButton type={HOOButtonType.Icon}
-              iconName=""
+              iconName="icon-chat-help-regular"
               iconTitle={strings.DocumentationLinkLabel}
               onClick={this.openDocumentation}/>
             <div className="adm-header-spin">
