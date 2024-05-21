@@ -90,6 +90,7 @@ We encourage you to install the Microsoft 365 learning pathways solution using t
 
 ### SharePoint Framework Version
 
+
 ![drop](https://img.shields.io/badge/drop-1.12.1-green.svg)
 
 The Microsoft Custom Learning Web Part is build using the [SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview). To manually install and configure the web part and site collection you will need to complete the steps outlined in the [Manually installing and configuring Microsoft 365 learning pathways Instructions](./installation/README.md)
