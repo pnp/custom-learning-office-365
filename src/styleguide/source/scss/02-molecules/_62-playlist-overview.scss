@@ -51,6 +51,7 @@
 
   margin-top: 0;
   margin-bottom: 0;
+
 }
 
 .plov-desc {
@@ -64,6 +65,11 @@
   font-weight: 600;
 
   margin-top: 1em;
+  
+  .plov-title{
+    font-weight: 400;
+  }
+
 }
 
 
@@ -158,6 +164,7 @@
     margin-left: -8px;
     padding-right: 8px;
     padding-left: 8px;
+    grid-template-columns: 1fr;
 
     &:hover {
       text-decoration: none;
