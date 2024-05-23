@@ -1,0 +1,17 @@
+<div class="tmp-hidden">
+    <!--- ▼▼▼ This DIV below is just to show a background and is not part of the dialog framework ▼▼▼ -->
+    <div
+        style="height: 100vh; width: 100vw; background: url(../../images/background-2.jpg) no-repeat center center fixed; background-size: cover;">
+        <!--- ▲▲▲ This DIV below is just to show a background and is not part of the dialog framework ▲▲▲ -->
+        <dialog class="hoo-mdldialog-outer is-error is-visible">
+            <div class="hoo-mdldialog" style="--lqdDialogHeight: 30vh; --lqdDialogWidth: 40vw;">
+                {{> molecules-dialog-header title=modalDialogTitle iconAction=iconAction }}
+                {{#> molecules-dialog-content}}
+                    {{ content }}
+                {{/molecules-dialog-content}}
+            </div>
+        </dialog>
+        <!--- ▼▼▼ This DIV below is just to show a background and is not part of the dialog framework ▼▼▼ -->
+    </div>
+    <!--- ▲▲▲ This DIV below is just to show a background and is not part of the dialog framework ▲▲▲ -->
+</div>

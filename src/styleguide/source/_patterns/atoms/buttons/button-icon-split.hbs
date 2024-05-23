@@ -1,0 +1,16 @@
+{{#buttonCmd }}
+<div class="hoo-buttonicon-split" aria-haspopup="true">
+    <button class="hoo-buttonicon-split" aria-haspopup="true"{{#if props}} {{{props}}}{{/if}}>
+        <span class="hoo-button-icon" aria-hidden="true"> {{> atoms-icon iconname=iconAction }} </span>
+        {{!-- When no drop down items are shown there is not need to show the dropdown --}}
+    </button>
+    <button class="hoo-buttonicon-split hoo-buttonicon-flyout" aria-haspopup="true">
+        {{!-- When no drop down items are shown there is not need to show the dropdown --}}
+        <span class="hoo-button-icon hoo-buttonchevron"> {{> atoms-icon iconname=iconDown }} </span>
+    </button>
+    {{!-- When no drop down items are shown there is not need to show the dropdown --}}
+    {{#contextMenu}}
+    {{> atoms-menu-flyouts }}
+    {{/contextMenu}}
+</div>
+{{/buttonCmd }}

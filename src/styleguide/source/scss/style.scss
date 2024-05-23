@@ -1,6 +1,8 @@
 @use 'sass:meta';
 @use '../../../node_modules/@n8d/htwoo-core/lib/sass/01-atoms/icons/index' as hooIcons;
 @use '../../../node_modules/@n8d/htwoo-core/lib/sass/01-atoms/buttons/index' as hooButtons;
+@use '../../../node_modules/@n8d/htwoo-core/lib/sass/02-molecules/dialogs/index' as hooMoleculesDialogs;
+@use '../../../node_modules/@n8d/htwoo-core/lib/sass/03-organism/dialog/index' as hooOrganismsDialogs;
 
 
 // Core stuff

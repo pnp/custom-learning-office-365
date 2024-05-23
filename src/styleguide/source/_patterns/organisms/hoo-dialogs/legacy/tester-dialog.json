@@ -1,0 +1,7 @@
+{
+    "modalDialogTitle": "Modal Dialog Title",
+    "button":{
+        "iconname": "icon-close"
+    },    
+    "content": "This is the modal dialog content"
+}

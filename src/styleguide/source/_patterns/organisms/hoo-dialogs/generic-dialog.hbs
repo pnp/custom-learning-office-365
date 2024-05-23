@@ -1,0 +1,117 @@
+<h1>Dialog</h1>
+
+<p>The following buttons launch both possible option of Dialogs.</p>
+
+{{#dialog}}
+{{> atoms-button-primary }}
+{{/dialog}}
+{{#modal-dialog}}
+{{> atoms-button-primary }}
+{{/modal-dialog}}
+
+<ul>
+    <li><strong>Dialog:</strong> Shows an absolute positioned dialog on the screen</li>
+    <li><strong>Modal:</strong> Shows an absolute fixed dialog on the screen, which has a backdrop to chancel any
+        interference with the underlying content</li>
+</ul>
+
+Through the change to regular <code>&lt;dialog&gt;</code> elements greater flexibility could be achieved.
+See <a href="">MDN Dialog</a>
+
+<dialog id="myDialog" class="hoo-dlg statusbar">
+    {{> atoms-icon iconname='icon-info-filled'}}
+    <div class="hoo-dlg-content">This dialog comes without a backdrop and can be used for a
+        statusbar for example.</div>
+    <div class="hoo-dlg-actions">
+        <button id="closer-dlg" autofocus>Close</button>
+    </div>
+</dialog>
+<dialog id="myDialog-1" class="hoo-dlg" resize="true">
+    <button id="closer-mdl" autofocus>Close</button>
+    <p>By clicking on the buttons you get a demonstation of possible options of the dialog.</p>
+    <p>To change the dialog appearance you can pass in the following css variables via the style attribute:</p>
+
+    <ul>
+        <li>
+            <code>style="--hoo-dlg-height: 30vh"</code> - result in the dialog with 30% of the viewport height
+        </li>
+        <li>
+            <code>style="--hoo-dlg-width: 30vw"</code> - result in the dialog with 30% of the viewport width
+        </li>
+    </ul>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 1rem; margin: 1rem;">
+        {{#each actions}}
+        {{#this}}
+        {{> atoms-button-standard }}
+        {{/this}}
+        {{/each}}
+    </div>
+</dialog>
+<script>
+    if (window.location !== window.parent.location) {
+    let sidebarLeft = document.querySelector('#btn-sidebar-left');
+
+    sidebarLeft.addEventListener('click', (event) => {
+
+        let dialog = event.target.closest('.hoo-dlg');
+
+        dialog.classList = "hoo-dlg";
+        dialog.classList.remove('topbar', 'bottombar', 'sidebar', 'fullscreen', 'left', 'right');
+        dialog.classList.add('sidebar', 'left');
+
+        event.preventDefault();
+
+    })
+
+    let sidebarRight = document.querySelector('#btn-sidebar-right');
+
+    sidebarRight.addEventListener('click', (event) => {
+
+        let dialog = event.target.closest('.hoo-dlg');
+        dialog.classList.remove('topbar', 'bottombar', 'sidebar', 'fullscreen', 'left', 'right');
+        dialog.classList.add('sidebar', 'right');
+
+        event.preventDefault();
+
+    })
+
+    let topbar = document.querySelector('#btn-topbar');
+    topbar.addEventListener('click', (event) => {
+
+        let dialog = event.target.closest('.hoo-dlg');
+
+        dialog.classList.remove('topbar', 'bottombar', 'sidebar', 'fullscreen', 'left', 'right');
+        dialog.classList.add('topbar');
+
+        event.preventDefault();
+
+    })
+
+    let bottombar = document.querySelector('#btn-bottombar');
+
+    bottombar.addEventListener('click', (event) => {
+
+        let dialog = event.target.closest('.hoo-dlg');
+
+        dialog.classList.remove('topbar', 'bottombar', 'sidebar', 'fullscreen', 'left', 'right');
+        dialog.classList.add('bottombar');
+
+        event.preventDefault();
+
+    })
+
+    let fullscreen = document.querySelector('#btn-fullscreen');
+
+    fullscreen.addEventListener('click', (event) => {
+
+        let dialog = event.target.closest('.hoo-dlg');
+
+        dialog.classList.remove('topbar', 'bottombar', 'sidebar', 'fullscreen', 'left', 'right');
+        dialog.classList.add('fullscreen');
+
+        event.preventDefault();
+
+    })
+    }
+
+</script>

@@ -1,0 +1,11 @@
+<div class="hoo-buttonsplit-primary"{{#if props}} {{{props}}}{{/if}}>
+    <button class="hoo-buttonsplit-standard" {{#if disabled}}disabled="true" aria-disabled="true"{{/if}} >
+        <span class="hoo-button-label">Standard</span>
+    </button>
+    <button class="hoo-buttonsplit-carret" {{#if disabled}}disabled="true" aria-disabled="true"{{/if}} >
+        <span class="hoo-button-label">{{> atoms-icon iconname="icon-arrow-down" }}</span>
+    </button>
+    {{#contextMenu}}
+    {{> atoms-menu-flyouts }}
+    {{/contextMenu}}
+</div>

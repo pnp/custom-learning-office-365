@@ -1,0 +1,62 @@
+<dialog id="dlgsb{{ alignment }}" class="hoo-dlg sidebar {{ alignment }}">
+    {{> molecules-dialog-header }}
+    {{#> molecules-dialog-content }}
+    <p>This dialog is a sidebar on the {{ alignment }}. That automatically scales with the content.</p>
+    <p>To make the width fixed add the CSS variable <code>--hoo-dlg-width</code></p>
+    <h2>Try to resize the sidebar</h2>
+    {{> molecules-helper-dlg-resize-vert }}
+    {{/molecules-dialog-content }}
+</dialog>
+<!--- ⬇️ Script below is just for demo purposes ⬇️ -->
+<script>
+
+    let dlg = document.querySelector('#dlgsb{{ alignment }}');
+
+    if (dlg !== undefined && dlg.parentElement.className === 'dlg-background') {
+
+        dlg ? dlg.showModal() : dlg;
+
+        const resize = (event) => {
+
+            console.debug(event.currentTarget.id);
+
+            let newSize = null;
+
+            switch (event.currentTarget.id) {
+                case 'width-unset':
+                    break;
+                case 'width-20vw':
+                    newSize = '20vw';
+                    break;
+                case 'width-50vw':
+                    newSize = '50vw';
+                    break;
+                case 'width-75vw':
+                    newSize = '75vw';
+                    break;
+                default:
+                    break;
+            }
+
+            console.debug(dlg, newSize);
+
+            if (dlg && newSize) {
+
+                console.debug(' --- Update ....')
+                dlg.style.setProperty('--hoo-dlg-width', newSize);
+
+            } else {
+                if (newSize === null) {
+                    dlg.style.setProperty('--hoo-dlg-width', null);
+                }
+            }
+        }
+
+        let resizers = document.querySelectorAll("button[id^='width']");
+
+        console.debug(resizers);
+
+        resizers.forEach(resizer => resizer.addEventListener('click', resize));
+    }
+
+</script>

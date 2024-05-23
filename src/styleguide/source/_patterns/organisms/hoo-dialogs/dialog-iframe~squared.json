@@ -1,0 +1,7 @@
+{
+    "bodyClass": "dlg-background",
+    "iFrame": {
+        "iFrameSource":"../pages-teams-teams-splash-screen/pages-teams-teams-splash-screen.rendered.html",
+        "ratio": " ratio-squared"
+    }   
+}
