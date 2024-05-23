@@ -2,7 +2,7 @@ import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
 import { Templates } from '../../../common/models/Enums';
-import isEqual from "lodash/isEqual";
+import isEqual from "lodash-es/isEqual";
 import { Icon } from "office-ui-fabric-react";
 
 export interface ICategoryItemProps {

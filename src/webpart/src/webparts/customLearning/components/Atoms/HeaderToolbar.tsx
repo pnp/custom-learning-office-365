@@ -1,14 +1,14 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
-import isEqual from "lodash/isEqual";
-import find from "lodash/find";
+import isEqual from "lodash-es/isEqual";
+import find from "lodash-es/find";
+import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
 import { Breadcrumb, IBreadcrumbItem } from 'office-ui-fabric-react';
 
 import { params } from "../../../common/services/Parameters";
 import { IHistoryItem } from "../../../common/models/Models";
-import Button from "../../../common/components/Atoms/Button";
-import { ButtonTypes, Templates, Roles, WebpartMode } from "../../../common/models/Enums";
+import { Templates, Roles, WebpartMode } from "../../../common/models/Enums";
 
 export interface IHeaderToolbarProps {
   template: string;
@@ -113,9 +113,15 @@ export default class HeaderToolbar extends React.Component<IHeaderToolbarProps, 
           }
           {(this.props.webpartMode !== WebpartMode.contentonly) &&
             <div className="header-actions">
-              <Button buttonType={ButtonTypes.Search} onClick={() => { this.props.buttonClick("Search"); }} disabled={false} selected={this.props.panelOpen === "Search"} />
-              <Button buttonType={ButtonTypes.Link} onClick={() => { this.props.buttonClick("Link"); }} disabled={false} selected={this.props.panelOpen === "Link"} />
-              <Button buttonType={ButtonTypes.Gear} onClick={() => { this.props.buttonClick("Gear"); }} disabled={(this.props.template !== Templates.Playlist && params.userRole === Roles.Visitors)} />
+              <HOOButton type={HOOButtonType.Icon} iconName="icon-search-regular" 
+                rootElementAttributes={{className: (this.props.panelOpen === "Search")?"selected":""}} 
+                onClick={() => { this.props.buttonClick("Search"); }}/>
+              <HOOButton type={HOOButtonType.Icon} iconName="icon-link-regular" 
+                rootElementAttributes={{className: (this.props.panelOpen === "Link")?"selected":""}} 
+                onClick={() => { this.props.buttonClick("Link"); }}/>
+              <HOOButton type={HOOButtonType.Icon} iconName="icon-settings-regular" 
+                disabled={(this.props.template !== Templates.Playlist && params.userRole === Roles.Visitors)}
+                onClick={() => { this.props.buttonClick("Gear"); }}/>
             </div>
           }
         </div>

@@ -1,8 +1,8 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
-import isEqual from "lodash/isEqual";
-import find from "lodash/find";
+import isEqual from "lodash-es/isEqual";
+import find from "lodash-es/find";
 import { DefaultButton, PrimaryButton, Icon } from "office-ui-fabric-react";
 
 import { params } from "../../../common/services/Parameters";

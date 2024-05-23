@@ -2,9 +2,9 @@ import * as React from "react";
 import { Logger, LogLevel, ILogEntry, FunctionListener, ConsoleListener } from "@pnp/logging";
 import { sp } from "@pnp/sp";
 
-import isEqual from "lodash/isEqual";
-import cloneDeep from "lodash/cloneDeep";
-import countBy from "lodash/countBy";
+import isEqual from "lodash-es/isEqual";
+import cloneDeep from "lodash-es/cloneDeep";
+import countBy from "lodash-es/countBy";
 import { Label, Link, PrimaryButton, Icon } from "office-ui-fabric-react";
 
 import * as strings from "M365LPStrings";

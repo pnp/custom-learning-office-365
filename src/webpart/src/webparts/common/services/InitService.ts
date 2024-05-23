@@ -1,16 +1,14 @@
 
 import { Logger, LogLevel } from "@pnp/logging";
-import findIndex from "lodash/findIndex";
-import forEach from "lodash/forEach";
-import find from "lodash/find";
+import findIndex from "lodash-es/findIndex";
+import forEach from "lodash-es/forEach";
+import find from "lodash-es/find";
 
-import { sp } from '@pnp/sp';
-import { Web, IWeb } from "@pnp/sp/webs";
+import { spfi, SPFI, SPFx } from "@pnp/sp";
 import "@pnp/sp/site-users";
 import "@pnp/sp/features";
 
 import * as strings from "M365LPStrings";
-import { Environment, EnvironmentType } from '@microsoft/sp-core-library';
 import { ConfigService } from "./ConfigService";
 import { Roles } from "../models/Enums";
 import { params } from "./Parameters";
@@ -31,6 +29,7 @@ export class InitService implements IInitService {
   private LOG_SOURCE: string = "InitService";
   private locals: ILocale[] = [];
   private _cdn: string;
+  private _sp: SPFI;
   private _assetOrigins: string[];
   private _telemetryKey: string;
 
@@ -47,7 +46,8 @@ export class InitService implements IInitService {
   public async initialize(cdn: string): Promise<boolean> {
     let retVal: boolean = false;
     try {
-      this._cdn = cdn;
+      this._cdn = cdn;      
+      this._sp = spfi().using(SPFx(params.context));
       let successLS = await this.loadLearningSite();
       if (successLS) {
         let successCDN = await this.loadCdnBase();
@@ -93,10 +93,10 @@ export class InitService implements IInitService {
   private async loadLanguage(): Promise<boolean> {
     let retVal: boolean = false;
     try {
-      let multilingualOnCheck = await sp.web.features.getById('24611c05-ee19-45da-955f-6602264abaf8').get();
+      let multilingualOnCheck = await this._sp.web.features.getById('24611c05-ee19-45da-955f-6602264abaf8')();
       params.multilingualEnabled = (multilingualOnCheck["odata.null"]) ? false : true;
 
-      let web: IWeb = await sp.web();
+      let web = await this._sp.web();
       let languageId = web["Language"];
       try {
         this.locals = require(`../assets/locals-${languageId}.json`);
@@ -111,7 +111,7 @@ export class InitService implements IInitService {
       params.defaultLanguage = defaultLocale.code.toLowerCase();
       params.configuredLanguages = [defaultLocale];
       if (params.multilingualEnabled) {
-        let defaultLanguageCheck = await sp.web.select("SupportedUILanguageIds").get();
+        let defaultLanguageCheck = await this._sp.web.select("SupportedUILanguageIds")();
         if (defaultLanguageCheck) {
           params.multilingualLanguages = defaultLanguageCheck["SupportedUILanguageIds"];
           retVal = this.loadConfiguredLanguages();
@@ -147,7 +147,7 @@ export class InitService implements IInitService {
   private async loadCdnBase(): Promise<boolean> {
     let retVal: boolean = false;
     try {
-      let defaultCdn = await sp.web.getStorageEntity("MicrosoftCustomLearningCdn");
+      let defaultCdn = await this._sp.web.getStorageEntity("MicrosoftCustomLearningCdn");
       if (defaultCdn.Value) {
         let v2Idx = defaultCdn.Value.indexOf("v2/");
         let defaultCdnBasePath = (v2Idx > -1) ? defaultCdn.Value.replace("v2", `learningpathways/`) : `${defaultCdn.Value}`;
@@ -185,7 +185,7 @@ export class InitService implements IInitService {
   private async loadTelemetryOn(): Promise<boolean> {
     let retVal: boolean = false;
     try {
-      let telemetryOn = await sp.web.getStorageEntity("MicrosoftCustomLearningTelemetryOn");
+      let telemetryOn = await this._sp.web.getStorageEntity("MicrosoftCustomLearningTelemetryOn");
       if (telemetryOn.Value) {
         params.telemetryOn = (telemetryOn.Value.toLowerCase() == "true");
         retVal = true;
@@ -202,7 +202,7 @@ export class InitService implements IInitService {
   private async loadLearningSite(): Promise<boolean> {
     let retVal: boolean = false;
     try {
-      let learningSite = await sp.web.getStorageEntity("MicrosoftCustomLearningSite");
+      let learningSite = await this._sp.web.getStorageEntity("MicrosoftCustomLearningSite");
       if (learningSite.Value) {
         if (learningSite.Value.indexOf("http") === 0) {
           params.learningSiteUrl = learningSite.Value;
@@ -255,9 +255,9 @@ export class InitService implements IInitService {
   private async loadUserRole(): Promise<boolean> {
     let retVal: boolean = false;
     try {
-      let ownersGroup = await sp.web.associatedOwnerGroup();
-      let membersGroup = await sp.web.associatedMemberGroup();
-      let data = await sp.web.currentUser.expand("groups").get<{ IsSiteAdmin: boolean, Groups: { Id: string }[] }>();
+      let ownersGroup = await this._sp.web.associatedOwnerGroup();
+      let membersGroup = await this._sp.web.associatedMemberGroup();
+      let data = await this._sp.web.currentUser.expand("groups")<{ IsSiteAdmin: boolean, Groups: { Id: string }[] }>();
       let ownerIndex: number = findIndex(data.Groups, o => (o["Id"].toString() === ownersGroup.Id.toString()));
       if (data.IsSiteAdmin) {
         ownerIndex = 0;
@@ -279,7 +279,7 @@ export class InitService implements IInitService {
   //Validate that custom playlist and assets SharePoint lists exist based on web part properties
   public async validateLists(owner: boolean): Promise<boolean> {
     try {
-      let configService = new ConfigService(Web(params.learningSiteUrl));
+      let configService = new ConfigService(this._sp);
 
       let listsCheck: Promise<boolean>[] = [];
       listsCheck.push(configService.validateConfig(owner));

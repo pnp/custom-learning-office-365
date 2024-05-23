@@ -1,8 +1,8 @@
 import { Logger, LogLevel } from "@pnp/logging";
-import cloneDeep from "lodash/cloneDeep";
-import find from "lodash/find";
-import map from "lodash/map";
-import forEach from "lodash/forEach";
+import cloneDeep from "lodash-es/cloneDeep";
+import find from "lodash-es/find";
+import map from "lodash-es/map";
+import forEach from "lodash-es/forEach";
 
 import { params } from "../services/Parameters";
 

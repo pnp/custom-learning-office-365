@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
-import isEqual from "lodash/isEqual";
+import isEqual from "lodash-es/isEqual";
 import { TextField, PrimaryButton } from 'office-ui-fabric-react';
 
 import * as strings from "M365LPStrings";

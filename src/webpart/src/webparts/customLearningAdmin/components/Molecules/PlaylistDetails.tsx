@@ -1,11 +1,11 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
-import isEqual from "lodash/isEqual";
-import cloneDeep from "lodash/cloneDeep";
-import findIndex from "lodash/findIndex";
-import find from "lodash/find";
-import forEach from "lodash/forEach";
+import isEqual from "lodash-es/isEqual";
+import cloneDeep from "lodash-es/cloneDeep";
+import findIndex from "lodash-es/findIndex";
+import find from "lodash-es/find";
+import forEach from "lodash-es/forEach";
 
 import { Pivot, PivotItem, Dropdown, IDropdownOption, Icon, PrimaryButton, DefaultButton } from "office-ui-fabric-react";
 
