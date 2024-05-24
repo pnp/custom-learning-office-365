@@ -4,11 +4,14 @@ import { Logger, LogLevel } from "@pnp/logging";
 import isEqual from "lodash-es/isEqual";
 import find from "lodash-es/find";
 import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
-import { Breadcrumb, IBreadcrumbItem } from 'office-ui-fabric-react';
+import HOOBreadcrumb, { IHOOBreadcrumbItem } from "@n8d/htwoo-react/HOOBreadcrumb";
+
 
 import { params } from "../../../common/services/Parameters";
 import { IHistoryItem } from "../../../common/models/Models";
 import { Templates, Roles, WebpartMode } from "../../../common/models/Enums";
+
+
 
 export interface IHeaderToolbarProps {
   template: string;
@@ -61,10 +64,12 @@ export default class HeaderToolbar extends React.Component<IHeaderToolbarProps, 
     return true;
   }
 
-  private onBreadcrumbItemClicked = (event, item: IBreadcrumbItem): void => {
+  private onBreadcrumbItemClicked = (event: React.MouseEvent, key: string | number): void => {
     try {
-      let history = find(this.props.history, { Id: item.key });
-      this.props.historyClick(history.Template, history.Id, true);
+      let history = find(this.props.history, { Id: key });
+      console.log(history);
+      //TODO fix this
+      //this.props.historyClick(history.Template, history.Id, true);
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (onBreadcrumbItemClicked) - ${err}`, LogLevel.Error);
     }
@@ -85,18 +90,20 @@ export default class HeaderToolbar extends React.Component<IHeaderToolbarProps, 
         Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err} -- media matching not supported in browser`, LogLevel.Error);
       }
 
-      let breadcrumbItems: IBreadcrumbItem[] = [];
+      let breadcrumbItems: IHOOBreadcrumbItem[] = [];
       if (this.props.history && this.props.history.length > 0) {
         if (this._breadcrumbMax) {
           if (this.props.history.length > 1) {
-            breadcrumbItems = [{ text: "...", key: this.props.history[this.props.history.length - 2].Id, onClick: this.onBreadcrumbItemClicked }];
-            breadcrumbItems.push({ text: this.props.history[this.props.history.length - 1].Name, key: this.props.history[this.props.history.length - 1].Id, onClick: this.onBreadcrumbItemClicked });
+            //breadcrumbItems = [{ text: "...", key: this.props.history[this.props.history.length - 2].Id, onClick: this.onBreadcrumbItemClicked }];
+            breadcrumbItems = [{ text: "...", key: this.props.history[this.props.history.length - 2].Id }]
+            //breadcrumbItems.push({ text: this.props.history[this.props.history.length - 1].Name, key: this.props.history[this.props.history.length - 1].Id, onClick: this.onBreadcrumbItemClicked });
           } else {
-            breadcrumbItems = [{ text: this.props.history[0].Name, key: this.props.history[0].Id, onClick: this.onBreadcrumbItemClicked }];
+            //breadcrumbItems = [{ text: this.props.history[0].Name, key: this.props.history[0].Id, onClick: this.onBreadcrumbItemClicked }];
+            breadcrumbItems = [{ text: this.props.history[0].Name, key: this.props.history[0].Id }]
           }
         } else {
           breadcrumbItems = this.props.history.map((history) => {
-            return { text: history.Name, key: history.Id, onClick: this.onBreadcrumbItemClicked };
+            return { text: history.Name, key: history.Id };
           });
         }
       }
@@ -104,24 +111,25 @@ export default class HeaderToolbar extends React.Component<IHeaderToolbarProps, 
         <div data-component={this.LOG_SOURCE} className="header-toolbar" ref={this._HeaderToolbar}>
           {((this.props.webpartMode !== WebpartMode.contentonly) || ((this.props.webpartMode === WebpartMode.contentonly) && (breadcrumbItems.length > 1))) &&
             <div className="header-breadcrumb">
-              <Breadcrumb
-                onReduceData={() => { return undefined; }}
-                maxDisplayedItems={4}
-                items={breadcrumbItems}
+              <HOOBreadcrumb
+                breadcrumbItems={breadcrumbItems}
+                onBreadcrumbClick={this.onBreadcrumbItemClicked}
+                seperatorIconName="icon-chevron-right-filled"
+                type={1}
               />
             </div>
           }
           {(this.props.webpartMode !== WebpartMode.contentonly) &&
             <div className="header-actions">
-              <HOOButton type={HOOButtonType.Icon} iconName="icon-search-regular" 
-                rootElementAttributes={{className: (this.props.panelOpen === "Search")?"selected":""}} 
-                onClick={() => { this.props.buttonClick("Search"); }}/>
-              <HOOButton type={HOOButtonType.Icon} iconName="icon-link-regular" 
-                rootElementAttributes={{className: (this.props.panelOpen === "Link")?"selected":""}} 
-                onClick={() => { this.props.buttonClick("Link"); }}/>
-              <HOOButton type={HOOButtonType.Icon} iconName="icon-settings-regular" 
+              <HOOButton type={HOOButtonType.Icon} iconName="icon-search-regular"
+                rootElementAttributes={{ className: (this.props.panelOpen === "Search") ? "selected" : "" }}
+                onClick={() => { this.props.buttonClick("Search"); }} />
+              <HOOButton type={HOOButtonType.Icon} iconName="icon-link-regular"
+                rootElementAttributes={{ className: (this.props.panelOpen === "Link") ? "selected" : "" }}
+                onClick={() => { this.props.buttonClick("Link"); }} />
+              <HOOButton type={HOOButtonType.Icon} iconName="icon-settings-regular"
                 disabled={(this.props.template !== Templates.Playlist && params.userRole === Roles.Visitors)}
-                onClick={() => { this.props.buttonClick("Gear"); }}/>
+                onClick={() => { this.props.buttonClick("Gear"); }} />
             </div>
           }
         </div>

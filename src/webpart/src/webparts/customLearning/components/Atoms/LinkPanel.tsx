@@ -2,7 +2,8 @@ import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
 import isEqual from "lodash-es/isEqual";
-import { TextField, PrimaryButton } from 'office-ui-fabric-react';
+import HOOSearch from "@n8d/htwoo-react/HOOSearch";
+import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
 
 import * as strings from "M365LPStrings";
 
@@ -61,8 +62,16 @@ export default class LinkPanel extends React.Component<ILinkPanelProps, ILinkPan
       return (
         <div data-component={this.LOG_SOURCE} className={`headerpanel fbcolumn ${(this.props.panelOpen.length > 0) ? "show" : ""}`}>
           <div className="copypanel">
-            <TextField defaultValue={this.props.linkUrl} value={this.props.linkUrl} readOnly />
-            <PrimaryButton text={strings.LinkPanelCopyLabel} ariaLabel={strings.LinkPanelCopyLabel} onClick={this.linkClick} />
+            <HOOSearch
+              onChange={function noRefCheck() { }}
+              onSearch={function noRefCheck() { }}
+              placeholder={this.props.linkUrl}
+              value={this.props.linkUrl}
+              disabled={true}
+            />
+            <HOOButton type={HOOButtonType.Primary}
+              label={strings.LinkPanelCopyLabel}
+              onClick={this.linkClick} />
           </div>
         </div>
       );

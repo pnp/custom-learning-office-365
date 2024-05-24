@@ -2,10 +2,12 @@ import * as React from 'react';
 import { Logger, LogLevel } from '@pnp/logging';
 
 import isEqual from "lodash-es/isEqual";
-import { ICategory } from '../../../common/models/Models';
-import CategoryItem from "../Atoms/CategoryItem";
 import map from 'lodash-es/map';
 import filter from 'lodash-es/filter';
+
+import { ICategory } from '../../../common/models/Models';
+import CategoryItem from "../Atoms/CategoryItem";
+
 
 export interface ICategoryListProps {
   subcategories: ICategory[];

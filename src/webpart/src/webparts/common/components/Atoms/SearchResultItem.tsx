@@ -36,37 +36,41 @@ export default class SearchResultItem extends React.Component<ISearchResultItemP
   public render(): React.ReactElement<ISearchResultItemProps> {
     try {
       return (
-        <div>
+        <>
           {(this.props.result.Type === Templates.Asset) &&
-            <div className="plov-item plov-noimg">
-              <div className="plov-desc">
-                <h3 className="plov-title" onClick={() => { this.props.loadSearchResult(null, this.props.result.Parent ? this.props.result.Parent.Id : null, this.props.result.Result.Id); }}>{this.props.result.Result.Title}</h3>
-                {this.props.resultView === SearchResultView.Full &&
-                  <div className="plov-audience">
-                    <span>{strings.SearchResultItemPlayListLabel}</span>
-                    <span className="plov-title" onClick={() => { this.props.loadSearchResult(null, this.props.result.Parent.Id, null); }}>{(this.props.result.Parent as IPlaylist).Title}</span>
-                  </div>
-                }
-              </div>
-            </div>
+            <li className="srchr-item">
+              <article className="plov-item plov-noimg" tabIndex={0} role="link">
+                <div className="plov-desc">
+                  <h3 className="plov-title" onClick={() => { this.props.loadSearchResult(null, this.props.result.Parent ? this.props.result.Parent.Id : null, this.props.result.Result.Id); }}>{this.props.result.Result.Title}</h3>
+                  {this.props.resultView === SearchResultView.Full &&
+                    <div className="plov-audience">
+                      <span>{strings.SearchResultItemPlayListLabel}</span>
+                      <span className="plov-title" onClick={() => { this.props.loadSearchResult(null, this.props.result.Parent.Id, null); }}>{(this.props.result.Parent as IPlaylist).Title}</span>
+                    </div>
+                  }
+                </div>
+              </article>
+            </li>
           }
           {(this.props.result.Type === Templates.Playlist) &&
-            <div className="plov-item plov-noimg">
-              <div className="plov-desc">
-                <h3 className="plov-title" onClick={() => { this.props.loadSearchResult(this.props.result.Parent ? this.props.result.Parent.Id : null, this.props.result.Result.Id, null); }}>{this.props.result.Result.Title}</h3>
-                {this.props.resultView !== SearchResultView.Minimal &&
-                  <p className="plov-short">{(this.props.result.Result as IPlaylist).Description}</p>
-                }
-                {this.props.resultView === SearchResultView.Full &&
-                  <div className="plov-audience">
-                    <span>{strings.SearchResultItemCategoryLabel}</span>
-                    <span className="plov-title" onClick={() => { this.props.loadSearchResult(this.props.result.Parent.Id, null, null); }}>{(this.props.result.Parent as ICategory).Name}</span>
-                  </div>
-                }
-              </div>
-            </div>
+            <li className="srchr-item">
+              <article className="plov-item plov-noimg" tabIndex={0} role="link">
+                <div className="plov-desc">
+                  <h3 className="plov-title" onClick={() => { this.props.loadSearchResult(this.props.result.Parent ? this.props.result.Parent.Id : null, this.props.result.Result.Id, null); }}>{this.props.result.Result.Title}</h3>
+                  {this.props.resultView !== SearchResultView.Minimal &&
+                    <p className="plov-short">{(this.props.result.Result as IPlaylist).Description}</p>
+                  }
+                  {this.props.resultView === SearchResultView.Full &&
+                    <div className="plov-audience">
+                      <span>{strings.SearchResultItemCategoryLabel}</span>
+                      <span className="plov-title" onClick={() => { this.props.loadSearchResult(this.props.result.Parent.Id, null, null); }}>{(this.props.result.Parent as ICategory).Name}</span>
+                    </div>
+                  }
+                </div>
+              </article>
+            </li>
           }
-        </div>
+        </>
       );
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);

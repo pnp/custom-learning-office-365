@@ -1,18 +1,20 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
+import { IHOOPivotItem } from "@n8d/htwoo-react/HOOPivotBar";
 
 import isEqual from "lodash-es/isEqual";
 import filter from "lodash-es/filter";
 
-import { PivotItem } from 'office-ui-fabric-react';
+
 import { ISearchResult } from "../../models/Models";
 import SearchResultItem from "../Atoms/SearchResultItem";
 import { Templates, SearchResultHeaderFilters } from "../../models/Enums";
 import SearchResultHeader from "../Atoms/SearchResultHeader";
 import Paging from "../Atoms/Paging";
 
+
 export interface ISearchResultsProps {
-  headerItems: string[];
+  headerItems: IHOOPivotItem[];
   resultView: string;
   searchValue: string;
   searchResults: ISearchResult[];
@@ -20,7 +22,7 @@ export interface ISearchResultsProps {
 }
 
 export interface ISearchResultsState {
-  filterValue: string;
+  filterValue: string | number;
   currentPage: number;
 }
 
@@ -59,10 +61,12 @@ export default class SearchResults extends React.Component<ISearchResultsProps, 
     }
   }
 
-  private changeFilter = (newFilter: PivotItem) => {
-    this.setState({
-      filterValue: newFilter.props.linkText
-    });
+  private changeFilter = (ev: React.MouseEvent<HTMLButtonElement, MouseEvent>, key: string | number): void => {
+    try {
+      this.setState({ filterValue: key });
+    } catch (err) {
+      console.error(`${this.LOG_SOURCE} (changeFilter) - ${err}`);
+    }
   }
 
   public render(): React.ReactElement<ISearchResultsProps> {
@@ -88,16 +92,19 @@ export default class SearchResults extends React.Component<ISearchResultsProps, 
         <div>
           <SearchResultHeader
             headerItems={this.props.headerItems}
+            filterValue={this.state.filterValue}
             searchValue={this.props.searchValue}
             selectTab={this.changeFilter}
           />
           {pageResults && pageResults.length > 0 && pageResults.map((result) => {
             return (
-              <SearchResultItem
-                resultView={this.props.resultView}
-                result={result}
-                loadSearchResult={this.props.loadSearchResult}
-              />
+              <menu className="dbg-srch-wrapper">
+                <SearchResultItem
+                  resultView={this.props.resultView}
+                  result={result}
+                  loadSearchResult={this.props.loadSearchResult}
+                />
+              </menu>
             );
           })}
           <Paging
