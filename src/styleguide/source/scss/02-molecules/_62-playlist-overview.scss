@@ -112,6 +112,7 @@
   margin-left: gutter();
 
   @media screen and (max-width: 480px) {
+    grid-column: auto;
     width: 100%;
     margin-left: 0;
   }
@@ -123,11 +124,10 @@
 
   box-sizing: border-box;
 
-  width: span(4 of 12);
-
   @media screen and (max-width: 480px) {
     width: 100%;
     margin-bottom: .5em;
+    grid-column: unset;
   }
 
   img {
@@ -138,19 +138,17 @@
 
 .plov-item {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: clamp(1rem, 1vw, 2rem);
+  grid-template-columns: 1fr 5fr;
+  gap: clamp(1rem, 2.7vw, 2rem);
 
   border-bottom: 1px colors.$c-light-gray solid;
 
-  break-inside: avoid-column;
-
-  // &:first-child{
-  // 	padding-top: 0px;
-  // }
+  @media screen and (max-width: 720px) {
+    grid-template-columns: 2fr 4fr;
+  }
 
   @media screen and (max-width: 480px) {
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
 
   &:hover {
@@ -161,7 +159,6 @@
   &.plov-noimg {
     display: block;
 
-    margin-left: -8px;
     padding-right: 8px;
     padding-left: 8px;
     grid-template-columns: 1fr;
