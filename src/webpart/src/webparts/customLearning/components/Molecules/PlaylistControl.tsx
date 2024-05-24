@@ -1,10 +1,11 @@
 import * as React from "react";
+import { Logger, LogLevel } from "@pnp/logging";
 
 import isEqual from "lodash-es/isEqual";
 import indexOf from "lodash-es/indexOf";
-import { Logger, LogLevel } from "@pnp/logging";
-import { IDropdownOption, Icon } from "office-ui-fabric-react";
 import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
+import { IHOODropDownItem } from "@n8d/htwoo-react";
+import HOODropDown from "@n8d/htwoo-react/HOODropDown";
 
 import * as strings from "M365LPStrings";
 import { IAsset } from "../../../common/models/Models";
@@ -17,13 +18,13 @@ export interface IPlaylistControlProps {
 }
 
 export interface IPlaylistControlState {
-  assetOptions: IDropdownOption[];
+  assetOptions: IHOODropDownItem[];
   ddShow: boolean;
 }
 
 export class PlaylistControlState implements IPlaylistControlState {
   constructor(
-    public assetOptions: IDropdownOption[] = [],
+    public assetOptions: IHOODropDownItem[] = [],
     public ddShow: boolean = false
   ) { }
 }
@@ -37,10 +38,10 @@ export default class PlaylistControl extends React.Component<IPlaylistControlPro
     this.state = new PlaylistControlState(this.getAssetOptions(props.assets));
   }
 
-  private getAssetOptions(assets: IAsset[]): IDropdownOption[] {
-    let assetOptions: IDropdownOption[] = [];
+  private getAssetOptions(assets: IAsset[]): IHOODropDownItem[] {
+    let assetOptions: IHOODropDownItem[] = [];
     for (let i = 0; i < assets.length; i++) {
-      assetOptions.push({ key: assets[i].Id, text: assets[i].Title as string });
+      assetOptions.push({ key: assets[i].Id, text: assets[i].Title as string, disabled: false });
     }
     return assetOptions;
   }
@@ -106,33 +107,26 @@ export default class PlaylistControl extends React.Component<IPlaylistControlPro
     });
   }
 
+  //TODO check the on change event for the drop down
   public render(): React.ReactElement<IPlaylistControlProps> {
     if (!this.props.currentAsset) return null;
     try {
       return (
         <div data-component={this.LOG_SOURCE} className="playerctrl">
           <span className="playerctrl-prev">
-            <HOOButton type={HOOButtonType.Primary} iconName="icon-chevron-left-regular" onClick={this.playlistBack} disabled={this.disableBack()} label={strings.PlaylistPrevious} iconTitle={strings.PlaylistPrevious}/>
+            <HOOButton type={HOOButtonType.Primary} iconName="icon-chevron-left-regular" onClick={this.playlistBack} disabled={this.disableBack()} label={strings.PlaylistPrevious} iconTitle={strings.PlaylistPrevious} />
           </span>
           <span className="playerctrl-title">
-            <div className="fuif-dd">
-              <div className={`fuif-dd-title`} onClick={() => { this.setState({ ddShow: !this.state.ddShow }); }}>
-                {(this.props.currentAsset) ? this.props.currentAsset.Title : null}
-                <span><Icon iconName="ChevronDown" /></span>
-              </div>
-              <div className={`fuif-dd-opts ${(this.state.ddShow) ? "selected" : ""}`}>
-                {this.state.assetOptions && this.state.assetOptions.map((o) => {
-                  let selected = (o.key === this.props.currentAsset.Id) ? " selected" : "";
-                  return (
-                    <div className={`fuif-dd-opt${selected}`} onClick={() => this.selectAsset(o.key as string)}>{o.text}</div>
-                  );
-                })}
-              </div>
-            </div>
-            <HOOButton type={HOOButtonType.Icon} iconName="icon-full-screen-maximize-filled" iconTitle={strings.PlaylistFullScreen} onClick={this.props.renderPanel}/>
+            <HOODropDown
+              onChange={this.selectAsset}
+              value={this.props.currentAsset.Id}
+              options={this.state.assetOptions}
+              containsTypeAhead={false}
+            />
+            <HOOButton type={HOOButtonType.Icon} iconName="icon-full-screen-maximize-filled" iconTitle={strings.PlaylistFullScreen} onClick={this.props.renderPanel} />
           </span>
           <span className="playerctrl-next">
-          <HOOButton type={HOOButtonType.Primary} iconRight="icon-chevron-right-regular" onClick={this.playlistAdvance} disabled={this.disableAdvance()} label={strings.PlaylistNext} iconTitle={strings.PlaylistNext}/>
+            <HOOButton type={HOOButtonType.Primary} iconRight="icon-chevron-right-regular" onClick={this.playlistAdvance} disabled={this.disableAdvance()} label={strings.PlaylistNext} iconTitle={strings.PlaylistNext} />
           </span>
         </div>
       );

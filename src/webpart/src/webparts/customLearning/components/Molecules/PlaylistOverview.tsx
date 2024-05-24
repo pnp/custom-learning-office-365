@@ -2,6 +2,7 @@ import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
 import isEqual from "lodash-es/isEqual";
+
 import { IAsset, IMultilingualString } from "../../../common/models/Models";
 import AssetItem from "../Atoms/AssetItem";
 import * as strings from "M365LPStrings";

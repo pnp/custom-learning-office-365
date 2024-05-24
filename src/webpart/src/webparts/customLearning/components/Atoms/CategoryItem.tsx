@@ -1,9 +1,10 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
-import { Templates } from '../../../common/models/Enums';
 import isEqual from "lodash-es/isEqual";
-import { Icon } from "office-ui-fabric-react";
+import HOOIcon from "@n8d/htwoo-react/HOOIcon";
+
+import { Templates } from '../../../common/models/Enums';
 
 export interface ICategoryItemProps {
   index: number;
@@ -73,8 +74,11 @@ export default class CategoryItem extends React.Component<ICategoryItemProps, IC
           </div>
           <div className="category-label">
             {this.props.dragMode &&
+              // TODO figure out where this icon is being used and make sure it's in the SVG file
               <div className="category-handle">
-                <Icon className="category-handle-icon" iconName="GripperBarVertical" />
+                <HOOIcon
+                  iconName="GripperBarVertical"
+                />
               </div>
             }
             {this.props.subcategoryName}

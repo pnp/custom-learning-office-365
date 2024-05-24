@@ -1,12 +1,14 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
+
 import isEqual from "lodash-es/isEqual";
 import Truncate from 'react-truncate';
+import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
 
 import { IMetadataEntry } from "../../../common/models/Models";
 import * as strings from "M365LPStrings";
-import { Icon } from "office-ui-fabric-react";
 import { ButtonTypes } from "../../../common/models/Enums";
+
 
 export interface ISubCategoryItemProps {
   index: number;
@@ -146,7 +148,10 @@ export default class SubCategoryItem extends React.Component<ISubCategoryItemPro
           </div>
           {this.props.dragMode &&
             <div className="plov-handle">
-              <Icon className="plov-handle-icon" iconName="GripperBarVertical" />
+              {
+                //TODO check the onClick and icon 
+              }
+              <HOOButton type={HOOButtonType.Icon} iconName="GripperBarVertical" disabled={false} onClick={function noRefCheck() { }} />
             </div>
           }
         </div>

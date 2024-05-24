@@ -1,14 +1,14 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
+import HOOPivotBar, { IHOOPivotItem } from "@n8d/htwoo-react/HOOPivotBar";
 
 import isEqual from "lodash-es/isEqual";
 
-import { Pivot, PivotItem } from 'office-ui-fabric-react';
-
 export interface ISearchResultHeaderProps {
-  headerItems: string[];
+  headerItems: IHOOPivotItem[];
+  filterValue: string | number;
   searchValue: string;
-  selectTab: (tab: PivotItem) => void;
+  selectTab: (ev: React.MouseEvent, key: string | number) => void;
 }
 
 export interface ISearchResultHeaderState {
@@ -35,15 +35,11 @@ export default class SearchResultHeader extends React.Component<ISearchResultHea
   public render(): React.ReactElement<ISearchResultHeaderProps> {
     try {
       return (
-        <div>
-          <Pivot
-            onLinkClick={this.props.selectTab}
-          >
-            {this.props.headerItems && this.props.headerItems.map((header) => {
-              return (<PivotItem linkText={header} />);
-            })}
-          </Pivot>
-        </div>
+        <HOOPivotBar
+          onClick={this.props.selectTab}
+          pivotItems={this.props.headerItems}
+          selectedKey={this.props.filterValue}
+        />
       );
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);
