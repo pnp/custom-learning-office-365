@@ -1,0 +1,32 @@
+{
+    "button": {
+        "iconname": "icon-arrow-down"
+    },
+    "dropdown": {
+        "select-options": {
+            "ddToggleClass": "hidden-all",
+            "options": [
+                {
+                    "key": "Apple",
+                    "value": "Apple",
+                    "disabled": "is-disabled"
+                },
+                {
+                    "key": "Lime",
+                    "value": "Lime",
+                    "disabled": ""
+                },
+                {
+                    "key": "Banana",
+                    "value": "Banana",
+                    "disabled": ""
+                },
+                {
+                    "key": "Orange",
+                    "value": "Orange",
+                    "disabled": ""
+                }
+            ]
+        }
+    }
+}

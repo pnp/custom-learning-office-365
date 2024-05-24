@@ -1,0 +1,8 @@
+{
+    "radiobutton": {
+        "label": "Label Radio Button",
+        "id": "1305c43",
+        "name": "RadioButton",
+        "value": "rb1"
+    }
+}

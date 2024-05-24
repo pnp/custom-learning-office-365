@@ -1,0 +1,10 @@
+<p>Invalid style can be assigned using a CSS class:</p>
+<input class="hoo-input-text {{ stateStyle }}" type="text" placeholder="This is just a placehoder">
+<p>Or just with default pseudo selector `:invalid`</p>
+<input class="hoo-input-text" type="text" placeholder="This is just a placehoder" value="" required>
+<p>The empty field is required there for at its current state invalid<br>
+To avoid showing up as invalid add the '.is-empty' class to the styles</p>
+<input class="hoo-input-text is-empty" type="text" placeholder="This is just a placehoder" value="" required>
+<p>Invalid fields can be also defined by using patter</p>
+<input class="hoo-input-text" type="text" placeholder="This is just a placehoder" value="ABC" pattern="[a-z]{4,8}">
+<p>The previous input only allows lowercase characters and a length of 4-8 characters</p>
