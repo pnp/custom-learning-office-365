@@ -45,5 +45,6 @@
             "aria-label": "Button",
             "title": "Edit playlist entry"
         }
-    }
+    },
+    "placeholder-image": "/images/placeholder-img.png"
 }
