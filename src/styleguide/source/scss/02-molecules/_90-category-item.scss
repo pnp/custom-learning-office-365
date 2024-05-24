@@ -2,6 +2,13 @@
 @use '../00-base/colors' as colors;
 @use '../00-base/mixin' as mixin;
 
+.category-section{
+	h2{
+		font-size: 1.5rem;
+		font-weight: 600;
+	}
+}
+
 .category-overview {
 	display: grid;
 	grid-template-columns: repeat(6, minmax(150px, 1fr));
