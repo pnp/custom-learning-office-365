@@ -1,0 +1,861 @@
+{
+    "button": {
+        "iconname": "icon-arrow-left",
+        "label": "Button",
+        "description": "Primary with description",
+        "aria-label": "Button"
+    },
+    "buttonCmd": {
+        "iconAction": "icon-plus",
+        "iconDown": "icon-arrow-down",
+        "label": "New Item",
+        "contextMenu": {
+            "contextItems": [
+                {
+                    "button": {
+                        "label": "Email message",
+                        "iconname": "icon-ninjacat"
+                    }
+                },
+                {
+                    "button": {
+                        "label": "Calendar Event",
+                        "iconname": "icon-minus"
+                    }
+                }
+            ]
+        }
+    },
+    "contextMenu": {
+        "contextItems": [
+            {
+                "button": {
+                    "label": "Email message",
+                    "iconname": "icon-ninjacat"
+                }
+            },
+            {
+                "button": {
+                    "label": "Calendar Event",
+                    "iconname": "icon-minus"
+                }
+            }
+        ]
+    },
+    "checkbox": {
+        "label": "Checkbox Label",
+        "id": "checkbox-1234"
+    },
+    "radiobutton": {
+        "label": "Radio Button Label",
+        "id": "checkbox-1234"
+    },
+    "input": {
+        "date": {
+            "id": "my-date-picker",
+            "name": "my-date-picker-name",
+            "value": "2021-10-26",
+            "min-value": "2021-10-25",
+            "max-value": "2030-10-25",
+            "aria-tags": ""
+        },
+        "number": {
+            "min": 0,
+            "max": 100,
+            "aria-tags": ""
+        },
+        "text": {
+            "inputPrefix": "https://",
+            "inputSuffix": ".com",
+            "placeholder": "A placeholder text",
+            "aria-tags": ""
+        },
+        "email": {
+            "placeholder": "John.Doe@example.com",
+            "aria-tags": ""
+        },
+        "phone": {
+            "placeholder": "555-8039",
+            "aria-tags": ""
+        },
+        "url": {
+            "placeholder": "https://example.com",
+            "aria-tags": ""
+        },
+        "label": {
+            "label": "Label for field x",
+            "stateStyle": null,
+            "aria-tags": ""
+        },
+        "toggle": {
+            "name": "toggleName",
+            "id": "toggle-1234",
+            "label": {
+                "checked": "On",
+                "unchecked": "Off"
+            },
+            "aria-tags": ""
+        }
+    },
+    "checkbox-group": {
+        "items": [
+            {
+                "checkbox": {
+                    "label": "Apple",
+                    "id": "chbg1",
+                    "name": "radio-button-group",
+                    "value": "apple"
+                }
+            },
+            {
+                "checkbox": {
+                    "label": "Avocado",
+                    "id": "chbg2",
+                    "name": "radio-button-group",
+                    "value": "banana"
+                }
+            },
+            {
+                "checkbox": {
+                    "label": "Banana",
+                    "id": "chbg3",
+                    "name": "radio-button-group",
+                    "value": "citrus"
+                }
+            },
+            {
+                "checkbox": {
+                    "label": "Citrus",
+                    "id": "chbg4",
+                    "name": "radio-button-group",
+                    "value": "avocado"
+                }
+            }
+        ],
+        "cols": null
+    },
+    "checkbox-group-cols": {
+        "items": [
+            {
+                "checkbox": {
+                    "label": "Apple",
+                    "id": "chbg1",
+                    "name": "radio-button-group",
+                    "value": "apple"
+                }
+            },
+            {
+                "checkbox": {
+                    "label": "Avocado",
+                    "id": "chbg2",
+                    "name": "radio-button-group",
+                    "value": "banana"
+                }
+            },
+            {
+                "checkbox": {
+                    "label": "Banana",
+                    "id": "chbg3",
+                    "name": "radio-button-group",
+                    "value": "citrus"
+                }
+            },
+            {
+                "checkbox": {
+                    "label": "Citrus",
+                    "id": "chbg4",
+                    "name": "radio-button-group",
+                    "value": "avocado"
+                }
+            }
+        ],
+        "cols": {
+            "desktop": 2,
+            "mobile": 1
+        }
+    },
+    "radiobutton-group": {
+        "items": [
+            {
+                "radiobutton": {
+                    "label": "Apple",
+                    "id": "rbg1",
+                    "name": "radio-button-group",
+                    "value": "apple"
+                }
+            },
+            {
+                "radiobutton": {
+                    "label": "Avocado",
+                    "id": "rbg2",
+                    "name": "radio-button-group",
+                    "value": "banana"
+                }
+            },
+            {
+                "radiobutton": {
+                    "label": "Banana",
+                    "id": "rbg3",
+                    "name": "radio-button-group",
+                    "value": "citrus"
+                }
+            },
+            {
+                "radiobutton": {
+                    "label": "Citrus",
+                    "id": "rbg4",
+                    "name": "radio-button-group",
+                    "value": "avocado"
+                }
+            }
+        ]
+    },
+    "radiobutton-group-cols": {
+        "items": [
+            {
+                "radiobutton": {
+                    "label": "Apple",
+                    "id": "rbg1",
+                    "name": "radio-button-group",
+                    "value": "apple"
+                }
+            },
+            {
+                "radiobutton": {
+                    "label": "Avocado",
+                    "id": "rbg2",
+                    "name": "radio-button-group",
+                    "value": "banana"
+                }
+            },
+            {
+                "radiobutton": {
+                    "label": "Banana",
+                    "id": "rbg3",
+                    "name": "radio-button-group",
+                    "value": "citrus"
+                }
+            },
+            {
+                "radiobutton": {
+                    "label": "Citrus",
+                    "id": "rbg4",
+                    "name": "radio-button-group",
+                    "value": "avocado"
+                }
+            }
+        ],
+        "cols": {
+            "desktop": 2,
+            "mobile": 1
+        }
+    },
+    "searchbox": {
+        "iconname": "icon-search",
+        "placeholder": "Search",
+        "ddToggleClass": ""
+    },
+    "select-options": {
+        "options": [
+            {
+                "key": "banana",
+                "value": "Banana",
+                "disabled": ""
+            },
+            {
+                "key": "apple",
+                "value": "Apple",
+                "disabled": ""
+            },
+            {
+                "key": "orange",
+                "value": "Orange",
+                "disabled": ""
+            },
+            {
+                "key": "lime",
+                "value": "Lime",
+                "disabled": ""
+            },
+            {
+                "key": "acai berries",
+                "value": "Acai Berries",
+                "disabled": ""
+            },
+            {
+                "key": "apple",
+                "value": "Apple",
+                "disabled": ""
+            },
+            {
+                "key": "avocado",
+                "value": "Avocado",
+                "disabled": ""
+            },
+            {
+                "key": "bell peppers",
+                "value": "Bell Peppers",
+                "disabled": ""
+            },
+            {
+                "key": "blackberries",
+                "value": "Blackberries",
+                "disabled": ""
+            },
+            {
+                "key": "blueberries",
+                "value": "Blueberries",
+                "disabled": ""
+            },
+            {
+                "key": "cabbage",
+                "value": "Cabbage",
+                "disabled": ""
+            },
+            {
+                "key": "carrots",
+                "value": "Carrots",
+                "disabled": ""
+            },
+            {
+                "key": "cauliflower",
+                "value": "Cauliflower",
+                "disabled": ""
+            },
+            {
+                "key": "cherries",
+                "value": "Cherries",
+                "disabled": ""
+            },
+            {
+                "key": "collard greens",
+                "value": "Collard Greens",
+                "disabled": ""
+            },
+            {
+                "key": "dragon fruit",
+                "value": "Dragon Fruit",
+                "disabled": ""
+            },
+            {
+                "key": "garlic",
+                "value": "Garlic",
+                "disabled": ""
+            },
+            {
+                "key": "ginger",
+                "value": "Ginger",
+                "disabled": ""
+            },
+            {
+                "key": "grapefruits",
+                "value": "Grapefruits",
+                "disabled": ""
+            },
+            {
+                "key": "kiwi",
+                "value": "Kiwi",
+                "disabled": ""
+            },
+            {
+                "key": "lemons",
+                "value": "Lemons",
+                "disabled": ""
+            },
+            {
+                "key": "limes",
+                "value": "Limes",
+                "disabled": ""
+            },
+            {
+                "key": "mango",
+                "value": "Mango",
+                "disabled": ""
+            },
+            {
+                "key": "onions",
+                "value": "Onions",
+                "disabled": ""
+            },
+            {
+                "key": "oranges",
+                "value": "Oranges",
+                "disabled": ""
+            },
+            {
+                "key": "papaya",
+                "value": "Papaya",
+                "disabled": ""
+            },
+            {
+                "key": "peaches",
+                "value": "Peaches",
+                "disabled": ""
+            },
+            {
+                "key": "plums",
+                "value": "Plums",
+                "disabled": ""
+            },
+            {
+                "key": "pomegranate",
+                "value": "Pomegranate",
+                "disabled": ""
+            },
+            {
+                "key": "raspberries",
+                "value": "Raspberries",
+                "disabled": ""
+            },
+            {
+                "key": "spinach",
+                "value": "Spinach",
+                "disabled": ""
+            },
+            {
+                "key": "strawberries",
+                "value": "Strawberries",
+                "disabled": ""
+            },
+            {
+                "key": "sweet potatoes",
+                "value": "Sweet Potatoes",
+                "disabled": ""
+            },
+            {
+                "key": "swiss chard",
+                "value": "Swiss Chard",
+                "disabled": ""
+            },
+            {
+                "key": "tomatoes",
+                "value": "Tomatoes",
+                "disabled": ""
+            },
+            {
+                "key": "ginger",
+                "value": "Ginger",
+                "disabled": ""
+            },
+            {
+                "key": "avocado",
+                "value": "Avocado",
+                "disabled": ""
+            },
+            {
+                "key": "beets",
+                "value": "Beets",
+                "disabled": ""
+            },
+            {
+                "key": "bell peppers",
+                "value": "Bell Peppers",
+                "disabled": ""
+            },
+            {
+                "key": "brussels sprouts",
+                "value": "Brussels Sprouts",
+                "disabled": ""
+            },
+            {
+                "key": "cabbage",
+                "value": "Cabbage",
+                "disabled": ""
+            },
+            {
+                "key": "cauliflower",
+                "value": "Cauliflower",
+                "disabled": ""
+            },
+            {
+                "key": "collard greens",
+                "value": "Collard Greens",
+                "disabled": ""
+            },
+            {
+                "key": "dragon fruit",
+                "value": "Dragon Fruit",
+                "disabled": ""
+            },
+            {
+                "key": "eggplant",
+                "value": "Eggplant",
+                "disabled": ""
+            },
+            {
+                "key": "garlic",
+                "value": "Garlic",
+                "disabled": ""
+            },
+            {
+                "key": "ginger",
+                "value": "Ginger",
+                "disabled": ""
+            },
+            {
+                "key": "kale",
+                "value": "Kale",
+                "disabled": ""
+            },
+            {
+                "key": "leeks",
+                "value": "Leeks",
+                "disabled": ""
+            },
+            {
+                "key": "mango",
+                "value": "Mango",
+                "disabled": ""
+            },
+            {
+                "key": "onions",
+                "value": "Onions",
+                "disabled": ""
+            },
+            {
+                "key": "papaya",
+                "value": "Papaya",
+                "disabled": ""
+            },
+            {
+                "key": "red cabbage",
+                "value": "Red Cabbage",
+                "disabled": ""
+            },
+            {
+                "key": "shallots",
+                "value": "Shallots",
+                "disabled": ""
+            },
+            {
+                "key": "spinach",
+                "value": "Spinach",
+                "disabled": ""
+            },
+            {
+                "key": "sweet potatoes",
+                "value": "Sweet Potatoes",
+                "disabled": ""
+            },
+            {
+                "key": "swiss chard",
+                "value": "Swiss Chard",
+                "disabled": ""
+            },
+            {
+                "key": "tomatoes",
+                "value": "Tomatoes",
+                "disabled": ""
+            }
+        ]
+    },
+    "select-options-grouped": {
+        "options": [
+            {
+                "groupname": "Fruit Icons",
+                "options": [
+                    {
+                        "key": "banana",
+                        "value": "Banana",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "apple",
+                        "value": "Apple",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "orange",
+                        "value": "Orange",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "lime",
+                        "value": "Lime",
+                        "disabled": ""
+                    }
+                ]
+            },
+            {
+                "groupname": "Fruits",
+                "options": [
+                    {
+                        "key": "acai berries",
+                        "value": "Acai Berries",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "apple",
+                        "value": "Apple",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "avocado",
+                        "value": "Avocado",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "bell peppers",
+                        "value": "Bell Peppers",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "blackberries",
+                        "value": "Blackberries",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "blueberries",
+                        "value": "Blueberries",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "cabbage",
+                        "value": "Cabbage",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "carrots",
+                        "value": "Carrots",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "cauliflower",
+                        "value": "Cauliflower",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "cherries",
+                        "value": "Cherries",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "collard greens",
+                        "value": "Collard Greens",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "dragon fruit",
+                        "value": "Dragon Fruit",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "garlic",
+                        "value": "Garlic",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "ginger",
+                        "value": "Ginger",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "grapefruits",
+                        "value": "Grapefruits",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "kiwi",
+                        "value": "Kiwi",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "lemons",
+                        "value": "Lemons",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "limes",
+                        "value": "Limes",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "mango",
+                        "value": "Mango",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "onions",
+                        "value": "Onions",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "oranges",
+                        "value": "Oranges",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "papaya",
+                        "value": "Papaya",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "peaches",
+                        "value": "Peaches",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "plums",
+                        "value": "Plums",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "pomegranate",
+                        "value": "Pomegranate",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "raspberries",
+                        "value": "Raspberries",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "spinach",
+                        "value": "Spinach",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "strawberries",
+                        "value": "Strawberries",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "sweet potatoes",
+                        "value": "Sweet Potatoes",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "swiss chard",
+                        "value": "Swiss Chard",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "tomatoes",
+                        "value": "Tomatoes",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "ginger",
+                        "value": "Ginger",
+                        "disabled": ""
+                    }
+                ]
+            },
+            {
+                "groupname": "Vegetables",
+                "options": [
+                    {
+                        "key": "avocado",
+                        "value": "Avocado",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "beets",
+                        "value": "Beets",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "bell peppers",
+                        "value": "Bell Peppers",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "brussels sprouts",
+                        "value": "Brussels Sprouts",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "cabbage",
+                        "value": "Cabbage",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "cauliflower",
+                        "value": "Cauliflower",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "collard greens",
+                        "value": "Collard Greens",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "dragon fruit",
+                        "value": "Dragon Fruit",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "eggplant",
+                        "value": "Eggplant",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "garlic",
+                        "value": "Garlic",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "ginger",
+                        "value": "Ginger",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "kale",
+                        "value": "Kale",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "leeks",
+                        "value": "Leeks",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "mango",
+                        "value": "Mango",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "onions",
+                        "value": "Onions",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "papaya",
+                        "value": "Papaya",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "red cabbage",
+                        "value": "Red Cabbage",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "shallots",
+                        "value": "Shallots",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "spinach",
+                        "value": "Spinach",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "sweet potatoes",
+                        "value": "Sweet Potatoes",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "swiss chard",
+                        "value": "Swiss Chard",
+                        "disabled": ""
+                    },
+                    {
+                        "key": "tomatoes",
+                        "value": "Tomatoes",
+                        "disabled": ""
+                    }
+                ]
+            }
+        ]
+    }
+}
