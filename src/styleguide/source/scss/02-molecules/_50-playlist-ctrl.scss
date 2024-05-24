@@ -2,8 +2,11 @@
 @use '../00-base/mixin' as mixin;
 
 .playerctrl {
+
   display: flex;
   flex-direction: row;
+
+
 
   margin-top: 1em;
   margin-bottom: 1em;
@@ -17,6 +20,15 @@
 
   align-items: center;
   justify-content: space-between;
+
+  .hoo-button-primary {
+    height: 32px;
+    margin-block: 4px;
+    .hoo-icon-svg{
+      height: 1rem;
+      width: 1rem;
+    }
+  }
 
   &-title {
     line-height: 32px;
