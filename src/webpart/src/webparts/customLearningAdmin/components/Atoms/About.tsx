@@ -3,10 +3,13 @@ import { Logger, LogLevel } from "@pnp/logging";
 
 import isEqual from "lodash-es/isEqual";
 import forEach from "lodash-es/forEach";
-import { Label, Icon, TextField, arraysEqual } from "office-ui-fabric-react";
+import HOOText from "@n8d/htwoo-react/HOOText";
+import HOOLabel from "@n8d/htwoo-react/HOOLabel";
 
 import * as strings from "M365LPStrings";
 import { params } from "../../../common/services/Parameters";
+import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
+
 
 export interface IAboutProps {
   close: () => void;
@@ -54,23 +57,50 @@ export default class About extends React.Component<IAboutProps, IAboutState> {
       return (
         <div data-component={this.LOG_SOURCE}>
           <div className="buttonRight">
-            <Icon iconName="ChromeClose" onClick={this.props.close} />
+            <HOOButton type={HOOButtonType.Icon} iconName="icon-dismiss-regular"
+              onClick={this.props.close} />
           </div>
-          <Label>{strings.AboutGroupHeader} - {strings.AboutGroupTitle2}</Label>
+          <HOOLabel label={`${strings.AboutGroupHeader} - ${strings.AboutGroupTitle2}`}></HOOLabel>
           <div className="plov">
-            <TextField label={strings.AboutLearningSiteUrl} readOnly value={params.learningSiteUrl} />
-            <TextField label={strings.AboutDefaultSiteLanguage} readOnly value={defaultLanguageValue} />
-            <TextField label={strings.AboutTelemetryStatus} readOnly value={params.telemetryOn.toString()} />
-            <TextField label={strings.AboutCurrentWPVersion} readOnly value={params.webPartVersion} />
-            <TextField label={strings.AboutMultilingualEnabled} readOnly value={params.multilingualEnabled.toString()} />
-            <TextField label={strings.AboutMultilingualLanguages} readOnly value={multilingualLanguages} />
-            <TextField label={strings.AboutCurrentUserLanguage} readOnly value={params.userLanguage} />
-            <TextField label={strings.AboutAllCDNs} readOnly value={allCdn} />
-            <TextField label={strings.AboutBaseCDNPath} required readOnly value={params.baseCdnPath} />
-            <TextField label={strings.AboutSupportedLanguages} required readOnly value={supportedLanguages} />
-            <TextField label={strings.AboutConfiguredLanguages} required readOnly value={configuredLanguages} />
-            <TextField label={strings.AboutContentPackAssetOrigins} required readOnly value={assetOrigins} />
-            <TextField label={strings.AboutCacheLastUpdate} readOnly value={(params.lastUpdatedCache) ? `${params.lastUpdatedCache.toDateString()} ${params.lastUpdatedCache.toTimeString()}` : "N/A"} />
+            <HOOLabel label={strings.AboutLearningSiteUrl}></HOOLabel>
+            <HOOText disabled onChange={null} value={params.learningSiteUrl} />
+
+            <HOOLabel label={strings.AboutDefaultSiteLanguage}></HOOLabel>
+            <HOOText disabled onChange={null} value={defaultLanguageValue} />
+
+            <HOOLabel label={strings.AboutTelemetryStatus}></HOOLabel>
+            <HOOText disabled onChange={null} value={params.telemetryOn.toString()} />
+
+            <HOOLabel label={strings.AboutCurrentWPVersion}></HOOLabel>
+            <HOOText disabled onChange={null} value={params.webPartVersion} />
+
+            <HOOLabel label={strings.AboutMultilingualEnabled}></HOOLabel>
+            <HOOText disabled onChange={null} value={params.multilingualEnabled.toString()} />
+
+            <HOOLabel label={strings.AboutMultilingualLanguages}></HOOLabel>
+            <HOOText disabled onChange={null} value={multilingualLanguages} />
+
+            <HOOLabel label={strings.AboutCurrentUserLanguage}></HOOLabel>
+            <HOOText disabled onChange={null} value={params.userLanguage} />
+
+            <HOOLabel label={strings.AboutAllCDNs}></HOOLabel>
+            <HOOText disabled onChange={null} value={allCdn} />
+
+            <HOOLabel label={strings.AboutBaseCDNPath}></HOOLabel>
+            <HOOText disabled onChange={null} value={params.baseCdnPath} />
+
+            <HOOLabel label={strings.AboutSupportedLanguages}></HOOLabel>
+            <HOOText disabled onChange={null} value={supportedLanguages} />
+
+            <HOOLabel label={strings.AboutConfiguredLanguages}></HOOLabel>
+            <HOOText disabled onChange={null} value={configuredLanguages} />
+
+            <HOOLabel label={strings.AboutContentPackAssetOrigins}></HOOLabel>
+            <HOOText disabled onChange={null} value={assetOrigins} />
+
+            <HOOLabel label={strings.AboutCacheLastUpdate} ></HOOLabel>
+            <HOOText disabled onChange={null} value={(params.lastUpdatedCache) ? `${params.lastUpdatedCache.toDateString()} ${params.lastUpdatedCache.toTimeString()}` : "N/A"} />
+
           </div>
         </div>
       );

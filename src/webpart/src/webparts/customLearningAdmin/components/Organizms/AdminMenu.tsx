@@ -2,7 +2,11 @@ import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 import find from "lodash-es/find";
 import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
-import { Pivot, PivotItem, Dropdown, IDropdownOption, CommandBar, ICommandBarItemProps, IButtonProps, IContextualMenuStyles, Spinner } from 'office-ui-fabric-react';
+import HOOPivotBar, { IHOOPivotItem } from "@n8d/htwoo-react/HOOPivotBar";
+import HOOCommandBar, { IHOOCommandItem } from "@n8d/htwoo-react/HOOCommandBar";
+import HOOLoading from "@n8d/htwoo-react/HOOLoading";
+import HOOLabel from "@n8d/htwoo-react/HOOLabel";
+import HOODropDown, { IHOODropDownItem } from "@n8d/htwoo-react/HOODropDown";
 
 import { params } from "../../../common/services/Parameters";
 import * as strings from "M365LPStrings";
@@ -40,9 +44,9 @@ export class AdminMenuState implements IAdminMenuState {
 
 export default class AdminMenu extends React.PureComponent<IAdminMenuProps, IAdminMenuState> {
   private LOG_SOURCE: string = "AdminMenu";
-  private _tabOptions: IDropdownOption[] = [
-    { key: "Category", text: strings.AdminMenuCategoryLabel },
-    { key: "Technology", text: strings.AdminMenuTechnologyLabel }
+  private _tabOptions: IHOODropDownItem[] = [
+    { key: "Category", text: strings.AdminMenuCategoryLabel, disabled: false },
+    { key: "Technology", text: strings.AdminMenuTechnologyLabel, disabled: false }
   ];
 
   constructor(props: IAdminMenuProps) {
@@ -51,9 +55,9 @@ export default class AdminMenu extends React.PureComponent<IAdminMenuProps, IAdm
     this.state = new AdminMenuState(currentCDN);
   }
 
-  private selectCDN = async (item: PivotItem): Promise<void> => {
+  private selectCDN = async (key: string | number): Promise<void> => {
     if (this.props.loadingCdn) return;
-    await this.props.selectCDN(item.props.itemKey);
+    await this.props.selectCDN(key as string);
   }
 
   private editCdn = async (cdn: ICDN): Promise<void> => {
@@ -163,36 +167,63 @@ export default class AdminMenu extends React.PureComponent<IAdminMenuProps, IAdm
     window.open(`https://docs.microsoft.com/${params.defaultLanguage}/office365/customlearning/custom_successcenter`, "_blank");
   }
 
+  private getPivotItems = (): IHOOPivotItem[] => {
+    let pivotItems: IHOOPivotItem[] = [];
+    try {
+      params.allCdn.forEach(c => {
+        let pivotItem: IHOOPivotItem = {
+          text: (c.Id === 'Default') ? strings.M365Title : c.Name,
+          key: c.Id
+        };
+
+        if (pivotItem) {
+          pivotItems.push(pivotItem);
+        }
+
+      });
+    } catch (err) {
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getPivotItems) - ${err}`, LogLevel.Error);
+    }
+    return pivotItems;
+  }
+
+  private handleToolClick = (toolId: string | number) => {
+    let pivotItems: IHOOPivotItem[] = [];
+    try {
+      if (toolId === 'addContentPack') {
+        this.toggleAdd
+      } else if (toolId === 'about') {
+        this.toggleAbout
+      }
+    } catch (err) {
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getPivotItems) - ${err}`, LogLevel.Error);
+    }
+    return pivotItems;
+  }
+
   public render(): React.ReactElement<IAdminMenuProps> {
-    const _overflowItems: ICommandBarItemProps[] = [
-      { key: 'addContentPack', text: strings.AdminAddCdnLabel, onClick: this.toggleAdd, iconProps: { iconName: 'CloudAdd' } },
-      { key: 'about', text: strings.AdminAbout, onClick: this.toggleAbout, iconProps: { iconName: 'Info' } }
+    const _overflowItems: IHOOCommandItem[] = [
+      { key: 'addContentPack', text: strings.AdminAddCdnLabel, iconName: 'icon-cloud-add-regular', flyoutMenuItems: [] },
+      { key: 'about', text: strings.AdminAbout, iconName: 'icon-info-regular', flyoutMenuItems: [] }
     ];
 
-    const overflowProps: IButtonProps = { styles: { root: "transparentButton" } };
+    // const overflowProps: IButtonProps = { styles: { root: "transparentButton" } };
 
-    const menuStyles: Partial<IContextualMenuStyles> = {
-      root: "transparentButton"
-    };
+    // const menuStyles: Partial<IContextualMenuStyles> = {
+    //   root: "transparentButton"
+    // };
 
     try {
       return (
         <>
           <div data-component={this.LOG_SOURCE} className="adm-header-nav-cont">
-            <Pivot
-              className="adm-header-nav"
-              onLinkClick={this.selectCDN}
-              headersOnly={true}
+            {/* TODO confirm onclick works */}
+            <HOOPivotBar
+              pivotItems={this.getPivotItems()}
+              rootElementAttributes={{ className: "adm-header-nav" }}
               selectedKey={this.props.currentCDNId === null ? null : this.props.currentCDNId}
-            >
-              {params.allCdn && params.allCdn.length > 0 && params.allCdn.map((cdn) => {
-                return (
-                  <PivotItem
-                    itemKey={cdn.Id}
-                    headerText={(cdn.Id === 'Default') ? strings.M365Title : cdn.Name} />
-                );
-              })}
-            </Pivot>
+              onClick={(ev, option) => this.selectCDN(option.toString())}
+            />
             <HOOButton type={HOOButtonType.Icon}
               iconName="icon-delete-regular"
               iconTitle={strings.AdminDeleteCdnLabel}
@@ -205,27 +236,34 @@ export default class AdminMenu extends React.PureComponent<IAdminMenuProps, IAdm
               onClick={this.toggleEdit}
               disabled={this.props.currentCDNId === "Default"}
               rootElementAttributes={{ className: (this.state.showEditCDN) ? "selected" : "" }} />
-            <CommandBar
-              items={[]}
-              overflowItems={_overflowItems}
-              overflowButtonProps={overflowProps}
-              styles={menuStyles}
-            />
+            {/* TODO confirm onclick works */}
+            <HOOCommandBar
+              commandItems={_overflowItems}
+              onClick={(ev, option) => this.handleToolClick(option.toString())}
+            ></HOOCommandBar>
+
             <HOOButton type={HOOButtonType.Icon}
               iconName="icon-chat-help-regular"
               iconTitle={strings.DocumentationLinkLabel}
-              onClick={this.openDocumentation}/>
+              onClick={this.openDocumentation} />
             <div className="adm-header-spin">
               {this.props.working &&
-                <Spinner label={strings.AdminSavingNotification} labelPosition="right" />
+                <>
+                  <HOOLabel label={strings.AdminSavingNotification} />
+                  <HOOLoading
+                    maxValue={100}
+                    minValue={0}
+                    value={0} /></>
               }
             </div>
-            <Dropdown
-              className="adm-header-cat"
-              defaultSelectedKey="Category"
+            {/* TODO make sure this works */}
+            <HOODropDown
+              value={""}
               options={this._tabOptions}
-              onChange={(ev, option) => this.props.selectTab(option.key as string)}
-            />
+              containsTypeAhead={false}
+              onChange={(ev) => this.props.selectTab(ev as string)}
+              rootElementAttributes={{ className: "adm-header-cat" }}
+            ></HOODropDown>
           </div>
           {this.state.showAddContentPack &&
             <div data-component={this.LOG_SOURCE} className="adm-header-edit">

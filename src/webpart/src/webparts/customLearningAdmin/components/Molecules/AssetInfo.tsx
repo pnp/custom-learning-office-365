@@ -10,8 +10,9 @@ import sortBy from "lodash-es/sortBy";
 import find from "lodash-es/find";
 import cloneDeep from "lodash-es/cloneDeep";
 import forEach from "lodash-es/forEach";
-
-import { Pivot, PivotItem, SearchBox, CommandBarButton } from "office-ui-fabric-react";
+import HOOButtonCommand from "@n8d/htwoo-react/HOOButtonCommand";
+import HOOSearch from "@n8d/htwoo-react/HOOSearch";
+import HOOPivotBar, { IHOOPivotItem } from "@n8d/htwoo-react/HOOPivotBar";
 
 import * as strings from "M365LPStrings";
 import AssetDetailsCommands from "../Atoms/AssetDetailsCommands";
@@ -19,6 +20,7 @@ import AssetDetails from "./AssetDetails";
 import AssetSearchPanel from "./AssetSearchPanel";
 import { IAsset, ITechnology, IPlaylist, IMultilingualString, Asset } from "../../../common/models/Models";
 import { CustomWebpartSource, SearchFields } from "../../../common/models/Enums";
+
 
 export interface IAssetInfoProps {
   editDisabled: boolean;
@@ -247,28 +249,52 @@ export default class AssetInfo extends React.Component<IAssetInfoProps, IAssetIn
     });
   }
 
+  private getPivotItems = (): IHOOPivotItem[] => {
+    let pivotItems: IHOOPivotItem[] = [];
+    try {
+      pivotItems.push({ key: 'CurrentPlaylist', text: strings.HeaderPlaylistPanelCurrentPlaylistLabel });
+
+      if (!this.props.editDisabled && (this.state.searchValue && this.state.searchValue.length > 0)) {
+        pivotItems.push({ key: 'SearchResults', text: "Search Results" });
+      }
+
+
+    } catch (err) {
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getPivotItems) - ${err}`, LogLevel.Error);
+    }
+    return pivotItems;
+  }
+
   public render(): React.ReactElement<IAssetInfoProps> {
     try {
       return (
         <div data-component={this.LOG_SOURCE}>
           {!this.props.editDisabled &&
             <div className="cmdbar-beta">
-              <CommandBarButton
-                text={strings.PlaylistEditAssetNewLabel}
-                iconProps={{ iconName: "Add" }}
-                disabled={(this.props.playlist.Id === "0")}
-                onClick={() => this.setState({ editAsset: new Asset(), edit: true })}
+              {/* TODO do disabled: {(this.props.playlist.Id === "0")} */}
+              <HOOButtonCommand
+                flyoutMenuItems={[]}
+                label={strings.PlaylistEditAssetNewLabel}
+                onClick={(ev) => this.setState({ editAsset: new Asset(), edit: true })}
+                leftIconName="icon-add-regular"
               />
-              <SearchBox
-                placeholder={strings.AssetSearchPlaceHolderLabel}
+              {/* TODO enable onchange event*/}
+              <HOOSearch
                 onSearch={this.doSearch}
-                onClear={() => { this.doSearch(""); }}
+                placeholder={strings.AssetSearchPlaceHolderLabel}
+                value=""
+                disabled={false}
+                onChange={(ev) => { }}
               />
             </div>
           }
-          <Pivot selectedKey={this.state.currentPivot} onLinkClick={(i: PivotItem) => { this.setState({ currentPivot: i.props.itemKey }); }}>
-            <PivotItem headerText={strings.HeaderPlaylistPanelCurrentPlaylistLabel} itemKey="CurrentPlaylist" key="CurrentPlaylist">
-              {(this.state.editAsset && this.state.editAsset.Id === "0") &&
+          <HOOPivotBar
+            onClick={(ev) => { this.setState({ currentPivot: ev.currentTarget.value }); }}
+            pivotItems={this.getPivotItems()}
+            selectedKey={this.state.currentPivot}
+          >
+            <section>
+              {(this.state.editAsset && this.state.editAsset.Id === "0" && this.state.currentPivot === "CurrentPlaylist") &&
                 <AssetDetails
                   technologies={this.props.technologies}
                   asset={this.state.editAsset}
@@ -307,17 +333,18 @@ export default class AssetInfo extends React.Component<IAssetInfoProps, IAssetIn
                   </div>
                 );
               })}
-            </PivotItem>
-            {!this.props.editDisabled && (this.state.searchValue && this.state.searchValue.length > 0) &&
-              <PivotItem headerText="Search Results" itemKey="SearchResults" key="SearchResults" >
+            </section>
+            {!this.props.editDisabled && (this.state.searchValue && this.state.searchValue.length > 0 && this.state.currentPivot === 'SearchResults') &&
+              <section>
                 <AssetSearchPanel
                   allTechnologies={this.props.technologies}
                   searchResults={this.state.searchResults}
                   loadSearchResult={this.selectSearchAsset}
                 />
-              </PivotItem>
+              </section>
             }
-          </Pivot>
+          </HOOPivotBar>
+
         </div>
       );
     } catch (err) {

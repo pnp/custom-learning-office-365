@@ -5,15 +5,16 @@ import isEqual from "lodash-es/isEqual";
 import cloneDeep from "lodash-es/cloneDeep";
 import find from "lodash-es/find";
 import includes from "lodash-es/includes";
-
-import { PrimaryButton, Label } from "office-ui-fabric-react";
+import HOOButton from "@n8d/htwoo-react/HOOButton";
+import HOOLabel from "@n8d/htwoo-react/HOOLabel";
 
 import * as strings from "M365LPStrings";
 import { params } from "../../../common/services/Parameters";
-import { IAsset, ITechnology, IMultilingualString, Asset } from "../../../common/models/Models";
+import { IAsset, ITechnology, IMultilingualString } from "../../../common/models/Models";
 import Paging from "../../../common/components/Atoms/Paging";
 import SearchItem from "../Atoms/SearchItem";
 import { CustomWebpartSource } from "../../../common/models/Enums";
+
 
 export interface IAssetSearchPanelProps {
   allTechnologies: ITechnology[];
@@ -97,14 +98,15 @@ export default class AssetSearchPanel extends React.Component<IAssetSearchPanelP
       return (
         <div data-component={this.LOG_SOURCE}>
           <div className="srchr-add-btn">
-            <PrimaryButton
-              text="Add Selected Assets"
+            <HOOButton
+              label="Add Selected Assets"
               onClick={this.addAssets}
-              allowDisabledFocus={false}
-              disabled={(this.state.selectedAssets.length < 1)} />
+              disabled={(this.state.selectedAssets.length < 1)}
+              type={1}
+            />
           </div>
           {(!searchResults || searchResults.length < 1) &&
-            <Label>{strings.NoSearchResults}</Label>
+            <HOOLabel label={strings.NoSearchResults}></HOOLabel>
           }
           {searchResults && searchResults.map((a) => {
             let technology = find(this.props.allTechnologies, { Id: a.TechnologyId });

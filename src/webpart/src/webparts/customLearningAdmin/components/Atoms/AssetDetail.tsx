@@ -7,14 +7,17 @@ import cloneDeep from "lodash-es/cloneDeep";
 import { sp } from "@pnp/sp";
 import "@pnp/sp/webs";
 import "@pnp/sp/clientside-pages";
-import { Dropdown, IDropdownOption, Label, TextField, CompoundButton, PrimaryButton, Spinner, SpinnerSize } from 'office-ui-fabric-react';
+import HOOText from "@n8d/htwoo-react/HOOText";
+import HOOLabel from "@n8d/htwoo-react/HOOLabel";
+import HOODropDown, { IHOODropDownItem } from "@n8d/htwoo-react/HOODropDown";
+import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
+import HOOLoading from "@n8d/htwoo-react/HOOLoading";
 
 import * as strings from 'M365LPStrings';
 import styles from '../../../common/CustomLearningCommon.module.scss';
 import { IAsset, ITechnology, IMultilingualString } from "../../../common/models/Models";
 import { CustomWebpartSource } from "../../../common/models/Enums";
 import { params } from "../../../common/services/Parameters";
-
 
 export interface IAssetDetailProps {
   technologies: ITechnology[];
@@ -25,7 +28,7 @@ export interface IAssetDetailProps {
 }
 
 export interface IAssetDetailState {
-  technologyDropdown: IDropdownOption[];
+  technologyDropdown: IHOODropDownItem[];
   selectedTechnology: ITechnology;
   enterUrl: boolean;
   startCreatePage: boolean;
@@ -34,7 +37,7 @@ export interface IAssetDetailState {
 
 export class AssetDetailState implements IAssetDetailState {
   constructor(
-    public technologyDropdown: IDropdownOption[] = [],
+    public technologyDropdown: IHOODropDownItem[] = [],
     public selectedTechnology: ITechnology = null,
     public enterUrl: boolean = false,
     public startCreatePage: boolean = false,
@@ -48,10 +51,10 @@ export default class AssetDetail extends React.Component<IAssetDetailProps, IAss
   constructor(props) {
     super(props);
 
-    let technologyDropdown: IDropdownOption[] = props.technologies.map((tech) => {
+    let technologyDropdown: IHOODropDownItem[] = props.technologies.map((tech) => {
       return { key: tech.Id, text: tech.Name };
     });
-    technologyDropdown.splice(0, 0, { key: "", text: "" });
+    technologyDropdown.splice(0, 0, { key: "", text: "", disabled: true });
 
     let selectedTechnology: ITechnology = null;
     selectedTechnology = find((props as IAssetDetailProps).technologies, { Id: (props as IAssetDetailProps).asset.TechnologyId });
@@ -75,10 +78,10 @@ export default class AssetDetail extends React.Component<IAssetDetailProps, IAss
     }
   }
 
-  private dropdownChanged = (option: IDropdownOption, fieldName: string) => {
+  private dropdownChanged = (fieldValue: string): void => {
     try {
       let editAsset: IAsset = cloneDeep(this.props.asset);
-      editAsset[fieldName] = option.key.toString();
+      editAsset['TechnologyId'] = fieldValue;
       this.props.updateDetail(editAsset);
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (dropdownChanged) - ${err}`, LogLevel.Error);
@@ -117,37 +120,49 @@ export default class AssetDetail extends React.Component<IAssetDetailProps, IAss
       let title = (this.props.asset.Title instanceof Array) ? (this.props.asset.Title as IMultilingualString[])[this.props.currentLangIndex].Text : this.props.asset.Title as string;
       let url = (this.props.asset.Url instanceof Array) ? (this.props.asset.Url as IMultilingualString[])[this.props.currentLangIndex].Text : this.props.asset.Url as string;
       if (title.length < 1) {
-        retVal = [<Label required={true}>{strings.AdminAwaitingUrlPrompt}</Label>];
+        retVal = [<HOOLabel label={strings.AdminAwaitingUrlPrompt} for={strings.DetailEditUrl} required={true}></HOOLabel>];
       } else if (url.length > 0 || this.state.enterUrl) {
         retVal = [
-          <TextField
+          <HOOLabel label={strings.DetailEditUrl} for={strings.DetailEditUrl} required={true}></HOOLabel>,
+          <HOOText
+            forId={strings.DetailEditUrl}
+            multiline={2}
+            onChange={(ev) => { this.multiLangFieldChanged(ev.currentTarget.value, "Url"); }}
             value={url}
-            label={strings.DetailEditUrl}
-            required={true}
-            multiline
-            rows={2}
-            onChange={(ev, newValue) => { this.multiLangFieldChanged(newValue, "Url"); }}
           />,
-          <PrimaryButton text={strings.AssetDetailsOpenPage} onClick={this.openAsset} />];
+          <HOOButton
+            label={strings.AssetDetailsOpenPage}
+            onClick={this.openAsset}
+            type={1}
+          />];
       } else if (url.length < 1 && this.state.pageCreateError === "") {
         retVal = [<div>
-          <Label required={true}>{strings.DetailEditUrl}</Label>
+          <HOOLabel label={strings.DetailEditUrl} required={true}></HOOLabel>
           <div>
-            <CompoundButton primary={true} secondaryText={strings.DetailEditNewPageMessage} onClick={this.startCreatePage}>
-              {strings.DetailEditNewPageButton}
-            </CompoundButton>
-            <CompoundButton primary={false} secondaryText={strings.DetailEditExistingPageMessage} onClick={() => { this.setState({ enterUrl: true }); }}>
-              {strings.DetailEditExistingPageButton}
-            </CompoundButton>
+            <HOOButton
+              description={strings.DetailEditNewPageMessage}
+              label={strings.DetailEditNewPageButton}
+              onClick={this.startCreatePage}
+              type={5}
+            />
+            <HOOButton
+              description={strings.DetailEditExistingPageMessage}
+              label={strings.DetailEditExistingPageButton}
+              onClick={() => { this.setState({ enterUrl: true }); }}
+              type={6}
+            />
           </div>
         </div>];
       } else if (this.state.startCreatePage) {
-        retVal = [<span>{strings.CreatingPage} </span>,
-        <Spinner size={SpinnerSize.medium} />];
+        retVal = [<HOOLabel label={strings.CreatingPage}></HOOLabel>,
+        <HOOLoading value={0} minValue={0} maxValue={100}></HOOLoading>];
       } else if (this.state.pageCreateError !== "") {
-        retVal = [<Label required={true}>{strings.DetailEditUrl}</Label>,
-        <Label className="ms-fontColor-redDark">{this.state.pageCreateError}</Label>,
-        <PrimaryButton onClick={() => { this.setState({ pageCreateError: "" }); }}>{strings.TryAgain}</PrimaryButton>];
+        retVal = [
+          <HOOLabel label={strings.DetailEditUrl} required={true}></HOOLabel>,
+          <HOOLabel label={this.state.pageCreateError} required={true} rootElementAttributes={{ className: "ms-fontColor-redDark" }}></HOOLabel>,
+          <HOOButton type={HOOButtonType.Primary}
+            onClick={() => { this.setState({ pageCreateError: "" }); }}
+            label={strings.TryAgain} />];
       }
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getAssetUrlFields) - ${err}`, LogLevel.Error);
@@ -157,36 +172,39 @@ export default class AssetDetail extends React.Component<IAssetDetailProps, IAss
 
   public render(): React.ReactElement<IAssetDetailProps> {
     try {
+      // TODO how do we want to handle the OnFocus for the URL field
       return (
         <div data-component={this.LOG_SOURCE}>
           {this.props.edit &&
             <>
-              <TextField
+              <HOOLabel label={strings.DetailEditTitle} for={strings.DetailEditTitle} required={true}></HOOLabel>
+              <HOOText
+                forId={strings.DetailEditTitle}
+                onChange={(ev) => { this.multiLangFieldChanged(ev.currentTarget.value, "Url"); }}
                 value={(this.props.asset.Title instanceof Array) ? (this.props.asset.Title as IMultilingualString[])[this.props.currentLangIndex].Text : this.props.asset.Title as string}
-                label={strings.DetailEditTitle}
-                required={true}
-                onChange={(ev, newValue) => { this.multiLangFieldChanged(newValue, "Title"); }}
-                autoFocus={true}
               />
-              <Dropdown
-                label={strings.DetailEditTechnology}
+              <HOOLabel label={strings.DetailEditTechnology} for={strings.DetailEditTechnology} required={false}></HOOLabel>
+              <HOODropDown
+                value={this.props.asset.TechnologyId}
+                forId={strings.DetailEditTechnology}
                 options={this.state.technologyDropdown}
-                selectedKey={[this.props.asset.TechnologyId]}
-                onChange={(ev, option) => { this.dropdownChanged(option, "TechnologyId"); }}
-                required={false}
+                containsTypeAhead={false}
                 disabled={this.props.currentLangIndex > 0}
-              />
+                onChange={this.dropdownChanged}></HOODropDown>
+
               {(this.props.asset.Url as IMultilingualString[])[this.props.currentLangIndex].Text.length < 1 &&
                 this.getAssetUrlFields()
               }
               {(this.props.asset.Url as IMultilingualString[])[this.props.currentLangIndex].Text.length > 0 &&
-                <TextField
-                  value={(this.props.asset.Url instanceof Array) ? (this.props.asset.Url as IMultilingualString[])[this.props.currentLangIndex].Text : this.props.asset.Url as string}
-                  label={strings.DetailEditUrl}
-                  required={true}
-                  onChange={(ev, newValue) => { this.multiLangFieldChanged(newValue, "Url"); }}
-                  autoFocus={true}
-                />
+                <>
+                  <HOOLabel label={strings.DetailEditUrl} for={strings.DetailEditUrl} required={true}></HOOLabel>
+                  <HOOText
+                    forId={strings.DetailEditUrl}
+                    onChange={(ev) => { this.multiLangFieldChanged(ev.currentTarget.value, "Url"); }}
+                    value={(this.props.asset.Title instanceof Array) ? (this.props.asset.Title as IMultilingualString[])[this.props.currentLangIndex].Text : this.props.asset.Title as string}
+                  />
+                </>
+
               }
             </>
           }
@@ -194,7 +212,7 @@ export default class AssetDetail extends React.Component<IAssetDetailProps, IAss
             <>
               {params.multilingualEnabled &&
                 <>
-                  <Label className={styles.semiBold}>{strings.DetailEditTitle}</Label>
+                  <HOOLabel label={strings.DetailEditTitle}></HOOLabel>
                   {(this.props.asset.Title instanceof Array) &&
                     <p className="adm-fieldvalue">{(this.props.asset.Title as IMultilingualString[])[this.props.currentLangIndex].Text}</p>
                   }
@@ -203,9 +221,9 @@ export default class AssetDetail extends React.Component<IAssetDetailProps, IAss
                   }
                 </>
               }
-              <Label className={styles.semiBold}>{strings.DetailEditTechnology}</Label>
+              <HOOLabel label={strings.DetailEditTechnology}></HOOLabel>
               <p className="adm-fieldvalue">{(this.state.selectedTechnology) ? this.state.selectedTechnology.Name : ""}</p>
-              <Label className={styles.semiBold}>{strings.DetailEditUrl}</Label>
+              <HOOLabel label={strings.DetailEditUrl}></HOOLabel>
               {(this.props.asset.Url instanceof Array) &&
                 <p className="adm-fieldvalue">{(this.props.asset.Url as IMultilingualString[])[this.props.currentLangIndex].Text}</p>
               }
@@ -213,7 +231,9 @@ export default class AssetDetail extends React.Component<IAssetDetailProps, IAss
                 <p className="adm-fieldvalue">{this.props.asset.Url as string}</p>
               }
               {(this.props.asset.Source === CustomWebpartSource.Tenant) &&
-                <PrimaryButton text={strings.AssetDetailsOpenPage} onClick={this.openAsset} />
+                <HOOButton type={HOOButtonType.Primary}
+                  onClick={this.openAsset}
+                  label={strings.AssetDetailsOpenPage} />
               }
             </>
           }

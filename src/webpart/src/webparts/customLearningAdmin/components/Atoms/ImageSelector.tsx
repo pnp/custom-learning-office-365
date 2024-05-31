@@ -2,16 +2,17 @@ import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
 import isEqual from "lodash-es/isEqual";
+import HOOPivotButton from "@n8d/htwoo-react/HOOPivotButton";
 
 import { sp } from "@pnp/sp";
 import "@pnp/sp/folders";
 import "@pnp/sp/files";
-
 import { IFileAddResult } from "@pnp/sp/files/types";
+
 import { FilePicker, IFilePickerResult } from '../../../filePicker';
-import { Label } from 'office-ui-fabric-react';
 import * as strings from 'M365LPStrings';
 import { params } from "../../../common/services/Parameters";
+
 
 
 export interface IImageSelectorProps {
@@ -78,7 +79,14 @@ export default class ImageSelector extends React.Component<IImageSelectorProps, 
             width="200px"
             loading="lazy"
           />
-          <Label className="adm-fileUrl" onClick={e => (e as any).target.select()}>{this.props.imageSource}</Label>
+          <HOOPivotButton
+            isActive={false}
+            label={this.props.imageSource}
+            onClick={e => (e as any).target.select()}
+            rootElementAttributes={{
+              className: "adm-fileUrl",
+            }}
+          />
           {!this.props.disabled &&
             <FilePicker
               //label={strings.ImageSelectorLabel}

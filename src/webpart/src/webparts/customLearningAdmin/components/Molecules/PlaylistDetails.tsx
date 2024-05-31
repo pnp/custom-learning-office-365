@@ -6,8 +6,9 @@ import cloneDeep from "lodash-es/cloneDeep";
 import findIndex from "lodash-es/findIndex";
 import find from "lodash-es/find";
 import forEach from "lodash-es/forEach";
-
-import { Pivot, PivotItem, Dropdown, IDropdownOption, Icon, PrimaryButton, DefaultButton } from "office-ui-fabric-react";
+import HOOPivotBar, { IHOOPivotItem } from "@n8d/htwoo-react/HOOPivotBar";
+import HOODropDown, { IHOODropDownItem } from "@n8d/htwoo-react/HOODropDown";
+import HOOButton from "@n8d/htwoo-react/HOOButton";
 
 import * as strings from "M365LPStrings";
 import { params } from "../../../common/services/Parameters";
@@ -15,6 +16,7 @@ import { IPlaylist, IMultilingualString, ICategory, ITechnology, IMetadataEntry,
 import ImageSelector from "../Atoms/ImageSelector";
 import PlaylistDetail from "../Atoms/PlaylistDetail";
 import { CustomWebpartSource } from "../../../common/models/Enums";
+
 
 export interface IPlaylistDetailsProps {
   playlist: IPlaylist;
@@ -45,10 +47,10 @@ export default class PlaylistDetails extends React.Component<IPlaylistDetailsPro
   private _showMultilingual: boolean = params.multilingualEnabled;
   private _currentLanguageOptions: ILocale[] = [];
 
-  private _addLanguagePlaceholder: JSX.Element = <div className="dropdownExample-placeholder">
-    <Icon style={{ marginRight: '8px' }} iconName={'MessageFill'} aria-hidden="true" />
-    <span>{strings.AddLanguagePlaceholder}</span>
-  </div>;
+  // private _addLanguagePlaceholder: JSX.Element = <div className="dropdownExample-placeholder">
+  //   <Icon style={{ marginRight: '8px' }} iconName={'MessageFill'} aria-hidden="true" />
+  //   <span>{strings.AddLanguagePlaceholder}</span>
+  // </div>;
 
   constructor(props) {
     super(props);
@@ -72,14 +74,14 @@ export default class PlaylistDetails extends React.Component<IPlaylistDetailsPro
     }
   }
 
-  private addLanguage = (event: React.FormEvent<HTMLDivElement>, option?: IDropdownOption, index?: number) => {
+  private addLanguage = (fieldValue: string | number) => {
     try {
       let playlist = cloneDeep(this.props.playlist);
-      (playlist.Title as IMultilingualString[]).push(new MultilingualString(option.key as string, (playlist.Title as IMultilingualString[])[0].Text));
-      (playlist.Description as IMultilingualString[]).push(new MultilingualString(option.key as string, (playlist.Description as IMultilingualString[])[0].Text));
-      (playlist.Image as IMultilingualString[]).push(new MultilingualString(option.key as string, (playlist.Image as IMultilingualString[])[0].Text));
+      (playlist.Title as IMultilingualString[]).push(new MultilingualString(fieldValue as string, (playlist.Title as IMultilingualString[])[0].Text));
+      (playlist.Description as IMultilingualString[]).push(new MultilingualString(fieldValue as string, (playlist.Description as IMultilingualString[])[0].Text));
+      (playlist.Image as IMultilingualString[]).push(new MultilingualString(fieldValue as string, (playlist.Image as IMultilingualString[])[0].Text));
       this.setState({
-        currentLanguage: option.key.toString()
+        currentLanguage: fieldValue.toString()
       }, () => {
         this.props.updatePlaylist(playlist, false);
       });
@@ -110,11 +112,31 @@ export default class PlaylistDetails extends React.Component<IPlaylistDetailsPro
     }
   }
 
+  private getPivotItems = (): IHOOPivotItem[] => {
+    let pivotItems: IHOOPivotItem[] = [];
+    try {
+      this._currentLanguageOptions.forEach(cl => {
+        let pivotItem: IHOOPivotItem = {
+          text: cl.description,
+          key: cl.code
+        };
+
+        if (pivotItem) {
+          pivotItems.push(pivotItem);
+        }
+
+      });
+    } catch (err) {
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getPivotItems) - ${err}`, LogLevel.Error);
+    }
+    return pivotItems;
+  }
+
   public render(): React.ReactElement<IPlaylistDetailsProps> {
     try {
       let currentLangIndex: number = 0;
       this._currentLanguageOptions = [];
-      let addLanguageOptions: IDropdownOption[] = [];
+      let addLanguageOptions: IHOODropDownItem[] = [];
       if (this._showMultilingual) {
         currentLangIndex = findIndex((this.props.playlist.Title as IMultilingualString[]), { LanguageCode: this.state.currentLanguage });
         forEach(params.supportedLanguages, (language) => {
@@ -122,7 +144,7 @@ export default class PlaylistDetails extends React.Component<IPlaylistDetailsPro
           let locale: ILocale = find(params.configuredLanguages, { code: language });
           if (locale) {
             if (found < 0) {
-              addLanguageOptions.push({ key: language, text: locale.description });
+              addLanguageOptions.push({ key: language, text: locale.description, disabled: false });
             } else {
               this._currentLanguageOptions.push(locale);
             }
@@ -133,28 +155,21 @@ export default class PlaylistDetails extends React.Component<IPlaylistDetailsPro
         <div data-component={this.LOG_SOURCE}>
           {params.multilingualEnabled &&
             <div className="adm-header-nav-subcont">
-              <Pivot
-                className="adm-header-nav"
+              {/* TODO see if we need to account for this getTabId={(itemKey) => { return `PlaylistDetail_${itemKey}`; }} */}
+              <HOOPivotBar
+                onClick={(ev) => { this.setState({ currentLanguage: ev.currentTarget.value }); }}
+                pivotItems={this.getPivotItems()}
+                rootElementAttributes={{ className: "adm-header-nav" }}
                 selectedKey={this.state.currentLanguage}
-                onLinkClick={(i: PivotItem) => { this.setState({ currentLanguage: i.props.itemKey }); }}
-                headersOnly={true}
-                getTabId={(itemKey) => { return `PlaylistDetail_${itemKey}`; }}>
-                {this._currentLanguageOptions.length > 0 && this._currentLanguageOptions.map((cl) => {
-                  return (<PivotItem headerText={cl.description} itemKey={cl.code} />);
-                })
-                }
-              </Pivot>
+              />
               {this.props.editMode && addLanguageOptions.length > 0 &&
                 <div className="adm-pivotCombo">
-                  <Dropdown
-                    placeholder="Add language"
-                    ariaLabel="Add a translation language"
-                    onRenderPlaceholder={(): JSX.Element => {
-                      return (this._addLanguagePlaceholder);
-                    }}
+                  <HOODropDown
+                    value={""}
                     options={addLanguageOptions}
-                    onChange={this.addLanguage}
-                  />
+                    placeholder="⚑ Add language"
+                    containsTypeAhead={false}
+                    onChange={this.addLanguage}></HOODropDown>
                 </div>
               }
             </div>
@@ -184,27 +199,31 @@ export default class PlaylistDetails extends React.Component<IPlaylistDetailsPro
           {(this.props.playlist.Source === CustomWebpartSource.Tenant) &&
             <div className="adm-itemaction">
               {this.props.editMode && this._currentLanguageOptions.length > 1 && this.state.currentLanguage !== this._currentLanguageOptions[0].code &&
-                <PrimaryButton
-                  text={strings.RemoveLanguageLabel}
+                <HOOButton
+                  label={strings.RemoveLanguageLabel}
                   onClick={this.removeLanguage}
+                  type={1}
                 />
               }
               {!this.props.editMode &&
-                <DefaultButton
-                  text={strings.PlaylistEditEditLabel}
+                <HOOButton
+                  label={strings.PlaylistEditEditLabel}
                   onClick={this.props.edit}
+                  type={2}
                 />
               }
               {this.props.editMode &&
                 <>
-                  <DefaultButton
-                    text={strings.PlaylistEditCancelLabel}
+                  <HOOButton
+                    label={strings.PlaylistEditCancelLabel}
                     onClick={this.props.cancel}
+                    type={2}
                   />
-                  <PrimaryButton
-                    text={strings.PlaylistEditSaveLabel}
+                  <HOOButton
+                    label={strings.PlaylistEditSaveLabel}
                     onClick={() => this.props.updatePlaylist(this.props.playlist, true)}
                     disabled={!this.props.dirty || !this.props.valid}
+                    type={1}
                   />
                 </>
               }

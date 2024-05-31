@@ -6,7 +6,10 @@ import cloneDeep from "lodash-es/cloneDeep";
 import forEach from "lodash-es/forEach";
 import findIndex from "lodash-es/findIndex";
 import find from "lodash-es/find";
-import { IDropdownOption, Dropdown, TextField, IconButton, Icon } from "office-ui-fabric-react";
+import HOOText from "@n8d/htwoo-react/HOOText";
+import HOOLabel from "@n8d/htwoo-react/HOOLabel";
+import HOOButton from "@n8d/htwoo-react/HOOButton";
+import HOODropDown, { IHOODropDownItem } from "@n8d/htwoo-react/HOODropDown";
 
 import * as strings from "M365LPStrings";
 import { params } from "../../../common/services/Parameters";
@@ -31,10 +34,19 @@ export default class CategoryHeadingDetail extends React.Component<ICategoryHead
   private LOG_SOURCE: string = "CategoryHeadingDetail";
   private _showMultilingual: boolean = params.multilingualEnabled && (this.props.heading.Source === CustomWebpartSource.Tenant);
 
-  private _addLanguagePlaceholder: JSX.Element = <div className="dropdownExample-placeholder">
-    <Icon style={{ marginRight: '8px' }} iconName={'MessageFill'} aria-hidden="true" />
-    <span>{strings.AddLanguagePlaceholder}</span>
-  </div>;
+  // TODO figure out how to add the icon into the placeholder text or remove this
+  // private _addLanguagePlaceholder: JSX.Element = <div className="dropdownExample-placeholder">
+  //   <HOOIcon
+  //     iconName="icon-chat-help-filled"
+  //     title={strings.AddLanguagePlaceholder}
+  //     rootElementAttributes={{
+  //       style: {
+  //         marginRight: '8px'
+  //       }
+  //     }}
+  //   />
+  //   <span></span>
+  // </div>;
 
   constructor(props) {
     super(props);
@@ -69,11 +81,12 @@ export default class CategoryHeadingDetail extends React.Component<ICategoryHead
     }
   }
 
-  private addLanguage = (event: React.FormEvent<HTMLDivElement>, option?: IDropdownOption, index?: number) => {
+  // TODO make sure this works
+  private addLanguage = (fieldValue: string | number) => {
     try {
       let heading = cloneDeep(this.props.heading);
-      (heading.Name as IMultilingualString[]).push(new MultilingualString(option.key as string, (heading.Name as IMultilingualString[])[0].Text));
-      (heading.Image as IMultilingualString[]).push(new MultilingualString(option.key as string, (heading.Image as IMultilingualString[])[0].Text));
+      (heading.Name as IMultilingualString[]).push(new MultilingualString(fieldValue as string, (heading.Name as IMultilingualString[])[0].Text));
+      (heading.Image as IMultilingualString[]).push(new MultilingualString(fieldValue as string, (heading.Image as IMultilingualString[])[0].Text));
       this.props.updateHeading(heading);
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (addLanguage) - ${err}`, LogLevel.Error);
@@ -92,14 +105,17 @@ export default class CategoryHeadingDetail extends React.Component<ICategoryHead
 
   public render(): React.ReactElement<ICategoryHeadingDetailProps> {
     try {
-      let addLanguageOptions: IDropdownOption[] = [];
+      let addLanguageOptions: IHOODropDownItem[] = [];
       if (this._showMultilingual) {
         forEach(params.supportedLanguages, (language) => {
           let found = findIndex(this.props.heading.Name as IMultilingualString[], { LanguageCode: language });
           let locale: ILocale = find(params.configuredLanguages, { code: language });
           if (locale) {
             if (found < 0) {
-              addLanguageOptions.push({ key: language, text: locale.description });
+              addLanguageOptions.push({
+                key: language, text: locale.description,
+                disabled: false
+              });
             }
           }
         });
@@ -119,35 +135,30 @@ export default class CategoryHeadingDetail extends React.Component<ICategoryHead
               let locale: ILocale = find(params.configuredLanguages, { code: name.LanguageCode });
               return (
                 <div className="adm-subcatheading">
-                  <TextField
-                    label={`${strings.SubcategoryHeadingLabel} - ${locale.description}`}
-                    required={true}
+                  <HOOLabel label={`${strings.SubcategoryHeadingLabel} - ${locale.description}`} for={`${strings.SubcategoryHeadingLabel}-${locale.description}`} required={true}></HOOLabel>,
+                  {/* TODO set focus on Text box */}
+                  <HOOText
+                    forId={`${strings.SubcategoryHeadingLabel}-${locale.description}`}
+                    onChange={(ev) => { this.setHeadingName(ev.currentTarget.value, idx); }}
                     value={name.Text}
-                    onChange={(ev, newValue) => { this.setHeadingName(newValue, idx); }}
-                    autoFocus={true}
                   />
                   {(locale.code !== params.defaultLanguage) &&
-                    <IconButton
-                      iconProps={{ iconName: 'Delete' }}
-                      title={strings.DeleteButton}
-                      ariaLabel={strings.DeleteButton}
+                    <HOOButton
+                      iconName="icon-delete-regular"
                       onClick={() => { this.deleteLanguage(idx); }}
-                      disabled={false}
+                      type={0}
                     />
                   }
                 </div>
               );
             })}
             {params.multilingualEnabled && addLanguageOptions.length > 0 &&
-              <Dropdown
-                placeholder="Add language"
-                ariaLabel="Add a translation language"
-                onRenderPlaceholder={(): JSX.Element => {
-                  return (this._addLanguagePlaceholder);
-                }}
+              <HOODropDown
+                value={""}
                 options={addLanguageOptions}
-                onChange={this.addLanguage}
-              />
+                placeholder="⚑ Add language"
+                containsTypeAhead={false}
+                onChange={this.addLanguage}></HOODropDown>
             }
           </div>
         </div>

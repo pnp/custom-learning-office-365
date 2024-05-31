@@ -2,8 +2,7 @@ import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
 import isEqual from "lodash-es/isEqual";
-
-import { Checkbox } from "office-ui-fabric-react";
+import HOOCheckbox from "@n8d/htwoo-react/HOOCheckbox";
 
 export interface ISearchItemProps {
   assetTitle: string;
@@ -41,7 +40,10 @@ export default class SearchItem extends React.Component<ISearchItemProps, ISearc
       return (
         <div className="srchr-item" data-component={this.LOG_SOURCE}>
           <div className="srchr-cb">
-            <Checkbox onChange={this.props.onChecked} checked={this.props.checked} />
+            <HOOCheckbox
+              onChange={this.props.onChecked}
+              checked={this.props.checked}
+            />
           </div>
           <div className="srchr-desc">
             <h3 className="srchr-title" onClick={this.props.onPreviewAsset}>

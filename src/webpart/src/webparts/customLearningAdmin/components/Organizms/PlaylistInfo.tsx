@@ -4,8 +4,10 @@ import { Logger, LogLevel } from "@pnp/logging";
 import isEqual from "lodash-es/isEqual";
 import find from "lodash-es/find";
 import cloneDeep from "lodash-es/cloneDeep";
-
-import { MessageBar, MessageBarType, ActionButton } from "office-ui-fabric-react";
+import HOODialog from "@n8d/htwoo-react/HOODialog";
+import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
+import HOODialogActions from "@n8d/htwoo-react/HOODialogActions";
+import HOODialogContent from "@n8d/htwoo-react/HOODialogContent";
 
 import * as strings from "M365LPStrings";
 import { params } from "../../../common/services/Parameters";
@@ -13,6 +15,7 @@ import { IPlaylist, Playlist, IAsset, ICategory, ITechnology, IMetadataEntry, IM
 import { CustomWebpartSource } from "../../../common/models/Enums";
 import PlaylistDetails from "../Molecules/PlaylistDetails";
 import AssetInfo from "../Molecules/AssetInfo";
+
 
 export interface IPlaylistInfoProps {
   playlists: IPlaylist[];
@@ -208,8 +211,17 @@ export default class PlaylistInfo extends React.Component<IPlaylistInfoProps, IP
   private renderPlaylistButtons = () => {
     let retVal = [];
     try {
-      let copy = <ActionButton iconProps={{ iconName: 'Copy' }} text={strings.PlaylistEditCopyLabel} onClick={() => this.props.copyPlaylist(this.state.playlist)} disabled={false} />;
-      let close = <ActionButton iconProps={{ iconName: 'ChromeClose' }} text={strings.PlaylistEditCloseLabel} onClick={this.props.close} />;
+      let copy = <HOOButton type={HOOButtonType.Icon}
+        iconName="icon-copy-regular"
+        iconTitle={strings.PlaylistEditCopyLabel}
+        onClick={() => this.props.copyPlaylist(this.state.playlist)}
+        disabled={false}
+      />;
+      let close = <HOOButton type={HOOButtonType.Icon}
+        iconName="icon-dismiss-regular"
+        iconTitle={strings.PlaylistEditCloseLabel}
+        onClick={this.props.close}
+      />;
 
       if (!this.props.editDisabled) {
         if (!this.state.edit) {
@@ -259,13 +271,21 @@ export default class PlaylistInfo extends React.Component<IPlaylistInfoProps, IP
           <div data-component={this.LOG_SOURCE} className="adm-content-section">
             <h2>{strings.PlaylistEditPlaylistAssetsHeader}</h2>
             {(this.state.message !== "") &&
-              <MessageBar
-                messageBarType={(this.state.success) ? MessageBarType.success : MessageBarType.error}
-                isMultiline={false}
-                onDismiss={() => { this.setState({ message: "", success: true }); }}
-                dismissButtonAriaLabel={strings.CloseButton}>
-                {this.state.message}
-              </MessageBar>
+              <HOODialog
+                changeVisibility={function noRefCheck() { }}
+                type={(this.state.success) ? 2 : 1}
+                visible={true}
+              >
+                <HOODialogContent>
+                  {this.state.message}
+                </HOODialogContent>
+                <HOODialogActions>
+                  <HOOButton
+                    iconName="hoo-icon-close"
+                    onClick={() => { this.setState({ message: "", success: true }); }}
+                    type={0} />
+                </HOODialogActions>
+              </HOODialog>
             }
             <AssetInfo
               editDisabled={this.props.editDisabled}
