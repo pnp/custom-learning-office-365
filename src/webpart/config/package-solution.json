@@ -23,6 +23,12 @@
       "videoUrl": "",
       "categories": []
     },
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Files.ReadWrite.All"
+      }
+    ],
     "name": "Microsoft 365 learning pathways",
     "id": "26c9cd9f-db62-49b1-b102-7f0dad281ea0",
     "version": "4.4.0.0",

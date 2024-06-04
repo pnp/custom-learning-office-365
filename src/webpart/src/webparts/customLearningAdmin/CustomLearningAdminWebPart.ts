@@ -384,7 +384,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
       }
       if (saveAsset !== "0") {
         //Refresh assets
-        let assets = await this._languageController.refreshAssetsAll(true);
+        await this._languageController.refreshAssetsAll(true);
         //Reset config and render
         this._cacheConfig = await this._languageController.getCacheConfig();
         this.render();

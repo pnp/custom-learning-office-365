@@ -12,7 +12,6 @@
     "postversion": "gulp dist"
   },
   "dependencies": {
-    "@fluentui/react": "^8.106.4",
     "@microsoft/sp-adaptive-card-extension-base": "1.19.0",
     "@microsoft/sp-component-base": "1.19.0",
     "@microsoft/sp-core-library": "1.19.0",
@@ -21,9 +20,10 @@
     "@microsoft/sp-property-pane": "1.19.0",
     "@microsoft/sp-webpart-base": "1.19.0",
     "@microsoft/applicationinsights-web": "^3.2.1",
+    "learning-pathways-styleguide": "0.0.1",
     "@pnp/sp": "^4.0.1",
     "@pnp/logging": "4.0.1",
-    "@n8d/htwoo-react": "^2.4.0",
+    "@n8d/htwoo-react": "^2.5.0",
     "eslint": "2.5.1",
     "lodash-es": "^4.17.21",
     "react": "17.0.1",
