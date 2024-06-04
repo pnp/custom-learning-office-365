@@ -125,6 +125,17 @@ export class Customizations implements ICustomizations {
   ) { }
 }
 
+export interface IWebhookNotification {
+  User: string;
+  Resource: string;
+  
+}
+
+export interface IWebhookConfig {
+  Url: string;
+  AnonymizeUser: boolean;
+}
+
 export interface ICacheConfig {
   Id: number;
   eTag: string;
@@ -137,6 +148,7 @@ export interface ICacheConfig {
   LastUpdated: Date;
   ManifestVersion: string;
   WebPartVersion: string;
+  WebhookConfig: IWebhookConfig;
 }
 
 export class CacheConfig implements ICacheConfig {
@@ -151,7 +163,8 @@ export class CacheConfig implements ICacheConfig {
     public TelemetryKey: string = "",
     public LastUpdated: Date = null,
     public ManifestVersion: string = "",
-    public WebPartVersion: string = "4.0.0"
+    public WebPartVersion: string = "4.0.0",
+    public WebhookConfig: IWebhookConfig = { Url: null, AnonymizeUser: true}
   ) { }
 }
 

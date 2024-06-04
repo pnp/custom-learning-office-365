@@ -12,7 +12,7 @@ import * as strings from "M365LPStrings";
 import { ConfigService } from "./ConfigService";
 import { Roles } from "../models/Enums";
 import { params } from "./Parameters";
-import { IManifest, ILocale, CDN, ICDN } from "../models/Models";
+import { IManifest, ILocale, CDN, ICDN, IWebhookConfig } from "../models/Models";
 import { HttpClientResponse, HttpClient } from "@microsoft/sp-http";
 import { CustomDataService } from "./CustomDataService";
 
@@ -23,6 +23,7 @@ export interface IInitService {
   validateLists(owner: boolean): Promise<boolean>;
   loadManifest(baseCdnPath: string): Promise<boolean>;
   loadConfiguredLanguages(): boolean;
+  webhookConfig: IWebhookConfig;
 }
 
 export class InitService implements IInitService {
@@ -32,6 +33,7 @@ export class InitService implements IInitService {
   private _sp: SPFI;
   private _assetOrigins: string[];
   private _telemetryKey: string;
+  private _webhookConfig: IWebhookConfig;
 
   constructor() { }
 
@@ -43,10 +45,14 @@ export class InitService implements IInitService {
     return this._assetOrigins;
   }
 
+  public get webhookConfig(): IWebhookConfig {
+    return this._webhookConfig;
+  }
+
   public async initialize(cdn: string): Promise<boolean> {
     let retVal: boolean = false;
     try {
-      this._cdn = cdn;      
+      this._cdn = cdn;
       this._sp = spfi().using(SPFx(params.context));
       let successLS = await this.loadLearningSite();
       if (successLS) {
@@ -59,6 +65,7 @@ export class InitService implements IInitService {
             initComplete.push(this.loadLanguage());
             initComplete.push(this.loadTelemetryOn());
             initComplete.push(this.loadUserRole());
+            initComplete.push(this.loadWebhookConfig());
 
             let successAll = await Promise.all(initComplete);
             if (successAll.indexOf(false) === -1)
@@ -215,6 +222,23 @@ export class InitService implements IInitService {
       }
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (loadLearningSite) - ${err}`, LogLevel.Error);
+    }
+    return retVal;
+  }
+
+  //Read value of MicrosoftCustomLearningWebhookConfig from Tenant Properties
+  private async loadWebhookConfig(): Promise<boolean> {
+    let retVal: boolean = false;
+    try {
+      let webhookConfig = await this._sp.web.getStorageEntity("MicrosoftCustomLearningWebhookConfig");
+      if (webhookConfig.Value) {
+        params.webhookConfig = (webhookConfig.Value?.length > 0) ? JSON.parse(webhookConfig.Value) : { Url: null, AnonymizeUser: true };
+      } else {
+        Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (setWebhookConfig) -- Tenant property 'MicrosoftCustomLearningWebhookConfig' has not been set.`, LogLevel.Info);
+      }
+      retVal = true;
+    } catch (err) {
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (loadWebhookConfig) - ${err}`, LogLevel.Error);
     }
     return retVal;
   }

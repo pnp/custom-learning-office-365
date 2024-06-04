@@ -1,6 +1,6 @@
 import { Logger, LogLevel } from "@pnp/logging";
 import { HttpClient } from "@microsoft/sp-http";
-import { IContentPack, IManifest, ICacheConfig, ICDN, ILocale, ICustomCDN } from "../models/Models";
+import { IContentPack, IManifest, ICacheConfig, ICDN, ILocale, ICustomCDN, IWebhookConfig } from "../models/Models";
 import { WebPartContext } from "@microsoft/sp-webpart-base";
 import forEach from "lodash-es/forEach";
 
@@ -25,6 +25,7 @@ export class Parameters {
   private _multilingualEnabled: boolean = false;
   private _multilingualLanguages: number[] = null;
   private _configuredLanguages: ILocale[] = null;
+  private _webhookConfig: IWebhookConfig = {Url: null, AnonymizeUser: true };
 
   //From Manifest
   private _telemetryKey: string = "089e14f6-1341-44b8-9135-71b3e326e914";
@@ -140,6 +141,17 @@ export class Parameters {
     */
   get telemetryKey(): string {
     return this._telemetryKey;
+  }
+
+  /**	
+  * The build version number of the app.
+  */
+  get webhookConfig(): IWebhookConfig {
+    return this._webhookConfig;
+  }
+
+  set webhookConfig(value: IWebhookConfig) {
+    this._webhookConfig = value;
   }
 
   //Load from manifest.json
