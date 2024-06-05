@@ -14,7 +14,6 @@ import HOODialogContent from "@n8d/htwoo-react/HOODialogContent";
 
 import { IPlaylist, ICategory, ITechnology, IMetadataEntry, IMultilingualString } from "../../../common/models/Models";
 import * as strings from 'M365LPStrings';
-import styles from '../../../common/CustomLearningCommon.module.scss';
 import { IRecursiveList, RecursiveList } from "../../../recusiveTree/RecursiveTree";
 import RecursiveTree from "../../../recusiveTree/RecursiveTree";
 
@@ -250,9 +249,7 @@ export default class PlaylistDetail extends React.Component<IPlaylistDetailProps
             <>
               <HOOLabel
                 label={strings.DetailEditTitle}
-                rootElementAttributes={{
-                  className: styles.semiBold
-                }}></HOOLabel>
+              ></HOOLabel>
 
               {(this.props.detail.Title instanceof Array) &&
                 <p className="adm-fieldvalue">{(this.props.detail.Title as IMultilingualString[])[this.props.currentLangIndex].Text}</p>
@@ -262,9 +259,7 @@ export default class PlaylistDetail extends React.Component<IPlaylistDetailProps
               }
               <HOOLabel
                 label={strings.DetailEditDescription}
-                rootElementAttributes={{
-                  className: styles.semiBold
-                }}></HOOLabel>
+              ></HOOLabel>
 
               {(this.props.detail.Description instanceof Array) &&
                 <p className="adm-fieldvalue">{(this.props.detail.Description as IMultilingualString[])[this.props.currentLangIndex].Text}</p>
@@ -272,11 +267,7 @@ export default class PlaylistDetail extends React.Component<IPlaylistDetailProps
               {!(this.props.detail.Description instanceof Array) &&
                 <p className="adm-fieldvalue">{this.props.detail.Description as string}</p>
               }
-              <HOOLabel
-                label={strings.DetailEditTechnology}
-                rootElementAttributes={{
-                  className: styles.semiBold
-                }}></HOOLabel>
+              <HOOLabel label={strings.DetailEditTechnology} ></HOOLabel>
 
               <p className="adm-fieldvalue">{(this.state.selectedTechnology) ? this.state.selectedTechnology.Name : ""}</p>
               {categoryError.length > 0 &&
@@ -291,20 +282,14 @@ export default class PlaylistDetail extends React.Component<IPlaylistDetailProps
                     <HOOLabel
                       label={strings.DetailEditCategory}
                       required={(categoryError.length > 0)}
-                      rootElementAttributes={{
-                        className: styles.semiBold
-                      }}></HOOLabel>
+                    ></HOOLabel>
                   </HOODialogContent>
 
                 </HOODialog>
 
               }
               {categoryError.length < 1 &&
-                <HOOLabel
-                  label={strings.DetailEditCategory}
-                  rootElementAttributes={{
-                    className: styles.semiBold
-                  }}></HOOLabel>
+                <HOOLabel label={strings.DetailEditCategory} ></HOOLabel>
               }
               {(this.state.selectedCategory.Name instanceof Array) &&
                 <p className="adm-fieldvalue">{(this.state.selectedCategory.Name as IMultilingualString[])[0].Text}</p>
@@ -312,18 +297,10 @@ export default class PlaylistDetail extends React.Component<IPlaylistDetailProps
               {!(this.state.selectedCategory.Name instanceof Array) &&
                 <p className="adm-fieldvalue">{(this.state.selectedCategory) ? this.state.selectedCategory.Name as string : ""}</p>
               }
-              <HOOLabel
-                label={strings.DetailEditLevel}
-                rootElementAttributes={{
-                  className: styles.semiBold
-                }}></HOOLabel>
+              <HOOLabel label={strings.DetailEditLevel}></HOOLabel>
 
               <p className="adm-fieldvalue">{(this.props.detail.LevelValue) ? this.props.detail.LevelValue.Name : ""}</p>
-              <HOOLabel
-                label={strings.DetailEditAudience}
-                rootElementAttributes={{
-                  className: styles.semiBold
-                }}></HOOLabel>
+              <HOOLabel label={strings.DetailEditAudience}></HOOLabel>
               <p className="adm-fieldvalue">{(this.props.detail.AudienceValue) ? this.props.detail.AudienceValue.Name : ""}</p>
             </>
           }

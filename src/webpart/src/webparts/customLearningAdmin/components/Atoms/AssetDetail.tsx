@@ -114,8 +114,8 @@ export default class AssetDetail extends React.Component<IAssetDetailProps, IAss
     });
   }
 
-  private getAssetUrlFields(): Array<JSX.Element> {
-    let retVal: Array<JSX.Element>;
+  private getAssetUrlFields(): Array<any> {
+    let retVal: Array<any>;
     try {
       let title = (this.props.asset.Title instanceof Array) ? (this.props.asset.Title as IMultilingualString[])[this.props.currentLangIndex].Text : this.props.asset.Title as string;
       let url = (this.props.asset.Url instanceof Array) ? (this.props.asset.Url as IMultilingualString[])[this.props.currentLangIndex].Text : this.props.asset.Url as string;

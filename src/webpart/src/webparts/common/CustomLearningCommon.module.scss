@@ -1,5 +1,5 @@
 @use 'sass:meta';
-$baseFolder: '../../../../node_modules/';
+$baseFolder: '../../../../node_modules/'; 
 
 .loadingShimmer {
 	margin-left: 16px;
@@ -19,7 +19,7 @@ $baseFolder: '../../../../node_modules/';
     // .ms-SearchBox {
 		// 	background-color: $c-background;
 		// }
-  }
+  } 
 
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
@@ -44,17 +44,17 @@ $baseFolder: '../../../../node_modules/';
 		margin: 0 auto 100px;
 		padding: 0 1em;
 
-		:global {
-			.category-item {
-				width: calc(#{span(2 narrow)} - .1px);
+		// :global {
+		// 	.category-item {
+		// 		width: calc(#{span(2 narrow)} - .1px);
 
-				&:nth-child(6n+1) {
-					margin-left: 0;
-				}
+		// 		&:nth-child(6n+1) {
+		// 			margin-left: 0;
+		// 		}
 
-				@media screen and (min-width: 1024px) {}
-			}
-		}
+		// 		@media screen and (min-width: 1024px) {}
+		// 	}
+		// }
 	}
 
 	.spouterframe {

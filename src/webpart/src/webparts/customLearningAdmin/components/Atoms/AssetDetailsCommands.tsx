@@ -58,18 +58,19 @@ export default class AssetDetailsCommands extends React.Component<IAssetDetailsC
           <menu className="pl-edit-actions" role="toolbar">
             <li>
               <HOOButton
+                type={0}
                 iconName="icon-chevron-up-regular"
-                key='moveUp'
                 label={strings.MoveUpButton}
                 disabled={(this.props.assetIndex === 0)}
-                type={0}
                 onClick={() => this.props.moveUp()}
-              />
+                reactKey={'moveUp'}
+              >
+              </HOOButton>
             </li>
             <li>
               <HOOButton
                 iconName="icon-chevron-down-regular"
-                key='moveDown'
+                reactKey='moveDown'
                 label={strings.MoveDownButton}
                 disabled={(this.props.assetIndex === this.props.assetTotal)}
                 type={0}
@@ -79,7 +80,7 @@ export default class AssetDetailsCommands extends React.Component<IAssetDetailsC
             <li>
               <HOOButton
                 iconName="icon-delete-regular"
-                key='remove'
+                reactKey='remove'
                 label={strings.PlaylistRemove}
                 type={0}
                 onClick={() => this.props.remove()}
@@ -88,7 +89,7 @@ export default class AssetDetailsCommands extends React.Component<IAssetDetailsC
             <li>
               <HOOButton
                 iconName="icon-pen-regular"
-                key='edit'
+                reactKey='edit'
                 label={strings.EditButton}
                 type={0}
                 disabled={this.props.editDisabled}
