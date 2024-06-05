@@ -1,5 +1,5 @@
 @use 'sass:meta';
-$baseFolder: '../../../../../node_modules/';
+$baseFolder: '../../../../node_modules/'; 
 
 .loadingShimmer {
 	margin-left: 16px;
@@ -14,12 +14,12 @@ $baseFolder: '../../../../../node_modules/';
 
 .customLearning {
   :global {
-    @include meta.load-css('#{$baseFolder}styleguide/source/scss/main.spfx');
+    @include meta.load-css('#{$baseFolder}learning-pathways-styleguide/source/css/main.spfx');
 
-    .ms-SearchBox {
-			background-color: $c-background;
-		}
-  }
+    // .ms-SearchBox {
+		// 	background-color: $c-background;
+		// }
+  } 
 
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
@@ -44,17 +44,17 @@ $baseFolder: '../../../../../node_modules/';
 		margin: 0 auto 100px;
 		padding: 0 1em;
 
-		:global {
-			.category-item {
-				width: calc(#{span(2 narrow)} - .1px);
+		// :global {
+		// 	.category-item {
+		// 		width: calc(#{span(2 narrow)} - .1px);
 
-				&:nth-child(6n+1) {
-					margin-left: 0;
-				}
+		// 		&:nth-child(6n+1) {
+		// 			margin-left: 0;
+		// 		}
 
-				@media screen and (min-width: 1024px) {}
-			}
-		}
+		// 		@media screen and (min-width: 1024px) {}
+		// 	}
+		// }
 	}
 
 	.spouterframe {
@@ -95,13 +95,13 @@ $baseFolder: '../../../../../node_modules/';
 	.primaryButton:hover {
 		white-space: nowrap;
 
-    color: $ouif-primaryButtonText;
-    border-color: $ouif-primaryButtonBackground;
-    background-color: $ouif-primaryButtonBackground;
+    // color: $ouif-primaryButtonText;
+    // border-color: $ouif-primaryButtonBackground;
+    // background-color: $ouif-primaryButtonBackground;
 
-		svg {
-			fill: $ouif-primaryButtonText;
-		}
+		// svg {
+		// 	fill: $ouif-primaryButtonText;
+		// }
 	}
 
 	:global {
@@ -136,7 +136,7 @@ $baseFolder: '../../../../../node_modules/';
       background-color: transparent;
 
 			&:hover {
-				color: $ouif-primaryButtonBackground;
+				//color: $ouif-primaryButtonBackground;
 				background-color: transparent;
 
 				.pl-edit-actions {

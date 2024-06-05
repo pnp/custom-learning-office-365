@@ -1,6 +1,5 @@
 import * as React from "react";
 import { Logger, LogLevel, ILogEntry, FunctionListener, ConsoleListener } from "@pnp/logging";
-import { sp } from "@pnp/sp";
 
 import isEqual from "lodash-es/isEqual";
 import cloneDeep from "lodash-es/cloneDeep";
@@ -63,11 +62,11 @@ export default class UpdateConfiguration extends React.Component<IUpdateConfigur
 
   public componentWillUnmount() {
     Logger.clearSubscribers();
-    Logger.subscribe(new ConsoleListener());
+    Logger.subscribe(ConsoleListener());
     Logger.activeLogLevel = LogLevel.Info;
   }
 
-  private logMessage = new FunctionListener((entry: ILogEntry) => {
+  private logMessage = FunctionListener((entry: ILogEntry) => {
     let messages = cloneDeep(this.state.messages);
     let messageCount = countBy(messages, "level");
     let errors = messageCount["3"] ? messageCount["3"] : 0;

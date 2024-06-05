@@ -4,9 +4,9 @@ import { Logger, LogLevel } from "@pnp/logging";
 import isEqual from "lodash-es/isEqual";
 import find from "lodash-es/find";
 import cloneDeep from "lodash-es/cloneDeep";
-import { sp } from "@pnp/sp";
+import { spfi, SPFx as spSPFx } from "@pnp/sp";
 import "@pnp/sp/webs";
-import "@pnp/sp/clientside-pages";
+import "@pnp/sp/clientside-pages/web";
 import HOOText from "@n8d/htwoo-react/HOOText";
 import HOOLabel from "@n8d/htwoo-react/HOOLabel";
 import HOODropDown, { IHOODropDownItem } from "@n8d/htwoo-react/HOODropDown";
@@ -14,7 +14,6 @@ import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
 import HOOLoading from "@n8d/htwoo-react/HOOLoading";
 
 import * as strings from 'M365LPStrings';
-import styles from '../../../common/CustomLearningCommon.module.scss';
 import { IAsset, ITechnology, IMultilingualString } from "../../../common/models/Models";
 import { CustomWebpartSource } from "../../../common/models/Enums";
 import { params } from "../../../common/services/Parameters";
@@ -96,6 +95,7 @@ export default class AssetDetail extends React.Component<IAssetDetailProps, IAss
     let title = (this.props.asset.Title instanceof Array) ? (this.props.asset.Title as IMultilingualString[])[this.props.currentLangIndex].Text : this.props.asset.Title as string;
     if (title.length < 1) return;
     try {
+      const sp = spfi(params.baseAdminUrl).using(spSPFx(params.context));
       let page = await sp.web.addClientsidePage(`${title}.aspx`);
       // @ts-ignore
       let pageItem = await page.getItem<{ Id: number, FileRef: string, PageLayoutType: string }>("Id", "FileRef", "PageLayoutType");
@@ -114,8 +114,8 @@ export default class AssetDetail extends React.Component<IAssetDetailProps, IAss
     });
   }
 
-  private getAssetUrlFields(): Array<JSX.Element> {
-    let retVal: Array<JSX.Element>;
+  private getAssetUrlFields(): Array<any> {
+    let retVal: Array<any>;
     try {
       let title = (this.props.asset.Title instanceof Array) ? (this.props.asset.Title as IMultilingualString[])[this.props.currentLangIndex].Text : this.props.asset.Title as string;
       let url = (this.props.asset.Url instanceof Array) ? (this.props.asset.Url as IMultilingualString[])[this.props.currentLangIndex].Text : this.props.asset.Url as string;

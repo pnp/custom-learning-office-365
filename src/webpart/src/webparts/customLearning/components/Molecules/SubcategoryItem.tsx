@@ -2,7 +2,6 @@ import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
 import isEqual from "lodash-es/isEqual";
-import Truncate from 'react-truncate';
 import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
 
 import { IMetadataEntry } from "../../../common/models/Models";
@@ -94,13 +93,13 @@ export default class SubCategoryItem extends React.Component<ISubCategoryItemPro
     return true;
   }
 
-  private _handleTruncate = (truncated) => {
-    if (this.state.truncated !== truncated) {
-      this.setState({
-        truncated
-      });
-    }
-  }
+  // private _handleTruncate = (truncated) => {
+  //   if (this.state.truncated !== truncated) {
+  //     this.setState({
+  //       truncated
+  //     });
+  //   }
+  // }
 
   private _toggleLines = (event: React.MouseEvent<HTMLSpanElement, MouseEvent>) => {
     event.preventDefault();
@@ -131,15 +130,19 @@ export default class SubCategoryItem extends React.Component<ISubCategoryItemPro
           <div className="plov-desc">
             <h3 className="plov-title">{this.props.title}</h3>
             <p>
-              <Truncate
-                lines={!this.state.expanded && this.state.clamp}
-                ellipsis={(
-                  <span className="truncateToggle notExpanded" onClick={this._toggleLines} aria-hidden="true" dangerouslySetInnerHTML={{ "__html": ButtonTypes.ArrowDown.SVG }} ></span>
-                )}
-                onTruncate={this._handleTruncate}
+              <div>
+              </div>
+              {/* TODO add the trancate via CSS */}
+              <div
+              // lines={!this.state.expanded && this.state.clamp}
+              // ellipsis={(
+              //   <span className="truncateToggle notExpanded" onClick={this._toggleLines} aria-hidden="true" dangerouslySetInnerHTML={{ "__html": ButtonTypes.ArrowDown.SVG }} ></span>
+              // )}
+              // onTruncate={this._handleTruncate}
               >
+                <span className="truncateToggle notExpanded" onClick={this._toggleLines} aria-hidden="true" dangerouslySetInnerHTML={{ "__html": ButtonTypes.ArrowDown.SVG }} ></span>
                 {this.props.description}
-              </Truncate>
+              </div>
               {!this.state.truncated && this.state.expanded && (
                 <span className="truncateToggle expanded" onClick={this._toggleLines} aria-hidden="true" dangerouslySetInnerHTML={{ "__html": ButtonTypes.ArrowUp.SVG }} ></span>
               )}
