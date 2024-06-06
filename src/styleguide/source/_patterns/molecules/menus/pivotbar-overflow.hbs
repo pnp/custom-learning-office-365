@@ -1,0 +1,11 @@
+{{#menu }}
+<div class="hoo-pivotbar has-overflow" role="menubar">
+    <div class="hoo-overflow">
+        {{#each menuItems  }}
+        {{> atoms-button-pivot this }}
+        {{/each}}
+        <!--- Fixed element to handle overflow buttons -->
+        {{> atoms-button-icon-overflow overflowButton }}
+    </div>
+</div>
+{{/menu }}

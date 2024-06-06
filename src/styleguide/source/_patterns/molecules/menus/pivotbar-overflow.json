@@ -1,0 +1,77 @@
+{
+    "pivotItems": [
+        {
+            "title": "Coffee",
+            "isActive": true
+        },
+        {
+            "title": "Matcha",
+            "isActive": false
+        },
+        {
+            "title": "Ice Tea",
+            "isActive": false
+        },
+        {
+            "title": "Aqua Minerale",
+            "isActive": false
+        },
+        {
+            "title": "Earl Grey",
+            "isActive": false
+        },
+        {
+            "title": "Darjeeling tea",
+            "isActive": false
+        },
+        {
+            "title": "Chai Latte",
+            "isActive": false
+        },
+        {
+            "title": "Gin Tonic",
+            "isActive": false
+        }
+    ],
+    "pivotItems2": [
+        {
+            "title": "Ham",
+            "isActive": true
+        },
+        {
+            "title": "Bacon",
+            "isActive": false
+        },
+        {
+            "title": "Spam",
+            "isActive": false
+        },
+        {
+            "title": "Turkey",
+            "isActive": false
+        },
+        {
+            "title": "Pork",
+            "isActive": false
+        },
+        {
+            "title": "Venison",
+            "isActive": false
+        },
+        {
+            "title": "Bison",
+            "isActive": false
+        },
+        {
+            "title": "Steak",
+            "isActive": false
+        }
+    ],
+    "overflowButton": {
+        "iconDown": "icon-ellipses",
+        "label": "New Item",
+        "contextMenu": {
+        }
+    },
+
+}

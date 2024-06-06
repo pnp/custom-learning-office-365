@@ -1,0 +1,25 @@
+{
+    "adm-pivot":{
+        "menu": {
+            "menuItems": [
+                {
+                    "title": "Microsoft Learing Pathways",
+                    "isActive": true
+                }
+            ],
+            "overflowButton": {
+                "iconDown": "icon-ellipses",
+                "label": "New Item",
+                "contextMenu": {
+                    "contextItems": []
+                }
+            }
+        }
+    },
+    "adm-header-actions": {
+        "iconDown": "icon-ellipses",
+        "contentMenu": [
+            
+        ]
+    }
+}
