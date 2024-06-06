@@ -1,0 +1,23 @@
+{
+    "breadcrumbItems": [
+        {
+            "text": "Item 1",
+            "link": "#",
+            "separator": true
+        },
+        {
+            "text": "Item 2",
+            "link": "#",
+            "separator": true
+        },
+        {
+            "text": "Item 3",
+            "link": "#",
+            "separator": true
+        },
+        {
+            "text": "Item 4",
+            "link": "#"
+        }
+    ]
+}
