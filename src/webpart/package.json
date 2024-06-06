@@ -23,7 +23,6 @@
     "@pnp/logging": "4.0.1",
     "@pnp/sp": "^4.0.1",
     "applicationinsights-js": "^1.0.21",
-    "core-js": "^3.37.1",
     "es6-map": "^0.1.5",
     "eslint": "2.5.1",
     "learning-pathways-styleguide": "0.0.1",
