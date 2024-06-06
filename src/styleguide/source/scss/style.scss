@@ -1,8 +1,10 @@
 @use 'sass:meta';
 @use '../../../node_modules/@n8d/htwoo-core/lib/sass/01-atoms/icons/index' as hooIcons;
 @use '../../../node_modules/@n8d/htwoo-core/lib/sass/01-atoms/buttons/index' as hooButtons;
-@use '../../../node_modules/@n8d/htwoo-core/lib/sass/01-atoms/inputs/index' as hooInput;
+@use '../../../node_modules/@n8d/htwoo-core/lib/sass/01-atoms/input/index' as hooInput;
+@use '../../../node_modules/@n8d/htwoo-core/lib/sass/01-atoms/icons/index' as hooIcon;
 @use '../../../node_modules/@n8d/htwoo-core/lib/sass/02-molecules/dialogs/index' as hooMoleculesDialogs;
+@use '../../../node_modules/@n8d/htwoo-core/lib/sass/02-molecules/menu/index' as hooMenu;
 @use '../../../node_modules/@n8d/htwoo-core/lib/sass/03-organism/dialog/index' as hooOrganismsDialogs;
 
 
@@ -20,8 +22,17 @@
 //   font-family: $default-font-name;font-family
 // }
 
-.hoo-icon-svg{
-    fill: currentColor;
-    height: 2rem;
-    width: 2rem;;
-}
+// .hoo-icon-svg{
+//     fill: currentColor;
+//     height: 2rem;
+//     width: 2rem;;
+// }
+
+// .hoo-dlgcontent{
+// 	box-sizing: border-box;
+// 	padding: 0 core.px2rem(20px) core.px2rem(16px);
+
+// 	border: transparent 1px solid;
+// 	overflow: auto;
+// 	max-height: calc(100vh - 5rem);
+// }

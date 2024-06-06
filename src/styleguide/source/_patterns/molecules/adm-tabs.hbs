@@ -1,4 +1,12 @@
 <nav class="adm-nav" role="navigation">
-  {{> atoms-adm-label }}
-  {{> atoms-adm-menu }}
+  {{#adm-pivot}}
+    {{> molecules-pivotbar-overflow}}
+  {{/adm-pivot}}
+  <div class="adm-nav-actions" style="background-color: lime;">
+    {{#admin-header-actions}}
+    {{ json this }}
+    {{> atoms-button-icon-overflow }}
+    {{/admin-header-actions}}
+  </div>
+  <div class="adm-nav-filter"></div>
 </nav>
