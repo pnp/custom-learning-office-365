@@ -2,18 +2,21 @@
     "tool-item": [
         {
             "button": {
+                "aria-label": "Get the link",
                 "title": "Get the link",
                 "iconname": "icon-link-regular"
             }
         },
         {
             "button": {
+                "aria-label": "Search",
                 "title": "Search",
                 "iconname": "icon-search-regular"
             }
         },
         {
             "button": {
+                "aria-label": "Menu",
                 "title": "Menu",
                 "iconname": "icon-settings-regular"
             }
