@@ -1,4 +1,4 @@
-<nav class="hoo-breadcrumb">
+<nav class="hoo-breadcrumb" aria-label="breadcrumb">
     <ol>
         {{#each breadcrumbItems }}
         <li class="hoo-breadcrumb-item">
@@ -8,7 +8,7 @@
             <button class="hoo-breadcrumb-link">{{ text }}</button>
             {{/if}}
             {{#if separator }}
-            <span class="hoo-breadcrumb-separator">
+            <span class="hoo-breadcrumb-separator" aria-current="location">
                 {{> atoms-icon-svg iconname="icon-arrow-right" }}
             </span>
             {{/if }}
