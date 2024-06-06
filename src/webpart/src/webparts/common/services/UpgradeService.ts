@@ -110,6 +110,7 @@ export class UpgradeService implements IUpgradeService {
     return item;
   }
 
+  // @ts-ignore
   private async uCacheConfigV2V3(currentConfig: v3_ICustomConfig): Promise<v3_ICustomConfig> {
     let workingConfig: v3_ICustomConfig = cloneDeep(currentConfig);
 
@@ -149,6 +150,7 @@ export class UpgradeService implements IUpgradeService {
     return workingConfig;
   }
 
+  // @ts-ignore
   private async uCacheConfigV3V4(currentConfig: v3_ICustomConfig): Promise<ICacheConfig> {
     let workingConfig: v3_ICustomConfig = cloneDeep(currentConfig);
     let returnConfig: ICacheConfig;
@@ -166,6 +168,7 @@ export class UpgradeService implements IUpgradeService {
     return returnConfig;
   }
 
+  // @ts-ignore
   private fixCategoryModel(c: any): ICategory {
     let item: any = undefined;
     try {
@@ -180,6 +183,7 @@ export class UpgradeService implements IUpgradeService {
     return item;
   }
 
+  // @ts-ignore
   private async uCustomizationsV2V3(currentSubCat: v3_ICustomSubCategories): Promise<v3_ICustomSubCategories> {
     let workingSubCat: v3_ICustomSubCategories = cloneDeep(currentSubCat);
     let self = this;
@@ -210,6 +214,7 @@ export class UpgradeService implements IUpgradeService {
     return workingSubCat;
   }
 
+  // @ts-ignore
   private async uCustomizationsV3V4(currentSubCat: v3_ICustomSubCategories, config: v3_ICustomConfig): Promise<ICustomizations> {
     let workingSubCat: ICustomizations = cloneDeep(currentSubCat) as ICustomizations;
 
@@ -264,6 +269,7 @@ export class UpgradeService implements IUpgradeService {
     return item;
   }
 
+  // @ts-ignore
   private async uPlaylistsV2V3(currentPlaylists: IPlaylist[], newMetadata: IMetadata): Promise<IPlaylist[]> {
     let workingPlaylists: IPlaylist[] = [];
     try {
@@ -301,6 +307,7 @@ export class UpgradeService implements IUpgradeService {
     return workingPlaylists;
   }
 
+  // @ts-ignore
   private async uPlaylistsV3V4(currentPlaylists: IPlaylist[], newMetadata: IMetadata): Promise<IPlaylist[]> {
     let workingPlaylists: IPlaylist[] = [];
     try {
@@ -352,6 +359,7 @@ export class UpgradeService implements IUpgradeService {
     return item;
   }
 
+  // @ts-ignore
   private async uAssetsV2V3(currentAssets: IAsset[], newMetadata: IMetadata): Promise<IAsset[]> {
     let workingAssets: IAsset[] = [];
     try {
@@ -379,6 +387,7 @@ export class UpgradeService implements IUpgradeService {
     return workingAssets;
   }
 
+  // @ts-ignore
   private async uAssetsV3V4(currentAssets: IAsset[], newMetadata: IMetadata): Promise<IAsset[]> {
     let workingAssets: IAsset[] = [];
     try {

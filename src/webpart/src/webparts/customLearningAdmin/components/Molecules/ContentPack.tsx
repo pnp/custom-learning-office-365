@@ -3,7 +3,7 @@ import { Logger, LogLevel } from "@pnp/logging";
 
 import isEqual from "lodash-es/isEqual";
 import find from "lodash-es/find";
-import { DefaultButton, PrimaryButton, Icon } from "office-ui-fabric-react";
+import HOOButton from "@n8d/htwoo-react/HOOButton";
 
 import { params } from "../../../common/services/Parameters";
 import * as strings from "M365LPStrings";
@@ -11,6 +11,7 @@ import ContentPackItem from "../Atoms/ContentPackItem";
 import CdnEdit from '../Atoms/CdnEdit';
 import styles from "../../../common/CustomLearningCommon.module.scss";
 import { IContentPack, ICDN, CDN } from "../../../common/models/Models";
+
 
 export interface IContentPackProps {
   //contentPacks: IContentPack[];
@@ -113,7 +114,11 @@ export default class ContentPack extends React.Component<IContentPackProps, ICon
       return (
         <>
           <div data-component={this.LOG_SOURCE} className="buttonRight">
-            <Icon iconName="ChromeClose" onClick={this.props.close} />
+            <HOOButton
+              iconName="icon-dismiss-regular"
+              onClick={this.props.close}
+              type={0}
+            />
           </div>
           {!this.state.confirmContentPack && !this.state.addCustomCdn &&
             <div data-component={this.LOG_SOURCE} className="plov">
@@ -138,15 +143,17 @@ export default class ContentPack extends React.Component<IContentPackProps, ICon
           {this.state.confirmContentPack &&
             <div data-component={this.LOG_SOURCE}>
               <p>{strings.AdminConfirmContentPack}</p>
-              <PrimaryButton
-                className={styles.buttonMargin}
-                text={strings.AdminCdnCompleteButton}
+              <HOOButton
+                label={strings.AdminCdnCompleteButton}
                 onClick={this.confirmContentPack}
+                rootElementAttributes={{ className: styles.buttonMargin }}
+                type={1}
               />
-              <DefaultButton
-                className={styles.buttonMargin}
-                text={strings.AdminCdnCancelButton}
+              <HOOButton
+                label={strings.AdminCdnCancelButton}
                 onClick={this.cancelContentPack}
+                rootElementAttributes={{ className: styles.buttonMargin }}
+                type={2}
               />
             </div>
           }

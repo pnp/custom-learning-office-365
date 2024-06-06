@@ -1,11 +1,9 @@
 import * as React from "react";
 import { Logger, LogLevel, ILogEntry, FunctionListener, ConsoleListener } from "@pnp/logging";
-import { sp } from "@pnp/sp";
 
 import isEqual from "lodash-es/isEqual";
 import cloneDeep from "lodash-es/cloneDeep";
 import countBy from "lodash-es/countBy";
-import { Label, Link, PrimaryButton, Icon } from "office-ui-fabric-react";
 
 import * as strings from "M365LPStrings";
 import styles from "../../../common/CustomLearningCommon.module.scss";
@@ -13,6 +11,12 @@ import { params } from "../../../common/services/Parameters";
 import { ICustomDataService, CustomDataService } from "../../../common/services/CustomDataService";
 import { ICacheConfig } from "../../../common/models/Models";
 import { IDataService } from "../../../common/services/DataService";
+import HOOButton from "@n8d/htwoo-react/HOOButton";
+import HOOIcon from "@n8d/htwoo-react/HOOIcon";
+import HOOLabel from "@n8d/htwoo-react/HOOLabel";
+import HOODialog from "@n8d/htwoo-react/HOODialog";
+import HOODialogContent from "@n8d/htwoo-react/HOODialogContent";
+import HOODialogHeader from "@n8d/htwoo-react/HOODialogHeader";
 
 export interface IUpdateConfigurationProps {
   cdn: string;
@@ -58,11 +62,11 @@ export default class UpdateConfiguration extends React.Component<IUpdateConfigur
 
   public componentWillUnmount() {
     Logger.clearSubscribers();
-    Logger.subscribe(new ConsoleListener());
+    Logger.subscribe(ConsoleListener());
     Logger.activeLogLevel = LogLevel.Info;
   }
 
-  private logMessage = new FunctionListener((entry: ILogEntry) => {
+  private logMessage = FunctionListener((entry: ILogEntry) => {
     let messages = cloneDeep(this.state.messages);
     let messageCount = countBy(messages, "level");
     let errors = messageCount["3"] ? messageCount["3"] : 0;
@@ -99,19 +103,37 @@ export default class UpdateConfiguration extends React.Component<IUpdateConfigur
           <h1>{this.props.cdn}</h1>
           <h2>{`${strings.DataUpgradeTitle} ${this.props.startVersion.toLowerCase()} -> ${this.endVersion.toLowerCase()}`}</h2>
           {this.state.state === 1 &&
-            <Label>{strings.DataUpgradeIntro}</Label>
+            <HOOLabel label={strings.DataUpgradeIntro}></HOOLabel>
           }
+          {/* TODO Check this to make sure it works */}
           {this.state.state !== 1 &&
-            <Label>{strings.DataUpgradeIssue}<Link target="_blank" href={supportUrl}>{strings.DataUpgradeIssueLink}</Link></Label>
+            <HOODialog
+              changeVisibility={function noRefCheck() { }}
+              type={1}
+              visible
+            >
+              <HOODialogHeader
+                title={strings.DataUpgradeIssue}
+                closeDisabled={true}
+                closeOnClick={function noRefCheck() { }} />
+              <HOODialogContent>
+                <a href={supportUrl} target="_blank">{strings.DataUpgradeIssueLink}</a>
+              </HOODialogContent>
+            </HOODialog>
+
           }
           {this.state.state === 3 &&
-            <Label>{strings.DataUpgradeComplete}</Label>
+            <HOOLabel label={strings.DataUpgradeComplete}></HOOLabel>
           }
           {this.state.state !== 2 &&
-            <PrimaryButton onClick={this.buttonClick}>{(this.state.state === 1) ? strings.DataUpgradeStart : strings.DataUpgradeClose}</PrimaryButton>
+            <HOOButton
+              label={(this.state.state === 1) ? strings.DataUpgradeStart : strings.DataUpgradeClose}
+              onClick={this.buttonClick}
+              type={1}
+            />
           }
           {this.state.errors > 0 &&
-            <Label>{strings.DataUpgradeErrors}: {this.state.errors}</Label>
+            <HOOLabel label={`${strings.DataUpgradeErrors}: ${this.state.errors}`}></HOOLabel>
           }
           {this.state.state !== 1 &&
             <>
@@ -126,7 +148,10 @@ export default class UpdateConfiguration extends React.Component<IUpdateConfigur
                 {this.state.messages && this.state.messages.length > 0 && this.state.messages.map((m: ILogEntry) => {
                   return (
                     <tr>
-                      <td><Icon iconName={(m.level === 2) ? "Info" : "Error"} className={(m.level === 2 ? styles.info : styles.error)} /></td>
+                      <td><HOOIcon
+                        iconName={(m.level === 2) ? "icon-info-regular" : "icon-error-circle-regular"}
+                        rootElementAttributes={{ className: (m.level === 2 ? styles.info : styles.error) }}
+                      /></td>
                       <td>{m.message}</td>
                     </tr>
                   );

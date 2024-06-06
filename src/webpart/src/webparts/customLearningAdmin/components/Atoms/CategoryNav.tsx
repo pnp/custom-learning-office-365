@@ -2,8 +2,11 @@ import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
 import isEqual from "lodash-es/isEqual";
+import { IHOONavItem } from "@n8d/htwoo-react";
+import HOOVerticalNav from "@n8d/htwoo-react/HOOVerticalNav";
+
 import { ICategory, IMultilingualString } from "../../../common/models/Models";
-import { Nav, INavLinkGroup, INavLink } from 'office-ui-fabric-react';
+
 
 export interface ICategoryNavProps {
   categories: ICategory[];
@@ -38,41 +41,32 @@ export default class CategoryNav extends React.Component<ICategoryNavProps, ICat
     return true;
   }
 
-  private getNavItems = (): INavLinkGroup[] => {
-    let navGroups: INavLinkGroup[] = [];
+  private getNavItems = (): IHOONavItem[] => {
+    let navItems: IHOONavItem[] = [];
     try {
-      let navItems: INavLink[] = [];
-      let navGroup: INavLinkGroup = {
-        collapseByDefault: this.state.collapsed,
-        links: navItems
-      };
+
       this.props.categories.forEach(element => {
-        let navItem: INavLink = {
-          name: (element.Name instanceof Array) ? (element.Name as IMultilingualString[])[0].Text : element.Name,
+        let navItem: IHOONavItem = {
+          text: (element.Name instanceof Array) ? (element.Name as IMultilingualString[])[0].Text : element.Name,
           key: element.Id,
-          url: '',
-          category: element,
-          isExpanded: !this.state.collapsed
+          onItemClick: (key) => { this.onNavClick(key, element) }
         };
         if (element.SubCategories && element.SubCategories.length > 0) {
-          let subNavItems: INavLink[] = [];
+          let subNavItems: IHOONavItem[] = [];
           element.SubCategories.forEach(subElement => {
-            let subNavItem: INavLink = {
-              name: (subElement.Name instanceof Array) ? (subElement.Name as IMultilingualString[])[0].Text : subElement.Name,
+            let subNavItem: IHOONavItem = {
+              text: (subElement.Name instanceof Array) ? (subElement.Name as IMultilingualString[])[0].Text : subElement.Name,
               key: subElement.Id,
-              url: '',
-              category: subElement,
-              isExpanded: !this.state.collapsed
+              onItemClick: (key) => { this.onNavClick(key, subElement) }
             };
 
             if (subNavItem) {
               subNavItems.push(subNavItem);
             }
-
           });
 
           if (subNavItems && subNavItems.length > 0) {
-            navItem.links = subNavItems;
+            navItem.childNavItems = subNavItems;
           }
         }
 
@@ -81,29 +75,22 @@ export default class CategoryNav extends React.Component<ICategoryNavProps, ICat
         }
 
       });
-      if (navItems && navItems.length > 0) {
-        navGroup.links = navItems;
-        navGroups.push(navGroup);
-      }
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getNavItems) - ${err}`, LogLevel.Error);
     }
-    return navGroups;
+    return navItems;
   }
-
-  private onNavClick = (e: React.MouseEvent<HTMLElement>, item: INavLink): void => {
-    this.props.onClick(item.category);
+  // TODO make sure this works
+  private onNavClick = (key: string | number, category?: ICategory) => {
+    this.props.onClick(category);
   }
 
   public render(): React.ReactElement<ICategoryNavProps> {
     try {
       return (
-        <Nav
-          groups={
-            this.getNavItems()
-          }
+        <HOOVerticalNav
+          navItems={this.getNavItems()}
           selectedKey={this.props.selectedId}
-          onLinkClick={this.onNavClick}
         />
       );
     } catch (err) {

@@ -6,7 +6,11 @@ import find from "lodash-es/find";
 import findIndex from "lodash-es/findIndex";
 import cloneDeep from "lodash-es/cloneDeep";
 import filter from "lodash-es/filter";
-import { MessageBar, MessageBarType, MessageBarButton } from 'office-ui-fabric-react';
+import HOODialog from "@n8d/htwoo-react/HOODialog";
+import HOODialogContent from "@n8d/htwoo-react/HOODialogContent";
+import HOODialogActions from "@n8d/htwoo-react/HOODialogActions";
+import HOOButton from "@n8d/htwoo-react/HOOButton";
+import HOOIcon from "@n8d/htwoo-react/HOOIcon";
 
 import * as strings from "M365LPStrings";
 import { ICategory, IPlaylist, IAsset, ITechnology, ICustomizations, IMetadataEntry, IMultilingualString, SubCat, IListing } from "../../../common/models/Models";
@@ -15,6 +19,7 @@ import PlaylistItem from "../Atoms/PlaylistItem";
 import { CustomWebpartSource } from "../../../common/models/Enums";
 import PlaylistInfo from "../Organizms/PlaylistInfo";
 import CategoryNav from "../Atoms/CategoryNav";
+
 
 export interface ICategoryProps {
   className: string;
@@ -341,26 +346,48 @@ export default class Category extends React.Component<ICategoryProps, ICategoryS
               </div>
             }
             {(this.state.message !== "") &&
-              <MessageBar
-                messageBarType={(this.state.success) ? MessageBarType.success : MessageBarType.error}
-                isMultiline={false}
-                onDismiss={() => { this.setState({ message: "", success: true }); }}
-                dismissButtonAriaLabel={strings.CloseButton}>
-                {this.state.message}
-              </MessageBar>
+              <HOODialog
+                changeVisibility={function noRefCheck() { }}
+                type={(this.state.success) ? 2 : 1}
+                visible={true}
+                rootElementAttributes={{ className: "adm-content" }}
+              >
+                <HOODialogContent>
+                  {this.state.message}
+                </HOODialogContent>
+                <HOODialogActions>
+                  <HOOButton
+                    iconName="hoo-icon-close"
+                    onClick={() => { this.setState({ message: "", success: true }); }}
+                    type={0}
+                  />
+                </HOODialogActions>
+              </HOODialog>
+
             }
             {this.state.editRedirectSelected && this.state.editPlaylistDirty && this.state.editPlaylistId.length > 0 &&
-              <MessageBar
-                messageBarType={MessageBarType.blocked}
-                actions={
-                  <div>
-                    <MessageBarButton onClick={() => { this.setState({ editPlaylistId: "", editPlaylistDirty: false }, () => { this.selectCategory(this.state.editRedirectSelected); }); }}>Yes</MessageBarButton>
-                    <MessageBarButton onClick={() => { this.setState({ editRedirectSelected: null }); }}>No</MessageBarButton>
-                  </div>
-                }
+              <HOODialog
+                changeVisibility={function noRefCheck() { }}
+                type={1}
+                visible={true}
               >
-                <span>{(this.state.editPlaylistId === "0" ? strings.CategoryNewPlayListMessage : strings.CategoryEditedPlayListMessage)}</span>
-              </MessageBar>
+                <HOOIcon iconName="icon-subtract-circle-regular" />
+                <HOODialogContent>
+                  {(this.state.editPlaylistId === "0" ? strings.CategoryNewPlayListMessage : strings.CategoryEditedPlayListMessage)}
+                </HOODialogContent>
+                <HOODialogActions>
+                  <HOOButton
+                    label="Yes"
+                    onClick={() => { this.setState({ editPlaylistId: "", editPlaylistDirty: false }, () => { this.selectCategory(this.state.editRedirectSelected); }); }}
+                    type={1}
+                  />
+                  <HOOButton
+                    label="No"
+                    onClick={() => { this.setState({ editRedirectSelected: null }); }}
+                    type={2}
+                  />
+                </HOODialogActions>
+              </HOODialog>
             }
             {this.state.editPlaylistId !== "" &&
               <PlaylistInfo

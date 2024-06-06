@@ -6,12 +6,16 @@ import find from "lodash-es/find";
 import cloneDeep from "lodash-es/cloneDeep";
 import findIndex from "lodash-es/findIndex";
 import forEach from "lodash-es/forEach";
-import { PrimaryButton, DefaultButton, IDropdownOption, Dropdown, Pivot, PivotItem, Icon } from "office-ui-fabric-react";
+import HOOPivotBar, { IHOOPivotItem } from "@n8d/htwoo-react/HOOPivotBar";
+import HOODropDown, { IHOODropDownItem } from "@n8d/htwoo-react/HOODropDown";
+import HOOButton from "@n8d/htwoo-react/HOOButton";
+
 
 import * as strings from "M365LPStrings";
 import { params } from "../../../common/services/Parameters";
 import AssetDetail from "../Atoms/AssetDetail";
 import { IAsset, ITechnology, IMultilingualString, ILocale, MultilingualString } from "../../../common/models/Models";
+
 
 export interface IAssetDetailsProps {
   technologies: ITechnology[];
@@ -40,10 +44,10 @@ export default class AssetDetails extends React.Component<IAssetDetailsProps, IA
   private _reInit: boolean = false;
   private _currentLanguageOptions: ILocale[] = [];
 
-  private _addLanguagePlaceholder: JSX.Element = <div className="dropdownExample-placeholder">
-    <Icon style={{ marginRight: '8px' }} iconName={'MessageFill'} aria-hidden="true" />
-    <span>{strings.AddLanguagePlaceholder}</span>
-  </div>;
+  // private _addLanguagePlaceholder: JSX.Element = <div className="dropdownExample-placeholder">
+  //   <Icon style={{ marginRight: '8px' }} iconName={'MessageFill'} aria-hidden="true" />
+  //   <span>{strings.AddLanguagePlaceholder}</span>
+  // </div>;
 
   constructor(props) {
     super(props);
@@ -102,13 +106,13 @@ export default class AssetDetails extends React.Component<IAssetDetailsProps, IA
     return valid;
   }
 
-  private addLanguage = (event: React.FormEvent<HTMLDivElement>, option?: IDropdownOption, index?: number) => {
+  private addLanguage = (fieldValue: string | number) => {
     try {
       let asset = cloneDeep(this.state.editAsset);
-      (asset.Title as IMultilingualString[]).push(new MultilingualString(option.key as string, (asset.Title as IMultilingualString[])[0].Text));
-      (asset.Url as IMultilingualString[]).push(new MultilingualString(option.key as string, (asset.Url as IMultilingualString[])[0].Text));
+      (asset.Title as IMultilingualString[]).push(new MultilingualString(fieldValue as string, (asset.Title as IMultilingualString[])[0].Text));
+      (asset.Url as IMultilingualString[]).push(new MultilingualString(fieldValue as string, (asset.Url as IMultilingualString[])[0].Text));
       this.setState({
-        currentLanguage: option.key.toString(),
+        currentLanguage: fieldValue.toString(),
         editAsset: asset,
         assetChanged: true
       });
@@ -138,11 +142,31 @@ export default class AssetDetails extends React.Component<IAssetDetailsProps, IA
     }
   }
 
+  private getPivotItems = (): IHOOPivotItem[] => {
+    let pivotItems: IHOOPivotItem[] = [];
+    try {
+      this._currentLanguageOptions.forEach(cl => {
+        let pivotItem: IHOOPivotItem = {
+          text: cl.description,
+          key: cl.code
+        };
+
+        if (pivotItem) {
+          pivotItems.push(pivotItem);
+        }
+
+      });
+    } catch (err) {
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getPivotItems) - ${err}`, LogLevel.Error);
+    }
+    return pivotItems;
+  }
+
   public render(): React.ReactElement<IAssetDetailsProps> {
     try {
       let currentLangIndex: number = 0;
       this._currentLanguageOptions = [];
-      let addLanguageOptions: IDropdownOption[] = [];
+      let addLanguageOptions: IHOODropDownItem[] = [];
       if (params.multilingualEnabled) {
         currentLangIndex = findIndex((this.state.editAsset.Title as IMultilingualString[]), { LanguageCode: this.state.currentLanguage });
         forEach(params.supportedLanguages, (language) => {
@@ -150,7 +174,7 @@ export default class AssetDetails extends React.Component<IAssetDetailsProps, IA
           let locale: ILocale = find(params.configuredLanguages, { code: language });
           if (locale) {
             if (found < 0) {
-              addLanguageOptions.push({ key: language, text: locale.description });
+              addLanguageOptions.push({ key: language, text: locale.description, disabled: false });
             } else {
               this._currentLanguageOptions.push(locale);
             }
@@ -158,32 +182,27 @@ export default class AssetDetails extends React.Component<IAssetDetailsProps, IA
         });
       }
 
+
+
       return (
         <div data-component={this.LOG_SOURCE} className="assetdetails">
           {params.multilingualEnabled &&
             <div className="adm-header-nav-subcont">
-              <Pivot
-                className="adm-header-nav"
+              {/* TODO make sure we don't need to do anything with this getTabId={(itemKey) => { return `AssetDetail_${itemKey}`; }} */}
+              <HOOPivotBar
+                onClick={(ev) => { this.setState({ currentLanguage: ev.currentTarget.value }); }}
+                pivotItems={this.getPivotItems()}
                 selectedKey={this.state.currentLanguage}
-                onLinkClick={(i: PivotItem) => { this.setState({ currentLanguage: i.props.itemKey }); }}
-                headersOnly={true}
-                getTabId={(itemKey) => { return `AssetDetail_${itemKey}`; }}>
-                {this._currentLanguageOptions.length > 0 && this._currentLanguageOptions.map((cl) => {
-                  return (<PivotItem headerText={cl.description} itemKey={cl.code} />);
-                })
-                }
-              </Pivot>
+                rootElementAttributes={{ className: "adm-header-nav" }}
+              />
               {this.props.edit && addLanguageOptions.length > 0 &&
                 <div className="adm-pivotCombo">
-                  <Dropdown
-                    placeholder="Add language"
-                    ariaLabel="Add a translation language"
-                    onRenderPlaceholder={(): JSX.Element => {
-                      return (this._addLanguagePlaceholder);
-                    }}
+                  <HOODropDown
+                    value={""}
                     options={addLanguageOptions}
-                    onChange={this.addLanguage}
-                  />
+                    placeholder="⚑ Add language"
+                    containsTypeAhead={false}
+                    onChange={this.addLanguage}></HOODropDown>
                 </div>
               }
             </div>
@@ -197,20 +216,24 @@ export default class AssetDetails extends React.Component<IAssetDetailsProps, IA
           />
           <div className="adm-itemaction">
             {this.props.edit && this._currentLanguageOptions.length > 1 && this.state.currentLanguage !== this._currentLanguageOptions[0].code &&
-              <PrimaryButton
-                text={strings.RemoveLanguageLabel}
+              <HOOButton
+                label={strings.RemoveLanguageLabel}
                 onClick={this.removeLanguage}
+                type={1}
               />
             }
-            <DefaultButton
-              text={(this.props.edit) ? strings.AssetDetailsCancelLabel : strings.AssetDetailsCloseLabel}
+            <HOOButton
+              label={(this.props.edit) ? strings.AssetDetailsCancelLabel : strings.AssetDetailsCloseLabel}
               onClick={this.props.cancel}
+              type={2}
             />
+
             {this.props.edit &&
-              <PrimaryButton
-                text={strings.AssetDetailsSaveLabel}
+              <HOOButton
+                label={strings.AssetDetailsSaveLabel}
                 onClick={this.saveAsset}
                 disabled={!this.state.assetChanged || !this.assetValid()}
+                type={1}
               />
             }
           </div>

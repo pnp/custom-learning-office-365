@@ -7,7 +7,8 @@ import find from "lodash-es/find";
 import pull from "lodash-es/pull";
 import remove from "lodash-es/remove";
 import findIndex from "lodash-es/findIndex";
-import { MessageBar, MessageBarType, Link } from "office-ui-fabric-react";
+import HOODialog from "@n8d/htwoo-react/HOODialog";
+import HOODialogContent from "@n8d/htwoo-react/HOODialogContent";
 
 import { params } from "../../common/services/Parameters";
 import * as strings from "M365LPStrings";
@@ -18,7 +19,7 @@ import Category from "./Templates/Category";
 import Technology from "./Templates/Technology";
 import AdminMenu from "./Organizms/AdminMenu";
 import ShimmerViewer from "../../common/components/Atoms/ShimmerViewer";
-import { reject } from "lodash";
+
 
 export interface ICustomLearningAdminProps {
   validConfig: boolean;
@@ -290,28 +291,28 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
           />
           <div className="adm-header-message">
             {showMultilingualMsg &&
-              <MessageBar
-                messageBarType={MessageBarType.warning}
-                isMultiline={true}
-                dismissButtonAriaLabel={strings.CloseButton}
+              <HOODialog
+                changeVisibility={function noRefCheck() { }}
+                type={3}
+                visible={true}
               >
-                {strings.DataUpgradeMultilingual}
-                <Link
-                  href={`${this.props.siteUrl}/_layouts/15/muisetng.aspx`}
-                  target="_blank">
-                  {strings.DataUpgradeReview}
-                </Link>
-              </MessageBar>
+                <HOODialogContent>
+                  {strings.DataUpgradeMultilingual}
+                  <a href={`${this.props.siteUrl}/_layouts/15/muisetng.aspx`} target="_blank">{strings.DataUpgradeReview}</a>
+                </HOODialogContent>
+              </HOODialog>
             }
             {showUpgradeMsg &&
-              <MessageBar>
-                {notice}
-                <Link
-                  href={(params.updateInstructionUrl) ? params.updateInstructionUrl : "https://github.com/pnp/custom-learning-office-365#updating-the-solution"}
-                  target="_blank">
-                  {strings.AdminVersionUpdateInstructions}
-                </Link>
-              </MessageBar>
+              <HOODialog
+                changeVisibility={function noRefCheck() { }}
+                type={0}
+                visible={true}
+              >
+                <HOODialogContent>
+                  {notice}
+                  <a href={(params.updateInstructionUrl) ? params.updateInstructionUrl : "https://github.com/pnp/custom-learning-office-365#updating-the-solution"} target="_blank">{strings.AdminVersionUpdateInstructions}</a>
+                </HOODialogContent>
+              </HOODialog>
             }
           </div>
           {
@@ -320,9 +321,16 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
           }
           {
             !this.props.validConfig && !this.props.cacheConfig && !this.state.loadingCdn &&
-            <MessageBar messageBarType={MessageBarType.error} className="adm-content">
-              {strings.AdminConfigIssueMessage}
-            </MessageBar>
+            <HOODialog
+              changeVisibility={function noRefCheck() { }}
+              type={1}
+              visible={true}
+              rootElementAttributes={{ className: "adm-content" }}
+            >
+              <HOODialogContent>
+                {strings.AdminConfigIssueMessage}
+              </HOODialogContent>
+            </HOODialog>
           }
           {
             this.state.loadingCdn &&

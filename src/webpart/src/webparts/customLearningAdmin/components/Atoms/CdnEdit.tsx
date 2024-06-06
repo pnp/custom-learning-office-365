@@ -3,11 +3,15 @@ import { Logger, LogLevel } from "@pnp/logging";
 
 import isEqual from "lodash-es/isEqual";
 import cloneDeep from "lodash-es/cloneDeep";
+import { ICDN, CDN } from "../../../common/models/Models";
+import HOOText from "@n8d/htwoo-react/HOOText";
+import HOOLabel from "@n8d/htwoo-react/HOOLabel";
+import HOOButton from "@n8d/htwoo-react/HOOButton";
 
 import * as strings from "M365LPStrings";
 import styles from "../../../common/CustomLearningCommon.module.scss";
-import { DefaultButton, PrimaryButton, TextField } from "office-ui-fabric-react";
-import { ICDN, CDN } from "../../../common/models/Models";
+
+
 
 export interface ICdnEditProps {
   cdn: ICDN;
@@ -56,14 +60,14 @@ export default class CdnEdit extends React.Component<ICdnEditProps, ICdnEditStat
   private upsertCdn = (): void => {
     this.props.upsertCdn(this.state.cdn);
   }
-
-  private validateBase = (value: string): string => {
-    let retVal = "";
-    if (value.substr(value.length - 1, 1) !== "/") {
-      retVal = strings.ValidateBase;
-    }
-    return retVal;
-  }
+  // TODO figure out how to do validation on the text box
+  // private validateBase = (value: string): string => {
+  //   let retVal = "";
+  //   if (value.substr(value.length - 1, 1) !== "/") {
+  //     retVal = strings.ValidateBase;
+  //   }
+  //   return retVal;
+  // }
 
   private getValidForm = (): boolean => {
     let retVal = false;
@@ -79,35 +83,42 @@ export default class CdnEdit extends React.Component<ICdnEditProps, ICdnEditStat
     try {
       return (
         <>
-          <TextField
-            label={strings.AdminCdnIdLabel}
-            required={true}
+          <HOOLabel label={strings.AdminCdnIdLabel} for={strings.AdminCdnIdLabel} required={true}></HOOLabel>
+          <HOOText
+            forId={strings.AdminCdnIdLabel}
+            onChange={(ev) => { this.changeValue("Id", ev.currentTarget.value); }}
             value={this.state.cdn.Id}
-            onChange={(ev, newValue) => this.changeValue("Id", newValue)}
           />
-          <TextField
-            label={strings.AdminCdnDisplayName}
-            required={true}
+          <HOOLabel label={strings.AdminCdnDisplayName} for={strings.AdminCdnDisplayName}></HOOLabel>
+          <HOOText
+            forId={strings.AdminCdnDisplayName}
+            onChange={(ev) => { this.changeValue("Name", ev.currentTarget.value); }}
             value={this.state.cdn.Name}
-            onChange={(ev, newValue) => this.changeValue("Name", newValue)}
           />
-          <TextField
-            label={strings.AdminCdnBaseUrl}
-            required={true}
+
+          <HOOLabel label={strings.AdminCdnBaseUrl} for={strings.AdminCdnBaseUrl} required={true}></HOOLabel>
+          {/* TODO add validation this.validateBase this.validateBase */}
+          <HOOText
+            forId={strings.AdminCdnBaseUrl}
+            onChange={(ev) => { this.changeValue("Base", ev.currentTarget.value); }}
             value={this.state.cdn.Base}
-            onChange={(ev, newValue) => this.changeValue("Base", newValue)}
-            onGetErrorMessage={this.validateBase}
           />
-          <PrimaryButton
-            disabled={!(this.getValidForm() && this.state.formChanged)}
-            className={styles.buttonMargin}
-            text={(this.props.cdn.Name === "") ? strings.AdminCdnSaveButton : strings.AdminCdnUpdateButton}
+          <HOOButton
+            label={(this.props.cdn.Name === "") ? strings.AdminCdnSaveButton : strings.AdminCdnUpdateButton}
             onClick={this.upsertCdn}
+            type={1}
+            disabled={!(this.getValidForm() && this.state.formChanged)}
+            rootElementAttributes={{
+              className: styles.buttonMargin
+            }}
           />
-          <DefaultButton
-            className={styles.buttonMargin}
-            text={strings.AdminCdnCancelButton}
+          <HOOButton
+            label={strings.AdminCdnCancelButton}
             onClick={this.props.closeForm}
+            type={2}
+            rootElementAttributes={{
+              className: styles.buttonMargin
+            }}
           />
         </>
       );

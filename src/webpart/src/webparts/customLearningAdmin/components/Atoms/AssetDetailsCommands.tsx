@@ -2,10 +2,13 @@ import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
 import isEqual from "lodash-es/isEqual";
-import { IAsset, IMultilingualString } from "../../../common/models/Models";
-import { CommandBar, IContextualMenuItem } from "office-ui-fabric-react";
+import HOOAction from "@n8d/htwoo-react/HOOAction";
+import HOOButton from "@n8d/htwoo-react/HOOButton";
 
 import * as strings from "M365LPStrings";
+
+
+
 
 export interface IAssetDetailsCommandsProps {
   assetIndex: number;
@@ -41,70 +44,61 @@ export default class AssetDetailsCommands extends React.Component<IAssetDetailsC
     return true;
   }
 
-  private getAssetCommandFarItems = (): IContextualMenuItem[] => {
-    let retVal: IContextualMenuItem[] = [];
-    try {
-      if (!this.props.allDisabled) {
-        retVal.push({
-          key: 'moveUp',
-          name: strings.MoveUpButton,
-          iconOnly: true,
-          iconProps: {
-            iconName: 'ChevronUp'
-          },
-          disabled: (this.props.assetIndex === 0),
-          onClick: () => this.props.moveUp()
-        });
-        retVal.push({
-          key: 'moveDown',
-          name: strings.MoveDownButton,
-          iconOnly: true,
-          iconProps: {
-            iconName: 'ChevronDown'
-          },
-          disabled: (this.props.assetIndex === this.props.assetTotal),
-          onClick: () => this.props.moveDown()
-        });
-        retVal.push({
-          key: 'remove',
-          name: strings.PlaylistRemove,
-          iconOnly: true,
-          iconProps: {
-            iconName: 'Delete'
-          },
-          onClick: () => this.props.remove()
-        });
-        retVal.push({
-          key: 'edit',
-          name: strings.EditButton,
-          iconOnly: true,
-          iconProps: {
-            iconName: 'Edit'
-          },
-          disabled: (this.props.editDisabled),
-          onClick: () => this.props.edit()
-        });
-      }
-    } catch (err) {
-      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getAssetCommandFarItems) - ${err}`, LogLevel.Error);
-    }
-    return retVal;
-  }
-
   public render(): React.ReactElement<IAssetDetailsCommandsProps> {
     try {
-      let iconName = (this.props.editDisabled) ? "" : "UserFollowed";
+      let iconName = (this.props.editDisabled) ? "" : "icon-person-available-regular";
       return (
-        <CommandBar
-          data-component={this.LOG_SOURCE}
-          items={[{
-            key: 'title',
-            iconProps: { iconName: iconName },
-            name: this.props.assetTitle,
-            onClick: () => this.props.select()
-          }]}
-          farItems={this.getAssetCommandFarItems()}
-        />
+        <div className="pl-edit-item">
+          <HOOAction
+            iconName={iconName}
+            label={this.props.assetTitle}
+            onClick={() => this.props.select()}
+            rootElementAttributes={{ className: "pl-edit-title" }}
+          />
+          <menu className="pl-edit-actions" role="toolbar">
+            <li>
+              <HOOButton
+                type={0}
+                iconName="icon-chevron-up-regular"
+                label={strings.MoveUpButton}
+                disabled={(this.props.assetIndex === 0)}
+                onClick={() => this.props.moveUp()}
+                reactKey={'moveUp'}
+              >
+              </HOOButton>
+            </li>
+            <li>
+              <HOOButton
+                iconName="icon-chevron-down-regular"
+                reactKey='moveDown'
+                label={strings.MoveDownButton}
+                disabled={(this.props.assetIndex === this.props.assetTotal)}
+                type={0}
+                onClick={() => this.props.moveDown()}
+              />
+            </li>
+            <li>
+              <HOOButton
+                iconName="icon-delete-regular"
+                reactKey='remove'
+                label={strings.PlaylistRemove}
+                type={0}
+                onClick={() => this.props.remove()}
+              />
+            </li>
+            <li>
+              <HOOButton
+                iconName="icon-pen-regular"
+                reactKey='edit'
+                label={strings.EditButton}
+                type={0}
+                disabled={this.props.editDisabled}
+                onClick={() => this.props.edit()}
+              />
+            </li>
+          </menu>
+        </div>
+
       );
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);

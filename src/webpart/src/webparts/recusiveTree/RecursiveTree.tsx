@@ -2,10 +2,10 @@ import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
 import isEqual from "lodash-es/isEqual";
+import HOOLabel from "@n8d/htwoo-react/HOOLabel";
 
 import styles from "./RecursiveTree.module.scss";
 import RecursiveTreeItem from "./RecursiveTreeItem";
-import { Label } from "office-ui-fabric-react";
 
 export interface IRecursiveList {
   key: string;
@@ -58,11 +58,8 @@ export default class RecursiveTree extends React.Component<IRecursiveTreeProps, 
     try {
       return (
         <>
-          <Label className={(this.props.disabled ? styles.disabled : "")}>{this.props.label}
-            {this.props.required &&
-              <span className={styles.recursiveTreeRequired}>*</span>
-            }
-          </Label>
+          <HOOLabel label={this.props.label} rootElementAttributes={{ className: (this.props.disabled ? styles.disabled : "") }} required={this.props.required} />
+
           <div className={`${styles.recursiveTree} ${(this.props.errorMessage.length > 0 ? styles.error : "")} ${(this.props.disabled ? styles.disabled : "")}`}>
             {this.props.treeItems && this.props.treeItems.length > 0 && this.props.treeItems.map((t) => {
               return (<RecursiveTreeItem

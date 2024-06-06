@@ -11,7 +11,7 @@ import flatMapDeep from 'lodash-es/flatMapDeep';
 
 
 import * as strings from "M365LPStrings";
-import { ICacheConfig, IPlaylist, IAsset, IMetadata, ITechnology, ICustomizations, ICategory, SubCat, ICDN, CDN, IMultilingualString, CacheConfig } from "../models/Models";
+import { ICacheConfig, IPlaylist, IAsset, IMetadata, ITechnology, ICustomizations, ICategory, SubCat, IMultilingualString, CacheConfig } from "../models/Models";
 import { HttpClientResponse, HttpClient } from "@microsoft/sp-http";
 import { CustomDataService, ICustomDataService } from "./CustomDataService";
 import { params } from "./Parameters";

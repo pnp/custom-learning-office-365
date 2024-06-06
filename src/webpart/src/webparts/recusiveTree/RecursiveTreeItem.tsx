@@ -3,10 +3,12 @@ import { Logger, LogLevel } from "@pnp/logging";
 
 import isEqual from "lodash-es/isEqual";
 import includes from "lodash-es/includes";
+import HOOButtonCommand from "@n8d/htwoo-react/HOOButtonCommand";
+import HOOCheckbox from "@n8d/htwoo-react/HOOCheckbox";
 
 import { IRecursiveList } from "./RecursiveTree";
-import { Icon, Checkbox } from "office-ui-fabric-react";
 import styles from "./RecursiveTree.module.scss";
+
 
 export interface IRecursiveTreeItemProps {
   disabled: boolean;
@@ -89,23 +91,23 @@ export default class RecursiveTreeItem extends React.Component<IRecursiveTreeIte
         <div className={`${styles.recursiveCont} ${(this.props.show) ? styles.showCont : ""} ${styleLevel}`} >
           <div>
             {this.props.treeItem.children.length > 0 &&
-              <>
-                <Icon
-                  className={styles.recursiveIcon}
-                  iconName={this.state.expanded ? "CaretSolidDown" : "CaretSolidRight"}
-                  onClick={this.expandGroup}
-                />
-                <span className={styles.recursiveTerm}>{this.props.treeItem.name}</span>
-              </>
+              <HOOButtonCommand
+                flyoutMenuItems={[]}
+                label={this.props.treeItem.name}
+                onClick={this.expandGroup}
+                leftIconName={this.state.expanded ? "icon-chevron-down-regular" : "icon-chevron-up-regular"}
+
+              />
             }
             {this.props.treeItem.children.length < 1 &&
-              <Checkbox
-                label={this.props.treeItem.name}
-                className={styles.recursiveTerm}
-                checked={this.state.selected}
-                onChange={this.checkboxChange}
+              <HOOCheckbox
                 disabled={this.props.disabled}
+                label={this.props.treeItem.name}
+                onChange={this.checkboxChange}
+                rootElementAttributes={{ className: styles.recursiveTerm }}
+                checked={this.state.selected}
               />
+
             }
           </div>
           {this.props.treeItem.children && this.props.treeItem.children.length > 0 && this.props.treeItem.children.map(c => {
