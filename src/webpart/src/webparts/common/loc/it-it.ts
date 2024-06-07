@@ -1,5 +1,3 @@
-declare var define: any;
-
 define([], (): IM365LPStrings => {
   return {
     WebpartTitleLabel: "Titolo web part (modalità solo contenuto)",

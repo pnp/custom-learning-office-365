@@ -48,7 +48,7 @@ export default class RecursiveTree extends React.Component<IRecursiveTreeProps, 
     this.state = new RecursiveTreeState();
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<IRecursiveTreeProps>, nextState: Readonly<IRecursiveTreeState>) {
+  public shouldComponentUpdate(nextProps: Readonly<IRecursiveTreeProps>, nextState: Readonly<IRecursiveTreeState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     return true;
@@ -61,8 +61,9 @@ export default class RecursiveTree extends React.Component<IRecursiveTreeProps, 
           <HOOLabel label={this.props.label} rootElementAttributes={{ className: (this.props.disabled ? styles.disabled : "") }} required={this.props.required} />
 
           <div className={`${styles.recursiveTree} ${(this.props.errorMessage.length > 0 ? styles.error : "")} ${(this.props.disabled ? styles.disabled : "")}`}>
-            {this.props.treeItems && this.props.treeItems.length > 0 && this.props.treeItems.map((t) => {
+            {this.props.treeItems && this.props.treeItems.length > 0 && this.props.treeItems.map((t, idx) => {
               return (<RecursiveTreeItem
+                key={idx}
                 level={0}
                 treeItem={t}
                 selectedKeys={this.props.selectedKeys}

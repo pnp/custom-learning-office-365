@@ -1,4 +1,5 @@
-declare var define: any;
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+declare let define: any;
 
 define([], (): IM365LPStrings => {
   return {

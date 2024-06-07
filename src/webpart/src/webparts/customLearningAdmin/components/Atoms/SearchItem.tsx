@@ -29,7 +29,7 @@ export default class SearchItem extends React.Component<ISearchItemProps, ISearc
     this.state = new SearchItemState();
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<ISearchItemProps>, nextState: Readonly<ISearchItemState>) {
+  public shouldComponentUpdate(nextProps: Readonly<ISearchItemProps>, nextState: Readonly<ISearchItemState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     return true;

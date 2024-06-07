@@ -43,11 +43,11 @@ export default class AssetSearchPanel extends React.Component<IAssetSearchPanelP
 
   constructor(props) {
     super(props);
-    let pages = Math.ceil(props.searchResults.length / this._pageSize) - 1;
+    const pages = Math.ceil(props.searchResults.length / this._pageSize) - 1;
     this.state = new AssetSearchPanelState(pages);
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<IAssetSearchPanelProps>, nextState: Readonly<IAssetSearchPanelState>) {
+  public shouldComponentUpdate(nextProps: Readonly<IAssetSearchPanelProps>, nextState: Readonly<IAssetSearchPanelState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     if (!isEqual(nextProps.searchResults, this.props.searchResults))
@@ -55,10 +55,10 @@ export default class AssetSearchPanel extends React.Component<IAssetSearchPanelP
     return true;
   }
 
-  public componentDidUpdate() {
+  public componentDidUpdate(): void {
     if (this._searchChanged) {
       this._searchChanged = false;
-      let pages = (this.props.searchResults.length / this._pageSize) - 1;
+      const pages = (this.props.searchResults.length / this._pageSize) - 1;
       this.setState({
         pages: pages,
         currentPage: 0
@@ -66,13 +66,13 @@ export default class AssetSearchPanel extends React.Component<IAssetSearchPanelP
     }
   }
 
-  private onPreviewAsset = (asset: IAsset) => {
+  private onPreviewAsset = (asset: IAsset): void => {
     window.open(`${params.baseViewerUrl}?asset=${asset.Id}`, '_blank');
   }
 
   private onChecked = (assetId: string, checked: boolean): void => {
-    let selectedAssets = cloneDeep(this.state.selectedAssets);
-    let idx = selectedAssets.indexOf(assetId);
+    const selectedAssets = cloneDeep(this.state.selectedAssets);
+    const idx = selectedAssets.indexOf(assetId);
     if (idx > -1) {
       selectedAssets.splice(idx, 1);
     } else {
@@ -82,7 +82,7 @@ export default class AssetSearchPanel extends React.Component<IAssetSearchPanelP
     this.setState({ selectedAssets: selectedAssets });
   }
 
-  private addAssets = async () => {
+  private addAssets = async (): Promise<void> => {
     await this.props.loadSearchResult(this.state.selectedAssets);
   }
 
@@ -106,17 +106,18 @@ export default class AssetSearchPanel extends React.Component<IAssetSearchPanelP
             />
           </div>
           {(!searchResults || searchResults.length < 1) &&
-            <HOOLabel label={strings.NoSearchResults}></HOOLabel>
+            <HOOLabel label={strings.NoSearchResults}/>
           }
-          {searchResults && searchResults.map((a) => {
-            let technology = find(this.props.allTechnologies, { Id: a.TechnologyId });
+          {searchResults && searchResults.map((a, idx) => {
+            const technology = find(this.props.allTechnologies, { Id: a.TechnologyId });
             let subject = null;
             if (a.SubjectId.length > 0) {
               subject = find(technology.Subjects, { Id: a.SubjectId });
             }
-            let checked = includes(this.state.selectedAssets, a.Id);
+            const checked = includes(this.state.selectedAssets, a.Id);
             return (
               <SearchItem
+                key={idx}
                 assetTitle={(a.Title instanceof Array) ? (a.Title as IMultilingualString[])[0].Text : a.Title as string}
                 technologyName={(technology) ? technology.Name : strings.NotApplicable}
                 subjectName={(subject) ? subject.Name : null}

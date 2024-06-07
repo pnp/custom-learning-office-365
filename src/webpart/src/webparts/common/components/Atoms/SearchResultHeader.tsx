@@ -26,7 +26,7 @@ export default class SearchResultHeader extends React.Component<ISearchResultHea
     this.state = new SearchResultHeaderState();
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<ISearchResultHeaderProps>, nextState: Readonly<ISearchResultHeaderState>) {
+  public shouldComponentUpdate(nextProps: Readonly<ISearchResultHeaderProps>, nextState: Readonly<ISearchResultHeaderState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     return true;

@@ -47,13 +47,13 @@ export default class SearchPanel extends React.Component<ISearchPanelProps, ISea
   //   }
   // }
 
-  public shouldComponentUpdate(nextProps: Readonly<ISearchPanelProps>, nextState: Readonly<ISearchPanelState>) {
+  public shouldComponentUpdate(nextProps: Readonly<ISearchPanelProps>, nextState: Readonly<ISearchPanelState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     return true;
   }
 
-  public componentDidUpdate() {
+  public componentDidUpdate(): void {
     try {
       if (this.props.panelOpen !== "Search" && (this.props.searchResults.length > 0)) {
         this.setState({ searchValue: "" });
@@ -63,7 +63,7 @@ export default class SearchPanel extends React.Component<ISearchPanelProps, ISea
     }
   }
 
-  private executeSearch = (searchValue: string) => {
+  private executeSearch = (searchValue: string): void => {
     try {
       this.setState({ searchValue: searchValue });
       this.props.doSearch(searchValue);

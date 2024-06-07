@@ -23,7 +23,7 @@ export default class AssetItem extends React.Component<IAssetItemProps, IAssetIt
     this.state = new AssetItemState();
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<IAssetItemProps>, nextState: Readonly<IAssetItemState>) {
+  public shouldComponentUpdate(nextProps: Readonly<IAssetItemProps>, nextState: Readonly<IAssetItemState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     return true;

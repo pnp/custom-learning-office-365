@@ -27,7 +27,7 @@ export default class LinkPanel extends React.Component<ILinkPanelProps, ILinkPan
     this.state = new LinkPanelState();
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<ILinkPanelProps>, nextState: Readonly<ILinkPanelState>) {
+  public shouldComponentUpdate(nextProps: Readonly<ILinkPanelProps>, nextState: Readonly<ILinkPanelState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     return true;
@@ -35,12 +35,12 @@ export default class LinkPanel extends React.Component<ILinkPanelProps, ILinkPan
 
   private linkClick = (): void => {
     try {
-      let selBox = document.createElement('textarea');
+      const selBox = document.createElement('textarea');
       selBox.style.height = "0";
       selBox.style.width = "0";
       selBox.value = this.props.linkUrl;
 
-      let headers = document.getElementsByClassName("headerpanel");
+      const headers = document.getElementsByClassName("headerpanel");
       let element: Element = null;
       if (headers.length > 0)
         element = headers[0];

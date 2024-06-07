@@ -81,7 +81,7 @@ export default class Category extends React.Component<ICategoryProps, ICategoryS
     this.state = new CategoryState();
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<ICategoryProps>, nextState: Readonly<ICategoryState>) {
+  public shouldComponentUpdate(nextProps: Readonly<ICategoryProps>, nextState: Readonly<ICategoryState>): boolean {
     try {
       if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
         return false;
@@ -94,7 +94,7 @@ export default class Category extends React.Component<ICategoryProps, ICategoryS
     return true;
   }
 
-  public componentDidUpdate() {
+  public componentDidUpdate(): void {
     try {
       if (this._reInit) {
         this._reInit = false;
@@ -157,17 +157,17 @@ export default class Category extends React.Component<ICategoryProps, ICategoryS
         }
       }
       //Create listing
-      let listings: IListing[] = [];
+      const listings: IListing[] = [];
       if (selected && selected.SubCategories.length > 0) {
         selected.SubCategories.forEach((sub) => {
-          let l: IListing = { heading: sub, playlists: null };
+          const l: IListing = { heading: sub, playlists: null };
           if (sub.SubCategories.length < 1) {
             l.playlists = filter(this.props.playlists, { CatId: sub.Id });
           }
           listings.push(l);
         });
       } else if (selected) {
-        let l: IListing = { heading: selected, playlists: null };
+        const l: IListing = { heading: selected, playlists: null };
         if (selected.SubCategories.length < 1) {
           l.playlists = filter(this.props.playlists, { CatId: selected.Id });
         }
@@ -193,7 +193,7 @@ export default class Category extends React.Component<ICategoryProps, ICategoryS
     await this.props.upsertSubCategory(this.state.selectedCategoryId, heading);
   }
 
-  private setEditPlaylistDirty = (dirty: boolean) => {
+  private setEditPlaylistDirty = (dirty: boolean): void => {
     this.setState({
       editPlaylistDirty: dirty
     });
@@ -201,9 +201,9 @@ export default class Category extends React.Component<ICategoryProps, ICategoryS
 
   private upsertPlaylist = async (playlist: IPlaylist): Promise<boolean> => {
     try {
-      let newPlaylist = (playlist.Id === "0");
+      const newPlaylist = (playlist.Id === "0");
       let editPlaylistId = cloneDeep(this.state.editPlaylistId);
-      let playlistResult = await this.props.upsertPlaylist(playlist);
+      const playlistResult = await this.props.upsertPlaylist(playlist);
       let message: string = "";
       let success: boolean = true;
       if (playlistResult !== "0") {
@@ -237,9 +237,9 @@ export default class Category extends React.Component<ICategoryProps, ICategoryS
     }
   }
 
-  private editPlaylist = (subcategory: ICategory, editPlaylistId: string, editDisabled: boolean) => {
+  private editPlaylist = (subcategory: ICategory, editPlaylistId: string, editDisabled: boolean): void => {
     try {
-      let category = find(this.props.categories, (item) => { return findIndex(item.SubCategories, { Id: subcategory.Id }) > -1; });
+      const category = find(this.props.categories, (item) => { return findIndex(item.SubCategories, { Id: subcategory.Id }) > -1; });
       this.setState({
         editPlaylistId: editPlaylistId,
         editDisabled: editDisabled,
@@ -251,12 +251,12 @@ export default class Category extends React.Component<ICategoryProps, ICategoryS
     }
   }
 
-  private deleteSubcategory = (listing: IListing) => {
+  private deleteSubcategory = (listing: IListing): void => {
     this.props.deleteSubcategory(this.state.selectedCategoryId, listing.heading.Id);
   }
 
   private copyPlaylist = async (playlist: IPlaylist): Promise<void> => {
-    let copyPlaylist = await this.props.copyPlaylist(playlist);
+    const copyPlaylist = await this.props.copyPlaylist(playlist);
     if (copyPlaylist != undefined) {
       this.setState({
         editPlaylistId: copyPlaylist,
@@ -294,9 +294,9 @@ export default class Category extends React.Component<ICategoryProps, ICategoryS
             />
           </div>
           <div className="adm-content-main">
-            {this.state.editPlaylistId === "" && this.state.listings && this.state.listings.length > 0 && this.state.listings.map((listing: IListing) => {
+            {this.state.editPlaylistId === "" && this.state.listings && this.state.listings.length > 0 && this.state.listings.map((listing: IListing, idx) => {
               return (
-                <div>
+                <div key={idx}>
                   <CategoryHeading
                     heading={listing.heading}
                     new={false}
@@ -309,9 +309,9 @@ export default class Category extends React.Component<ICategoryProps, ICategoryS
                     onDelete={() => this.deleteSubcategory(listing)}
                   />
                   <ul className="adm-content-playlist">
-                    {listing.playlists && listing.playlists.length > 0 && listing.playlists.map((playlist) => {
+                    {listing.playlists && listing.playlists.length > 0 && listing.playlists.map((playlist, idx) => {
                       return (
-                        <li>
+                        <li key={idx}>
                           <PlaylistItem
                             playlistId={playlist.Id}
                             playlistTitle={(playlist.Title instanceof Array) ? (playlist.Title as IMultilingualString[])[0].Text : playlist.Title as string}

@@ -44,7 +44,7 @@ export interface ICustomLearningProps {
   teamsEntityId: string;
   cacheController: ICacheController;
   updateCustomSort: (customSortOrder: string[]) => void;
-  getCSSVariablesOnElement: () => any;
+  getCSSVariablesOnElement: () => { [key: string]: string; };
 }
 
 export interface ICustomLearningState {
@@ -102,7 +102,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
   }
 
   private findParentCategory(id: string, categories: ICategory[], lastParent: ICategory[]): ICategory[] {
-    let parent: ICategory[] = lastParent;
+    const parent: ICategory[] = lastParent;
     try {
       for (let i = 0; i < categories.length; i++) {
         if (categories[i].SubCategories.length > 0) {
@@ -126,7 +126,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
     return parent;
   }
 
-  private init() {
+  private init(): void {
     if (this.props.webpartMode === WebpartMode.contentonly) { return; }
     try {
       //If startLocation is specified then pin starting location as root menu item
@@ -140,14 +140,14 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
     }
   }
 
-  public componentDidUpdate() {
+  public componentDidUpdate(): void {
     if (this._reInit) {
       this._reInit = false;
       this.loadDetail(this.props.startType, this.props.startLocation, []);
     }
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<ICustomLearningProps>, nextState: Readonly<ICustomLearningState>) {
+  public shouldComponentUpdate(nextProps: Readonly<ICustomLearningProps>, nextState: Readonly<ICustomLearningState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     if (this.props.startType != nextProps.startType ||
@@ -158,39 +158,41 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
     return true;
   }
 
-  public componentDidMount() {
+  public componentDidMount(): void {
     this.loadDetail(this.props.startType, this.props.startLocation, this.state.history);
   }
 
   private getFilterValues(subcategory: ICategory): IFilterValue[] {
-    let filterValues: IFilterValue[] = [];
+    const filterValues: IFilterValue[] = [];
     try {
-      let checkPlaylists = (playlists: IPlaylist[]): void => {
+      let foundAudience = -1;
+      let foundLevel = -1;
+      const checkPlaylists = (playlists: IPlaylist[]): void => {
         for (let i = 0; i < playlists.length; i++) {
           if (playlists[i].AudienceId && playlists[i].AudienceId.length > 0) {
-            let foundAudience = findIndex(filterValues, { Type: FilterTypes.Audience, Key: playlists[i].AudienceId });
+            foundAudience = findIndex(filterValues, { Type: FilterTypes.Audience, Key: playlists[i].AudienceId });
             if (foundAudience < 0)
               filterValues.push(new FilterValue(FilterTypes.Audience, playlists[i].AudienceId, playlists[i].AudienceValue.Name));
           } else {
-            let foundAudience = findIndex(filterValues, { Type: FilterTypes.Audience, Key: "" });
+            foundAudience = findIndex(filterValues, { Type: FilterTypes.Audience, Key: "" });
             if (foundAudience < 0)
               filterValues.push(new FilterValue(FilterTypes.Audience, "", strings.FilterNotSet));
           }
           if (playlists[i].LevelId.length > 0) {
-            let foundLevel = findIndex(filterValues, { Type: FilterTypes.Level, Key: playlists[i].LevelId });
+            foundLevel = findIndex(filterValues, { Type: FilterTypes.Level, Key: playlists[i].LevelId });
             if (foundLevel < 0)
               filterValues.push(new FilterValue(FilterTypes.Level, playlists[i].LevelId, playlists[i].LevelValue.Name));
           } else {
-            let foundLevel = findIndex(filterValues, { Type: FilterTypes.Level, Key: "" });
+            foundLevel = findIndex(filterValues, { Type: FilterTypes.Level, Key: "" });
             if (foundLevel < 0)
               filterValues.push(new FilterValue(FilterTypes.Level, "", strings.FilterNotSet));
           }
         }
       };
 
-      let subs: ICategory[] = (subcategory.SubCategories.length == 0) ? [subcategory] : subcategory.SubCategories;
+      const subs: ICategory[] = (subcategory.SubCategories.length == 0) ? [subcategory] : subcategory.SubCategories;
       for (let i = 0; i < subs.length; i++) {
-        let pl = filter(this.props.cacheController.cacheConfig.CachedPlaylists, { CatId: subs[i].Id });
+        const pl = filter(this.props.cacheController.cacheConfig.CachedPlaylists, { CatId: subs[i].Id });
         if (pl.length > 0)
           checkPlaylists(pl);
       }
@@ -203,7 +205,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
 
   private filterPlaylists = (playlists: IPlaylist[], filterValue: IFilter): IPlaylist[] => {
     try {
-      let filtered: IPlaylist[] = playlists.filter((pl) => {
+      const filtered: IPlaylist[] = playlists.filter((pl) => {
         let retVal = true;
         if (filterValue.Level.length > 0)
           retVal = includes(filterValue.Level, pl.LevelId);
@@ -219,10 +221,11 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
   }
 
   private applyCustomSort = (array: (ICategory[] | IPlaylist[])): (ICategory[] | IPlaylist[]) => {
-    let newArray: any = [];
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const newArray: any = [];
     try {
       if (!this.props.customSortOrder || this.props.customSortOrder.length < 1) { return array; }
-      let copyArray = cloneDeep(array);
+      const copyArray = cloneDeep(array);
       forEach(this.props.customSortOrder, (sortId) => {
         let idx: number = -1;
         forEach(copyArray, (value: (ICategory | IPlaylist), index: number) => {
@@ -232,7 +235,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
           }
         });
         if (idx > -1) {
-          let detailItem = cloneDeep(copyArray[idx]);
+          const detailItem = cloneDeep(copyArray[idx]);
           newArray.push(detailItem);
           copyArray.splice(idx, 1);
         }
@@ -263,7 +266,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
       let parent: ICategory;
       let detail: ICategory[] | IPlaylist[] | IPlaylist;
       let assets: IAsset[] = null;
-      let currentAsset: IAsset = null;
+      const currentAsset: IAsset = null;
       let filterValues: IFilterValue[] = cloneDeep(this.state.filterValues);
       let url: string = `${params.baseViewerUrl}?cdn=${this.props.cacheController.CDN}`;
       let teamsContext: string[] = [];
@@ -288,28 +291,27 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
           break;
         case Templates.SubCategory:
         case Templates.Playlists:
-          let subCategory = this.findParentCategory(templateId, this.props.cacheController.cacheConfig.Categories, []);
-          parent = subCategory[0];
-          filterValues = this.getFilterValues(subCategory[0]);
-          if (subCategory[0].SubCategories.length > 0) {
+          parent = this.findParentCategory(templateId, this.props.cacheController.cacheConfig.Categories, [])[0];
+          filterValues = this.getFilterValues(parent);
+          if (parent.SubCategories.length > 0) {
             template = Templates.SubCategory;
-            detail = subCategory[0].SubCategories;
+            detail = parent.SubCategories;
             if (this.props.customSort)
               detail = this.applyCustomSort(detail) as ICategory[];
           } else {
             template = Templates.Playlists;
-            detail = filter(this.props.cacheController.cacheConfig.CachedPlaylists, { CatId: subCategory[0].Id });
+            detail = filter(this.props.cacheController.cacheConfig.CachedPlaylists, { CatId: parent.Id });
             detail = this.filterPlaylists(detail, filterValue);
             if (this.props.customSort)
               detail = this.applyCustomSort(detail) as IPlaylist[];
           }
           if (updateHistory) {
-            history.push(new HistoryItem(subCategory[0].Id, subCategory[0].Name as string, template));
+            history.push(new HistoryItem(parent.Id, parent.Name as string, template));
           }
           if (this.teamsContext) {
-            teamsContext[3] = subCategory[0].Id;
+            teamsContext[3] = parent.Id;
           } else {
-            url = `${url}&subcategory=${subCategory[0].Id}`;
+            url = `${url}&subcategory=${parent.Id}`;
           }
           break;
         case Templates.Playlist:
@@ -322,15 +324,14 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
           }
           assets = [];
           for (let i = 0; i < (detail as IPlaylist).Assets.length; i++) {
-            let pa = find(this.props.cacheController.cacheConfig.CachedAssets, { Id: (detail as IPlaylist).Assets[i] });
+            const pa = find(this.props.cacheController.cacheConfig.CachedAssets, { Id: (detail as IPlaylist).Assets[i] });
             if (pa)
               assets.push(pa);
           }
           break;
         case Templates.Asset:
           assets = [];
-          let a = find(this.props.cacheController.cacheConfig.CachedAssets, { Id: templateId });
-          assets.push(a);
+          assets.push(find(this.props.cacheController.cacheConfig.CachedAssets, { Id: templateId }));
           break;
         default:
           detail = this.props.cacheController.cacheConfig.Categories;
@@ -339,10 +340,10 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
 
       //If Teams context then generate subEntityId for url
       if (this.teamsContext) {
-        let subEntityId = teamsContext.join(":");
+        const subEntityId = teamsContext.join(":");
         url = `${url}"${subEntityId}"}`;
         //encode teams subentity
-        let encode = url.split("?");
+        const encode = url.split("?");
         url = `${encode[0]}?${encodeURI(encode[1])}`;
       }
 
@@ -387,7 +388,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
         if (templateId === "") {
           history = [new HistoryItem("", strings.NavigationHome, "")];
         } else {
-          let idx = findIndex(history, { Id: templateId });
+          const idx = findIndex(history, { Id: templateId });
           history.splice(idx, (history.length - idx));
         }
       }
@@ -399,15 +400,15 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
 
   private selectAsset = (assetId: string): void => {
     try {
-      let currentAsset = find(this.state.assets, { Id: assetId });
+      const currentAsset = find(this.state.assets, { Id: assetId });
       if (!isEqual(currentAsset, this.state.currentAsset)) {
         let url: string = `${params.baseViewerUrl}?cdn=${this.props.cacheController.CDN}`;
         if (this.teamsContext) {
-          let teamsContext: string[] = ["", this.props.cacheController.CDN, "", "", (this.state.detail != null) ? (this.state.detail as IPlaylist).Id : "", currentAsset.Id];
-          let subEntityId = teamsContext.join(":");
+          const teamsContext: string[] = ["", this.props.cacheController.CDN, "", "", (this.state.detail != null) ? (this.state.detail as IPlaylist).Id : "", currentAsset.Id];
+          const subEntityId = teamsContext.join(":");
           url = `${this.teamsContextUrl}"${subEntityId}"}`;
           //encode teams subentity
-          let encode = url.split("?");
+          const encode = url.split("?");
           url = `${encode[0]}?${encodeURI(encode[1])}`;
         } else {
           if (this.state.detail != null) {
@@ -431,19 +432,25 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
 
   private setFilter = (newFilterValue: IFilterValue): void => {
     try {
-      let filterValue: IFilter = cloneDeep(this.state.filterValue);
+      const filterValue: IFilter = cloneDeep(this.state.filterValue);
+      let levelIdx = -1;
+      let audIdx = -1;
       switch (newFilterValue.Type) {
         case "Level":
-          let levelIdx = indexOf(filterValue.Level, newFilterValue.Key);
-          (levelIdx > -1) ?
-            filterValue.Level.splice(levelIdx, 1) :
+          levelIdx = indexOf(filterValue.Level, newFilterValue.Key);
+          if (levelIdx > -1) {
+            filterValue.Level.splice(levelIdx, 1)
+          } else {
             filterValue.Level.push(newFilterValue.Key);
+          }
           break;
         case "Audience":
-          let audIdx = indexOf(filterValue.Audience, newFilterValue.Key);
-          (audIdx > -1) ?
-            filterValue.Audience.splice(audIdx, 1) :
+          audIdx = indexOf(filterValue.Audience, newFilterValue.Key);
+          if (audIdx > -1) {
+            filterValue.Audience.splice(audIdx, 1)
+          } else {
             filterValue.Audience.push(newFilterValue.Key);
+          }
           break;
       }
 
@@ -461,11 +468,11 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
     let retArray: ICategory[] = array;
     try {
       category.forEach((c) => {
-        let item = cloneDeep(c);
+        const item = cloneDeep(c);
         item.SubCategories = [];
         retArray.push(item);
         if (c.SubCategories && c.SubCategories.length > 0) {
-          let sub = this.flattenCategory(c.SubCategories, retArray);
+          const sub = this.flattenCategory(c.SubCategories, retArray);
           retArray = concat(retArray, sub);
         }
       });
@@ -480,8 +487,8 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
       let searchResults: ISearchResult[] = [];
       if (searchValue.length > 0) {
         //Matching technologies and subjects
-        let technologies: string[] = [];
-        let subjects: string[] = [];
+        const technologies: string[] = [];
+        const subjects: string[] = [];
         forEach(this.props.cacheController.cacheConfig.Technologies, (t) => {
           if (t.Name.toLowerCase().indexOf(searchValue.toLowerCase()) > -1) {
             technologies.push(t.Id);
@@ -498,27 +505,27 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
         //Search Assets
         //Filter Assets by matching technologies and subjects
         let spAsset: IAsset[] = [];
-        let spAssetTech = filter(this.props.cacheController.cacheConfig.CachedAssets, o => {
+        const spAssetTech = filter(this.props.cacheController.cacheConfig.CachedAssets, o => {
           return (includes(technologies, o.TechnologyId));
         });
         spAsset = concat(spAsset, spAssetTech);
 
-        let spAssetSub = filter(this.props.cacheController.cacheConfig.CachedAssets, o => {
+        const spAssetSub = filter(this.props.cacheController.cacheConfig.CachedAssets, o => {
           return (includes(subjects, o.SubjectId));
         });
         spAsset = concat(spAsset, spAssetSub);
         //Filter Assets by search fields
         for (let i = 0; i < SearchFields.length; i++) {
-          let spField = filter(this.props.cacheController.cacheConfig.CachedAssets, o => {
+          const spField = filter(this.props.cacheController.cacheConfig.CachedAssets, o => {
             if (o[SearchFields[i]] == undefined) return false;
             return (o[SearchFields[i]].toLowerCase().indexOf(searchValue.toLowerCase()) > -1);
           });
           spAsset = concat(spAsset, spField);
-          let spAssetResults: ISearchResult[] = [];
+          const spAssetResults: ISearchResult[] = [];
           spAsset.forEach((a) => {
-            let parent: IPlaylist[] = filter(this.props.cacheController.cacheConfig.CachedPlaylists, o => (o.Assets.indexOf(a.Id) > -1));
+            const parent: IPlaylist[] = filter(this.props.cacheController.cacheConfig.CachedPlaylists, o => (o.Assets.indexOf(a.Id) > -1));
             parent.forEach((pl) => {
-              let result: ISearchResult = { Result: a, Parent: pl, Type: Templates.Asset };
+              const result: ISearchResult = { Result: a, Parent: pl, Type: Templates.Asset };
               spAssetResults.push(result);
             });
           });
@@ -527,27 +534,27 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
 
         //Search Playlists
         let spPlay: IPlaylist[] = [];
-        let spPlayTech = filter(this.props.cacheController.cacheConfig.CachedPlaylists, o => {
+        const spPlayTech = filter(this.props.cacheController.cacheConfig.CachedPlaylists, o => {
           return (includes(technologies, o.TechnologyId));
         });
         spPlay = concat(spPlay, spPlayTech);
 
-        let spPlaySub = filter(this.props.cacheController.cacheConfig.CachedPlaylists, o => {
+        const spPlaySub = filter(this.props.cacheController.cacheConfig.CachedPlaylists, o => {
           return (includes(subjects, o.SubjectId));
         });
         spPlay = concat(spPlay, spPlaySub);
-        let flatSubCategories: ICategory[] = this.flattenCategory(this.props.cacheController.cacheConfig.Categories);
+        const flatSubCategories: ICategory[] = this.flattenCategory(this.props.cacheController.cacheConfig.Categories);
         for (let i = 0; i < SearchFields.length; i++) {
-          let spField = filter(this.props.cacheController.cacheConfig.CachedPlaylists, o => {
+          const spField = filter(this.props.cacheController.cacheConfig.CachedPlaylists, o => {
             if (o[SearchFields[i]] == undefined) return false;
             return (o[SearchFields[i]].toLowerCase().indexOf(searchValue.toLowerCase()) > -1);
           });
           spPlay = concat(spPlay, spField);
-          let spPlayResults: ISearchResult[] = [];
+          const spPlayResults: ISearchResult[] = [];
           spPlay.forEach((pl) => {
-            let parent: ICategory = find(flatSubCategories, { Id: pl.CatId });
+            const parent: ICategory = find(flatSubCategories, { Id: pl.CatId });
             if (parent) {
-              let result: ISearchResult = { Result: pl, Parent: parent, Type: Templates.Playlist };
+              const result: ISearchResult = { Result: pl, Parent: parent, Type: Templates.Playlist };
               spPlayResults.push(result);
             }
           });
@@ -570,7 +577,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
 
   private loadSearchResult = (subcategoryId: string, playlistId: string, assetId: string): void => {
     try {
-      let history = cloneDeep(this.state.history);
+      const history = cloneDeep(this.state.history);
       if (history.length > 1)
         history.splice(1);
       if (playlistId) {
@@ -587,12 +594,12 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
     }
   }
 
-  private doRenderPanel = () => {
+  private doRenderPanel = (): void => {
     this.setState({ renderPanel: !this.state.renderPanel });
   }
 
-  private renderContainer(): any {
-    let element: any;
+  private renderContainer(): (JSX.Element | null) {
+    let element: (JSX.Element | null) = null;
     try {
       switch (this.state.template) {
         case Templates.Category:
@@ -645,8 +652,8 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
     return element;
   }
 
-  private renderPanel = (inPanel: boolean): any => {
-    let element: any[] = [];
+  private renderPanel = (inPanel: boolean): (JSX.Element | null) => {
+    const element: (JSX.Element | null)[] = [];
     try {
       if (!inPanel && (this.props.webpartMode === WebpartMode.contentonly) && (this.props.webpartTitle && this.props.webpartTitle.length > 0)) {
         element.push(<h2 className={styles.title}>{this.props.webpartTitle}</h2>);
@@ -683,7 +690,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (renderPanel) - ${err}`, LogLevel.Error);
     }
 
-    let mainElement = <div className={`${styles.customLearning} ${(params.appPartPage) ? styles.appPartPage : ""}`}>{element}</div>;
+    const mainElement = <div className={`${styles.customLearning} ${(params.appPartPage) ? styles.appPartPage : ""}`}>{element}</div>;
 
     return mainElement;
   }

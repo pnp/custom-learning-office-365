@@ -28,13 +28,13 @@ export default class HeaderPanel extends React.Component<IHeaderPanelProps, IHea
     this.state = new HeaderPanelState();
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<IHeaderPanelProps>, nextState: Readonly<IHeaderPanelState>) {
+  public shouldComponentUpdate(nextProps: Readonly<IHeaderPanelProps>, nextState: Readonly<IHeaderPanelState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     return true;
   }
 
-  public componentDidUpdate() {
+  public componentDidUpdate(): void {
     try {
       if (this.props.panelOpen !== "Search" && (this.props.searchResults.length > 0)) {
         this.props.doSearch("");
@@ -46,7 +46,7 @@ export default class HeaderPanel extends React.Component<IHeaderPanelProps, IHea
 
   public render(): React.ReactElement<IHeaderPanelProps> {
     try {
-      let element: any;
+      let element: JSX.Element | null;
       switch (this.props.panelOpen) {
         case "Link":
           element = <LinkPanel

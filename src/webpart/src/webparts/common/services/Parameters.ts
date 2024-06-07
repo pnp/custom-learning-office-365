@@ -100,7 +100,7 @@ export class Parameters {
     * The base of the CDN path for M365LP.
     */
   get baseCdnPath(): string {
-    return `${this._baseCdnPath}${params.manifestVersion}/`;
+    return `${this._baseCdnPath}${this._manifestVersion}/`;
   }
 
   /**	
@@ -162,7 +162,7 @@ export class Parameters {
       this._updateInstructionUrl = (value.Version.RepoURL) ? value.Version.RepoURL : this._updateInstructionUrl;
       this._contentPacks = value.ContentPacks;
       this._assetOrigins = value.AssetOrigins;
-      let supportedLanguages: string[] = [];
+      const supportedLanguages: string[] = [];
       forEach(value.Languages, (lang) => {
         supportedLanguages.push(lang.toLowerCase());
       });

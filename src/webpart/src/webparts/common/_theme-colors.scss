@@ -10,7 +10,7 @@ $c-background: $ouif-bodyBackground;
 :global {
   .playerctrl {
     background-color: "[theme:bodyBackground]";
-    @include themeSlot(bodyBackground, background);
+    @include themeSlot(bodyBackground, background-color);
   }
 
   .category-label {
@@ -32,7 +32,7 @@ $c-background: $ouif-bodyBackground;
     &.selected,
     &:hover {
       // background-color: $ouif-primaryButtonBackgroundHovered;
-      @include themeSlot(primaryButtonBackground, background);
+      @include themeSlot(primaryButtonBackground, background-color);
       // color: $ouif-primaryButtonBackground;
       @include themeSlot(primaryButtonText);
 

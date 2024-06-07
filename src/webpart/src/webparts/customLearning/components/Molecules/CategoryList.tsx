@@ -37,7 +37,7 @@ export default class CategoryList extends React.Component<ICategoryListProps, IC
     this.state = new CategoryListState(props.subcategories);
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<ICategoryListProps>, nextState: Readonly<ICategoryListState>) {
+  public shouldComponentUpdate(nextProps: Readonly<ICategoryListProps>, nextState: Readonly<ICategoryListState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     if (!isEqual(nextProps.subcategories, this.props.subcategories))
@@ -45,7 +45,7 @@ export default class CategoryList extends React.Component<ICategoryListProps, IC
     return true;
   }
 
-  public componentDidUpdate() {
+  public componentDidUpdate(): void {
     if (this._updateState) {
       this._updateState = false;
       this.setState({ subcategories: this.props.subcategories });
@@ -53,7 +53,7 @@ export default class CategoryList extends React.Component<ICategoryListProps, IC
   }
 
   //Support drag and drop for custom sorting
-  private startDrag = (event: React.DragEvent<HTMLDivElement>, index: number) => {
+  private startDrag = (event: React.DragEvent<HTMLDivElement>, index: number): void => {
     if (!(this.props.customSort && this.props.editMode)) { return; }
     try {
       event.stopPropagation();
@@ -68,10 +68,10 @@ export default class CategoryList extends React.Component<ICategoryListProps, IC
     }
   }
 
-  private endDrag = () => {
+  private endDrag = (): void => {
     if (!(this.props.customSort && this.props.editMode)) { return; }
     try {
-      let customSortOrder: string[] = map(this.state.subcategories, (item: ICategory) => {
+      const customSortOrder: string[] = map(this.state.subcategories, (item: ICategory) => {
         return item.Id;
       });
       this._dragResource = null;
@@ -82,7 +82,7 @@ export default class CategoryList extends React.Component<ICategoryListProps, IC
     }
   }
 
-  private dragEnter = (index: number) => {
+  private dragEnter = (index: number): void => {
     if (!(this.props.customSort && this.props.editMode)) { return; }
     try {
       const draggedOverItem = this.state.subcategories[index];
@@ -93,7 +93,7 @@ export default class CategoryList extends React.Component<ICategoryListProps, IC
       }
 
       // filter out the currently dragged item
-      let subcategories = filter(this.state.subcategories, (item: ICategory) => {
+      const subcategories = filter(this.state.subcategories, (item: ICategory) => {
         return item !== this._dragResource;
       });
 
@@ -108,7 +108,7 @@ export default class CategoryList extends React.Component<ICategoryListProps, IC
   public render(): React.ReactElement<ICategoryListProps> {
     try {
       if (!this.state.subcategories || this.state.subcategories.length < 1) return null;
-      let dragMode: boolean = (this.props.customSort && this.props.editMode);
+      const dragMode: boolean = (this.props.customSort && this.props.editMode);
       return (
         <div className={`category-overview ${(dragMode ? "editSort" : "")}`}>
           {this.state.subcategories.map((subcategory, idx) => {

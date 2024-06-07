@@ -45,7 +45,7 @@ export default class LearningHeader extends React.Component<ILearningHeaderProps
     this.state = new LearningHeaderState();
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<ILearningHeaderProps>, nextState: Readonly<ILearningHeaderState>) {
+  public shouldComponentUpdate(nextProps: Readonly<ILearningHeaderProps>, nextState: Readonly<ILearningHeaderState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     if (this.state.panelOpen) {
@@ -55,7 +55,7 @@ export default class LearningHeader extends React.Component<ILearningHeaderProps
     return true;
   }
 
-  public componentDidUpdate() {
+  public componentDidUpdate(): void {
     //Close the panels for search, copy, and admin if they are open and you move pages
     if (this._reInit && (!this.props.searchResults || this.props.searchResults.length <= 0)) {
       this._reInit = false;
@@ -63,7 +63,7 @@ export default class LearningHeader extends React.Component<ILearningHeaderProps
     }
   }
 
-  private buttonClick = (buttonType: string) => {
+  private buttonClick = (buttonType: string): void => {
     try {
       if (buttonType === "Gear") {
         this.props.onAdminPlaylists();
@@ -83,7 +83,7 @@ export default class LearningHeader extends React.Component<ILearningHeaderProps
     }
   }
 
-  private loadSearchResultClosePanel = (subcategoryId: string, playlistId: string, assetId: string) => {
+  private loadSearchResultClosePanel = (subcategoryId: string, playlistId: string, assetId: string): void => {
     try {
       this.setState({ panelOpen: "" });
       this.props.loadSearchResult(subcategoryId, playlistId, assetId);

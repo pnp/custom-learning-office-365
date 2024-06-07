@@ -26,7 +26,7 @@ export default class Error extends React.Component<IErrorProps, IErrorState> {
     this.state = new ErrorState();
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<IErrorProps>, nextState: Readonly<IErrorState>) {
+  public shouldComponentUpdate(nextProps: Readonly<IErrorProps>, nextState: Readonly<IErrorState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     return true;

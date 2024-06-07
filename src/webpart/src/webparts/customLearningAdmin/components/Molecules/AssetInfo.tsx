@@ -67,16 +67,16 @@ export default class AssetInfo extends React.Component<IAssetInfoProps, IAssetIn
     this.state = new AssetInfoState();
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<IAssetInfoProps>, nextState: Readonly<IAssetInfoState>) {
+  public shouldComponentUpdate(nextProps: Readonly<IAssetInfoProps>, nextState: Readonly<IAssetInfoState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     return true;
   }
 
-  private moveAsset(array: string[], oldIndex, newIndex) {
+  private moveAsset(array: string[], oldIndex, newIndex): void {
     try {
       if (newIndex >= array.length) {
-        var k = newIndex - array.length + 1;
+        let k = newIndex - array.length + 1;
         while (k--) {
           array.push(undefined);
         }
@@ -87,9 +87,9 @@ export default class AssetInfo extends React.Component<IAssetInfoProps, IAssetIn
     }
   }
 
-  private moveAssetUp = (index: number) => {
+  private moveAssetUp = (index: number): void => {
     try {
-      let playlist = cloneDeep(this.props.playlist);
+      const playlist = cloneDeep(this.props.playlist);
       this.moveAsset(playlist.Assets, index, index - 1);
       this.props.updatePlaylist(playlist, true);
     } catch (err) {
@@ -97,9 +97,9 @@ export default class AssetInfo extends React.Component<IAssetInfoProps, IAssetIn
     }
   }
 
-  private moveAssetDown = (index: number) => {
+  private moveAssetDown = (index: number): void => {
     try {
-      let playlist = cloneDeep(this.props.playlist);
+      const playlist = cloneDeep(this.props.playlist);
       this.moveAsset(playlist.Assets, index, index + 1);
       this.props.updatePlaylist(playlist, true);
     } catch (err) {
@@ -107,9 +107,9 @@ export default class AssetInfo extends React.Component<IAssetInfoProps, IAssetIn
     }
   }
 
-  private removeAsset = (index: number) => {
+  private removeAsset = (index: number): void => {
     try {
-      let playlist = cloneDeep(this.props.playlist);
+      const playlist = cloneDeep(this.props.playlist);
       playlist.Assets.splice(index, 1);
       this.props.updatePlaylist(playlist, true);
     } catch (err) {
@@ -123,8 +123,8 @@ export default class AssetInfo extends React.Component<IAssetInfoProps, IAssetIn
       if (searchValue.length > 0) {
         //Search Assets
         //Matching technologies and subjects
-        let technologies: string[] = [];
-        let subjects: string[] = [];
+        const technologies: string[] = [];
+        const subjects: string[] = [];
         forEach(this.props.technologies, (t) => {
           if (t.Name && t.Name.toLowerCase().indexOf(searchValue.toLowerCase()) > -1) {
             technologies.push(t.Id);
@@ -138,19 +138,19 @@ export default class AssetInfo extends React.Component<IAssetInfoProps, IAssetIn
           }
         });
 
-        let spTech = filter(this.props.assets, o => {
+        const spTech = filter(this.props.assets, o => {
           return (includes(technologies, o.TechnologyId));
         });
         searchResults = concat(searchResults, spTech);
 
-        let spSub = filter(this.props.assets, o => {
+        const spSub = filter(this.props.assets, o => {
           return (includes(subjects, o.SubjectId));
         });
         searchResults = concat(searchResults, spSub);
 
         //Matching search fields
         for (let i = 0; i < SearchFields.length; i++) {
-          let sp = filter(this.props.assets, o => {
+          const sp = filter(this.props.assets, o => {
             if (o[SearchFields[i]] == undefined) return false;
             let fieldValue: string = null;
             if (o[SearchFields[i]] instanceof Array)
@@ -163,7 +163,7 @@ export default class AssetInfo extends React.Component<IAssetInfoProps, IAssetIn
         }
         searchResults = uniqBy(searchResults, (r) => { return r.Id; });
         searchResults = sortBy(searchResults, (r) => {
-          let title = (r.Title instanceof Array) ? (r.Title as IMultilingualString[])[0].Text : r.Title as string;
+          const title = (r.Title instanceof Array) ? (r.Title as IMultilingualString[])[0].Text : r.Title as string;
           return title.toLowerCase();
         });
       }
@@ -177,9 +177,9 @@ export default class AssetInfo extends React.Component<IAssetInfoProps, IAssetIn
     }
   }
 
-  private insertAsset = (assetId: string) => {
+  private insertAsset = (assetId: string): void => {
     try {
-      let playlist = cloneDeep(this.props.playlist);
+      const playlist = cloneDeep(this.props.playlist);
       playlist.Assets.push(assetId);
       this.props.updatePlaylist(playlist, true);
     } catch (err) {
@@ -189,17 +189,16 @@ export default class AssetInfo extends React.Component<IAssetInfoProps, IAssetIn
 
   private upsertAsset = async (asset: IAsset): Promise<boolean> => {
     try {
-      let newAsset = (asset.Id === "0");
+      const newAsset = (asset.Id === "0");
       if (newAsset)
         this.props.playlistDirty(true);
-      let assetResult = await this.props.upsertAsset(asset);
+      const assetResult = await this.props.upsertAsset(asset);
       let message: string = "";
       let success: boolean = true;
       if (assetResult !== "0") {
         if (newAsset) {
           this.insertAsset(assetResult);
         }
-        //message = strings.PlaylistEditAssetSavedMessage;
       } else {
         if (newAsset)
           this.props.playlistDirty(false);
@@ -227,10 +226,10 @@ export default class AssetInfo extends React.Component<IAssetInfoProps, IAssetIn
     }
   }
 
-  private selectSearchAsset = async (assets: string[]) => {
+  private selectSearchAsset = async (assets: string[]): Promise<void> => {
     try {
       if (assets && assets.length > 0) {
-        let playlist = cloneDeep(this.props.playlist);
+        const playlist = cloneDeep(this.props.playlist);
         playlist.Assets = playlist.Assets.concat(assets);
         this.props.updatePlaylist(playlist, true);
         this.closeSearch();
@@ -240,7 +239,7 @@ export default class AssetInfo extends React.Component<IAssetInfoProps, IAssetIn
     }
   }
 
-  private closeSearch = () => {
+  private closeSearch = (): void => {
     this.setState({
       searchValue: "",
       searchResults: [],
@@ -250,7 +249,7 @@ export default class AssetInfo extends React.Component<IAssetInfoProps, IAssetIn
   }
 
   private getPivotItems = (): IHOOPivotItem[] => {
-    let pivotItems: IHOOPivotItem[] = [];
+    const pivotItems: IHOOPivotItem[] = [];
     try {
       pivotItems.push({ key: 'CurrentPlaylist', text: strings.HeaderPlaylistPanelCurrentPlaylistLabel });
 
@@ -308,7 +307,7 @@ export default class AssetInfo extends React.Component<IAssetInfoProps, IAssetIn
                 if (asset.Source !== CustomWebpartSource.Tenant)
                   asset = this.props.translateAsset(asset);
                 return (
-                  <div className="learningwrapper">
+                  <div className="learningwrapper" key={index}>
                     <AssetDetailsCommands
                       assetIndex={index}
                       assetTotal={this.props.playlist.Assets.length - 1}

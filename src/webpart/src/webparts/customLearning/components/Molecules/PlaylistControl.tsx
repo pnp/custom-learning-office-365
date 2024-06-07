@@ -39,14 +39,14 @@ export default class PlaylistControl extends React.Component<IPlaylistControlPro
   }
 
   private getAssetOptions(assets: IAsset[]): IHOODropDownItem[] {
-    let assetOptions: IHOODropDownItem[] = [];
+    const assetOptions: IHOODropDownItem[] = [];
     for (let i = 0; i < assets.length; i++) {
       assetOptions.push({ key: assets[i].Id, text: assets[i].Title as string, disabled: false });
     }
     return assetOptions;
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<IPlaylistControlProps>, nextState: Readonly<IPlaylistControlState>) {
+  public shouldComponentUpdate(nextProps: Readonly<IPlaylistControlProps>, nextState: Readonly<IPlaylistControlState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     if (!isEqual(nextProps.assets, this.props.assets))
@@ -54,7 +54,7 @@ export default class PlaylistControl extends React.Component<IPlaylistControlPro
     return true;
   }
 
-  public componentDidUpdate() {
+  public componentDidUpdate(): void {
     if (this.refreshAssets) {
       this.refreshAssets = false;
       this.setState({ assetOptions: this.getAssetOptions(this.props.assets) });
@@ -83,7 +83,7 @@ export default class PlaylistControl extends React.Component<IPlaylistControlPro
 
   private playlistAdvance = (): void => {
     try {
-      let currentIdx = indexOf(this.props.assets, this.props.currentAsset);
+      const currentIdx = indexOf(this.props.assets, this.props.currentAsset);
       this.props.selectAsset(this.props.assets[(currentIdx + 1)].Id);
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (playlistAdvance) - ${err}`, LogLevel.Error);
@@ -92,7 +92,7 @@ export default class PlaylistControl extends React.Component<IPlaylistControlPro
 
   private playlistBack = (): void => {
     try {
-      let currentIdx = indexOf(this.props.assets, this.props.currentAsset);
+      const currentIdx = indexOf(this.props.assets, this.props.currentAsset);
       this.props.selectAsset(this.props.assets[(currentIdx - 1)].Id);
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (playlistBack) - ${err}`, LogLevel.Error);

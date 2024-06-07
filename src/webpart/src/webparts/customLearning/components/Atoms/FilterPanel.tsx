@@ -33,7 +33,7 @@ export default class FilterPanel extends React.PureComponent<IFilterPanelProps, 
   }
 
   public showFilter = (): void => {
-    let show = this.state.show;
+    const show = this.state.show;
     this.setState({
       show: !show
     });
@@ -41,8 +41,8 @@ export default class FilterPanel extends React.PureComponent<IFilterPanelProps, 
 
   public render(): React.ReactElement<IFilterPanelProps> {
     try {
-      let filterValuesLevel = filter(this.props.filterValues, { Type: FilterTypes.Level });
-      let filterValuesAudience = filter(this.props.filterValues, { Type: FilterTypes.Audience });
+      const filterValuesLevel = filter(this.props.filterValues, { Type: FilterTypes.Level });
+      const filterValuesAudience = filter(this.props.filterValues, { Type: FilterTypes.Audience });
       return (
         <div data-component={this.LOG_SOURCE} className={`sldpnl ${this.state.show ? "show" : "hide"}`}>
           <div className="sldpnl-header">
@@ -58,9 +58,10 @@ export default class FilterPanel extends React.PureComponent<IFilterPanelProps, 
               <tr className="selector-row">
                 <th className="selector-header">{strings.FilterPanelAudienceLabel}</th>
                 <td className="selector-data">
-                  {filterValuesAudience.map((audience) => {
+                  {filterValuesAudience.map((audience, idx) => {
                     return (
                       <HOOButton type={HOOButtonType.Standard}
+                        key={idx}
                         label={audience.Value}
                         onClick={() => { this.props.setFilter(audience); }}
                         rootElementAttributes={{ className: (this.props.filter.Audience.indexOf(audience.Key) > -1) ? "selected" : "" }} />
@@ -71,9 +72,10 @@ export default class FilterPanel extends React.PureComponent<IFilterPanelProps, 
               <tr className="selector-row">
                 <th className="selector-header">{strings.FilterPanelSkillsetLabel}</th>
                 <td className="selector-data">
-                  {filterValuesLevel.map((level) => {
+                  {filterValuesLevel.map((level, idx) => {
                     return (
                       <HOOButton type={HOOButtonType.Standard}
+                        key={idx}
                         onClick={() => { this.props.setFilter(level); }}
                         label={level.Value}
                         rootElementAttributes={{ className: (this.props.filter.Level.indexOf(level.Key) > -1) ? "selected" : "" }} />

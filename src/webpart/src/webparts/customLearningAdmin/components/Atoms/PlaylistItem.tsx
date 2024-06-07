@@ -33,7 +33,7 @@ export default class PlaylistItem extends React.Component<IPlaylistItemProps, IP
     this.state = new PlaylistItemState();
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<IPlaylistItemProps>, nextState: Readonly<IPlaylistItemState>) {
+  public shouldComponentUpdate(nextProps: Readonly<IPlaylistItemProps>, nextState: Readonly<IPlaylistItemState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     return true;
@@ -42,7 +42,7 @@ export default class PlaylistItem extends React.Component<IPlaylistItemProps, IP
   public render(): React.ReactElement<IPlaylistItemProps> {
     try {
       // Setting title for aria-label and title
-      let title = this.props.playlistTitle + (this.props.playlistEditable ? " - Custom Playlist" : "");
+      const title = this.props.playlistTitle + (this.props.playlistEditable ? " - Custom Playlist" : "");
 
       return (
         <div data-component={this.LOG_SOURCE} className="pl-edit-item" title={title} aria-title={title}>

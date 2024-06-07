@@ -201,9 +201,9 @@ export interface IPlaylist {
   Title: string | IMultilingualString[];
   Image: string | IMultilingualString[];
   LevelId: string;
-  LevelValue?: IMetadataEntry | null;
+  LevelValue?: IMetadataEntry;
   AudienceId: string;
-  AudienceValue?: IMetadataEntry | null;
+  AudienceValue?: IMetadataEntry;
   TechnologyId: string;
   SubjectId: string;
   Source: string;
@@ -220,9 +220,9 @@ export class Playlist implements IPlaylist {
     public Title: string | IMultilingualString[] = [new MultilingualString()],
     public Image: string | IMultilingualString[] = [new MultilingualString()],
     public LevelId: string = "",
-    public LevelValue: IMetadataEntry | null = null,
+    public LevelValue: IMetadataEntry = null,
     public AudienceId: string = "",
-    public AudienceValue: IMetadataEntry | null = null,
+    public AudienceValue: IMetadataEntry = null,
     public TechnologyId: string = "",
     public SubjectId: string = "",
     public Source: string = CustomWebpartSource.Tenant,
@@ -304,16 +304,16 @@ export class FilterValue implements IFilterValue {
 }
 
 export interface IHistoryItem {
-  Id: string | null;
-  Name: string | null;
-  Template: string | null;
+  Id: string;
+  Name: string;
+  Template: string;
 }
 
 export class HistoryItem implements IHistoryItem {
   constructor(
-    public Id: string | null = null,
-    public Name: string | null = null,
-    public Template: string | null = null
+    public Id: string = null,
+    public Name: string = null,
+    public Template: string = null
   ) { }
 }
 

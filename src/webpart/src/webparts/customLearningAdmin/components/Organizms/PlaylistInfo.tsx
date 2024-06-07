@@ -119,7 +119,7 @@ export default class PlaylistInfo extends React.Component<IPlaylistInfoProps, IP
     }
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<IPlaylistInfoProps>, nextState: Readonly<IPlaylistInfoState>) {
+  public shouldComponentUpdate(nextProps: Readonly<IPlaylistInfoProps>, nextState: Readonly<IPlaylistInfoState>): boolean {
     try {
       if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
         return false;
@@ -133,14 +133,14 @@ export default class PlaylistInfo extends React.Component<IPlaylistInfoProps, IP
     return true;
   }
 
-  public componentDidUpdate() {
+  public componentDidUpdate(): void {
     if (this._reInit) {
       this._reInit = false;
       this.init();
     }
   }
 
-  private updatePlaylist = (newPlaylist: IPlaylist, save: boolean = false) => {
+  private updatePlaylist = (newPlaylist: IPlaylist, save: boolean = false): void => {
     try {
       this.setState({
         playlist: newPlaylist,
@@ -149,13 +149,12 @@ export default class PlaylistInfo extends React.Component<IPlaylistInfoProps, IP
         if (save)
           this.savePlaylist();
       });
-
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (updatePlaylist) - ${err}`, LogLevel.Error);
     }
   }
 
-  private savePlaylist = async () => {
+  private savePlaylist = async (): Promise<void> => {
     try {
       if (this.props.savePlaylist(this.state.playlist)) {
         this.setState({
@@ -193,13 +192,13 @@ export default class PlaylistInfo extends React.Component<IPlaylistInfoProps, IP
     return valid;
   }
 
-  private playlistHeader = () => {
+  private playlistHeader = (): string => {
     let header: string = "";
     try {
       if (this.state.playlist.Id === "0") {
         header = strings.PlaylistEditCreatePlaylistHeader;
       } else {
-        let title = (this.state.playlist.Title instanceof Array) ? (this.state.playlist.Title as IMultilingualString[])[0].Text : this.state.playlist.Title as string;
+        const title = (this.state.playlist.Title instanceof Array) ? (this.state.playlist.Title as IMultilingualString[])[0].Text : this.state.playlist.Title as string;
         header = `${strings.PlaylistEditPlaylistDetailsHeader} ${title}`;
       }
     } catch (err) {
@@ -208,16 +207,16 @@ export default class PlaylistInfo extends React.Component<IPlaylistInfoProps, IP
     return header;
   }
 
-  private renderPlaylistButtons = () => {
-    let retVal = [];
+  private renderPlaylistButtons = (): JSX.Element[] => {
+    const retVal: JSX.Element[] = [];
     try {
-      let copy = <HOOButton type={HOOButtonType.Icon}
+      const copy = <HOOButton type={HOOButtonType.Icon}
         iconName="icon-copy-regular"
         iconTitle={strings.PlaylistEditCopyLabel}
         onClick={() => this.props.copyPlaylist(this.state.playlist)}
         disabled={false}
       />;
-      let close = <HOOButton type={HOOButtonType.Icon}
+      const close = <HOOButton type={HOOButtonType.Icon}
         iconName="icon-dismiss-regular"
         iconTitle={strings.PlaylistEditCloseLabel}
         onClick={this.props.close}
@@ -246,7 +245,7 @@ export default class PlaylistInfo extends React.Component<IPlaylistInfoProps, IP
 
   public render(): React.ReactElement<IPlaylistInfoProps> {
     try {
-      let playlistButtons = this.renderPlaylistButtons();
+      const playlistButtons = this.renderPlaylistButtons();
       return (
         <>
           <div data-component={this.LOG_SOURCE} className="adm-content-section">

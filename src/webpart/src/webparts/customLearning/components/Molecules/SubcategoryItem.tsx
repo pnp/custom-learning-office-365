@@ -38,12 +38,13 @@ export class SubCategoryItemState implements ISubCategoryItemState {
   ) { }
 }
 
-declare module 'react' {
-  interface HTMLAttributes<T> extends React.DOMAttributes<T> {
-    // extends React's HTMLAttributes for lazy loading
-    loading?: string;
-  }
-}
+// TODO: Delete
+// declare module 'react' {
+//   interface HTMLAttributes<T> extends React.DOMAttributes<T> {
+//     // extends React's HTMLAttributes for lazy loading
+//     loading?: string;
+//   }
+// }
 
 export default class SubCategoryItem extends React.Component<ISubCategoryItemProps, ISubCategoryItemState> {
   private LOG_SOURCE: string = "SubCategoryItem";
@@ -73,7 +74,7 @@ export default class SubCategoryItem extends React.Component<ISubCategoryItemPro
     }
   }
 
-  private onMediaQueryChange = (size: number) => {
+  private onMediaQueryChange = (size: number): void => {
     if (size !== this.state.mediaSize) {
       let clamp: number = 4;
       if (size === 1024)
@@ -87,7 +88,7 @@ export default class SubCategoryItem extends React.Component<ISubCategoryItemPro
     }
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<ISubCategoryItemProps>, nextState: Readonly<ISubCategoryItemState>) {
+  public shouldComponentUpdate(nextProps: Readonly<ISubCategoryItemProps>, nextState: Readonly<ISubCategoryItemState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     return true;
@@ -101,7 +102,7 @@ export default class SubCategoryItem extends React.Component<ISubCategoryItemPro
   //   }
   // }
 
-  private _toggleLines = (event: React.MouseEvent<HTMLSpanElement, MouseEvent>) => {
+  private _toggleLines = (event: React.MouseEvent<HTMLSpanElement, MouseEvent>): void => {
     event.preventDefault();
     event.stopPropagation();
 
@@ -130,8 +131,7 @@ export default class SubCategoryItem extends React.Component<ISubCategoryItemPro
           <div className="plov-desc">
             <h3 className="plov-title">{this.props.title}</h3>
             <p>
-              <div>
-              </div>
+              <div />
               {/* TODO add the trancate via CSS */}
               <div
               // lines={!this.state.expanded && this.state.clamp}
@@ -140,11 +140,11 @@ export default class SubCategoryItem extends React.Component<ISubCategoryItemPro
               // )}
               // onTruncate={this._handleTruncate}
               >
-                <span className="truncateToggle notExpanded" onClick={this._toggleLines} aria-hidden="true" dangerouslySetInnerHTML={{ "__html": ButtonTypes.ArrowDown.SVG }} ></span>
+                <span className="truncateToggle notExpanded" onClick={this._toggleLines} aria-hidden="true" dangerouslySetInnerHTML={{ "__html": ButtonTypes.ArrowDown.SVG }} />
                 {this.props.description}
               </div>
               {!this.state.truncated && this.state.expanded && (
-                <span className="truncateToggle expanded" onClick={this._toggleLines} aria-hidden="true" dangerouslySetInnerHTML={{ "__html": ButtonTypes.ArrowUp.SVG }} ></span>
+                <span className="truncateToggle expanded" onClick={this._toggleLines} aria-hidden="true" dangerouslySetInnerHTML={{ "__html": ButtonTypes.ArrowUp.SVG }} />
               )}
             </p>
             <div className="plov-audience">{(this.props.audience.Name.length > 0) ? this.props.audience.Name : strings.FilterNotSet}</div>

@@ -38,7 +38,7 @@ export default class ImageSelector extends React.Component<IImageSelectorProps, 
     super(props);
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<IImageSelectorProps>, nextState: Readonly<IImageSelectorState>) {
+  public shouldComponentUpdate(nextProps: Readonly<IImageSelectorProps>, nextState: Readonly<IImageSelectorState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     return true;
@@ -62,6 +62,7 @@ export default class ImageSelector extends React.Component<IImageSelectorProps, 
   //   }
   // }
 
+  //TODO: This pivot button isn't actually implemented
   public render(): React.ReactElement<IImageSelectorProps> {
     try {
       return (
@@ -77,13 +78,12 @@ export default class ImageSelector extends React.Component<IImageSelectorProps, 
           <HOOPivotButton
             isActive={false}
             label={this.props.imageSource}
-            onClick={e => (e as any).target.select()}
-            rootElementAttributes={{
-              className: "adm-fileUrl",
-            }}
-          />
+            rootElementAttributes={{ className: "adm-fileUrl" }}
+            onClick={function (event: React.MouseEvent<HTMLButtonElement, MouseEvent>): void {
+              throw new Error("Function not implemented.");
+            }} />
           {!this.props.disabled &&
-            <><FilePickerDialog></FilePickerDialog>
+            <><FilePickerDialog />
               {/* <FilePicker
               //label={strings.ImageSelectorLabel}
               accepts={[".gif", ".jpg", ".jpeg", ".bmp", ".dib", ".tif", ".tiff", ".ico", ".png", ".jxr", ".svg"]}

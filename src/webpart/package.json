@@ -11,7 +11,8 @@
     "build": "gulp bundle",
     "clean": "gulp clean",
     "preversion": "node ./tools/pre-version.js",
-    "postversion": "gulp dist"
+    "postversion": "gulp dist",
+    "lint": "eslint ./src"
   },
   "dependencies": {
     "@microsoft/applicationinsights-web": "^3.2.1",

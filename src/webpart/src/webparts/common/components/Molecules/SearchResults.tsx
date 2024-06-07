@@ -44,7 +44,7 @@ export default class SearchResults extends React.Component<ISearchResultsProps, 
     this.state = new SearchResultsState();
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<ISearchResultsProps>, nextState: Readonly<ISearchResultsState>) {
+  public shouldComponentUpdate(nextProps: Readonly<ISearchResultsProps>, nextState: Readonly<ISearchResultsState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     if (!isEqual(nextProps.searchResults, this.props.searchResults))
@@ -52,7 +52,7 @@ export default class SearchResults extends React.Component<ISearchResultsProps, 
     return true;
   }
 
-  public componentDidUpdate() {
+  public componentDidUpdate(): void {
     if (this._searchChanged) {
       this._searchChanged = false;
       this.setState({
@@ -96,14 +96,13 @@ export default class SearchResults extends React.Component<ISearchResultsProps, 
             searchValue={this.props.searchValue}
             selectTab={this.changeFilter}
           />
-          {pageResults && pageResults.length > 0 && pageResults.map((result) => {
+          {pageResults && pageResults.length > 0 && pageResults.map((result, idx) => {
             return (
-              <menu className="dbg-srch-wrapper">
+              <menu key={idx} className="dbg-srch-wrapper">
                 <SearchResultItem
                   resultView={this.props.resultView}
                   result={result}
-                  loadSearchResult={this.props.loadSearchResult}
-                />
+                  loadSearchResult={this.props.loadSearchResult} />
               </menu>
             );
           })}

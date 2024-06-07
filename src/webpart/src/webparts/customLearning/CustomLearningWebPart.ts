@@ -1,3 +1,4 @@
+/* eslint-disable dot-notation */
 import * as React from "react";
 import * as ReactDom from "react-dom";
 import { Version, DisplayMode } from "@microsoft/sp-core-library";
@@ -11,7 +12,10 @@ import {
   PropertyPaneDropdownOptionType,
   PropertyPaneToggle,
   PropertyPaneButton,
-  PropertyPaneButtonType
+  PropertyPaneButtonType,
+  IPropertyPaneField,
+  IPropertyPaneDropdownProps,
+  IPropertyPaneLabelProps
 } from "@microsoft/sp-property-pane";
 import {  ThemeProvider} from '@microsoft/sp-component-base';
 import { app } from "@microsoft/teams-js-v2";
@@ -86,7 +90,6 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
   private _spfxThemes: ISPFxThemes = new SPFxThemes();
 
   public async onInit(): Promise<void> {
-
     // Consume the new ThemeProvider service
     this._themeProvider = this.context.serviceScope.consume(ThemeProvider.serviceKey);
     this._spfxThemes.initThemeHandler(this.domElement, this._themeProvider, this.context.sdks?.microsoftTeams);
@@ -136,7 +139,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
       // Get configuration from the Teams SDK
       if (this._teamsContext != null) {
         if (this._teamsContext.page?.subPageId != null && this._teamsContext.page.subPageId?.length > 0) {
-          let queryString = this._teamsContext.page.subPageId?.split(":");
+          const queryString = this._teamsContext.page.subPageId?.split(":");
           this._urlWebpartMode = queryString[0];
           this._urlCDN = queryString[1];
           this._urlCategory = queryString[2];
@@ -184,7 +187,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
     try {
       this._cacheController = CacheController.getInstance(cdnId);
       this._cacheController.doInit(cdnId, params.userLanguage);
-      let ready = await this._cacheController.isReady();
+      const ready = await this._cacheController.isReady();
       if (ready && this._cacheController.isValid) {
         this._validSetup = this._cacheController.isValid;
         if (this._cacheController.cacheConfig) {
@@ -275,7 +278,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
         sv = ShimmerView.ViewerPlaylist;
         break;
     }
-    let shimmer = React.createElement(
+    const shimmer = React.createElement(
       ShimmerViewer, { shimmerView: sv }
     );
 
@@ -353,7 +356,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
   }
 
   private getDefaultCDNPropertyPaneOptions(): void {
-    let options: IPropertyPaneDropdownOption[] = [];
+    const options: IPropertyPaneDropdownOption[] = [];
     try {
       if (params.allCdn && params.allCdn.length > 0) {
         for (let i = 0; i < params.allCdn.length; i++) {
@@ -369,7 +372,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
   }
 
   private getWebpartModePropertyPaneOptions(): void {
-    let options: IPropertyPaneDropdownOption[] = [];
+    const options: IPropertyPaneDropdownOption[] = [];
     try {
       options.push({ key: WebpartMode.full, text: strings.WebPartModeFull });
       options.push({ key: WebpartMode.contentonly, text: strings.WebPartModeContentOnly });
@@ -380,7 +383,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
   }
 
   private getDefaultFilterPropertyPaneOptions(): void {
-    let options: IPropertyPaneDropdownOption[] = [];
+    const options: IPropertyPaneDropdownOption[] = [];
     try {
       options.push({ key: "", text: strings.PropertyPaneNone });
       options.push({ key: PropertyPaneFilters.category, text: strings.PropertyPaneFilterCategory });
@@ -412,7 +415,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
   }
 
   private getSubCategoryPropertyPaneOptions(): void {
-    let options: IPropertyPaneDropdownOption[] = [];
+    const options: IPropertyPaneDropdownOption[] = [];
     options.push({ key: "", text: strings.PropertyPaneNone });
     if (this._validConfig) {
       try {
@@ -441,16 +444,17 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
     let options: IPropertyPaneDropdownOption[] = [];
     options.push({ key: "", text: strings.PropertyPaneNone });
     if (this._validConfig) {
-      let cp = cloneDeep(this._cacheController.cacheConfig.CachedPlaylists);
-      let cachedPlaylists = sortBy(cp, "CatId");
+      const cp = cloneDeep(this._cacheController.cacheConfig.CachedPlaylists);
+      const cachedPlaylists = sortBy(cp, "CatId");
       let catId: string = "";
       let categories: IPropertyPaneDropdownOption[] = [];
-      let plItems: any = {};
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const plItems: any = {};
       try {
         for (let i = 0; i < cachedPlaylists.length; i++) {
           if (catId === "" || catId !== cachedPlaylists[i].CatId) {
             catId = cachedPlaylists[i].CatId;
-            let category: ICategory | undefined = find(this._cacheController.flatCategory, { Id: catId });
+            const category: ICategory | undefined = find(this._cacheController.flatCategory, { Id: catId });
             if (category) {
               categories.push({
                 key: category.Id,
@@ -483,14 +487,13 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
   }
 
   public loadPlayListAssets = (templateId: string): void => {
-    let options: IPropertyPaneDropdownOption[] = [];
+    const options: IPropertyPaneDropdownOption[] = [];
     if (this._validConfig) {
       try {
-        let detail: ICategory[] | IPlaylist[] | IPlaylist | undefined;
-        detail = find(this._cacheController.cacheConfig.CachedPlaylists, { Id: templateId });
+        const detail: ICategory[] | IPlaylist[] | IPlaylist | undefined = find(this._cacheController.cacheConfig.CachedPlaylists, { Id: templateId });
         if (!detail) { return; }
         for (let i = 0; i < (detail as IPlaylist).Assets.length; i++) {
-          let a = find(this._cacheController.cacheConfig.CachedAssets, { Id: (detail as IPlaylist).Assets[i] });
+          const a = find(this._cacheController.cacheConfig.CachedAssets, { Id: (detail as IPlaylist).Assets[i] });
           if (a)
             options.push({
               key: a.Id,
@@ -504,27 +507,27 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
     this._ppAssets = options;
   }
 
-  private updateCustomSort = (customSortOrder: string[]) => {
+  private updateCustomSort = (customSortOrder: string[]): void => {
     this.properties.customSortOrder = customSortOrder;
     this.render();
   }
 
-  private resetCustomSortOrder = () => {
+  private resetCustomSortOrder = (): void => {
     this.properties.customSortOrder = [];
     this.render();
   }
 
-  private getCSSVariablesOnElement = (): any => {
-    let retVal: any = {};
+  private getCSSVariablesOnElement = (): {[key: string]: string} => {
+    const retVal: {[key: string]: string} = {};
     try {
-      let styles: CSSStyleDeclaration = this.domElement.style;
+      const styles: CSSStyleDeclaration = this.domElement.style;
 
       // request all key defined in theming
-      let themingKeys = Object.keys(styles);
+      const themingKeys = Object.keys(styles);
       // if we have the key
       if (themingKeys !== null) {
         // loop over it
-        themingKeys.forEach((key: string) => {
+        themingKeys.forEach((key: string) => {          
           retVal[styles[key]] = styles.getPropertyValue(styles[key]);
         });
       }
@@ -536,7 +539,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
   }
 
   protected getPropertyPaneConfiguration(): IPropertyPaneConfiguration {
-    let configuration: IPropertyPaneConfiguration = {
+    const configuration: IPropertyPaneConfiguration = {
       pages: [
         {
           header: {
@@ -566,17 +569,15 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
       ]
     };
 
-    try {
-      let displayFilter: any;
-      let assetList: any;
-      let defaultFilter: any;      
-
-      defaultFilter = PropertyPaneDropdown('defaultFilter', {
+    try {      
+      const defaultFilter = PropertyPaneDropdown('defaultFilter', {
         label: strings.DefaultFilterLabel,
         options: this._ppFilters,
         selectedKey: this.properties.defaultFilter
       });
-      assetList = PropertyPaneLabel('defaultAsset', { text: "" });
+
+      let displayFilter: IPropertyPaneField<IPropertyPaneLabelProps> | IPropertyPaneField<IPropertyPaneDropdownProps> ;
+      let assetList: IPropertyPaneField<IPropertyPaneLabelProps> | IPropertyPaneField<IPropertyPaneDropdownProps> = PropertyPaneLabel('defaultAsset', { text: "" });
 
       switch (this.properties.defaultFilter) {
         case PropertyPaneFilters.category:
@@ -635,6 +636,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
     return configuration;
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   protected async onPropertyPaneFieldChanged(propertyPath: string, oldValue: any, newValue: any): Promise<void> {
     try {
       //The default filter drop down changed

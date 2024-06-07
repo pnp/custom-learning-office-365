@@ -4,9 +4,10 @@ export interface FileItem {
   webUrl: string;
   size: number;
   id: string;
-  parentReference: any;
+  parentReference: string;
   sharepointIds: ISharePointIds;
 }
+
 export interface ISharePointIds {
   listItemUniqueId: string;
   listItemId: string;

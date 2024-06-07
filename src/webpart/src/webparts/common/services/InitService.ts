@@ -54,20 +54,20 @@ export class InitService implements IInitService {
     try {
       this._cdn = cdn;
       this._sp = spfi().using(SPFx(params.context));
-      let successLS = await this.loadLearningSite();
+      const successLS = await this.loadLearningSite();
       if (successLS) {
-        let successCDN = await this.loadCdnBase();
+        const successCDN = await this.loadCdnBase();
         if (successCDN) {
-          let successManifest = await this.loadManifest(params.baseCdnPath);
+          const successManifest = await this.loadManifest(params.baseCdnPath);
           if (successManifest) {
             //Complete remaining init in parallel
-            let initComplete: Promise<boolean>[] = [];
+            const initComplete: Promise<boolean>[] = [];
             initComplete.push(this.loadLanguage());
             initComplete.push(this.loadTelemetryOn());
             initComplete.push(this.loadUserRole());
             initComplete.push(this.loadWebhookConfig());
 
-            let successAll = await Promise.all(initComplete);
+            const successAll = await Promise.all(initComplete);
             if (successAll.indexOf(false) === -1)
               retVal = true;
           }
@@ -81,7 +81,7 @@ export class InitService implements IInitService {
 
   private convertLocal(localeId: number): ILocale {
     try {
-      let local: ILocale = find(this.locals, { localeId: localeId }) as ILocale;
+      const local: ILocale = find(this.locals, { localeId: localeId }) as ILocale;
       if (local) {
         local.code = local.code.toLowerCase();
         return local;
@@ -100,27 +100,28 @@ export class InitService implements IInitService {
   private async loadLanguage(): Promise<boolean> {
     let retVal: boolean = false;
     try {
-      let multilingualOnCheck = await this._sp.web.features.getById('24611c05-ee19-45da-955f-6602264abaf8')();
+      const multilingualOnCheck = await this._sp.web.features.getById('24611c05-ee19-45da-955f-6602264abaf8')();
       params.multilingualEnabled = (multilingualOnCheck["odata.null"]) ? false : true;
 
-      let web = await this._sp.web();
-      let languageId = web["Language"];
+      const web = await this._sp.web();
+      const languageId = web.Language;
       try {
         this.locals = require(`../assets/locals-${languageId}.json`);
       } catch (err) {
         this.locals = require(`../assets/locals-1033.json`);
       }
-      let webLanguage = this.convertLocal(languageId);
+      const webLanguage = this.convertLocal(languageId);
       params.webLanguage = webLanguage.code.toLowerCase();
       //Check if default web language is supported, otherwise fall back to English
-      let checkWebLanguage = params.supportedLanguages.indexOf(webLanguage.code.toLowerCase()) > -1;
-      let defaultLocale = checkWebLanguage ? webLanguage : this.convertLocal(1033);
+      const checkWebLanguage = params.supportedLanguages.indexOf(webLanguage.code.toLowerCase()) > -1;
+      const defaultLocale = checkWebLanguage ? webLanguage : this.convertLocal(1033);
       params.defaultLanguage = defaultLocale.code.toLowerCase();
       params.configuredLanguages = [defaultLocale];
       if (params.multilingualEnabled) {
-        let defaultLanguageCheck = await this._sp.web.select("SupportedUILanguageIds")();
+        const defaultLanguageCheck: {SupportedUILanguageIds: number[]} = await this._sp.web.select("SupportedUILanguageIds")();
         if (defaultLanguageCheck) {
-          params.multilingualLanguages = defaultLanguageCheck["SupportedUILanguageIds"];
+          // eslint-disable-next-line require-atomic-updates
+          params.multilingualLanguages = defaultLanguageCheck.SupportedUILanguageIds;
           retVal = this.loadConfiguredLanguages();
         }
       } else {
@@ -135,10 +136,10 @@ export class InitService implements IInitService {
   public loadConfiguredLanguages(): boolean {
     let retVal: boolean = false;
     try {
-      let defaultLocale = find(this.locals, { code: params.defaultLanguage }) as ILocale;
-      let mlLanguages: ILocale[] = [defaultLocale];
+      const defaultLocale = find(this.locals, { code: params.defaultLanguage }) as ILocale;
+      const mlLanguages: ILocale[] = [defaultLocale];
       forEach(params.multilingualLanguages, (localId: number) => {
-        let mlLangCode = this.convertLocal(localId);
+        const mlLangCode = this.convertLocal(localId);
         if (params.supportedLanguages.indexOf(mlLangCode.code) > -1 && mlLangCode.code !== params.defaultLanguage)
           mlLanguages.push(mlLangCode);
       });
@@ -154,13 +155,14 @@ export class InitService implements IInitService {
   private async loadCdnBase(): Promise<boolean> {
     let retVal: boolean = false;
     try {
-      let defaultCdn = await this._sp.web.getStorageEntity("MicrosoftCustomLearningCdn");
+      const defaultCdn = await this._sp.web.getStorageEntity("MicrosoftCustomLearningCdn");
       if (defaultCdn.Value) {
-        let v2Idx = defaultCdn.Value.indexOf("v2/");
-        let defaultCdnBasePath = (v2Idx > -1) ? defaultCdn.Value.replace("v2", `learningpathways/`) : `${defaultCdn.Value}`;
+        const v2Idx = defaultCdn.Value.indexOf("v2/");
+        const defaultCdnBasePath = (v2Idx > -1) ? defaultCdn.Value.replace("v2", `learningpathways/`) : `${defaultCdn.Value}`;
         if (params.customCDN === null) {
           params.allCdn = [new CDN("Default", strings.M365Title, defaultCdnBasePath)];
-          let customDataService = new CustomDataService(this._cdn);
+          const customDataService = new CustomDataService(this._cdn);
+          // eslint-disable-next-line require-atomic-updates
           params.customCDN = await customDataService.getCustomCDN();
           if (params.customCDN && params.customCDN.CDNs.length > 0) {
             params.allCdn = params.allCdn.concat(params.customCDN.CDNs);
@@ -170,7 +172,7 @@ export class InitService implements IInitService {
         params.baseCdnPath = defaultCdnBasePath;
         //Update base path for non-default CDN.
         if (this._cdn !== "Default") {
-          let cdnCustom: ICDN = find(params.customCDN.CDNs, { Id: this._cdn });
+          const cdnCustom: ICDN = find(params.customCDN.CDNs, { Id: this._cdn });
           if (cdnCustom) {
             params.baseCdnPath = cdnCustom.Base;
           } else {
@@ -192,7 +194,7 @@ export class InitService implements IInitService {
   private async loadTelemetryOn(): Promise<boolean> {
     let retVal: boolean = false;
     try {
-      let telemetryOn = await this._sp.web.getStorageEntity("MicrosoftCustomLearningTelemetryOn");
+      const telemetryOn = await this._sp.web.getStorageEntity("MicrosoftCustomLearningTelemetryOn");
       if (telemetryOn.Value) {
         params.telemetryOn = (telemetryOn.Value.toLowerCase() == "true");
         retVal = true;
@@ -209,7 +211,7 @@ export class InitService implements IInitService {
   private async loadLearningSite(): Promise<boolean> {
     let retVal: boolean = false;
     try {
-      let learningSite = await this._sp.web.getStorageEntity("MicrosoftCustomLearningSite");
+      const learningSite = await this._sp.web.getStorageEntity("MicrosoftCustomLearningSite");
       if (learningSite.Value) {
         if (learningSite.Value.indexOf("http") === 0) {
           params.learningSiteUrl = learningSite.Value;
@@ -230,7 +232,7 @@ export class InitService implements IInitService {
   private async loadWebhookConfig(): Promise<boolean> {
     let retVal: boolean = false;
     try {
-      let webhookConfig = await this._sp.web.getStorageEntity("MicrosoftCustomLearningWebhookConfig");
+      const webhookConfig = await this._sp.web.getStorageEntity("MicrosoftCustomLearningWebhookConfig");
       if (webhookConfig.Value) {
         params.webhookConfig = (webhookConfig.Value?.length > 0) ? JSON.parse(webhookConfig.Value) : { Url: null, AnonymizeUser: true };
       } else {
@@ -252,7 +254,7 @@ export class InitService implements IInitService {
       if (baseCdnPath !== params.baseCdnPath)
         params.baseCdnPath = baseCdnPath;
 
-      let results: HttpClientResponse = await params.httpClient.fetch(`${params.baseCdnPath}manifest.json`, HttpClient.configurations.v1, {
+      const results: HttpClientResponse = await params.httpClient.fetch(`${params.baseCdnPath}manifest.json`, HttpClient.configurations.v1, {
         headers: { Accept: "application/json;odata.metadata=none" }
       });
       if (results.ok) {
@@ -265,6 +267,7 @@ export class InitService implements IInitService {
       }
 
       //Update params with manifest
+      // eslint-disable-next-line require-atomic-updates
       params.manifest = manifest;
       retVal = true;
     }
@@ -279,14 +282,14 @@ export class InitService implements IInitService {
   private async loadUserRole(): Promise<boolean> {
     let retVal: boolean = false;
     try {
-      let ownersGroup = await this._sp.web.associatedOwnerGroup();
-      let membersGroup = await this._sp.web.associatedMemberGroup();
-      let data = await this._sp.web.currentUser.expand("groups")<{ IsSiteAdmin: boolean, Groups: { Id: string }[] }>();
-      let ownerIndex: number = findIndex(data.Groups, o => (o["Id"].toString() === ownersGroup.Id.toString()));
+      const ownersGroup = await this._sp.web.associatedOwnerGroup();
+      const membersGroup = await this._sp.web.associatedMemberGroup();
+      const data = await this._sp.web.currentUser.expand("groups")<{ IsSiteAdmin: boolean, Groups: { Id: string }[] }>();
+      let ownerIndex: number = findIndex(data.Groups, o => (o.Id.toString() === ownersGroup.Id.toString()));
       if (data.IsSiteAdmin) {
         ownerIndex = 0;
       }
-      let membersIndex: number = findIndex(data.Groups, o => (o["Id"].toString() === membersGroup.Id.toString()));
+      const membersIndex: number = findIndex(data.Groups, o => (o.Id.toString() === membersGroup.Id.toString()));
       if (ownerIndex > -1)
         params.userRole = Roles.Owners;
       else if (membersIndex > -1)
@@ -303,14 +306,14 @@ export class InitService implements IInitService {
   //Validate that custom playlist and assets SharePoint lists exist based on web part properties
   public async validateLists(owner: boolean): Promise<boolean> {
     try {
-      let configService = new ConfigService(this._sp);
+      const configService = new ConfigService(this._sp);
 
-      let listsCheck: Promise<boolean>[] = [];
+      const listsCheck: Promise<boolean>[] = [];
       listsCheck.push(configService.validateConfig(owner));
       listsCheck.push(configService.validatePlaylists(owner));
       listsCheck.push(configService.validateAssets(owner));
 
-      let validateResults = await Promise.all(listsCheck);
+      const validateResults = await Promise.all(listsCheck);
 
       for (let i = 0; i < validateResults.length; i++) {
         if (!validateResults[i]) {

@@ -37,28 +37,11 @@ export default class HeaderToolbar extends React.Component<IHeaderToolbarProps, 
   constructor(props) {
     super(props);
 
-    if (!Element.prototype.matches) {
-      Element.prototype.matches = Element.prototype["msMatchesSelector"] ||
-        Element.prototype.webkitMatchesSelector;
-    }
-
-    if (!Element.prototype.closest) {
-      Element.prototype.closest = function (s) {
-        var el = this;
-
-        do {
-          if (Element.prototype.matches.call(el, s)) return el;
-          el = el.parentElement || el.parentNode;
-        } while (el !== null && el.nodeType === 1);
-        return null;
-      };
-    }
-
     this._HeaderToolbar = React.createRef();
     this.state = new HeaderToolbarState();
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<IHeaderToolbarProps>, nextState: Readonly<IHeaderToolbarState>) {
+  public shouldComponentUpdate(nextProps: Readonly<IHeaderToolbarProps>, nextState: Readonly<IHeaderToolbarState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     return true;
@@ -66,7 +49,7 @@ export default class HeaderToolbar extends React.Component<IHeaderToolbarProps, 
 
   private onBreadcrumbItemClicked = (event: React.MouseEvent, key: string | number): void => {
     try {
-      let history = find(this.props.history, { Id: key });
+      const history = find(this.props.history, { Id: key });
       console.log(history);
       //TODO fix this
       //this.props.historyClick(history.Template, history.Id, true);
@@ -81,7 +64,7 @@ export default class HeaderToolbar extends React.Component<IHeaderToolbarProps, 
 
       try {
         if (this._HeaderToolbar.current) {
-          let section = (this._HeaderToolbar.current as HTMLElement).closest('[data-automation-id="CanvasSection"]');
+          const section = (this._HeaderToolbar.current as HTMLElement).closest('[data-automation-id="CanvasSection"]');
           sectionClass = (section) ? section.classList.contains("CanvasSection-xl4") : false;
         }
         this._breadcrumbMax = window.matchMedia("(max-width: 480px)").matches || sectionClass;
