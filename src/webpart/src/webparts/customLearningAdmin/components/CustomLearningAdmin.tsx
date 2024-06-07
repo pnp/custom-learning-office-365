@@ -237,7 +237,7 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
   }
 
   private selectCDN = (cdnId: string): Promise<boolean> => {
-    return new Promise((response) => {
+    return new Promise((resolve) => {
       try {
         this.setState({
           loadingCdn: true
@@ -248,31 +248,13 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
               currentCDNId: cdnId,
               loadingCdn: false
             }, () => {
-              response(retVal);
+              resolve(retVal);
             });
           });
       } catch (err) {
-        response(false);
+        resolve(false);
       }
     });
-    // return new Promise((response) => {
-    //   try {
-    //     this.setState({
-    //       loadingCdn: true
-    //     },
-    //       async () => {
-    //         const retVal = await this.props.selectCDN(cdnId);
-    //         this.setState({
-    //           currentCDNId: cdnId,
-    //           loadingCdn: false
-    //         }, () => {
-    //           response(retVal);
-    //         });
-    //       });
-    //   } catch (err) {
-    //     response(false);
-    //   }
-    // });
   }
 
   private upsertCdn = async (cdn: ICDN): Promise<boolean> => {
