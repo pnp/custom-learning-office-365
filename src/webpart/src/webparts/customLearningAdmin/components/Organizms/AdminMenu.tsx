@@ -51,7 +51,7 @@ export default class AdminMenu extends React.PureComponent<IAdminMenuProps, IAdm
 
   constructor(props: IAdminMenuProps) {
     super(props);
-    let currentCDN = params.allCdn[0];
+    const currentCDN = params.allCdn[0];
     this.state = new AdminMenuState(currentCDN);
   }
 

@@ -1,7 +1,3 @@
-
-import "es6-map/implement";
-import "whatwg-fetch";
-
 import * as React from "react";
 import * as ReactDom from "react-dom";
 import { Version, DisplayMode } from "@microsoft/sp-core-library";

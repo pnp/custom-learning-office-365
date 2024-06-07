@@ -73,7 +73,7 @@ export default class SubCategoryList extends React.Component<ISubCategoryListPro
   private endDrag = () => {
     if (!(this.props.customSort && this.props.editMode)) { return; }
     try {
-      let customSortOrder: string[] = map(this.state.detail, (item: ICategory | IPlaylist) => {
+      const customSortOrder: string[] = map(this.state.detail, (item: ICategory | IPlaylist) => {
         return item.Id;
       });
       this._dragResource = null;
@@ -95,7 +95,7 @@ export default class SubCategoryList extends React.Component<ISubCategoryListPro
       }
 
       // filter out the currently dragged item
-      let detail = filter(this.state.detail, (item: ICategory | IPlaylist) => {
+      const detail = filter(this.state.detail, (item: ICategory | IPlaylist) => {
         return item !== this._dragResource;
       });
 
@@ -108,13 +108,14 @@ export default class SubCategoryList extends React.Component<ISubCategoryListPro
   }
 
   public render(): React.ReactElement<ISubCategoryListProps> {
-    let dragMode: boolean = (this.props.customSort && this.props.editMode);
+    const dragMode: boolean = (this.props.customSort && this.props.editMode);
     try {
       return (
         <div data-component={this.LOG_SOURCE} className={`plov ${(dragMode ? "editSort" : "")}`}>
           {this.state.detail && this.state.detail.length > 0 && (this.props.template == Templates.SubCategory) && (this.state.detail as ICategory[]).map((subcategory, idx) => {
             return (
               <SubCategoryItem
+                key={idx}
                 index={idx}
                 dragMode={dragMode}
                 imageSource={((subcategory.Image as string).length > 0) ? (subcategory.Image as string) : null}
@@ -132,6 +133,7 @@ export default class SubCategoryList extends React.Component<ISubCategoryListPro
           {this.state.detail && this.state.detail.length > 0 && (this.props.template == Templates.Playlists) && (this.state.detail as IPlaylist[]).map((playlist, idx) => {
             return (
               <SubCategoryItem
+                key={idx}
                 index={idx}
                 dragMode={dragMode}
                 imageSource={((playlist.Image as string).length > 0) ? playlist.Image as string : null}
