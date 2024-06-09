@@ -248,7 +248,6 @@ export class Parameters {
 
   set customCacheConfig(value: ICacheConfig) {
     try {
-      //this._currentCacheConfig = value;
       if (value) {
         this._assetOrigins = value.AssetOrigins;
         this._webPartVersion = value.WebPartVersion;

@@ -1,35 +1,35 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
-import isEqual from "lodash-es/isEqual";
 import { IHOOPivotItem } from "@n8d/htwoo-react/HOOPivotBar";
 import HOOSearch from "@n8d/htwoo-react/HOOSearch";
 
+import { UXService } from "../../../common/services/UXService";
 import SearchResults from "../../../common/components/Molecules/SearchResults";
 import { ISearchResult } from "../../../common/models/Models";
 import * as strings from "M365LPStrings";
 import { SearchResultHeaderFilters, SearchResultView } from "../../../common/models/Enums";
 
-
 export interface ISearchPanelProps {
-  panelOpen: string;
-  doSearch: (serachValue: string) => void;
-  searchResults: ISearchResult[];
-  loadSearchResult: (subcategoryId: string, playlistId: string, assetId: string) => void;
+  panelOpen: boolean;
+  closePanel: () => void;
 }
 
 export interface ISearchPanelState {
   searchValue: string;
+  searchResults: ISearchResult[];
 }
 
 export class SearchPanelState implements ISearchPanelState {
   constructor(
-    public searchValue: string = ""
+    public searchValue: string = "",
+    public searchResults: ISearchResult[] = []
   ) { }
 }
 
-export default class SearchPanel extends React.Component<ISearchPanelProps, ISearchPanelState> {
+export default class SearchPanel extends React.PureComponent<ISearchPanelProps, ISearchPanelState> {
   private LOG_SOURCE: string = "SearchPanel";
+  private _timeOutId: NodeJS.Timeout;
   private _headerItems: IHOOPivotItem[] = [{ key: SearchResultHeaderFilters.All, text: SearchResultHeaderFilters.All }, { key: SearchResultHeaderFilters.Playlists, text: SearchResultHeaderFilters.Playlists }, { key: SearchResultHeaderFilters.Assets, text: SearchResultHeaderFilters.Assets }];
 
   constructor(props) {
@@ -37,72 +37,73 @@ export default class SearchPanel extends React.Component<ISearchPanelProps, ISea
     this.state = new SearchPanelState();
   }
 
-  // TODO Check and see if we need this
-  // public componentDidMount() {
-  //   try {
-  //     if (this.props.panelOpen && this.props.searchResults.length < 1)
-  //       this.searchInput.focus();
-  //   } catch (err) {
-  //     Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (componentDidMount) - ${err}`, LogLevel.Error);
-  //   }
-  // }
-
-  public shouldComponentUpdate(nextProps: Readonly<ISearchPanelProps>, nextState: Readonly<ISearchPanelState>): boolean {
-    if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
-      return false;
-    return true;
-  }
-
-  public componentDidUpdate(): void {
+  private _debounceTypeahead = (fn: () => void, delay: number): void => {
     try {
-      if (this.props.panelOpen !== "Search" && (this.props.searchResults.length > 0)) {
-        this.setState({ searchValue: "" });
+      if (this._timeOutId) {
+        clearTimeout(this._timeOutId);
       }
+      this._timeOutId = setTimeout(() => {
+        fn();
+      }, delay);
     } catch (err) {
-      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (componentDidUpdate) - ${err}`, LogLevel.Error);
+      console.error(`err - ${this.LOG_SOURCE} (_debounceTypeahead)`);
     }
   }
 
-  private executeSearch = (searchValue: string): void => {
+  private executeSearch = (searchValue: string, enter: boolean): void => {
     try {
-      this.setState({ searchValue: searchValue });
-      this.props.doSearch(searchValue);
+      if (!enter) {
+        this.setState({ searchValue }, () => {
+          if (searchValue.length > 0) {
+            this._debounceTypeahead(() => {
+              const searchResults = UXService.DoSearch(searchValue);
+              this.setState({ searchResults });
+            }, 500);
+          }
+        });
+      } else {
+        if (searchValue.length > 0) {
+          const searchResults = UXService.DoSearch(searchValue);
+          this.setState({ searchResults });
+        }
+      }
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (executeSearch) - ${err}`, LogLevel.Error);
     }
   }
 
-  private onSearchChange = async (ev: React.ChangeEvent<HTMLInputElement>): Promise<void> => {
+  private _loadSearchResult = (subcategoryId: string, playlistId: string, assetId: string): void => {
     try {
-      const search: string = ev.currentTarget.value;
-      this.executeSearch(search);
+      UXService.LoadSearchResultAsset(subcategoryId, playlistId, assetId);
+      this.props.closePanel();
+      this.setState({ searchValue: "", searchResults: [] });
     } catch (err) {
-      console.error(`🎓 M365LP:${this.LOG_SOURCE} (onSearchChange) - ${err}`);
+      console.error(`${this.LOG_SOURCE} (_loadSearchResult) - ${err}`);
     }
   }
 
   public render(): React.ReactElement<ISearchPanelProps> {
     try {
       return (
-        <div data-component={this.LOG_SOURCE} className={`headerpanel fbcolumn ${(this.props.panelOpen.length > 0) ? "show" : ""}`}>
+        <div data-component={this.LOG_SOURCE} className={`headerpanel fbcolumn ${(this.props.panelOpen) ? "show" : ""}`}>
           <HOOSearch
-            onChange={this.onSearchChange}
-            onSearch={this.executeSearch}
             placeholder={strings.SearchPanelPlaceHolderLabel}
             value={this.state.searchValue}
-            disabled={false} />
+            disabled={false}
+            onChange={(event) => this.executeSearch(event.target.value, false)}
+            onSearch={newValue => this.executeSearch(newValue, true)} />
           <div className="srch-result">
-            {this.props.searchResults.length > 0 && (this.props.searchResults[0].Result.Id !== "0") &&
+            {this.state.searchResults.length > 0 && (this.state.searchResults[0].Result.Id !== "0") &&
               <SearchResults
                 resultView={SearchResultView.Full}
                 headerItems={this._headerItems}
                 searchValue={this.state.searchValue}
-                searchResults={this.props.searchResults}
-                loadSearchResult={this.props.loadSearchResult}
+                searchResults={this.state.searchResults}
+                loadSearchResult={this._loadSearchResult}
               />
             }
-            {this.props.searchResults.length > 0 && (this.props.searchResults[0].Result.Id === "0") &&
-              <p>{this.props.searchResults[0].Result.Title}</p>
+            {this.state.searchResults.length > 0 && (this.state.searchResults[0].Result.Id === "0") &&
+              <p>{this.state.searchResults[0].Result.Title}</p>
             }
           </div>
         </div>

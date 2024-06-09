@@ -6,7 +6,7 @@
         "title": "customlearning CustomLearningWebPart Feature",
         "description": "The feature that activates CustomLearningWebPart from the customlearning solution.",
         "id": "141d4ab7-b6ca-4bf4-ac59-25b7bf93642d",
-        "version": "4.4.0.0",
+        "version": "5.0.0.0",
         "componentIds": [
           "141d4ab7-b6ca-4bf4-ac59-25b7bf93642d"
         ]

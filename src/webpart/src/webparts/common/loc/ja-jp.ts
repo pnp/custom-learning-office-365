@@ -258,6 +258,7 @@ define([], (): IM365LPStrings => {
     M365Title: "Microsoft 365 学習経路",
     ValidateBase: "The base url for the CDN must end in a (/).",
     CustomizeSort: "Customize Sort",
-    ResetSort: "Reset Sort"
+    ResetSort: "Reset Sort",
+    AlwaysShowSearchLabel: "常に検索バーを表示する"
   };
 });

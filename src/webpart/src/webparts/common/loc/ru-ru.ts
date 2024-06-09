@@ -258,6 +258,7 @@ define([], (): IM365LPStrings => {
     M365Title: "Схемы обучения Microsoft 365",
     ValidateBase: "The base url for the CDN must end in a (/).",
     CustomizeSort: "Customize Sort",
-    ResetSort: "Reset Sort"
+    ResetSort: "Reset Sort",
+    AlwaysShowSearchLabel: "Всегда показывать строку поиска"
   };
 });

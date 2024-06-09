@@ -126,14 +126,22 @@ export class Customizations implements ICustomizations {
 }
 
 export interface IWebhookNotification {
-  User: string;
-  Resource: string;
-  
+  playlistId: string;
+  playlistName: string;
+  asset: IAsset;
+  user?: string;
+  eventType?: string;
+  tenant?: string;
+  webpart_ver?: string;
+  language?: string;
+  pageUrl?: string; 
 }
 
 export interface IWebhookConfig {
   Url: string;
   AnonymizeUser: boolean;
+  KeyHeader?: string;
+  Key?: string;
 }
 
 export interface ICacheConfig {

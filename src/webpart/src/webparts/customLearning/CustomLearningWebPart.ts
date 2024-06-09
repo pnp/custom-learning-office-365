@@ -28,6 +28,8 @@ import { Logger, LogLevel, ConsoleListener } from "@pnp/logging";
 
 import { params } from "../common/services/Parameters";
 import { AppInsightsService } from "../common/services/AppInsightsService";
+import { WebhookService } from "../common/services/WebhookService";
+import { UXService } from "../common/services/UXService";
 import { symset } from '@n8d/htwoo-react/SymbolSet';
 import { SPFxThemes, ISPFxThemes } from '@n8d/htwoo-react/SPFxThemes';
 import mlpicons from "../../../../node_modules/learning-pathways-styleguide/source/images/mlp-icons.svg"
@@ -35,7 +37,7 @@ import mlpicons from "../../../../node_modules/learning-pathways-styleguide/sour
 import * as strings from "M365LPStrings";
 import ShimmerViewer from "../common/components/Atoms/ShimmerViewer";
 import { ICategory, IPlaylist } from "../common/models/Models";
-import { Templates, WebpartMode, PropertyPaneFilters, ShimmerView } from "../common/models/Enums";
+import { Templates, WebpartModeOptions, PropertyPaneFilters, ShimmerView } from "../common/models/Enums";
 import CacheController, { ICacheController } from "../common/services/CacheController";
 import Error from "../common/components/Atoms/Error";
 
@@ -52,6 +54,7 @@ export interface ICustomLearningWebPartProps {
   defaultCDN: string;
   customSort: boolean;
   customSortOrder: string[];
+  alwaysShowSearch: boolean;
 }
 
 export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustomLearningWebPartProps> {
@@ -63,7 +66,6 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
   private _validConfig: boolean = false;
   private _teamsContext: app.Context;
 
-  private _webpartMode: string = "";
   private _startType: string = "";
   private _startLocation: string = "";
   private _startAsset: string = "";
@@ -172,6 +174,13 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
       AppInsightsService.initialize(this._cacheController.CDN, this._cacheController.cacheConfig.TelemetryKey);
       AppInsightsService.trackEvent(this.LOG_SOURCE);
 
+      //Initialize Webhook Service
+      WebhookService.initialize();
+
+      //Initialize UX Service
+      UXService.Init(this._cacheController);
+      UXService.WebPartMode = this.properties.webpartMode;
+
       Logger.write(`🎓Initialized Microsoft 365 learning pathways - Tenant: ${this.context.pageContext.aadInfo.tenantId}`, LogLevel.Info);
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (firstInit) - ${err} -- Could not initialize web part.`, LogLevel.Error);
@@ -193,6 +202,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
         if (this._cacheController.cacheConfig) {
           retVal = true;
           AppInsightsService.Technologies = this._cacheController.cacheConfig.Technologies;
+
           this._validConfig = true;
         } else {
           this._validConfig = false;
@@ -212,8 +222,8 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
     let element;
 
     //Update startType and startLocation if changed.
-    if (this.properties.webpartMode !== "" && this.properties.webpartMode !== this._webpartMode) {
-      this._webpartMode = this.properties.webpartMode;
+    if (this.properties.webpartMode !== "" && this.properties.webpartMode !== UXService.WebPartMode) {
+      UXService.WebPartMode = this.properties.webpartMode;
     }
 
     if (this.properties.defaultCategory !== "" && this.properties.defaultCategory !== this._startLocation) {
@@ -241,7 +251,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
     if (this.displayMode != DisplayMode.Edit) {
       //Set Webpart mode via query string
       if ((this._urlWebpartMode) && (this._urlWebpartMode !== "")) {
-        this._webpartMode = this._urlWebpartMode;
+        UXService.WebPartMode = this._urlWebpartMode;
       }
 
       //If any of the categories are set in the Query String then we reset the web part here
@@ -300,17 +310,15 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
         //Render web part
         const props: ICustomLearningProps = {
           editMode: (this.displayMode === DisplayMode.Edit),
-          webpartMode: this.properties.webpartMode,
           startType: this._startType,
           startLocation: this._startLocation,
           startAsset: this._startAsset,
           webpartTitle: this.properties.title,
           customSort: this.properties.customSort ? this.properties.customSort : false,
           customSortOrder: this.properties.customSortOrder,
-          teamsEntityId: this._teamsContext.page.subPageId ?? '',
-          cacheController: this._cacheController,
+          teamsEntityId: this._teamsContext?.page?.subPageId ?? '',
           updateCustomSort: this.updateCustomSort,
-          getCSSVariablesOnElement: this.getCSSVariablesOnElement,
+          alwaysShowSearch: this.properties.alwaysShowSearch || false,
         };
 
         element = React.createElement(React.Suspense, { fallback: shimmer },
@@ -374,8 +382,8 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
   private getWebpartModePropertyPaneOptions(): void {
     const options: IPropertyPaneDropdownOption[] = [];
     try {
-      options.push({ key: WebpartMode.full, text: strings.WebPartModeFull });
-      options.push({ key: WebpartMode.contentonly, text: strings.WebPartModeContentOnly });
+      options.push({ key: WebpartModeOptions.full, text: strings.WebPartModeFull });
+      options.push({ key: WebpartModeOptions.contentonly, text: strings.WebPartModeContentOnly });
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getWebpartModePropertyPaneOptions) -- ${err} -- Error loading webpart mode property pane options.`, LogLevel.Error);
     }
@@ -517,26 +525,26 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
     this.render();
   }
 
-  private getCSSVariablesOnElement = (): {[key: string]: string} => {
-    const retVal: {[key: string]: string} = {};
-    try {
-      const styles: CSSStyleDeclaration = this.domElement.style;
+  // private getCSSVariablesOnElement = (): {[key: string]: string} => {
+  //   const retVal: {[key: string]: string} = {};
+  //   try {
+  //     const styles: CSSStyleDeclaration = this.domElement.style;
 
-      // request all key defined in theming
-      const themingKeys = Object.keys(styles);
-      // if we have the key
-      if (themingKeys !== null) {
-        // loop over it
-        themingKeys.forEach((key: string) => {          
-          retVal[styles[key]] = styles.getPropertyValue(styles[key]);
-        });
-      }
-    } catch (err) {
-      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getCSSVariablesOnElement) - ${err} -- Error getting styles`, LogLevel.Error);
-    }
+  //     // request all key defined in theming
+  //     const themingKeys = Object.keys(styles);
+  //     // if we have the key
+  //     if (themingKeys !== null) {
+  //       // loop over it
+  //       themingKeys.forEach((key: string) => {          
+  //         retVal[styles[key]] = styles.getPropertyValue(styles[key]);
+  //       });
+  //     }
+  //   } catch (err) {
+  //     Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getCSSVariablesOnElement) - ${err} -- Error getting styles`, LogLevel.Error);
+  //   }
 
-    return retVal;
-  }
+  //   return retVal;
+  // }
 
   protected getPropertyPaneConfiguration(): IPropertyPaneConfiguration {
     const configuration: IPropertyPaneConfiguration = {
@@ -561,6 +569,9 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
                   label: strings.WebpartModeLabel,
                   options: this._ppWebpartMode,
                   selectedKey: this.properties.webpartMode
+                }),
+                PropertyPaneToggle('alwaysShowSearch', {
+                  label: strings.AlwaysShowSearchLabel,                  
                 })
               ]
             }

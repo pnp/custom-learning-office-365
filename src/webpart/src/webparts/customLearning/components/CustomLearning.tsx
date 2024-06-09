@@ -8,33 +8,26 @@ import includes from "lodash-es/includes";
 import cloneDeep from "lodash-es/cloneDeep";
 import filter from "lodash-es/filter";
 import indexOf from "lodash-es/indexOf";
-import concat from "lodash-es/concat";
 import forEach from "lodash-es/forEach";
-import uniqBy from "lodash-es/uniqBy";
-import sortBy from "lodash-es/sortBy";
 import HOODialog from '@n8d/htwoo-react/HOODialog';
 import HOODialogHeader from '@n8d/htwoo-react/HOODialogHeader';
 import HOODialogContent from '@n8d/htwoo-react/HOODialogContent';
 import HOOLabel from '@n8d/htwoo-react/HOOLabel';
 
-
 import styles from "../../common/CustomLearningCommon.module.scss";
 import * as strings from "M365LPStrings";
 import { params } from "../../common/services/Parameters";
-import { IPlaylist, ICategory, IHistoryItem, HistoryItem, IAsset, IFilterValue, IFilter, FilterValue, Filter, ISearchResult, Playlist, IMultilingualString } from '../../common/models/Models';
-import { Templates, FilterTypes, WebpartMode, SearchFields } from '../../common/models/Enums';
+import { UXService } from '../../common/services/UXService';
+import { IPlaylist, ICategory, IHistoryItem, HistoryItem, IAsset, IFilterValue, IFilter, FilterValue, Filter, IMultilingualString } from '../../common/models/Models';
+import { Templates, FilterTypes, WebpartModeOptions } from '../../common/models/Enums';
 import Categories from './Organisms/Categories';
 import SubCategories from './Templates/SubCategories';
 import LearningHeader from './Templates/LearningHeader';
 import AssetView from './Atoms/AssetView';
 import PlaylistControl from "./Molecules/PlaylistControl";
-import { ICacheController } from '../../common/services/CacheController';
-
-
 
 export interface ICustomLearningProps {
   editMode: boolean;
-  webpartMode: string;
   startType: string;
   startLocation: string;
   startAsset: string;
@@ -42,9 +35,8 @@ export interface ICustomLearningProps {
   customSort: boolean;
   customSortOrder: string[];
   teamsEntityId: string;
-  cacheController: ICacheController;
   updateCustomSort: (customSortOrder: string[]) => void;
-  getCSSVariablesOnElement: () => { [key: string]: string; };
+  alwaysShowSearch: boolean;
 }
 
 export interface ICustomLearningState {
@@ -58,8 +50,6 @@ export interface ICustomLearningState {
   filterValue: IFilter;
   filterValues: IFilterValue[];
   url: string;
-  searchValue: string;
-  searchResults: ISearchResult[];
   renderPanel: boolean;
   fullSizeAsset: boolean;
 }
@@ -76,8 +66,6 @@ export class CustomLearningState implements ICustomLearningState {
     public filterValue: IFilter = new Filter(),
     public filterValues: IFilterValue[] = [],
     public url: string = "",
-    public searchValue: string = "",
-    public searchResults: ISearchResult[] = [],
     public renderPanel: boolean = false,
     public fullSizeAsset: boolean = false
   ) { }
@@ -93,15 +81,15 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
   constructor(props) {
     super(props);
     this.state = new CustomLearningState();
+    UXService.ShowSearchResults = this._loadSearchResultAsset;
     this.teamsContext = props.teamsEntityId && props.teamsEntityId.length > 0;
     // TODO double check the unfurling syntax for Teams V2
     if (this.teamsContext)
       this.teamsContextUrl = `https://teams.microsoft.com/l/entity/141d4ab7-b6ca-4bf4-ac59-25b7bf93642d/${props.teamsEntityId}?context={"subEntityId":`;
-
-    this.init();
+    this._init();
   }
 
-  private findParentCategory(id: string, categories: ICategory[], lastParent: ICategory[]): ICategory[] {
+  private _findParentCategory(id: string, categories: ICategory[], lastParent: ICategory[]): ICategory[] {
     const parent: ICategory[] = lastParent;
     try {
       for (let i = 0; i < categories.length; i++) {
@@ -121,13 +109,13 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
         }
       }
     } catch (err) {
-      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (findParentCategory) - ${err}`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_findParentCategory) - ${err}`, LogLevel.Error);
     }
     return parent;
   }
 
-  private init(): void {
-    if (this.props.webpartMode === WebpartMode.contentonly) { return; }
+  private _init(): void {
+    if (UXService.WebPartMode === WebpartModeOptions.contentonly) { return; }
     try {
       //If startLocation is specified then pin starting location as root menu item
       //else, pin 'Home' as root menu location
@@ -136,14 +124,14 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
         this.state.history.push(new HistoryItem("", strings.NavigationHome, ""));
       }
     } catch (err) {
-      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (init) - ${err}`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_init) - ${err}`, LogLevel.Error);
     }
   }
 
   public componentDidUpdate(): void {
     if (this._reInit) {
       this._reInit = false;
-      this.loadDetail(this.props.startType, this.props.startLocation, []);
+      this._loadDetail(this.props.startType, this.props.startLocation, []);
     }
   }
 
@@ -159,10 +147,10 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
   }
 
   public componentDidMount(): void {
-    this.loadDetail(this.props.startType, this.props.startLocation, this.state.history);
+    this._loadDetail(this.props.startType, this.props.startLocation, this.state.history);
   }
 
-  private getFilterValues(subcategory: ICategory): IFilterValue[] {
+  private _getFilterValues(subcategory: ICategory): IFilterValue[] {
     const filterValues: IFilterValue[] = [];
     try {
       let foundAudience = -1;
@@ -192,18 +180,18 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
 
       const subs: ICategory[] = (subcategory.SubCategories.length == 0) ? [subcategory] : subcategory.SubCategories;
       for (let i = 0; i < subs.length; i++) {
-        const pl = filter(this.props.cacheController.cacheConfig.CachedPlaylists, { CatId: subs[i].Id });
+        const pl = filter(UXService.CacheConfig.CachedPlaylists, { CatId: subs[i].Id });
         if (pl.length > 0)
           checkPlaylists(pl);
       }
     } catch (err) {
-      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getFilterValues) - ${err}`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_getFilterValues) - ${err}`, LogLevel.Error);
     }
 
     return filterValues;
   }
 
-  private filterPlaylists = (playlists: IPlaylist[], filterValue: IFilter): IPlaylist[] => {
+  private _filterPlaylists = (playlists: IPlaylist[], filterValue: IFilter): IPlaylist[] => {
     try {
       const filtered: IPlaylist[] = playlists.filter((pl) => {
         let retVal = true;
@@ -215,12 +203,12 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
       });
       return filtered;
     } catch (err) {
-      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (filterPlaylists) - ${err}`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_filterPlaylists) - ${err}`, LogLevel.Error);
       return [];
     }
   }
 
-  private applyCustomSort = (array: (ICategory[] | IPlaylist[])): (ICategory[] | IPlaylist[]) => {
+  private _applyCustomSort = (array: (ICategory[] | IPlaylist[])): (ICategory[] | IPlaylist[]) => {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const newArray: any = [];
     try {
@@ -244,13 +232,13 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
         newArray.push(item);
       });
     } catch (err) {
-      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (applyCustomSort) - ${err}`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_applyCustomSort) - ${err}`, LogLevel.Error);
       return array;
     }
     return newArray;
   }
 
-  public loadDetail = (template: string, templateId: string, history?: IHistoryItem[], filterValue?: IFilter, assetId?: string): void => {
+  private _loadDetail = (template: string, templateId: string, history?: IHistoryItem[], filterValue?: IFilter, assetId?: string): void => {
     try {
       if (!history) {
         history = cloneDeep(this.state.history);
@@ -268,18 +256,18 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
       let assets: IAsset[] = null;
       const currentAsset: IAsset = null;
       let filterValues: IFilterValue[] = cloneDeep(this.state.filterValues);
-      let url: string = `${params.baseViewerUrl}?cdn=${this.props.cacheController.CDN}`;
+      let url: string = `${params.baseViewerUrl}?cdn=${UXService.CDN}`;
       let teamsContext: string[] = [];
       if (this.teamsContext) {
         //url is for teams context
         url = this.teamsContextUrl;
-        teamsContext = ["", this.props.cacheController.CDN, "", "", "", ""];
+        teamsContext = ["", UXService.CDN, "", "", "", ""];
       }
       switch (template) {
         case Templates.Category:
-          detail = filter(this.props.cacheController.cacheConfig.Categories, { Id: templateId });
+          detail = filter(UXService.CacheConfig.Categories, { Id: templateId });
           if (this.props.customSort)
-            detail[0].SubCategories = this.applyCustomSort(detail[0].SubCategories) as ICategory[];
+            detail[0].SubCategories = this._applyCustomSort(detail[0].SubCategories) as ICategory[];
           history.push(new HistoryItem(detail[0].Id, detail[0].Name as string, template));
           if (detail.length === 1) {
             if (this.teamsContext) {
@@ -291,19 +279,19 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
           break;
         case Templates.SubCategory:
         case Templates.Playlists:
-          parent = this.findParentCategory(templateId, this.props.cacheController.cacheConfig.Categories, [])[0];
-          filterValues = this.getFilterValues(parent);
+          parent = this._findParentCategory(templateId, UXService.CacheConfig.Categories, [])[0];
+          filterValues = this._getFilterValues(parent);
           if (parent.SubCategories.length > 0) {
             template = Templates.SubCategory;
             detail = parent.SubCategories;
             if (this.props.customSort)
-              detail = this.applyCustomSort(detail) as ICategory[];
+              detail = this._applyCustomSort(detail) as ICategory[];
           } else {
             template = Templates.Playlists;
-            detail = filter(this.props.cacheController.cacheConfig.CachedPlaylists, { CatId: parent.Id });
-            detail = this.filterPlaylists(detail, filterValue);
+            detail = filter(UXService.CacheConfig.CachedPlaylists, { CatId: parent.Id });
+            detail = this._filterPlaylists(detail, filterValue);
             if (this.props.customSort)
-              detail = this.applyCustomSort(detail) as IPlaylist[];
+              detail = this._applyCustomSort(detail) as IPlaylist[];
           }
           if (updateHistory) {
             history.push(new HistoryItem(parent.Id, parent.Name as string, template));
@@ -315,7 +303,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
           }
           break;
         case Templates.Playlist:
-          detail = find(this.props.cacheController.cacheConfig.CachedPlaylists, { Id: templateId });
+          detail = find(UXService.CacheConfig.CachedPlaylists, { Id: templateId });
           history.push(new HistoryItem(detail.Id, (detail.Title instanceof Array) ? (detail.Title as IMultilingualString[])[0].Text : detail.Title as string, Templates.Playlist));
           if (this.teamsContext) {
             teamsContext[4] = detail.Id;
@@ -324,17 +312,17 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
           }
           assets = [];
           for (let i = 0; i < (detail as IPlaylist).Assets.length; i++) {
-            const pa = find(this.props.cacheController.cacheConfig.CachedAssets, { Id: (detail as IPlaylist).Assets[i] });
+            const pa = find(UXService.CacheConfig.CachedAssets, { Id: (detail as IPlaylist).Assets[i] });
             if (pa)
               assets.push(pa);
           }
           break;
         case Templates.Asset:
           assets = [];
-          assets.push(find(this.props.cacheController.cacheConfig.CachedAssets, { Id: templateId }));
+          assets.push(find(UXService.CacheConfig.CachedAssets, { Id: templateId }));
           break;
         default:
-          detail = this.props.cacheController.cacheConfig.Categories;
+          detail = UXService.CacheConfig.Categories;
           template = Templates.Category;
       }
 
@@ -369,10 +357,10 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
                 assetId = this.state.assets[0].Id;
               }
             }
-            this.selectAsset(assetId);
+            this._selectAsset(assetId);
           }
         } else if ((this.state.template === Templates.Asset) && (this.state.assets.length > 0)) {
-          this.selectAsset(templateId);
+          this._selectAsset(templateId);
         }
       });
     } catch (err) {
@@ -380,7 +368,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
     }
   }
 
-  private historyClick = (template: string, templateId: string, nav?: boolean): void => {
+  private _historyClick = (template: string, templateId: string, nav?: boolean): void => {
     try {
       let history = cloneDeep(this.state.history);
       if (nav) {
@@ -392,19 +380,19 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
           history.splice(idx, (history.length - idx));
         }
       }
-      this.loadDetail(template, templateId, history);
+      this._loadDetail(template, templateId, history);
     } catch (err) {
-      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (historyClick) - ${err}`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_historyClick) - ${err}`, LogLevel.Error);
     }
   }
 
-  private selectAsset = (assetId: string): void => {
+  private _selectAsset = (assetId: string): void => {
     try {
       const currentAsset = find(this.state.assets, { Id: assetId });
       if (!isEqual(currentAsset, this.state.currentAsset)) {
-        let url: string = `${params.baseViewerUrl}?cdn=${this.props.cacheController.CDN}`;
+        let url: string = `${params.baseViewerUrl}?cdn=${UXService.CDN}`;
         if (this.teamsContext) {
-          const teamsContext: string[] = ["", this.props.cacheController.CDN, "", "", (this.state.detail != null) ? (this.state.detail as IPlaylist).Id : "", currentAsset.Id];
+          const teamsContext: string[] = ["", UXService.CDN, "", "", (this.state.detail != null) ? (this.state.detail as IPlaylist).Id : "", currentAsset.Id];
           const subEntityId = teamsContext.join(":");
           url = `${this.teamsContextUrl}"${subEntityId}"}`;
           //encode teams subentity
@@ -426,11 +414,11 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
         });
       }
     } catch (err) {
-      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (selectAsset) - ${err}`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_selectAsset) - ${err}`, LogLevel.Error);
     }
   }
 
-  private setFilter = (newFilterValue: IFilterValue): void => {
+  private _setFilter = (newFilterValue: IFilterValue): void => {
     try {
       const filterValue: IFilter = cloneDeep(this.state.filterValue);
       let levelIdx = -1;
@@ -454,9 +442,9 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
           break;
       }
 
-      this.loadDetail(this.state.template, this.state.templateId, this.state.history, filterValue);
+      this._loadDetail(this.state.template, this.state.templateId, this.state.history, filterValue);
     } catch (err) {
-      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (setFilter) - ${err}`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_setFilter) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -464,141 +452,26 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
     window.open(params.baseAdminUrl, '_blank');
   }
 
-  private flattenCategory(category: ICategory[], array: ICategory[] = []): ICategory[] | ICategory[] {
-    let retArray: ICategory[] = array;
-    try {
-      category.forEach((c) => {
-        const item = cloneDeep(c);
-        item.SubCategories = [];
-        retArray.push(item);
-        if (c.SubCategories && c.SubCategories.length > 0) {
-          const sub = this.flattenCategory(c.SubCategories, retArray);
-          retArray = concat(retArray, sub);
-        }
-      });
-    } catch (err) {
-      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (flattenCategory) - ${err}`, LogLevel.Error);
-    }
-    return retArray;
-  }
-
-  private doSearch = (searchValue: string): void => {
-    try {
-      let searchResults: ISearchResult[] = [];
-      if (searchValue.length > 0) {
-        //Matching technologies and subjects
-        const technologies: string[] = [];
-        const subjects: string[] = [];
-        forEach(this.props.cacheController.cacheConfig.Technologies, (t) => {
-          if (t.Name.toLowerCase().indexOf(searchValue.toLowerCase()) > -1) {
-            technologies.push(t.Id);
-          }
-          if (t.Subjects.length > 0) {
-            forEach(t.Subjects, (s) => {
-              if (s.Name.toLowerCase().indexOf(searchValue.toLowerCase()) > -1) {
-                subjects.push(s.Id);
-              }
-            });
-          }
-        });
-
-        //Search Assets
-        //Filter Assets by matching technologies and subjects
-        let spAsset: IAsset[] = [];
-        const spAssetTech = filter(this.props.cacheController.cacheConfig.CachedAssets, o => {
-          return (includes(technologies, o.TechnologyId));
-        });
-        spAsset = concat(spAsset, spAssetTech);
-
-        const spAssetSub = filter(this.props.cacheController.cacheConfig.CachedAssets, o => {
-          return (includes(subjects, o.SubjectId));
-        });
-        spAsset = concat(spAsset, spAssetSub);
-        //Filter Assets by search fields
-        for (let i = 0; i < SearchFields.length; i++) {
-          const spField = filter(this.props.cacheController.cacheConfig.CachedAssets, o => {
-            if (o[SearchFields[i]] == undefined) return false;
-            return (o[SearchFields[i]].toLowerCase().indexOf(searchValue.toLowerCase()) > -1);
-          });
-          spAsset = concat(spAsset, spField);
-          const spAssetResults: ISearchResult[] = [];
-          spAsset.forEach((a) => {
-            const parent: IPlaylist[] = filter(this.props.cacheController.cacheConfig.CachedPlaylists, o => (o.Assets.indexOf(a.Id) > -1));
-            parent.forEach((pl) => {
-              const result: ISearchResult = { Result: a, Parent: pl, Type: Templates.Asset };
-              spAssetResults.push(result);
-            });
-          });
-          searchResults = concat(searchResults, spAssetResults);
-        }
-
-        //Search Playlists
-        let spPlay: IPlaylist[] = [];
-        const spPlayTech = filter(this.props.cacheController.cacheConfig.CachedPlaylists, o => {
-          return (includes(technologies, o.TechnologyId));
-        });
-        spPlay = concat(spPlay, spPlayTech);
-
-        const spPlaySub = filter(this.props.cacheController.cacheConfig.CachedPlaylists, o => {
-          return (includes(subjects, o.SubjectId));
-        });
-        spPlay = concat(spPlay, spPlaySub);
-        const flatSubCategories: ICategory[] = this.flattenCategory(this.props.cacheController.cacheConfig.Categories);
-        for (let i = 0; i < SearchFields.length; i++) {
-          const spField = filter(this.props.cacheController.cacheConfig.CachedPlaylists, o => {
-            if (o[SearchFields[i]] == undefined) return false;
-            return (o[SearchFields[i]].toLowerCase().indexOf(searchValue.toLowerCase()) > -1);
-          });
-          spPlay = concat(spPlay, spField);
-          const spPlayResults: ISearchResult[] = [];
-          spPlay.forEach((pl) => {
-            const parent: ICategory = find(flatSubCategories, { Id: pl.CatId });
-            if (parent) {
-              const result: ISearchResult = { Result: pl, Parent: parent, Type: Templates.Playlist };
-              spPlayResults.push(result);
-            }
-          });
-
-          searchResults = concat(searchResults, spPlayResults);
-        }
-        searchResults = uniqBy(searchResults, "Result.Id");
-        searchResults = sortBy(searchResults, "Result.Title");
-        if (searchResults.length === 0)
-          searchResults.push({ Result: new Playlist("0", strings.NoSearchResults), Parent: null, Type: null });
-      }
-      this.setState({
-        searchValue: searchValue,
-        searchResults: searchResults
-      });
-    } catch (err) {
-      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (doSearch) - ${err}`, LogLevel.Error);
-    }
-  }
-
-  private loadSearchResult = (subcategoryId: string, playlistId: string, assetId: string): void => {
+  private _loadSearchResultAsset = (subcategoryId: string, playlistId: string, assetId: string): void => {
     try {
       const history = cloneDeep(this.state.history);
       if (history.length > 1)
         history.splice(1);
       if (playlistId) {
-        this.loadDetail(Templates.Playlist, playlistId, history, undefined, assetId);
+        this._loadDetail(Templates.Playlist, playlistId, history, undefined, assetId);
       } else if (subcategoryId) {
-        this.loadDetail(Templates.SubCategory, subcategoryId, history);
+        this._loadDetail(Templates.SubCategory, subcategoryId, history);
       }
-      this.setState({
-        searchValue: "",
-        searchResults: []
-      });
     } catch (err) {
-      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (loadSearchResult) - ${err}`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_loadSearchResultAsset) - ${err}`, LogLevel.Error);
     }
   }
 
-  private doRenderPanel = (): void => {
+  private _doRenderPanel = (): void => {
     this.setState({ renderPanel: !this.state.renderPanel });
   }
 
-  private renderContainer(): (JSX.Element | null) {
+  private _renderContainer(): (JSX.Element | null) {
     let element: (JSX.Element | null) = null;
     try {
       switch (this.state.template) {
@@ -607,7 +480,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
             detail={this.state.detail as ICategory[]}
             editMode={this.props.editMode}
             customSort={this.props.customSort && (this.state.history.length == 1)}
-            selectItem={this.loadDetail}
+            selectItem={this._loadDetail}
             updateCustomSort={this.props.updateCustomSort}
           />;
           break;
@@ -621,8 +494,8 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
             filterValues={this.state.filterValues}
             editMode={this.props.editMode}
             customSort={this.props.customSort && (this.state.history.length == 1)}
-            selectItem={this.loadDetail}
-            setFilter={this.setFilter}
+            selectItem={this._loadDetail}
+            setFilter={this._setFilter}
             updateCustomSort={this.props.updateCustomSort}
           />;
           break;
@@ -633,8 +506,8 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
             playlistName={(this.state.detail) ? (this.state.detail as IPlaylist).Title as string : ""}
             asset={this.state.currentAsset}
             assets={this.state.assets}
-            assetOrigins={this.props.cacheController.cacheConfig.AssetOrigins}
-            selectAsset={this.selectAsset}
+            assetOrigins={UXService.CacheConfig.AssetOrigins}
+            selectAsset={this._selectAsset}
           />;
           break;
         default:
@@ -642,20 +515,20 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
             detail={this.state.detail as ICategory[]}
             editMode={this.props.editMode}
             customSort={this.props.customSort}
-            selectItem={this.loadDetail}
+            selectItem={this._loadDetail}
             updateCustomSort={this.props.updateCustomSort}
           />;
       }
     } catch (err) {
-      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (renderContainer) - ${err}`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_renderContainer) - ${err}`, LogLevel.Error);
     }
     return element;
   }
 
-  private renderPanel = (inPanel: boolean): (JSX.Element | null) => {
+  private _renderPanel = (inPanel: boolean): (JSX.Element | null) => {
     const element: (JSX.Element | null)[] = [];
     try {
-      if (!inPanel && (this.props.webpartMode === WebpartMode.contentonly) && (this.props.webpartTitle && this.props.webpartTitle.length > 0)) {
+      if (!inPanel && (UXService.WebPartMode === WebpartModeOptions.contentonly) && (this.props.webpartTitle && this.props.webpartTitle.length > 0)) {
         element.push(<h2 className={styles.title}>{this.props.webpartTitle}</h2>);
       }
       if (!inPanel) {
@@ -663,31 +536,29 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
           template={this.state.template}
           detail={((this.state.template === Templates.Playlist) ? this.state.detail : null) as IPlaylist}
           history={this.state.history}
-          historyClick={this.historyClick}
-          selectAsset={this.selectAsset}
+          historyClick={this._historyClick}
+          selectAsset={this._selectAsset}
           assets={this.state.assets}
           currentAsset={this.state.currentAsset}
           linkUrl={this.state.url}
           onAdminPlaylists={this.onAdminPlaylists}
-          doSearch={this.doSearch}
-          searchResults={this.state.searchResults}
-          loadSearchResult={this.loadSearchResult}
-          webpartMode={this.props.webpartMode}
+          //webpartMode={this.props.webpartMode}
           webpartTitle={this.props.webpartTitle}
+          alwaysShowSearch={this.props.alwaysShowSearch}
         />);
       }
       if ((this.state.template === Templates.Playlist)) {
         element.push(<PlaylistControl
           currentAsset={this.state.currentAsset}
           assets={this.state.assets}
-          selectAsset={this.selectAsset}
-          renderPanel={this.doRenderPanel}
+          selectAsset={this._selectAsset}
+          renderPanel={this._doRenderPanel}
         />);
       }
-      element.push(this.renderContainer());
+      element.push(this._renderContainer());
 
     } catch (err) {
-      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (renderPanel) - ${err}`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_renderPanel) - ${err}`, LogLevel.Error);
     }
 
     const mainElement = <div className={`${styles.customLearning} ${(params.appPartPage) ? styles.appPartPage : ""}`}>{element}</div>;
@@ -714,12 +585,12 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
                 title="Dialog Header" closeDisabled={false} />
               <HOODialogContent>
                 <HOOLabel label={(this.state.detail) ? (this.state.detail as IPlaylist).Title as string : ""} />
-                {this.renderPanel(true)}
+                {this._renderPanel(true)}
               </HOODialogContent>
             </HOODialog>
           }
           {!this.state.renderPanel &&
-            this.renderPanel(false)
+            this._renderPanel(false)
           }
         </>
       );

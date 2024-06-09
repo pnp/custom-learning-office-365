@@ -261,6 +261,7 @@ define([], (): IM365LPStrings => {
     M365Title: "Microsoft 365 learning pathways",
     ValidateBase: "The base url for the CDN must end in a (/).",
     CustomizeSort: "Customize Sort",
-    ResetSort: "Reset Sort"
+    ResetSort: "Reset Sort",
+    AlwaysShowSearchLabel: "Always Show Search Bar"
   };
 });

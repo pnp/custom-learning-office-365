@@ -7,6 +7,7 @@ import find from "lodash-es/find";
 import { spfi, SPFI, SPFx } from "@pnp/sp";
 import "@pnp/sp/site-users";
 import "@pnp/sp/features";
+import "@pnp/sp/webs";
 
 import * as strings from "M365LPStrings";
 import { ConfigService } from "./ConfigService";
