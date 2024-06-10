@@ -37,7 +37,7 @@ import mlpicons from "../../../../node_modules/learning-pathways-styleguide/sour
 import * as strings from "M365LPStrings";
 import ShimmerViewer from "../common/components/Atoms/ShimmerViewer";
 import { ICategory, IPlaylist } from "../common/models/Models";
-import { Templates, WebpartModeOptions, PropertyPaneFilters, ShimmerView } from "../common/models/Enums";
+import { Templates, WebPartModeOptions, PropertyPaneFilters, ShimmerView } from "../common/models/Enums";
 import CacheController, { ICacheController } from "../common/services/CacheController";
 import Error from "../common/components/Atoms/Error";
 
@@ -122,11 +122,11 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
 
       //If in Teams context get Query String Parameters from Teams Context
       if (this.context.sdks?.microsoftTeams){
-        this.getTeamsQueryString();
+        this._getTeamsQueryString();
         this._teamsContext = await this.context.sdks.microsoftTeams?.teamsJs.app.getContext();
       }
 
-      this.firstInit();
+      this._firstInit();
     } catch (err) {
       this._isReady = true;
       this._isError = true;
@@ -137,7 +137,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
 
   }
 
-  private getTeamsQueryString(): void {
+  private _getTeamsQueryString(): void {
     try {
       // Get configuration from the Teams SDK
       if (this._teamsContext != null) {
@@ -156,7 +156,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
     }
   }
 
-  private async firstInit(): Promise<void> {
+  private async _firstInit(): Promise<void> {
     try {
       let currentCdn = this._urlCDN;
       if (!currentCdn || currentCdn.length < 1) {
@@ -165,7 +165,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
         currentCdn = this.properties.defaultCDN;
       }
 
-      await this.configCDN(currentCdn);
+      await this._configCDN(currentCdn);
 
       if (this.context.propertyPane.isPropertyPaneOpen()){
         this.context.propertyPane.refresh();
@@ -192,7 +192,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
     this.render();
   }
 
-  private async configCDN(cdnId: string): Promise<boolean> {
+  private async _configCDN(cdnId: string): Promise<boolean> {
     let retVal = false;
     try {
       this._cacheController = CacheController.getInstance(cdnId);
@@ -318,7 +318,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
           customSort: this.properties.customSort ? this.properties.customSort : false,
           customSortOrder: this.properties.customSortOrder,
           teamsEntityId: this._teamsContext?.page?.subPageId ?? '',
-          updateCustomSort: this.updateCustomSort,
+          updateCustomSort: this._updateCustomSort,
           alwaysShowSearch: this.properties.alwaysShowSearch || false,
         };
 
@@ -360,16 +360,16 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
       return;
     }
 
-    this.getDefaultCDNPropertyPaneOptions();
-    this.getWebpartModePropertyPaneOptions();
-    this.getCategoryPropertyPaneOptions();
-    this.getSubCategoryPropertyPaneOptions();
-    this.getPlaylistPropertyPaneOptions();
-    this.getDefaultFilterPropertyPaneOptions();
+    this._getDefaultCDNPropertyPaneOptions();
+    this._getWebpartModePropertyPaneOptions();
+    this._getCategoryPropertyPaneOptions();
+    this._getSubCategoryPropertyPaneOptions();
+    this._getPlaylistPropertyPaneOptions();
+    this._getDefaultFilterPropertyPaneOptions();
     this.context.propertyPane.refresh();
   }
 
-  private getDefaultCDNPropertyPaneOptions(): void {
+  private _getDefaultCDNPropertyPaneOptions(): void {
     const options: IPropertyPaneDropdownOption[] = [];
     try {
       if (params.allCdn && params.allCdn.length > 0) {
@@ -385,18 +385,18 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
     this._ppDefaultCDN = options;
   }
 
-  private getWebpartModePropertyPaneOptions(): void {
+  private _getWebpartModePropertyPaneOptions(): void {
     const options: IPropertyPaneDropdownOption[] = [];
     try {
-      options.push({ key: WebpartModeOptions.full, text: strings.WebPartModeFull });
-      options.push({ key: WebpartModeOptions.contentonly, text: strings.WebPartModeContentOnly });
+      options.push({ key: WebPartModeOptions.full, text: strings.WebPartModeFull });
+      options.push({ key: WebPartModeOptions.contentonly, text: strings.WebPartModeContentOnly });
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getWebpartModePropertyPaneOptions) -- ${err} -- Error loading webpart mode property pane options.`, LogLevel.Error);
     }
     this._ppWebpartMode = options;
   }
 
-  private getDefaultFilterPropertyPaneOptions(): void {
+  private _getDefaultFilterPropertyPaneOptions(): void {
     const options: IPropertyPaneDropdownOption[] = [];
     try {
       options.push({ key: "", text: strings.PropertyPaneNone });
@@ -409,7 +409,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
     this._ppFilters = options;
   }
 
-  private getCategoryPropertyPaneOptions(): void {
+  private _getCategoryPropertyPaneOptions(): void {
     let options: IPropertyPaneDropdownOption[] = [];
     options.push({ key: "", text: strings.PropertyPaneNone });
     if (this._validConfig) {
@@ -428,7 +428,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
     this._ppCategory = options;
   }
 
-  private getSubCategoryPropertyPaneOptions(): void {
+  private _getSubCategoryPropertyPaneOptions(): void {
     const options: IPropertyPaneDropdownOption[] = [];
     options.push({ key: "", text: strings.PropertyPaneNone });
     if (this._validConfig) {
@@ -454,7 +454,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
     this._ppSubCategory = options;
   }
 
-  private getPlaylistPropertyPaneOptions(): void {
+  private _getPlaylistPropertyPaneOptions(): void {
     let options: IPropertyPaneDropdownOption[] = [];
     options.push({ key: "", text: strings.PropertyPaneNone });
     if (this._validConfig) {
@@ -500,7 +500,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
     this._ppPlaylist = options;
   }
 
-  public loadPlayListAssets = (templateId: string): void => {
+  public _loadPlayListAssets = (templateId: string): void => {
     const options: IPropertyPaneDropdownOption[] = [];
     if (this._validConfig) {
       try {
@@ -521,12 +521,12 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
     this._ppAssets = options;
   }
 
-  private updateCustomSort = (customSortOrder: string[]): void => {
+  private _updateCustomSort = (customSortOrder: string[]): void => {
     this.properties.customSortOrder = customSortOrder;
     this.render();
   }
 
-  private resetCustomSortOrder = (): void => {
+  private _resetCustomSortOrder = (): void => {
     this.properties.customSortOrder = [];
     this.render();
   }
@@ -592,7 +592,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
           break;
         case PropertyPaneFilters.playlist:
           if (this.properties.defaultPlaylist && this.properties.defaultPlaylist != "") {
-            this.loadPlayListAssets(this.properties.defaultPlaylist);
+            this._loadPlayListAssets(this.properties.defaultPlaylist);
           }
           displayFilter = PropertyPaneDropdown('defaultPlaylist', {
             label: strings.DefaultPlaylistLabel,
@@ -622,7 +622,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
         configuration.pages[0].groups[0]["groupFields"].push(PropertyPaneButton('resetSortOrder', {
           text: strings.ResetSort,
           buttonType: PropertyPaneButtonType.Primary,
-          onClick: this.resetCustomSortOrder
+          onClick: this._resetCustomSortOrder
         })
         );
       }
@@ -647,12 +647,12 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
         if (propertyPath === 'defaultCDN') {
           this._isReady = false;
           this.render();
-          await this.configCDN(newValue);
+          await this._configCDN(newValue);
           this._isReady = true;
           this.properties.defaultFilter = "";
-          this.getCategoryPropertyPaneOptions();
-          this.getSubCategoryPropertyPaneOptions();
-          this.getPlaylistPropertyPaneOptions();
+          this._getCategoryPropertyPaneOptions();
+          this._getSubCategoryPropertyPaneOptions();
+          this._getPlaylistPropertyPaneOptions();
           this.render();
         }
         this.context.propertyPane.refresh();
@@ -660,7 +660,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
         super.onPropertyPaneFieldChanged(propertyPath, oldValue, newValue);
         this.properties.customSort = false;
         this.properties.customSortOrder = [];
-        this.loadPlayListAssets(newValue);
+        this._loadPlayListAssets(newValue);
       } else if (propertyPath === 'customSort' || propertyPath === "defaultCategory" || propertyPath === "defaultSubCategory") {
         super.onPropertyPaneFieldChanged(propertyPath, oldValue, newValue);
         this.properties.customSortOrder = [];

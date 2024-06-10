@@ -18,7 +18,7 @@ import styles from "../../common/CustomLearningCommon.module.scss";
 import * as strings from "M365LPStrings";
 import { params } from "../../common/services/Parameters";
 import { IPlaylist, ICategory, IHistoryItem, HistoryItem, IAsset, IFilterValue, IFilter, FilterValue, Filter, IMultilingualString } from '../../common/models/Models';
-import { Templates, FilterTypes, WebpartModeOptions } from '../../common/models/Enums';
+import { Templates, FilterTypes, WebPartModeOptions } from '../../common/models/Enums';
 import Categories from './Organisms/Categories';
 import SubCategories from './Templates/SubCategories';
 import LearningHeader from './Templates/LearningHeader';
@@ -91,9 +91,41 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
   }
 
   public componentDidMount(): void {
-    this._uxService = this.context;
     this._init();
     this._loadDetail(this.props.startType, this.props.startLocation, this.state.history);
+  }
+  
+  public componentDidUpdate(): void {
+    if (this._reInit) {
+      this._reInit = false;
+      this._loadDetail(this.props.startType, this.props.startLocation, []);
+    }
+  }
+
+  private _init(): void {    
+    this._uxService.ShowSearchResults = this._loadSearchResultAsset;
+    if (this._uxService.WebPartMode === WebPartModeOptions.contentonly) { return; }
+    try {
+      //If startLocation is specified then pin starting location as root menu item
+      //else, pin 'Home' as root menu location
+      if (this.props.startLocation.length < 1) {
+        //During constructor, update state directly.
+        this.state.history.push(new HistoryItem("", strings.NavigationHome, ""));
+      }
+    } catch (err) {
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_init) - ${err}`, LogLevel.Error);
+    }
+  }
+
+  public shouldComponentUpdate(nextProps: Readonly<ICustomLearningProps>, nextState: Readonly<ICustomLearningState>): boolean {
+    if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
+      return false;
+    if (this.props.startType != nextProps.startType ||
+      this.props.startLocation != nextProps.startLocation ||
+      this.props.customSort != nextProps.customSort ||
+      !isEqual(nextProps.customSortOrder, this.props.customSortOrder))
+      this._reInit = true;
+    return true;
   }
 
   private _findParentCategory(id: string, categories: ICategory[], lastParent: ICategory[]): ICategory[] {
@@ -119,39 +151,6 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_findParentCategory) - ${err}`, LogLevel.Error);
     }
     return parent;
-  }
-
-  private _init(): void {    
-    this._uxService.ShowSearchResults = this._loadSearchResultAsset;
-    if (this._uxService.WebPartMode === WebpartModeOptions.contentonly) { return; }
-    try {
-      //If startLocation is specified then pin starting location as root menu item
-      //else, pin 'Home' as root menu location
-      if (this.props.startLocation.length < 1) {
-        //During constructor, update state directly.
-        this.state.history.push(new HistoryItem("", strings.NavigationHome, ""));
-      }
-    } catch (err) {
-      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_init) - ${err}`, LogLevel.Error);
-    }
-  }
-
-  public componentDidUpdate(): void {
-    if (this._reInit) {
-      this._reInit = false;
-      this._loadDetail(this.props.startType, this.props.startLocation, []);
-    }
-  }
-
-  public shouldComponentUpdate(nextProps: Readonly<ICustomLearningProps>, nextState: Readonly<ICustomLearningState>): boolean {
-    if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
-      return false;
-    if (this.props.startType != nextProps.startType ||
-      this.props.startLocation != nextProps.startLocation ||
-      this.props.customSort != nextProps.customSort ||
-      !isEqual(nextProps.customSortOrder, this.props.customSortOrder))
-      this._reInit = true;
-    return true;
   }
 
   private _getFilterValues(subcategory: ICategory): IFilterValue[] {
@@ -532,7 +531,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
   private _renderPanel = (inPanel: boolean): (JSX.Element | null) => {
     const element: (JSX.Element | null)[] = [];
     try {
-      if (!inPanel && (this._uxService.WebPartMode === WebpartModeOptions.contentonly) && (this.props.webpartTitle && this.props.webpartTitle.length > 0)) {
+      if (!inPanel && (this._uxService.WebPartMode === WebPartModeOptions.contentonly) && (this.props.webpartTitle && this.props.webpartTitle.length > 0)) {
         element.push(<h2 className={styles.title}>{this.props.webpartTitle}</h2>);
       }
       if (!inPanel) {
@@ -570,14 +569,13 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
   }
 
   public render(): React.ReactElement<ICustomLearningProps> {
-    console.debug('Windows', window);
+    if(this._uxService === undefined) {this._uxService = this.context; }
     if (!this.state.template) return null;
     try {
       //TODO Check to see if this needs the styles added back in
       return (
         <>
           {this.state.renderPanel &&
-
             <HOODialog
               changeVisibility={() => { this.setState({ renderPanel: !this.state.renderPanel }); }}
               type={8} visible={false}

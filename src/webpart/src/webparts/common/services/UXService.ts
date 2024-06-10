@@ -3,7 +3,7 @@ import { Logger, LogLevel } from '@pnp/logging';
 import includes from "lodash-es/includes";
 import uniqBy from "lodash-es/uniqBy";
 import { IAsset, ICacheConfig, ICategory, IPlaylist, ISearchResult, Playlist } from "../models/Models";
-import { SearchFields, Templates, WebpartModeOptions } from "../models/Enums";
+import { SearchFields, Templates, WebPartModeOptions } from "../models/Enums";
 import * as strings from 'M365LPStrings';
 import sortBy from 'lodash-es/sortBy';
 import find from 'lodash-es/find';
@@ -25,7 +25,7 @@ export class UXService implements IUXService {
   private LOG_SOURCE = "🟢UXService";
   private _ready: boolean = false;
   private _cacheController: ICacheController;
-  private _webPartMode: string = WebpartModeOptions.full;
+  private _webPartMode: string = WebPartModeOptions.full;
   private _funcShowSearchResults: (subcategoryId: string, playlistId: string, assetId: string) => void = null;
 
   public constructor() { }

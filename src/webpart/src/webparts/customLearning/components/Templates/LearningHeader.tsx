@@ -4,7 +4,7 @@ import { Logger, LogLevel } from '@pnp/logging';
 import cloneDeep from "lodash-es/cloneDeep";
 
 import { IPlaylist, IHistoryItem, IAsset } from '../../../common/models/Models';
-import { WebpartModeOptions } from '../../../common/models/Enums';
+import { WebPartModeOptions } from '../../../common/models/Enums';
 import { UXServiceContext } from '../../../common/services/UXService';
 import HeaderToolbar from "../Atoms/HeaderToolbar";
 import HeaderPanel from "../Organisms/HeaderPanel";
@@ -41,12 +41,8 @@ export default class LearningHeader extends React.PureComponent<ILearningHeaderP
 
   constructor(props) {
     super(props);
-    const panelOpen = (props.webpartMode === WebpartModeOptions.searchonly) ? "Search" : "";
+    const panelOpen = (props.webpartMode === WebPartModeOptions.searchonly) ? "Search" : "";
     this.state = new LearningHeaderState(panelOpen);
-  }
-
-  public componentDidMount(): void {
-    this._uxService = this.context;
   }
 
   private buttonClick = (buttonType: string): void => {
@@ -70,6 +66,7 @@ export default class LearningHeader extends React.PureComponent<ILearningHeaderP
   }
 
   public render(): React.ReactElement<ILearningHeaderProps> {
+    if (this._uxService == undefined) { this._uxService = this.context; }
     try {
       return (
         <div data-component={this.LOG_SOURCE} className="learningheader">
@@ -80,10 +77,10 @@ export default class LearningHeader extends React.PureComponent<ILearningHeaderP
             buttonClick={this.buttonClick}
             panelOpen={this.state.panelOpen}
           />
-          {(this._uxService.WebPartMode !== WebpartModeOptions.contentonly || this.props.alwaysShowSearch) &&
+          {(this._uxService.WebPartMode !== WebPartModeOptions.contentonly || this.props.alwaysShowSearch) &&
             <HeaderPanel
               panelOpen={this.state.panelOpen}
-              closePanel={() => {this.setState({ panelOpen: "" });}}
+              closePanel={() => { this.setState({ panelOpen: "" }); }}
               linkUrl={this.props.linkUrl}
               alwaysShowSearch={this.props.alwaysShowSearch}
             />

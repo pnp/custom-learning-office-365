@@ -7,7 +7,7 @@ import HOOBreadcrumb, { IHOOBreadcrumbItem } from "@n8d/htwoo-react/HOOBreadcrum
 
 import { params } from "../../../common/services/Parameters";
 import { IHistoryItem } from "../../../common/models/Models";
-import { Templates, Roles, WebpartModeOptions } from "../../../common/models/Enums";
+import { Templates, Roles, WebPartModeOptions } from "../../../common/models/Enums";
 import { UXServiceContext } from '../../../common/services/UXService';
 
 export interface IHeaderToolbarProps {
@@ -39,10 +39,6 @@ export default class HeaderToolbar extends React.PureComponent<IHeaderToolbarPro
     this.state = new HeaderToolbarState();
   }
 
-  public componentDidMount(): void {
-    this._uxService = this.context;
-  }
-
   private onBreadcrumbItemClicked = (event: React.MouseEvent, key: string | number): void => {
     try {
       const history = find(this.props.history, { Id: key });
@@ -55,6 +51,7 @@ export default class HeaderToolbar extends React.PureComponent<IHeaderToolbarPro
   }
 
   public render(): React.ReactElement<IHeaderToolbarProps> {
+    if (this._uxService == undefined) { this._uxService = this.context; }
     try {
       let sectionClass = false;
 
@@ -88,7 +85,7 @@ export default class HeaderToolbar extends React.PureComponent<IHeaderToolbarPro
       }
       return (
         <div data-component={this.LOG_SOURCE} className="header-toolbar" ref={this._HeaderToolbar}>
-          {((this._uxService.WebPartMode !== WebpartModeOptions.contentonly) || ((this._uxService.WebPartMode === WebpartModeOptions.contentonly) && (breadcrumbItems.length > 1))) &&
+          {((this._uxService.WebPartMode !== WebPartModeOptions.contentonly) || ((this._uxService.WebPartMode === WebPartModeOptions.contentonly) && (breadcrumbItems.length > 1))) &&
             <div className="header-breadcrumb">
               <HOOBreadcrumb
                 breadcrumbItems={breadcrumbItems}
@@ -98,7 +95,7 @@ export default class HeaderToolbar extends React.PureComponent<IHeaderToolbarPro
               />
             </div>
           }
-          {(this._uxService.WebPartMode !== WebpartModeOptions.contentonly) &&
+          {(this._uxService.WebPartMode !== WebPartModeOptions.contentonly) &&
             <div className="header-actions">
               <HOOButton type={HOOButtonType.Icon} iconName="icon-search-regular"
                 rootElementAttributes={{ className: (this.props.panelOpen === "Search") ? "selected" : "" }}

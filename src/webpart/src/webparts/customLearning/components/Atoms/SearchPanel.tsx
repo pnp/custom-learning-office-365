@@ -29,7 +29,7 @@ export class SearchPanelState implements ISearchPanelState {
 
 export default class SearchPanel extends React.PureComponent<ISearchPanelProps, ISearchPanelState> {
   static contextType = UXServiceContext;
-  
+
   private LOG_SOURCE: string = "SearchPanel";
   private _uxService: React.ContextType<typeof UXServiceContext>;
   private _timeOutId: NodeJS.Timeout;
@@ -38,10 +38,6 @@ export default class SearchPanel extends React.PureComponent<ISearchPanelProps, 
   constructor(props) {
     super(props);
     this.state = new SearchPanelState();
-  }
-  
-  public componentDidMount(): void {
-    this._uxService = this.context;
   }
 
   private _debounceTypeahead = (fn: () => void, delay: number): void => {
@@ -90,6 +86,7 @@ export default class SearchPanel extends React.PureComponent<ISearchPanelProps, 
   }
 
   public render(): React.ReactElement<ISearchPanelProps> {
+    if (this._uxService == undefined) { this._uxService = this.context; }
     try {
       return (
         <div data-component={this.LOG_SOURCE} className={`headerpanel fbcolumn ${(this.props.panelOpen) ? "show" : ""}`}>
