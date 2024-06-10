@@ -3,7 +3,7 @@ import { Logger, LogLevel } from '@pnp/logging';
 
 import cloneDeep from "lodash-es/cloneDeep";
 
-import { IPlaylist, IHistoryItem, IAsset } from '../../../common/models/Models';
+import { IPlaylist, IAsset } from '../../../common/models/Models';
 import { WebPartModeOptions } from '../../../common/models/Enums';
 import { UXServiceContext } from '../../../common/services/UXService';
 import HeaderToolbar from "../Atoms/HeaderToolbar";
@@ -12,8 +12,6 @@ import HeaderPanel from "../Organisms/HeaderPanel";
 export interface ILearningHeaderProps {
   template: string;
   detail: IPlaylist;
-  history: IHistoryItem[];
-  historyClick: (template: string, templateId: string, nav: boolean) => void;
   selectAsset: (assetId: string) => void;
   assets: IAsset[];
   currentAsset: IAsset;
@@ -72,8 +70,6 @@ export default class LearningHeader extends React.PureComponent<ILearningHeaderP
         <div data-component={this.LOG_SOURCE} className="learningheader">
           <HeaderToolbar
             template={this.props.template}
-            history={this.props.history}
-            historyClick={this.props.historyClick}
             buttonClick={this.buttonClick}
             panelOpen={this.state.panelOpen}
           />

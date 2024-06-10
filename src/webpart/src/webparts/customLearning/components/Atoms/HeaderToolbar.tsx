@@ -1,19 +1,15 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
-import find from "lodash-es/find";
 import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
-import HOOBreadcrumb, { IHOOBreadcrumbItem } from "@n8d/htwoo-react/HOOBreadcrumb";
+import HOOBreadcrumb, { HOOBreadcrumbType, IHOOBreadcrumbItem } from "@n8d/htwoo-react/HOOBreadcrumb";
 
 import { params } from "../../../common/services/Parameters";
-import { IHistoryItem } from "../../../common/models/Models";
 import { Templates, Roles, WebPartModeOptions } from "../../../common/models/Enums";
 import { UXServiceContext } from '../../../common/services/UXService';
 
 export interface IHeaderToolbarProps {
   template: string;
-  history: IHistoryItem[];
-  historyClick: (template: string, templateId: string, nav: boolean) => void;
   buttonClick: (buttonType: string) => void;
   panelOpen: string;
 }
@@ -41,10 +37,10 @@ export default class HeaderToolbar extends React.PureComponent<IHeaderToolbarPro
 
   private onBreadcrumbItemClicked = (event: React.MouseEvent, key: string | number): void => {
     try {
-      const history = find(this.props.history, { Id: key });
-      console.log(history);
-      //TODO fix this
-      //this.props.historyClick(history.Template, history.Id, true);
+      const historyIdx = this._uxService.History.findIndex((o) => { return o.Id === key; });
+      if (historyIdx > -1) {
+        this._uxService.LoadHistory(historyIdx, this._uxService.History[historyIdx].Template, this._uxService.History[historyIdx].Id, true);
+      }
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (onBreadcrumbItemClicked) - ${err}`, LogLevel.Error);
     }
@@ -67,18 +63,15 @@ export default class HeaderToolbar extends React.PureComponent<IHeaderToolbarPro
       }
 
       let breadcrumbItems: IHOOBreadcrumbItem[] = [];
-      if (this.props.history && this.props.history.length > 0) {
+      if (this._uxService.History && this._uxService.History.length > 0) {
         if (this._breadcrumbMax) {
-          if (this.props.history.length > 1) {
-            //breadcrumbItems = [{ text: "...", key: this.props.history[this.props.history.length - 2].Id, onClick: this.onBreadcrumbItemClicked }];
-            breadcrumbItems = [{ text: "...", key: this.props.history[this.props.history.length - 2].Id }]
-            //breadcrumbItems.push({ text: this.props.history[this.props.history.length - 1].Name, key: this.props.history[this.props.history.length - 1].Id, onClick: this.onBreadcrumbItemClicked });
+          if (this._uxService.History.length > 1) {
+            breadcrumbItems = [{ text: "...", key: this._uxService.History[this._uxService.History.length - 2].Id }]
           } else {
-            //breadcrumbItems = [{ text: this.props.history[0].Name, key: this.props.history[0].Id, onClick: this.onBreadcrumbItemClicked }];
-            breadcrumbItems = [{ text: this.props.history[0].Name, key: this.props.history[0].Id }]
+            breadcrumbItems = [{ text: this._uxService.History[0].Name, key: this._uxService.History[0].Id }]
           }
         } else {
-          breadcrumbItems = this.props.history.map((history) => {
+          breadcrumbItems = this._uxService.History.map((history) => {
             return { text: history.Name, key: history.Id };
           });
         }
@@ -91,7 +84,7 @@ export default class HeaderToolbar extends React.PureComponent<IHeaderToolbarPro
                 breadcrumbItems={breadcrumbItems}
                 onBreadcrumbClick={this.onBreadcrumbItemClicked}
                 seperatorIconName="icon-chevron-right-filled"
-                type={1}
+                type={HOOBreadcrumbType.Button}
               />
             </div>
           }

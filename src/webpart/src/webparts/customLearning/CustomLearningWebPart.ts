@@ -168,6 +168,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
       await this._configCDN(currentCdn);
 
       if (this.context.propertyPane.isPropertyPaneOpen()){
+        this.onPropertyPaneConfigurationStart();
         this.context.propertyPane.refresh();
       }
 
