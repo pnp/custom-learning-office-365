@@ -42,14 +42,14 @@ export default class CdnEdit extends React.Component<ICdnEditProps, ICdnEditStat
     this.state = new CdnEditState(cdn);
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<ICdnEditProps>, nextState: Readonly<ICdnEditState>) {
+  public shouldComponentUpdate(nextProps: Readonly<ICdnEditProps>, nextState: Readonly<ICdnEditState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     return true;
   }
 
   private changeValue = (key: string, value: string): void => {
-    let cdn = cloneDeep(this.state.cdn);
+    const cdn = cloneDeep(this.state.cdn);
     cdn[key] = (key === "Name") ? value : value.trim();
     this.setState({
       cdn: cdn,
@@ -83,20 +83,20 @@ export default class CdnEdit extends React.Component<ICdnEditProps, ICdnEditStat
     try {
       return (
         <>
-          <HOOLabel label={strings.AdminCdnIdLabel} for={strings.AdminCdnIdLabel} required={true}></HOOLabel>
+          <HOOLabel label={strings.AdminCdnIdLabel} for={strings.AdminCdnIdLabel} required={true} />
           <HOOText
             forId={strings.AdminCdnIdLabel}
             onChange={(ev) => { this.changeValue("Id", ev.currentTarget.value); }}
             value={this.state.cdn.Id}
           />
-          <HOOLabel label={strings.AdminCdnDisplayName} for={strings.AdminCdnDisplayName}></HOOLabel>
+          <HOOLabel label={strings.AdminCdnDisplayName} for={strings.AdminCdnDisplayName} />
           <HOOText
             forId={strings.AdminCdnDisplayName}
             onChange={(ev) => { this.changeValue("Name", ev.currentTarget.value); }}
             value={this.state.cdn.Name}
           />
 
-          <HOOLabel label={strings.AdminCdnBaseUrl} for={strings.AdminCdnBaseUrl} required={true}></HOOLabel>
+          <HOOLabel label={strings.AdminCdnBaseUrl} for={strings.AdminCdnBaseUrl} required={true} />
           {/* TODO add validation this.validateBase this.validateBase */}
           <HOOText
             forId={strings.AdminCdnBaseUrl}

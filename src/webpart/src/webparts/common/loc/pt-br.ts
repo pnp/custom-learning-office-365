@@ -1,5 +1,3 @@
-declare var define: any;
-
 define([], (): IM365LPStrings => {
   return {
     WebpartTitleLabel: "Título da Web Part (modo somente conteúdo)",
@@ -260,6 +258,7 @@ define([], (): IM365LPStrings => {
     M365Title: "Caminhos de aprendizado do Microsoft 365",
     ValidateBase: "The base url for the CDN must end in a (/).",
     CustomizeSort: "Customize Sort",
-    ResetSort: "Reset Sort"
+    ResetSort: "Reset Sort",
+    AlwaysShowSearchLabel: "Mostrar sempre a barra de pesquisa"
   };
 });

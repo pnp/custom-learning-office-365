@@ -42,7 +42,7 @@ export default class ContentPack extends React.Component<IContentPackProps, ICon
     this.state = new ContentPackState();
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<IContentPackProps>, nextState: Readonly<IContentPackState>) {
+  public shouldComponentUpdate(nextProps: Readonly<IContentPackProps>, nextState: Readonly<IContentPackState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     return true;
@@ -54,7 +54,7 @@ export default class ContentPack extends React.Component<IContentPackProps, ICon
         addCustomCdn: true
       });
     } else {
-      let cp = find(params.contentPacks, { Id: Id });
+      const cp = find(params.contentPacks, { Id: Id });
       if (cp) {
         if (cp.ProvisionUrl.length > 0) {
           //open content pack in new window
@@ -66,7 +66,7 @@ export default class ContentPack extends React.Component<IContentPackProps, ICon
           });
         } else {
           //content pack has no provisioning step, add it
-          let cdn: ICDN = new CDN(cp.Id, cp.Name, cp.CdnBase);
+          const cdn: ICDN = new CDN(cp.Id, cp.Name, cp.CdnBase);
           await this.props.addCdn(cdn);
           this.setState({
             confirmContentPack: false,
@@ -77,10 +77,10 @@ export default class ContentPack extends React.Component<IContentPackProps, ICon
     }
   }
 
-  private confirmContentPack = async () => {
+  private confirmContentPack = async (): Promise<void> => {
     if (this.state.deployContentPack) {
       //Add content pack cdn to custom content packs
-      let cdn: ICDN = new CDN(this.state.deployContentPack.Id, this.state.deployContentPack.Name, this.state.deployContentPack.CdnBase);
+      const cdn: ICDN = new CDN(this.state.deployContentPack.Id, this.state.deployContentPack.Name, this.state.deployContentPack.CdnBase);
       await this.props.addCdn(cdn);
       this.setState({
         confirmContentPack: false,
@@ -89,7 +89,7 @@ export default class ContentPack extends React.Component<IContentPackProps, ICon
     }
   }
 
-  private cancelContentPack = () => {
+  private cancelContentPack = (): void => {
     this.setState({
       confirmContentPack: false,
       deployContentPack: null
@@ -103,7 +103,7 @@ export default class ContentPack extends React.Component<IContentPackProps, ICon
     });
   }
 
-  private cancelAddCdn = () => {
+  private cancelAddCdn = (): void => {
     this.setState({
       addCustomCdn: false
     });
@@ -128,9 +128,10 @@ export default class ContentPack extends React.Component<IContentPackProps, ICon
                 description={strings.AdminCustomCdnDescription}
                 onClick={() => this.addCdn("new")}
               />
-              {params.contentPacks && params.contentPacks.length > 0 && params.contentPacks.map((cp) => {
+              {params.contentPacks && params.contentPacks.length > 0 && params.contentPacks.map((cp, idx) => {
                 return (
                   <ContentPackItem
+                    key={idx}
                     imageSource={cp.Image}
                     title={cp.Name}
                     description={cp.Description}

@@ -7,9 +7,6 @@ import HOOButton from "@n8d/htwoo-react/HOOButton";
 
 import * as strings from "M365LPStrings";
 
-
-
-
 export interface IAssetDetailsCommandsProps {
   assetIndex: number;
   assetTotal: number;
@@ -38,7 +35,7 @@ export default class AssetDetailsCommands extends React.Component<IAssetDetailsC
     this.state = new AssetDetailsCommandsState();
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<IAssetDetailsCommandsProps>, nextState: Readonly<IAssetDetailsCommandsState>) {
+  public shouldComponentUpdate(nextProps: Readonly<IAssetDetailsCommandsProps>, nextState: Readonly<IAssetDetailsCommandsState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     return true;
@@ -46,7 +43,7 @@ export default class AssetDetailsCommands extends React.Component<IAssetDetailsC
 
   public render(): React.ReactElement<IAssetDetailsCommandsProps> {
     try {
-      let iconName = (this.props.editDisabled) ? "" : "icon-person-available-regular";
+      const iconName = (this.props.editDisabled) ? "" : "icon-person-available-regular";
       return (
         <div className="pl-edit-item">
           <HOOAction
@@ -63,9 +60,7 @@ export default class AssetDetailsCommands extends React.Component<IAssetDetailsC
                 label={strings.MoveUpButton}
                 disabled={(this.props.assetIndex === 0)}
                 onClick={() => this.props.moveUp()}
-                reactKey={'moveUp'}
-              >
-              </HOOButton>
+                reactKey={'moveUp'}/>
             </li>
             <li>
               <HOOButton

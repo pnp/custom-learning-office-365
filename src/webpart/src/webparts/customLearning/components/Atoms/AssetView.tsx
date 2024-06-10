@@ -8,6 +8,7 @@ import { IAsset } from '../../../common/models/Models';
 import styles from "../../../common/CustomLearningCommon.module.scss";
 import { CustomWebpartSource } from '../../../common/models/Enums';
 import { AppInsightsService } from '../../../common/services/AppInsightsService';
+import { WebhookService } from '../../../common/services/WebhookService';
 
 export interface IAssetViewProps {
   playlistId: string;
@@ -49,7 +50,7 @@ export default class AssetView extends React.Component<IAssetViewProps, IAssetVi
     this._IFrameCont = React.createRef();
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<IAssetViewProps>, nextState: Readonly<IAssetViewState>) {
+  public shouldComponentUpdate(nextProps: Readonly<IAssetViewProps>, nextState: Readonly<IAssetViewState>): boolean {
     try {
       if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
         return false;
@@ -57,7 +58,7 @@ export default class AssetView extends React.Component<IAssetViewProps, IAssetVi
         return false;
       if ((!this.props.asset && nextProps.asset) || (nextProps.asset && (nextProps.asset.Url != this.props.asset.Url))) {
         //Reset iFrame height
-        let iFrameCont = (document.getElementsByClassName(styles.outerframe))[0] as HTMLElement;
+        const iFrameCont = (document.getElementsByClassName(styles.outerframe))[0] as HTMLElement;
         if (iFrameCont)
           iFrameCont.style.height = "0px";
         //Scroll to top
@@ -69,17 +70,18 @@ export default class AssetView extends React.Component<IAssetViewProps, IAssetVi
     return true;
   }
 
-  public componentDidUpdate() {
+  public componentDidUpdate(): void {
     try {
       this._messageReceived = false;
       AppInsightsService.trackViewAsset(this.props.playlistId, this.props.playlistName, this.props.asset);
+      WebhookService.trackEvent("AssetViewed", {playlistId: this.props.playlistId, playlistName: this.props.playlistName, asset: this.props.asset});
       this._IFrame.current.contentWindow.location.replace(this.decorateAssetUrl());
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (componentDidUpdate) - ${err}`, LogLevel.Error);
     }
   }
 
-  public componentDidMount() {
+  public componentDidMount(): void {
     try {
       //get iframe content size
       window.addEventListener("message", this.handleIFrameSize, false);
@@ -92,7 +94,7 @@ export default class AssetView extends React.Component<IAssetViewProps, IAssetVi
     }
   }
 
-  public componentWillUnmount() {
+  public componentWillUnmount(): void {
     //Release windows events
     window.removeEventListener("message", this.handleIFrameSize);
   }
@@ -105,13 +107,13 @@ export default class AssetView extends React.Component<IAssetViewProps, IAssetVi
     return this.props.asset.Url as string;
   }
 
-  private handleIFrameSize = (event: MessageEvent) => {
+  private handleIFrameSize = (event: MessageEvent): void => {
     try {
       //Callback function from post message to get iFrame content size.
       if (includes(this.props.assetOrigins, event.origin) && event.data.indexOf("") > -1) {
         this._messageReceived = true;
         let height = this.HEIGHT_DEFAULT;
-        let messageArray = event.data.split("=");
+        const messageArray = event.data.split("=");
         if (messageArray.length > 0 && messageArray[0] === "help_getClientHeight" && !isNaN(+messageArray[1]) && +messageArray !== height) {
           height = +messageArray[1];
         }
@@ -122,7 +124,7 @@ export default class AssetView extends React.Component<IAssetViewProps, IAssetVi
     }
   }
 
-  private resizeFrame(size: number) {
+  private resizeFrame(size: number): void {
     try {
       if (this._IFrameCont.current) {
         this._Height = size;
@@ -136,28 +138,28 @@ export default class AssetView extends React.Component<IAssetViewProps, IAssetVi
     }
   }
 
-  private getContentHeight(section: any): number {
-    let iFrameContent = (section) ? section : null;
-    let iFrameContentHeight = (iFrameContent) ? Math.max(iFrameContent.scrollHeight, iFrameContent.offsetHeight, iFrameContent.clientHeight) : 0;
+  private getContentHeight(section: HTMLElement | Element): number {
+    const iFrameContent = (section) ? section : null;
+    const iFrameContentHeight = (iFrameContent) ? Math.max(iFrameContent.scrollHeight, (iFrameContent as HTMLElement).offsetHeight | 0, iFrameContent.clientHeight) : 0;
     return iFrameContentHeight;
   }
 
   private resizeIFrame = (): void => {
     try {
-      let url = new URL(this.props.asset.Url as string);
+      const url = new URL(this.props.asset.Url as string);
       if (!includes(this.props.assetOrigins, url.origin)) {
         try {
-          let iFrameDoc = this._IFrame.current.contentDocument ? this._IFrame.current.contentDocument : this._IFrame.current.contentWindow.document;
+          const iFrameDoc = this._IFrame.current.contentDocument ? this._IFrame.current.contentDocument : this._IFrame.current.contentWindow.document;
           //Find page header and hub nav and hide it
-          let iFrameDocHeader: HTMLDivElement = iFrameDoc.querySelector('[data-automation-id="pageHeader"]') as HTMLDivElement;
+          const iFrameDocHeader: HTMLDivElement = iFrameDoc.querySelector('[data-automation-id="pageHeader"]') as HTMLDivElement;
           if (iFrameDocHeader)
             iFrameDocHeader.style.display = "none";
-          let iFrameHubNav: HTMLDivElement = iFrameDoc.querySelector('.ms-HubNav') as HTMLDivElement;
+          const iFrameHubNav: HTMLDivElement = iFrameDoc.querySelector('.ms-HubNav') as HTMLDivElement;
           if (iFrameHubNav)
             iFrameHubNav.style.display = "none";
 
           //Get the page content
-          let iFrameDocBody = iFrameDoc.getElementById("spPageCanvasContent");
+          const iFrameDocBody = iFrameDoc.getElementById("spPageCanvasContent");
           //Add 150 for comments section spacer
           let iFrameDocComments = iFrameDoc.querySelector('[aria-label="Comments"]');
           this._Height = this.getContentHeight(iFrameDocBody) + this.getContentHeight(iFrameDocComments) + 150;
@@ -167,7 +169,7 @@ export default class AssetView extends React.Component<IAssetViewProps, IAssetVi
             if (!iFrameDocComments)
               iFrameDocComments = iFrameDoc.querySelector('[aria-label="Comments"]');
             //Add 150 for comments section spacer
-            let newHeight = this.getContentHeight(iFrameDocBody) + this.getContentHeight(iFrameDocComments) + 150;
+            const newHeight = this.getContentHeight(iFrameDocBody) + this.getContentHeight(iFrameDocComments) + 150;
             if (newHeight !== this._Height) {
               this._Height = newHeight;
               this.resizeFrame(this._Height);
@@ -211,9 +213,7 @@ export default class AssetView extends React.Component<IAssetViewProps, IAssetVi
             allowFullScreen
             className={styles.innerframe}
             onLoad={() => { this.resizeIFrame(); }}
-            loading="lazy"
-          >
-          </iframe>
+            loading="lazy"/>
         </div>
       );
     } catch (err) {

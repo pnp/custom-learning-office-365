@@ -44,11 +44,6 @@ export default class AssetDetails extends React.Component<IAssetDetailsProps, IA
   private _reInit: boolean = false;
   private _currentLanguageOptions: ILocale[] = [];
 
-  // private _addLanguagePlaceholder: JSX.Element = <div className="dropdownExample-placeholder">
-  //   <Icon style={{ marginRight: '8px' }} iconName={'MessageFill'} aria-hidden="true" />
-  //   <span>{strings.AddLanguagePlaceholder}</span>
-  // </div>;
-
   constructor(props) {
     super(props);
     this.state = new AssetDetailsState(props.asset, (props.asset.Id === "0" ? true : false), params.defaultLanguage);
@@ -61,7 +56,7 @@ export default class AssetDetails extends React.Component<IAssetDetailsProps, IA
     });
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<IAssetDetailsProps>, nextState: Readonly<IAssetDetailsState>) {
+  public shouldComponentUpdate(nextProps: Readonly<IAssetDetailsProps>, nextState: Readonly<IAssetDetailsState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     if (nextProps.asset.Id !== this.props.asset.Id)
@@ -69,21 +64,21 @@ export default class AssetDetails extends React.Component<IAssetDetailsProps, IA
     return true;
   }
 
-  public componentDidUpdate() {
+  public componentDidUpdate(): void {
     if (this._reInit) {
       this._reInit = false;
       this.init();
     }
   }
 
-  private updateAsset = (newAsset: IAsset) => {
+  private updateAsset = (newAsset: IAsset): void => {
     this.setState({
       editAsset: newAsset,
       assetChanged: true
     });
   }
 
-  private saveAsset = async () => {
+  private saveAsset = async (): Promise<void> => {
     if (this.props.save(this.state.editAsset)) {
       this.props.cancel();
     }
@@ -106,9 +101,9 @@ export default class AssetDetails extends React.Component<IAssetDetailsProps, IA
     return valid;
   }
 
-  private addLanguage = (fieldValue: string | number) => {
+  private addLanguage = (fieldValue: string | number): void => {
     try {
-      let asset = cloneDeep(this.state.editAsset);
+      const asset = cloneDeep(this.state.editAsset);
       (asset.Title as IMultilingualString[]).push(new MultilingualString(fieldValue as string, (asset.Title as IMultilingualString[])[0].Text));
       (asset.Url as IMultilingualString[]).push(new MultilingualString(fieldValue as string, (asset.Url as IMultilingualString[])[0].Text));
       this.setState({
@@ -121,10 +116,10 @@ export default class AssetDetails extends React.Component<IAssetDetailsProps, IA
     }
   }
 
-  private removeLanguage = (event: any) => {
+  private removeLanguage = (): void => {
     try {
-      let asset = cloneDeep(this.state.editAsset);
-      let languageIndex = findIndex(this._currentLanguageOptions, { code: this.state.currentLanguage });
+      const asset = cloneDeep(this.state.editAsset);
+      const languageIndex = findIndex(this._currentLanguageOptions, { code: this.state.currentLanguage });
       let newLanguage: number = 0;
       if (languageIndex > 0)
         newLanguage = languageIndex - 1;
@@ -143,10 +138,10 @@ export default class AssetDetails extends React.Component<IAssetDetailsProps, IA
   }
 
   private getPivotItems = (): IHOOPivotItem[] => {
-    let pivotItems: IHOOPivotItem[] = [];
+    const pivotItems: IHOOPivotItem[] = [];
     try {
       this._currentLanguageOptions.forEach(cl => {
-        let pivotItem: IHOOPivotItem = {
+        const pivotItem: IHOOPivotItem = {
           text: cl.description,
           key: cl.code
         };
@@ -166,12 +161,12 @@ export default class AssetDetails extends React.Component<IAssetDetailsProps, IA
     try {
       let currentLangIndex: number = 0;
       this._currentLanguageOptions = [];
-      let addLanguageOptions: IHOODropDownItem[] = [];
+      const addLanguageOptions: IHOODropDownItem[] = [];
       if (params.multilingualEnabled) {
         currentLangIndex = findIndex((this.state.editAsset.Title as IMultilingualString[]), { LanguageCode: this.state.currentLanguage });
         forEach(params.supportedLanguages, (language) => {
-          let found = findIndex(this.state.editAsset.Title as IMultilingualString[], { LanguageCode: language });
-          let locale: ILocale = find(params.configuredLanguages, { code: language });
+          const found = findIndex(this.state.editAsset.Title as IMultilingualString[], { LanguageCode: language });
+          const locale: ILocale = find(params.configuredLanguages, { code: language });
           if (locale) {
             if (found < 0) {
               addLanguageOptions.push({ key: language, text: locale.description, disabled: false });
@@ -202,7 +197,7 @@ export default class AssetDetails extends React.Component<IAssetDetailsProps, IA
                     options={addLanguageOptions}
                     placeholder="⚑ Add language"
                     containsTypeAhead={false}
-                    onChange={this.addLanguage}></HOODropDown>
+                    onChange={this.addLanguage}/>
                 </div>
               }
             </div>

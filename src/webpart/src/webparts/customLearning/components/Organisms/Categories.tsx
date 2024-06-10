@@ -28,7 +28,7 @@ export default class Categories extends React.Component<ICategoriesProps, ICateg
     this.state = new CategoriesState();
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<ICategoriesProps>, nextState: Readonly<ICategoriesState>) {
+  public shouldComponentUpdate(nextProps: Readonly<ICategoriesProps>, nextState: Readonly<ICategoriesState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     return true;
@@ -39,9 +39,9 @@ export default class Categories extends React.Component<ICategoriesProps, ICateg
       if (!this.props.detail || this.props.detail.length < 1) return null;
       return (
         <>
-          {this.props.detail.map((category) => {
+          {this.props.detail.map((category, idx) => {
             return (
-              <div data-component={this.LOG_SOURCE}>
+              <div data-component={this.LOG_SOURCE} key={idx}>
                 <h2>{category.Name}</h2>
                 <CategoryList
                   subcategories={category.SubCategories}

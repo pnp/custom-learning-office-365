@@ -53,15 +53,15 @@ export default class CategoryHeadingDetail extends React.Component<ICategoryHead
     this.state = new CategoryHeadingDetailState();
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<ICategoryHeadingDetailProps>, nextState: Readonly<ICategoryHeadingDetailState>) {
+  public shouldComponentUpdate(nextProps: Readonly<ICategoryHeadingDetailProps>, nextState: Readonly<ICategoryHeadingDetailState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     return true;
   }
 
-  private setHeadingName = (name: string, index: number) => {
+  private setHeadingName = (name: string, index: number): void => {
     try {
-      let heading = cloneDeep(this.props.heading);
+      const heading = cloneDeep(this.props.heading);
       (heading.Name as IMultilingualString[])[index].Text = name;
       this.props.updateHeading(heading);
     } catch (err) {
@@ -69,9 +69,9 @@ export default class CategoryHeadingDetail extends React.Component<ICategoryHead
     }
   }
 
-  private setImageSource = (imageSrc: string) => {
+  private setImageSource = (imageSrc: string): void => {
     try {
-      let heading = cloneDeep(this.props.heading);
+      const heading = cloneDeep(this.props.heading);
       forEach((heading.Image as IMultilingualString[]), (image) => {
         image.Text = imageSrc;
       });
@@ -82,9 +82,9 @@ export default class CategoryHeadingDetail extends React.Component<ICategoryHead
   }
 
   // TODO make sure this works
-  private addLanguage = (fieldValue: string | number) => {
+  private addLanguage = (fieldValue: string | number): void => {
     try {
-      let heading = cloneDeep(this.props.heading);
+      const heading = cloneDeep(this.props.heading);
       (heading.Name as IMultilingualString[]).push(new MultilingualString(fieldValue as string, (heading.Name as IMultilingualString[])[0].Text));
       (heading.Image as IMultilingualString[]).push(new MultilingualString(fieldValue as string, (heading.Image as IMultilingualString[])[0].Text));
       this.props.updateHeading(heading);
@@ -93,9 +93,9 @@ export default class CategoryHeadingDetail extends React.Component<ICategoryHead
     }
   }
 
-  private deleteLanguage = (index: number) => {
+  private deleteLanguage = (index: number): void => {
     try {
-      let heading = cloneDeep(this.props.heading);
+      const heading = cloneDeep(this.props.heading);
       (heading.Name as IMultilingualString[]).splice(index, 1);
       this.props.updateHeading(heading);
     } catch (err) {
@@ -105,11 +105,11 @@ export default class CategoryHeadingDetail extends React.Component<ICategoryHead
 
   public render(): React.ReactElement<ICategoryHeadingDetailProps> {
     try {
-      let addLanguageOptions: IHOODropDownItem[] = [];
+      const addLanguageOptions: IHOODropDownItem[] = [];
       if (this._showMultilingual) {
         forEach(params.supportedLanguages, (language) => {
-          let found = findIndex(this.props.heading.Name as IMultilingualString[], { LanguageCode: language });
-          let locale: ILocale = find(params.configuredLanguages, { code: language });
+          const found = findIndex(this.props.heading.Name as IMultilingualString[], { LanguageCode: language });
+          const locale: ILocale = find(params.configuredLanguages, { code: language });
           if (locale) {
             if (found < 0) {
               addLanguageOptions.push({
@@ -132,10 +132,10 @@ export default class CategoryHeadingDetail extends React.Component<ICategoryHead
           </div>
           <div className="adm-itemright">
             {(this.props.heading.Name as IMultilingualString[]).map((name, idx) => {
-              let locale: ILocale = find(params.configuredLanguages, { code: name.LanguageCode });
+              const locale: ILocale = find(params.configuredLanguages, { code: name.LanguageCode });
               return (
-                <div className="adm-subcatheading">
-                  <HOOLabel label={`${strings.SubcategoryHeadingLabel} - ${locale.description}`} for={`${strings.SubcategoryHeadingLabel}-${locale.description}`} required={true}></HOOLabel>,
+                <div className="adm-subcatheading" key={idx}>
+                  <HOOLabel label={`${strings.SubcategoryHeadingLabel} - ${locale.description}`} for={`${strings.SubcategoryHeadingLabel}-${locale.description}`} required={true} />,
                   {/* TODO set focus on Text box */}
                   <HOOText
                     forId={`${strings.SubcategoryHeadingLabel}-${locale.description}`}
@@ -158,7 +158,7 @@ export default class CategoryHeadingDetail extends React.Component<ICategoryHead
                 options={addLanguageOptions}
                 placeholder="⚑ Add language"
                 containsTypeAhead={false}
-                onChange={this.addLanguage}></HOODropDown>
+                onChange={this.addLanguage} />
             }
           </div>
         </div>

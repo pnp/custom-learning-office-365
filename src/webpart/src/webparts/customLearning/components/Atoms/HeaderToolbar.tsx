@@ -6,12 +6,10 @@ import find from "lodash-es/find";
 import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
 import HOOBreadcrumb, { IHOOBreadcrumbItem } from "@n8d/htwoo-react/HOOBreadcrumb";
 
-
 import { params } from "../../../common/services/Parameters";
 import { IHistoryItem } from "../../../common/models/Models";
-import { Templates, Roles, WebpartMode } from "../../../common/models/Enums";
-
-
+import { UXService } from "../../../common/services/UXService";
+import { Templates, Roles, WebpartModeOptions } from "../../../common/models/Enums";
 
 export interface IHeaderToolbarProps {
   template: string;
@@ -19,7 +17,7 @@ export interface IHeaderToolbarProps {
   historyClick: (template: string, templateId: string, nav: boolean) => void;
   buttonClick: (buttonType: string) => void;
   panelOpen: string;
-  webpartMode: string;
+  //webpartMode: string;
 }
 
 export interface IHeaderToolbarState {
@@ -37,28 +35,11 @@ export default class HeaderToolbar extends React.Component<IHeaderToolbarProps, 
   constructor(props) {
     super(props);
 
-    if (!Element.prototype.matches) {
-      Element.prototype.matches = Element.prototype["msMatchesSelector"] ||
-        Element.prototype.webkitMatchesSelector;
-    }
-
-    if (!Element.prototype.closest) {
-      Element.prototype.closest = function (s) {
-        var el = this;
-
-        do {
-          if (Element.prototype.matches.call(el, s)) return el;
-          el = el.parentElement || el.parentNode;
-        } while (el !== null && el.nodeType === 1);
-        return null;
-      };
-    }
-
     this._HeaderToolbar = React.createRef();
     this.state = new HeaderToolbarState();
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<IHeaderToolbarProps>, nextState: Readonly<IHeaderToolbarState>) {
+  public shouldComponentUpdate(nextProps: Readonly<IHeaderToolbarProps>, nextState: Readonly<IHeaderToolbarState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     return true;
@@ -66,7 +47,7 @@ export default class HeaderToolbar extends React.Component<IHeaderToolbarProps, 
 
   private onBreadcrumbItemClicked = (event: React.MouseEvent, key: string | number): void => {
     try {
-      let history = find(this.props.history, { Id: key });
+      const history = find(this.props.history, { Id: key });
       console.log(history);
       //TODO fix this
       //this.props.historyClick(history.Template, history.Id, true);
@@ -81,7 +62,7 @@ export default class HeaderToolbar extends React.Component<IHeaderToolbarProps, 
 
       try {
         if (this._HeaderToolbar.current) {
-          let section = (this._HeaderToolbar.current as HTMLElement).closest('[data-automation-id="CanvasSection"]');
+          const section = (this._HeaderToolbar.current as HTMLElement).closest('[data-automation-id="CanvasSection"]');
           sectionClass = (section) ? section.classList.contains("CanvasSection-xl4") : false;
         }
         this._breadcrumbMax = window.matchMedia("(max-width: 480px)").matches || sectionClass;
@@ -109,7 +90,7 @@ export default class HeaderToolbar extends React.Component<IHeaderToolbarProps, 
       }
       return (
         <div data-component={this.LOG_SOURCE} className="header-toolbar" ref={this._HeaderToolbar}>
-          {((this.props.webpartMode !== WebpartMode.contentonly) || ((this.props.webpartMode === WebpartMode.contentonly) && (breadcrumbItems.length > 1))) &&
+          {((UXService.WebPartMode !== WebpartModeOptions.contentonly) || ((UXService.WebPartMode === WebpartModeOptions.contentonly) && (breadcrumbItems.length > 1))) &&
             <div className="header-breadcrumb">
               <HOOBreadcrumb
                 breadcrumbItems={breadcrumbItems}
@@ -119,7 +100,7 @@ export default class HeaderToolbar extends React.Component<IHeaderToolbarProps, 
               />
             </div>
           }
-          {(this.props.webpartMode !== WebpartMode.contentonly) &&
+          {(UXService.WebPartMode !== WebpartModeOptions.contentonly) &&
             <div className="header-actions">
               <HOOButton type={HOOButtonType.Icon} iconName="icon-search-regular"
                 rootElementAttributes={{ className: (this.props.panelOpen === "Search") ? "selected" : "" }}

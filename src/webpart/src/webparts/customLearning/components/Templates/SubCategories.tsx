@@ -34,14 +34,14 @@ export default class SubCategories extends React.Component<ISubCategoriesProps, 
     this.state = new SubCategoriesState();
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<ISubCategoriesProps>, nextState: Readonly<ISubCategoriesState>) {
+  public shouldComponentUpdate(nextProps: Readonly<ISubCategoriesProps>, nextState: Readonly<ISubCategoriesState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     return true;
   }
 
   public render(): React.ReactElement<ISubCategoriesProps> {
-    let filterCounts = countBy(this.props.filterValues, "Type");
+    const filterCounts = countBy(this.props.filterValues, "Type");
     return (
       <>
         {(filterCounts[FilterTypes.Audience] > 1 || filterCounts[FilterTypes.Level] > 1) &&

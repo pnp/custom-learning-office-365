@@ -36,17 +36,17 @@ export default class TechnologyNav extends React.Component<ITechnologyNavProps, 
     }
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<ITechnologyNavProps>, nextState: Readonly<ITechnologyNavState>) {
+  public shouldComponentUpdate(nextProps: Readonly<ITechnologyNavProps>, nextState: Readonly<ITechnologyNavState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     return true;
   }
 
   private getNavItems = (): IHOONavItem[] => {
-    let navItems: IHOONavItem[] = [];
+    const navItems: IHOONavItem[] = [];
     try {
       this.props.technologies.forEach(t => {
-        let navItem: IHOONavItem = {
+        const navItem: IHOONavItem = {
           text: t.Name,
           key: t.Id,
           onItemClick: (key) => { this.onNavClick(key) }
@@ -64,7 +64,7 @@ export default class TechnologyNav extends React.Component<ITechnologyNavProps, 
   }
 
   // TODO make sure this works
-  private onNavClick = (key: string | number, technology?: ITechnology) => {
+  private onNavClick = (key: string | number, technology?: ITechnology): void => {
     this.props.onClick(technology);
   }
 

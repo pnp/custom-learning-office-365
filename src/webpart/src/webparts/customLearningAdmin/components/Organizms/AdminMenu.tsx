@@ -51,7 +51,7 @@ export default class AdminMenu extends React.PureComponent<IAdminMenuProps, IAdm
 
   constructor(props: IAdminMenuProps) {
     super(props);
-    let currentCDN = params.allCdn[0];
+    const currentCDN = params.allCdn[0];
     this.state = new AdminMenuState(currentCDN);
   }
 
@@ -61,9 +61,9 @@ export default class AdminMenu extends React.PureComponent<IAdminMenuProps, IAdm
   }
 
   private editCdn = async (cdn: ICDN): Promise<void> => {
-    let upsertCdnResult = await this.props.upsertCdn(cdn);
+    const upsertCdnResult = await this.props.upsertCdn(cdn);
     if (upsertCdnResult) {
-      let selectCdnResult = await this.props.selectCDN(cdn.Id);
+      const selectCdnResult = await this.props.selectCDN(cdn.Id);
       if (selectCdnResult) {
         this.setState({
           editCDN: cdn,
@@ -73,25 +73,25 @@ export default class AdminMenu extends React.PureComponent<IAdminMenuProps, IAdm
     }
   }
 
-  private closeEditCdn = () => {
+  private closeEditCdn = (): void => {
     this.setState({
       showEditCDN: false
     });
   }
 
-  private closeAbout = () => {
+  private closeAbout = (): void => {
     this.setState({
       showAbout: false
     });
   }
 
-  private closeContentPack = () => {
+  private closeContentPack = (): void => {
     this.setState({
       showAddContentPack: false
     });
   }
 
-  private toggleEdit = () => {
+  private toggleEdit = (): void => {
     if (this.state.showEditCDN) {
       this.setState({
         editCDN: null,
@@ -108,7 +108,7 @@ export default class AdminMenu extends React.PureComponent<IAdminMenuProps, IAdm
     }
   }
 
-  private toggleAdd = () => {
+  private toggleAdd = (): void => {
     if (this.state.showAddContentPack) {
       this.setState({
         editCDN: null,
@@ -125,7 +125,7 @@ export default class AdminMenu extends React.PureComponent<IAdminMenuProps, IAdm
     }
   }
 
-  private toggleAbout = () => {
+  private toggleAbout = (): void => {
     if (this.state.showAbout) {
       this.setState({
         editCDN: null,
@@ -142,10 +142,10 @@ export default class AdminMenu extends React.PureComponent<IAdminMenuProps, IAdm
     }
   }
 
-  private addCdn = async (cdn: ICDN) => {
-    let upsertResult = await this.props.upsertCdn(cdn);
+  private addCdn = async (cdn: ICDN): Promise<void> => {
+    const upsertResult = await this.props.upsertCdn(cdn);
     if (upsertResult) {
-      let selectCdnResult = await this.props.selectCDN(cdn.Id);
+      const selectCdnResult = await this.props.selectCDN(cdn.Id);
       if (selectCdnResult) {
         this.setState({
           showAddContentPack: false
@@ -154,24 +154,24 @@ export default class AdminMenu extends React.PureComponent<IAdminMenuProps, IAdm
     }
   }
 
-  private removeCdn = async () => {
+  private removeCdn = async (): Promise<void> => {
     if (window.confirm(strings.AdminRemoveCdn)) {
-      let removeResult = await this.props.removeCdn(this.props.currentCDNId);
+      const removeResult = await this.props.removeCdn(this.props.currentCDNId);
       if (removeResult) {
         await this.props.selectCDN(params.allCdn[0].Id);
       }
     }
   }
 
-  private openDocumentation = () => {
+  private openDocumentation = (): void => {
     window.open(`https://docs.microsoft.com/${params.defaultLanguage}/office365/customlearning/custom_successcenter`, "_blank");
   }
 
   private getPivotItems = (): IHOOPivotItem[] => {
-    let pivotItems: IHOOPivotItem[] = [];
+    const pivotItems: IHOOPivotItem[] = [];
     try {
       params.allCdn.forEach(c => {
-        let pivotItem: IHOOPivotItem = {
+        const pivotItem: IHOOPivotItem = {
           text: (c.Id === 'Default') ? strings.M365Title : c.Name,
           key: c.Id
         };
@@ -187,13 +187,13 @@ export default class AdminMenu extends React.PureComponent<IAdminMenuProps, IAdm
     return pivotItems;
   }
 
-  private handleToolClick = (toolId: string | number) => {
-    let pivotItems: IHOOPivotItem[] = [];
+  private handleToolClick = (toolId: string | number): IHOOPivotItem[] => {
+    const pivotItems: IHOOPivotItem[] = [];
     try {
       if (toolId === 'addContentPack') {
-        this.toggleAdd
+        this.toggleAdd();
       } else if (toolId === 'about') {
-        this.toggleAbout
+        this.toggleAbout();
       }
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getPivotItems) - ${err}`, LogLevel.Error);
@@ -239,8 +239,7 @@ export default class AdminMenu extends React.PureComponent<IAdminMenuProps, IAdm
             {/* TODO confirm onclick works */}
             <HOOCommandBar
               commandItems={_overflowItems}
-              onClick={(ev, option) => this.handleToolClick(option.toString())}
-            ></HOOCommandBar>
+              onClick={(ev, option) => this.handleToolClick(option.toString())}/>
 
             <HOOButton type={HOOButtonType.Icon}
               iconName="icon-chat-help-regular"
@@ -262,8 +261,7 @@ export default class AdminMenu extends React.PureComponent<IAdminMenuProps, IAdm
               options={this._tabOptions}
               containsTypeAhead={false}
               onChange={(ev) => this.props.selectTab(ev as string)}
-              rootElementAttributes={{ className: "adm-header-cat" }}
-            ></HOODropDown>
+              rootElementAttributes={{ className: "adm-header-cat" }}/>
           </div>
           {this.state.showAddContentPack &&
             <div data-component={this.LOG_SOURCE} className="adm-header-edit">

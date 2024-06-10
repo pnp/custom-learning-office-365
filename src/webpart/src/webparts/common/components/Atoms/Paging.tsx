@@ -25,14 +25,14 @@ export default class Paging extends React.Component<IPagingProps, IPagingState> 
 
   constructor(props) {
     super(props);
-    let displayPages = this.getDisplayPages(props.currentPage, props.pages);
+    const displayPages = this.getDisplayPages(props.currentPage, props.pages);
     this.state = new PagingState(displayPages);
   }
 
   private getDisplayPages(currentPage: number, pages: number): number[] {
-    let displayPages: number[] = [];
-    let start = (currentPage - 2) >= 0 ? (currentPage - 2) : 0;
-    let end = (currentPage + 2) <= (this.props.pages - 1) ? (currentPage + 2) : (this.props.pages - 1);
+    const displayPages: number[] = [];
+    const start = (currentPage - 2) >= 0 ? (currentPage - 2) : 0;
+    const end = (currentPage + 2) <= (this.props.pages - 1) ? (currentPage + 2) : (this.props.pages - 1);
     let count = start;
     while (count <= end && count < this.props.pages) {
       displayPages.push(count);
@@ -47,7 +47,7 @@ export default class Paging extends React.Component<IPagingProps, IPagingState> 
     return displayPages;
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<IPagingProps>, nextState: Readonly<IPagingState>) {
+  public shouldComponentUpdate(nextProps: Readonly<IPagingProps>, nextState: Readonly<IPagingState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     if (!isEqual(nextProps.currentPage, this.props.currentPage))
@@ -55,7 +55,7 @@ export default class Paging extends React.Component<IPagingProps, IPagingState> 
     return true;
   }
 
-  public componentDidUpdate() {
+  public componentDidUpdate(): void {
     if (this._pageChanged) {
       this._pageChanged = false;
       this.setState({
@@ -64,27 +64,27 @@ export default class Paging extends React.Component<IPagingProps, IPagingState> 
     }
   }
 
-  private movePrevious = () => {
+  private movePrevious = (): void => {
     this.props.changePage(this.props.currentPage - 1);
   }
 
-  private moveNext = () => {
+  private moveNext = (): void => {
     this.props.changePage(this.props.currentPage + 1);
   }
 
   public render(): React.ReactElement<IPagingProps> {
     try {
-      let showFirstMore = this.state.displayPages[0] > 0;
-      let showLastMore = this.props.pages > Math.max(...this.state.displayPages);
+      const showFirstMore = this.state.displayPages[0] > 0;
+      const showLastMore = this.props.pages > Math.max(...this.state.displayPages);
       return (
         <ol className="pagination" data-component={this.LOG_SOURCE}>
           <li className={`pagination-item ${(showFirstMore) ? "" : "hidden"} `}>
             <button className="pagination-button" onClick={this.movePrevious}>&lt;&lt;</button>
           </li>
 
-          {this.props.pages && this.state.displayPages.map((page: number) => {
+          {this.props.pages && this.state.displayPages.map((page: number, idx) => {
             return (
-              <li className={`pagination-item ${(page === -1) ? "hidden" : ""} `}>
+              <li key={idx} className={`pagination-item ${(page === -1) ? "hidden" : ""} `}>
                 <button className={`pagination-button ${(page === this.props.currentPage) ? "selected" : ""}`}
                   onClick={() => { this.props.changePage(page); }}
                   aria-title={`${page + 1} of ${this.props.pages} pages`}

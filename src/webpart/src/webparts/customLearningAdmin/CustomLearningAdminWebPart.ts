@@ -92,7 +92,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
       this._cdn = "Default";
       this._webpartVersion = this.context.manifest.version;
       this._initService = new InitService();
-      let successInit = await this._initService.initialize(this._cdn);
+      const successInit = await this._initService.initialize(this._cdn);
       if (successInit) {
         //Validate in custom learning site
         if (this.context.pageContext.web.absoluteUrl?.toLowerCase() != params.learningSiteUrl?.toLowerCase()) {
@@ -109,9 +109,9 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
             this._cacheConfig = new CacheConfig();
           } else {
             //Check if upgrade is necessary
-            let configManifest = this._cacheConfig.ManifestVersion || (this._cacheConfig.WebPartVersion) ? `v${this._cacheConfig.WebPartVersion.substring(0, 1)}` : null;
+            const configManifest = this._cacheConfig.ManifestVersion || (this._cacheConfig.WebPartVersion) ? `v${this._cacheConfig.WebPartVersion.substring(0, 1)}` : null;
             if ((configManifest && configManifest < params.manifestVersion) || (this._forceUpdate && this._forceUpdate < params.manifestVersion)) {
-              let versions: (string | null)[] = [configManifest, this._forceUpdate].sort();
+              const versions: (string | null)[] = [configManifest, this._forceUpdate].sort();
               this._updateStartVersion = versions[0] as string;
               this._upgradeNeeded = true;
             }
@@ -149,7 +149,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
     this.render();
   }
 
-  private telemetry(success: string, error?: string) {
+  private telemetry(success: string, error?: string): void {
     AppInsightsService.initialize(this._cdn, this._initService.telemetryKey);
     AppInsightsService.trackEvent(this.LOG_SOURCE, {
       success,
@@ -160,7 +160,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
   public async render(): Promise<void> {
     let element;
 
-    let shimmer = React.createElement(
+    const shimmer = React.createElement(
       ShimmerViewer, { shimmerView: ShimmerView.Admin }
     );
 
@@ -177,7 +177,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
     } else {
       try {
         if (this._upgradeNeeded) {
-          let dataService = find(this._languageController.dataServices, { code: params.defaultLanguage });
+          const dataService = find(this._languageController.dataServices, { code: params.defaultLanguage });
           if (dataService) {
             element = React.createElement(
               UpdateConfiguration, {
@@ -258,13 +258,13 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
 
   private selectCDN = async (cdnId: string): Promise<boolean> => {
     try {
-      let cdn = find(params.allCdn, { Id: cdnId });
+      const cdn = find(params.allCdn, { Id: cdnId });
       if (cdn) {
         this._validConfig = false;
         this._cacheConfig = null;
         this._cdn = cdnId;
         //params.currentCdn = this._cdn;
-        let successInit = await this._initService.loadManifest(cdn.Base);
+        const successInit = await this._initService.loadManifest(cdn.Base);
         if (successInit) {
           this._initService.loadConfiguredLanguages();
           this._languageController = new LanguageController(this._cdn);
@@ -274,9 +274,9 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
             this._cacheConfig = new CacheConfig();
           } else {
             //Check if upgrade is necessary
-            let configManifest = this._cacheConfig.ManifestVersion || (this._cacheConfig.WebPartVersion) ? `v${this._cacheConfig.WebPartVersion.substring(0, 1)}` : null;
+            const configManifest = this._cacheConfig.ManifestVersion || (this._cacheConfig.WebPartVersion) ? `v${this._cacheConfig.WebPartVersion.substring(0, 1)}` : null;
             if ((configManifest && configManifest < params.manifestVersion) || (this._forceUpdate && this._forceUpdate < params.manifestVersion)) {
-              let versions: (string | null)[] = [configManifest, this._forceUpdate].sort();
+              const versions: (string | null)[] = [configManifest, this._forceUpdate].sort();
               this._updateStartVersion = versions[0] as string;
               this._upgradeNeeded = true;
               this.render();
@@ -307,21 +307,20 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
 
   private upsertCustomizations = async (newCustomizations: ICustomizations): Promise<void> => {
     try {
+      const nc = cloneDeep(newCustomizations);
       let saveCustomization: string;
-      if (newCustomizations.Id === 0) {
-        let savePlaylistVal = await this._customService.createCustomization(newCustomizations);
-        saveCustomization = savePlaylistVal.toString();
-        newCustomizations.Id = +saveCustomization;
+      if (nc.Id === 0) {
+        const savePlaylistVal = await this._customService.createCustomization(nc);
+        nc.Id = savePlaylistVal as number;
       } else {
-        saveCustomization = await this._customService.modifyCustomization(newCustomizations);
+        saveCustomization = await this._customService.modifyCustomization(nc);
       }
       if (saveCustomization !== "0") {
-        this._languageController.customization = newCustomizations;
+        this._languageController.customization = nc;
         //Reset config and render
         this._cacheConfig = await this._languageController.refreshCache(this._cacheConfig as ICacheConfig);
         this.render();
       }
-
       return;
     }
     catch (err) {
@@ -334,7 +333,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
     try {
       let savePlaylist: string;
       if (playlist.Id === "0") {
-        let savePlaylistVal = await this._customService.createPlaylist(playlist);
+        const savePlaylistVal = await this._customService.createPlaylist(playlist);
         savePlaylist = savePlaylistVal.toString();
       } else {
         savePlaylist = await this._customService.modifyPlaylist(playlist);
@@ -357,7 +356,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
 
   private deletePlaylist = async (playlistId: string): Promise<void> => {
     try {
-      let deleteResult = await this._customService.deletePlaylist(playlistId);
+      const deleteResult = await this._customService.deletePlaylist(playlistId);
       if (deleteResult) {
         //Refresh playlists
         await this._languageController.refreshPlaylistsAll(true);
@@ -375,9 +374,9 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
   private upsertAsset = async (asset: IAsset): Promise<string> => {
     try {
       let saveAsset: string;
-      let newAsset: boolean = (asset.Id === "0") ? true : false;
+      const newAsset: boolean = (asset.Id === "0") ? true : false;
       if (newAsset) {
-        let saveAssetVal = await this._customService.createAsset(asset);
+        const saveAssetVal = await this._customService.createAsset(asset);
         saveAsset = saveAssetVal.toString();
       } else {
         saveAsset = await this._customService.modifyAsset(asset);
@@ -399,21 +398,22 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
 
   private upsertCdn = async (cdn: ICDN): Promise<boolean> => {
     try {
-      let customService = new CustomDataService(params.allCdn[0].Id);
-      let customCdn = cloneDeep(params.customCDN);
-      let cdnIndex = findIndex(customCdn.CDNs, { Id: cdn.Id });
+      const customService = new CustomDataService(params.allCdn[0].Id);
+      const customCdn = cloneDeep(params.customCDN);
+      const cdnIndex = findIndex(customCdn.CDNs, { Id: cdn.Id });
       if (cdnIndex > -1) {
         customCdn.CDNs[cdnIndex] = cdn;
       } else {
         customCdn.CDNs.push(cdn);
       }
 
-      let upsertResult = await customService.upsertCdn(customCdn);
+      const upsertResult = await customService.upsertCdn(customCdn);
       if (upsertResult) {
         if (cdnIndex > 1)
           customCdn.eTag = upsertResult;
         else
           customCdn.Id = +upsertResult;
+          // eslint-disable-next-line require-atomic-updates
         params.customCDN = customCdn;
         let allCDN: ICDN[] = [cloneDeep(params.allCdn[0])];
         allCDN = allCDN.concat(customCdn.CDNs);
@@ -430,13 +430,14 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
 
   private removeCdn = async (cdnId: string): Promise<boolean> => {
     try {
-      let customService = new CustomDataService(params.allCdn[0].Id);
-      let customCdn = cloneDeep(params.customCDN);
+      const customService = new CustomDataService(params.allCdn[0].Id);
+      const customCdn = cloneDeep(params.customCDN);
       remove(customCdn.CDNs, { Id: cdnId });
 
-      let upsertResult = await customService.upsertCdn(customCdn);
+      const upsertResult = await customService.upsertCdn(customCdn);
       if (upsertResult) {
         customCdn.eTag = upsertResult;
+        // eslint-disable-next-line require-atomic-updates
         params.customCDN = customCdn;
         let allCDN: ICDN[] = [cloneDeep(params.allCdn[0])];
         allCDN = allCDN.concat(customCdn.CDNs);
@@ -461,7 +462,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
   }
 
   private translatePlaylist = (playlist: IPlaylist): IPlaylist => {
-    let translations: IPlaylistTranslation[] = this._languageController.getPlaylistTranslations(playlist.Id);
+    const translations: IPlaylistTranslation[] = this._languageController.getPlaylistTranslations(playlist.Id);
 
     playlist.Title = this.translateMLString(translations, (translations) ? "Title" : playlist.Title, null);
     playlist.Image = this.translateMLString(translations, (translations) ? "Image" : playlist.Image, null);
@@ -500,9 +501,8 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
         t.Text = `${strings.LinkPanelCopyLabel.toUpperCase()} - ${t.Text}`;
       });
       newPlaylist.Source = CustomWebpartSource.Tenant;
-      let savePlaylist: string;
-      let savePlaylistVal = await this._customService.createPlaylist(newPlaylist);
-      savePlaylist = savePlaylistVal.toString();
+      const savePlaylistVal = await this._customService.createPlaylist(newPlaylist);
+      const savePlaylist = savePlaylistVal.toString();
 
       if (savePlaylist !== "0") {
         //Refresh playlists

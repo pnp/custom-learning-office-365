@@ -35,11 +35,12 @@ export default class FilePickerDialog extends React.PureComponent<IFilePickerDia
     }
   }
 
+  
+//TODO: Make type whatever dialog style is appropriate, sidebar right is probably more in line with what the SharePoint UI is doing currently.
   public render(): React.ReactElement<IFilePickerDialogProps> {
     try {
       return (
         <div data-component={this.LOG_SOURCE}>
-          // Make type whatever dialog style is appropriate, sidebar right is probably more in line with what the SharePoint UI is doing currently.
           <HOODialog
             type={HOODialogType.Center}
             visible={this.state.showFilePicker}

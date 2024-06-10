@@ -26,7 +26,7 @@ export default class TechnologyHeading extends React.Component<ITechnologyHeadin
     this.state = new TechnologyHeadingState();
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<ITechnologyHeadingProps>, nextState: Readonly<ITechnologyHeadingState>) {
+  public shouldComponentUpdate(nextProps: Readonly<ITechnologyHeadingProps>, nextState: Readonly<ITechnologyHeadingState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     return true;

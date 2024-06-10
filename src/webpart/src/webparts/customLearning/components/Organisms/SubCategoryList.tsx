@@ -40,7 +40,7 @@ export default class SubCategoryList extends React.Component<ISubCategoryListPro
     this.state = new SubCategoryListState(props.detail);
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<ISubCategoryListProps>, nextState: Readonly<ISubCategoryListState>) {
+  public shouldComponentUpdate(nextProps: Readonly<ISubCategoryListProps>, nextState: Readonly<ISubCategoryListState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     if (!isEqual(nextProps.detail, this.props.detail))
@@ -48,7 +48,7 @@ export default class SubCategoryList extends React.Component<ISubCategoryListPro
     return true;
   }
 
-  public componentDidUpdate() {
+  public componentDidUpdate(): void {
     if (this._updateState) {
       this._updateState = false;
       this.setState({ detail: this.props.detail });
@@ -56,7 +56,7 @@ export default class SubCategoryList extends React.Component<ISubCategoryListPro
   }
 
   //Support drag and drop for custom sorting
-  private startDrag = (event: React.DragEvent<HTMLDivElement>, index: number) => {
+  private startDrag = (event: React.DragEvent<HTMLDivElement>, index: number): void => {
     if (!(this.props.customSort && this.props.editMode)) { return; }
     try {
       event.stopPropagation();
@@ -70,10 +70,10 @@ export default class SubCategoryList extends React.Component<ISubCategoryListPro
     }
   }
 
-  private endDrag = () => {
+  private endDrag = (): void => {
     if (!(this.props.customSort && this.props.editMode)) { return; }
     try {
-      let customSortOrder: string[] = map(this.state.detail, (item: ICategory | IPlaylist) => {
+      const customSortOrder: string[] = map(this.state.detail, (item: ICategory | IPlaylist) => {
         return item.Id;
       });
       this._dragResource = null;
@@ -84,7 +84,7 @@ export default class SubCategoryList extends React.Component<ISubCategoryListPro
     }
   }
 
-  private dragEnter = (index: number) => {
+  private dragEnter = (index: number): void => {
     if (!(this.props.customSort && this.props.editMode)) { return; }
     try {
       const draggedOverItem = this.state.detail[index];
@@ -95,7 +95,7 @@ export default class SubCategoryList extends React.Component<ISubCategoryListPro
       }
 
       // filter out the currently dragged item
-      let detail = filter(this.state.detail, (item: ICategory | IPlaylist) => {
+      const detail = filter(this.state.detail, (item: ICategory | IPlaylist) => {
         return item !== this._dragResource;
       });
 
@@ -108,13 +108,14 @@ export default class SubCategoryList extends React.Component<ISubCategoryListPro
   }
 
   public render(): React.ReactElement<ISubCategoryListProps> {
-    let dragMode: boolean = (this.props.customSort && this.props.editMode);
+    const dragMode: boolean = (this.props.customSort && this.props.editMode);
     try {
       return (
         <div data-component={this.LOG_SOURCE} className={`plov ${(dragMode ? "editSort" : "")}`}>
           {this.state.detail && this.state.detail.length > 0 && (this.props.template == Templates.SubCategory) && (this.state.detail as ICategory[]).map((subcategory, idx) => {
             return (
               <SubCategoryItem
+                key={idx}
                 index={idx}
                 dragMode={dragMode}
                 imageSource={((subcategory.Image as string).length > 0) ? (subcategory.Image as string) : null}
@@ -132,6 +133,7 @@ export default class SubCategoryList extends React.Component<ISubCategoryListPro
           {this.state.detail && this.state.detail.length > 0 && (this.props.template == Templates.Playlists) && (this.state.detail as IPlaylist[]).map((playlist, idx) => {
             return (
               <SubCategoryItem
+                key={idx}
                 index={idx}
                 dragMode={dragMode}
                 imageSource={((playlist.Image as string).length > 0) ? playlist.Image as string : null}

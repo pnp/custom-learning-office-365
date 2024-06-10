@@ -39,7 +39,7 @@ export default class CategoryHeading extends React.PureComponent<ICategoryHeadin
     this.state = new CategoryHeadingState();
   }
 
-  private onUpdate = () => {
+  private onUpdate = (): void => {
     if (!this.state.editHeading) return;
     this.props.saveSubCategory(this.state.editHeading);
     this.setState({
@@ -48,7 +48,7 @@ export default class CategoryHeading extends React.PureComponent<ICategoryHeadin
     });
   }
 
-  private onDelete = () => {
+  private onDelete = (): void => {
     this.setState({
       edit: false,
       editHeading: null
@@ -56,13 +56,13 @@ export default class CategoryHeading extends React.PureComponent<ICategoryHeadin
     this.props.onDelete();
   }
 
-  private updateHeading = (heading: ICategory) => {
+  private updateHeading = (heading: ICategory): void => {
     this.setState({
       editHeading: heading
     });
   }
 
-  private renderHeading = () => {
+  private renderHeading = (): JSX.Element => {
     try {
       if (this.state.edit) {
         return (
@@ -91,8 +91,8 @@ export default class CategoryHeading extends React.PureComponent<ICategoryHeadin
     }
   }
 
-  private renderButtons = () => {
-    let retVal = [];
+  private renderButtons = (): JSX.Element[] => {
+    const retVal: JSX.Element[] = [];
     try {
       if (this.state.edit) {
         retVal.push(

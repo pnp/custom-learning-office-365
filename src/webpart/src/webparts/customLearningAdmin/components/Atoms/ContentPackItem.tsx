@@ -25,7 +25,7 @@ export default class ContentPackItem extends React.Component<IContentPackItemPro
     this.state = new ContentPackItemState();
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<IContentPackItemProps>, nextState: Readonly<IContentPackItemState>) {
+  public shouldComponentUpdate(nextProps: Readonly<IContentPackItemProps>, nextState: Readonly<IContentPackItemState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     return true;

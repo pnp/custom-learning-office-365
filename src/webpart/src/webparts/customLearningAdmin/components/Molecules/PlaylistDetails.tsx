@@ -58,15 +58,15 @@ export default class PlaylistDetails extends React.Component<IPlaylistDetailsPro
     this.state = new PlaylistDetailsState(params.defaultLanguage);
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<IPlaylistDetailsProps>, nextState: Readonly<IPlaylistDetailsState>) {
+  public shouldComponentUpdate(nextProps: Readonly<IPlaylistDetailsProps>, nextState: Readonly<IPlaylistDetailsState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     return true;
   }
 
-  private setImageSource = (imageSrc: string, currentIndex: number) => {
+  private setImageSource = (imageSrc: string, currentIndex: number): void => {
     try {
-      let playlist = cloneDeep(this.props.playlist);
+      const playlist = cloneDeep(this.props.playlist);
       (playlist.Image as IMultilingualString[])[currentIndex].Text = imageSrc;
       this.props.updatePlaylist(playlist, false);
     } catch (err) {
@@ -74,9 +74,9 @@ export default class PlaylistDetails extends React.Component<IPlaylistDetailsPro
     }
   }
 
-  private addLanguage = (fieldValue: string | number) => {
+  private addLanguage = (fieldValue: string | number): void => {
     try {
-      let playlist = cloneDeep(this.props.playlist);
+      const playlist = cloneDeep(this.props.playlist);
       (playlist.Title as IMultilingualString[]).push(new MultilingualString(fieldValue as string, (playlist.Title as IMultilingualString[])[0].Text));
       (playlist.Description as IMultilingualString[]).push(new MultilingualString(fieldValue as string, (playlist.Description as IMultilingualString[])[0].Text));
       (playlist.Image as IMultilingualString[]).push(new MultilingualString(fieldValue as string, (playlist.Image as IMultilingualString[])[0].Text));
@@ -90,10 +90,10 @@ export default class PlaylistDetails extends React.Component<IPlaylistDetailsPro
     }
   }
 
-  private removeLanguage = (event: any) => {
+  private removeLanguage = (): void => {
     try {
-      let playlist = cloneDeep(this.props.playlist);
-      let languageIndex = findIndex(this._currentLanguageOptions, { code: this.state.currentLanguage });
+      const playlist = cloneDeep(this.props.playlist);
+      const languageIndex = findIndex(this._currentLanguageOptions, { code: this.state.currentLanguage });
       let newLanguage: number = 0;
       if (languageIndex > 0)
         newLanguage = languageIndex - 1;
@@ -113,10 +113,10 @@ export default class PlaylistDetails extends React.Component<IPlaylistDetailsPro
   }
 
   private getPivotItems = (): IHOOPivotItem[] => {
-    let pivotItems: IHOOPivotItem[] = [];
+    const pivotItems: IHOOPivotItem[] = [];
     try {
       this._currentLanguageOptions.forEach(cl => {
-        let pivotItem: IHOOPivotItem = {
+        const pivotItem: IHOOPivotItem = {
           text: cl.description,
           key: cl.code
         };
@@ -136,12 +136,12 @@ export default class PlaylistDetails extends React.Component<IPlaylistDetailsPro
     try {
       let currentLangIndex: number = 0;
       this._currentLanguageOptions = [];
-      let addLanguageOptions: IHOODropDownItem[] = [];
+      const addLanguageOptions: IHOODropDownItem[] = [];
       if (this._showMultilingual) {
         currentLangIndex = findIndex((this.props.playlist.Title as IMultilingualString[]), { LanguageCode: this.state.currentLanguage });
         forEach(params.supportedLanguages, (language) => {
-          let found = findIndex(this.props.playlist.Title as IMultilingualString[], { LanguageCode: language });
-          let locale: ILocale = find(params.configuredLanguages, { code: language });
+          const found = findIndex(this.props.playlist.Title as IMultilingualString[], { LanguageCode: language });
+          const locale: ILocale = find(params.configuredLanguages, { code: language });
           if (locale) {
             if (found < 0) {
               addLanguageOptions.push({ key: language, text: locale.description, disabled: false });
@@ -169,7 +169,7 @@ export default class PlaylistDetails extends React.Component<IPlaylistDetailsPro
                     options={addLanguageOptions}
                     placeholder="⚑ Add language"
                     containsTypeAhead={false}
-                    onChange={this.addLanguage}></HOODropDown>
+                    onChange={this.addLanguage}/>
                 </div>
               }
             </div>

@@ -28,7 +28,7 @@ export default class TechnologySubjectEdit extends React.Component<ITechnologySu
     this.state = new TechnologySubjectEditState();
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<ITechnologySubjectEditProps>, nextState: Readonly<ITechnologySubjectEditState>) {
+  public shouldComponentUpdate(nextProps: Readonly<ITechnologySubjectEditProps>, nextState: Readonly<ITechnologySubjectEditState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     return true;

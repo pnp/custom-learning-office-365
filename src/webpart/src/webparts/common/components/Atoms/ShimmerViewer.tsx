@@ -28,7 +28,7 @@ export default class ShimmerViewer extends React.Component<IShimmerViewerProps, 
     this.state = new ShimmerViewerState();
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<IShimmerViewerProps>, nextState: Readonly<IShimmerViewerState>) {
+  public shouldComponentUpdate(nextProps: Readonly<IShimmerViewerProps>, nextState: Readonly<IShimmerViewerState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     return true;

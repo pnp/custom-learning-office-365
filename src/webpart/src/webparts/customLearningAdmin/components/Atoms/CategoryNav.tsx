@@ -35,26 +35,26 @@ export default class CategoryNav extends React.Component<ICategoryNavProps, ICat
     }
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<ICategoryNavProps>, nextState: Readonly<ICategoryNavState>) {
+  public shouldComponentUpdate(nextProps: Readonly<ICategoryNavProps>, nextState: Readonly<ICategoryNavState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     return true;
   }
 
   private getNavItems = (): IHOONavItem[] => {
-    let navItems: IHOONavItem[] = [];
+    const navItems: IHOONavItem[] = [];
     try {
 
       this.props.categories.forEach(element => {
-        let navItem: IHOONavItem = {
+        const navItem: IHOONavItem = {
           text: (element.Name instanceof Array) ? (element.Name as IMultilingualString[])[0].Text : element.Name,
           key: element.Id,
           onItemClick: (key) => { this.onNavClick(key, element) }
         };
         if (element.SubCategories && element.SubCategories.length > 0) {
-          let subNavItems: IHOONavItem[] = [];
+          const subNavItems: IHOONavItem[] = [];
           element.SubCategories.forEach(subElement => {
-            let subNavItem: IHOONavItem = {
+            const subNavItem: IHOONavItem = {
               text: (subElement.Name instanceof Array) ? (subElement.Name as IMultilingualString[])[0].Text : subElement.Name,
               key: subElement.Id,
               onItemClick: (key) => { this.onNavClick(key, subElement) }
@@ -81,7 +81,7 @@ export default class CategoryNav extends React.Component<ICategoryNavProps, ICat
     return navItems;
   }
   // TODO make sure this works
-  private onNavClick = (key: string | number, category?: ICategory) => {
+  private onNavClick = (key: string | number, category?: ICategory): void => {
     this.props.onClick(category);
   }
 

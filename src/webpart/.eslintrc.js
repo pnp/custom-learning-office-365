@@ -170,7 +170,7 @@ module.exports = {
           }
         ],
         // RATIONALE:         Catches code that is likely to be incorrect
-        'eqeqeq': ["error", "smart"],
+        'eqeqeq': 0,
         // STANDARDIZED BY:   eslint\conf\eslint-recommended.js
         'for-direction': 1,
         // RATIONALE:         Catches a common coding mistake.

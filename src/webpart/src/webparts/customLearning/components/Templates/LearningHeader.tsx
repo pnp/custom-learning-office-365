@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { Logger, LogLevel } from '@pnp/logging';
 
-import isEqual from "lodash-es/isEqual";
 import cloneDeep from "lodash-es/cloneDeep";
 
-import { IPlaylist, IHistoryItem, IAsset, ISearchResult } from '../../../common/models/Models';
+import { IPlaylist, IHistoryItem, IAsset } from '../../../common/models/Models';
+import { WebpartModeOptions } from '../../../common/models/Enums';
+import { UXService } from '../../../common/services/UXService';
 import HeaderToolbar from "../Atoms/HeaderToolbar";
 import HeaderPanel from "../Organisms/HeaderPanel";
-import { WebpartMode } from '../../../common/models/Enums';
 
 export interface ILearningHeaderProps {
   template: string;
@@ -19,11 +19,9 @@ export interface ILearningHeaderProps {
   currentAsset: IAsset;
   linkUrl: string;
   onAdminPlaylists: () => void;
-  doSearch: (searchValue: string) => void;
-  searchResults: ISearchResult[];
-  loadSearchResult: (subcategoryId: string, playlistId: string, assetId: string) => void;
-  webpartMode: string;
+  //webpartMode: string;
   webpartTitle: string;
+  alwaysShowSearch: boolean;
 }
 
 export interface ILearningHeaderState {
@@ -36,34 +34,16 @@ export class LearningHeaderState implements ILearningHeaderState {
   ) { }
 }
 
-export default class LearningHeader extends React.Component<ILearningHeaderProps, ILearningHeaderState> {
+export default class LearningHeader extends React.PureComponent<ILearningHeaderProps, ILearningHeaderState> {
   private LOG_SOURCE: string = "LearningHeader";
-  private _reInit: boolean = false;
 
   constructor(props) {
     super(props);
-    this.state = new LearningHeaderState();
+    const panelOpen = (props.webpartMode === WebpartModeOptions.searchonly) ? "Search" : "";
+    this.state = new LearningHeaderState(panelOpen);
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<ILearningHeaderProps>, nextState: Readonly<ILearningHeaderState>) {
-    if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
-      return false;
-    if (this.state.panelOpen) {
-      this._reInit = true;
-    }
-
-    return true;
-  }
-
-  public componentDidUpdate() {
-    //Close the panels for search, copy, and admin if they are open and you move pages
-    if (this._reInit && (!this.props.searchResults || this.props.searchResults.length <= 0)) {
-      this._reInit = false;
-      this.buttonClick(this.state.panelOpen);
-    }
-  }
-
-  private buttonClick = (buttonType: string) => {
+  private buttonClick = (buttonType: string): void => {
     try {
       if (buttonType === "Gear") {
         this.props.onAdminPlaylists();
@@ -83,15 +63,6 @@ export default class LearningHeader extends React.Component<ILearningHeaderProps
     }
   }
 
-  private loadSearchResultClosePanel = (subcategoryId: string, playlistId: string, assetId: string) => {
-    try {
-      this.setState({ panelOpen: "" });
-      this.props.loadSearchResult(subcategoryId, playlistId, assetId);
-    } catch (err) {
-      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (loadSearchResultClosePanel) - ${err}`, LogLevel.Error);
-    }
-  }
-
   public render(): React.ReactElement<ILearningHeaderProps> {
     try {
       return (
@@ -102,15 +73,14 @@ export default class LearningHeader extends React.Component<ILearningHeaderProps
             historyClick={this.props.historyClick}
             buttonClick={this.buttonClick}
             panelOpen={this.state.panelOpen}
-            webpartMode={this.props.webpartMode}
+            //webpartMode={this.props.webpartMode}
           />
-          {(this.props.webpartMode !== WebpartMode.contentonly) &&
+          {(UXService.WebPartMode !== WebpartModeOptions.contentonly || this.props.alwaysShowSearch) &&
             <HeaderPanel
               panelOpen={this.state.panelOpen}
+              closePanel={() => {this.setState({ panelOpen: "" });}}
               linkUrl={this.props.linkUrl}
-              doSearch={this.props.doSearch}
-              searchResults={this.props.searchResults}
-              loadSearchResult={this.loadSearchResultClosePanel}
+              alwaysShowSearch={this.props.alwaysShowSearch}
             />
           }
         </div>

@@ -45,7 +45,7 @@ export default class RecursiveTreeItem extends React.Component<IRecursiveTreeIte
     this.state = new RecursiveTreeItemState(selected);
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<IRecursiveTreeItemProps>, nextState: Readonly<IRecursiveTreeItemState>) {
+  public shouldComponentUpdate(nextProps: Readonly<IRecursiveTreeItemProps>, nextState: Readonly<IRecursiveTreeItemState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     if (this.props.autoExpandChildren && this.props.treeItem.children.length < 1 && (nextProps.selectedKeys != this.props.selectedKeys)) {
@@ -56,7 +56,7 @@ export default class RecursiveTreeItem extends React.Component<IRecursiveTreeIte
     return true;
   }
 
-  public componentDidUpdate() {
+  public componentDidUpdate(): void {
     if (this._updateSelected) {
       this._updateSelected = false;
       const selected = includes(this.props.selectedKeys, this.props.treeItem.key);
@@ -67,7 +67,7 @@ export default class RecursiveTreeItem extends React.Component<IRecursiveTreeIte
     }
   }
 
-  private expandGroup = () => {
+  private expandGroup = (): void => {
     this.setState({
       expanded: !this.state.expanded
     });
@@ -110,9 +110,10 @@ export default class RecursiveTreeItem extends React.Component<IRecursiveTreeIte
 
             }
           </div>
-          {this.props.treeItem.children && this.props.treeItem.children.length > 0 && this.props.treeItem.children.map(c => {
+          {this.props.treeItem.children && this.props.treeItem.children.length > 0 && this.props.treeItem.children.map((c, idx) => {
             return (
               <RecursiveTreeItem
+                key={idx}
                 level={this.props.level + 1}
                 treeItem={c}
                 selectedKeys={this.props.selectedKeys}

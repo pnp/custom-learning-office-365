@@ -40,7 +40,7 @@ export default class CategoryItem extends React.Component<ICategoryItemProps, IC
     this.state = new CategoryItemState();
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<ICategoryItemProps>, nextState: Readonly<ICategoryItemState>) {
+  public shouldComponentUpdate(nextProps: Readonly<ICategoryItemProps>, nextState: Readonly<ICategoryItemState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     return true;

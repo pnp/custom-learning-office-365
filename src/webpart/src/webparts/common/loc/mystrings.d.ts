@@ -248,6 +248,7 @@ declare interface IM365LPStrings {
   ValidateBase: string;
   CustomizeSort: string;
   ResetSort: string;
+  AlwaysShowSearchLabel: string;
 }
 
 declare module 'M365LPStrings' {

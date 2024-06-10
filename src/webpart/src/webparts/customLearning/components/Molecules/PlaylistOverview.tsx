@@ -28,7 +28,7 @@ export default class PlaylistOverview extends React.Component<IPlaylistOverviewP
     this.state = new PlaylistOverviewState();
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<IPlaylistOverviewProps>, nextState: Readonly<IPlaylistOverviewState>) {
+  public shouldComponentUpdate(nextProps: Readonly<IPlaylistOverviewProps>, nextState: Readonly<IPlaylistOverviewState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     return true;
@@ -38,9 +38,10 @@ export default class PlaylistOverview extends React.Component<IPlaylistOverviewP
     try {
       return (
         <div data-component={this.LOG_SOURCE} className="plov">
-          {this.props.playlistAssets && this.props.playlistAssets.length > 0 && this.props.playlistAssets.map((a, index) => {
+          {this.props.playlistAssets && this.props.playlistAssets.length > 0 && this.props.playlistAssets.map((a, idx) => {
             return (
               <AssetItem
+                key={idx}
                 assetTitle={(a.Title instanceof Array) ? (a.Title as IMultilingualString[])[0].Text : a.Title as string}
                 onClick={() => { this.props.assetClick(a.Id); }}
               />

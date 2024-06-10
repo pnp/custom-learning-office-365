@@ -54,22 +54,22 @@ export default class UpdateConfiguration extends React.Component<IUpdateConfigur
     Logger.activeLogLevel = LogLevel.Warning;
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<IUpdateConfigurationProps>, nextState: Readonly<IUpdateConfigurationState>) {
+  public shouldComponentUpdate(nextProps: Readonly<IUpdateConfigurationProps>, nextState: Readonly<IUpdateConfigurationState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     return true;
   }
 
-  public componentWillUnmount() {
+  public componentWillUnmount(): void {
     Logger.clearSubscribers();
     Logger.subscribe(ConsoleListener());
     Logger.activeLogLevel = LogLevel.Info;
   }
 
   private logMessage = FunctionListener((entry: ILogEntry) => {
-    let messages = cloneDeep(this.state.messages);
-    let messageCount = countBy(messages, "level");
-    let errors = messageCount["3"] ? messageCount["3"] : 0;
+    const messages = cloneDeep(this.state.messages);
+    const messageCount = countBy(messages, "level");
+    const errors = messageCount["3"] ? messageCount["3"] : 0;
     messages.push(entry);
     this.setState({
       messages: messages,
@@ -77,19 +77,19 @@ export default class UpdateConfiguration extends React.Component<IUpdateConfigur
     });
   });
 
-  private buttonClick = async () => {
+  private buttonClick = async (): Promise<void> => {
     if (this.state.state === 1) {
       this.setState({
         state: 2
       });
-      let m = await this.props.dataService.getMetadata();
+      const m = await this.props.dataService.getMetadata();
       this._customDataService.doDataUpgrade(this.props.dataService, this.props.startVersion, this.props.cache, m, this.complete);
     } else if (this.state.state === 3) {
       window.location.href = window.location.origin + window.location.pathname;
     }
   }
 
-  private complete = () => {
+  private complete = (): void => {
     this.setState({
       state: 3
     });
@@ -97,13 +97,13 @@ export default class UpdateConfiguration extends React.Component<IUpdateConfigur
 
   public render(): React.ReactElement<IUpdateConfigurationProps> {
     try {
-      let supportUrl = `${params.updateInstructionUrl.substring(0, params.updateInstructionUrl.indexOf("#"))}/issues`;
+      const supportUrl = `${params.updateInstructionUrl.substring(0, params.updateInstructionUrl.indexOf("#"))}/issues`;
       return (
         <div data-component={this.LOG_SOURCE} className={`${styles.customLearning} ${(params.appPartPage) ? styles.appPartPage : ""}`}>
           <h1>{this.props.cdn}</h1>
           <h2>{`${strings.DataUpgradeTitle} ${this.props.startVersion.toLowerCase()} -> ${this.endVersion.toLowerCase()}`}</h2>
           {this.state.state === 1 &&
-            <HOOLabel label={strings.DataUpgradeIntro}></HOOLabel>
+            <HOOLabel label={strings.DataUpgradeIntro}/>
           }
           {/* TODO Check this to make sure it works */}
           {this.state.state !== 1 &&
@@ -117,13 +117,13 @@ export default class UpdateConfiguration extends React.Component<IUpdateConfigur
                 closeDisabled={true}
                 closeOnClick={function noRefCheck() { }} />
               <HOODialogContent>
-                <a href={supportUrl} target="_blank">{strings.DataUpgradeIssueLink}</a>
+                <a href={supportUrl} rel="noreferrer" target="_blank">{strings.DataUpgradeIssueLink}</a>
               </HOODialogContent>
             </HOODialog>
 
           }
           {this.state.state === 3 &&
-            <HOOLabel label={strings.DataUpgradeComplete}></HOOLabel>
+            <HOOLabel label={strings.DataUpgradeComplete}/>
           }
           {this.state.state !== 2 &&
             <HOOButton
@@ -133,7 +133,7 @@ export default class UpdateConfiguration extends React.Component<IUpdateConfigur
             />
           }
           {this.state.errors > 0 &&
-            <HOOLabel label={`${strings.DataUpgradeErrors}: ${this.state.errors}`}></HOOLabel>
+            <HOOLabel label={`${strings.DataUpgradeErrors}: ${this.state.errors}`}/>
           }
           {this.state.state !== 1 &&
             <>
@@ -145,9 +145,9 @@ export default class UpdateConfiguration extends React.Component<IUpdateConfigur
                     <th>{strings.LogMessage}</th>
                   </tr>
                 </thead>
-                {this.state.messages && this.state.messages.length > 0 && this.state.messages.map((m: ILogEntry) => {
+                {this.state.messages && this.state.messages.length > 0 && this.state.messages.map((m: ILogEntry, idx) => {
                   return (
-                    <tr>
+                    <tr key={idx}>
                       <td><HOOIcon
                         iconName={(m.level === 2) ? "icon-info-regular" : "icon-error-circle-regular"}
                         rootElementAttributes={{ className: (m.level === 2 ? styles.info : styles.error) }}
