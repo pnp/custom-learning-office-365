@@ -1,3 +1,4 @@
+import * as React from 'react';
 import { Logger, LogLevel } from '@pnp/logging';
 import includes from "lodash-es/includes";
 import uniqBy from "lodash-es/uniqBy";
@@ -9,7 +10,7 @@ import find from 'lodash-es/find';
 import cloneDeep from 'lodash-es/cloneDeep';
 import { ICacheController } from './CacheController';
 
-interface IUXService {
+export interface IUXService {
   readonly ready: boolean;
   readonly CacheConfig: ICacheConfig;
   readonly CDN: string;
@@ -20,7 +21,7 @@ interface IUXService {
   LoadSearchResultAsset: (subcategoryId: string, playlistId: string, assetId: string) => void;
 }
 
-class UXServiceInternal implements IUXService {
+export class UXService implements IUXService {
   private LOG_SOURCE = "🟢UXService";
   private _ready: boolean = false;
   private _cacheController: ICacheController;
@@ -177,4 +178,4 @@ class UXServiceInternal implements IUXService {
   }
 }
 
-export const UXService: IUXService = new UXServiceInternal();
+export const UXServiceContext = React.createContext(new UXService());

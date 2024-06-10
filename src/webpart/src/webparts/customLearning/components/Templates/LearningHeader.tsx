@@ -5,7 +5,7 @@ import cloneDeep from "lodash-es/cloneDeep";
 
 import { IPlaylist, IHistoryItem, IAsset } from '../../../common/models/Models';
 import { WebpartModeOptions } from '../../../common/models/Enums';
-import { UXService } from '../../../common/services/UXService';
+import { UXServiceContext } from '../../../common/services/UXService';
 import HeaderToolbar from "../Atoms/HeaderToolbar";
 import HeaderPanel from "../Organisms/HeaderPanel";
 
@@ -19,7 +19,6 @@ export interface ILearningHeaderProps {
   currentAsset: IAsset;
   linkUrl: string;
   onAdminPlaylists: () => void;
-  //webpartMode: string;
   webpartTitle: string;
   alwaysShowSearch: boolean;
 }
@@ -35,12 +34,19 @@ export class LearningHeaderState implements ILearningHeaderState {
 }
 
 export default class LearningHeader extends React.PureComponent<ILearningHeaderProps, ILearningHeaderState> {
+  static contextType = UXServiceContext;
+
   private LOG_SOURCE: string = "LearningHeader";
+  private _uxService: React.ContextType<typeof UXServiceContext>;
 
   constructor(props) {
     super(props);
     const panelOpen = (props.webpartMode === WebpartModeOptions.searchonly) ? "Search" : "";
     this.state = new LearningHeaderState(panelOpen);
+  }
+
+  public componentDidMount(): void {
+    this._uxService = this.context;
   }
 
   private buttonClick = (buttonType: string): void => {
@@ -73,9 +79,8 @@ export default class LearningHeader extends React.PureComponent<ILearningHeaderP
             historyClick={this.props.historyClick}
             buttonClick={this.buttonClick}
             panelOpen={this.state.panelOpen}
-            //webpartMode={this.props.webpartMode}
           />
-          {(UXService.WebPartMode !== WebpartModeOptions.contentonly || this.props.alwaysShowSearch) &&
+          {(this._uxService.WebPartMode !== WebpartModeOptions.contentonly || this.props.alwaysShowSearch) &&
             <HeaderPanel
               panelOpen={this.state.panelOpen}
               closePanel={() => {this.setState({ panelOpen: "" });}}

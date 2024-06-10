@@ -29,7 +29,7 @@ import { Logger, LogLevel, ConsoleListener } from "@pnp/logging";
 import { params } from "../common/services/Parameters";
 import { AppInsightsService } from "../common/services/AppInsightsService";
 import { WebhookService } from "../common/services/WebhookService";
-import { UXService } from "../common/services/UXService";
+import { UXService, UXServiceContext } from "../common/services/UXService";
 import { symset } from '@n8d/htwoo-react/SymbolSet';
 import { SPFxThemes, ISPFxThemes } from '@n8d/htwoo-react/SPFxThemes';
 import mlpicons from "../../../../node_modules/learning-pathways-styleguide/source/images/mlp-icons.svg"
@@ -62,6 +62,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
   private _isReady: boolean = false;
   private _isError: boolean = false;
   private _cacheController: ICacheController;
+  private _uxService = new UXService();
   private _validSetup: boolean = false;
   private _validConfig: boolean = false;
   private _teamsContext: app.Context;
@@ -178,8 +179,8 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
       WebhookService.initialize();
 
       //Initialize UX Service
-      UXService.Init(this._cacheController);
-      UXService.WebPartMode = this.properties.webpartMode;
+      this._uxService.Init(this._cacheController);
+      this._uxService.WebPartMode = this.properties.webpartMode;
 
       Logger.write(`🎓Initialized Microsoft 365 learning pathways - Tenant: ${this.context.pageContext.aadInfo.tenantId}`, LogLevel.Info);
     } catch (err) {
@@ -222,8 +223,8 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
     let element;
 
     //Update startType and startLocation if changed.
-    if (this.properties.webpartMode !== "" && this.properties.webpartMode !== UXService.WebPartMode) {
-      UXService.WebPartMode = this.properties.webpartMode;
+    if (this.properties.webpartMode !== "" && this.properties.webpartMode !== this._uxService.WebPartMode) {
+      this._uxService.WebPartMode = this.properties.webpartMode;
     }
 
     if (this.properties.defaultCategory !== "" && this.properties.defaultCategory !== this._startLocation) {
@@ -251,7 +252,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
     if (this.displayMode != DisplayMode.Edit) {
       //Set Webpart mode via query string
       if ((this._urlWebpartMode) && (this._urlWebpartMode !== "")) {
-        UXService.WebPartMode = this._urlWebpartMode;
+        this._uxService.WebPartMode = this._urlWebpartMode;
       }
 
       //If any of the categories are set in the Query String then we reset the web part here
@@ -324,6 +325,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
         element = React.createElement(React.Suspense, { fallback: shimmer },
           React.createElement(CustomLearning, props)
         );
+        //element = React.createElement(CustomLearning, props);
       } else {
         element = React.createElement(
           Error,
@@ -333,7 +335,11 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
         );
       }
     }
-    ReactDom.render(element, this.domElement);
+    //ReactDom.render(element, this.domElement);
+    if (this.domElement != null) {
+     const provider = React.createElement(UXServiceContext.Provider, { value: this._uxService }, element);
+     ReactDom.render(provider, this.domElement);
+    }
     return;
   }
 
@@ -524,27 +530,6 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
     this.properties.customSortOrder = [];
     this.render();
   }
-
-  // private getCSSVariablesOnElement = (): {[key: string]: string} => {
-  //   const retVal: {[key: string]: string} = {};
-  //   try {
-  //     const styles: CSSStyleDeclaration = this.domElement.style;
-
-  //     // request all key defined in theming
-  //     const themingKeys = Object.keys(styles);
-  //     // if we have the key
-  //     if (themingKeys !== null) {
-  //       // loop over it
-  //       themingKeys.forEach((key: string) => {          
-  //         retVal[styles[key]] = styles.getPropertyValue(styles[key]);
-  //       });
-  //     }
-  //   } catch (err) {
-  //     Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getCSSVariablesOnElement) - ${err} -- Error getting styles`, LogLevel.Error);
-  //   }
-
-  //   return retVal;
-  // }
 
   protected getPropertyPaneConfiguration(): IPropertyPaneConfiguration {
     const configuration: IPropertyPaneConfiguration = {

@@ -1,15 +1,14 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
-import isEqual from "lodash-es/isEqual";
 import find from "lodash-es/find";
 import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
 import HOOBreadcrumb, { IHOOBreadcrumbItem } from "@n8d/htwoo-react/HOOBreadcrumb";
 
 import { params } from "../../../common/services/Parameters";
 import { IHistoryItem } from "../../../common/models/Models";
-import { UXService } from "../../../common/services/UXService";
 import { Templates, Roles, WebpartModeOptions } from "../../../common/models/Enums";
+import { UXServiceContext } from '../../../common/services/UXService';
 
 export interface IHeaderToolbarProps {
   template: string;
@@ -17,7 +16,6 @@ export interface IHeaderToolbarProps {
   historyClick: (template: string, templateId: string, nav: boolean) => void;
   buttonClick: (buttonType: string) => void;
   panelOpen: string;
-  //webpartMode: string;
 }
 
 export interface IHeaderToolbarState {
@@ -27,22 +25,22 @@ export class HeaderToolbarState implements IHeaderToolbarState {
   constructor() { }
 }
 
-export default class HeaderToolbar extends React.Component<IHeaderToolbarProps, IHeaderToolbarState> {
+export default class HeaderToolbar extends React.PureComponent<IHeaderToolbarProps, IHeaderToolbarState> {
+  static contextType = UXServiceContext;
+
   private LOG_SOURCE: string = "HeaderToolbar";
+  private _uxService: React.ContextType<typeof UXServiceContext>;
   private _HeaderToolbar;
   private _breadcrumbMax: boolean = false;
 
   constructor(props) {
     super(props);
-
     this._HeaderToolbar = React.createRef();
     this.state = new HeaderToolbarState();
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<IHeaderToolbarProps>, nextState: Readonly<IHeaderToolbarState>): boolean {
-    if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
-      return false;
-    return true;
+  public componentDidMount(): void {
+    this._uxService = this.context;
   }
 
   private onBreadcrumbItemClicked = (event: React.MouseEvent, key: string | number): void => {
@@ -90,7 +88,7 @@ export default class HeaderToolbar extends React.Component<IHeaderToolbarProps, 
       }
       return (
         <div data-component={this.LOG_SOURCE} className="header-toolbar" ref={this._HeaderToolbar}>
-          {((UXService.WebPartMode !== WebpartModeOptions.contentonly) || ((UXService.WebPartMode === WebpartModeOptions.contentonly) && (breadcrumbItems.length > 1))) &&
+          {((this._uxService.WebPartMode !== WebpartModeOptions.contentonly) || ((this._uxService.WebPartMode === WebpartModeOptions.contentonly) && (breadcrumbItems.length > 1))) &&
             <div className="header-breadcrumb">
               <HOOBreadcrumb
                 breadcrumbItems={breadcrumbItems}
@@ -100,7 +98,7 @@ export default class HeaderToolbar extends React.Component<IHeaderToolbarProps, 
               />
             </div>
           }
-          {(UXService.WebPartMode !== WebpartModeOptions.contentonly) &&
+          {(this._uxService.WebPartMode !== WebpartModeOptions.contentonly) &&
             <div className="header-actions">
               <HOOButton type={HOOButtonType.Icon} iconName="icon-search-regular"
                 rootElementAttributes={{ className: (this.props.panelOpen === "Search") ? "selected" : "" }}
