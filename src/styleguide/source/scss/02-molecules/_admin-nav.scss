@@ -1,8 +1,16 @@
+@use '../../../../node_modules/@n8d/htwoo-core/lib/sass/00-base/colors/colors' as dt;
+
 .adm-nav{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: dt.$neutral-000;
+    margin-bottom: 1rem;
     .hoo-buttonicon-overflow{
         align-self: flex-end;
     }

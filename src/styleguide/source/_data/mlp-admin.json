@@ -131,7 +131,8 @@
                     "items": [
                         {
                             "text": "Outlook",
-                            "link": "#"
+                            "link": "#",
+                            "isCurrent": true
                         }
                         ,
                         {

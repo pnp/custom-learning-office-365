@@ -38,6 +38,9 @@
 }
 
 .adm-navsection-subcat{
+	.hoo-nav{
+		border: none;
+	}
 	box-sizing: border-box;
 	width: span(3 narrow of 12);
 	@media screen and (max-width: 768px){
