@@ -1,0 +1,20 @@
+<nav class="adm-nav" role="navigation">
+  <div class="adm-nav-menu">
+    {{#adm-pivot}}
+    {{> molecules-pivotbar-overflow}}
+    {{/adm-pivot}}
+  </div>
+  <div class="adm-nav-actions">
+    {{#admin-header-actions}}
+    {{> atoms-button-icon-overflow }}
+    {{/admin-header-actions}}
+    {{#admin-help}}
+    {{> atoms-button-icon }}
+    {{/admin-help}}
+  </div>
+  <div class="adm-nav-filter">
+    {{#admin-header-filter}}
+    {{> atoms-select }}
+    {{/admin-header-filter}}
+  </div>
+</nav>
