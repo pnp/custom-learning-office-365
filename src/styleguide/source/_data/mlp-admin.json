@@ -1,0 +1,177 @@
+{
+    "adm-pivot": {
+        "menu": {
+            "menuItems": [
+                {
+                    "title": "Microsoft Learing Pathways",
+                    "isActive": true
+                }
+            ],
+            "overflowButton": {
+                "iconDown": "icon-ellipses",
+                "label": "New Item",
+                "contextMenu": {
+                    "contextItems": []
+                }
+            }
+        }
+    },
+    "admin-header-actions": {
+        "aria-label": "Additional Actions",
+        "iconDown": "icon-ellipses",
+        "contextMenu": {
+            "contextItems": [
+                {
+                    "button": {
+                        "label": "Add Content Pack",
+                        "iconname": "icon-cloud-add-regular"
+                    }
+                },
+                {
+                    "button": {
+                        "label": "About Web Part",
+                        "iconname": "icon-info-regular"
+                    }
+                }
+            ]
+        }
+    },
+    "admin-help": {
+        "button": {
+            "aria-label": "Help",
+            "iconname": "icon-question-regular"
+        }
+    },
+    "admin-header-filter": {
+        "button": {
+            "aria-label": "Show Drop Down",
+            "iconname": "icon-arrow-down"
+        },
+        "select-options": {
+            "options": [
+                {
+                    "key": "Category",
+                    "value": "Category",
+                    "disabled": ""
+                },
+                {
+                    "key": "Technology",
+                    "value": "Technology",
+                    "disabled": ""
+                }
+            ]
+        }
+    },
+    "admin-nav": {
+        "nav": {
+            "tree-icon": {
+                "button": {
+                    "iconname": "icon-arrow-right"
+                }
+            },
+            "items": [
+                {
+                    "text": "Getting started",
+                    "link": "#",
+                    "items": [
+                        {
+                            "text": "First days",
+                            "link": "#"
+                        },
+                        {
+                            "text": "Recommended",
+                            "link": "#"
+                        },
+                        {
+                            "text": "Test",
+                            "link": "#"
+                        }
+                    ]
+                },
+                {
+                    "text": "Scenarios",
+                    "link": "#",
+                    "items": [
+                        {
+                            "text": "Modern workplace",
+                            "link": "#"
+                        }
+                        ,
+                        {
+                            "text": "Work remotely",
+                            "link": "#"
+                        },
+                        {
+                            "text": "Security",
+                            "link": "#"
+                        }
+                        ,
+                        {
+                            "text": "Security",
+                            "link": "#"
+                        },
+                        {
+                            "text": "Hybrid Workplace",
+                            "link": "#"
+                        }
+                        ,
+                        {
+                            "text": "Accessibility",
+                            "link": "#"
+                        },
+                        {
+                            "text": "Collaboration",
+                            "link": "#"
+                        }
+                    ]
+                },
+                {
+                    "text": "Products",
+                    "link": "#",
+                    "items": [
+                        {
+                            "text": "Outlook",
+                            "link": "#"
+                        }
+                        ,
+                        {
+                            "text": "OneDrive",
+                            "link": "#"
+                        },
+                        {
+                            "text": "Word",
+                            "link": "#"
+                        }
+                        ,
+                        {
+                            "text": "Excel",
+                            "link": "#"
+                        },
+                        {
+                            "text": "PowerPoint",
+                            "link": "#"
+                        }
+                        ,
+                        {
+                            "text": "OneNote",
+                            "link": "#"
+                        },
+                        {
+                            "text": "SharePoint",
+                            "link": "#"
+                        }
+                        ,
+                        {
+                            "text": "Microsoft Teams",
+                            "link": "#"
+                        },
+                        {
+                            "text": "Viva Engage",
+                            "link": "#"
+                        }
+                    ]
+                }
+            ]
+        },
+    }
+}

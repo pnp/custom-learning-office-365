@@ -8,14 +8,12 @@
   gap: clamp(1rem, 2vw, 2rem);
   margin-inline: clamp(1rem, 2vw, 2rem);
 
-  padding-top: 80px;
-
   @media screen and (max-width: 1268px) {
-    padding-top: 100px;
+    // padding-top: 100px;
   }
 
   &.nomsg {
-    padding-top: 50px;
+    // padding-top: 50px;
   }
 
   @media screen and (max-width: 480px) {

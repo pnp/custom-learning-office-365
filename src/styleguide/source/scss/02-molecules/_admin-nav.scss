@@ -1,8 +1,17 @@
 .adm-nav{
-    background-color: yellow;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     .hoo-buttonicon-overflow{
         align-self: flex-end;
     }
+}
+.adm-nav-menu{
+    width: 100%;
+}
+.adm-nav-actions{
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
 }
