@@ -6,7 +6,6 @@ import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
 
 import { IMetadataEntry } from "../../../common/models/Models";
 import * as strings from "M365LPStrings";
-import { ButtonTypes } from "../../../common/models/Enums";
 
 export interface ISubCategoryItemProps {
   index: number;
@@ -16,7 +15,7 @@ export interface ISubCategoryItemProps {
   description: string;
   audience: IMetadataEntry;
   onClick: () => void;
-  onDragStart: (event: React.DragEvent<HTMLDivElement>, index: number) => void;
+  onDragStart: (event: React.DragEvent<HTMLElement>, index: number) => void;
   onDragEnter: (index: number) => void;
   onDragEnd: (event) => void;
 }
@@ -43,41 +42,41 @@ export default class SubCategoryItem extends React.Component<ISubCategoryItemPro
   constructor(props) {
     super(props);
     this.state = new SubCategoryItemState();
-    try {
-      window.matchMedia("screen and (min-width: 1025px)").addEventListener('change', (event) => {
-        if (event.matches)
-          this.onMediaQueryChange(9999);
-      });
-      window.matchMedia("screen and (max-width: 1024px)").addEventListener('change', (event) => {
-        if (event.matches)
-          this.onMediaQueryChange(1024);
-      });
-      window.matchMedia("screen and (max-width: 768px)").addEventListener('change', (event) => {
-        if (event.matches)
-          this.onMediaQueryChange(768);
-      });
-      window.matchMedia("screen and (max-width: 480px)").addEventListener('change', (event) => {
-        if (event.matches)
-          this.onMediaQueryChange(480);
-      });
-    } catch (err) {
-      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (constructor) - ${err} -- media event listeners not supported in browser`, LogLevel.Error);
-    }
+    // try {
+    //   window.matchMedia("screen and (min-width: 1025px)").addEventListener('change', (event) => {
+    //     if (event.matches)
+    //       this.onMediaQueryChange(9999);
+    //   });
+    //   window.matchMedia("screen and (max-width: 1024px)").addEventListener('change', (event) => {
+    //     if (event.matches)
+    //       this.onMediaQueryChange(1024);
+    //   });
+    //   window.matchMedia("screen and (max-width: 768px)").addEventListener('change', (event) => {
+    //     if (event.matches)
+    //       this.onMediaQueryChange(768);
+    //   });
+    //   window.matchMedia("screen and (max-width: 480px)").addEventListener('change', (event) => {
+    //     if (event.matches)
+    //       this.onMediaQueryChange(480);
+    //   });
+    // } catch (err) {
+    //   Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (constructor) - ${err} -- media event listeners not supported in browser`, LogLevel.Error);
+    // }
   }
 
-  private onMediaQueryChange = (size: number): void => {
-    if (size !== this.state.mediaSize) {
-      let clamp: number = 4;
-      if (size === 1024)
-        clamp = 2;
-      if (size === 768)
-        clamp = 5;
-      this.setState({
-        mediaSize: size,
-        clamp: clamp
-      });
-    }
-  }
+  // private onMediaQueryChange = (size: number): void => {
+  //   if (size !== this.state.mediaSize) {
+  //     let clamp: number = 4;
+  //     if (size === 1024)
+  //       clamp = 2;
+  //     if (size === 768)
+  //       clamp = 5;
+  //     this.setState({
+  //       mediaSize: size,
+  //       clamp: clamp
+  //     });
+  //   }
+  // }
 
   public shouldComponentUpdate(nextProps: Readonly<ISubCategoryItemProps>, nextState: Readonly<ISubCategoryItemState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
@@ -93,19 +92,20 @@ export default class SubCategoryItem extends React.Component<ISubCategoryItemPro
   //   }
   // }
 
-  private _toggleLines = (event: React.MouseEvent<HTMLSpanElement, MouseEvent>): void => {
-    event.preventDefault();
-    event.stopPropagation();
+  // private _toggleLines = (event: React.MouseEvent<HTMLSpanElement, MouseEvent>): void => {
+  //   event.preventDefault();
+  //   event.stopPropagation();
 
-    this.setState({
-      expanded: !this.state.expanded
-    });
-  }
+  //   this.setState({
+  //     expanded: !this.state.expanded
+  //   });
+  // }
 
   public render(): React.ReactElement<ISubCategoryItemProps> {
     try {
       return (
-        <div data-component={this.LOG_SOURCE}
+        <article data-component={this.LOG_SOURCE}
+          tabIndex={0}
           className="plov-item"
           onClick={this.props.onClick}
           key={`item-${this.props.index}`}
@@ -117,27 +117,11 @@ export default class SubCategoryItem extends React.Component<ISubCategoryItemPro
           data-index={this.props.index}
         >
           <div className="plov-img">
-            <img src={this.props.imageSource} width="320" height="180" loading="lazy" />
+            <img src={this.props.imageSource} loading="lazy" alt="" role="presentation" />
           </div>
           <div className="plov-desc">
             <h3 className="plov-title">{this.props.title}</h3>
-            <p>
-              <div />
-              {/* TODO add the trancate via CSS */}
-              <div
-              // lines={!this.state.expanded && this.state.clamp}
-              // ellipsis={(
-              //   <span className="truncateToggle notExpanded" onClick={this._toggleLines} aria-hidden="true" dangerouslySetInnerHTML={{ "__html": ButtonTypes.ArrowDown.SVG }} ></span>
-              // )}
-              // onTruncate={this._handleTruncate}
-              >
-                <span className="truncateToggle notExpanded" onClick={this._toggleLines} aria-hidden="true" dangerouslySetInnerHTML={{ "__html": ButtonTypes.ArrowDown.SVG }} />
-                {this.props.description}
-              </div>
-              {!this.state.truncated && this.state.expanded && (
-                <span className="truncateToggle expanded" onClick={this._toggleLines} aria-hidden="true" dangerouslySetInnerHTML={{ "__html": ButtonTypes.ArrowUp.SVG }} />
-              )}
-            </p>
+            <p className="plov-short">{this.props.description}</p>
             <div className="plov-audience">{(this.props.audience.Name.length > 0) ? this.props.audience.Name : strings.FilterNotSet}</div>
           </div>
           {this.props.dragMode &&
@@ -145,10 +129,10 @@ export default class SubCategoryItem extends React.Component<ISubCategoryItemPro
               {
                 //TODO check the onClick and icon 
               }
-              <HOOButton type={HOOButtonType.Icon} iconName="GripperBarVertical" disabled={false} onClick={function noRefCheck() { }} />
+              <HOOButton type={HOOButtonType.Icon} iconName="icon-re-order-dots-vertical-regular" disabled={false} onClick={function noRefCheck() { }} />
             </div>
           }
-        </div>
+        </article>
       );
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);

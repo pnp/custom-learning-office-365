@@ -58,7 +58,7 @@ export default class CategoryList extends React.Component<ICategoryListProps, IC
   }
 
   //Support drag and drop for custom sorting
-  private _startDrag = (event: React.DragEvent<HTMLDivElement>, index: number): void => {
+  private _startDrag = (event: React.DragEvent<HTMLElement>, index: number): void => {
     if (!(this._uxService.CustomSort && this._uxService.EditMode)) { return; }
     try {
       event.stopPropagation();
@@ -121,25 +121,27 @@ export default class CategoryList extends React.Component<ICategoryListProps, IC
       if (!this.state.subcategories || this.state.subcategories.length < 1) return null;
       const dragMode: boolean = (this._uxService.CustomSort && this._uxService.EditMode);
       return (
-        <div className={`category-overview ${(dragMode ? "editSort" : "")}`}>
+        <menu className={`category-overview ${(dragMode ? "editSort" : "")}`} tabIndex={-1}>
           {this.state.subcategories.map((subcategory, idx) => {
             if (subcategory.Count && subcategory.Count > 0) {
               return (
-                <CategoryItem
-                  index={idx}
-                  dragMode={dragMode}
-                  subcategoryId={subcategory.Id}
-                  subcategoryImage={subcategory.Image as string}
-                  subcategoryName={subcategory.Name as string}
-                  selectItem={this.props.selectItem}
-                  onDragStart={this._startDrag}
-                  onDragEnter={this._dragEnter}
-                  onDragEnd={this._endDrag}
-                />
+                <li>
+                  <CategoryItem
+                    index={idx}
+                    dragMode={dragMode}
+                    subcategoryId={subcategory.Id}
+                    subcategoryImage={subcategory.Image as string}
+                    subcategoryName={subcategory.Name as string}
+                    selectItem={this.props.selectItem}
+                    onDragStart={this._startDrag}
+                    onDragEnter={this._dragEnter}
+                    onDragEnd={this._endDrag}
+                  />
+                </li>
               );
             }
           })}
-        </div>
+        </menu>
       );
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);

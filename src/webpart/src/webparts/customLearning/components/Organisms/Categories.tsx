@@ -31,7 +31,7 @@ export default class Categories extends React.PureComponent<ICategoriesProps, IC
         <>
           {this.props.detail.map((category, idx) => {
             return (
-              <div data-component={this.LOG_SOURCE} key={idx}>
+              <div data-component={this.LOG_SOURCE} key={idx} className="category-section">
                 <h2>{category.Name}</h2>
                 <CategoryList
                   subcategories={category.SubCategories}
