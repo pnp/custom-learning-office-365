@@ -1,0 +1,10 @@
+.adm-cmdbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    .hoo-input-search{
+        width: 100%;
+        max-width: 300px;
+    }
+}
