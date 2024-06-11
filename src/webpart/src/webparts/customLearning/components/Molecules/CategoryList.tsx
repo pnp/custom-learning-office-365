@@ -6,15 +6,13 @@ import map from 'lodash-es/map';
 import filter from 'lodash-es/filter';
 
 import { ICategory } from '../../../common/models/Models';
+import { UXServiceContext } from '../../../common/services/UXService';
 import CategoryItem from "../Atoms/CategoryItem";
 
 
 export interface ICategoryListProps {
   subcategories: ICategory[];
-  editMode: boolean;
-  customSort: boolean;
   selectItem: (template: string, templateId: string) => void;
-  updateCustomSort: (customSortOrder: string[]) => void;
 }
 
 export interface ICategoryListState {
@@ -28,13 +26,20 @@ export class CategoryListState implements ICategoryListState {
 }
 
 export default class CategoryList extends React.Component<ICategoryListProps, ICategoryListState> {
+  static contextType = UXServiceContext;
+
   private LOG_SOURCE: string = "CategoryList";
+  private _uxService: React.ContextType<typeof UXServiceContext>;
   private _updateState: boolean;
   private _dragResource: ICategory;
 
   constructor(props: ICategoryListProps) {
     super(props);
     this.state = new CategoryListState(props.subcategories);
+  }
+  
+  private _reInit = (): void => {
+    this.render();
   }
 
   public shouldComponentUpdate(nextProps: Readonly<ICategoryListProps>, nextState: Readonly<ICategoryListState>): boolean {
@@ -53,13 +58,13 @@ export default class CategoryList extends React.Component<ICategoryListProps, IC
   }
 
   //Support drag and drop for custom sorting
-  private startDrag = (event: React.DragEvent<HTMLDivElement>, index: number): void => {
-    if (!(this.props.customSort && this.props.editMode)) { return; }
+  private _startDrag = (event: React.DragEvent<HTMLElement>, index: number): void => {
+    if (!(this._uxService.CustomSort && this._uxService.EditMode)) { return; }
     try {
       event.stopPropagation();
       this._dragResource = this.state.subcategories[index];
       event.dataTransfer.effectAllowed = "move";
-      event.target[0].style.cursor = "move";
+      (event.target as HTMLElement).style.cursor = "move";
       event.dataTransfer.dropEffect = "move";
       event.dataTransfer.setData("text/html", event.currentTarget.nodeName);
       event.dataTransfer.setDragImage(event.currentTarget, 20, 20);
@@ -68,22 +73,22 @@ export default class CategoryList extends React.Component<ICategoryListProps, IC
     }
   }
 
-  private endDrag = (): void => {
-    if (!(this.props.customSort && this.props.editMode)) { return; }
+  private _endDrag = (): void => {
+    if (!(this._uxService.CustomSort && this._uxService.EditMode)) { return; }
     try {
       const customSortOrder: string[] = map(this.state.subcategories, (item: ICategory) => {
         return item.Id;
       });
       this._dragResource = null;
       if (!isEqual(this.state.subcategories, this.props.subcategories))
-        this.props.updateCustomSort(customSortOrder);
+        this._uxService.UpdateCustomSort(customSortOrder);
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (endDrag) - ${err}`, LogLevel.Error);
     }
   }
 
-  private dragEnter = (index: number): void => {
-    if (!(this.props.customSort && this.props.editMode)) { return; }
+  private _dragEnter = (index: number): void => {
+    if (!(this._uxService.CustomSort && this._uxService.EditMode)) { return; }
     try {
       const draggedOverItem = this.state.subcategories[index];
 
@@ -106,29 +111,37 @@ export default class CategoryList extends React.Component<ICategoryListProps, IC
   }
 
   public render(): React.ReactElement<ICategoryListProps> {
+    if (this._uxService == undefined) {
+      this._uxService = this.context;
+      const renderFunction = {};
+      renderFunction[this.LOG_SOURCE] = this._reInit;
+      this._uxService.FCLWPRender = renderFunction;
+    }
     try {
       if (!this.state.subcategories || this.state.subcategories.length < 1) return null;
-      const dragMode: boolean = (this.props.customSort && this.props.editMode);
+      const dragMode: boolean = (this._uxService.CustomSort && this._uxService.EditMode);
       return (
-        <div className={`category-overview ${(dragMode ? "editSort" : "")}`}>
+        <menu className={`category-overview ${(dragMode ? "editSort" : "")}`} tabIndex={-1}>
           {this.state.subcategories.map((subcategory, idx) => {
             if (subcategory.Count && subcategory.Count > 0) {
               return (
-                <CategoryItem
-                  index={idx}
-                  dragMode={dragMode}
-                  subcategoryId={subcategory.Id}
-                  subcategoryImage={subcategory.Image as string}
-                  subcategoryName={subcategory.Name as string}
-                  selectItem={this.props.selectItem}
-                  onDragStart={this.startDrag}
-                  onDragEnter={this.dragEnter}
-                  onDragEnd={this.endDrag}
-                />
+                <li>
+                  <CategoryItem
+                    index={idx}
+                    dragMode={dragMode}
+                    subcategoryId={subcategory.Id}
+                    subcategoryImage={subcategory.Image as string}
+                    subcategoryName={subcategory.Name as string}
+                    selectItem={this.props.selectItem}
+                    onDragStart={this._startDrag}
+                    onDragEnter={this._dragEnter}
+                    onDragEnd={this._endDrag}
+                  />
+                </li>
               );
             }
           })}
-        </div>
+        </menu>
       );
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);

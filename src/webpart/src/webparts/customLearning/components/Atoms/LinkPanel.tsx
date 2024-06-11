@@ -1,7 +1,6 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
-//import HOOSearch from "@n8d/htwoo-react/HOOSearch";
 import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
 import HOOText from "@n8d/htwoo-react/HOOText";
 
@@ -35,20 +34,23 @@ export default class LinkPanel extends React.PureComponent<ILinkPanelProps, ILin
     }
   }
 
-  //TODO Cleanup code
   public render(): React.ReactElement<ILinkPanelProps> {
     try {
       return (
         <div data-component={this.LOG_SOURCE} className={`headerpanel fbcolumn ${(this.props.panelOpen) ? "show" : ""}`}>
           <div className="copypanel">
-            <HOOText value={this.props.linkUrl} disabled={true} onChange={() => {}} />
-            {/* <HOOSearch
-              onChange={function noRefCheck() { }}
-              onSearch={function noRefCheck() { }}
-              placeholder={this.props.linkUrl}
-              value={this.props.linkUrl}
-              disabled={true}
-            /> */}
+            <HOOText value={this.props.linkUrl} onChange={() => { }}
+              rootElementAttributes={{
+                style: {
+                  width: '100%'
+                }
+              }}
+              inputElementAttributes={{
+                readOnly: true,
+                style: {
+                  width: '100%'
+                }
+              }} />
             <HOOButton type={HOOButtonType.Primary}
               label={strings.LinkPanelCopyLabel}
               onClick={this.linkClick} />

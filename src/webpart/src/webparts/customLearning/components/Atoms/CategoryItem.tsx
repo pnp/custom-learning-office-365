@@ -2,9 +2,9 @@ import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
 import isEqual from "lodash-es/isEqual";
-import HOOIcon from "@n8d/htwoo-react/HOOIcon";
 
 import { Templates } from '../../../common/models/Enums';
+import HOOIcon from "@n8d/htwoo-react/HOOIcon";
 
 export interface ICategoryItemProps {
   index: number;
@@ -13,7 +13,7 @@ export interface ICategoryItemProps {
   subcategoryImage: string;
   subcategoryName: string;
   selectItem: (type: string, id: string) => void;
-  onDragStart: (event: React.DragEvent<HTMLDivElement>, index: number) => void;
+  onDragStart: (event: React.DragEvent<HTMLElement>, index: number) => void;
   onDragEnter: (index: number) => void;
   onDragEnd: (event) => void;
 }
@@ -57,33 +57,33 @@ export default class CategoryItem extends React.Component<ICategoryItemProps, IC
       }
 
       return (
-        <div data-component={this.LOG_SOURCE}
+        <article data-component={this.LOG_SOURCE}
+          tabIndex={0}
           className="category-item"
           onClick={() => { if (!this.props.dragMode) { this.props.selectItem(Templates.SubCategory, this.props.subcategoryId); } }}
           key={`item-${this.props.index}`}
-          role="link"
+          role="button"
           draggable={this.props.dragMode}
           onDragStart={(event) => { this.props.onDragStart(event, this.props.index); }}
           onDragEnter={() => { this.props.onDragEnter(this.props.index); }}
           onDragEnd={this.props.onDragEnd}
           data-index={this.props.index}
         >
-          <div className="category-icon">
-            {/* <img src={categoryImage} loading="lazy" width="278" height="200" /> */}
-            <img src={categoryImage} loading="lazy" width="320" height="180" />
+          <div className="category-icon" role="presentation">
+            <img src={categoryImage} alt="" loading="lazy" />
           </div>
           <div className="category-label">
             {this.props.dragMode &&
               // TODO figure out where this icon is being used and make sure it's in the SVG file
               <div className="category-handle">
                 <HOOIcon
-                  iconName="GripperBarVertical"
+                  iconName="icon-re-order-dots-vertical-regular"
                 />
               </div>
             }
             {this.props.subcategoryName}
           </div>
-        </div>
+        </article>
       );
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);

@@ -342,3 +342,8 @@ export interface ILocale {
   code: string;
 }
 
+export interface IWebPartStartup {
+  startingType: string;
+  startingLocation: string;
+  startAsset: string;
+}

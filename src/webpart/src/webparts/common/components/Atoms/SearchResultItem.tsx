@@ -42,6 +42,10 @@ export default class SearchResultItem extends React.Component<ISearchResultItemP
               <article className="plov-item plov-noimg" tabIndex={0} role="link">
                 <div className="plov-desc">
                   <h3 className="plov-title" onClick={() => { this.props.loadSearchResult(null, this.props.result.Parent ? this.props.result.Parent.Id : null, this.props.result.Result.Id); }}>{this.props.result.Result.Title}</h3>
+
+                  {this.props.resultView === SearchResultView.Full &&
+                    <p className="plov-short">{(this.props.result.Result as IPlaylist).Description}</p>
+                  }
                   {this.props.resultView === SearchResultView.Full &&
                     <div className="plov-audience">
                       <span>{strings.SearchResultItemPlayListLabel}</span>
