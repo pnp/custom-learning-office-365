@@ -90,15 +90,17 @@ export default class HeaderToolbar extends React.PureComponent<IHeaderToolbarPro
           }
           {(this._uxService.WebPartMode !== WebPartModeOptions.contentonly) &&
             <div className="header-actions">
-              <HOOButton type={HOOButtonType.Icon} iconName="icon-search-regular"
-                rootElementAttributes={{ className: (this.props.panelOpen === "Search") ? "selected" : "" }}
-                onClick={() => { this.props.buttonClick("Search"); }} />
-              <HOOButton type={HOOButtonType.Icon} iconName="icon-link-regular"
-                rootElementAttributes={{ className: (this.props.panelOpen === "Link") ? "selected" : "" }}
-                onClick={() => { this.props.buttonClick("Link"); }} />
-              <HOOButton type={HOOButtonType.Icon} iconName="icon-settings-regular"
-                disabled={(this.props.template !== Templates.Playlist && params.userRole === Roles.Visitors)}
-                onClick={() => { this.props.buttonClick("Gear"); }} />
+              <menu className="header-toolbar">
+                <li><HOOButton type={HOOButtonType.Icon} iconName="icon-search-regular"
+                  rootElementAttributes={{ className: (this.props.panelOpen === "Search") ? "selected" : "" }}
+                  onClick={() => { this.props.buttonClick("Search"); }} /></li>
+                <li><HOOButton type={HOOButtonType.Icon} iconName="icon-link-regular"
+                  rootElementAttributes={{ className: (this.props.panelOpen === "Link") ? "selected" : "" }}
+                  onClick={() => { this.props.buttonClick("Link"); }} /></li>
+                <li><HOOButton type={HOOButtonType.Icon} iconName="icon-settings-regular"
+                  disabled={(this.props.template !== Templates.Playlist && params.userRole === Roles.Visitors)}
+                  onClick={() => { this.props.buttonClick("Gear"); }} /></li>
+              </menu>
             </div>
           }
         </div>

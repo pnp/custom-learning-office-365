@@ -29,7 +29,7 @@ export default class HeaderPanel extends React.PureComponent<IHeaderPanelProps, 
     try {
       return (
         <>
-          {this.props.panelOpen === "Search" || this.props.alwaysShowSearch &&
+          {(this.props.panelOpen === "Search" || this.props.alwaysShowSearch) &&
             <SearchPanel
               panelOpen={this.props.panelOpen === "Search" || this.props.alwaysShowSearch}
               closePanel={() => { this.props.closePanel("Search") }} />

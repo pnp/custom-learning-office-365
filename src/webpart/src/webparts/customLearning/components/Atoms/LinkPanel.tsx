@@ -36,12 +36,23 @@ export default class LinkPanel extends React.PureComponent<ILinkPanelProps, ILin
   }
 
   //TODO Cleanup code
+  //TODO Make sure that this is how Stefan wants to make the link text box 100%
   public render(): React.ReactElement<ILinkPanelProps> {
     try {
       return (
         <div data-component={this.LOG_SOURCE} className={`headerpanel fbcolumn ${(this.props.panelOpen) ? "show" : ""}`}>
           <div className="copypanel">
-            <HOOText value={this.props.linkUrl} disabled={true} onChange={() => {}} />
+            <HOOText value={this.props.linkUrl} disabled={true} onChange={() => { }}
+              rootElementAttributes={{
+                style: {
+                  width: '100%'
+                }
+              }}
+              inputElementAttributes={{
+                style: {
+                  width: '100%'
+                }
+              }} />
             {/* <HOOSearch
               onChange={function noRefCheck() { }}
               onSearch={function noRefCheck() { }}
