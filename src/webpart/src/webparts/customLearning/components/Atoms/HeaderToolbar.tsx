@@ -35,6 +35,10 @@ export default class HeaderToolbar extends React.PureComponent<IHeaderToolbarPro
     this.state = new HeaderToolbarState();
   }
 
+  private _reInit = (): void => {
+    this.render();
+  }
+
   private onBreadcrumbItemClicked = (event: React.MouseEvent, key: string | number): void => {
     try {
       const historyIdx = this._uxService.History.findIndex((o) => { return o.Id === key; });
@@ -47,7 +51,12 @@ export default class HeaderToolbar extends React.PureComponent<IHeaderToolbarPro
   }
 
   public render(): React.ReactElement<IHeaderToolbarProps> {
-    if (this._uxService == undefined) { this._uxService = this.context; }
+    if (this._uxService == undefined) {
+      this._uxService = this.context;
+      const renderFunction = {};
+      renderFunction[this.LOG_SOURCE] = this._reInit;
+      this._uxService.FCLWPRender = renderFunction;
+    }
     try {
       let sectionClass = false;
 

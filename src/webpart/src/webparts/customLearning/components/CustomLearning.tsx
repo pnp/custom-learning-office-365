@@ -27,9 +27,6 @@ import PlaylistControl from "./Molecules/PlaylistControl";
 import { UXServiceContext } from '../../common/services/UXService';
 
 export interface ICustomLearningProps {
-  // startType: string;
-  // startLocation: string;
-  // startAsset: string;
   webpartTitle: string;
   teamsEntityId: string;
   alwaysShowSearch: boolean;
@@ -70,7 +67,6 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
   static contextType = UXServiceContext;
 
   private LOG_SOURCE: string = "CustomLearning";
-  //private _reInit: boolean = false;
   private _uxService: React.ContextType<typeof UXServiceContext>;
 
   private teamsContext: boolean = false;
@@ -90,17 +86,12 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
     this._loadDetail(this._uxService.WebPartStartup.startingType, this._uxService.WebPartStartup.startingLocation);
   }
 
-  // public componentDidUpdate(): void {
-  //   if (this._reInit) {
-  //     this._reInit = false;
-  //     this._loadDetail(this.props.startType, this.props.startLocation);
-  //   }
-  // }
-
   private _init(): void {
     this._uxService.FShowSearchResults = this._loadSearchResultAsset;
     this._uxService.FShowHistory = this._showHistory;
-    this._uxService.FCLWPRender = this._reInit;
+    const renderFunction = {};
+    renderFunction[this.LOG_SOURCE] = this._reInit;
+    this._uxService.FCLWPRender = renderFunction;
     if (this._uxService.WebPartMode === WebPartModeOptions.contentonly) { return; }
     try {
       //If startLocation is specified then pin starting location as root menu item
@@ -121,15 +112,6 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_reInitF) - ${err}`, LogLevel.Error);
     }
   }
-
-  // public shouldComponentUpdate(nextProps: Readonly<ICustomLearningProps>, nextState: Readonly<ICustomLearningState>): boolean {
-  //   if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
-  //     return false;
-  //   if (this.props.startType != nextProps.startType ||
-  //     this.props.startLocation != nextProps.startLocation)
-  //     this._reInit = true;
-  //   return true;
-  // }
 
   private _findParentCategory(id: string, categories: ICategory[], lastParent: ICategory[]): ICategory[] {
     const parent: ICategory[] = lastParent;
@@ -269,7 +251,9 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
       switch (template) {
         case Templates.Category:
           detail = filter(this._uxService.CacheConfig.Categories, { Id: templateId });
-          this._uxService.History.push(new HistoryItem(detail[0].Id, detail[0].Name as string, template));
+          if (this._uxService.History.find(o => {return o.Id === detail[0].Id}) == null) {
+            this._uxService.History.push(new HistoryItem(detail[0].Id, detail[0].Name as string, template));
+          }
           if (this._uxService.CustomSort)
             detail[0].SubCategories = this._applyCustomSort(detail[0].SubCategories) as ICategory[];
           if (detail.length === 1) {

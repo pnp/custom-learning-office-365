@@ -17,7 +17,7 @@ import {
   IPropertyPaneDropdownProps,
   IPropertyPaneLabelProps
 } from "@microsoft/sp-property-pane";
-import {  ThemeProvider} from '@microsoft/sp-component-base';
+import { ThemeProvider } from '@microsoft/sp-component-base';
 import { app } from "@microsoft/teams-js-v2";
 
 import sortBy from "lodash-es/sortBy";
@@ -89,7 +89,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
   private _urlAsset = this._queryParms.get("asset");
 
   // Theming support for Section
-  private _themeProvider: ThemeProvider;  
+  private _themeProvider: ThemeProvider;
   private _spfxThemes: ISPFxThemes = new SPFxThemes();
 
   public async onInit(): Promise<void> {
@@ -121,7 +121,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
       params.userLanguage = this.context.pageContext.cultureInfo.currentUICultureName.toLowerCase();
 
       //If in Teams context get Query String Parameters from Teams Context
-      if (this.context.sdks?.microsoftTeams){
+      if (this.context.sdks?.microsoftTeams) {
         this._getTeamsQueryString();
         this._teamsContext = await this.context.sdks.microsoftTeams?.teamsJs.app.getContext();
       }
@@ -156,6 +156,94 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
     }
   }
 
+  private _setStartingLocation = (skipRender: boolean = false): void => {
+    try {
+      let startChanged = false;
+      const webPartStartup = cloneDeep(this._uxService.WebPartStartup);
+
+      if (this.properties.webpartMode !== "" && this.properties.webpartMode !== this._uxService.WebPartMode) {
+        this._uxService.WebPartMode = this.properties.webpartMode;
+        startChanged = true;
+      }
+
+      //Update startType and startLocation if changed.
+      if (this.properties.defaultCategory !== "" && this.properties.defaultCategory !== webPartStartup.startingLocation) {
+        webPartStartup.startingType = Templates.Category;
+        webPartStartup.startingLocation = this.properties.defaultCategory;
+        startChanged = true;
+      }
+      if (this.properties.defaultSubCategory !== "" && this.properties.defaultSubCategory !== webPartStartup.startingLocation) {
+        webPartStartup.startingType = Templates.SubCategory;
+        webPartStartup.startingLocation = this.properties.defaultSubCategory;
+        startChanged = true;
+      }
+      if (this.properties.defaultPlaylist !== "" && this.properties.defaultPlaylist !== webPartStartup.startingLocation) {
+        webPartStartup.startingType = Templates.Playlist;
+        webPartStartup.startingLocation = this.properties.defaultPlaylist;
+        startChanged = true;
+      }
+      if (this.properties.defaultAsset !== "" && this.properties.defaultAsset !== webPartStartup.startAsset) {
+        webPartStartup.startAsset = this.properties.defaultAsset;
+        startChanged = true;
+      }
+      if (this.properties.defaultCategory === "" && this.properties.defaultSubCategory === "" && this.properties.defaultPlaylist === "") {
+        webPartStartup.startingType = "";
+        webPartStartup.startingLocation = "";
+        startChanged = true;
+      }
+
+      this._uxService.WebPartStartup = webPartStartup;
+      if (startChanged) {
+        //Reset history
+        this._uxService.History = [];
+      }
+      if (startChanged && !skipRender) {
+        this._uxService.CLWPRender();
+      }
+    } catch (err) {
+      console.error(`${this.LOG_SOURCE} (_setStartingLocation) - ${err}`);
+    }
+  }
+
+  private _setQueryStringParams(): void {
+    try {
+      //Override if the query string parameters are set. But we don't want to do this if we are in edit mode.
+      if (this.displayMode != DisplayMode.Edit) {
+
+        const webPartStartup = cloneDeep(this._uxService.WebPartStartup);
+
+        //Set Webpart mode via query string
+        if ((this._urlWebpartMode) && (this._urlWebpartMode !== "")) {
+          this._uxService.WebPartMode = this._urlWebpartMode;
+        }
+        //If any of the categories are set in the Query String then we reset the web part here
+        if (((this._urlCategory) && (this._urlCategory != "")) || ((this._urlSubCategory) && (this._urlSubCategory != "")) || ((this._urlPlaylist) && (this._urlPlaylist != "")) || ((this._urlAsset) && (this._urlAsset != ""))) {
+          if ((this._urlCategory) && (this._urlCategory != "")) {
+            webPartStartup.startingType = Templates.Category;
+            webPartStartup.startingLocation = this._urlCategory;
+          } else if ((this._urlSubCategory) && (this._urlSubCategory != "")) {
+            webPartStartup.startingType = Templates.SubCategory;
+            webPartStartup.startingLocation = this._urlSubCategory;
+          } else if ((this._urlPlaylist) && (this._urlPlaylist != "")) {
+            webPartStartup.startingType = Templates.Playlist;
+            webPartStartup.startingLocation = this._urlPlaylist;
+            webPartStartup.startAsset = this._urlAsset as string;
+          } else if ((this._urlAsset) && (this._urlAsset != "")) {
+            webPartStartup.startingType = Templates.Asset;
+            webPartStartup.startingLocation = this._urlAsset;
+          } else {
+            webPartStartup.startingType = "";
+            webPartStartup.startingLocation = "";
+          }
+        }
+
+        this._uxService.WebPartStartup = webPartStartup;
+      }
+    } catch (err) {
+      console.error(`${this.LOG_SOURCE} (_setQueryStringParams) - ${err}`);
+    }
+  }
+
   private async _firstInit(): Promise<void> {
     try {
       let currentCdn = this._urlCDN;
@@ -167,7 +255,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
 
       await this._configCDN(currentCdn);
 
-      if (this.context.propertyPane.isPropertyPaneOpen()){
+      if (this.context.propertyPane.isPropertyPaneOpen()) {
         this.onPropertyPaneConfigurationStart();
         this.context.propertyPane.refresh();
       }
@@ -185,9 +273,12 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
       this._uxService.CustomSort = this.properties.customSort ? this.properties.customSort : false;
       this._uxService.CustomSortOrder = this.properties.customSortOrder;
       this._uxService.FUpdateCustomSort = this._updateCustomSort;
+      this._uxService.EditMode = (this.displayMode === DisplayMode.Edit);
 
       //Set starting location for web part in UX Service
       this._setStartingLocation(true);
+      //Override starting location for web part if query string parameters were provided
+      this._setQueryStringParams();
 
       Logger.write(`🎓Initialized Microsoft 365 learning pathways - Tenant: ${this.context.pageContext.aadInfo.tenantId}`, LogLevel.Info);
     } catch (err) {
@@ -208,6 +299,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
       if (ready && this._cacheController.isValid) {
         this._validSetup = this._cacheController.isValid;
         if (this._cacheController.cacheConfig) {
+          this._uxService.Init(this._cacheController);
           retVal = true;
           AppInsightsService.Technologies = this._cacheController.cacheConfig.Technologies;
 
@@ -240,65 +332,6 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
 
   public async render(): Promise<void> {
     let element;
-
-    // Update Edit Mode
-    this._uxService.EditMode = (this.displayMode === DisplayMode.Edit);
-
-    //Update startType and startLocation if changed.
-    if (this.properties.webpartMode !== "" && this.properties.webpartMode !== this._uxService.WebPartMode) {
-      this._uxService.WebPartMode = this.properties.webpartMode;
-    }
-
-    // if (this.properties.defaultCategory !== "" && this.properties.defaultCategory !== this._startLocation) {
-    //   this._startType = Templates.Category;
-    //   this._startLocation = this.properties.defaultCategory;
-    // }
-
-    // if (this.properties.defaultSubCategory !== "" && this.properties.defaultSubCategory !== this._startLocation) {
-    //   this._startType = Templates.SubCategory;
-    //   this._startLocation = this.properties.defaultSubCategory;
-    // }
-    // if (this.properties.defaultPlaylist !== "" && this.properties.defaultPlaylist !== this._startLocation) {
-    //   this._startType = Templates.Playlist;
-    //   this._startLocation = this.properties.defaultPlaylist;
-    // }
-    // if (this.properties.defaultAsset !== "" && this.properties.defaultAsset !== this._startAsset) {
-    //   this._startAsset = this.properties.defaultAsset;
-    // }
-    // if (this.properties.defaultCategory === "" && this.properties.defaultSubCategory === "" && this.properties.defaultPlaylist === "") {
-    //   this._startType = "";
-    //   this._startLocation = "";
-    // }
-
-    //Override if the query string parameters are set. But we don't want to do this if we are in edit mode.
-    if (this.displayMode != DisplayMode.Edit) {
-      //Set Webpart mode via query string
-      if ((this._urlWebpartMode) && (this._urlWebpartMode !== "")) {
-        this._uxService.WebPartMode = this._urlWebpartMode;
-      }
-
-      //TODO: Incorporate new UX Service 
-      //If any of the categories are set in the Query String then we reset the web part here
-      if (((this._urlCategory) && (this._urlCategory != "")) || ((this._urlSubCategory) && (this._urlSubCategory != "")) || ((this._urlPlaylist) && (this._urlPlaylist != "")) || ((this._urlAsset) && (this._urlAsset != ""))) {
-        // if ((this._urlCategory) && (this._urlCategory != "")) {
-        //   this._startType = Templates.Category;
-        //   this._startLocation = this._urlCategory;
-        // } else if ((this._urlSubCategory) && (this._urlSubCategory != "")) {
-        //   this._startType = Templates.SubCategory;
-        //   this._startLocation = this._urlSubCategory;
-        // } else if ((this._urlPlaylist) && (this._urlPlaylist != "")) {
-        //   this._startType = Templates.Playlist;
-        //   this._startLocation = this._urlPlaylist;
-        //   this._startAsset = this._urlAsset as string;
-        // } else if ((this._urlAsset) && (this._urlAsset != "")) {
-        //   this._startType = Templates.Asset;
-        //   this._startLocation = this._urlAsset;
-        // } else {
-        //   this._startType = "";
-        //   this._startLocation = "";
-        // }
-      }
-    }
 
     let sv: string = ShimmerView.ViewerCategory;
     switch (this._uxService.WebPartStartup.startingType) {
@@ -333,22 +366,14 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
       if (this._validSetup && this._validConfig) {
         //Render web part
         const props: ICustomLearningProps = {
-          //editMode: (this.displayMode === DisplayMode.Edit),
-          // startType: this._startType,
-          // startLocation: this._startLocation,
-          // startAsset: this._startAsset,
           webpartTitle: this.properties.title,
-          //customSort: this.properties.customSort ? this.properties.customSort : false,
-          //customSortOrder: this.properties.customSortOrder,
           teamsEntityId: this._teamsContext?.page?.subPageId ?? '',
-          //updateCustomSort: this._updateCustomSort,
           alwaysShowSearch: this.properties.alwaysShowSearch || false,
         };
 
         element = React.createElement(React.Suspense, { fallback: shimmer },
           React.createElement(CustomLearning, props)
         );
-        //element = React.createElement(CustomLearning, props);
       } else {
         element = React.createElement(
           Error,
@@ -358,10 +383,9 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
         );
       }
     }
-    //ReactDom.render(element, this.domElement);
     if (this.domElement != null) {
-     const provider = React.createElement(UXServiceContext.Provider, { value: this._uxService }, element);
-     ReactDom.render(provider, this.domElement);
+      const provider = React.createElement(UXServiceContext.Provider, { value: this._uxService }, element);
+      ReactDom.render(provider, this.domElement);
     }
     return;
   }
@@ -569,7 +593,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
                   selectedKey: this.properties.webpartMode
                 }),
                 PropertyPaneToggle('alwaysShowSearch', {
-                  label: strings.AlwaysShowSearchLabel,                  
+                  label: strings.AlwaysShowSearchLabel,
                 })
               ]
             }
@@ -578,14 +602,14 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
       ]
     };
 
-    try {      
+    try {
       const defaultFilter = PropertyPaneDropdown('defaultFilter', {
         label: strings.DefaultFilterLabel,
         options: this._ppFilters,
         selectedKey: this.properties.defaultFilter
       });
 
-      let displayFilter: IPropertyPaneField<IPropertyPaneLabelProps> | IPropertyPaneField<IPropertyPaneDropdownProps> ;
+      let displayFilter: IPropertyPaneField<IPropertyPaneLabelProps> | IPropertyPaneField<IPropertyPaneDropdownProps>;
       let assetList: IPropertyPaneField<IPropertyPaneLabelProps> | IPropertyPaneField<IPropertyPaneDropdownProps> = PropertyPaneLabel('defaultAsset', { text: "" });
 
       switch (this.properties.defaultFilter) {
@@ -641,47 +665,8 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
       }
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getPropertyPaneConfiguration) - ${err} -- Error loading property pane configuration.`, LogLevel.Error);
-    }    
-    return configuration;
-  }
-
-  private _setStartingLocation = (skipRender: boolean = false): void => {
-    try{
-      let startChanged = false;
-      const webPartStartup = cloneDeep(this._uxService.WebPartStartup);
-
-      if (this.properties.defaultCategory !== "" && this.properties.defaultCategory !== webPartStartup.startingLocation) {
-        webPartStartup.startingType = Templates.Category;
-        webPartStartup.startingLocation = this.properties.defaultCategory;
-        startChanged = true;
-      }  
-      if (this.properties.defaultSubCategory !== "" && this.properties.defaultSubCategory !== webPartStartup.startingLocation) {
-        webPartStartup.startingType = Templates.SubCategory;
-        webPartStartup.startingLocation = this.properties.defaultSubCategory;
-        startChanged = true;
-      }
-      if (this.properties.defaultPlaylist !== "" && this.properties.defaultPlaylist !== webPartStartup.startingLocation) {
-        webPartStartup.startingType = Templates.Playlist;
-        webPartStartup.startingLocation = this.properties.defaultPlaylist;
-        startChanged = true;
-      }
-      if (this.properties.defaultAsset !== "" && this.properties.defaultAsset !== webPartStartup.startAsset) {
-        webPartStartup.startAsset = this.properties.defaultAsset;
-        startChanged = true;
-      }
-      if (this.properties.defaultCategory === "" && this.properties.defaultSubCategory === "" && this.properties.defaultPlaylist === "") {
-        webPartStartup.startingType = "";
-        webPartStartup.startingLocation = "";
-        startChanged = true;
-      }
-
-      this._uxService.WebPartStartup = webPartStartup;
-      if(startChanged && !skipRender){
-        this._uxService.CLWPRender();
-      }
-    }catch(err){
-      console.error(`${this.LOG_SOURCE} (_setStartingLocation) - ${err}`);
     }
+    return configuration;
   }
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -700,6 +685,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
         this._uxService.CustomSortOrder = [];
         if (propertyPath === 'defaultCDN') {
           this._isReady = false;
+          this._setStartingLocation();
           this.render();
           await this._configCDN(newValue);
           this._isReady = true;
@@ -707,8 +693,9 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
           this._getCategoryPropertyPaneOptions();
           this._getSubCategoryPropertyPaneOptions();
           this._getPlaylistPropertyPaneOptions();
-          this._uxService.CLWPRender();
         }
+        this._setStartingLocation(true);
+        this._uxService.CLWPRender();
         this.context.propertyPane.refresh();
       } else if (propertyPath === 'defaultPlaylist') {
         super.onPropertyPaneFieldChanged(propertyPath, oldValue, newValue);
@@ -720,7 +707,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
         this._setStartingLocation();
       } else if (propertyPath === 'customSort' || propertyPath === "defaultCategory" || propertyPath === "defaultSubCategory") {
         super.onPropertyPaneFieldChanged(propertyPath, oldValue, newValue);
-        this._uxService.CustomSort = newValue;
+        this._uxService.CustomSort = (propertyPath === 'customSort') ? newValue : this._uxService.CustomSort;
         this.properties.customSortOrder = [];
         this._uxService.CustomSortOrder = [];
         this._setStartingLocation(true);

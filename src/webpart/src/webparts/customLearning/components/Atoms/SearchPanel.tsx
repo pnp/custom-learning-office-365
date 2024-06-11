@@ -40,6 +40,10 @@ export default class SearchPanel extends React.PureComponent<ISearchPanelProps, 
     this.state = new SearchPanelState();
   }
 
+  private _reInit = (): void => {
+    this.render();
+  }
+  
   private _debounceTypeahead = (fn: () => void, delay: number): void => {
     try {
       if (this._timeOutId) {
@@ -86,7 +90,12 @@ export default class SearchPanel extends React.PureComponent<ISearchPanelProps, 
   }
 
   public render(): React.ReactElement<ISearchPanelProps> {
-    if (this._uxService == undefined) { this._uxService = this.context; }
+    if (this._uxService == undefined) {
+      this._uxService = this.context;
+      const renderFunction = {};
+      renderFunction[this.LOG_SOURCE] = this._reInit;
+      this._uxService.FCLWPRender = renderFunction;
+    }
     try {
       return (
         <div data-component={this.LOG_SOURCE} className={`headerpanel fbcolumn ${(this.props.panelOpen) ? "show" : ""}`}>

@@ -23,7 +23,7 @@ export interface IUXService {
   FUpdateCustomSort:(customSortOrder: string[]) => void;
   FShowSearchResults: (subcategoryId: string, playlistId: string, assetId: string) => void;
   FShowHistory: (idx: number, template: string, templateId: string, nav?: boolean) => void;
-  FCLWPRender: () => void;
+  FCLWPRender: {[key: string]: () => void};
   Init: (cacheController: ICacheController) => Promise<void>;
   DoSearch: (searchValue: string) => ISearchResult[];
   LoadSearchResultAsset: (subcategoryId: string, playlistId: string, assetId: string) => void;
@@ -45,7 +45,7 @@ export class UXService implements IUXService {
   private _funcShowSearchResults: (subcategoryId: string, playlistId: string, assetId: string) => void = null;
   private _funcShowHistory: (idx: number, template: string, templateId: string, nav?: boolean) => void = null;
   private _funcUpdateCustomSort: (customSortOrder: string[]) => void = null;
-  private _funcCLWebPartRender: () => void = null;
+  private _funcCLWebPartRender: {[key: string]: () => void} = {};
 
   public constructor() { }
 
@@ -126,8 +126,9 @@ export class UXService implements IUXService {
     this._funcUpdateCustomSort = value;
   }
 
-  public set FCLWPRender(value: () => void) {
-    this._funcCLWebPartRender = value;
+  public set FCLWPRender(value: {[key: string]: () => void}) {
+    const key = Object.keys(value)[0];
+    this._funcCLWebPartRender[key] = value[key];
   }
 
   private _flattenCategory(category: ICategory[], array: ICategory[] = []): ICategory[] | ICategory[] {
@@ -270,9 +271,12 @@ export class UXService implements IUXService {
 
   public CLWPRender = (): void => {
     try {
-      if (typeof this._funcCLWebPartRender === "function") {
-        this._funcCLWebPartRender();
-      }
+      const keys = Object.keys(this._funcCLWebPartRender);
+      keys.forEach(key => {
+        if (typeof this._funcCLWebPartRender[key] === "function") {
+          this._funcCLWebPartRender[key]();
+        }
+      });
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (CLWPRender) - ${err}`, LogLevel.Error);
     }

@@ -13,10 +13,8 @@ export interface ISubCategoriesProps {
   detail: ICategory[] | IPlaylist[];
   filterValue: IFilter;
   filterValues: IFilterValue[];
-  //customSort: boolean;
   selectItem: (template: string, templateId: string) => void;
   setFilter: (filterValue: IFilterValue) => void;
-  // updateCustomSort: (customSortOrder: string[]) => void;
 }
 
 export interface ISubCategoriesState {
@@ -47,8 +45,6 @@ export default class SubCategories extends React.PureComponent<ISubCategoriesPro
           detail={this.props.detail}
           template={this.props.template}
           selectItem={this.props.selectItem}
-          // customSort={this.props.customSort}
-          // updateCustomSort={this.props.updateCustomSort}
         />
       </>
     );

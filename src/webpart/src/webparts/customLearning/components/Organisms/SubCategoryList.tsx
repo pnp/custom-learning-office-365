@@ -42,6 +42,10 @@ export default class SubCategoryList extends React.Component<ISubCategoryListPro
     super(props);
     this.state = new SubCategoryListState(props.detail);
   }
+  
+  private _reInit = (): void => {
+    this.render();
+  }
 
   public shouldComponentUpdate(nextProps: Readonly<ISubCategoryListProps>, nextState: Readonly<ISubCategoryListState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
@@ -111,7 +115,12 @@ export default class SubCategoryList extends React.Component<ISubCategoryListPro
   }
 
   public render(): React.ReactElement<ISubCategoryListProps> {
-    if (this._uxService == undefined) { this._uxService = this.context; }
+    if (this._uxService == undefined) {
+      this._uxService = this.context;
+      const renderFunction = {};
+      renderFunction[this.LOG_SOURCE] = this._reInit;
+      this._uxService.FCLWPRender = renderFunction;
+    }
     const dragMode: boolean = (this._uxService.CustomSort && this._uxService.EditMode);
     try {
       return (

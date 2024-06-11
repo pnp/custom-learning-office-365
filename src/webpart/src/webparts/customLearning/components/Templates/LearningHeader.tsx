@@ -43,6 +43,10 @@ export default class LearningHeader extends React.PureComponent<ILearningHeaderP
     this.state = new LearningHeaderState(panelOpen);
   }
 
+  private _reInit = (): void => {
+    this.render();
+  }
+
   private buttonClick = (buttonType: string): void => {
     try {
       if (buttonType === "Gear") {
@@ -64,7 +68,12 @@ export default class LearningHeader extends React.PureComponent<ILearningHeaderP
   }
 
   public render(): React.ReactElement<ILearningHeaderProps> {
-    if (this._uxService == undefined) { this._uxService = this.context; }
+    if (this._uxService == undefined) {
+      this._uxService = this.context;
+      const renderFunction = {};
+      renderFunction[this.LOG_SOURCE] = this._reInit;
+      this._uxService.FCLWPRender = renderFunction;
+    }
     try {
       return (
         <div data-component={this.LOG_SOURCE} className="learningheader">

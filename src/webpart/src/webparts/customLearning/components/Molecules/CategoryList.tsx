@@ -37,6 +37,10 @@ export default class CategoryList extends React.Component<ICategoryListProps, IC
     super(props);
     this.state = new CategoryListState(props.subcategories);
   }
+  
+  private _reInit = (): void => {
+    this.render();
+  }
 
   public shouldComponentUpdate(nextProps: Readonly<ICategoryListProps>, nextState: Readonly<ICategoryListState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
@@ -107,7 +111,12 @@ export default class CategoryList extends React.Component<ICategoryListProps, IC
   }
 
   public render(): React.ReactElement<ICategoryListProps> {
-    if (this._uxService == undefined) { this._uxService = this.context; }
+    if (this._uxService == undefined) {
+      this._uxService = this.context;
+      const renderFunction = {};
+      renderFunction[this.LOG_SOURCE] = this._reInit;
+      this._uxService.FCLWPRender = renderFunction;
+    }
     try {
       if (!this.state.subcategories || this.state.subcategories.length < 1) return null;
       const dragMode: boolean = (this._uxService.CustomSort && this._uxService.EditMode);
