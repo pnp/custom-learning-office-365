@@ -76,26 +76,26 @@
 
 
 .plov-short {
-  @include mixin.multiLineEllipsis(1.5em, 4);
+  // @include mixin.multiLineEllipsis(1.5em, 4);
 
   margin-top: .25em;
   margin-bottom: .25em;
 
-  &:hover {
-    cursor: pointer;
-  }
+  // &:hover {
+  //   cursor: pointer;
+  // }
 
-  @media screen and (max-width: 1024px) {
-    @include mixin.multiLineEllipsis(1.5em, 2);
-  }
+  // @media screen and (max-width: 1024px) {
+  //   @include mixin.multiLineEllipsis(1.5em, 2);
+  // }
 
-  @media screen and (max-width: 768px) {
-    @include mixin.multiLineEllipsis(1.5em, 5);
-  }
+  // @media screen and (max-width: 768px) {
+  //   @include mixin.multiLineEllipsis(1.5em, 5);
+  // }
 
-  @media screen and (max-width: 480px) {
-    @include mixin.multiLineEllipsis(1.5em, 4);
-  }
+  // @media screen and (max-width: 480px) {
+  //   @include mixin.multiLineEllipsis(1.5em, 4);
+  // }
 }
 
 .plov-short-overflow {

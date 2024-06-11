@@ -15,6 +15,7 @@
 @use '02-molecules/index' as molecules;
 // Organisms
 @use '03-organsim/index' as organisms;
+
 @include meta.load-css('../../../node_modules/@n8d/htwoo-core/lib/sass/02-molecules/menu');
 
 // :root body .sample{
@@ -25,5 +26,4 @@
   fill: currentColor;
   height: 2rem;
   width: 2rem;
-  ;
 }

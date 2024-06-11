@@ -1,5 +1,5 @@
 @use 'sass:meta';
-$baseFolder: '../../../../node_modules/'; 
+$baseFolder: '../../../../node_modules/';
 
 .loadingShimmer {
 	margin-left: 16px;
@@ -13,19 +13,23 @@ $baseFolder: '../../../../node_modules/';
 }
 
 .customLearning {
-  :global {
-    @include meta.load-css('#{$baseFolder}learning-pathways-styleguide/source/css/main.spfx');
+	:global {
+		@include meta.load-css('#{$baseFolder}learning-pathways-styleguide/source/css/main.spfx');
 
-    // .ms-SearchBox {
+		// .ms-SearchBox {
 		// 	background-color: $c-background;
 		// }
-  } 
+	}
 
-	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-family: "Segoe UI",
+	Tahoma,
+	Geneva,
+	Verdana,
+	sans-serif;
 
-  padding-bottom: 100px;
+	padding-bottom: 100px;
 
-  .info {
+	.info {
 		color: #107c10;
 	}
 
@@ -60,27 +64,27 @@ $baseFolder: '../../../../node_modules/';
 	.spouterframe {
 		position: relative;
 
-    display: flex;
+		display: flex;
 
-    height: 12000px;
-    min-height: 100vh;
-  }
+		height: 12000px;
+		min-height: 100vh;
+	}
 
 	.outerframe {
 		@extend .spouterframe;
 
-    min-height: auto;
-    padding: 0;
-  }
+		min-height: auto;
+		padding: 0;
+	}
 
 	.innerframe {
 		position: absolute;
 		top: 0;
 		left: 0;
 
-    width: 100%;
-    height: 100%;
-  }
+		width: 100%;
+		height: 100%;
+	}
 
 	.semiBold {
 		font-weight: 600;
@@ -95,9 +99,9 @@ $baseFolder: '../../../../node_modules/';
 	.primaryButton:hover {
 		white-space: nowrap;
 
-    // color: $ouif-primaryButtonText;
-    // border-color: $ouif-primaryButtonBackground;
-    // background-color: $ouif-primaryButtonBackground;
+		// color: $ouif-primaryButtonText;
+		// border-color: $ouif-primaryButtonBackground;
+		// background-color: $ouif-primaryButtonBackground;
 
 		// svg {
 		// 	fill: $ouif-primaryButtonText;
@@ -118,22 +122,22 @@ $baseFolder: '../../../../node_modules/';
 		.adm-content-playlist {
 			display: block;
 
-      box-sizing: border-box;
+			box-sizing: border-box;
 
 			li {
 				display: inline-block;
 
-        box-sizing: border-box;
-        width: 100%;
+				box-sizing: border-box;
+				width: 100%;
 
-        break-inside: avoid-column;
-      }
-    }
+				break-inside: avoid-column;
+			}
+		}
 
 		.pl-edit-item {
 			box-sizing: border-box;
 
-      background-color: transparent;
+			background-color: transparent;
 
 			&:hover {
 				//color: $ouif-primaryButtonBackground;
@@ -162,9 +166,9 @@ $baseFolder: '../../../../node_modules/';
 			.truncateToggle {
 				display: flex;
 
-        width: 100%;
-        height: 1em;
-        padding-left: 10px;
+				width: 100%;
+				height: 1em;
+				padding-left: 10px;
 
 				svg {
 					margin-top: -0.5rem;
@@ -172,10 +176,11 @@ $baseFolder: '../../../../node_modules/';
 
 					fill: var(--bodyText);
 				}
-				
+
 				&.expanded {
 					border-bottom: 1px var(--neutralTertiary) solid;
-					svg{
+
+					svg {
 						margin-top: 0rem;
 						margin-bottom: -0.5rem;
 					}
@@ -203,17 +208,17 @@ $baseFolder: '../../../../node_modules/';
 	// 		// background-color: $ouif-primaryButtonBackground;
 	// 		@include themeSlot(primaryButtonBackground, background);
 
-  //     &.selected,
-  //     &.selected:active {
-  //       // color: $ouif-primaryButtonBackground;
-  //       @include themeSlot(primaryButtonText);
-  //       // border-color: $ouif-primaryButtonBackground;
-  //       @include themeSlot(primaryButtonBackground, border);
-  //       // background-color: $ouif-primaryButtonTextHovered;
-  //       @include themeSlot(primaryButtonBackTextHovered, background);
+	//     &.selected,
+	//     &.selected:active {
+	//       // color: $ouif-primaryButtonBackground;
+	//       @include themeSlot(primaryButtonText);
+	//       // border-color: $ouif-primaryButtonBackground;
+	//       @include themeSlot(primaryButtonBackground, border);
+	//       // background-color: $ouif-primaryButtonTextHovered;
+	//       @include themeSlot(primaryButtonBackTextHovered, background);
 
-  //       border: 1px solid;
-  //     }
+	//       border: 1px solid;
+	//     }
 
 	// 		&.selected,
 	// 		&.selected:active {
@@ -224,9 +229,9 @@ $baseFolder: '../../../../node_modules/';
 	// 			// background-color: $ouif-primaryButtonTextHovered;
 	// 			@include themeSlot(primaryButtonBackTextHovered, background);
 
-  //       color: $ouif-primaryButtonTextHovered;
-  //       background-color: $ouif-primaryButtonBackgroundHovered;
-  //     }
+	//       color: $ouif-primaryButtonTextHovered;
+	//       background-color: $ouif-primaryButtonBackgroundHovered;
+	//     }
 
 	// 		&:hover {
 	// 			@include themeSlot(primaryButtonTextHovered);

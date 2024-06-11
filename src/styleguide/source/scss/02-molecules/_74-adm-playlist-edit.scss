@@ -1,4 +1,5 @@
 @use '../00-base/colors' as colors;
+@use '../../../../node_modules/@n8d/htwoo-core/lib/sass/00-base/colors/colors' as dt;
 @use '../../../node_modules/@n8d/htwoo-core/lib/sass/00-base/global.vars' as glob;
 
 .pl-edit-item {
@@ -15,6 +16,10 @@
 
   justify-content: space-between;
   align-items: center;
+  .hoo-icon{
+    color: dt.$theme-600;
+    margin-right: .5rem;
+  }
 
   &:hover {
     background-color: colors.$c-light-gray;

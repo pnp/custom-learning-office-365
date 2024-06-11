@@ -1,3 +1,3 @@
 ---
-title: Admin Playlist Item Destails
+title: Admin Playlist Item Details
 ---
