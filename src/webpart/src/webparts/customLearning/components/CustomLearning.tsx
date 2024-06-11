@@ -17,14 +17,14 @@ import HOOLabel from '@n8d/htwoo-react/HOOLabel';
 import styles from "../../common/CustomLearningCommon.module.scss";
 import * as strings from "M365LPStrings";
 import { params } from "../../common/services/Parameters";
-import { UXService } from '../../common/services/UXService';
 import { IPlaylist, ICategory, IHistoryItem, HistoryItem, IAsset, IFilterValue, IFilter, FilterValue, Filter, IMultilingualString } from '../../common/models/Models';
-import { Templates, FilterTypes, WebpartModeOptions } from '../../common/models/Enums';
+import { Templates, FilterTypes, WebPartModeOptions } from '../../common/models/Enums';
 import Categories from './Organisms/Categories';
 import SubCategories from './Templates/SubCategories';
 import LearningHeader from './Templates/LearningHeader';
 import AssetView from './Atoms/AssetView';
 import PlaylistControl from "./Molecules/PlaylistControl";
+import { UXServiceContext} from '../../common/services/UXService';
 
 export interface ICustomLearningProps {
   editMode: boolean;
@@ -46,7 +46,6 @@ export interface ICustomLearningState {
   detail: ICategory[] | IPlaylist[] | IPlaylist;
   assets: IAsset[];
   currentAsset: IAsset;
-  history: IHistoryItem[];
   filterValue: IFilter;
   filterValues: IFilterValue[];
   url: string;
@@ -72,8 +71,11 @@ export class CustomLearningState implements ICustomLearningState {
 }
 
 export default class CustomLearning extends React.Component<ICustomLearningProps, ICustomLearningState> {
+  static contextType = UXServiceContext;
+
   private LOG_SOURCE: string = "CustomLearning";
   private _reInit: boolean = false;
+  private _uxService: React.ContextType<typeof UXServiceContext>;
 
   private teamsContext: boolean = false;
   private teamsContextUrl: string = "";
@@ -81,12 +83,49 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
   constructor(props) {
     super(props);
     this.state = new CustomLearningState();
-    UXService.ShowSearchResults = this._loadSearchResultAsset;
     this.teamsContext = props.teamsEntityId && props.teamsEntityId.length > 0;
     // TODO double check the unfurling syntax for Teams V2
     if (this.teamsContext)
       this.teamsContextUrl = `https://teams.microsoft.com/l/entity/141d4ab7-b6ca-4bf4-ac59-25b7bf93642d/${props.teamsEntityId}?context={"subEntityId":`;
+  }
+
+  public componentDidMount(): void {
     this._init();
+    this._loadDetail(this.props.startType, this.props.startLocation);
+  }
+  
+  public componentDidUpdate(): void {
+    if (this._reInit) {
+      this._reInit = false;
+      this._loadDetail(this.props.startType, this.props.startLocation);
+    }
+  }
+
+  private _init(): void {    
+    this._uxService.ShowSearchResults = this._loadSearchResultAsset;
+    this._uxService.ShowHistory = this._showHistory;
+    if (this._uxService.WebPartMode === WebPartModeOptions.contentonly) { return; }
+    try {
+      //If startLocation is specified then pin starting location as root menu item
+      //else, pin 'Home' as root menu location
+      if (this.props.startLocation.length < 1) {
+        //During constructor, update state directly.
+        this._uxService.History.push(new HistoryItem("", strings.NavigationHome, ""));
+      }
+    } catch (err) {
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_init) - ${err}`, LogLevel.Error);
+    }
+  }
+
+  public shouldComponentUpdate(nextProps: Readonly<ICustomLearningProps>, nextState: Readonly<ICustomLearningState>): boolean {
+    if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
+      return false;
+    if (this.props.startType != nextProps.startType ||
+      this.props.startLocation != nextProps.startLocation ||
+      this.props.customSort != nextProps.customSort ||
+      !isEqual(nextProps.customSortOrder, this.props.customSortOrder))
+      this._reInit = true;
+    return true;
   }
 
   private _findParentCategory(id: string, categories: ICategory[], lastParent: ICategory[]): ICategory[] {
@@ -112,42 +151,6 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_findParentCategory) - ${err}`, LogLevel.Error);
     }
     return parent;
-  }
-
-  private _init(): void {
-    if (UXService.WebPartMode === WebpartModeOptions.contentonly) { return; }
-    try {
-      //If startLocation is specified then pin starting location as root menu item
-      //else, pin 'Home' as root menu location
-      if (this.props.startLocation.length < 1) {
-        //During constructor, update state directly.
-        this.state.history.push(new HistoryItem("", strings.NavigationHome, ""));
-      }
-    } catch (err) {
-      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_init) - ${err}`, LogLevel.Error);
-    }
-  }
-
-  public componentDidUpdate(): void {
-    if (this._reInit) {
-      this._reInit = false;
-      this._loadDetail(this.props.startType, this.props.startLocation, []);
-    }
-  }
-
-  public shouldComponentUpdate(nextProps: Readonly<ICustomLearningProps>, nextState: Readonly<ICustomLearningState>): boolean {
-    if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
-      return false;
-    if (this.props.startType != nextProps.startType ||
-      this.props.startLocation != nextProps.startLocation ||
-      this.props.customSort != nextProps.customSort ||
-      !isEqual(nextProps.customSortOrder, this.props.customSortOrder))
-      this._reInit = true;
-    return true;
-  }
-
-  public componentDidMount(): void {
-    this._loadDetail(this.props.startType, this.props.startLocation, this.state.history);
   }
 
   private _getFilterValues(subcategory: ICategory): IFilterValue[] {
@@ -180,7 +183,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
 
       const subs: ICategory[] = (subcategory.SubCategories.length == 0) ? [subcategory] : subcategory.SubCategories;
       for (let i = 0; i < subs.length; i++) {
-        const pl = filter(UXService.CacheConfig.CachedPlaylists, { CatId: subs[i].Id });
+        const pl = filter(this._uxService.CacheConfig.CachedPlaylists, { CatId: subs[i].Id });
         if (pl.length > 0)
           checkPlaylists(pl);
       }
@@ -238,11 +241,11 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
     return newArray;
   }
 
-  private _loadDetail = (template: string, templateId: string, history?: IHistoryItem[], filterValue?: IFilter, assetId?: string): void => {
+  private _loadDetail = (template: string, templateId: string, filterValue?: IFilter, assetId?: string): void => {
     try {
-      if (!history) {
-        history = cloneDeep(this.state.history);
-      }
+      // if (!history) {
+      //   history = cloneDeep(this.state.history);
+      // }
       let updateHistory: boolean = true;
       if (!filterValue) {
         filterValue = new Filter();
@@ -256,19 +259,19 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
       let assets: IAsset[] = null;
       const currentAsset: IAsset = null;
       let filterValues: IFilterValue[] = cloneDeep(this.state.filterValues);
-      let url: string = `${params.baseViewerUrl}?cdn=${UXService.CDN}`;
+      let url: string = `${params.baseViewerUrl}?cdn=${this._uxService.CDN}`;
       let teamsContext: string[] = [];
       if (this.teamsContext) {
         //url is for teams context
         url = this.teamsContextUrl;
-        teamsContext = ["", UXService.CDN, "", "", "", ""];
+        teamsContext = ["", this._uxService.CDN, "", "", "", ""];
       }
       switch (template) {
         case Templates.Category:
-          detail = filter(UXService.CacheConfig.Categories, { Id: templateId });
+          detail = filter(this._uxService.CacheConfig.Categories, { Id: templateId });
           if (this.props.customSort)
             detail[0].SubCategories = this._applyCustomSort(detail[0].SubCategories) as ICategory[];
-          history.push(new HistoryItem(detail[0].Id, detail[0].Name as string, template));
+          this._uxService.History.push(new HistoryItem(detail[0].Id, detail[0].Name as string, template));
           if (detail.length === 1) {
             if (this.teamsContext) {
               teamsContext[2] = detail[0].Id;
@@ -279,7 +282,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
           break;
         case Templates.SubCategory:
         case Templates.Playlists:
-          parent = this._findParentCategory(templateId, UXService.CacheConfig.Categories, [])[0];
+          parent = this._findParentCategory(templateId, this._uxService.CacheConfig.Categories, [])[0];
           filterValues = this._getFilterValues(parent);
           if (parent.SubCategories.length > 0) {
             template = Templates.SubCategory;
@@ -288,13 +291,13 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
               detail = this._applyCustomSort(detail) as ICategory[];
           } else {
             template = Templates.Playlists;
-            detail = filter(UXService.CacheConfig.CachedPlaylists, { CatId: parent.Id });
+            detail = filter(this._uxService.CacheConfig.CachedPlaylists, { CatId: parent.Id });
             detail = this._filterPlaylists(detail, filterValue);
             if (this.props.customSort)
               detail = this._applyCustomSort(detail) as IPlaylist[];
           }
           if (updateHistory) {
-            history.push(new HistoryItem(parent.Id, parent.Name as string, template));
+            this._uxService.History.push(new HistoryItem(parent.Id, parent.Name as string, template));
           }
           if (this.teamsContext) {
             teamsContext[3] = parent.Id;
@@ -303,8 +306,8 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
           }
           break;
         case Templates.Playlist:
-          detail = find(UXService.CacheConfig.CachedPlaylists, { Id: templateId });
-          history.push(new HistoryItem(detail.Id, (detail.Title instanceof Array) ? (detail.Title as IMultilingualString[])[0].Text : detail.Title as string, Templates.Playlist));
+          detail = find(this._uxService.CacheConfig.CachedPlaylists, { Id: templateId });
+          this._uxService.History.push(new HistoryItem(detail.Id, (detail.Title instanceof Array) ? (detail.Title as IMultilingualString[])[0].Text : detail.Title as string, Templates.Playlist));
           if (this.teamsContext) {
             teamsContext[4] = detail.Id;
           } else {
@@ -312,17 +315,17 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
           }
           assets = [];
           for (let i = 0; i < (detail as IPlaylist).Assets.length; i++) {
-            const pa = find(UXService.CacheConfig.CachedAssets, { Id: (detail as IPlaylist).Assets[i] });
+            const pa = find(this._uxService.CacheConfig.CachedAssets, { Id: (detail as IPlaylist).Assets[i] });
             if (pa)
               assets.push(pa);
           }
           break;
         case Templates.Asset:
           assets = [];
-          assets.push(find(UXService.CacheConfig.CachedAssets, { Id: templateId }));
+          assets.push(find(this._uxService.CacheConfig.CachedAssets, { Id: templateId }));
           break;
         default:
-          detail = UXService.CacheConfig.Categories;
+          detail = this._uxService.CacheConfig.Categories;
           template = Templates.Category;
       }
 
@@ -342,7 +345,6 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
         detail: detail,
         assets: assets,
         currentAsset: currentAsset,
-        history: history,
         filterValues: filterValues,
         filterValue: filterValue,
         url: url
@@ -368,21 +370,35 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
     }
   }
 
-  private _historyClick = (template: string, templateId: string, nav?: boolean): void => {
+  private _showHistory = (idx: number, template: string, templateId: string, nav?: boolean): void => {
     try {
-      let history = cloneDeep(this.state.history);
       if (nav) {
         //Update history to remove items
         if (templateId === "") {
-          history = [new HistoryItem("", strings.NavigationHome, "")];
+          this._uxService.History = [new HistoryItem("", strings.NavigationHome, "")];
         } else {
-          const idx = findIndex(history, { Id: templateId });
-          history.splice(idx, (history.length - idx));
+          console.log(`🎓 M365LP:${this.LOG_SOURCE} Length before: ${this._uxService.History.length}`);
+          this._uxService.History.splice(idx, (this._uxService.History.length - idx));
+          console.log(`🎓 M365LP:${this.LOG_SOURCE} Length after: ${this._uxService.History.length}`);
         }
       }
-      this._loadDetail(template, templateId, history);
+      this._loadDetail(template, templateId);
     } catch (err) {
-      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_historyClick) - ${err}`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_showHistory) - ${err}`, LogLevel.Error);
+    }
+  }
+
+  private _loadSearchResultAsset = (subcategoryId: string, playlistId: string, assetId: string): void => {
+    try {
+      if (this._uxService.History.length > 1)
+        this._uxService.History.splice(1);
+      if (playlistId) {
+        this._loadDetail(Templates.Playlist, playlistId, undefined, assetId);
+      } else if (subcategoryId) {
+        this._loadDetail(Templates.SubCategory, subcategoryId);
+      }
+    } catch (err) {
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_loadSearchResultAsset) - ${err}`, LogLevel.Error);
     }
   }
 
@@ -390,9 +406,9 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
     try {
       const currentAsset = find(this.state.assets, { Id: assetId });
       if (!isEqual(currentAsset, this.state.currentAsset)) {
-        let url: string = `${params.baseViewerUrl}?cdn=${UXService.CDN}`;
+        let url: string = `${params.baseViewerUrl}?cdn=${this._uxService.CDN}`;
         if (this.teamsContext) {
-          const teamsContext: string[] = ["", UXService.CDN, "", "", (this.state.detail != null) ? (this.state.detail as IPlaylist).Id : "", currentAsset.Id];
+          const teamsContext: string[] = ["", this._uxService.CDN, "", "", (this.state.detail != null) ? (this.state.detail as IPlaylist).Id : "", currentAsset.Id];
           const subEntityId = teamsContext.join(":");
           url = `${this.teamsContextUrl}"${subEntityId}"}`;
           //encode teams subentity
@@ -442,29 +458,14 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
           break;
       }
 
-      this._loadDetail(this.state.template, this.state.templateId, this.state.history, filterValue);
+      this._loadDetail(this.state.template, this.state.templateId, filterValue);
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_setFilter) - ${err}`, LogLevel.Error);
     }
   }
 
-  private onAdminPlaylists = (): void => {
+  private _onAdminPlaylists = (): void => {
     window.open(params.baseAdminUrl, '_blank');
-  }
-
-  private _loadSearchResultAsset = (subcategoryId: string, playlistId: string, assetId: string): void => {
-    try {
-      const history = cloneDeep(this.state.history);
-      if (history.length > 1)
-        history.splice(1);
-      if (playlistId) {
-        this._loadDetail(Templates.Playlist, playlistId, history, undefined, assetId);
-      } else if (subcategoryId) {
-        this._loadDetail(Templates.SubCategory, subcategoryId, history);
-      }
-    } catch (err) {
-      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_loadSearchResultAsset) - ${err}`, LogLevel.Error);
-    }
   }
 
   private _doRenderPanel = (): void => {
@@ -479,7 +480,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
           element = <Categories
             detail={this.state.detail as ICategory[]}
             editMode={this.props.editMode}
-            customSort={this.props.customSort && (this.state.history.length == 1)}
+            customSort={this.props.customSort && (this._uxService.History.length == 1)}
             selectItem={this._loadDetail}
             updateCustomSort={this.props.updateCustomSort}
           />;
@@ -493,7 +494,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
             filterValue={this.state.filterValue}
             filterValues={this.state.filterValues}
             editMode={this.props.editMode}
-            customSort={this.props.customSort && (this.state.history.length == 1)}
+            customSort={this.props.customSort && (this._uxService.History.length == 1)}
             selectItem={this._loadDetail}
             setFilter={this._setFilter}
             updateCustomSort={this.props.updateCustomSort}
@@ -506,7 +507,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
             playlistName={(this.state.detail) ? (this.state.detail as IPlaylist).Title as string : ""}
             asset={this.state.currentAsset}
             assets={this.state.assets}
-            assetOrigins={UXService.CacheConfig.AssetOrigins}
+            assetOrigins={this._uxService.CacheConfig.AssetOrigins}
             selectAsset={this._selectAsset}
           />;
           break;
@@ -528,21 +529,18 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
   private _renderPanel = (inPanel: boolean): (JSX.Element | null) => {
     const element: (JSX.Element | null)[] = [];
     try {
-      if (!inPanel && (UXService.WebPartMode === WebpartModeOptions.contentonly) && (this.props.webpartTitle && this.props.webpartTitle.length > 0)) {
+      if (!inPanel && (this._uxService.WebPartMode === WebPartModeOptions.contentonly) && (this.props.webpartTitle && this.props.webpartTitle.length > 0)) {
         element.push(<h2 className={styles.title}>{this.props.webpartTitle}</h2>);
       }
       if (!inPanel) {
         element.push(<LearningHeader
           template={this.state.template}
           detail={((this.state.template === Templates.Playlist) ? this.state.detail : null) as IPlaylist}
-          history={this.state.history}
-          historyClick={this._historyClick}
           selectAsset={this._selectAsset}
           assets={this.state.assets}
           currentAsset={this.state.currentAsset}
           linkUrl={this.state.url}
-          onAdminPlaylists={this.onAdminPlaylists}
-          //webpartMode={this.props.webpartMode}
+          onAdminPlaylists={this._onAdminPlaylists}
           webpartTitle={this.props.webpartTitle}
           alwaysShowSearch={this.props.alwaysShowSearch}
         />);
@@ -567,14 +565,13 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
   }
 
   public render(): React.ReactElement<ICustomLearningProps> {
-    console.debug('Windows', window);
+    if(this._uxService === undefined) {this._uxService = this.context; }
     if (!this.state.template) return null;
     try {
       //TODO Check to see if this needs the styles added back in
       return (
         <>
           {this.state.renderPanel &&
-
             <HOODialog
               changeVisibility={() => { this.setState({ renderPanel: !this.state.renderPanel }); }}
               type={8} visible={false}

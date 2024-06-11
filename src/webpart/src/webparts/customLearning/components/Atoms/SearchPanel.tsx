@@ -4,11 +4,11 @@ import { Logger, LogLevel } from "@pnp/logging";
 import { IHOOPivotItem } from "@n8d/htwoo-react/HOOPivotBar";
 import HOOSearch from "@n8d/htwoo-react/HOOSearch";
 
-import { UXService } from "../../../common/services/UXService";
 import SearchResults from "../../../common/components/Molecules/SearchResults";
 import { ISearchResult } from "../../../common/models/Models";
 import * as strings from "M365LPStrings";
 import { SearchResultHeaderFilters, SearchResultView } from "../../../common/models/Enums";
+import { UXServiceContext } from '../../../common/services/UXService';
 
 export interface ISearchPanelProps {
   panelOpen: boolean;
@@ -28,7 +28,10 @@ export class SearchPanelState implements ISearchPanelState {
 }
 
 export default class SearchPanel extends React.PureComponent<ISearchPanelProps, ISearchPanelState> {
+  static contextType = UXServiceContext;
+
   private LOG_SOURCE: string = "SearchPanel";
+  private _uxService: React.ContextType<typeof UXServiceContext>;
   private _timeOutId: NodeJS.Timeout;
   private _headerItems: IHOOPivotItem[] = [{ key: SearchResultHeaderFilters.All, text: SearchResultHeaderFilters.All }, { key: SearchResultHeaderFilters.Playlists, text: SearchResultHeaderFilters.Playlists }, { key: SearchResultHeaderFilters.Assets, text: SearchResultHeaderFilters.Assets }];
 
@@ -56,14 +59,14 @@ export default class SearchPanel extends React.PureComponent<ISearchPanelProps, 
         this.setState({ searchValue }, () => {
           if (searchValue.length > 0) {
             this._debounceTypeahead(() => {
-              const searchResults = UXService.DoSearch(searchValue);
+              const searchResults = this._uxService.DoSearch(searchValue);
               this.setState({ searchResults });
             }, 500);
           }
         });
       } else {
         if (searchValue.length > 0) {
-          const searchResults = UXService.DoSearch(searchValue);
+          const searchResults = this._uxService.DoSearch(searchValue);
           this.setState({ searchResults });
         }
       }
@@ -74,7 +77,7 @@ export default class SearchPanel extends React.PureComponent<ISearchPanelProps, 
 
   private _loadSearchResult = (subcategoryId: string, playlistId: string, assetId: string): void => {
     try {
-      UXService.LoadSearchResultAsset(subcategoryId, playlistId, assetId);
+      this._uxService.LoadSearchResultAsset(subcategoryId, playlistId, assetId);
       this.props.closePanel();
       this.setState({ searchValue: "", searchResults: [] });
     } catch (err) {
@@ -83,6 +86,7 @@ export default class SearchPanel extends React.PureComponent<ISearchPanelProps, 
   }
 
   public render(): React.ReactElement<ISearchPanelProps> {
+    if (this._uxService == undefined) { this._uxService = this.context; }
     try {
       return (
         <div data-component={this.LOG_SOURCE} className={`headerpanel fbcolumn ${(this.props.panelOpen) ? "show" : ""}`}>

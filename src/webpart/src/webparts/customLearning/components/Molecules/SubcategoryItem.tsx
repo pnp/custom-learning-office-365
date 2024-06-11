@@ -8,7 +8,6 @@ import { IMetadataEntry } from "../../../common/models/Models";
 import * as strings from "M365LPStrings";
 import { ButtonTypes } from "../../../common/models/Enums";
 
-
 export interface ISubCategoryItemProps {
   index: number;
   dragMode: boolean;
@@ -37,14 +36,6 @@ export class SubCategoryItemState implements ISubCategoryItemState {
     public truncated: boolean = false
   ) { }
 }
-
-// TODO: Delete
-// declare module 'react' {
-//   interface HTMLAttributes<T> extends React.DOMAttributes<T> {
-//     // extends React's HTMLAttributes for lazy loading
-//     loading?: string;
-//   }
-// }
 
 export default class SubCategoryItem extends React.Component<ISubCategoryItemProps, ISubCategoryItemState> {
   private LOG_SOURCE: string = "SubCategoryItem";

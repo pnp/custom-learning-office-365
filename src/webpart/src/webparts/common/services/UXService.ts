@@ -1,31 +1,37 @@
+import * as React from 'react';
 import { Logger, LogLevel } from '@pnp/logging';
 import includes from "lodash-es/includes";
 import uniqBy from "lodash-es/uniqBy";
-import { IAsset, ICacheConfig, ICategory, IPlaylist, ISearchResult, Playlist } from "../models/Models";
-import { SearchFields, Templates, WebpartModeOptions } from "../models/Enums";
+import { IAsset, ICacheConfig, ICategory, IHistoryItem, IPlaylist, ISearchResult, Playlist } from "../models/Models";
+import { SearchFields, Templates, WebPartModeOptions } from "../models/Enums";
 import * as strings from 'M365LPStrings';
 import sortBy from 'lodash-es/sortBy';
 import find from 'lodash-es/find';
 import cloneDeep from 'lodash-es/cloneDeep';
 import { ICacheController } from './CacheController';
 
-interface IUXService {
+export interface IUXService {
   readonly ready: boolean;
   readonly CacheConfig: ICacheConfig;
   readonly CDN: string;
+  History: IHistoryItem[];
   WebPartMode: string;
   ShowSearchResults: (subcategoryId: string, playlistId: string, assetId: string) => void;
+  ShowHistory: (idx: number, template: string, templateId: string, nav?: boolean) => void;
   Init: (cacheController: ICacheController) => Promise<void>;
   DoSearch: (searchValue: string) => ISearchResult[];
   LoadSearchResultAsset: (subcategoryId: string, playlistId: string, assetId: string) => void;
+  LoadHistory: (idx: number, template: string, templateId: string, nav?: boolean) => void;
 }
 
-class UXServiceInternal implements IUXService {
+export class UXService implements IUXService {
   private LOG_SOURCE = "🟢UXService";
   private _ready: boolean = false;
   private _cacheController: ICacheController;
-  private _webPartMode: string = WebpartModeOptions.full;
+  private _webPartMode: string = WebPartModeOptions.full;
+  private _history: IHistoryItem[] = [];
   private _funcShowSearchResults: (subcategoryId: string, playlistId: string, assetId: string) => void = null;
+  private _funcShowHistory: (idx: number, template: string, templateId: string, nav?: boolean) => void = null;
 
   public constructor() { }
 
@@ -54,8 +60,20 @@ class UXServiceInternal implements IUXService {
     this._webPartMode = value;
   }
 
+  public get History(): IHistoryItem[] {
+    return this._history;
+  }
+
+  public set History(value: IHistoryItem[]) {
+    this._history = value;
+  }
+
   public set ShowSearchResults(value: (subcategoryId: string, playlistId: string, assetId: string) => void) {
     this._funcShowSearchResults = value;
+  }
+
+  public set ShowHistory(value: (idx: number, template: string, templateId: string, nav?: boolean) => void) {
+    this._funcShowHistory = value;
   }
 
   private _flattenCategory(category: ICategory[], array: ICategory[] = []): ICategory[] | ICategory[] {
@@ -175,6 +193,16 @@ class UXServiceInternal implements IUXService {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (LoadSearchResult) - ${err}`, LogLevel.Error);
     }
   }
+
+  public LoadHistory = (idx: number, template: string, templateId: string, nav?: boolean): void => {
+    try {
+      if (typeof this._funcShowSearchResults === "function") {
+        this._funcShowHistory(idx, template, templateId, nav);
+      }
+    } catch (err) {
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (LoadSearchResult) - ${err}`, LogLevel.Error);
+    }
+  }
 }
 
-export const UXService: IUXService = new UXServiceInternal();
+export const UXServiceContext = React.createContext(new UXService());

@@ -3,23 +3,20 @@ import { Logger, LogLevel } from '@pnp/logging';
 
 import cloneDeep from "lodash-es/cloneDeep";
 
-import { IPlaylist, IHistoryItem, IAsset } from '../../../common/models/Models';
-import { WebpartModeOptions } from '../../../common/models/Enums';
-import { UXService } from '../../../common/services/UXService';
+import { IPlaylist, IAsset } from '../../../common/models/Models';
+import { WebPartModeOptions } from '../../../common/models/Enums';
+import { UXServiceContext } from '../../../common/services/UXService';
 import HeaderToolbar from "../Atoms/HeaderToolbar";
 import HeaderPanel from "../Organisms/HeaderPanel";
 
 export interface ILearningHeaderProps {
   template: string;
   detail: IPlaylist;
-  history: IHistoryItem[];
-  historyClick: (template: string, templateId: string, nav: boolean) => void;
   selectAsset: (assetId: string) => void;
   assets: IAsset[];
   currentAsset: IAsset;
   linkUrl: string;
   onAdminPlaylists: () => void;
-  //webpartMode: string;
   webpartTitle: string;
   alwaysShowSearch: boolean;
 }
@@ -35,11 +32,14 @@ export class LearningHeaderState implements ILearningHeaderState {
 }
 
 export default class LearningHeader extends React.PureComponent<ILearningHeaderProps, ILearningHeaderState> {
+  static contextType = UXServiceContext;
+
   private LOG_SOURCE: string = "LearningHeader";
+  private _uxService: React.ContextType<typeof UXServiceContext>;
 
   constructor(props) {
     super(props);
-    const panelOpen = (props.webpartMode === WebpartModeOptions.searchonly) ? "Search" : "";
+    const panelOpen = (props.webpartMode === WebPartModeOptions.searchonly) ? "Search" : "";
     this.state = new LearningHeaderState(panelOpen);
   }
 
@@ -64,21 +64,19 @@ export default class LearningHeader extends React.PureComponent<ILearningHeaderP
   }
 
   public render(): React.ReactElement<ILearningHeaderProps> {
+    if (this._uxService == undefined) { this._uxService = this.context; }
     try {
       return (
         <div data-component={this.LOG_SOURCE} className="learningheader">
           <HeaderToolbar
             template={this.props.template}
-            history={this.props.history}
-            historyClick={this.props.historyClick}
             buttonClick={this.buttonClick}
             panelOpen={this.state.panelOpen}
-            //webpartMode={this.props.webpartMode}
           />
-          {(UXService.WebPartMode !== WebpartModeOptions.contentonly || this.props.alwaysShowSearch) &&
+          {(this._uxService.WebPartMode !== WebPartModeOptions.contentonly || this.props.alwaysShowSearch) &&
             <HeaderPanel
               panelOpen={this.state.panelOpen}
-              closePanel={() => {this.setState({ panelOpen: "" });}}
+              closePanel={() => { this.setState({ panelOpen: "" }); }}
               linkUrl={this.props.linkUrl}
               alwaysShowSearch={this.props.alwaysShowSearch}
             />
