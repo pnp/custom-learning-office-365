@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Logger, LogLevel } from '@pnp/logging';
 import includes from "lodash-es/includes";
 import uniqBy from "lodash-es/uniqBy";
-import { IAsset, ICacheConfig, ICategory, IHistoryItem, IPlaylist, ISearchResult, Playlist } from "../models/Models";
+import { IAsset, ICacheConfig, ICategory, IHistoryItem, IPlaylist, ISearchResult, IWebPartStartup, Playlist } from "../models/Models";
 import { SearchFields, Templates, WebPartModeOptions } from "../models/Enums";
 import * as strings from 'M365LPStrings';
 import sortBy from 'lodash-es/sortBy';
@@ -14,14 +14,22 @@ export interface IUXService {
   readonly ready: boolean;
   readonly CacheConfig: ICacheConfig;
   readonly CDN: string;
+  WebPartStartup: IWebPartStartup;
+  EditMode: boolean;
   History: IHistoryItem[];
   WebPartMode: string;
-  ShowSearchResults: (subcategoryId: string, playlistId: string, assetId: string) => void;
-  ShowHistory: (idx: number, template: string, templateId: string, nav?: boolean) => void;
+  CustomSort: boolean;
+  CustomSortOrder: string[];
+  FUpdateCustomSort:(customSortOrder: string[]) => void;
+  FShowSearchResults: (subcategoryId: string, playlistId: string, assetId: string) => void;
+  FShowHistory: (idx: number, template: string, templateId: string, nav?: boolean) => void;
+  FCLWPRender: () => void;
   Init: (cacheController: ICacheController) => Promise<void>;
   DoSearch: (searchValue: string) => ISearchResult[];
   LoadSearchResultAsset: (subcategoryId: string, playlistId: string, assetId: string) => void;
   LoadHistory: (idx: number, template: string, templateId: string, nav?: boolean) => void;
+  UpdateCustomSort: (customSortOrder: string[]) => void;
+  CLWPRender: () => void;
 }
 
 export class UXService implements IUXService {
@@ -29,9 +37,15 @@ export class UXService implements IUXService {
   private _ready: boolean = false;
   private _cacheController: ICacheController;
   private _webPartMode: string = WebPartModeOptions.full;
+  private _webPartStartup: IWebPartStartup = {startingType: "", startingLocation: "", startAsset: ""};
+  private _editMode: boolean;
   private _history: IHistoryItem[] = [];
+  private _customSort: boolean = false;
+  private _customSortOrder: string[] = [];
   private _funcShowSearchResults: (subcategoryId: string, playlistId: string, assetId: string) => void = null;
   private _funcShowHistory: (idx: number, template: string, templateId: string, nav?: boolean) => void = null;
+  private _funcUpdateCustomSort: (customSortOrder: string[]) => void = null;
+  private _funcCLWebPartRender: () => void = null;
 
   public constructor() { }
 
@@ -52,12 +66,28 @@ export class UXService implements IUXService {
     return this._cacheController.CDN;
   }
 
+  public get WebPartStartup(): IWebPartStartup {
+    return this._webPartStartup;
+  }
+
+  public set WebPartStartup(value: IWebPartStartup) {
+    this._webPartStartup = value;
+  }
+
   public get WebPartMode(): string {
     return this._webPartMode;
   }
 
   public set WebPartMode(value: string) {
     this._webPartMode = value;
+  }
+
+  public get EditMode(): boolean {
+    return this._editMode;
+  }
+
+  public set EditMode(value: boolean) {
+    this._editMode = value;
   }
 
   public get History(): IHistoryItem[] {
@@ -68,12 +98,36 @@ export class UXService implements IUXService {
     this._history = value;
   }
 
-  public set ShowSearchResults(value: (subcategoryId: string, playlistId: string, assetId: string) => void) {
+  public get CustomSort(): boolean {
+    return this._customSort && (this._history.length == 1)
+  }
+
+  public set CustomSort(value: boolean) {
+    this._customSort = value;
+  }
+
+  public get CustomSortOrder(): string[] {
+    return this._customSortOrder;
+  }
+
+  public set CustomSortOrder(value: string[]) {
+    this._customSortOrder = value;
+  }
+
+  public set FShowSearchResults(value: (subcategoryId: string, playlistId: string, assetId: string) => void) {
     this._funcShowSearchResults = value;
   }
 
-  public set ShowHistory(value: (idx: number, template: string, templateId: string, nav?: boolean) => void) {
+  public set FShowHistory(value: (idx: number, template: string, templateId: string, nav?: boolean) => void) {
     this._funcShowHistory = value;
+  }
+
+  public set FUpdateCustomSort(value: (customSortOrder: string[]) => void) {
+    this._funcUpdateCustomSort = value;
+  }
+
+  public set FCLWPRender(value: () => void) {
+    this._funcCLWebPartRender = value;
   }
 
   private _flattenCategory(category: ICategory[], array: ICategory[] = []): ICategory[] | ICategory[] {
@@ -196,11 +250,31 @@ export class UXService implements IUXService {
 
   public LoadHistory = (idx: number, template: string, templateId: string, nav?: boolean): void => {
     try {
-      if (typeof this._funcShowSearchResults === "function") {
+      if (typeof this._funcShowHistory === "function") {
         this._funcShowHistory(idx, template, templateId, nav);
       }
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (LoadSearchResult) - ${err}`, LogLevel.Error);
+    }
+  }
+
+  public UpdateCustomSort = (customSortOrder: string[]): void => {
+    try {
+      if (typeof this._funcUpdateCustomSort === "function") {
+        this._funcUpdateCustomSort(customSortOrder);
+      }
+    } catch (err) {
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (UpdateCustomSort) - ${err}`, LogLevel.Error);
+    }
+  }
+
+  public CLWPRender = (): void => {
+    try {
+      if (typeof this._funcCLWebPartRender === "function") {
+        this._funcCLWebPartRender();
+      }
+    } catch (err) {
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (CLWPRender) - ${err}`, LogLevel.Error);
     }
   }
 }

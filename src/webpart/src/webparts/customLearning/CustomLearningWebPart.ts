@@ -67,9 +67,9 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
   private _validConfig: boolean = false;
   private _teamsContext: app.Context;
 
-  private _startType: string = "";
-  private _startLocation: string = "";
-  private _startAsset: string = "";
+  // private _startType: string = "";
+  // private _startLocation: string = "";
+  // private _startAsset: string = "";
 
   private _ppDefaultCDN: IPropertyPaneDropdownOption[];
   private _ppWebpartMode: IPropertyPaneDropdownOption[];
@@ -182,6 +182,12 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
       //Initialize UX Service
       this._uxService.Init(this._cacheController);
       this._uxService.WebPartMode = this.properties.webpartMode;
+      this._uxService.CustomSort = this.properties.customSort ? this.properties.customSort : false;
+      this._uxService.CustomSortOrder = this.properties.customSortOrder;
+      this._uxService.FUpdateCustomSort = this._updateCustomSort;
+
+      //Set starting location for web part in UX Service
+      this._setStartingLocation(true);
 
       Logger.write(`🎓Initialized Microsoft 365 learning pathways - Tenant: ${this.context.pageContext.aadInfo.tenantId}`, LogLevel.Info);
     } catch (err) {
@@ -220,34 +226,49 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
     return retVal;
   }
 
+  private _updateCustomSort = (customSortOrder: string[]): void => {
+    this.properties.customSortOrder = customSortOrder;
+    this._uxService.CustomSortOrder = customSortOrder;
+    this._uxService.CLWPRender();
+  }
+
+  private _resetCustomSortOrder = (): void => {
+    this.properties.customSortOrder = [];
+    this._uxService.CustomSortOrder = [];
+    this._uxService.CLWPRender();
+  }
+
   public async render(): Promise<void> {
     let element;
+
+    // Update Edit Mode
+    this._uxService.EditMode = (this.displayMode === DisplayMode.Edit);
 
     //Update startType and startLocation if changed.
     if (this.properties.webpartMode !== "" && this.properties.webpartMode !== this._uxService.WebPartMode) {
       this._uxService.WebPartMode = this.properties.webpartMode;
     }
 
-    if (this.properties.defaultCategory !== "" && this.properties.defaultCategory !== this._startLocation) {
-      this._startType = Templates.Category;
-      this._startLocation = this.properties.defaultCategory;
-    }
+    // if (this.properties.defaultCategory !== "" && this.properties.defaultCategory !== this._startLocation) {
+    //   this._startType = Templates.Category;
+    //   this._startLocation = this.properties.defaultCategory;
+    // }
 
-    if (this.properties.defaultSubCategory !== "" && this.properties.defaultSubCategory !== this._startLocation) {
-      this._startType = Templates.SubCategory;
-      this._startLocation = this.properties.defaultSubCategory;
-    }
-    if (this.properties.defaultPlaylist !== "" && this.properties.defaultPlaylist !== this._startLocation) {
-      this._startType = Templates.Playlist;
-      this._startLocation = this.properties.defaultPlaylist;
-    }
-    if (this.properties.defaultAsset !== "" && this.properties.defaultAsset !== this._startAsset) {
-      this._startAsset = this.properties.defaultAsset;
-    }
-    if (this.properties.defaultCategory === "" && this.properties.defaultSubCategory === "" && this.properties.defaultPlaylist === "") {
-      this._startType = "";
-      this._startLocation = "";
-    }
+    // if (this.properties.defaultSubCategory !== "" && this.properties.defaultSubCategory !== this._startLocation) {
+    //   this._startType = Templates.SubCategory;
+    //   this._startLocation = this.properties.defaultSubCategory;
+    // }
+    // if (this.properties.defaultPlaylist !== "" && this.properties.defaultPlaylist !== this._startLocation) {
+    //   this._startType = Templates.Playlist;
+    //   this._startLocation = this.properties.defaultPlaylist;
+    // }
+    // if (this.properties.defaultAsset !== "" && this.properties.defaultAsset !== this._startAsset) {
+    //   this._startAsset = this.properties.defaultAsset;
+    // }
+    // if (this.properties.defaultCategory === "" && this.properties.defaultSubCategory === "" && this.properties.defaultPlaylist === "") {
+    //   this._startType = "";
+    //   this._startLocation = "";
+    // }
 
     //Override if the query string parameters are set. But we don't want to do this if we are in edit mode.
     if (this.displayMode != DisplayMode.Edit) {
@@ -256,30 +277,31 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
         this._uxService.WebPartMode = this._urlWebpartMode;
       }
 
+      //TODO: Incorporate new UX Service 
       //If any of the categories are set in the Query String then we reset the web part here
       if (((this._urlCategory) && (this._urlCategory != "")) || ((this._urlSubCategory) && (this._urlSubCategory != "")) || ((this._urlPlaylist) && (this._urlPlaylist != "")) || ((this._urlAsset) && (this._urlAsset != ""))) {
-        if ((this._urlCategory) && (this._urlCategory != "")) {
-          this._startType = Templates.Category;
-          this._startLocation = this._urlCategory;
-        } else if ((this._urlSubCategory) && (this._urlSubCategory != "")) {
-          this._startType = Templates.SubCategory;
-          this._startLocation = this._urlSubCategory;
-        } else if ((this._urlPlaylist) && (this._urlPlaylist != "")) {
-          this._startType = Templates.Playlist;
-          this._startLocation = this._urlPlaylist;
-          this._startAsset = this._urlAsset as string;
-        } else if ((this._urlAsset) && (this._urlAsset != "")) {
-          this._startType = Templates.Asset;
-          this._startLocation = this._urlAsset;
-        } else {
-          this._startType = "";
-          this._startLocation = "";
-        }
+        // if ((this._urlCategory) && (this._urlCategory != "")) {
+        //   this._startType = Templates.Category;
+        //   this._startLocation = this._urlCategory;
+        // } else if ((this._urlSubCategory) && (this._urlSubCategory != "")) {
+        //   this._startType = Templates.SubCategory;
+        //   this._startLocation = this._urlSubCategory;
+        // } else if ((this._urlPlaylist) && (this._urlPlaylist != "")) {
+        //   this._startType = Templates.Playlist;
+        //   this._startLocation = this._urlPlaylist;
+        //   this._startAsset = this._urlAsset as string;
+        // } else if ((this._urlAsset) && (this._urlAsset != "")) {
+        //   this._startType = Templates.Asset;
+        //   this._startLocation = this._urlAsset;
+        // } else {
+        //   this._startType = "";
+        //   this._startLocation = "";
+        // }
       }
     }
 
     let sv: string = ShimmerView.ViewerCategory;
-    switch (this._startType) {
+    switch (this._uxService.WebPartStartup.startingType) {
       case Templates.Category:
         sv = ShimmerView.ViewerCategory;
         break;
@@ -311,15 +333,15 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
       if (this._validSetup && this._validConfig) {
         //Render web part
         const props: ICustomLearningProps = {
-          editMode: (this.displayMode === DisplayMode.Edit),
-          startType: this._startType,
-          startLocation: this._startLocation,
-          startAsset: this._startAsset,
+          //editMode: (this.displayMode === DisplayMode.Edit),
+          // startType: this._startType,
+          // startLocation: this._startLocation,
+          // startAsset: this._startAsset,
           webpartTitle: this.properties.title,
-          customSort: this.properties.customSort ? this.properties.customSort : false,
-          customSortOrder: this.properties.customSortOrder,
+          //customSort: this.properties.customSort ? this.properties.customSort : false,
+          //customSortOrder: this.properties.customSortOrder,
           teamsEntityId: this._teamsContext?.page?.subPageId ?? '',
-          updateCustomSort: this._updateCustomSort,
+          //updateCustomSort: this._updateCustomSort,
           alwaysShowSearch: this.properties.alwaysShowSearch || false,
         };
 
@@ -381,7 +403,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
         options.push({ key: "Default", text: strings.M365Title });
       }
     } catch (err) {
-      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getDefaultCDNPropertyPaneOptions) - ${err} -- Error loading CDN property pane options.`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_getDefaultCDNPropertyPaneOptions) - ${err} -- Error loading CDN property pane options.`, LogLevel.Error);
     }
     this._ppDefaultCDN = options;
   }
@@ -392,7 +414,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
       options.push({ key: WebPartModeOptions.full, text: strings.WebPartModeFull });
       options.push({ key: WebPartModeOptions.contentonly, text: strings.WebPartModeContentOnly });
     } catch (err) {
-      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getWebpartModePropertyPaneOptions) -- ${err} -- Error loading webpart mode property pane options.`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_getWebpartModePropertyPaneOptions) -- ${err} -- Error loading webpart mode property pane options.`, LogLevel.Error);
     }
     this._ppWebpartMode = options;
   }
@@ -405,7 +427,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
       options.push({ key: PropertyPaneFilters.subcategory, text: strings.PropertyPaneFilterSubCategory });
       options.push({ key: PropertyPaneFilters.playlist, text: strings.PropertyPaneFilterPlaylist });
     } catch (err) {
-      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getDefaultFilterPropertyPaneOptions) - ${err} -- Error loading filter property pane options.`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_getDefaultFilterPropertyPaneOptions) - ${err} -- Error loading filter property pane options.`, LogLevel.Error);
     }
     this._ppFilters = options;
   }
@@ -423,7 +445,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
         }
         options = sortBy(options, ["text"]);
       } catch (err) {
-        Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getCategoryPropertyPaneOptions) - ${err} -- Error loading category property pane options.`, LogLevel.Error);
+        Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_getCategoryPropertyPaneOptions) - ${err} -- Error loading category property pane options.`, LogLevel.Error);
       }
     }
     this._ppCategory = options;
@@ -449,7 +471,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
           }
         }
       } catch (err) {
-        Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getSubCategoryPropertyPaneOptions) - ${err} -- Error loading sub-category property pane options.`, LogLevel.Error);
+        Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_getSubCategoryPropertyPaneOptions) - ${err} -- Error loading sub-category property pane options.`, LogLevel.Error);
       }
     }
     this._ppSubCategory = options;
@@ -479,7 +501,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
               plItems[catId] = [];
             } else {
               catId = "";
-              Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getPlaylistPropertyPaneOptions) -- Could not find category id: ${catId}.`, LogLevel.Error);
+              Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_getPlaylistPropertyPaneOptions) -- Could not find category id: ${catId}.`, LogLevel.Error);
             }
           }
           if (catId.length > 0) {
@@ -516,20 +538,10 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
             });
         }
       } catch (err) {
-        Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (loadPlayListAssets) - ${err} -- Error loading playlist assets property pane options.`, LogLevel.Error);
+        Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_loadPlayListAssets) - ${err} -- Error loading playlist assets property pane options.`, LogLevel.Error);
       }
     }
     this._ppAssets = options;
-  }
-
-  private _updateCustomSort = (customSortOrder: string[]): void => {
-    this.properties.customSortOrder = customSortOrder;
-    this.render();
-  }
-
-  private _resetCustomSortOrder = (): void => {
-    this.properties.customSortOrder = [];
-    this.render();
   }
 
   protected getPropertyPaneConfiguration(): IPropertyPaneConfiguration {
@@ -633,6 +645,45 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
     return configuration;
   }
 
+  private _setStartingLocation = (skipRender: boolean = false): void => {
+    try{
+      let startChanged = false;
+      const webPartStartup = cloneDeep(this._uxService.WebPartStartup);
+
+      if (this.properties.defaultCategory !== "" && this.properties.defaultCategory !== webPartStartup.startingLocation) {
+        webPartStartup.startingType = Templates.Category;
+        webPartStartup.startingLocation = this.properties.defaultCategory;
+        startChanged = true;
+      }  
+      if (this.properties.defaultSubCategory !== "" && this.properties.defaultSubCategory !== webPartStartup.startingLocation) {
+        webPartStartup.startingType = Templates.SubCategory;
+        webPartStartup.startingLocation = this.properties.defaultSubCategory;
+        startChanged = true;
+      }
+      if (this.properties.defaultPlaylist !== "" && this.properties.defaultPlaylist !== webPartStartup.startingLocation) {
+        webPartStartup.startingType = Templates.Playlist;
+        webPartStartup.startingLocation = this.properties.defaultPlaylist;
+        startChanged = true;
+      }
+      if (this.properties.defaultAsset !== "" && this.properties.defaultAsset !== webPartStartup.startAsset) {
+        webPartStartup.startAsset = this.properties.defaultAsset;
+        startChanged = true;
+      }
+      if (this.properties.defaultCategory === "" && this.properties.defaultSubCategory === "" && this.properties.defaultPlaylist === "") {
+        webPartStartup.startingType = "";
+        webPartStartup.startingLocation = "";
+        startChanged = true;
+      }
+
+      this._uxService.WebPartStartup = webPartStartup;
+      if(startChanged && !skipRender){
+        this._uxService.CLWPRender();
+      }
+    }catch(err){
+      console.error(`${this.LOG_SOURCE} (_setStartingLocation) - ${err}`);
+    }
+  }
+
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   protected async onPropertyPaneFieldChanged(propertyPath: string, oldValue: any, newValue: any): Promise<void> {
     try {
@@ -644,7 +695,9 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
         this.properties.defaultPlaylist = "";
         this.properties.defaultAsset = "";
         this.properties.customSort = false;
+        this._uxService.CustomSort = false;
         this.properties.customSortOrder = [];
+        this._uxService.CustomSortOrder = [];
         if (propertyPath === 'defaultCDN') {
           this._isReady = false;
           this.render();
@@ -654,20 +707,27 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
           this._getCategoryPropertyPaneOptions();
           this._getSubCategoryPropertyPaneOptions();
           this._getPlaylistPropertyPaneOptions();
-          this.render();
+          this._uxService.CLWPRender();
         }
         this.context.propertyPane.refresh();
       } else if (propertyPath === 'defaultPlaylist') {
         super.onPropertyPaneFieldChanged(propertyPath, oldValue, newValue);
         this.properties.customSort = false;
+        this._uxService.CustomSort = false;
         this.properties.customSortOrder = [];
+        this._uxService.CustomSortOrder = [];
         this._loadPlayListAssets(newValue);
+        this._setStartingLocation();
       } else if (propertyPath === 'customSort' || propertyPath === "defaultCategory" || propertyPath === "defaultSubCategory") {
         super.onPropertyPaneFieldChanged(propertyPath, oldValue, newValue);
+        this._uxService.CustomSort = newValue;
         this.properties.customSortOrder = [];
-        this.render();
+        this._uxService.CustomSortOrder = [];
+        this._setStartingLocation(true);
+        this._uxService.CLWPRender();
       } else {
         super.onPropertyPaneFieldChanged(propertyPath, oldValue, newValue);
+        this._setStartingLocation();
       }
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (onPropertyPaneFieldChanged) - ${err} -- Error processing property field changes.`, LogLevel.Error);

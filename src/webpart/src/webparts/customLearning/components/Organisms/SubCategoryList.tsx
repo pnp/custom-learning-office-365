@@ -7,15 +7,15 @@ import isEqual from "lodash-es/isEqual";
 
 import { ICategory, IPlaylist } from '../../../common/models/Models';
 import { Templates } from "../../../common/models/Enums";
+import { UXServiceContext } from '../../../common/services/UXService';
 import SubCategoryItem from "../Molecules/SubcategoryItem";
 
 export interface ISubCategoryListProps {
   detail: ICategory[] | IPlaylist[];
   template: string;
-  editMode: boolean;
-  customSort: boolean;
+  // customSort: boolean;
   selectItem: (template: string, templateId: string) => void;
-  updateCustomSort: (customSortOrder: string[]) => void;
+  // updateCustomSort: (customSortOrder: string[]) => void;
 }
 
 export interface ISubCategoryListState {
@@ -31,7 +31,10 @@ export class SubCategoryListState implements ISubCategoryListState {
 }
 
 export default class SubCategoryList extends React.Component<ISubCategoryListProps, ISubCategoryListState> {
+  static contextType = UXServiceContext;
+
   private LOG_SOURCE: string = "SubCategoryList";
+  private _uxService: React.ContextType<typeof UXServiceContext>;
   private _updateState: boolean;
   private _dragResource: ICategory | IPlaylist;
 
@@ -56,13 +59,13 @@ export default class SubCategoryList extends React.Component<ISubCategoryListPro
   }
 
   //Support drag and drop for custom sorting
-  private startDrag = (event: React.DragEvent<HTMLDivElement>, index: number): void => {
-    if (!(this.props.customSort && this.props.editMode)) { return; }
+  private _startDrag = (event: React.DragEvent<HTMLDivElement>, index: number): void => {
+    if (!(this._uxService.CustomSort && this._uxService.EditMode)) { return; }
     try {
       event.stopPropagation();
       this._dragResource = this.state.detail[index];
       event.dataTransfer.effectAllowed = "move";
-      event.target[0].style.cursor = "move";
+      (event.target as HTMLElement).style.cursor = "move";
       event.dataTransfer.setData("text/html", event.currentTarget.nodeName);
       event.dataTransfer.setDragImage(event.currentTarget, 20, 20);
     } catch (err) {
@@ -70,22 +73,22 @@ export default class SubCategoryList extends React.Component<ISubCategoryListPro
     }
   }
 
-  private endDrag = (): void => {
-    if (!(this.props.customSort && this.props.editMode)) { return; }
+  private _endDrag = (): void => {
+    if (!(this._uxService.CustomSort && this._uxService.EditMode)) { return; }
     try {
       const customSortOrder: string[] = map(this.state.detail, (item: ICategory | IPlaylist) => {
         return item.Id;
       });
       this._dragResource = null;
       if (!isEqual(this.state.detail, this.props.detail))
-        this.props.updateCustomSort(customSortOrder);
+        this._uxService.UpdateCustomSort(customSortOrder);
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (endDrag) - ${err}`, LogLevel.Error);
     }
   }
 
-  private dragEnter = (index: number): void => {
-    if (!(this.props.customSort && this.props.editMode)) { return; }
+  private _dragEnter = (index: number): void => {
+    if (!(this._uxService.CustomSort && this._uxService.EditMode)) { return; }
     try {
       const draggedOverItem = this.state.detail[index];
 
@@ -108,7 +111,8 @@ export default class SubCategoryList extends React.Component<ISubCategoryListPro
   }
 
   public render(): React.ReactElement<ISubCategoryListProps> {
-    const dragMode: boolean = (this.props.customSort && this.props.editMode);
+    if (this._uxService == undefined) { this._uxService = this.context; }
+    const dragMode: boolean = (this._uxService.CustomSort && this._uxService.EditMode);
     try {
       return (
         <div data-component={this.LOG_SOURCE} className={`plov ${(dragMode ? "editSort" : "")}`}>
@@ -123,9 +127,9 @@ export default class SubCategoryList extends React.Component<ISubCategoryListPro
                 description=""
                 audience={null}
                 onClick={() => { if (!dragMode) { this.props.selectItem(Templates.SubCategory, subcategory.Id); } }}
-                onDragStart={this.startDrag}
-                onDragEnter={this.dragEnter}
-                onDragEnd={this.endDrag}
+                onDragStart={this._startDrag}
+                onDragEnter={this._dragEnter}
+                onDragEnd={this._endDrag}
               />
             );
           })
@@ -141,9 +145,9 @@ export default class SubCategoryList extends React.Component<ISubCategoryListPro
                 description={playlist.Description as string}
                 audience={playlist.AudienceValue}
                 onClick={() => { if (!dragMode) { this.props.selectItem(Templates.Playlist, playlist.Id); } }}
-                onDragStart={this.startDrag}
-                onDragEnter={this.dragEnter}
-                onDragEnd={this.endDrag}
+                onDragStart={this._startDrag}
+                onDragEnter={this._dragEnter}
+                onDragEnd={this._endDrag}
               />
             );
           })
