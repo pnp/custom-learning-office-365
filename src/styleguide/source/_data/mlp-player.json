@@ -1,0 +1,56 @@
+{
+    "playerctrl": {
+        "prev": {
+            "button": {
+                "iconname": "icon-chevron-left-filled",
+                "label": "Previous"
+            }
+        },
+        "select": {
+            "button": {
+                "aria-label": "Show Dropdown",
+                "iconname": "icon-arrow-down"
+            },
+            "select-options": {
+                "options": [
+                    {
+                        "key": "1st entry title in playlist",
+                        "value": "1st entry title in playlist"
+                    },
+                    {
+                        "key": "2nd entry title in playlist",
+                        "value": "2nd entry title in playlist"
+                    },
+                    {
+                        "key": "3rd entry title in playlist",
+                        "value": "3rd entry title in playlist"
+                    },
+                    {
+                        "key": "4th entry title in playlist",
+                        "value": "4th entry title in playlist"
+                    },
+                    {
+                        "key": "5th entry title in playlist",
+                        "value": "5th entry title in playlist"
+                    },
+                    {
+                        "key": "6th entry title in playlist",
+                        "value": "6th entry title in playlist"
+                    }
+                ]
+            }
+        },
+        "fullscreen": {
+            "button": {
+                "iconname": "icon-full-screen-maximize-filled",
+                "aria-label": "Fullscreen"
+            }
+        },
+        "next": {
+            "button": {
+                "iconname": "icon-chevron-right-filled",
+                "label": "Next"
+            }
+        }
+    }
+}
