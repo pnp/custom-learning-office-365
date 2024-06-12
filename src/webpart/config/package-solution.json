@@ -1,17 +1,19 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "features": [
-      {
-        "title": "customlearning CustomLearningWebPart Feature",
-        "description": "The feature that activates CustomLearningWebPart from the customlearning solution.",
-        "id": "141d4ab7-b6ca-4bf4-ac59-25b7bf93642d",
-        "version": "5.0.0.0",
-        "componentIds": [
-          "141d4ab7-b6ca-4bf4-ac59-25b7bf93642d"
-        ]
-      }
-    ],
+    "name": "Microsoft 365 learning pathways",
+    "id": "26c9cd9f-db62-49b1-b102-7f0dad281ea0",
+    "version": "5.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": false,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Julie Turner/Stefan Bauer",
+      "privacyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+      "termsOfUseUrl": "https://unpkg.com/@microsoft/sp-core-library@1.8.2/EULA/Microsoft%20Sharepoint%20Framework%20-%20Standalone%20(free)%20Use%20Terms.docx",
+      "websiteUrl": "https://github.com/pnp/custom-learning-office-365",
+      "mpnId": "M365PnP"
+    },
     "metadata": {
       "shortDescription": {
         "default": "customlearning description"
@@ -23,24 +25,23 @@
       "videoUrl": "",
       "categories": []
     },
+    "features": [
+      {
+        "title": "customlearning CustomLearningWebPart Feature",
+        "description": "The feature that activates CustomLearningWebPart from the customlearning solution.",
+        "id": "141d4ab7-b6ca-4bf4-ac59-25b7bf93642d",
+        "version": "5.0.0.0",
+        "componentIds": [
+          "141d4ab7-b6ca-4bf4-ac59-25b7bf93642d"
+        ]
+      }
+    ],    
     "webApiPermissionRequests": [
       {
         "resource": "Microsoft Graph",
         "scope": "Files.ReadWrite.All"
       }
-    ],
-    "name": "Microsoft 365 learning pathways",
-    "id": "26c9cd9f-db62-49b1-b102-7f0dad281ea0",
-    "version": "4.4.0.0",
-    "includeClientSideAssets": true,
-    "isDomainIsolated": false,
-    "developer": {
-      "name": "Julie Turner/Stefan Bauer",
-      "privacyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
-      "termsOfUseUrl": "https://unpkg.com/@microsoft/sp-core-library@1.8.2/EULA/Microsoft%20Sharepoint%20Framework%20-%20Standalone%20(free)%20Use%20Terms.docx",
-      "websiteUrl": "https://github.com/pnp/custom-learning-office-365",
-      "mpnId": "M365PnP"
-    }
+    ]
   },
   "paths": {
     "zippedPackage": "solution/customlearning.sppkg"
