@@ -523,16 +523,13 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
                 type: PropertyPaneDropdownOptionType.Header
               });
               plItems[catId] = [];
-            } else {
-              catId = "";
-              Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_getPlaylistPropertyPaneOptions) -- Could not find category id: ${catId}.`, LogLevel.Error);
+              if (catId.length > 0) {
+                plItems[catId].push({
+                  key: cachedPlaylists[i].Id,
+                  text: cachedPlaylists[i].Title as string,
+                });
+              }
             }
-          }
-          if (catId.length > 0) {
-            plItems[catId].push({
-              key: cachedPlaylists[i].Id,
-              text: cachedPlaylists[i].Title as string,
-            });
           }
         }
         categories = sortBy(categories, (o) => { return o.text.toLowerCase(); });
