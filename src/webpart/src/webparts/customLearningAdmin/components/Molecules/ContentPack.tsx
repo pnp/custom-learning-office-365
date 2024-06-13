@@ -3,7 +3,7 @@ import { Logger, LogLevel } from "@pnp/logging";
 
 import isEqual from "lodash-es/isEqual";
 import find from "lodash-es/find";
-import HOOButton from "@n8d/htwoo-react/HOOButton";
+import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
 
 import { params } from "../../../common/services/Parameters";
 import * as strings from "M365LPStrings";
@@ -11,6 +11,7 @@ import ContentPackItem from "../Atoms/ContentPackItem";
 import CdnEdit from '../Atoms/CdnEdit';
 import styles from "../../../common/CustomLearningCommon.module.scss";
 import { IContentPack, ICDN, CDN } from "../../../common/models/Models";
+import HOOLabel from "@n8d/htwoo-react/HOOLabel";
 
 
 export interface IContentPackProps {
@@ -112,60 +113,60 @@ export default class ContentPack extends React.Component<IContentPackProps, ICon
   public render(): React.ReactElement<IContentPackProps> {
     try {
       return (
-        <>
-          <div data-component={this.LOG_SOURCE} className="buttonRight">
-            <HOOButton
-              iconName="icon-dismiss-regular"
-              onClick={this.props.close}
-              type={0}
-            />
+        <div data-component={this.LOG_SOURCE}>
+          <div className="buttonRight">
+            <HOOButton type={HOOButtonType.Icon} iconName="icon-dismiss-regular"
+              onClick={this.props.close} />
           </div>
-          {!this.state.confirmContentPack && !this.state.addCustomCdn &&
-            <div data-component={this.LOG_SOURCE} className="plov">
-              <ContentPackItem
-                imageSource={this.props.placeholderUrl}
-                title={strings.AdminCustomCdnTitle}
-                description={strings.AdminCustomCdnDescription}
-                onClick={() => this.addCdn("new")}
+          <HOOLabel label={strings.AdminAddCdnLabel} />
+          <div data-component={this.LOG_SOURCE} className="plov">
+            {!this.state.confirmContentPack && !this.state.addCustomCdn &&
+              <>
+                <ContentPackItem
+                  imageSource={this.props.placeholderUrl}
+                  title={strings.AdminCustomCdnTitle}
+                  description={strings.AdminCustomCdnDescription}
+                  onClick={() => this.addCdn("new")}
+                />
+                {params.contentPacks && params.contentPacks.length > 0 && params.contentPacks.map((cp, idx) => {
+                  return (
+                    <ContentPackItem
+                      key={idx}
+                      imageSource={cp.Image}
+                      title={cp.Name}
+                      description={cp.Description}
+                      onClick={() => this.addCdn(cp.Id)}
+                    />
+                  );
+                })}
+              </>
+            }
+            {this.state.confirmContentPack &&
+              <div data-component={this.LOG_SOURCE}>
+                <p>{strings.AdminConfirmContentPack}</p>
+                <HOOButton
+                  label={strings.AdminCdnCompleteButton}
+                  onClick={this.confirmContentPack}
+                  rootElementAttributes={{ className: styles.buttonMargin }}
+                  type={1}
+                />
+                <HOOButton
+                  label={strings.AdminCdnCancelButton}
+                  onClick={this.cancelContentPack}
+                  rootElementAttributes={{ className: styles.buttonMargin }}
+                  type={2}
+                />
+              </div>
+            }
+            {this.state.addCustomCdn &&
+              <CdnEdit
+                cdn={new CDN()}
+                closeForm={this.cancelAddCdn}
+                upsertCdn={this.saveCdn}
               />
-              {params.contentPacks && params.contentPacks.length > 0 && params.contentPacks.map((cp, idx) => {
-                return (
-                  <ContentPackItem
-                    key={idx}
-                    imageSource={cp.Image}
-                    title={cp.Name}
-                    description={cp.Description}
-                    onClick={() => this.addCdn(cp.Id)}
-                  />
-                );
-              })}
-            </div>
-          }
-          {this.state.confirmContentPack &&
-            <div data-component={this.LOG_SOURCE}>
-              <p>{strings.AdminConfirmContentPack}</p>
-              <HOOButton
-                label={strings.AdminCdnCompleteButton}
-                onClick={this.confirmContentPack}
-                rootElementAttributes={{ className: styles.buttonMargin }}
-                type={1}
-              />
-              <HOOButton
-                label={strings.AdminCdnCancelButton}
-                onClick={this.cancelContentPack}
-                rootElementAttributes={{ className: styles.buttonMargin }}
-                type={2}
-              />
-            </div>
-          }
-          {this.state.addCustomCdn &&
-            <CdnEdit
-              cdn={new CDN()}
-              closeForm={this.cancelAddCdn}
-              upsertCdn={this.saveCdn}
-            />
-          }
-        </>
+            }
+          </div>
+        </div>
       );
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);

@@ -63,7 +63,6 @@ export default class TechnologyNav extends React.Component<ITechnologyNavProps, 
     return navItems;
   }
 
-  // TODO make sure this works
   private onNavClick = (key: string | number, technology?: ITechnology): void => {
     this.props.onClick(technology);
   }

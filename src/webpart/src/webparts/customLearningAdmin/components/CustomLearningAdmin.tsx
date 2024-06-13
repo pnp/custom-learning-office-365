@@ -278,7 +278,7 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
       const showUpgradeMsg: boolean = (this.props.cacheConfig && (this.props.currentWebpart < this._currentVersion));
       const className: string = (showMultilingualMsg || showUpgradeMsg) ? "" : "nomsg";
       return (
-        <div data-component={this.LOG_SOURCE} className={`${styles.customLearning} ${(params.appPartPage) ? styles.appPartPage : ""}`}>
+        <section data-component={this.LOG_SOURCE} className={`ad,om-wrapper ${styles.customLearning} ${(params.appPartPage) ? styles.appPartPage : ""}`}>
           <AdminMenu
             loadingCdn={this.state.loadingCdn}
             placeholderUrl={`${params.baseCdnPath}${params.defaultLanguage}/images/categories/customfeatured.png`}
@@ -336,7 +336,7 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
             this.state.loadingCdn &&
             <ShimmerViewer shimmerView={ShimmerView.AdminCdn} />
           }
-        </div >
+        </section >
       );
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);

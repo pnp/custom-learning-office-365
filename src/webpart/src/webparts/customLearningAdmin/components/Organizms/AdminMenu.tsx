@@ -209,51 +209,54 @@ export default class AdminMenu extends React.PureComponent<IAdminMenuProps, IAdm
 
     try {
       return (
-        <nav data-component={this.LOG_SOURCE} className="adm-nav" role="navigation">
-          <div className="adm-nav-menu">
-            <HOOPivotBar
-              pivotItems={this.getPivotItems()}
-              rootElementAttributes={{ className: "adm-header-nav" }}
-              selectedKey={this.props.currentCDNId === null ? null : this.props.currentCDNId}
-              onClick={(ev, option) => this.selectCDN(option.toString())}
-            />
-          </div>
-          <div className="adm-nav-actions">
-            {this.props.currentCDNId !== "Default" &&
+        <>
+          <nav data-component={this.LOG_SOURCE} className="adm-nav" role="navigation">
+            <div className="adm-nav-menu">
+              <HOOPivotBar
+                pivotItems={this.getPivotItems()}
+                rootElementAttributes={{ className: "adm-header-nav" }}
+                selectedKey={this.props.currentCDNId === null ? null : this.props.currentCDNId}
+                onClick={(ev, option) => this.selectCDN(option.toString())}
+              />
+            </div>
+            <div className="adm-nav-actions">
+              {this.props.currentCDNId !== "Default" &&
+                <HOOButton type={HOOButtonType.Icon}
+                  iconName="icon-delete-regular"
+                  iconTitle={strings.AdminDeleteCdnLabel}
+                  onClick={this.removeCdn}
+                  disabled={this.props.currentCDNId === "Default"}
+                  rootElementAttributes={{ className: (this.state.showEditCDN) ? "selected" : "" }} />
+              }
+              {this.props.currentCDNId !== "Default" &&
+                <HOOButton type={HOOButtonType.Icon}
+                  iconName="icon-pen-regular"
+                  iconTitle={strings.AdminEditCdnLabel}
+                  onClick={this.toggleEdit}
+                  disabled={this.props.currentCDNId === "Default"}
+                  rootElementAttributes={{ className: (this.state.showEditCDN) ? "selected" : "" }} />
+              }
+              <HOOIconOverflow overflow>
+                <HOOFlyoutMenu
+                  contextItems={_overflowItems} contextItemClicked={(ev, option) => this.handleToolClick(option.label)} />
+              </HOOIconOverflow>
               <HOOButton type={HOOButtonType.Icon}
-                iconName="icon-delete-regular"
-                iconTitle={strings.AdminDeleteCdnLabel}
-                onClick={this.removeCdn}
-                disabled={this.props.currentCDNId === "Default"}
-                rootElementAttributes={{ className: (this.state.showEditCDN) ? "selected" : "" }} />
-            }
-            {this.props.currentCDNId !== "Default" &&
-              <HOOButton type={HOOButtonType.Icon}
-                iconName="icon-pen-regular"
-                iconTitle={strings.AdminEditCdnLabel}
-                onClick={this.toggleEdit}
-                disabled={this.props.currentCDNId === "Default"}
-                rootElementAttributes={{ className: (this.state.showEditCDN) ? "selected" : "" }} />
-            }
-            <HOOIconOverflow overflow>
-              <HOOFlyoutMenu
-                contextItems={_overflowItems} contextItemClicked={(ev, option) => this.handleToolClick(option.label)} />
-            </HOOIconOverflow>
-            <HOOButton type={HOOButtonType.Icon}
-              iconName="icon-question-regular"
-              iconTitle={strings.DocumentationLinkLabel}
-              onClick={this.openDocumentation} />
-          </div>
-          <div className="adm-nav-filter">
-            <HOODropDown
-              value={"Category"}
-              options={this._tabOptions}
-              containsTypeAhead={false}
-              onChange={(ev) => this.props.selectTab(ev as string)}
-              rootElementAttributes={{ className: "adm-header-cat" }} />
-          </div>
+                iconName="icon-question-regular"
+                iconTitle={strings.DocumentationLinkLabel}
+                onClick={this.openDocumentation} />
+            </div>
+            <div className="adm-nav-filter">
+              <HOODropDown
+                value={"Category"}
+                options={this._tabOptions}
+                containsTypeAhead={false}
+                onChange={(ev) => this.props.selectTab(ev as string)}
+                rootElementAttributes={{ className: "adm-header-cat" }} />
+            </div>
+
+          </nav>
           {this.state.showAddContentPack &&
-            <div data-component={this.LOG_SOURCE} className="adm-header-edit headerpanel">
+            <div data-component={this.LOG_SOURCE} className="headerpanel">
               <ContentPack
                 placeholderUrl={this.props.placeholderUrl}
                 addCdn={this.addCdn}
@@ -287,7 +290,8 @@ export default class AdminMenu extends React.PureComponent<IAdminMenuProps, IAdm
                   value={0} /></>
             }
           </div>
-        </nav>
+        </>
+
 
       );
     } catch (err) {
