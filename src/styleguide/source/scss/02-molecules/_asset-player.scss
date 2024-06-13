@@ -1,0 +1,11 @@
+.playercontent{
+    --height: var(--height-correction, 0px);
+    width: 100%;
+    height: calc(100vh - var(--height));
+    max-height: calc(100vh - var(--height));
+}
+.playercontent-iframe{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
