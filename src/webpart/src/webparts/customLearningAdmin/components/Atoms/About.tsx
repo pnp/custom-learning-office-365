@@ -60,46 +60,163 @@ export default class About extends React.Component<IAboutProps, IAboutState> {
             <HOOButton type={HOOButtonType.Icon} iconName="icon-dismiss-regular"
               onClick={this.props.close} />
           </div>
-          <HOOLabel label={`${strings.AboutGroupHeader} - ${strings.AboutGroupTitle2}`}/>
+          <HOOLabel label={`${strings.AboutGroupHeader} - ${strings.AboutGroupTitle2}`} />
           <div className="plov">
-            <HOOLabel label={strings.AboutLearningSiteUrl}/>
-            <HOOText disabled onChange={null} value={params.learningSiteUrl} />
+            <HOOLabel label={strings.AboutLearningSiteUrl} />
+            <HOOText
+              onChange={null}
+              value={params.learningSiteUrl}
+              inputElementAttributes={{
+                readOnly: true,
+                style: {
+                  width: '100%'
+                }
+              }}
+            />
 
-            <HOOLabel label={strings.AboutDefaultSiteLanguage}/>
-            <HOOText disabled onChange={null} value={defaultLanguageValue} />
+            <HOOLabel label={strings.AboutDefaultSiteLanguage} />
+            <HOOText
+              onChange={null}
+              value={defaultLanguageValue}
+              inputElementAttributes={{
+                readOnly: true,
+                style: {
+                  width: '100%'
+                }
+              }}
+            />
 
-            <HOOLabel label={strings.AboutTelemetryStatus}/>
-            <HOOText disabled onChange={null} value={params.telemetryOn.toString()} />
+            <HOOLabel label={strings.AboutTelemetryStatus} />
+            <HOOText
+              onChange={null}
+              value={params.telemetryOn.toString()}
+              inputElementAttributes={{
+                readOnly: true,
+                style: {
+                  width: '100%'
+                }
+              }}
+            />
 
-            <HOOLabel label={strings.AboutCurrentWPVersion}/>
-            <HOOText disabled onChange={null} value={params.webPartVersion} />
+            <HOOLabel label={strings.AboutCurrentWPVersion} />
+            <HOOText
+              onChange={null}
+              value={params.webPartVersion}
+              inputElementAttributes={{
+                readOnly: true,
+                style: {
+                  width: '100%'
+                }
+              }}
+            />
 
-            <HOOLabel label={strings.AboutMultilingualEnabled}/>
-            <HOOText disabled onChange={null} value={params.multilingualEnabled.toString()} />
+            <HOOLabel label={strings.AboutMultilingualEnabled} />
+            <HOOText
+              onChange={null}
+              value={params.multilingualEnabled.toString()}
+              inputElementAttributes={{
+                readOnly: true,
+                style: {
+                  width: '100%'
+                }
+              }}
+            />
 
-            <HOOLabel label={strings.AboutMultilingualLanguages}/>
-            <HOOText disabled onChange={null} value={multilingualLanguages} />
+            <HOOLabel label={strings.AboutMultilingualLanguages} />
+            <HOOText
+              onChange={null}
+              value={multilingualLanguages}
+              inputElementAttributes={{
+                readOnly: true,
+                style: {
+                  width: '100%'
+                }
+              }}
+            />
 
-            <HOOLabel label={strings.AboutCurrentUserLanguage}/>
-            <HOOText disabled onChange={null} value={params.userLanguage} />
+            <HOOLabel label={strings.AboutCurrentUserLanguage} />
+            <HOOText
+              onChange={null}
+              value={params.userLanguage}
+              inputElementAttributes={{
+                readOnly: true,
+                style: {
+                  width: '100%'
+                }
+              }}
+            />
 
-            <HOOLabel label={strings.AboutAllCDNs}/>
-            <HOOText disabled onChange={null} value={allCdn} />
+            <HOOLabel label={strings.AboutAllCDNs} />
+            <HOOText
+              onChange={null}
+              value={allCdn}
+              inputElementAttributes={{
+                readOnly: true,
+                style: {
+                  width: '100%'
+                }
+              }}
+            />
 
-            <HOOLabel label={strings.AboutBaseCDNPath}/>
-            <HOOText disabled onChange={null} value={params.baseCdnPath} />
+            <HOOLabel label={strings.AboutBaseCDNPath} />
+            <HOOText
+              onChange={null}
+              value={params.baseCdnPath}
+              inputElementAttributes={{
+                readOnly: true,
+                style: {
+                  width: '100%'
+                }
+              }}
+            />
 
-            <HOOLabel label={strings.AboutSupportedLanguages}/>
-            <HOOText disabled onChange={null} value={supportedLanguages} />
+            <HOOLabel label={strings.AboutSupportedLanguages} />
+            <HOOText
+              onChange={null}
+              value={supportedLanguages}
+              inputElementAttributes={{
+                readOnly: true,
+                style: {
+                  width: '100%'
+                }
+              }}
+            />
 
-            <HOOLabel label={strings.AboutConfiguredLanguages}/>
-            <HOOText disabled onChange={null} value={configuredLanguages} />
+            <HOOLabel label={strings.AboutConfiguredLanguages} />
+            <HOOText
+              onChange={null}
+              value={configuredLanguages}
+              inputElementAttributes={{
+                readOnly: true,
+                style: {
+                  width: '100%'
+                }
+              }}
+            />
 
-            <HOOLabel label={strings.AboutContentPackAssetOrigins}/>
-            <HOOText disabled onChange={null} value={assetOrigins} />
+            <HOOLabel label={strings.AboutContentPackAssetOrigins} />
+            <HOOText
+              onChange={null}
+              value={assetOrigins}
+              inputElementAttributes={{
+                readOnly: true,
+                style: {
+                  width: '100%'
+                }
+              }}
+            />
 
             <HOOLabel label={strings.AboutCacheLastUpdate} />
-            <HOOText disabled onChange={null} value={(params.lastUpdatedCache) ? `${params.lastUpdatedCache.toDateString()} ${params.lastUpdatedCache.toTimeString()}` : "N/A"} />
+            <HOOText
+              onChange={null}
+              value={(params.lastUpdatedCache) ? `${params.lastUpdatedCache.toDateString()} ${params.lastUpdatedCache.toTimeString()}` : "N/A"}
+              inputElementAttributes={{
+                readOnly: true,
+                style: {
+                  width: '100%'
+                }
+              }}
+            />
 
           </div>
         </div>

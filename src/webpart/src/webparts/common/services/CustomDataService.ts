@@ -408,7 +408,7 @@ export class CustomDataService implements ICustomDataService {
         cdnResponse = await this._sp.web.lists.getByTitle(CustomListNames.customConfigName).items.getById(cdn.Id).update({ JSONData: JSON.stringify(cdn) });
       }
 
-      return (cdn.Id === 0) ? cdnResponse.Id.toString() : cdnResponse.data["odata.etag"].split('"')[1].toString();
+      return (cdn.Id === 0) ? cdnResponse.Id.toString() : cdnResponse.etag.split('"')[1].toString();
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (createSubCategories) - ${err}`, LogLevel.Error);
       return null;
