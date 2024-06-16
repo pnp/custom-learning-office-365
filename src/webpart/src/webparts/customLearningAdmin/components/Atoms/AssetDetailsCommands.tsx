@@ -2,10 +2,11 @@ import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
 import isEqual from "lodash-es/isEqual";
-import HOOAction from "@n8d/htwoo-react/HOOAction";
 import HOOButton from "@n8d/htwoo-react/HOOButton";
+import HOOIcon from "@n8d/htwoo-react/HOOIcon";
 
 import * as strings from "M365LPStrings";
+
 
 export interface IAssetDetailsCommandsProps {
   assetIndex: number;
@@ -43,30 +44,29 @@ export default class AssetDetailsCommands extends React.Component<IAssetDetailsC
 
   public render(): React.ReactElement<IAssetDetailsCommandsProps> {
     try {
-      const iconName = (this.props.editDisabled) ? "" : "icon-person-available-regular";
       return (
         <div className="pl-edit-item">
-          <HOOAction
-            iconName={iconName}
-            label={this.props.assetTitle}
-            onClick={() => this.props.select()}
-            rootElementAttributes={{ className: "pl-edit-title" }}
-          />
+          {!this.props.editDisabled &&
+            <HOOIcon
+              iconName="icon-person-available-regular"
+            />
+          }
+          <span className="pl-edit-title" onClick={this.props.select}>{this.props.assetTitle}</span>
           <menu className="pl-edit-actions" role="toolbar">
             <li>
               <HOOButton
                 type={0}
                 iconName="icon-chevron-up-regular"
-                label={strings.MoveUpButton}
+                iconTitle={strings.MoveUpButton}
                 disabled={(this.props.assetIndex === 0)}
                 onClick={() => this.props.moveUp()}
-                reactKey={'moveUp'}/>
+                reactKey={'moveUp'} />
             </li>
             <li>
               <HOOButton
                 iconName="icon-chevron-down-regular"
                 reactKey='moveDown'
-                label={strings.MoveDownButton}
+                iconTitle={strings.MoveDownButton}
                 disabled={(this.props.assetIndex === this.props.assetTotal)}
                 type={0}
                 onClick={() => this.props.moveDown()}
@@ -76,7 +76,7 @@ export default class AssetDetailsCommands extends React.Component<IAssetDetailsC
               <HOOButton
                 iconName="icon-delete-regular"
                 reactKey='remove'
-                label={strings.PlaylistRemove}
+                iconTitle={strings.PlaylistRemove}
                 type={0}
                 onClick={() => this.props.remove()}
               />
@@ -85,7 +85,7 @@ export default class AssetDetailsCommands extends React.Component<IAssetDetailsC
               <HOOButton
                 iconName="icon-pen-regular"
                 reactKey='edit'
-                label={strings.EditButton}
+                iconTitle={strings.EditButton}
                 type={0}
                 disabled={this.props.editDisabled}
                 onClick={() => this.props.edit()}

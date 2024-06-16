@@ -245,6 +245,16 @@ export default class AdminMenu extends React.PureComponent<IAdminMenuProps, IAdm
                 iconTitle={strings.DocumentationLinkLabel}
                 onClick={this.openDocumentation} />
             </div>
+            <div className="adm-header-spin">
+              {this.props.working &&
+                <>
+                  <HOOLabel label={strings.AdminSavingNotification} />
+                  <HOOLoading
+                    maxValue={100}
+                    minValue={0}
+                    value={0} /></>
+              }
+            </div>
             <div className="adm-nav-filter">
               <HOODropDown
                 value={"Category"}
@@ -280,16 +290,7 @@ export default class AdminMenu extends React.PureComponent<IAdminMenuProps, IAdm
               />
             </div>
           }
-          <div className="adm-header-spin">
-            {this.props.working &&
-              <>
-                <HOOLabel label={strings.AdminSavingNotification} />
-                <HOOLoading
-                  maxValue={100}
-                  minValue={0}
-                  value={0} /></>
-            }
-          </div>
+
         </>
 
 

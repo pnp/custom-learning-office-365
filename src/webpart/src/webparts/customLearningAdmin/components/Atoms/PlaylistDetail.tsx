@@ -8,14 +8,13 @@ import cloneDeep from "lodash-es/cloneDeep";
 import HOOLabel from "@n8d/htwoo-react/HOOLabel";
 import HOOText from "@n8d/htwoo-react/HOOText";
 import HOODropDown, { IHOODropDownItem } from "@n8d/htwoo-react/HOODropDown";
-import HOODialog from "@n8d/htwoo-react/HOODialog";
-import HOODialogContent from "@n8d/htwoo-react/HOODialogContent";
-
 
 import { IPlaylist, ICategory, ITechnology, IMetadataEntry, IMultilingualString } from "../../../common/models/Models";
 import * as strings from 'M365LPStrings';
 import { IRecursiveList, RecursiveList } from "../../../recusiveTree/RecursiveTree";
 import RecursiveTree from "../../../recusiveTree/RecursiveTree";
+import HOONotifyLabel from "@n8d/htwoo-react/HOONotifyLabel";
+
 
 
 export interface IPlaylistDetailProps {
@@ -189,7 +188,10 @@ export default class PlaylistDetail extends React.Component<IPlaylistDetailProps
                 onChange={(ev) => { this.multiFieldChanged(ev.currentTarget.value, "Title"); }}
                 value={(this.props.detail.Title as IMultilingualString[])[this.props.currentLangIndex].Text}
                 inputElementAttributes={{
-                  autoFocus: true
+                  autoFocus: true,
+                  style: {
+                    width: '100%'
+                  }
                 }}
               />
 
@@ -199,6 +201,11 @@ export default class PlaylistDetail extends React.Component<IPlaylistDetailProps
                 onChange={(ev) => { this.multiFieldChanged(ev.currentTarget.value, "Description"); }}
                 value={(this.props.detail.Description as IMultilingualString[])[this.props.currentLangIndex].Text}
                 multiline={3}
+                inputElementAttributes={{
+                  style: {
+                    width: '100%'
+                  }
+                }}
 
               />
               <HOOLabel label={strings.DetailEditTechnology} for={strings.DetailEditTechnology} required={false} />
@@ -208,7 +215,12 @@ export default class PlaylistDetail extends React.Component<IPlaylistDetailProps
                 containsTypeAhead={false}
                 forId={strings.DetailEditTechnology}
                 disabled={this.props.currentLangIndex > 0}
-                onChange={(ev) => { this.dropdownChanged(ev, "TechnologyId"); }} />
+                onChange={(ev) => { this.dropdownChanged(ev, "TechnologyId"); }}
+                inputElementAttributes={{
+                  style: {
+                    width: '100%'
+                  }
+                }} />
 
               {/* TODO check and see if we should convert this to grouped Drop down */}
               <RecursiveTree
@@ -230,7 +242,12 @@ export default class PlaylistDetail extends React.Component<IPlaylistDetailProps
                 containsTypeAhead={false}
                 forId={strings.DetailEditLevel}
                 disabled={this.props.currentLangIndex > 0}
-                onChange={(ev) => { this.dropdownChanged(ev, "LevelId"); }} />
+                onChange={(ev) => { this.dropdownChanged(ev, "LevelId"); }}
+                inputElementAttributes={{
+                  style: {
+                    width: '100%'
+                  }
+                }} />
 
               <HOOLabel label={strings.DetailEditAudience} for={strings.DetailEditAudience} required={false} />
               <HOODropDown
@@ -239,7 +256,12 @@ export default class PlaylistDetail extends React.Component<IPlaylistDetailProps
                 containsTypeAhead={false}
                 forId={strings.DetailEditAudience}
                 disabled={this.props.currentLangIndex > 0}
-                onChange={(ev) => { this.dropdownChanged(ev, "AudienceId"); }} />
+                onChange={(ev) => { this.dropdownChanged(ev, "AudienceId"); }}
+                inputElementAttributes={{
+                  style: {
+                    width: '100%'
+                  }
+                }} />
             </>
           }
           {!this.props.edit &&
@@ -263,23 +285,13 @@ export default class PlaylistDetail extends React.Component<IPlaylistDetailProps
               <HOOLabel label={strings.DetailEditTechnology} />
 
               <p className="adm-fieldvalue">{(this.state.selectedTechnology) ? this.state.selectedTechnology.Name : ""}</p>
+
+              <HOOLabel label={strings.DetailEditCategory} required={(categoryError.length > 0)} />
               {categoryError.length > 0 &&
-                // TODO add the check visibility function  
-                <HOODialog
-                  changeVisibility={function noRefCheck() { }}
+                <HOONotifyLabel
+                  message={this.getCategoryError()}
                   type={1}
-                  visible
-                >
-                  <HOODialogContent>
-                    {this.getCategoryError()}
-                    <HOOLabel label={strings.DetailEditCategory} required={(categoryError.length > 0)} />
-                  </HOODialogContent>
-
-                </HOODialog>
-
-              }
-              {categoryError.length < 1 &&
-                <HOOLabel label={strings.DetailEditCategory} />
+                />
               }
               {(this.state.selectedCategory.Name instanceof Array) &&
                 <p className="adm-fieldvalue">{(this.state.selectedCategory.Name as IMultilingualString[])[0].Text}</p>

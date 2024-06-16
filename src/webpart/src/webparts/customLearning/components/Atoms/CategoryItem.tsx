@@ -74,7 +74,6 @@ export default class CategoryItem extends React.Component<ICategoryItemProps, IC
           </div>
           <div className="category-label">
             {this.props.dragMode &&
-              // TODO figure out where this icon is being used and make sure it's in the SVG file
               <div className="category-handle">
                 <HOOIcon
                   iconName="icon-re-order-dots-vertical-regular"

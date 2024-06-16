@@ -280,7 +280,7 @@ export default class PlaylistInfo extends React.Component<IPlaylistInfoProps, IP
                 </HOODialogContent>
                 <HOODialogActions>
                   <HOOButton
-                    iconName="hoo-icon-close"
+                    iconName="icon-dismiss-regular"
                     onClick={() => { this.setState({ message: "", success: true }); }}
                     type={0} />
                 </HOODialogActions>

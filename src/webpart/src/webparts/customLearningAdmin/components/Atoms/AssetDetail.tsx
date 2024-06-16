@@ -4,7 +4,7 @@ import { Logger, LogLevel } from "@pnp/logging";
 import isEqual from "lodash-es/isEqual";
 import find from "lodash-es/find";
 import cloneDeep from "lodash-es/cloneDeep";
-import { spfi, SPFx as spSPFx } from "@pnp/sp";
+import { spfi, SPFx } from "@pnp/sp";
 import "@pnp/sp/webs";
 import "@pnp/sp/clientside-pages/web";
 import HOOText from "@n8d/htwoo-react/HOOText";
@@ -95,7 +95,7 @@ export default class AssetDetail extends React.Component<IAssetDetailProps, IAss
     const title = (this.props.asset.Title instanceof Array) ? (this.props.asset.Title as IMultilingualString[])[this.props.currentLangIndex].Text : this.props.asset.Title as string;
     if (title.length < 1) return;
     try {
-      const sp = spfi(params.baseAdminUrl).using(spSPFx(params.context));
+      const sp = spfi().using(SPFx(params.context));
       const page = await sp.web.addClientsidePage(`${title}.aspx`);
       const pageItem = await page.getItem<{ Id: number, FileRef: string, PageLayoutType: string }>("Id", "FileRef", "PageLayoutType");
       this.setState({ startCreatePage: false });
@@ -105,6 +105,7 @@ export default class AssetDetail extends React.Component<IAssetDetailProps, IAss
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (createPage) - ${err}`, LogLevel.Error);
       this.setState({ startCreatePage: false, pageCreateError: `There was an error creating the page. '${errMsg}'` });
     }
+
   }
 
   private startCreatePage = (): void => {
@@ -123,11 +124,11 @@ export default class AssetDetail extends React.Component<IAssetDetailProps, IAss
       } else if (url.length > 0 || this.state.enterUrl) {
         retVal = [
           <HOOLabel key={0} label={strings.DetailEditUrl} for={strings.DetailEditUrl} required={true} />,
-          <HOOText  key={1}
+          <HOOText key={1}
             forId={strings.DetailEditUrl}
-            multiline={2}
             onChange={(ev) => { this.multiLangFieldChanged(ev.currentTarget.value, "Url"); }}
             value={url}
+            inputElementAttributes={{ style: { width: "100%" }, autoFocus: true }}
           />,
           <HOOButton key={3}
             label={strings.AssetDetailsOpenPage}
@@ -171,15 +172,15 @@ export default class AssetDetail extends React.Component<IAssetDetailProps, IAss
 
   public render(): React.ReactElement<IAssetDetailProps> {
     try {
-      // TODO how do we want to handle the OnFocus for the URL field
       return (
-        <div data-component={this.LOG_SOURCE}>
+        <div data-component={this.LOG_SOURCE} className="adm-curplasset-details">
           {this.props.edit &&
             <>
               <HOOLabel label={strings.DetailEditTitle} for={strings.DetailEditTitle} required={true} />
               <HOOText
                 forId={strings.DetailEditTitle}
-                onChange={(ev) => { this.multiLangFieldChanged(ev.currentTarget.value, "Url"); }}
+                onChange={(ev) => { this.multiLangFieldChanged(ev.currentTarget.value, "Title"); }}
+                inputElementAttributes={{ style: { width: "100%" } }}
                 value={(this.props.asset.Title instanceof Array) ? (this.props.asset.Title as IMultilingualString[])[this.props.currentLangIndex].Text : this.props.asset.Title as string}
               />
               <HOOLabel label={strings.DetailEditTechnology} for={strings.DetailEditTechnology} required={false} />
@@ -197,10 +198,12 @@ export default class AssetDetail extends React.Component<IAssetDetailProps, IAss
               {(this.props.asset.Url as IMultilingualString[])[this.props.currentLangIndex].Text.length > 0 &&
                 <>
                   <HOOLabel label={strings.DetailEditUrl} for={strings.DetailEditUrl} required={true} />
-                  <HOOText
+
+                  <HOOText key={1}
                     forId={strings.DetailEditUrl}
                     onChange={(ev) => { this.multiLangFieldChanged(ev.currentTarget.value, "Url"); }}
-                    value={(this.props.asset.Title instanceof Array) ? (this.props.asset.Title as IMultilingualString[])[this.props.currentLangIndex].Text : this.props.asset.Title as string}
+                    value={(this.props.asset.Url instanceof Array) ? (this.props.asset.Url as IMultilingualString[])[this.props.currentLangIndex].Text : this.props.asset.Url as string}
+                    inputElementAttributes={{ style: { width: "100%" }, autoFocus: true }}
                   />
                 </>
 

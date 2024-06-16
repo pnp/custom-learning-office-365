@@ -155,9 +155,8 @@ export default class PlaylistDetails extends React.Component<IPlaylistDetailsPro
         <div data-component={this.LOG_SOURCE}>
           {params.multilingualEnabled &&
             <div className="adm-header-nav-subcont">
-              {/* TODO see if we need to account for this getTabId={(itemKey) => { return `PlaylistDetail_${itemKey}`; }} */}
               <HOOPivotBar
-                onClick={(ev) => { this.setState({ currentLanguage: ev.currentTarget.value }); }}
+                onClick={(ev, option) => this.setState({ currentLanguage: option.toString() })}
                 pivotItems={this.getPivotItems()}
                 rootElementAttributes={{ className: "adm-header-nav" }}
                 selectedKey={this.state.currentLanguage}
@@ -169,21 +168,21 @@ export default class PlaylistDetails extends React.Component<IPlaylistDetailsPro
                     options={addLanguageOptions}
                     placeholder="⚑ Add language"
                     containsTypeAhead={false}
-                    onChange={this.addLanguage}/>
+                    onChange={this.addLanguage} />
                 </div>
               }
             </div>
           }
 
-          <div className="adm-itemedit">
-            <div className="adm-itemleft" aria-labelledby={`PlaylistDetail_${this.state.currentLanguage}`}>
+          <div className="adm-plitem-details">
+            <div className="adm-plitem-preview" aria-labelledby={`PlaylistDetail_${this.state.currentLanguage}`}>
               <ImageSelector
                 imageSource={(this.props.playlist.Image instanceof Array) ? (this.props.playlist.Image as IMultilingualString[])[currentLangIndex].Text : this.props.playlist.Image as string}
                 disabled={!this.props.editMode}
                 setImageSource={(imageSource) => { this.setImageSource(imageSource, currentLangIndex); }}
               />
             </div>
-            <div className="adm-itemright" aria-labelledby={`PlaylistDetail_${this.state.currentLanguage}`}>
+            <div className="adm-plitem-infodetails" aria-labelledby={`PlaylistDetail_${this.state.currentLanguage}`}>
               <PlaylistDetail
                 categories={this.props.categories}
                 technologies={this.props.technologies}

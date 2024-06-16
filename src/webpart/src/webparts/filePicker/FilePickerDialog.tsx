@@ -1,11 +1,13 @@
 import HOODialog, { HOODialogType } from "@n8d/htwoo-react/HOODialog";
 import HOODialogContent from "@n8d/htwoo-react/HOODialogContent";
-import HOODialogHeader from "@n8d/htwoo-react/HOODialogHeader";
 import * as React from "react";
 import FilePicker from "./FilePicker";
 import { FileItem } from "./Models";
+import HOOButton from "@n8d/htwoo-react/HOOButton";
+import * as strings from "M365LPStrings";
 
 export interface IFilePickerDialogProps {
+  onImageSelect: (image: FileItem) => void;
 }
 
 export interface IFilePickerDialogState {
@@ -26,30 +28,26 @@ export default class FilePickerDialog extends React.PureComponent<IFilePickerDia
     this.state = new FilePickerDialogState();
   }
 
-  //This assumes there's a state property for the image file...
-  private _setToolImage = (imageFile: FileItem): void => {
-    try {
-      //this.setState({ imageFile });
-    } catch (err) {
-      console.error(`${this.LOG_SOURCE} (_setToolImage) - ${err}`);
-    }
-  }
-
-  
-//TODO: Make type whatever dialog style is appropriate, sidebar right is probably more in line with what the SharePoint UI is doing currently.
   public render(): React.ReactElement<IFilePickerDialogProps> {
     try {
       return (
         <div data-component={this.LOG_SOURCE}>
+          <HOOButton
+            label={strings.ImageSelectorButton}
+            onClick={() => { this.setState({ showFilePicker: true }); }}
+            type={1}
+          />
           <HOODialog
-            type={HOODialogType.Center}
+            type={HOODialogType.SidebarRight}
             visible={this.state.showFilePicker}
-            changeVisibility={() => { this.setState({ showFilePicker: !this.state.showFilePicker }); }}>
-            <HOODialogHeader title="Select File" closeDisabled={false} closeIconName="icon-close" closeOnClick={() => { this.setState({ showFilePicker: false }); }} />
+            changeVisibility={() => { this.setState({ showFilePicker: !this.state.showFilePicker }); }} width="80vw" height="90hv">
             <HOODialogContent>
-              <FilePicker title="File Picker" addImage={this._setToolImage} closeDialog={() => { this.setState({ showFilePicker: false }); }} />
+              <FilePicker title="File Picker" addImage={this.props.onImageSelect} closeDialog={() => { this.setState({ showFilePicker: false }); }} />
             </HOODialogContent>
           </HOODialog>
+
+
+
         </div>
       );
     } catch (err) {

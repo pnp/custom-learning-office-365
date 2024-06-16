@@ -75,7 +75,7 @@ export default class CategoryHeading extends React.PureComponent<ICategoryHeadin
           </div>);
       } else {
         return (
-          <h3 className='category-heading'>
+          <h3 className='admpl-heading'><span>
             {(this.props.heading.Name instanceof Array) ?
               (this.props.new ?
                 strings.CategoryHeading :
@@ -83,6 +83,8 @@ export default class CategoryHeading extends React.PureComponent<ICategoryHeadin
               ) :
               this.props.heading.Name
             }
+          </span>
+            {this.renderButtons()}
           </h3>);
       }
     } catch (err) {
@@ -99,15 +101,19 @@ export default class CategoryHeading extends React.PureComponent<ICategoryHeadin
           <HOOButton type={HOOButtonType.Icon}
             iconName="icon-save-regular"
             iconTitle={strings.SaveButton}
-            onClick={this.onUpdate}/>
+            onClick={this.onUpdate} />
+        );
+        if (this.props.canDelete) {
+          retVal.push(
+            <HOOButton type={HOOButtonType.Icon}
+              iconName="icon-delete-regular"
+              iconTitle={strings.DeleteButton}
+              onClick={this.onDelete}
+              disabled={!this.props.canDelete}
+            />
           );
-        retVal.push(
-          <HOOButton type={HOOButtonType.Icon}
-            iconName="icon-delete-regular"
-            iconTitle={strings.DeleteButton}
-            onClick={this.onDelete}
-            disabled={!this.props.canDelete} />
-          );
+        }
+
         retVal.push(
           <HOOButton type={HOOButtonType.Icon}
             iconName="icon-dismiss-regular"
@@ -115,27 +121,30 @@ export default class CategoryHeading extends React.PureComponent<ICategoryHeadin
             onClick={() => { this.setState({ edit: false }); }} />
         );
       } else {
-        retVal.push(
-          <HOOButton type={HOOButtonType.Icon}
-            iconName={(this.props.new) ? "" : "icon-pen-regular"}
-            iconTitle={`${(this.props.new) ? strings.Add : strings.Edit} ${strings.SubcategoryHeadingLabel}`}
-            onClick={() => { this.setState({ edit: true, editHeading: cloneDeep(this.props.heading) }); }}
-            disabled={!this.props.canEdit} />
+        if (this.props.canEdit) {
+          retVal.push(
+            <HOOButton type={HOOButtonType.Icon}
+              iconName={(this.props.new) ? "icon-add-regular" : "icon-pen-regular"}
+              iconTitle={`${(this.props.new) ? strings.Add : strings.Edit} ${strings.SubcategoryHeadingLabel}`}
+              onClick={() => { this.setState({ edit: true, editHeading: cloneDeep(this.props.heading) }); }}
+              disabled={!this.props.canEdit} />
           );
+        }
+
         if (!this.props.new) {
           retVal.push(
             <HOOButton type={HOOButtonType.Icon}
-            iconName={(this.props.visible) ? "icon-eye-filled" : "icon-eye-off-filled"} 
-            iconTitle={`${(this.props.visible) ? strings.Hide : strings.Show} ${strings.CategoryHeadingLabel}`}
-            onClick={() => { this.props.onVisibility(this.props.heading.Id, this.props.visible); }} />
-            );
+              iconName={(this.props.visible) ? "icon-eye-filled" : "icon-eye-off-filled"}
+              iconTitle={`${(this.props.visible) ? strings.Hide : strings.Show} ${strings.CategoryHeadingLabel}`}
+              onClick={() => { this.props.onVisibility(this.props.heading.Id, this.props.visible); }} />
+          );
         }
         if (this.props.addPlaylist) {
           retVal.push(
             <HOOButton type={HOOButtonType.Icon}
-            iconName="icon-add-regular"
-            iconTitle={strings.CategoryHeadingAddPlaylistToSubcategory}
-            onClick={this.props.addPlaylist} />
+              iconName="icon-add-regular"
+              iconTitle={strings.CategoryHeadingAddPlaylistToSubcategory}
+              onClick={this.props.addPlaylist} />
           );
         }
       }
@@ -148,11 +157,11 @@ export default class CategoryHeading extends React.PureComponent<ICategoryHeadin
   public render(): React.ReactElement<ICategoryHeadingProps> {
     try {
       return (
-        <div data-component={this.LOG_SOURCE} className="admpl-heading">
+        <div data-component={this.LOG_SOURCE}>
           {this.renderHeading()}
-          <span className="admpl-heading-edit">
+          {/* <span className="admpl-heading-edit">
             {this.renderButtons()}
-          </span>
+          </span> */}
         </div>
       );
     } catch (err) {

@@ -34,20 +34,6 @@ export default class CategoryHeadingDetail extends React.Component<ICategoryHead
   private LOG_SOURCE: string = "CategoryHeadingDetail";
   private _showMultilingual: boolean = params.multilingualEnabled && (this.props.heading.Source === CustomWebpartSource.Tenant);
 
-  // TODO figure out how to add the icon into the placeholder text or remove this
-  // private _addLanguagePlaceholder: JSX.Element = <div className="dropdownExample-placeholder">
-  //   <HOOIcon
-  //     iconName="icon-chat-help-filled"
-  //     title={strings.AddLanguagePlaceholder}
-  //     rootElementAttributes={{
-  //       style: {
-  //         marginRight: '8px'
-  //       }
-  //     }}
-  //   />
-  //   <span></span>
-  // </div>;
-
   constructor(props) {
     super(props);
     this.state = new CategoryHeadingDetailState();
@@ -81,7 +67,6 @@ export default class CategoryHeadingDetail extends React.Component<ICategoryHead
     }
   }
 
-  // TODO make sure this works
   private addLanguage = (fieldValue: string | number): void => {
     try {
       const heading = cloneDeep(this.props.heading);
@@ -136,11 +121,11 @@ export default class CategoryHeadingDetail extends React.Component<ICategoryHead
               return (
                 <div className="adm-subcatheading" key={idx}>
                   <HOOLabel label={`${strings.SubcategoryHeadingLabel} - ${locale.description}`} for={`${strings.SubcategoryHeadingLabel}-${locale.description}`} required={true} />,
-                  {/* TODO set focus on Text box */}
                   <HOOText
                     forId={`${strings.SubcategoryHeadingLabel}-${locale.description}`}
                     onChange={(ev) => { this.setHeadingName(ev.currentTarget.value, idx); }}
                     value={name.Text}
+                    inputElementAttributes={{ autoFocus: true }}
                   />
                   {(locale.code !== params.defaultLanguage) &&
                     <HOOButton

@@ -296,7 +296,7 @@ export default class Category extends React.Component<ICategoryProps, ICategoryS
           <div className="adm-content-main">
             {this.state.editPlaylistId === "" && this.state.listings && this.state.listings.length > 0 && this.state.listings.map((listing: IListing, idx) => {
               return (
-                <div key={idx}>
+                <div key={idx} className="test">
                   <CategoryHeading
                     heading={listing.heading}
                     new={false}

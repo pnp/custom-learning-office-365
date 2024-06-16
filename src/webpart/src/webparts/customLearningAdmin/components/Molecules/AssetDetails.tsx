@@ -180,24 +180,23 @@ export default class AssetDetails extends React.Component<IAssetDetailsProps, IA
 
 
       return (
-        <div data-component={this.LOG_SOURCE} className="assetdetails">
+        <div data-component={this.LOG_SOURCE}>
           {params.multilingualEnabled &&
             <div className="adm-header-nav-subcont">
-              {/* TODO make sure we don't need to do anything with this getTabId={(itemKey) => { return `AssetDetail_${itemKey}`; }} */}
               <HOOPivotBar
-                onClick={(ev) => { this.setState({ currentLanguage: ev.currentTarget.value }); }}
+                onClick={(ev, option) => this.setState({ currentLanguage: option.toString() })}
                 pivotItems={this.getPivotItems()}
-                selectedKey={this.state.currentLanguage}
                 rootElementAttributes={{ className: "adm-header-nav" }}
+                selectedKey={this.state.currentLanguage}
               />
-              {this.props.edit && addLanguageOptions.length > 0 &&
+              {this.props.edit && this._currentLanguageOptions.length > 0 &&
                 <div className="adm-pivotCombo">
                   <HOODropDown
                     value={""}
                     options={addLanguageOptions}
                     placeholder="⚑ Add language"
                     containsTypeAhead={false}
-                    onChange={this.addLanguage}/>
+                    onChange={this.addLanguage} />
                 </div>
               }
             </div>
@@ -209,7 +208,7 @@ export default class AssetDetails extends React.Component<IAssetDetailsProps, IA
             updateDetail={this.updateAsset}
             edit={this.props.edit}
           />
-          <div className="adm-itemaction">
+          <div className="adm-curplasset-action">
             {this.props.edit && this._currentLanguageOptions.length > 1 && this.state.currentLanguage !== this._currentLanguageOptions[0].code &&
               <HOOButton
                 label={strings.RemoveLanguageLabel}
