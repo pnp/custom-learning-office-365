@@ -43,7 +43,7 @@
 	}
 	box-sizing: border-box;
 	// width: span(3 narrow of 12);
-	grid-column: auto / span 3;
+	grid-column: auto / span 1;
 	@media screen and (max-width: 768px){
 		// width: span(4 narrow of 12);
 		grid-column: auto / span 4;

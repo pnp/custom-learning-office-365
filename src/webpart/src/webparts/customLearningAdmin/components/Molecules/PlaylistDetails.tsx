@@ -1,21 +1,21 @@
-import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
+import * as React from "react";
 
-import isEqual from "lodash-es/isEqual";
-import cloneDeep from "lodash-es/cloneDeep";
-import findIndex from "lodash-es/findIndex";
-import find from "lodash-es/find";
-import forEach from "lodash-es/forEach";
-import HOOPivotBar, { IHOOPivotItem } from "@n8d/htwoo-react/HOOPivotBar";
-import HOODropDown, { IHOODropDownItem } from "@n8d/htwoo-react/HOODropDown";
 import HOOButton from "@n8d/htwoo-react/HOOButton";
+import HOODropDown, { IHOODropDownItem } from "@n8d/htwoo-react/HOODropDown";
+import HOOPivotBar, { IHOOPivotItem } from "@n8d/htwoo-react/HOOPivotBar";
+import cloneDeep from "lodash-es/cloneDeep";
+import find from "lodash-es/find";
+import findIndex from "lodash-es/findIndex";
+import forEach from "lodash-es/forEach";
+import isEqual from "lodash-es/isEqual";
 
 import * as strings from "M365LPStrings";
+import { CustomWebpartSource } from "../../../common/models/Enums";
+import { ICategory, ILocale, IMetadataEntry, IMultilingualString, IPlaylist, ITechnology, MultilingualString } from "../../../common/models/Models";
 import { params } from "../../../common/services/Parameters";
-import { IPlaylist, IMultilingualString, ICategory, ITechnology, IMetadataEntry, MultilingualString, ILocale } from "../../../common/models/Models";
 import ImageSelector from "../Atoms/ImageSelector";
 import PlaylistDetail from "../Atoms/PlaylistDetail";
-import { CustomWebpartSource } from "../../../common/models/Enums";
 
 
 export interface IPlaylistDetailsProps {
@@ -160,6 +160,7 @@ export default class PlaylistDetails extends React.Component<IPlaylistDetailsPro
                 pivotItems={this.getPivotItems()}
                 rootElementAttributes={{ className: "adm-header-nav" }}
                 selectedKey={this.state.currentLanguage}
+                hasOverflow={true}
               />
               {this.props.editMode && addLanguageOptions.length > 0 &&
                 <div className="adm-pivotCombo">
