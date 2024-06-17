@@ -1,11 +1,11 @@
-import * as React from "react";
-import { Logger, LogLevel } from "@pnp/logging";
 import HOOButton from "@n8d/htwoo-react/HOOButton";
+import { Logger, LogLevel } from "@pnp/logging";
 import isEqual from "lodash-es/isEqual";
+import * as React from "react";
 
-import * as strings from "M365LPStrings";
 import HOOIcon from "@n8d/htwoo-react/HOOIcon";
 import HOOLoading from "@n8d/htwoo-react/HOOLoading";
+import * as strings from "M365LPStrings";
 
 export interface IPlaylistItemProps {
   playlistId: string;
@@ -52,9 +52,9 @@ export default class PlaylistItem extends React.Component<IPlaylistItemProps, IP
             <HOOIcon
               iconName="icon-person-available-regular"
               title="Custom"
-              rootElementAttributes={{
-                className: 'pl-edit-icon'
-              }}
+              // rootElementAttributes={{
+              //   className: 'pl-edit-icon'
+              // }}
             />
 
           }
