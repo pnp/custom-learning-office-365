@@ -122,44 +122,49 @@ export default class CategoryHeadingDetail extends React.Component<ICategoryHead
       }
 
       return (
-        <div data-component={this.LOG_SOURCE} className="adm-itemedit">
-          <div className="adm-itemleft">
-            <ImageSelector
-              imageSource={(this.props.heading.Image instanceof Array) ? (this.props.heading.Image as IMultilingualString[])[0].Text : this.props.heading.Image as string}
-              disabled={!this.props.edit}
-              setImageSource={this.setImageSource}
-            />
-          </div>
-          <div className="adm-itemright">
-            {(this.props.heading.Name as IMultilingualString[]).map((name, idx) => {
-              const locale: ILocale = find(params.configuredLanguages, { code: name.LanguageCode });
-              return (
-                <div className="adm-subcatheading" key={idx}>
-                  <HOOLabel label={`${strings.SubcategoryHeadingLabel} - ${locale.description}`} for={`${strings.SubcategoryHeadingLabel}-${locale.description}`} required={true} />,
-                  {/* TODO set focus on Text box */}
-                  <HOOText
-                    forId={`${strings.SubcategoryHeadingLabel}-${locale.description}`}
-                    onChange={(ev) => { this.setHeadingName(ev.currentTarget.value, idx); }}
-                    value={name.Text}
-                  />
-                  {(locale.code !== params.defaultLanguage) &&
-                    <HOOButton
-                      iconName="icon-delete-regular"
-                      onClick={() => { this.deleteLanguage(idx); }}
-                      type={0}
+        <div data-component={this.LOG_SOURCE}>
+          <div className="adm-plitem-details">
+            <div className="adm-plitem-preview">
+              <ImageSelector
+                imageSource={(this.props.heading.Image instanceof Array) ? (this.props.heading.Image as IMultilingualString[])[0].Text : this.props.heading.Image as string}
+                disabled={!this.props.edit}
+                setImageSource={this.setImageSource}
+              />
+            </div>
+            <div className="adm-plitem-infodetails" aria-labelledby={`PlaylistDetail`}>
+              {(this.props.heading.Name as IMultilingualString[]).map((name, idx) => {
+                const locale: ILocale = find(params.configuredLanguages, { code: name.LanguageCode });
+                return (
+                  <div key={idx}>
+                    <HOOLabel label={`${strings.SubcategoryHeadingLabel} - ${locale.description}`} for={`${strings.SubcategoryHeadingLabel}-${locale.description}`} required={true} />
+                    <HOOText
+                      forId={`${strings.SubcategoryHeadingLabel}-${locale.description}`}
+                      onChange={(ev) => { this.setHeadingName(ev.currentTarget.value, idx); }}
+                      value={name.Text}
+                      inputElementAttributes={{
+                        style: { width: '100%' },
+                        autoFocus: true
+                      }}
                     />
-                  }
-                </div>
-              );
-            })}
-            {params.multilingualEnabled && addLanguageOptions.length > 0 &&
-              <HOODropDown
-                value={""}
-                options={addLanguageOptions}
-                placeholder="⚑ Add language"
-                containsTypeAhead={false}
-                onChange={this.addLanguage} />
-            }
+                    {(locale.code !== params.defaultLanguage) &&
+                      <HOOButton
+                        iconName="icon-delete-regular"
+                        onClick={() => { this.deleteLanguage(idx); }}
+                        type={0}
+                      />
+                    }
+                  </div>
+                );
+              })}
+              {params.multilingualEnabled && addLanguageOptions.length > 0 &&
+                <HOODropDown
+                  value={""}
+                  options={addLanguageOptions}
+                  placeholder="⚑ Add language"
+                  containsTypeAhead={false}
+                  onChange={this.addLanguage} />
+              }
+            </div>
           </div>
         </div>
       );

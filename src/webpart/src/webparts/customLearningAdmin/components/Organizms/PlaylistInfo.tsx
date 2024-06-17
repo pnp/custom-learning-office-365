@@ -277,7 +277,7 @@ export default class PlaylistInfo extends React.Component<IPlaylistInfoProps, IP
               audiences={this.props.audiences}
               updatePlaylist={this.updatePlaylist}
               editMode={this.state.edit}
-              cancel={() => { this.init(); }}
+              cancel={() => { this.props.close() }}
               dirty={this.state.playlistChanged}
               valid={this.playlistValid()}
               edit={() => { this.setState({ edit: true }); }}
