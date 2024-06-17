@@ -1,5 +1,5 @@
-import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
+import * as React from "react";
 
 import isEqual from "lodash-es/isEqual";
 

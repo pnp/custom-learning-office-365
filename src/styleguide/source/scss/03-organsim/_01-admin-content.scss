@@ -6,8 +6,7 @@
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: clamp(1rem, 2vw, 2rem);
-  margin-inline: clamp(1rem, 2vw, 2rem);
-
+  
   @media screen and (max-width: 1268px) {
     // padding-top: 100px;
   }

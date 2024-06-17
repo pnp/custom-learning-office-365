@@ -1,6 +1,6 @@
-import * as React from "react";
-import { Logger, LogLevel } from "@pnp/logging";
 import HOOPivotBar, { IHOOPivotItem } from "@n8d/htwoo-react/HOOPivotBar";
+import { Logger, LogLevel } from "@pnp/logging";
+import * as React from "react";
 
 import isEqual from "lodash-es/isEqual";
 
@@ -39,6 +39,7 @@ export default class SearchResultHeader extends React.Component<ISearchResultHea
           onClick={this.props.selectTab}
           pivotItems={this.props.headerItems}
           selectedKey={this.props.filterValue}
+          hasOverflow={true}
         />
       );
     } catch (err) {

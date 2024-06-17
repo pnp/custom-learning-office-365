@@ -1,20 +1,20 @@
-import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
+import * as React from "react";
 
-import isEqual from "lodash-es/isEqual";
-import find from "lodash-es/find";
+import HOOButton from "@n8d/htwoo-react/HOOButton";
+import HOODropDown, { IHOODropDownItem } from "@n8d/htwoo-react/HOODropDown";
+import HOOPivotBar, { IHOOPivotItem } from "@n8d/htwoo-react/HOOPivotBar";
 import cloneDeep from "lodash-es/cloneDeep";
+import find from "lodash-es/find";
 import findIndex from "lodash-es/findIndex";
 import forEach from "lodash-es/forEach";
-import HOOPivotBar, { IHOOPivotItem } from "@n8d/htwoo-react/HOOPivotBar";
-import HOODropDown, { IHOODropDownItem } from "@n8d/htwoo-react/HOODropDown";
-import HOOButton from "@n8d/htwoo-react/HOOButton";
+import isEqual from "lodash-es/isEqual";
 
 
 import * as strings from "M365LPStrings";
+import { IAsset, ILocale, IMultilingualString, ITechnology, MultilingualString } from "../../../common/models/Models";
 import { params } from "../../../common/services/Parameters";
 import AssetDetail from "../Atoms/AssetDetail";
-import { IAsset, ITechnology, IMultilingualString, ILocale, MultilingualString } from "../../../common/models/Models";
 
 
 export interface IAssetDetailsProps {
@@ -188,6 +188,7 @@ export default class AssetDetails extends React.Component<IAssetDetailsProps, IA
                 pivotItems={this.getPivotItems()}
                 rootElementAttributes={{ className: "adm-header-nav" }}
                 selectedKey={this.state.currentLanguage}
+                hasOverflow={true}
               />
 
               {this.props.edit && this._currentLanguageOptions.length > 0 &&

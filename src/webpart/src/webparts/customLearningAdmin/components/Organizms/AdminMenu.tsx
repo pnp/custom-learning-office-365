@@ -1,20 +1,21 @@
-import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
+import * as React from "react";
 
 import { find } from "@microsoft/sp-lodash-subset";
+import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
+import HOODropDown, { IHOODropDownItem } from "@n8d/htwoo-react/HOODropDown";
 import HOOLabel from "@n8d/htwoo-react/HOOLabel";
 import HOOLoading from "@n8d/htwoo-react/HOOLoading";
 import HOOPivotBar, { IHOOPivotItem } from "@n8d/htwoo-react/HOOPivotBar";
-import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
-import HOODropDown, { IHOODropDownItem } from "@n8d/htwoo-react/HOODropDown";
-import HOOButtonMenu, { IHOOFlyoutMenuItem } from "@n8d/htwoo-react/HOOButtonMenu";
 
-import { params } from "../../../common/services/Parameters";
+
 import * as strings from "M365LPStrings";
 import { CDN, ICDN } from "../../../common/models/Models";
+import { params } from "../../../common/services/Parameters";
 import About from "../Atoms/About";
 import CdnEdit from "../Atoms/CdnEdit";
 import ContentPack from "../Molecules/ContentPack";
+import HOOButtonMenu from "@n8d/htwoo-react/HOOButtonMenu";
 
 
 export interface IAdminMenuProps {
@@ -202,11 +203,6 @@ export default class AdminMenu extends React.PureComponent<IAdminMenuProps, IAdm
   }
 
   public render(): React.ReactElement<IAdminMenuProps> {
-    const _overflowItems: IHOOFlyoutMenuItem[] = [
-      { label: strings.AdminAddCdnLabel, iconName: 'icon-cloud-add-regular' },
-      { label: strings.AdminAbout, iconName: 'icon-info-regular' }
-    ];
-
     try {
       return (
         <>
@@ -217,6 +213,7 @@ export default class AdminMenu extends React.PureComponent<IAdminMenuProps, IAdm
                 rootElementAttributes={{ className: "adm-header-nav" }}
                 selectedKey={this.props.currentCDNId === null ? null : this.props.currentCDNId}
                 onClick={(ev, option) => this.selectCDN(option.toString())}
+                hasOverflow={true}
               />
             </div>
             <div className="adm-nav-actions">
@@ -237,7 +234,8 @@ export default class AdminMenu extends React.PureComponent<IAdminMenuProps, IAdm
                   rootElementAttributes={{ className: (this.state.showEditCDN) ? "selected" : "" }} />
               }
               <HOOButtonMenu
-                contextItems={_overflowItems}
+                contextItems={[{ label: strings.AdminAddCdnLabel, iconName: 'icon-cloud-add-regular' },
+                { label: strings.AdminAbout, iconName: 'icon-info-regular' }]}
                 contextItemClicked={(ev, option) => this.handleToolClick(option.label)} />
               <HOOButton type={HOOButtonType.Icon}
                 iconName="icon-question-regular"

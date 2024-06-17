@@ -14,9 +14,9 @@
 	display: inline-flex;
 	gap: 0.5rem;
 
-	@media screen and (max-width: 768px) {
-		flex-direction: column;
-	}
+	// @media screen and (max-width: 768px) {
+	// 	flex-direction: column;
+	// }
 	
 	.hoo-buttonicon {
 		color: currentColor;

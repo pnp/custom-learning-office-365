@@ -16,7 +16,25 @@
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
+	transition: all 0.125s ease-in-out;
 
+	@media screen and (max-width: 1024px) {
+		grid-template-columns: repeat(5, minmax(150px, 1fr));
+	}
+	@media screen and (max-width: 840px) {
+		grid-template-columns: repeat(4, minmax(150px, 1fr));
+	}
+	@media screen and (max-width: 670px) {
+		grid-template-columns: repeat(3, minmax(150px, 1fr));
+	}
+
+	@media screen and (max-width: 500px) {
+		grid-template-columns: repeat(2, minmax(150px, 1fr));
+	}
+
+	@media screen and (max-width: 360px) {
+		grid-template-columns: repeat(1, minmax(150px, 1fr));
+	}
 
 	&.editSort {
 		.category-item {
@@ -55,6 +73,9 @@
 				}
 			}
 		}
+	}
+	&>li{
+		grid-column: auto / span 1fr;
 	}
 }
 
