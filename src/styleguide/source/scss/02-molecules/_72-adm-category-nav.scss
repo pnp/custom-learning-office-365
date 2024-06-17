@@ -42,12 +42,15 @@
 		border: none;
 	}
 	box-sizing: border-box;
-	width: span(3 narrow of 12);
+	// width: span(3 narrow of 12);
+	grid-column: auto / span 3;
 	@media screen and (max-width: 768px){
-		width: span(4 narrow of 12);
+		// width: span(4 narrow of 12);
+		grid-column: auto / span 4;
 	}
 	@media screen and (max-width: 480px){
-		width: span(12 narrow of 12);
+		// width: span(12 narrow of 12);
+		grid-column: auto / span 12;
 	}
 }
 

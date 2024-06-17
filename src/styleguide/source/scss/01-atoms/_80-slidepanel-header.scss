@@ -2,10 +2,11 @@
 @use '../00-base/colors' as colors;
 
 .sldpnl {
-  width: span(6 narrow of 12);
+  grid-column: 6 / span 6;
   padding: 2em 0;
 
   @media screen and (max-width: 1024px) {
+    grid-column: 1 / span 12;
     width: 100%;
   }
 
