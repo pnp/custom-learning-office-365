@@ -1494,7 +1494,7 @@ button.hoo-breadcrumb-link {
   padding-left: 0;
 }
 .hoo-navitem-text:hover {
-  background-color: var(--neutralLighter);
+  background-color: var(--buttonBackgroundHovered);
 }
 
 .hoo-nav-list .hoo-navitem-link {
@@ -1512,7 +1512,7 @@ button.hoo-breadcrumb-link {
   display: none;
 }
 .hoo-navitem[aria-current] {
-  border-left: 2px var(--themeSecondary) solid;
+  border-left: 2px var(--ButtonPressedBorder) solid;
 }
 .hoo-navitem[aria-current] .hoo-buttonicon {
   padding-left: 0.125rem;
@@ -1521,7 +1521,7 @@ button.hoo-breadcrumb-link {
   padding-left: 1.5625rem;
 }
 .hoo-navitem[aria-current].hoo-navitem {
-  background-color: var(--neutralLight);
+  background-color: var(--buttonBackgroundCheckedHovered);
 }
 
 .hoo-navitem-link {
@@ -1531,20 +1531,20 @@ button.hoo-breadcrumb-link {
   padding-top: 0.84375rem;
   padding-bottom: 0.84375rem;
   text-decoration: none;
-  color: var(--neutralPrimaryAlt);
+  color: var(--bodyText);
 }
 .hoo-navitem-link:visited {
-  color: var(--neutralPrimaryAlt);
+  color: var(--bodyText);
 }
 .hoo-navitem-link:hover {
-  color: var(--themePrimary);
+  color: var(--Hyperlink);
 }
 .hoo-navitem-link:hover :visited {
-  color: var(--themePrimary);
+  color: var(--Hyperlink);
 }
 
 .hoo-nav {
-  border: 1px solid var(--neutralSecondaryAlt);
+  border: 1px solid var(--ButtonBorder);
 }
 
 .hoo-nav-list,
@@ -3629,7 +3629,7 @@ div.hoo-buttoncmd:hover > .hoo-buttonflyout, div.hoo-buttoncmd.show-flyout > .ho
 }
 
 .hoo-navitem-text:hover {
-  background-color: var(--neutralLighter);
+  background-color: var(--buttonBackgroundHovered);
 }
 
 .hoo-nav-list .hoo-navitem-link {
@@ -3650,7 +3650,7 @@ div.hoo-buttoncmd:hover > .hoo-buttonflyout, div.hoo-buttoncmd.show-flyout > .ho
 }
 
 .hoo-navitem[aria-current] {
-  border-left: 2px var(--themeSecondary) solid;
+  border-left: 2px var(--ButtonPressedBorder) solid;
 }
 
 .hoo-navitem[aria-current] .hoo-buttonicon {
@@ -3662,7 +3662,7 @@ div.hoo-buttoncmd:hover > .hoo-buttonflyout, div.hoo-buttoncmd.show-flyout > .ho
 }
 
 .hoo-navitem[aria-current].hoo-navitem {
-  background-color: var(--neutralLight);
+  background-color: var(--buttonBackgroundCheckedHovered);
 }
 
 .hoo-navitem-link {
@@ -3672,23 +3672,23 @@ div.hoo-buttoncmd:hover > .hoo-buttonflyout, div.hoo-buttoncmd.show-flyout > .ho
   padding-top: 0.84375rem;
   padding-bottom: 0.84375rem;
   text-decoration: none;
-  color: var(--neutralPrimaryAlt);
+  color: var(--bodyText);
 }
 
 .hoo-navitem-link:visited {
-  color: var(--neutralPrimaryAlt);
+  color: var(--bodyText);
 }
 
 .hoo-navitem-link:hover {
-  color: var(--themePrimary);
+  color: var(--Hyperlink);
 }
 
 .hoo-navitem-link:hover :visited {
-  color: var(--themePrimary);
+  color: var(--Hyperlink);
 }
 
 .hoo-nav {
-  border: 1px solid var(--neutralSecondaryAlt);
+  border: 1px solid var(--ButtonBorder);
 }
 
 .hoo-nav-list,

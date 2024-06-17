@@ -5,10 +5,9 @@ import { find } from "@microsoft/sp-lodash-subset";
 import HOOLabel from "@n8d/htwoo-react/HOOLabel";
 import HOOLoading from "@n8d/htwoo-react/HOOLoading";
 import HOOPivotBar, { IHOOPivotItem } from "@n8d/htwoo-react/HOOPivotBar";
-import HOOFlyoutMenu, { IHOOFlyoutMenuItem } from "@n8d/htwoo-react/HOOFlyoutMenu";
-import HOOIconOverflow from "@n8d/htwoo-react/HOOIconOverflow";
 import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
 import HOODropDown, { IHOODropDownItem } from "@n8d/htwoo-react/HOODropDown";
+import HOOButtonMenu, { IHOOFlyoutMenuItem } from "@n8d/htwoo-react/HOOButtonMenu";
 
 import { params } from "../../../common/services/Parameters";
 import * as strings from "M365LPStrings";
@@ -16,6 +15,7 @@ import { CDN, ICDN } from "../../../common/models/Models";
 import About from "../Atoms/About";
 import CdnEdit from "../Atoms/CdnEdit";
 import ContentPack from "../Molecules/ContentPack";
+
 
 export interface IAdminMenuProps {
   loadingCdn: boolean;
@@ -236,10 +236,9 @@ export default class AdminMenu extends React.PureComponent<IAdminMenuProps, IAdm
                   disabled={this.props.currentCDNId === "Default"}
                   rootElementAttributes={{ className: (this.state.showEditCDN) ? "selected" : "" }} />
               }
-              <HOOIconOverflow overflow>
-                <HOOFlyoutMenu
-                  contextItems={_overflowItems} contextItemClicked={(ev, option) => this.handleToolClick(option.label)} />
-              </HOOIconOverflow>
+              <HOOButtonMenu
+                contextItems={_overflowItems}
+                contextItemClicked={(ev, option) => this.handleToolClick(option.label)} />
               <HOOButton type={HOOButtonType.Icon}
                 iconName="icon-question-regular"
                 iconTitle={strings.DocumentationLinkLabel}

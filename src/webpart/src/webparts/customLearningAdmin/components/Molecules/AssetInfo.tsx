@@ -290,25 +290,24 @@ export default class AssetInfo extends React.Component<IAssetInfoProps, IAssetIn
             </div>
           }
           <HOOPivotBar
-            onClick={(ev) => { this.setState({ currentPivot: ev.currentTarget.value }); }}
+            onClick={(ev, option) => { this.setState({ currentPivot: option.toString() }); }}
             pivotItems={this.getPivotItems()}
             selectedKey={this.state.currentPivot}
           />
-          <section>
-            {(this.state.editAsset && this.state.editAsset.Id === "0" && this.state.currentPivot === "CurrentPlaylist") &&
-
-              <div className="adm-curplasset">
-                <div className="adm-curplasset-content">
-                  <AssetDetails
-                    technologies={this.props.technologies}
-                    asset={this.state.editAsset}
-                    cancel={() => { this.setState({ editAsset: null, edit: false }); }}
-                    save={this.upsertAsset}
-                    edit={true} />
-                </div>
+          {(this.state.editAsset && this.state.editAsset.Id === "0" && this.state.currentPivot === "CurrentPlaylist") &&
+            <div className="adm-curplasset">
+              <div className="adm-curplasset-content">
+                <AssetDetails
+                  technologies={this.props.technologies}
+                  asset={this.state.editAsset}
+                  cancel={() => { this.setState({ editAsset: null, edit: false }); }}
+                  save={this.upsertAsset}
+                  edit={true} />
               </div>
-            }
-            {this.props.playlist.Assets && this.props.playlist.Assets.length > 0 && this.props.playlist.Assets.map((a, index) => {
+            </div>
+          }
+          {(this.props.playlist.Assets && this.props.playlist.Assets.length > 0 && this.state.currentPivot === "CurrentPlaylist") &&
+            this.props.playlist.Assets.map((a, index) => {
               let asset = cloneDeep(find(this.props.assets, { Id: a }));
               if (asset.Source !== CustomWebpartSource.Tenant)
                 asset = this.props.translateAsset(asset);
@@ -341,15 +340,13 @@ export default class AssetInfo extends React.Component<IAssetInfoProps, IAssetIn
                 </details>
               );
             })}
-          </section>
+
           {!this.props.editDisabled && (this.state.searchValue && this.state.searchValue.length > 0 && this.state.currentPivot === 'SearchResults') &&
-            <section>
-              <AssetSearchPanel
-                allTechnologies={this.props.technologies}
-                searchResults={this.state.searchResults}
-                loadSearchResult={this.selectSearchAsset}
-              />
-            </section>
+            <AssetSearchPanel
+              allTechnologies={this.props.technologies}
+              searchResults={this.state.searchResults}
+              loadSearchResult={this.selectSearchAsset}
+            />
           }
 
         </div>

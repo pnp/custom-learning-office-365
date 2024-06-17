@@ -20,12 +20,14 @@ export interface IPlaylistControlProps {
 export interface IPlaylistControlState {
   assetOptions: IHOODropDownItem[];
   ddShow: boolean;
+  showFullScreen: boolean;
 }
 
 export class PlaylistControlState implements IPlaylistControlState {
   constructor(
     public assetOptions: IHOODropDownItem[] = [],
-    public ddShow: boolean = false
+    public ddShow: boolean = false,
+    public showFullScreen = false
   ) { }
 }
 
@@ -107,27 +109,65 @@ export default class PlaylistControl extends React.Component<IPlaylistControlPro
     });
   }
 
-  //TODO check the on change event for the drop down
   public render(): React.ReactElement<IPlaylistControlProps> {
     if (!this.props.currentAsset) return null;
     try {
       return (
-        <div data-component={this.LOG_SOURCE} className="playerctrl">
-          <span className="playerctrl-prev">
-            <HOOButton type={HOOButtonType.Primary} iconName="icon-chevron-left-regular" onClick={this.playlistBack} disabled={this.disableBack()} label={strings.PlaylistPrevious} iconTitle={strings.PlaylistPrevious} />
-          </span>
-          <span className="playerctrl-title">
-            <HOODropDown
-              onChange={this.selectAsset}
-              value={this.props.currentAsset.Id}
-              options={this.state.assetOptions}
-              containsTypeAhead={false}
-            />
-            <HOOButton type={HOOButtonType.Icon} iconName="icon-full-screen-maximize-filled" iconTitle={strings.PlaylistFullScreen} onClick={this.props.renderPanel} />
-          </span>
-          <span className="playerctrl-next">
-            <HOOButton type={HOOButtonType.Primary} iconRight="icon-chevron-right-regular" onClick={this.playlistAdvance} disabled={this.disableAdvance()} label={strings.PlaylistNext} iconTitle={strings.PlaylistNext} />
-          </span>
+        <div data-component={this.LOG_SOURCE} className="playerwrapper">
+          <div className="playerctrl">
+            <div className="playerctrl-prev">
+              <HOOButton type={HOOButtonType.Primary} iconName="icon-chevron-left-regular" onClick={this.playlistBack} disabled={this.disableBack()} label={strings.PlaylistPrevious} iconTitle={strings.PlaylistPrevious} />
+            </div>
+            <span className="playerctrl-title">
+              <HOODropDown
+                onChange={this.selectAsset}
+                value={this.props.currentAsset.Id}
+                options={this.state.assetOptions}
+                containsTypeAhead={false}
+              />
+              <HOOButton
+                type={HOOButtonType.Icon}
+                iconName="icon-full-screen-maximize-filled"
+                iconTitle={strings.PlaylistFullScreen}
+                onClick={this.props.renderPanel} />
+            </span>
+            <div className="playerctrl-next">
+              <HOOButton type={HOOButtonType.Primary} iconRight="icon-chevron-right-regular" onClick={this.playlistAdvance} disabled={this.disableAdvance()} label={strings.PlaylistNext} iconTitle={strings.PlaylistNext} />
+            </div>
+          </div>
+          {/* <div>
+            <HOODialog
+              changeVisibility={function noRefCheck() { }}
+              type={8} visible={this.state.showFullScreen}            >
+              <HOODialogHeader
+                closeIconName="hoo-icon-close"
+                closeOnClick={() => this.setState({ showFullScreen: false })}
+                title="Dialog Header" closeDisabled={false} />
+              <HOODialogContent>
+                <div className="playerctrl">
+                  <div className="playerctrl-prev">
+                    <HOOButton type={HOOButtonType.Primary} iconName="icon-chevron-left-regular" onClick={this.playlistBack} disabled={this.disableBack()} label={strings.PlaylistPrevious} iconTitle={strings.PlaylistPrevious} />
+                  </div>
+                  <span className="playerctrl-title">
+                    <HOODropDown
+                      onChange={this.selectAsset}
+                      value={this.props.currentAsset.Id}
+                      options={this.state.assetOptions}
+                      containsTypeAhead={false}
+                    />
+                    <HOOButton
+                      type={HOOButtonType.Icon}
+                      iconName="icon-full-screen-maximize-filled"
+                      iconTitle={strings.PlaylistFullScreen}
+                      onClick={() => this.setState({ showFullScreen: true })} />
+                  </span>
+                  <div className="playerctrl-next">
+                    <HOOButton type={HOOButtonType.Primary} iconRight="icon-chevron-right-regular" onClick={this.playlistAdvance} disabled={this.disableAdvance()} label={strings.PlaylistNext} iconTitle={strings.PlaylistNext} />
+                  </div>
+                </div>
+              </HOODialogContent>
+            </HOODialog>
+          </div> */}
         </div>
       );
     } catch (err) {

@@ -154,9 +154,10 @@ export default class PlaylistDetails extends React.Component<IPlaylistDetailsPro
       return (
         <div data-component={this.LOG_SOURCE}>
           {params.multilingualEnabled &&
-            <div className="adm-header-nav-subcont">
+            <>
+              {/* TODO see if we need to account for this getTabId={(itemKey) => { return `PlaylistDetail_${itemKey}`; }} */}
               <HOOPivotBar
-                onClick={(ev, option) => this.setState({ currentLanguage: option.toString() })}
+                onClick={(ev, option) => { this.setState({ currentLanguage: option.toString() }); }}
                 pivotItems={this.getPivotItems()}
                 rootElementAttributes={{ className: "adm-header-nav" }}
                 selectedKey={this.state.currentLanguage}
@@ -171,11 +172,11 @@ export default class PlaylistDetails extends React.Component<IPlaylistDetailsPro
                     onChange={this.addLanguage} />
                 </div>
               }
-            </div>
+            </>
           }
 
           <div className="adm-plitem-details">
-            <div className="adm-plitem-preview" aria-labelledby={`PlaylistDetail_${this.state.currentLanguage}`}>
+            <div className="adm-plitem-preview">
               <ImageSelector
                 imageSource={(this.props.playlist.Image instanceof Array) ? (this.props.playlist.Image as IMultilingualString[])[currentLangIndex].Text : this.props.playlist.Image as string}
                 disabled={!this.props.editMode}
@@ -196,7 +197,7 @@ export default class PlaylistDetails extends React.Component<IPlaylistDetailsPro
             </div>
           </div>
           {(this.props.playlist.Source === CustomWebpartSource.Tenant) &&
-            <div className="adm-itemaction">
+            <div className="adm-plitem-tools edit-details">
               {this.props.editMode && this._currentLanguageOptions.length > 1 && this.state.currentLanguage !== this._currentLanguageOptions[0].code &&
                 <HOOButton
                   label={strings.RemoveLanguageLabel}

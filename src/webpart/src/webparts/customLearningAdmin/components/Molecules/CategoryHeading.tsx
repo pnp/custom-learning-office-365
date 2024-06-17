@@ -75,7 +75,7 @@ export default class CategoryHeading extends React.PureComponent<ICategoryHeadin
           </div>);
       } else {
         return (
-          <h3 className='admpl-heading'><span>
+          <h3 className='category-heading'>
             {(this.props.heading.Name instanceof Array) ?
               (this.props.new ?
                 strings.CategoryHeading :
@@ -83,8 +83,6 @@ export default class CategoryHeading extends React.PureComponent<ICategoryHeadin
               ) :
               this.props.heading.Name
             }
-          </span>
-            {this.renderButtons()}
           </h3>);
       }
     } catch (err) {
@@ -109,8 +107,7 @@ export default class CategoryHeading extends React.PureComponent<ICategoryHeadin
               iconName="icon-delete-regular"
               iconTitle={strings.DeleteButton}
               onClick={this.onDelete}
-              disabled={!this.props.canDelete}
-            />
+              disabled={!this.props.canDelete} />
           );
         }
 
@@ -121,7 +118,7 @@ export default class CategoryHeading extends React.PureComponent<ICategoryHeadin
             onClick={() => { this.setState({ edit: false }); }} />
         );
       } else {
-        if (this.props.canEdit) {
+        if (this.props.canEdit || this.props.new) {
           retVal.push(
             <HOOButton type={HOOButtonType.Icon}
               iconName={(this.props.new) ? "icon-add-regular" : "icon-pen-regular"}
@@ -133,7 +130,7 @@ export default class CategoryHeading extends React.PureComponent<ICategoryHeadin
 
         if (!this.props.new) {
           retVal.push(
-            <HOOButton type={HOOButtonType.Icon}
+            <HOOButton type={HOOButtonType.Icon} adm-subcatheading
               iconName={(this.props.visible) ? "icon-eye-filled" : "icon-eye-off-filled"}
               iconTitle={`${(this.props.visible) ? strings.Hide : strings.Show} ${strings.CategoryHeadingLabel}`}
               onClick={() => { this.props.onVisibility(this.props.heading.Id, this.props.visible); }} />
@@ -157,11 +154,11 @@ export default class CategoryHeading extends React.PureComponent<ICategoryHeadin
   public render(): React.ReactElement<ICategoryHeadingProps> {
     try {
       return (
-        <div data-component={this.LOG_SOURCE}>
+        <div data-component={this.LOG_SOURCE} className="admpl-heading">
           {this.renderHeading()}
-          {/* <span className="admpl-heading-edit">
+          <span className="admpl-heading-edit">
             {this.renderButtons()}
-          </span> */}
+          </span>
         </div>
       );
     } catch (err) {

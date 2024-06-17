@@ -182,24 +182,25 @@ export default class AssetDetails extends React.Component<IAssetDetailsProps, IA
       return (
         <div data-component={this.LOG_SOURCE}>
           {params.multilingualEnabled &&
-            <div className="adm-header-nav-subcont">
+            <>
               <HOOPivotBar
                 onClick={(ev, option) => this.setState({ currentLanguage: option.toString() })}
                 pivotItems={this.getPivotItems()}
                 rootElementAttributes={{ className: "adm-header-nav" }}
                 selectedKey={this.state.currentLanguage}
               />
+
               {this.props.edit && this._currentLanguageOptions.length > 0 &&
-                <div className="adm-pivotCombo">
-                  <HOODropDown
-                    value={""}
-                    options={addLanguageOptions}
-                    placeholder="⚑ Add language"
-                    containsTypeAhead={false}
-                    onChange={this.addLanguage} />
-                </div>
+
+                <HOODropDown
+                  value={""}
+                  options={addLanguageOptions}
+                  placeholder="⚑ Add language"
+                  containsTypeAhead={false}
+                  onChange={this.addLanguage} />
+
               }
-            </div>
+            </>
           }
           <AssetDetail
             technologies={this.props.technologies}

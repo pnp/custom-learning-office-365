@@ -5,9 +5,10 @@ import isEqual from "lodash-es/isEqual";
 import find from "lodash-es/find";
 import cloneDeep from "lodash-es/cloneDeep";
 import HOODialog from "@n8d/htwoo-react/HOODialog";
-import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
+import HOOButton from "@n8d/htwoo-react/HOOButton";
 import HOODialogActions from "@n8d/htwoo-react/HOODialogActions";
 import HOODialogContent from "@n8d/htwoo-react/HOODialogContent";
+import HOOCommandBar, { IHOOCommandItem } from "@n8d/htwoo-react/HOOCommandBar";
 
 import * as strings from "M365LPStrings";
 import { params } from "../../../common/services/Parameters";
@@ -15,6 +16,7 @@ import { IPlaylist, Playlist, IAsset, ICategory, ITechnology, IMetadataEntry, IM
 import { CustomWebpartSource } from "../../../common/models/Enums";
 import PlaylistDetails from "../Molecules/PlaylistDetails";
 import AssetInfo from "../Molecules/AssetInfo";
+
 
 
 export interface IPlaylistInfoProps {
@@ -207,20 +209,21 @@ export default class PlaylistInfo extends React.Component<IPlaylistInfoProps, IP
     return header;
   }
 
-  private renderPlaylistButtons = (): JSX.Element[] => {
-    const retVal: JSX.Element[] = [];
+  private renderPlaylistButtons = (): IHOOCommandItem[] => {
+    const retVal: IHOOCommandItem[] = [];
     try {
-      const copy = <HOOButton type={HOOButtonType.Icon}
-        iconName="icon-copy-regular"
-        iconTitle={strings.PlaylistEditCopyLabel}
-        onClick={() => this.props.copyPlaylist(this.state.playlist)}
-        disabled={false}
-      />;
-      const close = <HOOButton type={HOOButtonType.Icon}
-        iconName="icon-dismiss-regular"
-        iconTitle={strings.PlaylistEditCloseLabel}
-        onClick={this.props.close}
-      />;
+      const copy: IHOOCommandItem = {
+        key: 'copy',
+        iconName: 'icon-copy-regular',
+        text: strings.PlaylistEditCopyLabel,
+        flyoutMenuItems: []
+      };
+      const close: IHOOCommandItem = {
+        key: 'close',
+        iconName: "icon-dismiss-regular",
+        text: strings.PlaylistEditCloseLabel,
+        flyoutMenuItems: []
+      };
 
       if (!this.props.editDisabled) {
         if (!this.state.edit) {
@@ -243,15 +246,28 @@ export default class PlaylistInfo extends React.Component<IPlaylistInfoProps, IP
     return retVal;
   }
 
+  private handleCommandBar = (buttonKey: string): void => {
+    try {
+      if (buttonKey === "copy") {
+        this.props.copyPlaylist(this.state.playlist);
+      } else if (buttonKey === "close") {
+        this.props.close();
+      }
+    } catch (err) {
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (handleCommandBar) - ${err}`, LogLevel.Error);
+    }
+  }
+
   public render(): React.ReactElement<IPlaylistInfoProps> {
     try {
-      const playlistButtons = this.renderPlaylistButtons();
       return (
         <>
-          <div data-component={this.LOG_SOURCE} className="adm-content-section">
+          <div data-component={this.LOG_SOURCE} className="adm-plitem-info">
             <h2>{this.playlistHeader()}</h2>
-            <div className={`adm-itemaction ${(playlistButtons.length < 1) ? "hidden" : ""}`}>
-              {playlistButtons}
+            <div className="adm-plitem-tools">
+              <HOOCommandBar
+                commandItems={this.renderPlaylistButtons()}
+                onClick={(ev, commandKey, flyoutItem) => { this.handleCommandBar(commandKey.toString()) }} />
             </div>
             <PlaylistDetails
               playlist={this.state.playlist}
@@ -267,7 +283,7 @@ export default class PlaylistInfo extends React.Component<IPlaylistInfoProps, IP
               edit={() => { this.setState({ edit: true }); }}
             />
           </div>
-          <div data-component={this.LOG_SOURCE} className="adm-content-section">
+          <section data-component={this.LOG_SOURCE} className="adm-content-section">
             <h2>{strings.PlaylistEditPlaylistAssetsHeader}</h2>
             {(this.state.message !== "") &&
               <HOODialog
@@ -296,7 +312,7 @@ export default class PlaylistInfo extends React.Component<IPlaylistInfoProps, IP
               upsertAsset={this.props.upsertAsset}
               translateAsset={this.props.translateAsset}
             />
-          </div>
+          </section>
         </>
       );
     } catch (err) {

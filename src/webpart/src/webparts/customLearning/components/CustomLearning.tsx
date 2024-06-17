@@ -251,7 +251,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
       switch (template) {
         case Templates.Category:
           detail = filter(this._uxService.CacheConfig.Categories, { Id: templateId });
-          if (this._uxService.History.find(o => {return o.Id === detail[0].Id}) == null) {
+          if (this._uxService.History.find(o => { return o.Id === detail[0].Id }) == null) {
             this._uxService.History.push(new HistoryItem(detail[0].Id, detail[0].Name as string, template));
           }
           if (this._uxService.CustomSort)
@@ -531,6 +531,37 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
         />);
       }
       element.push(this._renderContainer());
+      element.push(<HOODialog
+        changeVisibility={() => { this.setState({ renderPanel: !this.state.renderPanel }); }}
+        type={8} visible={this.state.renderPanel}
+      >
+        <HOODialogHeader
+          closeIconName="hoo-icon-close"
+          closeOnClick={() => { this.setState({ renderPanel: false }); }}
+          title="Dialog Header" closeDisabled={false} />
+        <HOODialogContent>
+          <HOOLabel label={(this.state.detail) ? (this.state.detail as IPlaylist).Title as string : ""} />
+          {
+            (this.state.template === Templates.Playlist) &&
+            <PlaylistControl
+              currentAsset={this.state.currentAsset}
+              assets={this.state.assets}
+              selectAsset={this._selectAsset}
+              renderPanel={this._doRenderPanel}
+            />
+          }
+
+
+          <AssetView
+            playlistId={(this.state.detail) ? (this.state.detail as IPlaylist).Id : ""}
+            playlistName={(this.state.detail) ? (this.state.detail as IPlaylist).Title as string : ""}
+            asset={this.state.currentAsset}
+            assets={this.state.assets}
+            assetOrigins={this._uxService.CacheConfig.AssetOrigins}
+            selectAsset={this._selectAsset}
+          />
+        </HOODialogContent>
+      </HOODialog>)
 
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_renderPanel) - ${err}`, LogLevel.Error);
@@ -548,24 +579,25 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
       //TODO Check to see if this needs the styles added back in
       return (
         <>
-          {this.state.renderPanel &&
-            <HOODialog
-              changeVisibility={() => { this.setState({ renderPanel: !this.state.renderPanel }); }}
-              type={8} visible={false}
-            >
-              <HOODialogHeader
-                closeIconName="hoo-icon-close"
-                closeOnClick={() => { this.setState({ renderPanel: false }); }}
-                title="Dialog Header" closeDisabled={false} />
-              <HOODialogContent>
-                <HOOLabel label={(this.state.detail) ? (this.state.detail as IPlaylist).Title as string : ""} />
-                {this._renderPanel(true)}
-              </HOODialogContent>
-            </HOODialog>
-          }
-          {!this.state.renderPanel &&
+
+          {/* <HOODialog
+            changeVisibility={() => { this.setState({ renderPanel: !this.state.renderPanel }); }}
+            type={8} visible={this.state.renderPanel}
+          >
+            <HOODialogHeader
+              closeIconName="hoo-icon-close"
+              closeOnClick={() => { this.setState({ renderPanel: false }); }}
+              title="Dialog Header" closeDisabled={false} />
+            <HOODialogContent>
+              <HOOLabel label={(this.state.detail) ? (this.state.detail as IPlaylist).Title as string : ""} />
+              {this._renderPanel(true)}
+            </HOODialogContent>
+          </HOODialog> */}
+
+          {/* {!this.state.renderPanel &&
             this._renderPanel(false)
-          }
+          } */}
+          {this._renderPanel(false)}
         </>
       );
 
