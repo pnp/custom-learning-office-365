@@ -4,7 +4,7 @@
 There are two manual options when installing Microsoft 365 Learning Pathways. The first is the manual install. This will install the webpart and set it up for use in your tenant. This will not create any pages other than the admin page and viewer page. The second installation options is to install the Learning Pathways site template previously hosted from the LookBook. To install the site template please follow [these instructions](https://learn.microsoft.com/en-us/sharepoint/dev/solution-guidance/applying-pnp-templates). This tutorial will walk you through the process of creating a site collection, downloading and installing the site template. You will then need to run the M365lpConfiguration.ps1 in the [Execute PowerShell Configuration Script](https://github.com/pnp/custom-learning-office-365/tree/main/installation#execute-powershell-configuration-script) to set the tenant app property. 
 
 ## Installation Overview
-The Microsoft 365 learning pathways solution is build using the [SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview) version 1.8.0.
+The Microsoft 365 learning pathways solution is built using the [SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview) version 1.8.0.
 
 To manually install and configure the web part and site collection you will need to complete the following steps:
 
@@ -32,7 +32,7 @@ Add `Microsoft 365 learning pathways` App to the site collection.
 
 ## Execute PowerShell Configuration Script
 
-A PowerShell script `M365lpConfiguration.ps1` is included that you will need to execute to create three [tenant properties](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/tenant-properties) that the solution uses. In addition the script creates two [single part app pages](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/single-part-app-pages) in the site pages library to host the admin and user web parts at a known location.
+A PowerShell script `M365lpConfiguration.ps1` is included that you will need to execute to create three [tenant properties](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/tenant-properties) that the solution uses. In addition, the script creates two [single part app pages](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/single-part-app-pages) in the site pages library to host the admin and user web parts at a known location.
 
 Using the script looks like this:
 `.\M365lpConfiguration.ps1 -TenantName contoso -SiteCollectionName MicrosoftTraining`
