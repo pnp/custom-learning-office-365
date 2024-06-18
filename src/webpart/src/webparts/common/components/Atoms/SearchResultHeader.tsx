@@ -2,8 +2,6 @@ import HOOPivotBar, { IHOOPivotItem } from "@n8d/htwoo-react/HOOPivotBar";
 import { Logger, LogLevel } from "@pnp/logging";
 import * as React from "react";
 
-import isEqual from "lodash-es/isEqual";
-
 export interface ISearchResultHeaderProps {
   headerItems: IHOOPivotItem[];
   filterValue: string | number;
@@ -11,25 +9,11 @@ export interface ISearchResultHeaderProps {
   selectTab: (ev: React.MouseEvent, key: string | number) => void;
 }
 
-export interface ISearchResultHeaderState {
-}
-
-export class SearchResultHeaderState implements ISearchResultHeaderState {
-  constructor() { }
-}
-
-export default class SearchResultHeader extends React.Component<ISearchResultHeaderProps, ISearchResultHeaderState> {
+export default class SearchResultHeader extends React.PureComponent<ISearchResultHeaderProps> {
   private LOG_SOURCE: string = "SearchResultHeader";
 
   constructor(props) {
     super(props);
-    this.state = new SearchResultHeaderState();
-  }
-
-  public shouldComponentUpdate(nextProps: Readonly<ISearchResultHeaderProps>, nextState: Readonly<ISearchResultHeaderState>): boolean {
-    if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
-      return false;
-    return true;
   }
 
   public render(): React.ReactElement<ISearchResultHeaderProps> {

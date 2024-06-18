@@ -2,8 +2,6 @@ import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 import HOOShimmer, { HOOShimmerShape, HOOShimmerTheme } from "@n8d/htwoo-react/HOOShimmer";
 
-import isEqual from "lodash-es/isEqual";
-
 import { params } from "../../services/Parameters";
 import { ShimmerView } from "../../models/Enums";
 import styles from "../../CustomLearningCommon.module.scss";
@@ -13,25 +11,11 @@ export interface IShimmerViewerProps {
   shimmerView: string;
 }
 
-export interface IShimmerViewerState {
-}
-
-export class ShimmerViewerState implements IShimmerViewerState {
-  constructor() { }
-}
-
-export default class ShimmerViewer extends React.Component<IShimmerViewerProps, IShimmerViewerState> {
+export default class ShimmerViewer extends React.Component<IShimmerViewerProps> {
   private LOG_SOURCE: string = "ShimmerViewer";
 
   constructor(props) {
     super(props);
-    this.state = new ShimmerViewerState();
-  }
-
-  public shouldComponentUpdate(nextProps: Readonly<IShimmerViewerProps>, nextState: Readonly<IShimmerViewerState>): boolean {
-    if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
-      return false;
-    return true;
   }
 
   public render(): React.ReactElement<IShimmerViewerProps> {
