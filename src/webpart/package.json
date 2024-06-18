@@ -22,7 +22,8 @@
     "@microsoft/sp-lodash-subset": "1.19.0",
     "@microsoft/sp-property-pane": "1.19.0",
     "@microsoft/sp-webpart-base": "1.19.0",
-    "@n8d/htwoo-react": "^2.5.1",
+    "@n8d/htwoo-react": "^2.5.3",
+    "@pnp/graph": "^4.1.0",
     "@pnp/logging": "4.0.1",
     "@pnp/sp": "^4.1.1",
     "applicationinsights-js": "^1.0.21",
@@ -32,8 +33,7 @@
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "sha.js": "^2.4.11",
-    "tslib": "2.3.1",
-    "@pnp/graph": "^4.1.0"
+    "tslib": "2.3.1"
   },
   "devDependencies": {
     "@microsoft/eslint-config-spfx": "1.20.1",

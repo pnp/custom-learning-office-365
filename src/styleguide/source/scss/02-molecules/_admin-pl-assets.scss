@@ -42,7 +42,25 @@
     box-sizing: border-box;
 }
 
+.adm-curplasset-lang{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    .hoo-pivotbar{
+        width: 100%;
+    }
+}
+
 .adm-curplasset-action{
     margin-block: 1rem;
+}
 
+.adm-plitem-form{
+    .hoo-label{
+        margin-bottom: 0.25rem;
+    }
+    .hoo-label + *{
+        margin-bottom: .75rem;
+    }
 }

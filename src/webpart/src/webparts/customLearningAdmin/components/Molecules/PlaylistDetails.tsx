@@ -153,8 +153,9 @@ export default class PlaylistDetails extends React.Component<IPlaylistDetailsPro
       }
       return (
         <div data-component={this.LOG_SOURCE}>
+          
           {params.multilingualEnabled &&
-            <>
+            <div className="adm-curplasset-lang">
               {/* TODO see if we need to account for this getTabId={(itemKey) => { return `PlaylistDetail_${itemKey}`; }} */}
               <HOOPivotBar
                 onClick={(ev, option) => { this.setState({ currentLanguage: option.toString() }); }}
@@ -173,7 +174,7 @@ export default class PlaylistDetails extends React.Component<IPlaylistDetailsPro
                     onChange={this.addLanguage} />
                 </div>
               }
-            </>
+            </div>
           }
 
           <div className="adm-plitem-details">

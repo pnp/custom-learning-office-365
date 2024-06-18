@@ -1,19 +1,18 @@
-import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
+import * as React from "react";
 
-import isEqual from "lodash-es/isEqual";
-import forEach from "lodash-es/forEach";
-import find from "lodash-es/find";
-import cloneDeep from "lodash-es/cloneDeep";
+import HOODropDown, { IHOODropDownItem } from "@n8d/htwoo-react/HOODropDown";
 import HOOLabel from "@n8d/htwoo-react/HOOLabel";
 import HOOText from "@n8d/htwoo-react/HOOText";
-import HOODropDown, { IHOODropDownItem } from "@n8d/htwoo-react/HOODropDown";
+import cloneDeep from "lodash-es/cloneDeep";
+import find from "lodash-es/find";
+import forEach from "lodash-es/forEach";
+import isEqual from "lodash-es/isEqual";
 
-import { IPlaylist, ICategory, ITechnology, IMetadataEntry, IMultilingualString } from "../../../common/models/Models";
-import * as strings from 'M365LPStrings';
-import { IRecursiveList, RecursiveList } from "../../../recusiveTree/RecursiveTree";
-import RecursiveTree from "../../../recusiveTree/RecursiveTree";
 import HOONotifyLabel from "@n8d/htwoo-react/HOONotifyLabel";
+import * as strings from 'M365LPStrings';
+import { ICategory, IMetadataEntry, IMultilingualString, IPlaylist, ITechnology } from "../../../common/models/Models";
+import RecursiveTree, { IRecursiveList, RecursiveList } from "../../../recusiveTree/RecursiveTree";
 
 
 
@@ -179,7 +178,7 @@ export default class PlaylistDetail extends React.Component<IPlaylistDetailProps
     const categoryError = this.getCategoryError();
     try {
       return (
-        <div data-component={this.LOG_SOURCE}>
+        <div className="adm-plitem-form" data-component={this.LOG_SOURCE}>
           {this.props.edit &&
             <>
               <HOOLabel label={strings.DetailEditTitle} for={strings.DetailEditTitle} required={true} />
