@@ -1,7 +1,6 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
-import isEqual from "lodash-es/isEqual";
 import cloneDeep from "lodash-es/cloneDeep";
 import forEach from "lodash-es/forEach";
 import findIndex from "lodash-es/findIndex";
@@ -23,40 +22,12 @@ export interface ICategoryHeadingDetailProps {
   updateHeading: (heading: ICategory) => void;
 }
 
-export interface ICategoryHeadingDetailState {
-}
-
-export class CategoryHeadingDetailState implements ICategoryHeadingDetailState {
-  constructor() { }
-}
-
-export default class CategoryHeadingDetail extends React.Component<ICategoryHeadingDetailProps, ICategoryHeadingDetailState> {
+export default class CategoryHeadingDetail extends React.PureComponent<ICategoryHeadingDetailProps> {
   private LOG_SOURCE: string = "CategoryHeadingDetail";
   private _showMultilingual: boolean = params.multilingualEnabled && (this.props.heading.Source === CustomWebpartSource.Tenant);
 
-  // TODO figure out how to add the icon into the placeholder text or remove this
-  // private _addLanguagePlaceholder: JSX.Element = <div className="dropdownExample-placeholder">
-  //   <HOOIcon
-  //     iconName="icon-chat-help-filled"
-  //     title={strings.AddLanguagePlaceholder}
-  //     rootElementAttributes={{
-  //       style: {
-  //         marginRight: '8px'
-  //       }
-  //     }}
-  //   />
-  //   <span></span>
-  // </div>;
-
   constructor(props) {
     super(props);
-    this.state = new CategoryHeadingDetailState();
-  }
-
-  public shouldComponentUpdate(nextProps: Readonly<ICategoryHeadingDetailProps>, nextState: Readonly<ICategoryHeadingDetailState>): boolean {
-    if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
-      return false;
-    return true;
   }
 
   private setHeadingName = (name: string, index: number): void => {
@@ -142,8 +113,7 @@ export default class CategoryHeadingDetail extends React.Component<ICategoryHead
                       onChange={(ev) => { this.setHeadingName(ev.currentTarget.value, idx); }}
                       value={name.Text}
                       inputElementAttributes={{
-                        style: { width: '100%' },
-                        autoFocus: true
+                        style: { width: '100%' }
                       }}
                     />
                     {(locale.code !== params.defaultLanguage) &&
