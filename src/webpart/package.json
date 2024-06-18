@@ -23,7 +23,6 @@
     "@microsoft/sp-property-pane": "1.19.0",
     "@microsoft/sp-webpart-base": "1.19.0",
     "@n8d/htwoo-react": "^2.5.3",
-    "@pnp/graph": "^4.1.0",
     "@pnp/logging": "4.0.1",
     "@pnp/sp": "^4.1.1",
     "applicationinsights-js": "^1.0.21",
