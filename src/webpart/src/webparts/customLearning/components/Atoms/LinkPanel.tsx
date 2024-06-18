@@ -11,19 +11,11 @@ export interface ILinkPanelProps {
   linkUrl: string;
 }
 
-export interface ILinkPanelState {
-}
-
-export class LinkPanelState implements ILinkPanelState {
-  constructor() { }
-}
-
-export default class LinkPanel extends React.PureComponent<ILinkPanelProps, ILinkPanelState> {
+export default class LinkPanel extends React.PureComponent<ILinkPanelProps> {
   private LOG_SOURCE: string = "LinkPanel";
 
   constructor(props) {
     super(props);
-    this.state = new LinkPanelState();
   }
 
   private linkClick = async (): Promise<void> => {

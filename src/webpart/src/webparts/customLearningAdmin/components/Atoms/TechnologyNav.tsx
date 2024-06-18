@@ -5,9 +5,7 @@ import isEqual from "lodash-es/isEqual";
 import { IHOONavItem } from "@n8d/htwoo-react";
 import HOOVerticalNav from "@n8d/htwoo-react/HOOVerticalNav";
 
-
 import { ITechnology } from "../../../common/models/Models";
-
 
 export interface ITechnologyNavProps {
   technologies: ITechnology[];

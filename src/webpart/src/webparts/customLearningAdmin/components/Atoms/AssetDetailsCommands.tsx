@@ -1,7 +1,6 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
-import isEqual from "lodash-es/isEqual";
 import HOOButton from "@n8d/htwoo-react/HOOButton";
 import HOOIcon from "@n8d/htwoo-react/HOOIcon";
 
@@ -21,25 +20,11 @@ export interface IAssetDetailsCommandsProps {
   select: () => void;
 }
 
-export interface IAssetDetailsCommandsState {
-}
-
-export class AssetDetailsCommandsState implements IAssetDetailsCommandsState {
-  constructor() { }
-}
-
-export default class AssetDetailsCommands extends React.Component<IAssetDetailsCommandsProps, IAssetDetailsCommandsState> {
+export default class AssetDetailsCommands extends React.PureComponent<IAssetDetailsCommandsProps> {
   private LOG_SOURCE: string = "AssetDetailsCommands";
 
   constructor(props) {
     super(props);
-    this.state = new AssetDetailsCommandsState();
-  }
-
-  public shouldComponentUpdate(nextProps: Readonly<IAssetDetailsCommandsProps>, nextState: Readonly<IAssetDetailsCommandsState>): boolean {
-    if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
-      return false;
-    return true;
   }
 
   public render(): React.ReactElement<IAssetDetailsCommandsProps> {

@@ -1,6 +1,5 @@
 import HOOButton from "@n8d/htwoo-react/HOOButton";
 import { Logger, LogLevel } from "@pnp/logging";
-import isEqual from "lodash-es/isEqual";
 import * as React from "react";
 
 import HOOIcon from "@n8d/htwoo-react/HOOIcon";
@@ -20,25 +19,11 @@ export interface IPlaylistItemProps {
   onDelete: () => void;
 }
 
-export interface IPlaylistItemState {
-}
-
-export class PlaylistItemState implements IPlaylistItemState {
-  constructor() { }
-}
-
-export default class PlaylistItem extends React.Component<IPlaylistItemProps, IPlaylistItemState> {
+export default class PlaylistItem extends React.PureComponent<IPlaylistItemProps> {
   private LOG_SOURCE: string = "PlaylistItem";
 
   constructor(props) {
     super(props);
-    this.state = new PlaylistItemState();
-  }
-
-  public shouldComponentUpdate(nextProps: Readonly<IPlaylistItemProps>, nextState: Readonly<IPlaylistItemState>): boolean {
-    if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
-      return false;
-    return true;
   }
 
   public render(): React.ReactElement<IPlaylistItemProps> {
@@ -52,9 +37,9 @@ export default class PlaylistItem extends React.Component<IPlaylistItemProps, IP
             <HOOIcon
               iconName="icon-person-available-regular"
               title="Custom"
-              // rootElementAttributes={{
-              //   className: 'pl-edit-icon'
-              // }}
+            // rootElementAttributes={{
+            //   className: 'pl-edit-icon'
+            // }}
             />
 
           }

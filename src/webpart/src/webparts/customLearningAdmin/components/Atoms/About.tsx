@@ -1,7 +1,6 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
-import isEqual from "lodash-es/isEqual";
 import forEach from "lodash-es/forEach";
 import HOOText from "@n8d/htwoo-react/HOOText";
 import HOOLabel from "@n8d/htwoo-react/HOOLabel";
@@ -15,21 +14,13 @@ export interface IAboutProps {
   close: () => void;
 }
 
-export interface IAboutState {
-}
-
-export class AboutState implements IAboutState {
-  constructor() { }
-}
-
-export default class About extends React.Component<IAboutProps, IAboutState> {
+export default class About extends React.PureComponent<IAboutProps> {
   private LOG_SOURCE: string = "About";
   private _allCdn: string[] = [];
   private _configuredLanguages: string[] = [];
 
   constructor(props) {
     super(props);
-    this.state = new AboutState();
 
     forEach(params.allCdn, (cdn) => {
       this._allCdn.push(cdn.Name);
@@ -38,12 +29,6 @@ export default class About extends React.Component<IAboutProps, IAboutState> {
     forEach(params.configuredLanguages, (cl) => {
       this._configuredLanguages.push(cl.description);
     });
-  }
-
-  public shouldComponentUpdate(nextProps: Readonly<IAboutProps>, nextState: Readonly<IAboutState>): boolean {
-    if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
-      return false;
-    return true;
   }
 
   public render(): React.ReactElement<IAboutProps> {

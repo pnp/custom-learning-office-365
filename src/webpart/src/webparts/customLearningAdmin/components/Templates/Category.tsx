@@ -20,7 +20,6 @@ import { CustomWebpartSource } from "../../../common/models/Enums";
 import PlaylistInfo from "../Organizms/PlaylistInfo";
 import CategoryNav from "../Atoms/CategoryNav";
 
-
 export interface ICategoryProps {
   className: string;
   customization: ICustomizations;

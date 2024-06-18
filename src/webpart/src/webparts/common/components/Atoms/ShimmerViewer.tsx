@@ -11,7 +11,7 @@ export interface IShimmerViewerProps {
   shimmerView: string;
 }
 
-export default class ShimmerViewer extends React.Component<IShimmerViewerProps> {
+export default class ShimmerViewer extends React.PureComponent<IShimmerViewerProps> {
   private LOG_SOURCE: string = "ShimmerViewer";
 
   constructor(props) {

@@ -1,8 +1,6 @@
 import { Logger, LogLevel } from "@pnp/logging";
 import * as React from "react";
 
-import isEqual from "lodash-es/isEqual";
-
 export interface IContentPackItemProps {
   imageSource: string;
   title: string;
@@ -10,25 +8,11 @@ export interface IContentPackItemProps {
   onClick: () => void;
 }
 
-export interface IContentPackItemState {
-}
-
-export class ContentPackItemState implements IContentPackItemState {
-  constructor() { }
-}
-
-export default class ContentPackItem extends React.Component<IContentPackItemProps, IContentPackItemState> {
+export default class ContentPackItem extends React.PureComponent<IContentPackItemProps> {
   private LOG_SOURCE: string = "ContentPackItem";
 
   constructor(props) {
     super(props);
-    this.state = new ContentPackItemState();
-  }
-
-  public shouldComponentUpdate(nextProps: Readonly<IContentPackItemProps>, nextState: Readonly<IContentPackItemState>): boolean {
-    if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
-      return false;
-    return true;
   }
 
   public render(): React.ReactElement<IContentPackItemProps> {

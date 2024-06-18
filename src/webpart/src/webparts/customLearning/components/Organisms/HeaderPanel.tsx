@@ -11,18 +11,11 @@ export interface IHeaderPanelProps {
   closePanel: (panelName: string) => void;
 }
 
-export interface IHeaderPanelState { }
-
-export class HeaderPanelState implements IHeaderPanelState {
-  constructor() { }
-}
-
-export default class HeaderPanel extends React.PureComponent<IHeaderPanelProps, IHeaderPanelState> {
+export default class HeaderPanel extends React.PureComponent<IHeaderPanelProps> {
   private LOG_SOURCE: string = "HeaderPanel";
 
   constructor(props) {
     super(props);
-    this.state = new HeaderPanelState();
   }
 
   public render(): React.ReactElement<IHeaderPanelProps> {

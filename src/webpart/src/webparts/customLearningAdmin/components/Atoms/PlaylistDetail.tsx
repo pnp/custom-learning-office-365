@@ -4,17 +4,15 @@ import * as React from "react";
 import HOODropDown, { IHOODropDownItem } from "@n8d/htwoo-react/HOODropDown";
 import HOOLabel from "@n8d/htwoo-react/HOOLabel";
 import HOOText from "@n8d/htwoo-react/HOOText";
+import HOONotifyLabel from "@n8d/htwoo-react/HOONotifyLabel";
 import cloneDeep from "lodash-es/cloneDeep";
 import find from "lodash-es/find";
 import forEach from "lodash-es/forEach";
 import isEqual from "lodash-es/isEqual";
 
-import HOONotifyLabel from "@n8d/htwoo-react/HOONotifyLabel";
 import * as strings from 'M365LPStrings';
 import { ICategory, IMetadataEntry, IMultilingualString, IPlaylist, ITechnology } from "../../../common/models/Models";
 import RecursiveTree, { IRecursiveList, RecursiveList } from "../../../recusiveTree/RecursiveTree";
-
-
 
 export interface IPlaylistDetailProps {
   categories: ICategory[];

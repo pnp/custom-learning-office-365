@@ -10,8 +10,6 @@ import * as strings from 'M365LPStrings';
 import FilePickerDialog from "../../../filePicker/FilePickerDialog";
 import { FileItem } from "../../../filePicker/Models";
 
-
-
 export interface IImageSelectorProps {
   imageSource: string;
   imageWidth?: number;

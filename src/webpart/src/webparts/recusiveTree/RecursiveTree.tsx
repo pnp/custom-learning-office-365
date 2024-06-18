@@ -1,7 +1,6 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
-import isEqual from "lodash-es/isEqual";
 import HOOLabel from "@n8d/htwoo-react/HOOLabel";
 
 import styles from "./RecursiveTree.module.scss";
@@ -33,25 +32,11 @@ export interface IRecursiveTreeProps {
   selectItem: (itemKey: string) => void;
 }
 
-export interface IRecursiveTreeState {
-}
-
-export class RecursiveTreeState implements IRecursiveTreeState {
-  constructor() { }
-}
-
-export default class RecursiveTree extends React.Component<IRecursiveTreeProps, IRecursiveTreeState> {
+export default class RecursiveTree extends React.PureComponent<IRecursiveTreeProps> {
   private LOG_SOURCE: string = "RecursiveTree";
 
   constructor(props) {
     super(props);
-    this.state = new RecursiveTreeState();
-  }
-
-  public shouldComponentUpdate(nextProps: Readonly<IRecursiveTreeProps>, nextState: Readonly<IRecursiveTreeState>): boolean {
-    if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
-      return false;
-    return true;
   }
 
   public render(): React.ReactElement<IRecursiveTreeProps> {

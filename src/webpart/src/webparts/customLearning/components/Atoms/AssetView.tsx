@@ -74,7 +74,7 @@ export default class AssetView extends React.Component<IAssetViewProps, IAssetVi
     try {
       this._messageReceived = false;
       AppInsightsService.trackViewAsset(this.props.playlistId, this.props.playlistName, this.props.asset);
-      WebhookService.trackEvent("AssetViewed", {playlistId: this.props.playlistId, playlistName: this.props.playlistName, asset: this.props.asset});
+      WebhookService.trackEvent("AssetViewed", { playlistId: this.props.playlistId, playlistName: this.props.playlistName, asset: this.props.asset });
       this._IFrame.current.contentWindow.location.replace(this.decorateAssetUrl());
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (componentDidUpdate) - ${err}`, LogLevel.Error);
@@ -213,7 +213,7 @@ export default class AssetView extends React.Component<IAssetViewProps, IAssetVi
             allowFullScreen
             className={styles.innerframe}
             onLoad={() => { this.resizeIFrame(); }}
-            loading="lazy"/>
+            loading="lazy" />
         </div>
       );
     } catch (err) {

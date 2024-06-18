@@ -10,7 +10,6 @@ import findIndex from "lodash-es/findIndex";
 import forEach from "lodash-es/forEach";
 import isEqual from "lodash-es/isEqual";
 
-
 import * as strings from "M365LPStrings";
 import { IAsset, ILocale, IMultilingualString, ITechnology, MultilingualString } from "../../../common/models/Models";
 import { params } from "../../../common/services/Parameters";

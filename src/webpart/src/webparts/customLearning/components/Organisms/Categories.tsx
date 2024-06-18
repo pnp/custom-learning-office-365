@@ -9,19 +9,11 @@ export interface ICategoriesProps {
   selectItem: (template: string, templateId: string) => void;
 }
 
-export interface ICategoriesState {
-}
-
-export class CategoriesState implements ICategoriesState {
-  constructor() { }
-}
-
-export default class Categories extends React.PureComponent<ICategoriesProps, ICategoriesState> {
+export default class Categories extends React.PureComponent<ICategoriesProps> {
   private LOG_SOURCE: string = "Categories";
 
   constructor(props) {
     super(props);
-    this.state = new CategoriesState();
   }
 
   public render(): React.ReactElement<ICategoriesProps> {

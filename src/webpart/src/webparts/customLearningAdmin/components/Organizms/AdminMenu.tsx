@@ -8,7 +8,6 @@ import HOOLabel from "@n8d/htwoo-react/HOOLabel";
 import HOOLoading from "@n8d/htwoo-react/HOOLoading";
 import HOOPivotBar, { IHOOPivotItem } from "@n8d/htwoo-react/HOOPivotBar";
 
-
 import * as strings from "M365LPStrings";
 import { CDN, ICDN } from "../../../common/models/Models";
 import { params } from "../../../common/services/Parameters";
@@ -16,7 +15,6 @@ import About from "../Atoms/About";
 import CdnEdit from "../Atoms/CdnEdit";
 import ContentPack from "../Molecules/ContentPack";
 import HOOButtonMenu from "@n8d/htwoo-react/HOOButtonMenu";
-
 
 export interface IAdminMenuProps {
   loadingCdn: boolean;

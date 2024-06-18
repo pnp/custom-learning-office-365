@@ -17,8 +17,6 @@ import { CustomWebpartSource } from "../../../common/models/Enums";
 import PlaylistDetails from "../Molecules/PlaylistDetails";
 import AssetInfo from "../Molecules/AssetInfo";
 
-
-
 export interface IPlaylistInfoProps {
   playlists: IPlaylist[];
   assets: IAsset[];
