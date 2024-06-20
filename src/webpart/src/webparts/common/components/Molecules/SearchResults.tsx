@@ -96,16 +96,19 @@ export default class SearchResults extends React.Component<ISearchResultsProps, 
             searchValue={this.props.searchValue}
             selectTab={this.changeFilter}
           />
-          {pageResults && pageResults.length > 0 && pageResults.map((result, idx) => {
-            return (
-              <menu key={idx} className="dbg-srch-wrapper">
+          <menu className="dbg-srch-wrapper">
+            {pageResults && pageResults.length > 0 && pageResults.map((result, idx) => {
+              return (
+
                 <SearchResultItem
                   resultView={this.props.resultView}
                   result={result}
-                  loadSearchResult={this.props.loadSearchResult} />
-              </menu>
-            );
-          })}
+                  loadSearchResult={this.props.loadSearchResult}
+                  key={idx} />
+
+              );
+            })}
+          </menu>
           <Paging
             pages={pages}
             currentPage={this.state.currentPage}
