@@ -52,7 +52,6 @@ export default class CategoryHeadingDetail extends React.PureComponent<ICategory
     }
   }
 
-  // TODO make sure this works
   private addLanguage = (fieldValue: string | number): void => {
     try {
       const heading = cloneDeep(this.props.heading);
