@@ -40,6 +40,12 @@
     margin-top: 1rem;
     padding-inline: 1rem;
     box-sizing: border-box;
+    &:has([class*='hoo']){
+        padding-inline: 0;
+    }
+    .hoo-label{
+        display: block;
+    }
 }
 
 .adm-curplasset-lang{
@@ -58,7 +64,8 @@
 
 .adm-plitem-form{
     .hoo-label{
-        margin-bottom: 0.25rem;
+        display: block;
+        // margin-bottom: 0.25rem;
     }
     .hoo-label + *{
         margin-bottom: .75rem;

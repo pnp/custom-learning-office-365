@@ -10,7 +10,6 @@ const gulpSass = require('gulp-sass');
 const sass = gulpSass(dartSass);
 
 const sassDefInclude = [...require.main.paths, '.'];
-console.debug(sassDefInclude);
 
 var isProd = false;
 
