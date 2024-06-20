@@ -21,6 +21,7 @@ export interface IAdminMenuProps {
   placeholderUrl: string;
   working: boolean;
   currentCDNId: string;
+  tabSelected: string;
   selectCDN: (cdnId: string) => Promise<boolean>;
   selectTab: (tab: string) => void;
   upsertCdn: (cdn: ICDN) => Promise<boolean>;
@@ -252,7 +253,7 @@ export default class AdminMenu extends React.PureComponent<IAdminMenuProps, IAdm
             </div>
             <div className="adm-nav-filter">
               <HOODropDown
-                value={"Category"}
+                value={this.props.tabSelected}
                 options={this._tabOptions}
                 containsTypeAhead={false}
                 onChange={(ev) => this.props.selectTab(ev as string)}

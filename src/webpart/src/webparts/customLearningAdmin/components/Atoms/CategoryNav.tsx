@@ -91,6 +91,7 @@ export default class CategoryNav extends React.Component<ICategoryNavProps, ICat
         <HOOVerticalNav
           navItems={this.getNavItems()}
           selectedKey={this.props.selectedId}
+          defaultExpandedLevel={2}
         />
       );
     } catch (err) {

@@ -288,6 +288,7 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
             upsertCdn={this.upsertCdn}
             removeCdn={this.props.removeCdn}
             working={this.state.working}
+            tabSelected={this.state.tabSelected}
           />
           <div className="adm-header-message">
             {showMultilingualMsg &&
