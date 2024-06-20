@@ -120,11 +120,11 @@ export default class PlaylistControl extends React.Component<IPlaylistControlPro
             </div>
             <span className="playerctrl-title">
               <HOODropDown
-                onChange={this.selectAsset}
                 value={this.props.currentAsset.Id}
                 options={this.state.assetOptions}
                 containsTypeAhead={false}
-              />
+                onChange={this.selectAsset} />
+              {console.log(this.state.assetOptions)}
               <HOOButton
                 type={HOOButtonType.Icon}
                 iconName="icon-full-screen-maximize-filled"

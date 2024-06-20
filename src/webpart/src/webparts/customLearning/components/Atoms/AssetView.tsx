@@ -23,7 +23,8 @@ export interface IAssetViewState {
 }
 
 export class AssetViewState implements IAssetViewState {
-  constructor() { }
+  constructor(
+  ) { }
 }
 
 declare module 'react' {
@@ -45,7 +46,6 @@ export default class AssetView extends React.Component<IAssetViewProps, IAssetVi
 
   constructor(props) {
     super(props);
-    this.state = new AssetViewState();
     this._IFrame = React.createRef();
     this._IFrameCont = React.createRef();
   }
