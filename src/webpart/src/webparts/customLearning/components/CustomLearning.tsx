@@ -550,10 +550,8 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
           {this.state.renderPanel &&
             <HOODialog
               changeVisibility={() => { this.setState({ renderPanel: !this.state.renderPanel }); }}
-              type={5}
+              type={8}
               visible={this.state.renderPanel}
-              width='25vw'
-              height='90vh'
             >
               <HOODialogHeader
                 closeIconName="hoo-icon-close"
@@ -562,9 +560,6 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
               <HOODialogContent>
                 <HOOLabel label={(this.state.detail) ? (this.state.detail as IPlaylist).Title as string : ""} />
                 {this._renderPanel(true)}
-
-
-
               </HOODialogContent>
             </HOODialog>
           }
