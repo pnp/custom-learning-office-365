@@ -503,7 +503,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
     return element;
   }
 
-  private _renderPanel = (inPanel: boolean): (JSX.Element | null) => {
+  private _renderPanel = (inPanel: boolean): (JSX.Element | null)[] => {
     const element: (JSX.Element | null)[] = [];
     try {
       if (!inPanel && (this._uxService.WebPartMode === WebPartModeOptions.contentonly) && (this.props.webpartTitle && this.props.webpartTitle.length > 0)) {
@@ -534,10 +534,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_renderPanel) - ${err}`, LogLevel.Error);
     }
-
-    const mainElement = <div className={`${styles.customLearning} ${(params.appPartPage) ? styles.appPartPage : ""}`}>{element}</div>;
-
-    return mainElement;
+    return element;
   }
 
   public render(): React.ReactElement<ICustomLearningProps> {
@@ -546,6 +543,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
     try {
       //TODO Check to see if this needs the styles added back in
       return (
+        <div className={`${styles.customLearning} ${(params.appPartPage) ? styles.appPartPage : ""}`}>
         <>
           {this.state.renderPanel &&
             <HOODialog
@@ -559,16 +557,15 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
                 title="Dialog Header" closeDisabled={false} />
               <HOODialogContent>
                 <HOOLabel label={(this.state.detail) ? (this.state.detail as IPlaylist).Title as string : ""} />
-                {this._renderPanel(true)}
+                  {this._renderPanel(true)}
               </HOODialogContent>
             </HOODialog>
           }
           {!this.state.renderPanel &&
             this._renderPanel(false)
           }
-
-
         </>
+        </div>
       );
 
     } catch (err) {

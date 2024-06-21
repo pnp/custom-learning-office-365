@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Logger, LogLevel } from '@pnp/logging';
 
 import cloneDeep from "lodash-es/cloneDeep";
+import isEqual from 'lodash-es/isEqual';
 
 import { IPlaylist, IAsset } from '../../../common/models/Models';
 import { WebPartModeOptions } from '../../../common/models/Enums';
@@ -31,7 +32,7 @@ export class LearningHeaderState implements ILearningHeaderState {
   ) { }
 }
 
-export default class LearningHeader extends React.PureComponent<ILearningHeaderProps, ILearningHeaderState> {
+export default class LearningHeader extends React.Component<ILearningHeaderProps, ILearningHeaderState> {
   static contextType = UXServiceContext;
 
   private LOG_SOURCE: string = "LearningHeader";
@@ -45,6 +46,12 @@ export default class LearningHeader extends React.PureComponent<ILearningHeaderP
 
   private _reInit = (): void => {
     this.render();
+  }
+
+  public shouldComponentUpdate(nextProps: Readonly<ILearningHeaderProps>, nextState: Readonly<ILearningHeaderState>): boolean {
+    if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
+      return false;
+    return true;
   }
 
   private buttonClick = (buttonType: string): void => {

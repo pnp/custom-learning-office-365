@@ -34,7 +34,6 @@ declare module 'react' {
   }
 }
 
-
 export default class AssetView extends React.Component<IAssetViewProps, IAssetViewState> {
   private LOG_SOURCE: string = "AssetView";
   private HEIGHT_DEFAULT: number = 12000;
