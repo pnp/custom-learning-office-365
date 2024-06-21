@@ -37,11 +37,37 @@
 }
 
 .adm-curplasset-details{
+    margin-top: 1rem;
     padding-inline: 1rem;
     box-sizing: border-box;
+    &:has([class*='hoo']){
+        padding-inline: 0;
+    }
+    .hoo-label{
+        display: block;
+    }
+}
+
+.adm-curplasset-lang{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    .hoo-pivotbar{
+        width: 100%;
+    }
 }
 
 .adm-curplasset-action{
     margin-block: 1rem;
+}
 
+.adm-plitem-form{
+    .hoo-label{
+        display: block;
+        // margin-bottom: 0.25rem;
+    }
+    .hoo-label + *{
+        margin-bottom: .75rem;
+    }
 }

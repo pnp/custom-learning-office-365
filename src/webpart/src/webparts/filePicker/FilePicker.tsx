@@ -17,7 +17,7 @@ export interface IFilePickerState {
 
 export class FilePickerState implements IFilePickerState {
   constructor(
-    public valid: boolean = true
+    public valid: boolean = true,
   ) { }
 }
 
@@ -50,13 +50,14 @@ export default class FilePicker extends React.PureComponent<IFilePickerProps, IF
   private _init = async (): Promise<void> => {
     authSvc.Init(params.context.aadTokenProviderFactory);
     try {
-      this.FILE_PICKER_URL = `${params.baseAdminUrl}/_layouts/15/FilePicker.aspx`;
+      this.FILE_PICKER_URL = `${params.learningSiteUrl}/_layouts/15/FilePicker.aspx`;
       this._FilePickerParams = {
         sdk: "8.0",
         entry: {
           sharePoint: {
             byPath: {
-              web: params.baseAdminUrl
+              web: params.learningSiteUrl,
+              list: `SiteAssets`
             },
           },
         },
@@ -70,15 +71,14 @@ export default class FilePicker extends React.PureComponent<IFilePickerProps, IF
           filters: [".jpg", ".png", ".gif"],
           pivots: {
             oneDrive: false,
-            recent: true,
-            sharedLibraries: true,
-            site: true
-          },
-          search: {
-            enabled: true
+            recent: false,
+            sharedLibraries: false,
+            site: true,
+            shared: true
           },
         },
       }
+
       this._QueryString = new URLSearchParams({
         filePicker: JSON.stringify(this._FilePickerParams),
       });
@@ -193,6 +193,8 @@ export default class FilePicker extends React.PureComponent<IFilePickerProps, IF
       }
     }
   }
+
+
 
   public render(): React.ReactElement<IFilePickerProps> {
     try {

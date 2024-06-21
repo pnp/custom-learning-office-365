@@ -80,7 +80,7 @@ export default class CategoryNav extends React.Component<ICategoryNavProps, ICat
     }
     return navItems;
   }
-  // TODO make sure this works
+
   private onNavClick = (key: string | number, category?: ICategory): void => {
     this.props.onClick(category);
   }
@@ -91,6 +91,7 @@ export default class CategoryNav extends React.Component<ICategoryNavProps, ICat
         <HOOVerticalNav
           navItems={this.getNavItems()}
           selectedKey={this.props.selectedId}
+          defaultExpandedLevel={2}
         />
       );
     } catch (err) {

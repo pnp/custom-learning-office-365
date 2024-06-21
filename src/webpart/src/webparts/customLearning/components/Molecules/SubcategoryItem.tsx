@@ -2,10 +2,10 @@ import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
 import isEqual from "lodash-es/isEqual";
-import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
 
 import { IMetadataEntry } from "../../../common/models/Models";
 import * as strings from "M365LPStrings";
+import HOOIcon from "@n8d/htwoo-react/HOOIcon";
 
 export interface ISubCategoryItemProps {
   index: number;
@@ -126,10 +126,9 @@ export default class SubCategoryItem extends React.Component<ISubCategoryItemPro
           </div>
           {this.props.dragMode &&
             <div className="plov-handle">
-              {
-                //TODO check the onClick and icon 
-              }
-              <HOOButton type={HOOButtonType.Icon} iconName="icon-re-order-dots-vertical-regular" disabled={false} onClick={function noRefCheck() { }} />
+              <HOOIcon
+                iconName="icon-re-order-dots-vertical-regular"
+              />
             </div>
           }
         </article>

@@ -20,7 +20,6 @@ import { CustomWebpartSource } from "../../../common/models/Enums";
 import PlaylistInfo from "../Organizms/PlaylistInfo";
 import CategoryNav from "../Atoms/CategoryNav";
 
-
 export interface ICategoryProps {
   className: string;
   customization: ICustomizations;
@@ -296,7 +295,7 @@ export default class Category extends React.Component<ICategoryProps, ICategoryS
           <div className="adm-content-main">
             {this.state.editPlaylistId === "" && this.state.listings && this.state.listings.length > 0 && this.state.listings.map((listing: IListing, idx) => {
               return (
-                <div key={idx}>
+                <div key={idx} className="test">
                   <CategoryHeading
                     heading={listing.heading}
                     new={false}

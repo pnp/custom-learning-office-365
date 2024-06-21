@@ -1,4 +1,5 @@
 @use 'sass:math';
+@use '../../../../node_modules/@n8d/htwoo-core/lib/sass/00-base/_global.vars.scss' as dt;
 @use '../00-base/colors' as colors;
 @use '../00-base/mixin' as mixin;
 
@@ -16,7 +17,25 @@
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
+	transition: all 0.125s ease-in-out;
 
+	@media screen and (max-width: 1024px) {
+		grid-template-columns: repeat(5, minmax(150px, 1fr));
+	}
+	@media screen and (max-width: 840px) {
+		grid-template-columns: repeat(4, minmax(150px, 1fr));
+	}
+	@media screen and (max-width: 670px) {
+		grid-template-columns: repeat(3, minmax(150px, 1fr));
+	}
+
+	@media screen and (max-width: 500px) {
+		grid-template-columns: repeat(2, minmax(150px, 1fr));
+	}
+
+	@media screen and (max-width: 360px) {
+		grid-template-columns: repeat(1, minmax(150px, 1fr));
+	}
 
 	&.editSort {
 		.category-item {
@@ -56,6 +75,9 @@
 			}
 		}
 	}
+	&>li{
+		grid-column: auto / span 1fr;
+	}
 }
 
 .category-item {
@@ -67,7 +89,9 @@
 	transition: all 125ms ease;
 
 	border: 1px colors.$c-light-gray solid;
-	background-color: white;
+	
+	background-color: dt.$neutral-000;
+	color: dt.$neutral-700;
 
 	border-radius: 0.5em;
 	overflow: hidden;
@@ -106,7 +130,8 @@
 }
 
 .category-label {
-	@include mixin.themeSlot(bodytext);
+	
+	color: dt.$neutral-700;
 
 	line-height: 1.25;
 	font-size: 1em;

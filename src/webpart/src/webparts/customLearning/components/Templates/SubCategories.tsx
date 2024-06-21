@@ -17,17 +17,9 @@ export interface ISubCategoriesProps {
   setFilter: (filterValue: IFilterValue) => void;
 }
 
-export interface ISubCategoriesState {
-}
-
-export class SubCategoriesState implements ISubCategoriesState {
-  constructor() { }
-}
-
-export default class SubCategories extends React.PureComponent<ISubCategoriesProps, ISubCategoriesState> {
+export default class SubCategories extends React.PureComponent<ISubCategoriesProps> {
   constructor(props) {
     super(props);
-    this.state = new SubCategoriesState();
   }
 
   public render(): React.ReactElement<ISubCategoriesProps> {

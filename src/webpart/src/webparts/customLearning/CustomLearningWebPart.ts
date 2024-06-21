@@ -80,7 +80,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
   private _ppAssets: IPropertyPaneDropdownOption[];
 
   //Get the values from the query string if necessary
-  private _queryParms: URLSearchParams = new URLSearchParams(window.location.href);
+  private _queryParms: URLSearchParams = new URLSearchParams(window.location.search);
   private _urlWebpartMode = this._queryParms.get("webpartmode");
   private _urlCDN = this._queryParms.get("cdn");
   private _urlCategory = this._queryParms.get("category");
@@ -523,16 +523,13 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
                 type: PropertyPaneDropdownOptionType.Header
               });
               plItems[catId] = [];
-            } else {
-              catId = "";
-              Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_getPlaylistPropertyPaneOptions) -- Could not find category id: ${catId}.`, LogLevel.Error);
+              if (catId.length > 0) {
+                plItems[catId].push({
+                  key: cachedPlaylists[i].Id,
+                  text: cachedPlaylists[i].Title as string,
+                });
+              }
             }
-          }
-          if (catId.length > 0) {
-            plItems[catId].push({
-              key: cachedPlaylists[i].Id,
-              text: cachedPlaylists[i].Title as string,
-            });
           }
         }
         categories = sortBy(categories, (o) => { return o.text.toLowerCase(); });

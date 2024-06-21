@@ -1,21 +1,21 @@
-import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
+import * as React from "react";
 
-import isEqual from "lodash-es/isEqual";
-import cloneDeep from "lodash-es/cloneDeep";
-import findIndex from "lodash-es/findIndex";
-import find from "lodash-es/find";
-import forEach from "lodash-es/forEach";
-import HOOPivotBar, { IHOOPivotItem } from "@n8d/htwoo-react/HOOPivotBar";
-import HOODropDown, { IHOODropDownItem } from "@n8d/htwoo-react/HOODropDown";
 import HOOButton from "@n8d/htwoo-react/HOOButton";
+import HOODropDown, { IHOODropDownItem } from "@n8d/htwoo-react/HOODropDown";
+import HOOPivotBar, { IHOOPivotItem } from "@n8d/htwoo-react/HOOPivotBar";
+import cloneDeep from "lodash-es/cloneDeep";
+import find from "lodash-es/find";
+import findIndex from "lodash-es/findIndex";
+import forEach from "lodash-es/forEach";
+import isEqual from "lodash-es/isEqual";
 
 import * as strings from "M365LPStrings";
+import { CustomWebpartSource } from "../../../common/models/Enums";
+import { ICategory, ILocale, IMetadataEntry, IMultilingualString, IPlaylist, ITechnology, MultilingualString } from "../../../common/models/Models";
 import { params } from "../../../common/services/Parameters";
-import { IPlaylist, IMultilingualString, ICategory, ITechnology, IMetadataEntry, MultilingualString, ILocale } from "../../../common/models/Models";
 import ImageSelector from "../Atoms/ImageSelector";
 import PlaylistDetail from "../Atoms/PlaylistDetail";
-import { CustomWebpartSource } from "../../../common/models/Enums";
 
 
 export interface IPlaylistDetailsProps {
@@ -153,14 +153,16 @@ export default class PlaylistDetails extends React.Component<IPlaylistDetailsPro
       }
       return (
         <div data-component={this.LOG_SOURCE}>
+          
           {params.multilingualEnabled &&
-            <div className="adm-header-nav-subcont">
+            <div className="adm-curplasset-lang">
               {/* TODO see if we need to account for this getTabId={(itemKey) => { return `PlaylistDetail_${itemKey}`; }} */}
               <HOOPivotBar
-                onClick={(ev) => { this.setState({ currentLanguage: ev.currentTarget.value }); }}
+                onClick={(ev, option) => { this.setState({ currentLanguage: option.toString() }); }}
                 pivotItems={this.getPivotItems()}
                 rootElementAttributes={{ className: "adm-header-nav" }}
                 selectedKey={this.state.currentLanguage}
+                hasOverflow={true}
               />
               {this.props.editMode && addLanguageOptions.length > 0 &&
                 <div className="adm-pivotCombo">
@@ -169,21 +171,21 @@ export default class PlaylistDetails extends React.Component<IPlaylistDetailsPro
                     options={addLanguageOptions}
                     placeholder="⚑ Add language"
                     containsTypeAhead={false}
-                    onChange={this.addLanguage}/>
+                    onChange={this.addLanguage} />
                 </div>
               }
             </div>
           }
 
-          <div className="adm-itemedit">
-            <div className="adm-itemleft" aria-labelledby={`PlaylistDetail_${this.state.currentLanguage}`}>
+          <div className="adm-plitem-details">
+            <div className="adm-plitem-preview">
               <ImageSelector
                 imageSource={(this.props.playlist.Image instanceof Array) ? (this.props.playlist.Image as IMultilingualString[])[currentLangIndex].Text : this.props.playlist.Image as string}
                 disabled={!this.props.editMode}
                 setImageSource={(imageSource) => { this.setImageSource(imageSource, currentLangIndex); }}
               />
             </div>
-            <div className="adm-itemright" aria-labelledby={`PlaylistDetail_${this.state.currentLanguage}`}>
+            <div className="adm-plitem-infodetails" aria-labelledby={`PlaylistDetail_${this.state.currentLanguage}`}>
               <PlaylistDetail
                 categories={this.props.categories}
                 technologies={this.props.technologies}
@@ -197,7 +199,7 @@ export default class PlaylistDetails extends React.Component<IPlaylistDetailsPro
             </div>
           </div>
           {(this.props.playlist.Source === CustomWebpartSource.Tenant) &&
-            <div className="adm-itemaction">
+            <div className="adm-plitem-tools edit-details">
               {this.props.editMode && this._currentLanguageOptions.length > 1 && this.state.currentLanguage !== this._currentLanguageOptions[0].code &&
                 <HOOButton
                   label={strings.RemoveLanguageLabel}

@@ -1,4 +1,5 @@
 @use 'sass:meta';
+@use 'rwd-opt' as mixins;
 $baseFolder: '../../../../node_modules/';
 
 .loadingShimmer {
@@ -252,5 +253,4 @@ $baseFolder: '../../../../node_modules/';
 	// }
 }
 
-// RWD SharePoint optimization
-@import "rwd-opt";
+@include mixins.setupGrid(".customLearning", ".category-overview");

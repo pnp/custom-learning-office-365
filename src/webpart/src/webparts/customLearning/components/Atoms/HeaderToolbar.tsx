@@ -14,14 +14,7 @@ export interface IHeaderToolbarProps {
   panelOpen: string;
 }
 
-export interface IHeaderToolbarState {
-}
-
-export class HeaderToolbarState implements IHeaderToolbarState {
-  constructor() { }
-}
-
-export default class HeaderToolbar extends React.PureComponent<IHeaderToolbarProps, IHeaderToolbarState> {
+export default class HeaderToolbar extends React.PureComponent<IHeaderToolbarProps> {
   static contextType = UXServiceContext;
 
   private LOG_SOURCE: string = "HeaderToolbar";
@@ -32,7 +25,6 @@ export default class HeaderToolbar extends React.PureComponent<IHeaderToolbarPro
   constructor(props) {
     super(props);
     this._HeaderToolbar = React.createRef();
-    this.state = new HeaderToolbarState();
   }
 
   private _reInit = (): void => {

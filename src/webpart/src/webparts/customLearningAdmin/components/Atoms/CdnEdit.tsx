@@ -11,8 +11,6 @@ import HOOButton from "@n8d/htwoo-react/HOOButton";
 import * as strings from "M365LPStrings";
 import styles from "../../../common/CustomLearningCommon.module.scss";
 
-
-
 export interface ICdnEditProps {
   cdn: ICDN;
   closeForm: () => void;

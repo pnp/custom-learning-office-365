@@ -1,7 +1,6 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
-import isEqual from "lodash-es/isEqual";
 import { ICategory, IPlaylist, ISearchResult } from "../../models/Models";
 import { Templates, SearchResultView } from "../../models/Enums";
 import * as strings from "M365LPStrings";
@@ -12,25 +11,11 @@ export interface ISearchResultItemProps {
   loadSearchResult: (subcategoryId: string, playlistId: string, assetId: string) => void;
 }
 
-export interface ISearchResultItemState {
-}
-
-export class SearchResultItemState implements ISearchResultItemState {
-  constructor() { }
-}
-
-export default class SearchResultItem extends React.Component<ISearchResultItemProps, ISearchResultItemState> {
+export default class SearchResultItem extends React.PureComponent<ISearchResultItemProps> {
   private LOG_SOURCE: string = "SearchResultItem";
 
   constructor(props) {
     super(props);
-    this.state = new SearchResultItemState();
-  }
-
-  public shouldComponentUpdate(nextProps: Readonly<ISearchResultItemProps>, nextState: Readonly<ISearchResultItemState>): boolean {
-    if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
-      return false;
-    return true;
   }
 
   public render(): React.ReactElement<ISearchResultItemProps> {

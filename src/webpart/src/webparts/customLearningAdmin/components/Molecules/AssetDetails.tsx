@@ -1,20 +1,19 @@
-import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
+import * as React from "react";
 
-import isEqual from "lodash-es/isEqual";
-import find from "lodash-es/find";
+import HOOButton from "@n8d/htwoo-react/HOOButton";
+import HOODropDown, { IHOODropDownItem } from "@n8d/htwoo-react/HOODropDown";
+import HOOPivotBar, { IHOOPivotItem } from "@n8d/htwoo-react/HOOPivotBar";
 import cloneDeep from "lodash-es/cloneDeep";
+import find from "lodash-es/find";
 import findIndex from "lodash-es/findIndex";
 import forEach from "lodash-es/forEach";
-import HOOPivotBar, { IHOOPivotItem } from "@n8d/htwoo-react/HOOPivotBar";
-import HOODropDown, { IHOODropDownItem } from "@n8d/htwoo-react/HOODropDown";
-import HOOButton from "@n8d/htwoo-react/HOOButton";
-
+import isEqual from "lodash-es/isEqual";
 
 import * as strings from "M365LPStrings";
+import { IAsset, ILocale, IMultilingualString, ITechnology, MultilingualString } from "../../../common/models/Models";
 import { params } from "../../../common/services/Parameters";
 import AssetDetail from "../Atoms/AssetDetail";
-import { IAsset, ITechnology, IMultilingualString, ILocale, MultilingualString } from "../../../common/models/Models";
 
 
 export interface IAssetDetailsProps {
@@ -180,27 +179,28 @@ export default class AssetDetails extends React.Component<IAssetDetailsProps, IA
 
 
       return (
-        <div data-component={this.LOG_SOURCE} className="assetdetails">
+        <div data-component={this.LOG_SOURCE}>
           {params.multilingualEnabled &&
-            <div className="adm-header-nav-subcont">
-              {/* TODO make sure we don't need to do anything with this getTabId={(itemKey) => { return `AssetDetail_${itemKey}`; }} */}
+            <>
               <HOOPivotBar
-                onClick={(ev) => { this.setState({ currentLanguage: ev.currentTarget.value }); }}
+                onClick={(ev, option) => this.setState({ currentLanguage: option.toString() })}
                 pivotItems={this.getPivotItems()}
-                selectedKey={this.state.currentLanguage}
                 rootElementAttributes={{ className: "adm-header-nav" }}
+                selectedKey={this.state.currentLanguage}
+                hasOverflow={true}
               />
-              {this.props.edit && addLanguageOptions.length > 0 &&
-                <div className="adm-pivotCombo">
-                  <HOODropDown
-                    value={""}
-                    options={addLanguageOptions}
-                    placeholder="⚑ Add language"
-                    containsTypeAhead={false}
-                    onChange={this.addLanguage}/>
-                </div>
+
+              {this.props.edit && this._currentLanguageOptions.length > 0 &&
+
+                <HOODropDown
+                  value={""}
+                  options={addLanguageOptions}
+                  placeholder="⚑ Add language"
+                  containsTypeAhead={false}
+                  onChange={this.addLanguage} />
+
               }
-            </div>
+            </>
           }
           <AssetDetail
             technologies={this.props.technologies}
@@ -209,7 +209,7 @@ export default class AssetDetails extends React.Component<IAssetDetailsProps, IA
             updateDetail={this.updateAsset}
             edit={this.props.edit}
           />
-          <div className="adm-itemaction">
+          <div className="adm-curplasset-action">
             {this.props.edit && this._currentLanguageOptions.length > 1 && this.state.currentLanguage !== this._currentLanguageOptions[0].code &&
               <HOOButton
                 label={strings.RemoveLanguageLabel}

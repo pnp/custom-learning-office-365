@@ -5,9 +5,7 @@ import isEqual from "lodash-es/isEqual";
 import { IHOONavItem } from "@n8d/htwoo-react";
 import HOOVerticalNav from "@n8d/htwoo-react/HOOVerticalNav";
 
-
 import { ITechnology } from "../../../common/models/Models";
-
 
 export interface ITechnologyNavProps {
   technologies: ITechnology[];
@@ -63,7 +61,6 @@ export default class TechnologyNav extends React.Component<ITechnologyNavProps, 
     return navItems;
   }
 
-  // TODO make sure this works
   private onNavClick = (key: string | number, technology?: ITechnology): void => {
     this.props.onClick(technology);
   }

@@ -1,24 +1,24 @@
-import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
+import * as React from "react";
 
-import isEqual from "lodash-es/isEqual";
-import cloneDeep from "lodash-es/cloneDeep";
-import find from "lodash-es/find";
-import pull from "lodash-es/pull";
-import remove from "lodash-es/remove";
-import findIndex from "lodash-es/findIndex";
 import HOODialog from "@n8d/htwoo-react/HOODialog";
 import HOODialogContent from "@n8d/htwoo-react/HOODialogContent";
+import cloneDeep from "lodash-es/cloneDeep";
+import find from "lodash-es/find";
+import findIndex from "lodash-es/findIndex";
+import isEqual from "lodash-es/isEqual";
+import pull from "lodash-es/pull";
+import remove from "lodash-es/remove";
 
-import { params } from "../../common/services/Parameters";
 import * as strings from "M365LPStrings";
+import ShimmerViewer from "../../common/components/Atoms/ShimmerViewer";
 import styles from "../../common/CustomLearningCommon.module.scss";
-import { ICacheConfig, IPlaylist, IAsset, ITechnology, ICategory, ICustomizations, ICDN, IMetadataEntry } from "../../common/models/Models";
 import { AdminNavigationType, ShimmerView } from "../../common/models/Enums";
+import { IAsset, ICacheConfig, ICategory, ICDN, ICustomizations, IMetadataEntry, IPlaylist, ITechnology } from "../../common/models/Models";
+import { params } from "../../common/services/Parameters";
+import AdminMenu from "./Organizms/AdminMenu";
 import Category from "./Templates/Category";
 import Technology from "./Templates/Technology";
-import AdminMenu from "./Organizms/AdminMenu";
-import ShimmerViewer from "../../common/components/Atoms/ShimmerViewer";
 
 
 export interface ICustomLearningAdminProps {
@@ -278,7 +278,7 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
       const showUpgradeMsg: boolean = (this.props.cacheConfig && (this.props.currentWebpart < this._currentVersion));
       const className: string = (showMultilingualMsg || showUpgradeMsg) ? "" : "nomsg";
       return (
-        <div data-component={this.LOG_SOURCE} className={`${styles.customLearning} ${(params.appPartPage) ? styles.appPartPage : ""}`}>
+        <section data-component={this.LOG_SOURCE} className={`adm-wrapper ${styles.customLearning} ${(params.appPartPage) ? styles.appPartPage : ""}`}>
           <AdminMenu
             loadingCdn={this.state.loadingCdn}
             placeholderUrl={`${params.baseCdnPath}${params.defaultLanguage}/images/categories/customfeatured.png`}
@@ -288,6 +288,7 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
             upsertCdn={this.upsertCdn}
             removeCdn={this.props.removeCdn}
             working={this.state.working}
+            tabSelected={this.state.tabSelected}
           />
           <div className="adm-header-message">
             {showMultilingualMsg &&
@@ -336,7 +337,7 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
             this.state.loadingCdn &&
             <ShimmerViewer shimmerView={ShimmerView.AdminCdn} />
           }
-        </div >
+        </section >
       );
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);

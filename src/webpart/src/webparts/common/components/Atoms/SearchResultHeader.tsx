@@ -1,8 +1,6 @@
-import * as React from "react";
-import { Logger, LogLevel } from "@pnp/logging";
 import HOOPivotBar, { IHOOPivotItem } from "@n8d/htwoo-react/HOOPivotBar";
-
-import isEqual from "lodash-es/isEqual";
+import { Logger, LogLevel } from "@pnp/logging";
+import * as React from "react";
 
 export interface ISearchResultHeaderProps {
   headerItems: IHOOPivotItem[];
@@ -11,25 +9,11 @@ export interface ISearchResultHeaderProps {
   selectTab: (ev: React.MouseEvent, key: string | number) => void;
 }
 
-export interface ISearchResultHeaderState {
-}
-
-export class SearchResultHeaderState implements ISearchResultHeaderState {
-  constructor() { }
-}
-
-export default class SearchResultHeader extends React.Component<ISearchResultHeaderProps, ISearchResultHeaderState> {
+export default class SearchResultHeader extends React.PureComponent<ISearchResultHeaderProps> {
   private LOG_SOURCE: string = "SearchResultHeader";
 
   constructor(props) {
     super(props);
-    this.state = new SearchResultHeaderState();
-  }
-
-  public shouldComponentUpdate(nextProps: Readonly<ISearchResultHeaderProps>, nextState: Readonly<ISearchResultHeaderState>): boolean {
-    if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
-      return false;
-    return true;
   }
 
   public render(): React.ReactElement<ISearchResultHeaderProps> {
@@ -39,6 +23,7 @@ export default class SearchResultHeader extends React.Component<ISearchResultHea
           onClick={this.props.selectTab}
           pivotItems={this.props.headerItems}
           selectedKey={this.props.filterValue}
+          hasOverflow={true}
         />
       );
     } catch (err) {

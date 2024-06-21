@@ -99,15 +99,18 @@ export default class CategoryHeading extends React.PureComponent<ICategoryHeadin
           <HOOButton type={HOOButtonType.Icon}
             iconName="icon-save-regular"
             iconTitle={strings.SaveButton}
-            onClick={this.onUpdate}/>
+            onClick={this.onUpdate} />
+        );
+        if (this.props.canDelete) {
+          retVal.push(
+            <HOOButton type={HOOButtonType.Icon}
+              iconName="icon-delete-regular"
+              iconTitle={strings.DeleteButton}
+              onClick={this.onDelete}
+              disabled={!this.props.canDelete} />
           );
-        retVal.push(
-          <HOOButton type={HOOButtonType.Icon}
-            iconName="icon-delete-regular"
-            iconTitle={strings.DeleteButton}
-            onClick={this.onDelete}
-            disabled={!this.props.canDelete} />
-          );
+        }
+
         retVal.push(
           <HOOButton type={HOOButtonType.Icon}
             iconName="icon-dismiss-regular"
@@ -115,27 +118,30 @@ export default class CategoryHeading extends React.PureComponent<ICategoryHeadin
             onClick={() => { this.setState({ edit: false }); }} />
         );
       } else {
-        retVal.push(
-          <HOOButton type={HOOButtonType.Icon}
-            iconName={(this.props.new) ? "" : "icon-pen-regular"}
-            iconTitle={`${(this.props.new) ? strings.Add : strings.Edit} ${strings.SubcategoryHeadingLabel}`}
-            onClick={() => { this.setState({ edit: true, editHeading: cloneDeep(this.props.heading) }); }}
-            disabled={!this.props.canEdit} />
-          );
-        if (!this.props.new) {
+        if (this.props.canEdit || this.props.new) {
           retVal.push(
             <HOOButton type={HOOButtonType.Icon}
-            iconName={(this.props.visible) ? "icon-eye-filled" : "icon-eye-off-filled"} 
-            iconTitle={`${(this.props.visible) ? strings.Hide : strings.Show} ${strings.CategoryHeadingLabel}`}
-            onClick={() => { this.props.onVisibility(this.props.heading.Id, this.props.visible); }} />
-            );
+              iconName={(this.props.new) ? "icon-add-regular" : "icon-pen-regular"}
+              iconTitle={`${(this.props.new) ? strings.Add : strings.Edit} ${strings.SubcategoryHeadingLabel}`}
+              onClick={() => { this.setState({ edit: true, editHeading: cloneDeep(this.props.heading) }); }}
+              disabled={!this.props.canEdit} />
+          );
+        }
+
+        if (!this.props.new) {
+          retVal.push(
+            <HOOButton type={HOOButtonType.Icon} adm-subcatheading
+              iconName={(this.props.visible) ? "icon-eye-filled" : "icon-eye-off-filled"}
+              iconTitle={`${(this.props.visible) ? strings.Hide : strings.Show} ${strings.CategoryHeadingLabel}`}
+              onClick={() => { this.props.onVisibility(this.props.heading.Id, this.props.visible); }} />
+          );
         }
         if (this.props.addPlaylist) {
           retVal.push(
             <HOOButton type={HOOButtonType.Icon}
-            iconName="icon-add-regular"
-            iconTitle={strings.CategoryHeadingAddPlaylistToSubcategory}
-            onClick={this.props.addPlaylist} />
+              iconName="icon-add-regular"
+              iconTitle={strings.CategoryHeadingAddPlaylistToSubcategory}
+              onClick={this.props.addPlaylist} />
           );
         }
       }

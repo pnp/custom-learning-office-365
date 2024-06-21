@@ -10,9 +10,9 @@ import sortBy from "lodash-es/sortBy";
 import find from "lodash-es/find";
 import cloneDeep from "lodash-es/cloneDeep";
 import forEach from "lodash-es/forEach";
-import HOOButtonCommand from "@n8d/htwoo-react/HOOButtonCommand";
 import HOOSearch from "@n8d/htwoo-react/HOOSearch";
 import HOOPivotBar, { IHOOPivotItem } from "@n8d/htwoo-react/HOOPivotBar";
+import HOOCommandBar from "@n8d/htwoo-react/HOOCommandBar";
 
 import * as strings from "M365LPStrings";
 import AssetDetailsCommands from "../Atoms/AssetDetailsCommands";
@@ -20,7 +20,6 @@ import AssetDetails from "./AssetDetails";
 import AssetSearchPanel from "./AssetSearchPanel";
 import { IAsset, ITechnology, IPlaylist, IMultilingualString, Asset } from "../../../common/models/Models";
 import { CustomWebpartSource, SearchFields } from "../../../common/models/Enums";
-
 
 export interface IAssetInfoProps {
   editDisabled: boolean;
@@ -239,6 +238,9 @@ export default class AssetInfo extends React.Component<IAssetInfoProps, IAssetIn
     }
   }
 
+
+
+
   private closeSearch = (): void => {
     this.setState({
       searchValue: "",
@@ -269,45 +271,49 @@ export default class AssetInfo extends React.Component<IAssetInfoProps, IAssetIn
       return (
         <div data-component={this.LOG_SOURCE}>
           {!this.props.editDisabled &&
-            <div className="cmdbar-beta">
-              {/* TODO do disabled: {(this.props.playlist.Id === "0")} */}
-              <HOOButtonCommand
-                flyoutMenuItems={[]}
-                label={strings.PlaylistEditAssetNewLabel}
-                onClick={(ev) => this.setState({ editAsset: new Asset(), edit: true })}
-                leftIconName="icon-add-regular"
-              />
-              {/* TODO enable onchange event*/}
+            <div className="adm-cmdbar">
+              {this.props.playlist.Id !== "0" &&
+                <HOOCommandBar
+                  commandItems={[{
+                    key: 'newItem', iconName: 'icon-add-regular', text: strings.PlaylistEditAssetNewLabel,
+                    flyoutMenuItems: []
+                  }]}
+                  onClick={(ev) => this.setState({ editAsset: new Asset(), edit: true })}
+                />
+              }
               <HOOSearch
                 onSearch={this.doSearch}
                 placeholder={strings.AssetSearchPlaceHolderLabel}
-                value=""
+                value={this.state.searchValue}
                 disabled={false}
-                onChange={(ev) => { }}
-              />
+                onChange={(event) => this.setState({ searchValue: event.currentTarget.value })} />
             </div>
           }
           <HOOPivotBar
-            onClick={(ev) => { this.setState({ currentPivot: ev.currentTarget.value }); }}
+            onClick={(ev, option) => { this.setState({ currentPivot: option.toString() }); }}
             pivotItems={this.getPivotItems()}
             selectedKey={this.state.currentPivot}
-          >
-            <section>
-              {(this.state.editAsset && this.state.editAsset.Id === "0" && this.state.currentPivot === "CurrentPlaylist") &&
+          />
+          {(this.state.editAsset && this.state.editAsset.Id === "0" && this.state.currentPivot === "CurrentPlaylist") &&
+            <div className="adm-curplasset">
+              <div className="adm-curplasset-content">
                 <AssetDetails
                   technologies={this.props.technologies}
                   asset={this.state.editAsset}
                   cancel={() => { this.setState({ editAsset: null, edit: false }); }}
                   save={this.upsertAsset}
-                  edit={true}
-                />
-              }
-              {this.props.playlist.Assets && this.props.playlist.Assets.length > 0 && this.props.playlist.Assets.map((a, index) => {
-                let asset = cloneDeep(find(this.props.assets, { Id: a }));
-                if (asset.Source !== CustomWebpartSource.Tenant)
-                  asset = this.props.translateAsset(asset);
-                return (
-                  <div className="learningwrapper" key={index}>
+                  edit={true} />
+              </div>
+            </div>
+          }
+          {(this.props.playlist.Assets && this.props.playlist.Assets.length > 0 && this.state.currentPivot === "CurrentPlaylist") &&
+            this.props.playlist.Assets.map((a, index) => {
+              let asset = cloneDeep(find(this.props.assets, { Id: a }));
+              if (asset.Source !== CustomWebpartSource.Tenant)
+                asset = this.props.translateAsset(asset);
+              return (
+                <details className="adm-curplasset" key={index}>
+                  <summary className="adm-curplasset-summary">
                     <AssetDetailsCommands
                       assetIndex={index}
                       assetTotal={this.props.playlist.Assets.length - 1}
@@ -320,29 +326,28 @@ export default class AssetInfo extends React.Component<IAssetInfoProps, IAssetIn
                       remove={() => { this.removeAsset(index); }}
                       select={() => { this.setState({ editAsset: (this.state.editAsset === null) ? asset : null, edit: false }); }}
                     />
-                    {this.state.editAsset && (this.state.editAsset.Id === asset.Id) &&
+                  </summary>
+                  {this.state.editAsset && (this.state.editAsset.Id === asset.Id) &&
+                    <div className="adm-curplasset-content">
                       <AssetDetails
                         technologies={this.props.technologies}
                         asset={asset}
                         cancel={() => { this.setState({ editAsset: null, edit: false }); }}
                         save={this.upsertAsset}
-                        edit={this.state.edit}
-                      />
-                    }
-                  </div>
-                );
-              })}
-            </section>
-            {!this.props.editDisabled && (this.state.searchValue && this.state.searchValue.length > 0 && this.state.currentPivot === 'SearchResults') &&
-              <section>
-                <AssetSearchPanel
-                  allTechnologies={this.props.technologies}
-                  searchResults={this.state.searchResults}
-                  loadSearchResult={this.selectSearchAsset}
-                />
-              </section>
-            }
-          </HOOPivotBar>
+                        edit={this.state.edit} />
+                    </div>
+                  }
+                </details>
+              );
+            })}
+
+          {!this.props.editDisabled && (this.state.searchValue && this.state.searchValue.length > 0 && this.state.currentPivot === 'SearchResults') &&
+            <AssetSearchPanel
+              allTechnologies={this.props.technologies}
+              searchResults={this.state.searchResults}
+              loadSearchResult={this.selectSearchAsset}
+            />
+          }
 
         </div>
       );

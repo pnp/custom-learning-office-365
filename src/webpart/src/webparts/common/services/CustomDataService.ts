@@ -278,7 +278,7 @@ export class CustomDataService implements ICustomDataService {
         item.CDN = cdn;
       const updatedPlaylistResponse = await this._sp.web.lists.getByTitle(CustomListNames.customPlaylistsName).items.getById(+editPlaylist.Id).update(item);
 
-      return updatedPlaylistResponse["odata.etag"].split('"')[1].toString();
+      return updatedPlaylistResponse.etag.split('"')[1].toString();
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (modifyPlaylist) - ${err}`, LogLevel.Error);
       return "0";
@@ -326,7 +326,7 @@ export class CustomDataService implements ICustomDataService {
       if (cdn)
         item.CDN = cdn;
       const updatedAssetResponse = await this._sp.web.lists.getByTitle(CustomListNames.customAssetsName).items.getById(+editAsset.Id).update(item);
-      return updatedAssetResponse.data["odata.etag"].split('"')[1].toString();
+      return updatedAssetResponse.etag.split('"')[1].toString();
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (modifyAsset) - ${err}`, LogLevel.Error);
       return "0";
@@ -361,7 +361,7 @@ export class CustomDataService implements ICustomDataService {
       const updatedConfigResponse = await this._sp.web.lists.getByTitle(CustomListNames.customConfigName).items
         .getById(editConfig.Id).update(item);
 
-      return updatedConfigResponse.data["odata.etag"].split('"')[1].toString();
+      return updatedConfigResponse.etag.split('"')[1].toString();
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (modifyConfig) - ${err}`, LogLevel.Error);
       return "0";
@@ -391,7 +391,7 @@ export class CustomDataService implements ICustomDataService {
         item.CDN = cdn;
       const updatedConfigResponse = await this._sp.web.lists.getByTitle(CustomListNames.customConfigName).items.getById(+editCustomization.Id).update(item);
 
-      return updatedConfigResponse.data["odata.etag"].split('"')[1].toString();
+      return updatedConfigResponse.etag.split('"')[1].toString();
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (modifyCustomization) - ${err}`, LogLevel.Error);
       return "0";
@@ -408,7 +408,7 @@ export class CustomDataService implements ICustomDataService {
         cdnResponse = await this._sp.web.lists.getByTitle(CustomListNames.customConfigName).items.getById(cdn.Id).update({ JSONData: JSON.stringify(cdn) });
       }
 
-      return (cdn.Id === 0) ? cdnResponse.Id.toString() : cdnResponse.data["odata.etag"].split('"')[1].toString();
+      return (cdn.Id === 0) ? cdnResponse.Id.toString() : cdnResponse.etag.split('"')[1].toString();
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (createSubCategories) - ${err}`, LogLevel.Error);
       return null;

@@ -8,6 +8,9 @@
   display: flex;
 
   margin-bottom: .5em;
+  &>*{
+    width: 100%;
+  }
 }
 
 .srchr-cb {

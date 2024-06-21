@@ -1,7 +1,6 @@
 import * as React from "react";
 import { Logger, LogLevel, ILogEntry, FunctionListener, ConsoleListener } from "@pnp/logging";
 
-import isEqual from "lodash-es/isEqual";
 import cloneDeep from "lodash-es/cloneDeep";
 import countBy from "lodash-es/countBy";
 
@@ -39,7 +38,7 @@ export class UpdateConfigurationState implements IUpdateConfigurationState {
   ) { }
 }
 
-export default class UpdateConfiguration extends React.Component<IUpdateConfigurationProps, IUpdateConfigurationState> {
+export default class UpdateConfiguration extends React.PureComponent<IUpdateConfigurationProps, IUpdateConfigurationState> {
   private LOG_SOURCE: string = "UpdateConfiguration";
   private endVersion: string = "";
   private _customDataService: ICustomDataService;
@@ -52,12 +51,6 @@ export default class UpdateConfiguration extends React.Component<IUpdateConfigur
     Logger.clearSubscribers();
     Logger.subscribe(this.logMessage);
     Logger.activeLogLevel = LogLevel.Warning;
-  }
-
-  public shouldComponentUpdate(nextProps: Readonly<IUpdateConfigurationProps>, nextState: Readonly<IUpdateConfigurationState>): boolean {
-    if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
-      return false;
-    return true;
   }
 
   public componentWillUnmount(): void {
@@ -103,7 +96,7 @@ export default class UpdateConfiguration extends React.Component<IUpdateConfigur
           <h1>{this.props.cdn}</h1>
           <h2>{`${strings.DataUpgradeTitle} ${this.props.startVersion.toLowerCase()} -> ${this.endVersion.toLowerCase()}`}</h2>
           {this.state.state === 1 &&
-            <HOOLabel label={strings.DataUpgradeIntro}/>
+            <HOOLabel label={strings.DataUpgradeIntro} />
           }
           {/* TODO Check this to make sure it works */}
           {this.state.state !== 1 &&
@@ -123,7 +116,7 @@ export default class UpdateConfiguration extends React.Component<IUpdateConfigur
 
           }
           {this.state.state === 3 &&
-            <HOOLabel label={strings.DataUpgradeComplete}/>
+            <HOOLabel label={strings.DataUpgradeComplete} />
           }
           {this.state.state !== 2 &&
             <HOOButton
@@ -133,7 +126,7 @@ export default class UpdateConfiguration extends React.Component<IUpdateConfigur
             />
           }
           {this.state.errors > 0 &&
-            <HOOLabel label={`${strings.DataUpgradeErrors}: ${this.state.errors}`}/>
+            <HOOLabel label={`${strings.DataUpgradeErrors}: ${this.state.errors}`} />
           }
           {this.state.state !== 1 &&
             <>

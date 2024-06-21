@@ -31,8 +31,7 @@
   }
 
   &-title {
-    line-height: 32px;
-
+    
     display: flex;
 
     @media screen and (max-width: 768px) {
@@ -44,6 +43,7 @@
       margin-bottom: .25em;
 
       @media screen and (max-width: 768px) {
+        min-width: unset;
         width: calc(100% - 45px);
       }
     }
@@ -65,8 +65,13 @@
     padding-bottom: 0.25em;
 
     .playerctrl-title {
-      flex-basis: 100%;
+      min-width: 320px;
+      width: 100%;
       order: 0;
+      .hoo-select{
+        width: 100%;
+        padding-top: 0.25rem;
+      }
     }
 
     .playerctrl-prev {

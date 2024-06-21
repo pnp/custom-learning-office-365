@@ -1,5 +1,10 @@
-<div class="playerctrl" style="display: none;">
+{{#playerctrl}}
+<div class="playerctrl">
+  <div class="playerctrl-prev">
+  {{#prev}}
   {{> atoms-button-primary-icon }}
+  {{/prev}}
+  </div>
   {{!-- <button class="iconbutton arrow-left">
     <span class="iconbutton-img">
       <!-- Burger -->
@@ -17,9 +22,18 @@
   </button> --}}
 
   <span class="playerctrl-title">
-    {{> atoms-select }}{{> atoms-button-icon }}
+    {{#select}}
+    {{> atoms-select }}
+    {{/select}}
+    {{#fullscreen}}
+    {{> atoms-button-icon }}
+    {{/fullscreen}}
   </span>
+  <div class="playerctrl-next">
+  {{#next}}
   {{> atoms-button-primary-icon-reversed}}
+  {{/next}}
+  </div>
   {{!-- <button class="iconbutton arrow-right">
     <span class="iconbutton-img">
       <!-- Burger -->
@@ -36,3 +50,4 @@
     </span>
   </button> --}}
 </div>
+{{/playerctrl}}

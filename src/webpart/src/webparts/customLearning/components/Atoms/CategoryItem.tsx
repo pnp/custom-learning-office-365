@@ -1,8 +1,6 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
-import isEqual from "lodash-es/isEqual";
-
 import { Templates } from '../../../common/models/Enums';
 import HOOIcon from "@n8d/htwoo-react/HOOIcon";
 
@@ -18,13 +16,6 @@ export interface ICategoryItemProps {
   onDragEnd: (event) => void;
 }
 
-export interface ICategoryItemState {
-}
-
-export class CategoryItemState implements ICategoryItemState {
-  constructor() { }
-}
-
 declare module 'react' {
   interface HTMLAttributes<T> extends React.DOMAttributes<T> {
     // extends React's HTMLAttributes for lazy loading
@@ -32,18 +23,11 @@ declare module 'react' {
   }
 }
 
-export default class CategoryItem extends React.Component<ICategoryItemProps, ICategoryItemState> {
+export default class CategoryItem extends React.PureComponent<ICategoryItemProps> {
   private LOG_SOURCE: string = "CategoryItem";
 
   constructor(props) {
     super(props);
-    this.state = new CategoryItemState();
-  }
-
-  public shouldComponentUpdate(nextProps: Readonly<ICategoryItemProps>, nextState: Readonly<ICategoryItemState>): boolean {
-    if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
-      return false;
-    return true;
   }
 
   public render(): React.ReactElement<ICategoryItemProps> {
@@ -74,7 +58,6 @@ export default class CategoryItem extends React.Component<ICategoryItemProps, IC
           </div>
           <div className="category-label">
             {this.props.dragMode &&
-              // TODO figure out where this icon is being used and make sure it's in the SVG file
               <div className="category-handle">
                 <HOOIcon
                   iconName="icon-re-order-dots-vertical-regular"

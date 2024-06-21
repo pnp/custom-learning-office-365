@@ -1,25 +1,27 @@
-import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
-import find from "lodash-es/find";
-import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
-import HOOPivotBar, { IHOOPivotItem } from "@n8d/htwoo-react/HOOPivotBar";
-import HOOCommandBar, { IHOOCommandItem } from "@n8d/htwoo-react/HOOCommandBar";
-import HOOLoading from "@n8d/htwoo-react/HOOLoading";
-import HOOLabel from "@n8d/htwoo-react/HOOLabel";
-import HOODropDown, { IHOODropDownItem } from "@n8d/htwoo-react/HOODropDown";
+import * as React from "react";
 
-import { params } from "../../../common/services/Parameters";
+import { find } from "@microsoft/sp-lodash-subset";
+import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
+import HOODropDown, { IHOODropDownItem } from "@n8d/htwoo-react/HOODropDown";
+import HOOLabel from "@n8d/htwoo-react/HOOLabel";
+import HOOLoading from "@n8d/htwoo-react/HOOLoading";
+import HOOPivotBar, { IHOOPivotItem } from "@n8d/htwoo-react/HOOPivotBar";
+
 import * as strings from "M365LPStrings";
-import ContentPack from "../Molecules/ContentPack";
-import { ICDN, CDN } from "../../../common/models/Models";
-import CdnEdit from "../Atoms/CdnEdit";
+import { CDN, ICDN } from "../../../common/models/Models";
+import { params } from "../../../common/services/Parameters";
 import About from "../Atoms/About";
+import CdnEdit from "../Atoms/CdnEdit";
+import ContentPack from "../Molecules/ContentPack";
+import HOOButtonMenu from "@n8d/htwoo-react/HOOButtonMenu";
 
 export interface IAdminMenuProps {
   loadingCdn: boolean;
   placeholderUrl: string;
   working: boolean;
   currentCDNId: string;
+  tabSelected: string;
   selectCDN: (cdnId: string) => Promise<boolean>;
   selectTab: (tab: string) => void;
   upsertCdn: (cdn: ICDN) => Promise<boolean>;
@@ -187,64 +189,58 @@ export default class AdminMenu extends React.PureComponent<IAdminMenuProps, IAdm
     return pivotItems;
   }
 
-  private handleToolClick = (toolId: string | number): IHOOPivotItem[] => {
-    const pivotItems: IHOOPivotItem[] = [];
+  private handleToolClick = (toolId: string | number): void => {
     try {
-      if (toolId === 'addContentPack') {
+      if (toolId === strings.AdminAddCdnLabel) {
         this.toggleAdd();
-      } else if (toolId === 'about') {
+      } else if (toolId === strings.AdminAbout) {
         this.toggleAbout();
       }
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getPivotItems) - ${err}`, LogLevel.Error);
     }
-    return pivotItems;
   }
 
   public render(): React.ReactElement<IAdminMenuProps> {
-    const _overflowItems: IHOOCommandItem[] = [
-      { key: 'addContentPack', text: strings.AdminAddCdnLabel, iconName: 'icon-cloud-add-regular', flyoutMenuItems: [] },
-      { key: 'about', text: strings.AdminAbout, iconName: 'icon-info-regular', flyoutMenuItems: [] }
-    ];
-
-    // const overflowProps: IButtonProps = { styles: { root: "transparentButton" } };
-
-    // const menuStyles: Partial<IContextualMenuStyles> = {
-    //   root: "transparentButton"
-    // };
-
     try {
       return (
         <>
-          <div data-component={this.LOG_SOURCE} className="adm-header-nav-cont">
-            {/* TODO confirm onclick works */}
-            <HOOPivotBar
-              pivotItems={this.getPivotItems()}
-              rootElementAttributes={{ className: "adm-header-nav" }}
-              selectedKey={this.props.currentCDNId === null ? null : this.props.currentCDNId}
-              onClick={(ev, option) => this.selectCDN(option.toString())}
-            />
-            <HOOButton type={HOOButtonType.Icon}
-              iconName="icon-delete-regular"
-              iconTitle={strings.AdminDeleteCdnLabel}
-              onClick={this.removeCdn}
-              disabled={this.props.currentCDNId === "Default"}
-              rootElementAttributes={{ className: (this.state.showEditCDN) ? "selected" : "" }} />
-            <HOOButton type={HOOButtonType.Icon}
-              iconName="icon-pen-regular"
-              iconTitle={strings.AdminEditCdnLabel}
-              onClick={this.toggleEdit}
-              disabled={this.props.currentCDNId === "Default"}
-              rootElementAttributes={{ className: (this.state.showEditCDN) ? "selected" : "" }} />
-            {/* TODO confirm onclick works */}
-            <HOOCommandBar
-              commandItems={_overflowItems}
-              onClick={(ev, option) => this.handleToolClick(option.toString())}/>
-
-            <HOOButton type={HOOButtonType.Icon}
-              iconName="icon-chat-help-regular"
-              iconTitle={strings.DocumentationLinkLabel}
-              onClick={this.openDocumentation} />
+          <nav data-component={this.LOG_SOURCE} className="adm-nav" role="navigation">
+            <div className="adm-nav-menu">
+              <HOOPivotBar
+                pivotItems={this.getPivotItems()}
+                rootElementAttributes={{ className: "adm-header-nav" }}
+                selectedKey={this.props.currentCDNId === null ? null : this.props.currentCDNId}
+                onClick={(ev, option) => this.selectCDN(option.toString())}
+                hasOverflow={true}
+              />
+            </div>
+            <div className="adm-nav-actions">
+              {this.props.currentCDNId !== "Default" &&
+                <HOOButton type={HOOButtonType.Icon}
+                  iconName="icon-delete-regular"
+                  iconTitle={strings.AdminDeleteCdnLabel}
+                  onClick={this.removeCdn}
+                  disabled={this.props.currentCDNId === "Default"}
+                  rootElementAttributes={{ className: (this.state.showEditCDN) ? "selected" : "" }} />
+              }
+              {this.props.currentCDNId !== "Default" &&
+                <HOOButton type={HOOButtonType.Icon}
+                  iconName="icon-pen-regular"
+                  iconTitle={strings.AdminEditCdnLabel}
+                  onClick={this.toggleEdit}
+                  disabled={this.props.currentCDNId === "Default"}
+                  rootElementAttributes={{ className: (this.state.showEditCDN) ? "selected" : "" }} />
+              }
+              <HOOButtonMenu
+                contextItems={[{ label: strings.AdminAddCdnLabel, iconName: 'icon-cloud-add-regular' },
+                { label: strings.AdminAbout, iconName: 'icon-info-regular' }]}
+                contextItemClicked={(ev, option) => this.handleToolClick(option.label)} />
+              <HOOButton type={HOOButtonType.Icon}
+                iconName="icon-question-regular"
+                iconTitle={strings.DocumentationLinkLabel}
+                onClick={this.openDocumentation} />
+            </div>
             <div className="adm-header-spin">
               {this.props.working &&
                 <>
@@ -255,16 +251,18 @@ export default class AdminMenu extends React.PureComponent<IAdminMenuProps, IAdm
                     value={0} /></>
               }
             </div>
-            {/* TODO make sure this works */}
-            <HOODropDown
-              value={""}
-              options={this._tabOptions}
-              containsTypeAhead={false}
-              onChange={(ev) => this.props.selectTab(ev as string)}
-              rootElementAttributes={{ className: "adm-header-cat" }}/>
-          </div>
+            <div className="adm-nav-filter">
+              <HOODropDown
+                value={this.props.tabSelected}
+                options={this._tabOptions}
+                containsTypeAhead={false}
+                onChange={(ev) => this.props.selectTab(ev as string)}
+                rootElementAttributes={{ className: "adm-header-cat" }} />
+            </div>
+
+          </nav>
           {this.state.showAddContentPack &&
-            <div data-component={this.LOG_SOURCE} className="adm-header-edit">
+            <div data-component={this.LOG_SOURCE} className="headerpanel">
               <ContentPack
                 placeholderUrl={this.props.placeholderUrl}
                 addCdn={this.addCdn}
@@ -272,8 +270,15 @@ export default class AdminMenu extends React.PureComponent<IAdminMenuProps, IAdm
               />
             </div>
           }
+          {this.state.showAbout &&
+            <div data-component={this.LOG_SOURCE} className="headerpanel">
+              <About
+                close={this.closeAbout}
+              />
+            </div>
+          }
           {this.state.showEditCDN &&
-            <div data-component={this.LOG_SOURCE} className="adm-header-edit">
+            <div data-component={this.LOG_SOURCE} className="headerpanel">
               <CdnEdit
                 cdn={this.state.editCDN}
                 closeForm={this.closeEditCdn}
@@ -281,14 +286,10 @@ export default class AdminMenu extends React.PureComponent<IAdminMenuProps, IAdm
               />
             </div>
           }
-          {this.state.showAbout &&
-            <div data-component={this.LOG_SOURCE} className="adm-header-edit">
-              <About
-                close={this.closeAbout}
-              />
-            </div>
-          }
+
         </>
+
+
       );
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);

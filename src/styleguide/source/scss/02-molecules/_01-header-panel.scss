@@ -5,13 +5,21 @@
 	display: flex;
 
 	box-sizing: border-box;
-	padding: 1em;
 	border-radius: 0.5rem;
 
-	background-color: colors.$c-light-gray;
-	background-color: dt.$neutral-200;
+	border: 1px colors.$c-light-gray solid;
+	// background-color: dt.$neutral-200;
+	background-color: rgba(0,0,0,0.1);
 
 	justify-content: space-between;
+
+	margin-bottom: 1rem;
+
+	padding: 1em 1em 1.15rem;
+
+	.hoo-label{
+		display: block;
+	}
 
 	@media screen and (max-width: 480px){
 		flex-direction: column;

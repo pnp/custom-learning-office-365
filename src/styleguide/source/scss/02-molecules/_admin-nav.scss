@@ -11,6 +11,7 @@
     right: 0;
     background-color: dt.$neutral-000;
     margin-bottom: 1rem;
+    z-index: 10;
     .hoo-buttonicon-overflow{
         align-self: flex-end;
     }
@@ -23,3 +24,4 @@
     flex-direction: row;
     gap: .5rem;
 }
+

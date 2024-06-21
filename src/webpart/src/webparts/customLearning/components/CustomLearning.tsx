@@ -251,7 +251,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
       switch (template) {
         case Templates.Category:
           detail = filter(this._uxService.CacheConfig.Categories, { Id: templateId });
-          if (this._uxService.History.find(o => {return o.Id === detail[0].Id}) == null) {
+          if (this._uxService.History.find(o => { return o.Id === detail[0].Id }) == null) {
             this._uxService.History.push(new HistoryItem(detail[0].Id, detail[0].Name as string, template));
           }
           if (this._uxService.CustomSort)
@@ -531,7 +531,6 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
         />);
       }
       element.push(this._renderContainer());
-
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_renderPanel) - ${err}`, LogLevel.Error);
     }
@@ -551,7 +550,8 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
           {this.state.renderPanel &&
             <HOODialog
               changeVisibility={() => { this.setState({ renderPanel: !this.state.renderPanel }); }}
-              type={8} visible={false}
+              type={8}
+              visible={this.state.renderPanel}
             >
               <HOODialogHeader
                 closeIconName="hoo-icon-close"
@@ -566,6 +566,8 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
           {!this.state.renderPanel &&
             this._renderPanel(false)
           }
+
+
         </>
       );
 
