@@ -12,7 +12,6 @@ import forEach from "lodash-es/forEach";
 import HOODialog from '@n8d/htwoo-react/HOODialog';
 import HOODialogHeader from '@n8d/htwoo-react/HOODialogHeader';
 import HOODialogContent from '@n8d/htwoo-react/HOODialogContent';
-import HOOLabel from '@n8d/htwoo-react/HOOLabel';
 
 import styles from "../../common/CustomLearningCommon.module.scss";
 import * as strings from "M365LPStrings";
@@ -76,7 +75,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
     super(props);
     this.state = new CustomLearningState();
     this.teamsContext = props.teamsEntityId && props.teamsEntityId.length > 0;
-    // TODO double check the unfurling syntax for Teams V2
+
     if (this.teamsContext)
       this.teamsContextUrl = `https://teams.microsoft.com/l/entity/141d4ab7-b6ca-4bf4-ac59-25b7bf93642d/${props.teamsEntityId}?context={"subEntityId":`;
   }
@@ -541,30 +540,29 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
     if (this._uxService === undefined) { this._uxService = this.context; }
     if (!this.state.template) return null;
     try {
-      //TODO Check to see if this needs the styles added back in
       return (
         <div className={`${styles.customLearning} ${(params.appPartPage) ? styles.appPartPage : ""}`}>
-        <>
-          {this.state.renderPanel &&
-            <HOODialog
-              changeVisibility={() => { this.setState({ renderPanel: !this.state.renderPanel }); }}
-              type={8}
-              visible={this.state.renderPanel}
-            >
-              <HOODialogHeader
-                closeIconName="hoo-icon-close"
-                closeOnClick={() => { this.setState({ renderPanel: false }); }}
-                title="Dialog Header" closeDisabled={false} />
-              <HOODialogContent>
-                <HOOLabel label={(this.state.detail) ? (this.state.detail as IPlaylist).Title as string : ""} />
+          <>
+            {this.state.renderPanel &&
+              <HOODialog
+                changeVisibility={() => { this.setState({ renderPanel: !this.state.renderPanel }); }}
+                type={8}
+                visible={this.state.renderPanel}
+              >
+                <HOODialogHeader
+                  closeIconName="hoo-icon-close"
+                  closeOnClick={() => { this.setState({ renderPanel: false }); }}
+                  title={(this.state.detail) ? (this.state.detail as IPlaylist).Title as string : ""}
+                  closeDisabled={false} />
+                <HOODialogContent>
                   {this._renderPanel(true)}
-              </HOODialogContent>
-            </HOODialog>
-          }
-          {!this.state.renderPanel &&
-            this._renderPanel(false)
-          }
-        </>
+                </HOODialogContent>
+              </HOODialog>
+            }
+            {!this.state.renderPanel &&
+              this._renderPanel(false)
+            }
+          </>
         </div>
       );
 

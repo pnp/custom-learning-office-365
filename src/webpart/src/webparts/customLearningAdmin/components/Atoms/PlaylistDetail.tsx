@@ -1,10 +1,9 @@
 import { Logger, LogLevel } from "@pnp/logging";
 import * as React from "react";
 
-import HOODropDown, { IHOODropDownItem } from "@n8d/htwoo-react/HOODropDown";
+import HOODropDown, { IHOODropDownGroup, IHOODropDownItem } from "@n8d/htwoo-react/HOODropDown";
 import HOOLabel from "@n8d/htwoo-react/HOOLabel";
 import HOOText from "@n8d/htwoo-react/HOOText";
-import HOONotifyLabel from "@n8d/htwoo-react/HOONotifyLabel";
 import cloneDeep from "lodash-es/cloneDeep";
 import find from "lodash-es/find";
 import forEach from "lodash-es/forEach";
@@ -12,7 +11,6 @@ import isEqual from "lodash-es/isEqual";
 
 import * as strings from 'M365LPStrings';
 import { ICategory, IMetadataEntry, IMultilingualString, IPlaylist, ITechnology } from "../../../common/models/Models";
-import RecursiveTree, { IRecursiveList, RecursiveList } from "../../../recusiveTree/RecursiveTree";
 
 export interface IPlaylistDetailProps {
   categories: ICategory[];
@@ -26,7 +24,7 @@ export interface IPlaylistDetailProps {
 }
 
 export interface IPlaylistDetailState {
-  recursiveCategories: IRecursiveList[];
+  recursiveCategories: IHOODropDownGroup[];
   selectedCategory: ICategory;
   selectedTechnology: ITechnology;
   technologyDropdown: IHOODropDownItem[];
@@ -36,7 +34,7 @@ export interface IPlaylistDetailState {
 
 export class DetailEditState implements IPlaylistDetailState {
   constructor(
-    public recursiveCategories: IRecursiveList[] = null,
+    public recursiveCategories: IHOODropDownGroup[] = [],
     public selectedCategory: ICategory = null,
     public selectedTechnology: ITechnology = null,
     public technologyDropdown: IHOODropDownItem[] = [],
@@ -58,35 +56,34 @@ export default class PlaylistDetail extends React.Component<IPlaylistDetailProps
     try {
       let selectedCategory: ICategory = null;
       let selectedTechnology: ITechnology = null;
-      let recursiveCategories: IRecursiveList[] = null;
+      const recursiveCategories: IHOODropDownGroup[] = [];
       let levelDropdown: IHOODropDownItem[] = null;
       let audienceDropdown: IHOODropDownItem[] = null;
 
-      recursiveCategories = [];
-      forEach(props.categories, (c): void => {
-        //
-        function fixChildren(sc: ICategory[]): IRecursiveList[] {
-          const retVal: IRecursiveList[] = [];
-          for (let i = 0; i < sc.length; i++) {
-            if (sc[i].Id === props.detail.CatId) {
-              selectedCategory = sc[i];
+      forEach(this.props.categories, (c): void => {
+        const name = (c.Name instanceof Array) ? (c.Name as IMultilingualString[])[0].Text : c.Name as string;
+        const group: IHOODropDownGroup = { groupName: name, groupItems: [] }
+        if (c.SubCategories.length > 0) {
+          const subCategories: IHOODropDownItem[] = [];
+          for (let i = 0; i < c.SubCategories.length; i++) {
+            if (c.SubCategories[i].Id === this.props.detail.CatId) {
+              selectedCategory = c.SubCategories[i];
             }
-            const name = (sc[i].Name instanceof Array) ? (sc[i].Name as IMultilingualString[])[0].Text : sc[i].Name as string;
-            const childItem = new RecursiveList(sc[i].Id, name);
-            if (sc[i].SubCategories.length > 0)
-              childItem.children = fixChildren(sc[i].SubCategories);
-            retVal.push(childItem);
+            const subCat: IHOODropDownItem = {
+              key: c.SubCategories[i].Id,
+              text: (c.SubCategories[i].Name instanceof Array) ? (c.SubCategories[i].Name as IMultilingualString[])[0].Text : c.SubCategories[i].Name as string,
+              disabled: false
+            }
+            subCategories.push(subCat)
           }
-          return retVal;
+          if (subCategories.length > 0) {
+            group.groupItems = subCategories;
+          }
         }
 
-        if (c.Id === props.detail.CatId)
-          selectedCategory = cloneDeep(c);
-        const nameCat = (c.Name instanceof Array) ? (c.Name as IMultilingualString[])[0].Text : c.Name as string;
-        const newItem = new RecursiveList(c.Id, nameCat);
-        if (c.SubCategories.length > 0)
-          newItem.children = fixChildren(c.SubCategories);
-        recursiveCategories.push(newItem);
+        if (group.groupItems.length > 0) {
+          recursiveCategories.push(group);
+        }
       });
 
       levelDropdown = this.props.levels.map((level) => {
@@ -218,19 +215,14 @@ export default class PlaylistDetail extends React.Component<IPlaylistDetailProps
                     width: '100%'
                   }
                 }} />
-
-              {/* TODO check and see if we should convert this to grouped Drop down */}
-              <RecursiveTree
-                label={strings.DetailEditCategory}
-                noDataMessage={strings.DetailEditCategoryNoData}
-                autoExpandChildren={true}
-                required={true}
-                treeItems={this.state.recursiveCategories}
-                selectedKeys={[this.props.detail.CatId]}
-                selectItem={this.selectCatId}
+              <HOOLabel label={strings.DetailEditCategory} for={strings.DetailEditCategory} required={true} />
+              <HOODropDown
+                value={this.props.detail.CatId}
+                options={this.state.recursiveCategories}
+                onChange={this.selectCatId}
+                containsTypeAhead={false}
                 disabled={this.props.currentLangIndex > 0}
-                errorMessage={this.getCategoryError()}
-              />
+                forId={strings.DetailEditCategory} />
 
               <HOOLabel label={strings.DetailEditLevel} for={strings.DetailEditLevel} required={false} />
               <HOODropDown
@@ -284,13 +276,8 @@ export default class PlaylistDetail extends React.Component<IPlaylistDetailProps
               <p className="adm-fieldvalue">{(this.state.selectedTechnology) ? this.state.selectedTechnology.Name : ""}</p>
 
               <HOOLabel label={strings.DetailEditCategory} required={(categoryError.length > 0)} />
-              {categoryError.length > 0 &&
-                <HOONotifyLabel
-                  message={this.getCategoryError()}
-                  type={1}
-                />
-              }
-              {(this.state.selectedCategory.Name instanceof Array) &&
+
+              {(this.state.selectedCategory instanceof Array) &&
                 <p className="adm-fieldvalue">{(this.state.selectedCategory.Name as IMultilingualString[])[0].Text}</p>
               }
               {!(this.state.selectedCategory.Name instanceof Array) &&

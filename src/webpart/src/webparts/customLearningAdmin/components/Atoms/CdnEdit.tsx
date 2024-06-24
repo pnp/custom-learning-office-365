@@ -49,6 +49,9 @@ export default class CdnEdit extends React.Component<ICdnEditProps, ICdnEditStat
   private changeValue = (key: string, value: string): void => {
     const cdn = cloneDeep(this.state.cdn);
     cdn[key] = (key === "Name") ? value : value.trim();
+    if (key === "Base") {
+      this.validateBase(value)
+    }
     this.setState({
       cdn: cdn,
       formChanged: true
@@ -58,14 +61,14 @@ export default class CdnEdit extends React.Component<ICdnEditProps, ICdnEditStat
   private upsertCdn = (): void => {
     this.props.upsertCdn(this.state.cdn);
   }
-  // TODO figure out how to do validation on the text box
-  // private validateBase = (value: string): string => {
-  //   let retVal = "";
-  //   if (value.substr(value.length - 1, 1) !== "/") {
-  //     retVal = strings.ValidateBase;
-  //   }
-  //   return retVal;
-  // }
+
+  private validateBase = (value: string): string => {
+    let retVal = "";
+    if (value.substr(value.length - 1, 1) !== "/") {
+      retVal = strings.ValidateBase;
+    }
+    return retVal;
+  }
 
   private getValidForm = (): boolean => {
     let retVal = false;
@@ -95,7 +98,6 @@ export default class CdnEdit extends React.Component<ICdnEditProps, ICdnEditStat
           />
 
           <HOOLabel label={strings.AdminCdnBaseUrl} for={strings.AdminCdnBaseUrl} required={true} />
-          {/* TODO add validation this.validateBase this.validateBase */}
           <HOOText
             forId={strings.AdminCdnBaseUrl}
             onChange={(ev) => { this.changeValue("Base", ev.currentTarget.value); }}
