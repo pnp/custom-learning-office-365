@@ -159,18 +159,7 @@ export default class PlaylistDetail extends React.Component<IPlaylistDetailProps
     }
   }
 
-  private getCategoryError = (): string => {
-    let retVal = "";
-    if (this.state.selectedCategory && this.state.selectedCategory.Name instanceof Array) {
-      if (!(this.state.selectedCategory.Name[this.props.currentLangIndex])) {
-        retVal = strings.CategoryTranslationNotAvailable;
-      }
-    }
-    return retVal;
-  }
-
   public render(): React.ReactElement<IPlaylistDetailProps> {
-    const categoryError = this.getCategoryError();
     try {
       return (
         <div className="adm-plitem-form" data-component={this.LOG_SOURCE}>
@@ -275,7 +264,7 @@ export default class PlaylistDetail extends React.Component<IPlaylistDetailProps
 
               <p className="adm-fieldvalue">{(this.state.selectedTechnology) ? this.state.selectedTechnology.Name : ""}</p>
 
-              <HOOLabel label={strings.DetailEditCategory} required={(categoryError.length > 0)} />
+              <HOOLabel label={strings.DetailEditCategory} />
 
               {(this.state.selectedCategory instanceof Array) &&
                 <p className="adm-fieldvalue">{(this.state.selectedCategory.Name as IMultilingualString[])[0].Text}</p>

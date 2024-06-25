@@ -2,8 +2,7 @@ import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 import HOODialog from "@n8d/htwoo-react/HOODialog";
 import HOODialogContent from "@n8d/htwoo-react/HOODialogContent";
-import HOODialogActions from "@n8d/htwoo-react/HOODialogActions";
-import HOOButton from "@n8d/htwoo-react/HOOButton";
+import styles from "../../CustomLearningCommon.module.scss";
 
 export interface IErrorProps {
   message: string;
@@ -21,17 +20,14 @@ export default class Error extends React.PureComponent<IErrorProps> {
       return (
         <HOODialog
           changeVisibility={function noRefCheck() { }}
-          type={1} visible={false}        >
+          type={1}
+          visible
+        >
+
           <HOODialogContent>
             {this.props.message}
           </HOODialogContent>
-          <HOODialogActions>
-            <HOOButton
-              iconName="hoo-icon-close"
-              onClick={function noRefCheck() { }}
-              type={0}
-            />
-          </HOODialogActions>
+
         </HOODialog>
       );
     } catch (err) {
