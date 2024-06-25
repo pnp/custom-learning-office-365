@@ -279,6 +279,40 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
       const className: string = (showMultilingualMsg || showUpgradeMsg) ? "" : "nomsg";
       return (
         <section data-component={this.LOG_SOURCE} className={`adm-wrapper ${styles.customLearning} ${(params.appPartPage) ? styles.appPartPage : ""}`}>
+          <div className="adm-header-message">
+            {showMultilingualMsg &&
+              <HOODialog
+                changeVisibility={function noRefCheck() { }}
+                type={1}
+                visible
+                rootElementAttributes={{
+                  className: "adm-content"
+                }}
+              >
+
+                <HOODialogContent>
+                  {strings.DataUpgradeMultilingual} <a href={`${this.props.siteUrl}/_layouts/15/muisetng.aspx`} target="_blank" rel="noreferrer">{strings.DataUpgradeReview}</a>
+                </HOODialogContent>
+
+              </HOODialog>
+
+            }
+            {showUpgradeMsg &&
+              <HOODialog
+                changeVisibility={function noRefCheck() { }}
+                type={1}
+                visible
+                rootElementAttributes={{ className: "adm-content" }}
+              >
+
+                <HOODialogContent>
+                  {notice} <a href={(params.updateInstructionUrl) ? params.updateInstructionUrl : "https://github.com/pnp/custom-learning-office-365#updating-the-solution"} rel="noreferrer" target="_blank">{strings.AdminVersionUpdateInstructions}</a>
+                </HOODialogContent>
+
+              </HOODialog>
+
+            }
+          </div>
           <AdminMenu
             loadingCdn={this.state.loadingCdn}
             placeholderUrl={`${params.baseCdnPath}${params.defaultLanguage}/images/categories/customfeatured.png`}
@@ -290,32 +324,7 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
             working={this.state.working}
             tabSelected={this.state.tabSelected}
           />
-          <div className="adm-header-message">
-            {showMultilingualMsg &&
-              <HOODialog
-                changeVisibility={function noRefCheck() { }}
-                type={3}
-                visible={true}
-              >
-                <HOODialogContent>
-                  {strings.DataUpgradeMultilingual}
-                  <a href={`${this.props.siteUrl}/_layouts/15/muisetng.aspx`} target="_blank" rel="noreferrer">{strings.DataUpgradeReview}</a>
-                </HOODialogContent>
-              </HOODialog>
-            }
-            {showUpgradeMsg &&
-              <HOODialog
-                changeVisibility={function noRefCheck() { }}
-                type={0}
-                visible={true}
-              >
-                <HOODialogContent>
-                  {notice}
-                  <a href={(params.updateInstructionUrl) ? params.updateInstructionUrl : "https://github.com/pnp/custom-learning-office-365#updating-the-solution"} rel="noreferrer" target="_blank">{strings.AdminVersionUpdateInstructions}</a>
-                </HOODialogContent>
-              </HOODialog>
-            }
-          </div>
+
           {
             this.props.validConfig && this.props.cacheConfig && !this.state.loadingCdn &&
             this.getContainer(className)
@@ -325,12 +334,14 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
             <HOODialog
               changeVisibility={function noRefCheck() { }}
               type={1}
-              visible={true}
+              visible
               rootElementAttributes={{ className: "adm-content" }}
             >
+
               <HOODialogContent>
                 {strings.AdminConfigIssueMessage}
               </HOODialogContent>
+
             </HOODialog>
           }
           {
