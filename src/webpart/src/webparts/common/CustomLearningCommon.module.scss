@@ -1,12 +1,17 @@
 @use 'sass:meta';
 @use 'rwd-opt' as mixins;
-@use '../../../../node_modules/@n8d/htwoo-core/lib/sass/03-organism/dialog/index' as hooOrgDialog;
-@use '../../../../node_modules/@n8d/htwoo-core/lib/sass/02-molecules/dialogs/index' as hooMolDialog;
+
+:global {
+  @include meta.load-css('../../../../node_modules/@n8d/htwoo-core/lib/sass/03-organism/dialog/index');
+  @include meta.load-css('../../../../node_modules/@n8d/htwoo-core/lib/sass/02-molecules/dialogs/index');
+  
+}
 
 $baseFolder: '../../../../node_modules/';
 
 
 .loadingShimmer {
+  @include meta.load-css('../../../../node_modules/@n8d/htwoo-core/lib/sass/01-atoms/loading/index');
 	margin-left: 16px;
 
 	&.appPartPage {
@@ -20,10 +25,6 @@ $baseFolder: '../../../../node_modules/';
 .customLearning {
 	:global {
 		@include meta.load-css('#{$baseFolder}learning-pathways-styleguide/source/css/main.spfx');
-
-		// .ms-SearchBox {
-		// 	background-color: $c-background;
-		// }
 	}
 
 	font-family: "Segoe UI",
