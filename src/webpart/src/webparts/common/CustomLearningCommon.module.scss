@@ -1,10 +1,10 @@
 @use 'sass:meta';
 @use 'rwd-opt' as mixins;
+@use '../../../../node_modules/@n8d/htwoo-core/lib/sass/03-organism/dialog/index' as hooOrgDialog;
+@use '../../../../node_modules/@n8d/htwoo-core/lib/sass/02-molecules/dialogs/index' as hooMolDialog;
+
 $baseFolder: '../../../../node_modules/';
-:global {
-  @include meta.load-css('../../../../node_modules/\@n8d/htwoo-core/lib/sass/02-molecules/dialogs/index');
-  @include meta.load-css('../../../../node_modules/\@n8d/htwoo-core/lib/sass/03-organisms/dialogs/index');
-}
+
 
 .loadingShimmer {
 	margin-left: 16px;
