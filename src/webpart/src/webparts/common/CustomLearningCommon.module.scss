@@ -22,6 +22,18 @@ $baseFolder: '../../../../node_modules/';
 		padding: 0 1em;
 	}
 }
+:global{
+.updateConfiguration {
+    .hoo-dlg[open] {
+      position: static;
+
+      a {
+        outline-color: transparent;
+      }
+    }
+  }
+}
+
 
 .customLearning {
 	:global {
@@ -114,6 +126,8 @@ $baseFolder: '../../../../node_modules/';
 		// 	fill: $ouif-primaryButtonText;
 		// }
 	}
+
+
 
 	:global {
 		.transparentButton {

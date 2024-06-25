@@ -44,7 +44,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
   private _upgradeNeeded: boolean = false;
   private _updateStartVersion: string;
   private _themeProvider: ThemeProvider;
-  private _queryParms: URLSearchParams = new URLSearchParams(window.location.href);
+  private _queryParms: URLSearchParams = new URLSearchParams(window.location.search);
   private _forceUpdate = this._queryParms.get("forceUpdate");
   private _spfxThemes: ISPFxThemes = new SPFxThemes();
 
