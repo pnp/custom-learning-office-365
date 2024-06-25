@@ -4,6 +4,7 @@
 :global {
   @include meta.load-css('../../../../node_modules/@n8d/htwoo-core/lib/sass/03-organism/dialog/index');
   @include meta.load-css('../../../../node_modules/@n8d/htwoo-core/lib/sass/02-molecules/dialogs/index');
+@include meta.load-css('../../../../node_modules/@n8d/htwoo-core/lib/sass/01-atoms/loading/index');
   
 }
 
@@ -11,7 +12,7 @@ $baseFolder: '../../../../node_modules/';
 
 
 .loadingShimmer {
-  @include meta.load-css('../../../../node_modules/@n8d/htwoo-core/lib/sass/01-atoms/loading/index');
+  
 	margin-left: 16px;
 
 	&.appPartPage {

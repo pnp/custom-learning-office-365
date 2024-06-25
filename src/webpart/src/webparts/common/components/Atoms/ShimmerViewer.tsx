@@ -25,462 +25,185 @@ export default class ShimmerViewer extends React.PureComponent<IShimmerViewerPro
         <div className={`${styles.loadingShimmer} ${(params.appPartPage) ? styles.appPartPage : ""}`}>
           {(this.props.shimmerView === ShimmerView.ViewerCategory) &&
             <div>
-              <HOOShimmer shape={HOOShimmerShape.Container} theme={HOOShimmerTheme.Primary} >
+              <HOOShimmer shape={HOOShimmerShape.Container} theme={HOOShimmerTheme.Neutral} >
                 <HOOShimmer
                   shape={HOOShimmerShape.Row}
-                  theme={HOOShimmerTheme.Primary}
-                  rootElementAttributes={{
-                    style: {
-                      height: '29',
-                      width: '100',
-                      paddingRight: '90%'
-                    }
-                  }}
+                  theme={HOOShimmerTheme.Neutral}
+
                 />
                 <HOOShimmer
                   shape={HOOShimmerShape.Row}
-                  theme={HOOShimmerTheme.Primary}
-                  rootElementAttributes={{
-                    style: {
-                      height: '40',
-                      width: '40',
-                      paddingRight: '5'
-                    }
-                  }}
+                  theme={HOOShimmerTheme.Neutral}
+
                 />
                 <HOOShimmer
                   shape={HOOShimmerShape.Row}
-                  theme={HOOShimmerTheme.Primary}
-                  rootElementAttributes={{
-                    style: {
-                      height: '40',
-                      width: '40',
-                      paddingRight: '5'
-                    }
-                  }}
+                  theme={HOOShimmerTheme.Neutral}
                 />
                 <HOOShimmer
                   shape={HOOShimmerShape.Row}
-                  theme={HOOShimmerTheme.Primary}
-                  rootElementAttributes={{
-                    style: {
-                      height: '40',
-                      width: '40'
-                    }
-                  }}
+                  theme={HOOShimmerTheme.Neutral}
                 />
               </HOOShimmer>
 
-              <HOOShimmer shape={HOOShimmerShape.Container} theme={HOOShimmerTheme.Primary} >
+              <HOOShimmer shape={HOOShimmerShape.Container} theme={HOOShimmerTheme.Neutral} >
                 <HOOShimmer
                   shape={HOOShimmerShape.Row}
-                  theme={HOOShimmerTheme.Primary}
-                  rootElementAttributes={{
-                    style: {
-                      height: '29',
-                      width: '100',
-                      paddingRight: '90%'
-                    }
-                  }}
+                  theme={HOOShimmerTheme.Neutral}
                 />
               </HOOShimmer>
 
-              <HOOShimmer shape={HOOShimmerShape.Container} theme={HOOShimmerTheme.Primary} >
+              <HOOShimmer shape={HOOShimmerShape.Container} theme={HOOShimmerTheme.Neutral} >
                 <HOOShimmer
                   shape={HOOShimmerShape.Row}
-                  theme={HOOShimmerTheme.Primary}
-                  rootElementAttributes={{
-                    style: {
-                      height: '160',
-                      width: '160',
-                      paddingLeft: '32'
-                    }
-                  }}
+                  theme={HOOShimmerTheme.Neutral}
                 />
                 <HOOShimmer
                   shape={HOOShimmerShape.Row}
-                  theme={HOOShimmerTheme.Primary}
-                  rootElementAttributes={{
-                    style: {
-                      height: '160',
-                      width: '160',
-                      paddingLeft: '32'
-                    }
-                  }}
+                  theme={HOOShimmerTheme.Neutral}
                 />
                 <HOOShimmer
                   shape={HOOShimmerShape.Row}
-                  theme={HOOShimmerTheme.Primary}
-                  rootElementAttributes={{
-                    style: {
-                      height: '160',
-                      width: '160',
-                      paddingLeft: '32'
-                    }
-                  }}
+                  theme={HOOShimmerTheme.Neutral}
                 />
                 <HOOShimmer
                   shape={HOOShimmerShape.Row}
-                  theme={HOOShimmerTheme.Primary}
-                  rootElementAttributes={{
-                    style: {
-                      height: '160',
-                      width: '160',
-                      paddingLeft: '32'
-                    }
-                  }}
+                  theme={HOOShimmerTheme.Neutral}
                 />
                 <HOOShimmer
                   shape={HOOShimmerShape.Row}
-                  theme={HOOShimmerTheme.Primary}
-                  rootElementAttributes={{
-                    style: {
-                      height: '160',
-                      width: '90%'
-                    }
-                  }}
+                  theme={HOOShimmerTheme.Neutral}
                 />
               </HOOShimmer>
 
-              <HOOShimmer shape={HOOShimmerShape.Container} theme={HOOShimmerTheme.Primary} >
+              <HOOShimmer shape={HOOShimmerShape.Container} theme={HOOShimmerTheme.Neutral} >
                 <HOOShimmer
                   shape={HOOShimmerShape.Row}
-                  theme={HOOShimmerTheme.Primary}
-                  rootElementAttributes={{
-                    style: {
-                      height: '29',
-                      width: '200',
-                      paddingRight: '90%'
-                    }
-                  }}
+                  theme={HOOShimmerTheme.Neutral}
                 />
               </HOOShimmer>
 
-              <HOOShimmer shape={HOOShimmerShape.Container} theme={HOOShimmerTheme.Primary} >
+              <HOOShimmer shape={HOOShimmerShape.Container} theme={HOOShimmerTheme.Neutral} >
                 <HOOShimmer
                   shape={HOOShimmerShape.Row}
-                  theme={HOOShimmerTheme.Primary}
-                  rootElementAttributes={{
-                    style: {
-                      height: '160',
-                      width: '160',
-                      paddingLeft: '32'
-                    }
-                  }}
+                  theme={HOOShimmerTheme.Neutral}
                 />
                 <HOOShimmer
                   shape={HOOShimmerShape.Row}
-                  theme={HOOShimmerTheme.Primary}
-                  rootElementAttributes={{
-                    style: {
-                      height: '160',
-                      width: '160',
-                      paddingLeft: '32'
-                    }
-                  }}
+                  theme={HOOShimmerTheme.Neutral}
                 />
                 <HOOShimmer
                   shape={HOOShimmerShape.Row}
-                  theme={HOOShimmerTheme.Primary}
-                  rootElementAttributes={{
-                    style: {
-                      height: '160',
-                      width: '160',
-                      paddingLeft: '32'
-                    }
-                  }}
+                  theme={HOOShimmerTheme.Neutral}
                 />
                 <HOOShimmer
                   shape={HOOShimmerShape.Row}
-                  theme={HOOShimmerTheme.Primary}
-                  rootElementAttributes={{
-                    style: {
-                      height: '160',
-                      width: '160',
-                      paddingLeft: '32'
-                    }
-                  }}
+                  theme={HOOShimmerTheme.Neutral}
                 />
                 <HOOShimmer
                   shape={HOOShimmerShape.Row}
-                  theme={HOOShimmerTheme.Primary}
-                  rootElementAttributes={{
-                    style: {
-                      height: '160',
-                      width: '90%'
-                    }
-                  }}
+                  theme={HOOShimmerTheme.Neutral}
                 />
               </HOOShimmer>
 
-              <HOOShimmer shape={HOOShimmerShape.Container} theme={HOOShimmerTheme.Primary} >
+              <HOOShimmer shape={HOOShimmerShape.Container} theme={HOOShimmerTheme.Neutral} >
                 <HOOShimmer
                   shape={HOOShimmerShape.Row}
-                  theme={HOOShimmerTheme.Primary}
-                  rootElementAttributes={{
-                    style: {
-                      height: '160',
-                      width: '160',
-                      paddingLeft: '32'
-                    }
-                  }}
+                  theme={HOOShimmerTheme.Neutral}
                 />
                 <HOOShimmer
                   shape={HOOShimmerShape.Row}
-                  theme={HOOShimmerTheme.Primary}
-                  rootElementAttributes={{
-                    style: {
-                      height: '160',
-                      width: '160',
-                      paddingLeft: '32'
-                    }
-                  }}
+                  theme={HOOShimmerTheme.Neutral}
                 />
                 <HOOShimmer
                   shape={HOOShimmerShape.Row}
-                  theme={HOOShimmerTheme.Primary}
-                  rootElementAttributes={{
-                    style: {
-                      height: '160',
-                      width: '160',
-                      paddingLeft: '32'
-                    }
-                  }}
+                  theme={HOOShimmerTheme.Neutral}
                 />
                 <HOOShimmer
                   shape={HOOShimmerShape.Row}
-                  theme={HOOShimmerTheme.Primary}
-                  rootElementAttributes={{
-                    style: {
-                      height: '160',
-                      width: '160',
-                      paddingLeft: '32'
-                    }
-                  }}
+                  theme={HOOShimmerTheme.Neutral}
                 />
                 <HOOShimmer
                   shape={HOOShimmerShape.Row}
-                  theme={HOOShimmerTheme.Primary}
-                  rootElementAttributes={{
-                    style: {
-                      height: '160',
-                      width: '90%'
-                    }
-                  }}
+                  theme={HOOShimmerTheme.Neutral}
                 />
               </HOOShimmer>
 
-              <HOOShimmer shape={HOOShimmerShape.Container} theme={HOOShimmerTheme.Primary} >
+              <HOOShimmer shape={HOOShimmerShape.Container} theme={HOOShimmerTheme.Neutral} >
                 <HOOShimmer
                   shape={HOOShimmerShape.Row}
-                  theme={HOOShimmerTheme.Primary}
-                  rootElementAttributes={{
-                    style: {
-                      height: '160',
-                      width: '160',
-                      paddingLeft: '32'
-                    }
-                  }}
+                  theme={HOOShimmerTheme.Neutral}
                 />
                 <HOOShimmer
                   shape={HOOShimmerShape.Row}
-                  theme={HOOShimmerTheme.Primary}
-                  rootElementAttributes={{
-                    style: {
-                      height: '160',
-                      width: '160',
-                      paddingLeft: '32'
-                    }
-                  }}
+                  theme={HOOShimmerTheme.Neutral}
                 />
                 <HOOShimmer
                   shape={HOOShimmerShape.Row}
-                  theme={HOOShimmerTheme.Primary}
-                  rootElementAttributes={{
-                    style: {
-                      height: '160',
-                      width: '160',
-                      paddingLeft: '32'
-                    }
-                  }}
+                  theme={HOOShimmerTheme.Neutral}
                 />
                 <HOOShimmer
                   shape={HOOShimmerShape.Row}
-                  theme={HOOShimmerTheme.Primary}
-                  rootElementAttributes={{
-                    style: {
-                      height: '160',
-                      width: '160',
-                      paddingLeft: '32'
-                    }
-                  }}
+                  theme={HOOShimmerTheme.Neutral}
                 />
                 <HOOShimmer
                   shape={HOOShimmerShape.Row}
-                  theme={HOOShimmerTheme.Primary}
-                  rootElementAttributes={{
-                    style: {
-                      height: '160',
-                      width: '90%'
-                    }
-                  }}
+                  theme={HOOShimmerTheme.Neutral}
                 />
               </HOOShimmer>
             </div>
           }
           {(this.props.shimmerView === ShimmerView.ViewerSubCategory) &&
-            <HOOShimmer shape={HOOShimmerShape.Container} theme={HOOShimmerTheme.Primary} >
+            <HOOShimmer shape={HOOShimmerShape.Container} theme={HOOShimmerTheme.Neutral} >
               <HOOShimmer
                 shape={HOOShimmerShape.Row}
-                theme={HOOShimmerTheme.Primary}
-                rootElementAttributes={{
-                  style: {
-                    height: '29',
-                    width: '200',
-                    paddingRight: '90%'
-                  }
-                }}
+                theme={HOOShimmerTheme.Neutral}
               />
               <HOOShimmer
                 shape={HOOShimmerShape.Row}
-                theme={HOOShimmerTheme.Primary}
-                rootElementAttributes={{
-                  style: {
-                    height: '40',
-                    width: '40',
-                    paddingRight: '5'
-                  }
-                }}
+                theme={HOOShimmerTheme.Neutral}
               />
               <HOOShimmer
                 shape={HOOShimmerShape.Row}
-                theme={HOOShimmerTheme.Primary}
-                rootElementAttributes={{
-                  style: {
-                    height: '40',
-                    width: '40',
-                    paddingRight: '5'
-                  }
-                }}
+                theme={HOOShimmerTheme.Neutral}
               />
               <HOOShimmer
                 shape={HOOShimmerShape.Row}
-                theme={HOOShimmerTheme.Primary}
-                rootElementAttributes={{
-                  style: {
-                    height: '40',
-                    width: '40'
-                  }
-                }}
+                theme={HOOShimmerTheme.Neutral}
               />
             </HOOShimmer>
           }
           {(this.props.shimmerView === ShimmerView.ViewerPlaylist) &&
-            <HOOShimmer shape={HOOShimmerShape.Container} theme={HOOShimmerTheme.Primary} >
+            <HOOShimmer shape={HOOShimmerShape.Container} theme={HOOShimmerTheme.Neutral} >
               <HOOShimmer
                 shape={HOOShimmerShape.Row}
-                theme={HOOShimmerTheme.Primary}
-                rootElementAttributes={{
-                  style: {
-                    height: '29',
-                    width: '100',
-                    paddingRight: '90%'
-                  }
-                }}
+                theme={HOOShimmerTheme.Neutral}
               />
               <HOOShimmer
                 shape={HOOShimmerShape.Row}
-                theme={HOOShimmerTheme.Primary}
-                rootElementAttributes={{
-                  style: {
-                    height: '40',
-                    width: '40',
-                    paddingRight: '5'
-                  }
-                }}
+                theme={HOOShimmerTheme.Neutral}
               />
               <HOOShimmer
                 shape={HOOShimmerShape.Row}
-                theme={HOOShimmerTheme.Primary}
-                rootElementAttributes={{
-                  style: {
-                    height: '40',
-                    width: '40',
-                    paddingRight: '5'
-                  }
-                }}
+                theme={HOOShimmerTheme.Neutral}
               />
               <HOOShimmer
                 shape={HOOShimmerShape.Row}
-                theme={HOOShimmerTheme.Primary}
-                rootElementAttributes={{
-                  style: {
-                    height: '40',
-                    width: '40'
-                  }
-                }}
+                theme={HOOShimmerTheme.Neutral}
               />
             </HOOShimmer>
           }
           {(this.props.shimmerView === ShimmerView.Admin) &&
-            <HOOShimmer shape={HOOShimmerShape.Container} theme={HOOShimmerTheme.Primary} >
-              <HOOShimmer
-                shape={HOOShimmerShape.Row}
-                theme={HOOShimmerTheme.Primary}
-                rootElementAttributes={{
-                  style: {
-                    height: '29',
-                    width: '200',
-                    paddingRight: '90%'
-                  }
-                }}
-              />
-              <HOOShimmer
-                shape={HOOShimmerShape.Row}
-                theme={HOOShimmerTheme.Primary}
-                rootElementAttributes={{
-                  style: {
-                    height: '40',
-                    width: '40',
-                    paddingRight: '32'
-                  }
-                }}
-              />
-              <HOOShimmer
-                shape={HOOShimmerShape.Row}
-                theme={HOOShimmerTheme.Primary}
-                rootElementAttributes={{
-                  style: {
-                    height: '40',
-                    width: '200'
-                  }
-                }}
-              />
+            <HOOShimmer shape={HOOShimmerShape.Container} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { display: 'flex', marginBottom: '30px' } }} >
+              <HOOShimmer shape={HOOShimmerShape.Square} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { width: '200px', height: '40px', marginRight: '670px' } }} />
+              <HOOShimmer shape={HOOShimmerShape.Square} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { width: '40px', height: '40px', marginRight: '20px' } }} />
+              <HOOShimmer shape={HOOShimmerShape.Square} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { width: '200px', height: '40px' } }} />
             </HOOShimmer>
           }
           {(this.props.shimmerView === ShimmerView.Admin || this.props.shimmerView === ShimmerView.AdminCdn) &&
-            <HOOShimmer shape={HOOShimmerShape.Container} theme={HOOShimmerTheme.Primary} >
-              <HOOShimmer
-                shape={HOOShimmerShape.Row}
-                theme={HOOShimmerTheme.Primary}
-                rootElementAttributes={{
-                  style: {
-                    height: '400',
-                    width: '200',
-                    paddingRight: '20'
-                  }
-                }}
-              />
-              <HOOShimmer
-                shape={HOOShimmerShape.Row}
-                theme={HOOShimmerTheme.Primary}
-                rootElementAttributes={{
-                  style: {
-                    height: '400',
-                    width: '90%'
-                  }
-                }}
-              />
+            <HOOShimmer shape={HOOShimmerShape.Container} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { display: 'flex', marginBottom: '30px' } }} >
+              <HOOShimmer shape={HOOShimmerShape.Square} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { width: '200px', height: '400px', marginRight: '30px' } }} />
+              <HOOShimmer shape={HOOShimmerShape.Square} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { width: '900px', height: '400px' } }} />
             </HOOShimmer>
           }
         </div>
