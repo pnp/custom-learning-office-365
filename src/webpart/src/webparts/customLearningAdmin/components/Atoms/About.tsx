@@ -1,13 +1,13 @@
-import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
+import * as React from "react";
 
-import forEach from "lodash-es/forEach";
-import HOOText from "@n8d/htwoo-react/HOOText";
 import HOOLabel from "@n8d/htwoo-react/HOOLabel";
+import HOOText from "@n8d/htwoo-react/HOOText";
+import forEach from "lodash-es/forEach";
 
+import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
 import * as strings from "M365LPStrings";
 import { params } from "../../../common/services/Parameters";
-import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
 
 
 export interface IAboutProps {
@@ -40,13 +40,13 @@ export default class About extends React.PureComponent<IAboutProps> {
       const configuredLanguages = (this._configuredLanguages instanceof Array) ? this._configuredLanguages.join(", ") : "";
       const assetOrigins = (params.assetOrigins instanceof Array) ? params.assetOrigins.join(", ") : "";
       return (
-        <div data-component={this.LOG_SOURCE}>
+        <div data-component={this.LOG_SOURCE} className="about">
           <div className="buttonRight">
             <HOOButton type={HOOButtonType.Icon} iconName="icon-dismiss-regular"
               onClick={this.props.close} />
           </div>
           <HOOLabel label={`${strings.AboutGroupHeader} - ${strings.AboutGroupTitle2}`} />
-          <div className="plov">
+          <div className="about-field-grid">
             <HOOLabel label={strings.AboutLearningSiteUrl} />
             <HOOText
               onChange={null}

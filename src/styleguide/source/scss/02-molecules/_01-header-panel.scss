@@ -1,7 +1,7 @@
 @use '../00-base/colors' as colors;
 @use '../../../../node_modules/@n8d/htwoo-core/lib/sass/00-base/_global.vars.scss' as dt;
 
-.headerpanel{
+.headerpanel {
 	display: flex;
 
 	box-sizing: border-box;
@@ -9,7 +9,7 @@
 
 	border: 1px colors.$c-light-gray solid;
 	// background-color: dt.$neutral-200;
-	background-color: rgba(0,0,0,0.1);
+	background-color: rgba(0, 0, 0, 0.1);
 
 	justify-content: space-between;
 
@@ -17,44 +17,57 @@
 
 	padding: 1em 1em 1.15rem;
 
-	.hoo-label{
+	.hoo-label {
 		display: block;
 	}
 
-	@media screen and (max-width: 480px){
+	@media screen and (max-width: 480px) {
 		flex-direction: column;
 	}
 
-	.ms-SearchBox{
+	.ms-SearchBox {
 		width: 100%;
 
 		background-color: white;
 	}
+
+	.about {
+		width: 100%;
+
+		&-field-grid {
+			display: grid;
+			gap: 0.5rem clamp(1rem, 2.7vw, 2rem);
+			grid-template-columns: 300px 1fr;
+			@media screen {
+				grid-template-columns: 1fr;
+			}
+		}
+	}
 }
 
-.headerpanel-heading{
+.headerpanel-heading {
 	margin: 0;
 }
 
-.headerpanel-left{
+.headerpanel-left {
 	// @include gridSpanLarge(7);
 
-	@media screen and (max-width: 480px){
+	@media screen and (max-width: 480px) {
 		// @include gridSpanLarge(12);
 	}
 }
 
-.headerpanel-right{
+.headerpanel-right {
 	// @include gridSpanLarge(4);
 
-	@media screen and (max-width: 480px){
+	@media screen and (max-width: 480px) {
 		// @include gridSpanLarge(12);
 
 		margin-top: 30px;
 	}
 }
 
-.headerpanel-close{
+.headerpanel-close {
 	width: 100%;
 
 	align-content: flex-end;
@@ -62,26 +75,27 @@
 	flex-basis: 100%;
 }
 
-.headerpanel-search{
+.headerpanel-search {
 	@extend .headerpanel-close;
 
 	align-content: flex-start;
 	align-items: flex-start;
 }
 
-.copypanel{
+.copypanel {
 	display: flex;
 	flex-direction: row;
 
 	align-content: stretch;
 	flex-grow: 1;
 
-	.ms-TextField{
+	.ms-TextField {
 		border-right: none;
 
 		flex-basis: 100%;
 	}
-	.ms-Button{
+
+	.ms-Button {
 		flex-shrink: 0;
 	}
 }
