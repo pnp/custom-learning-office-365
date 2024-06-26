@@ -13,7 +13,8 @@
   "supportsThemeVariants": true,
   "hiddenFromToolbox": true,
   "supportedHosts": [
-    "SharePointWebPart"
+    "SharePointWebPart",
+    "SharePointFullPage"
   ],
   "preconfiguredEntries": [
     {
