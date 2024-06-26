@@ -36,9 +36,12 @@
 	}
 
 	.hoo-breadcrumb-separator {
+		line-height: unset;
+		display: flex;
 		svg {
-			height: 2rem;
+			align-items: center;
 			padding: 0;
+			height: 2em;
 		}
 	}
 }

@@ -32,6 +32,16 @@
   }
 }
 
+.pl-edit-actions{
+  background-color: yellow;
+  .hoo-buttonicon:disabled,
+  .hoo-buttonicon[disabled]{
+    content-visibility: hidden;
+    visibility: hidden;
+    background-color: lime;
+  }
+}
+
 .pl-edit-icon {
   display: inline-block;
   max-width: 20px;

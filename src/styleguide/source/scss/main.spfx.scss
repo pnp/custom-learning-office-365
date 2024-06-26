@@ -1,6 +1,6 @@
 @use 'sass:meta';
 @use '../../../node_modules/@n8d/htwoo-core/lib/sass/01-atoms/icons/index' as hooIcons;
-@use '../../../node_modules/@n8d/htwoo-core/lib/sass/01-atoms/typography/index' as hooTypography;
+@use '../../../node_modules/@n8d/htwoo-core/lib/sass/01-atoms/typography/hyperlinks' as hooHyperlink;
 @use '../../../node_modules/@n8d/htwoo-core/lib/sass/01-atoms/buttons/index' as hooButtons;
 @use '../../../node_modules/@n8d/htwoo-core/lib/sass/01-atoms/input/index' as hooInput;
 @use '../../../node_modules/@n8d/htwoo-core/lib/sass/02-molecules/dialogs/index' as hooMoleculesDialogs;

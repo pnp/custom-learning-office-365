@@ -2,17 +2,17 @@
 @use 'rwd-opt' as mixins;
 
 :global {
-  @include meta.load-css('../../../../node_modules/@n8d/htwoo-core/lib/sass/03-organism/dialog/index');
-  @include meta.load-css('../../../../node_modules/@n8d/htwoo-core/lib/sass/02-molecules/dialogs/index');
-@include meta.load-css('../../../../node_modules/@n8d/htwoo-core/lib/sass/01-atoms/loading/index');
-  
+	@include meta.load-css('../../../../node_modules/@n8d/htwoo-core/lib/sass/03-organism/dialog/index');
+	@include meta.load-css('../../../../node_modules/@n8d/htwoo-core/lib/sass/02-molecules/dialogs/index');
+	@include meta.load-css('../../../../node_modules/@n8d/htwoo-core/lib/sass/01-atoms/loading/index');
+
 }
 
 $baseFolder: '../../../../node_modules/';
 
 
 .loadingShimmer {
-  
+
 	margin-left: 16px;
 
 	&.appPartPage {
@@ -22,16 +22,17 @@ $baseFolder: '../../../../node_modules/';
 		padding: 0 1em;
 	}
 }
-:global{
-.updateConfiguration {
-    .hoo-dlg[open] {
-      position: static;
 
-      a {
-        outline-color: transparent;
-      }
-    }
-  }
+:global {
+	.updateConfiguration {
+		.hoo-dlg[open] {
+			position: static;
+
+			a {
+				outline-color: transparent;
+			}
+		}
+	}
 }
 
 
@@ -219,58 +220,6 @@ $baseFolder: '../../../../node_modules/';
 			}
 		}
 	}
-
-	// :global {
-	// 	.pagination-button {
-	// 		// color: $ouif-primaryButtonTextHovered;
-	// 		@include themeSlot(primaryButtonTextHovered);
-	// 		// border-color: $ouif-primaryButtonBackground;
-	// 		@include themeSlot(primaryButtonBackground, border);
-	// 		// background-color: $ouif-primaryButtonBackground;
-	// 		@include themeSlot(primaryButtonBackground, background);
-
-	//     &.selected,
-	//     &.selected:active {
-	//       // color: $ouif-primaryButtonBackground;
-	//       @include themeSlot(primaryButtonText);
-	//       // border-color: $ouif-primaryButtonBackground;
-	//       @include themeSlot(primaryButtonBackground, border);
-	//       // background-color: $ouif-primaryButtonTextHovered;
-	//       @include themeSlot(primaryButtonBackTextHovered, background);
-
-	//       border: 1px solid;
-	//     }
-
-	// 		&.selected,
-	// 		&.selected:active {
-	// 			// color: $ouif-primaryButtonBackground;
-	// 			@include themeSlot(primaryButtonText);
-	// 			// border-color: $ouif-primaryButtonBackground;
-	// 			@include themeSlot(primaryButtonBackground, border);
-	// 			// background-color: $ouif-primaryButtonTextHovered;
-	// 			@include themeSlot(primaryButtonBackTextHovered, background);
-
-	//       color: $ouif-primaryButtonTextHovered;
-	//       background-color: $ouif-primaryButtonBackgroundHovered;
-	//     }
-
-	// 		&:hover {
-	// 			@include themeSlot(primaryButtonTextHovered);
-	// 			@include themeSlot(primaryButtonBackgroundHovered);
-
-	// 			color: $ouif-primaryButtonTextHovered;
-	// 			background-color: $ouif-primaryButtonBackgroundHovered;
-	// 		}
-
-	// 		&:active {
-	// 			@include themeSlot(primaryButtonBackground);
-	// 			@include themeSlot(primaryButtonTextHovered);
-
-	// 			color: $ouif-primaryButtonBackground;
-	// 			background-color: $ouif-primaryButtonTextHovered;
-	// 		}
-	// 	}
-	// }
 }
 
 @include mixins.setupGrid(".customLearning", ".category-overview");

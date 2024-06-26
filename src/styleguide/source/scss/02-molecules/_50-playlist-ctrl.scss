@@ -33,19 +33,16 @@
   &-title {
     
     display: flex;
+    width: 100%;
+    max-width: 600px;
 
     @media screen and (max-width: 768px) {
       margin-bottom: .5em;
     }
 
-    .ms-Dropdown-container {
-      margin-top: .25em;
-      margin-bottom: .25em;
-
-      @media screen and (max-width: 768px) {
-        min-width: unset;
-        width: calc(100% - 45px);
-      }
+    .hoo-select{
+      width: 100%;
+    
     }
 
 
