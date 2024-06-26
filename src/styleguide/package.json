@@ -24,7 +24,7 @@
     "@pattern-lab/uikit-workshop": "^6.1.0"
   },
   "devDependencies": {
-    "@n8d/htwoo-core": "^2.4.0",
+    "@n8d/htwoo-core": "^2.5.2",
     "plugin-design": "file:helpers/node/plugin-design",
     "gulp": "^5.0.0",
     "gulp-autoprefixer": "^9.0.0",
@@ -36,7 +36,7 @@
     "gulp-sourcemaps": "^3.0.0",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.4.38",
-    "sass": "^1.77.0",
+    "sass": "^1.77.6",
     "yargs": "^17.7.2"
   }
 }
