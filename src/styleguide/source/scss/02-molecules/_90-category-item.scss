@@ -46,10 +46,8 @@
 			.category-handle {
 				display: inline-block;
 
-				width: 1em;
-				margin-top: -3px;
+				// margin-top: -3px;
 				margin-left: -10px;
-				padding-top: 5px;
 
 				.category-handle-icon {
 					display: none;
@@ -131,6 +129,10 @@
 
 .category-label {
 	
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+
 	color: dt.$neutral-700;
 
 	line-height: 1.25;

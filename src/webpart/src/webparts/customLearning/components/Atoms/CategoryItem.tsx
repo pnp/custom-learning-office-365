@@ -1,8 +1,8 @@
-import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
+import * as React from "react";
 
-import { Templates } from '../../../common/models/Enums';
 import HOOIcon from "@n8d/htwoo-react/HOOIcon";
+import { Templates } from '../../../common/models/Enums';
 
 export interface ICategoryItemProps {
   index: number;
@@ -64,7 +64,9 @@ export default class CategoryItem extends React.PureComponent<ICategoryItemProps
                 />
               </div>
             }
+            <span>
             {this.props.subcategoryName}
+            </span>
           </div>
         </article>
       );
