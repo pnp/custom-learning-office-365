@@ -98,7 +98,6 @@ export default class UpdateConfiguration extends React.PureComponent<IUpdateConf
           {this.state.state === 1 &&
             <HOOLabel label={strings.DataUpgradeIntro} />
           }
-          {/* TODO Check this to make sure it works */}
           {this.state.state === 2 &&
             <HOODialog
               changeVisibility={function noRefCheck() { }}

@@ -21,7 +21,6 @@ export default class ShimmerViewer extends React.PureComponent<IShimmerViewerPro
   public render(): React.ReactElement<IShimmerViewerProps> {
     try {
       return (
-        // TODO Make sure I did this right.
         <div className={`${styles.loadingShimmer} ${(params.appPartPage) ? styles.appPartPage : ""}`}>
           {(this.props.shimmerView === ShimmerView.ViewerCategory) &&
             <>
