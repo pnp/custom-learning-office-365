@@ -37,7 +37,7 @@ export default class CategoryList extends React.Component<ICategoryListProps, IC
     super(props);
     this.state = new CategoryListState(props.subcategories);
   }
-  
+
   private _reInit = (): void => {
     this.render();
   }
