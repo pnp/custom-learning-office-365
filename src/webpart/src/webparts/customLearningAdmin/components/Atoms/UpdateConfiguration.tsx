@@ -15,7 +15,7 @@ import HOOIcon from "@n8d/htwoo-react/HOOIcon";
 import HOOLabel from "@n8d/htwoo-react/HOOLabel";
 import HOODialog from "@n8d/htwoo-react/HOODialog";
 import HOODialogContent from "@n8d/htwoo-react/HOODialogContent";
-import HOODialogHeader from "@n8d/htwoo-react/HOODialogHeader";
+import HOODialogActions from "@n8d/htwoo-react/HOODialogActions";
 
 export interface IUpdateConfigurationProps {
   cdn: string;
@@ -92,38 +92,52 @@ export default class UpdateConfiguration extends React.PureComponent<IUpdateConf
     try {
       const supportUrl = `${params.updateInstructionUrl.substring(0, params.updateInstructionUrl.indexOf("#"))}/issues`;
       return (
-        <div data-component={this.LOG_SOURCE} className={`${styles.customLearning} ${(params.appPartPage) ? styles.appPartPage : ""}`}>
+        <div data-component={this.LOG_SOURCE} className={`${styles.customLearning} updateConfiguration ${(params.appPartPage) ? styles.appPartPage : ""}`}>
           <h1>{this.props.cdn}</h1>
           <h2>{`${strings.DataUpgradeTitle} ${this.props.startVersion.toLowerCase()} -> ${this.endVersion.toLowerCase()}`}</h2>
           {this.state.state === 1 &&
             <HOOLabel label={strings.DataUpgradeIntro} />
           }
           {/* TODO Check this to make sure it works */}
-          {this.state.state !== 1 &&
+          {this.state.state === 2 &&
             <HOODialog
               changeVisibility={function noRefCheck() { }}
               type={1}
               visible
             >
-              <HOODialogHeader
-                title={strings.DataUpgradeIssue}
-                closeDisabled={true}
-                closeOnClick={function noRefCheck() { }} />
               <HOODialogContent>
-                <a href={supportUrl} rel="noreferrer" target="_blank">{strings.DataUpgradeIssueLink}</a>
+                {strings.DataUpgradeIssue} <a href={supportUrl} rel="noreferrer" target="_blank">{strings.DataUpgradeIssueLink}</a>
               </HOODialogContent>
             </HOODialog>
 
           }
           {this.state.state === 3 &&
-            <HOOLabel label={strings.DataUpgradeComplete} />
+            <HOODialog
+              changeVisibility={function noRefCheck() { }}
+              type={2}
+              visible
+            >
+              <HOODialogContent>
+                {strings.DataUpgradeComplete}
+              </HOODialogContent>
+              <HOODialogActions>
+                <HOOButton
+                  iconName="hoo-icon-close"
+                  onClick={this.buttonClick}
+                  type={0}
+                />
+              </HOODialogActions>
+            </HOODialog>
+
           }
-          {this.state.state !== 2 &&
-            <HOOButton
-              label={(this.state.state === 1) ? strings.DataUpgradeStart : strings.DataUpgradeClose}
-              onClick={this.buttonClick}
-              type={1}
-            />
+          {this.state.state === 1 &&
+            <div>
+              <HOOButton
+                label={(this.state.state === 1) ? strings.DataUpgradeStart : strings.DataUpgradeClose}
+                onClick={this.buttonClick}
+                type={1}
+              />
+            </div>
           }
           {this.state.errors > 0 &&
             <HOOLabel label={`${strings.DataUpgradeErrors}: ${this.state.errors}`} />

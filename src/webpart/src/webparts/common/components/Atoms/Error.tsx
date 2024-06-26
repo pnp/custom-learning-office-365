@@ -2,7 +2,6 @@ import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 import HOODialog from "@n8d/htwoo-react/HOODialog";
 import HOODialogContent from "@n8d/htwoo-react/HOODialogContent";
-import styles from "../../CustomLearningCommon.module.scss";
 
 export interface IErrorProps {
   message: string;
