@@ -11,7 +11,6 @@ import ContentPackItem from "../Atoms/ContentPackItem";
 import CdnEdit from '../Atoms/CdnEdit';
 import styles from "../../../common/CustomLearningCommon.module.scss";
 import { IContentPack, ICDN, CDN } from "../../../common/models/Models";
-import HOOLabel from "@n8d/htwoo-react/HOOLabel";
 
 
 export interface IContentPackProps {
@@ -113,59 +112,58 @@ export default class ContentPack extends React.Component<IContentPackProps, ICon
   public render(): React.ReactElement<IContentPackProps> {
     try {
       return (
-        <div data-component={this.LOG_SOURCE}>
+        <div data-component={this.LOG_SOURCE} className="about">
           <div className="buttonRight">
             <HOOButton type={HOOButtonType.Icon} iconName="icon-dismiss-regular"
               onClick={this.props.close} />
           </div>
-          <HOOLabel label={strings.AdminAddCdnLabel} />
-          <div data-component={this.LOG_SOURCE} className="plov">
-            {!this.state.confirmContentPack && !this.state.addCustomCdn &&
-              <>
-                <ContentPackItem
-                  imageSource={this.props.placeholderUrl}
-                  title={strings.AdminCustomCdnTitle}
-                  description={strings.AdminCustomCdnDescription}
-                  onClick={() => this.addCdn("new")}
-                />
-                {params.contentPacks && params.contentPacks.length > 0 && params.contentPacks.map((cp, idx) => {
-                  return (
-                    <ContentPackItem
-                      key={idx}
-                      imageSource={cp.Image}
-                      title={cp.Name}
-                      description={cp.Description}
-                      onClick={() => this.addCdn(cp.Id)}
-                    />
-                  );
-                })}
-              </>
-            }
-            {this.state.confirmContentPack &&
-              <div data-component={this.LOG_SOURCE}>
-                <p>{strings.AdminConfirmContentPack}</p>
-                <HOOButton
-                  label={strings.AdminCdnCompleteButton}
-                  onClick={this.confirmContentPack}
-                  rootElementAttributes={{ className: styles.buttonMargin }}
-                  type={1}
-                />
-                <HOOButton
-                  label={strings.AdminCdnCancelButton}
-                  onClick={this.cancelContentPack}
-                  rootElementAttributes={{ className: styles.buttonMargin }}
-                  type={2}
-                />
-              </div>
-            }
-            {this.state.addCustomCdn &&
-              <CdnEdit
-                cdn={new CDN()}
-                closeForm={this.cancelAddCdn}
-                upsertCdn={this.saveCdn}
+          <h3>{strings.AdminAddCdnLabel}</h3>
+
+          {!this.state.confirmContentPack && !this.state.addCustomCdn &&
+            <div className="plov">
+              <ContentPackItem
+                imageSource={this.props.placeholderUrl}
+                title={strings.AdminCustomCdnTitle}
+                description={strings.AdminCustomCdnDescription}
+                onClick={() => this.addCdn("new")}
               />
-            }
-          </div>
+              {params.contentPacks && params.contentPacks.length > 0 && params.contentPacks.map((cp, idx) => {
+                return (
+                  <ContentPackItem
+                    key={idx}
+                    imageSource={cp.Image}
+                    title={cp.Name}
+                    description={cp.Description}
+                    onClick={() => this.addCdn(cp.Id)}
+                  />
+                );
+              })}
+            </div>
+          }
+          {this.state.confirmContentPack &&
+            <div data-component={this.LOG_SOURCE}>
+              <p>{strings.AdminConfirmContentPack}</p>
+              <HOOButton
+                label={strings.AdminCdnCompleteButton}
+                onClick={this.confirmContentPack}
+                rootElementAttributes={{ className: styles.buttonMargin }}
+                type={1}
+              />
+              <HOOButton
+                label={strings.AdminCdnCancelButton}
+                onClick={this.cancelContentPack}
+                rootElementAttributes={{ className: styles.buttonMargin }}
+                type={2}
+              />
+            </div>
+          }
+          {this.state.addCustomCdn &&
+            <CdnEdit
+              cdn={new CDN()}
+              closeForm={this.cancelAddCdn}
+              upsertCdn={this.saveCdn}
+            />
+          }
         </div>
       );
     } catch (err) {

@@ -278,12 +278,14 @@ export default class AdminMenu extends React.PureComponent<IAdminMenuProps, IAdm
             </div>
           }
           {this.state.showEditCDN &&
-            <div data-component={this.LOG_SOURCE} className="headerpanel">
-              <CdnEdit
-                cdn={this.state.editCDN}
-                closeForm={this.closeEditCdn}
-                upsertCdn={this.editCdn}
-              />
+            <div className="headerpanel">
+              <div className="about">
+                <CdnEdit
+                  cdn={this.state.editCDN}
+                  closeForm={this.closeEditCdn}
+                  upsertCdn={this.editCdn}
+                />
+              </div>
             </div>
           }
 
