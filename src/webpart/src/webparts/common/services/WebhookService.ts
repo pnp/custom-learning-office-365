@@ -94,7 +94,6 @@ class WebhookServiceInternal implements IWebhookService {
         headers[this._webhookKeyHeader] = this._webhookKey;
       }
 
-      // TODO: validate that this will call power automate http endpoint without adding mode: 'no-cors', if not make it opt config
       const options: RequestInit  = {
         method: "post",
         headers,

@@ -1,18 +1,19 @@
-# Outage Notice Updated January 31,2024
-
-## The issue has been resolved as of January 31, 2024
-
-The issue with the video provider for Learning Pathways assets has been resolved. No action is needed to recieve this update. There were two changes. 1. The videos for all  assets should be playing. 2) The visual look of the assets has changed to have a gray background and a smaller header. Thank you for your patience. Please look at  [Issue 767](https://github.com/pnp/custom-learning-office-365/issues/767) for details.
-
 # Microsoft 365 learning pathways
 
 Train employees with Microsoft 365 learning pathways, a digital, customizable learning solution that helps customers transform their organization. Microsoft 365 learning pathways provides:
 
 - Comprehensive end user training content: product and scenario-based training, in video and article format
-- Easy to install: Deploy from the [SharePoint look book](https://lookbook.microsoft.com) within minutes and without any coding. Look book version is 4.3.
 - Easily customizable: Hide and show content to align with how you have set up Office 365 in your environment
 - Create your own training playlists: Add your own custom training content and playlists to feature your organization-specific scenarios
 - Always up-to-date content: As Office 365 changes, the Microsoft 365 learning pathways content will be updated. Content updates will be made and communicated to customers on a monthly basis
+
+## V5 Beta Testing
+
+We are in process of releasing our V5 beta with some added accessibility and technology updates. We are looking for users to test the beta and provide feedback. To test the new version, follow the [Update Solution](https://github.com/pnp/custom-learning-office-365?tab=readme-ov-file#updating-the-solution) and instead of the V4 package use the V5 beta sppkg file located [in the beta folder](installation/Beta/V5_0_0_Beta). Please report any issues in the [issues list](https://github.com/pnp/custom-learning-office-365/issues) and be sure to include the version number and as much details as possible so we can replicate the issue. We will be accepting feedback till July 31, 2024 and will make updates to the beta during that time.
+
+### Configuring the Custom Analytics Webhook
+
+If you would like to test the custom analytics webhook follow the [webhook configuration instructions](installation/ConfigureAnalyticsWebHook.md).
 
 ## Overview Video
 
@@ -20,16 +21,21 @@ A video was recorded during a PnP Monthly Community call and that video is avail
 
 In addition there is a new recording showing an overview of the V4 multilingual release available here: [Microsoft 365 learning pathways v4 Feature Overview](https://youtu.be/xayqnUAcGXc)
 
+## Current Release Version
+
+Stable Version: ![drop](https://img.shields.io/badge/drop-4.4-green.svg)
+
+Beta Version: ![drop](https://img.shields.io/badge/drop-5.0-green.svg)
+
 ## Prerequisites
 
 - You will need to be a tenant administrator to be able to deploy this solution to the target tenant.
-Note that you can get free developer tenant from [Office 365 developer program](https://developer.microsoft.com/en-us/office/dev-program), if needed
 - Automatic end-to-end provisioning only works with English tenants. With the version 4.x.x release, web parts are available in multiple languages, for more information see [Overview of multilingual support for learning pathways](https://docs.microsoft.com/en-us/office365/customlearning/custom_overview_ml).
 - A tenant `App Catalog` must have been created within the `Apps` option of the SharePoint Admin Center. Please see [Set up your Office 365 tenant](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant#create-app-catalog-site) and follow the Create app catalog site section. If your tenant-wide App Catalog has already been provisioned, you will need access to an account that has rights to upload a package to it to complete this setup process. Generally, this is an account with the SharePoint administrator role. If an account with that role does not work, go to the SharePoint admin center and find the Site Collection Administrators for the app catalog site collection and either log in as one of the Site Collection Administrators, or add the SharePoint administrator account that failed to the Site Collection Administrators. You will also need access to an account that is a SharePoint Tenant Admin.
 
 ## Author(s)
 
-- Peter Krebs
+- Derek Cash-Peterson (Sympraxis Consulting) - [@spdcp](https://twitter.com/spdcp)
 - Julie Turner (Sympraxis Consulting) - [@jfj1997](https://twitter.com/jfj1997)
 
 ## Disclaimer
@@ -37,10 +43,6 @@ Note that you can get free developer tenant from [Office 365 developer program](
 THIS CODE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.
 
 ## Updating the solution
-
-### Current Release Version
-
-![drop](https://img.shields.io/badge/drop-4.4-green.svg)
 
 For a list of issues/updates made in each release see the [CHANGELOG](CHANGELOG.md).
 
@@ -52,7 +54,7 @@ For a list of issues/updates made in each release see the [CHANGELOG](CHANGELOG.
 
 >Although it has been tested thoroughly, as with any major update you should plan for the worst and back up your content first. There are many third party solutions that will assist you with this, if you do not have access to any then the simplest method is to back up your content using Microsoft Excel. Specifically all the items in the _CustomPlaylists_ and _CustomAssets_ lists plus the `CustomSubCategories` item in the _CustomConfig_ list. Please see [Backup Playlist Content](./installation/BackupInstructions.md) for more detail instructions.
 >
->*Additional Update for CDN Url*
+>_Additional Update for CDN Url_
 >
 >The base CDN url of the web part has changed in version 3.x.x. For the majority of users the web part will handle this change internally, however, in some instances customers who have installed learning pathways manually between July 27, 2019 and November 4, 2019 may have an invalid CDN endpoint. If after updating to version 3.x.x the content won't load, please run the [UpdateM365lpCDN.ps1](./installation/UpdateM365lpCDN.ps1) PowerShell script to correct the CDN endpoint. Even if you do not have a problem, you may optionally run this script to update to the most optimized CDN url.
 
@@ -86,12 +88,11 @@ Finally, in your main custom learning site, navigate to the Site Pages library a
 
 ## Manually installing and configuring Microsoft 365 learning pathways
 
-We encourage you to install the Microsoft 365 learning pathways solution using the [SharePoint look book](https://lookbook.microsoft.com/), however we recognize that the permissions that service require are significant and not all organizations will feel comfortable utilizing it. To that end this section outlines a manual method of installing the solution. After complete, updates can be applied by following the section above for [Updating the solution](#Updating-the-solution).
+To install the Learning Pathways site template previously hosted from the LookBook please [follow these instructions](https://learn.microsoft.com/en-us/sharepoint/dev/solution-guidance/applying-pnp-templates). This tutorial will walk you through the process of creating a site collection, downloading and installing the site template. You will then need to run the `M365lpConfiguration.ps1` in the installation directory to set the tenant app property. After installing the solution any future updates can be applied by following the section above for [Updating the solution](#updating-the-solution).
 
 ### SharePoint Framework Version
 
-
-![drop](https://img.shields.io/badge/drop-1.12.1-green.svg)
+![drop](https://img.shields.io/badge/drop-1.19.0-green.svg)
 
 The Microsoft Custom Learning Web Part is build using the [SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview). To manually install and configure the web part and site collection you will need to complete the steps outlined in the [Manually installing and configuring Microsoft 365 learning pathways Instructions](./installation/README.md)
 
