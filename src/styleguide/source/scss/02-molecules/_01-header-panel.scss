@@ -38,7 +38,7 @@
 			display: grid;
 			gap: 0.5rem clamp(1rem, 2.7vw, 2rem);
 			grid-template-columns: 300px 1fr;
-			@media screen {
+			@media screen and (max-width: 768px){
 				grid-template-columns: 1fr;
 			}
 		}
