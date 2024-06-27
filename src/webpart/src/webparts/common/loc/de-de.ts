@@ -44,7 +44,7 @@ define([], (): IM365LPStrings => {
     DetailEditCategory: "Kategorie",
     DetailEditCategoryNoData: "Es sind keine Kategorien verfügbar.",
     DetailEditTechnology: "Technologie",
-    DetailEditLevel: "Ebene",
+    DetailEditLevel: "Fähigkeitsniveau",
     DetailEditAudience: "Zielgruppe",
     AssetSearchPlaceHolderLabel: "Suchen nach vorhandenen Objekten",
     CategoryHeading: "Neue Unterkategorie hinzufügen",
