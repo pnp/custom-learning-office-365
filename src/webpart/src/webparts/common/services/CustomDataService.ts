@@ -75,7 +75,6 @@ export class CustomDataService implements ICustomDataService {
         modifyAsset: this.modifyAsset
       };
 
-      //TODO: this signature changed, verify it still works
       const startVersion = +configManifest.substring(1, 2);
       const endVersion = +params.manifestVersion.substring(1, 2);
 
