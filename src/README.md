@@ -6,7 +6,7 @@ This solution contains two web parts that when used together provide a client si
 
 ## Used SharePoint Framework Version
 
-![drop](https://img.shields.io/badge/drop-1.12.1-green.svg)
+![drop](https://img.shields.io/badge/drop-1.19.0-green.svg)
 
 ## Applies to
 
