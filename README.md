@@ -1,15 +1,8 @@
-# Outage Notice Updated January 31,2024
-
-## The issue has been resolved as of January 31, 2024
-
-The issue with the video provider for Learning Pathways assets has been resolved. No action is needed to recieve this update. There were two changes. 1. The videos for all  assets should be playing. 2) The visual look of the assets has changed to have a gray background and a smaller header. Thank you for your patience. Please look at  [Issue 767](https://github.com/pnp/custom-learning-office-365/issues/767) for details.
-
 # Microsoft 365 learning pathways
 
 Train employees with Microsoft 365 learning pathways, a digital, customizable learning solution that helps customers transform their organization. Microsoft 365 learning pathways provides:
 
 - Comprehensive end user training content: product and scenario-based training, in video and article format
-- Easy to install: Deploy from the [SharePoint look book](https://lookbook.microsoft.com) within minutes and without any coding. Look book version is 4.3.
 - Easily customizable: Hide and show content to align with how you have set up Office 365 in your environment
 - Create your own training playlists: Add your own custom training content and playlists to feature your organization-specific scenarios
 - Always up-to-date content: As Office 365 changes, the Microsoft 365 learning pathways content will be updated. Content updates will be made and communicated to customers on a monthly basis
@@ -29,7 +22,7 @@ Note that you can get free developer tenant from [Office 365 developer program](
 
 ## Author(s)
 
-- Peter Krebs
+- Derek Cash-Peterson (Sympraxis Consulting) - [@spdcp](https://twitter.com/spdcp)
 - Julie Turner (Sympraxis Consulting) - [@jfj1997](https://twitter.com/jfj1997)
 
 ## Disclaimer
@@ -86,7 +79,7 @@ Finally, in your main custom learning site, navigate to the Site Pages library a
 
 ## Manually installing and configuring Microsoft 365 learning pathways
 
-We encourage you to install the Microsoft 365 learning pathways solution using the [SharePoint look book](https://lookbook.microsoft.com/), however we recognize that the permissions that service require are significant and not all organizations will feel comfortable utilizing it. To that end this section outlines a manual method of installing the solution. After complete, updates can be applied by following the section above for [Updating the solution](#Updating-the-solution).
+To install the Learning Pathways site template previously hosted from the LookBook please [follow these instructions](https://learn.microsoft.com/en-us/sharepoint/dev/solution-guidance/applying-pnp-templates). This tutorial will walk you through the process of creating a site collection, downloading and installing the site template. You will then need to run the `M365lpConfiguration.ps1` in the installation directory to set the tenant app property. After installing the solution any future updates can be applied by following the section above for [Updating the solution](#updating-the-solution).
 
 ### SharePoint Framework Version
 
