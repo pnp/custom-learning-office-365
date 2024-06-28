@@ -30,6 +30,19 @@ export default class CategoryItem extends React.PureComponent<ICategoryItemProps
     super(props);
   }
 
+  private handleKeyPress(event): void {
+    // Handles both mouse clicks and keyboard
+    // activate with Enter or Space
+
+    // Keypresses other then Enter and Space should not trigger a command
+    if (event instanceof KeyboardEvent && event.key !== "Enter" && event.key !== " ") {
+      return;
+    }
+    if (!this.props.dragMode) {
+      this.props.selectItem(Templates.SubCategory, this.props.subcategoryId);
+    }
+  }
+
   public render(): React.ReactElement<ICategoryItemProps> {
     try {
       let categoryImage;
@@ -45,6 +58,7 @@ export default class CategoryItem extends React.PureComponent<ICategoryItemProps
           tabIndex={0}
           className="category-item"
           onClick={() => { if (!this.props.dragMode) { this.props.selectItem(Templates.SubCategory, this.props.subcategoryId); } }}
+          onKeyDown={(e) => this.handleKeyPress(e)}
           key={`item-${this.props.index}`}
           role="button"
           draggable={this.props.dragMode}
@@ -65,7 +79,7 @@ export default class CategoryItem extends React.PureComponent<ICategoryItemProps
               </div>
             }
             <span>
-            {this.props.subcategoryName}
+              {this.props.subcategoryName}
             </span>
           </div>
         </article>

@@ -286,7 +286,8 @@ export default class AssetInfo extends React.Component<IAssetInfoProps, IAssetIn
                 placeholder={strings.AssetSearchPlaceHolderLabel}
                 value={this.state.searchValue}
                 disabled={false}
-                onChange={(event) => this.setState({ searchValue: event.currentTarget.value })} />
+                onChange={(event) => this.setState({ searchValue: event.currentTarget.value })}
+                rootElementAttributes={{ "aria-label": strings.AssetSearchPlaceHolderLabel }} />
             </div>
           }
           <HOOPivotBar

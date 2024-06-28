@@ -34,6 +34,7 @@ export default class AssetDetailsCommands extends React.PureComponent<IAssetDeta
           {!this.props.editDisabled &&
             <HOOIcon
               iconName="icon-person-available-regular"
+              rootElementAttributes={{ "aria-label": strings.AssetDetailsManageHeader }}
             />
           }
           <span className="pl-edit-title" onClick={this.props.select}>{this.props.assetTitle}</span>
@@ -45,7 +46,8 @@ export default class AssetDetailsCommands extends React.PureComponent<IAssetDeta
                 iconTitle={strings.MoveUpButton}
                 disabled={(this.props.assetIndex === 0)}
                 onClick={() => this.props.moveUp()}
-                reactKey={'moveUp'} />
+                reactKey={'moveUp'}
+                rootElementAttributes={{ "aria-label": strings.MoveUpButton }} />
             </li>
             <li>
               <HOOButton
@@ -55,6 +57,7 @@ export default class AssetDetailsCommands extends React.PureComponent<IAssetDeta
                 disabled={(this.props.assetIndex === this.props.assetTotal)}
                 type={0}
                 onClick={() => this.props.moveDown()}
+                rootElementAttributes={{ "aria-label": strings.MoveDownButton }}
               />
             </li>
             <li>
@@ -64,6 +67,7 @@ export default class AssetDetailsCommands extends React.PureComponent<IAssetDeta
                 iconTitle={strings.PlaylistRemove}
                 type={0}
                 onClick={() => this.props.remove()}
+                rootElementAttributes={{ "aria-label": strings.DeleteButton }}
               />
             </li>
             <li>
@@ -74,6 +78,7 @@ export default class AssetDetailsCommands extends React.PureComponent<IAssetDeta
                 type={0}
                 disabled={this.props.editDisabled}
                 onClick={() => this.props.edit()}
+                rootElementAttributes={{ "aria-label": strings.EditButton }}
               />
             </li>
           </menu>

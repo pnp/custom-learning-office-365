@@ -42,41 +42,7 @@ export default class SubCategoryItem extends React.Component<ISubCategoryItemPro
   constructor(props) {
     super(props);
     this.state = new SubCategoryItemState();
-    // try {
-    //   window.matchMedia("screen and (min-width: 1025px)").addEventListener('change', (event) => {
-    //     if (event.matches)
-    //       this.onMediaQueryChange(9999);
-    //   });
-    //   window.matchMedia("screen and (max-width: 1024px)").addEventListener('change', (event) => {
-    //     if (event.matches)
-    //       this.onMediaQueryChange(1024);
-    //   });
-    //   window.matchMedia("screen and (max-width: 768px)").addEventListener('change', (event) => {
-    //     if (event.matches)
-    //       this.onMediaQueryChange(768);
-    //   });
-    //   window.matchMedia("screen and (max-width: 480px)").addEventListener('change', (event) => {
-    //     if (event.matches)
-    //       this.onMediaQueryChange(480);
-    //   });
-    // } catch (err) {
-    //   Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (constructor) - ${err} -- media event listeners not supported in browser`, LogLevel.Error);
-    // }
   }
-
-  // private onMediaQueryChange = (size: number): void => {
-  //   if (size !== this.state.mediaSize) {
-  //     let clamp: number = 4;
-  //     if (size === 1024)
-  //       clamp = 2;
-  //     if (size === 768)
-  //       clamp = 5;
-  //     this.setState({
-  //       mediaSize: size,
-  //       clamp: clamp
-  //     });
-  //   }
-  // }
 
   public shouldComponentUpdate(nextProps: Readonly<ISubCategoryItemProps>, nextState: Readonly<ISubCategoryItemState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
@@ -84,22 +50,16 @@ export default class SubCategoryItem extends React.Component<ISubCategoryItemPro
     return true;
   }
 
-  // private _handleTruncate = (truncated) => {
-  //   if (this.state.truncated !== truncated) {
-  //     this.setState({
-  //       truncated
-  //     });
-  //   }
-  // }
+  private handleKeyPress(event): void {
+    // Handles both mouse clicks and keyboard
+    // activate with Enter or Space
 
-  // private _toggleLines = (event: React.MouseEvent<HTMLSpanElement, MouseEvent>): void => {
-  //   event.preventDefault();
-  //   event.stopPropagation();
-
-  //   this.setState({
-  //     expanded: !this.state.expanded
-  //   });
-  // }
+    // Keypresses other then Enter and Space should not trigger a command
+    if (event instanceof KeyboardEvent && event.key !== "Enter" && event.key !== " ") {
+      return;
+    }
+    this.props.onClick();
+  }
 
   public render(): React.ReactElement<ISubCategoryItemProps> {
     try {
@@ -108,6 +68,7 @@ export default class SubCategoryItem extends React.Component<ISubCategoryItemPro
           tabIndex={0}
           className="plov-item"
           onClick={this.props.onClick}
+          onKeyDown={(e) => this.handleKeyPress(e)}
           key={`item-${this.props.index}`}
           role="link"
           draggable={this.props.dragMode}
