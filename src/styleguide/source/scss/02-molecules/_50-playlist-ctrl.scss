@@ -1,12 +1,17 @@
 @use '../00-base/colors' as colors;
 @use '../00-base/mixin' as mixin;
 
+.playerwrapper{
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+
 .playerctrl {
 
   display: flex;
   flex-direction: row;
-
-
 
   margin-top: 1em;
   margin-bottom: 1em;
