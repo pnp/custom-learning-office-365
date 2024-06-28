@@ -37,6 +37,7 @@ Beta Version: ![drop](https://img.shields.io/badge/drop-5.0-green.svg)
 
 - Derek Cash-Peterson (Sympraxis Consulting) - [@spdcp](https://twitter.com/spdcp)
 - Julie Turner (Sympraxis Consulting) - [@jfj1997](https://twitter.com/jfj1997)
+- Stefan Bauer (N8D) - [@stfbauer](https://twitter.com/stfbauer)
 
 ## Disclaimer
 
