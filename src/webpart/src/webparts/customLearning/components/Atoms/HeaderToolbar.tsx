@@ -7,6 +7,7 @@ import HOOBreadcrumb, { HOOBreadcrumbType, IHOOBreadcrumbItem } from "@n8d/htwoo
 import { params } from "../../../common/services/Parameters";
 import { Templates, Roles, WebPartModeOptions } from "../../../common/models/Enums";
 import { UXServiceContext } from '../../../common/services/UXService';
+import * as strings from "M365LPStrings";
 
 export interface IHeaderToolbarProps {
   template: string;
@@ -93,14 +94,15 @@ export default class HeaderToolbar extends React.PureComponent<IHeaderToolbarPro
             <div className="header-actions">
               <menu className="header-toolbar">
                 <li><HOOButton type={HOOButtonType.Icon} iconName="icon-search-regular"
-                  rootElementAttributes={{ className: (this.props.panelOpen === "Search") ? "selected" : "" }}
+                  rootElementAttributes={{ className: (this.props.panelOpen === "Search") ? "selected" : "", "aria-label": strings.SearchButton }}
                   onClick={() => { this.props.buttonClick("Search"); }} /></li>
                 <li><HOOButton type={HOOButtonType.Icon} iconName="icon-link-regular"
-                  rootElementAttributes={{ className: (this.props.panelOpen === "Link") ? "selected" : "" }}
+                  rootElementAttributes={{ className: (this.props.panelOpen === "Link") ? "selected" : "", "aria-label": strings.LinkButton }}
                   onClick={() => { this.props.buttonClick("Link"); }} /></li>
                 <li><HOOButton type={HOOButtonType.Icon} iconName="icon-settings-regular"
                   disabled={(this.props.template !== Templates.Playlist && params.userRole === Roles.Visitors)}
-                  onClick={() => { this.props.buttonClick("Gear"); }} /></li>
+                  onClick={() => { this.props.buttonClick("Gear"); }}
+                  rootElementAttributes={{ "aria-label": strings.AdministerPlaylist }} /></li>
               </menu>
             </div>
           }
