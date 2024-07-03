@@ -219,7 +219,15 @@ $baseFolder: '../../../../node_modules/';
 
 			}
 		}
+
 	}
+
+
+
 }
 
+
+
+
 @include mixins.setupGrid(".customLearning", ".category-overview");
+@include mixins.plovGrid(".customLearning", ".plov");

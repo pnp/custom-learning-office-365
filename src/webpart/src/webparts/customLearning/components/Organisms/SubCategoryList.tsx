@@ -1,12 +1,12 @@
-import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
+import * as React from "react";
 
-import map from "lodash-es/map";
 import filter from "lodash-es/filter";
 import isEqual from "lodash-es/isEqual";
+import map from "lodash-es/map";
 
-import { ICategory, IPlaylist } from '../../../common/models/Models';
 import { Templates } from "../../../common/models/Enums";
+import { ICategory, IPlaylist } from '../../../common/models/Models';
 import { UXServiceContext } from '../../../common/services/UXService';
 import SubCategoryItem from "../Molecules/SubcategoryItem";
 
@@ -124,9 +124,10 @@ export default class SubCategoryList extends React.Component<ISubCategoryListPro
     const dragMode: boolean = (this._uxService.CustomSort && this._uxService.EditMode);
     try {
       return (
-        <div data-component={this.LOG_SOURCE} className={`plov ${(dragMode ? "editSort" : "")}`}>
+        <menu data-component={this.LOG_SOURCE} className={`plov ${(dragMode ? "editSort" : "")}`}>
           {this.state.detail && this.state.detail.length > 0 && (this.props.template == Templates.SubCategory) && (this.state.detail as ICategory[]).map((subcategory, idx) => {
             return (
+              <li>
               <SubCategoryItem
                 key={idx}
                 index={idx}
@@ -140,11 +141,13 @@ export default class SubCategoryList extends React.Component<ISubCategoryListPro
                 onDragEnter={this._dragEnter}
                 onDragEnd={this._endDrag}
               />
+              </li>
             );
           })
           }
           {this.state.detail && this.state.detail.length > 0 && (this.props.template == Templates.Playlists) && (this.state.detail as IPlaylist[]).map((playlist, idx) => {
             return (
+              <li>
               <SubCategoryItem
                 key={idx}
                 index={idx}
@@ -158,10 +161,11 @@ export default class SubCategoryList extends React.Component<ISubCategoryListPro
                 onDragEnter={this._dragEnter}
                 onDragEnd={this._endDrag}
               />
+              </li>
             );
           })
           }
-        </div>
+        </menu>
       );
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);
