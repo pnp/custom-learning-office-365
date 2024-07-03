@@ -3,15 +3,6 @@ $default-font-name: "Segoe UI","Segoe UI Web (West European)","Segoe UI",-apple-
 // Grid settings
 // $grid-cw: 8.333333333333%;Gridsettings$grid-cwGridsettings$grid-cwGridsettings$grid-cwGridsettings$grid-cw
 
-// @import 'node_modules/susy/sass/susy';
-// @import 'node_modules/susy/sass/plugins/svg-grid';
-
-// $susy: ('svg-grid-colors': hsl(180, 50%, 80%),
-// 'columns': susy-repeat(12),
-// 'gutters': 32px,
-// 'spread': 'wide',
-// );$susy$susy$susy
-
 @mixin default-font {
   font-family: $default-font-name;
 }
@@ -71,21 +62,3 @@ $default-font-name: "Segoe UI","Segoe UI Web (West European)","Segoe UI",-apple-
   font-size: 10px;
   font-weight: 300;
 }
-
-// @mixin gridSpanLarge($columns, ) {
-
-//   $max-width: 100%;$max-width
-//   $columnsMax: 12;$columnsMax
-//   $gutters: 11;$gutters
-//   $gutter-per-cent: 3%;$gutter-per-cent
-
-//   $singleColumnWidth: ($max-width - (11 * $gutter-per-cent)) / $columnsMax;$singleColumnWidth
-
-//   $columnWidth: $singleColumnWidth * $columns;$columnWidth
-
-//   $gutterWidth: $gutter-per-cent * ($columns - 1);$gutterWidth
-
-//   width: $columnWidth + $gutterWidth;width
-//   flex-basis: $columnWidth + $gutterWidth;flex-basis
-
-// }
