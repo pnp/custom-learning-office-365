@@ -249,6 +249,7 @@ declare interface IM365LPStrings {
   CustomizeSort: string;
   ResetSort: string;
   AlwaysShowSearchLabel: string;
+  AlwaysOpenAssetInDialog: string;
 }
 
 declare module 'M365LPStrings' {

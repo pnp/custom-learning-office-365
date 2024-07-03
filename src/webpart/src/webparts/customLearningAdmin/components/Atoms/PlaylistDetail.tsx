@@ -10,7 +10,8 @@ import forEach from "lodash-es/forEach";
 import isEqual from "lodash-es/isEqual";
 
 import * as strings from 'M365LPStrings';
-import { ICategory, IMetadataEntry, IMultilingualString, IPlaylist, ITechnology } from "../../../common/models/Models";
+import { ICategory, ILocale, IMetadataEntry, IMultilingualString, IPlaylist, ITechnology } from "../../../common/models/Models";
+import HOONotifyLabel from "@n8d/htwoo-react/HOONotifyLabel";
 
 export interface IPlaylistDetailProps {
   categories: ICategory[];
@@ -20,6 +21,7 @@ export interface IPlaylistDetailProps {
   detail: IPlaylist;
   edit: boolean;
   currentLangIndex: number;
+  currentLocale: ILocale;
   updateDetail: (detail: IPlaylist, save: boolean) => void;
 }
 
@@ -159,7 +161,18 @@ export default class PlaylistDetail extends React.Component<IPlaylistDetailProps
     }
   }
 
+  private getCategoryError = (): string => {
+    let retVal = "";
+    if (this.state.selectedCategory && this.state.selectedCategory.Name instanceof Array) {
+      if (!(this.state.selectedCategory.Name[this.props.currentLangIndex])) {
+        retVal = strings.CategoryTranslationNotAvailable;
+      }
+    }
+    return retVal;
+  }
+
   public render(): React.ReactElement<IPlaylistDetailProps> {
+    const categoryError = this.getCategoryError();
     try {
       return (
         <div className="adm-plitem-form" data-component={this.LOG_SOURCE}>
@@ -212,6 +225,17 @@ export default class PlaylistDetail extends React.Component<IPlaylistDetailProps
                 containsTypeAhead={false}
                 disabled={this.props.currentLangIndex > 0}
                 forId={strings.DetailEditCategory} />
+              {categoryError.length > 0 &&
+                <HOONotifyLabel
+                  message={`${categoryError} ${this.props.currentLocale.description}`}
+                  type={1}
+                  rootElementAttributes={{
+                    style: {
+                      color: 'red'
+                    }
+                  }}
+                />
+              }
 
               <HOOLabel label={strings.DetailEditLevel} for={strings.DetailEditLevel} required={false} />
               <HOODropDown
@@ -261,12 +285,11 @@ export default class PlaylistDetail extends React.Component<IPlaylistDetailProps
                 <p className="adm-fieldvalue">{this.props.detail.Description as string}</p>
               }
               <HOOLabel label={strings.DetailEditTechnology} />
-
               <p className="adm-fieldvalue">{(this.state.selectedTechnology) ? this.state.selectedTechnology.Name : ""}</p>
 
-              <HOOLabel label={strings.DetailEditCategory} />
 
-              {(this.state.selectedCategory instanceof Array) &&
+              <HOOLabel label={strings.DetailEditCategory} />
+              {(this.state.selectedCategory.Name instanceof Array) &&
                 <p className="adm-fieldvalue">{(this.state.selectedCategory.Name as IMultilingualString[])[0].Text}</p>
               }
               {!(this.state.selectedCategory.Name instanceof Array) &&

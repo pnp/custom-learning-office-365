@@ -242,7 +242,7 @@ define([], (): IM365LPStrings => {
     ListOptionsAlt: "Opzioni di visualizzazione. {0} selezionata.",
     ListOptionsTitle: "Aprire il menu delle opzioni di visualizzazione",
     Selected: "selezionato",
-    CategoryTranslationNotAvailable: "Una traduzione della sottocategoria selezionata non è disponibile per questa lingua.",
+    CategoryTranslationNotAvailable: "La sottocategoria selezionata richiede una traduzione nella lingua selezionata.",
     Abandoned: "Abbandonato",
     AbandonedPlaylist: "Playlist",
     RemoveLanguageLabel: "Rimuovere lingua",
@@ -256,9 +256,10 @@ define([], (): IM365LPStrings => {
     DataUpgradeReview: "Revisione",
     DataUpgradeMultilingual: "Il supporto multilingue è abilitato per i percorsi di apprendimento. Controlla le lingue abilitate per il tuo sito e disattiva le lingue che non desideri supportare.",
     M365Title: "Percorsi di apprendimento di Microsoft 365",
-    ValidateBase: "The base url for the CDN must end in a (/).",
-    CustomizeSort: "Customize Sort",
-    ResetSort: "Reset Sort",
-    AlwaysShowSearchLabel: "Mostra sempre la barra di ricerca"
+    ValidateBase: "L'URL di base della CDN deve terminare con (/).",
+    CustomizeSort: "Personalizza l'ordinamento",
+    ResetSort: "Reimposta ordinamento",
+    AlwaysShowSearchLabel: "Mostra sempre la barra di ricerca",
+    AlwaysOpenAssetInDialog: "Apri sempre le risorse nella finestra di dialogo"
   };
 });

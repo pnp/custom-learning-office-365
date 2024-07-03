@@ -17,6 +17,7 @@ export interface IAssetViewProps {
   assets: IAsset[];
   assetOrigins: string[];
   selectAsset: (assetId: string) => void;
+  openAssetsInDialog: boolean;
 }
 
 export interface IAssetViewState {
@@ -127,7 +128,13 @@ export default class AssetView extends React.Component<IAssetViewProps, IAssetVi
     try {
       if (this._IFrameCont.current) {
         this._Height = size;
-        this._IFrameCont.current.style.height = this._Height + "px";
+        if (this.props.openAssetsInDialog) {
+          this._IFrameCont.current.style.height = 'calc(100vh - 200px)';
+          this._IFrameCont.current.style.minHeight = 'calc(100vh - 200px)';
+        } else {
+          this._IFrameCont.current.style.height = this._Height + "px";
+        }
+
         //Make sure scroll is at the top
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
