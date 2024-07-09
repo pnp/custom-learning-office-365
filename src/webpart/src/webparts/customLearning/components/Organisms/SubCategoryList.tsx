@@ -1,12 +1,12 @@
-import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
+import * as React from "react";
 
-import map from "lodash-es/map";
 import filter from "lodash-es/filter";
 import isEqual from "lodash-es/isEqual";
+import map from "lodash-es/map";
 
-import { ICategory, IPlaylist } from '../../../common/models/Models';
 import { Templates } from "../../../common/models/Enums";
+import { ICategory, IPlaylist } from '../../../common/models/Models';
 import { UXServiceContext } from '../../../common/services/UXService';
 import SubCategoryItem from "../Molecules/SubcategoryItem";
 
@@ -42,7 +42,7 @@ export default class SubCategoryList extends React.Component<ISubCategoryListPro
     super(props);
     this.state = new SubCategoryListState(props.detail);
   }
-  
+
   private _reInit = (): void => {
     this.render();
   }
@@ -124,44 +124,48 @@ export default class SubCategoryList extends React.Component<ISubCategoryListPro
     const dragMode: boolean = (this._uxService.CustomSort && this._uxService.EditMode);
     try {
       return (
-        <div data-component={this.LOG_SOURCE} className={`plov ${(dragMode ? "editSort" : "")}`}>
+        <menu data-component={this.LOG_SOURCE} className={`plov ${(dragMode ? "editSort" : "")}`}>
           {this.state.detail && this.state.detail.length > 0 && (this.props.template == Templates.SubCategory) && (this.state.detail as ICategory[]).map((subcategory, idx) => {
             return (
-              <SubCategoryItem
-                key={idx}
-                index={idx}
-                dragMode={dragMode}
-                imageSource={((subcategory.Image as string).length > 0) ? (subcategory.Image as string) : null}
-                title={subcategory.Name as string}
-                description=""
-                audience={null}
-                onClick={() => { if (!dragMode) { this.props.selectItem(Templates.SubCategory, subcategory.Id); } }}
-                onDragStart={this._startDrag}
-                onDragEnter={this._dragEnter}
-                onDragEnd={this._endDrag}
-              />
+              <li key={idx}>
+                <SubCategoryItem
+                  key={idx}
+                  index={idx}
+                  dragMode={dragMode}
+                  imageSource={((subcategory.Image as string).length > 0) ? (subcategory.Image as string) : null}
+                  title={subcategory.Name as string}
+                  description=""
+                  audience={null}
+                  onClick={() => { if (!dragMode) { this.props.selectItem(Templates.SubCategory, subcategory.Id); } }}
+                  onDragStart={this._startDrag}
+                  onDragEnter={this._dragEnter}
+                  onDragEnd={this._endDrag}
+                />
+              </li>
             );
           })
           }
           {this.state.detail && this.state.detail.length > 0 && (this.props.template == Templates.Playlists) && (this.state.detail as IPlaylist[]).map((playlist, idx) => {
             return (
-              <SubCategoryItem
-                key={idx}
-                index={idx}
-                dragMode={dragMode}
-                imageSource={((playlist.Image as string).length > 0) ? playlist.Image as string : null}
-                title={playlist.Title as string}
-                description={playlist.Description as string}
-                audience={playlist.AudienceValue}
-                onClick={() => { if (!dragMode) { this.props.selectItem(Templates.Playlist, playlist.Id); } }}
-                onDragStart={this._startDrag}
-                onDragEnter={this._dragEnter}
-                onDragEnd={this._endDrag}
-              />
+              <li key={idx}>
+                <SubCategoryItem
+                  key={idx}
+                  index={idx}
+                  dragMode={dragMode}
+                  imageSource={((playlist.Image as string).length > 0) ? playlist.Image as string : null}
+                  title={playlist.Title as string}
+                  description={playlist.Description as string}
+                  audience={playlist.AudienceValue}
+                  onClick={() => { if (!dragMode) { this.props.selectItem(Templates.Playlist, playlist.Id); } }}
+                  onDragStart={this._startDrag}
+                  onDragEnter={this._dragEnter}
+                  onDragEnd={this._endDrag}
+                />
+              </li>
             );
           })
           }
-        </div>
+        </menu>
       );
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);

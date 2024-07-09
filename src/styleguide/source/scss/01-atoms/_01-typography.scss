@@ -1,43 +1,5 @@
 @use '../00-base/base.settings' as base;
 
-.sample {
-	h1 {
-		@include base.default-font;
-		@include base.fs-xxl;
-		font-weight: 100;
-	}
-
-	h2 {
-		// @include base.default-font;
-		// @include base.fs-xl;
-	}
-
-	h3 {
-		@include base.default-font;
-		@include base.fs-l;
-	}
-
-	h3 {
-		@include base.default-font;
-		@include base.fs-l;
-	}
-
-	p {
-		@include base.default-font;
-		@include base.fs-m-plus;
-
-		font-weight: 300;
-		line-height: 1.5em;
-	}
-
-	.p-lead {
-		@include base.default-font;
-		@include base.fs-xl;
-
-		line-height: 28/12em;
-	}
-}
-
 h1 {
 	@include base.default-font;
 	@include base.fs-xxl;

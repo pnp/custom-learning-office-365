@@ -29,6 +29,7 @@ export interface ICustomLearningProps {
   webpartTitle: string;
   teamsEntityId: string;
   alwaysShowSearch: boolean;
+  openAssetsInDialog: boolean;
 }
 
 export interface ICustomLearningState {
@@ -228,6 +229,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
   private _loadDetail = (template: string, templateId: string, filterValue?: IFilter, assetId?: string): void => {
     try {
       let updateHistory: boolean = true;
+      let openInDialog: boolean = false;
       if (!filterValue) {
         filterValue = new Filter();
       } else {
@@ -302,6 +304,8 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
             if (pa)
               assets.push(pa);
           }
+          openInDialog = this.props.openAssetsInDialog
+
           break;
         case Templates.Asset:
           assets = [];
@@ -330,7 +334,8 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
         currentAsset: currentAsset,
         filterValues: filterValues,
         filterValue: filterValue,
-        url: url
+        url: url,
+        renderPanel: openInDialog
       }, () => {
         //For playlist, initialize the starting asset.
         if ((this.state.template === Templates.Playlist)) {
@@ -406,7 +411,8 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
         }
         this.setState({
           url: url,
-          currentAsset: currentAsset
+          currentAsset: currentAsset,
+          renderPanel: (this.state.renderPanel || this.props.openAssetsInDialog) ? true : false
         }, () => {
           document.body.scrollTop = 0;
           document.documentElement.scrollTop = 0;
@@ -488,6 +494,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
             assets={this.state.assets}
             assetOrigins={this._uxService.CacheConfig.AssetOrigins}
             selectAsset={this._selectAsset}
+            openAssetsInDialog={(this.props.openAssetsInDialog || this.state.renderPanel) ? true : false}
           />;
           break;
         default:

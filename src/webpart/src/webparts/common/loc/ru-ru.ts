@@ -242,7 +242,7 @@ define([], (): IM365LPStrings => {
     ListOptionsAlt: "Просмотр вариантов. {0} выбрано.",
     ListOptionsTitle: "Открыть меню вариантов просмотра",
     Selected: "выбранный",
-    CategoryTranslationNotAvailable: "Перевод выбранной подкатегории недоступен для этого языка.",
+    CategoryTranslationNotAvailable: "Для выбранной подкатегории требуется перевод на выбранный язык.",
     Abandoned: "заброшенный",
     AbandonedPlaylist: "Плейлисты",
     RemoveLanguageLabel: "Удалить язык",
@@ -256,9 +256,10 @@ define([], (): IM365LPStrings => {
     DataUpgradeReview: "Просмотр",
     DataUpgradeMultilingual: "Многоязыковая поддержка включена для схем обучения. Просмотрите языки, поддерживаемые сайтом, и отключите те, которые не требуются.",
     M365Title: "Схемы обучения Microsoft 365",
-    ValidateBase: "The base url for the CDN must end in a (/).",
-    CustomizeSort: "Customize Sort",
-    ResetSort: "Reset Sort",
-    AlwaysShowSearchLabel: "Всегда показывать строку поиска"
+    ValidateBase: "Базовый URL-адрес CDN должен заканчиваться символом (/).",
+    CustomizeSort: "Настроить сортировку",
+    ResetSort: "Сбросить сортировку",
+    AlwaysShowSearchLabel: "Всегда показывать строку поиска",
+    AlwaysOpenAssetInDialog: "Всегда открывать ресурсы в диалоговом окне"
   };
 });

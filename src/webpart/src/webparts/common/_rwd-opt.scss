@@ -1,3 +1,7 @@
+// /**
+// * RWD Design optimsations for SPFx
+// @Author: Stefan Bauer - N8D
+// */
 $gridColumns: 12, 8, 6, 4;
 
 @mixin setupGrid($currentClass, $container) {
@@ -94,225 +98,96 @@ $gridColumns: 12, 8, 6, 4;
 
 }
 
+@mixin plovGrid($currentClass, $container) {
 
-// /**
-// * RWD Design optimsations for SPFx
-// @Author: Stefan Bauer
-// */
+    // switch to css modal global content
+    :global {
 
-// :global {
+        // Manage full width section
+        .CanvasZone--fullWidth {
+            .CanvasSection-xl12 {
+                :local {
+                    #{$container} {
+                        grid-template-columns: repeat(4, 1fr);
+                    }
+                }
+            }
+        }
 
-//   // full width canvas
-//   .CanvasSection-xl12 {
-//     .category-item {
-//       &:nth-child(6n+1) {
-//         margin-left: 0;
-//       }
+        // Manage full width section
+        .CanvasVerticalSection {
+            .CanvasSection-xl12 {
+                :local {
+                    #{$container} {
+                        grid-template-columns: repeat(1, 1fr);
 
-//       @media screen and (max-width: 960px) {
-//         &:nth-child(6n+1) {
-//           margin-left: 32px;
-//         }
-//       }
-//     }
-//   }
+                        @media screen and (max-width: 1280px) {
+                            grid-template-columns: repeat(1, 1fr);
+                        }
+                    }
+                }
+            }
+        }
 
-//   .CanvasSection-xl8 {
-//     .category-item {
-//       @media screen and (min-width: 1024px) {
-//         width: calc(#{span(3 narrow)} - .1px);
+        // Itterate over all grid columns
+        @each $gridCol in $gridColumns {
 
-//         &:nth-child(4n+1) {
-//           margin-left: 0;
-//         }
-//       }
-//     }
-//   }
+            // Set class to detect the grid columsn
+            .CanvasSection-xl#{$gridCol} {
 
+                // switch to local context
+                :local {
 
-//   .CanvasSection-xl6 {
-//     .category-item {
-//       @media screen and (min-width: 1280px) {
-//         width: calc(#{span(4 narrow)} - .1px);
+                    // Configure grid for current class
+                    #{$currentClass} {
 
-//         &:nth-child(3n+1) {
-//           margin-left: 0;
-//         }
-//       }
+                        :global {
+                            #{$container} {
 
-//       @media screen and (min-width: 1024px) and (max-width: 1280px) {
-//         width: calc(#{span(3 narrow)} - .1px);
+                                @if ($gridCol ==12) {
+                                    grid-template-columns: repeat(2, 1fr);
 
-//         &:nth-child(4n+1) {
-//           margin-left: 0;
-//         }
-//       }
-//     }
-//   }
+                                    @media screen and (max-width: 1024px) {
+                                        grid-template-columns: repeat(2, 1fr);
+                                    }
+                                }
+                                @if ($gridCol==4){
+                                    grid-template-columns: repeat(1, 1fr);
+                                }
+                                @if ($gridCol==8){
+                                    grid-template-columns: repeat(2, 1fr);
+                                }
+                                @if ($gridCol==4 or $gridCol ==8) {
+                                    @media screen and (max-width: 1024px) {
+                                        grid-template-columns: repeat(2, 1fr);
+                                    }
+                                }
 
-//   .CanvasSection-xl4 {
-//     .category-item {
-//       width: calc(#{span(6 narrow)} - .1px);
+                                @if ($gridCol ==6) {
+                                    grid-template-columns: repeat(1, 1fr);
 
-//       @media screen and (min-width: 1024px) {
-//         &:nth-child(2n+1) {
-//           margin-left: 0;
-//         }
-//       }
-//     }
+                                    @media screen and (max-width: 640px) {
+                                        grid-template-columns: repeat(1, 1fr);
+                                    }
+                                }
 
-//     @media screen and (max-width:480px),
-//     screen and (min-width: 1024px) {
-//       .playerctrl {
-//         max-width: 100%;
-//         white-space: normal;
+                                @media screen and (max-width: 480px) {
 
-//         flex-wrap: wrap;
+                                    grid-template-columns: repeat(1, 1fr);
 
-//         .playerctrl-title {
-//           break-after: always;
-//           flex-basis: 100%;
-//           flex-shrink: 0;
-//           order: 1;
-//           page-break-after: always;
-//         }
+                                }
 
-//         .playerctrl-prev {
-//           position: static;
+                            }
 
-//           display: flex;
+                        }
+                    }
 
-//           text-align: left;
+                }
 
-//           break-before: always;
-//           flex-basis: 50%;
-//           order: 2;
-//           page-break-before: always;
+            }
 
-//           button {
-//             min-width: 112px;
+        }
 
-//             white-space: nowrap;
-//           }
-//         }
+    }
 
-//         .playerctrl-next {
-//           position: relative;
-//           position: static;
-
-//           display: flex;
-
-//           min-width: 112px;
-
-//           break-after: always;
-//           flex-basis: 50%;
-//           flex-wrap: nowrap;
-//           justify-content: flex-end;
-//           order: 3;
-
-//           button {
-//             min-width: 112px;
-
-//             white-space: nowrap;
-//           }
-//         }
-//       }
-//     }
-//   }
-
-//   .CanvasSection-xl4 {
-//     :local {
-//       .customLearning {
-//         :global {
-//           .headerpanel {
-//             flex-direction: column;
-
-//             &-left,
-//             &-right {
-//               width: unset;
-
-//               flex-basis: unset;
-//             }
-//           }
-
-//           .plov {
-//             column-count: 1;
-//           }
-
-//           .sldpnl {
-//             width: 100%;
-//           }
-//         }
-//       }
-//     }
-//   }
-
-//   // default width for tablets
-//   @media screen and (min-width: 960px) and (max-width: 1023.9999999px) {
-
-//     .CanvasSection-xl12,
-//     .CanvasSection-xl8,
-//     .CanvasSection-xl6,
-//     .CanvasSection-xl4 {
-//       .category-item {
-//         width: calc(#{span(2 narrow)} - .1px);
-
-//         &:nth-child(6n+1) {
-//           margin-left: 0;
-//         }
-//       }
-//     }
-//   }
-
-//   @media screen and (min-width: 640px) and (max-width: 959.9999px) {
-
-//     .CanvasSection-xl12,
-//     .CanvasSection-xl8,
-//     .CanvasSection-xl6,
-//     .CanvasSection-xl4 {
-//       .category-item {
-//         width: calc(#{span(3 narrow)} - .1px);
-
-//         &:nth-child(4n+1) {
-//           margin-left: 0;
-//         }
-
-//         // &:nth-child(6n+1){
-//         //   margin-left: 32px;
-//         // }
-//       }
-//     }
-//   }
-
-//   @media screen and (min-width: 320px) and (max-width: 640px) {
-
-//     .CanvasSection-xl12,
-//     .CanvasSection-xl8,
-//     .CanvasSection-xl6,
-//     .CanvasSection-xl4 {
-//       .category-item {
-//         width: calc(#{span(6 narrow)} - .1px);
-
-//         &:nth-child(2n+1) {
-//           margin-left: 0;
-//         }
-//       }
-//     }
-//   }
-
-//   @media screen and (max-width: 320px) {
-
-//     .CanvasSection-xl12,
-//     .CanvasSection-xl8,
-//     .CanvasSection-xl6,
-//     .CanvasSection-xl4 {
-//       .category-item {
-//         width: calc(#{span(12 narrow)} - .1px);
-
-//         &:nth-child(n) {
-//           margin-left: 0;
-//         }
-//       }
-//     }
-//   }
-// }
+}

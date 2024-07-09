@@ -6,6 +6,24 @@ With version 5.0 of Microsoft 365 Learning Pathways we are introducing the abili
 
 To enable custom analytics you need to set a tenant app property. To do this the person running the script needs to be able a Global Admin and have the ability to run PowerShell or have the CLI for Microsoft 365 set up. You can use the following script to set the tenant app property using [PowerShell](ConfigureAnalyticsWebHook.ps1) or [CLI for Microsoft 365](ConfigureAnalyticsWebHook.sh).
 
+### Configuration Properties
+
+The `MicrosoftCustomLearningWebhookConfig` tenant app property contains a stringified version of the follow JSON object
+
+```Text
+{
+  Url: string;
+  AnonymizeUser: boolean;
+  KeyHeader?: string;
+  Key?: string;
+}
+```
+
+- Url: The url that will receive the POST request from instances of the Microsoft 365 learning pathways webpart.
+- AnonymizeUser: (default is true) - true sends user identity as SHA256 hash, false sends user data unencrypted.
+- KeyHeader: (Optional) - If you would like to include a custom header in the POST http call for an API key, please include the name for the property. If a Key is set but not a KeyHeader the value M365LP-API-KE will be used.
+- Key: (Optional) - The API key to include in the POST http call using the KeyHeader value as the property name.
+
 ## Test Analytics using PowerAutomate
 
 To test the analytics you can create a Cloud Flow using PowerAutomate. 

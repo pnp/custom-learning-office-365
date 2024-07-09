@@ -47,11 +47,6 @@ export default class PlaylistDetails extends React.Component<IPlaylistDetailsPro
   private _showMultilingual: boolean = params.multilingualEnabled;
   private _currentLanguageOptions: ILocale[] = [];
 
-  // private _addLanguagePlaceholder: JSX.Element = <div className="dropdownExample-placeholder">
-  //   <Icon style={{ marginRight: '8px' }} iconName={'MessageFill'} aria-hidden="true" />
-  //   <span>{strings.AddLanguagePlaceholder}</span>
-  // </div>;
-
   constructor(props) {
     super(props);
 
@@ -135,6 +130,7 @@ export default class PlaylistDetails extends React.Component<IPlaylistDetailsPro
   public render(): React.ReactElement<IPlaylistDetailsProps> {
     try {
       let currentLangIndex: number = 0;
+      let selectedLocale;
       this._currentLanguageOptions = [];
       const addLanguageOptions: IHOODropDownItem[] = [];
       if (this._showMultilingual) {
@@ -143,6 +139,9 @@ export default class PlaylistDetails extends React.Component<IPlaylistDetailsPro
           const found = findIndex(this.props.playlist.Title as IMultilingualString[], { LanguageCode: language });
           const locale: ILocale = find(params.configuredLanguages, { code: language });
           if (locale) {
+            if (this.state.currentLanguage === locale.code) {
+              selectedLocale = locale;
+            }
             if (found < 0) {
               addLanguageOptions.push({ key: language, text: locale.description, disabled: false });
             } else {
@@ -194,7 +193,7 @@ export default class PlaylistDetails extends React.Component<IPlaylistDetailsPro
                 updateDetail={this.props.updatePlaylist}
                 currentLangIndex={currentLangIndex}
                 edit={this.props.editMode}
-              />
+                currentLocale={selectedLocale} />
             </div>
           </div>
           {(this.props.playlist.Source === CustomWebpartSource.Tenant) &&

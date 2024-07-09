@@ -55,6 +55,7 @@ export interface ICustomLearningWebPartProps {
   customSort: boolean;
   customSortOrder: string[];
   alwaysShowSearch: boolean;
+  openAssetsInDialog: boolean;
 }
 
 export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustomLearningWebPartProps> {
@@ -369,6 +370,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
           webpartTitle: this.properties.title,
           teamsEntityId: this._teamsContext?.page?.subPageId ?? '',
           alwaysShowSearch: this.properties.alwaysShowSearch || false,
+          openAssetsInDialog: this.properties.openAssetsInDialog || false
         };
 
         element = React.createElement(React.Suspense, { fallback: shimmer },
@@ -591,6 +593,9 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
                 }),
                 PropertyPaneToggle('alwaysShowSearch', {
                   label: strings.AlwaysShowSearchLabel,
+                }),
+                PropertyPaneToggle('openAssetsInDialog', {
+                  label: strings.AlwaysOpenAssetInDialog,
                 })
               ]
             }
