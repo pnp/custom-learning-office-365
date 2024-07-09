@@ -128,13 +128,7 @@ export default class AssetView extends React.Component<IAssetViewProps, IAssetVi
     try {
       if (this._IFrameCont.current) {
         this._Height = size;
-        if (this.props.openAssetsInDialog) {
-          this._IFrameCont.current.style.height = 'calc(100vh - 200px)';
-          this._IFrameCont.current.style.minHeight = 'calc(100vh - 200px)';
-        } else {
-          this._IFrameCont.current.style.height = this._Height + "px";
-        }
-
+        this._IFrameCont.current.style.height = this._Height + "px";
         //Make sure scroll is at the top
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
@@ -142,6 +136,11 @@ export default class AssetView extends React.Component<IAssetViewProps, IAssetVi
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (resizeFrame) - ${err}`, LogLevel.Error);
     }
+
+    // if (this.props.openAssetsInDialog) {
+    //   this._IFrameCont.current.style.height = 'calc(100vh - 200px)';
+    //   this._IFrameCont.current.style.minHeight = 'calc(100vh - 200px)';
+    // }
   }
 
   private getContentHeight(section: HTMLElement | Element): number {
@@ -149,6 +148,17 @@ export default class AssetView extends React.Component<IAssetViewProps, IAssetVi
     const iFrameContentHeight = (iFrameContent) ? Math.max(iFrameContent.scrollHeight, (iFrameContent as HTMLElement).offsetHeight | 0, iFrameContent.clientHeight) : 0;
     return iFrameContentHeight;
   }
+
+  // private _getIframeHeight(): void {
+  //   try {
+  //     const iframe = document.getElementById("contentIFrame") as HTMLIFrameElement;
+  //     const iframeDoc = iframe.ownerDocument;
+  //     this._Height = iframeDoc.body.scrollHeight;
+  //     this.resizeIFrame();
+  //   } catch (err) {
+  //     console.error(`${this.LOG_SOURCE} (_getIframeHeight) - ${err}`);
+  //   }
+  // }
 
   private resizeIFrame = (): void => {
     try {
