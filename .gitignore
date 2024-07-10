@@ -64,5 +64,4 @@ typings/
 
 # ignore styleguide tmp folder
 .tmp
-
-V4UpgradeInstructions.md
+.DS_Store
