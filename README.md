@@ -5,7 +5,7 @@ Train employees with Microsoft 365 learning pathways, a digital, customizable le
 - Comprehensive end user training content: product and scenario-based training, in video and article format
 - Easily customizable: Hide and show content to align with how you have set up Office 365 in your environment
 - Create your own training playlists: Add your own custom training content and playlists to feature your organization-specific scenarios
-- Always up-to-date content: As Office 365 changes, the Microsoft 365 learning pathways content will be updated. Content updates will be made and communicated to customers on a monthly basis 
+- Always up-to-date content: As Office 365 changes, the Microsoft 365 learning pathways content will be updated. Content updates will be made and communicated to customers on a monthly basis
 
 ## V5 Beta Testing
 
@@ -27,11 +27,11 @@ Stable Version: ![drop](https://img.shields.io/badge/drop-4.4-green.svg)
 
 Beta Version: ![drop](https://img.shields.io/badge/drop-5.0-green.svg)
 
-## Prerequisites
+## Prerequisites & Installation
 
-- You will need to be a tenant administrator to be able to deploy this solution to the target tenant.
-- Automatic end-to-end provisioning only works with English tenants. With the version 4.x.x release, web parts are available in multiple languages, for more information see [Overview of multilingual support for learning pathways](https://docs.microsoft.com/en-us/office365/customlearning/custom_overview_ml).
-- A tenant `App Catalog` must have been created within the `Apps` option of the SharePoint Admin Center. Please see [Set up your Office 365 tenant](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant#create-app-catalog-site) and follow the Create app catalog site section. If your tenant-wide App Catalog has already been provisioned, you will need access to an account that has rights to upload a package to it to complete this setup process. Generally, this is an account with the SharePoint administrator role. If an account with that role does not work, go to the SharePoint admin center and find the Site Collection Administrators for the app catalog site collection and either log in as one of the Site Collection Administrators, or add the SharePoint administrator account that failed to the Site Collection Administrators. You will also need access to an account that is a SharePoint Tenant Admin.
+For a list of prerequisites and installation instructions see [Overview of multilingual support for learning pathways](https://github.com/pnp/custom-learning-office-365/tree/main/installation)
+
+>Note: if you are upgrading from V3 to V4 please review the [instructions](./installation/UpdateV3-V4.md) prior to doing the upgrade as these instructions will provide valuable instructions on enabling multilingual support.
 
 ## Author(s)
 
@@ -43,53 +43,9 @@ Beta Version: ![drop](https://img.shields.io/badge/drop-5.0-green.svg)
 
 THIS CODE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.
 
-## Updating the solution
+## Change Log
 
 For a list of issues/updates made in each release see the [CHANGELOG](CHANGELOG.md).
-
->**CRITICAL: Version 4.x.x Upgrade Notice**
->
->The version 4.x.x version is a major update and includes changes to the schema as well as support for multilingual pages.
-
->**_PLEASE_** review the content of [Adding Multilingual Support to Microsoft 365 learning pathways](./installation/AddingMultilingualSupport.md) document before proceeding.
-
->Although it has been tested thoroughly, as with any major update you should plan for the worst and back up your content first. There are many third party solutions that will assist you with this, if you do not have access to any then the simplest method is to back up your content using Microsoft Excel. Specifically all the items in the _CustomPlaylists_ and _CustomAssets_ lists plus the `CustomSubCategories` item in the _CustomConfig_ list. Please see [Backup Playlist Content](./installation/BackupInstructions.md) for more detail instructions.
->
->_Additional Update for CDN Url_
->
->The base CDN url of the web part has changed in version 3.x.x. For the majority of users the web part will handle this change internally, however, in some instances customers who have installed learning pathways manually between July 27, 2019 and November 4, 2019 may have an invalid CDN endpoint. If after updating to version 3.x.x the content won't load, please run the [UpdateM365lpCDN.ps1](./installation/UpdateM365lpCDN.ps1) PowerShell script to correct the CDN endpoint. Even if you do not have a problem, you may optionally run this script to update to the most optimized CDN url.
-
-The current solution is provided in it's packaged form in the web part folder [customlearning.sppkg](./installation/customlearning.sppkg).
-
-To validate the version of the web part installed in your tenant you must have access to the tenant-wide App Catalog. The custom learning solution will be installed there and you can verify the current version number against the **_version number noted above_** (not the version in the screen shot).
-
-![Tenant App Catalog Screenshot](./images/TenantAppCatalog.png)
-
-If you find that your package is out of date, you can download it from this repository and then upload it into your tenant app catalog (you will need appropriate access to do this step).
-
-To download the SPPKG file, navigate to the [customlearning.sppkg](https://github.com/pnp/custom-learning-office-365/blob/main/installation/customlearning.sppkg) file in the webpart folder of this repository. Select `Download` to save the file to your computer.
-
-![Download SPPKG file screenshot](./images/DownloadSPPKG.png)
-
-Upload this file into the app catalog by selecting upload, finding the file, and then selecting Deploy.
-
-![Upload new sppkg file to tenant app catalog](./images/UploadPackage.png)
-
-![Deploy package to tenant](./images/DeployM365LP.png)
-
-If you've updated the package you will also want to update it in the custom learning site collection. Navigate to the site collection that is your custom learning main site, then site contents, and then click on the menu for `Microsoft 365 learning pathways` and select Details. (Previously called Custom Learning for Office 365)
-
-![Site Collection App Version](./images/SiteCollectionAppVersion.png)
-
-If your application needs to be updated in this site collection you will see that there is a new version and you can select the `Get It` link to update.
-
-![Update App](./images/UpdateApp.png)
-
-Finally, in your main custom learning site, navigate to the Site Pages library and to the `CustomLearningAdmin.aspx` page. Make sure this admin page load successfully without error. You may be prompted to complete a 'Data Upgrade' if you are updating to a new major version of the solution. Please run the update and assuming everything works as expected you would then close the update and the admin web part will load the content. If you have problems at this point, please open a new issue for assistance.
-
-## Manually installing and configuring Microsoft 365 learning pathways
-
-To install the Learning Pathways site template previously hosted from the LookBook please [follow these instructions](https://learn.microsoft.com/en-us/sharepoint/dev/solution-guidance/applying-pnp-templates). This tutorial will walk you through the process of creating a site collection, downloading and installing the site template. You will then need to run the `M365lpConfiguration.ps1` in the installation directory to set the tenant app property. After installing the solution any future updates can be applied by following the section above for [Updating the solution](#updating-the-solution).
 
 ### SharePoint Framework Version
 

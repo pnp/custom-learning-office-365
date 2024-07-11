@@ -1,9 +1,11 @@
 # Manually installing and configuring Microsoft 365 learning pathways
 
 ## LookBook installation
-There are two manual options when installing Microsoft 365 Learning Pathways. The first is the manual install. This will install the webpart and set it up for use in your tenant. This will not create any pages other than the admin page and viewer page. The second installation options is to install the Learning Pathways site template previously hosted from the LookBook. To install the site template please follow [these instructions](https://learn.microsoft.com/en-us/sharepoint/dev/solution-guidance/applying-pnp-templates). This tutorial will walk you through the process of creating a site collection, downloading and installing the site template. You will then need to run the M365lpConfiguration.ps1 in the [Execute PowerShell Configuration Script](https://github.com/pnp/custom-learning-office-365/tree/main/installation#execute-powershell-configuration-script) to set the tenant app property. 
+
+There are two manual options when installing Microsoft 365 Learning Pathways. The first is the manual install. This will install the webpart and set it up for use in your tenant. This will not create any pages other than the admin page and viewer page. The second installation options is to install the Learning Pathways site template previously hosted from the LookBook. To install the site template please follow [these instructions](https://learn.microsoft.com/en-us/sharepoint/dev/solution-guidance/applying-pnp-templates). This tutorial will walk you through the process of creating a site collection, downloading and installing the site template. You will then need to run the M365lpConfiguration.ps1 in the [Execute PowerShell Configuration Script](https://github.com/pnp/custom-learning-office-365/tree/main/installation#execute-powershell-configuration-script) to set the tenant app property.
 
 ## Installation Overview
+
 The Microsoft 365 learning pathways solution is built using the [SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview) version 1.19.0.
 
 To manually install and configure the web part and site collection you will need to complete the following steps:
@@ -16,7 +18,9 @@ To manually install and configure the web part and site collection you will need
 
 ## Prerequisites
 
-You must have set up and configured the tenant-wide App Catalog. Please see [Set up your Office 365 tenant](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant#create-app-catalog-site) and follow the Create app catalog site section. If your tenant-wide App Catalog has already been provisioned you will need access to an account that has rights to upload a package to it to complete this setup process. Generally this is an account with the SharePoint administrator role. If an account with that role does not work, go to the SharePoint admin center and find the Site Collection Administrators for the app catalog site collection and either log in as one of the Site Collection Administrators, or add the SharePoint administrator account that failed to the Site Collection Administrators. You will also need access to an account that is a SharePoint Tenant Admin.
+- You will need to be a SharePoint Administrator to be able to deploy this solution to the target tenant and have Site Collection
+- You must have set up and configured the tenant-wide App Catalog. Please see [Set up your Office 365 tenant](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant#create-app-catalog-site) and follow the Create app catalog site section. If your tenant-wide App Catalog has already been provisioned you will need access to an account that has rights to upload a package to it to complete this setup process. Generally this is an account with the SharePoint administrator role. If an account with that role does not work, go to the SharePoint admin center and find the Site Collection Administrators for the app catalog site collection and either log in as one of the Site Collection Administrators, or add the SharePoint administrator account that failed to the Site Collection Administrators. You will also need access to an account that is a SharePoint Administrator.
+- Provisioning with the PnP Lookbook template will provision all 10 langauges. If you need multilingual support ensure that your default language is set on the site collection BEFORE installing the Lookbook template. For more information on multilingual support see [Overview of multilingual support for learning pathways](https://docs.microsoft.com/en-us/office365/customlearning/custom_overview_ml).
 
 ## Install WebPart in Tenant App Catalog
 
