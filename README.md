@@ -9,7 +9,7 @@ Train employees with Microsoft 365 learning pathways, a digital, customizable le
 
 ## V5 Beta Testing
 
-We are in process of releasing our V5 beta with some added accessibility and technology updates. We are looking for users to test the beta and provide feedback. To test the new version, follow the [Update Solution](https://github.com/pnp/custom-learning-office-365?tab=readme-ov-file#updating-the-solution) and instead of the V4 package use the V5 beta sppkg file located [in the beta folder](installation/Beta/V5_0_0_Beta). Please report any issues in the [issues list](https://github.com/pnp/custom-learning-office-365/issues) and be sure to include the version number and as much details as possible so we can replicate the issue. We will be accepting feedback till July 31, 2024 and will make updates to the beta during that time.
+We are in process of releasing our V5 beta with some added accessibility and technology updates. We are looking for users to test the beta and provide feedback. To test the new version, follow the [V5 Installation Instructions](./installation/V5Install.md). Please report any issues in the [issues list](https://github.com/pnp/custom-learning-office-365/issues) and be sure to include the version number and as much details as possible so we can replicate the issue. We will be accepting feedback till July 31, 2024 and will make updates to the beta during that time.
 
 ### Configuring the Custom Analytics Webhook
 
