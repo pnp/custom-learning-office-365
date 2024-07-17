@@ -122,7 +122,6 @@ export default class PlaylistControl extends React.Component<IPlaylistControlPro
               <HOODropDown
                 value={this.props.currentAsset.Id}
                 options={this.state.assetOptions}
-                containsTypeAhead={false}
                 onChange={this.selectAsset} />
               {console.log(this.state.assetOptions)}
               <HOOButton

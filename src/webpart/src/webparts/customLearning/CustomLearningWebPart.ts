@@ -365,7 +365,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
     else {
       //Render Webpart if no error condition
       if (this._validSetup && this._validConfig) {
-        //Render web part
+        //Render web part 
         const props: ICustomLearningProps = {
           webpartTitle: this.properties.title,
           teamsEntityId: this._teamsContext?.page?.subPageId ?? '',
