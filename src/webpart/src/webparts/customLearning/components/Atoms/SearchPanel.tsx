@@ -43,7 +43,7 @@ export default class SearchPanel extends React.PureComponent<ISearchPanelProps, 
   private _reInit = (): void => {
     this.render();
   }
-  
+
   private _debounceTypeahead = (fn: () => void, delay: number): void => {
     try {
       if (this._timeOutId) {
@@ -66,14 +66,19 @@ export default class SearchPanel extends React.PureComponent<ISearchPanelProps, 
               const searchResults = this._uxService.DoSearch(searchValue);
               this.setState({ searchResults });
             }, 500);
+          } else {
+            this.setState({ searchResults: [] });
           }
         });
       } else {
         if (searchValue.length > 0) {
           const searchResults = this._uxService.DoSearch(searchValue);
           this.setState({ searchResults });
+        } else {
+          this.setState({ searchResults: [] });
         }
       }
+
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (executeSearch) - ${err}`, LogLevel.Error);
     }
