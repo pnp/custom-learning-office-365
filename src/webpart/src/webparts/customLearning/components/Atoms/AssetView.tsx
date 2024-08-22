@@ -37,12 +37,12 @@ declare module 'react' {
 
 export default class AssetView extends React.Component<IAssetViewProps, IAssetViewState> {
   private LOG_SOURCE: string = "AssetView";
-  private HEIGHT_DEFAULT: number = 12000;
+  private HEIGHT_DEFAULT: number = 9000;
   private _IFrame: React.RefObject<HTMLIFrameElement>;
   private _IFrameCont;
 
   private _messageReceived: boolean = false;
-  private _Height: number = 12000;
+  private _Height: number = 9000;
 
   constructor(props) {
     super(props);

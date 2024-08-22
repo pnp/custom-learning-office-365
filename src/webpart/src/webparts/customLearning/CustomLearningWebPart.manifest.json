@@ -41,7 +41,8 @@
         "defaultCDN": "Default",
         "customSort": false,
         "customSortOrder": [],
-        "alwaysShowSearch": false
+        "alwaysShowSearch": false,
+        "openAssetsInDialog": false
       }
     }
   ]

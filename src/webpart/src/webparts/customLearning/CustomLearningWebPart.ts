@@ -370,7 +370,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
           webpartTitle: this.properties.title,
           teamsEntityId: this._teamsContext?.page?.subPageId ?? '',
           alwaysShowSearch: this.properties.alwaysShowSearch || false,
-          openAssetsInDialog: this.properties.openAssetsInDialog || false
+          openAssetsInDialog: (this.properties.openAssetsInDialog && this.displayMode != DisplayMode.Edit) ? this.properties.openAssetsInDialog : false
         };
 
         element = React.createElement(React.Suspense, { fallback: shimmer },
