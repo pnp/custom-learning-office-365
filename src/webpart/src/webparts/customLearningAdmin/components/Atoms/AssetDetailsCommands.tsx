@@ -38,50 +38,52 @@ export default class AssetDetailsCommands extends React.PureComponent<IAssetDeta
             />
           }
           <span className="pl-edit-title" onClick={this.props.select}>{this.props.assetTitle}</span>
-          <menu className="pl-edit-actions" role="toolbar">
-            <li>
-              <HOOButton
-                type={0}
-                iconName="icon-chevron-up-regular"
-                iconTitle={strings.MoveUpButton}
-                disabled={(this.props.assetIndex === 0)}
-                onClick={() => this.props.moveUp()}
-                reactKey={'moveUp'}
-                rootElementAttributes={{ "aria-label": strings.MoveUpButton }} />
-            </li>
-            <li>
-              <HOOButton
-                iconName="icon-chevron-down-regular"
-                reactKey='moveDown'
-                iconTitle={strings.MoveDownButton}
-                disabled={(this.props.assetIndex === this.props.assetTotal)}
-                type={0}
-                onClick={() => this.props.moveDown()}
-                rootElementAttributes={{ "aria-label": strings.MoveDownButton }}
-              />
-            </li>
-            <li>
-              <HOOButton
-                iconName="icon-delete-regular"
-                reactKey='remove'
-                iconTitle={strings.PlaylistRemove}
-                type={0}
-                onClick={() => this.props.remove()}
-                rootElementAttributes={{ "aria-label": strings.DeleteButton }}
-              />
-            </li>
-            <li>
-              <HOOButton
-                iconName="icon-pen-regular"
-                reactKey='edit'
-                iconTitle={strings.EditButton}
-                type={0}
-                disabled={this.props.editDisabled}
-                onClick={() => this.props.edit()}
-                rootElementAttributes={{ "aria-label": strings.EditButton }}
-              />
-            </li>
-          </menu>
+          {!this.props.allDisabled &&
+            <menu className="pl-edit-actions" role="toolbar">
+              <li>
+                <HOOButton
+                  type={0}
+                  iconName="icon-chevron-up-regular"
+                  iconTitle={strings.MoveUpButton}
+                  disabled={(this.props.assetIndex === 0)}
+                  onClick={() => this.props.moveUp()}
+                  reactKey={'moveUp'}
+                  rootElementAttributes={{ "aria-label": strings.MoveUpButton }} />
+              </li>
+              <li>
+                <HOOButton
+                  iconName="icon-chevron-down-regular"
+                  reactKey='moveDown'
+                  iconTitle={strings.MoveDownButton}
+                  disabled={(this.props.assetIndex === this.props.assetTotal)}
+                  type={0}
+                  onClick={() => this.props.moveDown()}
+                  rootElementAttributes={{ "aria-label": strings.MoveDownButton }}
+                />
+              </li>
+              <li>
+                <HOOButton
+                  iconName="icon-delete-regular"
+                  reactKey='remove'
+                  iconTitle={strings.PlaylistRemove}
+                  type={0}
+                  onClick={() => this.props.remove()}
+                  rootElementAttributes={{ "aria-label": strings.DeleteButton }}
+                />
+              </li>
+              <li>
+                <HOOButton
+                  iconName="icon-pen-regular"
+                  reactKey='edit'
+                  iconTitle={strings.EditButton}
+                  type={0}
+                  disabled={this.props.editDisabled}
+                  onClick={() => this.props.edit()}
+                  rootElementAttributes={{ "aria-label": strings.EditButton }}
+                />
+              </li>
+            </menu>
+          }
         </div>
 
       );
