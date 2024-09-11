@@ -35,7 +35,7 @@ For a list of prerequisites and installation instructions see [Overview of multi
 
 ### Teams Installation
 
-If you would like to install the Microsoft 365 Learning Pathways in Microsoft Teams you can do so as both a Teams Personal App and as a Teams Tab. For detailed instructions please follow  
+If you would like to install the Microsoft 365 Learning Pathways in Microsoft Teams you can do so as both a Teams Personal App and as a Teams Tab. YOu can get instructions for [Teams Installation in the Installation ReadMe](./installation/README.md#teams-installation).  
 
 ## Author(s)
 
