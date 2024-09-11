@@ -33,6 +33,10 @@ For a list of prerequisites and installation instructions see [Overview of multi
 
 >Note: if you are upgrading from V3 to V4 please review the [instructions](./installation/UpdateV3-V4.md) prior to doing the upgrade as these instructions will provide valuable instructions on enabling multilingual support.
 
+### Teams Installation
+
+If you would like to install the Microsoft 365 Learning Pathways in Microsoft Teams you can do so as both a Teams Personal App and as a Teams Tab. For detailed instructions please follow  
+
 ## Author(s)
 
 - Derek Cash-Peterson (Sympraxis Consulting) - [@spdcp](https://twitter.com/spdcp)
