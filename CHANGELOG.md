@@ -6,7 +6,7 @@
 - Updated PnPJS version to 4.1.1
 - User interface fixes to increase accessability and responsiveness
 - Enhancement for [#570](../../../issues/570) - Allow search bar to be visible at all time
-- Enhancement to allow for custom analytics webhook 
+- Enhancement to allow for [custom analytics webhook](./installation/ConfigureAnalyticsWebHook.md)
 
 ## Version 4.4
 
