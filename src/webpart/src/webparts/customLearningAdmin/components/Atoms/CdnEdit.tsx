@@ -1,13 +1,15 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
-import isEqual from "lodash/isEqual";
-import cloneDeep from "lodash/cloneDeep";
+import isEqual from "lodash-es/isEqual";
+import cloneDeep from "lodash-es/cloneDeep";
+import { ICDN, CDN } from "../../../common/models/Models";
+import HOOText from "@n8d/htwoo-react/HOOText";
+import HOOLabel from "@n8d/htwoo-react/HOOLabel";
+import HOOButton from "@n8d/htwoo-react/HOOButton";
 
 import * as strings from "M365LPStrings";
 import styles from "../../../common/CustomLearningCommon.module.scss";
-import { DefaultButton, PrimaryButton, TextField } from "office-ui-fabric-react";
-import { ICDN, CDN } from "../../../common/models/Models";
 
 export interface ICdnEditProps {
   cdn: ICDN;
@@ -38,15 +40,18 @@ export default class CdnEdit extends React.Component<ICdnEditProps, ICdnEditStat
     this.state = new CdnEditState(cdn);
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<ICdnEditProps>, nextState: Readonly<ICdnEditState>) {
+  public shouldComponentUpdate(nextProps: Readonly<ICdnEditProps>, nextState: Readonly<ICdnEditState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     return true;
   }
 
   private changeValue = (key: string, value: string): void => {
-    let cdn = cloneDeep(this.state.cdn);
+    const cdn = cloneDeep(this.state.cdn);
     cdn[key] = (key === "Name") ? value : value.trim();
+    if (key === "Base") {
+      this.validateBase(value)
+    }
     this.setState({
       cdn: cdn,
       formChanged: true
@@ -78,38 +83,61 @@ export default class CdnEdit extends React.Component<ICdnEditProps, ICdnEditStat
   public render(): React.ReactElement<ICdnEditProps> {
     try {
       return (
-        <>
-          <TextField
-            label={strings.AdminCdnIdLabel}
-            required={true}
+        <div className="about-field-grid">
+          <HOOLabel label={strings.AdminCdnIdLabel} for={strings.AdminCdnIdLabel} required={true} />
+          <HOOText
+            forId={strings.AdminCdnIdLabel}
+            onChange={(ev) => { this.changeValue("Id", ev.currentTarget.value); }}
             value={this.state.cdn.Id}
-            onChange={(ev, newValue) => this.changeValue("Id", newValue)}
+            inputElementAttributes={{
+              style: {
+                width: '100%'
+              }
+            }}
           />
-          <TextField
-            label={strings.AdminCdnDisplayName}
-            required={true}
+          <HOOLabel label={strings.AdminCdnDisplayName} for={strings.AdminCdnDisplayName} />
+          <HOOText
+            forId={strings.AdminCdnDisplayName}
+            onChange={(ev) => { this.changeValue("Name", ev.currentTarget.value); }}
             value={this.state.cdn.Name}
-            onChange={(ev, newValue) => this.changeValue("Name", newValue)}
+            inputElementAttributes={{
+              style: {
+                width: '100%'
+              }
+            }}
           />
-          <TextField
-            label={strings.AdminCdnBaseUrl}
-            required={true}
+
+          <HOOLabel label={strings.AdminCdnBaseUrl} for={strings.AdminCdnBaseUrl} required={true} />
+          <HOOText
+            forId={strings.AdminCdnBaseUrl}
+            onChange={(ev) => { this.changeValue("Base", ev.currentTarget.value); }}
             value={this.state.cdn.Base}
-            onChange={(ev, newValue) => this.changeValue("Base", newValue)}
-            onGetErrorMessage={this.validateBase}
+            inputElementAttributes={{
+              style: {
+                width: '100%'
+              }
+            }}
           />
-          <PrimaryButton
-            disabled={!(this.getValidForm() && this.state.formChanged)}
-            className={styles.buttonMargin}
-            text={(this.props.cdn.Name === "") ? strings.AdminCdnSaveButton : strings.AdminCdnUpdateButton}
-            onClick={this.upsertCdn}
-          />
-          <DefaultButton
-            className={styles.buttonMargin}
-            text={strings.AdminCdnCancelButton}
-            onClick={this.props.closeForm}
-          />
-        </>
+          <div>
+            <HOOButton
+              label={(this.props.cdn.Name === "") ? strings.AdminCdnSaveButton : strings.AdminCdnUpdateButton}
+              onClick={this.upsertCdn}
+              type={1}
+              disabled={!(this.getValidForm() && this.state.formChanged)}
+              rootElementAttributes={{
+                className: styles.buttonMargin
+              }}
+            />
+            <HOOButton
+              label={strings.AdminCdnCancelButton}
+              onClick={this.props.closeForm}
+              type={2}
+              rootElementAttributes={{
+                className: styles.buttonMargin
+              }}
+            />
+          </div>
+        </div>
       );
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);

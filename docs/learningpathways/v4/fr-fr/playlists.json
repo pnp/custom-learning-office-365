@@ -1132,6 +1132,28 @@
     ]
   },
   {
+    "Id": "eb082894-4f5d-4260-ad4d-d2ad2b4eeb36",
+    "Title": "Bien démarrer avec Microsoft Loop",
+    "Image": "images/playlists/get-started-with-microsoft-loop.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "11842e4a-cc70-4367-b0e7-b4c6343adec9",
+    "Description": "Microsoft Loop combine un canevas puissant et flexible avec des composants portables qui se déplacent librement et restent synchronisés entre les applications, ce qui permet aux équipes de penser, de planifier et de créer ensemble.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "9f4d8d4f-dfc6-4518-9ef6-069408c21f0c",
+      "ee2a584b-5785-4dd6-8a2d-956131a29c81",
+      "ca5252e7-8201-4490-a6d9-59f20df864c6",
+      "c5f08f54-995e-473e-be6e-7f92555da347",
+      "9b47c279-011d-4042-bd7f-8bbfca0cb136",
+      "645cc20d-5c98-4bdb-b559-380c5a27c5e5"
+    ]
+  },
+  {
     "Id": "261009d0-8b5c-4302-bb0f-c993e1ebb51c",
     "Title": "Guide de démarrage rapide de Microsoft 365 pour les entreprises",
     "Image": "images/playlists/office_365_quick_start.png",
@@ -2701,7 +2723,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "92083395-06d0-433f-ba0d-77c958d853b7",
-    "Description": "Découvrez comment ajouter du contenu à Sway. Importez du contenu dans Sway, recherchez du contenu, ajoutez des fichiers audio et vidéo, incorporez un fichier Office, un formulaire ou tout autre contenu dans Sway, ajoutez des points principaux, copiez et collez des cartes et utilisez l’QuickStarter pour créer rapidement un Sway.",
+    "Description": "Découvrez comment ajouter du contenu à Sway. Importez du contenu dans Sway, recherchez du contenu, ajoutez des fichiers vidéo et audio, incorporez un fichier Office, un formulaire ou tout autre contenu dans Sway, ajoutez des points de focus, copiez et collez des cartes et utilisez QuickStarter pour créer rapidement un Sway.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2741,7 +2763,7 @@
   },
   {
     "Id": "918d6186-5b0d-47ed-8370-8e3b66c578aa",
-    "Title": "Prise en main de Viva Connections.",
+    "Title": "Bien démarrer avec Viva Connections",
     "Image": "images/playlists/vivaconnections_getstarted.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2749,7 +2771,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6682f5e0-9f2a-4cd3-9ada-d404b8d34761",
-    "Description": "Microsoft Viva Connections fournit une base de base personnalisée et actionnable qui vous permet d’effectuer des tâches quotidiennes des employés, de rester connecté aux actualités de l’entreprise et d’accéder aux ressources—sans quitter votre hub pour le travail d’équipe.",
+    "Description": "Microsoft Viva Connections fournit une base d’accueil personnalisée et actionnable qui vous permet d’effectuer les tâches quotidiennes des employés, de rester connecté aux actualités de l’entreprise et d’accéder aux ressources, le tout sans quitter votre hub pour le travail d’équipe.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
@@ -2759,8 +2781,191 @@
     ]
   },
   {
+    "Id": "554317b2-41dc-41c2-86c9-937d738a9fb5",
+    "Title": "Get started with Viva Engage",
+    "Image": "images/playlists/Engage_GetStarted.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "5a46b888-8b65-40aa-8644-c77cd487de13",
+    "Description": "Building on Yammer, Viva Engage brings together leaders and coworkers across your organization, enabling them to answer each other's questions, share their unique stories, and create belonging at work, combining its communities, conversations, and personalized discovery with new capabilities for self-expression and sharing through storyline and stories.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "729f9fce-3aa6-4478-888c-a1543918c284"
+    ]
+  },
+  {
+    "Id": "a4d75f1e-6ca4-4a9d-8b4d-2f00d5a41cf2",
+    "Title": "Communities",
+    "Image": "images/playlists/Engage_Communities.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "5a46b888-8b65-40aa-8644-c77cd487de13",
+    "Description": "Communities in Viva Engage provide a central place for your conversations, files, events, and updates. When you create a community, you automatically become an owner of that community.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "1ee29da1-5250-4c1e-b773-e7a78cfaf5d4",
+      "3e75fbe9-1b3e-48b5-8e4b-af2716b7873a",
+      "1be9cf71-af3c-4968-bc83-b3d4ea0fc5d4"
+    ]
+  },
+  {
+    "Id": "bd9b2b47-0521-4ba5-a88d-3a23812971bf",
+    "Title": "Storyline",
+    "Image": "images/playlists/Engage_Storyline.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "5a46b888-8b65-40aa-8644-c77cd487de13",
+    "Description": "Start the conversation or join the ones around you through storyline in Viva Engage. Your storyline is where you share experiences, celebrate milestones, propose ideas, and discuss your interests both inside and outside of the workplace.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "cba3c38e-77c6-4ee6-9d5d-6c20522b1fa0",
+      "341b706c-3d99-46fc-a1a0-32d17dffbee0",
+      "8db19630-ecd0-4d1e-b735-437aea62e248",
+      "968d35c0-f60c-4e32-85a2-18aea34774bc"
+    ]
+  },
+  {
+    "Id": "5196b273-8388-483e-afda-c50c3493a73f",
+    "Title": "Leadership",
+    "Image": "images/playlists/Engage_Leadership.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "5a46b888-8b65-40aa-8644-c77cd487de13",
+    "Description": "Leadership corner in Viva Engage is a place to get to know your leaders and stay in the know. Catch up on the latest content your leaders are posting, discover the communities they've joined, and attend their AMAs to ask them questions directly. Leadership corner gives you the tools you need to learn about your leaders and build lasting connections with them.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "2885e8d8-cb6c-4c11-b9aa-ed24a497b467",
+      "2f0a64a3-c5c0-45cd-b3f1-e1e06732f89f",
+      "84753c5c-b591-43c8-a9ac-88f4698eaa7d",
+      "2cacf1e5-d1c1-4570-ad16-9ca088bb3535"
+    ]
+  },
+  {
+    "Id": "5153bc03-af4a-4073-9dc2-029eed035eed",
+    "Title": "Answers in Viva",
+    "Image": "images/playlists/Engage_Answers.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "5a46b888-8b65-40aa-8644-c77cd487de13",
+    "Description": "Answers in Viva is a new experience for people in large organizations to learn from each other by asking and answering questions. Answers is a conversational experience for asking questions and connecting employees to crowdsourced answers.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "e6331234-e044-4009-a0c8-7c519a2cf668",
+      "1816888d-a0c9-49a5-9d20-e8e5eb2ca94f",
+      "a3511146-66c0-4e59-90b7-2a1841c6674b",
+      "18446401-7118-43bb-843a-d6ec7b63d896",
+      "57ab702a-7633-47c3-a827-4f7e86bacbf7",
+      "fd3cf456-28e1-4621-b683-b0d21348a935",
+      "4da377f1-90f5-46f5-b986-f0bb703efff6",
+      "99c35fbe-d2f5-40e6-b129-fc5a2871334b",
+      "763d9317-abfd-4127-bdad-4857e8ff7c1f",
+      "ae0590f3-b222-4469-b033-44d4e2e4f12e"
+    ]
+  },
+  {
+    "Id": "53f3a2d7-4ca9-42c3-86f9-e9ee0da2ed11",
+    "Title": "Campaigns",
+    "Image": "images/playlists/Engage_Campaign.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "5a46b888-8b65-40aa-8644-c77cd487de13",
+    "Description": "Campaigns in Viva Engage are a way for you to get involved, share your voice, and build your community. You can participate in campaigns from anywhere in Viva Engage by posting with the verified campaign hashtag.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "d7b05128-f80b-4c16-b561-3ddce518eb14",
+      "b2a43cce-0e29-491a-b9f3-29c1096af9b7",
+      "953110a6-e1ed-4677-918f-97b15fc691ee",
+      "8c546afb-db48-4105-b0dd-88b339739d94"
+    ]
+  },
+  {
+    "Id": "6ebe07a9-c245-47ae-91bf-82b035bf4ae4",
+    "Title": "Analytics",
+    "Image": "images/playlists/Engage_Analytics.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "5a46b888-8b65-40aa-8644-c77cd487de13",
+    "Description": "Analytics in Viva Engage help you understand how your content performs and how to improve engagement in the future. View your analytics dashboard by selecting the analytics icon from the top navigation of Viva Engage.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "0d9f6fd5-6b0c-45a2-a0aa-0576ae1f6895"
+    ]
+  },
+  {
+    "Id": "17c3e0ab-4605-4386-9bf4-97f2222ca4cc",
+    "Title": "Viva Engage Mobile App",
+    "Image": "images/playlists/Engage_App.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "5a46b888-8b65-40aa-8644-c77cd487de13",
+    "Description": "As you'll notice, the Yammer app you love is now called Viva Engage and has all the features you need to keep you connected to your colleagues. To get started, go to your mobile device's app store and download Viva Engage.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "fc2b05a7-bb79-49e0-be9f-9e63c5a35222",
+      "266f50b0-632f-404f-a18a-f3ef3a3c8db0"
+    ]
+  },
+  {
+    "Id": "5633fa3b-20ea-4d0a-ba50-d8db1fa1ee0b",
+    "Title": "Bien démarrer avec Viva Goals",
+    "Image": "images/playlists/vivagoals_getstarted.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "0f76af36-ace7-4e17-9ccf-e82c6d5ff24f",
+    "Description": "Microsoft Viva Goals aligne les priorités stratégiques de votre organization et unit les équipes autour de missions et d’objectifs communs. Dans Bien démarrer avec Viva Goals, découvrez comment créer des objectifs, des résultats clés et des projets. Découvrez également comment case activée et mettre à jour votre progression, et noter et réfléchir à vos objectifs.",
+    "StatusTagId": "",
+    "StatusNote": "",
+    "Assets": [
+      "bd651be7-472a-4f40-8fdd-6fcead79f3ad",
+      "1b39a4b9-fcf1-4078-9f81-49593e667e9d",
+      "cd7ba092-fecb-484b-bf17-ebc80b3d25bf",
+      "70da5353-257c-41a5-adef-7a62f80acbdc",
+      "43673d1c-0dd7-42ba-97aa-6e712db171d1",
+      "0587147d-84ed-438f-8a24-5c75f539814c",
+      "c0244789-4388-4d2d-9d20-3678900d9b98",
+      "c0d9f91e-22e6-48ea-ba3a-23ebe7f059d8",
+      "365500a4-0599-41cd-bc86-09bef4206284",
+      "d195c526-1b6b-45e1-82fd-8daa21dd84a4"
+    ]
+  },
+  {
     "Id": "4914ee96-5306-44a1-a27e-0aa297b66ff8",
-    "Title": "Prise en main de Viva Learning",
+    "Title": "Bien démarrer avec Viva Learning",
     "Image": "images/playlists/vivalearning_getstarted.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2768,7 +2973,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "fa2b8bc0-3316-4102-a5a0-d71610d49d2a",
-    "Description": "Viva Learning crée un hub central pour l'apprentissage dans Teams où les gens peuvent partager, recommander et apprendre des bibliothèques de contenu à travers une organisation pour permettre aux équipes et aux individus de faire de l'apprentissage une partie naturelle de leur journée. Cela inclut l'accès aux bibliothèques de contenu de LinkedIn Learning, Microsoft Learn, Microsoft 365 Training et des fournisseurs de contenu tiers et des systèmes de gestion de l'apprentissage, ainsi qu'au contenu que votre entreprise ajoute à Viva Learning.",
+    "Description": "Viva Learning crée un hub central pour l’apprentissage dans Teams où les utilisateurs peuvent partager, recommander et apprendre à partir de bibliothèques de contenu dans un organization pour permettre aux équipes et aux individus de faire de l’apprentissage une partie naturelle de leur journée. Cela inclut l’accès aux bibliothèques de contenu de LinkedIn Learning, Microsoft Learn, Microsoft 365 Training, aux fournisseurs de contenu tiers et aux systèmes de gestion de l’apprentissage, ainsi qu’au contenu que votre entreprise ajoute à Viva Learning.",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [

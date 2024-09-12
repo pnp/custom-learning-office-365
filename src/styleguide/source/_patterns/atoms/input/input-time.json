@@ -1,0 +1,7 @@
+{
+    "id": "my-timepicker",
+    "name": "my-timepicker-name",
+    "value": "09:45",
+    "min-value": "09:00",
+    "max-value": "18:00"
+}

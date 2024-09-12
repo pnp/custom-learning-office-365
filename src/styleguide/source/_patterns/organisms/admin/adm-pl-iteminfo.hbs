@@ -1,0 +1,18 @@
+<div class="adm-plitem-info">
+    <h2>Playlist Details: Cybersecurity fundamentals</h2>
+    <div class="adm-plitem-tools">
+        {{#admin-item-toolbar}}
+        {{> molecules-cmdbar }}
+        {{/admin-item-toolbar}}
+    </div>
+    {{#admin-lang-pivot}}
+    {{> molecules-pivotbar-overflow }}
+    {{/admin-lang-pivot}}
+    {{> molecules-admin-pl-details }}
+    {{#admin-edit}}
+    <div class="adm-plitem-tools edit-details">
+        {{> atoms-button-standard }}
+    </div>
+    {{/admin-edit}}
+</div>
+{{> molecules-adm-playlist-assets }}

@@ -1,0 +1,18 @@
+@use '../../../../node_modules/@n8d/htwoo-core/lib/sass/00-base/colors/colors' as dt;
+
+.adm-plitem-infodetails{
+    // @media screen and (max-width: 768px) {
+    //     margin-inline: 1rem;
+    // }
+}
+.adm-plitem-tools{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border-block: 1px dt.$neutral-300 solid;
+    margin-bottom: 0.5rem;
+    &.edit-details{
+        padding-block: 0.5rem;
+        gap: 1rem;
+    }
+}

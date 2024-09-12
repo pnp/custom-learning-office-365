@@ -1,9 +1,9 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
-import isEqual from "lodash/isEqual";
-import find from "lodash/find";
-import { DefaultButton, PrimaryButton, Icon } from "office-ui-fabric-react";
+import isEqual from "lodash-es/isEqual";
+import find from "lodash-es/find";
+import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
 
 import { params } from "../../../common/services/Parameters";
 import * as strings from "M365LPStrings";
@@ -11,6 +11,7 @@ import ContentPackItem from "../Atoms/ContentPackItem";
 import CdnEdit from '../Atoms/CdnEdit';
 import styles from "../../../common/CustomLearningCommon.module.scss";
 import { IContentPack, ICDN, CDN } from "../../../common/models/Models";
+
 
 export interface IContentPackProps {
   //contentPacks: IContentPack[];
@@ -41,7 +42,7 @@ export default class ContentPack extends React.Component<IContentPackProps, ICon
     this.state = new ContentPackState();
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<IContentPackProps>, nextState: Readonly<IContentPackState>) {
+  public shouldComponentUpdate(nextProps: Readonly<IContentPackProps>, nextState: Readonly<IContentPackState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     return true;
@@ -53,7 +54,7 @@ export default class ContentPack extends React.Component<IContentPackProps, ICon
         addCustomCdn: true
       });
     } else {
-      let cp = find(params.contentPacks, { Id: Id });
+      const cp = find(params.contentPacks, { Id: Id });
       if (cp) {
         if (cp.ProvisionUrl.length > 0) {
           //open content pack in new window
@@ -65,7 +66,7 @@ export default class ContentPack extends React.Component<IContentPackProps, ICon
           });
         } else {
           //content pack has no provisioning step, add it
-          let cdn: ICDN = new CDN(cp.Id, cp.Name, cp.CdnBase);
+          const cdn: ICDN = new CDN(cp.Id, cp.Name, cp.CdnBase);
           await this.props.addCdn(cdn);
           this.setState({
             confirmContentPack: false,
@@ -76,10 +77,10 @@ export default class ContentPack extends React.Component<IContentPackProps, ICon
     }
   }
 
-  private confirmContentPack = async () => {
+  private confirmContentPack = async (): Promise<void> => {
     if (this.state.deployContentPack) {
       //Add content pack cdn to custom content packs
-      let cdn: ICDN = new CDN(this.state.deployContentPack.Id, this.state.deployContentPack.Name, this.state.deployContentPack.CdnBase);
+      const cdn: ICDN = new CDN(this.state.deployContentPack.Id, this.state.deployContentPack.Name, this.state.deployContentPack.CdnBase);
       await this.props.addCdn(cdn);
       this.setState({
         confirmContentPack: false,
@@ -88,7 +89,7 @@ export default class ContentPack extends React.Component<IContentPackProps, ICon
     }
   }
 
-  private cancelContentPack = () => {
+  private cancelContentPack = (): void => {
     this.setState({
       confirmContentPack: false,
       deployContentPack: null
@@ -102,7 +103,7 @@ export default class ContentPack extends React.Component<IContentPackProps, ICon
     });
   }
 
-  private cancelAddCdn = () => {
+  private cancelAddCdn = (): void => {
     this.setState({
       addCustomCdn: false
     });
@@ -111,21 +112,25 @@ export default class ContentPack extends React.Component<IContentPackProps, ICon
   public render(): React.ReactElement<IContentPackProps> {
     try {
       return (
-        <>
-          <div data-component={this.LOG_SOURCE} className="buttonRight">
-            <Icon iconName="ChromeClose" onClick={this.props.close} />
+        <div data-component={this.LOG_SOURCE} className="about">
+          <div className="buttonRight">
+            <HOOButton type={HOOButtonType.Icon} iconName="icon-dismiss-regular"
+              onClick={this.props.close} />
           </div>
+          <h3>{strings.AdminAddCdnLabel}</h3>
+
           {!this.state.confirmContentPack && !this.state.addCustomCdn &&
-            <div data-component={this.LOG_SOURCE} className="plov">
+            <div className="plov">
               <ContentPackItem
                 imageSource={this.props.placeholderUrl}
                 title={strings.AdminCustomCdnTitle}
                 description={strings.AdminCustomCdnDescription}
                 onClick={() => this.addCdn("new")}
               />
-              {params.contentPacks && params.contentPacks.length > 0 && params.contentPacks.map((cp) => {
+              {params.contentPacks && params.contentPacks.length > 0 && params.contentPacks.map((cp, idx) => {
                 return (
                   <ContentPackItem
+                    key={idx}
                     imageSource={cp.Image}
                     title={cp.Name}
                     description={cp.Description}
@@ -138,15 +143,17 @@ export default class ContentPack extends React.Component<IContentPackProps, ICon
           {this.state.confirmContentPack &&
             <div data-component={this.LOG_SOURCE}>
               <p>{strings.AdminConfirmContentPack}</p>
-              <PrimaryButton
-                className={styles.buttonMargin}
-                text={strings.AdminCdnCompleteButton}
+              <HOOButton
+                label={strings.AdminCdnCompleteButton}
                 onClick={this.confirmContentPack}
+                rootElementAttributes={{ className: styles.buttonMargin }}
+                type={1}
               />
-              <DefaultButton
-                className={styles.buttonMargin}
-                text={strings.AdminCdnCancelButton}
+              <HOOButton
+                label={strings.AdminCdnCancelButton}
                 onClick={this.cancelContentPack}
+                rootElementAttributes={{ className: styles.buttonMargin }}
+                type={2}
               />
             </div>
           }
@@ -157,7 +164,7 @@ export default class ContentPack extends React.Component<IContentPackProps, ICon
               upsertCdn={this.saveCdn}
             />
           }
-        </>
+        </div>
       );
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);

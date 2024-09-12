@@ -1,17 +1,17 @@
-import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
+import * as React from "react";
 
-import isEqual from "lodash/isEqual";
-import forEach from "lodash/forEach";
-import find from "lodash/find";
-import cloneDeep from "lodash/cloneDeep";
-import { Dropdown, IDropdownOption, Label, TextField, TooltipHost, ITooltipHostStyles } from 'office-ui-fabric-react';
+import HOODropDown, { IHOODropDownGroup, IHOODropDownItem } from "@n8d/htwoo-react/HOODropDown";
+import HOOLabel from "@n8d/htwoo-react/HOOLabel";
+import HOOText from "@n8d/htwoo-react/HOOText";
+import cloneDeep from "lodash-es/cloneDeep";
+import find from "lodash-es/find";
+import forEach from "lodash-es/forEach";
+import isEqual from "lodash-es/isEqual";
 
-import { IPlaylist, ICategory, ITechnology, IMetadataEntry, IMultilingualString } from "../../../common/models/Models";
 import * as strings from 'M365LPStrings';
-import styles from '../../../common/CustomLearningCommon.module.scss';
-import { IRecursiveList, RecursiveList } from "../../../recusiveTree/RecursiveTree";
-import RecursiveTree from "../../../recusiveTree/RecursiveTree";
+import { ICategory, ILocale, IMetadataEntry, IMultilingualString, IPlaylist, ITechnology } from "../../../common/models/Models";
+import HOONotifyLabel from "@n8d/htwoo-react/HOONotifyLabel";
 
 export interface IPlaylistDetailProps {
   categories: ICategory[];
@@ -21,26 +21,27 @@ export interface IPlaylistDetailProps {
   detail: IPlaylist;
   edit: boolean;
   currentLangIndex: number;
+  currentLocale: ILocale;
   updateDetail: (detail: IPlaylist, save: boolean) => void;
 }
 
 export interface IPlaylistDetailState {
-  recursiveCategories: IRecursiveList[];
+  recursiveCategories: IHOODropDownGroup[];
   selectedCategory: ICategory;
   selectedTechnology: ITechnology;
-  technologyDropdown: IDropdownOption[];
-  levelDropdown: IDropdownOption[];
-  audienceDropdown: IDropdownOption[];
+  technologyDropdown: IHOODropDownItem[];
+  levelDropdown: IHOODropDownItem[];
+  audienceDropdown: IHOODropDownItem[];
 }
 
 export class DetailEditState implements IPlaylistDetailState {
   constructor(
-    public recursiveCategories: IRecursiveList[] = null,
+    public recursiveCategories: IHOODropDownGroup[] = [],
     public selectedCategory: ICategory = null,
     public selectedTechnology: ITechnology = null,
-    public technologyDropdown: IDropdownOption[] = [],
-    public levelDropdown: IDropdownOption[] = [],
-    public audienceDropdown: IDropdownOption[] = []
+    public technologyDropdown: IHOODropDownItem[] = [],
+    public levelDropdown: IHOODropDownItem[] = [],
+    public audienceDropdown: IHOODropDownItem[] = []
   ) { }
 }
 
@@ -50,61 +51,60 @@ export default class PlaylistDetail extends React.Component<IPlaylistDetailProps
 
   constructor(props) {
     super(props);
-    this.initState(props);
+    this.state = this.initState(props);
   }
 
-  private initState(props: IPlaylistDetailProps) {
+  private initState(props: IPlaylistDetailProps): IPlaylistDetailState {
     try {
       let selectedCategory: ICategory = null;
       let selectedTechnology: ITechnology = null;
-      let recursiveCategories: IRecursiveList[] = null;
-      let levelDropdown: IDropdownOption[] = null;
-      let audienceDropdown: IDropdownOption[] = null;
+      const recursiveCategories: IHOODropDownGroup[] = [];
+      let levelDropdown: IHOODropDownItem[] = null;
+      let audienceDropdown: IHOODropDownItem[] = null;
 
-      recursiveCategories = [];
-      forEach(props.categories, (c): void => {
-        //
-        function fixChildren(sc: ICategory[]): IRecursiveList[] {
-          let retVal: IRecursiveList[] = [];
-          for (let i = 0; i < sc.length; i++) {
-            if (sc[i].Id === props.detail.CatId) {
-              selectedCategory = sc[i];
+      forEach(this.props.categories, (c): void => {
+        const name = (c.Name instanceof Array) ? (c.Name as IMultilingualString[])[0].Text : c.Name as string;
+        const group: IHOODropDownGroup = { groupName: name, groupItems: [] }
+        if (c.SubCategories.length > 0) {
+          const subCategories: IHOODropDownItem[] = [];
+          for (let i = 0; i < c.SubCategories.length; i++) {
+            if (c.SubCategories[i].Id === this.props.detail.CatId) {
+              selectedCategory = c.SubCategories[i];
             }
-            let name = (sc[i].Name instanceof Array) ? (sc[i].Name as IMultilingualString[])[0].Text : sc[i].Name as string;
-            let childItem = new RecursiveList(sc[i].Id, name);
-            if (sc[i].SubCategories.length > 0)
-              childItem.children = fixChildren(sc[i].SubCategories);
-            retVal.push(childItem);
+            const subCat: IHOODropDownItem = {
+              key: c.SubCategories[i].Id,
+              text: (c.SubCategories[i].Name instanceof Array) ? (c.SubCategories[i].Name as IMultilingualString[])[0].Text : c.SubCategories[i].Name as string,
+              disabled: false
+            }
+            subCategories.push(subCat)
           }
-          return retVal;
+          if (subCategories.length > 0) {
+            group.groupItems = subCategories;
+          }
         }
 
-        if (c.Id === props.detail.CatId)
-          selectedCategory = cloneDeep(c);
-        let nameCat = (c.Name instanceof Array) ? (c.Name as IMultilingualString[])[0].Text : c.Name as string;
-        let newItem = new RecursiveList(c.Id, nameCat);
-        if (c.SubCategories.length > 0)
-          newItem.children = fixChildren(c.SubCategories);
-        recursiveCategories.push(newItem);
+        if (group.groupItems.length > 0) {
+          recursiveCategories.push(group);
+        }
       });
 
       levelDropdown = this.props.levels.map((level) => {
-        return { key: level.Id, text: level.Name };
+        return { key: level.Id, text: level.Name, disabled: false };
       });
-      levelDropdown.unshift({ key: "", text: "" });
+      levelDropdown.unshift({ key: "", text: "", disabled: false });
 
       audienceDropdown = this.props.audiences.map((aud) => {
-        return { key: aud.Id, text: aud.Name };
+        return { key: aud.Id, text: aud.Name, disabled: false };
       });
-      audienceDropdown.unshift({ key: "", text: "" });
+      audienceDropdown.unshift({ key: "", text: "", disabled: false });
 
-      let technologyDropdown: IDropdownOption[] = props.technologies.map((tech) => {
-        return { key: tech.Id, text: tech.Name };
+      const technologyDropdown: IHOODropDownItem[] = props.technologies.map((tech) => {
+        return { key: tech.Id, text: tech.Name, disabled: false };
       });
-      technologyDropdown.splice(0, 0, { key: "", text: "" });
+      technologyDropdown.splice(0, 0, { key: "", text: "", disabled: false });
       selectedTechnology = find(props.technologies, { Id: props.detail.TechnologyId });
 
-      this.state = new DetailEditState(
+      return new DetailEditState(
         recursiveCategories,
         selectedCategory,
         selectedTechnology,
@@ -116,7 +116,7 @@ export default class PlaylistDetail extends React.Component<IPlaylistDetailProps
     }
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<IPlaylistDetailProps>, nextState: Readonly<IPlaylistDetailState>) {
+  public shouldComponentUpdate(nextProps: Readonly<IPlaylistDetailProps>, nextState: Readonly<IPlaylistDetailState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     if (!isEqual(nextProps.detail, this.props.detail))
@@ -124,16 +124,16 @@ export default class PlaylistDetail extends React.Component<IPlaylistDetailProps
     return true;
   }
 
-  public componentDidUpdate() {
+  public componentDidUpdate(): void {
     if (this._reinitState) {
       this._reinitState = false;
       this.initState(this.props);
     }
   }
 
-  private multiFieldChanged = (newValue: string, fieldName: string) => {
+  private multiFieldChanged = (newValue: string, fieldName: string): void => {
     try {
-      let editDetail: IPlaylist = cloneDeep(this.props.detail);
+      const editDetail: IPlaylist = cloneDeep(this.props.detail);
       (editDetail[fieldName] as IMultilingualString)[this.props.currentLangIndex].Text = newValue;
       this.props.updateDetail(editDetail, false);
     } catch (err) {
@@ -141,19 +141,19 @@ export default class PlaylistDetail extends React.Component<IPlaylistDetailProps
     }
   }
 
-  private dropdownChanged = (option: IDropdownOption, fieldName: string) => {
+  private dropdownChanged = (option: string | number, fieldName: string): void => {
     try {
-      let editDetail: IPlaylist = cloneDeep(this.props.detail);
-      editDetail[fieldName] = option.key.toString();
+      const editDetail: IPlaylist = cloneDeep(this.props.detail);
+      editDetail[fieldName] = option.toString();
       this.props.updateDetail(editDetail, false);
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (dropdownChanged) - ${err}`, LogLevel.Error);
     }
   }
 
-  private selectCatId = (itemKey: string) => {
+  private selectCatId = (itemKey: string): void => {
     try {
-      let editDetail: IPlaylist = cloneDeep(this.props.detail);
+      const editDetail: IPlaylist = cloneDeep(this.props.detail);
       editDetail.CatId = itemKey;
       this.props.updateDetail(editDetail, false);
     } catch (err) {
@@ -172,102 +172,133 @@ export default class PlaylistDetail extends React.Component<IPlaylistDetailProps
   }
 
   public render(): React.ReactElement<IPlaylistDetailProps> {
-    let categoryError = this.getCategoryError();
+    const categoryError = this.getCategoryError();
     try {
       return (
-        <div data-component={this.LOG_SOURCE}>
+        <div className="adm-plitem-form" data-component={this.LOG_SOURCE}>
           {this.props.edit &&
             <>
-              <TextField
+              <HOOLabel label={strings.DetailEditTitle} for={strings.DetailEditTitle} required={true} />
+              <HOOText
+                forId={strings.DetailEditTitle}
+                onChange={(ev) => { this.multiFieldChanged(ev.currentTarget.value, "Title"); }}
                 value={(this.props.detail.Title as IMultilingualString[])[this.props.currentLangIndex].Text}
-                label={strings.DetailEditTitle}
-                required={true}
-                onChange={(ev, newValue) => { this.multiFieldChanged(newValue, "Title"); }}
-                autoFocus={true}
+                inputElementAttributes={{
+                  autoFocus: true,
+                  style: {
+                    width: '100%'
+                  }
+                }}
               />
-              <TextField
+
+              <HOOLabel label={strings.DetailEditDescription} for={strings.DetailEditDescription} required={true} />
+              <HOOText
+                forId={strings.DetailEditDescription}
+                onChange={(ev) => { this.multiFieldChanged(ev.currentTarget.value, "Description"); }}
                 value={(this.props.detail.Description as IMultilingualString[])[this.props.currentLangIndex].Text}
-                label={strings.DetailEditDescription}
-                required={true}
-                multiline
-                rows={3}
-                onChange={(ev, newValue) => { this.multiFieldChanged(newValue, "Description"); }}
+                multiline={3}
+                inputElementAttributes={{
+                  style: {
+                    width: '100%'
+                  }
+                }}
+
               />
-              <Dropdown
-                label={strings.DetailEditTechnology}
+              <HOOLabel label={strings.DetailEditTechnology} for={strings.DetailEditTechnology} required={false} />
+              <HOODropDown
+                value={this.props.detail.TechnologyId}
                 options={this.state.technologyDropdown}
-                selectedKey={[this.props.detail.TechnologyId]}
-                onChange={(ev, option) => { this.dropdownChanged(option, "TechnologyId"); }}
-                required={false}
+                containsTypeAhead={false}
+                forId={strings.DetailEditTechnology}
                 disabled={this.props.currentLangIndex > 0}
-              />
-              <RecursiveTree
-                label={strings.DetailEditCategory}
-                noDataMessage={strings.DetailEditCategoryNoData}
-                autoExpandChildren={true}
-                required={true}
-                treeItems={this.state.recursiveCategories}
-                selectedKeys={[this.props.detail.CatId]}
-                selectItem={this.selectCatId}
+                onChange={(ev) => { this.dropdownChanged(ev, "TechnologyId"); }}
+                inputElementAttributes={{
+                  style: {
+                    width: '100%'
+                  }
+                }} />
+              <HOOLabel label={strings.DetailEditCategory} for={strings.DetailEditCategory} required={true} />
+              <HOODropDown
+                value={this.props.detail.CatId}
+                options={this.state.recursiveCategories}
+                onChange={this.selectCatId}
+                containsTypeAhead={false}
                 disabled={this.props.currentLangIndex > 0}
-                errorMessage={this.getCategoryError()}
-              />
-              <Dropdown
-                label={strings.DetailEditLevel}
+                forId={strings.DetailEditCategory} />
+              {categoryError.length > 0 &&
+                <HOONotifyLabel
+                  message={`${categoryError} ${this.props.currentLocale.description}`}
+                  type={1}
+                  rootElementAttributes={{
+                    style: {
+                      color: 'red'
+                    }
+                  }}
+                />
+              }
+
+              <HOOLabel label={strings.DetailEditLevel} for={strings.DetailEditLevel} required={false} />
+              <HOODropDown
+                value={this.props.detail.LevelId}
                 options={this.state.levelDropdown}
-                selectedKey={this.props.detail.LevelId}
-                onChange={(ev, option) => { this.dropdownChanged(option, "LevelId"); }}
-                required={false}
+                containsTypeAhead={false}
+                forId={strings.DetailEditLevel}
                 disabled={this.props.currentLangIndex > 0}
-              />
-              <Dropdown
-                label={strings.DetailEditAudience}
+                onChange={(ev) => { this.dropdownChanged(ev, "LevelId"); }}
+                inputElementAttributes={{
+                  style: {
+                    width: '100%'
+                  }
+                }} />
+
+              <HOOLabel label={strings.DetailEditAudience} for={strings.DetailEditAudience} required={false} />
+              <HOODropDown
+                value={this.props.detail.AudienceId}
                 options={this.state.audienceDropdown}
-                selectedKey={this.props.detail.AudienceId}
-                onChange={(ev, option) => { this.dropdownChanged(option, "AudienceId"); }}
-                required={false}
+                containsTypeAhead={false}
+                forId={strings.DetailEditAudience}
                 disabled={this.props.currentLangIndex > 0}
-              />
+                onChange={(ev) => { this.dropdownChanged(ev, "AudienceId"); }}
+                inputElementAttributes={{
+                  style: {
+                    width: '100%'
+                  }
+                }} />
             </>
           }
           {!this.props.edit &&
             <>
-              <Label className={styles.semiBold}>{strings.DetailEditTitle}</Label>
+              <HOOLabel label={strings.DetailEditTitle} />
+
               {(this.props.detail.Title instanceof Array) &&
                 <p className="adm-fieldvalue">{(this.props.detail.Title as IMultilingualString[])[this.props.currentLangIndex].Text}</p>
               }
               {!(this.props.detail.Title instanceof Array) &&
                 <p className="adm-fieldvalue">{this.props.detail.Title as string}</p>
               }
-              <Label className={styles.semiBold}>{strings.DetailEditDescription}</Label>
+              <HOOLabel label={strings.DetailEditDescription} />
+
               {(this.props.detail.Description instanceof Array) &&
                 <p className="adm-fieldvalue">{(this.props.detail.Description as IMultilingualString[])[this.props.currentLangIndex].Text}</p>
               }
               {!(this.props.detail.Description instanceof Array) &&
                 <p className="adm-fieldvalue">{this.props.detail.Description as string}</p>
               }
-              <Label className={styles.semiBold}>{strings.DetailEditTechnology}</Label>
+              <HOOLabel label={strings.DetailEditTechnology} />
               <p className="adm-fieldvalue">{(this.state.selectedTechnology) ? this.state.selectedTechnology.Name : ""}</p>
-              {categoryError.length > 0 &&
-                <TooltipHost
-                  id="categoryTip"
-                  content={this.getCategoryError()}
-                  calloutProps={{ gapSpace: 0 }}>
-                  <Label className={styles.semiBold} required={(categoryError.length > 0)} aria-describedby="categoryTip">{strings.DetailEditCategory}</Label>
-                </TooltipHost>
-              }
-              {categoryError.length < 1 &&
-                <Label className={styles.semiBold}>{strings.DetailEditCategory}</Label>
-              }
+
+
+              <HOOLabel label={strings.DetailEditCategory} />
               {(this.state.selectedCategory.Name instanceof Array) &&
                 <p className="adm-fieldvalue">{(this.state.selectedCategory.Name as IMultilingualString[])[0].Text}</p>
               }
               {!(this.state.selectedCategory.Name instanceof Array) &&
                 <p className="adm-fieldvalue">{(this.state.selectedCategory) ? this.state.selectedCategory.Name as string : ""}</p>
               }
-              <Label className={styles.semiBold}>{strings.DetailEditLevel}</Label>
+              <HOOLabel label={strings.DetailEditLevel} />
+
               <p className="adm-fieldvalue">{(this.props.detail.LevelValue) ? this.props.detail.LevelValue.Name : ""}</p>
-              <Label className={styles.semiBold}>{strings.DetailEditAudience}</Label>
+              <HOOLabel label={strings.DetailEditAudience} />
               <p className="adm-fieldvalue">{(this.props.detail.AudienceValue) ? this.props.detail.AudienceValue.Name : ""}</p>
             </>
           }

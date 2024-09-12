@@ -1,24 +1,27 @@
-import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
+import * as React from "react";
 
-import isEqual from "lodash/isEqual";
-import find from "lodash/find";
-import { Pivot, PivotItem, Dropdown, IDropdownOption, CommandBar, ICommandBarItemProps, IButtonProps, IContextualMenuStyles, Spinner } from 'office-ui-fabric-react';
+import { find } from "@microsoft/sp-lodash-subset";
+import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
+import HOODropDown, { IHOODropDownItem } from "@n8d/htwoo-react/HOODropDown";
+import HOOLabel from "@n8d/htwoo-react/HOOLabel";
+import HOOLoading from "@n8d/htwoo-react/HOOLoading";
+import HOOPivotBar, { IHOOPivotItem } from "@n8d/htwoo-react/HOOPivotBar";
 
-import { params } from "../../../common/services/Parameters";
 import * as strings from "M365LPStrings";
-import ContentPack from "../Molecules/ContentPack";
-import { ICDN, CDN } from "../../../common/models/Models";
-import Button from "../../../common/components/Atoms/Button";
-import { ButtonTypes } from "../../../common/models/Enums";
-import CdnEdit from "../Atoms/CdnEdit";
+import { CDN, ICDN } from "../../../common/models/Models";
+import { params } from "../../../common/services/Parameters";
 import About from "../Atoms/About";
+import CdnEdit from "../Atoms/CdnEdit";
+import ContentPack from "../Molecules/ContentPack";
+import HOOButtonMenu from "@n8d/htwoo-react/HOOButtonMenu";
 
 export interface IAdminMenuProps {
   loadingCdn: boolean;
   placeholderUrl: string;
   working: boolean;
   currentCDNId: string;
+  tabSelected: string;
   selectCDN: (cdnId: string) => Promise<boolean>;
   selectTab: (tab: string) => void;
   upsertCdn: (cdn: ICDN) => Promise<boolean>;
@@ -41,34 +44,28 @@ export class AdminMenuState implements IAdminMenuState {
   ) { }
 }
 
-export default class AdminMenu extends React.Component<IAdminMenuProps, IAdminMenuState> {
+export default class AdminMenu extends React.PureComponent<IAdminMenuProps, IAdminMenuState> {
   private LOG_SOURCE: string = "AdminMenu";
-  private _tabOptions: IDropdownOption[] = [
-    { key: "Category", text: strings.AdminMenuCategoryLabel },
-    { key: "Technology", text: strings.AdminMenuTechnologyLabel }
+  private _tabOptions: IHOODropDownItem[] = [
+    { key: "Category", text: strings.AdminMenuCategoryLabel, disabled: false },
+    { key: "Technology", text: strings.AdminMenuTechnologyLabel, disabled: false }
   ];
 
   constructor(props: IAdminMenuProps) {
     super(props);
-    let currentCDN = params.allCdn[0];
+    const currentCDN = params.allCdn[0];
     this.state = new AdminMenuState(currentCDN);
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<IAdminMenuProps>, nextState: Readonly<IAdminMenuState>) {
-    if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
-      return false;
-    return true;
-  }
-
-  private selectCDN = async (item: PivotItem): Promise<void> => {
+  private selectCDN = async (key: string | number): Promise<void> => {
     if (this.props.loadingCdn) return;
-    let retVal = await this.props.selectCDN(item.props.itemKey);
+    await this.props.selectCDN(key as string);
   }
 
   private editCdn = async (cdn: ICDN): Promise<void> => {
-    let upsertCdnResult = await this.props.upsertCdn(cdn);
+    const upsertCdnResult = await this.props.upsertCdn(cdn);
     if (upsertCdnResult) {
-      let selectCdnResult = await this.props.selectCDN(cdn.Id);
+      const selectCdnResult = await this.props.selectCDN(cdn.Id);
       if (selectCdnResult) {
         this.setState({
           editCDN: cdn,
@@ -78,25 +75,25 @@ export default class AdminMenu extends React.Component<IAdminMenuProps, IAdminMe
     }
   }
 
-  private closeEditCdn = () => {
+  private closeEditCdn = (): void => {
     this.setState({
       showEditCDN: false
     });
   }
 
-  private closeAbout = () => {
+  private closeAbout = (): void => {
     this.setState({
       showAbout: false
     });
   }
 
-  private closeContentPack = () => {
+  private closeContentPack = (): void => {
     this.setState({
       showAddContentPack: false
     });
   }
 
-  private toggleEdit = () => {
+  private toggleEdit = (): void => {
     if (this.state.showEditCDN) {
       this.setState({
         editCDN: null,
@@ -113,7 +110,7 @@ export default class AdminMenu extends React.Component<IAdminMenuProps, IAdminMe
     }
   }
 
-  private toggleAdd = () => {
+  private toggleAdd = (): void => {
     if (this.state.showAddContentPack) {
       this.setState({
         editCDN: null,
@@ -130,7 +127,7 @@ export default class AdminMenu extends React.Component<IAdminMenuProps, IAdminMe
     }
   }
 
-  private toggleAbout = () => {
+  private toggleAbout = (): void => {
     if (this.state.showAbout) {
       this.setState({
         editCDN: null,
@@ -147,10 +144,10 @@ export default class AdminMenu extends React.Component<IAdminMenuProps, IAdminMe
     }
   }
 
-  private addCdn = async (cdn: ICDN) => {
-    let upsertResult = await this.props.upsertCdn(cdn);
+  private addCdn = async (cdn: ICDN): Promise<void> => {
+    const upsertResult = await this.props.upsertCdn(cdn);
     if (upsertResult) {
-      let selectCdnResult = await this.props.selectCDN(cdn.Id);
+      const selectCdnResult = await this.props.selectCDN(cdn.Id);
       if (selectCdnResult) {
         this.setState({
           showAddContentPack: false
@@ -159,87 +156,113 @@ export default class AdminMenu extends React.Component<IAdminMenuProps, IAdminMe
     }
   }
 
-  private removeCdn = async () => {
+  private removeCdn = async (): Promise<void> => {
     if (window.confirm(strings.AdminRemoveCdn)) {
-      let removeResult = await this.props.removeCdn(this.props.currentCDNId);
+      const removeResult = await this.props.removeCdn(this.props.currentCDNId);
       if (removeResult) {
         await this.props.selectCDN(params.allCdn[0].Id);
       }
     }
   }
 
-  private openDocumentation = () => {
+  private openDocumentation = (): void => {
     window.open(`https://docs.microsoft.com/${params.defaultLanguage}/office365/customlearning/custom_successcenter`, "_blank");
   }
 
+  private getPivotItems = (): IHOOPivotItem[] => {
+    const pivotItems: IHOOPivotItem[] = [];
+    try {
+      params.allCdn.forEach(c => {
+        const pivotItem: IHOOPivotItem = {
+          text: (c.Id === 'Default') ? strings.M365Title : c.Name,
+          key: c.Id
+        };
+
+        if (pivotItem) {
+          pivotItems.push(pivotItem);
+        }
+
+      });
+    } catch (err) {
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getPivotItems) - ${err}`, LogLevel.Error);
+    }
+    return pivotItems;
+  }
+
+  private handleToolClick = (toolId: string | number): void => {
+    try {
+      if (toolId === strings.AdminAddCdnLabel) {
+        this.toggleAdd();
+      } else if (toolId === strings.AdminAbout) {
+        this.toggleAbout();
+      }
+    } catch (err) {
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getPivotItems) - ${err}`, LogLevel.Error);
+    }
+  }
+
   public render(): React.ReactElement<IAdminMenuProps> {
-    const _overflowItems: ICommandBarItemProps[] = [
-      { key: 'addContentPack', text: strings.AdminAddCdnLabel, onClick: this.toggleAdd, iconProps: { iconName: 'CloudAdd' } },
-      { key: 'about', text: strings.AdminAbout, onClick: this.toggleAbout, iconProps: { iconName: 'Info' } }
-    ];
-
-    const overflowProps: IButtonProps = { styles: { root: "transparentButton" } };
-
-    const menuStyles: Partial<IContextualMenuStyles> = {
-      root: "transparentButton"
-    };
-
     try {
       return (
         <>
-          <div data-component={this.LOG_SOURCE} className="adm-header-nav-cont">
-            <Pivot
-              className="adm-header-nav"
-              onLinkClick={this.selectCDN}
-              headersOnly={true}
-              selectedKey={this.props.currentCDNId === null ? null : this.props.currentCDNId}
-            >
-              {params.allCdn && params.allCdn.length > 0 && params.allCdn.map((cdn) => {
-                return (
-                  <PivotItem
-                    itemKey={cdn.Id}
-                    headerText={(cdn.Id === 'Default') ? strings.M365Title : cdn.Name} />
-                );
-              })}
-            </Pivot>
-            <Button buttonType={ButtonTypes.Delete}
-              onClick={this.removeCdn}
-              disabled={this.props.currentCDNId === "Default"}
-              selected={this.state.showEditCDN}
-              title={strings.AdminDeleteCdnLabel}
-            />
-            <Button buttonType={ButtonTypes.Edit}
-              onClick={this.toggleEdit}
-              disabled={this.props.currentCDNId === "Default"}
-              selected={this.state.showEditCDN}
-              title={strings.AdminEditCdnLabel}
-            />
-            <CommandBar
-              items={[]}
-              overflowItems={_overflowItems}
-              overflowButtonProps={overflowProps}
-              styles={menuStyles}
-            />
-            <Button buttonType={ButtonTypes.Question}
-              onClick={this.openDocumentation}
-              disabled={false}
-              selected={false}
-              title={strings.DocumentationLinkLabel}
-            />
+          <nav data-component={this.LOG_SOURCE} className="adm-nav" role="navigation">
+            <div className="adm-nav-menu">
+              <HOOPivotBar
+                pivotItems={this.getPivotItems()}
+                rootElementAttributes={{ className: "adm-header-nav" }}
+                selectedKey={this.props.currentCDNId === null ? null : this.props.currentCDNId}
+                onClick={(ev, option) => this.selectCDN(option.toString())}
+                hasOverflow={true}
+              />
+            </div>
+            <div className="adm-nav-actions">
+              {this.props.currentCDNId !== "Default" &&
+                <HOOButton type={HOOButtonType.Icon}
+                  iconName="icon-delete-regular"
+                  iconTitle={strings.AdminDeleteCdnLabel}
+                  onClick={this.removeCdn}
+                  disabled={this.props.currentCDNId === "Default"}
+                  rootElementAttributes={{ className: (this.state.showEditCDN) ? "selected" : "" }} />
+              }
+              {this.props.currentCDNId !== "Default" &&
+                <HOOButton type={HOOButtonType.Icon}
+                  iconName="icon-pen-regular"
+                  iconTitle={strings.AdminEditCdnLabel}
+                  onClick={this.toggleEdit}
+                  disabled={this.props.currentCDNId === "Default"}
+                  rootElementAttributes={{ className: (this.state.showEditCDN) ? "selected" : "" }} />
+              }
+              <HOOButtonMenu
+                contextItems={[{ label: strings.AdminAddCdnLabel, iconName: 'icon-cloud-add-regular' },
+                { label: strings.AdminAbout, iconName: 'icon-info-regular' }]}
+                contextItemClicked={(ev, option) => this.handleToolClick(option.label)} />
+              <HOOButton type={HOOButtonType.Icon}
+                iconName="icon-question-regular"
+                iconTitle={strings.DocumentationLinkLabel}
+                onClick={this.openDocumentation} />
+            </div>
             <div className="adm-header-spin">
               {this.props.working &&
-                <Spinner label={strings.AdminSavingNotification} labelPosition="right" />
+                <>
+                  <HOOLabel label={strings.AdminSavingNotification} />
+                  <HOOLoading
+                    maxValue={100}
+                    minValue={0}
+                    value={0} /></>
               }
             </div>
-            <Dropdown
-              className="adm-header-cat"
-              defaultSelectedKey="Category"
-              options={this._tabOptions}
-              onChange={(ev, option) => this.props.selectTab(option.key as string)}
-            />
-          </div>
+            <div className="adm-nav-filter">
+              <HOODropDown
+                value={this.props.tabSelected}
+                options={this._tabOptions}
+                containsTypeAhead={false}
+                onChange={(ev) => this.props.selectTab(ev as string)}
+                rootElementAttributes={{ className: "adm-header-cat" }} />
+            </div>
+
+          </nav>
           {this.state.showAddContentPack &&
-            <div data-component={this.LOG_SOURCE} className="adm-header-edit">
+            <div data-component={this.LOG_SOURCE} className="headerpanel">
               <ContentPack
                 placeholderUrl={this.props.placeholderUrl}
                 addCdn={this.addCdn}
@@ -247,23 +270,28 @@ export default class AdminMenu extends React.Component<IAdminMenuProps, IAdminMe
               />
             </div>
           }
-          {this.state.showEditCDN &&
-            <div data-component={this.LOG_SOURCE} className="adm-header-edit">
-              <CdnEdit
-                cdn={this.state.editCDN}
-                closeForm={this.closeEditCdn}
-                upsertCdn={this.editCdn}
-              />
-            </div>
-          }
           {this.state.showAbout &&
-            <div data-component={this.LOG_SOURCE} className="adm-header-edit">
+            <div data-component={this.LOG_SOURCE} className="headerpanel">
               <About
                 close={this.closeAbout}
               />
             </div>
           }
+          {this.state.showEditCDN &&
+            <div className="headerpanel">
+              <div className="about">
+                <CdnEdit
+                  cdn={this.state.editCDN}
+                  closeForm={this.closeEditCdn}
+                  upsertCdn={this.editCdn}
+                />
+              </div>
+            </div>
+          }
+
         </>
+
+
       );
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);

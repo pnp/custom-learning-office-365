@@ -1,32 +1,17 @@
 import * as React from "react";
 
 import { Logger, LogLevel } from '@pnp/logging';
-import isEqual from "lodash/isEqual";
 
 export interface IAssetItemProps {
   assetTitle: string;
   onClick: () => void;
 }
 
-export interface IAssetItemState {
-}
-
-export class AssetItemState implements IAssetItemState {
-  constructor() { }
-}
-
-export default class AssetItem extends React.Component<IAssetItemProps, IAssetItemState> {
+export default class AssetItem extends React.PureComponent<IAssetItemProps> {
   private LOG_SOURCE: string = "AssetItem";
 
   constructor(props) {
     super(props);
-    this.state = new AssetItemState();
-  }
-
-  public shouldComponentUpdate(nextProps: Readonly<IAssetItemProps>, nextState: Readonly<IAssetItemState>) {
-    if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
-      return false;
-    return true;
   }
 
   public render(): React.ReactElement<IAssetItemProps> {

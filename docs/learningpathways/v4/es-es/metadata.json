@@ -130,6 +130,11 @@
       "Subjects": []
     },
     {
+      "Id": "c9886f47-0928-4408-a2f7-c0328bca7122",
+      "Name": "Viva Goals",
+      "Subjects": []
+    },
+    {
       "Id": "d15c1f4d-8a62-4c33-bd6d-3fac098f3c8b",
       "Name": "Microsoft Edge",
       "Subjects": []
@@ -419,6 +424,15 @@
           "SubCategories": []
         },
         {
+          "Id": "11842e4a-cc70-4367-b0e7-b4c6343adec9",
+          "Name": "Loop",
+          "Image": "images/categories/loop.png",
+          "TechnologyId": "",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
           "Id": "77a22995-0b6d-488c-9747-dea9a7705711",
           "Name": "Microsoft Edge",
           "Image": "images/categories/Edge.png",
@@ -429,7 +443,7 @@
         },
         {
           "Id": "6682f5e0-9f2a-4cd3-9ada-d404b8d34761",
-          "Name": "Conexiones Viva",
+          "Name": "Viva Connections",
           "Image": "images/categories/vivaconnections.png",
           "TechnologyId": "e031aa9d-5421-4ee9-8bc6-1b871bafc7f0",
           "SubjectId": "",
@@ -437,8 +451,26 @@
           "SubCategories": []
         },
         {
+          "Id": "5a46b888-8b65-40aa-8644-c77cd487de13",
+          "Name": "Viva Engage",
+          "Image": "images/categories/Viva_Engage.png",
+          "TechnologyId": "",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "0f76af36-ace7-4e17-9ccf-e82c6d5ff24f",
+          "Name": "Viva Goals",
+          "Image": "images/categories/vivagoals_learningpathways.png",
+          "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
           "Id": "fa2b8bc0-3316-4102-a5a0-d71610d49d2a",
-          "Name": "Aprendizaje Viva",
+          "Name": "Viva Learning",
           "Image": "images/categories/vivalearning_learningpathways.png",
           "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
           "SubjectId": "",

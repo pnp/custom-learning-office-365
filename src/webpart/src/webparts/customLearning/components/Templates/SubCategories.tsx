@@ -1,7 +1,7 @@
 import * as React from 'react';
 
-import isEqual from "lodash/isEqual";
-import countBy from "lodash/countBy";
+import countBy from "lodash-es/countBy";
+
 import { ICategory, IPlaylist, IFilter, IFilterValue } from '../../../common/models/Models';
 import FilterPanel from "../Atoms/FilterPanel";
 import SubCategoryList from '../Organisms/SubCategoryList';
@@ -13,34 +13,17 @@ export interface ISubCategoriesProps {
   detail: ICategory[] | IPlaylist[];
   filterValue: IFilter;
   filterValues: IFilterValue[];
-  editMode: boolean;
-  customSort: boolean;
   selectItem: (template: string, templateId: string) => void;
   setFilter: (filterValue: IFilterValue) => void;
-  updateCustomSort: (customSortOrder: string[]) => void;
 }
 
-export interface ISubCategoriesState {
-}
-
-export class SubCategoriesState implements ISubCategoriesState {
-  constructor() { }
-}
-
-export default class SubCategories extends React.Component<ISubCategoriesProps, ISubCategoriesState> {
+export default class SubCategories extends React.PureComponent<ISubCategoriesProps> {
   constructor(props) {
     super(props);
-    this.state = new SubCategoriesState();
-  }
-
-  public shouldComponentUpdate(nextProps: Readonly<ISubCategoriesProps>, nextState: Readonly<ISubCategoriesState>) {
-    if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
-      return false;
-    return true;
   }
 
   public render(): React.ReactElement<ISubCategoriesProps> {
-    let filterCounts = countBy(this.props.filterValues, "Type");
+    const filterCounts = countBy(this.props.filterValues, "Type");
     return (
       <>
         {(filterCounts[FilterTypes.Audience] > 1 || filterCounts[FilterTypes.Level] > 1) &&
@@ -54,9 +37,6 @@ export default class SubCategories extends React.Component<ISubCategoriesProps, 
           detail={this.props.detail}
           template={this.props.template}
           selectItem={this.props.selectItem}
-          editMode={this.props.editMode}
-          customSort={this.props.customSort}
-          updateCustomSort={this.props.updateCustomSort}
         />
       </>
     );

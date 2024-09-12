@@ -1,0 +1,257 @@
+{
+    "adm-pivot": {
+        "menu": {
+            "menuItems": [
+                {
+                    "title": "Microsoft Learing Pathways",
+                    "isActive": true
+                }
+            ],
+            "overflowButton": {
+                "iconDown": "icon-ellipses",
+                "label": "New Item",
+                "contextMenu": {
+                    "contextItems": []
+                }
+            }
+        }
+    },
+    "admin-header-actions": {
+        "aria-label": "Additional Actions",
+        "iconDown": "icon-ellipses",
+        "contextMenu": {
+            "contextItems": [
+                {
+                    "button": {
+                        "label": "Add Content Pack",
+                        "iconname": "icon-cloud-add-regular"
+                    }
+                },
+                {
+                    "button": {
+                        "label": "About Web Part",
+                        "iconname": "icon-info-regular"
+                    }
+                }
+            ]
+        }
+    },
+    "admin-help": {
+        "button": {
+            "aria-label": "Help",
+            "iconname": "icon-question-regular"
+        }
+    },
+    "admin-header-filter": {
+        "button": {
+            "aria-label": "Show Drop Down",
+            "iconname": "icon-arrow-down"
+        },
+        "select-options": {
+            "options": [
+                {
+                    "key": "Category",
+                    "value": "Category",
+                    "disabled": ""
+                },
+                {
+                    "key": "Technology",
+                    "value": "Technology",
+                    "disabled": ""
+                }
+            ]
+        }
+    },
+    "admin-nav": {
+        "nav": {
+            "tree-icon": {
+                "button": {
+                    "iconname": "icon-arrow-right"
+                }
+            },
+            "items": [
+                {
+                    "text": "Getting started",
+                    "link": "#",
+                    "items": [
+                        {
+                            "text": "First days",
+                            "link": "#"
+                        },
+                        {
+                            "text": "Recommended",
+                            "link": "#"
+                        },
+                        {
+                            "text": "Test",
+                            "link": "#"
+                        }
+                    ]
+                },
+                {
+                    "text": "Scenarios",
+                    "link": "#",
+                    "items": [
+                        {
+                            "text": "Modern workplace",
+                            "link": "#"
+                        },
+                        {
+                            "text": "Work remotely",
+                            "link": "#"
+                        },
+                        {
+                            "text": "Security",
+                            "link": "#"
+                        },
+                        {
+                            "text": "Security",
+                            "link": "#"
+                        },
+                        {
+                            "text": "Hybrid Workplace",
+                            "link": "#"
+                        },
+                        {
+                            "text": "Accessibility",
+                            "link": "#"
+                        },
+                        {
+                            "text": "Collaboration",
+                            "link": "#"
+                        }
+                    ]
+                },
+                {
+                    "text": "Products",
+                    "link": "#",
+                    "items": [
+                        {
+                            "text": "Outlook",
+                            "link": "#",
+                            "isCurrent": true
+                        },
+                        {
+                            "text": "OneDrive",
+                            "link": "#"
+                        },
+                        {
+                            "text": "Word",
+                            "link": "#"
+                        },
+                        {
+                            "text": "Excel",
+                            "link": "#"
+                        },
+                        {
+                            "text": "PowerPoint",
+                            "link": "#"
+                        },
+                        {
+                            "text": "OneNote",
+                            "link": "#"
+                        },
+                        {
+                            "text": "SharePoint",
+                            "link": "#"
+                        },
+                        {
+                            "text": "Microsoft Teams",
+                            "link": "#"
+                        },
+                        {
+                            "text": "Viva Engage",
+                            "link": "#"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "admin-lang-pivot": {
+        "menu": {
+            "menuItems": [
+                {
+                    "title": "English - United States",
+                    "isActive": true
+                },
+                {
+                    "title": "German - Germany",
+                    "isActive": false
+                },
+                {
+                    "title": "Spanish - Spain (Modern Sort)",
+                    "isActive": false
+                },
+                {
+                    "title": "French - France",
+                    "isActive": false
+                },
+                {
+                    "title": "Italian - Italy",
+                    "isActive": false
+                },
+                {
+                    "title": "Japanese",
+                    "isActive": false
+                },
+                {
+                    "title": "Portoguese - Brazil",
+                    "isActive": false
+                },
+                {
+                    "title": "Russian",
+                    "isActive": false
+                },
+                {
+                    "title": "Chinese - People's Republic of China"
+                }
+            ],
+            "overflowButton": {
+                "iconDown": "icon-ellipses",
+                "label": "New Item",
+                "contextMenu": {
+                    "contextItems": []
+                }
+            }
+        }
+    },
+    "admin-item-toolbar": {
+        "commandBar": {
+            "cmdBarButtons": [
+                {
+                    "iconAction": "icon-copy-regular",
+                    "iconDown": "icon-copy-regular",
+                    "label": "Copy"
+                },
+                {
+                    "iconAction": "icon-dismiss-regular",
+                    "iconDown": "icon-dismiss-regular",
+                    "label": "Close Playlist"
+                }
+            ]
+        }
+    },
+    "admin-edit": {
+        "button": {
+            "aria-label": "Edit Details",
+            "iconname": "icon-edit-regular",
+            "label": "Edit Details"
+        }
+    },
+    "admin-assets": {
+        "new": {
+            "buttonCmd": {
+                "aria-label": "New Asset",
+                "iconAction": "icon-plus",
+                "label": "New Asset"
+            }
+        },
+        "search": {
+            "searchbox": {
+                "placeholder": "Search",
+                "iconname": "icon-search"
+            }
+        }
+    }
+}

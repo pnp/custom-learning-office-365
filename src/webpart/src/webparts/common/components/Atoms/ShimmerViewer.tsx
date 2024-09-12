@@ -1,45 +1,21 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
-
-import isEqual from "lodash/isEqual";
-import { Fabric, Shimmer, ShimmerElementType, mergeStyles } from 'office-ui-fabric-react';
+import HOOShimmer, { HOOShimmerShape, HOOShimmerTheme } from "@n8d/htwoo-react/HOOShimmer";
 
 import { params } from "../../services/Parameters";
 import { ShimmerView } from "../../models/Enums";
 import styles from "../../CustomLearningCommon.module.scss";
 
+
 export interface IShimmerViewerProps {
   shimmerView: string;
 }
 
-export interface IShimmerViewerState {
-}
-
-export class ShimmerViewerState implements IShimmerViewerState {
-  constructor() { }
-}
-
-export default class ShimmerViewer extends React.Component<IShimmerViewerProps, IShimmerViewerState> {
+export default class ShimmerViewer extends React.PureComponent<IShimmerViewerProps> {
   private LOG_SOURCE: string = "ShimmerViewer";
-
-  private wrapperClass = mergeStyles({
-    padding: 2,
-    selectors: {
-      '& > *': {
-        margin: '10px 0 20px 0'
-      }
-    }
-  });
 
   constructor(props) {
     super(props);
-    this.state = new ShimmerViewerState();
-  }
-
-  public shouldComponentUpdate(nextProps: Readonly<IShimmerViewerProps>, nextState: Readonly<IShimmerViewerState>) {
-    if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
-      return false;
-    return true;
   }
 
   public render(): React.ReactElement<IShimmerViewerProps> {
@@ -47,126 +23,59 @@ export default class ShimmerViewer extends React.Component<IShimmerViewerProps, 
       return (
         <div className={`${styles.loadingShimmer} ${(params.appPartPage) ? styles.appPartPage : ""}`}>
           {(this.props.shimmerView === ShimmerView.ViewerCategory) &&
-            <Fabric className={this.wrapperClass}>
-              <Shimmer
-                shimmerElements={[
-                  { type: ShimmerElementType.line, height: 29, width: 100 },
-                  { type: ShimmerElementType.gap, width: '90%' },
-                  { type: ShimmerElementType.line, height: 40, width: 40 },
-                  { type: ShimmerElementType.gap, width: 5 },
-                  { type: ShimmerElementType.line, height: 40, width: 40 },
-                  { type: ShimmerElementType.gap, width: 5 },
-                  { type: ShimmerElementType.line, height: 40, width: 40 }
-                ]}
-              />
-              <Shimmer
-                shimmerElements={[
-                  { type: ShimmerElementType.line, height: 29, width: 200 },
-                  { type: ShimmerElementType.gap, width: '90%' }
-                ]}
-              />
-              <Shimmer
-                shimmerElements={[
-                  { type: ShimmerElementType.gap, height: 160, width: 32 },
-                  { type: ShimmerElementType.line, height: 160, width: 160 },
-                  { type: ShimmerElementType.gap, height: 160, width: 32 },
-                  { type: ShimmerElementType.line, height: 160, width: 160 },
-                  { type: ShimmerElementType.gap, height: 160, width: 32 },
-                  { type: ShimmerElementType.line, height: 160, width: 160 },
-                  { type: ShimmerElementType.gap, height: 160, width: '90%' }
-                ]}
-              />
-              <Shimmer
-                shimmerElements={[
-                  { type: ShimmerElementType.line, height: 29, width: 200 },
-                  { type: ShimmerElementType.gap, width: '90%' }
-                ]}
-              />
-              <Shimmer
-                shimmerElements={[
-                  { type: ShimmerElementType.gap, height: 160, width: 32 },
-                  { type: ShimmerElementType.line, height: 160, width: 160 },
-                  { type: ShimmerElementType.gap, height: 160, width: 32 },
-                  { type: ShimmerElementType.line, height: 160, width: 160 },
-                  { type: ShimmerElementType.gap, height: 160, width: 32 },
-                  { type: ShimmerElementType.line, height: 160, width: 160 },
-                  { type: ShimmerElementType.gap, height: 160, width: 32 },
-                  { type: ShimmerElementType.line, height: 160, width: 160 },
-                  { type: ShimmerElementType.gap, height: 160, width: 32 },
-                  { type: ShimmerElementType.line, height: 160, width: 160 },
-                  { type: ShimmerElementType.gap, height: 160, width: '90%' }
-                ]}
-              />
-              <Shimmer
-                shimmerElements={[
-                  { type: ShimmerElementType.gap, height: 160, width: 32 },
-                  { type: ShimmerElementType.line, height: 160, width: 160 },
-                  { type: ShimmerElementType.gap, height: 160, width: 32 },
-                  { type: ShimmerElementType.line, height: 160, width: 160 },
-                  { type: ShimmerElementType.gap, height: 160, width: 32 },
-                  { type: ShimmerElementType.line, height: 160, width: 160 },
-                  { type: ShimmerElementType.gap, height: 160, width: 32 },
-                  { type: ShimmerElementType.line, height: 160, width: 160 },
-                  { type: ShimmerElementType.gap, height: 160, width: 32 },
-                  { type: ShimmerElementType.line, height: 160, width: 160 },
-                  { type: ShimmerElementType.gap, height: 160, width: '90%' }
-                ]}
-              />
-            </Fabric>
+            <>
+              <HOOShimmer shape={HOOShimmerShape.Container} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { display: 'flex', marginBottom: '3em' } }} >
+                <HOOShimmer shape={HOOShimmerShape.Square} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { width: '100px', height: '40px', marginRight: '900px' } }} />
+                <HOOShimmer shape={HOOShimmerShape.Square} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { width: '40px', height: '40px', marginRight: '10px' } }} />
+                <HOOShimmer shape={HOOShimmerShape.Square} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { width: '40px', height: '40px', marginRight: '10px' } }} />
+                <HOOShimmer shape={HOOShimmerShape.Square} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { width: '40px', height: '40px', marginRight: '10px' } }} />
+              </HOOShimmer>
+              <HOOShimmer shape={HOOShimmerShape.Container} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { display: 'flex', marginBottom: '3em' } }} >
+                <HOOShimmer shape={HOOShimmerShape.Square} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { width: '200px', height: '40px' } }} />
+              </HOOShimmer>
+              <HOOShimmer shape={HOOShimmerShape.Container} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { display: 'flex', marginBottom: '3em' } }} >
+                <HOOShimmer shape={HOOShimmerShape.Square} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { width: '150px', height: '150px', paddingRight: '3em' } }} />
+                <HOOShimmer shape={HOOShimmerShape.Square} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { width: '150px', height: '150px', paddingRight: '3em' } }} />
+                <HOOShimmer shape={HOOShimmerShape.Square} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { width: '150px', height: '150px', paddingRight: '3em' } }} />
+                <HOOShimmer shape={HOOShimmerShape.Square} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { width: '150px', height: '150px', paddingRight: '3em' } }} />
+              </HOOShimmer>
+              <HOOShimmer shape={HOOShimmerShape.Container} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { display: 'flex', marginBottom: '3em' } }} >
+                <HOOShimmer shape={HOOShimmerShape.Square} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { width: '200px', height: '40px' } }} />
+              </HOOShimmer>
+              <HOOShimmer shape={HOOShimmerShape.Container} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { display: 'flex', marginBottom: '3em' } }} >
+                <HOOShimmer shape={HOOShimmerShape.Square} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { width: '150px', height: '150px', paddingRight: '3em' } }} />
+                <HOOShimmer shape={HOOShimmerShape.Square} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { width: '150px', height: '150px', paddingRight: '3em' } }} />
+                <HOOShimmer shape={HOOShimmerShape.Square} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { width: '150px', height: '150px', paddingRight: '3em' } }} />
+                <HOOShimmer shape={HOOShimmerShape.Square} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { width: '150px', height: '150px', paddingRight: '3em' } }} />
+              </HOOShimmer>
+              <HOOShimmer shape={HOOShimmerShape.Container} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { display: 'flex', marginBottom: '3em' } }} >
+                <HOOShimmer shape={HOOShimmerShape.Square} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { width: '150px', height: '150px', paddingRight: '3em' } }} />
+                <HOOShimmer shape={HOOShimmerShape.Square} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { width: '150px', height: '150px', paddingRight: '3em' } }} />
+                <HOOShimmer shape={HOOShimmerShape.Square} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { width: '150px', height: '150px', paddingRight: '3em' } }} />
+                <HOOShimmer shape={HOOShimmerShape.Square} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { width: '150px', height: '150px', paddingRight: '3em' } }} />
+              </HOOShimmer>
+            </>
           }
-          {(this.props.shimmerView === ShimmerView.ViewerSubCategory) &&
-            <Fabric className={this.wrapperClass}>
-              <Shimmer
-                shimmerElements={[
-                  { type: ShimmerElementType.line, height: 29, width: 100 },
-                  { type: ShimmerElementType.gap, width: '90%' },
-                  { type: ShimmerElementType.line, height: 40, width: 40 },
-                  { type: ShimmerElementType.gap, width: 5 },
-                  { type: ShimmerElementType.line, height: 40, width: 40 },
-                  { type: ShimmerElementType.gap, width: 5 },
-                  { type: ShimmerElementType.line, height: 40, width: 40 }
-                ]}
-              />
-            </Fabric>
-          }
-          {(this.props.shimmerView === ShimmerView.ViewerPlaylist) &&
-            <Fabric className={this.wrapperClass}>
-              <Shimmer
-                shimmerElements={[
-                  { type: ShimmerElementType.line, height: 29, width: 100 },
-                  { type: ShimmerElementType.gap, width: '90%' },
-                  { type: ShimmerElementType.line, height: 40, width: 40 },
-                  { type: ShimmerElementType.gap, width: 5 },
-                  { type: ShimmerElementType.line, height: 40, width: 40 },
-                  { type: ShimmerElementType.gap, width: 5 },
-                  { type: ShimmerElementType.line, height: 40, width: 40 }
-                ]}
-              />
-            </Fabric>
+          {((this.props.shimmerView === ShimmerView.ViewerSubCategory) || (this.props.shimmerView === ShimmerView.ViewerPlaylist)) &&
+            <HOOShimmer shape={HOOShimmerShape.Container} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { display: 'flex', marginBottom: '3em' } }} >
+              <HOOShimmer shape={HOOShimmerShape.Square} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { width: '100px', height: '40px', marginRight: '900px' } }} />
+              <HOOShimmer shape={HOOShimmerShape.Square} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { width: '40px', height: '40px', marginRight: '10px' } }} />
+              <HOOShimmer shape={HOOShimmerShape.Square} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { width: '40px', height: '40px', marginRight: '10px' } }} />
+              <HOOShimmer shape={HOOShimmerShape.Square} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { width: '40px', height: '40px', marginRight: '10px' } }} />
+            </HOOShimmer>
           }
           {(this.props.shimmerView === ShimmerView.Admin) &&
-            <Fabric className={this.wrapperClass}>
-              <Shimmer
-                shimmerElements={[
-                  { type: ShimmerElementType.line, height: 29, width: 200 },
-                  { type: ShimmerElementType.gap, width: '90%' },
-                  { type: ShimmerElementType.line, height: 40, width: 40 },
-                  { type: ShimmerElementType.gap, width: 32 },
-                  { type: ShimmerElementType.line, height: 40, width: 200 }
-                ]}
-              />
-            </Fabric>
+            <HOOShimmer shape={HOOShimmerShape.Container} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { display: 'flex', marginBottom: '30px' } }} >
+              <HOOShimmer shape={HOOShimmerShape.Square} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { width: '200px', height: '40px', marginRight: '670px' } }} />
+              <HOOShimmer shape={HOOShimmerShape.Square} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { width: '40px', height: '40px', marginRight: '20px' } }} />
+              <HOOShimmer shape={HOOShimmerShape.Square} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { width: '200px', height: '40px' } }} />
+            </HOOShimmer>
           }
           {(this.props.shimmerView === ShimmerView.Admin || this.props.shimmerView === ShimmerView.AdminCdn) &&
-            <Fabric className={this.wrapperClass}>
-              <Shimmer
-                shimmerElements={[
-                  { type: ShimmerElementType.line, height: 400, width: 200 },
-                  { type: ShimmerElementType.gap, height: 400, width: 20 },
-                  { type: ShimmerElementType.line, height: 400, width: '90%' },
-                ]}
-              />
-            </Fabric>
+            <HOOShimmer shape={HOOShimmerShape.Container} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { display: 'flex', marginBottom: '30px' } }} >
+              <HOOShimmer shape={HOOShimmerShape.Square} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { width: '200px', height: '400px', marginRight: '30px' } }} />
+              <HOOShimmer shape={HOOShimmerShape.Square} theme={HOOShimmerTheme.Neutral} rootElementAttributes={{ style: { width: '900px', height: '400px' } }} />
+            </HOOShimmer>
           }
         </div>
       );

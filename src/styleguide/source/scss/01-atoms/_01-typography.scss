@@ -1,0 +1,20 @@
+@use '../00-base/base.settings' as base;
+
+h1 {
+	@include base.default-font;
+	@include base.fs-xxl;
+	font-weight: 100;
+}
+
+h2 {
+	@include base.default-font;
+	@include base.fs-xl2;
+}
+
+.fbcolumn {
+	flex-direction: column;
+}
+
+.fbrow {
+	flex-direction: row;
+}

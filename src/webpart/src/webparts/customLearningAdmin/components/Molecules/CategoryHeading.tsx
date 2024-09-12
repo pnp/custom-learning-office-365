@@ -1,16 +1,11 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
-
-import isEqual from "lodash/isEqual";
-
-import { IconButton } from "office-ui-fabric-react";
+import cloneDeep from "lodash-es/cloneDeep";
+import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
 
 import * as strings from "M365LPStrings";
 import { ICategory, IMultilingualString } from "../../../common/models/Models";
-import Button from "../../../common/components/Atoms/Button";
-import { ButtonTypes } from "../../../common/models/Enums";
 import CategoryHeadingDetail from "../Atoms/CategoryHeadingDetail";
-import cloneDeep from "lodash/cloneDeep";
 
 export interface ICategoryHeadingProps {
   heading: ICategory;
@@ -36,7 +31,7 @@ export class CategoryHeadingState implements ICategoryHeadingState {
   ) { }
 }
 
-export default class CategoryHeading extends React.Component<ICategoryHeadingProps, ICategoryHeadingState> {
+export default class CategoryHeading extends React.PureComponent<ICategoryHeadingProps, ICategoryHeadingState> {
   private LOG_SOURCE: string = "CategoryHeading";
 
   constructor(props) {
@@ -44,13 +39,7 @@ export default class CategoryHeading extends React.Component<ICategoryHeadingPro
     this.state = new CategoryHeadingState();
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<ICategoryHeadingProps>, nextState: Readonly<ICategoryHeadingState>) {
-    if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
-      return false;
-    return true;
-  }
-
-  private onUpdate = () => {
+  private onUpdate = (): void => {
     if (!this.state.editHeading) return;
     this.props.saveSubCategory(this.state.editHeading);
     this.setState({
@@ -59,7 +48,7 @@ export default class CategoryHeading extends React.Component<ICategoryHeadingPro
     });
   }
 
-  private onDelete = () => {
+  private onDelete = (): void => {
     this.setState({
       edit: false,
       editHeading: null
@@ -67,13 +56,13 @@ export default class CategoryHeading extends React.Component<ICategoryHeadingPro
     this.props.onDelete();
   }
 
-  private updateHeading = (heading: ICategory) => {
+  private updateHeading = (heading: ICategory): void => {
     this.setState({
       editHeading: heading
     });
   }
 
-  private renderHeading = () => {
+  private renderHeading = (): JSX.Element => {
     try {
       if (this.state.edit) {
         return (
@@ -102,59 +91,58 @@ export default class CategoryHeading extends React.Component<ICategoryHeadingPro
     }
   }
 
-  private renderButtons = () => {
-    let retVal = [];
+  private renderButtons = (): JSX.Element[] => {
+    const retVal: JSX.Element[] = [];
     try {
       if (this.state.edit) {
         retVal.push(
-          <IconButton
-            iconProps={{ iconName: 'Save' }}
-            title={strings.SaveButton}
-            ariaLabel={strings.SaveButton}
-            onClick={this.onUpdate}
-          />);
+          <HOOButton type={HOOButtonType.Icon}
+            iconName="icon-save-regular"
+            iconTitle={strings.SaveButton}
+            onClick={this.onUpdate} />
+        );
+        if (this.props.canDelete) {
+          retVal.push(
+            <HOOButton type={HOOButtonType.Icon}
+              iconName="icon-delete-regular"
+              iconTitle={strings.DeleteButton}
+              onClick={this.onDelete}
+              disabled={!this.props.canDelete} />
+          );
+        }
+
         retVal.push(
-          <IconButton
-            iconProps={{ iconName: 'Delete' }}
-            title={strings.DeleteButton}
-            ariaLabel={strings.DeleteButton}
-            onClick={this.onDelete}
-            disabled={!this.props.canDelete}
-          />);
-        retVal.push(
-          <IconButton
-            iconProps={{ iconName: 'ChromeClose' }}
-            title={strings.CancelButton}
-            ariaLabel={strings.CancelButton}
-            onClick={() => { this.setState({ edit: false }); }}
-          />
+          <HOOButton type={HOOButtonType.Icon}
+            iconName="icon-dismiss-regular"
+            iconTitle={strings.CancelButton}
+            onClick={() => { this.setState({ edit: false }); }} />
         );
       } else {
-        retVal.push(
-          <Button
-            title={`${(this.props.new) ? strings.Add : strings.Edit} ${strings.SubcategoryHeadingLabel}`}
-            buttonType={(this.props.new) ? ButtonTypes.Add : ButtonTypes.Edit}
-            onClick={() => { this.setState({ edit: true, editHeading: cloneDeep(this.props.heading) }); }}
-            disabled={!this.props.canEdit}
-          />);
+        if (this.props.canEdit || this.props.new) {
+          retVal.push(
+            <HOOButton type={HOOButtonType.Icon}
+              iconName={(this.props.new) ? "icon-add-regular" : "icon-pen-regular"}
+              iconTitle={`${(this.props.new) ? strings.Add : strings.Edit} ${strings.SubcategoryHeadingLabel}`}
+              onClick={() => { this.setState({ edit: true, editHeading: cloneDeep(this.props.heading) }); }}
+              disabled={!this.props.canEdit} />
+          );
+        }
+
         if (!this.props.new) {
           retVal.push(
-            <Button
-              title={`${(this.props.visible) ? strings.Hide : strings.Show} ${strings.CategoryHeadingLabel}`}
-              buttonType={(this.props.visible) ? ButtonTypes.Show : ButtonTypes.Hide}
-              onClick={() => { this.props.onVisibility(this.props.heading.Id, this.props.visible); }}
-              disabled={false}
-            />);
+            <HOOButton type={HOOButtonType.Icon} adm-subcatheading
+              iconName={(this.props.visible) ? "icon-eye-filled" : "icon-eye-off-filled"}
+              iconTitle={`${(this.props.visible) ? strings.Hide : strings.Show} ${strings.CategoryHeadingLabel}`}
+              onClick={() => { this.props.onVisibility(this.props.heading.Id, this.props.visible); }} />
+          );
         }
         if (this.props.addPlaylist) {
           retVal.push(
-            <Button
-              title={strings.CategoryHeadingAddPlaylistToSubcategory}
-              buttonType={ButtonTypes.Add}
-              disabled={false}
-              selected={false}
-              onClick={this.props.addPlaylist}
-            />);
+            <HOOButton type={HOOButtonType.Icon}
+              iconName="icon-add-regular"
+              iconTitle={strings.CategoryHeadingAddPlaylistToSubcategory}
+              onClick={this.props.addPlaylist} />
+          );
         }
       }
     } catch (err) {

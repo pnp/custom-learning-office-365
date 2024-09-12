@@ -1,9 +1,8 @@
-import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
+import * as React from "react";
 
+import HOOIcon from "@n8d/htwoo-react/HOOIcon";
 import { Templates } from '../../../common/models/Enums';
-import isEqual from "lodash/isEqual";
-import { Icon } from "office-ui-fabric-react";
 
 export interface ICategoryItemProps {
   index: number;
@@ -12,16 +11,9 @@ export interface ICategoryItemProps {
   subcategoryImage: string;
   subcategoryName: string;
   selectItem: (type: string, id: string) => void;
-  onDragStart: (event: React.DragEvent<HTMLDivElement>, index: number) => void;
+  onDragStart: (event: React.DragEvent<HTMLElement>, index: number) => void;
   onDragEnter: (index: number) => void;
   onDragEnd: (event) => void;
-}
-
-export interface ICategoryItemState {
-}
-
-export class CategoryItemState implements ICategoryItemState {
-  constructor() { }
 }
 
 declare module 'react' {
@@ -31,18 +23,24 @@ declare module 'react' {
   }
 }
 
-export default class CategoryItem extends React.Component<ICategoryItemProps, ICategoryItemState> {
+export default class CategoryItem extends React.PureComponent<ICategoryItemProps> {
   private LOG_SOURCE: string = "CategoryItem";
 
   constructor(props) {
     super(props);
-    this.state = new CategoryItemState();
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<ICategoryItemProps>, nextState: Readonly<ICategoryItemState>) {
-    if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
-      return false;
-    return true;
+  private handleKeyPress(event): void {
+    // Handles both mouse clicks and keyboard
+    // activate with Enter or Space
+
+    // Keypresses other then Enter and Space should not trigger a command
+    if (event instanceof KeyboardEvent && event.key !== "Enter" && event.key !== " ") {
+      return;
+    }
+    if (!this.props.dragMode) {
+      this.props.selectItem(Templates.SubCategory, this.props.subcategoryId);
+    }
   }
 
   public render(): React.ReactElement<ICategoryItemProps> {
@@ -56,30 +54,35 @@ export default class CategoryItem extends React.Component<ICategoryItemProps, IC
       }
 
       return (
-        <div data-component={this.LOG_SOURCE}
+        <article data-component={this.LOG_SOURCE}
+          tabIndex={0}
           className="category-item"
           onClick={() => { if (!this.props.dragMode) { this.props.selectItem(Templates.SubCategory, this.props.subcategoryId); } }}
+          onKeyDown={(e) => this.handleKeyPress(e)}
           key={`item-${this.props.index}`}
-          role="link"
+          role="button"
           draggable={this.props.dragMode}
           onDragStart={(event) => { this.props.onDragStart(event, this.props.index); }}
           onDragEnter={() => { this.props.onDragEnter(this.props.index); }}
           onDragEnd={this.props.onDragEnd}
           data-index={this.props.index}
         >
-          <div className="category-icon">
-            {/* <img src={categoryImage} loading="lazy" width="278" height="200" /> */}
-            <img src={categoryImage} loading="lazy" width="320" height="180" />
+          <div className="category-icon" role="presentation">
+            <img src={categoryImage} alt="" loading="lazy" />
           </div>
           <div className="category-label">
             {this.props.dragMode &&
               <div className="category-handle">
-                <Icon className="category-handle-icon" iconName="GripperBarVertical" />
+                <HOOIcon
+                  iconName="icon-re-order-dots-vertical-regular"
+                />
               </div>
             }
-            {this.props.subcategoryName}
+            <span>
+              {this.props.subcategoryName}
+            </span>
           </div>
-        </div>
+        </article>
       );
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);

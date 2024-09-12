@@ -1,0 +1,10 @@
+{{#commandBar}}
+<div class="hoo-cmdbar has-overflow" role="toolbar">
+    <div class="hoo-overflow">
+        {{#cmdBarButtons }}
+        {{> atoms-button-cmd buttonCmd=this }}
+        {{/ cmdBarButtons }}
+        {{> atoms-button-icon-overflow overflowButton }}
+    </div>
+</div>
+{{/commandBar}}

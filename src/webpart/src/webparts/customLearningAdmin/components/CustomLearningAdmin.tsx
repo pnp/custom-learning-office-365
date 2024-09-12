@@ -1,24 +1,25 @@
-import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
+import * as React from "react";
 
-import isEqual from "lodash/isEqual";
-import cloneDeep from "lodash/cloneDeep";
-import find from "lodash/find";
-import pull from "lodash/pull";
-import remove from "lodash/remove";
-import findIndex from "lodash/findIndex";
-import { MessageBar, MessageBarType, Link } from "office-ui-fabric-react";
+import HOODialog from "@n8d/htwoo-react/HOODialog";
+import HOODialogContent from "@n8d/htwoo-react/HOODialogContent";
+import cloneDeep from "lodash-es/cloneDeep";
+import find from "lodash-es/find";
+import findIndex from "lodash-es/findIndex";
+import isEqual from "lodash-es/isEqual";
+import pull from "lodash-es/pull";
+import remove from "lodash-es/remove";
 
-import { params } from "../../common/services/Parameters";
 import * as strings from "M365LPStrings";
+import ShimmerViewer from "../../common/components/Atoms/ShimmerViewer";
 import styles from "../../common/CustomLearningCommon.module.scss";
-import { ICacheConfig, IPlaylist, IAsset, ITechnology, ICategory, ICustomizations, ICDN, IMetadataEntry } from "../../common/models/Models";
 import { AdminNavigationType, ShimmerView } from "../../common/models/Enums";
+import { IAsset, ICacheConfig, ICategory, ICDN, ICustomizations, IMetadataEntry, IPlaylist, ITechnology } from "../../common/models/Models";
+import { params } from "../../common/services/Parameters";
+import AdminMenu from "./Organizms/AdminMenu";
 import Category from "./Templates/Category";
 import Technology from "./Templates/Technology";
-import AdminMenu from "./Organizms/AdminMenu";
-import ShimmerViewer from "../../common/components/Atoms/ShimmerViewer";
-import { reject } from "lodash";
+
 
 export interface ICustomLearningAdminProps {
   validConfig: boolean;
@@ -72,7 +73,7 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
     this.state = new CustomLearningAdminState();
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<ICustomLearningAdminProps>, nextState: Readonly<ICustomLearningAdminState>) {
+  public shouldComponentUpdate(nextProps: Readonly<ICustomLearningAdminProps>, nextState: Readonly<ICustomLearningAdminState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     return true;
@@ -88,8 +89,8 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
 
   private updateTechnologyVisibility = (techName: string, subTech: string, exists: boolean): void => {
     try {
-      let hiddenTechnology: string[] = cloneDeep(this.props.customization.HiddenTechnology);
-      let hiddenSubject: string[] = cloneDeep(this.props.customization.HiddenSubject);
+      const hiddenTechnology: string[] = cloneDeep(this.props.customization.HiddenTechnology);
+      const hiddenSubject: string[] = cloneDeep(this.props.customization.HiddenSubject);
       if (exists) {
         //Add to hidden list
         if (!subTech || subTech.length < 1) {
@@ -106,7 +107,7 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
         }
       }
       //Save cacheConfig Changes
-      let newConfig = cloneDeep(this.props.customization);
+      const newConfig = cloneDeep(this.props.customization);
       newConfig.HiddenTechnology = hiddenTechnology;
       newConfig.HiddenSubject = hiddenSubject;
       this.setState({ working: true });
@@ -118,7 +119,7 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
 
   private updateSubCategoryVisibility = (subCategory: string, exists: boolean): void => {
     try {
-      let hiddenSubCategory: string[] = cloneDeep(this.props.customization.HiddenSubCategories);
+      const hiddenSubCategory: string[] = cloneDeep(this.props.customization.HiddenSubCategories);
       if (exists) {
         //Add to hidden list
         hiddenSubCategory.push(subCategory);
@@ -127,7 +128,7 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
         pull(hiddenSubCategory, subCategory);
       }
       //Save cacheConfig Changes
-      let newConfig = cloneDeep(this.props.customization);
+      const newConfig = cloneDeep(this.props.customization);
       newConfig.HiddenSubCategories = hiddenSubCategory;
       this.setState({ working: true });
       this.props.upsertCustomizations(newConfig).then(() => { this.setState({ working: false }); });
@@ -138,7 +139,7 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
 
   private updatePlaylistVisibility = (playlistId: string, exists: boolean): void => {
     try {
-      let hiddenPlaylistsIds: string[] = cloneDeep(this.props.customization.HiddenPlaylistsIds);
+      const hiddenPlaylistsIds: string[] = cloneDeep(this.props.customization.HiddenPlaylistsIds);
       if (exists) {
         //Add to hidden list
         hiddenPlaylistsIds.push(playlistId);
@@ -147,7 +148,7 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
         pull(hiddenPlaylistsIds, playlistId);
       }
       //Save cacheConfig Changes
-      let newConfig = cloneDeep(this.props.customization);
+      const newConfig = cloneDeep(this.props.customization);
       newConfig.HiddenPlaylistsIds = hiddenPlaylistsIds;
       this.setState({ working: true });
       this.props.upsertCustomizations(newConfig).then(() => { this.setState({ working: false }); });
@@ -158,18 +159,18 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
 
   private upsertSubCategory = (categoryId: string, heading: ICategory): void => {
     try {
-      let customization = cloneDeep(this.props.customization);
+      const customization = cloneDeep(this.props.customization);
       if (!customization.CustomSubcategories || customization.CustomSubcategories.length < 1) {
         customization.CustomSubcategories = [];
         for (let i = 0; i < this.props.cacheConfig.Categories.length; i++) {
-          let category = cloneDeep(this.props.cacheConfig.Categories[i]);
+          const category = cloneDeep(this.props.cacheConfig.Categories[i]);
           category.SubCategories = [];
           customization.CustomSubcategories.push(category);
         }
       }
 
-      let foundCategory = find(customization.CustomSubcategories, { Id: categoryId });
-      let subCategoryIndex = findIndex(foundCategory.SubCategories, { Id: heading.Id });
+      const foundCategory = find(customization.CustomSubcategories, { Id: categoryId });
+      const subCategoryIndex = findIndex(foundCategory.SubCategories, { Id: heading.Id });
       if (subCategoryIndex > -1) {
         foundCategory.SubCategories[subCategoryIndex] = heading;
       } else {
@@ -184,8 +185,8 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
 
   private deleteSubCategory = (categoryId: string, subCategoryId: string): void => {
     try {
-      let customization = cloneDeep(this.props.customization);
-      let foundCategory = find(customization.CustomSubcategories, { Id: categoryId });
+      const customization = cloneDeep(this.props.customization);
+      const foundCategory = find(customization.CustomSubcategories, { Id: categoryId });
       remove(foundCategory.SubCategories, { Id: subCategoryId });
       this.setState({ working: true });
       this.props.upsertCustomizations(customization).then(() => { this.setState({ working: false }); });
@@ -194,8 +195,8 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
     }
   }
 
-  private getContainer(className: string): any {
-    let element: any;
+  private getContainer(className: string): JSX.Element {
+    let element: JSX.Element;
     try {
       switch (this.state.tabSelected) {
         case AdminNavigationType.Category:
@@ -236,22 +237,22 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
   }
 
   private selectCDN = (cdnId: string): Promise<boolean> => {
-    return new Promise((response) => {
+    return new Promise((resolve) => {
       try {
         this.setState({
           loadingCdn: true
         },
           async () => {
-            let retVal = await this.props.selectCDN(cdnId);
+            const retVal = await this.props.selectCDN(cdnId);
             this.setState({
               currentCDNId: cdnId,
               loadingCdn: false
             }, () => {
-              response(retVal);
+              resolve(retVal);
             });
           });
       } catch (err) {
-        response(false);
+        resolve(false);
       }
     });
   }
@@ -259,7 +260,7 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
   private upsertCdn = async (cdn: ICDN): Promise<boolean> => {
     let retVal: boolean = false;
     try {
-      let upsertCdnResult = await this.props.upsertCdn(cdn);
+      const upsertCdnResult = await this.props.upsertCdn(cdn);
       if (upsertCdnResult) {
         retVal = true;
       }
@@ -273,11 +274,45 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
     try {
       let notice = `${strings.AdminVersionUpdateNotice}`;
       notice = notice.replace('%0%', this.props.currentWebpart).replace('%1%', this._currentVersion);
-      let showMultilingualMsg: boolean = (this.props.firstConfig && params.multilingualEnabled && params.configuredLanguages.length > 1);
-      let showUpgradeMsg: boolean = (this.props.cacheConfig && (this.props.currentWebpart < this._currentVersion));
-      let className: string = (showMultilingualMsg || showUpgradeMsg) ? "" : "nomsg";
+      const showMultilingualMsg: boolean = (this.props.firstConfig && params.multilingualEnabled && params.configuredLanguages.length > 1);
+      const showUpgradeMsg: boolean = (this.props.cacheConfig && (this.props.currentWebpart < this._currentVersion));
+      const className: string = (showMultilingualMsg || showUpgradeMsg) ? "" : "nomsg";
       return (
-        <div data-component={this.LOG_SOURCE} className={`${styles.customLearning} ${(params.appPartPage) ? styles.appPartPage : ""}`}>
+        <section data-component={this.LOG_SOURCE} className={`adm-wrapper ${styles.customLearning} ${(params.appPartPage) ? styles.appPartPage : ""}`}>
+          <div className="adm-header-message">
+            {showMultilingualMsg &&
+              <HOODialog
+                changeVisibility={function noRefCheck() { }}
+                type={1}
+                visible
+                rootElementAttributes={{
+                  className: "adm-content"
+                }}
+              >
+
+                <HOODialogContent>
+                  {strings.DataUpgradeMultilingual} <a href={`${this.props.siteUrl}/_layouts/15/muisetng.aspx`} target="_blank" rel="noreferrer">{strings.DataUpgradeReview}</a>
+                </HOODialogContent>
+
+              </HOODialog>
+
+            }
+            {showUpgradeMsg &&
+              <HOODialog
+                changeVisibility={function noRefCheck() { }}
+                type={1}
+                visible
+                rootElementAttributes={{ className: "adm-content" }}
+              >
+
+                <HOODialogContent>
+                  {notice} <a href={(params.updateInstructionUrl) ? params.updateInstructionUrl : "https://github.com/pnp/custom-learning-office-365#updating-the-solution"} rel="noreferrer" target="_blank">{strings.AdminVersionUpdateInstructions}</a>
+                </HOODialogContent>
+
+              </HOODialog>
+
+            }
+          </div>
           <AdminMenu
             loadingCdn={this.state.loadingCdn}
             placeholderUrl={`${params.baseCdnPath}${params.defaultLanguage}/images/categories/customfeatured.png`}
@@ -287,48 +322,33 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
             upsertCdn={this.upsertCdn}
             removeCdn={this.props.removeCdn}
             working={this.state.working}
+            tabSelected={this.state.tabSelected}
           />
-          <div className="adm-header-message">
-            {showMultilingualMsg &&
-              <MessageBar
-                messageBarType={MessageBarType.warning}
-                isMultiline={true}
-                dismissButtonAriaLabel={strings.CloseButton}
-              >
-                {strings.DataUpgradeMultilingual}
-                <Link
-                  href={`${this.props.siteUrl}/_layouts/15/muisetng.aspx`}
-                  target="_blank">
-                  {strings.DataUpgradeReview}
-                </Link>
-              </MessageBar>
-            }
-            {showUpgradeMsg &&
-              <MessageBar>
-                {notice}
-                <Link
-                  href={(params.updateInstructionUrl) ? params.updateInstructionUrl : "https://github.com/pnp/custom-learning-office-365#updating-the-solution"}
-                  target="_blank">
-                  {strings.AdminVersionUpdateInstructions}
-                </Link>
-              </MessageBar>
-            }
-          </div>
+
           {
             this.props.validConfig && this.props.cacheConfig && !this.state.loadingCdn &&
             this.getContainer(className)
           }
           {
             !this.props.validConfig && !this.props.cacheConfig && !this.state.loadingCdn &&
-            <MessageBar messageBarType={MessageBarType.error} className="adm-content">
-              {strings.AdminConfigIssueMessage}
-            </MessageBar>
+            <HOODialog
+              changeVisibility={function noRefCheck() { }}
+              type={1}
+              visible
+              rootElementAttributes={{ className: "adm-content" }}
+            >
+
+              <HOODialogContent>
+                {strings.AdminConfigIssueMessage}
+              </HOODialogContent>
+
+            </HOODialog>
           }
           {
             this.state.loadingCdn &&
             <ShimmerViewer shimmerView={ShimmerView.AdminCdn} />
           }
-        </div >
+        </section >
       );
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);

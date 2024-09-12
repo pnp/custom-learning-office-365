@@ -1,4 +1,5 @@
 import { Logger, LogLevel } from "@pnp/logging";
+import { spfi, SPFI } from "@pnp/sp";
 import { IWeb } from "@pnp/sp/webs";
 import "@pnp/sp/lists";
 import "@pnp/sp/fields";
@@ -19,31 +20,32 @@ export class ConfigService implements IConfigService {
   private LOG_SOURCE: string = "ConfigService";
   private _learningWeb: IWeb;
 
-  constructor(learningWeb: IWeb) {
-    this._learningWeb = learningWeb;
+  constructor(sp: SPFI) {
+    const _sp = spfi([sp.web, params.learningSiteUrl]);
+    this._learningWeb = _sp.web;
   }
 
   public async validatePlaylists(owner: boolean): Promise<boolean> {
     try {
-      let playlistCheck = await this._learningWeb.lists.getByTitle(CustomListNames.customPlaylistsName).fields.select("Title").filter("Title eq 'JSONData'").get<{ Title: string }[]>();
-      let playlistCheckCDN = await this._learningWeb.lists.getByTitle(CustomListNames.customPlaylistsName).fields.select("Title").filter("Title eq 'CDN'").get<{ Title: string }[]>();
+      const playlistCheck = await this._learningWeb.lists.getByTitle(CustomListNames.customPlaylistsName).fields.select("Title").filter("Title eq 'JSONData'")<{ Title: string }[]>();
+      const playlistCheckCDN = await this._learningWeb.lists.getByTitle(CustomListNames.customPlaylistsName).fields.select("Title").filter("Title eq 'CDN'")<{ Title: string }[]>();
       if (playlistCheck.length !== 1 || playlistCheckCDN.length !== 1) {
         if (owner) {
           try {
             //List exists, field doesn't
             if (playlistCheck.length !== 1) {
-              await this._learningWeb.lists.getByTitle(CustomListNames.customPlaylistsName).fields.add("JSONData", "SP.Field", { "FieldTypeKind": 3 });
-              let view = await this._learningWeb.lists.getByTitle(CustomListNames.customPlaylistsName).defaultView;
+              await this._learningWeb.lists.getByTitle(CustomListNames.customPlaylistsName).fields.add("JSONData", 3);
+              const view = await this._learningWeb.lists.getByTitle(CustomListNames.customPlaylistsName).defaultView;
               await view.fields.add("JSONData");
               Logger.write(`Adding JSONData field - ${this.LOG_SOURCE} (validatePlaylists)`, LogLevel.Warning);
             }
             if (playlistCheckCDN.length !== 1) {
-              await this._learningWeb.lists.getByTitle(CustomListNames.customPlaylistsName).fields.add("CDN", "SP.Field", { "FieldTypeKind": 2 });
-              let view = await this._learningWeb.lists.getByTitle(CustomListNames.customPlaylistsName).defaultView;
+              await this._learningWeb.lists.getByTitle(CustomListNames.customPlaylistsName).fields.add("CDN", 2);
+              const view = await this._learningWeb.lists.getByTitle(CustomListNames.customPlaylistsName).defaultView;
               await view.fields.add("CDN");
               Logger.write(`Adding CDN field - ${this.LOG_SOURCE} (validatePlaylists)`, LogLevel.Warning);
               //Set all existing entries to "Default"
-              let playlists = await this._learningWeb.lists.getByTitle(CustomListNames.customPlaylistsName).items.top(5000).select("Id").get<{ Id: string }[]>();
+              const playlists = await this._learningWeb.lists.getByTitle(CustomListNames.customPlaylistsName).items.top(5000).select("Id")<{ Id: string }[]>();
               for (let i = 0; i < playlists.length; i++) {
                 await this._learningWeb.lists.getByTitle(CustomListNames.customPlaylistsName).items.getById(+playlists[i].Id).update({ CDN: 'Default' });
               }
@@ -62,9 +64,9 @@ export class ConfigService implements IConfigService {
       if (owner) {
         try {
           await this._learningWeb.lists.add(CustomListNames.customPlaylistsName, "Microsoft Custom Learning - Custom Playlists", 100, true);
-          await this._learningWeb.lists.getByTitle(CustomListNames.customPlaylistsName).fields.add("JSONData", "SP.Field", { "FieldTypeKind": 3 });
-          await this._learningWeb.lists.getByTitle(CustomListNames.customPlaylistsName).fields.add("CDN", "SP.Field", { "FieldTypeKind": 2 });
-          let view = await this._learningWeb.lists.getByTitle(CustomListNames.customPlaylistsName).defaultView;
+          await this._learningWeb.lists.getByTitle(CustomListNames.customPlaylistsName).fields.add("JSONData", 3);
+          await this._learningWeb.lists.getByTitle(CustomListNames.customPlaylistsName).fields.add("CDN", 2);
+          const view = await this._learningWeb.lists.getByTitle(CustomListNames.customPlaylistsName).defaultView;
           await view.fields.add("JSONData");
           await view.fields.add("CDN");
         } catch (err) {
@@ -81,25 +83,25 @@ export class ConfigService implements IConfigService {
 
   public async validateAssets(owner: boolean): Promise<boolean> {
     try {
-      let assetsCheck = await this._learningWeb.lists.getByTitle(CustomListNames.customAssetsName).fields.select("Title").filter("Title eq 'JSONData'").get<{ Title: string }[]>();
-      let assetsCheckCDN = await this._learningWeb.lists.getByTitle(CustomListNames.customAssetsName).fields.select("Title").filter("Title eq 'CDN'").get<{ Title: string }[]>();
+      const assetsCheck = await this._learningWeb.lists.getByTitle(CustomListNames.customAssetsName).fields.select("Title").filter("Title eq 'JSONData'")<{ Title: string }[]>();
+      const assetsCheckCDN = await this._learningWeb.lists.getByTitle(CustomListNames.customAssetsName).fields.select("Title").filter("Title eq 'CDN'")<{ Title: string }[]>();
       if (assetsCheck.length !== 1 || assetsCheckCDN.length !== 1) {
         if (owner) {
           try {
             //List exists, field doesn't
             if (assetsCheck.length !== 1) {
-              await this._learningWeb.lists.getByTitle(CustomListNames.customAssetsName).fields.add("JSONData", "SP.Field", { "FieldTypeKind": 3 });
-              let view = await this._learningWeb.lists.getByTitle(CustomListNames.customAssetsName).defaultView;
+              await this._learningWeb.lists.getByTitle(CustomListNames.customAssetsName).fields.add("JSONData", 3);
+              const view = await this._learningWeb.lists.getByTitle(CustomListNames.customAssetsName).defaultView;
               await view.fields.add("JSONData");
               Logger.write(`Adding JSONData field - ${this.LOG_SOURCE} (validateAssets)`, LogLevel.Warning);
             }
             if (assetsCheckCDN.length !== 1) {
-              await this._learningWeb.lists.getByTitle(CustomListNames.customAssetsName).fields.add("CDN", "SP.Field", { "FieldTypeKind": 2 });
-              let view = await this._learningWeb.lists.getByTitle(CustomListNames.customAssetsName).defaultView;
+              await this._learningWeb.lists.getByTitle(CustomListNames.customAssetsName).fields.add("CDN", 2);
+              const view = await this._learningWeb.lists.getByTitle(CustomListNames.customAssetsName).defaultView;
               await view.fields.add("CDN");
               Logger.write(`Adding CDN field - ${this.LOG_SOURCE} (validateAssets)`, LogLevel.Warning);
               //Set all existing entries to "Default"
-              let assets = await this._learningWeb.lists.getByTitle(CustomListNames.customAssetsName).items.top(5000).select("Id").get<{ Id: string }[]>();
+              const assets = await this._learningWeb.lists.getByTitle(CustomListNames.customAssetsName).items.top(5000).select("Id")<{ Id: string }[]>();
               for (let i = 0; i < assets.length; i++) {
                 await this._learningWeb.lists.getByTitle(CustomListNames.customAssetsName).items.getById(+assets[i].Id).update({ CDN: 'Default' });
               }
@@ -118,9 +120,9 @@ export class ConfigService implements IConfigService {
       if (owner) {
         try {
           await this._learningWeb.lists.add(CustomListNames.customAssetsName, "Microsoft Custom Learning - Custom Assets", 100, true);
-          await this._learningWeb.lists.getByTitle(CustomListNames.customAssetsName).fields.add("JSONData", "SP.Field", { "FieldTypeKind": 3 });
-          await this._learningWeb.lists.getByTitle(CustomListNames.customAssetsName).fields.add("CDN", "SP.Field", { "FieldTypeKind": 2 });
-          let view = await this._learningWeb.lists.getByTitle(CustomListNames.customAssetsName).defaultView;
+          await this._learningWeb.lists.getByTitle(CustomListNames.customAssetsName).fields.add("JSONData", 3);
+          await this._learningWeb.lists.getByTitle(CustomListNames.customAssetsName).fields.add("CDN", 2);
+          const view = await this._learningWeb.lists.getByTitle(CustomListNames.customAssetsName).defaultView;
           await view.fields.add("JSONData");
           await view.fields.add("CDN");
         } catch (err) {
@@ -136,12 +138,12 @@ export class ConfigService implements IConfigService {
   }
 
   private async getRoleInformation(): Promise<number[]> {
-    let retVal: number[] = [];
+    const retVal: number[] = [];
     try {
-      let targetGroup = await this._learningWeb.associatedVisitorGroup();
-      let targetGroupId = targetGroup.Id;
-      let roleDefinition = await this._learningWeb.roleDefinitions.getByType(3).get();
-      let roleDefinitionId = roleDefinition.Id;
+      const targetGroup = await this._learningWeb.associatedVisitorGroup();
+      const targetGroupId = targetGroup.Id;
+      const roleDefinition = await this._learningWeb.roleDefinitions.getByType(3)();
+      const roleDefinitionId = roleDefinition.Id;
       retVal.push(targetGroupId);
       retVal.push(roleDefinitionId);
     } catch (err) {
@@ -152,37 +154,37 @@ export class ConfigService implements IConfigService {
 
   public async validateConfig(owner: boolean): Promise<boolean> {
     try {
-      let configCheck = await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).fields.select("Title").filter("Title eq 'JSONData'").get<{ Title: string }[]>();
-      let configCheckCDN = await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).fields.select("Title").filter("Title eq 'CDN'").get<{ Title: string }[]>();
-      let configCheckLanguage = await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).fields.select("Title").filter("Title eq 'Language'").get<{ Title: string }[]>();
+      const configCheck = await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).fields.select("Title").filter("Title eq 'JSONData'")<{ Title: string }[]>();
+      const configCheckCDN = await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).fields.select("Title").filter("Title eq 'CDN'")<{ Title: string }[]>();
+      const configCheckLanguage = await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).fields.select("Title").filter("Title eq 'Language'")<{ Title: string }[]>();
       if (configCheck.length !== 1 || configCheckCDN.length !== 1 || configCheckLanguage.length !== 1) {
         if (owner) {
           try {
             //List exists, field doesn't
             if (configCheck.length !== 1) {
-              await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).fields.add("JSONData", "SP.Field", { "FieldTypeKind": 3 });
-              let view = await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).defaultView;
+              await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).fields.add("JSONData", 3);
+              const view = await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).defaultView;
               await view.fields.add("JSONData");
               Logger.write(`Adding JSONData field - ${this.LOG_SOURCE} (validateConfig)`, LogLevel.Warning);
             }
             if (configCheckCDN.length !== 1) {
-              await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).fields.add("CDN", "SP.Field", { "FieldTypeKind": 2 });
-              let view = await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).defaultView;
+              await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).fields.add("CDN", 2);
+              const view = await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).defaultView;
               await view.fields.add("CDN");
               Logger.write(`Adding CDN field - ${this.LOG_SOURCE} (validateConfig)`, LogLevel.Warning);
               //Set all existing entries to "Default"
-              let configs = await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).items.top(5000).select("Id").get<{ Id: string }[]>();
+              const configs = await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).items.top(5000).select("Id")<{ Id: string }[]>();
               for (let i = 0; i < configs.length; i++) {
                 await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).items.getById(+configs[i].Id).update({ CDN: 'Default' });
               }
             }
             if (configCheckLanguage.length !== 1) {
-              await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).fields.add("Language", "SP.Field", { "FieldTypeKind": 2 });
-              let view = await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).defaultView;
+              await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).fields.add("Language", 2);
+              const view = await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).defaultView;
               await view.fields.add("Language");
               Logger.write(`Adding Language field - ${this.LOG_SOURCE} (validateConfig)`, LogLevel.Warning);
               //Set all existing entries to default language
-              let configs = await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).items.top(5000).select("Id", "Title").get<{ Id: string, Title: string }[]>();
+              const configs = await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).items.top(5000).select("Id", "Title")<{ Id: string, Title: string }[]>();
               for (let i = 0; i < configs.length; i++) {
                 if (configs[i].Title === "CustomConfig") {
                   await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).items.getById(+configs[i].Id).update({ Language: params.defaultLanguage });
@@ -203,15 +205,15 @@ export class ConfigService implements IConfigService {
       if (owner) {
         try {
           await this._learningWeb.lists.add(CustomListNames.customConfigName, "Microsoft Custom Learning - Custom Config", 100, true);
-          await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).fields.add("JSONData", "SP.Field", { "FieldTypeKind": 3 });
-          await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).fields.add("CDN", "SP.Field", { "FieldTypeKind": 2 });
-          await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).fields.add("Language", "SP.Field", { "FieldTypeKind": 2 });
-          let view = await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).defaultView;
+          await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).fields.add("JSONData", 3);
+          await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).fields.add("CDN", 2);
+          await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).fields.add("Language", 2);
+          const view = await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).defaultView;
           await view.fields.add("JSONData");
           await view.fields.add("CDN");
           await view.fields.add("Language");
           await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).breakRoleInheritance(true);
-          let configPermissions = await this.getRoleInformation();
+          const configPermissions = await this.getRoleInformation();
           if (configPermissions.length > 0) {
             await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).roleAssignments.getById(configPermissions[0]).delete();
             await this._learningWeb.lists.getByTitle(CustomListNames.customConfigName).roleAssignments.add(configPermissions[0], configPermissions[1]);

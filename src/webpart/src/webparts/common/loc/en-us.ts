@@ -1,4 +1,5 @@
-declare var define: any;
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+declare let define: any;
 
 define([], (): IM365LPStrings => {
   return {
@@ -244,7 +245,7 @@ define([], (): IM365LPStrings => {
     ListOptionsAlt: "View options. {0}  selected .",
     ListOptionsTitle: "Open the view options menu",
     Selected: "selected",
-    CategoryTranslationNotAvailable: "A translation of the selected Sub Category is not available for this language.",
+    CategoryTranslationNotAvailable: "The selected subcategory requires a translation in the selected language.",
     Abandoned: "Abandoned",
     AbandonedPlaylist: "Playlists",
     RemoveLanguageLabel: "Remove Language",
@@ -258,8 +259,10 @@ define([], (): IM365LPStrings => {
     DataUpgradeReview: "Review",
     DataUpgradeMultilingual: "Multilingual support is enabled for learning pathways. Review the languages enabled for your site and turn off the languages you don’t want to support.",
     M365Title: "Microsoft 365 learning pathways",
-    ValidateBase: "The base url for the CDN must end in a (/).",
+    ValidateBase: "The base URL for the CDN must end in a (/).",
     CustomizeSort: "Customize Sort",
-    ResetSort: "Reset Sort"
+    ResetSort: "Reset Sort",
+    AlwaysShowSearchLabel: "Always Show Search Bar",
+    AlwaysOpenAssetInDialog: "Always Open Assets In Dialog"
   };
 });

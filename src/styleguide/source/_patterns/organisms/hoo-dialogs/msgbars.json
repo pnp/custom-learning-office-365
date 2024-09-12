@@ -1,0 +1,10 @@
+{
+    "bodyClass": "dlg-preview-flex",
+    "btn-closer": {
+        "button": {
+            "iconname": "icon-close",
+            "aria-label": "Close",
+            "props": " autofocus"
+        }
+    }
+}

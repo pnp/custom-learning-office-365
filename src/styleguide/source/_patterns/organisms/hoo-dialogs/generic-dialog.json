@@ -1,0 +1,47 @@
+{
+    "bodyClass": "dlg-preview",
+    "dialog": {
+        "button": {
+            "label": "Show Dialog",
+            "props": 'id="btn-dialog"'
+        }
+    },
+    "modal-dialog": {
+        "button": {
+            "label": "Show Modal Dialog",
+            "props": 'id="btn-modal-dialog"'
+        }
+    },
+    "actions": [
+        {
+            "button": {
+                "label": "Sidebar Left",
+                "props": 'id="btn-sidebar-left"'
+            }
+        },
+        {
+            "button": {
+                "label": "Sidebar Right",
+                "props": 'id="btn-sidebar-right"'
+            }
+        },
+        {
+            "button": {
+                "label": "Top Bar",
+                "props": 'id="btn-topbar"'
+            }
+        },
+        {
+            "button": {
+                "label": "Bottom Bar",
+                "props": 'id="btn-bottombar"'
+            }
+        },
+        {
+            "button": {
+                "label": "Full Screen",
+                "props": 'id="btn-fullscreen"'
+            }
+        }
+    ]
+}

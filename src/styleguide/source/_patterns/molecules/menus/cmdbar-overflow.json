@@ -1,0 +1,69 @@
+{
+    "cmdBarButtons": [
+        {
+            "iconAction": "icon-plus",
+            "iconDown": "icon-arrow-down",
+            "label": "New Item",
+            "ddItems": [
+                {
+                    "label": "Email message",
+                    "icon": "icon-ninjacat"
+                },
+                {
+                    "label": "Calendar Event",
+                    "icon": "icon-minus"
+                }
+            ]
+        },
+        {
+            "iconAction": "icon-plus",
+            "iconDown": "icon-arrow-down",
+            "label": "New Item"
+        },
+        {
+            "iconAction": "icon-plus",
+            "iconDown": "icon-arrow-down",
+            "label": "New Item",
+            "ddItems": [
+                {
+                    "label": "Email message",
+                    "icon": "icon-ninjacat"
+                },
+                {
+                    "label": "Calendar Event",
+                    "icon": "icon-minus"
+                }
+            ]
+        },
+        {
+            "iconAction": "icon-plus",
+            "iconDown": "icon-arrow-down",
+            "label": "New Item"
+        },
+        {
+            "iconAction": "icon-plus",
+            "iconDown": "icon-arrow-down",
+            "label": "New Item",
+            "ddItems": [
+                {
+                    "label": "Email message",
+                    "icon": "icon-ninjacat"
+                },
+                {
+                    "label": "Calendar Event",
+                    "icon": "icon-minus"
+                }
+            ]
+        },
+        {
+            "iconAction": "icon-plus",
+            "iconDown": "icon-arrow-down",
+            "label": "New Item"
+        }
+    ],
+    "overflowButton": {
+        "iconDown": "icon-ellipses",
+        "label": "New Item",
+        "contextMenu": {}
+    }
+}

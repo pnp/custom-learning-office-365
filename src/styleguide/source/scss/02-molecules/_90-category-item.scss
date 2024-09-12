@@ -1,0 +1,143 @@
+@use 'sass:math';
+@use '../../../../node_modules/@n8d/htwoo-core/lib/sass/00-base/_global.vars.scss' as dt;
+@use '../00-base/colors' as colors;
+@use '../00-base/mixin' as mixin;
+
+.category-section{
+	h2{
+		font-size: 1.5rem;
+		font-weight: 600;
+	}
+}
+
+.category-overview {
+	display: grid;
+	grid-template-columns: repeat(6, minmax(150px, 1fr));
+	gap: clamp(1rem, 2vw, 2rem);
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	transition: all 0.125s ease-in-out;
+
+	@media screen and (max-width: 1024px) {
+		grid-template-columns: repeat(5, minmax(150px, 1fr));
+	}
+	@media screen and (max-width: 840px) {
+		grid-template-columns: repeat(4, minmax(150px, 1fr));
+	}
+	@media screen and (max-width: 670px) {
+		grid-template-columns: repeat(3, minmax(150px, 1fr));
+	}
+
+	@media screen and (max-width: 500px) {
+		grid-template-columns: repeat(2, minmax(150px, 1fr));
+	}
+
+	@media screen and (max-width: 360px) {
+		grid-template-columns: repeat(1, minmax(150px, 1fr));
+	}
+
+	&.editSort {
+		.category-item {
+			box-sizing: border-box;
+
+			cursor: move;
+
+			.category-handle {
+				display: inline-block;
+
+				// margin-top: -3px;
+				margin-left: -10px;
+
+				.category-handle-icon {
+					display: none;
+				}
+			}
+			&:active,
+			&:hover {
+				background-color: rgba(lightgray, .6);
+
+				* {
+					pointer-events: none;
+				}
+
+				.category-label {
+					background-color: rgba(lightgray, .6);
+				}
+
+				.category-handle-icon {
+					line-height: math.div(1, 1.25) * 1em;
+
+					display: inherit;
+				}
+			}
+		}
+	}
+	&>li{
+		grid-column: auto / span 1fr;
+	}
+}
+
+.category-item {
+	// width: 100%;
+	// height: 100%;;
+
+	box-sizing: border-box;
+
+	transition: all 125ms ease;
+
+	border: 1px colors.$c-light-gray solid;
+	
+	background-color: dt.$neutral-000;
+	color: dt.$neutral-700;
+
+	border-radius: 0.5em;
+	overflow: hidden;
+
+	&:hover {
+		cursor: pointer;
+
+		border: 1px colors.$c-gray solid;
+		@include mixin.themeSlot(buttonHoverBorder, border);
+	}
+}
+
+.category-icon {
+	img {
+		width: 100%;
+		height: auto;
+		aspect-ratio: 7 / 5;
+	}
+}
+
+.category-edit {
+	display: inline-block;
+
+	width: calc(100% - 100px);
+
+	.adm-itemedit {
+		border-top: 1px black solid;
+	}
+}
+
+.category-heading {
+	display: inline-block;
+
+	margin-top: 6px;
+	margin-bottom: 3px;
+}
+
+.category-label {
+	
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+
+	color: dt.$neutral-700;
+
+	line-height: 1.25;
+	font-size: 1em;
+
+	padding: .35em 1em .5em;
+	margin: 0;
+}

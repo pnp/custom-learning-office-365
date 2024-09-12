@@ -1,307 +1,106 @@
-// generated on 2018-12-15 using generator-simplestyle 0.4.2
-/* GULP Configuration */
-/* Coree engine */
-const gulp = require('gulp'),
-    $ = require('gulp-load-plugins')({
-        lazy: true
-    }),
-    gulpif = require('gulp-if'),
-    markdown = require('gulp-marked-json'),
-    jsoncombine = require('gulp-jsoncombine'),
-    del = require('del');
+const {
+    src,
+    dest,
+    watch,
+    series,
+    parallel
+} = require('gulp');
+const dartSass = require('sass');
+const gulpSass = require('gulp-sass');
+const sass = gulpSass(dartSass);
 
-/* Core Simple Style Guide engine */
-const ssgCore = require('./ssg-core-engine/ssg.core.precompile'),
-    ssgCoreConfig = require('./ssg-core-engine/ssg.core.genConfig'),
-    ssgCoreHelper = require('./ssg-core-engine/ssg.core.helpers');
+const sassDefInclude = [...require.main.paths, '.'];
 
-/* Browser Sync */
-const browserSync = require('browser-sync'),
-    reload = browserSync.reload;
+var isProd = false;
 
-/* Configurations */
-const config = require('./ssg.core.config');
+const gulpLoadPlugins = require('gulp-load-plugins');
+const $ = gulpLoadPlugins();
+const autoprefixer = require('autoprefixer');
 
+console.log('SASS IMPORTER:::', sass.NodePackageImporter);
 
-/* Type Script */
-const ts = require('gulp-typescript'),
-    tslint = require('gulp-tslint');
+// const sass = require('gulp-sass')(require('sass'));
 
 
+const baseWatch = async (cb) => {
 
-/* SASS Linter
-    Hello World
-*/
-const sassLint = require('gulp-sass-lint');
+    watch(['./source/scss/**/*.scss'], styles);
+    watch(['./source/_plugins/**/*.scss'], pluginCSSOverride);
+    watch(['./source/_plugins/**/*.js'], pluginJSOverride);
 
+    cb();
 
-/* Style Linter */
-// const gulpStylelint = require('gulp-stylelint');
+}
 
-// watchs on file system
-let watches = () => {
+const docs = (cb) => {
 
-    // watch all style changes in app/styles
-    gulp.watch(config.watches.styles, ['sass:compile'], reload);
+    isProd = true;
+    styles();
+    cb()
 
+}
 
-    // watch for all typescript files in app/scripts
-    gulp.watch(config.watches.scriptsTS, ['ts:compile'], reload);
+const styles = () => {
 
-    // Update configuration
-    gulp.watch(config.watches.ssg)
-        // item was changed
-        .on('change', ssgCoreConfig.fsEvents);
-
-    // Precompile all patterns
-    gulp.watch(config.watches.ssg, ['ssg:precompile'], reload);
-
-    // Watch for documentation changes
-    gulp.watch(config.watches.documentation, ['doc:markdown'], reload);
-
-    // Watch for configuration changes
-    gulp.watch(config.watches.staticFiles)
-        .on('change', reload);
-
-    // waht everything else
-    gulp.watch([
-        'app/images/**/*',
-        '.tmp/fonts/**/*'
-    ]).on('change', reload);
-
-
+    return src('./source/scss/*.scss')
+        .pipe($.plumber())
+        .pipe($.if(!isProd, $.sourcemaps.init()))
+        // .pipe($.sourcemaps.init())
+        .pipe(
+            $.if(!isProd, sass({
+                outputStyle: 'expanded',
+                precision: 6,
+                includePaths: sassDefInclude,
+                loadPaths: sassDefInclude
+            }))
+                .on('error', sass.logError))
+        .pipe(
+            $.if(isProd, sass({
+                outputStyle: 'compressed',
+                precision: 6,
+                includePaths: sassDefInclude,
+                loadPaths: sassDefInclude
+            }))
+                .on('error', sass.logError))
+        .pipe($.postcss([
+            autoprefixer()
+        ]))
+        .pipe($.if(!isProd, $.sourcemaps.write()))
+        // .pipe($.sourcemaps.write())
+        .pipe(dest('source/css'));
 
 };
 
-// Generate index file for all pattern
-gulp.task('ssg:config', () => {
+const pluginJSOverride = () => {
 
-    // Get pattern path
-    var patternPath = config.ssg.path;
+    return src('./source/plugins/**/*.js')
+        .pipe(dest('public/plugins'));
 
-    var curConfig = {
-        patterns: patternPath,
-        configFile: config.ssg.config
-    };
+}
 
-    // parse configuration and log
-    gulp.src(patternPath)
-        .pipe(ssgCoreConfig
-            .createConfig(curConfig));
+const pluginCSSOverride = () => {
 
-});
-
-// Generate Dockumentation
-gulp.task('doc:markdown', () => {
-
-    return gulp.src(config.watches.documentation)
-        .pipe(markdown({
-            pedantic: true,
-            smartypants: true
-        }))
-        .pipe(jsoncombine(config.documentation.path, function (data, meta) {
-
-            var keys = [],
-                name,
-                newDocData = {};
-
-            for (name in meta) {
-
-                let current = meta[name];
-
-                let key = ssgCoreHelper.mdGetKey(current);
-
-                // create a new object property with normalized name
-                newDocData[key] = {
-                    title: data[name].title !== undefined ? data[name].title : '',
-                    body: data[name].body
-                }
-
-            }
-
-            // return new buffer in wrapped table
-            return new Buffer("var ssgDoc = " + JSON.stringify(newDocData));
-
-        }))
-        .pipe(gulp.dest('.tmp/'))
-        .pipe(reload({
-            stream: true
-        }));
-});
-
-// Precompile handle bar templates
-gulp.task('ssg:precompile', ['ssg:config'], () => {
-    return ssgCore(config.ssg);
-});
-
-
-// Typescript Linting
-gulp.task('ts:lint', () => {
-
-    return gulp.src(config.watches.scriptsTS)
-        .pipe(
-            $.plumber()
-        )
-        .pipe(
-            tslint({
-                configuration: "tslint.json",
-                formatter: "stylish"
-            })
-        )
-        .pipe(tslint.report({
-            emitError: false
-        }));
-    // .pipe(
-    //     gulp.dest('app/scripts')
-    // );
-});
-
-// General typescript compilation
-gulp.task('ts:compile', ['ts:lint'], () => {
-
-    var tsProject = ts.createProject(config.tsconfig);
-
-    return gulp.src(config.watches.scriptsTS)
-        .pipe(
-            $.plumber()
-        )
-        .pipe(
-            ts(config.tsconfig)
-        )
-        .pipe(
-            gulp.dest(config.target.scripts)
-        )
-        .pipe(reload({
-            stream: true
-        }));
-
-});
-
-
-
-// SASS Linting
-gulp.task('sass:lint', () => {
-
-    var watches = config.watches.styles;
-
-    return gulp.src(watches)
-        .pipe(sassLint())
-        .pipe(sassLint.format());
-
-});
-// SASS compilation
-gulp.task('sass:compile', () => {
-
-    var watches = config.watches.styles;
-    
-    gulp.src('../webpart/v2/src/index.ts')
-    .pipe(gulp.dest('../webpart/v2/src/'));
-
-
-    return gulp.src(watches)
-        .pipe($.sourcemaps.init())
-        .pipe($.sass.sync({
+    return src('./source/plugins/*.scss')
+        .pipe($.plumber())
+        .pipe($.if(!isProd, $.sourcemaps.init()))
+        // .pipe($.sourcemaps.init())
+        .pipe(sass.sync({
             outputStyle: 'expanded',
-            precision: 10,
+            precision: 6,
             includePaths: ['.']
-        }).on('error', $.sass.logError))
-        .pipe($.autoprefixer({
-            browsers: ['> 1%', 'last 2 versions', 'Firefox ESR']
-        }))
-        .pipe($.sourcemaps.write())
-        .pipe(gulp.dest(config.target.styles))
-        // .pipe(gulpStylelint({
-        //     reporters: [{
-        //         formatter: 'string',
-        //         console: true
-        //     }]
-        // }))
-        .pipe(reload({
-            stream: true
-        }));
+        }).on('error', sass.logError))
+        .pipe($.postcss([
+            autoprefixer()
+        ]))
+        .pipe($.if(!isProd, $.sourcemaps.write()))
+        // .pipe($.sourcemaps.write())
+        .pipe(dest('public/_plugins'));
 
-});
+};
 
+const serve = parallel(styles, pluginCSSOverride, baseWatch);
 
-
-// cleans everythign up
-gulp.task('clean', () => {
-    return del.sync('dist');
-});
-
-// Gulp serve task
-gulp.task('serve', ["ssg:precompile", "doc:markdown", "sass:compile", 'ts:compile'], () => {
-
-    // start browser sync
-    browserSync(config.server);
-
-    // init all watches
-    watches();
-
-});
-
-gulp.task('html:dist', () => {
-
-    /**
-     * Bundle prismJS Syntax highlighting
-     */
-    gulp.src('node_modules/prismjs/components/*.min.js')
-        .pipe(gulp.dest('dist/prismjs/components'));
-    /**
-     * merge files together
-     */
-
-    return gulp.src('app/*.html')
-        .pipe(
-            $.useref({
-                searchPath: ['', 'node_modules', 'ssg-core-engine', '.tmp', 'ssg-core/ui']
-            })
-        )
-        // .pipe(gulpif('*.js', $.minify()))
-        .pipe(gulp.dest('dist'));
-
-});
-
-// Gulp serve task
-gulp.task('build', ['clean', 'html:dist', 'ssg:precompile', 'sass:compile', 'doc:markdown'], () => {
-
-    gulp.src([
-            './.tmp/**/*'
-        ])
-        .pipe(
-            gulp.dest('dist')
-        );
-
-    gulp.src([
-            './app/_config/*',
-        ])
-        .pipe(
-            gulp.dest('dist/_config')
-        );
-
-    gulp.src([
-            './app/_data/*',
-        ])
-        .pipe(
-            gulp.dest('dist/_data')
-        );
-
-    gulp.src([
-            './ssg-core/ui/**/*',
-        ])
-        .pipe(
-            gulp.dest('dist/')
-        );
-
-});
-
-// Server from distribution folder
-gulp.task('serve:dist', ['build'], () => {
-    browserSync.init({
-        notify: false,
-        port: 9000,
-        server: {
-            baseDir: ['dist']
-        }
-    });
-});
+exports.default = serve;
+exports.styles = styles;
+exports.docs = docs;
+exports.pluginCSSOverride = pluginCSSOverride;

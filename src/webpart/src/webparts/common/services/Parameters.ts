@@ -1,8 +1,8 @@
 import { Logger, LogLevel } from "@pnp/logging";
 import { HttpClient } from "@microsoft/sp-http";
-import { IContentPack, IManifest, ICacheConfig, ICDN, ILocale, ICustomCDN, ICategory } from "../models/Models";
+import { IContentPack, IManifest, ICacheConfig, ICDN, ILocale, ICustomCDN, IWebhookConfig } from "../models/Models";
 import { WebPartContext } from "@microsoft/sp-webpart-base";
-import forEach from "lodash/forEach";
+import forEach from "lodash-es/forEach";
 
 export class Parameters {
   private LOG_SOURCE: string = "Parameters";
@@ -25,6 +25,7 @@ export class Parameters {
   private _multilingualEnabled: boolean = false;
   private _multilingualLanguages: number[] = null;
   private _configuredLanguages: ILocale[] = null;
+  private _webhookConfig: IWebhookConfig = {Url: null, AnonymizeUser: true };
 
   //From Manifest
   private _telemetryKey: string = "089e14f6-1341-44b8-9135-71b3e326e914";
@@ -99,7 +100,7 @@ export class Parameters {
     * The base of the CDN path for M365LP.
     */
   get baseCdnPath(): string {
-    return `${this._baseCdnPath}${params.manifestVersion}/`;
+    return `${this._baseCdnPath}${this._manifestVersion}/`;
   }
 
   /**	
@@ -142,6 +143,17 @@ export class Parameters {
     return this._telemetryKey;
   }
 
+  /**	
+  * The build version number of the app.
+  */
+  get webhookConfig(): IWebhookConfig {
+    return this._webhookConfig;
+  }
+
+  set webhookConfig(value: IWebhookConfig) {
+    this._webhookConfig = value;
+  }
+
   //Load from manifest.json
   set manifest(value: IManifest) {
     try {
@@ -150,7 +162,7 @@ export class Parameters {
       this._updateInstructionUrl = (value.Version.RepoURL) ? value.Version.RepoURL : this._updateInstructionUrl;
       this._contentPacks = value.ContentPacks;
       this._assetOrigins = value.AssetOrigins;
-      let supportedLanguages: string[] = [];
+      const supportedLanguages: string[] = [];
       forEach(value.Languages, (lang) => {
         supportedLanguages.push(lang.toLowerCase());
       });
@@ -236,7 +248,6 @@ export class Parameters {
 
   set customCacheConfig(value: ICacheConfig) {
     try {
-      //this._currentCacheConfig = value;
       if (value) {
         this._assetOrigins = value.AssetOrigins;
         this._webPartVersion = value.WebPartVersion;

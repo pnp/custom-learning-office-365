@@ -1,6 +1,12 @@
 # Manually installing and configuring Microsoft 365 learning pathways
 
-The Microsoft 365 learning pathways solution is build using the [SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview) version 1.8.0.
+## LookBook installation
+
+There are two manual options when installing Microsoft 365 Learning Pathways. The first is the manual install. This will install the webpart and set it up for use in your tenant. This will not create any pages other than the admin page and viewer page. The second installation options is to install the Learning Pathways site template previously hosted from the LookBook. To install the site template please follow [these instructions](https://learn.microsoft.com/en-us/sharepoint/dev/solution-guidance/applying-pnp-templates). This tutorial will walk you through the process of creating a site collection, downloading and installing the site template. You will then need to run the M365lpConfiguration.ps1 in the [Execute PowerShell Configuration Script](https://github.com/pnp/custom-learning-office-365/tree/main/installation#execute-powershell-configuration-script) to set the tenant app property.
+
+## Installation Overview
+
+The Microsoft 365 learning pathways solution is built using the [SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview) version 1.19.0.
 
 To manually install and configure the web part and site collection you will need to complete the following steps:
 
@@ -12,7 +18,9 @@ To manually install and configure the web part and site collection you will need
 
 ## Prerequisites
 
-You must have set up and configured the tenant-wide App Catalog. Please see [Set up your Office 365 tenant](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant#create-app-catalog-site) and follow the Create app catalog site section. If your tenant-wide App Catalog has already been provisioned you will need access to an account that has rights to upload a package to it to complete this setup process. Generally this is an account with the SharePoint administrator role. If an account with that role does not work, go to the SharePoint admin center and find the Site Collection Administrators for the app catalog site collection and either log in as one of the Site Collection Administrators, or add the SharePoint administrator account that failed to the Site Collection Administrators. You will also need access to an account that is a SharePoint Tenant Admin.
+- You will need to be a SharePoint Administrator to be able to deploy this solution to the target tenant and have Site Collection
+- You must have set up and configured the tenant-wide App Catalog. Please see [Set up your Office 365 tenant](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant#create-app-catalog-site) and follow the Create app catalog site section. If your tenant-wide App Catalog has already been provisioned you will need access to an account that has rights to upload a package to it to complete this setup process. Generally this is an account with the SharePoint administrator role. If an account with that role does not work, go to the SharePoint admin center and find the Site Collection Administrators for the app catalog site collection and either log in as one of the Site Collection Administrators, or add the SharePoint administrator account that failed to the Site Collection Administrators. You will also need access to an account that is a SharePoint Administrator.
+- Provisioning with the PnP Lookbook template will provision all 10 langauges. If you need multilingual support ensure that your default language is set on the site collection BEFORE installing the Lookbook template. For more information on multilingual support see [Overview of multilingual support for learning pathways](https://docs.microsoft.com/en-us/office365/customlearning/custom_overview_ml).
 
 ## Install WebPart in Tenant App Catalog
 
@@ -28,12 +36,14 @@ Add `Microsoft 365 learning pathways` App to the site collection.
 
 ## Execute PowerShell Configuration Script
 
-A PowerShell script `M365lpConfiguration.ps1` is included that you will need to execute to create three [tenant properties](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/tenant-properties) that the solution uses. In addition the script creates two [single part app pages](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/single-part-app-pages) in the site pages library to host the admin and user web parts at a known location.
+A PowerShell script `M365lpConfiguration.ps1` is included that you will need to execute to create three [tenant properties](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/tenant-properties) that the solution uses. In addition, the script creates two [single part app pages](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/single-part-app-pages) in the site pages library to host the admin and user web parts at a known location.
 
 Using the script looks like this:
 `.\M365lpConfiguration.ps1 -TenantName contoso -SiteCollectionName MicrosoftTraining`
 
 The line above requires that a Communications site exists at `https://contoso.sharepoint.com/sites/MicrosoftTraining`. Enter credentials for a user that both has the SharePoint Administrator role in your tenant and is a site collection owner of the site collection. The script will configure the App Catalog with values the solution needs and create two pages in the site collection CustomLearningViewer.aspx and CustomLearningAdmin.aspx and add the appropriate web parts to each. These pages are used to view and configure the Microsoft 365 learning pathways content. If either page already exists the script will delete the existing page and recreate them.
+
+The script will work with both the legacy SharePointPnPPowerShellOnline (supported on PowerShell 5) and the current PnP.PowerShell (supported on PowerShell 7) modules, checking to see if PnP.PowerShell is installed as the default but if not, checking for SharePointPnPPowerShellOnline. This allows you to still use the scripts if you do not have access to permit an app registration to the tenant - if you are not sure what this is, the SharePointPnPPowerShellOnline will be a simpler route for you.
 
 To successfully install Microsoft 365 learning pathways you must have an administrative role that allows you write entries to the tenant’s app catalog and you must also be a site collection admin for the site collection you are installing Microsoft 365 learning pathways to. That is not always the same user. To address this the script can run each of these parts separately allowing different users to do the part they have permission to do. First, the user with the administrative rights should run the following command:
 
@@ -46,6 +56,18 @@ When prompted enter the credentials of a user with the SharePoint Administrator 
 When prompted enter the credentials of a Site Collection Owner of the M365LP Site Collection. The `–SiteAdminOnly` switch tells the configuration script not to try to do any tenant level configuration and jump right to the site collection setup.
 
 After both parts of the script have successfully executed Microsoft 365 learning pathways will be installed and configured and ready for you to customize and use.
+
+## Teams Installation
+
+You can install Microsoft 365 Learning Pathways as both a Personal App AND as a Teams Tab.
+
+### Personal App
+
+To enable Microsoft 365 Learning Pathways as a Personal App enable the M365 Learning Pathways app as an app in the root site collection then add the app to Teams as a Personal App.
+
+### Teams Tab
+
+To enable Microsoft 365 Learning Pathways as a Teams Tab enable the M365 Learning Pathways app as an app in the site behind the Team. If you would like to enable it in all sites without having to enable the app in individual site collections you need to deploy the app in the app catalog using Tenant Wide Deployment.
 
 ### Disabling Telemetry Collection
 

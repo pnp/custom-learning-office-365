@@ -34,14 +34,14 @@ class AppInsightsServiceInternal implements IAppInsightsService {
    * Init Application Insights service. Called only once.
    * You must set telemetry key and user consent in params before calling.
    */
-  public initialize(cdn: string, telemetryKey: string) {
+  public initialize(cdn: string, telemetryKey: string): void {
     try {
       this._cdn = cdn;
       if (params.telemetryOn && telemetryKey) {
         AppInsights.downloadAndSetup({
           instrumentationKey: telemetryKey,
         });
-        let userHash = shajs("sha256")
+        const userHash = shajs("sha256")
           .update(params.context.pageContext.user.loginName)
           .digest("hex");
         AppInsights.setAuthenticatedUserContext(userHash);
@@ -74,12 +74,7 @@ class AppInsightsServiceInternal implements IAppInsightsService {
    * @param name        Event name
    * @param properties  Optional event properties
    */
-  public trackEvent(
-    name: string,
-    properties: {
-      [name: string]: string;
-    } = {}
-  ) {
+  public trackEvent(name: string, properties: { [name: string]: string; } = {}): void {
     if (!this.isTelemetryEnabled) return;
 
     try {
@@ -144,7 +139,7 @@ class AppInsightsServiceInternal implements IAppInsightsService {
    *
    * @param techId A technology GUID
    */
-  private findTechnology(techId: string) {
+  private findTechnology(techId: string): string {
     if (techId && this._technologies.length > 0) {
       const tech = find(
         this._technologies,

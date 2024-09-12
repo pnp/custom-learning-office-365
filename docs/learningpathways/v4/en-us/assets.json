@@ -1,5 +1,16 @@
 [
   {
+    "Id": "0d9f6fd5-6b0c-45a2-a0aa-0576ae1f6895",
+    "Title": "Analytics in Viva Engage",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/0d9f6fd5-6b0c-45a2-a0aa-0576ae1f6895?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "1539f168-f27c-4215-9319-a5fafd76eec6",
     "Title": "Use more accessible colors and styles in slides",
     "Description": "",
@@ -8,6 +19,50 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "1816888d-a0c9-49a5-9d20-e8e5eb2ca94f",
+    "Title": "View similar or related questions",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/1816888d-a0c9-49a5-9d20-e8e5eb2ca94f?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "18446401-7118-43bb-843a-d6ec7b63d896",
+    "Title": "Answer, upvote, or react to a question",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/18446401-7118-43bb-843a-d6ec7b63d896?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "1be9cf71-af3c-4968-bc83-b3d4ea0fc5d4",
+    "Title": "Add community members with a CSV file",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/1be9cf71-af3c-4968-bc83-b3d4ea0fc5d4?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "1ee29da1-5250-4c1e-b773-e7a78cfaf5d4",
+    "Title": "Join and create a community in Viva Engage",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/1ee29da1-5250-4c1e-b773-e7a78cfaf5d4?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -22,6 +77,94 @@
     "StatusNote": ""
   },
   {
+    "Id": "266f50b0-632f-404f-a18a-f3ef3a3c8db0",
+    "Title": "Discover the features that keep you connected on the Viva Engage mobile app",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/266f50b0-632f-404f-a18a-f3ef3a3c8db0?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "2885e8d8-cb6c-4c11-b9aa-ed24a497b467",
+    "Title": "Leadership corner in Viva Engage",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/2885e8d8-cb6c-4c11-b9aa-ed24a497b467?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "2cacf1e5-d1c1-4570-ad16-9ca088bb3535",
+    "Title": "AMA events in Viva Engage",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/2cacf1e5-d1c1-4570-ad16-9ca088bb3535?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "2f0a64a3-c5c0-45cd-b3f1-e1e06732f89f",
+    "Title": "Delegation in Viva Engage",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/2f0a64a3-c5c0-45cd-b3f1-e1e06732f89f?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "341b706c-3d99-46fc-a1a0-32d17dffbee0",
+    "Title": "Why am I receiving the storyline updates?",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/341b706c-3d99-46fc-a1a0-32d17dffbee0?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "3e75fbe9-1b3e-48b5-8e4b-af2716b7873a",
+    "Title": "Manage community members in Viva Engage",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/3e75fbe9-1b3e-48b5-8e4b-af2716b7873a?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "4da377f1-90f5-46f5-b986-f0bb703efff6",
+    "Title": "Search across all questions and answers",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/4da377f1-90f5-46f5-b986-f0bb703efff6?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "57ab702a-7633-47c3-a827-4f7e86bacbf7",
+    "Title": "Explore and filter questions",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/57ab702a-7633-47c3-a827-4f7e86bacbf7?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "5c882b54-d2b1-4270-b65d-79483a2aa3ca",
     "Title": "Create accessible file names",
     "Description": "",
@@ -30,6 +173,17 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "645cc20d-5c98-4bdb-b559-380c5a27c5e5",
+    "Title": "Using Loop components in Word for the web",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/645cc20d-5c98-4bdb-b559-380c5a27c5e5?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -55,6 +209,39 @@
     "StatusNote": ""
   },
   {
+    "Id": "729f9fce-3aa6-4478-888c-a1543918c284",
+    "Title": "Get started with Viva Engage",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/729f9fce-3aa6-4478-888c-a1543918c284?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "763d9317-abfd-4127-bdad-4857e8ff7c1f",
+    "Title": "View personal Answers analytics",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/763d9317-abfd-4127-bdad-4857e8ff7c1f?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "84753c5c-b591-43c8-a9ac-88f4698eaa7d",
+    "Title": "Audience Configuration in Viva Engage",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/84753c5c-b591-43c8-a9ac-88f4698eaa7d?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "8b97437b-107f-43e5-8280-17ac317995fa",
     "Title": "Start with an accessible Excel template",
     "Description": "",
@@ -63,6 +250,28 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "8c546afb-db48-4105-b0dd-88b339739d94",
+    "Title": "Search for a Viva Engage campaign",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/8c546afb-db48-4105-b0dd-88b339739d94?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "8db19630-ecd0-4d1e-b735-437aea62e248",
+    "Title": "Storyline Announcements in Viva Engage",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/8db19630-ecd0-4d1e-b735-437aea62e248?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -99,6 +308,61 @@
     "StatusNote": ""
   },
   {
+    "Id": "953110a6-e1ed-4677-918f-97b15fc691ee",
+    "Title": "View all campaigns in the discovery hub",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/953110a6-e1ed-4677-918f-97b15fc691ee?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "968d35c0-f60c-4e32-85a2-18aea34774bc",
+    "Title": "Create polls, praise, and questions",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/968d35c0-f60c-4e32-85a2-18aea34774bc?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "99c35fbe-d2f5-40e6-b129-fc5a2871334b",
+    "Title": "Earn and view badges",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/99c35fbe-d2f5-40e6-b129-fc5a2871334b?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "9b47c279-011d-4042-bd7f-8bbfca0cb136",
+    "Title": "Using Loop components in Outlook",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/9b47c279-011d-4042-bd7f-8bbfca0cb136?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "9f4d8d4f-dfc6-4518-9ef6-069408c21f0c",
+    "Title": "Get started with Microsoft Loop",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/9f4d8d4f-dfc6-4518-9ef6-069408c21f0c?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "9f920424-7de6-4002-b4ed-6503a3cfae2d",
     "Title": "Create accessible tables",
     "Description": "",
@@ -121,6 +385,39 @@
     "StatusNote": ""
   },
   {
+    "Id": "a3511146-66c0-4e59-90b7-2a1841c6674b",
+    "Title": "Ask a question",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/a3511146-66c0-4e59-90b7-2a1841c6674b?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "ae0590f3-b222-4469-b033-44d4e2e4f12e",
+    "Title": "Receive notifications",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/ae0590f3-b222-4469-b033-44d4e2e4f12e?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "b2a43cce-0e29-491a-b9f3-29c1096af9b7",
+    "Title": "Add an executive sponsor to your campaign",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/b2a43cce-0e29-491a-b9f3-29c1096af9b7?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "b6826ecd-5865-4db4-a8e7-f5a33d2799b5",
     "Title": "Improve image accessibility in email",
     "Description": "",
@@ -132,6 +429,39 @@
     "StatusNote": ""
   },
   {
+    "Id": "c5f08f54-995e-473e-be6e-7f92555da347",
+    "Title": "Editing Loop components in Whiteboard",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/c5f08f54-995e-473e-be6e-7f92555da347?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "ca5252e7-8201-4490-a6d9-59f20df864c6",
+    "Title": "How to send a Loop component in Microsoft Teams",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/ca5252e7-8201-4490-a6d9-59f20df864c6?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "cba3c38e-77c6-4ee6-9d5d-6c20522b1fa0",
+    "Title": "Storyline in Viva Engage",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/cba3c38e-77c6-4ee6-9d5d-6c20522b1fa0?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "ce53495d-c30e-442a-b1d2-05593cc814c0",
     "Title": "Check document accessibility",
     "Description": "",
@@ -140,6 +470,17 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "d7b05128-f80b-4c16-b561-3ddce518eb14",
+    "Title": "Campaigns in Viva Engage",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/d7b05128-f80b-4c16-b561-3ddce518eb14?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -165,6 +506,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "e6331234-e044-4009-a0c8-7c519a2cf668",
+    "Title": "Answers in Viva: Overview",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/e6331234-e044-4009-a0c8-7c519a2cf668?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "e69562f7-e875-485d-839b-cb66b5d98023",
     "Title": "Create more accessible charts in Excel",
     "Description": "",
@@ -184,6 +536,39 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "ee2a584b-5785-4dd6-8a2d-956131a29c81",
+    "Title": "Introduction to Loop components",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/ee2a584b-5785-4dd6-8a2d-956131a29c81?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "fc2b05a7-bb79-49e0-be9f-9e63c5a35222",
+    "Title": "Set up Viva Engage on your mobile phone",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/fc2b05a7-bb79-49e0-be9f-9e63c5a35222?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "fd3cf456-28e1-4621-b683-b0d21348a935",
+    "Title": "View and follow topics",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/fd3cf456-28e1-4621-b683-b0d21348a935?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -2973,7 +3358,7 @@
     "Id": "3356f32e-f966-46dc-8d0e-0d61836c1bd1",
     "Title": "Share and stay organized",
     "Description": "",
-    "Url": "https://support.office.com/en-us/client/b2f5babb-e9a5-4e07-a1c2-ffb60eca3b9e?embed=true",
+    "Url": "https://support.office.com/en-us/client/3356f32e-f966-46dc-8d0e-0d61836c1bd1?embed=true",
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3028,7 +3413,7 @@
     "Id": "6be33cf9-f7c3-4421-9d74-469a259952d3",
     "Title": "Create a notebook",
     "Description": "",
-    "Url": "https://support.office.com/en-us/client/2a7a7160-95f6-4b30-b21f-df35401bcd42?embed=true",
+    "Url": "https://support.office.com/en-us/client/6be33cf9-f7c3-4421-9d74-469a259952d3?embed=true",
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3116,7 +3501,7 @@
     "Id": "a49a3e1d-eafd-4cd0-8a1e-1e0cf558323d",
     "Title": "Take notes",
     "Description": "",
-    "Url": "https://support.office.com/en-us/client/71117249-c218-40d0-a7be-c49d2008837e?embed=true",
+    "Url": "https://support.office.com/en-us/client/a49a3e1d-eafd-4cd0-8a1e-1e0cf558323d?embed=true",
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3127,7 +3512,7 @@
     "Id": "a9909ff8-3604-4b34-b59b-be5f00a25611",
     "Title": "Set up your mobile apps",
     "Description": "",
-    "Url": "https://support.office.com/en-us/client/a0628ad1-319f-429f-a79a-c188272d3c98?embed=true",
+    "Url": "https://support.office.com/en-us/client/a9909ff8-3604-4b34-b59b-be5f00a25611?embed=true",
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3201,6 +3586,28 @@
     "StatusNote": ""
   },
   {
+    "Id": "27900fbb-f156-43bd-a341-49d96757055a",
+    "Title": "Progress tracking in Viva Learning",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/27900fbb-f156-43bd-a341-49d96757055a?embed=true",
+    "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "5481f99b-e8d3-476f-93f2-8cb9039e6dda",
+    "Title": "Viva Learning service terms",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/5481f99b-e8d3-476f-93f2-8cb9039e6dda?embed=true",
+    "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "692bfe1a-0e8d-467c-b5a7-4e17c132ae93",
     "Title": "Bring your own content to Viva Learning",
     "Description": "",
@@ -3234,10 +3641,32 @@
     "StatusNote": ""
   },
   {
+    "Id": "7afe4d23-8f3e-4778-994d-086b53b051cf",
+    "Title": "Create and edit a collection",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/7afe4d23-8f3e-4778-994d-086b53b051cf?embed=true",
+    "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "b1ef9cb6-c2b1-4c64-aaf9-72f598e42688",
     "Title": "Learning content providers for Viva Learning",
     "Description": "",
     "Url": "https://support.office.com/en-us/client/b1ef9cb6-c2b1-4c64-aaf9-72f598e42688?embed=true",
+    "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "bedca078-ab48-4c5a-9a21-eff66e235f7b",
+    "Title": "Take action on assigned and recommended content in Viva Learning",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/bedca078-ab48-4c5a-9a21-eff66e235f7b?embed=true",
     "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3752,7 +4181,7 @@
   },
   {
     "Id": "d3d4ece5-e965-45eb-9423-c34e61b34616",
-    "Title": "Apply a template to a new presentation",
+    "Title": "Start with a template",
     "Description": "",
     "Url": "https://support.office.com/en-us/client/d3d4ece5-e965-45eb-9423-c34e61b34616?embed=true",
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
@@ -5533,6 +5962,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "0b506ce2-eb6d-4fca-9668-e56980ba755e",
+    "Title": "Get started with Chat",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/0b506ce2-eb6d-4fca-9668-e56980ba755e?embed=true",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "0da0c87d-ea04-41fe-bf2a-dbae4d98e185",
     "Title": "Create an approval from a chat",
     "Description": "",
@@ -5709,6 +6149,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "3479773b-2526-4473-804f-23d458c2aaca",
+    "Title": "Get started with Apps",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/3479773b-2526-4473-804f-23d458c2aaca?embed=true",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "37566690-8652-4eac-abed-bfe6de084828",
     "Title": "Show your screen during a meeting",
     "Description": "",
@@ -5750,6 +6201,17 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusNote": ""
+  },
+  {
+    "Id": "3eea2840-a1e0-4bcd-8e09-d3cf51c184d6",
+    "Title": "Queue view in Bookings",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/3eea2840-a1e0-4bcd-8e09-d3cf51c184d6?embed=true",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -6028,6 +6490,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "909b75b4-5448-455c-9c9a-5115acf4d3d8",
+    "Title": "Get started with Meetings",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/909b75b4-5448-455c-9c9a-5115acf4d3d8?embed=true",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "920382b4-2cca-40f1-ac20-05afed2005bd",
     "Title": "Join a Teams meeting",
     "Description": "",
@@ -6161,7 +6634,7 @@
   },
   {
     "Id": "b98d533f-118e-4bae-bf44-3df2470c2b12",
-    "Title": "Welcome to Microsoft Teams",
+    "Title": "Get started with Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/client/b98d533f-118e-4bae-bf44-3df2470c2b12?embed=true",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6212,6 +6685,17 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "c6d0e61d-a61e-44a6-a972-04f2a8fa4155",
+    "Title": "Get started with Teams and Channels",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/c6d0e61d-a61e-44a6-a972-04f2a8fa4155?embed=true",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -6333,6 +6817,17 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "f4e6aa74-2ee9-4b12-9105-0e9271d4b244",
+    "Title": "Send text message notifications",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/f4e6aa74-2ee9-4b12-9105-0e9271d4b244?embed=true",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -6880,6 +7375,116 @@
     "Description": "",
     "Url": "https://support.office.com/en-us/client/ae422550-c61b-4daf-897b-748abe92e31f?embed=true",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "0587147d-84ed-438f-8a24-5c75f539814c",
+    "Title": "Create OKRs with Viva Goals",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/0587147d-84ed-438f-8a24-5c75f539814c?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "1b39a4b9-fcf1-4078-9f81-49593e667e9d",
+    "Title": "Viva Goals Quick Start",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/1b39a4b9-fcf1-4078-9f81-49593e667e9d?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "365500a4-0599-41cd-bc86-09bef4206284",
+    "Title": "Engage with Viva Goals",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/365500a4-0599-41cd-bc86-09bef4206284?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "43673d1c-0dd7-42ba-97aa-6e712db171d1",
+    "Title": "Collaborate with Viva Goals",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/43673d1c-0dd7-42ba-97aa-6e712db171d1?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "70da5353-257c-41a5-adef-7a62f80acbdc",
+    "Title": "Quick Start for Executives",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/70da5353-257c-41a5-adef-7a62f80acbdc?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "bd651be7-472a-4f40-8fdd-6fcead79f3ad",
+    "Title": "Introducing Microsoft Viva Goals",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/bd651be7-472a-4f40-8fdd-6fcead79f3ad?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "c0244789-4388-4d2d-9d20-3678900d9b98",
+    "Title": "Check-in with Viva Goals",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/c0244789-4388-4d2d-9d20-3678900d9b98?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "c0d9f91e-22e6-48ea-ba3a-23ebe7f059d8",
+    "Title": "Close with Viva Goals",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/c0d9f91e-22e6-48ea-ba3a-23ebe7f059d8?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "cd7ba092-fecb-484b-bf17-ebc80b3d25bf",
+    "Title": "Quick Start in Teams",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/cd7ba092-fecb-484b-bf17-ebc80b3d25bf?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "d195c526-1b6b-45e1-82fd-8daa21dd84a4",
+    "Title": "Review Dashboards with Viva Goals",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/client/d195c526-1b6b-45e1-82fd-8daa21dd84a4?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
@@ -7568,17 +8173,6 @@
     "StatusNote": ""
   },
   {
-    "Id": "7530df24-3e3f-40a2-9cd0-3c31120831bb",
-    "Title": "Convert text to a linked data type in Excel (preview)",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/7530df24-3e3f-40a2-9cd0-3c31120831bb?embed=true",
-    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
-    "StatusNote": ""
-  },
-  {
     "Id": "77b781bf-5074-41b0-897a-dc37d4515f27",
     "Title": "Sort data in a table",
     "Description": "",
@@ -7664,17 +8258,6 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "89c22826-5594-455c-b448-b2cd0e1869f3",
-    "Title": "Use the Data Selector to specify data types",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/89c22826-5594-455c-b448-b2cd0e1869f3?embed=true",
-    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -7774,17 +8357,6 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "973d28d9-c51d-4dde-83be-898ecdf3efab",
-    "Title": "What are linked data types in Excel?",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/973d28d9-c51d-4dde-83be-898ecdf3efab?embed=true",
-    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -8085,17 +8657,6 @@
     "StatusNote": ""
   },
   {
-    "Id": "ecb036a9-4339-4b01-984c-c3246e4efc93",
-    "Title": "View and insert data from a data type",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/client/ecb036a9-4339-4b01-984c-c3246e4efc93?embed=true",
-    "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
-    "StatusNote": ""
-  },
-  {
     "Id": "eda1729c-21eb-4bab-970b-fbb6da8724f3",
     "Title": "Print a worksheet or workbook",
     "Description": "",
@@ -8174,7 +8735,7 @@
   },
   {
     "Id": "8b4e7f76-f305-49a9-b6d2-09378476f95b",
-    "Title": "Your intranet is now in Microsoft Teams",
+    "Title": "Your intranet is now in Microsoft Team",
     "Description": "",
     "Url": "https://support.office.com/en-us/client/8b4e7f76-f305-49a9-b6d2-09378476f95b?embed=true",
     "TechnologyId": "e031aa9d-5421-4ee9-8bc6-1b871bafc7f0",
@@ -9736,7 +10297,7 @@
   },
   {
     "Id": "3d1a93b0-d4af-481c-a18b-c7b65b12968f",
-    "Title": "Import content into Sway",
+    "Title": "Import content into SWAY",
     "Description": "",
     "Url": "https://support.office.com/en-us/client/96e42a2e-1f49-4360-aed5-7b30e7bcff42?embed=true",
     "TechnologyId": "e9d69805-edb5-43da-8258-5520000bf3a6",
@@ -9780,7 +10341,7 @@
   },
   {
     "Id": "60db5047-e613-498d-af3e-a1f7566434f2",
-    "Title": "Search for content in Sway",
+    "Title": "Search for content in SWAY",
     "Description": "",
     "Url": "https://support.office.com/en-us/client/f76b578e-68ca-403d-925b-bf93c03d4afd?embed=true",
     "TechnologyId": "e9d69805-edb5-43da-8258-5520000bf3a6",

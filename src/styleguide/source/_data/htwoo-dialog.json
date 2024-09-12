@@ -1,0 +1,72 @@
+{
+    "dialog-header": {
+        "title": "Dialog Header",
+        "button": {
+            "iconname": "icon-close"
+        }
+    },
+    "dlg-vertical": {
+        "dlg-btn-unset": {
+            "button": {
+                "label": "Unset / reset",
+                "props": "id='width-unset'"
+            }
+        },
+        "dlg-btn-20vw": {
+            "button": {
+                "label": "20% width",
+                "props": "id='width-20vw'"
+            }
+        },
+        "dlg-btn-50vw": {
+            "button": {
+                "label": "50% width",
+                "props": "id='width-50vw'"
+            }
+        },
+        "dlg-btn-75vw": {
+            "button": {
+                "label": "75% width",
+                "props": "id='width-75vw'"
+            }
+        },
+        "dlg-btn-90vw": {
+            "button": {
+                "label": "90% width",
+                "props": "id='width-90vw'"
+            }
+        }
+    },
+    "dlg-horizontal": {
+        "dlg-btn-unset": {
+            "button": {
+                "label": "Unset / reset",
+                "props": "id='height-unset'"
+            }
+        },
+        "dlg-btn-20vw": {
+            "button": {
+                "label": "20% height",
+                "props": "id='height-20vw'"
+            }
+        },
+        "dlg-btn-50vw": {
+            "button": {
+                "label": "50% height",
+                "props": "id='height-50vw'"
+            }
+        },
+        "dlg-btn-75vw": {
+            "button": {
+                "label": "75% height",
+                "props": "id='height-75vw'"
+            }
+        },
+        "dlg-btn-90vw": {
+            "button": {
+                "label": "90% height",
+                "props": "id='height-90vw'"
+            }
+        }
+    }
+}

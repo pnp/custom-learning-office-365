@@ -1,0 +1,50 @@
+{
+    "pl-edit-items": [
+        {
+            "button": {
+                "iconname": "icon-chevron-up-filled",
+                "label": "Button",
+                "description": "Primary with description",
+                "aria-label": "Button",
+                "title": "Move Up"
+            }
+        },
+        {
+            "button": {
+                "iconname": "icon-chevron-down-filled",
+                "label": "Button",
+                "description": "Primary with description",
+                "aria-label": "Button",
+                "title": "Move down"
+            }
+        },
+        {
+            "button": {
+                "iconname": "icon-eye-filled",
+                "label": "Button",
+                "description": "Primary with description",
+                "aria-label": "Button",
+                "title": "Click to hide from playlist"
+            }
+        },
+        {
+            "button": {
+                "iconname": "icon-pen-regular",
+                "label": "Button",
+                "description": "Primary with description",
+                "aria-label": "Button",
+                "title": "Edit this playlist entry"
+            }
+        }
+    ],
+    "pl-header-action": {
+        "button": {
+            "iconname": "icon-pen-regular",
+            "label": "Button",
+            "description": "Primary with description",
+            "aria-label": "Button",
+            "title": "Edit playlist entry"
+        }
+    },
+    "placeholder-image": "/images/placeholder-img.png"
+}

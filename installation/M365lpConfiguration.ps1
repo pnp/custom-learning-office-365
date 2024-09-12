@@ -1,9 +1,12 @@
-﻿param([PSCredential]$Credentials,
+param([PSCredential]$Credentials,
   [string]$TenantName,
   [string]$SiteCollectionName,
   [switch]$AppCatalogAdminOnly,
   [switch]$SiteAdminOnly)
- 
+
+# Default to using PnP.PowerShell where possible - the script checks if legacy PnP PowerShell installed or prompts to install
+$moduleUsed = "PnP.PowerShell"
+
 if ($AppCatalogAdminOnly -and $SiteAdminOnly) {
   Write-Host "Select either -AppCatalogAdminOnly or -SiteAdminOnly"
   Write-Host "If you want to run both tenant and site admin parts, don't pass either parameter"
@@ -21,15 +24,27 @@ Read-Host "Press Enter to Continue"
 $optInTelemetry = $true
 #endregion
 # verify the SharePointPnPPowerShellOnline module we need is installed
-if (-not (Get-Module -ListAvailable -Name SharePointPnPPowerShellOnline )) {
-  Write-Warning "Could not find the SharePointPnPPowerShellOnline module"
-  Write-Warning "Please install it and run this script again"
-  Write-Warning "You can install them it the following line:"
-  Write-Warning "`nInstall-Module SharePointPnPPowerShellOnline`n"
-  return
-} else {
-  Import-Module -Name SharePointPnPPowerShellOnline -DisableNameChecking
+if (-not (Get-Module -ListAvailable -Name PnP.PowerShell )) {
+  if (-not (Get-Module -ListAvailable -Name SharePointPnPPowerShellOnline )) {
+    Write-Warning "Could not find the PnP.PowerShell or SharePointPnPPowerShellOnline module"
+    Write-Warning "Please install it and run this script again"
+    Write-Warning "You should use PnP.PowerShell with PowerShell 7 if possible and only use SharePointPnPPowerShellOnline if you are unable to register an application in Azure AD"
+    Write-Warning "You can install them it the following lines (use one or the other, not both):"
+    Write-Warning "`nInstall-Module PnP.PowerShell`n"
+    Write-Warning "`nInstall-Module SharePointPnPPowerShellOnline`n"
+    return
+  }
+  else {
+    Import-Module -Name SharePointPnPPowerShellOnline -DisableNameChecking
+    $moduleUsed = "SharePointPnPPowerShellOnline"
+  }
+  
 }
+else {
+  Import-Module -Name PnP.PowerShell -DisableNameChecking
+  $moduleUsed = "PnP.PowerShell"
+}
+
 # Check if tenant name was passed in
 while ([string]::IsNullOrWhitespace($TenantName)) {
   # No TenantName was passed, prompt the user
@@ -55,10 +70,22 @@ $clSite = "https://$TenantName.sharepoint.com/sites/$SiteCollectionName"
 try {
   # If Credentials were passed, try them
   if (-not [string]::IsNullOrWhitespace($Credentials)) {
-    SharePointPnPPowerShellOnline\Connect-PnPOnline -Url $clSite -Credentials $Credentials -ErrorAction Stop
-  } else {
+    if ($moduleUsed -eq "SharePointPnPPowerShellOnline") {
+      SharePointPnPPowerShellOnline\Connect-PnPOnline -Url $clSite -Credentials $Credentials -ErrorAction Stop
+    }
+    else {
+      PnP.PowerShell\Connect-PnPOnline -Url $clSite -Credentials $Credentials -ErrorAction Stop
+    }
+    
+  }
+  else {
     # If not, prompt for authentication. This supports MFA
-    SharePointPnPPowerShellOnline\Connect-PnPOnline -Url $clSite -UseWebLogin -ErrorAction Stop
+    if ($moduleUsed -eq "SharePointPnPPowerShellOnline") {
+      SharePointPnPPowerShellOnline\Connect-PnPOnline -Url $clSite -UseWebLogin -ErrorAction Stop
+    }
+    else {
+      PnP.PowerShell\Connect-PnPOnline -Url $clSite -Interactive -ErrorAction Stop
+    }
   }
 }
 catch {
@@ -116,8 +143,8 @@ if ($SiteAdmin) {
     Write-Warning "Could not find `"Microsoft 365 learning pathways`" app. Please install in it your app catalog and run this script again."
     break
   }
-  $sitePagesList = Get-PnPList -Identity "SitePages"
-  if($null -ne $sitePagesList) {    
+  $sitePagesList = Get-PnPList -Identity "Site Pages"
+  if ($null -ne $sitePagesList) {    
     # Delete pages if they exist. Alert user.
     $clv = Get-PnPListItem -List $sitePagesList -Query "<View><Query><Where><Eq><FieldRef Name='FileLeafRef'/><Value Type='Text'>CustomLearningViewer.aspx</Value></Eq></Where></Query></View>"
     if ($null -ne $clv) {
@@ -126,52 +153,100 @@ if ($SiteAdmin) {
       Set-PnPListItem -List $sitePagesList -Identity $clv.Id -Values @{"FileLeafRef" = "CustomLearningViewer$((Get-Date).Minute)$((Get-date).second).aspx" }
       Move-PnPListItemToRecycleBin -List $sitePagesList -Identity $clv.Id -Force
     }
-    # Now create the page whether it was there before or not
-    $clvPage = Add-PnPClientSidePage "CustomLearningViewer" # Will fail if user can't write to site collection
-    $clvSection = Add-PnPClientSidePageSection -Page $clvPage -SectionTemplate OneColumn -Order 1
-    # Before I try to add the Microsoft 365 learning pathways web parts verify they have been deployed to the site collection
-    $timeout = New-TimeSpan -Minutes 1 # wait for a minute then time out
-    $stopwatch = [diagnostics.stopwatch]::StartNew()
-    Write-Host "." -NoNewline
-    $WebPartsFound = $false
-    while ($stopwatch.elapsed -lt $timeout) {
-      if (Get-PnPAvailableClientSideComponents -page CustomLearningViewer.aspx -Component "Microsoft 365 learning pathways administration") {
-        Write-Host "Microsoft 365 learning pathways web parts found"
-        $WebPartsFound = $true
-        break
-      }
+    if ($moduleUsed -eq "SharePointPnPPowerShellOnline") {
+      # Now create the page whether it was there before or not
+      $clvPage = Add-PnPClientSidePage "CustomLearningViewer" # Will fail if user can't write to site collection
+      $clvSection = Add-PnPClientSidePageSection -Page $clvPage -SectionTemplate OneColumn -Order 1
+      # Before I try to add the Microsoft 365 learning pathways web parts verify they have been deployed to the site collection
+      $timeout = New-TimeSpan -Minutes 1 # wait for a minute then time out
+      $stopwatch = [diagnostics.stopwatch]::StartNew()
       Write-Host "." -NoNewline
-      Start-Sleep -Seconds 10
+      $WebPartsFound = $false
+      while ($stopwatch.elapsed -lt $timeout) {
+        if (Get-PnPAvailableClientSideComponents -page CustomLearningViewer.aspx -Component "Microsoft 365 learning pathways administration") {
+          Write-Host "Microsoft 365 learning pathways web parts found"
+          $WebPartsFound = $true
+          break
+        }
+        Write-Host "." -NoNewline
+        Start-Sleep -Seconds 10
+      }
+      # loop either timed out or web parts were found. Let's see which it was
+      if ($WebPartsFound -eq $false) {
+        Write-Warning "Could not find Microsoft 365 learning pathways Web Parts."
+        Write-Warning "Please verify the Microsoft 365 learning pathways Package is installed and run this installation script again."
+        break 
+      }
+        
+      Add-PnPClientSideWebPart -Page $clvPage -Component "Microsoft 365 learning pathways"
+      Set-PnPClientSidePage -Identity $clvPage -Publish
+      $clv = Get-PnPListItem -List $sitePagesList -Query "<View><Query><Where><Eq><FieldRef Name='FileLeafRef'/><Value Type='Text'>CustomLearningViewer.aspx</Value></Eq></Where></Query></View>"
+      $clv["PageLayoutType"] = "SingleWebPartAppPage"
+      $clv.Update()
+      Invoke-PnPQuery # Done with the viewer page
+      $cla = Get-PnPListItem -List $sitePagesList -Query "<View><Query><Where><Eq><FieldRef Name='FileLeafRef'/><Value Type='Text'>CustomLearningAdmin.aspx</Value></Eq></Where></Query></View>"
+      if ($null -ne $cla) {
+        Write-Host "Found an existing CustomLearningAdmin.aspx page. Deleting it."
+        # Renaming and moving to Recycle Bin to prevent potential naming overlap
+        Set-PnPListItem -List $sitePagesList -Identity $cla.Id -Values @{"FileLeafRef" = "CustomLearningAdmin$((Get-Date).Minute)$((Get-date).second).aspx" }
+        Move-PnPListItemToRecycleBin -List $sitePagesList -Identity $cla.Id -Force    
+      }
+      $claPage = Add-PnPClientSidePage "CustomLearningAdmin" -Publish
+      $claSection = Add-PnPClientSidePageSection -Page $claPage -SectionTemplate OneColumn -Order 1
+      Add-PnPClientSideWebPart -Page $claPage -Component "Microsoft 365 learning pathways administration"
+      Set-PnPClientSidePage -Identity $claPage -Publish
+      $cla = Get-PnPListItem -List $sitePagesList -Query "<View><Query><Where><Eq><FieldRef Name='FileLeafRef'/><Value Type='Text'>CustomLearningAdmin.aspx</Value></Eq></Where></Query></View>"
+      $cla["PageLayoutType"] = "SingleWebPartAppPage"
+      $cla.Update()
+      Invoke-PnPQuery # Done with the Admin page
     }
-    # loop either timed out or web parts were found. Let's see which it was
-    if ($WebPartsFound -eq $false) {
-      Write-Warning "Could not find Microsoft 365 learning pathways Web Parts."
-      Write-Warning "Please verify the Microsoft 365 learning pathways Package is installed and run this installation script again."
-      break 
+    else {
+      # Now create the page whether it was there before or not
+      $clvPage = Add-PnPPage "CustomLearningViewer" # Will fail if user can't write to site collection
+      $clvSection = Add-PnPPageSection -Page $clvPage -SectionTemplate OneColumn -Order 1
+      # Before I try to add the Microsoft 365 learning pathways web parts verify they have been deployed to the site collection
+      $timeout = New-TimeSpan -Minutes 1 # wait for a minute then time out
+      $stopwatch = [diagnostics.stopwatch]::StartNew()
+      Write-Host "." -NoNewline
+      $WebPartsFound = $false
+      while ($stopwatch.elapsed -lt $timeout) {
+        if (Get-PnPPageComponent -page CustomLearningViewer.aspx -ListAvailable | Where-Object { $_.Name -eq "Microsoft 365 learning pathways administration" }) {
+          Write-Host "Microsoft 365 learning pathways web parts found"
+          $WebPartsFound = $true
+          break
+        }
+        Write-Host "." -NoNewline
+        Start-Sleep -Seconds 10
+      }
+      # loop either timed out or web parts were found. Let's see which it was
+      if ($WebPartsFound -eq $false) {
+        Write-Warning "Could not find Microsoft 365 learning pathways Web Parts."
+        Write-Warning "Please verify the Microsoft 365 learning pathways Package is installed and run this installation script again."
+        break 
+      }
+        
+      Add-PnPPageWebPart -Page $clvPage -Component "Microsoft 365 learning pathways"
+      Set-PnPPage -Identity $clvPage -Publish
+      $clv = Get-PnPListItem -List $sitePagesList -Query "<View><Query><Where><Eq><FieldRef Name='FileLeafRef'/><Value Type='Text'>CustomLearningViewer.aspx</Value></Eq></Where></Query></View>"
+      $clv["PageLayoutType"] = "SingleWebPartAppPage"
+      $clv.Update()
+      Invoke-PnPQuery # Done with the viewer page
+      $cla = Get-PnPListItem -List $sitePagesList -Query "<View><Query><Where><Eq><FieldRef Name='FileLeafRef'/><Value Type='Text'>CustomLearningAdmin.aspx</Value></Eq></Where></Query></View>"
+      if ($null -ne $cla) {
+        Write-Host "Found an existing CustomLearningAdmin.aspx page. Deleting it."
+        # Renaming and moving to Recycle Bin to prevent potential naming overlap
+        Set-PnPListItem -List $sitePagesList -Identity $cla.Id -Values @{"FileLeafRef" = "CustomLearningAdmin$((Get-Date).Minute)$((Get-date).second).aspx" }
+        Move-PnPListItemToRecycleBin -List $sitePagesList -Identity $cla.Id -Force    
+      }
+      $claPage = Add-PnPPage "CustomLearningAdmin" -Publish
+      $claSection = Add-PnPPageSection -Page $claPage -SectionTemplate OneColumn -Order 1
+      Add-PnPPageWebPart -Page $claPage -Component "Microsoft 365 learning pathways administration"
+      Set-PnPPage -Identity $claPage -Publish
+      $cla = Get-PnPListItem -List $sitePagesList -Query "<View><Query><Where><Eq><FieldRef Name='FileLeafRef'/><Value Type='Text'>CustomLearningAdmin.aspx</Value></Eq></Where></Query></View>"
+      $cla["PageLayoutType"] = "SingleWebPartAppPage"
+      $cla.Update()
+      Invoke-PnPQuery # Done with the Admin page
     }
-      
-    Add-PnPClientSideWebPart -Page $clvPage -Component "Microsoft 365 learning pathways"
-    Set-PnPClientSidePage -Identity $clvPage -Publish
-    $clv = Get-PnPListItem -List $sitePagesList -Query "<View><Query><Where><Eq><FieldRef Name='FileLeafRef'/><Value Type='Text'>CustomLearningViewer.aspx</Value></Eq></Where></Query></View>"
-    $clv["PageLayoutType"] = "SingleWebPartAppPage"
-    $clv.Update()
-    Invoke-PnPQuery # Done with the viewer page
-    $cla = Get-PnPListItem -List $sitePagesList -Query "<View><Query><Where><Eq><FieldRef Name='FileLeafRef'/><Value Type='Text'>CustomLearningAdmin.aspx</Value></Eq></Where></Query></View>"
-    if ($null -ne $cla) {
-      Write-Host "Found an existing CustomLearningAdmin.aspx page. Deleting it."
-      # Renaming and moving to Recycle Bin to prevent potential naming overlap
-      Set-PnPListItem -List $sitePagesList -Identity $cla.Id -Values @{"FileLeafRef" = "CustomLearningAdmin$((Get-Date).Minute)$((Get-date).second).aspx" }
-      Move-PnPListItemToRecycleBin -List $sitePagesList -Identity $cla.Id -Force    
-    }
-    $claPage = Add-PnPClientSidePage "CustomLearningAdmin" -Publish
-    $claSection = Add-PnPClientSidePageSection -Page $claPage -SectionTemplate OneColumn -Order 1
-    Add-PnPClientSideWebPart -Page $claPage -Component "Microsoft 365 learning pathways administration"
-    Set-PnPClientSidePage -Identity $claPage -Publish
-    $cla = Get-PnPListItem -List $sitePagesList -Query "<View><Query><Where><Eq><FieldRef Name='FileLeafRef'/><Value Type='Text'>CustomLearningAdmin.aspx</Value></Eq></Where></Query></View>"
-    $cla["PageLayoutType"] = "SingleWebPartAppPage"
-    $cla.Update()
-    Invoke-PnPQuery # Done with the Admin page
-    
   }
   else { 
     Write-Warning "Could not find `"Site Pages`" library. Please make sure you are running this on a Modern SharePoint site"

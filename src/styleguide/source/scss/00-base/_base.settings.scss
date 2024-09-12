@@ -1,0 +1,64 @@
+$default-font-name: "Segoe UI","Segoe UI Web (West European)","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+
+// Grid settings
+// $grid-cw: 8.333333333333%;Gridsettings$grid-cwGridsettings$grid-cwGridsettings$grid-cwGridsettings$grid-cw
+
+@mixin default-font {
+  font-family: $default-font-name;
+}
+
+@mixin fs-su {
+  font-size: 43px;
+  font-weight: 100;
+}
+
+@mixin fs-xxl {
+  font-size: 28px;
+  font-weight: 100;
+}
+
+@mixin fs-xl2 {
+  font-size: 24px;
+  font-weight: 100;
+}
+
+@mixin fs-xl {
+  font-size: 21px;
+  font-weight: 100;
+}
+
+@mixin fs-l {
+  font-size: 17px;
+  font-weight: 300;
+}
+
+@mixin fs-m-plus {
+  font-size: 15px;
+  font-weight: normal;
+
+}
+
+@mixin fs-m {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+@mixin fs-s-plus {
+  font-size: 13px;
+  font-weight: normal;
+}
+
+@mixin fs-s {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+@mixin fs-xs {
+  font-size: 11px;
+  font-weight: normal;
+}
+
+@mixin fs-mi {
+  font-size: 10px;
+  font-weight: 300;
+}

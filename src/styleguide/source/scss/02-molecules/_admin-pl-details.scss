@@ -1,0 +1,22 @@
+.adm-plitem-details {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: clamp(1rem, 2.7vw, 2rem);
+    margin-top: 1rem;
+
+    @media screen and (max-width: 768px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.adm-plitem-preview {
+}
+.adm-itemimage{
+    margin-bottom: 1rem;
+}
+
+.adm-plitem-info {
+    @media screen and (max-width: 768px) {
+        margin: 1rem;
+    }
+}

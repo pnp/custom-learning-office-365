@@ -4,7 +4,7 @@ import { Roles } from "../models/Enums";
 import { CacheConfig, ICacheConfig, ICategory } from "../models/Models";
 import { DataService } from "./DataService";
 import { params } from "./Parameters";
-import find from "lodash/find";
+import find from "lodash-es/find";
 import { forEach } from "lodash";
 
 export interface ICacheController {
@@ -58,7 +58,7 @@ export default class CacheController implements ICacheController {
     return CacheController._instance[cdn];
   }
 
-  private async delay(ms: number): Promise<any> {
+  private async delay(ms: number): Promise<unknown> {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
 
@@ -67,16 +67,16 @@ export default class CacheController implements ICacheController {
       if (!this._ready && !this._loading) {
         this._loading = true;
         this._cdn = cdn;
-        let initService = new InitService();
+        const initService = new InitService();
         await initService.initialize(this._cdn);
 
-        let supported = find(params.configuredLanguages, { code: language });
+        const supported = find(params.configuredLanguages, { code: language });
         if (supported)
           this._language = language;
         else
           this._language = params.defaultLanguage;
 
-        let dataService = new DataService(this._cdn, this._language);
+        const dataService = new DataService(this._cdn, this._language);
         this._cacheConfig = await dataService.getCacheConfig();
         if (!this._cacheConfig) {
           this._isValid = await initService.validateLists((params.userRole === Roles.Owners));
@@ -90,10 +90,10 @@ export default class CacheController implements ICacheController {
           }
         } else {
           //Check if upgrade is necessary
-          let configManifest: string = this._cacheConfig.ManifestVersion || (this._cacheConfig.WebPartVersion) ? `v${this._cacheConfig.WebPartVersion.substring(0, 1)}` : null;
+          const configManifest = this._cacheConfig.ManifestVersion || (this._cacheConfig.WebPartVersion) ? `v${this._cacheConfig.WebPartVersion.substring(0, 1)}` : null;
           if (!configManifest || configManifest >= params.manifestVersion) {
             //If upgrade isn't needed; Test if cache is out of date
-            let yesterday: Date = new Date();
+            const yesterday: Date = new Date();
             yesterday.setDate(yesterday.getDate() + -1);
             if (!this._cacheConfig.LastUpdated || this._cacheConfig.LastUpdated < yesterday) {
               this._cacheConfig = await dataService.refreshCache(this._cacheConfig);
@@ -116,7 +116,7 @@ export default class CacheController implements ICacheController {
 
   public async isReady(): Promise<boolean> {
     try {
-      let startTime = new Date().getTime();
+      const startTime = new Date().getTime();
       while (!this._ready || new Date().getTime() - startTime > 120000) {
         await this.delay(500);
       }
@@ -128,7 +128,7 @@ export default class CacheController implements ICacheController {
   }
 
   private getFlatCategory(categories: ICategory[]): ICategory[] {
-    let flatCategory: ICategory[] = [];
+    const flatCategory: ICategory[] = [];
     try {
       forEach(categories, (item: ICategory) => {
         if (isNaN(+item.Id)) {

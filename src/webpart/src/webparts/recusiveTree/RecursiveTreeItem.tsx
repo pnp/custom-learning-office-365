@@ -1,12 +1,14 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
-import isEqual from "lodash/isEqual";
-import includes from "lodash/includes";
+import isEqual from "lodash-es/isEqual";
+import includes from "lodash-es/includes";
+import HOOButtonCommand from "@n8d/htwoo-react/HOOButtonCommand";
+import HOOCheckbox from "@n8d/htwoo-react/HOOCheckbox";
 
 import { IRecursiveList } from "./RecursiveTree";
-import { Icon, Checkbox } from "office-ui-fabric-react";
 import styles from "./RecursiveTree.module.scss";
+
 
 export interface IRecursiveTreeItemProps {
   disabled: boolean;
@@ -43,7 +45,7 @@ export default class RecursiveTreeItem extends React.Component<IRecursiveTreeIte
     this.state = new RecursiveTreeItemState(selected);
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<IRecursiveTreeItemProps>, nextState: Readonly<IRecursiveTreeItemState>) {
+  public shouldComponentUpdate(nextProps: Readonly<IRecursiveTreeItemProps>, nextState: Readonly<IRecursiveTreeItemState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     if (this.props.autoExpandChildren && this.props.treeItem.children.length < 1 && (nextProps.selectedKeys != this.props.selectedKeys)) {
@@ -54,7 +56,7 @@ export default class RecursiveTreeItem extends React.Component<IRecursiveTreeIte
     return true;
   }
 
-  public componentDidUpdate() {
+  public componentDidUpdate(): void {
     if (this._updateSelected) {
       this._updateSelected = false;
       const selected = includes(this.props.selectedKeys, this.props.treeItem.key);
@@ -65,7 +67,7 @@ export default class RecursiveTreeItem extends React.Component<IRecursiveTreeIte
     }
   }
 
-  private expandGroup = () => {
+  private expandGroup = (): void => {
     this.setState({
       expanded: !this.state.expanded
     });
@@ -89,28 +91,29 @@ export default class RecursiveTreeItem extends React.Component<IRecursiveTreeIte
         <div className={`${styles.recursiveCont} ${(this.props.show) ? styles.showCont : ""} ${styleLevel}`} >
           <div>
             {this.props.treeItem.children.length > 0 &&
-              <>
-                <Icon
-                  className={styles.recursiveIcon}
-                  iconName={this.state.expanded ? "CaretSolidDown" : "CaretSolidRight"}
-                  onClick={this.expandGroup}
-                />
-                <span className={styles.recursiveTerm}>{this.props.treeItem.name}</span>
-              </>
-            }
-            {this.props.treeItem.children.length < 1 &&
-              <Checkbox
+              <HOOButtonCommand
+                flyoutMenuItems={[]}
                 label={this.props.treeItem.name}
-                className={styles.recursiveTerm}
-                checked={this.state.selected}
-                onChange={this.checkboxChange}
-                disabled={this.props.disabled}
+                onClick={this.expandGroup}
+                leftIconName={this.state.expanded ? "icon-chevron-down-regular" : "icon-chevron-up-regular"}
+
               />
             }
+            {this.props.treeItem.children.length < 1 &&
+              <HOOCheckbox
+                disabled={this.props.disabled}
+                label={this.props.treeItem.name}
+                onChange={this.checkboxChange}
+                rootElementAttributes={{ className: styles.recursiveTerm }}
+                checked={this.state.selected}
+              />
+
+            }
           </div>
-          {this.props.treeItem.children && this.props.treeItem.children.length > 0 && this.props.treeItem.children.map(c => {
+          {this.props.treeItem.children && this.props.treeItem.children.length > 0 && this.props.treeItem.children.map((c, idx) => {
             return (
               <RecursiveTreeItem
+                key={idx}
                 level={this.props.level + 1}
                 treeItem={c}
                 selectedKeys={this.props.selectedKeys}

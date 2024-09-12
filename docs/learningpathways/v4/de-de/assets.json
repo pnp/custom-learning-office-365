@@ -1,5 +1,16 @@
 [
   {
+    "Id": "0d9f6fd5-6b0c-45a2-a0aa-0576ae1f6895",
+    "Title": "Analytics in Viva Engage",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/0d9f6fd5-6b0c-45a2-a0aa-0576ae1f6895?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "1539f168-f27c-4215-9319-a5fafd76eec6",
     "Title": "Verwenden von barrierefreieren Farben und Formatvorlagen auf Folien",
     "Description": "",
@@ -8,6 +19,50 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "1816888d-a0c9-49a5-9d20-e8e5eb2ca94f",
+    "Title": "View similar or related questions",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/1816888d-a0c9-49a5-9d20-e8e5eb2ca94f?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "18446401-7118-43bb-843a-d6ec7b63d896",
+    "Title": "Answer, upvote, or react to a question",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/18446401-7118-43bb-843a-d6ec7b63d896?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "1be9cf71-af3c-4968-bc83-b3d4ea0fc5d4",
+    "Title": "Add community members with a CSV file",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/1be9cf71-af3c-4968-bc83-b3d4ea0fc5d4?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "1ee29da1-5250-4c1e-b773-e7a78cfaf5d4",
+    "Title": "Join and create a community in Viva Engage",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/1ee29da1-5250-4c1e-b773-e7a78cfaf5d4?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -22,6 +77,94 @@
     "StatusNote": ""
   },
   {
+    "Id": "266f50b0-632f-404f-a18a-f3ef3a3c8db0",
+    "Title": "Discover the features that keep you connected on the Viva Engage mobile app",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/266f50b0-632f-404f-a18a-f3ef3a3c8db0?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "2885e8d8-cb6c-4c11-b9aa-ed24a497b467",
+    "Title": "Leadership corner in Viva Engage",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/2885e8d8-cb6c-4c11-b9aa-ed24a497b467?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "2cacf1e5-d1c1-4570-ad16-9ca088bb3535",
+    "Title": "AMA events in Viva Engage",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/2cacf1e5-d1c1-4570-ad16-9ca088bb3535?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "2f0a64a3-c5c0-45cd-b3f1-e1e06732f89f",
+    "Title": "Delegation in Viva Engage",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/2f0a64a3-c5c0-45cd-b3f1-e1e06732f89f?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "341b706c-3d99-46fc-a1a0-32d17dffbee0",
+    "Title": "Why am I receiving the storyline updates?",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/341b706c-3d99-46fc-a1a0-32d17dffbee0?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "3e75fbe9-1b3e-48b5-8e4b-af2716b7873a",
+    "Title": "Manage community members in Viva Engage",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/3e75fbe9-1b3e-48b5-8e4b-af2716b7873a?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "4da377f1-90f5-46f5-b986-f0bb703efff6",
+    "Title": "Search across all questions and answers",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/4da377f1-90f5-46f5-b986-f0bb703efff6?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "57ab702a-7633-47c3-a827-4f7e86bacbf7",
+    "Title": "Explore and filter questions",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/57ab702a-7633-47c3-a827-4f7e86bacbf7?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "5c882b54-d2b1-4270-b65d-79483a2aa3ca",
     "Title": "Erstellen barrierefreier Dateinamen",
     "Description": "",
@@ -30,6 +173,17 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "645cc20d-5c98-4bdb-b559-380c5a27c5e5",
+    "Title": "Verwenden von Schleifenkomponenten in Word für das Web",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/645cc20d-5c98-4bdb-b559-380c5a27c5e5?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -55,6 +209,39 @@
     "StatusNote": ""
   },
   {
+    "Id": "729f9fce-3aa6-4478-888c-a1543918c284",
+    "Title": "Get started with Viva Engage",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/729f9fce-3aa6-4478-888c-a1543918c284?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "763d9317-abfd-4127-bdad-4857e8ff7c1f",
+    "Title": "View personal Answers analytics",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/763d9317-abfd-4127-bdad-4857e8ff7c1f?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "84753c5c-b591-43c8-a9ac-88f4698eaa7d",
+    "Title": "Audience Configuration in Viva Engage",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/84753c5c-b591-43c8-a9ac-88f4698eaa7d?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "8b97437b-107f-43e5-8280-17ac317995fa",
     "Title": "Beginnen mit einer barrierefreien Excel Vorlage",
     "Description": "",
@@ -63,6 +250,28 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "8c546afb-db48-4105-b0dd-88b339739d94",
+    "Title": "Search for a Viva Engage campaign",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/8c546afb-db48-4105-b0dd-88b339739d94?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "8db19630-ecd0-4d1e-b735-437aea62e248",
+    "Title": "Storyline Announcements in Viva Engage",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/8db19630-ecd0-4d1e-b735-437aea62e248?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -99,6 +308,61 @@
     "StatusNote": ""
   },
   {
+    "Id": "953110a6-e1ed-4677-918f-97b15fc691ee",
+    "Title": "View all campaigns in the discovery hub",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/953110a6-e1ed-4677-918f-97b15fc691ee?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "968d35c0-f60c-4e32-85a2-18aea34774bc",
+    "Title": "Create polls, praise, and questions",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/968d35c0-f60c-4e32-85a2-18aea34774bc?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "99c35fbe-d2f5-40e6-b129-fc5a2871334b",
+    "Title": "Earn and view badges",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/99c35fbe-d2f5-40e6-b129-fc5a2871334b?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "9b47c279-011d-4042-bd7f-8bbfca0cb136",
+    "Title": "Verwenden von Schleifenkomponenten in Outlook",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/9b47c279-011d-4042-bd7f-8bbfca0cb136?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "9f4d8d4f-dfc6-4518-9ef6-069408c21f0c",
+    "Title": "Erste Schritte mit Microsoft Loop",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/9f4d8d4f-dfc6-4518-9ef6-069408c21f0c?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "9f920424-7de6-4002-b4ed-6503a3cfae2d",
     "Title": "Erstellen barrierefreier Tabellen",
     "Description": "",
@@ -121,6 +385,39 @@
     "StatusNote": ""
   },
   {
+    "Id": "a3511146-66c0-4e59-90b7-2a1841c6674b",
+    "Title": "Ask a question",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/a3511146-66c0-4e59-90b7-2a1841c6674b?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "ae0590f3-b222-4469-b033-44d4e2e4f12e",
+    "Title": "Receive notifications",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/ae0590f3-b222-4469-b033-44d4e2e4f12e?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "b2a43cce-0e29-491a-b9f3-29c1096af9b7",
+    "Title": "Add an executive sponsor to your campaign",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/b2a43cce-0e29-491a-b9f3-29c1096af9b7?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "b6826ecd-5865-4db4-a8e7-f5a33d2799b5",
     "Title": "Verbessern der Barrierefreiheit von Bildern in E-Mails",
     "Description": "",
@@ -132,6 +429,39 @@
     "StatusNote": ""
   },
   {
+    "Id": "c5f08f54-995e-473e-be6e-7f92555da347",
+    "Title": "Bearbeiten von Schleifenkomponenten in Whiteboard",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/c5f08f54-995e-473e-be6e-7f92555da347?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "ca5252e7-8201-4490-a6d9-59f20df864c6",
+    "Title": "Senden einer Loop-Komponente in Microsoft Teams",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/ca5252e7-8201-4490-a6d9-59f20df864c6?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "cba3c38e-77c6-4ee6-9d5d-6c20522b1fa0",
+    "Title": "Storyline in Viva Engage",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/cba3c38e-77c6-4ee6-9d5d-6c20522b1fa0?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "ce53495d-c30e-442a-b1d2-05593cc814c0",
     "Title": "Überprüfen der Barrierefreiheit von Dokumenten",
     "Description": "",
@@ -140,6 +470,17 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "d7b05128-f80b-4c16-b561-3ddce518eb14",
+    "Title": "Campaigns in Viva Engage",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/d7b05128-f80b-4c16-b561-3ddce518eb14?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -165,6 +506,17 @@
     "StatusNote": ""
   },
   {
+    "Id": "e6331234-e044-4009-a0c8-7c519a2cf668",
+    "Title": "Answers in Viva: Overview",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/e6331234-e044-4009-a0c8-7c519a2cf668?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
     "Id": "e69562f7-e875-485d-839b-cb66b5d98023",
     "Title": "Erstellen von barrierefreieren Diagrammen in Excel",
     "Description": "",
@@ -184,6 +536,39 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "ee2a584b-5785-4dd6-8a2d-956131a29c81",
+    "Title": "Einführung in Schleifenkomponenten",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/ee2a584b-5785-4dd6-8a2d-956131a29c81?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "fc2b05a7-bb79-49e0-be9f-9e63c5a35222",
+    "Title": "Set up Viva Engage on your mobile phone",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/fc2b05a7-bb79-49e0-be9f-9e63c5a35222?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": ""
+  },
+  {
+    "Id": "fd3cf456-28e1-4621-b683-b0d21348a935",
+    "Title": "View and follow topics",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/fd3cf456-28e1-4621-b683-b0d21348a935?embed=true",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
   },
   {
@@ -3180,7 +3565,7 @@
   },
   {
     "Id": "01bfed12-c327-41e0-a68f-7fa527dcc98a",
-    "Title": "Viva Learning Übersicht",
+    "Title": "Viva Learning übersicht",
     "Description": "",
     "Url": "https://support.office.com/de-de/client/01bfed12-c327-41e0-a68f-7fa527dcc98a?embed=true",
     "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
@@ -3191,7 +3576,7 @@
   },
   {
     "Id": "09a94473-cdd4-463b-9dbe-8e6648eb9bdb",
-    "Title": "Entdecken Sie Viva Learning-Inhalte",
+    "Title": "Entdecken Viva Learning",
     "Description": "",
     "Url": "https://support.office.com/de-de/client/09a94473-cdd4-463b-9dbe-8e6648eb9bdb?embed=true",
     "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
@@ -3202,7 +3587,7 @@
   },
   {
     "Id": "692bfe1a-0e8d-467c-b5a7-4e17c132ae93",
-    "Title": "Bringen Sie Ihre eigenen Inhalte zu Viva Learning",
+    "Title": "Bring your own content to Viva Learning",
     "Description": "",
     "Url": "https://support.office.com/de-de/client/692bfe1a-0e8d-467c-b5a7-4e17c132ae93?embed=true",
     "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
@@ -3224,7 +3609,7 @@
   },
   {
     "Id": "77f9dcbf-41a8-4b19-b4d1-b99c406f37b8",
-    "Title": "Empfehlen und verwalten Sie Inhalte in Viva Learning",
+    "Title": "Empfehlen und Verwalten von Inhalten in Viva Learning",
     "Description": "",
     "Url": "https://support.office.com/de-de/client/77f9dcbf-41a8-4b19-b4d1-b99c406f37b8?embed=true",
     "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
@@ -6886,6 +7271,116 @@
     "StatusNote": ""
   },
   {
+    "Id": "0587147d-84ed-438f-8a24-5c75f539814c",
+    "Title": "Erstellen von OKRs mit Viva Goals",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/0587147d-84ed-438f-8a24-5c75f539814c?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "1b39a4b9-fcf1-4078-9f81-49593e667e9d",
+    "Title": "Viva Goals Schnellstart",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/1b39a4b9-fcf1-4078-9f81-49593e667e9d?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "365500a4-0599-41cd-bc86-09bef4206284",
+    "Title": "Interagieren mit Viva Goals",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/365500a4-0599-41cd-bc86-09bef4206284?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "43673d1c-0dd7-42ba-97aa-6e712db171d1",
+    "Title": "Zusammenarbeit mit Viva Goals",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/43673d1c-0dd7-42ba-97aa-6e712db171d1?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "70da5353-257c-41a5-adef-7a62f80acbdc",
+    "Title": "Schnellstart für Führungskräfte",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/70da5353-257c-41a5-adef-7a62f80acbdc?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "bd651be7-472a-4f40-8fdd-6fcead79f3ad",
+    "Title": "Einführung in Microsoft Viva Goals",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/bd651be7-472a-4f40-8fdd-6fcead79f3ad?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "c0244789-4388-4d2d-9d20-3678900d9b98",
+    "Title": "Einchecken mit Viva Goals",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/c0244789-4388-4d2d-9d20-3678900d9b98?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "c0d9f91e-22e6-48ea-ba3a-23ebe7f059d8",
+    "Title": "Schließen mit Viva Goals",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/c0d9f91e-22e6-48ea-ba3a-23ebe7f059d8?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "cd7ba092-fecb-484b-bf17-ebc80b3d25bf",
+    "Title": "Schnellstart in Teams",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/cd7ba092-fecb-484b-bf17-ebc80b3d25bf?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
+    "Id": "d195c526-1b6b-45e1-82fd-8daa21dd84a4",
+    "Title": "Überprüfen von Dashboards mit Viva Goals",
+    "Description": "",
+    "Url": "https://support.office.com/de-de/client/d195c526-1b6b-45e1-82fd-8daa21dd84a4?embed=true",
+    "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "",
+    "StatusNote": ""
+  },
+  {
     "Id": "00cf7943-a9e1-975a-a33d-ac10ce454ca4",
     "Title": "Anzeigen und Löschen des Browserverlaufs in Microsoft Edge",
     "Description": "",
@@ -8152,7 +8647,7 @@
   },
   {
     "Id": "3da30f39-684a-4bde-bb81-2e1407d59b52",
-    "Title": "Viva Connections auf Ihrem Desktop",
+    "Title": "Viva Connections auf dem Desktop",
     "Description": "",
     "Url": "https://support.office.com/de-de/client/3da30f39-684a-4bde-bb81-2e1407d59b52?embed=true",
     "TechnologyId": "e031aa9d-5421-4ee9-8bc6-1b871bafc7f0",
@@ -8163,7 +8658,7 @@
   },
   {
     "Id": "753e0607-0bfd-4712-ad7e-18490dd565a2",
-    "Title": "Viva Connections für unterwegs",
+    "Title": "Viva Connections unterwegs",
     "Description": "",
     "Url": "https://support.office.com/de-de/client/753e0607-0bfd-4712-ad7e-18490dd565a2?embed=true",
     "TechnologyId": "e031aa9d-5421-4ee9-8bc6-1b871bafc7f0",
@@ -8174,7 +8669,7 @@
   },
   {
     "Id": "8b4e7f76-f305-49a9-b6d2-09378476f95b",
-    "Title": "Ihr Intranet ist jetzt in Microsoft Teams",
+    "Title": "Ihr Intranet befindet sich jetzt in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/de-de/client/8b4e7f76-f305-49a9-b6d2-09378476f95b?embed=true",
     "TechnologyId": "e031aa9d-5421-4ee9-8bc6-1b871bafc7f0",
@@ -9703,7 +10198,7 @@
   },
   {
     "Id": "285a5b0d-8c57-4611-9ab5-8377774bac78",
-    "Title": "Einbetten eines Formulars in ein Sway",
+    "Title": "Einbetten eines Formulars in eine Sway",
     "Description": "",
     "Url": "https://support.office.com/de-de/client/b746cae9-0225-47ca-972c-bc899ec2a475?embed=true",
     "TechnologyId": "e9d69805-edb5-43da-8258-5520000bf3a6",
@@ -9714,7 +10209,7 @@
   },
   {
     "Id": "2ca083b9-142d-4c7d-8522-bf8b9635e09e",
-    "Title": "Einbetten eines Office in Sway",
+    "Title": "Einbetten eines Office-Dokuments in Sway",
     "Description": "",
     "Url": "https://support.office.com/de-de/client/a860fe56-6308-4dc4-9b26-072c7f3b51f0?embed=true",
     "TechnologyId": "e9d69805-edb5-43da-8258-5520000bf3a6",
@@ -9725,7 +10220,7 @@
   },
   {
     "Id": "352d0457-e5b2-496c-a7b1-ac27af213e61",
-    "Title": "Erstellen eines Sways in Sekunden mit Schnellstarter",
+    "Title": "Erstellen einer Sway in Sekunden mit Schnellstarter",
     "Description": "",
     "Url": "https://support.office.com/de-de/client/a1e2f127-6080-4494-8147-d85c367bfca8?embed=true",
     "TechnologyId": "e9d69805-edb5-43da-8258-5520000bf3a6",
@@ -9736,7 +10231,7 @@
   },
   {
     "Id": "3d1a93b0-d4af-481c-a18b-c7b65b12968f",
-    "Title": "Importieren von Inhalten in Sway",
+    "Title": "Importieren von Inhalten in SWAY",
     "Description": "",
     "Url": "https://support.office.com/de-de/client/96e42a2e-1f49-4360-aed5-7b30e7bcff42?embed=true",
     "TechnologyId": "e9d69805-edb5-43da-8258-5520000bf3a6",
@@ -9780,7 +10275,7 @@
   },
   {
     "Id": "60db5047-e613-498d-af3e-a1f7566434f2",
-    "Title": "Suchen nach Inhalten in Sway",
+    "Title": "Suchen nach Inhalten in SWAY",
     "Description": "",
     "Url": "https://support.office.com/de-de/client/f76b578e-68ca-403d-925b-bf93c03d4afd?embed=true",
     "TechnologyId": "e9d69805-edb5-43da-8258-5520000bf3a6",
@@ -9791,7 +10286,7 @@
   },
   {
     "Id": "873edbfb-ecce-4b30-bdb4-958151b1cc05",
-    "Title": "Aufzeichnen von Audio in Sway",
+    "Title": "Aufzeichnen von Audiodaten in Sway",
     "Description": "",
     "Url": "https://support.office.com/de-de/client/87be1656-5457-474f-8d17-a23c85eddb39?embed=true",
     "TechnologyId": "e9d69805-edb5-43da-8258-5520000bf3a6",
@@ -9802,7 +10297,7 @@
   },
   {
     "Id": "9200f513-d551-49ae-905b-e5f4a92fbe3e",
-    "Title": "Einbetten von Inhalten in Ihr Sway",
+    "Title": "Einbetten von Inhalten in Ihre Sway",
     "Description": "",
     "Url": "https://support.office.com/de-de/client/1e1ab12a-f961-4a26-8afc-77a15f892b1d?embed=true",
     "TechnologyId": "e9d69805-edb5-43da-8258-5520000bf3a6",
@@ -9879,7 +10374,7 @@
   },
   {
     "Id": "d69e653c-ae7d-4ccd-8451-847f8399bc0d",
-    "Title": "Hinzufügen von Video- und Audiodateien in Sway",
+    "Title": "Hinzufügen von Video- und Audiodateien zu Sway",
     "Description": "",
     "Url": "https://support.office.com/de-de/client/d2f14842-e103-49c0-9da2-0fbcfcad381f?embed=true",
     "TechnologyId": "e9d69805-edb5-43da-8258-5520000bf3a6",

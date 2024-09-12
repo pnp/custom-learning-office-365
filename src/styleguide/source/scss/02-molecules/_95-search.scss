@@ -1,0 +1,43 @@
+@use '../00-base/colors' as colors;
+
+.srch-result {
+    padding: 0.5em;
+
+    .ms-Pivot{
+        margin-left: -8px;
+    }
+
+    .plov-item{
+        border-bottom: 1px colors.$c-light-gray-darken solid;
+    }
+
+    .plov-desc {
+        &:hover {
+            cursor: pointer;
+            .plov-title {
+                &:hover {
+                    text-decoration: underline;
+                }
+            }   
+        }
+
+        .plov-short {
+            min-height: 0;
+            height: auto;
+            max-width: 65%;
+
+            @media screen and (max-width: 768px) {
+                max-width: 100%;
+                ;
+            }
+        }
+    }
+}
+
+.plov-audience {
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    .plov-title {
+        font-size: 14px;
+    }
+}

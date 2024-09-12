@@ -1,6 +1,6 @@
 import { Logger, LogLevel } from "@pnp/logging";
-import forEach from 'lodash/forEach';
-import find from "lodash/find";
+import forEach from 'lodash-es/forEach';
+import find from "lodash-es/find";
 
 import { params } from "./Parameters";
 import { IDataService, DataService } from "./DataService";
@@ -30,24 +30,22 @@ export default class LanguageController implements ILanguageController {
       this.dataServices.push({ code: params.defaultLanguage, dataService: new DataService(this._cdn, params.defaultLanguage), cacheConfig: null });
       await this.dataServices[0].dataService.init();
       if (params.multilingualEnabled) {
-        //this.dataServices[0].dataService.isReady().then(() => {
         forEach(params.configuredLanguages, (language, idx) => {
           if (idx > 0)
             this.dataServices.push({ code: language.code, dataService: new DataService(this._cdn, language.code, this.dataServices[0].dataService.customization), cacheConfig: null });
         });
-        //});
       }
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (init) - ${err}`, LogLevel.Error);
     }
   }
 
-  private async delay(ms: number): Promise<any> {
+  private async delay(ms: number): Promise<unknown> {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
 
   private async languageControllerReady(): Promise<boolean> {
-    let startTime = new Date().getTime();
+    const startTime = new Date().getTime();
     while (!this._ready || new Date().getTime() - startTime > 60000) {
       await this.delay(200);
     }
@@ -95,7 +93,7 @@ export default class LanguageController implements ILanguageController {
   }
 
   public async refreshCache(cacheConfig: ICacheConfig): Promise<ICacheConfig> {
-    let ready = await this.languageControllerReady();
+    const ready = await this.languageControllerReady();
     if (ready) {
       this.dataServices[0].cacheConfig = await this.dataServices[0].dataService.refreshCache(cacheConfig);
       if (this.dataServices.length > 1) {
@@ -118,7 +116,7 @@ export default class LanguageController implements ILanguageController {
   }
 
   public async refreshCacheCustomOnly(cacheConfig: ICacheConfig): Promise<ICacheConfig> {
-    let ready = await this.languageControllerReady();
+    const ready = await this.languageControllerReady();
     if (ready) {
       this.dataServices[0].cacheConfig = await this.dataServices[0].dataService.refreshCacheCustomOnly(cacheConfig, null, null);
       if (this.dataServices.length > 1) {
@@ -137,9 +135,9 @@ export default class LanguageController implements ILanguageController {
   }
 
   public async refreshPlaylistsAll(customOnly: boolean): Promise<IPlaylist[]> {
-    let ready = await this.languageControllerReady();
+    const ready = await this.languageControllerReady();
     if (ready) {
-      let playlists = await this.dataServices[0].dataService.refreshPlaylistsAll(customOnly);
+      const playlists = await this.dataServices[0].dataService.refreshPlaylistsAll(customOnly);
       this.dataServices[0].cacheConfig = await this.dataServices[0].dataService.refreshCacheCustomOnly(this.dataServices[0].cacheConfig, playlists, null);
       if (this.dataServices.length > 1) {
         this._ready = false;
@@ -151,7 +149,7 @@ export default class LanguageController implements ILanguageController {
 
   private async refreshPlaylistsAllAltLangs(customOnly: boolean): Promise<void> {
     for (let i = 1; i < this.dataServices.length; i++) {
-      let playlists = await this.dataServices[i].dataService.refreshPlaylistsAll(customOnly);
+      const playlists = await this.dataServices[i].dataService.refreshPlaylistsAll(customOnly);
       this.dataServices[i].cacheConfig = await this.dataServices[i].dataService.refreshCacheCustomOnly(this.dataServices[i].cacheConfig, playlists, null);
     }
     this._ready = true;
@@ -159,9 +157,9 @@ export default class LanguageController implements ILanguageController {
   }
 
   public async refreshAssetsAll(customOnly: boolean): Promise<IAsset[]> {
-    let ready = await this.languageControllerReady();
+    const ready = await this.languageControllerReady();
     if (ready) {
-      let assets = await this.dataServices[0].dataService.refreshAssetsAll(customOnly);
+      const assets = await this.dataServices[0].dataService.refreshAssetsAll(customOnly);
       this.dataServices[0].cacheConfig = await this.dataServices[0].dataService.refreshCacheCustomOnly(this.dataServices[0].cacheConfig, null, assets);
       if (this.dataServices.length > 1) {
         this._ready = false;
@@ -173,7 +171,7 @@ export default class LanguageController implements ILanguageController {
 
   private async refreshAssetsAllAltLangs(customOnly: boolean): Promise<void> {
     for (let i = 1; i < this.dataServices.length; i++) {
-      let assets = await this.dataServices[i].dataService.refreshAssetsAll(customOnly);
+      const assets = await this.dataServices[i].dataService.refreshAssetsAll(customOnly);
       this.dataServices[i].cacheConfig = await this.dataServices[i].dataService.refreshCacheCustomOnly(this.dataServices[i].cacheConfig, null, assets);
     }
     this._ready = true;
@@ -181,12 +179,12 @@ export default class LanguageController implements ILanguageController {
   }
 
   public getPlaylistTranslations(playlistId: string): IPlaylistTranslation[] {
-    let retVal: IPlaylistTranslation[] = [];
+    const retVal: IPlaylistTranslation[] = [];
     try {
       forEach(this.dataServices, (ds) => {
-        let pl = find(ds.dataService.playlistsAll, { Id: playlistId });
+        const pl = find(ds.dataService.playlistsAll, { Id: playlistId });
         if (pl) {
-          let plt = new PlaylistTranslation(ds.code, pl.Title as string, pl.Image as string, pl.Description as string, null);
+          const plt = new PlaylistTranslation(ds.code, pl.Title as string, pl.Image as string, pl.Description as string, null);
           retVal.push(plt);
         }
       });
@@ -197,12 +195,12 @@ export default class LanguageController implements ILanguageController {
   }
 
   public getAssetTranslations(assetId: string): IPlaylistTranslation[] {
-    let retVal: IPlaylistTranslation[] = [];
+    const retVal: IPlaylistTranslation[] = [];
     try {
       forEach(this.dataServices, (ds) => {
-        let a = find(ds.dataService.assetsAll, { Id: assetId });
+        const a = find(ds.dataService.assetsAll, { Id: assetId });
         if (a) {
-          let at = new PlaylistTranslation(ds.code, a.Title as string, null, null, a.Url as string);
+          const at = new PlaylistTranslation(ds.code, a.Title as string, null, null, a.Url as string);
           retVal.push(at);
         }
       });
