@@ -57,6 +57,10 @@ When prompted enter the credentials of a Site Collection Owner of the M365LP Sit
 
 After both parts of the script have successfully executed Microsoft 365 learning pathways will be installed and configured and ready for you to customize and use.
 
+## Configuring the Custom Analytics Webhook
+
+If you would like to test the custom analytics webhook follow the [webhook configuration instructions](installation/ConfigureAnalyticsWebHook.md).
+
 ## Teams Installation
 
 You can install Microsoft 365 Learning Pathways as both a Personal App AND as a Teams Tab.

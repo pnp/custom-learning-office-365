@@ -7,13 +7,9 @@ Train employees with Microsoft 365 learning pathways, a digital, customizable le
 - Create your own training playlists: Add your own custom training content and playlists to feature your organization-specific scenarios
 - Always up-to-date content: As Office 365 changes, the Microsoft 365 learning pathways content will be updated. Content updates will be made and communicated to customers on a monthly basis
 
-## V5 Beta Testing
+## Version 5 Release
 
-We are in process of releasing our V5 beta with some added accessibility and technology updates. We are looking for users to test the beta and provide feedback. To test the new version, follow the [V5 Installation Instructions](./installation/V5Install.md). Please report any issues in the [issues list](https://github.com/pnp/custom-learning-office-365/issues) and be sure to include the version number and as much details as possible so we can replicate the issue. We will be accepting feedback till July 31, 2024 and will make updates to the beta during that time.
-
-### Configuring the Custom Analytics Webhook
-
-If you would like to test the custom analytics webhook follow the [webhook configuration instructions](installation/ConfigureAnalyticsWebHook.md).
+Version 5 has been released with added accessibility and technology updates. Included in the V5 release we have added a custom analytics webhook. For [webhook configuration instructions](installation/ConfigureAnalyticsWebHook.md).
 
 ## Overview Video
 
@@ -23,9 +19,7 @@ In addition there is a new recording showing an overview of the V4 multilingual 
 
 ## Current Release Version
 
-Stable Version: ![drop](https://img.shields.io/badge/drop-4.4-green.svg)
-
-Beta Version: ![drop](https://img.shields.io/badge/drop-5.0-green.svg)
+Stable Version: ![drop](https://img.shields.io/badge/drop-5.0-green.svg)
 
 ## Prerequisites & Installation
 

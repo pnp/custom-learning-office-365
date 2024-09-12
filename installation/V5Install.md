@@ -1,4 +1,4 @@
-# Version 5 Beta Installation
+# Version 5 Installation
 
 >Although it has been tested thoroughly, as with any major update you should plan for the worst and back up your content first. There are many third party solutions that will assist you with this, if you do not have access to any then the simplest method is to back up your content using Microsoft Excel. Specifically all the items in the _CustomPlaylists_ and _CustomAssets_ lists plus the `CustomSubCategories` item in the _CustomConfig_ list. Please see [Backup Playlist Content](BackupInstructions.md) for more detail instructions.
 
@@ -20,4 +20,4 @@
 
 ## Beta Installation Notes
 
-- We have received some reports that after an update the administration webpart doesn't load on the page. If this occurs, delete the sppkg file from the app catalog and then add it again. This resolves the issue. 
+- We have received some reports that after an update the administration webpart doesn't load on the page. If this occurs, delete the sppkg file from the app catalog and then add it again. This resolves the issue.
