@@ -5,8 +5,8 @@
   },
   "Version": {
     "Manifest": "v4",
-    "ManifestMinWebPart": "4.0.0",
-    "CurrentWebPart": "4.2.0",
+    "ManifestMinWebPart": "5.0.0",
+    "CurrentWebPart": "5.0.0",
     "RepoURL": "https://github.com/pnp/custom-learning-office-365#updating-the-solution"
   },
   "ContentPacks": [

@@ -57,6 +57,18 @@ When prompted enter the credentials of a Site Collection Owner of the M365LP Sit
 
 After both parts of the script have successfully executed Microsoft 365 learning pathways will be installed and configured and ready for you to customize and use.
 
+## Teams Installation
+
+You can install Microsoft 365 Learning Pathways as both a Personal App AND as a Teams Tab.
+
+### Personal App
+
+To enable Microsoft 365 Learning Pathways as a Personal App enable the M365 Learning Pathways app as an app in the root site collection then add the app to Teams as a Personal App.
+
+### Teams Tab
+
+To enable Microsoft 365 Learning Pathways as a Teams Tab enable the M365 Learning Pathways app as an app in the site behind the Team. If you would like to enable it in all sites without having to enable the app in individual site collections you need to deploy the app in the app catalog using Tenant Wide Deployment.
+
 ### Disabling Telemetry Collection
 
 Part of this solution includes anonymized telemetry tracking opt in, which by default is set to on. If you are performing a manual install and you would like to turn telemetry tracking off, please change the `M365lpConfiguration.ps1` script to set the $optInTelemetry variable to $false.
