@@ -1,0 +1,72 @@
+@use '../../../../node_modules/@n8d/htwoo-core/lib/sass/00-base/colors/colors' as dt;
+
+.adm-cmdbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+
+    .hoo-input-search {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+.adm-curplasset {
+    list-style: none;
+    list-style-type: none;
+    border-top: 1px dt.$neutral-200 solid;
+}
+
+.adm-curplasset-summary {
+    list-style: none;
+    list-style-type: none;
+
+    &::marker,
+    &::-webkit-details-marker {
+        display: none;
+        content-visibility: hidden;
+    }
+}
+
+.adm-curplasset-content{
+    .hoo-pivotbar{
+        margin-bottom: 1rem;
+        margin-left: -0.5rem;
+    }
+}
+
+.adm-curplasset-details{
+    margin-top: 1rem;
+    padding-inline: 1rem;
+    box-sizing: border-box;
+    &:has([class*='hoo']){
+        padding-inline: 0;
+    }
+    .hoo-label{
+        display: block;
+    }
+}
+
+.adm-curplasset-lang{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    .hoo-pivotbar{
+        width: 100%;
+    }
+}
+
+.adm-curplasset-action{
+    margin-block: 1rem;
+}
+
+.adm-plitem-form{
+    .hoo-label{
+        display: block;
+    }
+    .hoo-label + *{
+        margin-bottom: .75rem;
+    }
+}

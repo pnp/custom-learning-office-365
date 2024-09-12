@@ -1,0 +1,33 @@
+@use '../00-base/base.settings' as base;
+@use '../00-base/colors' as colors;
+
+.sldpnl {
+  grid-column: 6 / span 6;
+  padding: 2em 0;
+
+  @media screen and (max-width: 1024px) {
+    grid-column: 1 / span 12;
+    width: 100%;
+  }
+
+  &-header {
+    border: 1px colors.$c-gray solid;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    flex-wrap: nowrap;
+  }
+
+  &-title {
+    @include base.fs-xl;
+    line-height: 175%;
+    margin: 0.25em 0;
+  }
+
+  &-toggle {
+    align-self: center flex-end;
+    margin: 0.25em 0;
+  }
+}

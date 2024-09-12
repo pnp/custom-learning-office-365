@@ -1,0 +1,16 @@
+<dialog id="dlgiframe" class="hoo-dlg" style="--hoo-dlg-width: 50vw;">
+    {{> molecules-dialog-header }}
+    {{#iFrame}}
+    {{> molecules-dialog-iframe this }}
+    {{/iFrame}}
+</dialog>
+<!--- ⬇️ Script below is just for demo purposes ⬇️ -->
+<script>
+    console.debug(location.href);
+    let dlgiframe = document.querySelector('#dlgiframe');
+
+    if (dlgiframe !== undefined && dlgiframe.parentElement.className === 'dlg-background') {
+        
+        dlgiframe.showModal();
+    }
+</script>

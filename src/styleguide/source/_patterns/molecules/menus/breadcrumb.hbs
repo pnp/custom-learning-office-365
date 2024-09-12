@@ -1,0 +1,18 @@
+<nav class="hoo-breadcrumb">
+    <ol>
+        {{#each breadcrumbItems }}
+        <li class="hoo-breadcrumb-item">
+            {{#if @last }}
+            <a href="{{ link }}" class="hoo-breadcrumb-link" aria-current="location">{{ text }}</a>
+            {{ else }}
+            <a href="{{ link }}" class="hoo-breadcrumb-link">{{ text }}</a>
+            {{/if}}
+            {{#if separator }}
+            <span class="hoo-breadcrumb-separator">
+                {{> atoms-icon-svg iconname="icon-arrow-right" }}
+            </span>
+            {{/if }}
+        </li>
+        {{/each}}
+    </ol>
+</nav>

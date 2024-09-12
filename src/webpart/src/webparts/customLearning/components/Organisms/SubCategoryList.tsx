@@ -1,21 +1,21 @@
-import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
+import * as React from "react";
 
-import map from "lodash/map";
-import filter from "lodash/filter";
-import isEqual from "lodash/isEqual";
+import filter from "lodash-es/filter";
+import isEqual from "lodash-es/isEqual";
+import map from "lodash-es/map";
 
-import { ICategory, IPlaylist } from '../../../common/models/Models';
 import { Templates } from "../../../common/models/Enums";
+import { ICategory, IPlaylist } from '../../../common/models/Models';
+import { UXServiceContext } from '../../../common/services/UXService';
 import SubCategoryItem from "../Molecules/SubcategoryItem";
 
 export interface ISubCategoryListProps {
   detail: ICategory[] | IPlaylist[];
   template: string;
-  editMode: boolean;
-  customSort: boolean;
+  // customSort: boolean;
   selectItem: (template: string, templateId: string) => void;
-  updateCustomSort: (customSortOrder: string[]) => void;
+  // updateCustomSort: (customSortOrder: string[]) => void;
 }
 
 export interface ISubCategoryListState {
@@ -31,7 +31,10 @@ export class SubCategoryListState implements ISubCategoryListState {
 }
 
 export default class SubCategoryList extends React.Component<ISubCategoryListProps, ISubCategoryListState> {
+  static contextType = UXServiceContext;
+
   private LOG_SOURCE: string = "SubCategoryList";
+  private _uxService: React.ContextType<typeof UXServiceContext>;
   private _updateState: boolean;
   private _dragResource: ICategory | IPlaylist;
 
@@ -40,7 +43,11 @@ export default class SubCategoryList extends React.Component<ISubCategoryListPro
     this.state = new SubCategoryListState(props.detail);
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<ISubCategoryListProps>, nextState: Readonly<ISubCategoryListState>) {
+  private _reInit = (): void => {
+    this.render();
+  }
+
+  public shouldComponentUpdate(nextProps: Readonly<ISubCategoryListProps>, nextState: Readonly<ISubCategoryListState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     if (!isEqual(nextProps.detail, this.props.detail))
@@ -48,7 +55,7 @@ export default class SubCategoryList extends React.Component<ISubCategoryListPro
     return true;
   }
 
-  public componentDidUpdate() {
+  public componentDidUpdate(): void {
     if (this._updateState) {
       this._updateState = false;
       this.setState({ detail: this.props.detail });
@@ -56,13 +63,13 @@ export default class SubCategoryList extends React.Component<ISubCategoryListPro
   }
 
   //Support drag and drop for custom sorting
-  private startDrag = (event: React.DragEvent<HTMLDivElement>, index: number) => {
-    if (!(this.props.customSort && this.props.editMode)) { return; }
+  private _startDrag = (event: React.DragEvent<HTMLDivElement>, index: number): void => {
+    if (!(this._uxService.CustomSort && this._uxService.EditMode)) { return; }
     try {
       event.stopPropagation();
       this._dragResource = this.state.detail[index];
       event.dataTransfer.effectAllowed = "move";
-      event.target[0].style.cursor = "move";
+      (event.target as HTMLElement).style.cursor = "move";
       event.dataTransfer.setData("text/html", event.currentTarget.nodeName);
       event.dataTransfer.setDragImage(event.currentTarget, 20, 20);
     } catch (err) {
@@ -70,22 +77,22 @@ export default class SubCategoryList extends React.Component<ISubCategoryListPro
     }
   }
 
-  private endDrag = () => {
-    if (!(this.props.customSort && this.props.editMode)) { return; }
+  private _endDrag = (): void => {
+    if (!(this._uxService.CustomSort && this._uxService.EditMode)) { return; }
     try {
-      let customSortOrder: string[] = map(this.state.detail, (item: ICategory | IPlaylist) => {
+      const customSortOrder: string[] = map(this.state.detail, (item: ICategory | IPlaylist) => {
         return item.Id;
       });
       this._dragResource = null;
       if (!isEqual(this.state.detail, this.props.detail))
-        this.props.updateCustomSort(customSortOrder);
+        this._uxService.UpdateCustomSort(customSortOrder);
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (endDrag) - ${err}`, LogLevel.Error);
     }
   }
 
-  private dragEnter = (index: number) => {
-    if (!(this.props.customSort && this.props.editMode)) { return; }
+  private _dragEnter = (index: number): void => {
+    if (!(this._uxService.CustomSort && this._uxService.EditMode)) { return; }
     try {
       const draggedOverItem = this.state.detail[index];
 
@@ -95,7 +102,7 @@ export default class SubCategoryList extends React.Component<ISubCategoryListPro
       }
 
       // filter out the currently dragged item
-      let detail = filter(this.state.detail, (item: ICategory | IPlaylist) => {
+      const detail = filter(this.state.detail, (item: ICategory | IPlaylist) => {
         return item !== this._dragResource;
       });
 
@@ -108,45 +115,57 @@ export default class SubCategoryList extends React.Component<ISubCategoryListPro
   }
 
   public render(): React.ReactElement<ISubCategoryListProps> {
-    let dragMode: boolean = (this.props.customSort && this.props.editMode);
+    if (this._uxService == undefined) {
+      this._uxService = this.context;
+      const renderFunction = {};
+      renderFunction[this.LOG_SOURCE] = this._reInit;
+      this._uxService.FCLWPRender = renderFunction;
+    }
+    const dragMode: boolean = (this._uxService.CustomSort && this._uxService.EditMode);
     try {
       return (
-        <div data-component={this.LOG_SOURCE} className={`plov ${(dragMode ? "editSort" : "")}`}>
+        <menu data-component={this.LOG_SOURCE} className={`plov ${(dragMode ? "editSort" : "")}`}>
           {this.state.detail && this.state.detail.length > 0 && (this.props.template == Templates.SubCategory) && (this.state.detail as ICategory[]).map((subcategory, idx) => {
             return (
-              <SubCategoryItem
-                index={idx}
-                dragMode={dragMode}
-                imageSource={((subcategory.Image as string).length > 0) ? (subcategory.Image as string) : null}
-                title={subcategory.Name as string}
-                description=""
-                audience={null}
-                onClick={() => { if (!dragMode) { this.props.selectItem(Templates.SubCategory, subcategory.Id); } }}
-                onDragStart={this.startDrag}
-                onDragEnter={this.dragEnter}
-                onDragEnd={this.endDrag}
-              />
+              <li key={idx}>
+                <SubCategoryItem
+                  key={idx}
+                  index={idx}
+                  dragMode={dragMode}
+                  imageSource={((subcategory.Image as string).length > 0) ? (subcategory.Image as string) : null}
+                  title={subcategory.Name as string}
+                  description=""
+                  audience={null}
+                  onClick={() => { if (!dragMode) { this.props.selectItem(Templates.SubCategory, subcategory.Id); } }}
+                  onDragStart={this._startDrag}
+                  onDragEnter={this._dragEnter}
+                  onDragEnd={this._endDrag}
+                />
+              </li>
             );
           })
           }
           {this.state.detail && this.state.detail.length > 0 && (this.props.template == Templates.Playlists) && (this.state.detail as IPlaylist[]).map((playlist, idx) => {
             return (
-              <SubCategoryItem
-                index={idx}
-                dragMode={dragMode}
-                imageSource={((playlist.Image as string).length > 0) ? playlist.Image as string : null}
-                title={playlist.Title as string}
-                description={playlist.Description as string}
-                audience={playlist.AudienceValue}
-                onClick={() => { if (!dragMode) { this.props.selectItem(Templates.Playlist, playlist.Id); } }}
-                onDragStart={this.startDrag}
-                onDragEnter={this.dragEnter}
-                onDragEnd={this.endDrag}
-              />
+              <li key={idx}>
+                <SubCategoryItem
+                  key={idx}
+                  index={idx}
+                  dragMode={dragMode}
+                  imageSource={((playlist.Image as string).length > 0) ? playlist.Image as string : null}
+                  title={playlist.Title as string}
+                  description={playlist.Description as string}
+                  audience={playlist.AudienceValue}
+                  onClick={() => { if (!dragMode) { this.props.selectItem(Templates.Playlist, playlist.Id); } }}
+                  onDragStart={this._startDrag}
+                  onDragEnter={this._dragEnter}
+                  onDragEnd={this._endDrag}
+                />
+              </li>
             );
           })
           }
-        </div>
+        </menu>
       );
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);

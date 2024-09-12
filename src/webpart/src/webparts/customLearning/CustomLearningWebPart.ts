@@ -1,11 +1,4 @@
-import "core-js/stable/array/from";
-import "core-js/stable/array/fill";
-import "core-js/stable/array/iterator";
-import "core-js/stable/promise";
-import "core-js/stable/reflect";
-import "es6-map/implement";
-import "whatwg-fetch";
-
+/* eslint-disable dot-notation */
 import * as React from "react";
 import * as ReactDom from "react-dom";
 import { Version, DisplayMode } from "@microsoft/sp-core-library";
@@ -19,25 +12,32 @@ import {
   PropertyPaneDropdownOptionType,
   PropertyPaneToggle,
   PropertyPaneButton,
-  PropertyPaneButtonType
+  PropertyPaneButtonType,
+  IPropertyPaneField,
+  IPropertyPaneDropdownProps,
+  IPropertyPaneLabelProps
 } from "@microsoft/sp-property-pane";
-import { sp } from '@pnp/sp';
+import { ThemeProvider } from '@microsoft/sp-component-base';
+import { app } from "@microsoft/teams-js-v2";
 
-import sortBy from "lodash/sortBy";
-import find from "lodash/find";
-import cloneDeep from "lodash/cloneDeep";
+import sortBy from "lodash-es/sortBy";
+import find from "lodash-es/find";
+import cloneDeep from "lodash-es/cloneDeep";
 
 import { Logger, LogLevel, ConsoleListener } from "@pnp/logging";
-import { UrlQueryParameterCollection } from '@microsoft/sp-core-library';
 
 import { params } from "../common/services/Parameters";
 import { AppInsightsService } from "../common/services/AppInsightsService";
-import { initializeIcons } from '@uifabric/icons';
+import { WebhookService } from "../common/services/WebhookService";
+import { UXService, UXServiceContext } from "../common/services/UXService";
+import { symset } from '@n8d/htwoo-react/SymbolSet';
+import { SPFxThemes, ISPFxThemes } from '@n8d/htwoo-react/SPFxThemes';
+import mlpicons from "../../../../node_modules/learning-pathways-styleguide/source/images/mlp-icons.svg"
 
 import * as strings from "M365LPStrings";
 import ShimmerViewer from "../common/components/Atoms/ShimmerViewer";
 import { ICategory, IPlaylist } from "../common/models/Models";
-import { Templates, WebpartMode, PropertyPaneFilters, ShimmerView } from "../common/models/Enums";
+import { Templates, WebPartModeOptions, PropertyPaneFilters, ShimmerView } from "../common/models/Enums";
 import CacheController, { ICacheController } from "../common/services/CacheController";
 import Error from "../common/components/Atoms/Error";
 
@@ -54,28 +54,23 @@ export interface ICustomLearningWebPartProps {
   defaultCDN: string;
   customSort: boolean;
   customSortOrder: string[];
+  alwaysShowSearch: boolean;
+  openAssetsInDialog: boolean;
 }
-
-import {
-  ThemeProvider,
-  IReadonlyTheme,
-  ThemeChangedEventArgs,
-  ISemanticColors
-} from '@microsoft/sp-component-base';
-
 
 export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustomLearningWebPartProps> {
   private LOG_SOURCE: string = "CustomLearningWebPart";
   private _isReady: boolean = false;
   private _isError: boolean = false;
   private _cacheController: ICacheController;
+  private _uxService = new UXService();
   private _validSetup: boolean = false;
   private _validConfig: boolean = false;
+  private _teamsContext: app.Context;
 
-  private _webpartMode: string = "";
-  private _startType: string = "";
-  private _startLocation: string = "";
-  private _startAsset: string = "";
+  // private _startType: string = "";
+  // private _startLocation: string = "";
+  // private _startAsset: string = "";
 
   private _ppDefaultCDN: IPropertyPaneDropdownOption[];
   private _ppWebpartMode: IPropertyPaneDropdownOption[];
@@ -86,54 +81,33 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
   private _ppAssets: IPropertyPaneDropdownOption[];
 
   //Get the values from the query string if necessary
-  private _queryParms: UrlQueryParameterCollection = new UrlQueryParameterCollection(window.location.href);
-  private _urlWebpartMode: string = this._queryParms.getValue("webpartmode");
-  private _urlCDN: string = this._queryParms.getValue("cdn");
-  private _urlCategory: string = this._queryParms.getValue("category");
-  private _urlSubCategory: string = this._queryParms.getValue("subcategory");
-  private _urlPlaylist: string = this._queryParms.getValue("playlist");
-  private _urlAsset: string = this._queryParms.getValue("asset");
+  private _queryParms: URLSearchParams = new URLSearchParams(window.location.search);
+  private _urlWebpartMode = this._queryParms.get("webpartmode");
+  private _urlCDN = this._queryParms.get("cdn");
+  private _urlCategory = this._queryParms.get("category");
+  private _urlSubCategory = this._queryParms.get("subcategory");
+  private _urlPlaylist = this._queryParms.get("playlist");
+  private _urlAsset = this._queryParms.get("asset");
 
   // Theming support for Section
   private _themeProvider: ThemeProvider;
-  private _themeVariant: IReadonlyTheme | undefined;
+  private _spfxThemes: ISPFxThemes = new SPFxThemes();
 
   public async onInit(): Promise<void> {
-
     // Consume the new ThemeProvider service
     this._themeProvider = this.context.serviceScope.consume(ThemeProvider.serviceKey);
-
-    // If it exists, get the theme variant
-    this._themeVariant = this._themeProvider.tryGetTheme();
-
-    // If there is a theme variant
-    if (this._themeVariant) {
-      // we set transfer semanticColors into CSS variables
-      this.setCSSVariables(this._themeVariant.semanticColors);
-      this.setCSSVariables(this._themeVariant.palette);
-      this.setCSSVariables(this._themeVariant["effects"]);
-    } else if (window["__themeState__"].theme) {
-      // we set transfer semanticColors into CSS variables
-      this.setCSSVariables(window["__themeState__"].theme);
-    }
-
-    // Handle theme changes
-    this._themeProvider.themeChangedEvent.add(this, this._handleThemeChangedEvent);
+    this._spfxThemes.initThemeHandler(this.domElement, this._themeProvider, this.context.sdks?.microsoftTeams);
 
     try {
       //Initialize PnPLogger
-      Logger.subscribe(new ConsoleListener());
+      Logger.subscribe(ConsoleListener());
       Logger.activeLogLevel = LogLevel.Info;
 
-      //Initialize UI Fabric Icons
-      initializeIcons();
+      //Initialize hTWOo Icons
+      await symset.initSymbols(mlpicons);
 
       //Save context
       params.context = this.context;
-
-      //Initialize PnPJs
-      let ie11Mode: boolean = (!!window.MSInputMethodContext && !!document["documentMode"]);
-      sp.setup({ ie11: ie11Mode, spfxContext: this.context });
 
       //Set HttpClient
       params.httpClient = this.context.httpClient;
@@ -148,10 +122,12 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
       params.userLanguage = this.context.pageContext.cultureInfo.currentUICultureName.toLowerCase();
 
       //If in Teams context get Query String Parameters from Teams Context
-      if (this.context.sdks?.microsoftTeams)
-        this.getTeamsQueryString();
+      if (this.context.sdks?.microsoftTeams) {
+        this._getTeamsQueryString();
+        this._teamsContext = await this.context.sdks.microsoftTeams?.teamsJs.app.getContext();
+      }
 
-      this.firstInit();
+      this._firstInit();
     } catch (err) {
       this._isReady = true;
       this._isError = true;
@@ -162,12 +138,12 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
 
   }
 
-  private getTeamsQueryString(): void {
+  private _getTeamsQueryString(): void {
     try {
       // Get configuration from the Teams SDK
-      if (this.context.sdks.microsoftTeams.context) {
-        if (this.context.sdks.microsoftTeams.context?.subEntityId?.length > 0) {
-          let queryString = this.context.sdks.microsoftTeams.context.subEntityId.split(":");
+      if (this._teamsContext != null) {
+        if (this._teamsContext.page?.subPageId != null && this._teamsContext.page.subPageId?.length > 0) {
+          const queryString = this._teamsContext.page.subPageId?.split(":");
           this._urlWebpartMode = queryString[0];
           this._urlCDN = queryString[1];
           this._urlCategory = queryString[2];
@@ -181,18 +157,95 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
     }
   }
 
+  private _setStartingLocation = (skipRender: boolean = false): void => {
+    try {
+      let startChanged = false;
+      const webPartStartup = cloneDeep(this._uxService.WebPartStartup);
 
-  private _handleThemeChangedEvent(args: ThemeChangedEventArgs): void {
+      if (this.properties.webpartMode !== "" && this.properties.webpartMode !== this._uxService.WebPartMode) {
+        this._uxService.WebPartMode = this.properties.webpartMode;
+        startChanged = true;
+      }
 
-    this._themeVariant = args.theme;
+      //Update startType and startLocation if changed.
+      if (this.properties.defaultCategory !== "" && this.properties.defaultCategory !== webPartStartup.startingLocation) {
+        webPartStartup.startingType = Templates.Category;
+        webPartStartup.startingLocation = this.properties.defaultCategory;
+        startChanged = true;
+      }
+      if (this.properties.defaultSubCategory !== "" && this.properties.defaultSubCategory !== webPartStartup.startingLocation) {
+        webPartStartup.startingType = Templates.SubCategory;
+        webPartStartup.startingLocation = this.properties.defaultSubCategory;
+        startChanged = true;
+      }
+      if (this.properties.defaultPlaylist !== "" && this.properties.defaultPlaylist !== webPartStartup.startingLocation) {
+        webPartStartup.startingType = Templates.Playlist;
+        webPartStartup.startingLocation = this.properties.defaultPlaylist;
+        startChanged = true;
+      }
+      if (this.properties.defaultAsset !== "" && this.properties.defaultAsset !== webPartStartup.startAsset) {
+        webPartStartup.startAsset = this.properties.defaultAsset;
+        startChanged = true;
+      }
+      if (this.properties.defaultCategory === "" && this.properties.defaultSubCategory === "" && this.properties.defaultPlaylist === "") {
+        webPartStartup.startingType = "";
+        webPartStartup.startingLocation = "";
+        startChanged = true;
+      }
 
-    this.setCSSVariables(this._themeVariant.semanticColors);
-    this.setCSSVariables(this._themeVariant.palette);
-    this.setCSSVariables(this._themeVariant["effects"]);
-
+      this._uxService.WebPartStartup = webPartStartup;
+      if (startChanged) {
+        //Reset history
+        this._uxService.History = [];
+      }
+      if (startChanged && !skipRender) {
+        this._uxService.CLWPRender();
+      }
+    } catch (err) {
+      console.error(`${this.LOG_SOURCE} (_setStartingLocation) - ${err}`);
+    }
   }
 
-  private async firstInit(): Promise<void> {
+  private _setQueryStringParams(): void {
+    try {
+      //Override if the query string parameters are set. But we don't want to do this if we are in edit mode.
+      if (this.displayMode != DisplayMode.Edit) {
+
+        const webPartStartup = cloneDeep(this._uxService.WebPartStartup);
+
+        //Set Webpart mode via query string
+        if ((this._urlWebpartMode) && (this._urlWebpartMode !== "")) {
+          this._uxService.WebPartMode = this._urlWebpartMode;
+        }
+        //If any of the categories are set in the Query String then we reset the web part here
+        if (((this._urlCategory) && (this._urlCategory != "")) || ((this._urlSubCategory) && (this._urlSubCategory != "")) || ((this._urlPlaylist) && (this._urlPlaylist != "")) || ((this._urlAsset) && (this._urlAsset != ""))) {
+          if ((this._urlCategory) && (this._urlCategory != "")) {
+            webPartStartup.startingType = Templates.Category;
+            webPartStartup.startingLocation = this._urlCategory;
+          } else if ((this._urlSubCategory) && (this._urlSubCategory != "")) {
+            webPartStartup.startingType = Templates.SubCategory;
+            webPartStartup.startingLocation = this._urlSubCategory;
+          } else if ((this._urlPlaylist) && (this._urlPlaylist != "")) {
+            webPartStartup.startingType = Templates.Playlist;
+            webPartStartup.startingLocation = this._urlPlaylist;
+            webPartStartup.startAsset = this._urlAsset as string;
+          } else if ((this._urlAsset) && (this._urlAsset != "")) {
+            webPartStartup.startingType = Templates.Asset;
+            webPartStartup.startingLocation = this._urlAsset;
+          } else {
+            webPartStartup.startingType = "";
+            webPartStartup.startingLocation = "";
+          }
+        }
+
+        this._uxService.WebPartStartup = webPartStartup;
+      }
+    } catch (err) {
+      console.error(`${this.LOG_SOURCE} (_setQueryStringParams) - ${err}`);
+    }
+  }
+
+  private async _firstInit(): Promise<void> {
     try {
       let currentCdn = this._urlCDN;
       if (!currentCdn || currentCdn.length < 1) {
@@ -201,14 +254,32 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
         currentCdn = this.properties.defaultCDN;
       }
 
-      await this.configCDN(currentCdn);
+      await this._configCDN(currentCdn);
 
-      if (this.context.propertyPane.isPropertyPaneOpen)
+      if (this.context.propertyPane.isPropertyPaneOpen()) {
+        this.onPropertyPaneConfigurationStart();
         this.context.propertyPane.refresh();
+      }
 
       // Initialize App Insights
       AppInsightsService.initialize(this._cacheController.CDN, this._cacheController.cacheConfig.TelemetryKey);
       AppInsightsService.trackEvent(this.LOG_SOURCE);
+
+      //Initialize Webhook Service
+      WebhookService.initialize();
+
+      //Initialize UX Service
+      this._uxService.Init(this._cacheController);
+      this._uxService.WebPartMode = this.properties.webpartMode;
+      this._uxService.CustomSort = this.properties.customSort ? this.properties.customSort : false;
+      this._uxService.CustomSortOrder = this.properties.customSortOrder;
+      this._uxService.FUpdateCustomSort = this._updateCustomSort;
+      this._uxService.EditMode = (this.displayMode === DisplayMode.Edit);
+
+      //Set starting location for web part in UX Service
+      this._setStartingLocation(true);
+      //Override starting location for web part if query string parameters were provided
+      this._setQueryStringParams();
 
       Logger.write(`🎓Initialized Microsoft 365 learning pathways - Tenant: ${this.context.pageContext.aadInfo.tenantId}`, LogLevel.Info);
     } catch (err) {
@@ -220,17 +291,19 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
     this.render();
   }
 
-  private async configCDN(cdnId: string): Promise<boolean> {
+  private async _configCDN(cdnId: string): Promise<boolean> {
     let retVal = false;
     try {
       this._cacheController = CacheController.getInstance(cdnId);
       this._cacheController.doInit(cdnId, params.userLanguage);
-      let ready = await this._cacheController.isReady();
+      const ready = await this._cacheController.isReady();
       if (ready && this._cacheController.isValid) {
         this._validSetup = this._cacheController.isValid;
         if (this._cacheController.cacheConfig) {
+          this._uxService.Init(this._cacheController);
           retVal = true;
           AppInsightsService.Technologies = this._cacheController.cacheConfig.Technologies;
+
           this._validConfig = true;
         } else {
           this._validConfig = false;
@@ -246,66 +319,23 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
     return retVal;
   }
 
+  private _updateCustomSort = (customSortOrder: string[]): void => {
+    this.properties.customSortOrder = customSortOrder;
+    this._uxService.CustomSortOrder = customSortOrder;
+    this._uxService.CLWPRender();
+  }
+
+  private _resetCustomSortOrder = (): void => {
+    this.properties.customSortOrder = [];
+    this._uxService.CustomSortOrder = [];
+    this._uxService.CLWPRender();
+  }
+
   public async render(): Promise<void> {
     let element;
 
-    //Update startType and startLocation if changed.
-    if (this.properties.webpartMode !== "" && this.properties.webpartMode !== this._webpartMode) {
-      this._webpartMode = this.properties.webpartMode;
-    }
-
-    if (this.properties.defaultCategory !== "" && this.properties.defaultCategory !== this._startLocation) {
-      this._startType = Templates.Category;
-      this._startLocation = this.properties.defaultCategory;
-    }
-
-    if (this.properties.defaultSubCategory !== "" && this.properties.defaultSubCategory !== this._startLocation) {
-      this._startType = Templates.SubCategory;
-      this._startLocation = this.properties.defaultSubCategory;
-    }
-    if (this.properties.defaultPlaylist !== "" && this.properties.defaultPlaylist !== this._startLocation) {
-      this._startType = Templates.Playlist;
-      this._startLocation = this.properties.defaultPlaylist;
-    }
-    if (this.properties.defaultAsset !== "" && this.properties.defaultAsset !== this._startAsset) {
-      this._startAsset = this.properties.defaultAsset;
-    }
-    if (this.properties.defaultCategory === "" && this.properties.defaultSubCategory === "" && this.properties.defaultPlaylist === "") {
-      this._startType = "";
-      this._startLocation = "";
-    }
-
-    //Override if the query string parameters are set. But we don't want to do this if we are in edit mode.
-    if (this.displayMode != DisplayMode.Edit) {
-      //Set Webpart mode via query string
-      if ((this._urlWebpartMode) && (this._urlWebpartMode !== "")) {
-        this._webpartMode = this._urlWebpartMode;
-      }
-
-      //If any of the categories are set in the Query String then we reset the web part here
-      if (((this._urlCategory) && (this._urlCategory != "")) || ((this._urlSubCategory) && (this._urlSubCategory != "")) || ((this._urlPlaylist) && (this._urlPlaylist != "")) || ((this._urlAsset) && (this._urlAsset != ""))) {
-        if ((this._urlCategory) && (this._urlCategory != "")) {
-          this._startType = Templates.Category;
-          this._startLocation = this._urlCategory;
-        } else if ((this._urlSubCategory) && (this._urlSubCategory != "")) {
-          this._startType = Templates.SubCategory;
-          this._startLocation = this._urlSubCategory;
-        } else if ((this._urlPlaylist) && (this._urlPlaylist != "")) {
-          this._startType = Templates.Playlist;
-          this._startLocation = this._urlPlaylist;
-          this._startAsset = this._urlAsset;
-        } else if ((this._urlAsset) && (this._urlAsset != "")) {
-          this._startType = Templates.Asset;
-          this._startLocation = this._urlAsset;
-        } else {
-          this._startType = "";
-          this._startLocation = "";
-        }
-      }
-    }
-
     let sv: string = ShimmerView.ViewerCategory;
-    switch (this._startType) {
+    switch (this._uxService.WebPartStartup.startingType) {
       case Templates.Category:
         sv = ShimmerView.ViewerCategory;
         break;
@@ -316,7 +346,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
         sv = ShimmerView.ViewerPlaylist;
         break;
     }
-    let shimmer = React.createElement(
+    const shimmer = React.createElement(
       ShimmerViewer, { shimmerView: sv }
     );
 
@@ -335,20 +365,12 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
     else {
       //Render Webpart if no error condition
       if (this._validSetup && this._validConfig) {
-        //Render web part
+        //Render web part 
         const props: ICustomLearningProps = {
-          editMode: (this.displayMode === DisplayMode.Edit),
-          webpartMode: this.properties.webpartMode,
-          startType: this._startType,
-          startLocation: this._startLocation,
-          startAsset: this._startAsset,
           webpartTitle: this.properties.title,
-          customSort: this.properties.customSort ? this.properties.customSort : false,
-          customSortOrder: this.properties.customSortOrder,
-          teamsEntityId: this.context.sdks.microsoftTeams?.context?.entityId,
-          cacheController: this._cacheController,
-          updateCustomSort: this.updateCustomSort,
-          getCSSVariablesOnElement: this.getCSSVariablesOnElement,
+          teamsEntityId: this._teamsContext?.page?.subPageId ?? '',
+          alwaysShowSearch: this.properties.alwaysShowSearch || false,
+          openAssetsInDialog: (this.properties.openAssetsInDialog && this.displayMode != DisplayMode.Edit) ? this.properties.openAssetsInDialog : false
         };
 
         element = React.createElement(React.Suspense, { fallback: shimmer },
@@ -363,7 +385,10 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
         );
       }
     }
-    ReactDom.render(element, this.domElement);
+    if (this.domElement != null) {
+      const provider = React.createElement(UXServiceContext.Provider, { value: this._uxService }, element);
+      ReactDom.render(provider, this.domElement);
+    }
     return;
   }
 
@@ -384,17 +409,17 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
       return;
     }
 
-    this.getDefaultCDNPropertyPaneOptions();
-    this.getWebpartModePropertyPaneOptions();
-    this.getCategoryPropertyPaneOptions();
-    this.getSubCategoryPropertyPaneOptions();
-    this.getPlaylistPropertyPaneOptions();
-    this.getDefaultFilterPropertyPaneOptions();
+    this._getDefaultCDNPropertyPaneOptions();
+    this._getWebpartModePropertyPaneOptions();
+    this._getCategoryPropertyPaneOptions();
+    this._getSubCategoryPropertyPaneOptions();
+    this._getPlaylistPropertyPaneOptions();
+    this._getDefaultFilterPropertyPaneOptions();
     this.context.propertyPane.refresh();
   }
 
-  private getDefaultCDNPropertyPaneOptions(): void {
-    let options: IPropertyPaneDropdownOption[] = [];
+  private _getDefaultCDNPropertyPaneOptions(): void {
+    const options: IPropertyPaneDropdownOption[] = [];
     try {
       if (params.allCdn && params.allCdn.length > 0) {
         for (let i = 0; i < params.allCdn.length; i++) {
@@ -404,36 +429,36 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
         options.push({ key: "Default", text: strings.M365Title });
       }
     } catch (err) {
-      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getDefaultCDNPropertyPaneOptions) - ${err} -- Error loading CDN property pane options.`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_getDefaultCDNPropertyPaneOptions) - ${err} -- Error loading CDN property pane options.`, LogLevel.Error);
     }
     this._ppDefaultCDN = options;
   }
 
-  private getWebpartModePropertyPaneOptions(): void {
-    let options: IPropertyPaneDropdownOption[] = [];
+  private _getWebpartModePropertyPaneOptions(): void {
+    const options: IPropertyPaneDropdownOption[] = [];
     try {
-      options.push({ key: WebpartMode.full, text: strings.WebPartModeFull });
-      options.push({ key: WebpartMode.contentonly, text: strings.WebPartModeContentOnly });
+      options.push({ key: WebPartModeOptions.full, text: strings.WebPartModeFull });
+      options.push({ key: WebPartModeOptions.contentonly, text: strings.WebPartModeContentOnly });
     } catch (err) {
-      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getWebpartModePropertyPaneOptions) -- ${err} -- Error loading webpart mode property pane options.`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_getWebpartModePropertyPaneOptions) -- ${err} -- Error loading webpart mode property pane options.`, LogLevel.Error);
     }
     this._ppWebpartMode = options;
   }
 
-  private getDefaultFilterPropertyPaneOptions(): void {
-    let options: IPropertyPaneDropdownOption[] = [];
+  private _getDefaultFilterPropertyPaneOptions(): void {
+    const options: IPropertyPaneDropdownOption[] = [];
     try {
       options.push({ key: "", text: strings.PropertyPaneNone });
       options.push({ key: PropertyPaneFilters.category, text: strings.PropertyPaneFilterCategory });
       options.push({ key: PropertyPaneFilters.subcategory, text: strings.PropertyPaneFilterSubCategory });
       options.push({ key: PropertyPaneFilters.playlist, text: strings.PropertyPaneFilterPlaylist });
     } catch (err) {
-      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getDefaultFilterPropertyPaneOptions) - ${err} -- Error loading filter property pane options.`, LogLevel.Error);
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_getDefaultFilterPropertyPaneOptions) - ${err} -- Error loading filter property pane options.`, LogLevel.Error);
     }
     this._ppFilters = options;
   }
 
-  private getCategoryPropertyPaneOptions(): void {
+  private _getCategoryPropertyPaneOptions(): void {
     let options: IPropertyPaneDropdownOption[] = [];
     options.push({ key: "", text: strings.PropertyPaneNone });
     if (this._validConfig) {
@@ -446,14 +471,14 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
         }
         options = sortBy(options, ["text"]);
       } catch (err) {
-        Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getCategoryPropertyPaneOptions) - ${err} -- Error loading category property pane options.`, LogLevel.Error);
+        Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_getCategoryPropertyPaneOptions) - ${err} -- Error loading category property pane options.`, LogLevel.Error);
       }
     }
     this._ppCategory = options;
   }
 
-  private getSubCategoryPropertyPaneOptions(): void {
-    let options: IPropertyPaneDropdownOption[] = [];
+  private _getSubCategoryPropertyPaneOptions(): void {
+    const options: IPropertyPaneDropdownOption[] = [];
     options.push({ key: "", text: strings.PropertyPaneNone });
     if (this._validConfig) {
       try {
@@ -472,26 +497,27 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
           }
         }
       } catch (err) {
-        Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getSubCategoryPropertyPaneOptions) - ${err} -- Error loading sub-category property pane options.`, LogLevel.Error);
+        Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_getSubCategoryPropertyPaneOptions) - ${err} -- Error loading sub-category property pane options.`, LogLevel.Error);
       }
     }
     this._ppSubCategory = options;
   }
 
-  private getPlaylistPropertyPaneOptions(): void {
+  private _getPlaylistPropertyPaneOptions(): void {
     let options: IPropertyPaneDropdownOption[] = [];
     options.push({ key: "", text: strings.PropertyPaneNone });
     if (this._validConfig) {
-      let cp = cloneDeep(this._cacheController.cacheConfig.CachedPlaylists);
-      let cachedPlaylists = sortBy(cp, "CatId");
+      const cp = cloneDeep(this._cacheController.cacheConfig.CachedPlaylists);
+      const cachedPlaylists = sortBy(cp, "CatId");
       let catId: string = "";
       let categories: IPropertyPaneDropdownOption[] = [];
-      let plItems: any = {};
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const plItems: any = {};
       try {
         for (let i = 0; i < cachedPlaylists.length; i++) {
           if (catId === "" || catId !== cachedPlaylists[i].CatId) {
             catId = cachedPlaylists[i].CatId;
-            let category: ICategory = find(this._cacheController.flatCategory, { Id: catId });
+            const category: ICategory | undefined = find(this._cacheController.flatCategory, { Id: catId });
             if (category) {
               categories.push({
                 key: category.Id,
@@ -499,16 +525,13 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
                 type: PropertyPaneDropdownOptionType.Header
               });
               plItems[catId] = [];
-            } else {
-              catId = "";
-              Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getPlaylistPropertyPaneOptions) -- Could not find category id: ${catId}.`, LogLevel.Error);
+              if (catId.length > 0) {
+                plItems[catId].push({
+                  key: cachedPlaylists[i].Id,
+                  text: cachedPlaylists[i].Title as string,
+                });
+              }
             }
-          }
-          if (catId.length > 0) {
-            plItems[catId].push({
-              key: cachedPlaylists[i].Id,
-              text: cachedPlaylists[i].Title as string,
-            });
           }
         }
         categories = sortBy(categories, (o) => { return o.text.toLowerCase(); });
@@ -523,15 +546,14 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
     this._ppPlaylist = options;
   }
 
-  public loadPlayListAssets = (templateId: string): void => {
-    let options: IPropertyPaneDropdownOption[] = [];
+  public _loadPlayListAssets = (templateId: string): void => {
+    const options: IPropertyPaneDropdownOption[] = [];
     if (this._validConfig) {
       try {
-        let detail: ICategory[] | IPlaylist[] | IPlaylist;
-        detail = find(this._cacheController.cacheConfig.CachedPlaylists, { Id: templateId });
-        if (!detail) { return null; }
+        const detail: ICategory[] | IPlaylist[] | IPlaylist | undefined = find(this._cacheController.cacheConfig.CachedPlaylists, { Id: templateId });
+        if (!detail) { return; }
         for (let i = 0; i < (detail as IPlaylist).Assets.length; i++) {
-          let a = find(this._cacheController.cacheConfig.CachedAssets, { Id: (detail as IPlaylist).Assets[i] });
+          const a = find(this._cacheController.cacheConfig.CachedAssets, { Id: (detail as IPlaylist).Assets[i] });
           if (a)
             options.push({
               key: a.Id,
@@ -539,102 +561,58 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
             });
         }
       } catch (err) {
-        Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (loadPlayListAssets) - ${err} -- Error loading playlist assets property pane options.`, LogLevel.Error);
+        Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (_loadPlayListAssets) - ${err} -- Error loading playlist assets property pane options.`, LogLevel.Error);
       }
     }
     this._ppAssets = options;
   }
 
-  private updateCustomSort = (customSortOrder: string[]) => {
-    this.properties.customSortOrder = customSortOrder;
-    this.render();
-  }
-
-  private resetCustomSortOrder = () => {
-    this.properties.customSortOrder = [];
-    this.render();
-  }
-
-  private setCSSVariables(theming: any) {
-
-    // request all key defined in theming
-    let themingKeys = Object.keys(theming);
-    // if we have the key
-    if (themingKeys !== null) {
-      // loop over it
-      themingKeys.forEach(key => {
-        // add CSS variable to style property of the web part
-        this.domElement.style.setProperty(`--${key}`, theming[key]);
-
-      });
-
-    }
-
-  }
-
-  private getCSSVariablesOnElement = (): any => {
-    let retVal: any = {};
-    try {
-      let styles: CSSStyleDeclaration = this.domElement.style;
-
-      // request all key defined in theming
-      let themingKeys = Object.keys(styles);
-      // if we have the key
-      if (themingKeys !== null) {
-        // loop over it
-        themingKeys.forEach(key => {
-          retVal[styles[key]] = styles.getPropertyValue(styles[key]);
-        });
-      }
-    } catch (err) {
-      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getCSSVariablesOnElement) - ${err} -- Error getting styles`, LogLevel.Error);
-    }
-
-    return retVal;
-  }
-
   protected getPropertyPaneConfiguration(): IPropertyPaneConfiguration {
-    try {
-      let displayFilter: any;
-      let assetList: any;
-      let defaultFilter: any;
-      let customSort: any;
-      let configuration: IPropertyPaneConfiguration = {
-        pages: [
-          {
-            header: {
-              description: strings.LPViewerPropertyDescription
-            },
-            groups: [
-              {
-                groupName: strings.LPViewerPropertyGroupName,
-                groupFields: [
-                  PropertyPaneDropdown('defaultCDN', {
-                    label: strings.DefaultCDNLabel,
-                    options: this._ppDefaultCDN,
-                    selectedKey: this.properties.defaultCDN
-                  }),
-                  PropertyPaneTextField('title', {
-                    label: strings.WebpartTitleLabel,
-                  }),
-                  PropertyPaneDropdown('webpartMode', {
-                    label: strings.WebpartModeLabel,
-                    options: this._ppWebpartMode,
-                    selectedKey: this.properties.webpartMode
-                  })
-                ]
-              }
-            ]
-          }
-        ]
-      };
+    const configuration: IPropertyPaneConfiguration = {
+      pages: [
+        {
+          header: {
+            description: strings.LPViewerPropertyDescription
+          },
+          groups: [
+            {
+              groupName: strings.LPViewerPropertyGroupName,
+              groupFields: [
+                PropertyPaneDropdown('defaultCDN', {
+                  label: strings.DefaultCDNLabel,
+                  options: this._ppDefaultCDN,
+                  selectedKey: this.properties.defaultCDN
+                }),
+                PropertyPaneTextField('title', {
+                  label: strings.WebpartTitleLabel,
+                }),
+                PropertyPaneDropdown('webpartMode', {
+                  label: strings.WebpartModeLabel,
+                  options: this._ppWebpartMode,
+                  selectedKey: this.properties.webpartMode
+                }),
+                PropertyPaneToggle('alwaysShowSearch', {
+                  label: strings.AlwaysShowSearchLabel,
+                }),
+                PropertyPaneToggle('openAssetsInDialog', {
+                  label: strings.AlwaysOpenAssetInDialog,
+                })
+              ]
+            }
+          ]
+        }
+      ]
+    };
 
-      defaultFilter = PropertyPaneDropdown('defaultFilter', {
+    try {
+      const defaultFilter = PropertyPaneDropdown('defaultFilter', {
         label: strings.DefaultFilterLabel,
         options: this._ppFilters,
         selectedKey: this.properties.defaultFilter
       });
-      assetList = PropertyPaneLabel('defaultAsset', { text: "" });
+
+      let displayFilter: IPropertyPaneField<IPropertyPaneLabelProps> | IPropertyPaneField<IPropertyPaneDropdownProps>;
+      let assetList: IPropertyPaneField<IPropertyPaneLabelProps> | IPropertyPaneField<IPropertyPaneDropdownProps> = PropertyPaneLabel('defaultAsset', { text: "" });
 
       switch (this.properties.defaultFilter) {
         case PropertyPaneFilters.category:
@@ -653,7 +631,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
           break;
         case PropertyPaneFilters.playlist:
           if (this.properties.defaultPlaylist && this.properties.defaultPlaylist != "") {
-            this.loadPlayListAssets(this.properties.defaultPlaylist);
+            this._loadPlayListAssets(this.properties.defaultPlaylist);
           }
           displayFilter = PropertyPaneDropdown('defaultPlaylist', {
             label: strings.DefaultPlaylistLabel,
@@ -683,18 +661,17 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
         configuration.pages[0].groups[0]["groupFields"].push(PropertyPaneButton('resetSortOrder', {
           text: strings.ResetSort,
           buttonType: PropertyPaneButtonType.Primary,
-          onClick: this.resetCustomSortOrder
+          onClick: this._resetCustomSortOrder
         })
         );
       }
-
-      return configuration;
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getPropertyPaneConfiguration) - ${err} -- Error loading property pane configuration.`, LogLevel.Error);
-      return null;
     }
+    return configuration;
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   protected async onPropertyPaneFieldChanged(propertyPath: string, oldValue: any, newValue: any): Promise<void> {
     try {
       //The default filter drop down changed
@@ -705,30 +682,41 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
         this.properties.defaultPlaylist = "";
         this.properties.defaultAsset = "";
         this.properties.customSort = false;
+        this._uxService.CustomSort = false;
         this.properties.customSortOrder = [];
+        this._uxService.CustomSortOrder = [];
         if (propertyPath === 'defaultCDN') {
           this._isReady = false;
+          this._setStartingLocation();
           this.render();
-          await this.configCDN(newValue);
+          await this._configCDN(newValue);
           this._isReady = true;
           this.properties.defaultFilter = "";
-          this.getCategoryPropertyPaneOptions();
-          this.getSubCategoryPropertyPaneOptions();
-          this.getPlaylistPropertyPaneOptions();
-          this.render();
+          this._getCategoryPropertyPaneOptions();
+          this._getSubCategoryPropertyPaneOptions();
+          this._getPlaylistPropertyPaneOptions();
         }
+        this._setStartingLocation(true);
+        this._uxService.CLWPRender();
         this.context.propertyPane.refresh();
       } else if (propertyPath === 'defaultPlaylist') {
         super.onPropertyPaneFieldChanged(propertyPath, oldValue, newValue);
         this.properties.customSort = false;
+        this._uxService.CustomSort = false;
         this.properties.customSortOrder = [];
-        this.loadPlayListAssets(newValue);
+        this._uxService.CustomSortOrder = [];
+        this._loadPlayListAssets(newValue);
+        this._setStartingLocation();
       } else if (propertyPath === 'customSort' || propertyPath === "defaultCategory" || propertyPath === "defaultSubCategory") {
         super.onPropertyPaneFieldChanged(propertyPath, oldValue, newValue);
+        this._uxService.CustomSort = (propertyPath === 'customSort') ? newValue : this._uxService.CustomSort;
         this.properties.customSortOrder = [];
-        this.render();
+        this._uxService.CustomSortOrder = [];
+        this._setStartingLocation(true);
+        this._uxService.CLWPRender();
       } else {
         super.onPropertyPaneFieldChanged(propertyPath, oldValue, newValue);
+        this._setStartingLocation();
       }
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (onPropertyPaneFieldChanged) - ${err} -- Error processing property field changes.`, LogLevel.Error);

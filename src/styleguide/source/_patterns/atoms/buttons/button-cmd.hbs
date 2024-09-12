@@ -1,0 +1,16 @@
+{{#buttonCmd }}
+<div class="hoo-buttoncmd{{ modifier }}" {{#if contextMenu}} aria-haspopup="true" {{/if}} {{#if props}} {{{props}}}{{/if}}>
+    <button class="hoo-buttoncmd{{ modifier }}" {{#if contextMenu}}aria-haspopup="true"{{/if}}>
+        <span class="hoo-button-icon" aria-hidden="true"> {{> atoms-icon iconname=iconAction }} </span>
+        <span class="hoo-button-label"> {{label}} </span>
+        {{!-- When no drop down items are shown there is not need to show the dropdown --}}
+        {{#if contextMenu }}
+        <span class="hoo-button-icon hoo-buttonchevron"> {{> atoms-icon iconname=iconDown }} </span>
+        {{/if}}
+    </button>
+    {{!-- When no drop down items are shown there is not need to show the dropdown --}}
+    {{#contextMenu}}
+    {{> atoms-menu-flyouts contextItems=contextItems  }}
+    {{/contextMenu}}
+</div>
+{{/buttonCmd }}

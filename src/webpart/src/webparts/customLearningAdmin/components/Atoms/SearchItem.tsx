@@ -1,9 +1,7 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
-import isEqual from "lodash/isEqual";
-
-import { Checkbox } from "office-ui-fabric-react";
+import HOOCheckbox from "@n8d/htwoo-react/HOOCheckbox";
 
 export interface ISearchItemProps {
   assetTitle: string;
@@ -15,25 +13,11 @@ export interface ISearchItemProps {
   onPreviewAsset: () => void;
 }
 
-export interface ISearchItemState {
-}
-
-export class SearchItemState implements ISearchItemState {
-  constructor() { }
-}
-
-export default class SearchItem extends React.Component<ISearchItemProps, ISearchItemState> {
+export default class SearchItem extends React.PureComponent<ISearchItemProps> {
   private LOG_SOURCE: string = "SearchItem";
 
   constructor(props) {
     super(props);
-    this.state = new SearchItemState();
-  }
-
-  public shouldComponentUpdate(nextProps: Readonly<ISearchItemProps>, nextState: Readonly<ISearchItemState>) {
-    if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
-      return false;
-    return true;
   }
 
   public render(): React.ReactElement<ISearchItemProps> {
@@ -41,7 +25,10 @@ export default class SearchItem extends React.Component<ISearchItemProps, ISearc
       return (
         <div className="srchr-item" data-component={this.LOG_SOURCE}>
           <div className="srchr-cb">
-            <Checkbox onChange={this.props.onChecked} checked={this.props.checked} />
+            <HOOCheckbox
+              onChange={this.props.onChecked}
+              checked={this.props.checked}
+            />
           </div>
           <div className="srchr-desc">
             <h3 className="srchr-title" onClick={this.props.onPreviewAsset}>

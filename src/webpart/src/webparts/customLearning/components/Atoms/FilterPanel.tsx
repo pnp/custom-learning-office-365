@@ -1,11 +1,10 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
-import isEqual from "lodash/isEqual";
-import filter from "lodash/filter";
-import Button from "../../../common/components/Atoms/Button";
-import { ButtonTypes, FilterTypes } from "../../../common/models/Enums";
-import TextButton from "../../../common/components/Atoms/TextButton";
+import filter from "lodash-es/filter";
+import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
+
+import { FilterTypes } from "../../../common/models/Enums";
 import { IFilter, IFilterValue } from "../../../common/models/Models";
 import * as strings from "M365LPStrings";
 
@@ -25,7 +24,7 @@ export class FilterPanelState implements IFilterPanelState {
   ) { }
 }
 
-export default class FilterPanel extends React.Component<IFilterPanelProps, IFilterPanelState> {
+export default class FilterPanel extends React.PureComponent<IFilterPanelProps, IFilterPanelState> {
   private LOG_SOURCE: string = "FilterPanel";
 
   constructor(props) {
@@ -33,14 +32,8 @@ export default class FilterPanel extends React.Component<IFilterPanelProps, IFil
     this.state = new FilterPanelState();
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<IFilterPanelProps>, nextState: Readonly<IFilterPanelState>) {
-    if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
-      return false;
-    return true;
-  }
-
   public showFilter = (): void => {
-    let show = this.state.show;
+    const show = this.state.show;
     this.setState({
       show: !show
     });
@@ -48,8 +41,8 @@ export default class FilterPanel extends React.Component<IFilterPanelProps, IFil
 
   public render(): React.ReactElement<IFilterPanelProps> {
     try {
-      let filterValuesLevel = filter(this.props.filterValues, { Type: FilterTypes.Level });
-      let filterValuesAudience = filter(this.props.filterValues, { Type: FilterTypes.Audience });
+      const filterValuesLevel = filter(this.props.filterValues, { Type: FilterTypes.Level });
+      const filterValuesAudience = filter(this.props.filterValues, { Type: FilterTypes.Audience });
       return (
         <div data-component={this.LOG_SOURCE} className={`sldpnl ${this.state.show ? "show" : "hide"}`}>
           <div className="sldpnl-header">
@@ -57,7 +50,7 @@ export default class FilterPanel extends React.Component<IFilterPanelProps, IFil
               {strings.FilterPanelHeader}
             </div>
             <div className="sldpnl-toggle">
-              <Button buttonType={(this.state.show) ? ButtonTypes.ChevronUp : ButtonTypes.ChevronDown} disabled={false} onClick={() => { this.showFilter(); }} />
+              <HOOButton type={HOOButtonType.Icon} iconName={(this.state.show) ? "icon-chevron-up-regular" : "icon-chevron-down-regular"} disabled={false} onClick={() => { this.showFilter(); }} />
             </div>
           </div>
           <div className="sldpnl-content">
@@ -65,9 +58,13 @@ export default class FilterPanel extends React.Component<IFilterPanelProps, IFil
               <tr className="selector-row">
                 <th className="selector-header">{strings.FilterPanelAudienceLabel}</th>
                 <td className="selector-data">
-                  {filterValuesAudience.map((audience) => {
+                  {filterValuesAudience.map((audience, idx) => {
                     return (
-                      <TextButton onClick={() => { this.props.setFilter(audience); }} label={audience.Value} selected={this.props.filter.Audience.indexOf(audience.Key) > -1} />
+                      <HOOButton type={HOOButtonType.Standard}
+                        key={idx}
+                        label={audience.Value}
+                        onClick={() => { this.props.setFilter(audience); }}
+                        rootElementAttributes={{ className: (this.props.filter.Audience.indexOf(audience.Key) > -1) ? "selected" : "" }} />
                     );
                   })}
                 </td>
@@ -75,9 +72,13 @@ export default class FilterPanel extends React.Component<IFilterPanelProps, IFil
               <tr className="selector-row">
                 <th className="selector-header">{strings.FilterPanelSkillsetLabel}</th>
                 <td className="selector-data">
-                  {filterValuesLevel.map((level) => {
+                  {filterValuesLevel.map((level, idx) => {
                     return (
-                      <TextButton onClick={() => { this.props.setFilter(level); }} label={level.Value} selected={this.props.filter.Level.indexOf(level.Key) > -1} />
+                      <HOOButton type={HOOButtonType.Standard}
+                        key={idx}
+                        onClick={() => { this.props.setFilter(level); }}
+                        label={level.Value}
+                        rootElementAttributes={{ className: (this.props.filter.Level.indexOf(level.Key) > -1) ? "selected" : "" }} />
                     );
                   })}
                 </td>

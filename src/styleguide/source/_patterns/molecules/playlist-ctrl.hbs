@@ -1,0 +1,53 @@
+{{#playerctrl}}
+<div class="playerctrl">
+  <div class="playerctrl-prev">
+  {{#prev}}
+  {{> atoms-button-primary-icon }}
+  {{/prev}}
+  </div>
+  {{!-- <button class="iconbutton arrow-left">
+    <span class="iconbutton-img">
+      <!-- Burger -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 188.03 188.03">
+        <defs></defs>
+        <title>arrow-left</title>
+        <g id="Layer_2" data-name="Layer 2">
+          <g id="Layer_1-2" data-name="Layer 1">
+            <rect class="cls-1" width="188.03" height="188.03" />
+            <path class="cls-2" d="M141,0V188L47,94Z" />
+          </g>
+        </g>
+      </svg>
+    </span>
+  </button> --}}
+
+  <span class="playerctrl-title">
+    {{#select}}
+    {{> atoms-select }}
+    {{/select}}
+    {{#fullscreen}}
+    {{> atoms-button-icon }}
+    {{/fullscreen}}
+  </span>
+  <div class="playerctrl-next">
+  {{#next}}
+  {{> atoms-button-primary-icon-reversed}}
+  {{/next}}
+  </div>
+  {{!-- <button class="iconbutton arrow-right">
+    <span class="iconbutton-img">
+      <!-- Burger -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 188.03 188.03">
+        <defs></defs>
+        <title>arrow-right</title>
+        <g id="Layer_2" data-name="Layer 2">
+          <g id="Layer_1-2" data-name="Layer 1">
+            <rect class="cls-1" width="188.03" height="188.03" />
+            <path class="cls-2" d="M141,94,47,188V0Z" />
+          </g>
+        </g>
+      </svg>
+    </span>
+  </button> --}}
+</div>
+{{/playerctrl}}

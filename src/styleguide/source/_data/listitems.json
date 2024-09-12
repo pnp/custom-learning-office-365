@@ -1,0 +1,96 @@
+{
+    "href": "?",
+    "title": "Hello World",
+    "navigation": [
+        {
+            "href": "?",
+            "title": "Title"
+        }
+    ],
+    "playlistnav": [
+        {
+            "step": "Step 1",
+            "title": "Working with Teams"
+        },
+        {
+            "step": "Step 3",
+            "title": "Working with Teams"
+        },
+        {
+            "step": "Step 2",
+            "title": "Working with Teams"
+        },
+        {
+            "step": "Step 1",
+            "title": "Working with Teams"
+        },
+        {
+            "step": "Step 1",
+            "title": "Working with Teams"
+        },
+        {
+            "step": "Step 1",
+            "title": "Working with Teams"
+        },
+        {
+            "step": "Step 1",
+            "title": "Working with Teams"
+        }
+    ],
+    "plTitle": "Teams Quick Start",
+    "plImgUrl": "/images/Teams/01-teams_quick_start.png",
+    "playlist": [
+        {
+            "plTitle": "Teams Quick Start",
+            "plImgUrl": "/images/Teams/01-teams_quick_start.png"
+        },
+        {
+            "plTitle": "Intro to Microsoft Teams",
+            "plImgUrl": "/images/Teams/02-intro_to_microsoft_teams.png"
+        }
+    ],
+    "navsubcat": [
+        {
+            "title": "Getting Started",
+            "href": "?",
+            "subnav": [
+                {
+                    "title": "Sub category A",
+                    "href": "#"
+                },
+                {
+                    "title": "Sub category B",
+                    "href": "#"
+                }
+            ]
+        },
+        {
+            "title": "Products",
+            "href": "?",
+            "subnav": [
+                {
+                    "title": "Sub category A",
+                    "href": "#"
+                },
+                {
+                    "title": "Sub category B",
+                    "href": "#"
+                }
+            ]
+        },
+        {
+            "title": "Scenarios",
+            "href": "?",
+            "subnav": [
+                {
+                    "title": "Sub category A",
+                    "href": "#"
+                },
+                {
+                    "title": "Sub category B",
+                    "href": "#"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+@use '../../../../node_modules/@n8d/htwoo-core/lib/sass/00-base/colors/colors' as dt;
+
+.adm-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: dt.$neutral-000;
+    margin-bottom: 1rem;
+    z-index: 10;
+
+    .hoo-buttonicon-overflow {
+        align-self: flex-end;
+    }
+}
+
+.adm-nav-menu {
+    width: 100%;
+
+    .has-overflow>.hoo-overflow>.show-flyout.hoo-buttonicon-overflow>.hoo-buttonflyout,
+    .has-overflow .hoo-buttonicon-overflow:hover>.hoo-buttonflyout {
+        right: unset;
+        left: 0;
+    }
+}
+
+.adm-nav-actions {
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+}

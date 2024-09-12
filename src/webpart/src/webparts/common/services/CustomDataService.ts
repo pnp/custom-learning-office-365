@@ -1,10 +1,9 @@
 
-import cloneDeep from "lodash/cloneDeep";
+import cloneDeep from "lodash-es/cloneDeep";
 import { Logger, LogLevel } from "@pnp/logging";
 
 
-import { Web, IWeb } from "@pnp/sp/webs";
-import { IItemUpdateResult, IItemAddResult } from "@pnp/sp/items/types";
+import { spfi, SPFI, SPFx } from "@pnp/sp";
 import "@pnp/sp/lists";
 import "@pnp/sp/items";
 import { params } from "../services/Parameters";
@@ -33,7 +32,7 @@ export interface ICustomDataService {
 }
 
 export interface IUpdateFunctions {
-  _web: IWeb;
+  _sp: SPFI;
   modifyPlaylist(editPlaylist: IPlaylist, cdn?: string): Promise<string>;
   modifyAsset(editAsset: IAsset, cdn?: string): Promise<string>;
   modifyCache(editConfig: ICacheConfig, cdn?: string): Promise<string>;
@@ -42,12 +41,12 @@ export interface IUpdateFunctions {
 
 export class CustomDataService implements ICustomDataService {
   private LOG_SOURCE: string = "CustomDataService";
-  private _web: IWeb;
+  private _sp: SPFI;
   private _cdn: string;
 
   constructor(currentCDN: string) {
     try {
-      this._web = Web(params.learningSiteUrl);
+      this._sp = spfi(params.learningSiteUrl).using(SPFx(params.context));
       this._cdn = currentCDN;
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (constructor) - ${err}`, LogLevel.Error);
@@ -55,45 +54,48 @@ export class CustomDataService implements ICustomDataService {
   }
 
   //Optional formatter for dates using JSON.parse
-  private dateTimeReviver(key, value) {
+  private dateTimeReviver(key, value): Date {
     const dateFormat: RegExp = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}.\d{3}Z$/;
     if (typeof value === "string" && dateFormat.test(value)) {
       return new Date(value);
     }
-
     return value;
   }
 
+  // During upgrade we don't have a specific type for config
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   public async doDataUpgrade(dataService: IDataService, configManifest: string, config: any, metadata: IMetadata, callBack?: () => void): Promise<void> {
     try {
-      let workingConfig = cloneDeep(config);
-      let upgradeFunctions: IUpdateFunctions = {
-        _web: this._web,
+      const workingConfig = cloneDeep(config);
+      const upgradeFunctions: IUpdateFunctions = {
+        _sp: this._sp,
         modifyCache: this.modifyCache,
         modifyCustomization: this.modifyCustomization,
         modifyPlaylist: this.modifyPlaylist,
         modifyAsset: this.modifyAsset
       };
 
-      let startVersion = +configManifest.substr(1, 1);
-      let endVersion = +params.manifestVersion.substr(1, 1);
+      const startVersion = +configManifest.substring(1, 2);
+      const endVersion = +params.manifestVersion.substring(1, 2);
 
       if (startVersion < endVersion) {
-        let us = new UpgradeService(upgradeFunctions, startVersion, endVersion, metadata);
+        const us = new UpgradeService(upgradeFunctions, startVersion, endVersion, metadata);
         Logger.write(`Upgrade Custom Config from ${configManifest} to ${params.manifestVersion} - ${this.LOG_SOURCE} (doDataUpgrade)`, LogLevel.Warning);
 
         let customization = await this.getCustomization();
-        customization = await us.doUpgradeCustomization(customization, config);
+        // During upgrade we don't have a specific type for config
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        customization = await us.doUpgradeCustomization(customization, config as any);
         dataService.customization = customization;
         Logger.write(`Upgrade Playlists and Assets from ${configManifest} to ${params.manifestVersion} - ${this.LOG_SOURCE} (doDataUpgrade)`, LogLevel.Info);
 
-        let cp = await this.getCustomPlaylists();
-        cp = await us.doUpgradePlaylists(cp);
-        let ca = await this.getCustomAssets();
-        ca = await us.doUpgradeAssets(ca);
+        const cp = await this.getCustomPlaylists();
+        await us.doUpgradePlaylists(cp);
+        const ca = await this.getCustomAssets();
+        await us.doUpgradeAssets(ca);
 
         Logger.write(`Upgrade Cache Config from ${configManifest} to ${params.manifestVersion} - ${this.LOG_SOURCE} (doDataUpgrade)`, LogLevel.Warning);
-        workingConfig = await us.doUpgradeCacheConfig(workingConfig);
+        await us.doUpgradeCacheConfig(workingConfig);
       }
       if (callBack)
         callBack();
@@ -104,18 +106,17 @@ export class CustomDataService implements ICustomDataService {
 
   //Gets custom configuration stored in local SharePoint list
   public async getCacheConfig(language: string): Promise<ICacheConfig> {
-    let config: ICacheConfig = new CacheConfig();
+    let config: ICacheConfig | null = new CacheConfig();
 
     if (!language)
       language = params.defaultLanguage;
 
     try {
-      let configResponse = await this._web.lists.getByTitle(CustomListNames.customConfigName).items
+      const configResponse = await this._sp.web.lists.getByTitle(CustomListNames.customConfigName).items
         .select("Id", "Title", "JSONData")
         .orderBy("Id", false)
         .filter(`(Title eq 'CustomConfig') and (CDN eq '${this._cdn}') and (Language eq '${language}')`)
-        .top(1)
-        .get<{ Id: string, Title: string, JSONData: string }[]>();
+        .top(1)<{ Id: string, Title: string, JSONData: string }[]>();
       if (configResponse.length === 1) {
         if (configResponse[0].JSONData.length > 0) {
           config.Id = +configResponse[0].Id;
@@ -124,8 +125,10 @@ export class CustomDataService implements ICustomDataService {
             config = JSON.parse(configResponse[0].JSONData, this.dateTimeReviver);
           } catch (errJSON) {
             //If JSON data can't be parsed, remove item as it will be regenerated.
-            this._web.lists.getByTitle(CustomListNames.customConfigName).items.getById(config.Id).delete();
-            config = null;
+            if (config != null) {
+              this._sp.web.lists.getByTitle(CustomListNames.customConfigName).items.getById(config.Id).delete();
+              config = null;
+            }
           }
         }
       } else {
@@ -137,24 +140,25 @@ export class CustomDataService implements ICustomDataService {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getCustomConfig) - ${err}`, LogLevel.Error);
     }
 
-    return config;
+    return config as ICacheConfig;
   }
 
   //Gets custom configuration stored in local SharePoint list
   public async getCustomization(): Promise<ICustomizations> {
-    let config: ICustomizations = new Customizations();
+    let config: ICustomizations | null = new Customizations();
 
     try {
-      let configResponse = await this._web.lists.getByTitle(CustomListNames.customConfigName).items
+      const configResponse = await this._sp.web.lists.getByTitle(CustomListNames.customConfigName).items
         .select("Id", "Title", "JSONData")
         .filter(`(Title eq 'CustomSubCategories') and (CDN eq '${this._cdn}')`)
-        .top(1)
-        .get<{ Id: string, Title: string, JSONData: string }[]>();
+        .top(1)<{ Id: string, Title: string, JSONData: string }[]>();
       if (configResponse.length == 1) {
         if (configResponse[0].JSONData.length > 0) {
           config = JSON.parse(configResponse[0].JSONData);
-          config.Id = +configResponse[0].Id;
-          config.eTag = JSON.parse(configResponse[0]["odata.etag"]);
+          if (config != null) {
+            config.Id = +configResponse[0].Id;
+            config.eTag = JSON.parse(configResponse[0]["odata.etag"]);
+          }
         }
       } else {
         config = new Customizations();
@@ -164,24 +168,25 @@ export class CustomDataService implements ICustomDataService {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getCustomization) - ${err}`, LogLevel.Error);
     }
 
-    return config;
+    return config as ICustomizations;
   }
 
   //Gets custom configuration stored in local SharePoint list
   public async getCustomCDN(): Promise<ICustomCDN> {
-    let cdn: ICustomCDN = new CustomCDN();
+    let cdn: ICustomCDN | null = new CustomCDN();
 
     try {
-      let cdnResponse = await this._web.lists.getByTitle(CustomListNames.customConfigName).items
+      const cdnResponse = await this._sp.web.lists.getByTitle(CustomListNames.customConfigName).items
         .select("Id", "Title", "JSONData")
         .filter(`Title eq 'CustomCDN'`)
-        .top(1)
-        .get<{ Id: string, Title: string, JSONData: string }[]>();
+        .top(1)<{ Id: string, Title: string, JSONData: string }[]>();
       if (cdnResponse.length == 1) {
         if (cdnResponse[0].JSONData.length > 0) {
           cdn = JSON.parse(cdnResponse[0].JSONData);
-          cdn.Id = +cdnResponse[0].Id;
-          cdn.eTag = JSON.parse(cdnResponse[0]["odata.etag"]);
+          if (cdn != null) {
+            cdn.Id = +cdnResponse[0].Id;
+            cdn.eTag = JSON.parse(cdnResponse[0]["odata.etag"]);
+          }
         }
       }
     } catch (err) {
@@ -189,22 +194,21 @@ export class CustomDataService implements ICustomDataService {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getCustomCDN) - ${err}`, LogLevel.Error);
     }
 
-    return cdn;
+    return cdn as ICustomCDN;
   }
 
   //Gets custom playlists stored in local SharePoint list (this code assumes the same site collection)
   public async getCustomPlaylists(): Promise<IPlaylist[]> {
-    let customPlaylists: IPlaylist[] = [];
+    const customPlaylists: IPlaylist[] = [];
 
     try {
-      let playlists = await this._web.lists.getByTitle(CustomListNames.customPlaylistsName).items
+      const playlists = await this._sp.web.lists.getByTitle(CustomListNames.customPlaylistsName).items
         .top(5000)
         .select("Id", "Title", "JSONData")
-        .filter(`CDN eq '${this._cdn}'`)
-        .get<{ Id: string, Title: string, JSONData: string }[]>();
+        .filter(`CDN eq '${this._cdn}'`)<{ Id: string, Title: string, JSONData: string }[]>();
       for (let i = 0; i < playlists.length; i++) {
         try {
-          let playlist: IPlaylist = JSON.parse(playlists[i].JSONData);
+          const playlist: IPlaylist = JSON.parse(playlists[i].JSONData);
           playlist["@odata.etag"] = playlists[i]["@odata.etag"];
           playlist.Id = `${playlists[i].Id}`;
           customPlaylists.push(playlist);
@@ -221,15 +225,14 @@ export class CustomDataService implements ICustomDataService {
 
   //Gets custom playlist assets stored in local SharePoint list (this code assumes the same site collection)
   public async getCustomAssets(): Promise<IAsset[]> {
-    let customAssets: IAsset[] = [];
-    let assets = await this._web.lists.getByTitle(CustomListNames.customAssetsName).items
+    const customAssets: IAsset[] = [];
+    const assets = await this._sp.web.lists.getByTitle(CustomListNames.customAssetsName).items
       .top(5000)
       .select("Id", "Title", "JSONData")
-      .filter(`CDN eq '${this._cdn}'`)
-      .get<{ Id: string, Title: string, JSONData: string }[]>();
+      .filter(`CDN eq '${this._cdn}'`)<{ Id: string, Title: string, JSONData: string }[]>();
     for (let i = 0; i < assets.length; i++) {
       try {
-        let asset: IAsset = JSON.parse(assets[i].JSONData);
+        const asset: IAsset = JSON.parse(assets[i].JSONData);
         asset["@odata.etag"] = assets[i]["@odata.etag"];
         asset.Id = `${assets[i].Id}`;
         customAssets.push(asset);
@@ -246,13 +249,15 @@ export class CustomDataService implements ICustomDataService {
       delete newPlaylist['@odata.etag'];
       delete newPlaylist.LevelValue;
       delete newPlaylist.AudienceValue;
-      let title = (newPlaylist.Title instanceof Array) ? (newPlaylist.Title as IMultilingualString[])[0].Text : newPlaylist.Title as string;
-      let item = { Title: title, CDN: this._cdn, JSONData: JSON.stringify(newPlaylist) };
-      let newPlaylistResponse = await this._web.lists.getByTitle(CustomListNames.customPlaylistsName).items.add(item);
-      newPlaylist.Id = newPlaylistResponse.data.Id;
+      const title = (newPlaylist.Title instanceof Array) ? (newPlaylist.Title as IMultilingualString[])[0].Text : newPlaylist.Title as string;
+      const item = { Title: title, CDN: this._cdn, JSONData: JSON.stringify(newPlaylist) };
+      const newPlaylistResponse: {Id: number} = await this._sp.web.lists.getByTitle(CustomListNames.customPlaylistsName).items.add(item);
+      // The response for the add item is the correct Id, so this is a false error
+      // eslint-disable-next-line require-atomic-updates
+      newPlaylist.Id = newPlaylistResponse.Id.toString();
       item.JSONData = JSON.stringify(newPlaylist);
-      let updatedPlaylistResponse = await this._web.lists.getByTitle(CustomListNames.customPlaylistsName).items.getById(+newPlaylistResponse.data.Id).update(item);
-      return newPlaylistResponse.data.Id;
+      await this._sp.web.lists.getByTitle(CustomListNames.customPlaylistsName).items.getById(+newPlaylistResponse.Id).update(item);
+      return newPlaylistResponse.Id;
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (createPlaylist) - ${err}`, LogLevel.Error);
       return 0;
@@ -265,13 +270,14 @@ export class CustomDataService implements ICustomDataService {
       delete editPlaylist['@odata.etag'];
       delete editPlaylist.LevelValue;
       delete editPlaylist.AudienceValue;
-      let title = (editPlaylist.Title instanceof Array) ? (editPlaylist.Title as IMultilingualString[])[0].Text : editPlaylist.Title as string;
-      let item = { Title: title, JSONData: JSON.stringify(editPlaylist) };
+      const title = (editPlaylist.Title instanceof Array) ? (editPlaylist.Title as IMultilingualString[])[0].Text : editPlaylist.Title as string;
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const item: any = { Title: title, JSONData: JSON.stringify(editPlaylist) };
       if (cdn)
-        item["CDN"] = cdn;
-      let updatedPlaylistResponse = await this._web.lists.getByTitle(CustomListNames.customPlaylistsName).items.getById(+editPlaylist.Id).update(item);
+        item.CDN = cdn;
+      const updatedPlaylistResponse = await this._sp.web.lists.getByTitle(CustomListNames.customPlaylistsName).items.getById(+editPlaylist.Id).update(item);
 
-      return updatedPlaylistResponse.data["odata.etag"].split('\"')[1].toString();
+      return updatedPlaylistResponse.etag.split('"')[1].toString();
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (modifyPlaylist) - ${err}`, LogLevel.Error);
       return "0";
@@ -282,8 +288,7 @@ export class CustomDataService implements ICustomDataService {
   //Does not remove associated assets, could be updated to look for orphaned assets and act accordingly
   public async deletePlaylist(playlistId: string): Promise<boolean> {
     try {
-      await this._web.lists.getByTitle(CustomListNames.customPlaylistsName).items.getById(+playlistId).recycle();
-
+      await this._sp.web.lists.getByTitle(CustomListNames.customPlaylistsName).items.getById(+playlistId).recycle();
       return true;
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (deletePlaylist) - ${err}`, LogLevel.Error);
@@ -295,13 +300,15 @@ export class CustomDataService implements ICustomDataService {
   public async createAsset(newAsset: IAsset): Promise<number> {
     try {
       delete newAsset['@odata.etag'];
-      let title = (newAsset.Title instanceof Array) ? (newAsset.Title as IMultilingualString[])[0].Text : newAsset.Title as string;
-      let item = { Title: title, CDN: this._cdn, JSONData: JSON.stringify(newAsset) };
-      let newAssetResponse = await this._web.lists.getByTitle(CustomListNames.customAssetsName).items.add(item);
-      newAsset.Id = newAssetResponse.data.Id;
+      const title = (newAsset.Title instanceof Array) ? (newAsset.Title as IMultilingualString[])[0].Text : newAsset.Title as string;
+      const item = { Title: title, CDN: this._cdn, JSONData: JSON.stringify(newAsset) };
+      const newAssetResponse: {Id: number}= await this._sp.web.lists.getByTitle(CustomListNames.customAssetsName).items.add(item);
+      // The response for the add item is the correct Id, so this is a false error
+      // eslint-disable-next-line require-atomic-updates
+      newAsset.Id = newAssetResponse.Id.toString();
       item.JSONData = JSON.stringify(newAsset);
-      let updatedAssetResponse = await this._web.lists.getByTitle(CustomListNames.customAssetsName).items.getById(+newAssetResponse.data.Id).update(item);
-      return newAssetResponse.data.Id;
+      await this._sp.web.lists.getByTitle(CustomListNames.customAssetsName).items.getById(+newAssetResponse.Id).update(item);
+      return newAssetResponse.Id;
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (createAsset) - ${err}`, LogLevel.Error);
       return 0;
@@ -312,13 +319,13 @@ export class CustomDataService implements ICustomDataService {
   public async modifyAsset(editAsset: IAsset, cdn?: string): Promise<string> {
     try {
       delete editAsset['@odata.etag'];
-      let title = (editAsset.Title instanceof Array) ? (editAsset.Title as IMultilingualString[])[0].Text : editAsset.Title as string;
-      let item = { Title: title, JSONData: JSON.stringify(editAsset) };
+      const title = (editAsset.Title instanceof Array) ? (editAsset.Title as IMultilingualString[])[0].Text : editAsset.Title as string;
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const item:any = { Title: title, JSONData: JSON.stringify(editAsset) };
       if (cdn)
-        item["CDN"] = cdn;
-      let updatedAssetResponse = await this._web.lists.getByTitle(CustomListNames.customAssetsName).items.getById(+editAsset.Id).update(item);
-
-      return updatedAssetResponse.data["odata.etag"].split('\"')[1].toString();
+        item.CDN = cdn;
+      const updatedAssetResponse = await this._sp.web.lists.getByTitle(CustomListNames.customAssetsName).items.getById(+editAsset.Id).update(item);
+      return updatedAssetResponse.etag.split('"')[1].toString();
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (modifyAsset) - ${err}`, LogLevel.Error);
       return "0";
@@ -332,10 +339,10 @@ export class CustomDataService implements ICustomDataService {
         language = params.defaultLanguage;
 
       delete newConfig['@odata.etag'];
-      let newConfigResponse = await this._web.lists.getByTitle(CustomListNames.customConfigName).items
+      const newConfigResponse = await this._sp.web.lists.getByTitle(CustomListNames.customConfigName).items
         .add({ Title: "CustomConfig", CDN: this._cdn, Language: language, JSONData: JSON.stringify(newConfig) });
 
-      return newConfigResponse.data.Id;
+      return newConfigResponse.Id;
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (createConfig) - ${err}`, LogLevel.Error);
       return 0;
@@ -346,13 +353,14 @@ export class CustomDataService implements ICustomDataService {
   public async modifyCache(editConfig: ICacheConfig, cdn?: string): Promise<string> {
     try {
       delete editConfig['@odata.etag'];
-      let item = { JSONData: JSON.stringify(editConfig) };
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const item: any = { JSONData: JSON.stringify(editConfig) };
       if (cdn)
-        item["CDN"] = cdn;
-      let updatedConfigResponse = await this._web.lists.getByTitle(CustomListNames.customConfigName).items
+        item.CDN = cdn;
+      const updatedConfigResponse = await this._sp.web.lists.getByTitle(CustomListNames.customConfigName).items
         .getById(editConfig.Id).update(item);
 
-      return updatedConfigResponse.data["odata.etag"].split('\"')[1].toString();
+      return updatedConfigResponse.etag.split('"')[1].toString();
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (modifyConfig) - ${err}`, LogLevel.Error);
       return "0";
@@ -363,9 +371,9 @@ export class CustomDataService implements ICustomDataService {
   public async createCustomization(newCustomization: ICustomizations): Promise<number> {
     try {
       delete newCustomization['@odata.etag'];
-      let newConfigResponse = await this._web.lists.getByTitle(CustomListNames.customConfigName).items.add({ Title: "CustomSubCategories", CDN: this._cdn, JSONData: JSON.stringify(newCustomization) });
+      const newConfigResponse = await this._sp.web.lists.getByTitle(CustomListNames.customConfigName).items.add({ Title: "CustomSubCategories", CDN: this._cdn, JSONData: JSON.stringify(newCustomization) });
 
-      return newConfigResponse.data.Id;
+      return newConfigResponse.Id;
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (createCustomization) - ${err}`, LogLevel.Error);
       return 0;
@@ -376,12 +384,13 @@ export class CustomDataService implements ICustomDataService {
   public async modifyCustomization(editCustomization: ICustomizations, cdn?: string): Promise<string> {
     try {
       delete editCustomization['@odata.etag'];
-      let item = { JSONData: JSON.stringify(editCustomization) };
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const item: any = { JSONData: JSON.stringify(editCustomization) };
       if (cdn)
-        item["CDN"] = cdn;
-      let updatedConfigResponse = await this._web.lists.getByTitle(CustomListNames.customConfigName).items.getById(+editCustomization.Id).update(item);
+        item.CDN = cdn;
+      const updatedConfigResponse = await this._sp.web.lists.getByTitle(CustomListNames.customConfigName).items.getById(+editCustomization.Id).update(item);
 
-      return updatedConfigResponse.data["odata.etag"].split('\"')[1].toString();
+      return updatedConfigResponse.etag.split('"')[1].toString();
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (modifyCustomization) - ${err}`, LogLevel.Error);
       return "0";
@@ -391,14 +400,14 @@ export class CustomDataService implements ICustomDataService {
   public async upsertCdn(cdn: ICustomCDN): Promise<string> {
     try {
       delete cdn['@odata.etag'];
-      let cdnResponse: IItemAddResult | IItemUpdateResult;
+      let cdnResponse;
       if (cdn.Id === 0) {
-        cdnResponse = await this._web.lists.getByTitle(CustomListNames.customConfigName).items.add({ Title: "CustomCDN", JSONData: JSON.stringify(cdn) });
+        cdnResponse = await this._sp.web.lists.getByTitle(CustomListNames.customConfigName).items.add({ Title: "CustomCDN", JSONData: JSON.stringify(cdn) });
       } else {
-        cdnResponse = await this._web.lists.getByTitle(CustomListNames.customConfigName).items.getById(cdn.Id).update({ JSONData: JSON.stringify(cdn) });
+        cdnResponse = await this._sp.web.lists.getByTitle(CustomListNames.customConfigName).items.getById(cdn.Id).update({ JSONData: JSON.stringify(cdn) });
       }
 
-      return (cdn.Id === 0) ? cdnResponse.data.Id.toString() : cdnResponse.data["odata.etag"].split('\"')[1].toString();
+      return (cdn.Id === 0) ? cdnResponse.Id.toString() : cdnResponse.etag.split('"')[1].toString();
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (createSubCategories) - ${err}`, LogLevel.Error);
       return null;

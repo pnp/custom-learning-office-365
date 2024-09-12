@@ -3,16 +3,46 @@
   "solution": {
     "name": "Microsoft 365 learning pathways",
     "id": "26c9cd9f-db62-49b1-b102-7f0dad281ea0",
-    "version": "4.4.0.0",
+    "version": "5.0.0.4",
     "includeClientSideAssets": true,
+    "skipFeatureDeployment": false,
     "isDomainIsolated": false,
     "developer": {
-      "name": "Julie Turner/Stefan Bauer",
+      "name": "Julie Turner/Stefan Bauer/Derek Cash-Peterson",
       "privacyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
       "termsOfUseUrl": "https://unpkg.com/@microsoft/sp-core-library@1.8.2/EULA/Microsoft%20Sharepoint%20Framework%20-%20Standalone%20(free)%20Use%20Terms.docx",
       "websiteUrl": "https://github.com/pnp/custom-learning-office-365",
       "mpnId": "M365PnP"
-    }
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "M365 learning pathways"
+      },
+      "longDescription": {
+        "default": "Microsoft 365 learning pathways solution"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "M365LP WebParts Feature",
+        "description": "The feature that activates WebParts from the M365LP solution.",
+        "id": "141d4ab7-b6ca-4bf4-ac59-25b7bf93642d",
+        "version": "5.0.0.1",
+        "componentIds": [
+          "141d4ab7-b6ca-4bf4-ac59-25b7bf93642d",
+          "c6062b6a-f22c-4475-897b-25081673c54a"
+        ]
+      }
+    ],
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Files.ReadWrite.All"
+      }
+    ]
   },
   "paths": {
     "zippedPackage": "solution/customlearning.sppkg"

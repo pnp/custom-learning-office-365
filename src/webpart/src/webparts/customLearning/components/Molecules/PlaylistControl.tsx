@@ -1,15 +1,14 @@
 import * as React from "react";
-
-import isEqual from "lodash/isEqual";
-import indexOf from "lodash/indexOf";
 import { Logger, LogLevel } from "@pnp/logging";
-import { Dropdown, IDropdownOption, Icon } from "office-ui-fabric-react";
 
-import styles from "../../../common/CustomLearningCommon.module.scss";
+import isEqual from "lodash-es/isEqual";
+import indexOf from "lodash-es/indexOf";
+import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
+import { IHOODropDownItem } from "@n8d/htwoo-react";
+import HOODropDown from "@n8d/htwoo-react/HOODropDown";
+
 import * as strings from "M365LPStrings";
-import { ButtonTypes } from "../../../common/models/Enums";
 import { IAsset } from "../../../common/models/Models";
-import Button from "../../../common/components/Atoms/Button";
 
 export interface IPlaylistControlProps {
   currentAsset: IAsset;
@@ -19,14 +18,16 @@ export interface IPlaylistControlProps {
 }
 
 export interface IPlaylistControlState {
-  assetOptions: IDropdownOption[];
+  assetOptions: IHOODropDownItem[];
   ddShow: boolean;
+  showFullScreen: boolean;
 }
 
 export class PlaylistControlState implements IPlaylistControlState {
   constructor(
-    public assetOptions: IDropdownOption[] = [],
-    public ddShow: boolean = false
+    public assetOptions: IHOODropDownItem[] = [],
+    public ddShow: boolean = false,
+    public showFullScreen = false
   ) { }
 }
 
@@ -39,15 +40,15 @@ export default class PlaylistControl extends React.Component<IPlaylistControlPro
     this.state = new PlaylistControlState(this.getAssetOptions(props.assets));
   }
 
-  private getAssetOptions(assets: IAsset[]): IDropdownOption[] {
-    let assetOptions: IDropdownOption[] = [];
+  private getAssetOptions(assets: IAsset[]): IHOODropDownItem[] {
+    const assetOptions: IHOODropDownItem[] = [];
     for (let i = 0; i < assets.length; i++) {
-      assetOptions.push({ key: assets[i].Id, text: assets[i].Title as string });
+      assetOptions.push({ key: assets[i].Id, text: assets[i].Title as string, disabled: false });
     }
     return assetOptions;
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<IPlaylistControlProps>, nextState: Readonly<IPlaylistControlState>) {
+  public shouldComponentUpdate(nextProps: Readonly<IPlaylistControlProps>, nextState: Readonly<IPlaylistControlState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     if (!isEqual(nextProps.assets, this.props.assets))
@@ -55,7 +56,7 @@ export default class PlaylistControl extends React.Component<IPlaylistControlPro
     return true;
   }
 
-  public componentDidUpdate() {
+  public componentDidUpdate(): void {
     if (this.refreshAssets) {
       this.refreshAssets = false;
       this.setState({ assetOptions: this.getAssetOptions(this.props.assets) });
@@ -84,7 +85,7 @@ export default class PlaylistControl extends React.Component<IPlaylistControlPro
 
   private playlistAdvance = (): void => {
     try {
-      let currentIdx = indexOf(this.props.assets, this.props.currentAsset);
+      const currentIdx = indexOf(this.props.assets, this.props.currentAsset);
       this.props.selectAsset(this.props.assets[(currentIdx + 1)].Id);
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (playlistAdvance) - ${err}`, LogLevel.Error);
@@ -93,7 +94,7 @@ export default class PlaylistControl extends React.Component<IPlaylistControlPro
 
   private playlistBack = (): void => {
     try {
-      let currentIdx = indexOf(this.props.assets, this.props.currentAsset);
+      const currentIdx = indexOf(this.props.assets, this.props.currentAsset);
       this.props.selectAsset(this.props.assets[(currentIdx - 1)].Id);
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (playlistBack) - ${err}`, LogLevel.Error);
@@ -112,30 +113,60 @@ export default class PlaylistControl extends React.Component<IPlaylistControlPro
     if (!this.props.currentAsset) return null;
     try {
       return (
-        <div data-component={this.LOG_SOURCE} className="playerctrl">
-          <span className="playerctrl-prev">
-            <Button className={styles.primaryButton} buttonType={ButtonTypes.ChevronLeft} onClick={this.playlistBack} disabled={this.disableBack()} postTextLabel={strings.PlaylistPrevious} title={strings.PlaylistPrevious} />
-          </span>
-          <span className="playerctrl-title">
-            <div className="fuif-dd">
-              <div className={`fuif-dd-title`} onClick={() => { this.setState({ ddShow: !this.state.ddShow }); }}>
-                {(this.props.currentAsset) ? this.props.currentAsset.Title : null}
-                <span><Icon iconName="ChevronDown" /></span>
-              </div>
-              <div className={`fuif-dd-opts ${(this.state.ddShow) ? "selected" : ""}`}>
-                {this.state.assetOptions && this.state.assetOptions.map((o) => {
-                  let selected = (o.key === this.props.currentAsset.Id) ? " selected" : "";
-                  return (
-                    <div className={`fuif-dd-opt${selected}`} onClick={() => this.selectAsset(o.key as string)}>{o.text}</div>
-                  );
-                })}
-              </div>
+        <div data-component={this.LOG_SOURCE} className="playerwrapper">
+          <div className="playerctrl">
+            <div className="playerctrl-prev">
+              <HOOButton type={HOOButtonType.Primary} iconName="icon-chevron-left-regular" onClick={this.playlistBack} disabled={this.disableBack()} label={strings.PlaylistPrevious} iconTitle={strings.PlaylistPrevious} />
             </div>
-            <Button buttonType={ButtonTypes.FullScreen} onClick={this.props.renderPanel} disabled={false} title={strings.PlaylistFullScreen} />
-          </span>
-          <span className="playerctrl-next">
-            <Button className={styles.primaryButton} buttonType={ButtonTypes.ChevronRight} onClick={this.playlistAdvance} disabled={this.disableAdvance()} preTextLabel={strings.PlaylistNext} title={strings.PlaylistNext} />
-          </span>
+            <span className="playerctrl-title">
+              <HOODropDown
+                value={this.props.currentAsset.Id}
+                options={this.state.assetOptions}
+                onChange={this.selectAsset} />
+              {console.log(this.state.assetOptions)}
+              <HOOButton
+                type={HOOButtonType.Icon}
+                iconName="icon-full-screen-maximize-filled"
+                iconTitle={strings.PlaylistFullScreen}
+                onClick={this.props.renderPanel} />
+            </span>
+            <div className="playerctrl-next">
+              <HOOButton type={HOOButtonType.Primary} iconRight="icon-chevron-right-regular" onClick={this.playlistAdvance} disabled={this.disableAdvance()} label={strings.PlaylistNext} iconTitle={strings.PlaylistNext} />
+            </div>
+          </div>
+          {/* <div>
+            <HOODialog
+              changeVisibility={function noRefCheck() { }}
+              type={8} visible={this.state.showFullScreen}            >
+              <HOODialogHeader
+                closeIconName="hoo-icon-close"
+                closeOnClick={() => this.setState({ showFullScreen: false })}
+                title="Dialog Header" closeDisabled={false} />
+              <HOODialogContent>
+                <div className="playerctrl">
+                  <div className="playerctrl-prev">
+                    <HOOButton type={HOOButtonType.Primary} iconName="icon-chevron-left-regular" onClick={this.playlistBack} disabled={this.disableBack()} label={strings.PlaylistPrevious} iconTitle={strings.PlaylistPrevious} />
+                  </div>
+                  <span className="playerctrl-title">
+                    <HOODropDown
+                      onChange={this.selectAsset}
+                      value={this.props.currentAsset.Id}
+                      options={this.state.assetOptions}
+                      containsTypeAhead={false}
+                    />
+                    <HOOButton
+                      type={HOOButtonType.Icon}
+                      iconName="icon-full-screen-maximize-filled"
+                      iconTitle={strings.PlaylistFullScreen}
+                      onClick={() => this.setState({ showFullScreen: true })} />
+                  </span>
+                  <div className="playerctrl-next">
+                    <HOOButton type={HOOButtonType.Primary} iconRight="icon-chevron-right-regular" onClick={this.playlistAdvance} disabled={this.disableAdvance()} label={strings.PlaylistNext} iconTitle={strings.PlaylistNext} />
+                  </div>
+                </div>
+              </HOODialogContent>
+            </HOODialog>
+          </div> */}
         </div>
       );
     } catch (err) {

@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
-import isEqual from "lodash/isEqual";
+import isEqual from "lodash-es/isEqual";
 import { ITechnology, ISubject } from "../../../common/models/Models";
 import TechnologyHeading from "../Atoms/TechnologyHeading";
 import TechnologySubjectEdit from "../Atoms/TechnologySubjectEdit";
@@ -33,7 +33,7 @@ export default class Technology extends React.Component<ITechnologyProps, ITechn
     this.state = new TechnologyState();
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<ITechnologyProps>, nextState: Readonly<ITechnologyState>) {
+  public shouldComponentUpdate(nextProps: Readonly<ITechnologyProps>, nextState: Readonly<ITechnologyState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     return true;
@@ -66,9 +66,9 @@ export default class Technology extends React.Component<ITechnologyProps, ITechn
                 onVisibility={(visible: boolean) => { this.props.updateTechnology(this.state.selectedTechnology.Id, null, visible); }}
               />
               <ul className="adm-content-playlist">
-                {this.state.selectedTechnology.Subjects && this.state.selectedTechnology.Subjects.length > 0 && this.state.selectedTechnology.Subjects.map((subject: ISubject) => {
+                {this.state.selectedTechnology.Subjects && this.state.selectedTechnology.Subjects.length > 0 && this.state.selectedTechnology.Subjects.map((subject: ISubject, idx) => {
                   return (
-                    <li>
+                    <li key={idx}>
                       <TechnologySubjectEdit
                         technologyId={this.state.selectedTechnology.Id}
                         subject={subject}

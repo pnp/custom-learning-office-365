@@ -1,5 +1,3 @@
-declare var define: any;
-
 define([], (): IM365LPStrings => {
   return {
     WebpartTitleLabel: "Titel van webonderdeel (modus Alleen inhoud)",
@@ -244,7 +242,7 @@ define([], (): IM365LPStrings => {
     ListOptionsAlt: "Weergaveopties. {0} geselecteerd.",
     ListOptionsTitle: "Het menu Weergaveopties openen",
     Selected: "geselecteerd",
-    CategoryTranslationNotAvailable: "Er is voor deze taal geen vertaling beschikbaar van de geselecteerde subcategorie.",
+    CategoryTranslationNotAvailable: "De geselecteerde subcategorie vereist een vertaling in de geselecteerde taal.",
     Abandoned: "Afgebroken",
     AbandonedPlaylist: "Afspeellijsten",
     RemoveLanguageLabel: "Taal verwijderen",
@@ -257,9 +255,11 @@ define([], (): IM365LPStrings => {
     AdminSavingNotification: "Opslaan...",
     DataUpgradeReview: "Controleren",
     DataUpgradeMultilingual: "Meertalige ondersteuning is ingeschakeld voor leerroutes. Controleer de talen die zijn ingeschakeld voor uw site en schakel de talen uit die u niet wilt ondersteunen.",
-    M365Title: "Microsoft 365-leerroutes",
-    ValidateBase: "The base url for the CDN must end in a (/).",
-    CustomizeSort: "Customize Sort",
-    ResetSort: "Reset Sort"
+    M365Title: "Microsoft 365-leertrajecten",
+    ValidateBase: "De basis-URL voor het CDN moet eindigen op een (/).",
+    CustomizeSort: "Sortering aanpassen",
+    ResetSort: "Sortering opnieuw instellen",
+    AlwaysShowSearchLabel: "Zoekbalk altijd weergeven",
+    AlwaysOpenAssetInDialog: "Altijd in het dialoogvenster openen"
   };
 });

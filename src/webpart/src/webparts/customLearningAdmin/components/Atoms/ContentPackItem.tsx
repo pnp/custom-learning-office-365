@@ -1,7 +1,7 @@
-import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
+import * as React from "react";
 
-import isEqual from "lodash/isEqual";
+import isEqual from "lodash-es/isEqual";
 
 export interface IContentPackItemProps {
   imageSource: string;
@@ -25,7 +25,7 @@ export default class ContentPackItem extends React.Component<IContentPackItemPro
     this.state = new ContentPackItemState();
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<IContentPackItemProps>, nextState: Readonly<IContentPackItemState>) {
+  public shouldComponentUpdate(nextProps: Readonly<IContentPackItemProps>, nextState: Readonly<IContentPackItemState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     return true;

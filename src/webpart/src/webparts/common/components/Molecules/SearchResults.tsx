@@ -1,18 +1,20 @@
-import * as React from "react";
+import { IHOOPivotItem } from "@n8d/htwoo-react/HOOPivotBar";
 import { Logger, LogLevel } from "@pnp/logging";
+import * as React from "react";
 
-import isEqual from "lodash/isEqual";
-import filter from "lodash/filter";
+import filter from "lodash-es/filter";
+import isEqual from "lodash-es/isEqual";
 
-import { PivotItem } from 'office-ui-fabric-react';
+
+import { SearchResultHeaderFilters, Templates } from "../../models/Enums";
 import { ISearchResult } from "../../models/Models";
-import SearchResultItem from "../Atoms/SearchResultItem";
-import { Templates, SearchResultHeaderFilters } from "../../models/Enums";
-import SearchResultHeader from "../Atoms/SearchResultHeader";
 import Paging from "../Atoms/Paging";
+import SearchResultHeader from "../Atoms/SearchResultHeader";
+import SearchResultItem from "../Atoms/SearchResultItem";
+
 
 export interface ISearchResultsProps {
-  headerItems: string[];
+  headerItems: IHOOPivotItem[];
   resultView: string;
   searchValue: string;
   searchResults: ISearchResult[];
@@ -20,7 +22,7 @@ export interface ISearchResultsProps {
 }
 
 export interface ISearchResultsState {
-  filterValue: string;
+  filterValue: string | number;
   currentPage: number;
 }
 
@@ -42,7 +44,7 @@ export default class SearchResults extends React.Component<ISearchResultsProps, 
     this.state = new SearchResultsState();
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<ISearchResultsProps>, nextState: Readonly<ISearchResultsState>) {
+  public shouldComponentUpdate(nextProps: Readonly<ISearchResultsProps>, nextState: Readonly<ISearchResultsState>): boolean {
     if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
       return false;
     if (!isEqual(nextProps.searchResults, this.props.searchResults))
@@ -50,7 +52,7 @@ export default class SearchResults extends React.Component<ISearchResultsProps, 
     return true;
   }
 
-  public componentDidUpdate() {
+  public componentDidUpdate(): void {
     if (this._searchChanged) {
       this._searchChanged = false;
       this.setState({
@@ -59,10 +61,12 @@ export default class SearchResults extends React.Component<ISearchResultsProps, 
     }
   }
 
-  private changeFilter = (newFilter: PivotItem) => {
-    this.setState({
-      filterValue: newFilter.props.linkText
-    });
+  private changeFilter = (ev: React.MouseEvent<HTMLButtonElement, MouseEvent>, key: string | number): void => {
+    try {
+      this.setState({ filterValue: key });
+    } catch (err) {
+      console.error(`${this.LOG_SOURCE} (changeFilter) - ${err}`);
+    }
   }
 
   public render(): React.ReactElement<ISearchResultsProps> {
@@ -88,18 +92,23 @@ export default class SearchResults extends React.Component<ISearchResultsProps, 
         <div>
           <SearchResultHeader
             headerItems={this.props.headerItems}
+            filterValue={this.state.filterValue}
             searchValue={this.props.searchValue}
             selectTab={this.changeFilter}
           />
-          {pageResults && pageResults.length > 0 && pageResults.map((result) => {
-            return (
-              <SearchResultItem
-                resultView={this.props.resultView}
-                result={result}
-                loadSearchResult={this.props.loadSearchResult}
-              />
-            );
-          })}
+          <menu className="dbg-srch-wrapper">
+            {pageResults && pageResults.length > 0 && pageResults.map((result, idx) => {
+              return (
+
+                <SearchResultItem
+                  resultView={this.props.resultView}
+                  result={result}
+                  loadSearchResult={this.props.loadSearchResult}
+                  key={idx} />
+
+              );
+            })}
+          </menu>
           <Paging
             pages={pages}
             currentPage={this.state.currentPage}

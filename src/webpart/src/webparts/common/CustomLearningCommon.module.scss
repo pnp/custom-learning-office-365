@@ -1,17 +1,18 @@
-@import "node_modules/susy/sass/susy";
-@import "node_modules/susy/sass/plugins/svg-grid";
-@import "./node_modules/spfx-uifabric-themes/ouif.theme";
-@import "../../../../styleguide/app/styles/00-base/mixin";
+@use 'sass:meta';
+@use 'rwd-opt' as mixins;
 
-// import theme colors specific to all controls
-@import "theme-colors";
-$susy: ("svg-grid-colors": hsl(180, 50%, 80%),
-	"columns": susy-repeat(12),
-	"gutters": 32px,
-	"spread": "wide",
-);
+:global {
+	@include meta.load-css('../../../../node_modules/@n8d/htwoo-core/lib/sass/03-organism/dialog/index');
+	@include meta.load-css('../../../../node_modules/@n8d/htwoo-core/lib/sass/02-molecules/dialogs/index');
+	@include meta.load-css('../../../../node_modules/@n8d/htwoo-core/lib/sass/01-atoms/loading/index');
+
+}
+
+$baseFolder: '../../../../node_modules/';
+
 
 .loadingShimmer {
+
 	margin-left: 16px;
 
 	&.appPartPage {
@@ -22,25 +23,31 @@ $susy: ("svg-grid-colors": hsl(180, 50%, 80%),
 	}
 }
 
-.customLearning {
-	@include themeSlot(bodyText);
+:global {
+	.updateConfiguration {
+		.hoo-dlg[open] {
+			position: static;
 
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-
-  padding-bottom: 100px;
-
-
-	:global {
-		@import "../../../../styleguide/app/styles/main.spfx";
-
-		.ms-SearchBox {
-			background-color: $c-background;
+			a {
+				outline-color: transparent;
+			}
 		}
 	}
+}
 
-  // h2 {
-  //   // color: $ouif-bodyText;
-  // }
+
+.customLearning {
+	:global {
+		@include meta.load-css('#{$baseFolder}learning-pathways-styleguide/source/css/main.spfx');
+	}
+
+	font-family: "Segoe UI",
+	Tahoma,
+	Geneva,
+	Verdana,
+	sans-serif;
+
+	padding-bottom: 100px;
 
 	.info {
 		color: #107c10;
@@ -61,43 +68,43 @@ $susy: ("svg-grid-colors": hsl(180, 50%, 80%),
 		margin: 0 auto 100px;
 		padding: 0 1em;
 
-		:global {
-			.category-item {
-				width: calc(#{span(2 narrow)} - .1px);
+		// :global {
+		// 	.category-item {
+		// 		width: calc(#{span(2 narrow)} - .1px);
 
-				&:nth-child(6n+1) {
-					margin-left: 0;
-				}
+		// 		&:nth-child(6n+1) {
+		// 			margin-left: 0;
+		// 		}
 
-				@media screen and (min-width: 1024px) {}
-			}
-		}
+		// 		@media screen and (min-width: 1024px) {}
+		// 	}
+		// }
 	}
 
 	.spouterframe {
 		position: relative;
 
-    display: flex;
+		display: flex;
 
-    height: 12000px;
-    min-height: 100vh;
-  }
+		height: 12000px;
+		min-height: 100vh;
+	}
 
 	.outerframe {
 		@extend .spouterframe;
 
-    min-height: auto;
-    padding: 0;
-  }
+		min-height: auto;
+		padding: 0;
+	}
 
 	.innerframe {
 		position: absolute;
 		top: 0;
 		left: 0;
 
-    width: 100%;
-    height: 100%;
-  }
+		width: 100%;
+		height: 100%;
+	}
 
 	.semiBold {
 		font-weight: 600;
@@ -112,14 +119,16 @@ $susy: ("svg-grid-colors": hsl(180, 50%, 80%),
 	.primaryButton:hover {
 		white-space: nowrap;
 
-    color: $ouif-primaryButtonText;
-    border-color: $ouif-primaryButtonBackground;
-    background-color: $ouif-primaryButtonBackground;
+		// color: $ouif-primaryButtonText;
+		// border-color: $ouif-primaryButtonBackground;
+		// background-color: $ouif-primaryButtonBackground;
 
-		svg {
-			fill: $ouif-primaryButtonText;
-		}
+		// svg {
+		// 	fill: $ouif-primaryButtonText;
+		// }
 	}
+
+
 
 	:global {
 		.transparentButton {
@@ -135,25 +144,25 @@ $susy: ("svg-grid-colors": hsl(180, 50%, 80%),
 		.adm-content-playlist {
 			display: block;
 
-      box-sizing: border-box;
+			box-sizing: border-box;
 
 			li {
 				display: inline-block;
 
-        box-sizing: border-box;
-        width: 100%;
+				box-sizing: border-box;
+				width: 100%;
 
-        break-inside: avoid-column;
-      }
-    }
+				break-inside: avoid-column;
+			}
+		}
 
 		.pl-edit-item {
 			box-sizing: border-box;
 
-      background-color: transparent;
+			background-color: transparent;
 
 			&:hover {
-				color: $ouif-primaryButtonBackground;
+				//color: $ouif-primaryButtonBackground;
 				background-color: transparent;
 
 				.pl-edit-actions {
@@ -179,9 +188,9 @@ $susy: ("svg-grid-colors": hsl(180, 50%, 80%),
 			.truncateToggle {
 				display: flex;
 
-        width: 100%;
-        height: 1em;
-        padding-left: 10px;
+				width: 100%;
+				height: 1em;
+				padding-left: 10px;
 
 				svg {
 					margin-top: -0.5rem;
@@ -189,10 +198,11 @@ $susy: ("svg-grid-colors": hsl(180, 50%, 80%),
 
 					fill: var(--bodyText);
 				}
-				
+
 				&.expanded {
 					border-bottom: 1px var(--neutralTertiary) solid;
-					svg{
+
+					svg {
 						margin-top: 0rem;
 						margin-bottom: -0.5rem;
 					}
@@ -209,60 +219,15 @@ $susy: ("svg-grid-colors": hsl(180, 50%, 80%),
 
 			}
 		}
+
 	}
 
-	:global {
-		.pagination-button {
-			// color: $ouif-primaryButtonTextHovered;
-			@include themeSlot(primaryButtonTextHovered);
-			// border-color: $ouif-primaryButtonBackground;
-			@include themeSlot(primaryButtonBackground, border);
-			// background-color: $ouif-primaryButtonBackground;
-			@include themeSlot(primaryButtonBackground, background);
 
-      &.selected,
-      &.selected:active {
-        // color: $ouif-primaryButtonBackground;
-        @include themeSlot(primaryButtonText);
-        // border-color: $ouif-primaryButtonBackground;
-        @include themeSlot(primaryButtonBackground, border);
-        // background-color: $ouif-primaryButtonTextHovered;
-        @include themeSlot(primaryButtonBackTextHovered, background);
 
-        border: 1px solid;
-      }
-
-			&.selected,
-			&.selected:active {
-				// color: $ouif-primaryButtonBackground;
-				@include themeSlot(primaryButtonText);
-				// border-color: $ouif-primaryButtonBackground;
-				@include themeSlot(primaryButtonBackground, border);
-				// background-color: $ouif-primaryButtonTextHovered;
-				@include themeSlot(primaryButtonBackTextHovered, background);
-
-        color: $ouif-primaryButtonTextHovered;
-        background-color: $ouif-primaryButtonBackgroundHovered;
-      }
-
-			&:hover {
-				@include themeSlot(primaryButtonTextHovered);
-				@include themeSlot(primaryButtonBackgroundHovered);
-
-				color: $ouif-primaryButtonTextHovered;
-				background-color: $ouif-primaryButtonBackgroundHovered;
-			}
-
-			&:active {
-				@include themeSlot(primaryButtonBackground);
-				@include themeSlot(primaryButtonTextHovered);
-
-				color: $ouif-primaryButtonBackground;
-				background-color: $ouif-primaryButtonTextHovered;
-			}
-		}
-	}
 }
 
-// RWD SharePoint optimization
-@import "rwd-opt";
+
+
+
+@include mixins.setupGrid(".customLearning", ".category-overview");
+@include mixins.plovGrid(".customLearning", ".plov");

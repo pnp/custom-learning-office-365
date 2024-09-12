@@ -1,4 +1,4 @@
-import { getGUID } from "@pnp/common";
+import { getGUID } from "@pnp/core";
 import { params } from "../services/Parameters";
 import { CustomWebpartSource } from './Enums';
 
@@ -125,6 +125,25 @@ export class Customizations implements ICustomizations {
   ) { }
 }
 
+export interface IWebhookNotification {
+  playlistId: string;
+  playlistName: string;
+  asset: IAsset;
+  user?: string;
+  eventType?: string;
+  tenant?: string;
+  webpart_ver?: string;
+  language?: string;
+  pageUrl?: string; 
+}
+
+export interface IWebhookConfig {
+  Url: string;
+  AnonymizeUser: boolean;
+  KeyHeader?: string;
+  Key?: string;
+}
+
 export interface ICacheConfig {
   Id: number;
   eTag: string;
@@ -137,6 +156,7 @@ export interface ICacheConfig {
   LastUpdated: Date;
   ManifestVersion: string;
   WebPartVersion: string;
+  WebhookConfig: IWebhookConfig;
 }
 
 export class CacheConfig implements ICacheConfig {
@@ -151,7 +171,8 @@ export class CacheConfig implements ICacheConfig {
     public TelemetryKey: string = "",
     public LastUpdated: Date = null,
     public ManifestVersion: string = "",
-    public WebPartVersion: string = "4.0.0"
+    public WebPartVersion: string = "4.0.0",
+    public WebhookConfig: IWebhookConfig = { Url: null, AnonymizeUser: true}
   ) { }
 }
 
@@ -188,9 +209,9 @@ export interface IPlaylist {
   Title: string | IMultilingualString[];
   Image: string | IMultilingualString[];
   LevelId: string;
-  LevelValue: IMetadataEntry;
+  LevelValue?: IMetadataEntry;
   AudienceId: string;
-  AudienceValue: IMetadataEntry;
+  AudienceValue?: IMetadataEntry;
   TechnologyId: string;
   SubjectId: string;
   Source: string;
@@ -321,3 +342,8 @@ export interface ILocale {
   code: string;
 }
 
+export interface IWebPartStartup {
+  startingType: string;
+  startingLocation: string;
+  startAsset: string;
+}

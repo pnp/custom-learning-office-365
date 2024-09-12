@@ -1,0 +1,75 @@
+@use '../00-base/colors' as colors;
+
+.header-toolbar {
+	width: 100%;
+
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	margin-bottom: 0;
+	
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: inline-flex;
+	gap: 0.5rem;
+
+	// @media screen and (max-width: 768px) {
+	// 	flex-direction: column;
+	// }
+	
+	.hoo-buttonicon {
+		color: currentColor;
+	}
+}
+
+.hoo-breadcrumb {
+	display: flex;
+	flex-direction: row;
+	align-content: baseline;
+
+	.hoo-breadcrumb-item {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		align-items: center;
+	}
+
+	.hoo-breadcrumb-separator {
+		line-height: unset;
+		display: flex;
+		svg {
+			align-items: center;
+			padding: 0;
+			height: 2em;
+		}
+	}
+}
+
+.header-breadcrumb {
+	flex-grow: 1;
+	margin-left: -8px;
+}
+
+.header-action {
+	align-self: flex-end;
+
+	@media screen and (max-width: 768px) {
+		text-align: right;
+	}
+}
+
+.header-actions {
+	@media screen and (max-width: 768px) {
+		text-align: right;
+	}
+}
+
+.learning-searchbox {
+	position: absolute;
+
+	width: calc(100% - 3*41px);
+	padding: .35em .5em .5em;
+
+	background-color: colors.$c-light-gray;
+}

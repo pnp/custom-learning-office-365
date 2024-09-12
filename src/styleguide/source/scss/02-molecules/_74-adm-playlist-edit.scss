@@ -1,0 +1,75 @@
+@use '../00-base/colors' as colors;
+@use '../../../../node_modules/@n8d/htwoo-core/lib/sass/00-base/colors/colors' as dt;
+@use '../../../node_modules/@n8d/htwoo-core/lib/sass/00-base/global.vars' as glob;
+
+.pl-edit-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+
+  height: 3em;
+  margin-bottom: 0.25em;
+
+  cursor: pointer;
+
+  justify-content: space-between;
+  align-items: center;
+
+  // .hoo-icon {
+  //   color: dt.$theme-600;
+  // }
+
+  &:hover {
+    background-color: colors.$c-light-gray;
+
+    .pl-edit-title {
+      color: glob.$theme-600;
+    }
+
+    .pl-edit-actions {
+
+      .iconbutton {
+        background-color: colors.$c-light-gray;
+      }
+
+      &:hover {
+
+        .iconbutton {
+          background-color: colors.$c-light-gray-darken;
+        }
+      }
+    }
+  }
+}
+
+.pl-edit-actions {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+  li{
+    width: 2rem;
+  }
+
+  .hoo-buttonicon:disabled,
+  .hoo-buttonicon[disabled] {
+    visibility: hidden;
+    content-visibility: hidden;
+  }
+}
+
+.pl-edit-icon {
+  display: inline-block;
+  max-width: 20px;
+  align-self: bottom;
+}
+
+.pl-edit-title {
+  line-height: 1.25;
+  flex-grow: 1;
+}

@@ -1,0 +1,85 @@
+@use '../00-base/colors' as colors;
+@use '../00-base/mixin' as mixin;
+
+.playerwrapper{
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+
+.playerctrl {
+
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 1em;
+  margin-bottom: 1em;
+
+  border: 1px colors.$c-gray solid;
+  border-right: none;
+  border-left: none;
+  // background-color: $c-background;
+  @include mixin.themeSlot(buttonBackground, background);
+  @include mixin.themeSlot(ButtonBorder, border);
+
+  align-items: center;
+  justify-content: space-between;
+
+  .hoo-button-primary {
+    height: 32px;
+    margin-block: 4px;
+    .hoo-icon-svg{
+      height: 1rem;
+      width: 1rem;
+    }
+  }
+
+  &-title {
+    
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+
+    @media screen and (max-width: 768px) {
+      margin-bottom: .5em;
+    }
+
+    .hoo-select{
+      width: 100%;
+    
+    }
+    .iconbutton {
+      margin-left: .5em;
+    }
+  }
+
+  &-dropdown {
+    border-color: whitesmoke;
+    @include mixin.themeSlot(buttonBorder, border);
+  }
+
+  @media screen and (max-width: 768px) {
+
+    flex-wrap: wrap;
+    padding-bottom: 0.25em;
+
+    .playerctrl-title {
+      min-width: 320px;
+      width: 100%;
+      order: 0;
+      .hoo-select{
+        width: 100%;
+        padding-top: 0.25rem;
+      }
+    }
+
+    .playerctrl-prev {
+      order: 1;
+    }
+
+    .playerctrl-next {
+      order: 2;
+    }
+  }
+}

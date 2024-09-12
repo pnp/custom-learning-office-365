@@ -1,49 +1,30 @@
-import * as React from "react";
+import HOOPivotBar, { IHOOPivotItem } from "@n8d/htwoo-react/HOOPivotBar";
 import { Logger, LogLevel } from "@pnp/logging";
-
-import isEqual from "lodash/isEqual";
-
-import { Pivot, PivotItem } from 'office-ui-fabric-react';
+import * as React from "react";
 
 export interface ISearchResultHeaderProps {
-  headerItems: string[];
+  headerItems: IHOOPivotItem[];
+  filterValue: string | number;
   searchValue: string;
-  selectTab: (tab: PivotItem) => void;
+  selectTab: (ev: React.MouseEvent, key: string | number) => void;
 }
 
-export interface ISearchResultHeaderState {
-}
-
-export class SearchResultHeaderState implements ISearchResultHeaderState {
-  constructor() { }
-}
-
-export default class SearchResultHeader extends React.Component<ISearchResultHeaderProps, ISearchResultHeaderState> {
+export default class SearchResultHeader extends React.PureComponent<ISearchResultHeaderProps> {
   private LOG_SOURCE: string = "SearchResultHeader";
 
   constructor(props) {
     super(props);
-    this.state = new SearchResultHeaderState();
-  }
-
-  public shouldComponentUpdate(nextProps: Readonly<ISearchResultHeaderProps>, nextState: Readonly<ISearchResultHeaderState>) {
-    if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
-      return false;
-    return true;
   }
 
   public render(): React.ReactElement<ISearchResultHeaderProps> {
     try {
       return (
-        <div>
-          <Pivot
-            onLinkClick={this.props.selectTab}
-          >
-            {this.props.headerItems && this.props.headerItems.map((header) => {
-              return (<PivotItem linkText={header} />);
-            })}
-          </Pivot>
-        </div>
+        <HOOPivotBar
+          onClick={this.props.selectTab}
+          pivotItems={this.props.headerItems}
+          selectedKey={this.props.filterValue}
+          hasOverflow={true}
+        />
       );
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (render) - ${err}`, LogLevel.Error);

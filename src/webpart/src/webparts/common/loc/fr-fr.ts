@@ -1,5 +1,3 @@
-declare var define: any;
-
 define([], (): IM365LPStrings => {
   return {
     WebpartTitleLabel: "Titre du composant WebPart (mode contenu uniquement)",
@@ -244,7 +242,7 @@ define([], (): IM365LPStrings => {
     ListOptionsAlt: "Options d’affichage. {0}  sélectionné.",
     ListOptionsTitle: "Ouvrir le menu options d’affichage",
     Selected: "Sélectionné",
-    CategoryTranslationNotAvailable: "Une traduction de la sous-catégorie sélectionnée n’est pas disponible pour cette langue.",
+    CategoryTranslationNotAvailable: "La sous-catégorie sélectionnée nécessite une traduction dans la langue sélectionnée.",
     Abandoned: "Abandonné",
     AbandonedPlaylist: "Playlists",
     RemoveLanguageLabel: "Supprimer la langue",
@@ -258,8 +256,10 @@ define([], (): IM365LPStrings => {
     DataUpgradeReview: "Révision",
     DataUpgradeMultilingual: "La prise en charge multilingue est activée pour les voies d’apprentissage. Vérifiez les langues activées pour votre site et désactivez celles que vous ne voulez pas prendre en charge.",
     M365Title: "Parcours d’apprentissage de Microsoft 365",
-    ValidateBase: "The base url for the CDN must end in a (/).",
-    CustomizeSort: "Customize Sort",
-    ResetSort: "Reset Sort"
+    ValidateBase: "L'URL de base du CDN doit se terminer par un (/).",
+    CustomizeSort: "Personnaliser le tri",
+    ResetSort: "Réinitialiser le tri",
+    AlwaysShowSearchLabel: "Toujours afficher la barre de recherche",
+    AlwaysOpenAssetInDialog: "Toujours ouvrir les actifs dans la boîte de dialogue"
   };
 });

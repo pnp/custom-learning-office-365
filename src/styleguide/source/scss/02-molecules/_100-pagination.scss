@@ -1,0 +1,79 @@
+@use '../../../../node_modules/@n8d/htwoo-core/lib/sass/00-base/_global.vars.scss' as dt;
+
+
+.nav-pagination {
+	display: flex;
+	justify-content: center;
+	;
+}
+
+.pagination {
+	display: flex;
+	margin: auto 0;
+	flex-direction: row;
+	gap: 0.75rem;
+	box-sizing: border-box;
+	padding: 0;
+
+	list-style: none;
+
+	flex-wrap: nowrap;
+	margin-bottom: 1rem;
+}
+
+.pagination-item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 1.5rem;
+	height: 1.5rem;
+
+	&.hidden {
+		content-visibility: hidden;
+		visibility: hidden;
+	}
+}
+
+.pagination-button {
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 1.5rem;
+	height: 1.5rem;
+	border-radius: calc(.35rem - 1px);
+	padding-inline: 0.5rem;
+
+	border: 1px dt.$neutral-700 solid;
+	color: dt.$neutral-700;
+
+	background-color: dt.$neutral-000;
+
+	transition: all 0.125s ease-in-out;
+
+	&.selected,
+	&:hover {
+
+		border-color: dt.$theme-900;
+		background: dt.$theme-700;
+		color: dt.$neutral-000;
+		cursor: pointer;
+
+	}
+
+	&.selected{
+		&:hover{
+			border-color: dt.$theme-400;
+			background: dt.$theme-600;
+			color: dt.$neutral-000;
+		}
+	}
+
+	&:active {
+		border-color: dt.$theme-600;
+		background: dt.$theme-600;
+		color: dt.$neutral-000;
+	}
+}

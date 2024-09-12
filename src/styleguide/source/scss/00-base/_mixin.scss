@@ -1,0 +1,137 @@
+@mixin multiLineEllipsis($linesHeight: 1.4em, $lines: 1) {
+	line-height: $linesHeight;
+
+	position: relative;
+
+	display: block;
+	display: -webkit-box;
+	overflow: hidden;
+
+	height: calc(#{$linesHeight} * #{$lines});
+	padding: 0 !important;
+
+	text-overflow: ellipsis;
+
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: #{$lines};
+
+	&:after {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+
+		display: block;
+
+		width: 25%;
+		height: $linesHeight;
+
+		content: "...";
+		text-align: right;
+
+		background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 75%);
+
+		@supports (-webkit-line-clamp: 1) {
+			display: none !important;
+		}
+	}
+}
+
+@mixin themeSlot($slotName, $type: null) {
+
+	@if $type==background {
+		background-color: var(--#{$slotName});
+	}
+
+	@if $type==border {
+		border-color: var(--#{$slotName});
+	}
+
+	@if $type==fill {
+		fill: var(--#{$slotName});
+	}
+
+	@if $type==null {
+		color: var(--#{$slotName});
+	}
+
+}
+
+// @mixin multiLineEllipsis($lineHeight: 1.2em, $lineCount: 1, $bgColor: white) {
+//     overflow: hidden;overflowoverflowoverflowoverflowoverflowoverflowoverflow
+//     position: relative;positionpositionpositionpositionpositionpositionposition
+//     line-height: $lineHeight;line-heightline-heightline-heightline-heightline-heightline-heightline-height
+//     max-height: $lineHeight * $lineCount;max-heightmax-heightmax-heightmax-heightmax-heightmax-heightmax-height
+//     margin-right: -1em;margin-rightmargin-rightmargin-rightmargin-rightmargin-rightmargin-rightmargin-right
+//     padding-right: 1em;padding-rightpadding-rightpadding-rightpadding-rightpadding-rightpadding-rightpadding-right
+
+//     &:before {
+//         content: '...';contentcontentcontentcontentcontentcontentcontent
+//         position: absolute;positionpositionpositionpositionpositionpositionposition
+//         right: 0;rightrightrightrightrightrightright
+//         bottom: 0;bottombottombottombottombottombottombottom
+//     }
+
+//     &:after {
+//         content: '';contentcontentcontentcontentcontentcontentcontent
+//         position: absolute;positionpositionpositionpositionpositionpositionposition
+//         right: 0;rightrightrightrightrightrightright
+//         width: 1em;widthwidthwidthwidthwidthwidthwidth
+//         height: 1em;heightheightheightheightheightheightheight
+//         margin-top: 0.2em;margin-topmargin-topmargin-topmargin-topmargin-topmargin-topmargin-top
+//         background: $bgColor;backgroundbackgroundbackgroundbackgroundbackgroundbackgroundbackground
+//     }
+// }
+
+// @mixin multiLineEllipsis($font-size: $paragraph-font-size, $line-height: 1.4, $lines-to-show: 3, $excerpt-bg: transparent){
+// 	/* Fallback for non-webkit */
+// 	font-size: $font-size;font-sizefont-sizefont-sizefont-sizefont-sizefont-sizefont-size
+// 	line-height: $line-height;line-heightline-heightline-heightline-heightline-heightline-heightline-height
+
+// 	display: block;displaydisplaydisplaydisplaydisplaydisplaydisplay
+// 	/* Fallback for non-webkit */
+// 	display: -webkit-box;displaydisplaydisplaydisplaydisplaydisplaydisplay
+// 	overflow: hidden;overflowoverflowoverflowoverflowoverflowoverflowoverflow
+
+// 	max-height: $font-size*$line-height*$lines-to-show;max-heightmax-heightmax-heightmax-heightmax-heightmax-heightmax-height
+
+// 	text-overflow: ellipsis;text-overflowtext-overflowtext-overflowtext-overflowtext-overflowtext-overflowtext-overflow
+
+// 	background: $excerpt-bg;backgroundbackgroundbackgroundbackgroundbackgroundbackgroundbackground
+
+// 	-webkit-box-orient: vertical;-webkit-box-orient-webkit-box-orient-webkit-box-orient-webkit-box-orient-webkit-box-orient-webkit-box-orient-webkit-box-orient
+// 	-webkit-line-clamp: $lines-to-show;-webkit-line-clamp-webkit-line-clamp-webkit-line-clamp-webkit-line-clamp-webkit-line-clamp-webkit-line-clamp-webkit-line-clamp
+
+// 	@-moz-document url-prefix(){
+// 		position: relative;positionpositionpositionpositionpositionpositionposition
+
+// 		overflow: hidden;overflowoverflowoverflowoverflowoverflowoverflowoverflow
+
+// 		&:before{
+// 			position: absolute;positionpositionpositionpositionpositionpositionposition
+// 			right: 0;rightrightrightrightrightrightright
+// 			bottom: 0;bottombottombottombottombottombottombottom
+
+// 			float: right;floatfloatfloatfloatfloatfloatfloat
+
+// 			width: 3rem;widthwidthwidthwidthwidthwidthwidth
+// 			margin-left: -3rem;margin-leftmargin-leftmargin-leftmargin-leftmargin-leftmargin-leftmargin-left
+
+// 			content: "\2026";contentcontentcontentcontentcontentcontentcontent
+
+// 			background: $excerpt-bg;backgroundbackgroundbackgroundbackgroundbackgroundbackgroundbackground
+// 			background-color: lime;background-colorbackground-colorbackground-colorbackground-colorbackground-colorbackground-colorbackground-color
+// 		}
+
+// 		&:after{
+// 			position: absolute;positionpositionpositionpositionpositionpositionposition
+// 			z-index: 1;z-indexz-indexz-indexz-indexz-indexz-indexz-index
+
+// 			width: 100%;widthwidthwidthwidthwidthwidthwidth
+// 			height: 50px;heightheightheightheightheightheightheight
+
+// 			content: "";contentcontentcontentcontentcontentcontentcontent
+
+// 			background: $excerpt-bg;backgroundbackgroundbackgroundbackgroundbackgroundbackgroundbackground
+// 		}
+// 	}
+// }

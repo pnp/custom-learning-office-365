@@ -1,11 +1,10 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
-import isEqual from "lodash/isEqual";
+import HOOLabel from "@n8d/htwoo-react/HOOLabel";
 
 import styles from "./RecursiveTree.module.scss";
 import RecursiveTreeItem from "./RecursiveTreeItem";
-import { Label } from "office-ui-fabric-react";
 
 export interface IRecursiveList {
   key: string;
@@ -33,39 +32,23 @@ export interface IRecursiveTreeProps {
   selectItem: (itemKey: string) => void;
 }
 
-export interface IRecursiveTreeState {
-}
-
-export class RecursiveTreeState implements IRecursiveTreeState {
-  constructor() { }
-}
-
-export default class RecursiveTree extends React.Component<IRecursiveTreeProps, IRecursiveTreeState> {
+export default class RecursiveTree extends React.PureComponent<IRecursiveTreeProps> {
   private LOG_SOURCE: string = "RecursiveTree";
 
   constructor(props) {
     super(props);
-    this.state = new RecursiveTreeState();
-  }
-
-  public shouldComponentUpdate(nextProps: Readonly<IRecursiveTreeProps>, nextState: Readonly<IRecursiveTreeState>) {
-    if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
-      return false;
-    return true;
   }
 
   public render(): React.ReactElement<IRecursiveTreeProps> {
     try {
       return (
         <>
-          <Label className={(this.props.disabled ? styles.disabled : "")}>{this.props.label}
-            {this.props.required &&
-              <span className={styles.recursiveTreeRequired}>*</span>
-            }
-          </Label>
+          <HOOLabel label={this.props.label} rootElementAttributes={{ className: (this.props.disabled ? styles.disabled : "") }} required={this.props.required} />
+
           <div className={`${styles.recursiveTree} ${(this.props.errorMessage.length > 0 ? styles.error : "")} ${(this.props.disabled ? styles.disabled : "")}`}>
-            {this.props.treeItems && this.props.treeItems.length > 0 && this.props.treeItems.map((t) => {
+            {this.props.treeItems && this.props.treeItems.length > 0 && this.props.treeItems.map((t, idx) => {
               return (<RecursiveTreeItem
+                key={idx}
                 level={0}
                 treeItem={t}
                 selectedKeys={this.props.selectedKeys}

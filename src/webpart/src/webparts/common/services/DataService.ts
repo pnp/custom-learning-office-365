@@ -1,17 +1,17 @@
 import { Logger, LogLevel } from "@pnp/logging";
-import find from 'lodash/find';
-import findIndex from 'lodash/findIndex';
-import cloneDeep from 'lodash/cloneDeep';
-import forEach from 'lodash/forEach';
-import filter from 'lodash/filter';
-import remove from 'lodash/remove';
-import includes from 'lodash/includes';
-import countBy from 'lodash/countBy';
-import flatMapDeep from 'lodash/flatMapDeep';
+import find from 'lodash-es/find';
+import findIndex from 'lodash-es/findIndex';
+import cloneDeep from 'lodash-es/cloneDeep';
+import forEach from 'lodash-es/forEach';
+import filter from 'lodash-es/filter';
+import remove from 'lodash-es/remove';
+import includes from 'lodash-es/includes';
+import countBy from 'lodash-es/countBy';
+import flatMapDeep from 'lodash-es/flatMapDeep';
 
 
 import * as strings from "M365LPStrings";
-import { ICacheConfig, IPlaylist, IAsset, IMetadata, ITechnology, ICustomizations, ICategory, SubCat, ICDN, CDN, IMultilingualString, CacheConfig } from "../models/Models";
+import { ICacheConfig, IPlaylist, IAsset, IMetadata, ITechnology, ICustomizations, ICategory, SubCat, IMultilingualString, CacheConfig } from "../models/Models";
 import { HttpClientResponse, HttpClient } from "@microsoft/sp-http";
 import { CustomDataService, ICustomDataService } from "./CustomDataService";
 import { params } from "./Parameters";
@@ -68,16 +68,16 @@ export class DataService implements IDataService {
   }
 
   public async getCacheConfig(): Promise<ICacheConfig> {
-    let retVal = await this._customDataService.getCacheConfig(this._language);
+    const retVal = await this._customDataService.getCacheConfig(this._language);
     return retVal;
   }
 
   //Loads Metadata.json file from Microsoft CDN
   public async getMetadata(): Promise<IMetadata> {
     try {
-      let results: HttpClientResponse = await params.httpClient.fetch(`${this._cdnBase}${this._language}/metadata.json`, HttpClient.configurations.v1, this.fieldOptions);
+      const results: HttpClientResponse = await params.httpClient.fetch(`${this._cdnBase}${this._language}/metadata.json`, HttpClient.configurations.v1, this.fieldOptions);
       if (results.ok) {
-        let resultsJson: IMetadata = await results.json();
+        const resultsJson: IMetadata = await results.json();
         for (let c = 0; c < resultsJson.Categories.length; c++) {
           for (let sc = 0; sc < resultsJson.Categories[c].SubCategories.length; sc++) {
 
@@ -101,9 +101,9 @@ export class DataService implements IDataService {
   //Loads playlists.json file from Microsoft CDN
   private async getPlaylists(): Promise<IPlaylist[]> {
     try {
-      let results: HttpClientResponse = await params.httpClient.fetch(`${this._cdnBase}${this._language}/playlists.json`, HttpClient.configurations.v1, this.fieldOptions);
+      const results: HttpClientResponse = await params.httpClient.fetch(`${this._cdnBase}${this._language}/playlists.json`, HttpClient.configurations.v1, this.fieldOptions);
       if (results.ok) {
-        let resultsJson: IPlaylist[] = await results.json();
+        const resultsJson: IPlaylist[] = await results.json();
         for (let i = 0; i < resultsJson.length; i++) {
           if ((resultsJson[i].Image as string).length > 1)
             resultsJson[i].Image = `${this._cdnBase}${this._language}/${resultsJson[i].Image}`;
@@ -122,9 +122,9 @@ export class DataService implements IDataService {
   //Loads assets.json file from Microsoft CDN
   private async getAssets(): Promise<IAsset[]> {
     try {
-      let results: HttpClientResponse = await params.httpClient.fetch(`${this._cdnBase}${this._language}/assets.json`, HttpClient.configurations.v1, this.fieldOptions);
+      const results: HttpClientResponse = await params.httpClient.fetch(`${this._cdnBase}${this._language}/assets.json`, HttpClient.configurations.v1, this.fieldOptions);
       if (results.ok) {
-        let resultsJson: IAsset[] = await results.json();
+        const resultsJson: IAsset[] = await results.json();
         return resultsJson;
       } else {
         return null;
@@ -142,7 +142,7 @@ export class DataService implements IDataService {
         playlists = await this.getPlaylists();
         this._downloadedPlaylists = cloneDeep(playlists);
       }
-      let customPlaylists = await this._customDataService.getCustomPlaylists();
+      const customPlaylists = await this._customDataService.getCustomPlaylists();
       if (customPlaylists) {
         playlists = playlists.concat(customPlaylists);
       }
@@ -161,18 +161,18 @@ export class DataService implements IDataService {
       //Remove custom playlists without translation for current language
       playlists = remove(playlists, (p) => {
         if (p.Source !== CustomWebpartSource.Tenant) return true;
-        let foundTranslation = find((p.Title as IMultilingualString[]), { LanguageCode: this._language });
+        const foundTranslation = find((p.Title as IMultilingualString[]), { LanguageCode: this._language });
         return (foundTranslation) ? true : false;
       });
 
       //Flatten custom playlists for current language
       forEach(playlists, (p) => {
         if (p.Source === CustomWebpartSource.Tenant) {
-          let title = find((p.Title as IMultilingualString[]), { LanguageCode: this._language }).Text;
+          const title = find((p.Title as IMultilingualString[]), { LanguageCode: this._language }).Text;
           p.Title = title;
-          let description = find((p.Description as IMultilingualString[]), { LanguageCode: this._language }).Text;
+          const description = find((p.Description as IMultilingualString[]), { LanguageCode: this._language }).Text;
           p.Description = description;
-          let image = find((p.Image as IMultilingualString[]), { LanguageCode: this._language }).Text;
+          const image = find((p.Image as IMultilingualString[]), { LanguageCode: this._language }).Text;
           p.Image = image;
         }
       });
@@ -190,7 +190,7 @@ export class DataService implements IDataService {
         assets = await this.getAssets();
         this._downloadedAssets = cloneDeep(assets);
       }
-      let customAssets = await this._customDataService.getCustomAssets();
+      const customAssets = await this._customDataService.getCustomAssets();
       if (customAssets) {
         assets = assets.concat(customAssets);
       }
@@ -199,16 +199,16 @@ export class DataService implements IDataService {
       //Remove custom assets without translation for current language
       assets = remove(assets, (a) => {
         if (a.Source !== CustomWebpartSource.Tenant) return true;
-        let foundTranslation = find((a.Title as IMultilingualString[]), { LanguageCode: this._language });
+        const foundTranslation = find((a.Title as IMultilingualString[]), { LanguageCode: this._language });
         return (foundTranslation) ? true : false;
       });
 
       //Flatten custom assets for language
       forEach(assets, (a) => {
         if (a.Source === CustomWebpartSource.Tenant) {
-          let title = find((a.Title as IMultilingualString[]), { LanguageCode: this._language }).Text;
+          const title = find((a.Title as IMultilingualString[]), { LanguageCode: this._language }).Text;
           a.Title = title;
-          let url = find((a.Url as IMultilingualString[]), { LanguageCode: this._language }).Text;
+          const url = find((a.Url as IMultilingualString[]), { LanguageCode: this._language }).Text;
           a.Url = url;
         }
       });
@@ -265,19 +265,19 @@ export class DataService implements IDataService {
 
           categories[countC].SubCategories = remove(categories[countC].SubCategories, (sc) => {
             if (sc.Source !== CustomWebpartSource.Tenant) return true;
-            let foundTranslation = find((sc.Name as IMultilingualString[]), { LanguageCode: this._language });
+            const foundTranslation = find((sc.Name as IMultilingualString[]), { LanguageCode: this._language });
             return (foundTranslation) ? true : false;
           });
 
           //Flatten custom assets for language
           forEach(categories[countC].SubCategories, (sc) => {
             if (sc.Source === CustomWebpartSource.Tenant) {
-              let name = find((sc.Name as IMultilingualString[]), { LanguageCode: this._language }).Text;
+              const name = find((sc.Name as IMultilingualString[]), { LanguageCode: this._language }).Text;
               sc.Name = name;
-              let image = find((sc.Image as IMultilingualString[]), { LanguageCode: this._language }).Text;
+              const image = find((sc.Image as IMultilingualString[]), { LanguageCode: this._language }).Text;
               sc.Image = image;
             }
-            let selectedPlaylist = countBy(playlists, { 'CatId': sc.Id });
+            const selectedPlaylist = countBy(playlists, { 'CatId': sc.Id });
             sc.Count = selectedPlaylist.true ? selectedPlaylist.true : 0;
           });
         }
@@ -287,7 +287,7 @@ export class DataService implements IDataService {
     }
   }
 
-  private loadChildrenPath(categories: ICategory[]) {
+  private loadChildrenPath(categories: ICategory[]): void {
     function getPath(category: ICategory, parentPath: string[]): void {
       if (!category.Path)
         category.Path = parentPath.concat([category.Id]);
@@ -315,7 +315,7 @@ export class DataService implements IDataService {
         cache = new CacheConfig();
 
       this.metadata = await this.getMetadata();
-      let m = cloneDeep(this.metadata);
+      const m = cloneDeep(this.metadata);
 
       if (m) {
         if (!this.customization)
@@ -328,8 +328,8 @@ export class DataService implements IDataService {
         if (this.customization.CustomSubcategories.length > 0) {
           this.customization.CustomSubcategories.forEach((catItem) => {
             if (catItem.SubCategories.length > 0) {
-              let cat = find(m.Categories, { Id: catItem.Id });
-              let customSC = cloneDeep(catItem.SubCategories);
+              const cat = find(m.Categories, { Id: catItem.Id });
+              const customSC = cloneDeep(catItem.SubCategories);
               cat.SubCategories = cat.SubCategories.concat(customSC);
             }
           });
@@ -339,10 +339,10 @@ export class DataService implements IDataService {
         this.categoriesAll = cloneDeep(m.Categories);
 
         //Get a list of all categories, for finding abandoned playlists
-        let categoryIds = flatMapDeep(m.Categories, (n) => {
+        const categoryIds = flatMapDeep(m.Categories, (n) => {
           let ids: string[] = [];
           ids.push(n.Id);
-          let subIds = flatMapDeep(n.SubCategories, "Id");
+          const subIds = flatMapDeep(n.SubCategories, "Id");
           ids = ids.concat(subIds);
           return ids;
         });
@@ -383,14 +383,14 @@ export class DataService implements IDataService {
           }
         });
         if (abandonedCount > 0) {
-          let abandonedSubCat = new SubCat("-1", strings.AbandonedPlaylist, "", "", "", "Microsoft", [], [], 0);
-          let abandonedCat = new SubCat("0", strings.Abandoned, "", "", "", "Microsoft", [abandonedSubCat], [], 0);
+          const abandonedSubCat = new SubCat("-1", strings.AbandonedPlaylist, "", "", "", "Microsoft", [], [], 0);
+          const abandonedCat = new SubCat("0", strings.Abandoned, "", "", "", "Microsoft", [abandonedSubCat], [], 0);
           this.categoriesAll.unshift(abandonedCat);
           m.Categories.unshift(abandonedCat);
         }
 
         //Get assets and custom assets
-        let assets = await this.refreshAssetsAll();
+        const assets = await this.refreshAssetsAll();
 
         //Filter playlists for cache
         playlists = this.filterPlaylists(playlists, this.customization.HiddenPlaylistsIds, m.Technologies);
@@ -399,24 +399,33 @@ export class DataService implements IDataService {
         this.calculateCategoryCount(m.Categories, playlists);
 
         //Update config cache
+        // eslint-disable-next-line require-atomic-updates
         cache.Categories = m.Categories;
+        // eslint-disable-next-line require-atomic-updates
         cache.Technologies = m.Technologies;
+        // eslint-disable-next-line require-atomic-updates
         cache.ManifestVersion = params.manifestVersion;
+        // eslint-disable-next-line require-atomic-updates
         cache.CachedPlaylists = playlists;
+        // eslint-disable-next-line require-atomic-updates
         cache.CachedAssets = assets;
+        // eslint-disable-next-line require-atomic-updates
         cache.AssetOrigins = params.assetOrigins;
+        // eslint-disable-next-line require-atomic-updates
         cache.LastUpdated = new Date();
         params.lastUpdatedCache = cache.LastUpdated;
         cache.WebPartVersion = params.webPartVersion;
 
         //Save config to list
-        let c = cloneDeep(cache);
+        const c = cloneDeep(cache);
         if (cache.Id > 0) {
-          let updateConfig = await this._customDataService.modifyCache(c);
+          const updateConfig = await this._customDataService.modifyCache(c);
+          // eslint-disable-next-line require-atomic-updates
           cache.eTag = updateConfig;
         } else {
           //Create first config
-          let addConfig = await this._customDataService.createCache(c, this._language);
+          const addConfig = await this._customDataService.createCache(c, this._language);
+          // eslint-disable-next-line require-atomic-updates
           cache.Id = addConfig;
         }
       } else {
@@ -436,7 +445,7 @@ export class DataService implements IDataService {
     try {
       //Filter playlists for cache
       if (playlists) {
-        let p = this.filterPlaylists(playlists, this.customization.HiddenPlaylistsIds, cache.Technologies);
+        const p = this.filterPlaylists(playlists, this.customization.HiddenPlaylistsIds, cache.Technologies);
         cache.CachedPlaylists = p;
       }
       if (assets)
@@ -448,8 +457,8 @@ export class DataService implements IDataService {
         cache.Categories = cloneDeep(this.metadata.Categories);
         this.customization.CustomSubcategories.forEach((catItem) => {
           if (catItem.SubCategories.length > 0) {
-            let cat = find(cache.Categories, { Id: catItem.Id });
-            let customSC = cloneDeep(catItem.SubCategories);
+            const cat = find(cache.Categories, { Id: catItem.Id });
+            const customSC = cloneDeep(catItem.SubCategories);
             cat.SubCategories = cat.SubCategories.concat(customSC);
           }
         });
@@ -473,8 +482,10 @@ export class DataService implements IDataService {
       //recalculate category counts
       this.calculateCategoryCount(cache.Categories, cache.CachedPlaylists);
 
-      let c = cloneDeep(cache);
-      let updateConfig = await this._customDataService.modifyCache(c);
+      const c = cloneDeep(cache);
+      const updateConfig = await this._customDataService.modifyCache(c);
+      // The response for modifyCache is the eTag of the update, so this is a false error
+      // eslint-disable-next-line require-atomic-updates
       cache.eTag = updateConfig;
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (refreshCacheCustomOnly) - ${err}`, LogLevel.Error);

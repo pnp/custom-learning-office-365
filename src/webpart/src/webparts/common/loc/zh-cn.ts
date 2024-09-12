@@ -1,5 +1,3 @@
-declare var define: any;
-
 define([], (): IM365LPStrings => {
   return {
     WebpartTitleLabel: "Web 部件标题（仅内容模式）",
@@ -244,7 +242,7 @@ define([], (): IM365LPStrings => {
     ListOptionsAlt: "视图选项。已选中 {0} 个。",
     ListOptionsTitle: "打开视图选项菜单",
     Selected: "已选中",
-    CategoryTranslationNotAvailable: "所选子类别未提供此语言的翻译。",
+    CategoryTranslationNotAvailable: "所选子类别需要用所选语言进行翻译。",
     Abandoned: "已弃用",
     AbandonedPlaylist: "播放列表",
     RemoveLanguageLabel: "删除语言",
@@ -258,8 +256,10 @@ define([], (): IM365LPStrings => {
     DataUpgradeReview: "审阅",
     DataUpgradeMultilingual: "已针对学习路径启用多语言支持。请查看为你的网站启用的语言，并关闭你不想支持的语言。",
     M365Title: "Microsoft 365 学习路径",
-    ValidateBase: "The base url for the CDN must end in a (/).",
-    CustomizeSort: "Customize Sort",
-    ResetSort: "Reset Sort"
+    ValidateBase: "CDN 的基本 url 必须以 (/) 结尾。",
+    CustomizeSort: "自定义排序",
+    ResetSort: "重置排序",
+    AlwaysShowSearchLabel: "始终显示搜索栏",
+    AlwaysOpenAssetInDialog: "始终在对话框中打开资产"
   };
 });

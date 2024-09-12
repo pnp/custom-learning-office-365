@@ -1,0 +1,14 @@
+@use '../00-base/colors' as colors;
+
+.admpl-heading {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	line-height: 2.25em;
+	margin-top: 0;
+
+	border-bottom: 1px colors.$c-gray solid;
+
+}
+.admpl-heading-edit {
+}

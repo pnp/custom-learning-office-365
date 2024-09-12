@@ -1,11 +1,14 @@
 import * as React from "react";
 import { Logger, LogLevel } from "@pnp/logging";
 
-import isEqual from "lodash/isEqual";
-import find from "lodash/find";
-import cloneDeep from "lodash/cloneDeep";
-
-import { MessageBar, MessageBarType, ActionButton } from "office-ui-fabric-react";
+import isEqual from "lodash-es/isEqual";
+import find from "lodash-es/find";
+import cloneDeep from "lodash-es/cloneDeep";
+import HOODialog from "@n8d/htwoo-react/HOODialog";
+import HOOButton from "@n8d/htwoo-react/HOOButton";
+import HOODialogActions from "@n8d/htwoo-react/HOODialogActions";
+import HOODialogContent from "@n8d/htwoo-react/HOODialogContent";
+import HOOCommandBar, { IHOOCommandItem } from "@n8d/htwoo-react/HOOCommandBar";
 
 import * as strings from "M365LPStrings";
 import { params } from "../../../common/services/Parameters";
@@ -116,7 +119,7 @@ export default class PlaylistInfo extends React.Component<IPlaylistInfoProps, IP
     }
   }
 
-  public shouldComponentUpdate(nextProps: Readonly<IPlaylistInfoProps>, nextState: Readonly<IPlaylistInfoState>) {
+  public shouldComponentUpdate(nextProps: Readonly<IPlaylistInfoProps>, nextState: Readonly<IPlaylistInfoState>): boolean {
     try {
       if ((isEqual(nextState, this.state) && isEqual(nextProps, this.props)))
         return false;
@@ -130,14 +133,14 @@ export default class PlaylistInfo extends React.Component<IPlaylistInfoProps, IP
     return true;
   }
 
-  public componentDidUpdate() {
+  public componentDidUpdate(): void {
     if (this._reInit) {
       this._reInit = false;
       this.init();
     }
   }
 
-  private updatePlaylist = (newPlaylist: IPlaylist, save: boolean = false) => {
+  private updatePlaylist = (newPlaylist: IPlaylist, save: boolean = false): void => {
     try {
       this.setState({
         playlist: newPlaylist,
@@ -146,13 +149,12 @@ export default class PlaylistInfo extends React.Component<IPlaylistInfoProps, IP
         if (save)
           this.savePlaylist();
       });
-
     } catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (updatePlaylist) - ${err}`, LogLevel.Error);
     }
   }
 
-  private savePlaylist = async () => {
+  private savePlaylist = async (): Promise<void> => {
     try {
       if (this.props.savePlaylist(this.state.playlist)) {
         this.setState({
@@ -190,13 +192,13 @@ export default class PlaylistInfo extends React.Component<IPlaylistInfoProps, IP
     return valid;
   }
 
-  private playlistHeader = () => {
+  private playlistHeader = (): string => {
     let header: string = "";
     try {
       if (this.state.playlist.Id === "0") {
         header = strings.PlaylistEditCreatePlaylistHeader;
       } else {
-        let title = (this.state.playlist.Title instanceof Array) ? (this.state.playlist.Title as IMultilingualString[])[0].Text : this.state.playlist.Title as string;
+        const title = (this.state.playlist.Title instanceof Array) ? (this.state.playlist.Title as IMultilingualString[])[0].Text : this.state.playlist.Title as string;
         header = `${strings.PlaylistEditPlaylistDetailsHeader} ${title}`;
       }
     } catch (err) {
@@ -205,11 +207,21 @@ export default class PlaylistInfo extends React.Component<IPlaylistInfoProps, IP
     return header;
   }
 
-  private renderPlaylistButtons = () => {
-    let retVal = [];
+  private renderPlaylistButtons = (): IHOOCommandItem[] => {
+    const retVal: IHOOCommandItem[] = [];
     try {
-      let copy = <ActionButton iconProps={{ iconName: 'Copy' }} text={strings.PlaylistEditCopyLabel} onClick={() => this.props.copyPlaylist(this.state.playlist)} disabled={false} />;
-      let close = <ActionButton iconProps={{ iconName: 'ChromeClose' }} text={strings.PlaylistEditCloseLabel} onClick={this.props.close} />;
+      const copy: IHOOCommandItem = {
+        key: 'copy',
+        iconName: 'icon-copy-regular',
+        text: strings.PlaylistEditCopyLabel,
+        flyoutMenuItems: []
+      };
+      const close: IHOOCommandItem = {
+        key: 'close',
+        iconName: "icon-dismiss-regular",
+        text: strings.PlaylistEditCloseLabel,
+        flyoutMenuItems: []
+      };
 
       if (!this.props.editDisabled) {
         if (!this.state.edit) {
@@ -232,15 +244,28 @@ export default class PlaylistInfo extends React.Component<IPlaylistInfoProps, IP
     return retVal;
   }
 
+  private handleCommandBar = (buttonKey: string): void => {
+    try {
+      if (buttonKey === "copy") {
+        this.props.copyPlaylist(this.state.playlist);
+      } else if (buttonKey === "close") {
+        this.props.close();
+      }
+    } catch (err) {
+      Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (handleCommandBar) - ${err}`, LogLevel.Error);
+    }
+  }
+
   public render(): React.ReactElement<IPlaylistInfoProps> {
     try {
-      let playlistButtons = this.renderPlaylistButtons();
       return (
         <>
-          <div data-component={this.LOG_SOURCE} className="adm-content-section">
+          <div data-component={this.LOG_SOURCE} className="adm-plitem-info">
             <h2>{this.playlistHeader()}</h2>
-            <div className={`adm-itemaction ${(playlistButtons.length < 1) ? "hidden" : ""}`}>
-              {playlistButtons}
+            <div className="adm-plitem-tools">
+              <HOOCommandBar
+                commandItems={this.renderPlaylistButtons()}
+                onClick={(ev, commandKey, flyoutItem) => { this.handleCommandBar(commandKey.toString()) }} />
             </div>
             <PlaylistDetails
               playlist={this.state.playlist}
@@ -250,22 +275,30 @@ export default class PlaylistInfo extends React.Component<IPlaylistInfoProps, IP
               audiences={this.props.audiences}
               updatePlaylist={this.updatePlaylist}
               editMode={this.state.edit}
-              cancel={() => { this.init(); }}
+              cancel={() => { this.props.close() }}
               dirty={this.state.playlistChanged}
               valid={this.playlistValid()}
               edit={() => { this.setState({ edit: true }); }}
             />
           </div>
-          <div data-component={this.LOG_SOURCE} className="adm-content-section">
+          <section data-component={this.LOG_SOURCE} className="adm-content-section">
             <h2>{strings.PlaylistEditPlaylistAssetsHeader}</h2>
             {(this.state.message !== "") &&
-              <MessageBar
-                messageBarType={(this.state.success) ? MessageBarType.success : MessageBarType.error}
-                isMultiline={false}
-                onDismiss={() => { this.setState({ message: "", success: true }); }}
-                dismissButtonAriaLabel={strings.CloseButton}>
-                {this.state.message}
-              </MessageBar>
+              <HOODialog
+                changeVisibility={function noRefCheck() { }}
+                type={(this.state.success) ? 2 : 1}
+                visible={true}
+              >
+                <HOODialogContent>
+                  {this.state.message}
+                </HOODialogContent>
+                <HOODialogActions>
+                  <HOOButton
+                    iconName="icon-dismiss-regular"
+                    onClick={() => { this.setState({ message: "", success: true }); }}
+                    type={0} />
+                </HOODialogActions>
+              </HOODialog>
             }
             <AssetInfo
               editDisabled={this.props.editDisabled}
@@ -277,7 +310,7 @@ export default class PlaylistInfo extends React.Component<IPlaylistInfoProps, IP
               upsertAsset={this.props.upsertAsset}
               translateAsset={this.props.translateAsset}
             />
-          </div>
+          </section>
         </>
       );
     } catch (err) {

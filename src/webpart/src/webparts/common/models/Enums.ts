@@ -1,8 +1,9 @@
 export const CustomWebpartSource = { "Tenant": "Tenant" };
 
-export const WebpartMode = {
+export const WebPartModeOptions = {
   "full": "Full",
-  "contentonly": "Content Only"
+  "contentonly": "Content Only",
+  "searchonly": "Search Only"
 };
 
 export const PropertyPaneFilters = {
