@@ -9,7 +9,7 @@ Train employees with Microsoft 365 learning pathways, a digital, customizable le
 
 ## Version 5 Release
 
-Version 5 has been released with added accessibility and technology updates. Included in the V5 release we have added a custom analytics webhook. For [webhook configuration instructions](installation/ConfigureAnalyticsWebHook.md).
+Version 5 has been released with added accessibility and technology updates. Included in the V5 release we have added a custom analytics webhook. For [webhook configuration instructions](installation/ConfigureAnalyticsWebHook.md). For for new installations see the [Installation Instructions](./installation/README.md) for upgrade instructions on an existing Microsoft 365 Learning Pathways site follow the [V4 to V5 Upgrade instructions](./installation/UpdateV4-V5.md).
 
 ## Overview Video
 
