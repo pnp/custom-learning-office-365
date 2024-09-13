@@ -1,14 +1,22 @@
-# Manually installing and configuring Microsoft 365 learning pathways
+# Installing and configuring Microsoft 365 learning pathways
 
-## LookBook Installation
+## Installation Options
 
-There are two installation options for Microsoft 365 Learning Pathways. The first option is the manual install. This will install the webpart and set it up for use in your tenant. This will not create any pages other than the admin page and viewer page. The second installation options is to install the Learning Pathways site template previously hosted from the LookBook. To install the site template please follow [these instructions](https://learn.microsoft.com/en-us/sharepoint/dev/solution-guidance/applying-pnp-templates). This tutorial will walk you through the process of creating a site collection, downloading and installing the site template. You will then need to run the M365lpConfiguration.ps1 in the [Execute PowerShell Configuration Script](https://github.com/pnp/custom-learning-office-365/tree/main/installation#execute-powershell-configuration-script) to set the tenant app property.
+There are two manual installation options for Microsoft 365 Learning Pathways.
 
-## Upgrade Installation
+### Minimal Install
+
+This will install the webpart and set it up for use in your tenant. This will not create any pages other than the admin page and viewer page. Please follow the [Minimal Installation Overview](README.md#Minimal-Installation-Overview) for instructions.
+
+### Site Template Installation (formerly via LookBook)
+
+This method will install the Learning Pathways site template previously hosted from the LookBook. To install the site template please follow [these instructions](https://learn.microsoft.com/en-us/sharepoint/dev/solution-guidance/applying-pnp-templates). This tutorial will walk you through the process of creating a site collection, downloading and installing the site template. You will then need to run the M365lpConfiguration.ps1 in the [Execute PowerShell Configuration Script](https://github.com/pnp/custom-learning-office-365/tree/main/installation#execute-powershell-configuration-script) to set the tenant app property.
+
+## Upgrade Instructions
 
 If you are upgrading an existing Microsoft 365 Learning Pathways site please follow the instructions for your version. For V3-V4 upgrade instruction please follow [V3-V4 Upgrade](UpdateV3-V4.md). For V4 to V5 upgrade please follow the [V4 to V5 Upgrade instructions](./UpdateV4-V5.md).
 
-## New Installation Overview
+## Minimal Installation Overview
 
 The Microsoft 365 learning pathways solution is built using the [SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview) version 1.19.0.
 
