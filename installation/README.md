@@ -1,8 +1,8 @@
 # Manually installing and configuring Microsoft 365 learning pathways
 
-## LookBook installation
+## LookBook Installation
 
-There are two manual options when installing Microsoft 365 Learning Pathways. The first is the manual install. This will install the webpart and set it up for use in your tenant. This will not create any pages other than the admin page and viewer page. The second installation options is to install the Learning Pathways site template previously hosted from the LookBook. To install the site template please follow [these instructions](https://learn.microsoft.com/en-us/sharepoint/dev/solution-guidance/applying-pnp-templates). This tutorial will walk you through the process of creating a site collection, downloading and installing the site template. You will then need to run the M365lpConfiguration.ps1 in the [Execute PowerShell Configuration Script](https://github.com/pnp/custom-learning-office-365/tree/main/installation#execute-powershell-configuration-script) to set the tenant app property.
+There are two installation options for Microsoft 365 Learning Pathways. The first option is the manual install. This will install the webpart and set it up for use in your tenant. This will not create any pages other than the admin page and viewer page. The second installation options is to install the Learning Pathways site template previously hosted from the LookBook. To install the site template please follow [these instructions](https://learn.microsoft.com/en-us/sharepoint/dev/solution-guidance/applying-pnp-templates). This tutorial will walk you through the process of creating a site collection, downloading and installing the site template. You will then need to run the M365lpConfiguration.ps1 in the [Execute PowerShell Configuration Script](https://github.com/pnp/custom-learning-office-365/tree/main/installation#execute-powershell-configuration-script) to set the tenant app property.
 
 ## Upgrade Installation
 

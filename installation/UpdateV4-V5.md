@@ -4,7 +4,7 @@
 >
 >**_PLEASE_** If you are upgrading from V3 to V5 please review the content of [Adding Multilingual Support to Microsoft 365 learning pathways](AddingMultilingualSupport.md) document before proceeding.
 >
->Although it has been tested thoroughly, as with any major update you should plan for the worst and back up your content first. There are many third party solutions that will assist you with this, if you do not have access to any then the simplest method is to back up your content using Microsoft Excel. Specifically all the items in the _CustomPlaylists_ and _CustomAssets_ lists plus the `CustomSubCategories` item in the _CustomConfig_ list. Please see [Backup Playlist Content](BackupInstructions.md) for more detail instructions.
+>Although it has been tested thoroughly, as with any major update you should plan for the worst and back up your content first. There are many third party solutions that will assist you with this, if you do not have access to any then the simplest method is to back up your content using Microsoft Excel. Specifically all the items in the _CustomPlaylists_ and _CustomAssets_ lists plus the `CustomSubCategories` item in the _CustomConfig_ list. Please see [Backup Playlist Content](BackupInstructions.md) for more detail instructions. 
 
 The current solution is provided in it's packaged form in the web part folder [customlearning.sppkg](customlearning.sppkg).
 
@@ -12,7 +12,7 @@ To validate the version of the web part installed in your tenant you must have a
 
 ![Tenant App Catalog Screenshot](../images/TenantAppCatalog.png)
 
-If you find that your package is out of date, you can download it from this repository and then upload it into your tenant app catalog (you will need appropriate access to do this step).
+If you find that your package is out of date, you can download the latest version from this repository and then upload it into your tenant app catalog (you will need appropriate access to do this step).
 
 To download the SPPKG file, navigate to the [customlearning.sppkg](https://github.com/pnp/custom-learning-office-365/blob/main/installation/customlearning.sppkg) file in the webpart folder of this repository. Select `Download` to save the file to your computer.
 
