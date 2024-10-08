@@ -33,3 +33,6 @@ If your application needs to be updated in this site collection you will see tha
 ![Update App](../images/UpdateApp.png)
 
 Finally, in your main custom learning site, navigate to the Site Pages library and to the `CustomLearningAdmin.aspx` page. Make sure this admin page load successfully without error. You may be prompted to complete a 'Data Upgrade' if you are updating to a new major version of the solution. Please run the update and assuming everything works as expected you would then close the update and the admin web part will load the content. If you have problems at this point, please open a new issue for assistance.
+
+## V5 Update Note
+During testing we received some reports that after an update the administration webpart doesn't load on the page. If this occurs, delete the sppkg file from the app catalog and then add it again. This resolves the issue.
