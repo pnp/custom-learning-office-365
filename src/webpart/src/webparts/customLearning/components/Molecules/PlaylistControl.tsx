@@ -43,7 +43,7 @@ export default class PlaylistControl extends React.Component<IPlaylistControlPro
   private getAssetOptions(assets: IAsset[]): IHOODropDownItem[] {
     const assetOptions: IHOODropDownItem[] = [];
     for (let i = 0; i < assets.length; i++) {
-      assetOptions.push({ key: assets[i].Id, text: assets[i].Title as string, disabled: false });
+      assetOptions.push({ key: assets[i].Id.toString(), text: assets[i].Title as string, disabled: false });
     }
     return assetOptions;
   }
@@ -105,7 +105,7 @@ export default class PlaylistControl extends React.Component<IPlaylistControlPro
     this.setState({
       ddShow: false
     }, () => {
-      this.props.selectAsset(key as string);
+      this.props.selectAsset(key.toString());
     });
   }
 

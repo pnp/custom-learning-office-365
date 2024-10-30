@@ -18,7 +18,7 @@ If you are upgrading an existing Microsoft 365 Learning Pathways site please fol
 
 ## Minimal Installation Overview
 
-The Microsoft 365 learning pathways solution is built using the [SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview) version 1.19.0.
+The Microsoft 365 learning pathways solution is built using the [SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/npmsharepoint-framework-overview) version 1.19.0.
 
 To manually install and configure the web part and site collection you will need to complete the following steps:
 
