@@ -18,7 +18,7 @@ If you are upgrading an existing Microsoft 365 Learning Pathways site please fol
 
 ## Minimal Installation Overview
 
-The Microsoft 365 learning pathways solution is built using the [SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview) version 1.19.0.
+The Microsoft 365 learning pathways solution is built using the [SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/npmsharepoint-framework-overview) version 1.19.0.
 
 To manually install and configure the web part and site collection you will need to complete the following steps:
 
@@ -68,6 +68,10 @@ When prompted enter the credentials of a user with the SharePoint Administrator 
 When prompted enter the credentials of a Site Collection Owner of the M365LP Site Collection. The `–SiteAdminOnly` switch tells the configuration script not to try to do any tenant level configuration and jump right to the site collection setup.
 
 After both parts of the script have successfully executed Microsoft 365 learning pathways will be installed and configured and ready for you to customize and use.
+
+## API permissions
+
+New in version 5 we have changed the way that we are providing functionality for uploading custom images for custom images. To that end we are using Microsoft Graph Files.ReadWrite.All permissions. After you install the solution you will need to go to the SharePoint Admin Center. Under Advanced select API Access. Select the pending request for File.ReadWrite.All and approve it. Note: You will need to be a global admin to approve this setting. Not approving this setting will not affect how Microsoft 365 Learning Pathways works except that you will not be able to add custom images for your playlists or assets.
 
 ## Configuring the Custom Analytics Webhook
 
