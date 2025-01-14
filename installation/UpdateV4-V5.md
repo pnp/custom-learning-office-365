@@ -2,7 +2,7 @@
 >
 >The version 5.x.x version is a major update and includes major changes to the user interface and the technology under the covers. There is not change to the underlying data structure.
 >
->**_PLEASE_** If you are upgrading from V3 to V5 please review the content of [Adding Multilingual Support to Microsoft 365 learning pathways](AddingMultilingualSupport.md) document before proceeding.
+>**_PLEASE_** If you are upgrading from V3 to V5 review the content of [Adding Multilingual Support to Microsoft 365 learning pathways](AddingMultilingualSupport.md) document before proceeding.
 >
 >Although it has been tested thoroughly, as with any major update you should plan for the worst and back up your content first. There are many third party solutions that will assist you with this, if you do not have access to any then the simplest method is to back up your content using Microsoft Excel. Specifically all the items in the _CustomPlaylists_ and _CustomAssets_ lists plus the `CustomSubCategories` item in the _CustomConfig_ list. Please see [Backup Playlist Content](BackupInstructions.md) for more detail instructions. 
 
@@ -33,3 +33,6 @@ If your application needs to be updated in this site collection you will see tha
 ![Update App](../images/UpdateApp.png)
 
 Finally, in your main custom learning site, navigate to the Site Pages library and to the `CustomLearningAdmin.aspx` page. Make sure this admin page load successfully without error. You may be prompted to complete a 'Data Upgrade' if you are updating to a new major version of the solution. Please run the update and assuming everything works as expected you would then close the update and the admin web part will load the content. If you have problems at this point, please open a new issue for assistance.
+
+## V5 Update Note
+During testing we received some reports that after an update the administration webpart doesn't load on the page. If this occurs, delete the sppkg file from the app catalog and then add it again. This resolves the issue.
