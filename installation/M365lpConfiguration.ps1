@@ -2,7 +2,8 @@ param([PSCredential]$Credentials,
   [string]$TenantName,
   [string]$SiteCollectionName,
   [switch]$AppCatalogAdminOnly,
-  [switch]$SiteAdminOnly)
+  [switch]$SiteAdminOnly,
+  [string]$ClientID)
 
 # Default to using PnP.PowerShell where possible - the script checks if legacy PnP PowerShell installed or prompts to install
 $moduleUsed = "PnP.PowerShell"
@@ -68,13 +69,18 @@ if ([string]::IsNullOrWhitespace($SiteCollectionName) ) {
 }
 $clSite = "https://$TenantName.sharepoint.com/sites/$SiteCollectionName"
 try {
+  # Check if clientID was passed in
+  if ([string]::IsNullOrWhitespace($ClientID)) {
+    # No TenantName was passed, prompt the user
+    $ClientID = Read-Host "Please enter a clientID: (3f78e14b-8ad4-4a29-a77b-3f5421d61d41) "
+  }
   # If Credentials were passed, try them
   if (-not [string]::IsNullOrWhitespace($Credentials)) {
     if ($moduleUsed -eq "SharePointPnPPowerShellOnline") {
       SharePointPnPPowerShellOnline\Connect-PnPOnline -Url $clSite -Credentials $Credentials -ErrorAction Stop
     }
     else {
-      PnP.PowerShell\Connect-PnPOnline -Url $clSite -Credentials $Credentials -ErrorAction Stop
+      PnP.PowerShell\Connect-PnPOnline -Url $clSite -Credentials $Credentials -ClientId $ClientID -ErrorAction Stop
     }
     
   }
@@ -84,7 +90,7 @@ try {
       SharePointPnPPowerShellOnline\Connect-PnPOnline -Url $clSite -UseWebLogin -ErrorAction Stop
     }
     else {
-      PnP.PowerShell\Connect-PnPOnline -Url $clSite -Interactive -ErrorAction Stop
+      PnP.PowerShell\Connect-PnPOnline -Url $clSite -Interactive -ClientId $ClientID -ErrorAction Stop
     }
   }
 }
