@@ -1,4 +1,5 @@
-param([string]$TenantName)
+param([string]$TenantName,
+  [string]$ClientID)
 
 try {
   $NotFound = $true
@@ -28,12 +29,17 @@ if ([string]::IsNullOrWhitespace($TenantName)) {
   # No TenantName was passed, prompt the user
   $TenantName = Read-Host "Please enter your tenant name: (contoso) "
 }
+# Check if clientID was passed in
+if ([string]::IsNullOrWhitespace($ClientID)) {
+  # No TenantName was passed, prompt the user
+  $ClientID = Read-Host "Please enter a clientID: (3f78e14b-8ad4-4a29-a77b-3f5421d61d41) "
+}
 $AdminURL = "https://$TenantName.sharepoint.com"
 
 # Connect to Admin site.
 # Todo: Differentiate between valid $adminurl and authentication error (bad password or no access)
 try {
-  Connect-PnPOnline -Url $AdminURL -UseWebLogin
+  Connect-PnPOnline -Url $AdminURL -Interactive -ClientId $ClientID -ErrorAction Stop
 }
 catch {
   Write-Warning "Failed to authenticate to $AdminURL"
