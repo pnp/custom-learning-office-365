@@ -18,6 +18,7 @@ export interface IAssetViewProps {
   assetOrigins: string[];
   selectAsset: (assetId: string) => void;
   openAssetsInDialog: boolean;
+  defaultWebPartHeight: string;
 }
 
 export interface IAssetViewState {
@@ -42,12 +43,13 @@ export default class AssetView extends React.Component<IAssetViewProps, IAssetVi
   private _IFrameCont;
 
   private _messageReceived: boolean = false;
-  private _Height: number = 9000;
+  private _Height: number = 9000;// this.props.defaultWebPartHeight ? +this.props.defaultWebPartHeight : this.HEIGHT_DEFAULT;
 
   constructor(props) {
     super(props);
     this._IFrame = React.createRef();
     this._IFrameCont = React.createRef();
+    this.HEIGHT_DEFAULT = this.props.defaultWebPartHeight ? +this.props.defaultWebPartHeight : 9000;
   }
 
   public shouldComponentUpdate(nextProps: Readonly<IAssetViewProps>, nextState: Readonly<IAssetViewState>): boolean {

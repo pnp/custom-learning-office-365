@@ -260,6 +260,7 @@ define([], (): IM365LPStrings => {
     CustomizeSort: "Sortering aanpassen",
     ResetSort: "Sortering opnieuw instellen",
     AlwaysShowSearchLabel: "Zoekbalk altijd weergeven",
-    AlwaysOpenAssetInDialog: "Altijd in het dialoogvenster openen"
+    AlwaysOpenAssetInDialog: "Altijd in het dialoogvenster openen",
+    DefaultWebPartHeightTitle: "Standaard webonderdeelhoogte"
   };
 });

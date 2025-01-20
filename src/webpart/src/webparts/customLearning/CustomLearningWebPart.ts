@@ -56,6 +56,7 @@ export interface ICustomLearningWebPartProps {
   customSortOrder: string[];
   alwaysShowSearch: boolean;
   openAssetsInDialog: boolean;
+  defaultWebPartHeight: string;
 }
 
 export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustomLearningWebPartProps> {
@@ -370,7 +371,8 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
           webpartTitle: this.properties.title,
           teamsEntityId: this._teamsContext?.page?.subPageId ?? '',
           alwaysShowSearch: this.properties.alwaysShowSearch || false,
-          openAssetsInDialog: (this.properties.openAssetsInDialog && this.displayMode != DisplayMode.Edit) ? this.properties.openAssetsInDialog : false
+          openAssetsInDialog: (this.properties.openAssetsInDialog && this.displayMode != DisplayMode.Edit) ? this.properties.openAssetsInDialog : false,
+          defaultWebPartHeight: this.properties.defaultWebPartHeight
         };
 
         element = React.createElement(React.Suspense, { fallback: shimmer },
@@ -525,14 +527,17 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
                 type: PropertyPaneDropdownOptionType.Header
               });
               plItems[catId] = [];
-              if (catId.length > 0) {
-                plItems[catId].push({
-                  key: cachedPlaylists[i].Id,
-                  text: cachedPlaylists[i].Title as string,
-                });
-              }
             }
+          }            
+          
+          if (catId.length > 0) {
+            plItems[catId].push({
+              key: cachedPlaylists[i].Id,
+              text: cachedPlaylists[i].Title as string,
+            });
           }
+            
+          
         }
         categories = sortBy(categories, (o) => { return o.text.toLowerCase(); });
         for (let c = 0; c < categories.length; c++) {
@@ -590,6 +595,9 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
                   label: strings.WebpartModeLabel,
                   options: this._ppWebpartMode,
                   selectedKey: this.properties.webpartMode
+                }),
+                PropertyPaneTextField('defaultWebPartHeight', {
+                  label: strings.DefaultWebPartHeightTitle
                 }),
                 PropertyPaneToggle('alwaysShowSearch', {
                   label: strings.AlwaysShowSearchLabel,

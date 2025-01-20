@@ -30,6 +30,8 @@ export interface ICustomLearningProps {
   teamsEntityId: string;
   alwaysShowSearch: boolean;
   openAssetsInDialog: boolean;
+  defaultWebPartHeight: string;
+
 }
 
 export interface ICustomLearningState {
@@ -495,6 +497,7 @@ export default class CustomLearning extends React.Component<ICustomLearningProps
             assetOrigins={this._uxService.CacheConfig.AssetOrigins}
             selectAsset={this._selectAsset}
             openAssetsInDialog={(this.props.openAssetsInDialog || this.state.renderPanel) ? true : false}
+            defaultWebPartHeight={this.props.defaultWebPartHeight}
           />;
           break;
         default:
