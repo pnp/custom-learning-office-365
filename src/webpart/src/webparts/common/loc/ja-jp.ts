@@ -260,6 +260,7 @@ define([], (): IM365LPStrings => {
     CustomizeSort: "並べ替えのカスタマイズ",
     ResetSort: "並べ替えをリセット",
     AlwaysShowSearchLabel: "常に検索バーを表示",
-    AlwaysOpenAssetInDialog: "常にダイアログでアセットを開く"
+    AlwaysOpenAssetInDialog: "常にダイアログでアセットを開く",
+    DefaultWebPartHeightTitle: "デフォルトの Web パーツの高さ"
   };
 });

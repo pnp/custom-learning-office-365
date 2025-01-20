@@ -263,6 +263,7 @@ define([], (): IM365LPStrings => {
     CustomizeSort: "Customize Sort",
     ResetSort: "Reset Sort",
     AlwaysShowSearchLabel: "Always Show Search Bar",
-    AlwaysOpenAssetInDialog: "Always Open Assets In Dialog"
+    AlwaysOpenAssetInDialog: "Always Open Assets In Dialog",
+    DefaultWebPartHeightTitle: "Default Web Part height"
   };
 });

@@ -25,7 +25,7 @@ export default class FilePicker extends React.PureComponent<IFilePickerProps, IF
   private LOG_SOURCE: string = "🟢FilePicker";
   private FILE_PICKER_URL: string;
 
-  private _container: React.RefObject<HTMLDivElement>;
+  //private _container: React.RefObject<HTMLDivElement>;
   private _IFrameElement: React.RefObject<HTMLIFrameElement>;
   private _FilePickerParams: any;
   private _QueryString: URLSearchParams;
@@ -35,13 +35,13 @@ export default class FilePicker extends React.PureComponent<IFilePickerProps, IF
     super(props);
     this.state = new FilePickerState();
     this._IFrameElement = React.createRef();
-    this._container = React.createRef();
+    //this._container = React.createRef();
   }
 
   public componentDidMount(): void {
     try {
       this._init();
-      this._container.current.focus();
+      //this._container.current.focus();
     } catch (err) {
       console.error(`${this.LOG_SOURCE} (componentDidMount) - ${err}`);
     }

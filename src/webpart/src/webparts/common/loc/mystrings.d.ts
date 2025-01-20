@@ -250,6 +250,7 @@ declare interface IM365LPStrings {
   ResetSort: string;
   AlwaysShowSearchLabel: string;
   AlwaysOpenAssetInDialog: string;
+  DefaultWebPartHeightTitle: string;
 }
 
 declare module 'M365LPStrings' {

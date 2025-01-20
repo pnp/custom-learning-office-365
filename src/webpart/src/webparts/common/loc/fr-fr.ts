@@ -260,6 +260,7 @@ define([], (): IM365LPStrings => {
     CustomizeSort: "Personnaliser le tri",
     ResetSort: "Réinitialiser le tri",
     AlwaysShowSearchLabel: "Toujours afficher la barre de recherche",
-    AlwaysOpenAssetInDialog: "Toujours ouvrir les actifs dans la boîte de dialogue"
+    AlwaysOpenAssetInDialog: "Toujours ouvrir les actifs dans la boîte de dialogue",
+    DefaultWebPartHeightTitle: "Hauteur par défaut du composant WebPart"
   };
 });

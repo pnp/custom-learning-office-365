@@ -260,6 +260,7 @@ define([], (): IM365LPStrings => {
     CustomizeSort: "自定义排序",
     ResetSort: "重置排序",
     AlwaysShowSearchLabel: "始终显示搜索栏",
-    AlwaysOpenAssetInDialog: "始终在对话框中打开资产"
+    AlwaysOpenAssetInDialog: "始终在对话框中打开资产",
+    DefaultWebPartHeightTitle: "默认 Web 部件高度"
   };
 });

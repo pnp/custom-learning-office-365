@@ -1,6 +1,15 @@
 # Change Log
 
+## Version 5.0.0.6
+
+- Bug fix for [#850](../../../issues/850) - Dropdown selection of playlist item is not working in V5.
+- Bug fix for [#872](../../../issues/872) - Learning Pathways dropdowns suddenly stopped working.
+- Bug fix for [#878](../../../issues/878) - Removed error in focus for image dialog.
+- Bug fix for [#771](../../../issues/771) - Accessibility concerns with template. Changed the template back to white.
+- Enhancement for [#820](../../../issues/820) - Adding default web part height option.
+
 ## Version 5.0
+
 **This version is a major release that includes new features. It will support updating from either the version 2.x or 3.x of the learning pathways solution. You should take appropriate caution when updating to this version of the web part by backing up your learning pathways master site content, specifically your custom subcategories, custom playlists, and custom assets. Please see [Backup Playlist Content](./installation/BackupInstructions.md) for more detail instructions.**
 
 - Updated SPFx version to 1.19
