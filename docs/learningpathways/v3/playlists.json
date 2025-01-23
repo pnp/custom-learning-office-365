@@ -10,7 +10,7 @@
     "Source": "Microsoft",
     "CatId": "9bde32c3-2f0b-4201-b4a3-74cef2c8f61d",
     "Description": "Get started with Microsoft 365 in six simple steps. Sign in and get started at office.com, create and save files securely in the cloud, share files and collaborate with others in real time, work with your team in teams and channels with Microsoft teams, set up your mobile apps, and try new things.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "365-378767af-7ac3-4d68-9d0f-709b6948a76b",
@@ -33,10 +33,10 @@
     "Source": "Microsoft",
     "CatId": "9bde32c3-2f0b-4201-b4a3-74cef2c8f61d",
     "Description": "Get started with Teams with seven simple steps. Get an overview of teams and channels, learn how to get your team up and running, work in channels, upload and share files, start and pin chats, join a Teams meeting, and manage meetings.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "780da5c0-55b6-49cc-bc30-a4084d0bfcc0",
+      "b98d533f-118e-4bae-bf44-3df2470c2b12",
       "d20b058b-bed7-47e5-8335-5f897bd1a091",
       "77d55b36-b274-4fee-acbe-978ccf14c7e6",
       "3993d9e5-06b3-4654-9e8f-9d2de79d2f8e",
@@ -63,8 +63,8 @@
       "94d98315-06e7-454c-819d-d5991408bb04",
       "afe89455-43ed-47b9-af79-a82a374ba0bd",
       "37d98b29-08fb-4b8e-ab97-b129a0e9966d",
-      "062f6252-5feb-4b80-a197-d9dd383aa31c",
-      "0dd16bbf-febf-4de4-95d4-853772ea3809",
+      "b98d533f-118e-4bae-bf44-3df2470c2b12",
+      "d20b058b-bed7-47e5-8335-5f897bd1a091",
       "b99bbb59-0e61-4a57-a01e-72f95ae8b815"
     ]
   },
@@ -1246,9 +1246,9 @@
       "aa92f575-ab19-4db1-b201-d5cddf6f9052",
       "ae20005a-012d-4197-baf5-aab5bc0a66ea",
       "fc6a571a-6b06-4a2d-bda6-ef62b89a31d7",
-      "4e8f8cce-c4b3-49c6-92d8-1ae2a7ebeea2",
+      "7843f46f-a3ad-4dd9-9430-867e6362e590",
       "cb53b30d-1af3-4dc4-9678-69b6c1e640a3",
-      "a76fef68-d80d-4e30-88e6-9c85d6e4795a",
+      "920382b4-2cca-40f1-ac20-05afed2005bd",
       "d14c1dfb-42fe-4b97-8e40-24b68eb61814"
     ]
   },
@@ -1494,7 +1494,7 @@
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
-      "3ba7bca7-2b2a-4df4-8ccc-5a772eae1d83",
+      "7843f46f-a3ad-4dd9-9430-867e6362e590",
       "425d6970-6e27-47b6-bc61-4c38fff51c4f",
       "0a27994b-4d5d-4ac1-a40d-83b72edca946",
       "d3fb0e97-4afa-4919-86e8-021102ed5c2b",
@@ -1557,7 +1557,7 @@
       "4fe74e73-e12d-4c67-8cba-d06ce8e48c24",
       "2766a75b-342a-4ed9-810d-f3c0f06c3207",
       "a6041b90-0805-4140-b8ae-1ee3805908d7",
-      "99d33aaa-0743-47c6-a476-eb0a24abcb7e",
+      "77d55b36-b274-4fee-acbe-978ccf14c7e6",
       "f581aeaf-cc73-4dce-8a7b-12ecce5e7fdf",
       "d6b86155-c9a5-4c35-a009-67f74ffe0c69"
     ]
@@ -1595,7 +1595,7 @@
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
-      "d46890d8-e8bf-4642-97cd-6379b0c7dddd",
+      "3993d9e5-06b3-4654-9e8f-9d2de79d2f8e",
       "164a6fee-3705-4e5e-9b5d-3a8509386693",
       "31682332-4dba-42e5-9e3b-bf7dd178d106",
       "56eca039-312a-41b2-923d-870439901e49"
@@ -1635,10 +1635,10 @@
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
-      "6dd4a6fd-d88f-4baf-b08e-06755a680926",
+      "920382b4-2cca-40f1-ac20-05afed2005bd",
       "006f78bc-67ce-465a-af1c-483534cdb011",
       "7eb9c719-9452-4a9a-b3b6-69f48149ba1c",
-      "d3cc8fad-9655-4f2d-b8f5-197a1b3951a1",
+      "7237da86-9409-40e1-9b05-fc3eba33404c",
       "10b2e2a2-c6e7-4905-9c2d-648e26c957ea",
       "63633f7d-b713-4d66-9dd9-e50eeae43e5d",
       "37566690-8652-4eac-abed-bfe6de084828",
