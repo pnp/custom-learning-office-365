@@ -821,7 +821,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -1321,13 +1321,13 @@
   },
   {
     "Id": "5a0d2fa9-1c47-4d5a-931b-a3d81f2e336f",
-    "Title": "Move a file from OneDrive to SPO",
+    "Title": "Move a file from OneDrive to SharePoint Online",
     "Description": "",
-    "Url": "https://support.office.com/en-us/client/5a0d2fa9-1c47-4d5a-931b-a3d81f2e336f?embed=true",
+    "Url": "https://support.office.com/en-us/f1/article/5a0d2fa9-1c47-4d5a-931b-a3d81f2e336f?embed=true&themeId=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -1642,11 +1642,11 @@
     "Id": "93439db5-c08a-4a93-b3b9-9f3ecc63fcfc",
     "Title": "Create and save",
     "Description": "",
-    "Url": "https://support.office.com/en-us/client/93439db5-c08a-4a93-b3b9-9f3ecc63fcfc?embed=true",
+    "Url": "https://support.office.com/en-us/f1/article/93439db5-c08a-4a93-b3b9-9f3ecc63fcfc?embed=true&themeId=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -1752,11 +1752,11 @@
     "Id": "a6541b69-3ef6-41ba-a2bb-90c7fcf41c16",
     "Title": "Sign in to Microsoft 365",
     "Description": "",
-    "Url": "https://support.office.com/en-us/client/a6541b69-3ef6-41ba-a2bb-90c7fcf41c16?embed=true",
+    "Url": "https://support.office.com/en-us/f1/article/a6541b69-3ef6-41ba-a2bb-90c7fcf41c16?embed=true&themeId=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -1829,11 +1829,11 @@
     "Id": "b5a3ce62-bf38-45cd-aef4-328f868755fd",
     "Title": "Collaborate with others",
     "Description": "",
-    "Url": "https://support.office.com/en-us/client/b5a3ce62-bf38-45cd-aef4-328f868755fd?embed=true",
+    "Url": "https://support.office.com/en-us/f1/article/b5a3ce62-bf38-45cd-aef4-328f868755fd?embed=true&themeId=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -1877,7 +1877,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2093,11 +2093,11 @@
     "Id": "dcffcf83-2a0e-4bdd-9212-adc28e1a3c04",
     "Title": "Share a file",
     "Description": "",
-    "Url": "https://support.office.com/en-us/client/dcffcf83-2a0e-4bdd-9212-adc28e1a3c04?embed=true",
+    "Url": "https://support.office.com/en-us/f1/article/dcffcf83-2a0e-4bdd-9212-adc28e1a3c04?embed=true&themeId=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
