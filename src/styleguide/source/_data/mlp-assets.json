@@ -1877,7 +1877,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -4308,7 +4308,7 @@
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -4319,7 +4319,7 @@
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -4330,7 +4330,7 @@
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -4341,7 +4341,7 @@
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -4352,7 +4352,7 @@
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -4374,7 +4374,7 @@
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -4385,7 +4385,7 @@
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -4407,7 +4407,7 @@
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -4418,7 +4418,7 @@
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -4440,7 +4440,7 @@
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -4451,18 +4451,18 @@
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
     "Id": "6b95a532-e655-437b-afef-27bf639f3662",
     "Title": "Sync OneDrive files and folders",
     "Description": "",
-    "Url": "https://support.office.com/en-us/client/6b95a532-e655-437b-afef-27bf639f3662?embed=true",
+    "Url": "https://support.office.com/en-us/f1/article/6b95a532-e655-437b-afef-27bf639f3662?embed=true&themeId=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -4473,7 +4473,7 @@
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -4528,7 +4528,7 @@
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -4561,7 +4561,7 @@
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -4594,18 +4594,18 @@
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
     "Id": "e1f59717-2f02-494d-93c6-8ef9613e82ba",
     "Title": "Create files and folders",
     "Description": "",
-    "Url": "https://support.office.com/en-us/client/e1f59717-2f02-494d-93c6-8ef9613e82ba?embed=true",
+    "Url": "https://support.office.com/en-us/f1/article/e1f59717-2f02-494d-93c6-8ef9613e82ba?embed=true&themeId=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -4623,11 +4623,11 @@
     "Id": "ea9e13b0-d413-4b4e-894d-177d1aee0e4f",
     "Title": "What is OneDrive?",
     "Description": "",
-    "Url": "https://support.office.com/en-us/client/ea9e13b0-d413-4b4e-894d-177d1aee0e4f?embed=true",
+    "Url": "https://support.office.com/en-us/f1/article/ea9e13b0-d413-4b4e-894d-177d1aee0e4?embed=true&themeId=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
