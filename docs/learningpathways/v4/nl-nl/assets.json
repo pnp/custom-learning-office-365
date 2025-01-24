@@ -6339,11 +6339,11 @@
     "Id": "7843f46f-a3ad-4dd9-9430-867e6362e590",
     "Title": "Chats starten en vastmaken",
     "Description": "",
-    "Url": "https://support.office.com/nl-nl/client/a864b052-5e4b-4ccf-b046-2e26f40e21b5?embed=true&themeid=6",
+    "Url": "https://support.office.com/nl-nl/f1/article/a864b052-5e4b-4ccf-b046-2e26f40e21b5?embed=true&themeId=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -9595,11 +9595,11 @@
     "Id": "a864b052-5e4b-4ccf-b046-2e26f40e21b5",
     "Title": "Gesprekken starten in Teams",
     "Description": "",
-    "Url": "https://support.office.com/nl-nl/client/a864b052-5e4b-4ccf-b046-2e26f40e21b5?embed=true&themeid=6",
+    "Url": "https://support.office.com/nl-nl/f1/article/a864b052-5e4b-4ccf-b046-2e26f40e21b5?embed=true&themeId=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
