@@ -5635,11 +5635,11 @@
     "Id": "0b61f827-a776-4d15-84df-d297b841e73d",
     "Title": "Create, upload, and share files in a document library",
     "Description": "",
-    "Url": "https://support.office.com/en-us/client/0b61f827-a776-4d15-84df-d297b841e73d?embed=true&themeid=6",
+    "Url": "https://support.office.com/en-us/f1/article/0b61f827-a776-4d15-84df-d297b841e73d?embed=true&themeId=-1",
     "TechnologyId": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -5694,7 +5694,7 @@
     "TechnologyId": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -5712,11 +5712,11 @@
     "Id": "4411e38f-9bc5-4ecc-bd33-3dbe939ac84c",
     "Title": "Find and follow sites and news",
     "Description": "",
-    "Url": "https://support.office.com/en-us/client/4411e38f-9bc5-4ecc-bd33-3dbe939ac84c?embed=true&themeid=6",
+    "Url": "https://support.office.com/en-us/f1/article/4411e38f-9bc5-4ecc-bd33-3dbe939ac84c?embed=true&themeId=-1",
     "TechnologyId": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -5756,11 +5756,11 @@
     "Id": "54c8c131-59dc-475f-8e61-42d3e30cfa29",
     "Title": "Find and follow sites, news, and content",
     "Description": "",
-    "Url": "https://support.office.com/en-us/client/54c8c131-59dc-475f-8e61-42d3e30cfa29?embed=true&themeid=6",
+    "Url": "https://support.office.com/en-us/f1/article/54c8c131-59dc-475f-8e61-42d3e30cfa29?embed=true&themeId=-1",
     "TechnologyId": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -5782,7 +5782,7 @@
     "TechnologyId": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -5793,7 +5793,7 @@
     "TechnologyId": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -5809,13 +5809,13 @@
   },
   {
     "Id": "92b93131-fbef-4894-8ba2-2fdfa90c5b32",
-    "Title": "Stay connected on mobile",
+    "Title": "Stay connected with the SharePoint mobile app",
     "Description": "",
-    "Url": "https://support.office.com/en-us/client/92b93131-fbef-4894-8ba2-2fdfa90c5b32?embed=true&themeid=6",
+    "Url": "https://support.office.com/en-us/f1/article/92b93131-fbef-4894-8ba2-2fdfa90c5b32?embed=true&themeId=-1",
     "TechnologyId": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -5844,11 +5844,11 @@
     "Id": "c17b6824-cc22-478f-8757-497cc6b57121",
     "Title": "What is SharePoint?",
     "Description": "",
-    "Url": "https://support.office.com/en-us/client/c17b6824-cc22-478f-8757-497cc6b57121?embed=true&themeid=6",
+    "Url": "https://support.office.com/en-us/f1/article/c17b6824-cc22-478f-8757-497cc6b57121?embed=true&themeId=-1",
     "TechnologyId": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -5859,7 +5859,7 @@
     "TechnologyId": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -5870,7 +5870,7 @@
     "TechnologyId": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
