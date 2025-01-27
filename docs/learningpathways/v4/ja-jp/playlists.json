@@ -271,7 +271,7 @@
     "Source": "Microsoft",
     "CatId": "a7f1ca95-e0eb-4715-b846-89fc8d2afa56",
     "Description": "一緒に頑張ってください。Microsoft 365 を使用すると、誰とでも、どこでもコラボレーションできます。Microsoft 365 製品とサービスで共有、共同編集、コメント、会議する方法を説明します。",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "0849ef75-564f-450a-93e5-b27508d81c53",
@@ -363,7 +363,7 @@
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
     "Description": "ライブ イベントで多数の対象ユーザーにリーチします。Teams でライブ イベントを開始、計画、スケジュール、およびライブ イベントのスケジュールを設定する方法についてYammer。",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "0ca67c26-f365-47d0-b1fe-f2f670288927",
@@ -384,7 +384,7 @@
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
     "Description": "健康でいられるようになるセルフケアのヒントを実践して健康を維持します。食事、休憩、移動の時間を予定表でブロックします。Microsoft Teams でステータスを設定して、空き時間/取り込み中を示します。世間話や仕事に関連した会話をするための Teams チャネルを利用して他の人とつながります。Teams の通知を管理して、通知がどのように、いつ、どこに表示されるかを決定します。Windows 10 でフォーカス アシストをオンにすると、集中する必要があるときに気を散らすものを避けられます。",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "a6ff7745-0ab0-470f-8d77-5302cd94ebeb",
@@ -406,7 +406,7 @@
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
     "Description": "ソーシャル キャピタルやその他の社会的つながりの尺度は、より良い健康と仕事の満足度に関連しています。ハイブリッドな職場でつながりを維持するために、職場の場所に関係なく、Teams 会議とチャットを使用してソーシャル チャネルを作成し、少人数グループの昼食、交流の時間、オフィスの \"給湯室\" に似せたその他のくつろぎの空間をホストする方法について説明します。定期的にスケジュールされた 1 対 1 の時間を維持し、1 つの 1 対 1 の会議を 1 週間以内で 2 つの短い会議に分割することを検討してください。Teams のチャネルの会話も、常にチーム全体に情報を行き渡らせておくための優れた方法です。",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "8b6e7a53-d2a9-49bc-98a8-74b82c95dd07",
@@ -425,7 +425,7 @@
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
     "Description": "生産性を高めるために、物理的および仮想ワークスペースを設定します。事前にスケジュールを計画できるように、ハイブリッド作業または対面作業に適したタスクと会議の種類について説明します。Teams でフォーカス時間を作成して、通知オフ時間と通知オフ日を設定し、Teams でステータスメッセージを設定します。チームの生産性を高めるために、対面式の会議に最適な日と、リモートで実行できる作業の種類を決定します。また、会議 (対面またはリモート) が必要な場合と、オプションである場合を決定します。",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "47473ffc-75e5-4c71-959d-39c60f25d75e",
@@ -530,7 +530,7 @@
     "Source": "Microsoft",
     "CatId": "51a0828d-1d27-4931-b547-9f2a698f33d8",
     "Description": "サイバーセキュリティの基礎を使用して、サイバーセキュリティと多要素認証、Windows セキュリティのファイアウォールとネットワーク保護、過剰共有の危険性、改ざん防止による変更を防ぐためにデバイスをセキュリティで保護する方法について学習します。",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "252ec429-8fb8-4c44-9e56-89f3fb0490ac",
@@ -550,7 +550,7 @@
     "Source": "Microsoft",
     "CatId": "51a0828d-1d27-4931-b547-9f2a698f33d8",
     "Description": "このデジタル セーフティ モジュールを使用してデータを安全に保つヒントを得る。自宅での作業をより安全に行い、OneDrive で共同作業を行い、ワイヤレス接続を使用して安全に作業し、家族をオンラインで保護する方法についてWindows セキュリティ。",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "9854471f-834b-4a9a-9447-102895925ade",
@@ -569,7 +569,7 @@
     "Source": "Microsoft",
     "CatId": "51a0828d-1d27-4931-b547-9f2a698f33d8",
     "Description": "このデジタル セーフティ モジュールを使用して、データを安全に保つためのヒントを入手してください。自宅でより安全に作業する方法、OneDrive で共同作業する方法、ワイヤレス接続を介してより安全になる方法、および Windows セキュリティを使用してオンラインで家族を保護する方法を学びます。",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "9b20011b-650e-4cc9-974f-fdae573eeb17",
@@ -589,12 +589,12 @@
     "Source": "Microsoft",
     "CatId": "9eb8fc25-dd5b-4459-81e9-ae382aca7a78",
     "Description": "Microsoft TeamsとOffice 365、どこにいても、他のユーザーと、自分で作業を行うのに役立ちます。",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "d76f6ade-0e4e-48d5-9fc1-17480b7e041e",
       "dbf2c1f3-dbc5-45a8-9f04-2d9a7e97032f",
-      "83cbb1c1-024e-4fcd-92e6-fdc0263d0c68",
+      "b30da4eb-ddd2-44b6-943b-e6fbfc6b8dde",
       "aff8463a-540a-4441-bdf3-11d1e433488e"
     ]
   },
@@ -1047,7 +1047,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "行に自動的に番号を付け、2 つの日付の差を計算し、数式で名前を定義して使用し、1 つのセル内の 2 つ以上のセルのテキストを結合します。",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "b12e1cc5-e98a-48d0-af9c-41afd3bda3d5",
@@ -1067,7 +1067,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Excel でリンクされたデータ型を使用して、都市、食品、株式、地理などの主題に関するデータを取得する方法について説明します。また、組織が提供するデータ型は、Power BI。",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "973d28d9-c51d-4dde-83be-898ecdf3efab",
@@ -1090,7 +1090,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Excel Power Query の使用を開始して、データ変換のスキルを次のレベルに引き上げます。Web や Excel の表からデータをインポートします。ヘッダー行の設定、データ型の変換、不要な行のフィルター処理を行うことができます。データを複数の列に分割したり、クエリをマージしてテーブルを結合したりすることができます。",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "b13eed81-33fe-410d-9247-1747269c28e4",
@@ -1117,7 +1117,7 @@
     "Source": "Microsoft",
     "CatId": "4b40845d-fe5f-428f-8970-58455e5bf262",
     "Description": "情報を追跡Microsoft Lists作業を整理する方法について、このページを参照してください。リスト アプリからリストを作成する、Teams チャネルでリストを作成する、リスト アイテムを追加または編集する、リストのビューを作成または変更する、リスト ビューを編集する、リストを検索および管理する、リストまたはリスト アイテムを共有する、ビジネス情報を追跡する。",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "ee8076b6-4270-46c7-bd5d-f575b59d9474",
@@ -1141,7 +1141,7 @@
     "Source": "Microsoft",
     "CatId": "11842e4a-cc70-4367-b0e7-b4c6343adec9",
     "Description": "Microsoft Loopは、強力で柔軟なキャンバスと、自由に移動し、アプリケーション間で同期を維持するポータブル コンポーネントを組み合わせて、チームが一緒に考え、計画し、作成できるようにします。",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "9f4d8d4f-dfc6-4518-9ef6-069408c21f0c",
@@ -1323,7 +1323,7 @@
     "Source": "Microsoft",
     "CatId": "77a22995-0b6d-488c-9747-dea9a7705711",
     "Description": "お気に入りにサイトを追加する方法、設定/ツール/インターネット オプションを見つける方法、既定の検索エンジンを Microsoft Edge に変更する方法など、Microsoft Edge の使用を開始する方法を説明します。さらに、サインインし、デバイス間で Microsoft Edge を同期する方法、または Microsoft Edge のユーザー補助機能を見つける方法を説明します。",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "3f4bb0ff-58de-2188-55c0-f560b7e20bea",
@@ -1345,7 +1345,7 @@
     "Source": "Microsoft",
     "CatId": "77a22995-0b6d-488c-9747-dea9a7705711",
     "Description": "プライバシー設定の構成、追跡防止、InPrivate ブラウズ、閲覧履歴の削除、ポップアップのブロック、Cookie の削除など、Microsoft Edge が Web を閲覧する際の安全性を維持する方法の詳細をご覧ください。",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "8c923c9d-4ef2-849d-a399-4de716ecbbaf",
@@ -1367,7 +1367,7 @@
     "Source": "Microsoft",
     "CatId": "77a22995-0b6d-488c-9747-dea9a7705711",
     "Description": "ホーム ページの変更、拡張機能の追加、ダーク テーマの使用、Micrsoft Edge での他の言語の使用、テキスト サイズの増加など、Microsoft Edge をパーソナライズしてブラウザーを独自のものにする方法について説明します。",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "a531e1b8-ed54-d057-0262-cc5983a065c6",
@@ -1631,7 +1631,7 @@
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
     "Description": "Microsoft Teams で効果的な会議を管理および実行するためのヒントとベストプラクティスを学びます。Teams ミーティングに参加し、Meet Now でインスタント ミーティングを作成し、チャネルでミーティングを行い、ミーティングを表示およびスケジュールし、ミーティング中に画面または PowerPoint スライドを表示し、Teams ミーティング中に移動して、アクティビティを確認し、ミーティング中に作業を続けます。このビデオトレーニングを見て、その方法を確認してください。",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "920382b4-2cca-40f1-ac20-05afed2005bd",
@@ -1694,7 +1694,7 @@
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
     "Description": "チームのスケジュールを作成、更新、管理するために、Microsoft Teamsシフトを使用してチームスケジュールを管理する方法について学習します。マネージャーは、シフト スケジュールの作成と管理、要求の確認、承認、または拒否を行います。フロントラインワーカーは、シフトを使用してスケジュールを表示および管理し、チームとの同期を取り合えます。",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "43e3e7df-9e45-4521-bbec-e0be6c812ffb",
@@ -1713,7 +1713,7 @@
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
     "Description": "Microsoft Teams で予約すると、チームの予定とカレンダーをすべて 1 か所で追跡、管理、および整理できます。予約カレンダーを作成してチーム メンバーを追加したり、新しい予定の種類を作成したり、スタッフや出席者の対面や仮想訪問を作成および管理したりできます。",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "42d4e852-8e99-4d8f-9b70-d7fc93973cb5",
@@ -1758,7 +1758,7 @@
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
     "Description": "Office.com は、1 日の始めでも、仕事に戻る場合でも、開始する最適な場所です。",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "a544ec77-ffa8-47de-9e8d-de57a02bb5a5",
@@ -1779,7 +1779,7 @@
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
     "Description": "Outlook on the webを使用すると、メール、予定表、連絡先を簡単に操作できます。使用する便利な機能の一部を次に示します。メッセージを送信し、ファイルを共有して他のユーザーと共同作業を行います。",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "cdc69020-376d-4e05-bbe6-2457ad9be8e9",
@@ -1802,7 +1802,7 @@
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
     "Description": "このWord for the web、ドキュメントの作成、テキスト、画像、アートの追加、ファイルの共有を行って、場所に関係なく他のユーザーと作業できます。",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "a213fd6b-a510-47f3-b39f-b9795f35b5f4",
@@ -1823,7 +1823,7 @@
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
     "Description": "Excel for the webは、ほぼすべての場所からExcelデバイス上のデータの電源を提供します。",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "4d39f76b-ee15-4029-8a4c-fa7d14f0c80f",
@@ -1846,7 +1846,7 @@
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
     "Description": "PowerPoint for the webでは、ほぼすべての場所から、任意のデバイスでプレゼンテーションを作成、編集、プレゼンテーションできます。",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "3950c751-2292-47c0-966b-912a2b289b96",
@@ -1868,7 +1868,7 @@
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
     "Description": "ドキュメントの共有は、Office 365どこにいても簡単に行います。",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "39d8fb04-8063-482f-93e3-2fc4f6f421a9",
@@ -2771,7 +2771,7 @@
     "Source": "Microsoft",
     "CatId": "6682f5e0-9f2a-4cd3-9ada-d404b8d34761",
     "Description": "Microsoft Viva Connectionsは、毎日の従業員のタスクを完了し、会社のニュースに接続し続け、リソースにアクセスできるようにする、パーソナライズされた実用的なホーム ベースを提供します。すべてチームワークのためにハブを離れることなく。",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "8b4e7f76-f305-49a9-b6d2-09378476f95b",
@@ -2790,7 +2790,7 @@
     "Source": "Microsoft",
     "CatId": "5a46b888-8b65-40aa-8644-c77cd487de13",
     "Description": "Building on Yammer, Viva Engage brings together leaders and coworkers across your organization, enabling them to answer each other's questions, share their unique stories, and create belonging at work, combining its communities, conversations, and personalized discovery with new capabilities for self-expression and sharing through storyline and stories.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "729f9fce-3aa6-4478-888c-a1543918c284"
@@ -2807,7 +2807,7 @@
     "Source": "Microsoft",
     "CatId": "5a46b888-8b65-40aa-8644-c77cd487de13",
     "Description": "Communities in Viva Engage provide a central place for your conversations, files, events, and updates. When you create a community, you automatically become an owner of that community.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "1ee29da1-5250-4c1e-b773-e7a78cfaf5d4",
@@ -2825,7 +2825,7 @@
     "Source": "Microsoft",
     "CatId": "5a46b888-8b65-40aa-8644-c77cd487de13",
     "Description": "Start the conversation or join the ones around you through storyline in Viva Engage. Your storyline is where you share experiences, celebrate milestones, propose ideas, and discuss your interests both inside and outside of the workplace.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "cba3c38e-77c6-4ee6-9d5d-6c20522b1fa0",
@@ -2845,7 +2845,7 @@
     "Source": "Microsoft",
     "CatId": "5a46b888-8b65-40aa-8644-c77cd487de13",
     "Description": "Leadership corner in Viva Engage is a place to get to know your leaders and stay in the know. Catch up on the latest content your leaders are posting, discover the communities they've joined, and attend their AMAs to ask them questions directly. Leadership corner gives you the tools you need to learn about your leaders and build lasting connections with them.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "2885e8d8-cb6c-4c11-b9aa-ed24a497b467",
@@ -2865,7 +2865,7 @@
     "Source": "Microsoft",
     "CatId": "5a46b888-8b65-40aa-8644-c77cd487de13",
     "Description": "Answers in Viva is a new experience for people in large organizations to learn from each other by asking and answering questions. Answers is a conversational experience for asking questions and connecting employees to crowdsourced answers.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "e6331234-e044-4009-a0c8-7c519a2cf668",
@@ -2891,7 +2891,7 @@
     "Source": "Microsoft",
     "CatId": "5a46b888-8b65-40aa-8644-c77cd487de13",
     "Description": "Campaigns in Viva Engage are a way for you to get involved, share your voice, and build your community. You can participate in campaigns from anywhere in Viva Engage by posting with the verified campaign hashtag.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "d7b05128-f80b-4c16-b561-3ddce518eb14",
@@ -2911,7 +2911,7 @@
     "Source": "Microsoft",
     "CatId": "5a46b888-8b65-40aa-8644-c77cd487de13",
     "Description": "Analytics in Viva Engage help you understand how your content performs and how to improve engagement in the future. View your analytics dashboard by selecting the analytics icon from the top navigation of Viva Engage.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "0d9f6fd5-6b0c-45a2-a0aa-0576ae1f6895"
@@ -2928,7 +2928,7 @@
     "Source": "Microsoft",
     "CatId": "5a46b888-8b65-40aa-8644-c77cd487de13",
     "Description": "As you'll notice, the Yammer app you love is now called Viva Engage and has all the features you need to keep you connected to your colleagues. To get started, go to your mobile device's app store and download Viva Engage.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "fc2b05a7-bb79-49e0-be9f-9e63c5a35222",
@@ -2972,7 +2972,7 @@
     "Source": "Microsoft",
     "CatId": "fa2b8bc0-3316-4102-a5a0-d71610d49d2a",
     "Description": "Viva Learningは、チームと個人が 1 日の自然な部分を学習できるように、組織全体のコンテンツ ライブラリを共有、推奨、学習できる、Teams で学習するための中心的なハブを作成します。 これには、LinkedIn Learning、Microsoft Learn、Microsoft 365 Training、サード パーティのコンテンツ プロバイダーと学習管理システムからのコンテンツ ライブラリへのアクセスや、会社がViva Learningに追加するコンテンツへのアクセスが含まれます。",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "01bfed12-c327-41e0-a68f-7fa527dcc98a",

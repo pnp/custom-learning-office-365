@@ -271,7 +271,7 @@
     "Source": "Microsoft",
     "CatId": "a7f1ca95-e0eb-4715-b846-89fc8d2afa56",
     "Description": "Do your best work together. With Microsoft 365, you can collaborate with anyone, anywhere. Learn how to share, co-author, comment, and meet with Microsoft 365 products and services.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "0849ef75-564f-450a-93e5-b27508d81c53",
@@ -363,7 +363,7 @@
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
     "Description": "Reach large audiences with live events. Learn how to get started, plan and schedule a live event in Teams, and schedule a live event in Yammer.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "0ca67c26-f365-47d0-b1fe-f2f670288927",
@@ -384,7 +384,7 @@
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
     "Description": "Stay well by practicing self-care tips for your personal well-being. Block your calendar for meals, breaks, and movement. Set your status in Microsoft Teams to indicate free or busy times. Connect with others in a Teams channel for social or work-related conversations. Manage notifications in Teams to determine how, when, and where your notifications appear. Turn on Focus assist in Windows 10 to avoid distractions when you need to focus.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "a6ff7745-0ab0-470f-8d77-5302cd94ebeb",
@@ -406,7 +406,7 @@
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
     "Description": "Social capital and other measures of social connection are associated with better health and job satisfaction. To stay connected in a hybrid workplace, learn how to create social channels using Teams meetings and chat to host small group lunches, social hours, and other casual spaces that can mimic the “water cooler” in the office regardless of work location. Keep regularly scheduled 1:1s and consider splitting one 1:1 meeting into 2 shorter meetings throughout the week. Channel conversations in Teams are also a great way to keep the whole team in the know.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "8b6e7a53-d2a9-49bc-98a8-74b82c95dd07",
@@ -425,7 +425,7 @@
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
     "Description": "Set up your physical and virtual workspace for productivity. Learn which tasks and meeting types are better for hybrid work or in-person work so that you can plan your schedule ahead of time. Create focus time in Teams, set quiet hours and quiet days, and set a status message in Teams. For team productivity, decide which days are best for in-person meetings and what type of work can be done remotely. Also decide when meetings (in person or remote) are necessary and when are they optional.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "47473ffc-75e5-4c71-959d-39c60f25d75e",
@@ -530,7 +530,7 @@
     "Source": "Microsoft",
     "CatId": "51a0828d-1d27-4931-b547-9f2a698f33d8",
     "Description": "With cybersecurity fundamentals, learn what cybersecurity and multi-factor authentication are, firewall and network protection in Windows security, the dangers of oversharing, and how to secure your device to prevent changes security with Tamper Protection.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "252ec429-8fb8-4c44-9e56-89f3fb0490ac",
@@ -550,7 +550,7 @@
     "Source": "Microsoft",
     "CatId": "51a0828d-1d27-4931-b547-9f2a698f33d8",
     "Description": "Get tips to keep your data safe with this digital safety module. Learn how to work from home more securely, collaborate in OneDrive, be safer over wireless connections, and protect your family online with Windows Security.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "9854471f-834b-4a9a-9447-102895925ade",
@@ -569,7 +569,7 @@
     "Source": "Microsoft",
     "CatId": "51a0828d-1d27-4931-b547-9f2a698f33d8",
     "Description": "Get tips to keep your data safe with this digital safety module. Learn how to work from home more securely, collaborate in OneDrive, be safer over wireless connections, and protect your family online with Windows Security.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "9b20011b-650e-4cc9-974f-fdae573eeb17",
@@ -589,12 +589,12 @@
     "Source": "Microsoft",
     "CatId": "9eb8fc25-dd5b-4459-81e9-ae382aca7a78",
     "Description": "Microsoft Teams and Office 365 help you get work done—with others and on your own—wherever you are today.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "d76f6ade-0e4e-48d5-9fc1-17480b7e041e",
       "dbf2c1f3-dbc5-45a8-9f04-2d9a7e97032f",
-      "83cbb1c1-024e-4fcd-92e6-fdc0263d0c68",
+      "b30da4eb-ddd2-44b6-943b-e6fbfc6b8dde",
       "aff8463a-540a-4441-bdf3-11d1e433488e"
     ]
   },
@@ -1047,7 +1047,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Automatically number rows, calculate the difference between two dates, define and use names in formulas, and combine text from two or more cells in one cell.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "b12e1cc5-e98a-48d0-af9c-41afd3bda3d5",
@@ -1067,7 +1067,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Learn how to use linked data types in Excel to get data on subjects like cities, foods, stocks, geography, and more. You can also get data types provided by your organization through Power BI.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "7e57b140-159f-457a-8ee6-5276bbaf395a",
@@ -1086,7 +1086,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Get started with Excel Power Query and take your data transformation skills to the next level. Import data from the web or an Excel table. Set up a header row, convert a data type, or filter unnecessary rows. Split data into multiple columns or merge queries and join tables.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "b13eed81-33fe-410d-9247-1747269c28e4",
@@ -1113,7 +1113,7 @@
     "Source": "Microsoft",
     "CatId": "4b40845d-fe5f-428f-8970-58455e5bf262",
     "Description": "Get started with Microsoft Lists to track information and organize work. Create a list from the Lists app, create a list in a Teams channel, add or edit list items, create or change the view of a list, edit a list view, find and manage your lists, share a list or list item, and track business information.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "ee8076b6-4270-46c7-bd5d-f575b59d9474",
@@ -1137,7 +1137,7 @@
     "Source": "Microsoft",
     "CatId": "11842e4a-cc70-4367-b0e7-b4c6343adec9",
     "Description": "Microsoft Loop combines a powerful and flexible canvas with portable components that move freely and stay in sync across applications — enabling teams to think, plan, and create together.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "9f4d8d4f-dfc6-4518-9ef6-069408c21f0c",
@@ -1319,7 +1319,7 @@
     "Source": "Microsoft",
     "CatId": "77a22995-0b6d-488c-9747-dea9a7705711",
     "Description": "Learn how to get started with Microsoft Edge, including how to add a site to your favorites, how to find the settings/tools/internet options, or how to change your default search engine to Microsoft Edge. In addition, learn how to sign in to sync Microsoft Edge across devices or how to discover the accessibility features in Microsoft Edge.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "3f4bb0ff-58de-2188-55c0-f560b7e20bea",
@@ -1341,7 +1341,7 @@
     "Source": "Microsoft",
     "CatId": "77a22995-0b6d-488c-9747-dea9a7705711",
     "Description": "Learn more about how Microsoft Edge helps keep you safe when you browse the web, including configuring privacy settings, tracking prevention, InPrivate browsing, deleting browser history, blocking popups and deleting cookies.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "8c923c9d-4ef2-849d-a399-4de716ecbbaf",
@@ -1363,7 +1363,7 @@
     "Source": "Microsoft",
     "CatId": "77a22995-0b6d-488c-9747-dea9a7705711",
     "Description": "Learn how to personalize Microsoft Edge and make the browser your own, including changing your home page, adding extensions, using the dark theme, using other languages in Microsoft Edge, and increasing the text size.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "a531e1b8-ed54-d057-0262-cc5983a065c6",
@@ -1631,7 +1631,7 @@
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
     "Description": "Learn tips and best practices to manage and run effective meetings in Microsoft Teams. Join a Teams meeting, create instant meetings with Meet Now, meet in a channel, view and schedule meetings, show your screen or PowerPoint slides during a meeting, and move around during a Teams meeting to check activity and keep working during a meeting. Watch this video training to see how.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "920382b4-2cca-40f1-ac20-05afed2005bd",
@@ -1694,7 +1694,7 @@
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
     "Description": "Learn how to manage team schedules with Shifts in Microsoft Teams to create, update, and manage schedules for your team. Managers can create and manage shift schedules, and review, approve, or deny requests. Frontline workers can use Shifts to view and manage their schedule and stay in sync with their team.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "43e3e7df-9e45-4521-bbec-e0be6c812ffb",
@@ -1713,7 +1713,7 @@
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
     "Description": "Bookings in Microsoft Teams lets you track, manage, and organize your team's appointments and calendars all in one place. You can create a Bookings calendar and add team members to it, build new appointment types, and create and manage in-person and virtual visits for your staff and attendees.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "42d4e852-8e99-4d8f-9b70-d7fc93973cb5",
@@ -1760,7 +1760,7 @@
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
     "Description": "Office.com is the best place to start, whether it's the start of the day or you're getting back to your work.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "a544ec77-ffa8-47de-9e8d-de57a02bb5a5",
@@ -1781,7 +1781,7 @@
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
     "Description": "Outlook on the web makes it simple to keep your email, calendar, and contacts right at your fingertips. Here are a few of the great features to use. Send messages and share files to collaborate with others.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "cdc69020-376d-4e05-bbe6-2457ad9be8e9",
@@ -1804,7 +1804,7 @@
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
     "Description": "With Word for the web, create documents, add text, images, and art, and share your file to work with others — no matter where you are.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "a213fd6b-a510-47f3-b39f-b9795f35b5f4",
@@ -1825,7 +1825,7 @@
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
     "Description": "Excel for the web gives you the power of Excel on any device, from almost anywhere.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "4d39f76b-ee15-4029-8a4c-fa7d14f0c80f",
@@ -1848,7 +1848,7 @@
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
     "Description": "PowerPoint for the web gives you the ability to create, edit, and present presentations on any device, from almost anywhere.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "3950c751-2292-47c0-966b-912a2b289b96",
@@ -1870,7 +1870,7 @@
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
     "Description": "Wherever you're working in Office 365, it's simple to share your documents.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "39d8fb04-8063-482f-93e3-2fc4f6f421a9",
@@ -2773,7 +2773,7 @@
     "Source": "Microsoft",
     "CatId": "6682f5e0-9f2a-4cd3-9ada-d404b8d34761",
     "Description": "Microsoft Viva Connections provides a personalized and actionable home base that allows you to complete daily employee tasks, stay connected to company news, and access resources—all without leaving your hub for teamwork.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "8b4e7f76-f305-49a9-b6d2-09378476f95b",
@@ -2792,7 +2792,7 @@
     "Source": "Microsoft",
     "CatId": "5a46b888-8b65-40aa-8644-c77cd487de13",
     "Description": "Building on Yammer, Viva Engage brings together leaders and coworkers across your organization, enabling them to answer each other's questions, share their unique stories, and create belonging at work, combining its communities, conversations, and personalized discovery with new capabilities for self-expression and sharing through storyline and stories.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "729f9fce-3aa6-4478-888c-a1543918c284"
@@ -2809,7 +2809,7 @@
     "Source": "Microsoft",
     "CatId": "5a46b888-8b65-40aa-8644-c77cd487de13",
     "Description": "Communities in Viva Engage provide a central place for your conversations, files, events, and updates. When you create a community, you automatically become an owner of that community.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "1ee29da1-5250-4c1e-b773-e7a78cfaf5d4",
@@ -2827,7 +2827,7 @@
     "Source": "Microsoft",
     "CatId": "5a46b888-8b65-40aa-8644-c77cd487de13",
     "Description": "Start the conversation or join the ones around you through storyline in Viva Engage. Your storyline is where you share experiences, celebrate milestones, propose ideas, and discuss your interests both inside and outside of the workplace.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "cba3c38e-77c6-4ee6-9d5d-6c20522b1fa0",
@@ -2847,7 +2847,7 @@
     "Source": "Microsoft",
     "CatId": "5a46b888-8b65-40aa-8644-c77cd487de13",
     "Description": "Leadership corner in Viva Engage is a place to get to know your leaders and stay in the know. Catch up on the latest content your leaders are posting, discover the communities they've joined, and attend their AMAs to ask them questions directly. Leadership corner gives you the tools you need to learn about your leaders and build lasting connections with them.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "2885e8d8-cb6c-4c11-b9aa-ed24a497b467",
@@ -2867,7 +2867,7 @@
     "Source": "Microsoft",
     "CatId": "5a46b888-8b65-40aa-8644-c77cd487de13",
     "Description": "Answers in Viva is a new experience for people in large organizations to learn from each other by asking and answering questions. Answers is a conversational experience for asking questions and connecting employees to crowdsourced answers.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "e6331234-e044-4009-a0c8-7c519a2cf668",
@@ -2893,7 +2893,7 @@
     "Source": "Microsoft",
     "CatId": "5a46b888-8b65-40aa-8644-c77cd487de13",
     "Description": "Campaigns in Viva Engage are a way for you to get involved, share your voice, and build your community. You can participate in campaigns from anywhere in Viva Engage by posting with the verified campaign hashtag.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "d7b05128-f80b-4c16-b561-3ddce518eb14",
@@ -2913,7 +2913,7 @@
     "Source": "Microsoft",
     "CatId": "5a46b888-8b65-40aa-8644-c77cd487de13",
     "Description": "Analytics in Viva Engage help you understand how your content performs and how to improve engagement in the future. View your analytics dashboard by selecting the analytics icon from the top navigation of Viva Engage.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "0d9f6fd5-6b0c-45a2-a0aa-0576ae1f6895"
@@ -2930,7 +2930,7 @@
     "Source": "Microsoft",
     "CatId": "5a46b888-8b65-40aa-8644-c77cd487de13",
     "Description": "As you'll notice, the Yammer app you love is now called Viva Engage and has all the features you need to keep you connected to your colleagues. To get started, go to your mobile device's app store and download Viva Engage.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "fc2b05a7-bb79-49e0-be9f-9e63c5a35222",
@@ -2974,7 +2974,7 @@
     "Source": "Microsoft",
     "CatId": "fa2b8bc0-3316-4102-a5a0-d71610d49d2a",
     "Description": "Viva Learning creates a central hub for learning in Teams where people can share, recommend, and learn from content libraries across an organization to empower teams and individuals to make learning a natural part of their day. This includes access to content libraries from LinkedIn Learning, Microsoft Learn, Microsoft 365 Training, and third-party content providers and learning management systems, as well as content your company adds to Viva Learning.",
-    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "01bfed12-c327-41e0-a68f-7fa527dcc98a",
