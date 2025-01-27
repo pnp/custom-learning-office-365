@@ -37,12 +37,12 @@
     "StatusNote": "",
     "Assets": [
       "b98d533f-118e-4bae-bf44-3df2470c2b12",
-      "d20b058b-bed7-47e5-8335-5f897bd1a091",
+      "702a2977-e662-4038-bef5-bdf8ee47b17b",
       "77d55b36-b274-4fee-acbe-978ccf14c7e6",
       "3993d9e5-06b3-4654-9e8f-9d2de79d2f8e",
       "a864b052-5e4b-4ccf-b046-2e26f40e21b5",
       "920382b4-2cca-40f1-ac20-05afed2005bd",
-      "7237da86-9409-40e1-9b05-fc3eba33404c"
+      "919b4bd2-6c85-4792-bf60-57258cabe71d"
     ]
   },
   {
@@ -64,7 +64,7 @@
       "afe89455-43ed-47b9-af79-a82a374ba0bd",
       "37d98b29-08fb-4b8e-ab97-b129a0e9966d",
       "b98d533f-118e-4bae-bf44-3df2470c2b12",
-      "d20b058b-bed7-47e5-8335-5f897bd1a091",
+      "702a2977-e662-4038-bef5-bdf8ee47b17b",
       "b99bbb59-0e61-4a57-a01e-72f95ae8b815"
     ]
   },
@@ -468,10 +468,10 @@
     "Source": "Microsoft",
     "CatId": "9030ff2c-5549-4ffe-8dc9-4dc184241dec",
     "Description": "Verwenden Sie Microsoft 365 in Ihrem gesamten Team, um Teams zu erstellen und zu organisieren, Teamunterhaltungen zu optimieren, in Microsoft Teams zusammenzuarbeiten, Besprechungen zu verwalten und an Dateien zusammenzuarbeiten.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "51a6abf0-6f5b-4092-9872-5b517c5a8bd8",
+      "702a2977-e662-4038-bef5-bdf8ee47b17b",
       "21df0985-20fe-4d1e-a032-4b0837f3bdac",
       "c6385f9c-cf80-4eba-84da-645994e56ebb",
       "919b4bd2-6c85-4792-bf60-57258cabe71d",
@@ -1637,7 +1637,7 @@
       "920382b4-2cca-40f1-ac20-05afed2005bd",
       "006f78bc-67ce-465a-af1c-483534cdb011",
       "7eb9c719-9452-4a9a-b3b6-69f48149ba1c",
-      "7237da86-9409-40e1-9b05-fc3eba33404c",
+      "919b4bd2-6c85-4792-bf60-57258cabe71d",
       "10b2e2a2-c6e7-4905-9c2d-648e26c957ea",
       "63633f7d-b713-4d66-9dd9-e50eeae43e5d",
       "37566690-8652-4eac-abed-bfe6de084828",

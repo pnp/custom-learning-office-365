@@ -53,7 +53,7 @@ To test the analytics you can create a Cloud Flow using PowerAutomate.
             "Id": "dbf90b66-4789-40d0-a383-0beb3773a333",
             "Title": "Get started building a Champion program",
             "Description": "",
-            "Url": "<https://support.office.com/en-us/client/8ac0c945-ee18-477b-86dd-bf43357a5c2a?embed=true>",
+            "Url": "<https://support.office.com/en-us/f1/article/8ac0c945-ee18-477b-86dd-bf43357a5c2a?embed=true>",
             "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
             "SubjectId": "",
             "Source": "Microsoft",
