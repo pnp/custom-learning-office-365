@@ -488,12 +488,12 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9030ff2c-5549-4ffe-8dc9-4dc184241dec",
-    "Description": "Utilisez Microsoft 365 dans votre organisation pour configurer le réseau de votre entreprise dans Yammer, la base de votre entreprise à SharePoint et le portail vidéo de votre entreprise dans Microsoft Stream.",
-    "StatusTagId": "",
+    "Description": "Utilisez Microsoft 365 dans votre organisation pour configurer le réseau de votre entreprise dans Viva Engage, la base de votre entreprise à SharePoint et le portail vidéo de votre entreprise dans Microsoft Stream.",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "f24fad2b-1455-4f3c-9e17-d843a6936f70",
-      "5a3f5f60-4cc8-4bf8-bd41-d99c4c297589",
+      "729f9fce-3aa6-4478-888c-a1543918c284",
+      "c17b6824-cc22-478f-8757-497cc6b57121",
       "baf5345c-fee6-4900-ba44-1f53a1dbfeb9"
     ]
   },
