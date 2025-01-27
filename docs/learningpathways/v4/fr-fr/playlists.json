@@ -530,7 +530,7 @@
     "Source": "Microsoft",
     "CatId": "51a0828d-1d27-4931-b547-9f2a698f33d8",
     "Description": "Dans les principes de base de la cyber-sécurité, découvrez ce que sont la cyber-sécurité et l’authentification multifacteur, le pare-feu et la protection du réseau dans Windows, les risques liés au partage à risque et comment sécuriser votre appareil pour empêcher les modifications apportées à la sécurité avec la protection contre les falsifications.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "252ec429-8fb8-4c44-9e56-89f3fb0490ac",

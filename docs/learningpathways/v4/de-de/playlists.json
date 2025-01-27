@@ -530,7 +530,7 @@
     "Source": "Microsoft",
     "CatId": "51a0828d-1d27-4931-b547-9f2a698f33d8",
     "Description": "Lernen Sie mit den Grundlagen der Internetsicherheit, was Internetsicherheit und mehrstufige Authentifizierung sind, Firewall- und Netzwerkschutz in Windows-Sicherheit, die Gefahren einer Überschüttung und wie Sie Ihr Gerät schützen, um Änderungen der Sicherheit mit Tamper Protection zu verhindern.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "252ec429-8fb8-4c44-9e56-89f3fb0490ac",
