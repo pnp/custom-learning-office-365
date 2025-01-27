@@ -5109,10 +5109,23 @@
     "Source": "Microsoft"
   },
   {
-    "Id": "afe89455-43ed-47b9-af79-a82a374ba0bd",
-    "Title": "Start chats and make calls",
+    "Id": "88f61508-284d-417f-a53d-9e082164050b",
+    "Title": "Use commands in Microsoft Teams",
     "Description": "",
-    "Url": "https://support.office.com/en-us/client/afe89455-43ed-47b9-af79-a82a374ba0bd?embed=true&ns=trainingservices&version=1",
+    "Url": "https://support.office.com/en-us/f1/article/88f61508-284d-417f-a53d-9e082164050b?embed=true&themeId=-1",
+    "Level": "Beginner",
+    "Audience": "End Users",
+    "Technology": "Microsoft Teams",
+    "Subject": "",
+    "Category": "Get Started Playlists",
+    "SubCategory": "Recommended",
+    "Source": "Microsoft"
+  },
+  {
+    "Id": "afe89455-43ed-47b9-af79-a82a374ba0bd",
+    "Title": "Start a call from a chat in Microsoft Teams",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/f1/article/f5138c9d-df4c-43d8-9cf6-53400c1a7798?embed=true&ns=trainingservices&version=1",
     "Level": "Beginner",
     "Audience": "End Users",
     "Technology": "Microsoft Teams",

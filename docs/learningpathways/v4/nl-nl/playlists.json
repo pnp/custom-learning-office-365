@@ -56,11 +56,11 @@
     "Source": "Microsoft",
     "CatId": "07aa7fb7-a187-4a04-a044-f881626a8cba",
     "Description": "Wanneer u als team een plek hebt om beslissingen te maken en te nemen, is er geen limiet voor wat u kunt bereiken. Meer informatie over het gebruik Teams alles samen te brengen in een gedeelde werkruimte waar u kunt chatten, vergaderen, bestanden kunt delen en kunt werken met zakelijke apps.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "77d55b36-b274-4fee-acbe-978ccf14c7e6",
-      "94d98315-06e7-454c-819d-d5991408bb04",
+      "88f61508-284d-417f-a53d-9e082164050b",
       "afe89455-43ed-47b9-af79-a82a374ba0bd",
       "37d98b29-08fb-4b8e-ab97-b129a0e9966d",
       "b98d533f-118e-4bae-bf44-3df2470c2b12",
@@ -1535,7 +1535,7 @@
     "StatusNote": "",
     "Assets": [
       "089ff1b2-6cd7-4e86-ab50-a4390b4bcb21",
-      "13c4e429-7324-4886-b377-5dbed539193b"
+      "88f61508-284d-417f-a53d-9e082164050b"
     ]
   },
   {
