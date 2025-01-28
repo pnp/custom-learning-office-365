@@ -3560,7 +3560,7 @@
     "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -3571,7 +3571,18 @@
     "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusNote": ""
+  },
+  {
+    "Id": "27900fbb-f156-43bd-a341-49d96757055a",
+    "Title": "Voortgang bijhouden in Viva Learning",
+    "Description": "",
+    "Url": "https://support.office.com/nl-nl/f1/article/27900fbb-f156-43bd-a341-49d96757055a?embed=true&themeid=-1",
+    "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -3582,7 +3593,7 @@
     "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -3593,7 +3604,7 @@
     "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -3604,7 +3615,18 @@
     "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusNote": ""
+  },
+  {
+    "Id": "7afe4d23-8f3e-4778-994d-086b53b051cf",
+    "Title": "Inhoud aanbevelen en beheren in Viva Learning",
+    "Description": "",
+    "Url": "https://support.office.com/nl-nl/f1/article/77f9dcbf-41a8-4b19-b4d1-b99c406f37b8?embed=true&themeid=-1",
+    "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -3615,7 +3637,18 @@
     "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusNote": ""
+  },
+  {
+    "Id": "bedca078-ab48-4c5a-9a21-eff66e235f7b",
+    "Title": "Actie ondernemen op toegewezen en aanbevolen inhoud in Viva Learning",
+    "Description": "",
+    "Url": "https://support.office.com/nl-nl/f1/article/bedca078-ab48-4c5a-9a21-eff66e235f7b?embed=true&themeid=-1",
+    "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -3626,7 +3659,7 @@
     "TechnologyId": "56427b7a-eb5b-4991-b152-4b695bffd6d9",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
