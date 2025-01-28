@@ -1631,11 +1631,11 @@
     "Id": "93123baa-08fc-408d-af15-a6a87e7b545f",
     "Title": "Collaborate",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/54db9080-d29f-40d1-9f15-fb6c45952e8f?embed=true",
+    "Url": "https://support.office.com/en-us/f1/article/54db9080-d29f-40d1-9f15-fb6c45952e8f?embed=true&themeid=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -9478,7 +9478,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -9610,7 +9610,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -10039,7 +10039,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {

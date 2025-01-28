@@ -550,11 +550,11 @@
     "Source": "Microsoft",
     "CatId": "51a0828d-1d27-4931-b547-9f2a698f33d8",
     "Description": "Obter dicas para manter seus dados seguros com este módulo de segurança digital. Saiba como trabalhar em casa com mais segurança, colaborar no OneDrive, estar mais seguro sobre conexões sem fio e proteger sua família online com Segurança do Windows.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "9854471f-834b-4a9a-9447-102895925ade",
-      "7f5ff126-4f76-4628-90ec-4ed1e88ef365",
+      "93123baa-08fc-408d-af15-a6a87e7b545f",
       "cf0c38c9-168e-47e7-98ea-e2ebf2c31c92"
     ]
   },
