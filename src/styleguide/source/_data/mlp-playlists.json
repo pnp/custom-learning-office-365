@@ -3287,7 +3287,7 @@
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
     "Description": "Discover what's new/what's changed for the latest update of Microsoft 365 learning pathways",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": "",
     "Assets": [
       "ac343dbd-1ffb-4235-a34f-5b71be6dc9ee",
@@ -3305,7 +3305,7 @@
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
     "Description": "Review Learning Pathways content and content types. Decide what works for your organization.",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": "",
     "Assets": [
       "c828dfeb-1fd1-4c39-a3c6-cf8df3669693",
@@ -3323,7 +3323,7 @@
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
     "Description": "Learn how to customize the Learning Pathways site, how to hide and show content, and how to build custom playlists.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "772b884b-e39a-47c7-9fa1-b15763b94a0d",
@@ -3347,7 +3347,7 @@
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
     "Description": "Discover resources and best practices for driving adoption of Learning Pathways",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "3a7eb2bf-d540-4558-b716-2bdb005ff325"
@@ -3364,7 +3364,7 @@
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
     "Description": "Administrators should leverage SharePoint’s built-in site usage reporting capabilities to measure organizational impact of the Microsoft 365 learning pathways.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "9aef3bef-66d8-416c-8284-599cba190245"

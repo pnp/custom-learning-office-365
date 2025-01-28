@@ -3280,7 +3280,7 @@
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
     "Description": "Ontdek wat er nieuw is/wat er is gewijzigd voor de nieuwste update van Microsoft 365 leerpaden",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": "",
     "Assets": [
       "ac343dbd-1ffb-4235-a34f-5b71be6dc9ee",
@@ -3298,7 +3298,7 @@
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
     "Description": "Bekijk Learning Pathways-inhouds- en inhoudstypen. Bepaal wat werkt voor uw organisatie.",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": "",
     "Assets": [
       "c828dfeb-1fd1-4c39-a3c6-cf8df3669693",
@@ -3316,7 +3316,7 @@
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
     "Description": "Lees hoe u de site Learning pathways kunt aanpassen, hoe u inhoud kunt verbergen en weergeven en hoe u aangepaste afspeellijsten kunt maken.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "772b884b-e39a-47c7-9fa1-b15763b94a0d",
@@ -3340,7 +3340,7 @@
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
     "Description": "Informatiebronnen en best practices ontdekken voor het stimuleren van acceptatie van Learning Pathways",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "3a7eb2bf-d540-4558-b716-2bdb005ff325"
@@ -3357,7 +3357,7 @@
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
     "Description": "Beheerders moeten gebruikmaken SharePoint de ingebouwde rapportagemogelijkheden voor sitegebruik om de impact van de Microsoft 365 leerpaden te meten.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "9aef3bef-66d8-416c-8284-599cba190245"

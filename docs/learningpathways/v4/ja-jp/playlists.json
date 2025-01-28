@@ -3280,7 +3280,7 @@
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
     "Description": "学習経路の最新の更新プログラムの新機能/変更Microsoft 365確認する",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": "",
     "Assets": [
       "ac343dbd-1ffb-4235-a34f-5b71be6dc9ee",
@@ -3298,7 +3298,7 @@
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
     "Description": "[パスラーニングコンテンツとコンテンツ タイプ] を確認します。組織に対して機能する機能を決定します。",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": "",
     "Assets": [
       "c828dfeb-1fd1-4c39-a3c6-cf8df3669693",
@@ -3316,7 +3316,7 @@
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
     "Description": "ラーニングのサイトをカスタマイズする方法、コンテンツを非表示および表示する方法、カスタムプレイリストを作成する方法について説明します。",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "772b884b-e39a-47c7-9fa1-b15763b94a0d",
@@ -3340,7 +3340,7 @@
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
     "Description": "ラーニング Pathways の導入を促進するためのリソースとベスト プラクティスを発見する",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "3a7eb2bf-d540-4558-b716-2bdb005ff325"
@@ -3357,7 +3357,7 @@
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
     "Description": "管理者は、SharePointの組み込みのサイト使用状況レポート機能を利用して、学習経路の組織への影響Microsoft 365する必要があります。",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "9aef3bef-66d8-416c-8284-599cba190245"
