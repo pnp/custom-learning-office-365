@@ -318,7 +318,7 @@
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
     "Description": "包括的な会議環境の作成、会議や関連コンテンツへのアクセスを可能にする方法、会議の集中を制限する方法、タイム ゾーンをまたがる共感を構築する方法について学習します。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "1a583551-1f93-4d71-bac1-5881d5f8b1e7",
@@ -338,7 +338,7 @@
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
     "Description": "会議を減らす方法や、会議を非同期の共同作業や共同編集に置き換える方法について説明します。Microsoft 365 での共同作業、Office アプリ、Teams、OneDrive、SharePoint での共有ファイルの共同編集に関するベスト プラクティスについて説明し、一般的な共同編集エラーのトラブルシューティングを行います。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "1311f213-f56b-4c15-b496-5ecff888cd66",
@@ -840,7 +840,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "この Excel 入門コースでは、ブックの作成、ワークシートの挿入または削除、ワークシートの移動、コピー、印刷、Excel の電卓としての使用、データの自動入力、ドロップダウン リストの作成などの方法を学びます。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "82e9eab2-2e4e-463a-baa5-669b6c8ac543",
@@ -863,7 +863,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Excel の行と列を使用してデータを整理しましょう。行と列の挿入または削除、Excel でのコンテンツの選択、行と列をロックするためのウィンドウのフリーズ、行または列の非表示または表示、一意の値のフィルタリングまたは重複値の削除、テキストの異なる列への分割、および連続した日付のリストの作成方法について説明します",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "6f40e6e4-85af-45e0-b39d-65dd504a3246",
@@ -908,7 +908,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "時間を節約し、ワーク シートをあなたとあなたのチームに役立たせるために、Excel でフォーマットを行う方法について説明します。数値 (通貨、パーセンテージ、日付、電話番号) の書式設定、条件付き書式の使用による視覚的な手がかりの提供、セルの書式設定の変更またはコピー、透かしの追加、ゼロ値の表示または非表示、カスタム数値形式の作成などの役立つヒントについて説明します。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "f8b36f10-c4a1-4320-9cc1-9984eb9abd45",
@@ -932,7 +932,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "数式Excel関数を使用して、計算を実行し、問題を解決します。XLOOKUP、VLOOKUP、SUM、SUMIF、SUMIFS、COUNTIF、IF、IFS、MATCH を使用して、値の検索、計算、時間の節約、データの自動管理を行う方法について説明します。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "7068c43a-2e0b-47ea-8b0f-692343447af6",
@@ -958,7 +958,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "データを視覚的にグループ化して分析Excelテーブルを作成して書式設定します。範囲またはテーブルのデータの並べ替えとフィルター処理、データの合計、スライサーを使用したデータのフィルター処理の方法について学習します。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "e81aa349-b006-4f8a-9806-5af9df0ac664",
@@ -979,7 +979,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Excel のグラフは、対象ユーザーに最大の影響を生み出す方法であり、データを視覚化するのに役立ちます。グラフの作成、タイトルの追加または削除、グラフの凡例の表示/非表示の切り替え、第 2 軸の追加または削除、近似曲線またはスパークラインの追加によるデータ トレンドの表示、クイック分析を使用した完全なグラフの選択の方法を学びます。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "231c42d2-5e58-40e1-99f0-cbe618cfee1d",
@@ -1204,7 +1204,7 @@
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
     "Description": "ファイルを作成して保存するには、Microsoft 365。Office デスクトップ アプリと office.com アプリを使用して、Office アプリ全体で同じ方法でファイルを作成および保存する方法について説明します。OneDrive を使用してクラウドにファイルを保存し、ファイルを Files on Demand と同期します。Microsoft 365 を使用してファイルを作成して保存します。Office デスクトップ アプリと office.com アプリを使用して、Office アプリ間で同じようにファイルを作成および保存する方法について説明します。OneDrive を使用してクラウドにファイルを保存し、ファイルをファイル オンデマンドと同期します。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "f4b41dc8-339c-4653-9f41-328324656f61",
@@ -1473,7 +1473,7 @@
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
     "Description": "Microsoft Teamsは、チームが整理され、会話を行うのに役立つコラボレーション アプリです。すべて 1 か所で行います。Microsoft Teams の概要では、チーム、チャネル、会議、会話、タブ、ファイルの共有、リアルタイムでの共同作業、ファイルの検索、チャットへのユーザーの追加、通話の追加、予定表の管理、会議のスケジュール設定、会議への参加、コンテンツの共有、会議の記録、アクティビティ フィードの表示、コマンド ボックスを使用して、ユーザー、アイテム、アプリを検索します。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "b98d533f-118e-4bae-bf44-3df2470c2b12"
@@ -1549,7 +1549,7 @@
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
     "Description": "Microsoft Teams でチームとチャネルでの共同作業を行いましょう。パブリックまたはプライベート チャネルの作成、チャネルの固定、タブの追加、ファイルの共有、今すぐ会議、チャネルの表示と非表示の切り替え、チャネルの通知のカスタマイズ、メッセージへの返信、メッセージのいいね! の評価または保存、@メンションの使用、ファイルの共同作業または共同編集、会話の開始、チャネルへのメールの送信、Planner を使用したプランの作成を行う方法について説明します。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "c3d63c10-77d5-4204-a566-53ddcf723b46",
@@ -1735,7 +1735,7 @@
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
     "Description": "Microsoft Teams での承認は、チームやパートナーとの間に発生するすべての要求やプロセスを合理化するための方法です。新しい承認を作成する方法、送信された承認を自分の方法で表示する方法、過去の承認を 1 か所でまとめて表示する方法について説明します。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "079cd574-3e04-4dc1-bcc1-6d0797970723",
@@ -2162,7 +2162,7 @@
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
     "Description": "Outlook でメールを作成して送信する方法、メールの署名を作成する方法、添付ファイルを送受信する方法、送信されたメールを取り消す方法または置き換える方法について学習します。その方法については、このビデオ トレーニングをご覧ください。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "c6c261e3-d50a-43a6-816f-35fe1e53acc6",
@@ -2183,7 +2183,7 @@
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
     "Description": "メールを管理する方法については、Outlook。自動応答を使用して、メッセージへの自動応答、メールの検索とフィルター処理、検索の絞り込み、会話の無視、および [スレッドのクリーンアップ] を使用して受信トレイをクリーンアップします。その方法については、このビデオ トレーニングをご覧ください。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "cc0e480f-973e-4412-a27b-8a52108d6d51",
@@ -2203,7 +2203,7 @@
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
     "Description": "受信トレイを整理するためのヒントについて学習します。フラグの設定、フラグの表示または削除、アラームの設定、アクション アイテムの検索、色分類項目の作成、メール メッセージへの色分類項目の割り当て、フォルダーの作成、フォルダーへのメッセージの移動、お気に入りにフォルダーの追加、ルールの作成を行う方法について説明します。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "a894348d-b308-4185-840f-aff63063d076",
@@ -2459,7 +2459,7 @@
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
     "Description": "PowerPoint でスライドとレイアウトを作成する方法を学びます。スライド マスターの作成、スライドの追加、再配置、複製、移動、スライド レイアウトの適用、テーマを使用したスライドへの色とデザインの追加、新しいプレゼンテーションへのテンプレートの適用、PowerPoint Designer でのデザインのアイデアの取得、スライド マスターのカスタマイズ方法について説明します。このビデオ トレーニングを見て、その方法を確認してください。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "9bdaa597-38b8-4d15-948d-8125893ff060",
@@ -2513,7 +2513,7 @@
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
     "Description": "PowerPoint に写真やグラフィックを追加して、プレゼンテーションを視覚的に魅力的なものにしましょう。 画像の挿入、芸術的効果の適用、SmartArt の追加、背景画像または会社のロゴの追加、チャートやグラフの追加、またはアイコンの挿入の方法について説明します。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "7da68d81-eda5-441d-9948-883ba5fb95ae",
@@ -2536,7 +2536,7 @@
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
     "Description": "PowerPoint でスライド ショーを表示する方法を学びます。スライドにスピーカー ノートを追加し、時間と配信のリハーサルを行い、ナレーション付きのスライド ショーを記録し、スライド、配布物、またはノートを印刷して、自動のプレゼンテーションを作成します。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "fe7638e4-76fb-4349-8d81-5eb6679f49d7",
@@ -3060,7 +3060,7 @@
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
     "Description": "Word でページをレイアウトするには、いくつかの便利なオプションがあります。余白の変更、ニュースレターの列の作成、ページの向きの変更、ページへの罫線の追加、ヘッダーまたはフッターの挿入、ページ番号の挿入、およびページ切り替えの挿入を行う方法について学習します。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "c95c1ea1-70b1-4dde-a1da-f5aa2042c829",
@@ -3084,7 +3084,7 @@
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
     "Description": "Word に表、画像、透かしを挿入する方法を説明します。 表を作成し、画像を追加し、アイコンやワード アートを挿入し、定規を表示または非表示にし、画像または図形を回転させ、画像の周りにテキストを折り返します。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "9bc4b562-4f88-4ba0-9a59-4b29cfa0bb29",
@@ -3174,7 +3174,7 @@
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
     "Description": "Word でアクセシビリティと使いやすさを向上させる方法について学習します。スクリーン リーダーを使用し、ラーニング Tools を使用して読み流しや理解を支援し、アクセシビリティ チェックを使用してドキュメントをアクセシビリティ対応にし、タスクをすばやく実行するためのキーボード ショートカットを学習します。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "303eb71a-6bd8-474c-ba06-923e93347224",
@@ -3216,7 +3216,7 @@
     "Source": "Microsoft",
     "CatId": "e83da7d3-653c-4c01-a262-336e07b88aba",
     "Description": "Yammer クイック スタートを使用してすぐに作業を開始できます。Yammer にサインインしてコミュニティの会話に参加し、組織の最新情報を調べ、外出先で Yammer を使用するために Yammer モバイル アプリを設定します。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "d863154a-4223-4ea2-8855-ccc971321b8e",
@@ -3236,7 +3236,7 @@
     "Source": "Microsoft",
     "CatId": "e83da7d3-653c-4c01-a262-336e07b88aba",
     "Description": "これらのヒントやベスト プラクティスを参考にして、Yammer ネットワークのロールアウトを成功させましょう。Yammer の概要、戦略の計画、Yammer ネットワークのカスタマイズ、適切なユース ケースの特定、コミュニティの作成、開始の準備、ユーザーへの教育、継続的な使用の推進、Teams、SharePoint Online、Outlook などへの Yammer の統合、成功の測定などです。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "1b0f3b3e-89ee-4b66-aac5-30def12f287c",
@@ -3262,7 +3262,7 @@
     "Source": "Microsoft",
     "CatId": "e83da7d3-653c-4c01-a262-336e07b88aba",
     "Description": "Yammer を日常的に使用して、組織内の人、リーダー、コミュニティとの交流を深め、知識を共有する方法について説明します。Yammer の概要を理解し、Yammer のプロファイルと設定の変更、会話の開始、投稿の操作、ファイルの添付、コミュニティの検出と参加、通知を使用したつながりの維持、お知らせの操作を行い、Yammer を最大限に活用するためのヒントとベスト プラクティスについて学びます。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "47526868-b136-40cc-a80d-c870eadd9ba5",

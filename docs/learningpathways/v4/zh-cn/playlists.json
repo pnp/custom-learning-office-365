@@ -318,7 +318,7 @@
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
     "Description": "了解如何创建包容性会议环境、使会议和相关内容易于访问、限制会议中的干扰，以及跨时区建立干扰。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "1a583551-1f93-4d71-bac1-5881d5f8b1e7",
@@ -338,7 +338,7 @@
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
     "Description": "了解如何使用异步协作和共同创作来减少或替换会议。了解在 Microsoft 365 应用中协作、共同创作 Office 应用、Teams、OneDrive 和 SharePoint 中的共享文件以及排查常见共同创作错误的最佳做法。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "1311f213-f56b-4c15-b496-5ecff888cd66",
@@ -840,7 +840,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "查看此 Excel 课程简介，以了解如何创建工作簿、插入或删除工作表、移动、复制或打印工作表、将 Excel 作为计算器使用、自动填充数据以及创建下拉列表。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "82e9eab2-2e4e-463a-baa5-669b6c8ac543",
@@ -863,7 +863,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "使用 Excel 行和列来组织数据。了解如何插入或删除行和列、在 Excel 中选择内容、冻结窗格以锁定行和列、隐藏或显示行或列、筛选唯一值或删除重复值、将文本拆分为不同列，以及创建有序日期列表",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "6f40e6e4-85af-45e0-b39d-65dd504a3246",
@@ -908,7 +908,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "了解如何在 Excel 中设置格式以节省时间，并使工作表对你和你的团队有用。了解有用的提示，例如如何设置数字格式（货币、百分比、日期、电话号码）、使用条件格式来提供视觉提示、更改或复制单元格格式、添加水印、显示或隐藏零值以及创建自定义数字格式。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "f8b36f10-c4a1-4320-9cc1-9984eb9abd45",
@@ -932,7 +932,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "使用Excel和函数执行计算和解决问题。了解如何使用 XLOOKUP、VLOOKUP、SUM、SUMIF、SUMIFS、COUNTIF、IF、IFS 和 MATCH 自动查找值、执行计算、节省时间和管理数据。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "7068c43a-2e0b-47ea-8b0f-692343447af6",
@@ -958,7 +958,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "创建表格并设置其Excel以直观地分组和分析数据。了解如何对区域或表中的数据进行排序和筛选、总计数据，以及如何使用切片器筛选数据。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "e81aa349-b006-4f8a-9806-5af9df0ac664",
@@ -979,7 +979,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Excel 中的图表可帮助你使用对受众产生最大影响的方式直观显示数据。了解如何创建图表、添加或删除标题、显示或隐藏图表图例、添加或删除次坐标轴、添加趋势线或迷你图以显示数据趋势，以及使用快速分析选取完美的图表。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "231c42d2-5e58-40e1-99f0-cbe618cfee1d",
@@ -1204,7 +1204,7 @@
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
     "Description": "使用文件创建和保存Microsoft 365。了解如何使用 Office 桌面应用和 office.com 应用跨 Office 应用以相同方式创建和保存文件。使用 OneDrive 将文件保存到云，将文件与文件按需同步。使用 Microsoft 365 创建和保存文件。了解如何使用 Office 桌面应用和 office.com 应用跨 Office 应用以相同方式创建和保存文件。使用 OneDrive 将文件保存到云，将文件与文件按需同步。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "f4b41dc8-339c-4653-9f41-328324656f61",
@@ -1473,7 +1473,7 @@
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
     "Description": "Microsoft Teams是一个协作应用，可帮助你的团队保持井井有条并展开对话 - 全部在一个地方进行。通过 Microsoft Teams 简介，获取团队、频道、会议、对话、选项卡、选项卡、共享文件、实时协作、查找文件、将人员添加到聊天、进行呼叫、管理日历、安排会议、加入会议、共享内容、录制会议、查看我们的活动源，以及使用命令框搜索人员、项目或应用。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "b98d533f-118e-4bae-bf44-3df2470c2b12"
@@ -1549,7 +1549,7 @@
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
     "Description": "在 Microsoft Teams 中的团队和频道内协作。了解如何创建公共或专用频道、固定频道、添加选项卡、共享文件、立即会面、显示和隐藏频道、自定义频道通知、答复消息、喜欢或保存邮件、使用 @提及、协作处理或共同编辑文件、开始对话、向频道发送电子邮件，以及使用 Planner 创建计划。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "c3d63c10-77d5-4204-a566-53ddcf723b46",
@@ -1735,7 +1735,7 @@
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
     "Description": "Microsoft Teams 中的审批是一种与团队或合作伙伴一起简化所有请求和流程的方法。了解如何创建新审批、查看发送给你的审批，以及如何在一个位置查看所有以前的审批。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "079cd574-3e04-4dc1-bcc1-6d0797970723",
@@ -2162,7 +2162,7 @@
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
     "Description": "了解如何在邮件中创建和Outlook、创建电子邮件签名、发送和接收附件，以及撤回或替换已发送的电子邮件。观看此视频培训，了解如何进行此操作。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "c6c261e3-d50a-43a6-816f-35fe1e53acc6",
@@ -2183,7 +2183,7 @@
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
     "Description": "了解如何在邮箱中管理Outlook。使用\"自动答复\"自动答复邮件、搜索和筛选电子邮件、优化搜索、忽略对话，以及使用\"清理对话\"清理收件箱。观看此视频培训，了解如何进行此操作。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "cc0e480f-973e-4412-a27b-8a52108d6d51",
@@ -2203,7 +2203,7 @@
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
     "Description": "了解整理收件箱的提示。了解如何设置后续标志、查看或删除后续标志、设置提醒、查找操作项目、创建颜色类别、为电子邮件分配颜色类别、创建文件夹、将邮件移动到文件夹中、将文件夹添加到收藏夹或创建规则。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "a894348d-b308-4185-840f-aff63063d076",
@@ -2459,7 +2459,7 @@
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
     "Description": "了解如何在 PowerPoint 中创建幻灯片和版式。创建幻灯片母版、添加、重新排列、复制和移动幻灯片、应用幻灯片版式、使用主题向幻灯片添加颜色和设计、将模板应用到新演示文稿、使用 PowerPoint 设计器获取设计灵感以及自定义幻灯片母版。请观看此视频培训，以了解如何操作。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "9bdaa597-38b8-4d15-948d-8125893ff060",
@@ -2513,7 +2513,7 @@
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
     "Description": "在 PowerPoint 中添加图片和图形，以使演示文稿在视觉上更具吸引力。了解如何插入图片、应用艺术效果、添加 SmartArt、添加背景图片或公司徽标、添加图表和图形或插入图标。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "7da68d81-eda5-441d-9948-883ba5fb95ae",
@@ -2536,7 +2536,7 @@
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
     "Description": "了解如何在 PowerPoint 中演示幻灯片。将演讲者备注添加到幻灯片、排练时间和播放、录制带旁白的幻灯片放映、打印幻灯片、讲义或备注，以及创建自运行演示文稿。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "fe7638e4-76fb-4349-8d81-5eb6679f49d7",
@@ -3060,7 +3060,7 @@
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
     "Description": "使用 Word 设置页面布局有几个有用的选项。了解如何更改页边距、创建新闻稿栏、更改页面方向、向页面添加边框、插入页眉或页脚、插入页码和插入分页符。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "c95c1ea1-70b1-4dde-a1da-f5aa2042c829",
@@ -3084,7 +3084,7 @@
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
     "Description": "了解如何在 Word 中插入表格、图片和水印。创建表格、添加图片、插入图标和艺术字、显示或隐藏标尺、旋转图片或形状，以及在图片周围环绕文本。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "9bc4b562-4f88-4ba0-9a59-4b29cfa0bb29",
@@ -3174,7 +3174,7 @@
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
     "Description": "了解如何在 Word 中提高辅助功能和易用性。使用屏幕阅读器，使用 Learning 工具帮助流畅阅读和理解，使用辅助功能检查器使文档易于访问，并了解快速执行任务的键盘快捷方式。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "303eb71a-6bd8-474c-ba06-923e93347224",
@@ -3216,7 +3216,7 @@
     "Source": "Microsoft",
     "CatId": "e83da7d3-653c-4c01-a262-336e07b88aba",
     "Description": "使用 Yammer 快速入门快速开始。登录 Yammer 并加入社区对话、了解组织中的热门话题，并设置 Yammer 移动应用以随时随地使用 Yammer。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "d863154a-4223-4ea2-8855-ccc971321b8e",
@@ -3236,7 +3236,7 @@
     "Source": "Microsoft",
     "CatId": "e83da7d3-653c-4c01-a262-336e07b88aba",
     "Description": "按照以下提示和最佳做法成功推广 Yammer 网络。获取 Yammer 概述、规划策略、对 Yammer 网络进行个性化设置、确定恰当的用例、创建社区、准备启动、培训用户、推动持续参与、将 Yammer 集成到 Teams、SharePoint Online 和 Outlook 中，并衡量成功程度。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "1b0f3b3e-89ee-4b66-aac5-30def12f287c",
@@ -3262,7 +3262,7 @@
     "Source": "Microsoft",
     "CatId": "e83da7d3-653c-4c01-a262-336e07b88aba",
     "Description": "了解如何每天使用 Yammer 与组织中的人员、领导和社区互动并分享知识。获取 Yammer 概况、更改 Yammer 个人资料和设置、开始对话、处理帖子、附加文件、发现和加入社区、使用通知保持联系、处理公告以及学习提示和最佳做法以充分使用 Yammer。",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "47526868-b136-40cc-a80d-c870eadd9ba5",

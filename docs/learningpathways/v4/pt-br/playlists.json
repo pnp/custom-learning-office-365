@@ -318,7 +318,7 @@
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
     "Description": "Saiba como criar ambientes de reunião inclusivos, tornar reuniões e conteúdo relacionado acessível para todos, limitar distrações em reuniões e criar empatia no fuso horário.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "1a583551-1f93-4d71-bac1-5881d5f8b1e7",
@@ -338,7 +338,7 @@
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
     "Description": "Saiba como reduzir ou substituir reuniões por colaboração assíncrona e coautor. Saiba as práticas recomendadas para colaborar em Microsoft 365, coautor de arquivos compartilhados em aplicativos, Teams, OneDrive e SharePoint e solucionar erros comuns de co Office autor.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "1311f213-f56b-4c15-b496-5ecff888cd66",
@@ -840,7 +840,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Confira esta introdução ao curso do Excel para saber como criar uma pasta de trabalho, inserir ou excluir uma planilha, mover, copiar ou imprimir uma planilha, usar o Excel como calculadora, preencher dados automaticamente e criar uma lista suspensa.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "82e9eab2-2e4e-463a-baa5-669b6c8ac543",
@@ -863,7 +863,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Use linhas e colunas do Excel para organizar seus dados. Aprenda como inserir ou excluir linhas e colunas, selecionar conteúdo no Excel, congelar painéis para bloquear linhas e colunas, ocultar ou mostrar linhas ou colunas, filtrar por valores únicos ou remover valores duplicados, dividir texto em colunas diferentes e criar uma lista de datas sequenciais",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "6f40e6e4-85af-45e0-b39d-65dd504a3246",
@@ -908,7 +908,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Aprenda a formatar no Excel para economizar tempo e tornar sua planilha útil para você e sua equipe. Aprenda dicas úteis como formatar números (moeda, porcentagens, datas, números de telefone), usar formatação condicional para fornecer dicas visuais, alterar ou copiar a formatação de células, adicionar uma marca d'água, exibir ou ocultar valores zero e criar um formato de número personalizado.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "f8b36f10-c4a1-4320-9cc1-9984eb9abd45",
@@ -932,7 +932,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Use Excel e funções para realizar cálculos e resolver problemas. Saiba como usar XLOOKUP, VLOOKUP, SUM, SUMIF, SUMIFS, COUNTIF, IF, IFS e MATCH para encontrar valores, fazer cálculos, economizar tempo e gerenciar dados automaticamente.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "7068c43a-2e0b-47ea-8b0f-692343447af6",
@@ -958,7 +958,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Criar e formatar tabelas Excel agrupar visualmente e analisar dados. Saiba como classificar e filtrar dados em um intervalo ou tabela, dados totais e usar slicers para filtrar dados.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "e81aa349-b006-4f8a-9806-5af9df0ac664",
@@ -979,7 +979,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Os gráficos no Excel ajudam você a visualizar seus dados para impactar seu público ao máximo. Saiba como criar um gráfico, adicionar ou remover títulos, mostrar ou ocultar uma legenda do gráfico, adicionar ou remover um eixo secundário, adicionar um minigráfico ou linha de tendência para mostrar tendências de dados e usar a Análise Rápida para escolher o gráfico ideal.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "231c42d2-5e58-40e1-99f0-cbe618cfee1d",
@@ -1204,7 +1204,7 @@
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
     "Description": "Crie e salve arquivos usando Microsoft 365. Saiba como criar e salvar arquivos da mesma maneira em aplicativos Office usando os aplicativos da área de trabalho Office e aplicativos office.com. Salve arquivos na nuvem usando o OneDrive e sincronize arquivos com Arquivos sob Demanda.Crie e salve arquivos usando Microsoft 365. Saiba como criar e salvar arquivos da mesma forma em aplicativos Office usando os aplicativos da área de trabalho Office e aplicativos office.com. Salve arquivos na nuvem usando o OneDrive e sincronize arquivos com arquivos sob demanda.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "f4b41dc8-339c-4653-9f41-328324656f61",
@@ -1473,7 +1473,7 @@
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
     "Description": "Microsoft Teams é um aplicativo de colaboração que ajuda sua equipe a se manter organizada e a ter conversas— tudo em um só lugar. Com Introdução ao Microsoft Teams, obter uma visão geral das equipes, canais, reuniões, conversas, guias, compartilhar arquivos, colaborar em tempo real, encontrar arquivos, adicionar pessoas a um chat, fazer uma chamada, gerenciar seu calendário, agendar uma reunião, participar de reuniões, compartilhar conteúdo, gravar uma reunião, exibir nosso feed de atividades e usar a caixa de comando para pesquisar pessoas, itens ou aplicativos.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "b98d533f-118e-4bae-bf44-3df2470c2b12"
@@ -1549,7 +1549,7 @@
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
     "Description": "Colabore em equipes e canais no Microsoft Teams. Saiba como criar um canal público ou privado, fixar um canal, adicionar uma guia, compartilhar um arquivo, reunir agora, mostrar e ocultar canais, personalizar notificações de canal, responder a uma mensagem, curtir ou salvar uma mensagem, usar @mention, colaborar em ou coeditar um arquivo, iniciar uma conversa, enviar email para um canal e criar um plano com o Microsoft Planner.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "c3d63c10-77d5-4204-a566-53ddcf723b46",
@@ -1735,7 +1735,7 @@
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
     "Description": "As aprovações no Microsoft Teams são uma forma de simplificar todos os seus pedidos e processos com sua equipe ou parceiros. Saiba como criar novas aprovações, veja as que lhe foram enviadas e veja todas as suas aprovações anteriores em um só lugar.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "079cd574-3e04-4dc1-bcc1-6d0797970723",
@@ -2162,7 +2162,7 @@
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
     "Description": "Saiba como criar e enviar emails em Outlook, criar uma assinatura de email, enviar e receber anexos e retirar ou substituir um email enviado. Assista a este treinamento em vídeo para ver como.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "c6c261e3-d50a-43a6-816f-35fe1e53acc6",
@@ -2183,7 +2183,7 @@
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
     "Description": "Saiba como gerenciar seu email no Outlook. Use Respostas Automáticas para responder automaticamente a mensagens, pesquisar e filtrar emails, refinar suas pesquisas, ignorar conversas e usar a Conversa limpa para limpar sua caixa de entrada. Assista a este treinamento em vídeo para ver como.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "cc0e480f-973e-4412-a27b-8a52108d6d51",
@@ -2203,7 +2203,7 @@
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
     "Description": "Saiba dicas para organizar sua caixa de entrada. Saiba como definir um sinalizador Follow Up, exibir ou remover sinalizadores de Acompanhamento, definir um lembrete, encontrar um Item de Ação, criar categorias de cores, atribuir uma categoria de cor a uma mensagem de email, criar uma pasta, mover mensagens em uma pasta, adicionar uma pasta aos Favoritos ou criar uma regra.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "a894348d-b308-4185-840f-aff63063d076",
@@ -2459,7 +2459,7 @@
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
     "Description": "Aprenda a criar slides e layouts no PowerPoint. Crie um slide mestre, adicione, reorganize, duplique e mova slides, aplique um layout de slide, adicione cor e design a seus slides com temas, aplique um modelo a uma nova apresentação, obtenha ideias de design com o PowerPoint Designer e personalize um slide mestre. Assista a este treinamento em vídeo para ver como.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "9bdaa597-38b8-4d15-948d-8125893ff060",
@@ -2513,7 +2513,7 @@
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
     "Description": "Adicione imagens e gráficos no PowerPoint para tornar sua apresentação visualmente atraente. Aprenda como inserir uma imagem, aplicar um efeito artístico, adicionar SmartArt, adicionar uma imagem de fundo ou logotipo da empresa, adicionar tabelas e gráficos ou inserir ícones.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "7da68d81-eda5-441d-9948-883ba5fb95ae",
@@ -2536,7 +2536,7 @@
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
     "Description": "Aprenda a apresentar apresentações de slides no PowerPoint. Adicione anotações do orador aos slides, ensaie o tempo e a entrega, grave uma apresentação de slides com narração, imprima seus slides, apostilas ou anotações e crie uma apresentação automática.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "fe7638e4-76fb-4349-8d81-5eb6679f49d7",
@@ -3060,7 +3060,7 @@
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
     "Description": "Há várias opções úteis para estabelecer páginas com o Word. Saiba como alterar margens, criar colunas de boletim informativo, alterar a orientação da página, adicionar uma borda a uma página, inserir um header ou um rodapé, inserir números de página e inserir uma quebra de página.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "c95c1ea1-70b1-4dde-a1da-f5aa2042c829",
@@ -3084,7 +3084,7 @@
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
     "Description": "Aprenda a inserir tabelas, imagens e marcas d'água no Word. Crie uma tabela, adicione uma imagem, insira um ícone e WordArt, mostre ou oculte a régua, gire uma imagem ou forma e envolva o texto em uma imagem.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "9bc4b562-4f88-4ba0-9a59-4b29cfa0bb29",
@@ -3174,7 +3174,7 @@
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
     "Description": "Saiba como melhorar a acessibilidade e a facilidade de uso no Word. Use um leitor de tela, use Learning Ferramentas para ajudar na leitura de fluência e compreensão, use o Verificador de Acessibilidade para tornar os documentos acessíveis e aprenda atalhos de teclado para executar tarefas rapidamente.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "303eb71a-6bd8-474c-ba06-923e93347224",
@@ -3216,7 +3216,7 @@
     "Source": "Microsoft",
     "CatId": "e83da7d3-653c-4c01-a262-336e07b88aba",
     "Description": "Comece rapidamente com o início rápido do Yammer. Entre no Yammer e participe das conversas da comunidade, descubra o que é tendência em sua organização e configure o aplicativo móvel Yammer para usar o Yammer em trânsito.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "d863154a-4223-4ea2-8855-ccc971321b8e",
@@ -3236,7 +3236,7 @@
     "Source": "Microsoft",
     "CatId": "e83da7d3-653c-4c01-a262-336e07b88aba",
     "Description": "Siga estas dicas e práticas recomendadas para implantar uma rede Yammer de sucesso. Obtenha uma visão geral do Yammer, planeje sua estratégia, personalize uma rede Yammer, identifique os casos de uso certos, crie uma comunidade, prepare-se para o lançamento, eduque os usuários, promova o envolvimento contínuo, integre o Yammer em equipes, SharePoint Online e Outlook e meça o sucesso.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "1b0f3b3e-89ee-4b66-aac5-30def12f287c",
@@ -3262,7 +3262,7 @@
     "Source": "Microsoft",
     "CatId": "e83da7d3-653c-4c01-a262-336e07b88aba",
     "Description": "Aprenda como usar o Yammer todos os dias para se envolver com pessoas, líderes e comunidades em sua organização e compartilhar conhecimento. Obtenha uma visão geral do Yammer, altere seu perfil e configurações do Yammer, inicie uma conversa, trabalhe com postagens, anexe arquivos, descubra e participe de comunidades, use notificações para ficar conectado, trabalhar com anúncios e aprender dicas e práticas recomendadas para obter o máximo do Yammer.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "47526868-b136-40cc-a80d-c870eadd9ba5",
