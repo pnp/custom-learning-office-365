@@ -338,17 +338,17 @@
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
     "Description": "Learn how to reduce or replace meetings with asynchronous collaboration and co-authoring. Learn best practices for collaborating in Microsoft 365, co-author shared files in Office apps, Teams, OneDrive, and SharePoint and troubleshoot common co-authoring errors.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "1311f213-f56b-4c15-b496-5ecff888cd66",
       "c7fa8661-7524-43bf-9f6f-2cd5ac42a73a",
       "5237d4b4-b7d7-408c-8a3a-f42b9af87c41",
-      "ed846cbd-a58b-4d4d-94b5-c813216b569f",
+      "b85eef71-e96b-4325-9501-228588728bc9",
       "8f1c87cc-61ff-4bac-9bca-18f8512c5065",
       "c88c3ce7-a460-4c8f-a496-6c00f790a9c7",
-      "bf1852e6-bb03-49a5-b1e8-e1e821158ac8",
-      "caa8d7bb-7bb5-4833-add5-6b855c84fd95",
+      "1befed77-e0e6-42ba-88de-523b279c398b",
+      "0b61f827-a776-4d15-84df-d297b841e73d",
       "acfddc7a-1f95-4515-bc8d-06bc5cccd528"
     ]
   },
@@ -1454,7 +1454,7 @@
       "422bf3aa-9ae8-46f1-83a2-e65720e1a34d",
       "6723dc43-dbc0-46e6-af49-8a2d1c5cb937",
       "d7978db0-33b5-4ad3-93ac-ef0bd3c2a670",
-      "31e38b35-96ab-447a-acb2-97bb5c0716c0",
+      "1befed77-e0e6-42ba-88de-523b279c398b",
       "1ba8dce3-1122-47f4-8db6-00a4f93117e8"
     ]
   },
