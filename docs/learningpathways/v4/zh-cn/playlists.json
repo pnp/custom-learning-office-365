@@ -382,7 +382,7 @@
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
     "Description": "通过实践自我护理提示来保持个人健康。在日历上划出吃饭、休息和运动的时间。在 Microsoft Teams 中设置状态以显示空闲或忙碌。在 Teams 频道中与其他人联系以进行社交或与工作相关的会话。在 Teams 中管理通知，以决定通知的显示方式、时间和位置。启用 Windows 10 中的专注助手，以避免在需要专注时受到干扰。",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "a6ff7745-0ab0-470f-8d77-5302cd94ebeb",
