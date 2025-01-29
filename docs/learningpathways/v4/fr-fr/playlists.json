@@ -423,7 +423,7 @@
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
     "Description": "Configurez votre espace de travail physique et virtuel dédié à la productivité. Découvrez les tâches et les types de réunion les plus adaptés au travail hybride ou au travail en personne afin de pouvoir planifier votre agenda à l’avance. Créez du temps de travail individuel dans Teams, définissez des heures et des jours de déconnexion, et définissez un message d’état dans Teams. Pour la productivité de l’équipe, déterminez les jours qui conviennent le mieux aux réunions en personne et le type de travail qui peut être effectué à distance. Déterminez également quand les réunions (en personne ou à distance) sont nécessaires et quand sont-elles facultatives.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "47473ffc-75e5-4c71-959d-39c60f25d75e",
