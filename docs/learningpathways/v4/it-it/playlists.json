@@ -190,7 +190,7 @@
     "Source": "Microsoft",
     "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
     "Description": "È possibile creare messaggi di posta elettronica Outlook accessibili agli utenti con problemi di vista o con problemi di vista. Impostare HTML come formato di messaggio predefinito, impostare un tipo di carattere predefinito, creare una firma accessibile, aggiungere testo alternativo alle immagini e creare elenchi puntati o tabelle per aggiungere una struttura che consente alle utilità per la lettura dello schermo di comunicare l'ordine e le relazioni.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "d8de6398-e129-4019-8b34-b241e164456a",

@@ -190,7 +190,7 @@
     "Source": "Microsoft",
     "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
     "Description": "Créez des messages électroniques plus accessibles Outlook en veillant à ce qu’ils soient accessibles aux personnes non visuellement réduites ou non. Définissez le format HTML comme format de message par défaut, définissez une police par défaut, créez une signature accessible, ajoutez un texte de alt aux images et créez des listes à puces ou des tableaux pour ajouter une structure qui aide les lecteurs d’écran à communiquer l’ordre et les relations.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "d8de6398-e129-4019-8b34-b241e164456a",

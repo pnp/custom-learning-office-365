@@ -190,7 +190,7 @@
     "Source": "Microsoft",
     "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
     "Description": "Crie mensagens de email mais acessíveis no Outlook garantindo que elas sejam acessíveis a pessoas com visão limitada ou sem visão. Definir HTML como o formato de mensagem padrão, definir uma fonte padrão, criar uma assinatura acessível, adicionar texto alt a imagens e criar listas ou tabelas com marcador para adicionar estrutura que ajude os leitores de tela a comunicar a ordem e os relacionamentos.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "d8de6398-e129-4019-8b34-b241e164456a",

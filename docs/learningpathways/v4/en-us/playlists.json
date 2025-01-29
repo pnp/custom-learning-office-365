@@ -190,7 +190,7 @@
     "Source": "Microsoft",
     "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
     "Description": "Create more accessible email messages in Outlook by ensuring that they are accessible to people with limited or no vision. Set HTML as the default message format, set a default font, create an accessible signature, add alt text to images, and create bulleted lists or tables to add structure that helps screen readers communicate order and relationships.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "d8de6398-e129-4019-8b34-b241e164456a",
