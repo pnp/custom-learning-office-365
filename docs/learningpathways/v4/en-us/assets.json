@@ -788,7 +788,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -2020,7 +2020,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -2262,7 +2262,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -4700,11 +4700,11 @@
     "Id": "39d8fb04-8063-482f-93e3-2fc4f6f421a9",
     "Title": "Share your documents",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/b8b4498b-f365-499d-b9a7-5ec65e2ab00d?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/651e1cb9-9a51-46dc-8d32-bdb7d928eedd?embed=true&themeid=-1",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -5892,7 +5892,7 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "615f17eb-2c5b-4494-8541-4304435ca306",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -8757,7 +8757,7 @@
   },
   {
     "Id": "0849ef75-564f-450a-93e5-b27508d81c53",
-    "Title": "Get started",
+    "Title": "Best practices for collaborating: Get started",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/0849ef75-564f-450a-93e5-b27508d81c53?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9280,7 +9280,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -9335,7 +9335,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -9478,7 +9478,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -10044,13 +10044,13 @@
   },
   {
     "Id": "cf26a4a6-00e5-4ef4-98c5-cec5bf441da6",
-    "Title": "Mobile",
+    "Title": "Get work done on your mobile device",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/cf26a4a6-00e5-4ef4-98c5-cec5bf441da6?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -10061,7 +10061,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {

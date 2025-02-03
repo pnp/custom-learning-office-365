@@ -271,14 +271,14 @@
     "Source": "Microsoft",
     "CatId": "a7f1ca95-e0eb-4715-b846-89fc8d2afa56",
     "Description": "Faça seu melhor trabalho em conjunto. Com Microsoft 365, você pode colaborar com qualquer pessoa, em qualquer lugar. Saiba como compartilhar, trabalhar em coautoria, comentar e reunir-se com Microsoft 365 produtos e serviços.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "0849ef75-564f-450a-93e5-b27508d81c53",
-      "651e1cb9-9a51-46dc-8d32-bdb7d928eedd",
+      "39d8fb04-8063-482f-93e3-2fc4f6f421a9",
       "b85eef71-e96b-4325-9501-228588728bc9",
-      "5bec897f-4e36-43f8-9d9d-c41cb4917d9c",
-      "80640ac4-b009-42ea-abcb-660e729e63e5",
+      "fcc2ece3-aecb-40c7-a410-0e36b0bdf3d8",
+      "d14c1dfb-42fe-4b97-8e40-24b68eb61814",
       "cf26a4a6-00e5-4ef4-98c5-cec5bf441da6"
     ]
   },
@@ -1633,7 +1633,7 @@
     "StatusNote": "",
     "Assets": [
       "920382b4-2cca-40f1-ac20-05afed2005bd",
-      "006f78bc-67ce-465a-af1c-483534cdb011",
+      "d14c1dfb-42fe-4b97-8e40-24b68eb61814",
       "7eb9c719-9452-4a9a-b3b6-69f48149ba1c",
       "919b4bd2-6c85-4792-bf60-57258cabe71d",
       "10b2e2a2-c6e7-4905-9c2d-648e26c957ea",
