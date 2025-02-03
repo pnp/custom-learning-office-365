@@ -209,7 +209,7 @@
     "Source": "Microsoft",
     "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
     "Description": "Cree documentos de Word más accesibles con el Comprobador de accesibilidad para comprobar y corregir problemas de accesibilidad. Agregue texto alternativo a imágenes y objetos, use estilos de título para mejorar la accesibilidad, cree hipervínculos y nombres de archivo significativos, organice la información en tablas para mostrar relaciones y obtenga sugerencias que hagan que los archivos sean más accesibles para personas con lectores de pantalla.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "ce53495d-c30e-442a-b1d2-05593cc814c0",

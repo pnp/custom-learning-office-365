@@ -209,7 +209,7 @@
     "Source": "Microsoft",
     "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
     "Description": "Créez des documents Word plus accessibles avec le vérificateur d’accessibilité pour vérifier et corriger les problèmes d’accessibilité. Ajoutez du texte de remplacement aux images et aux objets, utilisez des styles de titre pour améliorer l’accessibilité, créez des noms de fichiers significatifs et des liens hypertexte, organisez des informations dans des tableaux pour afficher les relations et découvrez des conseils qui rendent les fichiers plus accessibles pour les personnes ayant des lecteurs d’écran.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "ce53495d-c30e-442a-b1d2-05593cc814c0",

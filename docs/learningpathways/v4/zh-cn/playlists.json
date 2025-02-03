@@ -209,7 +209,7 @@
     "Source": "Microsoft",
     "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
     "Description": "使用辅助功能检查器创建更易于访问的 Word 文档，以检查和纠正辅助功能问题。 向图像和对象添加替换文字，使用标题样式改进辅助功能，创建有意义的文件名和超链接，在表中组织信息以显示关系，并了解使具有屏幕阅读器的用户更易于访问文件的提示。",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "ce53495d-c30e-442a-b1d2-05593cc814c0",
