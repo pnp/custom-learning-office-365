@@ -824,7 +824,7 @@
       "0cf0055d-49f8-464e-9dfa-8f582b32453b",
       "11a632c1-197e-454f-a515-374a4aa2b3dd",
       "a8af741e-00f2-44c0-a94b-38abd51af01f",
-      "64b51431-c51a-45db-8ddd-d58b9b101c42"
+      "c12ff0ac-05b4-4655-afe0-24ba2986849b"
     ]
   },
   {
@@ -1168,7 +1168,7 @@
       "5f7689f7-8095-47ed-88ae-a8da2cd873d4",
       "40ce1d89-995c-4a18-9b7e-7482f8121ece",
       "5453895d-5ba2-4ce5-b2b8-8461695f75ad",
-      "21a86754-2b38-4d2b-882c-a26966050921",
+      "c12ff0ac-05b4-4655-afe0-24ba2986849b",
       "ec5c071b-adf4-4bea-b128-5e99a6177b29"
     ]
   },
@@ -1457,7 +1457,7 @@
       "6723dc43-dbc0-46e6-af49-8a2d1c5cb937",
       "d7978db0-33b5-4ad3-93ac-ef0bd3c2a670",
       "1befed77-e0e6-42ba-88de-523b279c398b",
-      "1ba8dce3-1122-47f4-8db6-00a4f93117e8"
+      "c12ff0ac-05b4-4655-afe0-24ba2986849b"
     ]
   },
   {
@@ -1781,7 +1781,7 @@
     "StatusNote": "",
     "Assets": [
       "cdc69020-376d-4e05-bbe6-2457ad9be8e9",
-      "e51e4a78-5643-4168-8aec-57c0f22f5a51",
+      "19c32deb-08b6-4f90-a211-02bc5f77f360",
       "ee4e7b9c-0153-4722-9efd-ba34f1976227",
       "d360bf65-a55d-482b-889c-2add6da96df9",
       "aa6be949-6848-449a-8f04-ad994056cc8d",
@@ -1892,7 +1892,7 @@
       "a1397e56-61ec-4ed2-9dac-727bf8ac3357",
       "94c8a731-c774-468e-97a1-5f038bdf330d",
       "586df57b-fdae-439c-ae5b-71cbe5bb0d4c",
-      "c45e3f90-14af-4cfa-97f2-137f74d4304e",
+      "c12ff0ac-05b4-4655-afe0-24ba2986849b",
       "8ce30c76-e27b-4e55-9050-082393954213"
     ]
   },
@@ -2120,14 +2120,14 @@
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
     "Description": "Beginnen Sie schnell mit dem Outlook Schnellstarthandbuch. Erfahren Sie, wie Sie ein E-Mail-Konto hinzufügen, E-Mails erstellen und senden, @mentions verwenden, den Posteingang mit Fokus anzeigen, Ihren Kalender und Ihre Kontakte verwalten, mithilfe von Terminplanungs-Assistent einen Termin planen, einen Kontakt hinzufügen, in Outlook zusammenarbeiten, eine Datei freigeben, eine Onlinebe besprechung und freigegebene Notizen einrichten sowie Ihre mobilen Apps einrichten.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "e9da47c4-9b89-4b49-b945-a204aeea6726",
       "19c32deb-08b6-4f90-a211-02bc5f77f360",
       "631a182a-21e0-4e41-8fa2-0d83e55da02d",
       "63bf693d-76d4-410b-89d2-a3b63c729c22",
-      "a2658b93-ca21-42fb-9f19-a61662f669fe"
+      "c12ff0ac-05b4-4655-afe0-24ba2986849b"
     ]
   },
   {
@@ -2164,7 +2164,7 @@
     "StatusNote": "",
     "Assets": [
       "c6c261e3-d50a-43a6-816f-35fe1e53acc6",
-      "400d4d45-8e2d-46a2-8cb5-ddabf12489ed",
+      "19c32deb-08b6-4f90-a211-02bc5f77f360",
       "31fb24f9-e698-4789-b92a-f0e777f774ca",
       "d32cd5ad-c7c5-49df-814d-4c17a5d3beb0",
       "8e564127-15a0-4cf6-b974-f2101f5e256e"
@@ -2356,7 +2356,7 @@
       "cbbf3772-4fdd-4f49-aa92-dc2203c062d7",
       "ee61ecb0-a0bb-4c39-8682-f47fe7674f05",
       "c351e8df-080c-4eca-b8c7-37dc3fb1a9c8",
-      "31518aac-e136-4ac9-badc-0d0de4e18819"
+      "c12ff0ac-05b4-4655-afe0-24ba2986849b"
     ]
   },
   {
@@ -2423,7 +2423,7 @@
       "2659f76c-3297-4ff2-ac55-4aa5eda8113b",
       "07fcfb59-f410-4e52-9c60-3b069a805ee5",
       "cd828eb0-c18b-42ac-9417-3f62aa501329",
-      "5f9f856f-72d0-461c-a4c0-6f8dc160eda8"
+      "c12ff0ac-05b4-4655-afe0-24ba2986849b"
     ]
   },
   {
@@ -2606,7 +2606,7 @@
       "21722d7d-bcb1-4ee0-b86a-6c107bf646c7",
       "0c5c3345-0a61-4532-971c-5a1e0970fde3",
       "4d1e11bf-8ddc-499d-b889-2b48d10b1ce8",
-      "539608ac-4725-455e-aea0-9ca1f769849f"
+      "92b93131-fbef-4894-8ba2-2fdfa90c5b32"
     ]
   },
   {
@@ -3005,7 +3005,7 @@
       "d7c23ed3-a80a-4ff4-ade5-91211a7614f3",
       "bc819ecd-9887-4a15-8eda-d90cbc58f8fb",
       "b3d7f2af-c6e9-46e7-96a7-dabda4423dd7",
-      "390eeeef-f874-47d2-b50f-a30dec8be627"
+      "c12ff0ac-05b4-4655-afe0-24ba2986849b"
     ]
   },
   {
@@ -3221,7 +3221,7 @@
       "d863154a-4223-4ea2-8855-ccc971321b8e",
       "b6a102d1-6972-4df2-993c-587d1c4d1298",
       "873100a0-0fac-4f93-88f7-1a0945ec93ed",
-      "4efd5366-e471-4f9f-b7cf-a40f3e6f8f01"
+      "c12ff0ac-05b4-4655-afe0-24ba2986849b"
     ]
   },
   {
