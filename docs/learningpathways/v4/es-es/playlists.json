@@ -2201,7 +2201,7 @@
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
     "Description": "Obtenga sugerencias para organizar la bandeja de entrada. Obtenga información sobre cómo establecer una marca de seguimiento, ver o quitar marcas de seguimiento, establecer un aviso, buscar un elemento de acción, crear categorías de color, asignar una categoría de color a un mensaje de correo electrónico, crear una carpeta, mover mensajes a una carpeta, agregar una carpeta a Favoritos o crear una regla.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "a894348d-b308-4185-840f-aff63063d076",
