@@ -48,7 +48,7 @@ Add `Microsoft 365 learning pathways` App to the site collection.
 
 ## Execute PowerShell Configuration Script
 
-A PowerShell script `M365lpConfiguration.ps1` is included that you will need to execute to create three [tenant properties](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/tenant-properties) that the solution uses. In addition, the script creates two [single part app pages](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/single-part-app-pages) in the site pages library to host the admin and user web parts at a known location.
+A PowerShell script `M365lpConfiguration.ps1` is included that you will need to execute to create three [tenant properties](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/tenant-properties) that the solution uses. In addition, the script creates two [single part app pages](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/single-part-app-pages) in the site pages library to host the admin and user web parts at a known location. This script was built to use [PnP PowerShell](https://pnp.github.io/powershell/articles/registerapplication.html). Ensure that you can run basic commands and connect before running the Learning Pathways installation script.
 
 Using the script looks like this:
 `.\M365lpConfiguration.ps1 -TenantName contoso -SiteCollectionName MicrosoftTraining`

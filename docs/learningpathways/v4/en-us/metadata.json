@@ -431,7 +431,7 @@
           "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": [],
-          "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7"
+          "StatusTagId": ""
         },
         {
           "Id": "77a22995-0b6d-488c-9747-dea9a7705711",
@@ -600,6 +600,10 @@
     {
       "Id": "c11c485b-496d-479b-88a3-1744a7a028d7",
       "Name": "New"
+    },
+    {
+      "Id": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+      "Name": "Active"
     }
   ]
 }

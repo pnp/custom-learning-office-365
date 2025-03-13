@@ -19,7 +19,7 @@
       "11a632c1-197e-454f-a515-374a4aa2b3dd",
       "a8af741e-00f2-44c0-a94b-38abd51af01f",
       "090e74b9-af13-4a8f-a922-04822916c6c4",
-      "64b51431-c51a-45db-8ddd-d58b9b101c42"
+      "c12ff0ac-05b4-4655-afe0-24ba2986849b"
     ]
   },
   {
@@ -270,8 +270,8 @@
       "422bf3aa-9ae8-46f1-83a2-e65720e1a34d",
       "6723dc43-dbc0-46e6-af49-8a2d1c5cb937",
       "d7978db0-33b5-4ad3-93ac-ef0bd3c2a670",
-      "31e38b35-96ab-447a-acb2-97bb5c0716c0",
-      "1ba8dce3-1122-47f4-8db6-00a4f93117e8"
+      "1befed77-e0e6-42ba-88de-523b279c398b",
+      "c12ff0ac-05b4-4655-afe0-24ba2986849b"
     ]
   },
   {
@@ -329,7 +329,7 @@
     "Assets": [
       "c3d63c10-77d5-4204-a566-53ddcf723b46",
       "a6041b90-0805-4140-b8ae-1ee3805908d7",
-      "99d33aaa-0743-47c6-a476-eb0a24abcb7e",
+      "77d55b36-b274-4fee-acbe-978ccf14c7e6",
       "f5275f98-7ee6-40e1-8c6e-5dc452df128b",
       "f581aeaf-cc73-4dce-8a7b-12ecce5e7fdf",
       "d6b86155-c9a5-4c35-a009-67f74ffe0c69"
@@ -376,7 +376,7 @@
     "StatusTag": "",
     "Assets": [
       "7350a03e-017a-4a00-a6ae-1c9fe8c497b3",
-      "13c4e429-7324-4886-b377-5dbed539193b",
+      "88f61508-284d-417f-a53d-9e082164050b",
       "4c0ef9a7-0c3e-4a95-aaea-f52f2f81ecbc"
     ]
   },
@@ -464,7 +464,7 @@
     "StatusTag": "",
     "Assets": [
       "146dd625-a740-4a53-96e4-a02c21d9de3e",
-      "74a26c59-c59a-4d5f-8636-6918fcfcad7b",
+      "b85eef71-e96b-4325-9501-228588728bc9",
       "07083ba8-0e36-4d9d-aba8-d9ebfd84d6d4",
       "5734250d-9ba2-4e05-b137-58155ce9d552",
       "724a3fae-0118-4067-bcf8-d23cc57923ff"
@@ -715,12 +715,12 @@
     "StatusTag": "",
     "Assets": [
       "365-378767af-7ac3-4d68-9d0f-709b6948a76b",
-	  "1fa93876-0318-4622-b473-142a3bfd6495",
+      "1fa93876-0318-4622-b473-142a3bfd6495",
       "fb440590-1b4d-4562-94ba-61123b299e3d",
       "be096b45-709c-473a-afb9-f7a998b3f435",
       "4a358470-a1a3-4796-84ec-45adf4895473",
       "c0a66323-d0ac-4c7f-8aa3-8eca9bf92817",
-      "b7f52310-54dd-4701-be3c-c0acbb8d998b"      
+      "b7f52310-54dd-4701-be3c-c0acbb8d998b"
     ]
   },
   {
@@ -741,7 +741,7 @@
       "a1397e56-61ec-4ed2-9dac-727bf8ac3357",
       "94c8a731-c774-468e-97a1-5f038bdf330d",
       "586df57b-fdae-439c-ae5b-71cbe5bb0d4c",
-      "c45e3f90-14af-4cfa-97f2-137f74d4304e",
+      "c12ff0ac-05b4-4655-afe0-24ba2986849b",
       "8ce30c76-e27b-4e55-9050-082393954213",
       "90658d87-ff07-4a6a-9c16-542417af8654"
     ]
@@ -784,7 +784,7 @@
     "Description": "Access files and folders anywhere with OneDrive",
     "StatusTag": "",
     "Assets": [
-      "5bd927ad-d186-495c-93e8-7ca116fe7b83",
+      "af839c61-f18f-4ae5-9698-325d3cf14f36",
       "e1f59717-2f02-494d-93c6-8ef9613e82ba",
       "3cd2e0b9-a2bc-4009-ba4a-88fc1052522f",
       "254ec123-fca9-48e1-ba2b-5e16bab38a6a",
@@ -981,14 +981,14 @@
     "SubCategory": "Outlook",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-    "Description": "With Outlook, you can add an email account, create and send email, manage calander and contacts, and collaborate",
+    "Description": "With Outlook, you can add an email account, create and send email, manage calendar and contacts, and collaborate",
     "StatusTag": "",
     "Assets": [
       "e9da47c4-9b89-4b49-b945-a204aeea6726",
       "19c32deb-08b6-4f90-a211-02bc5f77f360",
       "631a182a-21e0-4e41-8fa2-0d83e55da02d",
       "63bf693d-76d4-410b-89d2-a3b63c729c22",
-      "a2658b93-ca21-42fb-9f19-a61662f669fe"
+      "c12ff0ac-05b4-4655-afe0-24ba2986849b"
     ]
   },
   {
@@ -1027,7 +1027,7 @@
     "StatusTag": "",
     "Assets": [
       "c6c261e3-d50a-43a6-816f-35fe1e53acc6",
-      "400d4d45-8e2d-46a2-8cb5-ddabf12489ed",
+      "19c32deb-08b6-4f90-a211-02bc5f77f360",
       "31fb24f9-e698-4789-b92a-f0e777f774ca",
       "d32cd5ad-c7c5-49df-814d-4c17a5d3beb0",
       "8e564127-15a0-4cf6-b974-f2101f5e256e"
@@ -1139,7 +1139,7 @@
       "7ef0d0f2-dc24-45d3-808b-be9747ee69f6",
       "2659f76c-3297-4ff2-ac55-4aa5eda8113b",
       "07fcfb59-f410-4e52-9c60-3b069a805ee5",
-      "5f9f856f-72d0-461c-a4c0-6f8dc160eda8"
+      "c12ff0ac-05b4-4655-afe0-24ba2986849b"
     ]
   },
   {
@@ -1337,7 +1337,7 @@
       "21722d7d-bcb1-4ee0-b86a-6c107bf646c7",
       "0c5c3345-0a61-4532-971c-5a1e0970fde3",
       "4d1e11bf-8ddc-499d-b889-2b48d10b1ce8",
-      "539608ac-4725-455e-aea0-9ca1f769849f"
+      "92b93131-fbef-4894-8ba2-2fdfa90c5b32"
     ]
   },
   {
@@ -1421,7 +1421,7 @@
       "d7c23ed3-a80a-4ff4-ade5-91211a7614f3",
       "bc819ecd-9887-4a15-8eda-d90cbc58f8fb",
       "b3d7f2af-c6e9-46e7-96a7-dabda4423dd7",
-      "390eeeef-f874-47d2-b50f-a30dec8be627"
+      "c12ff0ac-05b4-4655-afe0-24ba2986849b"
     ]
   },
   {
@@ -1626,7 +1626,7 @@
       "b6a102d1-6972-4df2-993c-587d1c4d1298",
       "873100a0-0fac-4f93-88f7-1a0945ec93ed",
       "93123baa-08fc-408d-af15-a6a87e7b545f",
-      "4efd5366-e471-4f9f-b7cf-a40f3e6f8f01"
+      "c12ff0ac-05b4-4655-afe0-24ba2986849b"
     ]
   },
   {
@@ -1710,7 +1710,7 @@
       "fe43c972-5a95-4071-86d4-423a64a3b21e",
       "ee61ecb0-a0bb-4c39-8682-f47fe7674f05",
       "c351e8df-080c-4eca-b8c7-37dc3fb1a9c8",
-      "31518aac-e136-4ac9-badc-0d0de4e18819",
+      "c12ff0ac-05b4-4655-afe0-24ba2986849b",
       "9ca782c0-a32e-43e8-ba65-057c58da72c6",
       "cbbf3772-4fdd-4f49-aa92-dc2203c062d7"
     ]
@@ -1866,7 +1866,7 @@
     "Description": "How teams connect and exchange information is evolving. People expect to collaborate with teammates, wherever they are located.",
     "StatusTag": "New",
     "Assets": [
-      "51a6abf0-6f5b-4092-9872-5b517c5a8bd8",
+      "702a2977-e662-4038-bef5-bdf8ee47b17b",
       "21df0985-20fe-4d1e-a032-4b0837f3bdac",
       "c6385f9c-cf80-4eba-84da-645994e56ebb",
       "919b4bd2-6c85-4792-bf60-57258cabe71d",
@@ -1888,8 +1888,8 @@
     "Description": "Use Microsoft 365 across your organization",
     "StatusTag": "New",
     "Assets": [
-      "f24fad2b-1455-4f3c-9e17-d843a6936f70",
-      "5a3f5f60-4cc8-4bf8-bd41-d99c4c297589",
+      "729f9fce-3aa6-4478-888c-a1543918c284",
+      "c17b6824-cc22-478f-8757-497cc6b57121",
       "baf5345c-fee6-4900-ba44-1f53a1dbfeb9"
     ]
   },
@@ -2175,7 +2175,7 @@
     "Description": "Upload and find files in Teams",
     "StatusTag": "New",
     "Assets": [
-      "d46890d8-e8bf-4642-97cd-6379b0c7dddd",
+      "3993d9e5-06b3-4654-9e8f-9d2de79d2f8e",
       "dca01f0e-7335-4c6f-8dd1-d419870e3239"
     ]
   },
@@ -2561,10 +2561,10 @@
     "Description": "When you have a place to create and make decisions as a team, there’s no limit to what you can achieve. Learn how to use Teams to bring everything together in a shared workspace where you can chat, meet, share files, and work with business apps.",
     "StatusTag": "",
     "Assets": [
-      "062f6252-5feb-4b80-a197-d9dd383aa31c",
-      "0dd16bbf-febf-4de4-95d4-853772ea3809",
+      "b98d533f-118e-4bae-bf44-3df2470c2b12",
+      "702a2977-e662-4038-bef5-bdf8ee47b17b",
       "77d55b36-b274-4fee-acbe-978ccf14c7e6",
-      "94d98315-06e7-454c-819d-d5991408bb04",
+      "88f61508-284d-417f-a53d-9e082164050b",
       "afe89455-43ed-47b9-af79-a82a374ba0bd",
       "b99bbb59-0e61-4a57-a01e-72f95ae8b815",
       "37d98b29-08fb-4b8e-ab97-b129a0e9966d"
@@ -2585,13 +2585,12 @@
     "Description": "Get things done from virtually anywhere, faster. Learn how to take advantage of the Office integration with OneDrive and SharePoint to access, share, and coauthor documents.",
     "StatusTag": "",
     "Assets": [
-      "ba05d4f5-a174-4879-b1a1-0c6f77c1396b",
+      "10f5c3fd-b0f6-40e2-9059-04735ffe01b7",
       "a6541b69-3ef6-41ba-a2bb-90c7fcf41c16",
       "93439db5-c08a-4a93-b3b9-9f3ecc63fcfc",
       "dcffcf83-2a0e-4bdd-9212-adc28e1a3c04",
       "b5a3ce62-bf38-45cd-aef4-328f868755fd",
-      "5a0d2fa9-1c47-4d5a-931b-a3d81f2e336f",
-      "15474865-f653-48f5-8562-45df7e3ea2d4"
+      "5a0d2fa9-1c47-4d5a-931b-a3d81f2e336f"
     ]
   },
   {
@@ -2609,15 +2608,15 @@
     "Description": "Learn how to use OneDrive to share Microsoft Office documents, other files, and entire folders with people. The files and folders you store in OneDrive are private until you decide to share them and you can stop sharing at any time.",
     "StatusTag": "",
     "Assets": [
-      "ea9e13b0-d413-4b4e-894d-177d1aee0e4f",
-      "4fe9c70f-7831-4beb-982e-ac9dc75fbfe6",
+      "10f5c3fd-b0f6-40e2-9059-04735ffe01b7",
+      "110ca7b0-ae3d-4e51-a14c-9d583e2d630c",
       "af839c61-f18f-4ae5-9698-325d3cf14f36",
-      "98634873-26f3-48be-9f4a-153235b6633d",
-      "03103cb6-6538-4e92-90c0-567634fb60ef",
-      "6b95a532-e655-437b-afef-27bf639f3662",
-      "1e8032c4-d72b-498c-9d8e-dc69e5adb63c",
-      "39723e1d-126a-42cc-8990-1e3c0633d18b",
-      "448d4051-3a43-4d2e-b1d8-de0aa03c069e"
+      "e1f59717-2f02-494d-93c6-8ef9613e82ba",
+      "72f26d6c-bf9e-432c-8b96-e3c2437f5b65",
+      "3b8246e0-cc3c-4ae7-b4e1-4b4b37d27f68",
+      "62e8d748-7877-420f-b600-24b56562aa70",
+      "03bb3e62-d16f-4658-a632-ed30121560ef",
+      "d26c1b0d-8047-42bf-9104-f6e9a3576e62"
     ]
   },
   {
@@ -2635,12 +2634,12 @@
     "Description": "SharePoint powers sharing and collaboration on the intranet. Learn how to manage and share files or folders—within team sites or intranet sites, and inside or outside your organization.",
     "StatusTag": "",
     "Assets": [
-      "de53b8f0-f5ab-4fb5-aa46-ba6279ded622",
-      "54c8c131-59dc-475f-8e61-42d3e30cfa29",
+      "c17b6824-cc22-478f-8757-497cc6b57121",
+      "4411e38f-9bc5-4ecc-bd33-3dbe939ac84c",
       "0b61f827-a776-4d15-84df-d297b841e73d",
-      "c288e365-f097-424e-a3ae-799fb97c20e9",
-      "6e01573e-49cc-45f0-8786-e0b89288ac04",
-      "2fc65981-4ec2-4cbc-b70b-e704ce906d6c"
+      "87a96948-4dd7-43e4-aca1-53f3e18bea9b",
+      "62e8d748-7877-420f-b600-24b56562aa70",
+      "92b93131-fbef-4894-8ba2-2fdfa90c5b32"
     ]
   },
   {
