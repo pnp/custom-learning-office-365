@@ -6777,13 +6777,13 @@
   },
   {
     "Id": "003be9d3-ccf7-4eea-be34-9501f6b38fbc",
-    "Title": "Importer des contacts Gmail",
+    "Title": "Transférer des contacts entre Outlook et Google Gmail",
     "Description": "",
-    "Url": "https://support.office.com/fr-fr/f1/article/003be9d3-ccf7-4eea-be34-9501f6b38fbc?embed=true&themeid=-1",
+    "Url": "https://support.office.com/fr-fr/f1/article/12034a90-acbd-4dd4-87db-946815cf55cb?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -6878,11 +6878,11 @@
     "Id": "1ef8f35b-04be-4bd0-ac9c-6d6a146887ce",
     "Title": "Ajouter un contact",
     "Description": "",
-    "Url": "https://support.office.com/fr-fr/f1/article/1ef8f35b-04be-4bd0-ac9c-6d6a146887ce?embed=true&themeid=-1",
+    "Url": "https://support.office.com/fr-fr/f1/article/ca469928-4b1c-47e4-ae85-15b6345ce043?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -6966,11 +6966,11 @@
     "Id": "3f73d218-52d6-4f88-a733-9ff37073ee4c",
     "Title": "Créer un groupe de contacts",
     "Description": "",
-    "Url": "https://support.office.com/fr-fr/f1/article/3f73d218-52d6-4f88-a733-9ff37073ee4c?embed=true&themeid=-1",
+    "Url": "https://support.office.com/fr-fr/f1/article/88ff6c60-0a1d-4b54-8c9d-9e1a71bc3023?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -7096,13 +7096,13 @@
   },
   {
     "Id": "6de6ee52-751b-4405-b389-850572b15306",
-    "Title": "Créer des tâches et une liste de tâches",
+    "Title": "Créer des tâches avec To Do dans Outlook",
     "Description": "",
-    "Url": "https://support.office.com/fr-fr/f1/article/6de6ee52-751b-4405-b389-850572b15306?embed=true&themeid=-1",
+    "Url": "https://support.office.com/fr-fr/f1/article/78aa07e2-cf7e-4eda-9bd1-db1b9d8d49db?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -7195,13 +7195,13 @@
   },
   {
     "Id": "966eb60e-a451-4ade-8025-eead2bfe18ef",
-    "Title": "Exporter des contacts",
+    "Title": "Importer ou exporter des contacts dans Outlook",
     "Description": "",
-    "Url": "https://support.office.com/fr-fr/f1/article/966eb60e-a451-4ade-8025-eead2bfe18ef?embed=true&themeid=-1",
+    "Url": "https://support.office.com/fr-fr/f1/article/bb796340-b58a-46c1-90c7-b549b8f3c5f8?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
