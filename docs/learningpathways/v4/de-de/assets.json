@@ -6843,13 +6843,13 @@
   },
   {
     "Id": "11f6c52d-9a72-4bfb-9cd2-c1857156dc5b",
-    "Title": "Suchen nach Kalenderelementen",
+    "Title": "Suchen nach Kalenderelementen in Outlook",
     "Description": "",
     "Url": "https://support.office.com/de-de/f1/article/11f6c52d-9a72-4bfb-9cd2-c1857156dc5b?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -6920,13 +6920,13 @@
   },
   {
     "Id": "2fcf4f4f-8d46-4d8b-ae79-5d94549e531b",
-    "Title": "Freigeben Ihres Kalenders",
+    "Title": "Freigeben Ihres Kalenders in Outlook",
     "Description": "",
     "Url": "https://support.office.com/de-de/f1/article/2fcf4f4f-8d46-4d8b-ae79-5d94549e531b?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -6986,13 +6986,13 @@
   },
   {
     "Id": "4b87e762-c56b-4bcf-8b56-95fd8b6d241b",
-    "Title": "Planen einer Online-Besprechung",
+    "Title": "Planen einer Onlinebesprechung in Outlook",
     "Description": "",
     "Url": "https://support.office.com/de-de/f1/article/4b87e762-c56b-4bcf-8b56-95fd8b6d241b?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -7008,13 +7008,13 @@
   },
   {
     "Id": "59230c47-6fe9-46bd-8646-e1118e9eb973",
-    "Title": "Verwenden von Kalenderkategorien und Erinnerungen",
+    "Title": "Verwenden von Kalenderkategorien und Erinnerungen in Outlook",
     "Description": "",
     "Url": "https://support.office.com/de-de/f1/article/59230c47-6fe9-46bd-8646-e1118e9eb973?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -7102,7 +7102,7 @@
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -7113,7 +7113,7 @@
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -7173,13 +7173,13 @@
   },
   {
     "Id": "8e8364e1-400e-4c0f-a573-fe76b5a2d379",
-    "Title": "Importieren von Kalendern",
+    "Title": "Kalender nach Outlook importieren",
     "Description": "",
     "Url": "https://support.office.com/de-de/f1/article/8e8364e1-400e-4c0f-a573-fe76b5a2d379?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -8422,7 +8422,7 @@
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
