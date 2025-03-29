@@ -6805,7 +6805,7 @@
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -6915,7 +6915,7 @@
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -7041,13 +7041,13 @@
   },
   {
     "Id": "62a04aec-5562-458e-89a3-07136c6eeff1",
-    "Title": "Swipe naar & postvak IN beheren",
+    "Title": "Naar rechts vegen & postvak in in Outlook Mobile",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/621bbc87-c743-4099-9d86-30aad418b020?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -7162,13 +7162,13 @@
   },
   {
     "Id": "86e20346-b8a7-49ef-b73e-962b72566ce3",
-    "Title": "RSVP om direct uit te nodigen",
+    "Title": "RSVP voor uitnodigingen direct in Outlook Mobile",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/f42861b5-ac25-4887-af57-c80efc8ea3d9?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
