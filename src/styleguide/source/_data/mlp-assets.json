@@ -7095,13 +7095,13 @@
   },
   {
     "Id": "555babd1-f307-48ef-a2cf-f6ea1aae6fdc",
-    "Title": "Scan or tap to add contacts",
+    "Title": "Scan or tap to add contacts in Outlook mobile",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/4818ef14-0fc8-4ec2-bb4d-440ea8cae17b?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -7161,13 +7161,13 @@
   },
   {
     "Id": "672f8ae7-1843-4dff-acb4-d3a998f5f392",
-    "Title": "Learn about contacts",
+    "Title": "Learn about contacts in Outlook mobile",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/72518d01-9739-435a-8722-0da211a885b1?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -7381,13 +7381,13 @@
   },
   {
     "Id": "f21a4063-db88-40ab-9376-8e324711f6d8",
-    "Title": "Use @mentions",
+    "Title": "Use @mentions in Outlook mobile",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/ae422550-c61b-4daf-897b-748abe92e31f?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {

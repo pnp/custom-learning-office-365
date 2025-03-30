@@ -6898,24 +6898,24 @@
   },
   {
     "Id": "0b32ebf0-fae9-4815-a061-94048d0799ef",
-    "Title": "Manage your notifications",
+    "Title": "Manage your notifications in Outlook mobile",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/d3b5a22b-919c-4d30-a26f-ae9a0a78ba90?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
     "Id": "0e8be5a2-c2e1-4702-bb76-0ee7228b9d35",
-    "Title": "Add folders and groups to Favorites",
+    "Title": "Add frequently used folders & groups to Favorites in Outlook mobile",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/450021d7-0035-4276-8817-351cf2f493d2?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -7085,13 +7085,13 @@
   },
   {
     "Id": "555babd1-f307-48ef-a2cf-f6ea1aae6fdc",
-    "Title": "Scan or tap to add contacts",
+    "Title": "Scan or tap to add contacts in Outlook mobile",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/4818ef14-0fc8-4ec2-bb4d-440ea8cae17b?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -7113,7 +7113,7 @@
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -7151,24 +7151,24 @@
   },
   {
     "Id": "672f8ae7-1843-4dff-acb4-d3a998f5f392",
-    "Title": "Learn about contacts",
+    "Title": "Learn about contacts in Outlook mobile",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/72518d01-9739-435a-8722-0da211a885b1?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
     "Id": "6d35e08b-ca70-42b8-abf7-cca1ddbd267d",
-    "Title": "Favorite contacts and set notifications",
+    "Title": "Favorite contacts & set notifications in Outlook mobile",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/d7cce114-3f45-4d33-8683-af4f303d6e2d?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -7234,7 +7234,7 @@
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -7371,13 +7371,13 @@
   },
   {
     "Id": "f21a4063-db88-40ab-9376-8e324711f6d8",
-    "Title": "Use @mentions",
+    "Title": "Use @mentions in Outlook mobile",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/ae422550-c61b-4daf-897b-748abe92e31f?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
