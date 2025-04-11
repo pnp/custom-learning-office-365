@@ -3361,7 +3361,7 @@
   },
   {
     "Id": "003be9d3-ccf7-4eea-be34-9501f6b38fbc",
-    "Title": "Import contacts",
+    "Title": "Transfer contacts between Outlook and Google Gmail",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/003be9d3-ccf7-4eea-be34-9501f6b38fbc?embed=true&ns=trainingservices&version=1",
     "Level": "Beginner",
@@ -3377,7 +3377,7 @@
   },
   {
     "Id": "966eb60e-a451-4ade-8025-eead2bfe18ef",
-    "Title": "Export contacts",
+    "Title": "Import or export contacts in Outlook",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/966eb60e-a451-4ade-8025-eead2bfe18ef?embed=true&ns=trainingservices&version=1",
     "Level": "Beginner",
@@ -3393,7 +3393,7 @@
   },
   {
     "Id": "6de6ee52-751b-4405-b389-850572b15306",
-    "Title": "Create tasks and a to-do list",
+    "Title": "Create tasks with To Do in Outlook",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/6de6ee52-751b-4405-b389-850572b15306?embed=true&ns=trainingservices&version=1",
     "Level": "Beginner",

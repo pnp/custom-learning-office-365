@@ -380,13 +380,17 @@ export class DataService implements IDataService {
           if (!includes(categoryIds, pl.CatId)) {
             abandonedCount++;
             pl.CatId = "-1";
+            //Hide abandoned playlists
+            if (!includes(this.customization.HiddenPlaylistsIds, pl.CatId)) {
+              this.customization.HiddenPlaylistsIds.push(pl.Id)
+            }
           }
         });
         if (abandonedCount > 0) {
           const abandonedSubCat = new SubCat("-1", strings.AbandonedPlaylist, "", "", "", "Microsoft", [], [], 0);
           const abandonedCat = new SubCat("0", strings.Abandoned, "", "", "", "Microsoft", [abandonedSubCat], [], 0);
           this.categoriesAll.unshift(abandonedCat);
-          m.Categories.unshift(abandonedCat);
+          //m.Categories.unshift(abandonedCat);
         }
 
         //Get assets and custom assets

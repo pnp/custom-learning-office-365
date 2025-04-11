@@ -1784,7 +1784,7 @@
       "19c32deb-08b6-4f90-a211-02bc5f77f360",
       "ee4e7b9c-0153-4722-9efd-ba34f1976227",
       "cc0e480f-973e-4412-a27b-8a52108d6d51",
-      "aa6be949-6848-449a-8f04-ad994056cc8d",
+      "4b87e762-c56b-4bcf-8b56-95fd8b6d241b",
       "26858ae7-bcd5-4a8d-96f7-182473c34bd8",
       "dab74563-548b-4585-8fc8-1f399ccad66e"
     ]
@@ -2220,7 +2220,7 @@
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
     "Description": "Houd uw contactpersonen en taken bij in Outlook. Informatie over het toevoegen van een contactpersoon, het maken van een groep contactpersonen, het importeren van Gmail-contactpersonen, het exporteren van contactpersonen en het maken van taken en een takenlijst.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "1ef8f35b-04be-4bd0-ac9c-6d6a146887ce",
@@ -2241,7 +2241,7 @@
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
     "Description": "Meer informatie over het gebruik van uw agenda in Outlook om uw planning te organiseren. Schakel uw agendaweergave tussen dag, week of maand, maak afspraken en vergaderingen, plan een onlinevergadering, deel uw agenda, importeer agenda's, zoek naar agenda-items, gebruik kleurcategorieën en herinneringen, zodat u nooit een belangrijke vergadering mist en schakel een voorbeeld van gedeelde agenda in.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "6fb9225d-9f9d-456d-8c81-8437bfcd3ebf",
@@ -2264,7 +2264,7 @@
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
     "Description": "Beheer uw Postvak IN in Outlook mobiel. Lees hoe u uw e-mailberichten kunt afspelen, RSVP om direct uitnodigingen af te spelen, naar links te swipen en naar rechts te swipen om uw Postvak IN te beheren, berichten te sorteren in Focused en Overige om u te concentreren op wat belangrijk is en Android-widgets te gebruiken om de hulpprogramma's te openen die u de hele dag gebruikt, elke dag direct vanaf het startscherm van Android.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "62a04aec-5562-458e-89a3-07136c6eeff1",
@@ -2284,7 +2284,7 @@
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
     "Description": "Gebruik Outlook mobiele telefoon om uw tijd te beheren, vergaderingen te plannen en te zien wanneer iedereen beschikbaar is. Gebruik de locatieassistent voor de vergadering, verzend de beschikbaarheid van de vergadering, deel uw agenda, voeg agenda's samen en combineer agenda's en beheer uw meldingen. Meer informatie over de tien beste Outlook mobiele tips.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "672f8ae7-1843-4dff-acb4-d3a998f5f392",
@@ -2308,7 +2308,7 @@
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
     "Description": "Gebruik Personen en verbindingen in Outlook Mobile voor meer informatie over contactpersonen, het scannen van contactpersonen of het toevoegen van contactpersonen. Gebruik @mentions, favoriete contactpersonen en stel meldingen in of voeg mappen en groepen toe aan favorieten.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "672f8ae7-1843-4dff-acb4-d3a998f5f392",
@@ -2329,7 +2329,7 @@
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
     "Description": "Lees hoe u kunt zoeken in Outlook mobiele telefoon, bestanden en foto's kunt delen, uw agenda kunt doorzoeken op titel, onderwerp, e-mailadres of gebeurtenisbeschrijving en het pictogram Zoeken kunt gebruiken om e-mailbijlagen te zoeken.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "da0fcac5-7ef3-4241-a1ff-68faaeedbfba",

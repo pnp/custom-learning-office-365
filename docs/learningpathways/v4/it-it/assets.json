@@ -6777,13 +6777,13 @@
   },
   {
     "Id": "003be9d3-ccf7-4eea-be34-9501f6b38fbc",
-    "Title": "Importare contatti di Gmail",
+    "Title": "Trasferimento di contatti tra Outlook e Google Gmail",
     "Description": "",
-    "Url": "https://support.office.com/it-it/f1/article/003be9d3-ccf7-4eea-be34-9501f6b38fbc?embed=true&themeid=-1",
+    "Url": "https://support.office.com/it-it/f1/article/12034a90-acbd-4dd4-87db-946815cf55cb?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -6805,7 +6805,7 @@
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -6821,24 +6821,24 @@
   },
   {
     "Id": "0b32ebf0-fae9-4815-a061-94048d0799ef",
-    "Title": "Gestire le notifiche",
+    "Title": "Gestire le notifiche in Outlook Mobile",
     "Description": "",
     "Url": "https://support.office.com/it-it/f1/article/d3b5a22b-919c-4d30-a26f-ae9a0a78ba90?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
     "Id": "0e8be5a2-c2e1-4702-bb76-0ee7228b9d35",
-    "Title": "Aggiungere cartelle e gruppi ai Preferiti",
+    "Title": "Aggiungere cartelle usate di frequente & gruppi ai Preferiti in Outlook Mobile",
     "Description": "",
     "Url": "https://support.office.com/it-it/f1/article/450021d7-0035-4276-8817-351cf2f493d2?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -6854,13 +6854,13 @@
   },
   {
     "Id": "11f6c52d-9a72-4bfb-9cd2-c1857156dc5b",
-    "Title": "Cercare elementi del calendario",
+    "Title": "Cercare elementi del calendario in Outlook",
     "Description": "",
     "Url": "https://support.office.com/it-it/f1/article/11f6c52d-9a72-4bfb-9cd2-c1857156dc5b?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -6878,11 +6878,11 @@
     "Id": "1ef8f35b-04be-4bd0-ac9c-6d6a146887ce",
     "Title": "Aggiungere un contatto",
     "Description": "",
-    "Url": "https://support.office.com/it-it/f1/article/1ef8f35b-04be-4bd0-ac9c-6d6a146887ce?embed=true&themeid=-1",
+    "Url": "https://support.office.com/it-it/f1/article/ca469928-4b1c-47e4-ae85-15b6345ce043?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -6915,7 +6915,7 @@
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -6931,13 +6931,13 @@
   },
   {
     "Id": "2fcf4f4f-8d46-4d8b-ae79-5d94549e531b",
-    "Title": "Condividere il calendario",
+    "Title": "Condividere il calendario in Outlook",
     "Description": "",
     "Url": "https://support.office.com/it-it/f1/article/2fcf4f4f-8d46-4d8b-ae79-5d94549e531b?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -6966,11 +6966,11 @@
     "Id": "3f73d218-52d6-4f88-a733-9ff37073ee4c",
     "Title": "Creare un gruppo di contatti",
     "Description": "",
-    "Url": "https://support.office.com/it-it/f1/article/3f73d218-52d6-4f88-a733-9ff37073ee4c?embed=true&themeid=-1",
+    "Url": "https://support.office.com/it-it/f1/article/88ff6c60-0a1d-4b54-8c9d-9e1a71bc3023?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -6997,57 +6997,57 @@
   },
   {
     "Id": "4b87e762-c56b-4bcf-8b56-95fd8b6d241b",
-    "Title": "Pianificare una riunione online",
+    "Title": "Pianificare una riunione online in Outlook",
     "Description": "",
     "Url": "https://support.office.com/it-it/f1/article/4b87e762-c56b-4bcf-8b56-95fd8b6d241b?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
     "Id": "555babd1-f307-48ef-a2cf-f6ea1aae6fdc",
-    "Title": "Digitalizzare o toccare per aggiungere contatti",
+    "Title": "Digitalizzare o toccare per aggiungere contatti in Outlook Mobile",
     "Description": "",
     "Url": "https://support.office.com/it-it/f1/article/4818ef14-0fc8-4ec2-bb4d-440ea8cae17b?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
     "Id": "59230c47-6fe9-46bd-8646-e1118e9eb973",
-    "Title": "Usare le categorie e i promemoria del calendario",
+    "Title": "Usare le categorie del calendario e i promemoria in Outlook",
     "Description": "",
     "Url": "https://support.office.com/it-it/f1/article/59230c47-6fe9-46bd-8646-e1118e9eb973?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
     "Id": "615b74e8-37e7-43a3-9ac3-a41c5e30843a",
-    "Title": "10 suggerimenti Outlook per dispositivi mobili",
+    "Title": "10 suggerimenti su Outlook Mobile",
     "Description": "",
     "Url": "https://support.office.com/it-it/f1/article/cb00cf88-2cee-4a71-a833-061a96d774ce?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
     "Id": "62a04aec-5562-458e-89a3-07136c6eeff1",
-    "Title": "Scorrere rapidamente verso destra & gestire la posta in arrivo",
+    "Title": "Scorrere rapidamente verso destra & gestire la posta in arrivo in Outlook Mobile",
     "Description": "",
     "Url": "https://support.office.com/it-it/f1/article/621bbc87-c743-4099-9d86-30aad418b020?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -7074,35 +7074,35 @@
   },
   {
     "Id": "672f8ae7-1843-4dff-acb4-d3a998f5f392",
-    "Title": "Informazioni sui contatti",
+    "Title": "Informazioni sui contatti in Outlook Mobile",
     "Description": "",
     "Url": "https://support.office.com/it-it/f1/article/72518d01-9739-435a-8722-0da211a885b1?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
     "Id": "6d35e08b-ca70-42b8-abf7-cca1ddbd267d",
-    "Title": "Contatti preferiti e impostazione delle notifiche",
+    "Title": "Contatti preferiti & impostare le notifiche in Outlook Mobile",
     "Description": "",
     "Url": "https://support.office.com/it-it/f1/article/d7cce114-3f45-4d33-8683-af4f303d6e2d?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
     "Id": "6de6ee52-751b-4405-b389-850572b15306",
-    "Title": "Creare attività e un elenco attività",
+    "Title": "Creare attività con To Do in Outlook",
     "Description": "",
-    "Url": "https://support.office.com/it-it/f1/article/6de6ee52-751b-4405-b389-850572b15306?embed=true&themeid=-1",
+    "Url": "https://support.office.com/it-it/f1/article/78aa07e2-cf7e-4eda-9bd1-db1b9d8d49db?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -7113,7 +7113,7 @@
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -7124,7 +7124,7 @@
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -7157,18 +7157,18 @@
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
     "Id": "86e20346-b8a7-49ef-b73e-962b72566ce3",
-    "Title": "RSVP agli inviti all'istante",
+    "Title": "RSVP per invitare istantaneamente in Outlook Mobile",
     "Description": "",
     "Url": "https://support.office.com/it-it/f1/article/f42861b5-ac25-4887-af57-c80efc8ea3d9?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -7184,24 +7184,24 @@
   },
   {
     "Id": "8e8364e1-400e-4c0f-a573-fe76b5a2d379",
-    "Title": "Importare calendari",
+    "Title": "Importare calendari in Outlook",
     "Description": "",
     "Url": "https://support.office.com/it-it/f1/article/8e8364e1-400e-4c0f-a573-fe76b5a2d379?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
     "Id": "966eb60e-a451-4ade-8025-eead2bfe18ef",
-    "Title": "Esportare contatti",
+    "Title": "Importare o esportare contatti in Outlook",
     "Description": "",
-    "Url": "https://support.office.com/it-it/f1/article/966eb60e-a451-4ade-8025-eead2bfe18ef?embed=true&themeid=-1",
+    "Url": "https://support.office.com/it-it/f1/article/bb796340-b58a-46c1-90c7-b549b8f3c5f8?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -7261,13 +7261,13 @@
   },
   {
     "Id": "da0fcac5-7ef3-4241-a1ff-68faaeedbfba",
-    "Title": "Ricerca resa semplice",
+    "Title": "Ricerca semplificata in Outlook Mobile",
     "Description": "",
     "Url": "https://support.office.com/it-it/f1/article/07df353b-e866-4c49-9d7c-dbbdf00a9223?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -7294,13 +7294,13 @@
   },
   {
     "Id": "f21a4063-db88-40ab-9376-8e324711f6d8",
-    "Title": "Usare @mentions",
+    "Title": "Usare @mentions in Outlook Mobile",
     "Description": "",
     "Url": "https://support.office.com/it-it/f1/article/ae422550-c61b-4daf-897b-748abe92e31f?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -8433,7 +8433,7 @@
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {

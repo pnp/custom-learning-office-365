@@ -1784,7 +1784,7 @@
       "19c32deb-08b6-4f90-a211-02bc5f77f360",
       "ee4e7b9c-0153-4722-9efd-ba34f1976227",
       "cc0e480f-973e-4412-a27b-8a52108d6d51",
-      "aa6be949-6848-449a-8f04-ad994056cc8d",
+      "4b87e762-c56b-4bcf-8b56-95fd8b6d241b",
       "26858ae7-bcd5-4a8d-96f7-182473c34bd8",
       "dab74563-548b-4585-8fc8-1f399ccad66e"
     ]
@@ -2220,7 +2220,7 @@
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
     "Description": "Effectuer le suivi de vos contacts et tâches dans Outlook. Découvrez comment ajouter un contact, créer un groupe de contacts, importer des contacts Gmail, exporter des contacts et créer des tâches et une liste de tâches.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "1ef8f35b-04be-4bd0-ac9c-6d6a146887ce",
@@ -2241,7 +2241,7 @@
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
     "Description": "Découvrez comment utiliser votre calendrier dans Outlook pour organiser votre planning. Changez d’affichage calendrier entre le jour, la semaine ou le mois, créez des rendez-vous et des réunions, programmez une réunion en ligne, partagez votre calendrier, importez des calendriers, recherchez des éléments de calendrier, utilisez des catégories de couleurs et des rappels pour ne jamais rater une réunion importante et activer l’aperçu du calendrier partagé.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "6fb9225d-9f9d-456d-8c81-8437bfcd3ebf",
@@ -2264,7 +2264,7 @@
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
     "Description": "Gérez votre boîte de réception dans Outlook mobile. Découvrez comment lire vos e-mails, RSVP et invitations instantanément, balayer vers la gauche et balayez vers la droite pour gérer votre boîte de réception, trier les messages dans les dossiers Focused et Autres pour vous concentrer sur l’essentiel et utiliser les widgets Android pour accéder aux outils que vous utilisez tous les jours, directement à partir de votre écran d’accueil Android.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "62a04aec-5562-458e-89a3-07136c6eeff1",
@@ -2284,7 +2284,7 @@
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
     "Description": "Utilisez Outlook mobile pour gérer votre temps, planifier des réunions et voir quand tout le monde est disponible. Utilisez l’Assistant Localisation de réunion, envoyez la disponibilité pour les réunions, partagez votre calendrier, fusionnez et combinez des calendriers, et gérez vos notifications. Découvrez les 10 principaux conseils Outlook’utilisation des appareils mobiles.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "672f8ae7-1843-4dff-acb4-d3a998f5f392",
@@ -2308,7 +2308,7 @@
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
     "Description": "Utilisez Contacts et connexions dans Outlook Mobile pour en savoir plus sur les contacts, analyser les contacts ou ajouter des contacts. Utilisez @mentions, des contacts favoris et définissez des notifications ou ajoutez des dossiers et des groupes aux favoris.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "672f8ae7-1843-4dff-acb4-d3a998f5f392",
@@ -2329,7 +2329,7 @@
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
     "Description": "Découvrez comment effectuer une recherche dans Outlook mobile, partager des fichiers et des photos, effectuer une recherche dans votre calendrier par titre, objet, adresse e-mail ou description de l’événement, et utiliser l’icône de recherche pour rechercher des pièces jointes.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "da0fcac5-7ef3-4241-a1ff-68faaeedbfba",

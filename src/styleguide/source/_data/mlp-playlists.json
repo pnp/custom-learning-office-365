@@ -1786,7 +1786,7 @@
       "19c32deb-08b6-4f90-a211-02bc5f77f360",
       "ee4e7b9c-0153-4722-9efd-ba34f1976227",
       "cc0e480f-973e-4412-a27b-8a52108d6d51",
-      "aa6be949-6848-449a-8f04-ad994056cc8d",
+      "4b87e762-c56b-4bcf-8b56-95fd8b6d241b",
       "26858ae7-bcd5-4a8d-96f7-182473c34bd8",
       "dab74563-548b-4585-8fc8-1f399ccad66e"
     ]
@@ -2222,7 +2222,7 @@
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
     "Description": "Keep track of your contacts and tasks in Outlook. Learn how to add a contact, create a contact group, import Gmail contacts, export contacts, and create tasks and a to-do list.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "1ef8f35b-04be-4bd0-ac9c-6d6a146887ce",
@@ -2243,7 +2243,7 @@
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
     "Description": "Learn how to use your calendar in Outlook to organize your schedule. Switch your calendar view between day, week, or month, create appointments and meetings, schedule an online meeting, share your calendar, import calendars, search for calendar items, use color categories and reminders so you never miss an important meeting, and turn on Shared Calendar preview.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "6fb9225d-9f9d-456d-8c81-8437bfcd3ebf",
@@ -2266,7 +2266,7 @@
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
     "Description": "Manage your inbox in Outlook mobile. Learn how to play your emails, RSVP to invites instantly, swipe left and swipe right to manage your inbox, sort messages into Focused and Other to focus on what matters, and use Android widgets to access the tools you use all day, every day right from your Android home screen.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "62a04aec-5562-458e-89a3-07136c6eeff1",
