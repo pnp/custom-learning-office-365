@@ -2308,7 +2308,7 @@
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
     "Description": "Use Contactos y Conexiones en Outlook Mobile para obtener información sobre los contactos, analizar contactos o agregar contactos. Usa @mentions, tus contactos favoritos y establece notificaciones o agrega carpetas y grupos a favoritos.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "672f8ae7-1843-4dff-acb4-d3a998f5f392",
@@ -2329,7 +2329,7 @@
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
     "Description": "Obtenga información sobre cómo buscar en un dispositivo Outlook móvil, compartir archivos y fotos, buscar en el calendario por título, asunto, dirección de correo electrónico o descripción del evento y usar el icono Buscar para buscar datos adjuntos de correo electrónico.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "da0fcac5-7ef3-4241-a1ff-68faaeedbfba",

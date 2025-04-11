@@ -2308,7 +2308,7 @@
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
     "Description": "Outlook モバイルでユーザーと接続を使用して、連絡先の詳細を確認したり、連絡先をスキャンしたり、連絡先を追加したりできます。 @mentions、お気に入りの連絡先を使用し、通知を設定するか、フォルダーやグループをお気に入りに追加します。",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "672f8ae7-1843-4dff-acb4-d3a998f5f392",
@@ -2329,7 +2329,7 @@
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
     "Description": "Outlook mobile で検索する方法、ファイルと写真を共有する方法、タイトル、件名、メール アドレス、イベントの説明で予定表を検索する方法、および [検索] アイコンを使用してメールの添付ファイルを検索する方法について説明します。",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "da0fcac5-7ef3-4241-a1ff-68faaeedbfba",

@@ -7261,13 +7261,13 @@
   },
   {
     "Id": "da0fcac5-7ef3-4241-a1ff-68faaeedbfba",
-    "Title": "Pesquisa simples",
+    "Title": "Pesquisa simplificada no Outlook para dispositivos móveis",
     "Description": "",
     "Url": "https://support.office.com/pt-br/f1/article/07df353b-e866-4c49-9d7c-dbbdf00a9223?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {

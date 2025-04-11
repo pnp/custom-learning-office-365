@@ -2308,7 +2308,7 @@
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
     "Description": "使用 Outlook 移动版中的人员和连接了解联系人、扫描联系人或添加联系人。 使用@mentions、收藏的联系人和设置通知，或将文件夹和组添加到收藏夹。",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "672f8ae7-1843-4dff-acb4-d3a998f5f392",
@@ -2329,13 +2329,9 @@
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
     "Description": "了解如何在移动Outlook搜索、共享文件和照片、按标题、主题、电子邮件地址或事件说明搜索日历，以及使用\"搜索\"图标查找电子邮件附件。",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "da0fcac5-7ef3-4241-a1ff-68faaeedbfba",
-      "e819162c-1907-4606-a152-c07e1811089e",
-      "0324004b-c482-4b97-b782-c70755b399c7",
-      "2163e940-2b8a-45ae-937e-5c4460a43839"
     ]
   },
   {
