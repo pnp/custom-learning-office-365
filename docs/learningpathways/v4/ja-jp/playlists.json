@@ -1286,7 +1286,7 @@
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
-      "1c696bda-5ea8-435c-9548-f5c59b9e1977",
+      "d26c1b0d-8047-42bf-9104-f6e9a3576e62",
       "5d1a7e1c-1cbd-4acc-ae14-91cefdde690d"
     ]
   },
@@ -1886,7 +1886,7 @@
     "Source": "Microsoft",
     "CatId": "4ee4d22a-7d53-48bb-9a14-adf34d01cd75",
     "Description": "クイック スタート ガイドのOneDriveを開始します。アップロードファイルとフォルダーを作成するには、ブラウザーまたはデスクトップで OneDrive を使用し、Office アプリでファイルを保存して開く、ファイルとフォルダーの作成と管理、ファイルの検索、バックアップ、共有、アクセスとアクセス許可の管理、リンクのコピー、ビューの変更、OneDrive での共同作業、移動中に動作するモバイル アプリの設定を行います。",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "a1397e56-61ec-4ed2-9dac-727bf8ac3357",
@@ -1907,7 +1907,7 @@
     "Source": "Microsoft",
     "CatId": "4ee4d22a-7d53-48bb-9a14-adf34d01cd75",
     "Description": "OneDrive の使用を開始して、ファイルへのアクセスと編集、情報の共有、ファイルのクラウドへの保存を行って、他のユーザーとファイルを操作できるようにし、ファイルを保護およびバックアップします。 OneDrive とは何か、開始方法、ナビゲーション ウィンドウとツールバーの使用方法、モバイル アプリのセットアップ方法について説明します。 このビデオ トレーニングを見て、その方法を確認してください。",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "10f5c3fd-b0f6-40e2-9059-04735ffe01b7",
@@ -1929,14 +1929,13 @@
     "Source": "Microsoft",
     "CatId": "4ee4d22a-7d53-48bb-9a14-adf34d01cd75",
     "Description": "アップロードファイルを作成して、ファイルを管理OneDriveどこからでもファイルにアクセスできます。ファイルとフォルダーのアップロード、ファイルとフォルダーの作成、削除されたファイルの削除と復元、クラウド内のファイルの削除、OneDrive Backup のオン、OneDrive の復元を行う方法について説明します。その方法については、このビデオ トレーニングをご覧ください。",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "af839c61-f18f-4ae5-9698-325d3cf14f36",
       "e1f59717-2f02-494d-93c6-8ef9613e82ba",
       "e28db166-76a0-454b-9f71-c26bde579f70",
-      "99ade958-5c25-444b-9e1e-f222a8976441",
-      "3cd2e0b9-a2bc-4009-ba4a-88fc1052522f",
+      "8ce30c76-e27b-4e55-9050-082393954213",
       "254ec123-fca9-48e1-ba2b-5e16bab38a6a"
     ]
   },
@@ -1951,7 +1950,7 @@
     "Source": "Microsoft",
     "CatId": "4ee4d22a-7d53-48bb-9a14-adf34d01cd75",
     "Description": "OneDriveまたは学校で共有および同期する方法について学習します。ファイルとフォルダーの共有、OneDrive ファイルとフォルダーの同期、ディスク領域の管理、OneDrive Files On-Demand とのファイルの同期を行って、OneDrive または SharePoint Online 内のすべてのファイルにアクセスできます。ダウンロードしてデバイス上の記憶域を使用する必要はありません。その方法については、このビデオ トレーニングをご覧ください。",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "72f26d6c-bf9e-432c-8b96-e3c2437f5b65",

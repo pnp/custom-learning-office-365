@@ -4330,7 +4330,7 @@
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -4357,13 +4357,13 @@
   },
   {
     "Id": "3cd2e0b9-a2bc-4009-ba4a-88fc1052522f",
-    "Title": "Aktivieren OneDrive Sicherung",
+    "Title": "Sichern Ihrer Ordner mit OneDrive",
     "Description": "",
     "Url": "https://support.office.com/de-de/f1/article/4e44ceab-bcdf-4d17-9ae0-6f00f6080adb?embed=true&themeid=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -4390,13 +4390,13 @@
   },
   {
     "Id": "586df57b-fdae-439c-ae5b-71cbe5bb0d4c",
-    "Title": "Zusammenarbeiten",
+    "Title": "Freigeben von OneDrive-Dateien und -Ordnern",
     "Description": "",
-    "Url": "https://support.office.com/de-de/f1/article/586df57b-fdae-439c-ae5b-71cbe5bb0d4c?embed=true&themeid=-1",
+    "Url": "https://support.office.com/de-de/f1/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07?embed=true&themeid=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -4445,13 +4445,13 @@
   },
   {
     "Id": "8ce30c76-e27b-4e55-9050-082393954213",
-    "Title": "Unterwegs arbeiten",
+    "Title": "Sichern Ihrer Ordner mit OneDrive",
     "Description": "",
     "Url": "https://support.office.com/de-de/f1/article/8ce30c76-e27b-4e55-9050-082393954213?embed=true&themeid=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -4467,24 +4467,24 @@
   },
   {
     "Id": "943c1193-0076-4a85-b07f-a359de11690c",
-    "Title": "Einrichten Ihres iPhone oder iPad",
+    "Title": "Verwenden von OneDrive unter iOS",
     "Description": "",
     "Url": "https://support.office.com/de-de/f1/article/81267c98-49cd-48dc-882b-f17785914673?embed=true&themeid=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
     "Id": "94c8a731-c774-468e-97a1-5f038bdf330d",
-    "Title": "Dateien verwalten",
+    "Title": "Dateien auf OneDrive",
     "Description": "",
     "Url": "https://support.office.com/de-de/f1/article/94c8a731-c774-468e-97a1-5f038bdf330d?embed=true&themeid=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -4506,18 +4506,18 @@
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
     "Id": "a1397e56-61ec-4ed2-9dac-727bf8ac3357",
-    "Title": "Hochladen Dateien",
+    "Title": "Hochladen von Fotos und Dateien auf OneDrive",
     "Description": "",
     "Url": "https://support.office.com/de-de/f1/article/a1397e56-61ec-4ed2-9dac-727bf8ac3357?embed=true&themeid=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -4577,13 +4577,13 @@
   },
   {
     "Id": "e28db166-76a0-454b-9f71-c26bde579f70",
-    "Title": "Löschen und Wiederherstellen gelöschter Dateien",
+    "Title": "Löschen von Dateien oder Ordnern auf OneDrive",
     "Description": "",
     "Url": "https://support.office.com/de-de/f1/article/99ade958-5c25-444b-9e1e-f222a8976441?embed=true&themeid=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -4599,13 +4599,13 @@
   },
   {
     "Id": "f8c24f1a-9dfb-4ede-94c5-931a45646a96",
-    "Title": "Verwalten von Speicherplatz",
+    "Title": "Verwenden von OneDrive und Speicheroptimierung in Windows 10 zum Verwalten von Speicherplatz",
     "Description": "",
     "Url": "https://support.office.com/de-de/f1/article/f8c24f1a-9dfb-4ede-94c5-931a45646a96?embed=true&themeid=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -8840,7 +8840,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -9419,7 +9419,7 @@
     "Id": "7f5ff126-4f76-4628-90ec-4ed1e88ef365",
     "Title": "Zusammenarbeiten in OneDrive",
     "Description": "",
-    "Url": "https://support.office.com/de-de/f1/article/586df57b-fdae-439c-ae5b-71cbe5bb0d4c?embed=true&themeid=-1",
+    "Url": "https://support.office.com/de-de/f1/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
