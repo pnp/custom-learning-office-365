@@ -4401,13 +4401,13 @@
   },
   {
     "Id": "586df57b-fdae-439c-ae5b-71cbe5bb0d4c",
-    "Title": "Collaborer",
+    "Title": "Partager des fichiers et des dossiers OneDrive",
     "Description": "",
-    "Url": "https://support.office.com/fr-fr/f1/article/586df57b-fdae-439c-ae5b-71cbe5bb0d4c?embed=true&themeid=-1",
+    "Url": "https://support.office.com/fr-fr/f1/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07?embed=true&themeid=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -4456,13 +4456,13 @@
   },
   {
     "Id": "8ce30c76-e27b-4e55-9050-082393954213",
-    "Title": "Travailler en cours",
+    "Title": "Sauvegarder vos dossiers avec OneDrive",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/8ce30c76-e27b-4e55-9050-082393954213?embed=true&themeid=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -4489,13 +4489,13 @@
   },
   {
     "Id": "94c8a731-c774-468e-97a1-5f038bdf330d",
-    "Title": "Gérer les fichiers",
+    "Title": "Fichiers dans OneDrive",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/94c8a731-c774-468e-97a1-5f038bdf330d?embed=true&themeid=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -4522,13 +4522,13 @@
   },
   {
     "Id": "a1397e56-61ec-4ed2-9dac-727bf8ac3357",
-    "Title": "Télécharger fichiers",
+    "Title": "Charger des photos et des fichiers dans OneDrive",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/a1397e56-61ec-4ed2-9dac-727bf8ac3357?embed=true&themeid=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -9430,7 +9430,7 @@
     "Id": "7f5ff126-4f76-4628-90ec-4ed1e88ef365",
     "Title": "Collaborer en OneDrive",
     "Description": "",
-    "Url": "https://support.office.com/fr-fr/f1/article/586df57b-fdae-439c-ae5b-71cbe5bb0d4c?embed=true&themeid=-1",
+    "Url": "https://support.office.com/fr-fr/f1/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",

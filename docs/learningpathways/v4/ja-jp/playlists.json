@@ -1886,7 +1886,7 @@
     "Source": "Microsoft",
     "CatId": "4ee4d22a-7d53-48bb-9a14-adf34d01cd75",
     "Description": "クイック スタート ガイドのOneDriveを開始します。アップロードファイルとフォルダーを作成するには、ブラウザーまたはデスクトップで OneDrive を使用し、Office アプリでファイルを保存して開く、ファイルとフォルダーの作成と管理、ファイルの検索、バックアップ、共有、アクセスとアクセス許可の管理、リンクのコピー、ビューの変更、OneDrive での共同作業、移動中に動作するモバイル アプリの設定を行います。",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "a1397e56-61ec-4ed2-9dac-727bf8ac3357",
