@@ -4335,13 +4335,13 @@
   },
   {
     "Id": "254ec123-fca9-48e1-ba2b-5e16bab38a6a",
-    "Title": "Restaure sua OneDrive",
+    "Title": "Restaure seu OneDrive",
     "Description": "",
     "Url": "https://support.office.com/pt-br/f1/article/5a3dc200-3537-49b6-9f51-09cd74bc962a?embed=true&themeid=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -4374,7 +4374,7 @@
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -4517,7 +4517,7 @@
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -4588,13 +4588,13 @@
   },
   {
     "Id": "e28db166-76a0-454b-9f71-c26bde579f70",
-    "Title": "Excluir e restaurar arquivos excluídos",
+    "Title": "Excluir arquivos ou pastas no OneDrive",
     "Description": "",
     "Url": "https://support.office.com/pt-br/f1/article/99ade958-5c25-444b-9e1e-f222a8976441?embed=true&themeid=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {

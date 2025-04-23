@@ -4335,13 +4335,13 @@
   },
   {
     "Id": "254ec123-fca9-48e1-ba2b-5e16bab38a6a",
-    "Title": "Restaurar el OneDrive",
+    "Title": "Restaurar su OneDrive",
     "Description": "",
     "Url": "https://support.office.com/es-es/f1/article/5a3dc200-3537-49b6-9f51-09cd74bc962a?embed=true&themeid=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -4368,13 +4368,13 @@
   },
   {
     "Id": "3cd2e0b9-a2bc-4009-ba4a-88fc1052522f",
-    "Title": "Activar la copia OneDrive copia de seguridad",
+    "Title": "Hacer una copia de seguridad de las carpetas con OneDrive",
     "Description": "",
     "Url": "https://support.office.com/es-es/f1/article/4e44ceab-bcdf-4d17-9ae0-6f00f6080adb?embed=true&themeid=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -4517,7 +4517,7 @@
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -4588,13 +4588,13 @@
   },
   {
     "Id": "e28db166-76a0-454b-9f71-c26bde579f70",
-    "Title": "Eliminar y restaurar archivos eliminados",
+    "Title": "Eliminar archivos o carpetas en OneDrive",
     "Description": "",
     "Url": "https://support.office.com/es-es/f1/article/99ade958-5c25-444b-9e1e-f222a8976441?embed=true&themeid=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
