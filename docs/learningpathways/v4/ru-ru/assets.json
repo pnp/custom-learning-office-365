@@ -1404,7 +1404,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -1569,7 +1569,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2399,24 +2399,24 @@
   },
   {
     "Id": "28508ada-9a3c-4333-a17b-cb29723eb64c",
-    "Title": "Создание документа",
+    "Title": "Создание документа в Word",
     "Description": "",
     "Url": "https://support.office.com/ru-ru/f1/article/28508ada-9a3c-4333-a17b-cb29723eb64c?embed=true&themeid=-1",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
     "Id": "2eb1d51f-a897-4d73-ba76-c550f005e5ef",
-    "Title": "Вставка гиперссылки",
+    "Title": "Создание и изменение гиперссылок — Office",
     "Description": "",
-    "Url": "https://support.office.com/ru-ru/f1/article/2eb1d51f-a897-4d73-ba76-c550f005e5ef?embed=true&themeid=-1",
+    "Url": "https://support.office.com/ru-ru/f1/article/5d8c0804-f998-4143-86b1-1199735e07bf?embed=true&themeid=-1",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2471,7 +2471,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -2526,7 +2526,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2570,7 +2570,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -2603,7 +2603,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -2713,7 +2713,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2735,7 +2735,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -2867,7 +2867,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {

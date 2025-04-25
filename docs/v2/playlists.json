@@ -574,7 +574,7 @@
     "Assets": [
       "d26c1b0d-8047-42bf-9104-f6e9a3576e62",
       "049aca05-089f-48af-80c3-3adf6d4ff6c1",
-      "6f0f7d58-9b49-4a14-aba8-1de2195c0ab6",
+      "5f8e48e0-4c15-48d9-b059-04b9038310dc",
       "9232f21b-0dd2-4b4c-bbed-4a27492b9fb2",
       "c32bd7c7-55e2-430e-99f0-18482a11e388",
       "a12336a4-d56d-4260-b827-88a715385320",
@@ -1416,7 +1416,7 @@
     "Description": "Create, design, edit, and save a document with Word",
     "StatusTag": "",
     "Assets": [
-      "4505de9c-7dbd-418b-9252-7ededcd75147",
+      "28508ada-9a3c-4333-a17b-cb29723eb64c",
       "d7c23ed3-a80a-4ff4-ade5-91211a7614f3",
       "bc819ecd-9887-4a15-8eda-d90cbc58f8fb",
       "b3d7f2af-c6e9-46e7-96a7-dabda4423dd7",
@@ -1438,7 +1438,6 @@
     "Description": "Create and format a document, track changes, and collaborate with others",
     "StatusTag": "",
     "Assets": [
-      "68d147fc-69f6-4339-b2c7-8a7ee9d81be3",
       "28508ada-9a3c-4333-a17b-cb29723eb64c"
     ]
   },
@@ -1459,9 +1458,8 @@
     "Assets": [
       "d85d0739-bbb9-4236-b6a4-4955b1f9a8d1",
       "2eb1d51f-a897-4d73-ba76-c550f005e5ef",
-      "b045f7e9-7321-40dc-9ae6-b6d4edb89799",
       "5f8e48e0-4c15-48d9-b059-04b9038310dc",
-      "6f9aad7c-1c58-40da-a65b-0c1282837aaf",
+      "8a55148a-bfef-4290-87f7-5898b825b719",
       "ab3fdbda-e994-4ff1-9b8a-a8bc81569e05"
     ]
   },
