@@ -838,7 +838,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Check out this intro to Excel course to learn how to create a workbook, insert or delete a worksheet, move, copy, or print a worksheet, use Excel as a calculator, fill data automatically, and create a drop-down list.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "82e9eab2-2e4e-463a-baa5-669b6c8ac543",
@@ -861,7 +861,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Use Excel rows and columns to organize your data. Learn how to insert or delete rows and columns, select content in Excel, freeze panes to lock rows and columns, hide or show rows or columns, filter for unique values or remove duplicate values, split text into different columns, and create a list of sequential dates",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "6f40e6e4-85af-45e0-b39d-65dd504a3246",
@@ -906,7 +906,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Learn how to format in Excel to save time and make your worksheet useful for you and your team. Learn helpful tips like how to format numbers (currency, percentages, dates, phone numbers), use conditional formatting to provide visual cues, change or copy cell formatting, add a watermark, display or hide zero values, and create a custom number format.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "f8b36f10-c4a1-4320-9cc1-9984eb9abd45",
@@ -930,7 +930,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Use Excel formulas and functions to perform calculations and solve problems. Learn how to use XLOOKUP, VLOOKUP, SUM, SUMIF, SUMIFS, COUNTIF, IF, IFS, and MATCH to find values, do calculations, save time, and manage data automatically.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "7068c43a-2e0b-47ea-8b0f-692343447af6",
@@ -956,7 +956,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Create and format tables in Excel to visually group and analyze data. Learn how to sort and filter data in a range or table, total data, and use slicers to filter data.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "e81aa349-b006-4f8a-9806-5af9df0ac664",
@@ -977,7 +977,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Charts in Excel helps you visualize your data in a way that creates maximum impact on your audience. Learn how to create a chart, add or remove titles, show or hide a chart legend, add or remove a secondary axis, add a trendline or sparkline to show data trends, and use Quick Analysis to pick the perfect chart.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "231c42d2-5e58-40e1-99f0-cbe618cfee1d",
@@ -1198,7 +1198,7 @@
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
     "Description": "Create and save files using Microsoft 365. Learn how to create and save files the same way across Office apps using the Office desktop apps and office.com apps. Save files to the cloud using OneDrive and sync files with Files on Demand.Create and save files using Microsoft 365. Learn how to create and save files the same way across Office apps using the Office desktop apps and office.com apps. Save files to the cloud using OneDrive and sync files with Files on Demand.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "f4b41dc8-339c-4653-9f41-328324656f61",
@@ -1467,7 +1467,7 @@
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
     "Description": "Microsoft Teams is a collaboration app that helps your team stay organized and have conversations—all in one place. With Intro to Microsoft Teams, get an overview of teams, channels, meetings, conversations, tabs, share files, collaborate real time, find files, add people to a chat, make a call, manage your calendar, schedule a meeting, join meetings, share content, record a meeting, view our activity feed, and use the command box to search for people, items, or apps.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "b98d533f-118e-4bae-bf44-3df2470c2b12",
@@ -1547,7 +1547,7 @@
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
     "Description": "Collaborate in teams and channels in Microsoft Teams. Learn how to create a public or private channel, pin a channel, add a tab, share a file, meet now, show and hide channels, customize channel notifications, reply to a message, like or save a message, use @mention, collaborate on or co-edit a file, start a conversation, send email to a channel, and create a plan with Planner.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "c3d63c10-77d5-4204-a566-53ddcf723b46",
@@ -1735,7 +1735,7 @@
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
     "Description": "Approvals in Microsoft Teams is a way to streamline all of your requests and processes with your team or partners. Learn how to create new approvals, view the ones sent your way, and see all of your previous approvals in one place.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "079cd574-3e04-4dc1-bcc1-6d0797970723",
@@ -2458,7 +2458,7 @@
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
     "Description": "Learn how to create slides and layouts in PowerPoint. Create a slide master, add, rearrange, duplicate and move slides, apply a slide layout, add color and design to your slides with themes, apply a template to a new presentation, get design ideas with PowerPoint Designer, and customize a slide master. Watch this video training to see how.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "9bdaa597-38b8-4d15-948d-8125893ff060",
@@ -2512,7 +2512,7 @@
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
     "Description": "Add pictures and graphics in PowerPoint to make your presentation visually engaging. Learn how to insert a picture, apply an artistic effect, add SmartArt, add a background picture or company logo, add charts and graphs, or insert icons.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "7da68d81-eda5-441d-9948-883ba5fb95ae",
@@ -2535,7 +2535,7 @@
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
     "Description": "Learn how to present slideshows in PowerPoint. Add speaker notes to your slides, rehearse the time and delivery, record a slide show with narration, print your slides, handouts, or notes, and create a self-running presentation.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "fe7638e4-76fb-4349-8d81-5eb6679f49d7",
@@ -3056,7 +3056,7 @@
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
     "Description": "There are several useful options to lay out pages with Word. Learn how to change margins, create newsletter columns, change page orientation, add a border to a page, insert a header or a footer, insert page numbers, and insert a page break.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "c95c1ea1-70b1-4dde-a1da-f5aa2042c829",
@@ -3080,7 +3080,7 @@
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
     "Description": "Learn how to insert tables, pictures, and watermarks in Word. Create a table, add a picture, insert an icon and WordArt, show or hide the ruler, rotate a picture or shape, and wrap text around a picture.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "9bc4b562-4f88-4ba0-9a59-4b29cfa0bb29",
@@ -3170,7 +3170,7 @@
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
     "Description": "Learn how to improve accessibility and ease of use in Word. Use a screen reader, use Learning Tools to help with reading fluency and comprehension, use Accessibility Checker to make documents accessible, and learn keyboard shortcuts to perform tasks quickly.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "303eb71a-6bd8-474c-ba06-923e93347224",
@@ -3212,7 +3212,7 @@
     "Source": "Microsoft",
     "CatId": "e83da7d3-653c-4c01-a262-336e07b88aba",
     "Description": "Get started quickly with the Yammer Quick Start. Sign in to Yammer and join community conversations, find out what's trending in your organization, and set up the Yammer mobile app to use Yammer on the go.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "d863154a-4223-4ea2-8855-ccc971321b8e",
@@ -3232,7 +3232,7 @@
     "Source": "Microsoft",
     "CatId": "e83da7d3-653c-4c01-a262-336e07b88aba",
     "Description": "Follow these tips and best practices to roll out a successful Yammer network. Get an overview of Yammer, plan your strategy, personalize a Yammer network, identify the right use cases, create a community, prepare for launch, educate users, drive ongoing engagement, integrate Yammer into Teams, SharePoint Online and Outlook, and measure success.",
-    "StatusTagId": "9d1fab25-ed9c-404e-941b-41e428d18726",
+    "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
       "1b0f3b3e-89ee-4b66-aac5-30def12f287c",
