@@ -2599,7 +2599,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "e5e2ae74-20ff-4626-937d-df4ff3405f29",
-    "Description": "Get started quickly with the Word Quick Start guide. Learn how to sign in to SharePoint, search and discover news and information, find your site, create a site, add a list or document library, use filters to modify what you see, add a page, add a web part, collaborate with others, open a document from a document library, share a document, sync files to your computer, and set up your mobile apps.",
+    "Description": "Get started quickly with the SharePoint Quick Start guide. Learn how to sign in to SharePoint, search and discover news and information, find your site, create a site, add a list or document library, use filters to modify what you see, add a page, add a web part, collaborate with others, open a document from a document library, share a document, sync files to your computer, and set up your mobile apps.",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2998,7 +2998,7 @@
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
     "Description": "Get started quickly with the Word Quick Start guide. Learn how to create a document, add and format text, add pictures, shapes, SmartArt, and charts, save your document to OneDrive, design and edit using styles and themes, check spelling and grammar, find and replace text, share your document, collaborate with others, track and review changes, and set up your mobile apps.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "4505de9c-7dbd-418b-9252-7ededcd75147",

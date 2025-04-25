@@ -2471,7 +2471,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2751,13 +2751,13 @@
   },
   {
     "Id": "b3d7f2af-c6e9-46e7-96a7-dabda4423dd7",
-    "Title": "Collaborer",
+    "Title": "Collaborer dans Word",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/b3d7f2af-c6e9-46e7-96a7-dabda4423dd7?embed=true&themeid=-1",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2784,13 +2784,13 @@
   },
   {
     "Id": "bc819ecd-9887-4a15-8eda-d90cbc58f8fb",
-    "Title": "Créer et modifier",
+    "Title": "Créer et modifier dans Word",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/bc819ecd-9887-4a15-8eda-d90cbc58f8fb?embed=true&themeid=-1",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2839,13 +2839,13 @@
   },
   {
     "Id": "d7c23ed3-a80a-4ff4-ade5-91211a7614f3",
-    "Title": "Enregistrer votre document dans un OneDrive",
+    "Title": "Enregistrer un document sur OneDrive dans Word",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/d7c23ed3-a80a-4ff4-ade5-91211a7614f3?embed=true&themeid=-1",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
