@@ -1026,7 +1026,7 @@
     "StatusNote": "",
     "Assets": [
       "8d8a52bb-03c3-4933-ab6c-330aabf1e589",
-      "cb37c233-1d4e-4187-ad68-c847a13d73ad",
+      "07083ba8-0e36-4d9d-aba8-d9ebfd84d6d4",
       "7a5ac6a0-2caa-4cfc-8ae5-c542d6437ded",
       "7d583ed1-58ca-4906-9596-3b963b57ea7e",
       "551958e1-7da6-467c-8a91-1b3389626425",
@@ -3127,15 +3127,15 @@
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
     "Description": "Erfahren Sie, wie Sie in Word Dateien freigeben und gemeinsam dokumentverfassen. Sie können ein Dokument freigeben, mit anderen an Ihren Word-Dokumenten zusammenarbeiten, einen Kommentar einfügen oder löschen, Änderungen nachverfolgen, Überarbeitungen überprüfen und annehmen sowie Word auf einem mobilen Gerät verwenden. Schauen Sie sich diese Videoschulung an, um zu erfahren, wie das geht.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "92701e68-148d-42d3-9cd3-7eeab997a738",
-      "7dd3040c-3f30-4fdd-bab0-8586492a1f1d",
-      "8d3f868a-867e-4df2-8c68-bf96671641e2",
+      "39d8fb04-8063-482f-93e3-2fc4f6f421a9",
+      "b3d7f2af-c6e9-46e7-96a7-dabda4423dd7",
+      "07083ba8-0e36-4d9d-aba8-d9ebfd84d6d4",
       "197ba630-0f5f-4a8e-9a77-3712475e806a",
       "03c66bc2-c636-427a-9d1b-3e3345103b2e",
-      "d98e8b70-48a5-4267-8826-915590739a91"
+      "cf26a4a6-00e5-4ef4-98c5-cec5bf441da6"
     ]
   },
   {
