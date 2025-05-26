@@ -1932,7 +1932,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -2300,13 +2300,13 @@
   },
   {
     "Id": "032982e2-2afd-4bbd-a520-d01dfc28eba1",
-    "Title": "Konvertieren oder Speichern in PDF",
+    "Title": "Exportieren Word Dokuments als PDF",
     "Description": "",
-    "Url": "https://support.office.com/de-de/f1/article/7d88593b-d509-4225-a05a-076723a40beb?embed=true&themeid=-1",
+    "Url": "https://support.office.com/de-de/f1/article/4e89b30d-9d7d-4866-af77-3af5536b974c?embed=true&themeid=-1",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2339,7 +2339,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2548,7 +2548,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2581,7 +2581,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2636,7 +2636,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2762,13 +2762,13 @@
   },
   {
     "Id": "b426d3dd-ab7e-40af-91b5-85158b08ad37",
-    "Title": "Drucken eines Umschlags",
+    "Title": "Erstellen und Drucken eines einzelnen Umschlags in Word",
     "Description": "",
     "Url": "https://support.office.com/de-de/f1/article/b426d3dd-ab7e-40af-91b5-85158b08ad37?embed=true&themeid=-1",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2817,13 +2817,13 @@
   },
   {
     "Id": "cebc3705-c949-42f6-8ed9-534943e1ab5c",
-    "Title": "Drucken ihres Dokuments",
+    "Title": "Drucken eines Dokuments in Word",
     "Description": "",
-    "Url": "https://support.office.com/de-de/f1/article/cebc3705-c949-42f6-8ed9-534943e1ab5c?embed=true&themeid=-1",
+    "Url": "https://support.office.com/de-de/f1/article/591022c4-53e3-4242-95b5-58ca393ba0ee?embed=true&themeid=-1",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
