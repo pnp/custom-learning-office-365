@@ -7707,7 +7707,7 @@
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -7747,11 +7747,11 @@
     "Id": "11a632c1-197e-454f-a515-374a4aa2b3dd",
     "Title": "Analizzare e formattare",
     "Description": "",
-    "Url": "https://support.office.com/it-it/f1/article/11a632c1-197e-454f-a515-374a4aa2b3dd?embed=true&themeid=-1",
+    "Url": "https://support.office.com/it-it/f1/article/3223aab8-f543-4fda-85ed-76bb0295ffc4?embed=true&themeid=-1",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -8317,13 +8317,13 @@
   },
   {
     "Id": "94b00f50-5896-479c-b0c5-ff74603b35a3",
-    "Title": "Creare una cartella di lavoro",
+    "Title": "Cos'è Excel?",
     "Description": "",
     "Url": "https://support.office.com/it-it/f1/article/94b00f50-5896-479c-b0c5-ff74603b35a3?embed=true&themeid=-1",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -8438,13 +8438,13 @@
   },
   {
     "Id": "a8af741e-00f2-44c0-a94b-38abd51af01f",
-    "Title": "Collaborare",
+    "Title": "Condividere una cartella di lavoro di Excel con altri utenti",
     "Description": "",
     "Url": "https://support.office.com/it-it/f1/article/a8af741e-00f2-44c0-a94b-38abd51af01f?embed=true&themeid=-1",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
