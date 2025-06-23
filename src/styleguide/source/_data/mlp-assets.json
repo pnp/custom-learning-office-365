@@ -293,7 +293,7 @@
     "TechnologyId": "",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -700,7 +700,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -711,7 +711,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -722,7 +722,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -744,7 +744,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -755,7 +755,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -766,7 +766,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -777,7 +777,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -799,7 +799,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -810,7 +810,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -832,7 +832,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -843,7 +843,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -865,14 +865,14 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
     "Id": "1fa93876-0318-4622-b473-142a3bfd6495",
     "Title": "Step 1: Sign in",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/1fa93876-0318-4622-b473-142a3bfd6495?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/1fa93876-0318-4622-b473-142a3bfd6495?embed=true&themeId=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -887,7 +887,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -898,7 +898,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -909,7 +909,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -920,7 +920,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -942,7 +942,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -953,7 +953,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -964,7 +964,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -975,7 +975,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -986,7 +986,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -997,7 +997,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1008,7 +1008,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1019,7 +1019,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1030,14 +1030,14 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
     "Id": "365-378767af-7ac3-4d68-9d0f-709b6948a76b",
     "Title": "Welcome to Microsoft 365",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/378767af-7ac3-4d68-9d0f-709b6948a76b?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/365-378767af-7ac3-4d68-9d0f-709b6948a76b?embed=true&themeId=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -1052,7 +1052,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1063,7 +1063,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1096,7 +1096,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1129,7 +1129,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1151,7 +1151,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1162,7 +1162,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1184,14 +1184,14 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
     "Id": "4a358470-a1a3-4796-84ec-45adf4895473",
     "Title": "Step 4: Work with your team",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/4a358470-a1a3-4796-84ec-45adf4895473?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/4a358470-a1a3-4796-84ec-45adf4895473?embed=true&themeId=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -1206,7 +1206,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1217,7 +1217,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1228,7 +1228,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1239,7 +1239,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1250,7 +1250,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -1261,7 +1261,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1283,7 +1283,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1294,7 +1294,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1305,7 +1305,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1316,7 +1316,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1338,7 +1338,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1349,7 +1349,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1371,7 +1371,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1382,7 +1382,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1393,7 +1393,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1415,7 +1415,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1426,7 +1426,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1437,7 +1437,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1459,7 +1459,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1470,7 +1470,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1481,7 +1481,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1492,7 +1492,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1503,7 +1503,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1525,7 +1525,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1536,7 +1536,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1547,7 +1547,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1558,7 +1558,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1569,7 +1569,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -1580,7 +1580,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1591,7 +1591,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1602,7 +1602,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1613,7 +1613,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1624,12 +1624,12 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
     "Id": "93123baa-08fc-408d-af15-a6a87e7b545f",
-    "Title": "Collaborate",
+    "Title": "Collaborate in Microsoft 365 for business",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/54db9080-d29f-40d1-9f15-fb6c45952e8f?embed=true&themeid=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -1657,7 +1657,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1668,7 +1668,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1679,7 +1679,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1690,7 +1690,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1701,7 +1701,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1712,7 +1712,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1723,7 +1723,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1734,7 +1734,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1745,7 +1745,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1767,7 +1767,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1778,7 +1778,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1789,7 +1789,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1811,7 +1811,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1844,7 +1844,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1866,14 +1866,14 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
     "Id": "ba05d4f5-a174-4879-b1a1-0c6f77c1396b",
     "Title": "Overview",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/ba05d4f5-a174-4879-b1a1-0c6f77c1396b?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/ba05d4f5-a174-4879-b1a1-0c6f77c1396b?embed=true&themeId=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -1888,7 +1888,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1899,7 +1899,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1910,14 +1910,14 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
     "Id": "be096b45-709c-473a-afb9-f7a998b3f435",
     "Title": "Step 3: Share and collaborate",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/be096b45-709c-473a-afb9-f7a998b3f435?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/be096b45-709c-473a-afb9-f7a998b3f435?embed=true&themeId=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -1965,7 +1965,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1976,7 +1976,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1987,7 +1987,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -1998,7 +1998,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -2009,7 +2009,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -2042,7 +2042,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -2119,7 +2119,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -2130,7 +2130,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -2141,7 +2141,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -2152,7 +2152,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -2163,7 +2163,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -2174,7 +2174,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -2185,7 +2185,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -2207,7 +2207,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -2218,7 +2218,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -2229,14 +2229,14 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
     "Id": "fb440590-1b4d-4562-94ba-61123b299e3d",
     "Title": "Step 2: Create and save",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/fb440590-1b4d-4562-94ba-61123b299e3d?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/fb440590-1b4d-4562-94ba-61123b299e3d?embed=true&themeId=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -2251,7 +2251,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -2273,7 +2273,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -2284,7 +2284,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -2295,18 +2295,18 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
     "Id": "032982e2-2afd-4bbd-a520-d01dfc28eba1",
-    "Title": "Convert or save to PDF",
+    "Title": "Export Word document as PDF",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/7d88593b-d509-4225-a05a-076723a40beb?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/4e89b30d-9d7d-4866-af77-3af5536b974c?embed=true&themeid=-1",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2317,7 +2317,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "da75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2328,7 +2328,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2339,7 +2339,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2361,7 +2361,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2372,18 +2372,18 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
     "Id": "197ba630-0f5f-4a8e-9a77-3712475e806a",
-    "Title": "Track changes",
+    "Title": "Track changes in Word",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/197ba630-0f5f-4a8e-9a77-3712475e806a?embed=true&themeid=-1",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2394,29 +2394,29 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
     "Id": "28508ada-9a3c-4333-a17b-cb29723eb64c",
-    "Title": "Create a document",
+    "Title": "Create a document in Word",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/28508ada-9a3c-4333-a17b-cb29723eb64c?embed=true&themeid=-1",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
     "Id": "2eb1d51f-a897-4d73-ba76-c550f005e5ef",
-    "Title": "Insert hyperlinks",
+    "Title": "Create or edit a hyperlink",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/2eb1d51f-a897-4d73-ba76-c550f005e5ef?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/5d8c0804-f998-4143-86b1-1199735e07bf?embed=true&themeid=-1",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2438,7 +2438,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -2460,7 +2460,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2471,7 +2471,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -2487,13 +2487,13 @@
   },
   {
     "Id": "4f799df7-4ca4-4670-afd3-6135768b01d0",
-    "Title": "Write an equation or formula",
+    "Title": "Write an equation or formula in Word",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/1d01cabc-ceb1-458d-bc70-7f9737722702?embed=true&themeid=-1",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2515,7 +2515,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2526,7 +2526,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2537,7 +2537,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2548,7 +2548,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2570,7 +2570,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -2581,7 +2581,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2603,18 +2603,18 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
     "Id": "78fbe0c2-43f9-47fc-8e3d-2391840ee1e2",
-    "Title": "Wrap text around a picture",
+    "Title": "Wrap text around a picture in Word",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/bdbbe1fe-c089-4b5c-b85c-43997da64a12?embed=true&themeid=-1",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2625,7 +2625,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -2636,7 +2636,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2647,7 +2647,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2658,7 +2658,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -2669,7 +2669,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -2680,7 +2680,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2691,7 +2691,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2702,7 +2702,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2713,7 +2713,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2735,7 +2735,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -2746,29 +2746,29 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
     "Id": "b3d7f2af-c6e9-46e7-96a7-dabda4423dd7",
-    "Title": "Collaborate",
+    "Title": "Collaborate in Word",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/b3d7f2af-c6e9-46e7-96a7-dabda4423dd7?embed=true&themeid=-1",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
     "Id": "b426d3dd-ab7e-40af-91b5-85158b08ad37",
-    "Title": "Print an envelope",
+    "Title": "Create and print a single envelope in Word",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/b426d3dd-ab7e-40af-91b5-85158b08ad37?embed=true&themeid=-1",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2784,13 +2784,13 @@
   },
   {
     "Id": "bc819ecd-9887-4a15-8eda-d90cbc58f8fb",
-    "Title": "Design and edit",
+    "Title": "Design and edit in Word",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/bc819ecd-9887-4a15-8eda-d90cbc58f8fb?embed=true&themeid=-1",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2801,7 +2801,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2812,18 +2812,18 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
     "Id": "cebc3705-c949-42f6-8ed9-534943e1ab5c",
-    "Title": "Print your document",
+    "Title": "Print a document in Word",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/cebc3705-c949-42f6-8ed9-534943e1ab5c?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/591022c4-53e3-4242-95b5-58ca393ba0ee?embed=true&themeid=-1",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2839,13 +2839,13 @@
   },
   {
     "Id": "d7c23ed3-a80a-4ff4-ade5-91211a7614f3",
-    "Title": "Save your document to OneDrive",
+    "Title": "Save your document to OneDrive in Word",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/d7c23ed3-a80a-4ff4-ade5-91211a7614f3?embed=true&themeid=-1",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2856,7 +2856,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2867,7 +2867,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2878,18 +2878,18 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
     "Id": "d9917030-32db-458c-b119-3a942e5f6ef4",
-    "Title": "Insert icons",
+    "Title": "Insert icons in Microsoft 365",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/4c8c86aa-a844-4edb-aee0-02b7387fc99d?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/365-e2459f17-3996-4795-996e-b9a13486fa79?embed=true&themeid=-1",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2900,7 +2900,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2922,7 +2922,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2933,7 +2933,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -3208,7 +3208,7 @@
     "TechnologyId": "33059862-a87d-4b40-9984-be7c6083cf95",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -3274,7 +3274,7 @@
     "TechnologyId": "33059862-a87d-4b40-9984-be7c6083cf95",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -3336,7 +3336,7 @@
     "Id": "1b7c6171-61c6-4157-bad5-8480ae8f54a1",
     "Title": "What is OneNote?",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/1b7c6171-61c6-4157-bad5-8480ae8f54a1?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/introducing-onenote-38be036d-5b5a-49ad-83be-292fe53ad7b3?embed=true&themeid=-1",
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3347,7 +3347,7 @@
     "Id": "32040c38-ed0a-4d9d-b2e5-c561ef751a4c",
     "Title": "OneNote on iOS",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/32040c38-ed0a-4d9d-b2e5-c561ef751a4c?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/microsoft-onenote-for-iphone-b93a0ea8-1285-4d31-a7c5-86a849731902?embed=true&themeid=-1",
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3369,7 +3369,7 @@
     "Id": "3a8cca87-8794-4495-928f-dd0843778653",
     "Title": "Create more room in your notebook",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/3a8cca87-8794-4495-928f-dd0843778653?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/video-create-more-room-in-your-notebook-028b26ee-ceb9-4551-87ce-e1b62bfdaf98?embed=true&themeid=-1",
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3380,7 +3380,7 @@
     "Id": "3f85c48a-76d9-4324-b24d-35652f1da418",
     "Title": "OneNote for Android",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/3f85c48a-76d9-4324-b24d-35652f1da418?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/microsoft-onenote-for-android-46b4b49d-2bef-4746-9c30-6abb5e20b688?embed=true&themeid=-1",
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3391,7 +3391,7 @@
     "Id": "478895de-5cda-4e15-bd24-f6b338d4addf",
     "Title": "Start using OneNote",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/478895de-5cda-4e15-bd24-f6b338d4addf?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/video-start-using-onenote-6f4d0683-9b32-4467-9d38-76424d355673?embed=true&themeid=-1",
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3402,7 +3402,7 @@
     "Id": "62e5c64c-5903-4622-a014-e1228c298f19",
     "Title": "Draw and sketch",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/62e5c64c-5903-4622-a014-e1228c298f19?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/draw-sketch-8159eb77-5013-4eba-85e1-31f5ff6b26e8?embed=true&themeid=-1",
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3424,7 +3424,7 @@
     "Id": "705a4818-8534-43e6-ab44-5d4af5eb87f8",
     "Title": "Insert pictures, files, and videos",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/705a4818-8534-43e6-ab44-5d4af5eb87f8?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/video-insert-pictures-files-and-videos-in-onenote-5198b27d-06eb-4e2c-8915-4c758eca4845?embed=true&themeid=-1",
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3435,7 +3435,7 @@
     "Id": "774739fa-66f3-4bc8-b7e2-d2303ba71962",
     "Title": "Insert and format tables",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/774739fa-66f3-4bc8-b7e2-d2303ba71962?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/video-insert-and-format-tables-in-onenote-52a4cd85-73bf-42f1-a6a5-cc35380ed354?embed=true&themeid=-1",
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3446,7 +3446,7 @@
     "Id": "8264e361-d7a6-4f82-a45b-b9c618a3c5ce",
     "Title": "Share your notes with others",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/8264e361-d7a6-4f82-a45b-b9c618a3c5ce?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/video-share-your-notes-with-others-4f0bb642-27d0-46e7-b754-97a3dfce2e80?embed=true&themeid=-1",
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3457,7 +3457,7 @@
     "Id": "86c38f79-c295-495f-87c0-dc41d0d2b8ab",
     "Title": "Create shapes",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/86c38f79-c295-495f-87c0-dc41d0d2b8ab?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/video-create-shapes-in-onenote-14db3eeb-9edf-4db3-9dec-b237f27f0c0b?embed=true&themeid=-1",
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3468,18 +3468,7 @@
     "Id": "8ce0993b-6169-4f1f-b228-19fc78a6ce4e",
     "Title": "Password-protect private notes",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/8ce0993b-6169-4f1f-b228-19fc78a6ce4e?embed=true&themeid=-1",
-    "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
-    "SubjectId": "",
-    "Source": "Microsoft",
-    "StatusTagId": "",
-    "StatusNote": ""
-  },
-  {
-    "Id": "8ee7e122-c284-4864-a683-dfc407dbef10",
-    "Title": "Take notes",
-    "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/8ee7e122-c284-4864-a683-dfc407dbef10?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/video-password-protect-private-notes-bbf522e8-d8f1-4e32-b3dd-57287e964331?embed=true&themeid=-1",
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3490,7 +3479,7 @@
     "Id": "918472c6-10d8-46f5-a2f1-fed68ca17e39",
     "Title": "Format notes",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/918472c6-10d8-46f5-a2f1-fed68ca17e39?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/take-and-format-notes-80bc6ec1-bb74-419d-aaa9-57e672de8116?embed=true&themeid=-1",
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3510,7 +3499,7 @@
   },
   {
     "Id": "a9909ff8-3604-4b34-b59b-be5f00a25611",
-    "Title": "Set up your mobile apps",
+    "Title": "Set up your mobile apps - THis is really Basic Tasks in OneNote on Windows",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/a9909ff8-3604-4b34-b59b-be5f00a25611?embed=true&themeid=-1",
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
@@ -3523,7 +3512,7 @@
     "Id": "b533bc33-f852-48d7-b55f-5a858174ca16",
     "Title": "OneNote Online",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/b533bc33-f852-48d7-b55f-5a858174ca16?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/video-onenote-for-the-web-8447d0a0-75ad-4a64-8fa0-acd8d224e80d?embed=true&themeid=-1",
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3534,7 +3523,7 @@
     "Id": "e10883b2-09a5-49de-8f9b-71605a100504",
     "Title": "Search and find notes",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/e10883b2-09a5-49de-8f9b-71605a100504?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/video-search-and-find-notes-38dd270a-a7ef-4542-8e14-5af7aebb7fd7?embed=true&themeid=-1",
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3545,7 +3534,7 @@
     "Id": "ec3f81ec-814c-4c50-be0d-35a0c3a49db1",
     "Title": "Format pages",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/ec3f81ec-814c-4c50-be0d-35a0c3a49db1?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/video-format-pages-in-onenote-dc32afc4-0791-42b2-8c23-683dc137c37e?embed=true&themeid=-1",
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -3556,7 +3545,7 @@
     "Id": "ff0d5f04-532d-43e6-835a-82c5755374cb",
     "Title": "Organize your notebooks",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/ff0d5f04-532d-43e6-835a-82c5755374cb?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/video-organize-your-notebooks-f8048919-34df-4e12-8f32-45403288df50?embed=true&themeid=-1",
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -4121,7 +4110,7 @@
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -4304,7 +4293,7 @@
     "Id": "03103cb6-6538-4e92-90c0-567634fb60ef",
     "Title": "Share files and folders",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/03103cb6-6538-4e92-90c0-567634fb60ef?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/03103cb6-6538-4e92-90c0-567634fb60ef?embed=true&themeId=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -4315,7 +4304,7 @@
     "Id": "03bb3e62-d16f-4658-a632-ed30121560ef",
     "Title": "Set up your Android phone or tablet",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/03bb3e62-d16f-4658-a632-ed30121560ef?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/03bb3e62-d16f-4658-a632-ed30121560ef?embed=true&themeId=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -4326,7 +4315,7 @@
     "Id": "10f5c3fd-b0f6-40e2-9059-04735ffe01b7",
     "Title": "What is OneDrive?",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/10f5c3fd-b0f6-40e2-9059-04735ffe01b7?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/10f5c3fd-b0f6-40e2-9059-04735ffe01b7?embed=true&themeId=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -4337,7 +4326,7 @@
     "Id": "110ca7b0-ae3d-4e51-a14c-9d583e2d630c",
     "Title": "OneDrive basics",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/110ca7b0-ae3d-4e51-a14c-9d583e2d630c?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/110ca7b0-ae3d-4e51-a14c-9d583e2d630c?embed=true&themeId=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -4348,7 +4337,7 @@
     "Id": "1e8032c4-d72b-498c-9d8e-dc69e5adb63c",
     "Title": "Sync files with OneDrive Files on Demand",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/1e8032c4-d72b-498c-9d8e-dc69e5adb63c?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/1e8032c4-d72b-498c-9d8e-dc69e5adb63c?embed=true&themeId=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -4363,7 +4352,7 @@
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -4381,7 +4370,7 @@
     "Id": "3b8246e0-cc3c-4ae7-b4e1-4b4b37d27f68",
     "Title": "Sync OneDrive files and folders",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/3b8246e0-cc3c-4ae7-b4e1-4b4b37d27f68?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/3b8246e0-cc3c-4ae7-b4e1-4b4b37d27f68?embed=true&themeId=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -4390,20 +4379,20 @@
   },
   {
     "Id": "3cd2e0b9-a2bc-4009-ba4a-88fc1052522f",
-    "Title": "Turn on OneDrive Backup",
+    "Title": "Back up your folders with OneDrive",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/4e44ceab-bcdf-4d17-9ae0-6f00f6080adb?embed=true&themeid=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
     "Id": "448d4051-3a43-4d2e-b1d8-de0aa03c069e",
     "Title": "Use the OneDrive mobile app",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/448d4051-3a43-4d2e-b1d8-de0aa03c069e?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/448d4051-3a43-4d2e-b1d8-de0aa03c069e?embed=true&themeId=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -4414,7 +4403,7 @@
     "Id": "4fe9c70f-7831-4beb-982e-ac9dc75fbfe6",
     "Title": "OneDrive Basics",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/4fe9c70f-7831-4beb-982e-ac9dc75fbfe6?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/4fe9c70f-7831-4beb-982e-ac9dc75fbfe6?embed=true&themeId=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -4423,20 +4412,20 @@
   },
   {
     "Id": "586df57b-fdae-439c-ae5b-71cbe5bb0d4c",
-    "Title": "Collaborate",
+    "Title": "Share OneDrive files and folders",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07?embed=true&themeid=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
     "Id": "5bd927ad-d186-495c-93e8-7ca116fe7b83",
     "Title": "Upload files and folders",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/5bd927ad-d186-495c-93e8-7ca116fe7b83?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/5bd927ad-d186-495c-93e8-7ca116fe7b83?embed=true&themeId=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -4447,7 +4436,7 @@
     "Id": "62e8d748-7877-420f-b600-24b56562aa70",
     "Title": "Sync files with OneDrive Files on Demand",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/62e8d748-7877-420f-b600-24b56562aa70?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/62e8d748-7877-420f-b600-24b56562aa70?embed=true&themeId=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -4469,7 +4458,7 @@
     "Id": "72f26d6c-bf9e-432c-8b96-e3c2437f5b65",
     "Title": "Share files and folders",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/72f26d6c-bf9e-432c-8b96-e3c2437f5b65?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/72f26d6c-bf9e-432c-8b96-e3c2437f5b65?embed=true&themeId=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -4478,13 +4467,13 @@
   },
   {
     "Id": "8ce30c76-e27b-4e55-9050-082393954213",
-    "Title": "Work on the go",
+    "Title": "Back up your folders with OneDrive",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/8ce30c76-e27b-4e55-9050-082393954213?embed=true&themeid=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -4495,36 +4484,36 @@
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
     "Id": "943c1193-0076-4a85-b07f-a359de11690c",
-    "Title": "Set up your iPhone or iPad",
+    "Title": "Use OneDrive on iOS",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/81267c98-49cd-48dc-882b-f17785914673?embed=true&themeid=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
     "Id": "94c8a731-c774-468e-97a1-5f038bdf330d",
-    "Title": "Manage Files",
+    "Title": "Files in OneDrive",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/94c8a731-c774-468e-97a1-5f038bdf330d?embed=true&themeid=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
     "Id": "98634873-26f3-48be-9f4a-153235b6633d",
     "Title": "Create files and folders",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/98634873-26f3-48be-9f4a-153235b6633d?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/98634873-26f3-48be-9f4a-153235b6633d?embed=true&themeId=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -4539,25 +4528,25 @@
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
     "Id": "a1397e56-61ec-4ed2-9dac-727bf8ac3357",
-    "Title": "Upload files",
+    "Title": "Upload photos and files to OneDrive",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/a1397e56-61ec-4ed2-9dac-727bf8ac3357?embed=true&themeid=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
     "Id": "af839c61-f18f-4ae5-9698-325d3cf14f36",
     "Title": "Upload files and folders",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/af839c61-f18f-4ae5-9698-325d3cf14f36?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/af839c61-f18f-4ae5-9698-325d3cf14f36?embed=true&themeId=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -4590,7 +4579,7 @@
     "Id": "d26c1b0d-8047-42bf-9104-f6e9a3576e62",
     "Title": "Use the OneDrive mobile app",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/d26c1b0d-8047-42bf-9104-f6e9a3576e62?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/69666bf0-dca9-4fa2-b7f5-8b4dc7b3d019?embed=true&themeId=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -4610,13 +4599,13 @@
   },
   {
     "Id": "e28db166-76a0-454b-9f71-c26bde579f70",
-    "Title": "Delete and restore deleted files",
+    "Title": "Delete files or folders in OneDrive",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/99ade958-5c25-444b-9e1e-f222a8976441?embed=true&themeid=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -4632,13 +4621,13 @@
   },
   {
     "Id": "f8c24f1a-9dfb-4ede-94c5-931a45646a96",
-    "Title": "Manage disk space",
+    "Title": "Use OneDrive and Storage Sense in Windows 10 to manage disk space",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/f8c24f1a-9dfb-4ede-94c5-931a45646a96?embed=true&themeid=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -4968,7 +4957,7 @@
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -5723,7 +5712,7 @@
     "Id": "4411e38f-9bc5-4ecc-bd33-3dbe939ac84c",
     "Title": "Find and follow sites and news",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/4411e38f-9bc5-4ecc-bd33-3dbe939ac84c?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/4411e38f-9bc5-4ecc-bd33-3dbe939ac84c?embed=true&themeId=-1",
     "TechnologyId": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -5822,11 +5811,11 @@
     "Id": "92b93131-fbef-4894-8ba2-2fdfa90c5b32",
     "Title": "Stay connected with the SharePoint mobile app",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/92b93131-fbef-4894-8ba2-2fdfa90c5b32?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/92b93131-fbef-4894-8ba2-2fdfa90c5b32?embed=true&themeId=-1",
     "TechnologyId": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -5855,7 +5844,7 @@
     "Id": "c17b6824-cc22-478f-8757-497cc6b57121",
     "Title": "What is SharePoint?",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/c17b6824-cc22-478f-8757-497cc6b57121?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/c17b6824-cc22-478f-8757-497cc6b57121?embed=true&themeId=-1",
     "TechnologyId": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -5921,7 +5910,7 @@
     "Id": "062f6252-5feb-4b80-a197-d9dd383aa31c",
     "Title": "What is Microsoft Teams?",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/b98d533f-118e-4bae-bf44-3df2470c2b12?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/b98d533f-118e-4bae-bf44-3df2470c2b12?embed=true&themeId=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -5969,7 +5958,7 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -6156,7 +6145,7 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -6383,7 +6372,7 @@
     "Id": "7237da86-9409-40e1-9b05-fc3eba33404c",
     "Title": "Manage meetings",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/ba44d0fd-da3c-4541-a3eb-a868f5e2b137?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/ba44d0fd-da3c-4541-a3eb-a868f5e2b137?embed=true&themeId=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -6405,7 +6394,7 @@
     "Id": "77d55b36-b274-4fee-acbe-978ccf14c7e6",
     "Title": "Work in channels",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/77d55b36-b274-4fee-acbe-978ccf14c7e6?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/77d55b36-b274-4fee-acbe-978ccf14c7e6?embed=true&themeId=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -6427,7 +6416,7 @@
     "Id": "7843f46f-a3ad-4dd9-9430-867e6362e590",
     "Title": "Start and pin chats",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/a864b052-5e4b-4ccf-b046-2e26f40e21b5?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/0c71b32b-c050-4930-a887-5afbe742b3d8?embed=true&themeId=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -6486,7 +6475,7 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -6497,7 +6486,7 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -6647,7 +6636,7 @@
     "Id": "b98d533f-118e-4bae-bf44-3df2470c2b12",
     "Title": "Get started with Microsoft Teams",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/b98d533f-118e-4bae-bf44-3df2470c2b12?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/b98d533f-118e-4bae-bf44-3df2470c2b12?embed=true&themeId=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -6658,7 +6647,7 @@
     "Id": "b99bbb59-0e61-4a57-a01e-72f95ae8b815",
     "Title": "Schedule meetings",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/b99bbb59-0e61-4a57-a01e-72f95ae8b815?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/b99bbb59-0e61-4a57-a01e-72f95ae8b815?embed=true&themeId=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -6695,7 +6684,7 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -6706,7 +6695,7 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -6735,7 +6724,7 @@
     "Id": "d3cc8fad-9655-4f2d-b8f5-197a1b3951a1",
     "Title": "Manage meetings",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/ba44d0fd-da3c-4541-a3eb-a868f5e2b137?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/ba44d0fd-da3c-4541-a3eb-a868f5e2b137?embed=true&themeId=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "615f17eb-2c5b-4494-8541-4304435ca306",
     "Source": "Microsoft",
@@ -6754,7 +6743,7 @@
     "StatusNote": ""
   },
   {
-    "Id": "3993d9e5-06b3-4654-9e8f-9d2de79d2f8e",
+    "Id": "d46890d8-e8bf-4642-97cd-6379b0c7dddd",
     "Title": "Upload and share files",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/57b669db-678e-424e-b0a0-15d19215cb12?embed=true&themeId=-1",
@@ -6909,24 +6898,24 @@
   },
   {
     "Id": "0b32ebf0-fae9-4815-a061-94048d0799ef",
-    "Title": "Manage your notifications",
+    "Title": "Manage your notifications in Outlook mobile",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/d3b5a22b-919c-4d30-a26f-ae9a0a78ba90?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
     "Id": "0e8be5a2-c2e1-4702-bb76-0ee7228b9d35",
-    "Title": "Add folders and groups to Favorites",
+    "Title": "Add frequently used folders & groups to Favorites in Outlook mobile",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/450021d7-0035-4276-8817-351cf2f493d2?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -7089,8 +7078,9 @@
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/4b87e762-c56b-4bcf-8b56-95fd8b6d241b?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "SubjectId": "",
     "Source": "Microsoft",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -7123,7 +7113,7 @@
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -7172,13 +7162,13 @@
   },
   {
     "Id": "6d35e08b-ca70-42b8-abf7-cca1ddbd267d",
-    "Title": "Favorite contacts and set notifications",
+    "Title": "Favorite contacts & set notifications in Outlook mobile",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/d7cce114-3f45-4d33-8683-af4f303d6e2d?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -7244,7 +7234,7 @@
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -7348,13 +7338,13 @@
   },
   {
     "Id": "da0fcac5-7ef3-4241-a1ff-68faaeedbfba",
-    "Title": "Search made simple",
+    "Title": "Search made simple in Outlook mobile",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/07df353b-e866-4c49-9d7c-dbbdf00a9223?embed=true&themeid=-1",
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -7816,7 +7806,7 @@
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -7849,7 +7839,7 @@
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -7959,7 +7949,7 @@
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -8091,7 +8081,7 @@
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -8575,7 +8565,7 @@
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -8773,14 +8763,14 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
     "Id": "08eb637b-9c8e-4f3c-a705-2aa6849f398e",
     "Title": "Bring your work to life with 3D",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/08eb637b-9c8e-4f3c-a705-2aa6849f398e?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/08eb637b-9c8e-4f3c-a705-2aa6849f398e?embed=true&themeId=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -8835,7 +8825,7 @@
     "Id": "13c08ec7-7756-4b80-a21b-60224ba348f5",
     "Title": "Save time",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/cf5ad0a3-a51a-443d-b291-2c6fd03603a8?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/cf5ad0a3-a51a-443d-b291-2c6fd03603a8?embed=true&themeId=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -8883,7 +8873,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -8894,7 +8884,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -8934,7 +8924,7 @@
     "Id": "21df0985-20fe-4d1e-a032-4b0837f3bdac",
     "Title": "Optimize team conversations",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/5c7a70e0-4635-4060-82b8-f832943d20e5?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/5c7a70e0-4635-4060-82b8-f832943d20e5?embed=true&themeId=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -8967,7 +8957,7 @@
     "Id": "26dc26c2-f0aa-46d6-a7ca-d41c95324789",
     "Title": "Stay connected",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/6593347b-1539-44f2-a0f6-24807cbfc9b2?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/6593347b-1539-44f2-a0f6-24807cbfc9b2?embed=true&themeId=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -8978,7 +8968,7 @@
     "Id": "299b847d-fc47-4e69-9ad7-c62bd16f32ca",
     "Title": "Express yourself freely with digital ink",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/3b62ba3c-a1e2-4f18-b79d-d5a7fe88da3c?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/3b62ba3c-a1e2-4f18-b79d-d5a7fe88da3c?embed=true&themeId=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -9081,7 +9071,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -9187,7 +9177,7 @@
     "Id": "51a18a97-1564-4d0c-a7f3-72661a63f100",
     "Title": "What is: Multi-factor Authentication?",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/c97b3170-2c05-44a6-9c7d-15953ff2a024?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/e5e39437-121c-be60-d123-eda06bddf661?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -9257,7 +9247,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -9301,7 +9291,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -9372,7 +9362,7 @@
   },
   {
     "Id": "69b2a175-28e4-4d06-96cf-7bca2e8351f5",
-    "Title": "Team productivity in the hybrid workplace",
+    "Title": "Teams productivity in the hybrid workplace",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/69b2a175-28e4-4d06-96cf-7bca2e8351f5?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9554,7 +9544,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -9576,7 +9566,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -9638,7 +9628,7 @@
     "Id": "a450d2f1-f8e9-452e-b570-088e214dcc0e",
     "Title": "Stay secure and private at work",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/104c7d91-b25a-453d-beee-ba64b6c6fc2d?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/104c7d91-b25a-453d-beee-ba64b6c6fc2d?embed=true&themeId=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -9653,7 +9643,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -9682,7 +9672,7 @@
     "Id": "a864b052-5e4b-4ccf-b046-2e26f40e21b5",
     "Title": "Start conversations in Teams",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/a864b052-5e4b-4ccf-b046-2e26f40e21b5?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/0c71b32b-c050-4930-a887-5afbe742b3d8?embed=true&themeId=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -9719,7 +9709,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -9792,7 +9782,7 @@
     "Id": "b2c9a7eb-6941-44ca-a273-ddc76f6d4153",
     "Title": "Access your files on any device",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/871b8720-e94d-4dc6-9c0f-8a2bc1bb4df7?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/871b8720-e94d-4dc6-9c0f-8a2bc1bb4df7?embed=true&themeId=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -9825,7 +9815,7 @@
     "Id": "b77aeff7-6385-4921-be7d-461f241e74a8",
     "Title": "Take and read notes",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/2f96267d-6a23-460f-b57b-b86a7b38202a?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/2f96267d-6a23-460f-b57b-b86a7b38202a?embed=true&themeId=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -9873,7 +9863,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -10023,7 +10013,7 @@
     "Id": "ccf0401e-14e1-4597-ae88-e35d98b51b09",
     "Title": "Make your work and PC accessible",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/9e32cc6e-ae87-4bcf-97d0-88903dbdd776?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/9e32cc6e-ae87-4bcf-97d0-88903dbdd776?embed=true&themeId=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -10082,7 +10072,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -10115,7 +10105,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
@@ -10192,7 +10182,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "",
     "StatusNote": ""
   },
   {
