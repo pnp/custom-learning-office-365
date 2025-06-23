@@ -1471,10 +1471,14 @@
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
     "Description": "Microsoft Teams是一个协作应用，可帮助你的团队保持井井有条并展开对话 - 全部在一个地方进行。通过 Microsoft Teams 简介，获取团队、频道、会议、对话、选项卡、选项卡、共享文件、实时协作、查找文件、将人员添加到聊天、进行呼叫、管理日历、安排会议、加入会议、共享内容、录制会议、查看我们的活动源，以及使用命令框搜索人员、项目或应用。",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "b98d533f-118e-4bae-bf44-3df2470c2b12"
+      "b98d533f-118e-4bae-bf44-3df2470c2b12",
+      "0b506ce2-eb6d-4fca-9668-e56980ba755e",
+      "909b75b4-5448-455c-9c9a-5115acf4d3d8",
+      "c3d63c10-77d5-4204-a566-53ddcf723b46",
+      "3479773b-2526-4473-804f-23d458c2aaca"
     ]
   },
   {

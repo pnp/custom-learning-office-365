@@ -1471,10 +1471,14 @@
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
     "Description": "Microsoft Teams ist eine App für Zusammenarbeit, die Ihrem Team hilft, sich zu organisieren und unterhaltungen zu führen – alles an einer Stelle. Mit der Einführung in Microsoft Teams erhalten Sie einen Überblick über Teams, Kanäle, Besprechungen, Unterhaltungen, Registerkarten, Dateien freigeben, in Echtzeit zusammenarbeiten, Dateien suchen, Personen zu einem Chat hinzufügen, einen Anruf führen, Ihren Kalender verwalten, eine Besprechung planen, an Besprechungen teilnehmen, Inhalte freigeben, eine Besprechung aufzeichnen, unseren Aktivitätsfeed anzeigen und über das Befehlsfeld nach Personen, Elementen oder Apps suchen.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "b98d533f-118e-4bae-bf44-3df2470c2b12"
+      "b98d533f-118e-4bae-bf44-3df2470c2b12",
+      "0b506ce2-eb6d-4fca-9668-e56980ba755e",
+      "909b75b4-5448-455c-9c9a-5115acf4d3d8",
+      "c3d63c10-77d5-4204-a566-53ddcf723b46",
+      "3479773b-2526-4473-804f-23d458c2aaca"
     ]
   },
   {

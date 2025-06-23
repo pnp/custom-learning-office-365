@@ -5939,6 +5939,17 @@
     "StatusTagId": "",
     "StatusNote": ""
   },
+{
+  "Id": "0b506ce2-eb6d-4fca-9668-e56980ba755e",
+  "Title": "チャットの使用を開始する",
+  "Description": "",
+  "Url": "https://support.office.com/ja-jp/f1/article/0b506ce2-eb6d-4fca-9668-e56980ba755e?embed=true&themeid=-1",
+  "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+  "SubjectId": "",
+  "Source": "Microsoft",
+  "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+  "StatusNote": ""
+},
   {
     "Id": "0da0c87d-ea04-41fe-bf2a-dbae4d98e185",
     "Title": "チャットから承認を作成する",
@@ -6115,6 +6126,17 @@
     "StatusTagId": "",
     "StatusNote": ""
   },
+{
+  "Id": "3479773b-2526-4473-804f-23d458c2aaca",
+  "Title": "Microsoft Teams でアプリを使い始める",
+  "Description": "",
+  "Url": "https://support.office.com/ja-jp/f1/article/3479773b-2526-4473-804f-23d458c2aaca?embed=true&themeid=-1",
+  "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+  "SubjectId": "",
+  "Source": "Microsoft",
+  "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+  "StatusNote": ""
+},
   {
     "Id": "37566690-8652-4eac-abed-bfe6de084828",
     "Title": "会議中に自分の画面を共有する",
@@ -6434,6 +6456,17 @@
     "StatusTagId": "",
     "StatusNote": ""
   },
+{
+  "Id": "909b75b4-5448-455c-9c9a-5115acf4d3d8",
+  "Title": "会議の概要",
+  "Description": "",
+  "Url": "https://support.office.com/ja-jp/f1/article/909b75b4-5448-455c-9c9a-5115acf4d3d8?embed=true&themeid=-1",
+  "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+  "SubjectId": "",
+  "Source": "Microsoft",
+  "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+  "StatusNote": ""
+},
   {
     "Id": "920382b4-2cca-40f1-ac20-05afed2005bd",
     "Title": "会議にTeamsする",
@@ -6629,9 +6662,20 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
+{
+  "Id": "c6d0e61d-a61e-44a6-a972-04f2a8fa4155",
+  "Title": "Microsoft Teams のチームとチャネル",
+  "Description": "",
+  "Url": "https://support.office.com/ja-jp/f1/article/c6d0e61d-a61e-44a6-a972-04f2a8fa4155?embed=true&themeid=-1",
+  "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+  "SubjectId": "",
+  "Source": "Microsoft",
+  "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+  "StatusNote": ""
+},
   {
     "Id": "d1a88b4b-f6d4-47da-a28a-196857b5325b",
     "Title": "Q&A のモデリング",
