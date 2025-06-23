@@ -2344,13 +2344,13 @@
   },
   {
     "Id": "153a4f24-5b06-4c8c-a966-1361baf46eb1",
-    "Title": "Learning Hulpmiddelen in Word",
+    "Title": "Insluitende lezer gebruiken in Word",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/a857949f-c91e-4c97-977c-a4efcaf9b3c1?embed=true&themeid=-1",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2421,13 +2421,13 @@
   },
   {
     "Id": "303eb71a-6bd8-474c-ba06-923e93347224",
-    "Title": "Inleiding tot het gebruik van een schermlezer in Word",
+    "Title": "Een schermlezer gebruiken om in Word te bladeren en navigeren",
     "Description": "",
-    "Url": "https://support.office.com/nl-nl/f1/article/303eb71a-6bd8-474c-ba06-923e93347224?embed=true&themeid=-1",
+    "Url": "https://support.office.com/nl-nl/f1/article/a16a93f4-163f-4f48-a246-78c2573d8953?embed=true&themeid=-1",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2592,7 +2592,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -2834,7 +2834,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2911,7 +2911,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
