@@ -2344,13 +2344,13 @@
   },
   {
     "Id": "153a4f24-5b06-4c8c-a966-1361baf46eb1",
-    "Title": "Learning Tools in Word",
+    "Title": "Use Immersive Reader in Word",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/a857949f-c91e-4c97-977c-a4efcaf9b3c1?embed=true&themeid=-1",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-   "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2421,7 +2421,7 @@
   },
   {
     "Id": "303eb71a-6bd8-474c-ba06-923e93347224",
-    "Title": "Introduction to using a screen reader in Word",
+    "Title": "Use a screen reader to explore and navigate Word",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/a16a93f4-163f-4f48-a246-78c2573d8953?embed=true&themeid=-1",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
@@ -2482,7 +2482,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2559,7 +2559,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2724,7 +2724,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -2779,7 +2779,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
