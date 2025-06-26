@@ -31,7 +31,7 @@ class WebhookServiceInternal implements IWebhookService {
     try {
       if (params.webhookConfig != null && params.webhookConfig.Url != null && params.webhookConfig.Url.length > 0) {
         this._webhookUrl = params.webhookConfig.Url;
-        this._anonymizeUser = params.webhookConfig.AnonymizeUser || true;
+        this._anonymizeUser = params.webhookConfig.AnonymizeUser;
         this._webhookKeyHeader = params.webhookConfig.KeyHeader || "M365LP-API-KEY";
         this._webhookKey = params.webhookConfig.Key || null;
         if (this._anonymizeUser) {
