@@ -861,7 +861,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Use filas y columnas de Excel para organizar los datos. Obtenga información sobre cómo insertar o eliminar filas y columnas, seleccionar contenido en Excel, inmovilizar paneles para bloquear filas y columnas, ocultar o mostrar filas o columnas, filtrar por valores únicos o quitar valores duplicados, dividir texto en columnas diferentes y crear una lista de fechas secuenciales",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "6f40e6e4-85af-45e0-b39d-65dd504a3246",

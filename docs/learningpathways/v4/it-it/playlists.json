@@ -861,7 +861,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Usare le righe e le colonne di Excel per organizzare i dati. Informazioni su come inserire o eliminare righe e colonne, selezionare contenuti in Excel, bloccare i riquadri per bloccare righe e colonne, nascondere o visualizzare righe o colonne, filtrare in base a valori univoci o rimuovere valori duplicati, dividere il testo in colonne diverse e creare un elenco di date sequenziali",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "6f40e6e4-85af-45e0-b39d-65dd504a3246",

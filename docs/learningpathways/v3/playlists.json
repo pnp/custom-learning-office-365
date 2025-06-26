@@ -861,7 +861,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Use Excel rows and columns to organize your data. Learn how to insert or delete rows and columns, select content in Excel, freeze panes to lock rows and columns, hide or show rows or columns, filter for unique values or remove duplicate values, split text into different columns, and create a list of sequential dates",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "6f40e6e4-85af-45e0-b39d-65dd504a3246",

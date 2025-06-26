@@ -861,7 +861,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "使用 Excel 行和列来组织数据。了解如何插入或删除行和列、在 Excel 中选择内容、冻结窗格以锁定行和列、隐藏或显示行或列、筛选唯一值或删除重复值、将文本拆分为不同列，以及创建有序日期列表",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "6f40e6e4-85af-45e0-b39d-65dd504a3246",

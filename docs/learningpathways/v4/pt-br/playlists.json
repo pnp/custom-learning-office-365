@@ -861,7 +861,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Use linhas e colunas do Excel para organizar seus dados. Aprenda como inserir ou excluir linhas e colunas, selecionar conteúdo no Excel, congelar painéis para bloquear linhas e colunas, ocultar ou mostrar linhas ou colunas, filtrar por valores únicos ou remover valores duplicados, dividir texto em colunas diferentes e criar uma lista de datas sequenciais",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "6f40e6e4-85af-45e0-b39d-65dd504a3246",
