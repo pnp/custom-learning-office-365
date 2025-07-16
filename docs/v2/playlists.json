@@ -63,7 +63,7 @@
     "Description": "Add columns, rows, or cells to an Excel worksheet or delete them. Freeze panes, hide or show rows and columns or filter for unique values.",
     "StatusTag": "",
     "Assets": [
-      "06e7419f-fdea-4f32-bc2b-f73088410881",
+      "6f40e6e4-85af-45e0-b39d-65dd504a3246",
       "32bae4a3-7bc2-49a7-9cff-22c399ab09e4",
       "94708bae-df5c-4c3b-888c-621cf5d4bc94",
       "95146525-ce4f-4ff6-a118-c0724deb1a98",
@@ -1600,11 +1600,9 @@
     "Description": "Learn to make Word accessible: Use a screen reader, shortcuts, and do things with Tell Me",
     "StatusTag": "",
     "Assets": [
-      "303eb71a-6bd8-474c-ba06-923e93347224",
-      "d6b60e8f-0530-43bf-b688-e99d36cf5663",
-      "153a4f24-5b06-4c8c-a966-1361baf46eb1",
-      "cebd7999-e9ad-4b0d-9126-76438798c6b2",
-      "6a7abb9e-0a36-448b-8704-f64a92ee2097"
+"303eb71a-6bd8-474c-ba06-923e93347224",
+"153a4f24-5b06-4c8c-a966-1361baf46eb1",
+"cebd7999-e9ad-4b0d-9126-76438798c6b2"
     ]
   },
   {

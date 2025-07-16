@@ -817,7 +817,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Démarrage rapidement avec le guide de démarrage rapide Excel. Découvrez comment créer un classeur, entrer des données, enregistrer votre classeur pour OneDrive et remplir automatiquement une colonne avec Flash Remplissage. Découvrez également comment calculer rapidement avec AutoSum, créer un graphique ou utiliser la mise en forme conditionnelle avec l’analyse rapide, figer la ligne supérieure, partager votre classeur pour collaborer avec d’autres personnes et configurer vos applications mobiles.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "94b00f50-5896-479c-b0c5-ff74603b35a3",
@@ -838,10 +838,10 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Consultez ce cours d'introduction à Excel pour découvrir comment créer un classeur, insérer ou supprimer une feuille de calcul, déplacer, copier ou imprimer une feuille de calcul, utiliser Excel comme calculatrice, remplir automatiquement des données et créer une liste déroulante.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "82e9eab2-2e4e-463a-baa5-669b6c8ac543",
+      "94b00f50-5896-479c-b0c5-ff74603b35a3",
       "861d97cb-3b33-4978-92e4-9446dc19b8da",
       "48580e26-5b6d-48d3-afb5-317e18006dcb",
       "eda1729c-21eb-4bab-970b-fbb6da8724f3",
@@ -861,7 +861,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Utiliser des lignes et des colonnes Excel pour organiser vos données. Apprendre à insérer ou supprimer des lignes et des colonnes, sélectionner du contenu dans Excel, geler des volets pour verrouiller des lignes et des colonnes, masquer ou afficher des lignes ou des colonnes, filtrer des valeurs uniques ou supprimer des valeurs en double, diviser le texte en différentes colonnes et créer une liste de dates séquentielles",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "6f40e6e4-85af-45e0-b39d-65dd504a3246",
@@ -3174,14 +3174,12 @@
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
     "Description": "Découvrez comment améliorer l’accessibilité et la facilité d’utilisation dans Word. Utilisez un lecteur d’écran, utilisez les outils Learning pour améliorer votre aisance et votre compréhension lors de la lecture, utilisez le Vérifier l’accessibilité pour rendre les documents accessibles et apprenez les raccourcis clavier pour effectuer des tâches rapidement.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "303eb71a-6bd8-474c-ba06-923e93347224",
-      "f40cd198-dbce-4ba2-9cf3-04ff6d364db0",
-      "153a4f24-5b06-4c8c-a966-1361baf46eb1",
-      "cebd7999-e9ad-4b0d-9126-76438798c6b2",
-      "6a7abb9e-0a36-448b-8704-f64a92ee2097"
+"303eb71a-6bd8-474c-ba06-923e93347224",
+"153a4f24-5b06-4c8c-a966-1361baf46eb1",
+"cebd7999-e9ad-4b0d-9126-76438798c6b2"
     ]
   },
   {
@@ -3195,7 +3193,7 @@
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
     "Description": "Découvrez comment mettre en forme du texte dans Word. Modifiez la police, la taille de police, la couleur de police, la mise en forme de la copie avec l’application Reproduire la mise en forme, créez une liste à puces ou numéroter, modifiez l’espacement des lignes et appliquez des styles et des thèmes pour améliorer visuellement la conception de votre document Word.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "ab6ed4a9-3086-4012-9fbf-06298ca4afb0",

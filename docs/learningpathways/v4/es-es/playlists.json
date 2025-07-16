@@ -817,7 +817,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Comenzar rápidamente con la guía de inicio rápido Excel. Obtenga información sobre cómo crear un libro, escribir datos, guardar el libro en OneDrive y rellenar automáticamente una columna con Flash Rellenar. Obtenga información también sobre cómo calcular rápidamente con Autosuma, crear un gráfico o usar formato condicional con análisis rápido, inmovilizar la fila superior, compartir el libro para colaborar con otras personas y configurar sus aplicaciones móviles.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "94b00f50-5896-479c-b0c5-ff74603b35a3",
@@ -838,10 +838,10 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Consulte esta introducción al curso de Excel para obtener información sobre cómo crear un libro, insertar, eliminar, mover, copiar o imprimir una hoja de cálculo, usar Excel como calculadora, rellenar datos automáticamente y crear una lista desplegable.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "82e9eab2-2e4e-463a-baa5-669b6c8ac543",
+      "94b00f50-5896-479c-b0c5-ff74603b35a3",
       "861d97cb-3b33-4978-92e4-9446dc19b8da",
       "48580e26-5b6d-48d3-afb5-317e18006dcb",
       "eda1729c-21eb-4bab-970b-fbb6da8724f3",
@@ -861,7 +861,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Use filas y columnas de Excel para organizar los datos. Obtenga información sobre cómo insertar o eliminar filas y columnas, seleccionar contenido en Excel, inmovilizar paneles para bloquear filas y columnas, ocultar o mostrar filas o columnas, filtrar por valores únicos o quitar valores duplicados, dividir texto en columnas diferentes y crear una lista de fechas secuenciales",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "6f40e6e4-85af-45e0-b39d-65dd504a3246",
@@ -3174,14 +3174,12 @@
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
     "Description": "Obtenga información sobre cómo mejorar la accesibilidad y la facilidad de uso en Word. Use un lector de pantalla, use Learning Tools para ayudar con la fluidez y comprensión de la lectura, use el Comprobador de accesibilidad para hacer que los documentos sea accesible y aprenda métodos abreviados de teclado para realizar tareas rápidamente.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "303eb71a-6bd8-474c-ba06-923e93347224",
-      "f40cd198-dbce-4ba2-9cf3-04ff6d364db0",
-      "153a4f24-5b06-4c8c-a966-1361baf46eb1",
-      "cebd7999-e9ad-4b0d-9126-76438798c6b2",
-      "6a7abb9e-0a36-448b-8704-f64a92ee2097"
+"303eb71a-6bd8-474c-ba06-923e93347224",
+"153a4f24-5b06-4c8c-a966-1361baf46eb1",
+"cebd7999-e9ad-4b0d-9126-76438798c6b2"
     ]
   },
   {
@@ -3195,7 +3193,7 @@
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
     "Description": "Obtenga información sobre cómo dar formato al texto en Word. Cambie la fuente, el tamaño de fuente, el color de fuente, copie el formato con Copiar formato, cree una lista numerada o con viñetas, cambie el interlineado y aplique estilos y temas para mejorar visualmente el diseño del documento de Word.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "ab6ed4a9-3086-4012-9fbf-06298ca4afb0",

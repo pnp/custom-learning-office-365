@@ -817,7 +817,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Introdução rapidamente com o guia Excel Início Rápido. Saiba como criar uma pasta de trabalho, inserir dados, salvar sua pasta de trabalho OneDrive e preencher automaticamente uma coluna com Preenchimento Relâmpago. Saiba também como calcular rapidamente com a AutoSoma, criar um gráfico ou usar a formatação condicional com a Análise Rápida, congelar a linha superior, compartilhar sua pasta de trabalho para colaborar com outras pessoas e configurar seus aplicativos móveis.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "94b00f50-5896-479c-b0c5-ff74603b35a3",
@@ -838,10 +838,10 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Confira esta introdução ao curso do Excel para saber como criar uma pasta de trabalho, inserir ou excluir uma planilha, mover, copiar ou imprimir uma planilha, usar o Excel como calculadora, preencher dados automaticamente e criar uma lista suspensa.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "82e9eab2-2e4e-463a-baa5-669b6c8ac543",
+      "94b00f50-5896-479c-b0c5-ff74603b35a3",
       "861d97cb-3b33-4978-92e4-9446dc19b8da",
       "48580e26-5b6d-48d3-afb5-317e18006dcb",
       "eda1729c-21eb-4bab-970b-fbb6da8724f3",
@@ -861,7 +861,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Use linhas e colunas do Excel para organizar seus dados. Aprenda como inserir ou excluir linhas e colunas, selecionar conteúdo no Excel, congelar painéis para bloquear linhas e colunas, ocultar ou mostrar linhas ou colunas, filtrar por valores únicos ou remover valores duplicados, dividir texto em colunas diferentes e criar uma lista de datas sequenciais",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "6f40e6e4-85af-45e0-b39d-65dd504a3246",
@@ -3174,14 +3174,12 @@
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
     "Description": "Saiba como melhorar a acessibilidade e a facilidade de uso no Word. Use um leitor de tela, use Learning Ferramentas para ajudar na leitura de fluência e compreensão, use o Verificador de Acessibilidade para tornar os documentos acessíveis e aprenda atalhos de teclado para executar tarefas rapidamente.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "303eb71a-6bd8-474c-ba06-923e93347224",
-      "f40cd198-dbce-4ba2-9cf3-04ff6d364db0",
-      "153a4f24-5b06-4c8c-a966-1361baf46eb1",
-      "cebd7999-e9ad-4b0d-9126-76438798c6b2",
-      "6a7abb9e-0a36-448b-8704-f64a92ee2097"
+"303eb71a-6bd8-474c-ba06-923e93347224",
+"153a4f24-5b06-4c8c-a966-1361baf46eb1",
+"cebd7999-e9ad-4b0d-9126-76438798c6b2"
     ]
   },
   {
@@ -3195,7 +3193,7 @@
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
     "Description": "Saiba como formatar texto no Word. Altere a fonte, o tamanho da fonte, a cor da fonte, a formatação de cópia com o Format Painter, crie uma lista com marcador ou numerada, altere o espaçamento de linha e aplique estilos e temas para aprimorar visualmente o design do documento do Word.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "ab6ed4a9-3086-4012-9fbf-06298ca4afb0",

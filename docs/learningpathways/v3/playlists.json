@@ -817,7 +817,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Get started quickly with the Excel Quick Start guide. Learn how to create a workbook, enter data, save your workbook to OneDrive, and automatically fill a column with Flash Fill. Also learn how to quickly calculate with AutoSum, create a chart, or use conditional formatting with Quick Analysis, freeze the top row, share your workbook to collaborate with others, and set up your mobile apps.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "94b00f50-5896-479c-b0c5-ff74603b35a3",
@@ -838,10 +838,10 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Check out this intro to Excel course to learn how to create a workbook, insert or delete a worksheet, move, copy, or print a worksheet, use Excel as a calculator, fill data automatically, and create a drop-down list.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "82e9eab2-2e4e-463a-baa5-669b6c8ac543",
+     "94b00f50-5896-479c-b0c5-ff74603b35a3",
       "861d97cb-3b33-4978-92e4-9446dc19b8da",
       "48580e26-5b6d-48d3-afb5-317e18006dcb",
       "eda1729c-21eb-4bab-970b-fbb6da8724f3",
@@ -861,7 +861,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Use Excel rows and columns to organize your data. Learn how to insert or delete rows and columns, select content in Excel, freeze panes to lock rows and columns, hide or show rows or columns, filter for unique values or remove duplicate values, split text into different columns, and create a list of sequential dates",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "6f40e6e4-85af-45e0-b39d-65dd504a3246",
@@ -3172,14 +3172,12 @@
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
     "Description": "Learn how to improve accessibility and ease of use in Word. Use a screen reader, use Learning Tools to help with reading fluency and comprehension, use Accessibility Checker to make documents accessible, and learn keyboard shortcuts to perform tasks quickly.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "303eb71a-6bd8-474c-ba06-923e93347224",
-      "f40cd198-dbce-4ba2-9cf3-04ff6d364db0",
-      "153a4f24-5b06-4c8c-a966-1361baf46eb1",
-      "cebd7999-e9ad-4b0d-9126-76438798c6b2",
-      "6a7abb9e-0a36-448b-8704-f64a92ee2097"
+"303eb71a-6bd8-474c-ba06-923e93347224",
+"153a4f24-5b06-4c8c-a966-1361baf46eb1",
+"cebd7999-e9ad-4b0d-9126-76438798c6b2"
     ]
   },
   {
@@ -3193,7 +3191,7 @@
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
     "Description": "Learn how to format text in Word. Change the font, font size, font color, copy formatting with Format Painter, create a bulleted or numbered list, change the line spacing, and apply styles and themes to visually enhance the design of your Word document.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "ab6ed4a9-3086-4012-9fbf-06298ca4afb0",

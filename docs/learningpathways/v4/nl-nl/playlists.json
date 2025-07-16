@@ -817,7 +817,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Aan de slag snel met de handleiding Excel Snelle Startmenu. Leer hoe u een werkmap maakt, gegevens invoert, de werkmap opslaat in OneDrive en automatisch een kolom vult met Snel aanvullen. Leer ook hoe u snel kunt berekenen met AutoSom, een grafiek kunt maken of voorwaardelijke opmaak kunt gebruiken met Snelle analyse, de bovenste rij kunt blokkeren, uw werkmap kunt delen om samen te werken met anderen en uw mobiele apps kunt instellen.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "94b00f50-5896-479c-b0c5-ff74603b35a3",
@@ -838,10 +838,10 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Bekijk deze cursus 'Inleiding tot Excel' voor meer informatie over werkmappen maken, een werkblad invoegen, verwijderen, verplaatsen, kopiëren of afdrukken, Excel als rekenmachine gebruiken, gegevens automatisch doorvoeren en een vervolgkeuzelijst maken.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "82e9eab2-2e4e-463a-baa5-669b6c8ac543",
+      "94b00f50-5896-479c-b0c5-ff74603b35a3",
       "861d97cb-3b33-4978-92e4-9446dc19b8da",
       "48580e26-5b6d-48d3-afb5-317e18006dcb",
       "eda1729c-21eb-4bab-970b-fbb6da8724f3",
@@ -861,7 +861,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Gebruik Excel-rijen en -kolommen om je gegevens te organiseren. Leer hoe je rijen en kolommen invoegt of verwijdert, inhoud in Excel selecteert, deelvensters blokkeert om rijen en kolommen te vergrendelen, rijen of kolommen verbergt of weergeeft, filtert op unieke waarden of dubbele waarden verwijdert, tekst splitst in verschillende kolommen en een lijst met opeenvolgende datums maakt",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "6f40e6e4-85af-45e0-b39d-65dd504a3246",
@@ -3174,14 +3174,12 @@
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
     "Description": "Meer informatie over het verbeteren van toegankelijkheid en gebruiksgemak in Word. Gebruik een schermlezer, gebruik Learning Hulpprogramma's om te helpen bij het lezen van vloeiendheid en begrip, gebruik Toegankelijkheidscontrole om documenten toegankelijk te maken en leer sneltoetsen om taken snel uit te voeren.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "303eb71a-6bd8-474c-ba06-923e93347224",
-      "f40cd198-dbce-4ba2-9cf3-04ff6d364db0",
-      "153a4f24-5b06-4c8c-a966-1361baf46eb1",
-      "cebd7999-e9ad-4b0d-9126-76438798c6b2",
-      "6a7abb9e-0a36-448b-8704-f64a92ee2097"
+"303eb71a-6bd8-474c-ba06-923e93347224",
+"153a4f24-5b06-4c8c-a966-1361baf46eb1",
+"cebd7999-e9ad-4b0d-9126-76438798c6b2"
     ]
   },
   {
@@ -3195,7 +3193,7 @@
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
     "Description": "Meer informatie over het opmaken van tekst in Word. Wijzig het lettertype, de tekengrootte, de tekenkleur, kopieer opmaak met Opmaak kopiëren/ plakken, maak een lijst met opsommingstekens of genummerde tekst, wijzig de regelafstand en pas stijlen en thema's toe om het ontwerp van uw Word-document visueel te verbeteren.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "ab6ed4a9-3086-4012-9fbf-06298ca4afb0",

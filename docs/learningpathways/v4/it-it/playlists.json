@@ -817,7 +817,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Attività iniziali rapidamente con la guida introduttiva Excel. Informazioni su come creare una cartella di lavoro, immettere dati, salvare la cartella di lavoro in OneDrive e riempire automaticamente una colonna con Flash Riempimento. Informazioni su come calcolare rapidamente con Somma automatica, creare un grafico o usare la formattazione condizionale con Analisi rapida, bloccare la riga superiore, condividere la cartella di lavoro per collaborare con altri utenti e configurare le app per dispositivi mobili.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "94b00f50-5896-479c-b0c5-ff74603b35a3",
@@ -838,10 +838,10 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Usa questo corso introduttivo a Excel per scoprire come creare una cartella di lavoro, inserire o eliminare un foglio di lavoro, spostare, copiare o stampare un foglio di lavoro, usare Excel come calcolatrice, compilare automaticamente le celle con dati e creare un elenco a discesa.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "82e9eab2-2e4e-463a-baa5-669b6c8ac543",
+      "94b00f50-5896-479c-b0c5-ff74603b35a3",
       "861d97cb-3b33-4978-92e4-9446dc19b8da",
       "48580e26-5b6d-48d3-afb5-317e18006dcb",
       "eda1729c-21eb-4bab-970b-fbb6da8724f3",
@@ -861,7 +861,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Usare le righe e le colonne di Excel per organizzare i dati. Informazioni su come inserire o eliminare righe e colonne, selezionare contenuti in Excel, bloccare i riquadri per bloccare righe e colonne, nascondere o visualizzare righe o colonne, filtrare in base a valori univoci o rimuovere valori duplicati, dividere il testo in colonne diverse e creare un elenco di date sequenziali",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "6f40e6e4-85af-45e0-b39d-65dd504a3246",
@@ -3174,14 +3174,12 @@
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
     "Description": "Informazioni su come migliorare l'accessibilità e la facilità d'uso in Word. Usare un'utilità per la lettura dello schermo, usare Learning Tools per facilitare la lettura e la comprensione, usare Verifica accessibilità per rendere accessibili i documenti e imparare le scelte rapide da tastiera per eseguire rapidamente le attività.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "303eb71a-6bd8-474c-ba06-923e93347224",
-      "f40cd198-dbce-4ba2-9cf3-04ff6d364db0",
-      "153a4f24-5b06-4c8c-a966-1361baf46eb1",
-      "cebd7999-e9ad-4b0d-9126-76438798c6b2",
-      "6a7abb9e-0a36-448b-8704-f64a92ee2097"
+"303eb71a-6bd8-474c-ba06-923e93347224",
+"153a4f24-5b06-4c8c-a966-1361baf46eb1",
+"cebd7999-e9ad-4b0d-9126-76438798c6b2"
     ]
   },
   {
@@ -3195,7 +3193,7 @@
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
     "Description": "Informazioni su come formattare il testo in Word. Modificare il tipo di carattere, le dimensioni del carattere, il colore del carattere, copiare la formattazione con Copia formato, creare un elenco puntato o numerato, modificare l'interlinea e applicare stili e temi per migliorare visivamente la struttura del documento di Word.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "ab6ed4a9-3086-4012-9fbf-06298ca4afb0",
