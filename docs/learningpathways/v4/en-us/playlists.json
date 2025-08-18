@@ -3819,7 +3819,7 @@
   },
   {
     "Id": "cf6d549d-a533-4336-8ed6-0ca0a83eabbc",
-    "Title": "Transform your work week",
+    "Title": "Monday morning with Copilot",
     "Image": "images/playlists/items.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3831,6 +3831,7 @@
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
+      "023638f0-684d-4c91-8110-21a9269adf6b",      
       "7c8aa8b7-2d96-4816-b400-e329d2f00f53",
       "5e99722e-1cc4-42c7-b26d-2ff36cd71df5",
       "05dfe7fe-b3df-45e4-830e-0cbed1a433bd",
@@ -3839,7 +3840,7 @@
   },
   {
     "Id": "ebb0914d-ba3a-4cd5-ba78-c2ac025d8ecc",
-    "Title": "Take action on your to-do list with Copilot",
+    "Title": "Get to work with Copilot",
     "Image": "images/playlists/items.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3847,7 +3848,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "b40d7a3e-9357-4a03-84b4-fa98e2dbfe13",
-    "Description": "Take action on your to-do list with Copilot.",
+    "Description": "Take action on your to-do list.",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -3860,7 +3861,7 @@
   },
   {
     "Id": "1b691310-8057-42d7-9a24-202e3797bbde",
-    "Title": "Prepare for next week with Copilot",
+    "Title": "Recap your week with Copilot",
     "Image": "images/playlists/items.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3868,7 +3869,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "b40d7a3e-9357-4a03-84b4-fa98e2dbfe13",
-    "Description": "Recap your week with Copilot",
+    "Description": "Recap your week and set your priorities for next week with Copilot.",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [

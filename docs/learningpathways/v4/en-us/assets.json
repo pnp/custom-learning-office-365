@@ -11395,7 +11395,18 @@
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
-  {
+{
+  "Id": "023638f0-684d-4c91-8110-21a9269adf6b",
+  "Title": "Monday morning with Copilot",
+  "Description": "",
+  "Url": "https://support.office.com/en-us/f1/article/023638f0-684d-4c91-8110-21a9269adf6b?embed=true&themeid=-1",
+  "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
+  "SubjectId": "",
+  "Source": "Microsoft",
+  "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+  "StatusNote": ""
+},  
+{
     "Id": "7c8aa8b7-2d96-4816-b400-e329d2f00f53",
     "Title": "Get ready for your day",
     "Description": "",
