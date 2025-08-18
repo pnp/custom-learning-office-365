@@ -11450,7 +11450,18 @@
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
-  {
+{
+  "Id": "6fdd7c6a-2db5-4882-a8aa-f2c2f6b3aa48",
+  "Title": "Get to work with Copilot",
+  "Description": "",
+  "Url": "https://support.office.com/en-us/f1/article/6fdd7c6a-2db5-4882-a8aa-f2c2f6b3aa48?embed=true&themeid=-1",
+  "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
+  "SubjectId": "",
+  "Source": "Microsoft",
+  "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+  "StatusNote": ""
+},  
+{
     "Id": "beb15deb-3241-4711-a480-9cbd8dc4d755",
     "Title": "Create a presentation from existing files",
     "Description": "",
