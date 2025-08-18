@@ -3820,7 +3820,7 @@
   {
     "Id": "cf6d549d-a533-4336-8ed6-0ca0a83eabbc",
     "Title": "Monday morning with Copilot",
-    "Image": "images/playlists/items.png",
+    "Image": "images/playlists/calendar-sparkle.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -3841,7 +3841,7 @@
   {
     "Id": "ebb0914d-ba3a-4cd5-ba78-c2ac025d8ecc",
     "Title": "Get to work with Copilot",
-    "Image": "images/playlists/items.png",
+    "Image": "images/playlists/notepad-sparkle.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -3863,7 +3863,7 @@
   {
     "Id": "1b691310-8057-42d7-9a24-202e3797bbde",
     "Title": "Recap your week with Copilot",
-    "Image": "images/playlists/items.png",
+    "Image": "images/playlists/clock-sparkle.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",

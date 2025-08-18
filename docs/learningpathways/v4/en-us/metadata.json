@@ -342,7 +342,7 @@
         {
           "Id": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
           "Name": "Microsoft 365 Copilot",
-          "Image": "",
+          "Image": "images/categories/copilot.png",
           "TechnologyId": "",
           "SubjectId": "",
           "Source": "Microsoft",
