@@ -3390,7 +3390,7 @@
   {
     "Id": "2b21d8f8-3e30-41f5-b853-548edb8a4574",
     "Title": "Managing tasks with Microsoft To Do",
-    "Image": "images/playlists/items.png",
+    "Image": "images/playlists/microsoft-todo.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "",
@@ -3414,7 +3414,7 @@
   {
     "Id": "35a792f6-960b-48ef-9e15-ba5eeea9e02d",
     "Title": "Getting started with Microsoft Whiteboard",
-    "Image": "images/playlists/items.png",
+    "Image": "images/playlists/microsoft-whiteboard.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "",
@@ -3432,7 +3432,7 @@
   {
     "Id": "a3276645-709e-4cd9-8e09-0c124a619b5b",
     "Title": "Get started with the Microsoft 365 Copilot app",
-    "Image": "images/playlists/items.png",
+    "Image": "images/playlists/arrow-circle-up-sparkle.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -3450,7 +3450,7 @@
   {
     "Id": "8ba5d55a-e0eb-4fe2-a486-b5e0a8b9169e",
     "Title": "Microsoft 365 Copilot Chat",
-    "Image": "images/playlists/items.png",
+    "Image": "images/playlists/chat-sparkle.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -3471,7 +3471,7 @@
   {
     "Id": "71a46e62-9e05-409f-bd74-fa194192aa4f",
     "Title": "Get started with Copilot in Word",
-    "Image": "images/playlists/items.png",
+    "Image": "images/playlists/.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -3494,7 +3494,7 @@
   {
     "Id": "f45443ed-7424-4e8c-8e3e-924d534cbc9e",
     "Title": "Get started with Copilot in PowerPoint",
-    "Image": "images/playlists/items.png",
+    "Image": "images/playlists/copilot_powerpoint.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -3519,7 +3519,7 @@
   {
     "Id": "2bfd1ce3-9a01-47fe-a58e-001b4cee3013",
     "Title": "Get started with Copilot in Outlook",
-    "Image": "images/playlists/items.png",
+    "Image": "images/playlists/copilot_outlook.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -3540,7 +3540,7 @@
   {
     "Id": "602296d2-7ddd-40ac-a441-e2e31afd9e90",
     "Title": "Get started with Copilot in Excel",
-    "Image": "images/playlists/items.png",
+    "Image": "images/playlists/copilot_excel.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -3565,7 +3565,7 @@
   {
     "Id": "53a74dcf-45ad-4e35-9f9b-1e405e9b5fef",
     "Title": "Get started with Copilot in OneNote",
-    "Image": "images/playlists/items.png",
+    "Image": "images/playlists/copilot_onenote.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -3586,7 +3586,7 @@
   {
     "Id": "c39400b8-0807-4e3a-ae27-fd6f46d1b873",
     "Title": "Get started with Copilot in Teams",
-    "Image": "images/playlists/items.png",
+    "Image": "images/playlists/copilot_teams.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -3610,7 +3610,7 @@
   {
     "Id": "e1376e29-2e6f-4cb6-a47f-31e83699e025",
     "Title": "Get started with Copilot in Loop",
-    "Image": "images/playlists/items.png",
+    "Image": "images/playlists/copilot_loop.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -3631,7 +3631,7 @@
   {
     "Id": "83679c0b-5aad-456b-945e-c998baca3d29",
     "Title": "Get started with Copilot in OneDrive",
-    "Image": "images/playlists/items.png",
+    "Image": "images/playlists/document-sparkle.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -3651,7 +3651,7 @@
   {
     "Id": "ebd7a2e7-d352-4249-b442-2363001ecf31",
     "Title": "Get started with Copilot in Whiteboard",
-    "Image": "images/playlists/items.png",
+    "Image": "images/playlists/copilot_whiteboard.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -3670,7 +3670,7 @@
   {
     "Id": "55b156d1-196a-40c5-ba36-9c4e813d0a94",
     "Title": "Get started with Copilot in Planner",
-    "Image": "images/playlists/items.png",
+    "Image": "images/playlists/task-list-sparkle.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -3689,7 +3689,7 @@
   {
     "Id": "9237d47f-1116-45ae-8f3f-c007aa2c6f6a",
     "Title": "Get started with Copilot in Forms",
-    "Image": "images/playlists/items.png",
+    "Image": "images/playlists/form-sparkle.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -3706,7 +3706,7 @@
   {
     "Id": "033b0161-3c25-4fff-9b47-da803bd71098",
     "Title": "Get started with Copilot in SharePoint",
-    "Image": "images/playlists/items.png",
+    "Image": "images/playlists/tab-desktop-multiple-sparkle.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -3725,7 +3725,7 @@
   {
     "Id": "62ec4994-c133-4aa8-a497-d3a33ee5dcef",
     "Title": "Get started with SharePoint agents",
-    "Image": "images/playlists/items.png",
+    "Image": "images/playlists/tab-desktop-multiple-sparkle.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -3747,7 +3747,7 @@
   {
     "Id": "66b58179-09c6-4df6-99ae-48acb2881189",
     "Title": "Get started with Copilot in Stream",
-    "Image": "images/playlists/items.png",
+    "Image": "images/playlists/play-circle-sparkle.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -3764,7 +3764,7 @@
   {
     "Id": "14811674-383b-4c9c-8340-3ce488a6a8e0",
     "Title": "Get started with Copilot in Viva Amplify",
-    "Image": "images/playlists/items.png",
+    "Image": "images/playlists/mic-sparkle.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -3782,7 +3782,7 @@
   {
     "Id": "2a499a8e-5063-43e2-bae4-ae199d528c58",
     "Title": "Get started with Copilot in Viva Engage",
-    "Image": "images/playlists/items.png",
+    "Image": "images/playlists/person-sparkle.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -3802,7 +3802,7 @@
   {
     "Id": "d23a3ace-0d8b-4c7f-836d-c89cf7ac967a",
     "Title": "Get started with Copilot in Viva Pulse",
-    "Image": "images/playlists/items.png",
+    "Image": "images/playlists/glance-sparkle.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
