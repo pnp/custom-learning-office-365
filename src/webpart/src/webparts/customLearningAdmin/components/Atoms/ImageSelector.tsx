@@ -71,7 +71,7 @@ export default class ImageSelector extends React.Component<IImageSelectorProps, 
             width="200px"
             loading="lazy" />
           <label className="adm-fileUrl">
-            https://pnp.github.io/custom-learning-office-365/learningpathways/v4/en-us/images/playlists/LP-security-security-at-work.png
+            {this.props.imageSource}
           </label>
           {!this.props.disabled &&
             <FilePickerDialog onImageSelect={this.imageChanged} />
