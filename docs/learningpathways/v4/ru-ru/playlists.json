@@ -3388,5 +3388,521 @@
       "d41383d4-bedb-4ae8-9c13-3c6c25242aef",
       "0679506f-b8d5-49a9-af19-7fb9847dcde0"
     ]
-  }
+  },
+{
+  "Id": "2b21d8f8-3e30-41f5-b853-548edb8a4574",
+  "Title": "Managing tasks with Microsoft To Do",
+  "Image": "images/playlists/microsoft-todo.png",
+  "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+  "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+  "TechnologyId": "",
+  "SubjectId": "",
+  "Source": "Microsoft",
+  "CatId": "9dfad94b-bc4b-46e9-a233-6626c098b763",
+  "Description": "Learn how to effectively manage tasks with Microsoft To Do. Create tasks, add due dates and reminders, organize tasks with lists, share lists with others, and use My Day to focus on what you need to do today.",
+  "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+  "StatusNote": "",
+  "Assets": [
+    "f64171ef-f550-4151-bae3-492720f3f1aa",
+    "30346281-30d4-4d6b-a6fa-55beca8d38a3",
+    "b8cde14b-28da-42e1-9ce8-d75cc3717993",
+    "bf9fdff6-f85f-4e03-9534-c587eb32515c",
+    "8360617e-63c6-4bf7-952a-60af4b920b62",
+    "f90c37b0-4453-4756-a6d5-e2ef8d33b395",
+    "4cac0115-4e4c-44f7-80ae-d1e25ec0527e",
+    "4e5aeac6-8649-4813-aae5-2c2ddea2f292"
+  ]
+},
+{
+  "Id": "35a792f6-960b-48ef-9e15-ba5eeea9e02d",
+  "Title": "Getting started with Microsoft Whiteboard",
+  "Image": "images/playlists/microsoft-whiteboard.png",
+  "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+  "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+  "TechnologyId": "",
+  "SubjectId": "",
+  "Source": "Microsoft",
+  "CatId": "d234b88b-5b28-4396-8f8a-834638ebf7c6",
+  "Description": "Learn how to get starting using Microsoft Whiteboard to collaborate with others. Create a new whiteboard, add content like text, images, and sticky notes, use the drawing tools, and share your whiteboard with others.",
+  "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+  "StatusNote": "",
+  "Assets": [
+    "48cab0ee-90b3-483a-9a48-ff17fe476c6b",
+    "eba14325-51f2-41d1-8cec-ff8cb56d31b1"
+  ]
+},
+{
+  "Id": "a3276645-709e-4cd9-8e09-0c124a619b5b",
+  "Title": "Get started with the Microsoft 365 Copilot app",
+  "Image": "images/playlists/arrow-circle-up-sparkle.png",
+  "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+  "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+  "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
+  "SubjectId": "",
+  "Source": "Microsoft",
+  "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
+  "Description": "The Microsoft 365 Copilot app can help you find or create files, ask questions, collaborate on AI-generated content, set up agents that help you be more productive, and add a wide array of custom agents and apps.",
+  "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+  "StatusNote": "",
+  "Assets": [
+    "092599f1-5917-4bd6-bd59-58af628bbc39",
+    "24bd7d62-f3c7-47d8-8cce-ee78edc018d4"
+  ]
+},
+{
+  "Id": "8ba5d55a-e0eb-4fe2-a486-b5e0a8b9169e",
+  "Title": "Microsoft 365 Copilot Chat",
+  "Image": "images/playlists/chat-sparkle.png",
+  "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+  "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+  "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
+  "SubjectId": "",
+  "Source": "Microsoft",
+  "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
+  "Description": "Copilot Chat is your AI assistant, which grounds conversations in the latest information from the web.",
+  "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+  "StatusNote": "",
+  "Assets": [
+    "61033adf-484d-45f5-a8c3-b89876963bd8",
+    "5b00a52d-7296-48ee-b938-b95b7209f737",
+    "fd8d88af-9492-48cd-8385-7e8615b42d80",
+    "cffb11c2-bb06-4d5b-bd4b-9497895daff3",
+    "81398592-c1bd-4dd5-87e5-0af63aada049"
+  ]
+},
+{
+  "Id": "71a46e62-9e05-409f-bd74-fa194192aa4f",
+  "Title": "Get started with Copilot in Word",
+  "Image": "images/playlists/copilot_word.png",
+  "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+  "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+  "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
+  "SubjectId": "",
+  "Source": "Microsoft",
+  "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
+  "Description": "Explore how you can use the power of AI in Word to help you draft and transform documents and generate summaries.",
+  "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+  "StatusNote": "",
+  "Assets": [
+    "6ce4ac5a-3f81-4b2b-8519-efe3cdc6dbf5",
+    "069c91f0-9e42-4c9a-bbce-fddf5d581541",
+    "923d9763-f896-4da7-8a3f-5b12c3bfc475",
+    "4482c688-a495-4571-bfcd-4a9fc6608090",
+    "79bb7a0a-3bf7-41fe-8c09-56f855b669bf",
+    "6b578cc5-5c45-47a9-9cf6-06c4b51cbc87",
+    "7fa03043-130f-40f3-9e8b-4356328ee072"
+  ]
+},
+{
+  "Id": "f45443ed-7424-4e8c-8e3e-924d534cbc9e",
+  "Title": "Get started with Copilot in PowerPoint",
+  "Image": "images/playlists/copilot_powerpoint.png",
+  "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+  "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+  "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
+  "SubjectId": "",
+  "Source": "Microsoft",
+  "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
+  "Description": "Copilot in PowerPoint can help you turn your inspiration into stunning and professional presentations.",
+  "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+  "StatusNote": "",
+  "Assets": [
+    "3222ee03-f5a4-4d27-8642-9c387ab4854d",
+    "d70b140b-bb3f-46b7-be64-ceec526a8dcd",
+    "ae906e57-db71-4f46-8ed5-c1e2cebe6a80",
+    "499e604c-4ab9-4f6a-9dbe-691cc87f2f69",
+    "7139266b-8a1d-4056-8e30-4edcc4d80873",
+    "a207eea3-7a56-4225-88f1-54dd37cdcf6a",
+    "2c622fca-daaf-457c-bc74-f3496cf44a85",
+    "046c23d5-012e-49e0-8579-fe49302959fc",
+    "7b3ce1ab-cfe4-47e8-a157-cecadbf0fefb"
+  ]
+},
+{
+  "Id": "2bfd1ce3-9a01-47fe-a58e-001b4cee3013",
+  "Title": "Get started with Copilot in Outlook",
+  "Image": "images/playlists/copilot_outlook.png",
+  "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+  "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+  "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
+  "SubjectId": "",
+  "Source": "Microsoft",
+  "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
+  "Description": "Catch up, prepare, and follow-up in Outlook with ease with Copilot.",
+  "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+  "StatusNote": "",
+  "Assets": [
+    "3eb1d053-89b8-491c-8a6e-746015238d9b",
+    "a79873f2-396b-46dc-b852-7fe5947ab640",
+    "795e9819-b714-4d05-9a41-75c1c3aebfd0",
+    "91a3cd56-1586-4a31-85c7-2eb8cdb02405",
+    "07420c70-099e-4552-8522-7d426712917b"
+  ]
+},
+{
+  "Id": "602296d2-7ddd-40ac-a441-e2e31afd9e90",
+  "Title": "Get started with Copilot in Excel",
+  "Image": "images/playlists/copilot_excel.png",
+  "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+  "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+  "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
+  "SubjectId": "",
+  "Source": "Microsoft",
+  "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
+  "Description": "Copilot in Excel works alongside you to help analyze, understand, and visualize your data with ease.",
+  "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+  "StatusNote": "",
+  "Assets": [
+    "d7110502-0334-4b4f-a175-a73abdfc118a",
+    "7a72fb29-e623-49e2-9f7d-38664b593054",
+    "52d97339-86c0-431c-b46c-e7b07b2898dd",
+    "05302e3f-de42-4475-b235-be9cb3d4e936",
+    "d866d926-9791-4e5f-be2a-c6dd9e587a47",
+    "7838fb47-7309-4dac-ba7a-8080cb75ee06",
+    "364e4ae9-9343-4d56-952a-5f62b0f70db6",
+    "cecc7821-39c1-4e12-8bd6-4d4348370585",
+    "7a13758f-d61e-4a56-8440-f2c9a07802ec"
+  ]
+},
+{
+  "Id": "53a74dcf-45ad-4e35-9f9b-1e405e9b5fef",
+  "Title": "Get started with Copilot in OneNote",
+  "Image": "images/playlists/copilot_onenote.png",
+  "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+  "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+  "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
+  "SubjectId": "",
+  "Source": "Microsoft",
+  "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
+  "Description": "Freely chat with Copilot in OneNote and supercharge your productivity.",
+  "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+  "StatusNote": "",
+  "Assets": [
+    "89e1f3cd-9cbc-4b34-84da-40d52b39aff5",
+    "95fdfbeb-d499-4024-9387-5416ab56a58e",
+    "19784dff-9745-481a-9ff0-b31d0337f2cc",
+    "a33f14c9-b2f4-46b0-87b9-389690221610",
+    "8be75b91-d4d3-461e-af9a-fadfe208b589"
+  ]
+},
+{
+  "Id": "c39400b8-0807-4e3a-ae27-fd6f46d1b873",
+  "Title": "Get started with Copilot in Teams",
+  "Image": "images/playlists/copilot_teams.png",
+  "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+  "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+  "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
+  "SubjectId": "",
+  "Source": "Microsoft",
+  "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
+  "Description": "Copilot in Microsoft Teams enhances collaboration and helps you get the most out of your Teams meetings, calls, and chats.",
+  "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+  "StatusNote": "",
+  "Assets": [
+    "60c37fde-6e13-4412-8101-40bbbc711ec9",
+    "0bf9dd3c-96f7-44e2-8bb8-790bedf066b1",
+    "97c55ffb-1499-4b0a-8caa-980ebb4b697b",
+    "53315d9c-93be-45ab-9004-2f8205725cc7",
+    "cccccca2-9dc8-49a9-ab76-b1a8ee21486c",
+    "37657f91-39b5-40eb-9421-45141e3ce9f6",
+    "a59cb88c-0f6b-4a20-a47a-3a1c9a818bd9",
+    "e8737767-4087-4ae6-b1d8-10264152b05a"
+  ]
+},
+{
+  "Id": "e1376e29-2e6f-4cb6-a47f-31e83699e025",
+  "Title": "Get started with Copilot in Loop",
+  "Image": "images/playlists/copilot_loop.png",
+  "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+  "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+  "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
+  "SubjectId": "",
+  "Source": "Microsoft",
+  "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
+  "Description": "Copilot in Loop can help you get started with brainstorming, content drafting, and more.",
+  "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+  "StatusNote": "",
+  "Assets": [
+    "966eb1a2-b5ec-4532-8a9d-f1aaeda7f90e",
+    "b5baf628-c39c-44e8-8b2f-d67bf23f9af6",
+    "e0044a51-6919-46bf-8dac-2e4f300988d5",
+    "5e2c071f-c734-4798-a7a5-2c9d8fa648d1",
+    "cdba1c99-3a3f-4f0d-bb1b-8ca62d0bb23d"
+  ]
+},
+{
+  "Id": "83679c0b-5aad-456b-945e-c998baca3d29",
+  "Title": "Get started with Copilot in OneDrive",
+  "Image": "images/playlists/document-sparkle.png",
+  "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+  "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+  "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
+  "SubjectId": "",
+  "Source": "Microsoft",
+  "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
+  "Description": "Copilot in OneDrive is designed to revolutionize the way you interact with your files and streamline your workflow",
+  "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+  "StatusNote": "",
+  "Assets": [
+    "7fc81e10-e0cf-4da8-af2e-9876a2770e5d",
+    "8ea1bb0d-5ae7-4f81-8cb8-cd755862834b",
+    "794ab09c-c64a-45f3-bcbe-110a182a1806",
+    "10dcbe50-467d-4a61-9d5e-c98c77fd33a4"
+  ]
+},
+{
+  "Id": "ebd7a2e7-d352-4249-b442-2363001ecf31",
+  "Title": "Get started with Copilot in Whiteboard",
+  "Image": "images/playlists/copilot_whiteboard.png",
+  "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+  "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+  "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
+  "SubjectId": "",
+  "Source": "Microsoft",
+  "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
+  "Description": "Creating, organizing, and understanding ideas has never been easier with Copilot in Whiteboard.",
+  "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+  "StatusNote": "",
+  "Assets": [
+    "798b4694-4eab-4928-b4cc-33952231c234",
+    "e537c81d-8f7e-4bbb-b97c-614a34d0849a",
+    "eb7f9b66-64f2-4050-b213-06d5da90735b"
+  ]
+},
+{
+  "Id": "55b156d1-196a-40c5-ba36-9c4e813d0a94",
+  "Title": "Get started with Copilot in Planner",
+  "Image": "images/playlists/task-list-sparkle.png",
+  "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+  "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+  "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
+  "SubjectId": "",
+  "Source": "Microsoft",
+  "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
+  "Description": "Plan like a pro with Copilot in Planner.",
+  "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+  "StatusNote": "",
+  "Assets": [
+    "1c986429-613a-47c3-816d-039dd91e60bf",
+    "9c1990e6-d81c-448c-8f18-8da46dbf5637",
+    "8cb4440c-0878-4470-a660-561c00dd4c44"
+  ]
+},
+{
+  "Id": "9237d47f-1116-45ae-8f3f-c007aa2c6f6a",
+  "Title": "Get started with Copilot in Forms",
+  "Image": "images/playlists/form-sparkle.png",
+  "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+  "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+  "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
+  "SubjectId": "",
+  "Source": "Microsoft",
+  "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
+  "Description": "Easily create surveys, polls, and other forms with that are relevant, engaging and effective with Copilot in Forms.",
+  "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+  "StatusNote": "",
+  "Assets": [
+    "6a21bfbd-21b3-4e48-946c-7603b129521c"
+  ]
+},
+{
+  "Id": "033b0161-3c25-4fff-9b47-da803bd71098",
+  "Title": "Get started with Copilot in SharePoint",
+  "Image": "images/playlists/tab-desktop-multiple-sparkle.png",
+  "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+  "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+  "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
+  "SubjectId": "",
+  "Source": "Microsoft",
+  "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
+  "Description": "Boost your productivity and collaboration, streamline interaction with your site, pages, and files.",
+  "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+  "StatusNote": "",
+  "Assets": [
+    "1ec20ffb-5f02-43f3-bafb-6b0e99f42a4c",
+    "afc720be-666b-4d87-801e-b8ff62f309bb",
+    "eb1b7668-3d98-4a93-98ef-f0c6dfc694f0"
+  ]
+},
+{
+  "Id": "62ec4994-c133-4aa8-a497-d3a33ee5dcef",
+  "Title": "Get started with SharePoint agents",
+  "Image": "images/playlists/tab-desktop-multiple-sparkle.png",
+  "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+  "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+  "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
+  "SubjectId": "",
+  "Source": "Microsoft",
+  "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
+  "Description": "SharePoint agents can answer questions about the content on any SharePoint site or document library that the asker has permissions with.",
+  "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+  "StatusNote": "",
+  "Assets": [
+    "69e2faf9-2c1e-4baa-8305-23e625021bcf",
+    "bda7dd7a-2498-49de-acd7-a830d6d9fb24",
+    "d16c6ca1-a8e3-4096-af49-67e1cfdddd42",
+    "6dcbf7b5-8c13-44e5-a68a-dbd71fb76ad3",
+    "bcab837a-835c-4a1a-8ad4-d53a353c369f",
+    "eb1b7668-3d98-4a93-98ef-f0c6dfc694f0"
+  ]
+},
+{
+  "Id": "66b58179-09c6-4df6-99ae-48acb2881189",
+  "Title": "Get started with Copilot in Stream",
+  "Image": "images/playlists/play-circle-sparkle.png",
+  "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+  "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+  "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
+  "SubjectId": "",
+  "Source": "Microsoft",
+  "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
+  "Description": "Copilot in Stream helps you to quickly and effectively catch up to videos in your organization.",
+  "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+  "StatusNote": "",
+  "Assets": [
+    "0b531ea9-2d9d-4830-97e4-2c1b2b8ca31d"
+  ]
+},
+{
+  "Id": "14811674-383b-4c9c-8340-3ce488a6a8e0",
+  "Title": "Get started with Copilot in Viva Amplify",
+  "Image": "images/playlists/mic-sparkle.png",
+  "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+  "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+  "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
+  "SubjectId": "",
+  "Source": "Microsoft",
+  "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
+  "Description": "Copilot in Viva Amplify helps you find the best wording to make sure your publications communicate your message effectively.",
+  "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+  "StatusNote": "",
+  "Assets": [
+    "768222a0-9b83-402f-861e-9f7691183368",
+    "f5bdf6aa-0605-420e-85c5-8c46b3643fc5"
+  ]
+},
+{
+  "Id": "2a499a8e-5063-43e2-bae4-ae199d528c58",
+  "Title": "Get started with Copilot in Viva Engage",
+  "Image": "images/playlists/person-sparkle.png",
+  "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+  "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+  "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
+  "SubjectId": "",
+  "Source": "Microsoft",
+  "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
+  "Description": "Create posts and improve your online presence and engagement in the Engage Teams app or on the web with Copilot in Viva Engage.",
+  "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+  "StatusNote": "",
+  "Assets": [
+    "f43f275f-4eeb-4df0-baf9-c7db57329bd2",
+    "c8e3ed46-37d6-4f90-a417-1e6d79d81510",
+    "9dc920a4-2333-46df-8d77-7707197a33fa",
+    "1680c134-398e-444a-b335-256342f41865"
+  ]
+},
+{
+  "Id": "d23a3ace-0d8b-4c7f-836d-c89cf7ac967a",
+  "Title": "Get started with Copilot in Viva Pulse",
+  "Image": "images/playlists/glance-sparkle.png",
+  "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+  "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+  "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
+  "SubjectId": "",
+  "Source": "Microsoft",
+  "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
+  "Description": "Use Copilot in Viva Pulse to automatically summarize survey results.",
+  "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+  "StatusNote": "",
+  "Assets": [
+    "c271f112-6c23-46e0-ae9c-e7b5f9584b24",
+    "e58b1fa5-c359-4ddf-8da0-9d45df431a21"
+  ]
+},
+{
+  "Id": "cf6d549d-a533-4336-8ed6-0ca0a83eabbc",
+  "Title": "Monday morning with Copilot",
+  "Image": "images/playlists/calendar-sparkle.png",
+  "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+  "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+  "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
+  "SubjectId": "",
+  "Source": "Microsoft",
+  "CatId": "b40d7a3e-9357-4a03-84b4-fa98e2dbfe13",
+  "Description": "Use Microsoft 365 Copilot to get ready for your work day, catch up on emails, find relevant files, and discover what was said.",
+  "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+  "StatusNote": "",
+  "Assets": [
+    "023638f0-684d-4c91-8110-21a9269adf6b",
+    "7c8aa8b7-2d96-4816-b400-e329d2f00f53",
+    "5e99722e-1cc4-42c7-b26d-2ff36cd71df5",
+    "05dfe7fe-b3df-45e4-830e-0cbed1a433bd",
+    "c96a3c94-209c-4154-9fdf-d18b3c38f9d5"
+  ]
+},
+{
+  "Id": "ebb0914d-ba3a-4cd5-ba78-c2ac025d8ecc",
+  "Title": "Get to work with Copilot",
+  "Image": "images/playlists/notepad-sparkle.png",
+  "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+  "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+  "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
+  "SubjectId": "",
+  "Source": "Microsoft",
+  "CatId": "b40d7a3e-9357-4a03-84b4-fa98e2dbfe13",
+  "Description": "Take action on your to-do list.",
+  "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+  "StatusNote": "",
+  "Assets": [
+    "6fdd7c6a-2db5-4882-a8aa-f2c2f6b3aa48",
+    "beb15deb-3241-4711-a480-9cbd8dc4d755",
+    "101a2870-3832-429b-a801-53dfc17a4972",
+    "d718645c-601c-454a-854d-78a9215ba0a0",
+    "2e62a761-5dd8-4315-8100-5b41bb2c8a41",
+    "6423f73e-d389-4a5d-8d87-ff8dae3ca381"
+  ]
+},
+{
+  "Id": "1b691310-8057-42d7-9a24-202e3797bbde",
+  "Title": "Recap your week with Copilot",
+  "Image": "images/playlists/clock-sparkle.png",
+  "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+  "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+  "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
+  "SubjectId": "",
+  "Source": "Microsoft",
+  "CatId": "b40d7a3e-9357-4a03-84b4-fa98e2dbfe13",
+  "Description": "Recap your week and set your priorities for next week with Copilot.",
+  "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+  "StatusNote": "",
+  "Assets": [
+    "d33438f4-a4be-42e0-9531-e02e25037859",
+    "7094c0b5-d043-432c-8811-e1aebb90eb43",
+    "86b5fd9d-2417-456c-9003-e641a84cf04c"
+  ]
+},
+{
+  "Id": "6e044930-49ff-4104-b9ae-80b345e507e7",
+  "Title": "Learn about Copilot prompts",
+  "Image": "images/playlists/chat-sparkle.png",
+  "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+  "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+  "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
+  "SubjectId": "",
+  "Source": "Microsoft",
+  "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
+  "Description": "Explore what you can get done with Copilot prompts.",
+  "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+  "StatusNote": "",
+  "Assets": [
+    "f6c3b467-f07c-4db1-ae54-ffac96184dd5",
+    "77251d6c-e162-479d-b398-9e46cf73da55",
+    "4f766981-dd4c-4038-a025-0f88c67fd9db",
+    "55373730-2627-46a5-b0d8-772abe22dba4",
+    "75402b14-b419-494d-9e58-1709b4f334a2",
+    "66de2ffd-deb2-4f0c-8984-098316104389",
+    "1c192167-9250-4ef8-b488-63c474d8b84f",
+    "2fa7a228-8645-4dc4-beec-d75d6d0bc752"
+  ]
+}
 ]
