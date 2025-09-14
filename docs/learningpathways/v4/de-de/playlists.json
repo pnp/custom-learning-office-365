@@ -3908,7 +3908,7 @@
 {
   "Id": "2b21d8f8-3e30-41f5-b853-548edb8a4574",
   "Title": "Aufgaben verwalten mit Microsoft To Do",
-  "Image": "images/playlists/microsoft-todo.png",
+  "Image": "images/playlists/microsoft-todo.png", 
   "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
   "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
   "TechnologyId": "",
