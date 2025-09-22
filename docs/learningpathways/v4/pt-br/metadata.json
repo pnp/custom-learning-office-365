@@ -450,7 +450,7 @@
         {
           "Id": "9dfad94b-bc4b-46e9-a233-6626c098b763",
           "Name": "To Do",
-          "Image": "",
+          "Image": "images/categories/microsoft-todo.png",
           "TechnologyId": "",
           "SubjectId": "",
           "Source": "Microsoft",
@@ -495,7 +495,7 @@
         {
           "Id": "d234b88b-5b28-4396-8f8a-834638ebf7c6",
           "Name": "Whiteboard",
-          "Image": "",
+          "Image": "images/categories/microsoft-whiteboard.png",
           "TechnologyId": "",
           "SubjectId": "",
           "Source": "Microsoft",
