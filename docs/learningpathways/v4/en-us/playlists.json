@@ -1702,11 +1702,15 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "CatId": "",
+    "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
     "Description": "Bookings in Microsoft Teams lets you track, manage, and organize your team's appointments and calendars all in one place. You can create a Bookings calendar and add team members to it, build new appointment types, and create and manage in-person and virtual visits for your staff and attendees.",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
-    "Assets": []
+    "Assets": [
+      "52c4ad04-1904-4b45-897a-5829c83c5838",
+      "1a7d4a94-e573-4637-b37f-22cab6b83192",
+      "f746d1a9-fb04-494d-a82b-c28145c46f17"
+    ]
   },
   {
     "Id": "634948c6-8f39-4bc4-a0ee-f42dc12b511c",
