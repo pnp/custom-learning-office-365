@@ -1704,20 +1704,11 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
+    "CatId": "",
   "Description": "Met Boekingen in Microsoft Teams kunt u afspraken en agenda's van uw team bijhouden, beheren en organiseren op één plek. U kunt een Boekingen-agenda maken en teamleden toevoegen, nieuwe afspraaktypes maken en persoonlijke en virtuele afspraken voor uw medewerkers en deelnemers maken en beheren.",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": "",
-    "Assets": [
-      "42d4e852-8e99-4d8f-9b70-d7fc93973cb5",
-      "921cfd26-a24d-4aca-9004-561594112148",
-      "6c579f61-8adb-4514-9458-021de2023fa0",
-      "810eac77-6a65-4dc8-964d-c00eadf43887",
-      "f4e6aa74-2ee9-4b12-9105-0e9271d4b244",
-      "a86a4007-e26c-4909-9893-f7036e2747cd",
-      "95cea12d-2220-421f-a663-6efb20913c7f",
-      "3eea2840-a1e0-4bcd-8e09-d3cf51c184d6"
-    ]
+    "Assets": []
   },
   {
     "Id": "634948c6-8f39-4bc4-a0ee-f42dc12b511c",
@@ -1756,11 +1747,11 @@
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
-      "a544ec77-ffa8-47de-9e8d-de57a02bb5a5",
-      "4f23fd44-75b2-4e03-8cf7-f69b0abaf629",
+      "d76f6ade-0e4e-48d5-9fc1-17480b7e041e",
+      "d76f6ade-0e4e-48d5-9fc1-17480b7e041e",
       "19ec0716-957a-46df-8b94-acb32832f0ef",
-      "9ee15b3a-3003-4706-b7b1-456688c999f0",
-      "8f2d5696-581b-4ca8-804d-022cfc2aef22"
+      "d76f6ade-0e4e-48d5-9fc1-17480b7e041e",
+      "d76f6ade-0e4e-48d5-9fc1-17480b7e041e"
     ]
   },
   {
@@ -3437,7 +3428,7 @@
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "092599f1-5917-4bd6-bd59-58af628bbc39",
+      "d76f6ade-0e4e-48d5-9fc1-17480b7e041e",
       "24bd7d62-f3c7-47d8-8cce-ee78edc018d4"
     ]
   },
