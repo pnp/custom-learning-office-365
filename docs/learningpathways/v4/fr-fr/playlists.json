@@ -1550,7 +1550,6 @@
     "StatusNote": "",
     "Assets": [
       "c3d63c10-77d5-4204-a566-53ddcf723b46",
-      "4fe74e73-e12d-4c67-8cba-d06ce8e48c24",
       "2766a75b-342a-4ed9-810d-f3c0f06c3207",
       "a6041b90-0805-4140-b8ae-1ee3805908d7",
       "77d55b36-b274-4fee-acbe-978ccf14c7e6",
@@ -1573,8 +1572,7 @@
     "StatusNote": "",
     "Assets": [
       "238176cf-6428-4ca9-8181-7f7c0fe6ff48",
-      "a8073654-eb8d-44ca-a7ae-1287b32d599d",
-      "2f13be6f-3968-4e5c-b020-9532db7b3a18"
+      "a8073654-eb8d-44ca-a7ae-1287b32d599d"
     ]
   },
   {
@@ -1636,7 +1634,6 @@
       "7eb9c719-9452-4a9a-b3b6-69f48149ba1c",
       "919b4bd2-6c85-4792-bf60-57258cabe71d",
       "10b2e2a2-c6e7-4905-9c2d-648e26c957ea",
-      "63633f7d-b713-4d66-9dd9-e50eeae43e5d",
       "37566690-8652-4eac-abed-bfe6de084828",
       "b33ae7a4-e14b-4e46-9440-94bfed214415"
     ]
@@ -1676,8 +1673,7 @@
       "5ba5b778-d656-45b1-91cc-6e9abebe767e",
       "32525960-bb69-4c94-a0be-cb6551fafc05",
       "67e02503-fb3d-4c38-938e-570a04231155",
-      "2de922ed-16a4-4685-ae62-6887859a9ff3",
-      "75734507-da8d-4ff1-a541-9136a825581b"
+      "2de922ed-16a4-4685-ae62-6887859a9ff3"
     ]
   },
   {
@@ -3256,7 +3252,7 @@
     "Source": "Microsoft",
     "CatId": "e83da7d3-653c-4c01-a262-336e07b88aba",
   "Description": "Découvrez comment utiliser Yammer au quotidien pour interagir avec les personnes, les dirigeants et les communautés de votre organisation et partager des connaissances. Obtenez un aperçu de Yammer, modifiez votre profil et vos paramètres, lancez une conversation, gérez les publications, joignez des fichiers, découvrez et rejoignez des communautés, utilisez les notifications pour rester connecté, gérez les annonces et découvrez des conseils et bonnes pratiques pour tirer le meilleur parti de Yammer.",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": "",
     "Assets": [
       "47526868-b136-40cc-a80d-c870eadd9ba5",
@@ -3508,7 +3504,6 @@
       "ae906e57-db71-4f46-8ed5-c1e2cebe6a80",
       "499e604c-4ab9-4f6a-9dbe-691cc87f2f69",
       "7139266b-8a1d-4056-8e30-4edcc4d80873",
-      "a207eea3-7a56-4225-88f1-54dd37cdcf6a",
       "2c622fca-daaf-457c-bc74-f3496cf44a85",
       "046c23d5-012e-49e0-8579-fe49302959fc",
       "7b3ce1ab-cfe4-47e8-a157-cecadbf0fefb"
