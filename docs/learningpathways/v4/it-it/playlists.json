@@ -1744,14 +1744,11 @@
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
   "Description": "Office.com è il posto migliore da cui iniziare, sia all'inizio della giornata che quando riprendi il lavoro.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "d76f6ade-0e4e-48d5-9fc1-17480b7e041e",
-      "d76f6ade-0e4e-48d5-9fc1-17480b7e041e",
-      "19ec0716-957a-46df-8b94-acb32832f0ef",
-      "d76f6ade-0e4e-48d5-9fc1-17480b7e041e",
-      "d76f6ade-0e4e-48d5-9fc1-17480b7e041e"
+      "19ec0716-957a-46df-8b94-acb32832f0ef"
     ]
   },
   {
@@ -1997,12 +1994,11 @@
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
   "Description": "Con OneNote, prendi appunti come preferisci: digita, scrivi, converti note scritte a mano in testo e registra anche note audio. Inserisci immagini, file e video. Crea tutte le pagine, sezioni e blocchi appunti di cui hai bisogno.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "a49a3e1d-eafd-4cd0-8a1e-1e0cf558323d",
-      "705a4818-8534-43e6-ab44-5d4af5eb87f8",
-      "3a8cca87-8794-4495-928f-dd0843778653"
+      "705a4818-8534-43e6-ab44-5d4af5eb87f8"
     ]
   },
   {
@@ -2016,12 +2012,10 @@
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
   "Description": "Formatta gli appunti in OneNote per farli apparire come desideri. Evidenzia il testo, crea elenchi, rientra il testo, allinea le note e applica stili. Applica un colore di sfondo a una pagina o sezione per renderla più accattivante. Inserisci e formatta una tabella per organizzare visivamente le informazioni.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "918472c6-10d8-46f5-a2f1-fed68ca17e39",
-      "ec3f81ec-814c-4c50-be0d-35a0c3a49db1",
-      "774739fa-66f3-4bc8-b7e2-d2303ba71962"
+      "918472c6-10d8-46f5-a2f1-fed68ca17e39"
     ]
   },
   {
@@ -2035,11 +2029,10 @@
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
   "Description": "Disegna o fai schizzi in OneNote per dare vita ai tuoi appunti. Puoi selezionare una penna, una matita o un evidenziatore, lo spessore e il colore. Crea forme come cerchi, triangoli o rettangoli, oppure disegna forme con il dito, la penna o il mouse e OneNote le sistemerà per te.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "62e5c64c-5903-4622-a014-e1228c298f19",
-      "86c38f79-c295-495f-87c0-dc41d0d2b8ab"
+      "62e5c64c-5903-4622-a014-e1228c298f19"
     ]
   },
   {
@@ -2053,11 +2046,10 @@
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
   "Description": "Per rimanere organizzato con OneNote, scopri come cercare note, restringere la ricerca e organizzare i blocchi appunti. Vedi come mostrare i riquadri di navigazione, spostare una pagina da una sezione all'altra, copiare una pagina in un'altra sezione o blocco appunti e spostare o copiare una sezione.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "e10883b2-09a5-49de-8f9b-71605a100504",
-      "ff0d5f04-532d-43e6-835a-82c5755374cb"
+      "e10883b2-09a5-49de-8f9b-71605a100504"
     ]
   },
   {
@@ -2071,11 +2063,10 @@
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
   "Description": "Condividi e sincronizza l'intero blocco appunti OneNote per collaborare con altri. Seleziona condividi, scegli con chi condividere e se possono modificare o solo visualizzare la pagina o il blocco appunti. Puoi anche bloccare o proteggere con password le sezioni che vuoi mantenere private.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "8264e361-d7a6-4f82-a45b-b9c618a3c5ce",
-      "8ce0993b-6169-4f1f-b228-19fc78a6ce4e"
+      "8264e361-d7a6-4f82-a45b-b9c618a3c5ce"
     ]
   },
   {
@@ -2089,12 +2080,11 @@
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
   "Description": "Usa OneNote sui dispositivi mobili per connetterti e lavorare con i tuoi appunti ovunque ti trovi. Usa OneNote su iOS, OneNote per Android o OneNote Online.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "32040c38-ed0a-4d9d-b2e5-c561ef751a4c",
-      "3f85c48a-76d9-4324-b24d-35652f1da418",
-      "b533bc33-f852-48d7-b55f-5a858174ca16"
+      "3f85c48a-76d9-4324-b24d-35652f1da418"
     ]
   },
   {
@@ -2757,12 +2747,11 @@
     "Source": "Microsoft",
     "CatId": "6682f5e0-9f2a-4cd3-9ada-d404b8d34761",
   "Description": "Microsoft Viva Connections offre una base personalizzata e attiva che ti consente di completare le attività quotidiane, rimanere aggiornato sulle notizie aziendali e accedere alle risorse, il tutto senza lasciare il tuo hub per il lavoro di squadra.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "8b4e7f76-f305-49a9-b6d2-09378476f95b",
-      "3da30f39-684a-4bde-bb81-2e1407d59b52",
-      "753e0607-0bfd-4712-ad7e-18490dd565a2"
+      "3da30f39-684a-4bde-bb81-2e1407d59b52"
     ]
   },
   {
@@ -3283,10 +3272,9 @@
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
   "Description": "Esamina i contenuti e i tipi di contenuto di Learning Pathways. Decidi cosa funziona per la tua organizzazione.",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "c828dfeb-1fd1-4c39-a3c6-cf8df3669693",
       "163a1118-7b0f-493d-8add-eb3cb3074019"
     ]
   },

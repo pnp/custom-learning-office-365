@@ -1744,14 +1744,11 @@
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
   "Description": "Office.com ist der beste Ort, um zu beginnen – egal, ob Sie Ihren Tag starten oder zu Ihrer Arbeit zurückkehren.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "d76f6ade-0e4e-48d5-9fc1-17480b7e041e",
-      "d76f6ade-0e4e-48d5-9fc1-17480b7e041e",
-      "19ec0716-957a-46df-8b94-acb32832f0ef",
-      "d76f6ade-0e4e-48d5-9fc1-17480b7e041e",
-      "d76f6ade-0e4e-48d5-9fc1-17480b7e041e"
+      "19ec0716-957a-46df-8b94-acb32832f0ef"
     ]
   },
   {
@@ -1997,12 +1994,11 @@
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
   "Description": "Mit OneNote können Sie Notizen auf Ihre Weise machen – Notizen eingeben, schreiben, handschriftliche Notizen in Text umwandeln und sogar Audionotizen aufnehmen. Fügen Sie Bilder, Dateien und Videos ein. Erstellen Sie beliebig viele Seiten, Abschnitte und Notizbücher.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "a49a3e1d-eafd-4cd0-8a1e-1e0cf558323d",
-      "705a4818-8534-43e6-ab44-5d4af5eb87f8",
-      "3a8cca87-8794-4495-928f-dd0843778653"
+      "705a4818-8534-43e6-ab44-5d4af5eb87f8"
     ]
   },
   {
@@ -2016,12 +2012,10 @@
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
   "Description": "Formatieren Sie Notizen in OneNote, damit sie genau so aussehen, wie Sie es möchten. Markieren Sie Text, erstellen Sie Listen, rücken Sie Text ein, richten Sie Notizen aus und wenden Sie Formatvorlagen an. Vergeben Sie eine Hintergrundfarbe für eine Seite oder einen Abschnitt, um sie optisch ansprechender zu gestalten. Fügen Sie eine Tabelle ein und formatieren Sie sie, um Informationen visuell zu organisieren.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "918472c6-10d8-46f5-a2f1-fed68ca17e39",
-      "ec3f81ec-814c-4c50-be0d-35a0c3a49db1",
-      "774739fa-66f3-4bc8-b7e2-d2303ba71962"
+      "918472c6-10d8-46f5-a2f1-fed68ca17e39"
     ]
   },
   {
@@ -2035,11 +2029,10 @@
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
   "Description": "Zeichnen oder skizzieren Sie in OneNote, um Ihre Notizen zum Leben zu erwecken. Sie können Stift, Bleistift oder Textmarker, die Dicke und die Farbe auswählen. Erstellen Sie Formen wie Kreise, Dreiecke oder Rechtecke oder zeichnen Sie Formen mit Finger, Stift oder Maus – OneNote korrigiert sie für Sie.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "62e5c64c-5903-4622-a014-e1228c298f19",
-      "86c38f79-c295-495f-87c0-dc41d0d2b8ab"
+      "62e5c64c-5903-4622-a014-e1228c298f19"
     ]
   },
   {
@@ -2053,11 +2046,10 @@
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
   "Description": "Um mit OneNote organisiert zu bleiben, lernen Sie, wie Sie nach Notizen suchen, die Suche eingrenzen und Ihre Notizbücher organisieren. Sehen Sie, wie Sie Navigationsbereiche anzeigen, eine Seite von einem Abschnitt in einen anderen verschieben, eine Seite in einen anderen Abschnitt oder ein anderes Notizbuch kopieren und einen Abschnitt verschieben oder kopieren.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "e10883b2-09a5-49de-8f9b-71605a100504",
-      "ff0d5f04-532d-43e6-835a-82c5755374cb"
+      "e10883b2-09a5-49de-8f9b-71605a100504"
     ]
   },
   {
@@ -2071,11 +2063,10 @@
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
   "Description": "Teilen und synchronisieren Sie Ihr gesamtes OneNote-Notizbuch, um mit anderen zusammenzuarbeiten. Wählen Sie 'Teilen', wen Sie einladen möchten und ob diese Ihre Seite oder Ihr Notizbuch bearbeiten oder nur anzeigen dürfen. Sie können auch Notizbuchabschnitte sperren oder mit einem Kennwort schützen, die privat bleiben sollen.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "8264e361-d7a6-4f82-a45b-b9c618a3c5ce",
-      "8ce0993b-6169-4f1f-b228-19fc78a6ce4e"
+      "8264e361-d7a6-4f82-a45b-b9c618a3c5ce"
     ]
   },
   {
@@ -2089,13 +2080,12 @@
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
   "Description": "Nutzen Sie OneNote auf Ihren mobilen Geräten, um überall auf Ihre Notizen zuzugreifen und mit ihnen zu arbeiten. Verwenden Sie OneNote auf iOS, OneNote für Android oder OneNote Online.",
-    "StatusTagId": "",
-    "StatusNote": "",
-    "Assets": [
-      "32040c38-ed0a-4d9d-b2e5-c561ef751a4c",
-      "3f85c48a-76d9-4324-b24d-35652f1da418",
-      "b533bc33-f852-48d7-b55f-5a858174ca16"
-    ]
+   "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+  "StatusNote": "",
+  "Assets": [
+    "32040c38-ed0a-4d9d-b2e5-c561ef751a4c",
+    "3f85c48a-76d9-4324-b24d-35652f1da418"
+  ]
   },
   {
     "Id": "e66fa8f3-ec7e-47f9-9d79-4d334f157563",
@@ -2757,12 +2747,11 @@
     "Source": "Microsoft",
     "CatId": "6682f5e0-9f2a-4cd3-9ada-d404b8d34761",
   "Description": "Microsoft Viva Connections bietet eine personalisierte und interaktive Startseite, auf der Sie tägliche Aufgaben erledigen, mit Unternehmensnachrichten in Verbindung bleiben und auf Ressourcen zugreifen können – alles, ohne Ihren Teamarbeitsbereich zu verlassen.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "8b4e7f76-f305-49a9-b6d2-09378476f95b",
-      "3da30f39-684a-4bde-bb81-2e1407d59b52",
-      "753e0607-0bfd-4712-ad7e-18490dd565a2"
+      "3da30f39-684a-4bde-bb81-2e1407d59b52"
     ]
   },
   {
@@ -3283,10 +3272,9 @@
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
   "Description": "Überprüfen Sie die Inhalte und Inhaltstypen der Learning Pathways. Entscheiden Sie, was für Ihre Organisation am besten geeignet ist.",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "c828dfeb-1fd1-4c39-a3c6-cf8df3669693",
       "163a1118-7b0f-493d-8add-eb3cb3074019"
     ]
   },

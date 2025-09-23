@@ -1744,14 +1744,11 @@
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
   "Description": "Office.com は一日の始まりや作業再開時に最適なスタート地点です。",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "d76f6ade-0e4e-48d5-9fc1-17480b7e041e",
-      "d76f6ade-0e4e-48d5-9fc1-17480b7e041e",
-      "19ec0716-957a-46df-8b94-acb32832f0ef",
-      "d76f6ade-0e4e-48d5-9fc1-17480b7e041e",
-      "d76f6ade-0e4e-48d5-9fc1-17480b7e041e"
+      "19ec0716-957a-46df-8b94-acb32832f0ef"
     ]
   },
   {
@@ -1997,12 +1994,11 @@
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
   "Description": "OneNote では、好きな方法でノートを取ることができます。ノートの入力、手書き、手書きノートのテキスト変換、音声ノートの録音も可能です。画像、ファイル、ビデオの挿入や、必要なだけページ、セクション、ノートブックを作成できます。",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "a49a3e1d-eafd-4cd0-8a1e-1e0cf558323d",
-      "705a4818-8534-43e6-ab44-5d4af5eb87f8",
-      "3a8cca87-8794-4495-928f-dd0843778653"
+      "705a4818-8534-43e6-ab44-5d4af5eb87f8"
     ]
   },
   {
@@ -2016,12 +2012,10 @@
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
   "Description": "OneNote でノートを整えて、思い通りの見た目にしましょう。テキストのハイライト、リストの作成、インデント、ノートの配置、スタイルの適用、ページやセクションの背景色の設定、表の挿入と書式設定で情報を視覚的に整理できます。",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "918472c6-10d8-46f5-a2f1-fed68ca17e39",
-      "ec3f81ec-814c-4c50-be0d-35a0c3a49db1",
-      "774739fa-66f3-4bc8-b7e2-d2303ba71962"
+      "918472c6-10d8-46f5-a2f1-fed68ca17e39"
     ]
   },
   {
@@ -2035,11 +2029,10 @@
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
   "Description": "OneNote で描画やスケッチをして、ノートに命を吹き込みましょう。ペン、鉛筆、蛍光ペン、太さや色を選択できます。円、三角形、四角形などの図形を作成したり、指やペン、マウスで図形を描くと OneNote がきれいに整えてくれます。",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "62e5c64c-5903-4622-a014-e1228c298f19",
-      "86c38f79-c295-495f-87c0-dc41d0d2b8ab"
+      "62e5c64c-5903-4622-a014-e1228c298f19"
     ]
   },
   {
@@ -2053,11 +2046,10 @@
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
   "Description": "OneNote で整理整頓する方法を学びましょう。ノートの検索や絞り込み、ノートブックの整理、ナビゲーション ウィンドウの表示、ページの移動やコピー、セクションの移動やコピーなどができます。",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "e10883b2-09a5-49de-8f9b-71605a100504",
-      "ff0d5f04-532d-43e6-835a-82c5755374cb"
+      "e10883b2-09a5-49de-8f9b-71605a100504"
     ]
   },
   {
@@ -2071,11 +2063,10 @@
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
   "Description": "OneNote ノートブック全体を共有・同期して他のユーザーと共同作業しましょう。共有相手や編集権限の設定、ページやノートブックの閲覧権限の設定、プライベートにしたいセクションのロックやパスワード保護も可能です。",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "8264e361-d7a6-4f82-a45b-b9c618a3c5ce",
-      "8ce0993b-6169-4f1f-b228-19fc78a6ce4e"
+      "8264e361-d7a6-4f82-a45b-b9c618a3c5ce"
     ]
   },
   {
@@ -2089,12 +2080,11 @@
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
   "Description": "モバイル デバイスで OneNote を使えば、どこにいてもノートにアクセスして作業できます。iOS 用 OneNote、Android 用 OneNote、OneNote Online をご利用ください。",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "32040c38-ed0a-4d9d-b2e5-c561ef751a4c",
-      "3f85c48a-76d9-4324-b24d-35652f1da418",
-      "b533bc33-f852-48d7-b55f-5a858174ca16"
+      "3f85c48a-76d9-4324-b24d-35652f1da418"
     ]
   },
   {
@@ -2757,12 +2747,11 @@
     "Source": "Microsoft",
     "CatId": "6682f5e0-9f2a-4cd3-9ada-d404b8d34761",
   "Description": "Microsoft Viva Connections は、日々の業務を完了し、会社のニュースに接続し、リソースにアクセスできる、パーソナライズされたアクション可能なホームベースを提供します。チームワークのハブから離れることなく利用できます。",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "8b4e7f76-f305-49a9-b6d2-09378476f95b",
-      "3da30f39-684a-4bde-bb81-2e1407d59b52",
-      "753e0607-0bfd-4712-ad7e-18490dd565a2"
+      "3da30f39-684a-4bde-bb81-2e1407d59b52"
     ]
   },
   {
@@ -3283,10 +3272,9 @@
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
   "Description": "Learning Pathways のコンテンツや種類を確認し、組織に最適なものを決定しましょう。",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "c828dfeb-1fd1-4c39-a3c6-cf8df3669693",
       "163a1118-7b0f-493d-8add-eb3cb3074019"
     ]
   },

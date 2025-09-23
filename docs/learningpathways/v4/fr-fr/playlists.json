@@ -1744,14 +1744,11 @@
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
   "Description": "Office.com est le meilleur endroit pour commencer, que ce soit en début de journée ou pour reprendre votre travail.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "d76f6ade-0e4e-48d5-9fc1-17480b7e041e",
-      "d76f6ade-0e4e-48d5-9fc1-17480b7e041e",
-      "19ec0716-957a-46df-8b94-acb32832f0ef",
-      "d76f6ade-0e4e-48d5-9fc1-17480b7e041e",
-      "d76f6ade-0e4e-48d5-9fc1-17480b7e041e"
+      "19ec0716-957a-46df-8b94-acb32832f0ef"
     ]
   },
   {
@@ -1997,12 +1994,11 @@
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
   "Description": "Avec OneNote, prenez des notes comme vous le souhaitez : tapez, écrivez, convertissez des notes manuscrites en texte et enregistrez même des notes audio. Insérez des images, fichiers et vidéos. Créez autant de pages, sections et blocs-notes que nécessaire.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "a49a3e1d-eafd-4cd0-8a1e-1e0cf558323d",
-      "705a4818-8534-43e6-ab44-5d4af5eb87f8",
-      "3a8cca87-8794-4495-928f-dd0843778653"
+      "705a4818-8534-43e6-ab44-5d4af5eb87f8"
     ]
   },
   {
@@ -2016,12 +2012,10 @@
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
   "Description": "Formatez vos notes dans OneNote pour qu'elles aient l'apparence souhaitée. Surlignez du texte, créez des listes, indentez, alignez et appliquez des styles. Appliquez une couleur d'arrière-plan à une page ou section pour la rendre plus attrayante. Insérez et mettez en forme un tableau pour organiser visuellement les informations.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "918472c6-10d8-46f5-a2f1-fed68ca17e39",
-      "ec3f81ec-814c-4c50-be0d-35a0c3a49db1",
-      "774739fa-66f3-4bc8-b7e2-d2303ba71962"
+      "918472c6-10d8-46f5-a2f1-fed68ca17e39"
     ]
   },
   {
@@ -2035,11 +2029,10 @@
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
   "Description": "Dessinez ou esquissez dans OneNote pour donner vie à vos notes. Sélectionnez un stylo, un crayon ou un surligneur, l'épaisseur et la couleur. Créez des formes comme un cercle, un triangle ou un rectangle, ou dessinez-les avec votre doigt, stylet ou souris et OneNote les corrigera pour vous.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "62e5c64c-5903-4622-a014-e1228c298f19",
-      "86c38f79-c295-495f-87c0-dc41d0d2b8ab"
+      "62e5c64c-5903-4622-a014-e1228c298f19"
     ]
   },
   {
@@ -2053,11 +2046,10 @@
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
   "Description": "Pour rester organisé avec OneNote, apprenez à rechercher des notes, affiner la recherche et organiser vos blocs-notes. Découvrez comment afficher les volets de navigation, déplacer une page d'une section à une autre, copier une page ou une section, et organiser vos sections.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "e10883b2-09a5-49de-8f9b-71605a100504",
-      "ff0d5f04-532d-43e6-835a-82c5755374cb"
+      "e10883b2-09a5-49de-8f9b-71605a100504"
     ]
   },
   {
@@ -2071,11 +2063,10 @@
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
   "Description": "Partagez et synchronisez l'ensemble de votre bloc-notes OneNote pour collaborer avec d'autres. Sélectionnez les personnes avec qui partager et s'ils peuvent modifier ou seulement consulter. Vous pouvez aussi verrouiller ou protéger par mot de passe des sections privées.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "8264e361-d7a6-4f82-a45b-b9c618a3c5ce",
-      "8ce0993b-6169-4f1f-b228-19fc78a6ce4e"
+      "8264e361-d7a6-4f82-a45b-b9c618a3c5ce"
     ]
   },
   {
@@ -2089,12 +2080,11 @@
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
   "Description": "Utilisez OneNote sur vos appareils mobiles pour accéder à vos notes où que vous soyez. Utilisez OneNote sur iOS, Android ou en ligne.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "32040c38-ed0a-4d9d-b2e5-c561ef751a4c",
-      "3f85c48a-76d9-4324-b24d-35652f1da418",
-      "b533bc33-f852-48d7-b55f-5a858174ca16"
+      "3f85c48a-76d9-4324-b24d-35652f1da418"
     ]
   },
   {
@@ -2757,12 +2747,11 @@
     "Source": "Microsoft",
     "CatId": "6682f5e0-9f2a-4cd3-9ada-d404b8d34761",
   "Description": "Microsoft Viva Connections offre une page d’accueil personnalisée et interactive qui vous permet d’accomplir vos tâches quotidiennes, de rester informé des actualités de l’entreprise et d’accéder aux ressources, le tout sans quitter votre espace de travail collaboratif.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "8b4e7f76-f305-49a9-b6d2-09378476f95b",
-      "3da30f39-684a-4bde-bb81-2e1407d59b52",
-      "753e0607-0bfd-4712-ad7e-18490dd565a2"
+      "3da30f39-684a-4bde-bb81-2e1407d59b52"
     ]
   },
   {
@@ -3283,10 +3272,9 @@
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
   "Description": "Passez en revue le contenu et les types de contenu de Learning Pathways. Décidez ce qui convient à votre organisation.",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "c828dfeb-1fd1-4c39-a3c6-cf8df3669693",
       "163a1118-7b0f-493d-8add-eb3cb3074019"
     ]
   },
