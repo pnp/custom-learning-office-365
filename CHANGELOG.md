@@ -1,5 +1,16 @@
 # Change Log
 
+## Content Update September 2025
+
+This release included a large content update. It included new content regarding Copilot as well as some other technologies. In addition, there were many issues with broken links or missing content especially in the non-English lanagues. This has been addressed in this release.
+
+- New content for Microsoft 365 Copilot
+- New content for White
+- New content for ToDo
+- Fixing broken content links in all languages
+- Updates to all page titles and descriptions to better align with page content.
+- Ensured alignment between English Playlists and other languages.
+
 ## Version 5.0.0.6
 
 - Bug fix for [#850](../../../issues/850) - Dropdown selection of playlist item is not working in V5.
