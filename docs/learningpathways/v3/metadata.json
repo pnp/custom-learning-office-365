@@ -288,6 +288,15 @@
           "Source": "Microsoft",
           "SubCategories": []
         },
+{
+  "Id": "47bae571-3841-4ef6-a2fe-aa6b075b6b19",
+  "Name": "Bookings",
+  "Image": "images/categories/bookings.png",
+  "TechnologyId": "",
+  "SubjectId": "",
+  "Source": "Microsoft",
+  "SubCategories": []
+},
         {
           "Id": "4ee4d22a-7d53-48bb-9a14-adf34d01cd75",
           "Name": "OneDrive",
