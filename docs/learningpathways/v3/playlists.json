@@ -111,8 +111,7 @@
       "72f26d6c-bf9e-432c-8b96-e3c2437f5b65",
       "3b8246e0-cc3c-4ae7-b4e1-4b4b37d27f68",
       "62e8d748-7877-420f-b600-24b56562aa70",
-      "03bb3e62-d16f-4658-a632-ed30121560ef",
-      "d26c1b0d-8047-42bf-9104-f6e9a3576e62"
+      "03bb3e62-d16f-4658-a632-ed30121560ef"
     ]
   },
   {
@@ -146,7 +145,7 @@
     "TechnologyId": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
     "SubjectId": "",
     "Source": "Microsoft",
-    "CatId": "07aa7fb7-a187-4a04-a044-f881626a8cba",
+    "CatId": "",
     "Description": "Connect your organization with Yammer. Get an overview of Yammer, learn how to sign in and edit your profile, set notifications, like, reply to, and share posts, post and update and attach files, join and create communities, and share files and community resources.",
     "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": "",
@@ -930,7 +929,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Use Excel formulas and functions to perform calculations and solve problems. Learn how to use XLOOKUP, VLOOKUP, SUM, SUMIF, SUMIFS, COUNTIF, IF, IFS, and MATCH to find values, do calculations, save time, and manage data automatically.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "7068c43a-2e0b-47ea-8b0f-692343447af6",
@@ -941,7 +940,6 @@
       "69aed7c9-4e8a-4755-a9bc-aa8bbff73be2",
       "23c84e31-fc11-425d-ab03-5630f247b566",
       "8a6ca66e-152f-4d10-848c-cd35b2fc70d2",
-      "9bdc9d30-4277-4888-b606-ae9927a650bb",
       "742ecbd6-edf9-4470-b021-be7a2b7a51b2"
     ]
   },
@@ -977,7 +975,7 @@
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
     "Description": "Charts in Excel helps you visualize your data in a way that creates maximum impact on your audience. Learn how to create a chart, add or remove titles, show or hide a chart legend, add or remove a secondary axis, add a trendline or sparkline to show data trends, and use Quick Analysis to pick the perfect chart.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "231c42d2-5e58-40e1-99f0-cbe618cfee1d",
@@ -985,7 +983,6 @@
       "5d663010-fee5-4953-a2ab-18f529543fd5",
       "91da1e2f-5db1-41e9-8908-e1a2e14dd5a9",
       "8b69760d-f337-4b7b-b72e-d48f29e54ba7",
-      "9e382e73-7f5e-495a-a8dc-be8225b1bb78",
       "9776678e-c608-4a7c-9679-5c70e374f9be",
       "1474e169-008c-4783-926b-5c60e620f5ca"
     ]
@@ -1282,7 +1279,7 @@
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
-      "d26c1b0d-8047-42bf-9104-f6e9a3576e62",
+      "03bb3e62-d16f-4658-a632-ed30121560ef",
       "5d1a7e1c-1cbd-4acc-ae14-91cefdde690d"
     ]
   },
@@ -1551,7 +1548,6 @@
     "StatusNote": "",
     "Assets": [
       "c3d63c10-77d5-4204-a566-53ddcf723b46",
-      "4fe74e73-e12d-4c67-8cba-d06ce8e48c24",
       "2766a75b-342a-4ed9-810d-f3c0f06c3207",
       "a6041b90-0805-4140-b8ae-1ee3805908d7",
       "77d55b36-b274-4fee-acbe-978ccf14c7e6",
@@ -1574,8 +1570,7 @@
     "StatusNote": "",
     "Assets": [
       "238176cf-6428-4ca9-8181-7f7c0fe6ff48",
-      "a8073654-eb8d-44ca-a7ae-1287b32d599d",
-      "2f13be6f-3968-4e5c-b020-9532db7b3a18"
+      "a8073654-eb8d-44ca-a7ae-1287b32d599d"
     ]
   },
   {
@@ -1637,7 +1632,6 @@
       "7eb9c719-9452-4a9a-b3b6-69f48149ba1c",
       "919b4bd2-6c85-4792-bf60-57258cabe71d",
       "10b2e2a2-c6e7-4905-9c2d-648e26c957ea",
-      "63633f7d-b713-4d66-9dd9-e50eeae43e5d",
       "37566690-8652-4eac-abed-bfe6de084828",
       "b33ae7a4-e14b-4e46-9440-94bfed214415"
     ]
@@ -1677,8 +1671,7 @@
       "5ba5b778-d656-45b1-91cc-6e9abebe767e",
       "32525960-bb69-4c94-a0be-cb6551fafc05",
       "67e02503-fb3d-4c38-938e-570a04231155",
-      "2de922ed-16a4-4685-ae62-6887859a9ff3",
-      "75734507-da8d-4ff1-a541-9136a825581b"
+      "2de922ed-16a4-4685-ae62-6887859a9ff3"
     ]
   },
   {
@@ -1709,19 +1702,14 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
+    "CatId": "47bae571-3841-4ef6-a2fe-aa6b075b6b19",
     "Description": "Bookings in Microsoft Teams lets you track, manage, and organize your team's appointments and calendars all in one place. You can create a Bookings calendar and add team members to it, build new appointment types, and create and manage in-person and virtual visits for your staff and attendees.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "42d4e852-8e99-4d8f-9b70-d7fc93973cb5",
-      "921cfd26-a24d-4aca-9004-561594112148",
-      "6c579f61-8adb-4514-9458-021de2023fa0",
-      "810eac77-6a65-4dc8-964d-c00eadf43887",
-      "f4e6aa74-2ee9-4b12-9105-0e9271d4b244",
-      "a86a4007-e26c-4909-9893-f7036e2747cd",
-      "95cea12d-2220-421f-a663-6efb20913c7f",
-      "3eea2840-a1e0-4bcd-8e09-d3cf51c184d6"
+      "52c4ad04-1904-4b45-897a-5829c83c5838",
+      "1a7d4a94-e573-4637-b37f-22cab6b83192",
+      "f746d1a9-fb04-494d-a82b-c28145c46f17"
     ]
   },
   {
@@ -1758,14 +1746,11 @@
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
     "Description": "Office.com is the best place to start, whether it's the start of the day or you're getting back to your work.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "a544ec77-ffa8-47de-9e8d-de57a02bb5a5",
-      "4f23fd44-75b2-4e03-8cf7-f69b0abaf629",
-      "19ec0716-957a-46df-8b94-acb32832f0ef",
-      "9ee15b3a-3003-4706-b7b1-456688c999f0",
-      "8f2d5696-581b-4ca8-804d-022cfc2aef22"
+      "d76f6ade-0e4e-48d5-9fc1-17480b7e041e",
+      "19ec0716-957a-46df-8b94-acb32832f0ef"
     ]
   },
   {
@@ -1824,7 +1809,7 @@
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
     "Description": "Excel for the web gives you the power of Excel on any device, from almost anywhere.",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": "",
     "Assets": [
       "4d39f76b-ee15-4029-8a4c-fa7d14f0c80f",
@@ -1918,7 +1903,7 @@
       "110ca7b0-ae3d-4e51-a14c-9d583e2d630c",
       "03bb3e62-d16f-4658-a632-ed30121560ef",
       "943c1193-0076-4a85-b07f-a359de11690c",
-      "d26c1b0d-8047-42bf-9104-f6e9a3576e62"
+      "03bb3e62-d16f-4658-a632-ed30121560ef"
     ]
   },
   {
@@ -2011,12 +1996,11 @@
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
     "Description": "With OneNote, take notes the way you want – type notes, write notes, convert handwritten notes to text, and even record audio notes. Insert pictures, files, and videos. Create as many pages, sections, and notebooks as you need.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "a49a3e1d-eafd-4cd0-8a1e-1e0cf558323d",
-      "705a4818-8534-43e6-ab44-5d4af5eb87f8",
-      "3a8cca87-8794-4495-928f-dd0843778653"
+      "705a4818-8534-43e6-ab44-5d4af5eb87f8"
     ]
   },
   {
@@ -2030,12 +2014,10 @@
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
     "Description": "Format notes in OneNote to get them to look just the way you want. Highlight text, create lists, indent text, align notes, and apply styles. Apply a background color to a page or section to make it more visually appealing. Insert and format a table to visually organize information.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "918472c6-10d8-46f5-a2f1-fed68ca17e39",
-      "ec3f81ec-814c-4c50-be0d-35a0c3a49db1",
-      "774739fa-66f3-4bc8-b7e2-d2303ba71962"
+      "918472c6-10d8-46f5-a2f1-fed68ca17e39"
     ]
   },
   {
@@ -2049,11 +2031,10 @@
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
     "Description": "Draw or sketch in OneNote to bring your notes to life. You can select a pen, pencil, or highlighter, the thickness, and the color. Create shapes like a circle, triangle, or rectangle, or even draw shapes with your finger, pen, or mouse and OneNote will clean them up for you.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "62e5c64c-5903-4622-a014-e1228c298f19",
-      "86c38f79-c295-495f-87c0-dc41d0d2b8ab"
+      "62e5c64c-5903-4622-a014-e1228c298f19"
     ]
   },
   {
@@ -2067,11 +2048,10 @@
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
     "Description": "To stay organized with OneNote, learn how to search for notes, narrow the search, and organize your notebooks. See how to show navigation panes, move a page from one section to another, copy a page to another section or notebook, and move or copy a section.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "e10883b2-09a5-49de-8f9b-71605a100504",
-      "ff0d5f04-532d-43e6-835a-82c5755374cb"
+      "e10883b2-09a5-49de-8f9b-71605a100504"
     ]
   },
   {
@@ -2085,11 +2065,10 @@
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
     "Description": "Share and sync your entire OneNote notebook to collaborate with others. Select share, who you want to share with, and whether they can edit or only view your page or notebook. You can also lock or password-protect notebook sections that you want to keep private.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "8264e361-d7a6-4f82-a45b-b9c618a3c5ce",
-      "8ce0993b-6169-4f1f-b228-19fc78a6ce4e"
+      "8264e361-d7a6-4f82-a45b-b9c618a3c5ce"
     ]
   },
   {
@@ -2103,12 +2082,11 @@
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
     "Description": "Use OneNote on your mobile devices so you can connect and work with your notes wherever you are. Use OneNote on iOS, OneNote for Android, or OneNote Online.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "32040c38-ed0a-4d9d-b2e5-c561ef751a4c",
-      "3f85c48a-76d9-4324-b24d-35652f1da418",
-      "b533bc33-f852-48d7-b55f-5a858174ca16"
+      "3f85c48a-76d9-4324-b24d-35652f1da418"
     ]
   },
   {
@@ -2771,12 +2749,11 @@
     "Source": "Microsoft",
     "CatId": "6682f5e0-9f2a-4cd3-9ada-d404b8d34761",
     "Description": "Microsoft Viva Connections provides a personalized and actionable home base that allows you to complete daily employee tasks, stay connected to company news, and access resources—all without leaving your hub for teamwork.",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "8b4e7f76-f305-49a9-b6d2-09378476f95b",
-      "3da30f39-684a-4bde-bb81-2e1407d59b52",
-      "753e0607-0bfd-4712-ad7e-18490dd565a2"
+      "3da30f39-684a-4bde-bb81-2e1407d59b52"
     ]
   },
   {
@@ -3258,7 +3235,7 @@
     "Source": "Microsoft",
     "CatId": "e83da7d3-653c-4c01-a262-336e07b88aba",
     "Description": "Learn how use Yammer every day to engage with people, leaders, and communities in your organization and share knowledge. Get an overview of Yammer, change your Yammer profile and settings, start a conversation, work with posts, attach files, discover and join communities, use notifications to stay connected, work with announcements, and learn tips and best practices to get the most out of Yammer.",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": "",
     "Assets": [
       "47526868-b136-40cc-a80d-c870eadd9ba5",
@@ -3298,10 +3275,9 @@
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
     "Description": "Review Learning Pathways content and content types. Decide what works for your organization.",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "c828dfeb-1fd1-4c39-a3c6-cf8df3669693",
       "163a1118-7b0f-493d-8add-eb3cb3074019"
     ]
   },

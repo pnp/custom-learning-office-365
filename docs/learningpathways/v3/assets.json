@@ -3373,7 +3373,7 @@
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -3428,7 +3428,7 @@
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -3439,7 +3439,7 @@
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -3461,7 +3461,7 @@
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -3472,7 +3472,7 @@
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -3516,7 +3516,7 @@
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -3538,7 +3538,7 @@
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -3549,7 +3549,7 @@
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -4583,7 +4583,7 @@
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -4748,7 +4748,7 @@
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -4766,11 +4766,11 @@
     "Id": "6f208b1e-32a8-4cb3-9966-6bf5d04d6a52",
     "Title": "Conditional Formatting",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/d1d92998-d8ed-4e05-9763-2fbc7ccc45a2?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/fed60dfa-1d3f-4e13-9ecb-f1951ff89d7f?embed=true&themeid=-1",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -4792,7 +4792,7 @@
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -4803,7 +4803,7 @@
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -4825,7 +4825,7 @@
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -6101,7 +6101,7 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -6233,7 +6233,7 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -6255,7 +6255,7 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -6288,7 +6288,7 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "615f17eb-2c5b-4494-8541-4304435ca306",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -6321,7 +6321,7 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -6387,7 +6387,7 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -10480,6 +10480,39 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "StatusTagId": "",
+    "StatusNote": ""
+  },
+{
+    "Id": "52c4ad04-1904-4b45-897a-5829c83c5838",
+    "Title": "Create and manage bookings",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/f1/article/6f59454d-6ed1-4733-8825-c9616564565d?embed=true&themeid=-1",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusNote": ""
+  },
+  {
+    "Id": "1a7d4a94-e573-4637-b37f-22cab6b83192",
+    "Title": "Set up a booking calendar for a business or department in Microsoft Teams",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/f1/article/d9d4faef-be86-4d2e-acb3-2281236a4a78?embed=true&themeid=-1",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusNote": ""
+  },
+  {
+    "Id": "f746d1a9-fb04-494d-a82b-c28145c46f17",
+    "Title": "Add staff to your booking calendar in Microsoft Teams",
+    "Description": "",
+    "Url": "https://support.office.com/en-us/f1/article/48ef6574-0246-4c44-aadb-ac59180da419?embed=true&themeid=-1",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   }
 ]
