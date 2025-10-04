@@ -1,0 +1,41 @@
+name: ❓ Question/Assistance Needed
+description: Ask a question or seek guidance
+labels: ["type: question", "help wanted 🐇"]
+
+body:
+- type: markdown
+  attributes:
+    value: |
+      This issue type is for asking questions or requesting assistance in using the Microsoft 365 Learning Pathways. Please provide as much information as possible so a member of the community can best assist you. Thanks!
+
+      - Follow our guidance on [How To Create Good Issues](https://github.dev/juliemturner/pnpjs/wiki/How-to-Create-Good-Issues).
+      - Remember to include sufficient details and context.
+      - If you have multiple questions, suggestions, or bugs, please submit them in separate issues.
+- type: dropdown
+  attributes:
+    label: Version Number
+    options:
+      - 5.x
+      - 4.x
+      - 3.x (No longer supported)
+      - 2.x (No longer supported)
+      - 1.x (No longer supported)
+    default: 0
+  validations:
+    required: true
+- type: input
+  id: minorver
+  attributes:
+    label: Minor Version Number
+    description: Include the minor and patch version numbers, e.g. for 5.0.0.6 
+    placeholder: '5.0.0.1'
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Question/Request
+    description: Please included details to describe your situation and what kind of assistance you are looking for.
+    placeholder: |
+      I'm struggling to add a custom playlist. Can anyone help me figure out what's wrong?
+  validations:
+    required: true

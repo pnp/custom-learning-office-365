@@ -1,0 +1,64 @@
+name: 🐞 Bug or Error Report
+description: Submit a bug or error report.
+labels: ["type: something isn't working", "status: investigate"]
+
+body:
+- type: markdown
+  attributes:
+    value: |
+      This issue type is for submitting bugs or errors you believe you have found with Microsoft 365 Learning Pathways. Please provide as much information as possible so we can best address your submission. Thanks!
+
+      - Follow our guidance on [How To Create Good Issues](https://github.dev/juliemturner/pnpjs/wiki/How-to-Create-Good-Issues).
+      - Remember to include sufficient details and context.
+      - If you have multiple questions, suggestions, or bugs, please submit them in separate issues.
+      - 
+      - # PROVISIONING NOTE
+      If you are having issues deploying Microsoft 365 Learning Pathways using the PnP Site Provisioning Templates please do not post that issue to this repo as we cannot help you here. Please post all questions and issues related to the provisioning templates to [SharePoint Dev Provisioning GitHub Issues List](https://github.com/SharePoint/sp-dev-provisioning-templates/issues).
+      
+      # Web Part Not Loading Error
+      If you are getting the error "Microsoft 365 learning pathways has a configuration issue. Ask your administrator for assistance". Please review the [Diagnosing Pre-Check](https://github.com/pnp/custom-learning-office-365/blob/main/installation/DiagnosisPreCheck.md) guidance before submitting your bug.
+- type: dropdown
+  attributes:
+    label: Version Number
+    options:
+      - 5.x
+      - 4.x
+      - 3.x (No longer supported)
+      - 2.x (No longer supported)
+      - 1.x (No longer supported)
+    default: 0
+  validations:
+    required: true
+- type: input
+  id: minorver
+  attributes:
+    label: Minor Version Number
+    description: Include the minor and patch version numbers, e.g. for 5.0.0.6 
+    placeholder: '5.0.0.1'
+  validations:
+    required: true   
+- type: textarea
+  attributes:
+    label: Expected or Desired Behavior
+    description: Describe what you expect to happen.
+    placeholder: |
+      I expect to be able to filter by playlists.
+  validations:
+    required: true         
+- type: textarea
+  attributes:
+    label: Observed Behavior
+    description: Describe the results you're getting.
+    placeholder: |
+      The playlists drop down is empty.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Steps to Reproduce
+    description: Please included detailed examples and/or screenshots and screenshots of the console log. 
+    placeholder: |
+      I have Learning Pathways installed in my tenant. I have added the web part to a page. When I open the filter pane the playlists drop down is empty.
+      I have it installed using the tenant app catalog.
+  validations:
+    required: true

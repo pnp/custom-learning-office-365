@@ -1,0 +1,36 @@
+name: 🏗 Enhancement request
+description: Suggest an enhancement either functionality or content related.
+labels: ["type: enhancement", "status: investigate"]
+
+body:
+- type: markdown
+  attributes:
+    value: |
+      This issue type is for suggesting or discussing enhancements to the Microsoft 365 Learning Pathways. You can use this request to ask fo additional functionality or to request new content.
+
+      - Follow our guidance on [How To Create Good Issues](https://github.dev/juliemturner/pnpjs/wiki/How-to-Create-Good-Issues).
+      - Remember to include sufficient details and context.
+      - If you have multiple questions, suggestions, or bugs, please submit them in separate issues.
+      
+      ## For Content Enhancement requests
+      For content requests please include the product or subject of the playlist you would like added and specific links to content you would like to see included. 
+
+      ### We can only include content from support.microsoft.com at this time. Any other links will not be included. 
+- type: dropdown
+  attributes:
+    label: Request Type
+    options:
+      - Functionality
+      - Content
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Enhancement Idea
+    description: Please included details to describe what kind of enhancement you are looking for. If this a functional enhancement please describe in plain language the challenge you are facing and how this enhancement would solve that challenge. For content requests please include the product and the links to support.microsoft.com that you want included.
+    placeholder: |
+      I would like to see a new playlist for the product X that includes the following links:
+      - https://support.microsoft.com/...
+      - https://support.microsoft.com/...
+    validations:
+      required: true
