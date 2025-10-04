@@ -11,8 +11,8 @@ body:
       - Follow our guidance on [How To Create Good Issues](https://github.dev/juliemturner/pnpjs/wiki/How-to-Create-Good-Issues).
       - Remember to include sufficient details and context.
       - If you have multiple questions, suggestions, or bugs, please submit them in separate issues.
-      - 
-      - # PROVISIONING NOTE
+      
+      # PROVISIONING NOTE
       If you are having issues deploying Microsoft 365 Learning Pathways using the PnP Site Provisioning Templates please do not post that issue to this repo as we cannot help you here. Please post all questions and issues related to the provisioning templates to [SharePoint Dev Provisioning GitHub Issues List](https://github.com/SharePoint/sp-dev-provisioning-templates/issues).
       
       # Web Part Not Loading Error
