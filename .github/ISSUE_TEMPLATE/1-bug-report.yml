@@ -12,10 +12,10 @@ body:
       - Remember to include sufficient details and context.
       - If you have multiple questions, suggestions, or bugs, please submit them in separate issues.
       
-      # PROVISIONING NOTE
+      ## PROVISIONING NOTE
       If you are having issues deploying Microsoft 365 Learning Pathways using the PnP Site Provisioning Templates please do not post that issue to this repo as we cannot help you here. Please post all questions and issues related to the provisioning templates to [SharePoint Dev Provisioning GitHub Issues List](https://github.com/SharePoint/sp-dev-provisioning-templates/issues).
       
-      # Web Part Not Loading Error
+      ## Web Part Not Loading Error
       If you are getting the error "Microsoft 365 learning pathways has a configuration issue. Ask your administrator for assistance". Please review the [Diagnosing Pre-Check](https://github.com/pnp/custom-learning-office-365/blob/main/installation/DiagnosisPreCheck.md) guidance before submitting your bug.
 - type: dropdown
   attributes:
