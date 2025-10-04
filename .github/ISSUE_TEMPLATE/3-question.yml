@@ -1,6 +1,6 @@
 name: ❓ Question/Assistance Needed
 description: Ask a question or seek guidance
-labels: ["type: question", "help wanted 🐇"]
+labels: ["type: question", "status: help wanted"]
 
 body:
 - type: markdown
