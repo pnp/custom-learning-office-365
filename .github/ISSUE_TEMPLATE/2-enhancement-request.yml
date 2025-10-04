@@ -27,10 +27,8 @@ body:
 - type: textarea
   attributes:
     label: Enhancement Idea
-    description: Please included details to describe what kind of enhancement you are looking for. If this a functional enhancement please describe in plain language the challenge you are facing and how this enhancement would solve that challenge. For content requests please include the product and the links to support.microsoft.com that you want included.
+    description: Please included details to describe what kind of enhancement you are looking for. If this a functional enhancement please describe in plain language the challenge you are facing and how this enhancement would solve that challenge. For content requests please include the product and the links to support.microsoft.com that you want included. 
     placeholder: |
       I would like to see a new playlist for the product X that includes the following links:
-      - https://support.microsoft.com/
-      - https://support.microsoft.com/
-    validations:
-      required: true
+  validations:
+    required: true
