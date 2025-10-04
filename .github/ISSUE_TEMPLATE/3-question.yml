@@ -8,7 +8,6 @@ body:
     value: |
       This issue type is for asking questions or requesting assistance in using the Microsoft 365 Learning Pathways. Please provide as much information as possible so a member of the community can best assist you. Thanks!
 
-      - Follow our guidance on [How To Create Good Issues](https://github.dev/juliemturner/pnpjs/wiki/How-to-Create-Good-Issues).
       - Remember to include sufficient details and context.
       - If you have multiple questions, suggestions, or bugs, please submit them in separate issues.
 - type: dropdown
