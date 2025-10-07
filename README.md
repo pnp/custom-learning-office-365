@@ -1,3 +1,7 @@
+> [!IMPORTANT]
+> Dear users: Read our announcement for an important update on the future of Microsoft 365 learning pathways: [Driving Adoption Blog](https://aka.ms/M365LPUpdate).
+
+
 # Microsoft 365 learning pathways
 
 Train employees with Microsoft 365 learning pathways, a digital, customizable learning solution that helps customers transform their organization. Microsoft 365 learning pathways provides:
