@@ -1,8 +1,10 @@
-> [!IMPORTANT]
-> Dear users: Read our announcement for an important update on the future of Microsoft 365 learning pathways: [Driving Adoption Blog](https://aka.ms/M365LPUpdate).
-
-
 # Microsoft 365 learning pathways
+
+## Important Update for Microsoft 365 Learning Pathways
+
+We have some exciting news! Starting December 1, 2025 Microsoft 365 Learning Pathways will be 100% community supported. Our goal is to be able to better serve content to you our users. To see what this means for you and your organization check out the official [Driving Adoption](https://aka.ms/M365LPUpdate) as well as the [M365 Community Announcement](CommmunitySupported.md).
+
+## What is Microsoft 365 Learning Pathways
 
 Train employees with Microsoft 365 learning pathways, a digital, customizable learning solution that helps customers transform their organization. Microsoft 365 learning pathways provides:
 
