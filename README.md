@@ -1,6 +1,6 @@
 # Microsoft 365 learning pathways
 
-## Important Update for Microsoft 365 Learning Pathways
+## Important Update for Microsoft 365 Learning Pathways 
 
 We have some exciting news! **Starting December 1, 2025 Microsoft 365 Learning Pathways will be 100% community supported**. Our goal is to be able to better serve content to you our users. To see what this means for you and your organization check out the official [Driving Adoption](https://aka.ms/M365LPUpdate) as well as the [M365 Community Announcement](CommunitySupported.md).
 

@@ -1,7 +1,7 @@
 # Microsoft 365 Learning Pathways: A New Chapter Begins
 
 Big news for organizations leveraging Microsoft 365 Learning Pathways: starting **December 1, 2025**, this powerful microlearning platform will transition to a **fully community-supported solution**. This marks a pivotal shift in how we deliver, maintain, and evolve training content across Microsoft 365 environments.
-You can read the official [Microsoft Announcement here](https://aka.ms/M365LPUpdate).
+You can read the official [Driving Adoption Announcement](https://aka.ms/M365LPUpdate).
 
 ## What’s Changing?
 
