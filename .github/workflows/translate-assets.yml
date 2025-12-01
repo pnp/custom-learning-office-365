@@ -1,6 +1,12 @@
 name: GitHub Actions Demo
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
-on: [push]
+on:
+  push:
+    paths:
+      - 'docs/learningpathways/v4/en-us/assets.json'
+  pull_request:
+    paths:
+      - 'docs/learningpathways/v4/en-us/assets.json'
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
