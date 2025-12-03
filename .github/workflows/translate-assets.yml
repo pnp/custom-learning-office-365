@@ -28,7 +28,7 @@ jobs:
         with:
           clean: true
       - name: Run translation script
-        run: node /scripts/translate-assets.js
+        run: node .github/workflows/scripts/translateAssets.js
       - name: Commit changes
         run: |
           git add -A
