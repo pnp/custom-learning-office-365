@@ -1,5 +1,12 @@
 name: Translate Asset Titles
-run-name: ${{ github.actor }} is translating the assets.json file for other languages
+
+defaults:
+  run:
+    shell: bash
+
+env:
+  NODE_VERSION: 22.x
+
 on:
   push:
     paths:
@@ -7,23 +14,23 @@ on:
   pull_request:
     paths:
       - 'docs/learningpathways/v4/en-us/assets.json'
+
+
+
+
 jobs:
-  Explore-GitHub-Actions:
+  replace-localization:
+    name: Replace localization
     runs-on: ubuntu-latest
     steps:
-      - run: content='docs/learningpathways/v4/en-us/assets.json'
-      - run: for asset in ${{ fromJSON('docs/learningpathways/v4/en-us/assets.json') }}
-      - run: do
-      - run: echo asset.url
-      - run: done
-      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
-      - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
-      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
-      - name: Check out repository code
-        uses: actions/checkout@v5
-      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
-      - run: echo "🖥️ The workflow is now ready to test your code on the runner."
-      - name: List files in the repository
+      - name: Checkout repo codebase
+        uses: actions/checkout@v4
+        with:
+          clean: true
+      - name: Run translation script
+        run: node /scripts/translate-assets.js
+      - name: Commit changes
         run: |
-          ls ${{ github.workspace }}
-      - run: echo "🍏 This job's status is ${{ job.status }}."
+          git add -A
+          git commit -m "Updated localized asset titles"
+          git push
