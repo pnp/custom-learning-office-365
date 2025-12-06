@@ -1,0 +1,24 @@
+{
+  "name": "learning-pathways-translator",
+  "version": "1.0.0",
+  "description": "Translates Learning Pathways",
+  "main": "app.js",
+  "scripts": {
+    "translate": "node translate-to-dutch.js",
+    "start": "node translate-to-dutch.js"
+  },
+  "dependencies": {
+    "@vitalets/google-translate-api": "^9.2.1",
+    "axios": "^1.12.2",
+    "cheerio": "^1.1.2",
+    "express": "^5.1.0"
+  },
+  "keywords": [
+    "translation",
+    "microsoft-365",
+    "learning-pathways",
+    "dutch"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
