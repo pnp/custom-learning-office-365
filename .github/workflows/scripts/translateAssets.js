@@ -1,8 +1,13 @@
-import fs from 'fs';
-import axios from 'axios';
-import cheerio from 'cheerio';
-import express from 'express';
-//const express = require('express');
+let { default: fs } = await import('fs');
+let { default: axios } = await import('axios');
+let { default: cheerio } = await import('cheerio');
+let {default: express} = await import('express');
+
+//import fs from 'fs';
+//import axios from 'axios';
+//import cheerio from 'cheerio';
+//import express from 'express';
+////const express = require('express');
 //const fs = require('fs');
 
 const app = express();
