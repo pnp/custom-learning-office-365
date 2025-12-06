@@ -1,6 +1,9 @@
-
-const express = require('express');
-const fs = require('fs');
+import fs from 'fs';
+import axios from 'axios';
+import cheerio from 'cheerio';
+import express from 'express';
+//const express = require('express');
+//const fs = require('fs');
 
 const app = express();
 
@@ -11,8 +14,8 @@ const outputPath = 'docs/learningpathways/v4/xx-xx/assets.json';
 let assetLangs = [];
 
 
-const axios = require('axios');
-const cheerio = require('cheerio');
+//const axios = require('axios');
+//const cheerio = require('cheerio');
 // Read and parse the JSON file
 const sourceData = JSON.parse(fs.readFileSync(sourcePath, 'utf8'));
 
