@@ -1,11 +1,8 @@
-//const app = express();
-
-import fs from 'fs';
-import axios from 'axios';
-import cheerio from 'cheerio';
-//import express from 'express';
 const express = require('express');
 const fs = require('fs');
+const app = express();
+const axios = require('axios');
+const cheerio = require('cheerio');
 
 const manifestPath = 'docs/learningpathways/v4/manifest.json';
 const sourcePath = 'docs/learningpathways/v4/en-us/assets.json';
