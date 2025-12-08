@@ -1,18 +1,7 @@
-const app = express();
-let { default: fs } = await import('fs');
-let { default: axios } = await import('axios');
-app.use('axios', require("axios"));
-let { default: cheerio } = await import('cheerio');
-//let {default: express} = await import('express');
-
-//import fs from 'fs';
-//import axios from 'axios';
-//import cheerio from 'cheerio';
-//import express from 'express';
-////const express = require('express');
-//const fs = require('fs');
-
-
+// Use CommonJS requires for Node.js compatibility in GitHub Actions
+const fs = require('fs');
+const axios = require('axios');
+const cheerio = require('cheerio');
 
 const manifestPath = 'docs/learningpathways/v4/manifest.json';
 const sourcePath = 'docs/learningpathways/v4/en-us/assets.json';
@@ -93,9 +82,3 @@ async function getAssets(languageCode) {
   }
   
 })();
-app.get('/', function (req, res) {
-  res.send('Hello World!');
-});
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!');
-});
