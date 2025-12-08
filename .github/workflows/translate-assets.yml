@@ -29,6 +29,7 @@ jobs:
               sudo npm install axios --global
               sudo npm install cheerio --global
               sudo npm install fs --global
+              sudo npm install express --global
       - name: Run translation script
         run: node .github/workflows/scripts/translateAssets.js
       - name: Commit changes
