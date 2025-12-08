@@ -1,16 +1,11 @@
-const app = express();
-let { default: fs } = await import('fs');
-let { default: axios } = await import('axios');
-app.use('axios', require("axios"));
-let { default: cheerio } = await import('cheerio');
-//let {default: express} = await import('express');
+//const app = express();
 
-//import fs from 'fs';
-//import axios from 'axios';
-//import cheerio from 'cheerio';
-//import express from 'express';
-////const express = require('express');
-//const fs = require('fs');
+import fs from 'fs';
+import axios from 'axios';
+import cheerio from 'cheerio';
+import express from 'express';
+const express = require('express');
+const fs = require('fs');
 
 const manifestPath = 'docs/learningpathways/v4/manifest.json';
 const sourcePath = 'docs/learningpathways/v4/en-us/assets.json';
