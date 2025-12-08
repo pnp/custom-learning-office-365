@@ -32,9 +32,9 @@ jobs:
           node-version: '22'
       - name: Install dependencies
         run: |
-              npm i axios -global
-              npm i cheerio -global
-              npm i fs -global
+              sudo npm install axios --global
+              sudo npm install cheerio --global
+              sudo npm install fs --global
       - name: Run translation script
         run: node .github/workflows/scripts/translateAssets.js
       - name: Commit changes
