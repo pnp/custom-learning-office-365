@@ -69,7 +69,7 @@ async function getAssets(languageCode) {
             entry.Title = h1Text;
             console.log(`Updated Title for ${languageCode} - ${entry.Id}: ${h1Text}`);
           }else if (!h1Text.startsWith('Sorry') && h1Text === entry.Title) {
-            console.log(`No change needed for for ${languageCode} - ${entry.Id}: ${h1Text}`);
+            //console.log(`No change needed for for ${languageCode} - ${entry.Id}: ${h1Text}`);
           }else if (h1Text.startsWith('Sorry')) {
             entry.StatusTagId = '4eb25076-b5d0-41cb-afa6-4e0c5a1c9664'
             console.log(`Deprecated Title for ${languageCode} - ${entry.Id}: ${h1Text}`);
