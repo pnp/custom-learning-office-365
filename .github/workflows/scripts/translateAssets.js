@@ -16,7 +16,8 @@ const sourceData = JSON.parse(fs.readFileSync(sourcePath, 'utf8'));
  */
 async function main() {
   try {
-    console.log(`${LOG_SOURCE} - Starting API call...`);
+    assetLangs = await getSupportedLanguages(manifestPath);
+    console.log(`${LOG_SOURCE} - ${assetLangs}Starting API call...`);
     
     // Example API call to GitHub API
     const response = await axios.get('https://api.github.com');
@@ -35,6 +36,22 @@ async function main() {
     }
     process.exit(1);
   }
+}
+
+// Get the list of languages from the manifest file
+async function getSupportedLanguages(manifestPath) {
+  const retVal = [];
+  try {
+    const manifestData = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
+    if (manifestData.Languages && Array.isArray(manifestData.Languages)) {
+      manifestData.Languages.forEach(lang => {
+        retVal.push(lang.toLowerCase());
+      });
+    }
+  } catch (err) {
+    return `Error processing languages: ${err.message}`;
+  }
+  return retVal;
 }
 
 // Run the main function
@@ -58,21 +75,7 @@ main();
 // // Read and parse the JSON file
 // const sourceData = JSON.parse(fs.readFileSync(sourcePath, 'utf8'));
 
-// // Get the list of languages from the manifest file
-// async function getSupportedLanguages(manifestPath) {
-//   const retVal = [];
-//   try {
-//     const manifestData = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
-//     if (manifestData.Languages && Array.isArray(manifestData.Languages)) {
-//       manifestData.Languages.forEach(lang => {
-//         retVal.push(lang.toLowerCase());
-//       });
-//     }
-//   } catch (err) {
-//     return `Error processing languages: ${err.message}`;
-//   }
-//   return retVal;
-// }
+
 
 // // Iterate over all entries, detect language, and log if English
 // // Helper to fetch H1 text from a URL
