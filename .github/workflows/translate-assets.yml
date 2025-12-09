@@ -21,16 +21,16 @@ jobs:
         uses: actions/checkout@v4
         with:
           clean: true
-      - uses: actions/setup-node@v6
+      - uses: actions/setup-node@v4
         with:
           node-version: 24
           cache: 'npm'
       - name: Install dependencies
         run: |
+              sudo npm ci
+      - name: Install Additional dependencies
+        run: |
               sudo npm install axios --global
-              sudo npm install cheerio --global
-              sudo npm install fs --global
-              sudo npm install express --global
       - name: Run translation script
         run: node .github/workflows/scripts/translateAssets.js
       - name: Commit changes
