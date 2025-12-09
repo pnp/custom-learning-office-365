@@ -23,7 +23,7 @@ async function main() {
     if (assetLangs.length > 0 && Array.isArray(assetLangs)) {
         assetLangs.forEach(async lang => {
           console.log(`${LOG_SOURCE} - Starting update of  ${lang}`);
-          await getAssets(lang);
+          await getAssets(lang,sourceData);
           console.log(`${LOG_SOURCE} - Ending update of  ${lang}`);
         });
     }
@@ -54,10 +54,10 @@ async function getSupportedLanguages(manifestPath) {
 }
 
 // Get language assets file
-async function getAssets(languageCode) {
-  const retVal = sourceData;
+async function getAssets(languageCode, source) {
+  const retVal = [];
   try {
-    for (const entry of retVal) {
+    for (const entry of source) {
       if (entry.Title && entry.Url) {
         // Check if the Url contains 'en-us' (case-insensitive)
         if (entry.Url.toLowerCase().includes('en-us')) {
@@ -77,11 +77,13 @@ async function getAssets(languageCode) {
         } else {
           console.log(`Asset missing for ${languageCode} - ${entry.Id}: ${h1Text}`);
         }
-    }
+      }
+      retVal.push(entry);
   }
   } catch (err) {
     return `Error processing languages: ${err.message}`;
   }
+  
   fs.writeFileSync(outputPath.replace('xx-xx', languageCode.toLowerCase()), JSON.stringify(retVal, null, 2), 'utf8');
   console.log(`Updated ${languageCode} to file ${outputPath.replace('xx-xx', languageCode.toLowerCase())}`);
   return retVal;
