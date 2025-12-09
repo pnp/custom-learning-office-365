@@ -1,6 +1,7 @@
 
 const axios = require('axios');
 const fs = require('fs');
+const cheerio = require('cheerio');
 const LOG_SOURCE = "translateAssets.js";
 
 // Define the paths for source and output files
@@ -16,8 +17,18 @@ const sourceData = JSON.parse(fs.readFileSync(sourcePath, 'utf8'));
  */
 async function main() {
   try {
+    //Get the supported languages from the manifest file
     assetLangs = await getSupportedLanguages(manifestPath);
+    
+    
     console.log(`${LOG_SOURCE} - ${assetLangs}Starting API call...`);
+    
+   if (assetLangs.length > 0 && Array.isArray(assetLangs)) {
+        assetLangs.forEach(lang => {
+          getAssets(lang);
+        });
+    }
+      
     
     // Example API call to GitHub API
     const response = await axios.get('https://api.github.com');
@@ -49,82 +60,47 @@ async function getSupportedLanguages(manifestPath) {
       });
     }
   } catch (err) {
-    return `Error processing languages: ${err.message}`;
+    console.error(`${LOG_SOURCE} - getSupportedLanguages:`, err.message);
   }
   return retVal;
 }
 
+// Get language assets file
+async function getAssets(languageCode) {
+  const retVal = sourceData;
+  try {
+    for (const entry of retVal) {
+      if (entry.Title && entry.Url) {
+        // Check if the Url contains 'en-us' (case-insensitive)
+        if (entry.Url.toLowerCase().includes('en-us')) {
+          entry.Url = entry.Url.replace('en-us', languageCode.toLowerCase());
+        }
+      const h1Text = await fetchH1(entry.Url);
+      if (h1Text && !h1Text.startsWith('Sorry')) {
+        entry.Title = h1Text;
+        console.log(`Updated Title for ${entry.Id}: ${h1Text}`);
+      }else{
+        entry.StatusTagId = '4eb25076-b5d0-41cb-afa6-4e0c5a1c9664'
+      }
+    }
+  }
+  } catch (err) {
+    return `Error processing languages: ${err.message}`;
+  }
+  fs.writeFileSync(outputPath.replace('xx-xx', languageCode.toLowerCase()), JSON.stringify(retVal, null, 2), 'utf8');
+  return retVal;
+}
+
+//Make a call to the page and get the H1 tag that is translated
+async function fetchH1(url) {
+  try {
+    const response = await axios.get(url);
+    const $ = cheerio.load(response.data);
+    return $('h1').first().text();
+  } catch (err) {
+    return `Error fetching H1: ${err.message}`;
+  }
+}
+
 // Run the main function
 main();
-
-
-// let { default: fs } = await import('fs');
-// let { default: axios } = await import('axios');
-// app.use('axios', require("axios"));
-// let { default: cheerio } = await import('cheerio');
-// let {default: express} = await import('express');
-// const app = express();
-
-
-
-// let assetLangs = [];
-
-
-// //const axios = require('axios');
-// //const cheerio = require('cheerio');
-// // Read and parse the JSON file
-// const sourceData = JSON.parse(fs.readFileSync(sourcePath, 'utf8'));
-
-
-
-// // Iterate over all entries, detect language, and log if English
-// // Helper to fetch H1 text from a URL
-// async function fetchH1(url) {
-//   try {
-//     const response = await axios.get(url);
-//     const $ = cheerio.load(response.data);
-//     return $('h1').first().text();
-//   } catch (err) {
-//     return `Error fetching H1: ${err.message}`;
-//   }
-// }
-
-// // Get language assets file
-// async function getAssets(languageCode) {
-//   const retVal = sourceData;
-//   try {
-//     for (const entry of retVal) {
-//       if (entry.Title && entry.Url) {
-//         // Check if the Url contains 'en-us' (case-insensitive)
-//         if (entry.Url.toLowerCase().includes('en-us')) {
-//           entry.Url = entry.Url.replace('en-us', languageCode.toLowerCase());
-//         }
-//       const h1Text = await fetchH1(entry.Url);
-//       if (h1Text && !h1Text.startsWith('Sorry')) {
-//         entry.Title = h1Text;
-//         console.log(`Updated Title for ${entry.Id}: ${h1Text}`);
-//       }else{
-//         entry.StatusTagId = '4eb25076-b5d0-41cb-afa6-4e0c5a1c9664'
-//       }
-//     }
-//   }
-//   } catch (err) {
-//     return `Error processing languages: ${err.message}`;
-//   }
-//   fs.writeFileSync(outputPath.replace('xx-xx', languageCode.toLowerCase()), JSON.stringify(retVal, null, 2), 'utf8');
-//   return retVal;
-// }
-
-// (async () => {
-//   let assetLangs = await getSupportedLanguages(manifestPath);
-//   try {
-//     if (assetLangs.length > 0 && Array.isArray(assetLangs)) {
-//       assetLangs.forEach(lang => {
-//         getAssets(lang);
-//       });
-//     }
-//   } catch (err) {
-//     return `Error processing languages: ${err.message}`;
-//   }
-  
-// })();
