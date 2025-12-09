@@ -177,7 +177,7 @@
   },
   {
     "Id": "645cc20d-5c98-4bdb-b559-380c5a27c5e5",
-    "Title": "Use Loop components in Word for the web",
+    "Title": "This article has been retired",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/645cc20d-5c98-4bdb-b559-380c5a27c5e5?embed=true&themeid=-1",
     "TechnologyId": "",
@@ -881,7 +881,7 @@
   },
   {
     "Id": "22c40436-db14-4863-93c6-aa9a51134edd",
-    "Title": "Adjust your view in a Teams meeting",
+    "Title": "Customize your meeting view in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/bc428cc5-9ea2-4be5-87b1-ba434481b964?embed=true&themeid=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -1090,7 +1090,7 @@
   },
   {
     "Id": "3e42e8d8-89e8-4345-a79c-524a815f40ce",
-    "Title": "Video: Merge and split table cells in Word",
+    "Title": "Merge and split table cells in Word",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/3e42e8d8-89e8-4345-a79c-524a815f40ce?embed=true&themeid=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -1904,7 +1904,7 @@
   },
   {
     "Id": "bc428cc5-9ea2-4be5-87b1-ba434481b964",
-    "Title": "Adjust your view in a Teams meeting",
+    "Title": "Customize your meeting view in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/bc428cc5-9ea2-4be5-87b1-ba434481b964?embed=true&themeid=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -2014,7 +2014,7 @@
   },
   {
     "Id": "c8c64c61-0136-4e47-be9d-263976ce6de5",
-    "Title": "Tips for better meetings",
+    "Title": "First things to know about meetings in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/80640ac4-b009-42ea-abcb-660e729e63e5?embed=true&themeid=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -2069,7 +2069,7 @@
   },
   {
     "Id": "dbf2c1f3-dbc5-45a8-9f04-2d9a7e97032f",
-    "Title": "Communicate or meet by using Teams",
+    "Title": "Schedule a meeting in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/34dd1c2a-8921-45a5-a22e-60ac515039ce?embed=true&themeid=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -2531,7 +2531,7 @@
   },
   {
     "Id": "61f3fb1a-4717-414c-9a8f-015a5f3ff4cb",
-    "Title": "Insert footnotes and endnotes",
+    "Title": "Insert footnotes and endnotes in Word",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/61f3fb1a-4717-414c-9a8f-015a5f3ff4cb?embed=true&themeid=-1",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
@@ -4038,7 +4038,7 @@
   },
   {
     "Id": "9bdaa597-38b8-4d15-948d-8125893ff060",
-    "Title": "What is a slide master?",
+    "Title": "What is a slide master in PowerPoint?",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/b9abb2a0-7aef-4257-a14e-4329c904da54?embed=true&themeid=-1",
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
@@ -4643,7 +4643,7 @@
   },
   {
     "Id": "19ec0716-957a-46df-8b94-acb32832f0ef",
-    "Title": "Get started with Microsoft 365 Copilot Create",
+    "Title": "Get started with Create in Microsoft 365 Copilot",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/08e83f3b-5dbf-4874-9c81-9ae06266163f?embed=true&themeid=-1",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4720,7 +4720,7 @@
   },
   {
     "Id": "47069cbb-0d61-4bf3-82bb-f2c70e63b337",
-    "Title": "Cool things in Word for the web",
+    "Title": "Welcome to Copilot in Word",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/a2ca6252-01ab-48fa-8c42-0fb1d54969ff?embed=true&themeid=-1",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4753,7 +4753,7 @@
   },
   {
     "Id": "5b424d93-175c-4e36-8331-56af9125a551",
-    "Title": "Video: Animations and transitions",
+    "Title": "Video: Animations and transitions for PowerPoint web",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/07a941fb-b027-4f3e-b514-cd9866723f45?embed=true&themeid=-1",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4764,7 +4764,7 @@
   },
   {
     "Id": "6f208b1e-32a8-4cb3-9966-6bf5d04d6a52",
-    "Title": "Conditional Formatting",
+    "Title": "Use conditional formatting to highlight information in Excel",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/fed60dfa-1d3f-4e13-9ecb-f1951ff89d7f?embed=true&themeid=-1",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -6623,7 +6623,7 @@
   },
   {
     "Id": "b33ae7a4-e14b-4e46-9440-94bfed214415",
-    "Title": "Tip: Use PowerPoint Live to show slides in a meeting",
+    "Title": "Present from PowerPoint Live in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/ddfc73dd-b957-4f2b-8e42-ce078f51873c?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6689,7 +6689,7 @@
   },
   {
     "Id": "c6d0e61d-a61e-44a6-a972-04f2a8fa4155",
-    "Title": "Teams and Channels in Microsoft Teams",
+    "Title": "Microsoft Teams Free help",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/c6d0e61d-a61e-44a6-a972-04f2a8fa4155?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -7679,7 +7679,7 @@
   },
   {
     "Id": "01832226-31b5-4568-8806-38c37dcc180e",
-    "Title": "Filter data in a range or table",
+    "Title": "Filter data in a range or table in Excel",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/01832226-31b5-4568-8806-38c37dcc180e?embed=true&themeid=-1",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
@@ -7789,7 +7789,7 @@
   },
   {
     "Id": "1246bc29-c113-415d-80ba-7fac257beab2",
-    "Title": "Combine text from two or more cells into one cell",
+    "Title": "Combine text from two or more cells into one cell in Microsoft Excel",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/81ba0946-ce78-42ed-b3c3-21340eb164a6?embed=true&themeid=-1",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
@@ -8493,7 +8493,7 @@
   },
   {
     "Id": "b12e1cc5-e98a-48d0-af9c-41afd3bda3d5",
-    "Title": "Automatically number rows",
+    "Title": "Automatically number rows in Excel",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/76ce49e3-d8d2-459b-bd85-ee1d3973e6e6?embed=true&themeid=-1",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
@@ -8691,7 +8691,7 @@
   },
   {
     "Id": "fbf3ff68-e9c2-4a2b-8a15-a52ff5729dde",
-    "Title": "COUNTIF function",
+    "Title": "Use the COUNTIF function in Microsoft Excel",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/e0de10c6-f885-4e71-abb4-1f464816df34?embed=true&themeid=-1",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
@@ -8790,7 +8790,7 @@
   },
   {
     "Id": "0ca67c26-f365-47d0-b1fe-f2f670288927",
-    "Title": "Use live events to reach large audiences in Microsoft Teams",
+    "Title": "First things to know about meetings in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/08d4d9df-d1a7-4968-b844-51c9d4aae3c2?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -8812,7 +8812,7 @@
   },
   {
     "Id": "1311f213-f56b-4c15-b496-5ecff888cd66",
-    "Title": "Reduce or replace meetings with asynchronous methods in Microsoft Teams",
+    "Title": "First things to know about chats in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/1673e0d9-7ab0-40a3-bbdb-9d821146135d?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -8845,7 +8845,7 @@
   },
   {
     "Id": "1a583551-1f93-4d71-bac1-5881d5f8b1e7",
-    "Title": "Create inclusive meeting environments in Microsoft Teams",
+    "Title": "Schedule a meeting in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/d60b63be-6e28-4cfd-ace3-c7bb91a6a35c?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -8856,7 +8856,7 @@
   },
   {
     "Id": "1a747a9c-dc47-480e-b3d7-1df74cbe2d29",
-    "Title": "Learn how to run effective meetings using Microsoft 365 apps in Microsoft Teams",
+    "Title": "Tips for setting up large meetings and events in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/0525b436-2100-4a76-9756-c9cfe7ced243?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -8977,7 +8977,7 @@
   },
   {
     "Id": "2f1621f6-aace-403f-8394-8d2f0183b96c",
-    "Title": "Reduce meeting fatigue in Microsoft Teams",
+    "Title": "Welcome to Teams tips from the experts!",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/f44be8a1-1bb4-4d02-8bc3-6bfd83ef3b5b?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9032,7 +9032,7 @@
   },
   {
     "Id": "3a70afb4-a7b7-4dc4-ab56-e232a988c6ff",
-    "Title": "Productive meeting checklist in Microsoft Teams",
+    "Title": "Meetings in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/a3bb25d2-f364-4c3b-baa4-2e2f0a19b104?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9098,7 +9098,7 @@
   },
   {
     "Id": "47473ffc-75e5-4c71-959d-39c60f25d75e",
-    "Title": "Personal productivity in the hybrid workplace in Microsoft Teams",
+    "Title": "First things to know about meetings in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/47473ffc-75e5-4c71-959d-39c60f25d75e?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9109,7 +9109,7 @@
   },
   {
     "Id": "480fd2ff-1e8a-4091-9100-09c6f5ab76c4",
-    "Title": "Create a communication contract with your team in Microsoft Teams",
+    "Title": "Microsoft Teams and email, living in harmony",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/480fd2ff-1e8a-4091-9100-09c6f5ab76c4?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9131,7 +9131,7 @@
   },
   {
     "Id": "4a5a9fae-5803-4ce2-9f54-77535f6a6618",
-    "Title": "Build empathy across time zones in Microsoft Teams",
+    "Title": "Schedule a meeting in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/b4054899-3acc-4716-8b37-5b95a382b957?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9153,7 +9153,7 @@
   },
   {
     "Id": "4ecdbc37-c34c-40b0-87fb-619e7625d1e2",
-    "Title": "Schedule effective meetings in Microsoft Teams",
+    "Title": "Schedule a meeting in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/f0943ce9-fcb0-4df2-967d-a45473117c0f?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9208,7 +9208,7 @@
   },
   {
     "Id": "54302a7f-833c-4690-902b-1621f45dcb61",
-    "Title": "Plan and lead intentional meetings in Microsoft Teams",
+    "Title": "Tips for producing large meetings and events in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/dbc133fb-a1a7-49e7-a571-25bb6903a7ab?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9351,7 +9351,7 @@
   },
   {
     "Id": "699cf41d-7bb1-497e-82c8-067650637d2e",
-    "Title": "Take breaks and schedule personal time in Microsoft Teams",
+    "Title": "Manage your calendar in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/699cf41d-7bb1-497e-82c8-067650637d2e?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9362,7 +9362,7 @@
   },
   {
     "Id": "69b2a175-28e4-4d06-96cf-7bca2e8351f5",
-    "Title": "Productivity in the hybrid workplace in Microsoft Teams",
+    "Title": "First things to know about meetings in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/69b2a175-28e4-4d06-96cf-7bca2e8351f5?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9450,7 +9450,7 @@
   },
   {
     "Id": "7f1a4746-bfa5-49d3-8686-3b59dc3391b9",
-    "Title": "Make meetings and related content accessible for all in Microsoft Teams",
+    "Title": "First things to know about meetings in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/71952c46-8843-468e-9e44-27fa82d0361a?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9472,7 +9472,7 @@
   },
   {
     "Id": "80640ac4-b009-42ea-abcb-660e729e63e5",
-    "Title": "Tips for better meetings",
+    "Title": "First things to know about meetings in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/80640ac4-b009-42ea-abcb-660e729e63e5?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9483,7 +9483,7 @@
   },
   {
     "Id": "8b6e7a53-d2a9-49bc-98a8-74b82c95dd07",
-    "Title": "Staying connected in the hybrid workplace in Microsoft Teams",
+    "Title": "First things to know about meetings in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/8b6e7a53-d2a9-49bc-98a8-74b82c95dd07?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9516,7 +9516,7 @@
   },
   {
     "Id": "8fcf1237-4ba5-46b2-a3cb-19d9d526b409",
-    "Title": "Limit distractions in meetings in Microsoft Teams",
+    "Title": "Manage notifications in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/a56da772-46fc-4331-b84d-e5327be5dbe8?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9527,7 +9527,7 @@
   },
   {
     "Id": "919b4bd2-6c85-4792-bf60-57258cabe71d",
-    "Title": "Manage meetings",
+    "Title": "First things to know about meetings in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/69aefc02-b58c-4066-811c-d1b71dd2c552?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9648,7 +9648,7 @@
   },
   {
     "Id": "a6ff7745-0ab0-470f-8d77-5302cd94ebeb",
-    "Title": "Introduction to well-being in the hybrid workplace in Microsoft Teams",
+    "Title": "Welcome to Teams tips from the experts!",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/a6ff7745-0ab0-470f-8d77-5302cd94ebeb?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9659,7 +9659,7 @@
   },
   {
     "Id": "a76fef68-d80d-4e30-88e6-9c85d6e4795a",
-    "Title": "Join a Teams meeting",
+    "Title": "Join a meeting in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/b6caa0d4-eecb-4aa0-bc75-c05f4cd907b2?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9912,7 +9912,7 @@
   },
   {
     "Id": "c570f04f-08d9-4a37-b59d-8c92b47c26b9",
-    "Title": "Engage your audience in hybrid meetings in Microsoft Teams",
+    "Title": "Tips for presenting in large meetings and events in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/f54304a3-a908-4829-9974-3b217e7307b0?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9934,7 +9934,7 @@
   },
   {
     "Id": "c7fa8661-7524-43bf-9f6f-2cd5ac42a73a",
-    "Title": "Collaborate and co-author shared content in Microsoft Teams",
+    "Title": "Collaborate on files in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/48183b44-c9a6-4beb-b5b7-44c310550ae9?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -10000,7 +10000,7 @@
   },
   {
     "Id": "cbacc0cb-73c3-4f95-b3f5-44b3af30fbae",
-    "Title": "What to do before, during, and after hybrid meetings in Microsoft Teams",
+    "Title": "Meetings in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/6d4f1c922-e4c7-4040-916f-b220e93cfa6b?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -10055,7 +10055,7 @@
   },
   {
     "Id": "d14c1dfb-42fe-4b97-8e40-24b68eb61814",
-    "Title": "Tips for better meetings",
+    "Title": "Tips for setting up large meetings and events in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/d7c946a8-d327-4255-b202-6ce807c0875c?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -10077,7 +10077,7 @@
   },
   {
     "Id": "d5e2099d-6696-474b-b358-bd5ccb5e0657",
-    "Title": "Plan and respect boundaries in Microsoft Teams",
+    "Title": "First things to know about meetings in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/d5e2099d-6696-474b-b358-bd5ccb5e0657?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -10088,7 +10088,7 @@
   },
   {
     "Id": "d868fd47-9aeb-46c2-b86c-8f02c89eac60",
-    "Title": "Hybrid meeting space considerations in Microsoft Teams",
+    "Title": "Tips for presenting in large meetings and events in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/6a526e5a-b036-42a9-b9fe-8131efd75390?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -10110,7 +10110,7 @@
   },
   {
     "Id": "e67f90ca-657b-4fc7-8382-6bb6e87f3b4b",
-    "Title": "Learn about hybrid meetings in Microsoft Teams",
+    "Title": "First things to know about meetings in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/f06cae00-dcb3-466f-ba51-d6f80bdd25a5?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -10187,7 +10187,7 @@
   },
   {
     "Id": "f7b18d2f-e5d1-44da-8d34-ec941041fb8b",
-    "Title": "Follow-ups",
+    "Title": "Collaborate with others",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/de33680b-bcb2-4714-8811-7e3e6c00dd8b?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -10561,7 +10561,7 @@
   },
   {
     "Id": "6ce4ac5a-3f81-4b2b-8519-efe3cdc6dbf5",
-    "Title": "Add an image or banner with Copilot in Word",
+    "Title": "Generate images for your documents with Copilot in Word",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/6ce4ac5a-3f81-4b2b-8519-efe3cdc6dbf5?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -10583,7 +10583,7 @@
   },
   {
     "Id": "923d9763-f896-4da7-8a3f-5b12c3bfc475",
-    "Title": "Elevate your content with Copilot in Word",
+    "Title": "Rewrite text with Copilot in Word",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/923d9763-f896-4da7-8a3f-5b12c3bfc475?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -10649,7 +10649,7 @@
   },
   {
     "Id": "d70b140b-bb3f-46b7-be64-ceec526a8dcd",
-    "Title": "Elevate your presentation game with Copilot's text rewrite feature in PowerPoint",
+    "Title": "Rewrite text with Copilot in PowerPoint",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/d70b140b-bb3f-46b7-be64-ceec526a8dcd?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -11034,7 +11034,7 @@
   },
   {
     "Id": "966eb1a2-b5ec-4532-8a9d-f1aaeda7f90e",
-    "Title": "Draft and add content with Copilot in Loop",
+    "Title": "Frequently asked questions about Copilot in Loop",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/966eb1a2-b5ec-4532-8a9d-f1aaeda7f90e?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -11045,7 +11045,7 @@
   },
   {
     "Id": "b5baf628-c39c-44e8-8b2f-d67bf23f9af6",
-    "Title": "Do more with your page content with Copilot in Loop",
+    "Title": "Frequently asked questions about Copilot in Loop",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/b5baf628-c39c-44e8-8b2f-d67bf23f9af6?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -11067,7 +11067,7 @@
   },
   {
     "Id": "5e2c071f-c734-4798-a7a5-2c9d8fa648d1",
-    "Title": "Summarize a page with Copilot in Loop",
+    "Title": "Frequently asked questions about Copilot in Loop",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/5e2c071f-c734-4798-a7a5-2c9d8fa648d1?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -11210,7 +11210,7 @@
   },
   {
     "Id": "1ec20ffb-5f02-43f3-bafb-6b0e99f42a4c",
-    "Title": "Create pages with Copilot in SharePoint",
+    "Title": "Create pages with AI in SharePoint",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/1ec20ffb-5f02-43f3-bafb-6b0e99f42a4c?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -11221,7 +11221,7 @@
   },
   {
     "Id": "afc720be-666b-4d87-801e-b8ff62f309bb",
-    "Title": "Write with Copilot in SharePoint rich text editor",
+    "Title": "Write with AI in SharePoint rich text editor",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/afc720be-666b-4d87-801e-b8ff62f309bb?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
