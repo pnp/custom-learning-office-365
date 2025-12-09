@@ -6,7 +6,7 @@ const LOG_SOURCE = "translateAssets.js";
 
 // Define the paths for source and output files
 const manifestPath = 'docs/learningpathways/v4/manifest.json';
-const sourcePath = 'docs/learningpathways/v4/en-us/assets.json';
+const sourcePath = 'docs/learningpathways/v4/en-us/assets.json'; 
 const outputPath = 'docs/learningpathways/v4/xx-xx/assets.json';
 
 let assetLangs = [];
