@@ -21,9 +21,9 @@ async function main() {
     assetLangs = await getSupportedLanguages(manifestPath);
     
     if (assetLangs.length > 0 && Array.isArray(assetLangs)) {
-        assetLangs.forEach(lang => {
+        assetLangs.forEach(async lang => {
           console.log(`${LOG_SOURCE} - Starting update of  ${lang}`);
-          getAssets(lang);
+          await getAssets(lang);
           console.log(`${LOG_SOURCE} - Ending update of  ${lang}`);
         });
     }
