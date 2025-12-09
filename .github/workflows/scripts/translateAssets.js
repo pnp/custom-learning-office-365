@@ -18,7 +18,7 @@ const sourceData = JSON.parse(fs.readFileSync(sourcePath, 'utf8'));
 async function main() {
   try {
     //Get the supported languages from the manifest file
-    assetLangs = await getSupportedLanguages(manifestPath);
+    assetLangs = ['en-us','de-de'] //await getSupportedLanguages(manifestPath);
     
     if (assetLangs.length > 0 && Array.isArray(assetLangs)) {
         assetLangs.forEach(async lang => {
