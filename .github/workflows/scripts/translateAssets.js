@@ -1,5 +1,6 @@
 
 const axios = require('axios');
+const fs = require('fs');
 const LOG_SOURCE = "translateAssets.js";
 
 // Define the paths for source and output files

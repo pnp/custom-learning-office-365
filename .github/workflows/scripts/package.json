@@ -8,9 +8,9 @@
   },
   "dependencies": {
     "axios": "^1.7.9",
-    "cheerio": "^1.0.0"
+    "cheerio": "^1.0.0",
+    "fs": "^0.0.1-security"
   },
-  "devDependencies": {},
   "keywords": [
     "translation",
     "learning-pathways"
