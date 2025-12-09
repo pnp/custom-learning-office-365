@@ -23,7 +23,7 @@ jobs:
           clean: true
       - uses: actions/setup-node@v4
         with:
-          node-version: 24
+          node-version: 22
           cache: 'npm'
           cache-dependency-path: '.github/workflows/scripts/package-lock.json'
       - name: Install dependencies
