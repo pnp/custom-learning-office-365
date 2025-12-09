@@ -1,8 +1,10 @@
 const axios = require('axios');
+const fs = require('fs');
+const path = require('path');
 const LOG_SOURCE = "apiCall.js";
 
 /**
- * Main function to make API calls
+ * Main function to make API calls and update files
  */
 async function main() {
   try {
@@ -13,9 +15,19 @@ async function main() {
     
     console.log(`${LOG_SOURCE} - API call successful`);
     console.log(`${LOG_SOURCE} - Status: ${response.status}`);
-    console.log(`${LOG_SOURCE} - Response data:`, JSON.stringify(response.data, null, 2));
     
-    // You can add more API calls or logic here
+    // Example: Update a file with the API response
+    const outputPath = path.join(__dirname, '../../../docs/api-response.json');
+    const dataToWrite = {
+      timestamp: new Date().toISOString(),
+      status: response.status,
+      data: response.data
+    };
+    
+    fs.writeFileSync(outputPath, JSON.stringify(dataToWrite, null, 2), 'utf8');
+    console.log(`${LOG_SOURCE} - File updated: ${outputPath}`);
+    
+    // You can add more API calls or file updates here
     
   } catch (err) {
     console.error(`${LOG_SOURCE} - Error: ${err.message}`);

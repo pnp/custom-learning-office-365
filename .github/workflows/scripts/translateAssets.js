@@ -20,25 +20,13 @@ async function main() {
     //Get the supported languages from the manifest file
     assetLangs = await getSupportedLanguages(manifestPath);
     
-    
-    console.log(`${LOG_SOURCE} - ${assetLangs}Starting API call...`);
-    
-   if (assetLangs.length > 0 && Array.isArray(assetLangs)) {
+    if (assetLangs.length > 0 && Array.isArray(assetLangs)) {
         assetLangs.forEach(lang => {
+          console.log(`${LOG_SOURCE} - Starting update of  ${lang}`);
           getAssets(lang);
+          console.log(`${LOG_SOURCE} - Ending update of  ${lang}`);
         });
     }
-      
-    
-    // Example API call to GitHub API
-    const response = await axios.get('https://api.github.com');
-    
-    console.log(`${LOG_SOURCE} - API call successful`);
-    console.log(`${LOG_SOURCE} - Status: ${response.status}`);
-    console.log(`${LOG_SOURCE} - Response data:`, JSON.stringify(response.data, null, 2));
-    
-    // You can add more API calls or logic here
-    
   } catch (err) {
     console.error(`${LOG_SOURCE} - Error: ${err.message}`);
     if (err.response) {
@@ -75,19 +63,27 @@ async function getAssets(languageCode) {
         if (entry.Url.toLowerCase().includes('en-us')) {
           entry.Url = entry.Url.replace('en-us', languageCode.toLowerCase());
         }
-      const h1Text = await fetchH1(entry.Url);
-      if (h1Text && !h1Text.startsWith('Sorry')) {
-        entry.Title = h1Text;
-        console.log(`Updated Title for ${entry.Id}: ${h1Text}`);
-      }else{
-        entry.StatusTagId = '4eb25076-b5d0-41cb-afa6-4e0c5a1c9664'
-      }
+        const h1Text = await fetchH1(entry.Url);
+        if (h1Text) {
+          if (!h1Text.startsWith('Sorry') && h1Text != entry.Title) {
+            entry.Title = h1Text;
+            console.log(`Updated Title for ${languageCode} - ${entry.Id}: ${h1Text}`);
+          }else if (!h1Text.startsWith('Sorry') && h1Text === entry.Title) {
+            console.log(`No change needed for for ${languageCode} - ${entry.Id}: ${h1Text}`);
+          }else if (h1Text.startsWith('Sorry')) {
+            entry.StatusTagId = '4eb25076-b5d0-41cb-afa6-4e0c5a1c9664'
+            console.log(`Deprecated Title for ${languageCode} - ${entry.Id}: ${h1Text}`);
+          }
+        } else {
+          console.log(`Asset missing for ${languageCode} - ${entry.Id}: ${h1Text}`);
+        }
     }
   }
   } catch (err) {
     return `Error processing languages: ${err.message}`;
   }
   fs.writeFileSync(outputPath.replace('xx-xx', languageCode.toLowerCase()), JSON.stringify(retVal, null, 2), 'utf8');
+  console.log(`Updated ${languageCode} to file ${outputPath.replace('xx-xx', languageCode.toLowerCase())}`);
   return retVal;
 }
 

@@ -33,3 +33,18 @@ jobs:
       
       - name: Run API script
         run: node .github/workflows/scripts/apiCall.js
+      
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      
+      - name: Commit and push changes
+        run: |
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Updated files via API script"
+            git push
+          fi
