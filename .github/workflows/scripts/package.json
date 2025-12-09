@@ -1,0 +1,20 @@
+{
+  "name": "translate-assets",
+  "version": "1.0.0",
+  "description": "Script to translate learning pathway assets",
+  "main": "translateAssets.js",
+  "scripts": {
+    "start": "node translateAssets.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "translation",
+    "learning-pathways"
+  ],
+  "author": "",
+  "license": "ISC"
+}
