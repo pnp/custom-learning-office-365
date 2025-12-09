@@ -2,6 +2,14 @@
 const axios = require('axios');
 const LOG_SOURCE = "translateAssets.js";
 
+// Define the paths for source and output files
+const manifestPath = 'docs/learningpathways/v4/manifest.json';
+const sourcePath = 'docs/learningpathways/v4/en-us/assets.json';
+const outputPath = 'docs/learningpathways/v4/xx-xx/assets.json';
+
+let assetLangs = [];
+const sourceData = JSON.parse(fs.readFileSync(sourcePath, 'utf8'));
+
 /**
  * Main function to make API calls
  */
@@ -30,6 +38,8 @@ async function main() {
 
 // Run the main function
 main();
+
+
 // let { default: fs } = await import('fs');
 // let { default: axios } = await import('axios');
 // app.use('axios', require("axios"));
@@ -37,9 +47,7 @@ main();
 // let {default: express} = await import('express');
 // const app = express();
 
-// const manifestPath = 'docs/learningpathways/v4/manifest.json';
-// const sourcePath = 'docs/learningpathways/v4/en-us/assets.json';
-// const outputPath = 'docs/learningpathways/v4/xx-xx/assets.json';
+
 
 // let assetLangs = [];
 
