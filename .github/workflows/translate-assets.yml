@@ -32,8 +32,16 @@ jobs:
         run: npm ci
       - name: Run translation script
         run: node .github/workflows/scripts/translateAssets.js
-      - name: Commit changes
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Commit and push changes
         run: |
           git add -A
-          git commit -m "Updated localized asset titles"
-          git push
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Updated localized asset titles"
+            git push
+          fi
