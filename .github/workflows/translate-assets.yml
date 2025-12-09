@@ -21,17 +21,15 @@ jobs:
         uses: actions/checkout@v4
         with:
           clean: true
-      - uses: actions/setup-node@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: 'npm'
           cache-dependency-path: '.github/workflows/scripts/package-lock.json'
       - name: Install dependencies
-        run: |
-              sudo npm ci
-      - name: Install Additional dependencies
-        run: |
-              sudo npm install axios --global
+        working-directory: .github/workflows/scripts
+        run: npm ci
       - name: Run translation script
         run: node .github/workflows/scripts/translateAssets.js
       - name: Commit changes
