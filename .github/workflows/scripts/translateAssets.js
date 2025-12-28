@@ -68,7 +68,9 @@ async function getAssets(languageCode, source) {
           //   console.log(`Change URL from en-us to ${languageCode} - ${asset.Id}: ${asset.Title}`);
           //   asset.Url = asset.Url.replace('en-us', languageCode.toLowerCase());
           // }
+          console.log(`Start get H1 of ${languageCode} - ${asset.Id}: ${asset.Title}`);
           const h1Text = await fetchH1(asset.Url);
+          console.log(`End get H1 of ${languageCode} - ${asset.Id}: ${h1Text}`);
           if (h1Text) {
             if (!h1Text.startsWith('Sorry') && h1Text != asset.Title) {
               asset.Title = h1Text;
