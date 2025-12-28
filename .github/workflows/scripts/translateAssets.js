@@ -103,7 +103,9 @@ async function fetchH1(url) {
   try {
     console.log(`Start get H1 of ${url}`);
     const response = await axios.get(url);
+    console.log(`Response ${response}`);
     const $ = cheerio.load(response.data);
+    console.log(`Response ${$}`);
     console.log(`End get H1 of ${url}`);
     return $('h1').first().text();
   } catch (err) {
