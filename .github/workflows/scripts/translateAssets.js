@@ -10,6 +10,7 @@ const sourcePath = 'docs/learningpathways/v4/en-us/assets.json';
 const outputPath = 'docs/learningpathways/v4/xx-xx/assets.json';
 
 let assetLangs = [];
+let depricatedAssets = [];
 let sourceData = JSON.parse(fs.readFileSync(sourcePath, 'utf8'));
 
 /**
@@ -25,6 +26,7 @@ async function main() {
       console.log(`${LOG_SOURCE} - Starting update of  ${lang}`);
       await getAssets(lang,sourceData);
       console.log(`${LOG_SOURCE} - Ending update of  ${lang}`);
+      console.log(`${LOG_SOURCE} - Depricated assets to check ${depricatedAssets}`);
     }
   } catch (err) {
     console.error(`${LOG_SOURCE} - Error: ${err.message}`);
@@ -69,10 +71,12 @@ async function getAssets(languageCode, source) {
           console.log(`Updated Title for ${languageCode} - ${asset.Id}: from ${asset.Title} to ${h1Text}`);
         }else if ((h1Text.startsWith('Sorry')) || (h1Text.startsWith('This article has been retired'))) {
           asset.StatusTagId = '4eb25076-b5d0-41cb-afa6-4e0c5a1c9664'
+          depricatedAssets.push(asset);
           console.log(`Deprecated Title for ${languageCode} - ${asset.Id}: ${h1Text}`);
         }
       } else {
           asset.StatusTagId = '4eb25076-b5d0-41cb-afa6-4e0c5a1c9664'
+          depricatedAssets.push(asset);
           console.log(`Asset missing for ${languageCode} - ${asset.Id}: ${h1Text}`);
       }
       retVal.push(asset);
