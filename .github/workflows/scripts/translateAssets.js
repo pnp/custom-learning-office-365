@@ -56,8 +56,10 @@ async function getSupportedLanguages(manifestPath) {
 async function getAssets(languageCode, source) {
   const retVal = [];
   try {
+    console.log(`source - ${source.length}`);
     for (let i = 0; i < source.length-1; i++) {
       const asset = source[i];
+      console.log(`i - ${i}`);
       //console.log(`Start Update of ${languageCode} - ${asset.Id}: ${asset.Title}`);
       if (languageCode.toLowerCase() === 'en-us') {
         asset.Url = asset.Url.replace('en-us',languageCode.toLowerCase() );
