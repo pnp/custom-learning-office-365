@@ -26,8 +26,9 @@ async function main() {
       console.log(`${LOG_SOURCE} - Starting update of  ${lang}`);
       await getAssets(lang,sourceData);
       console.log(`${LOG_SOURCE} - Ending update of  ${lang}`);
-      console.log(`${LOG_SOURCE} - Depricated assets to check ${depricatedAssets}`);
+      console.log(`------------------------------------------------------------------------------------------------------------`);
     }
+    console.log(`${LOG_SOURCE} - Depricated assets to check ${depricatedAssets}`);
   } catch (err) {
     console.error(`${LOG_SOURCE} - Error: ${err.message}`);
     if (err.response) {
