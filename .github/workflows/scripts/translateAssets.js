@@ -72,7 +72,7 @@ async function getAssets(languageCode, source) {
             if (!h1Text.startsWith('Sorry') && h1Text != asset.Title) {
               asset.Title = h1Text;
               console.log(`Updated Title for ${languageCode} - ${asset.Id}: ${h1Text}`);
-            }else if (!h1Text.startsWith('Sorry') && h1Text === entry.Title) {
+            }else if (!h1Text.startsWith('Sorry') && h1Text === asset.Title) {
               //console.log(`No change needed for for ${languageCode} - ${entry.Id}: ${h1Text}`);
             }else if (h1Text.startsWith('Sorry')) {
               asset.StatusTagId = '4eb25076-b5d0-41cb-afa6-4e0c5a1c9664'
@@ -114,7 +114,7 @@ async function getAssets(languageCode, source) {
     return `Error processing languages: ${err.message}`;
   }
   
-  if (entry.Url.toLowerCase().includes('en-us')) {
+  if (asset.Url.toLowerCase().includes('en-us')) {
     source = retVal;
   }
   fs.writeFileSync(outputPath.replace('xx-xx', languageCode.toLowerCase()), JSON.stringify(retVal, null, 2), 'utf8');
