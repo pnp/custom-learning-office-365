@@ -61,30 +61,52 @@ async function getSupportedLanguages(manifestPath) {
 async function getAssets(languageCode, source) {
   const retVal = [];
   try {
-    const entry = source.cloneDeep();
-    //for (const entry of source) {
-      if (entry.Title && entry.Url) {
-        // Check if the Url contains 'en-us' (case-insensitive)
-        if (entry.Url.toLowerCase().includes('en-us')) {
-          entry.Url = entry.Url.replace('en-us', languageCode.toLowerCase());
-        }
-        const h1Text = await fetchH1(entry.Url);
-        if (h1Text) {
-          if (!h1Text.startsWith('Sorry') && h1Text != entry.Title) {
-            entry.Title = h1Text;
-            console.log(`Updated Title for ${languageCode} - ${entry.Id}: ${h1Text}`);
-          }else if (!h1Text.startsWith('Sorry') && h1Text === entry.Title) {
-            //console.log(`No change needed for for ${languageCode} - ${entry.Id}: ${h1Text}`);
-          }else if (h1Text.startsWith('Sorry')) {
-            entry.StatusTagId = '4eb25076-b5d0-41cb-afa6-4e0c5a1c9664'
-            console.log(`Deprecated Title for ${languageCode} - ${entry.Id}: ${h1Text}`);
+    source.forEach(async asset => {
+         if (asset.Title && asset.Url) {
+          // Check if the Url contains 'en-us' (case-insensitive)
+          if (asset.Url.toLowerCase().includes('en-us')) {
+            asset.Url = asset.Url.replace('en-us', languageCode.toLowerCase());
           }
-        } else {
-          console.log(`Asset missing for ${languageCode} - ${entry.Id}: ${h1Text}`);
-        }
-    //  }
-      retVal.push(entry);
-  }
+          const h1Text = await fetchH1(asset.Url);
+          if (h1Text) {
+            if (!h1Text.startsWith('Sorry') && h1Text != asset.Title) {
+              asset.Title = h1Text;
+              console.log(`Updated Title for ${languageCode} - ${asset.Id}: ${h1Text}`);
+            }else if (!h1Text.startsWith('Sorry') && h1Text === asset.Title) {
+              //console.log(`No change needed for for ${languageCode} - ${entry.Id}: ${h1Text}`);
+            }else if (h1Text.startsWith('Sorry')) {
+              asset.StatusTagId = '4eb25076-b5d0-41cb-afa6-4e0c5a1c9664'
+              console.log(`Deprecated Title for ${languageCode} - ${asset.Id}: ${h1Text}`);
+            }
+          } else {
+            console.log(`Asset missing for ${languageCode} - ${asset.Id}: ${h1Text}`);
+          }
+         }
+         retVal.push(asset);
+      });
+  //   for (const entry of source) {
+  //     if (entry.Title && entry.Url) {
+  //       // Check if the Url contains 'en-us' (case-insensitive)
+  //       if (entry.Url.toLowerCase().includes('en-us')) {
+  //         entry.Url = entry.Url.replace('en-us', languageCode.toLowerCase());
+  //       }
+  //       const h1Text = await fetchH1(entry.Url);
+  //       if (h1Text) {
+  //         if (!h1Text.startsWith('Sorry') && h1Text != entry.Title) {
+  //           entry.Title = h1Text;
+  //           console.log(`Updated Title for ${languageCode} - ${entry.Id}: ${h1Text}`);
+  //         }else if (!h1Text.startsWith('Sorry') && h1Text === entry.Title) {
+  //           //console.log(`No change needed for for ${languageCode} - ${entry.Id}: ${h1Text}`);
+  //         }else if (h1Text.startsWith('Sorry')) {
+  //           entry.StatusTagId = '4eb25076-b5d0-41cb-afa6-4e0c5a1c9664'
+  //           console.log(`Deprecated Title for ${languageCode} - ${entry.Id}: ${h1Text}`);
+  //         }
+  //       } else {
+  //         console.log(`Asset missing for ${languageCode} - ${entry.Id}: ${h1Text}`);
+  //       }
+  //     }
+  //     retVal.push(entry);
+  // }
   } catch (err) {
     return `Error processing languages: ${err.message}`;
   }
