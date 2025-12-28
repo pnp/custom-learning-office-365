@@ -20,7 +20,7 @@ async function main() {
     //Get the supported languages from the manifest file
     assetLangs = ['en-us','de-de'] //await getSupportedLanguages(manifestPath);
 
-    for (let i = 0; i < assetLangs.length; i++) {
+    for (let i = 0; i < assetLangs.length-1; i++) {
       const lang = assetLangs[i];
       console.log(`${LOG_SOURCE} - Starting update of  ${lang}`);
       await getAssets(lang,sourceData);
@@ -56,9 +56,9 @@ async function getSupportedLanguages(manifestPath) {
 async function getAssets(languageCode, source) {
   const retVal = [];
   try {
-    for (let i = 0; i < source.length; i++) {
+    for (let i = 0; i < source.length-1; i++) {
       const asset = source[i];
-      console.log(`Start Update of ${languageCode} - ${asset.Id}: ${asset.Title}`);
+      //console.log(`Start Update of ${languageCode} - ${asset.Id}: ${asset.Title}`);
       if (languageCode.toLowerCase() === 'en-us') {
         asset.Url = asset.Url.replace('en-us',languageCode.toLowerCase() );
       }
@@ -77,7 +77,7 @@ async function getAssets(languageCode, source) {
           console.log(`Asset missing for ${languageCode} - ${asset.Id}: ${h1Text}`);
       }
       retVal.push(asset);
-      console.log(`End Update of ${languageCode} - ${asset.Id}: ${asset.Title}`);
+      //console.log(`End Update of ${languageCode} - ${asset.Id}: ${asset.Title}`);
     }
   } catch (err) {
     return `Error processing languages: ${err.message}`;
