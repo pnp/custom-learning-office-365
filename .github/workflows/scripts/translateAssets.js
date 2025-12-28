@@ -62,7 +62,7 @@ async function getAssets(languageCode, source) {
   const retVal = [];
   try {
     const entry = source.cloneDeep();
-    for (const entry of source) {
+    //for (const entry of source) {
       if (entry.Title && entry.Url) {
         // Check if the Url contains 'en-us' (case-insensitive)
         if (entry.Url.toLowerCase().includes('en-us')) {
@@ -82,7 +82,7 @@ async function getAssets(languageCode, source) {
         } else {
           console.log(`Asset missing for ${languageCode} - ${entry.Id}: ${h1Text}`);
         }
-      }
+    //  }
       retVal.push(entry);
   }
   } catch (err) {
