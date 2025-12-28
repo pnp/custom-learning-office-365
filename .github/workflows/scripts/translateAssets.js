@@ -18,11 +18,11 @@ const sourceData = JSON.parse(fs.readFileSync(sourcePath, 'utf8'));
 async function main() {
   try {
     //Get the supported languages from the manifest file
-    assetLangs = ['de-de'] //await getSupportedLanguages(manifestPath);
+    assetLangs = ['en-us','de-de'] //await getSupportedLanguages(manifestPath);
     
-    console.log(`${LOG_SOURCE} - Start update of en-us`);
-    await getAssets('en-us',sourceData);
-    console.log(`${LOG_SOURCE} - End update of en-us`);
+    //console.log(`${LOG_SOURCE} - Start update of en-us`);
+    //await getAssets('en-us',sourceData);
+    //console.log(`${LOG_SOURCE} - End update of en-us`);
     
     if (assetLangs.length > 0 && Array.isArray(assetLangs)) {
         assetLangs.forEach(async lang => {
@@ -99,7 +99,6 @@ async function getAssets(languageCode, source) {
 //Make a call to the page and get the H1 tag that is translated
 async function fetchH1(url) {
   try {
-    console.log(`Start get H1 of ${url}`);
     const response = await axios.get(url);
     const $ = cheerio.load(response.data);
     return $('h1').first().text();
