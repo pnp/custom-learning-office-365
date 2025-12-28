@@ -18,11 +18,11 @@ const sourceData = JSON.parse(fs.readFileSync(sourcePath, 'utf8'));
 async function main() {
   try {
     //Get the supported languages from the manifest file
-    assetLangs = ['de-de'] //await getSupportedLanguages(manifestPath);
+    assetLangs = ['en-us','de-de'] //await getSupportedLanguages(manifestPath);
     
-    console.log(`${LOG_SOURCE} - Start update of en-us`);
-    await getAssets('en-us',sourceData);
-    console.log(`${LOG_SOURCE} - End update of en-us`);
+    //console.log(`${LOG_SOURCE} - Start update of en-us`);
+    //await getAssets('en-us',sourceData);
+    //console.log(`${LOG_SOURCE} - End update of en-us`);
     
     if (assetLangs.length > 0 && Array.isArray(assetLangs)) {
         assetLangs.forEach(async lang => {
@@ -88,6 +88,9 @@ async function getAssets(languageCode, source) {
     return `Error processing languages: ${err.message}`;
   }
   
+  if (entry.Url.toLowerCase().includes('en-us')) {
+    source = retVal;
+  }
   fs.writeFileSync(outputPath.replace('xx-xx', languageCode.toLowerCase()), JSON.stringify(retVal, null, 2), 'utf8');
   console.log(`Updated ${languageCode} to file ${outputPath.replace('xx-xx', languageCode.toLowerCase())}`);
   return retVal;
