@@ -20,8 +20,8 @@ async function main() {
     //Get the supported languages from the manifest file
     assetLangs = ['en-us','de-de'] //await getSupportedLanguages(manifestPath);
 
-    for (let i = 0; i < assetLangs.length-1; i++) {
-      const lang = assetLangs[i];
+    for (let i = 0; i < assetLangs.length; i++) {
+      let lang = assetLangs[i];
       console.log(`${LOG_SOURCE} - Starting update of  ${lang}`);
       await getAssets(lang,sourceData);
       console.log(`${LOG_SOURCE} - Ending update of  ${lang}`);
@@ -57,8 +57,8 @@ async function getAssets(languageCode, source) {
   const retVal = [];
   try {
     console.log(`source - ${source.length}`);
-    for (let i = 0; i < source.length-1; i++) {
-      const asset = source[i];
+    for (let i = 0; i < source.length; i++) {
+      let asset = source[i];
       console.log(`i - ${i}`);
       //console.log(`Start Update of ${languageCode} - ${asset.Id}: ${asset.Title}`);
       if (languageCode.toLowerCase() === 'en-us') {
@@ -68,7 +68,7 @@ async function getAssets(languageCode, source) {
       if (h1Text) {
         if (!h1Text.startsWith('Sorry') && h1Text != asset.Title) {
           asset.Title = h1Text;
-          console.log(`Updated Title for ${languageCode} - ${asset.Id}: ${h1Text}`);
+          console.log(`Updated Title for ${languageCode} - ${asset.Id}: from ${asset.Title} to ${h1Text}`);
         }else if (!h1Text.startsWith('Sorry') && h1Text === asset.Title) {
           //console.log(`No change needed for for ${languageCode} - ${entry.Id}: ${h1Text}`);
         }else if (h1Text.startsWith('Sorry')) {
