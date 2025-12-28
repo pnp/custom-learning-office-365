@@ -61,34 +61,25 @@ async function getSupportedLanguages(manifestPath) {
 async function getAssets(languageCode, source) {
   const retVal = [];
   try {
-    source.forEach(async entry => {
-      const asset = { entry }; // Create a shallow copy of the entry
-        console.log(`Start Update of ${languageCode} - ${asset.Id}: ${asset.Title}`);
-        if (asset.Title && asset.Url) {
-          // if (asset.Url.toLowerCase().includes('en-us')) {
-          //   console.log(`Change URL from en-us to ${languageCode} - ${asset.Id}: ${asset.Title}`);
-          //   asset.Url = asset.Url.replace('en-us', languageCode.toLowerCase());
-          // }
-          console.log(`Start get H1 of ${languageCode} - ${asset.Id}: ${asset.Title}`);
-          const h1Text = await fetchH1(asset.Url);
-          console.log(`End get H1 of ${languageCode} - ${asset.Id}: ${h1Text}`);
-          if (h1Text) {
-            if (!h1Text.startsWith('Sorry') && h1Text != asset.Title) {
-              asset.Title = h1Text;
-              console.log(`Updated Title for ${languageCode} - ${asset.Id}: ${h1Text}`);
-            }else if (!h1Text.startsWith('Sorry') && h1Text === asset.Title) {
-              //console.log(`No change needed for for ${languageCode} - ${entry.Id}: ${h1Text}`);
-            }else if (h1Text.startsWith('Sorry')) {
-              asset.StatusTagId = '4eb25076-b5d0-41cb-afa6-4e0c5a1c9664'
-              console.log(`Deprecated Title for ${languageCode} - ${asset.Id}: ${h1Text}`);
-            }
-          } else {
-            console.log(`Asset missing for ${languageCode} - ${asset.Id}: ${h1Text}`);
-          }
+    for (const asset of source) {
+      console.log(`Start Update of ${languageCode} - ${asset.Id}: ${asset.Title}`);
+      const h1Text = await fetchH1(asset.Url);
+      if (h1Text) {
+        if (!h1Text.startsWith('Sorry') && h1Text != asset.Title) {
+          asset.Title = h1Text;
+          console.log(`Updated Title for ${languageCode} - ${asset.Id}: ${h1Text}`);
+        }else if (!h1Text.startsWith('Sorry') && h1Text === asset.Title) {
+          //console.log(`No change needed for for ${languageCode} - ${entry.Id}: ${h1Text}`);
+        }else if (h1Text.startsWith('Sorry')) {
+          asset.StatusTagId = '4eb25076-b5d0-41cb-afa6-4e0c5a1c9664'
+          console.log(`Deprecated Title for ${languageCode} - ${asset.Id}: ${h1Text}`);
         }
-        retVal.push(asset);
-        console.log(`End Update of ${languageCode} - ${asset.Id}: ${asset.Title}`);
-    });
+      } else {
+          console.log(`Asset missing for ${languageCode} - ${asset.Id}: ${h1Text}`);
+      }
+      retVal.push(asset);
+      console.log(`End Update of ${languageCode} - ${asset.Id}: ${asset.Title}`);
+    }
   } catch (err) {
     return `Error processing languages: ${err.message}`;
   }
