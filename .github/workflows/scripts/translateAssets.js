@@ -65,6 +65,7 @@ async function getAssets(languageCode, source) {
         console.log(`Start Update of ${languageCode} - ${asset.Id}: ${asset.Title}`);
         if (asset.Title && asset.Url) {
           if (asset.Url.toLowerCase().includes('en-us')) {
+            console.log(`Change URL from en-us to ${languageCode} - ${asset.Id}: ${asset.Title}`);
             asset.Url = asset.Url.replace('en-us', languageCode.toLowerCase());
           }
           const h1Text = await fetchH1(asset.Url);
@@ -85,31 +86,6 @@ async function getAssets(languageCode, source) {
         retVal.push(asset);
         console.log(`End Update of ${languageCode} - ${asset.Id}: ${asset.Title}`);
     });
-  //   for (const entry of source) {
-  //     console.log(`Start Update of ${languageCode} - ${entry.Id}: ${entry.Title}`);
-  //     if (entry.Title && entry.Url) {
-  //       // Check if the Url contains 'en-us' (case-insensitive)
-  //       if (entry.Url.toLowerCase().includes('en-us')) {
-  //         entry.Url = entry.Url.replace('en-us', languageCode.toLowerCase());
-  //       }
-  //       const h1Text = await fetchH1(entry.Url);
-  //       if (h1Text) {
-  //         if (!h1Text.startsWith('Sorry') && h1Text != entry.Title) {
-  //           entry.Title = h1Text;
-  //           console.log(`Updated Title for ${languageCode} - ${entry.Id}: ${h1Text}`);
-  //         }else if (!h1Text.startsWith('Sorry') && h1Text === entry.Title) {
-  //           //console.log(`No change needed for for ${languageCode} - ${entry.Id}: ${h1Text}`);
-  //         }else if (h1Text.startsWith('Sorry')) {
-  //           entry.StatusTagId = '4eb25076-b5d0-41cb-afa6-4e0c5a1c9664'
-  //           console.log(`Deprecated Title for ${languageCode} - ${entry.Id}: ${h1Text}`);
-  //         }
-  //       } else {
-  //         console.log(`Asset missing for ${languageCode} - ${entry.Id}: ${h1Text}`);
-  //       }
-  //     }
-  //     retVal.push(entry);
-  //     console.log(`End Update of ${languageCode} - ${entry.Id}: ${entry.Title}`);
-  // }
   } catch (err) {
     return `Error processing languages: ${err.message}`;
   }
@@ -125,8 +101,10 @@ async function getAssets(languageCode, source) {
 //Make a call to the page and get the H1 tag that is translated
 async function fetchH1(url) {
   try {
+    console.log(`Start get H1 of ${url}`);
     const response = await axios.get(url);
     const $ = cheerio.load(response.data);
+    console.log(`End get H1 of ${url}`);
     return $('h1').first().text();
   } catch (err) {
     return `Error fetching H1: ${err.message}`;
