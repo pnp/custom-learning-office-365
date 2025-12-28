@@ -62,29 +62,35 @@ async function getAssets(languageCode, source) {
   const retVal = [];
   try {
     for (let i = 0; i < source.length; i++) {
-      console.log(`Start Update of ${languageCode} - ${source[i].Id}: ${source[i].Title}`);
-      const h1Text = await fetchH1(source[i].Url);
+      const asset = source[i];
+      console.log(`Start Update of ${languageCode} - ${asset.Id}: ${asset.Title}`);
+      if (languageCode.toLowerCase() === 'en-us') {
+        asset.Url = asset.Url.replace('en-us',languageCode.toLowerCase() );
+      }
+      const h1Text = await fetchH1(asset.Url);
       if (h1Text) {
-        if (!h1Text.startsWith('Sorry') && h1Text != source[i].Title) {
-          source[i].Title = h1Text;
-          console.log(`Updated Title for ${languageCode} - ${source[i].Id}: ${h1Text}`);
-        }else if (!h1Text.startsWith('Sorry') && h1Text === source[i].Title) {
+        if (!h1Text.startsWith('Sorry') && h1Text != asset.Title) {
+          asset.Title = h1Text;
+          console.log(`Updated Title for ${languageCode} - ${asset.Id}: ${h1Text}`);
+        }else if (!h1Text.startsWith('Sorry') && h1Text === asset.Title) {
           //console.log(`No change needed for for ${languageCode} - ${entry.Id}: ${h1Text}`);
         }else if (h1Text.startsWith('Sorry')) {
-          source[i].StatusTagId = '4eb25076-b5d0-41cb-afa6-4e0c5a1c9664'
-          console.log(`Deprecated Title for ${languageCode} - ${source[i].Id}: ${h1Text}`);
+          asset.StatusTagId = '4eb25076-b5d0-41cb-afa6-4e0c5a1c9664'
+          console.log(`Deprecated Title for ${languageCode} - ${asset.Id}: ${h1Text}`);
         }
       } else {
-          console.log(`Asset missing for ${languageCode} - ${source[i].Id}: ${h1Text}`);
+          console.log(`Asset missing for ${languageCode} - ${asset.Id}: ${h1Text}`);
       }
-      retVal.push(source[i]);
-      console.log(`End Update of ${languageCode} - ${source[i].Id}: ${source[i].Title}`);
+      retVal.push(asset);
+      console.log(`End Update of ${languageCode} - ${asset.Id}: ${asset.Title}`);
     }
   } catch (err) {
     return `Error processing languages: ${err.message}`;
   }
   
-  
+  if (languageCode.toLowerCase() === 'en-us') {
+    source = retVal;
+  }
   fs.writeFileSync(outputPath.replace('xx-xx', languageCode.toLowerCase()), JSON.stringify(retVal, null, 2), 'utf8');
   console.log(`Updated ${languageCode} to file ${outputPath.replace('xx-xx', languageCode.toLowerCase())}`);
   return retVal;
