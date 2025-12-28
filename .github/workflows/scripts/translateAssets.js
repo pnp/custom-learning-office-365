@@ -56,10 +56,8 @@ async function getSupportedLanguages(manifestPath) {
 async function getAssets(languageCode, source) {
   const retVal = [];
   try {
-    console.log(`source - ${source.length}`);
     for (let i = 0; i < source.length; i++) {
       let asset = source[i];
-      console.log(`i - ${i}`);
       //console.log(`Start Update of ${languageCode} - ${asset.Id}: ${asset.Title}`);
       if (languageCode.toLowerCase() === 'en-us') {
         asset.Url = asset.Url.replace('en-us',languageCode.toLowerCase() );
@@ -69,13 +67,12 @@ async function getAssets(languageCode, source) {
         if (!h1Text.startsWith('Sorry') && h1Text != asset.Title) {
           asset.Title = h1Text;
           console.log(`Updated Title for ${languageCode} - ${asset.Id}: from ${asset.Title} to ${h1Text}`);
-        }else if (!h1Text.startsWith('Sorry') && h1Text === asset.Title) {
-          //console.log(`No change needed for for ${languageCode} - ${entry.Id}: ${h1Text}`);
         }else if (h1Text.startsWith('Sorry')) {
           asset.StatusTagId = '4eb25076-b5d0-41cb-afa6-4e0c5a1c9664'
           console.log(`Deprecated Title for ${languageCode} - ${asset.Id}: ${h1Text}`);
         }
       } else {
+          asset.StatusTagId = '4eb25076-b5d0-41cb-afa6-4e0c5a1c9664'
           console.log(`Asset missing for ${languageCode} - ${asset.Id}: ${h1Text}`);
       }
       retVal.push(asset);
