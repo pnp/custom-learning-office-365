@@ -21,7 +21,7 @@ async function main() {
     assetLangs = ['de-de'] //await getSupportedLanguages(manifestPath);
     
     console.log(`${LOG_SOURCE} - Start update of en-us`);
-    await getAssets(lang,'en-us');
+    await getAssets('en-us',sourceData);
     console.log(`${LOG_SOURCE} - End update of en-us`);
     
     if (assetLangs.length > 0 && Array.isArray(assetLangs)) {
