@@ -61,6 +61,7 @@ async function getSupportedLanguages(manifestPath) {
 async function getAssets(languageCode, source) {
   const retVal = [];
   try {
+    const entry = source.cloneDeep();
     for (const entry of source) {
       if (entry.Title && entry.Url) {
         // Check if the Url contains 'en-us' (case-insensitive)
