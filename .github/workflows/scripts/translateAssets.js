@@ -20,9 +20,9 @@ async function main() {
     //Get the supported languages from the manifest file
     assetLangs = ['en-us','de-de'] //await getSupportedLanguages(manifestPath);
     
-    //console.log(`${LOG_SOURCE} - Start update of en-us`);
-    //await getAssets('en-us',sourceData);
-    //console.log(`${LOG_SOURCE} - End update of en-us`);
+    console.log(`${LOG_SOURCE} - Start update of en-us`);
+    await getAssets('en-us',sourceData);
+    console.log(`${LOG_SOURCE} - End update of en-us`);
     
     if (assetLangs.length > 0 && Array.isArray(assetLangs)) {
         assetLangs.forEach(async lang => {
