@@ -62,6 +62,7 @@ async function getAssets(languageCode, source) {
   const retVal = [];
   try {
     for (const entry of source) {
+      console.log(`Start Update of ${languageCode} - ${entry.Id}: ${entry.Title}`);
       if (entry.Title && entry.Url) {
         // Check if the Url contains 'en-us' (case-insensitive)
         if (entry.Url.toLowerCase().includes('en-us')) {
@@ -83,6 +84,7 @@ async function getAssets(languageCode, source) {
         }
       }
       retVal.push(entry);
+      console.log(`End Update of ${languageCode} - ${entry.Id}: ${entry.Title}`);
   }
   } catch (err) {
     return `Error processing languages: ${err.message}`;
