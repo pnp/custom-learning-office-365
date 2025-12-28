@@ -19,17 +19,12 @@ async function main() {
   try {
     //Get the supported languages from the manifest file
     assetLangs = ['en-us','de-de'] //await getSupportedLanguages(manifestPath);
-    
-    //console.log(`${LOG_SOURCE} - Start update of en-us`);
-    //await getAssets('en-us',sourceData);
-    //console.log(`${LOG_SOURCE} - End update of en-us`);
-    
-    if (assetLangs.length > 0 && Array.isArray(assetLangs)) {
-        assetLangs.forEach(async lang => {
-          console.log(`${LOG_SOURCE} - Starting update of  ${lang}`);
-          await getAssets(lang,sourceData);
-          console.log(`${LOG_SOURCE} - Ending update of  ${lang}`);
-        });
+
+    for (let i = 0; i < assetLangs.length; i++) {
+      const lang = assetLangs[i];
+      console.log(`${LOG_SOURCE} - Starting update of  ${lang}`);
+      await getAssets(lang,sourceData);
+      console.log(`${LOG_SOURCE} - Ending update of  ${lang}`);
     }
   } catch (err) {
     console.error(`${LOG_SOURCE} - Error: ${err.message}`);
@@ -89,7 +84,7 @@ async function getAssets(languageCode, source) {
   }
   
   if (languageCode.toLowerCase() === 'en-us') {
-    source = retVal;
+    sourceData = retVal;
   }
   fs.writeFileSync(outputPath.replace('xx-xx', languageCode.toLowerCase()), JSON.stringify(retVal, null, 2), 'utf8');
   console.log(`Updated ${languageCode} to file ${outputPath.replace('xx-xx', languageCode.toLowerCase())}`);
