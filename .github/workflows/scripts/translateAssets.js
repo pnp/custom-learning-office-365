@@ -10,7 +10,7 @@ const sourcePath = 'docs/learningpathways/v4/en-us/assets.json';
 const outputPath = 'docs/learningpathways/v4/xx-xx/assets.json';
 
 let assetLangs = [];
-const sourceData = JSON.parse(fs.readFileSync(sourcePath, 'utf8'));
+let sourceData = JSON.parse(fs.readFileSync(sourcePath, 'utf8'));
 
 /**
  * Main function to make API calls
