@@ -64,10 +64,10 @@ async function getAssets(languageCode, source) {
       }
       const h1Text = await fetchH1(asset.Url);
       if (h1Text) {
-        if (!h1Text.startsWith('Sorry') && h1Text != asset.Title) {
+        if (((!h1Text.startsWith('Sorry')) && (!h1Text.startsWith('This article has been retired'))) && h1Text != asset.Title) {
           asset.Title = h1Text;
           console.log(`Updated Title for ${languageCode} - ${asset.Id}: from ${asset.Title} to ${h1Text}`);
-        }else if (h1Text.startsWith('Sorry')) {
+        }else if ((h1Text.startsWith('Sorry')) || (h1Text.startsWith('This article has been retired'))) {
           asset.StatusTagId = '4eb25076-b5d0-41cb-afa6-4e0c5a1c9664'
           console.log(`Deprecated Title for ${languageCode} - ${asset.Id}: ${h1Text}`);
         }
