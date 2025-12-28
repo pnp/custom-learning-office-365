@@ -64,10 +64,10 @@ async function getAssets(languageCode, source) {
     source.forEach(async asset => {
         console.log(`Start Update of ${languageCode} - ${asset.Id}: ${asset.Title}`);
         if (asset.Title && asset.Url) {
-          if (asset.Url.toLowerCase().includes('en-us')) {
-            console.log(`Change URL from en-us to ${languageCode} - ${asset.Id}: ${asset.Title}`);
-            asset.Url = asset.Url.replace('en-us', languageCode.toLowerCase());
-          }
+          // if (asset.Url.toLowerCase().includes('en-us')) {
+          //   console.log(`Change URL from en-us to ${languageCode} - ${asset.Id}: ${asset.Title}`);
+          //   asset.Url = asset.Url.replace('en-us', languageCode.toLowerCase());
+          // }
           const h1Text = await fetchH1(asset.Url);
           if (h1Text) {
             if (!h1Text.startsWith('Sorry') && h1Text != asset.Title) {
