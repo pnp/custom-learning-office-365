@@ -8,9 +8,12 @@ env:
   NODE_VERSION: 22.x
 
 on:
-  workflow_dispatch:
-
-
+  push:
+    paths:
+      - 'docs/learningpathways/v4/en-us/assets.json'
+  pull_request:
+    paths:
+      - 'docs/learningpathways/v4/en-us/assets.json'
 
 jobs:
   replace-localization:
@@ -38,6 +41,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
       - name: Commit and push changes
         run: |
+          git pull origin main
           git add -A
           if git diff --staged --quiet; then
             echo "No changes to commit"
