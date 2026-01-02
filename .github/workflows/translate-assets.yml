@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo codebase
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           clean: true
       - name: Setup Node.js
@@ -41,7 +41,7 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
       - name: Create Pull Request
-        uses: actions/create-pull-request@v5
+        uses: peter-evans/create-pull-request@v8
         with:
           commit-message: "Update languages assets based on a change to the English Version"
           title: "[Automated PR] Update languages assets"
