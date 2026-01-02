@@ -40,13 +40,11 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-      - name: Commit and push changes
-        run: |
-          git pull origin main
-          git add -A
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Updated localized asset titles"
-            git push
-          fi
+      - name: Create Pull Request
+        uses: actions/create-pull-request@v5
+        with:
+          commit-message: "Update languages assets based on a change to the English Version"
+          title: "[Automated PR] Update languages assets"
+          body: |
+            This PR was automatically generated to update the localized asset titles based on changes made to the English version of the assets.
+    
