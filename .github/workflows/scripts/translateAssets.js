@@ -19,11 +19,11 @@ let sourceData = JSON.parse(fs.readFileSync(sourcePath, 'utf8'));
 async function main() {
   try {
     //Get the supported languages from the manifest file
-    assetLangs = ['de-de']; //await getSupportedLanguages(manifestPath);
+    assetLangs = await getSupportedLanguages(manifestPath);
 
-    console.log(`${LOG_SOURCE} - Starting update of  en-us`);
-      await getAssets('en-us',sourceData);
-      console.log(`${LOG_SOURCE} - Ending update of  en-us`);
+      //console.log(`${LOG_SOURCE} - Starting update of  en-us`);
+      //await getAssets('en-us',sourceData);
+      //console.log(`${LOG_SOURCE} - Ending update of  en-us`);
 
     for (let i = 0; i < assetLangs.length; i++) {
       let lang = assetLangs[i];
