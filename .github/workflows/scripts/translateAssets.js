@@ -66,7 +66,7 @@ async function getAssets(languageCode, source) {
     for (let i = 0; i < source.length; i++) {
       let asset = source[i];
       //console.log(`Start Update of ${languageCode} - ${asset.Id}: ${asset.Title}`);
-      if (languageCode.toLowerCase() === 'en-us') {
+      if (languageCode.toLowerCase() !== 'en-us') {
         asset.Url = asset.Url.replace('en-us',languageCode.toLowerCase() );
       }
       const h1Text = await fetchH1(asset.Url);
