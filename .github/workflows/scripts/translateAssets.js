@@ -65,27 +65,28 @@ async function getAssets(languageCode, source) {
   try {
     for (let i = 0; i < source.length; i++) {
       let asset = source[i];
-      //console.log(`Start Update of ${languageCode} - ${asset.Id}: ${asset.Title}`);
+      console.log(`Start Update of ${languageCode} - ${asset.Id}: ${asset.Title}`);
       if (languageCode.toLowerCase() !== 'en-us') {
         asset.Url = asset.Url.replace('en-us',languageCode.toLowerCase() );
       }
-      const h1Text = await fetchH1(asset.Url);
-      if (h1Text) {
-        if (((!h1Text.startsWith('Sorry')) && (!h1Text.startsWith('This article has been retired'))) && h1Text != asset.Title) {
-          asset.Title = h1Text;
-          console.log(`Updated Title for ${languageCode} - ${asset.Id}: from ${asset.Title} to ${h1Text}`);
-        }else if ((h1Text.startsWith('Sorry')) || (h1Text.startsWith('This article has been retired'))) {
-          asset.StatusTagId = '4eb25076-b5d0-41cb-afa6-4e0c5a1c9664'
-          //depricatedAssets.push(asset);
-          console.log(`Deprecated Title for ${languageCode} - ${asset.Id}: ${h1Text}`);
-        }
-      } else {
-          asset.StatusTagId = '4eb25076-b5d0-41cb-afa6-4e0c5a1c9664'
-          //depricatedAssets.push(asset);
-          console.log(`Asset missing for ${languageCode} - ${asset.Id}: ${h1Text}`);
-      }
-      retVal.push(asset);
-      //console.log(`End Update of ${languageCode} - ${asset.Id}: ${asset.Title}`);
+      console.log(`Start Update of ${languageCode} - ${asset.Url}`);
+      // const h1Text = await fetchH1(asset.Url);
+      // if (h1Text) {
+      //   if (((!h1Text.startsWith('Sorry')) && (!h1Text.startsWith('This article has been retired'))) && h1Text != asset.Title) {
+      //     asset.Title = h1Text;
+      //     console.log(`Updated Title for ${languageCode} - ${asset.Id}: from ${asset.Title} to ${h1Text}`);
+      //   }else if ((h1Text.startsWith('Sorry')) || (h1Text.startsWith('This article has been retired'))) {
+      //     asset.StatusTagId = '4eb25076-b5d0-41cb-afa6-4e0c5a1c9664'
+      //     //depricatedAssets.push(asset);
+      //     console.log(`Deprecated Title for ${languageCode} - ${asset.Id}: ${h1Text}`);
+      //   }
+      // } else {
+      //     asset.StatusTagId = '4eb25076-b5d0-41cb-afa6-4e0c5a1c9664'
+      //     //depricatedAssets.push(asset);
+      //     console.log(`Asset missing for ${languageCode} - ${asset.Id}: ${h1Text}`);
+      // }
+      // retVal.push(asset);
+      console.log(`End Update of ${languageCode} - ${asset.Id}: ${asset.Title}`);
     }
   } catch (err) {
     return `Error processing languages: ${err.message}`;
@@ -94,7 +95,7 @@ async function getAssets(languageCode, source) {
   if (languageCode.toLowerCase() === 'en-us') {
     sourceData = retVal;
   }
-  fs.writeFileSync(outputPath.replace('xx-xx', languageCode.toLowerCase()), JSON.stringify(retVal, null, 2), 'utf8');
+  //fs.writeFileSync(outputPath.replace('xx-xx', languageCode.toLowerCase()), JSON.stringify(retVal, null, 2), 'utf8');
   console.log(`Updated ${languageCode} to file ${outputPath.replace('xx-xx', languageCode.toLowerCase())}`);
   return retVal;
 }
