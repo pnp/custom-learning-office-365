@@ -27,9 +27,9 @@ async function main() {
 
     for (let i = 0; i < assetLangs.length; i++) {
       let lang = assetLangs[i];
-      console.log(`${LOG_SOURCE} - Starting update of  ${lang}`);
+      console.log(`${LOG_SOURCE} - Starting update of ${lang}`);
       await getAssets(lang,sourceData);
-      console.log(`${LOG_SOURCE} - Ending update of  ${lang}`);
+      console.log(`${LOG_SOURCE} - Ending update of ${lang}`);
       console.log(`------------------------------------------------------------------------------------------------------------`);
     }
     //console.log(`${LOG_SOURCE} - Depricated assets to check ${depricatedAssets}`);
@@ -62,6 +62,7 @@ async function getSupportedLanguages(manifestPath) {
 // Get language assets file
 async function getAssets(languageCode, source) {
   const retVal = [];
+  console.log(`Source length ${source.length}`);
   try {
     for (let i = 0; i < source.length; i++) {
       let asset = source[i];
