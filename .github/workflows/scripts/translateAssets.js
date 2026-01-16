@@ -94,6 +94,7 @@ async function getAssets(languageCode, source) {
   }
   
   if (languageCode.toLowerCase() === 'en-us') {
+    console.log(`Resetting sourceData for ${languageCode}`);
     sourceData = retVal;
   }
   //fs.writeFileSync(outputPath.replace('xx-xx', languageCode.toLowerCase()), JSON.stringify(retVal, null, 2), 'utf8');
