@@ -177,13 +177,13 @@
   },
   {
     "Id": "645cc20d-5c98-4bdb-b559-380c5a27c5e5",
-    "Title": "Loop-onderdelen gebruiken in de webversie van Word",
+    "Title": "Dit artikel is buiten gebruik gesteld",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/645cc20d-5c98-4bdb-b559-380c5a27c5e5?embed=true&themeid=-1",
     "TechnologyId": "",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -881,7 +881,7 @@
   },
   {
     "Id": "22c40436-db14-4863-93c6-aa9a51134edd",
-    "Title": "De weergave aanpassen in een Teams-vergadering",
+    "Title": "Uw vergaderingsweergave aanpassen in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/bc428cc5-9ea2-4be5-87b1-ba434481b964?embed=true&themeid=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -1090,7 +1090,7 @@
   },
   {
     "Id": "3e42e8d8-89e8-4345-a79c-524a815f40ce",
-    "Title": "Video: Tabelcellen samenvoegen en splitsen in Word",
+    "Title": "Tabelcellen samenvoegen en splitsen in Word",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/3e42e8d8-89e8-4345-a79c-524a815f40ce?embed=true&themeid=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -1222,7 +1222,7 @@
   },
   {
     "Id": "500d26ea-1f1f-4b6c-a2b7-a44213fca4ec",
-    "Title": "Maken in Microsoft 365 voor bedrijven",
+    "Title": "Maken in Microsoft 365 voor Bedrijven",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/500d26ea-1f1f-4b6c-a2b7-a44213fca4ec?embed=true&themeid=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -1541,7 +1541,7 @@
   },
   {
     "Id": "84d111d4-cce9-4cef-9240-167dff4b5965",
-    "Title": "Opslaan in Microsoft 365 voor bedrijven",
+    "Title": "Opslaan in Microsoft 365 voor Bedrijven",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/84d111d4-cce9-4cef-9240-167dff4b5965?embed=true&themeid=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -1904,7 +1904,7 @@
   },
   {
     "Id": "bc428cc5-9ea2-4be5-87b1-ba434481b964",
-    "Title": "De weergave aanpassen in een Teams-vergadering",
+    "Title": "Uw vergaderingsweergave aanpassen in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/bc428cc5-9ea2-4be5-87b1-ba434481b964?embed=true&themeid=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -2014,7 +2014,7 @@
   },
   {
     "Id": "c8c64c61-0136-4e47-be9d-263976ce6de5",
-    "Title": "Tips voor betere vergaderingen",
+    "Title": "Eerste dingen die u moet weten over vergaderingen in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/80640ac4-b009-42ea-abcb-660e729e63e5?embed=true&themeid=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -2069,7 +2069,7 @@
   },
   {
     "Id": "dbf2c1f3-dbc5-45a8-9f04-2d9a7e97032f",
-    "Title": "Communiceren of vergaderen met behulp van Teams",
+    "Title": "Een vergadering plannen in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/34dd1c2a-8921-45a5-a22e-60ac515039ce?embed=true&themeid=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -2531,7 +2531,7 @@
   },
   {
     "Id": "61f3fb1a-4717-414c-9a8f-015a5f3ff4cb",
-    "Title": "Voetnoten en eindnoten invoegen",
+    "Title": "Voetnoten en eindnoten invoegen in Word",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/61f3fb1a-4717-414c-9a8f-015a5f3ff4cb?embed=true&themeid=-1",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
@@ -4038,7 +4038,7 @@
   },
   {
     "Id": "9bdaa597-38b8-4d15-948d-8125893ff060",
-    "Title": "Wat is een diamodel?",
+    "Title": "Wat is een diamodel in PowerPoint?",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/b9abb2a0-7aef-4257-a14e-4329c904da54?embed=true&themeid=-1",
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
@@ -4368,7 +4368,7 @@
   },
   {
     "Id": "3b8246e0-cc3c-4ae7-b4e1-4b4b37d27f68",
-    "Title": "Kiezen welke OneDrive-mappen worden gesynchroniseerd met uw computer",
+    "Title": "Kiezen welke OneDrive-mappen u wilt synchroniseren in Windows of macOS",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/3b8246e0-cc3c-4ae7-b4e1-4b4b37d27f68?embed=true&themeId=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
@@ -4412,7 +4412,7 @@
   },
   {
     "Id": "586df57b-fdae-439c-ae5b-71cbe5bb0d4c",
-    "Title": "Bestanden en mappen in OneDrive delen",
+    "Title": "Bestanden en mappen delen in Microsoft OneDrive",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07?embed=true&themeid=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
@@ -4445,7 +4445,7 @@
   },
   {
     "Id": "6b95a532-e655-437b-afef-27bf639f3662",
-    "Title": "Kiezen welke OneDrive-mappen worden gesynchroniseerd met uw computer",
+    "Title": "Kiezen welke OneDrive-mappen u wilt synchroniseren in Windows of macOS",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/6b95a532-e655-437b-afef-27bf639f3662?embed=true&themeId=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
@@ -4456,7 +4456,7 @@
   },
   {
     "Id": "72f26d6c-bf9e-432c-8b96-e3c2437f5b65",
-    "Title": "Bestanden en mappen in OneDrive delen",
+    "Title": "Bestanden en mappen delen in Microsoft OneDrive",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/72f26d6c-bf9e-432c-8b96-e3c2437f5b65?embed=true&themeId=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
@@ -4643,7 +4643,7 @@
   },
   {
     "Id": "19ec0716-957a-46df-8b94-acb32832f0ef",
-    "Title": "Aan de slag met Microsoft 365 Copilot Maken",
+    "Title": "Aan de slag met Maken in Microsoft 365 Copilot",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/08e83f3b-5dbf-4874-9c81-9ae06266163f?embed=true&themeid=-1",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4720,7 +4720,7 @@
   },
   {
     "Id": "47069cbb-0d61-4bf3-82bb-f2c70e63b337",
-    "Title": "Coole dingen in Word voor het web",
+    "Title": "Welkom bij Copilot in Word",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/a2ca6252-01ab-48fa-8c42-0fb1d54969ff?embed=true&themeid=-1",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4753,7 +4753,7 @@
   },
   {
     "Id": "5b424d93-175c-4e36-8331-56af9125a551",
-    "Title": "Video: Animaties en overgangen",
+    "Title": "Video: Animaties en overgangen voor PowerPoint-web",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/07a941fb-b027-4f3e-b514-cd9866723f45?embed=true&themeid=-1",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4803,7 +4803,7 @@
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "4f23fd44-75b2-4e03-8cf7-f69b0abaf629",
     "StatusNote": ""
   },
   {
@@ -6623,7 +6623,7 @@
   },
   {
     "Id": "b33ae7a4-e14b-4e46-9440-94bfed214415",
-    "Title": "Tip: gebruik PowerPoint Live om dia's weer te geven in een vergadering",
+    "Title": "Presenteren vanuit PowerPoint Live in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/ddfc73dd-b957-4f2b-8e42-ce078f51873c?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6689,7 +6689,7 @@
   },
   {
     "Id": "c6d0e61d-a61e-44a6-a972-04f2a8fa4155",
-    "Title": "Teams en Kanalen in Microsoft Teams",
+    "Title": "Gratis versie van Microsoft Teams help",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/c6d0e61d-a61e-44a6-a972-04f2a8fa4155?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -7679,7 +7679,7 @@
   },
   {
     "Id": "01832226-31b5-4568-8806-38c37dcc180e",
-    "Title": "Gegevens filteren in een bereik of tabel",
+    "Title": "Gegevens filteren in een bereik of tabel in Excel",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/01832226-31b5-4568-8806-38c37dcc180e?embed=true&themeid=-1",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
@@ -7789,7 +7789,7 @@
   },
   {
     "Id": "1246bc29-c113-415d-80ba-7fac257beab2",
-    "Title": "De tekst van twee of meer cellen combineren in één cel",
+    "Title": "Tekst uit twee of meer cellen combineren in één cel in Microsoft Excel",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/81ba0946-ce78-42ed-b3c3-21340eb164a6?embed=true&themeid=-1",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
@@ -8493,7 +8493,7 @@
   },
   {
     "Id": "b12e1cc5-e98a-48d0-af9c-41afd3bda3d5",
-    "Title": "Rijen automatisch nummeren",
+    "Title": "Rijen in Excel automatisch nummeren",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/76ce49e3-d8d2-459b-bd85-ee1d3973e6e6?embed=true&themeid=-1",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
@@ -8691,7 +8691,7 @@
   },
   {
     "Id": "fbf3ff68-e9c2-4a2b-8a15-a52ff5729dde",
-    "Title": "AANTAL.ALS, functie",
+    "Title": "De functie AANTAL.ALS gebruiken in Microsoft Excel",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/e0de10c6-f885-4e71-abb4-1f464816df34?embed=true&themeid=-1",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
@@ -8790,7 +8790,7 @@
   },
   {
     "Id": "0ca67c26-f365-47d0-b1fe-f2f670288927",
-    "Title": "Livegebeurtenissen gebruiken om grote doelgroepen te bereiken in Microsoft Teams",
+    "Title": "Eerste dingen die u moet weten over vergaderingen in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/08d4d9df-d1a7-4968-b844-51c9d4aae3c2?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -8812,7 +8812,7 @@
   },
   {
     "Id": "1311f213-f56b-4c15-b496-5ecff888cd66",
-    "Title": "Vergaderingen verminderen of vervangen door asynchrone methoden in Microsoft Teams",
+    "Title": "Eerste dingen die u moet weten over chats in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/1673e0d9-7ab0-40a3-bbdb-9d821146135d?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -8845,7 +8845,7 @@
   },
   {
     "Id": "1a583551-1f93-4d71-bac1-5881d5f8b1e7",
-    "Title": "Inclusieve vergaderomgevingen maken in Microsoft Teams",
+    "Title": "Een vergadering plannen in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/d60b63be-6e28-4cfd-ace3-c7bb91a6a35c?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -8856,7 +8856,7 @@
   },
   {
     "Id": "1a747a9c-dc47-480e-b3d7-1df74cbe2d29",
-    "Title": "Meer informatie over het houden van effectieve vergaderingen met Microsoft 365-apps in Microsoft Teams",
+    "Title": "Tips voor het instellen van grote vergaderingen en gebeurtenissen in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/0525b436-2100-4a76-9756-c9cfe7ced243?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -8977,7 +8977,7 @@
   },
   {
     "Id": "2f1621f6-aace-403f-8394-8d2f0183b96c",
-    "Title": "Vergadermoeheid verminderen in Microsoft Teams",
+    "Title": "Welkom bij Teams-tips van de experts!",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/f44be8a1-1bb4-4d02-8bc3-6bfd83ef3b5b?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -8988,7 +8988,7 @@
   },
   {
     "Id": "34357c34-d8c3-4ac9-970e-320dbc8b599c",
-    "Title": "Een dag uit het leven met Office 365",
+    "Title": "Day in the Life with Office 365",
     "Description": "",
     "Url": "https://docs.microsoft.com/office365/customlearning/dayinthelife?context=context%2Fchromeless&linktarget=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9032,7 +9032,7 @@
   },
   {
     "Id": "3a70afb4-a7b7-4dc4-ab56-e232a988c6ff",
-    "Title": "Controlelijst voor productieve vergaderingen in Microsoft Teams",
+    "Title": "Vergaderingen in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/a3bb25d2-f364-4c3b-baa4-2e2f0a19b104?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9087,7 +9087,7 @@
   },
   {
     "Id": "40ce1d89-995c-4a18-9b7e-7482f8121ece",
-    "Title": "Opslaan in Microsoft 365 voor bedrijven",
+    "Title": "Opslaan in Microsoft 365 voor Bedrijven",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/84d111d4-cce9-4cef-9240-167dff4b5965?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9098,7 +9098,7 @@
   },
   {
     "Id": "47473ffc-75e5-4c71-959d-39c60f25d75e",
-    "Title": "Persoonlijke productiviteit op de hybride werkplek in Microsoft Teams",
+    "Title": "Eerste dingen die u moet weten over vergaderingen in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/47473ffc-75e5-4c71-959d-39c60f25d75e?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9109,7 +9109,7 @@
   },
   {
     "Id": "480fd2ff-1e8a-4091-9100-09c6f5ab76c4",
-    "Title": "Een communicatiecontract maken met uw team in Microsoft Teams",
+    "Title": "Microsoft Teams en e-mail, in harmonie leven",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/480fd2ff-1e8a-4091-9100-09c6f5ab76c4?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9131,7 +9131,7 @@
   },
   {
     "Id": "4a5a9fae-5803-4ce2-9f54-77535f6a6618",
-    "Title": "Empathie opbouwen in verschillende tijdzones in Microsoft Teams",
+    "Title": "Een vergadering plannen in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/b4054899-3acc-4716-8b37-5b95a382b957?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9153,7 +9153,7 @@
   },
   {
     "Id": "4ecdbc37-c34c-40b0-87fb-619e7625d1e2",
-    "Title": "Effectieve vergaderingen plannen in Microsoft Teams",
+    "Title": "Een vergadering plannen in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/f0943ce9-fcb0-4df2-967d-a45473117c0f?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9208,7 +9208,7 @@
   },
   {
     "Id": "54302a7f-833c-4690-902b-1621f45dcb61",
-    "Title": "Opzettelijke vergaderingen plannen en leiden in Microsoft Teams",
+    "Title": "Tips voor het maken van grote vergaderingen en gebeurtenissen in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/dbc133fb-a1a7-49e7-a571-25bb6903a7ab?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9252,7 +9252,7 @@
   },
   {
     "Id": "59fce479-241d-45f2-a79c-e7485fd02066",
-    "Title": "Tijdens uw woon-werkverkeer",
+    "Title": "During your Commute",
     "Description": "",
     "Url": "https://docs.microsoft.com/office365/customlearning/ditl_commute?context=context%2Fchromeless&linktarget=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9307,7 +9307,7 @@
   },
   {
     "Id": "5f7689f7-8095-47ed-88ae-a8da2cd873d4",
-    "Title": "Maken in Microsoft 365 voor bedrijven",
+    "Title": "Maken in Microsoft 365 voor Bedrijven",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/500d26ea-1f1f-4b6c-a2b7-a44213fca4ec?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9351,7 +9351,7 @@
   },
   {
     "Id": "699cf41d-7bb1-497e-82c8-067650637d2e",
-    "Title": "Neem pauzes en plan persoonlijke tijd in Microsoft Teams",
+    "Title": "Uw agenda beheren in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/699cf41d-7bb1-497e-82c8-067650637d2e?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9362,7 +9362,7 @@
   },
   {
     "Id": "69b2a175-28e4-4d06-96cf-7bca2e8351f5",
-    "Title": "Productiviteit op de hybride werkplek in Microsoft Teams",
+    "Title": "Eerste dingen die u moet weten over vergaderingen in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/69b2a175-28e4-4d06-96cf-7bca2e8351f5?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9384,7 +9384,7 @@
   },
   {
     "Id": "6f739c5e-bb13-4ce9-9301-abf4a9cac9e2",
-    "Title": "Vergadering op kantoor",
+    "Title": "Meeting at the Office",
     "Description": "",
     "Url": "https://docs.microsoft.com/office365/customlearning/ditl_meeting?context=context%2Fchromeless&linktarget=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9450,7 +9450,7 @@
   },
   {
     "Id": "7f1a4746-bfa5-49d3-8686-3b59dc3391b9",
-    "Title": "Vergaderingen en gerelateerde inhoud toegankelijk maken voor iedereen in Microsoft Teams",
+    "Title": "Eerste dingen die u moet weten over vergaderingen in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/71952c46-8843-468e-9e44-27fa82d0361a?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9461,7 +9461,7 @@
   },
   {
     "Id": "7f5ff126-4f76-4628-90ec-4ed1e88ef365",
-    "Title": "Bestanden en mappen in OneDrive delen",
+    "Title": "Bestanden en mappen delen in Microsoft OneDrive",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9472,7 +9472,7 @@
   },
   {
     "Id": "80640ac4-b009-42ea-abcb-660e729e63e5",
-    "Title": "Tips voor betere vergaderingen",
+    "Title": "Eerste dingen die u moet weten over vergaderingen in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/80640ac4-b009-42ea-abcb-660e729e63e5?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9483,7 +9483,7 @@
   },
   {
     "Id": "8b6e7a53-d2a9-49bc-98a8-74b82c95dd07",
-    "Title": "Verbonden blijven op de hybride werkplek in Microsoft Teams",
+    "Title": "Eerste dingen die u moet weten over vergaderingen in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/8b6e7a53-d2a9-49bc-98a8-74b82c95dd07?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9516,7 +9516,7 @@
   },
   {
     "Id": "8fcf1237-4ba5-46b2-a3cb-19d9d526b409",
-    "Title": "Afleidingen beperken in vergaderingen in Microsoft Teams",
+    "Title": "Meldingen beheren in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/a56da772-46fc-4331-b84d-e5327be5dbe8?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9527,7 +9527,7 @@
   },
   {
     "Id": "919b4bd2-6c85-4792-bf60-57258cabe71d",
-    "Title": "Vergaderingen beheren",
+    "Title": "Eerste dingen die u moet weten over vergaderingen in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/69aefc02-b58c-4066-811c-d1b71dd2c552?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9571,7 +9571,7 @@
   },
   {
     "Id": "9655a0e0-34f0-4805-8221-420ae713e0d0",
-    "Title": "Samenwerken met collega's",
+    "Title": "Collaborating with Colleagues",
     "Description": "",
     "Url": "https://docs.microsoft.com/office365/customlearning/ditl_collab?context=context%2Fchromeless&linktarget=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9648,7 +9648,7 @@
   },
   {
     "Id": "a6ff7745-0ab0-470f-8d77-5302cd94ebeb",
-    "Title": "Inleiding tot welzijn op de hybride werkplek in Microsoft Teams",
+    "Title": "Welkom bij Teams-tips van de experts!",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/a6ff7745-0ab0-470f-8d77-5302cd94ebeb?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9659,7 +9659,7 @@
   },
   {
     "Id": "a76fef68-d80d-4e30-88e6-9c85d6e4795a",
-    "Title": "Deelnemen aan een Teams-vergadering",
+    "Title": "Deelnemen aan een vergadering in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/b6caa0d4-eecb-4aa0-bc75-c05f4cd907b2?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9769,7 +9769,7 @@
   },
   {
     "Id": "b1d3baac-83e4-4d1a-8f8c-bb5e02409a37",
-    "Title": "Verbinding maken binnen het bedrijf",
+    "Title": "Connecting Across the Company",
     "Description": "",
     "Url": "https://docs.microsoft.com/office365/customlearning/ditl_connect?context=context%2Fchromeless&linktarget=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9912,7 +9912,7 @@
   },
   {
     "Id": "c570f04f-08d9-4a37-b59d-8c92b47c26b9",
-    "Title": "Engage uw publiek in hybride vergaderingen in Microsoft Teams",
+    "Title": "Tips voor presenteren in grote vergaderingen en gebeurtenissen in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/f54304a3-a908-4829-9974-3b217e7307b0?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9934,7 +9934,7 @@
   },
   {
     "Id": "c7fa8661-7524-43bf-9f6f-2cd5ac42a73a",
-    "Title": "Samenwerken en samenwerken aan gedeelde inhoud in Microsoft Teams",
+    "Title": "Samenwerken aan bestanden in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/48183b44-c9a6-4beb-b5b7-44c310550ae9?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -10000,7 +10000,7 @@
   },
   {
     "Id": "cbacc0cb-73c3-4f95-b3f5-44b3af30fbae",
-    "Title": "Wat u moet doen voor, tijdens en na hybride vergaderingen in Microsoft Teams",
+    "Title": "Vergaderingen in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/6d4f1c922-e4c7-4040-916f-b220e93cfa6b?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -10055,7 +10055,7 @@
   },
   {
     "Id": "d14c1dfb-42fe-4b97-8e40-24b68eb61814",
-    "Title": "Tips voor betere vergaderingen",
+    "Title": "Tips voor het instellen van grote vergaderingen en gebeurtenissen in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/d7c946a8-d327-4255-b202-6ce807c0875c?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -10077,7 +10077,7 @@
   },
   {
     "Id": "d5e2099d-6696-474b-b358-bd5ccb5e0657",
-    "Title": "Grenzen plannen en respecteren in Microsoft Teams",
+    "Title": "Eerste dingen die u moet weten over vergaderingen in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/d5e2099d-6696-474b-b358-bd5ccb5e0657?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -10088,7 +10088,7 @@
   },
   {
     "Id": "d868fd47-9aeb-46c2-b86c-8f02c89eac60",
-    "Title": "Overwegingen voor hybride vergaderruimten in Microsoft Teams",
+    "Title": "Tips voor presenteren in grote vergaderingen en gebeurtenissen in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/6a526e5a-b036-42a9-b9fe-8131efd75390?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -10110,7 +10110,7 @@
   },
   {
     "Id": "e67f90ca-657b-4fc7-8382-6bb6e87f3b4b",
-    "Title": "Meer informatie over hybride vergaderingen in Microsoft Teams",
+    "Title": "Eerste dingen die u moet weten over vergaderingen in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/f06cae00-dcb3-466f-ba51-d6f80bdd25a5?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -10165,7 +10165,7 @@
   },
   {
     "Id": "f382cfa5-a565-4377-9496-af8f6eb0ebcf",
-    "Title": "Tijdens de ochtendkoffie",
+    "Title": "During Morning Coffee",
     "Description": "",
     "Url": "https://docs.microsoft.com/office365/customlearning/ditl_coffee?context=context%2Fchromeless&linktarget=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -10187,7 +10187,7 @@
   },
   {
     "Id": "f7b18d2f-e5d1-44da-8d34-ec941041fb8b",
-    "Title": "Opvolgingen",
+    "Title": "Samenwerken met andere gebruikers",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/de33680b-bcb2-4714-8811-7e3e6c00dd8b?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -10495,7 +10495,7 @@
   },
   {
     "Id": "24bd7d62-f3c7-47d8-8cce-ee78edc018d4",
-    "Title": "Aan de slag met de Mobiele Microsoft 365 Copilot-app",
+    "Title": "Aan de slag met de mobiele Microsoft 365 Copilot-app",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/24bd7d62-f3c7-47d8-8cce-ee78edc018d4?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -10561,7 +10561,7 @@
   },
   {
     "Id": "6ce4ac5a-3f81-4b2b-8519-efe3cdc6dbf5",
-    "Title": "Een afbeelding of banner toevoegen met Copilot in Word",
+    "Title": "Afbeeldingen genereren voor uw documenten met Copilot in Word",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/6ce4ac5a-3f81-4b2b-8519-efe3cdc6dbf5?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -10583,7 +10583,7 @@
   },
   {
     "Id": "923d9763-f896-4da7-8a3f-5b12c3bfc475",
-    "Title": "Je inhoud uitbreiden met Copilot in Word",
+    "Title": "Tekst herschrijven met Copilot in Word",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/923d9763-f896-4da7-8a3f-5b12c3bfc475?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -10649,7 +10649,7 @@
   },
   {
     "Id": "d70b140b-bb3f-46b7-be64-ceec526a8dcd",
-    "Title": "Uw presentatiespel uitbreiden met de functie voor het herschrijven van tekst van Copilot in PowerPoint",
+    "Title": "Tekst herschrijven met Copilot in PowerPoint",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/d70b140b-bb3f-46b7-be64-ceec526a8dcd?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -10693,7 +10693,7 @@
   },
   {
     "Id": "a207eea3-7a56-4225-88f1-54dd37cdcf6a",
-    "Title": "Deze presentatie organiseren met Copilot in PowerPoint",
+    "Title": "Organize this presentation with Copilot in PowerPoint",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/a207eea3-7a56-4225-88f1-54dd37cdcf6a?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -10825,7 +10825,7 @@
   },
   {
     "Id": "05302e3f-de42-4475-b235-be9cb3d4e936",
-    "Title": "Uw gegevens visualiseren met Copilot in Excel ",
+    "Title": "Uw gegevens visualiseren met Copilot in Excel",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/05302e3f-de42-4475-b235-be9cb3d4e936?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -10847,7 +10847,7 @@
   },
   {
     "Id": "7838fb47-7309-4dac-ba7a-8080cb75ee06",
-    "Title": "Formules begrijpen met Copilot in Excel",
+    "Title": "Formulekolommen begrijpen met Copilot in Excel",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/7838fb47-7309-4dac-ba7a-8080cb75ee06?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -10858,7 +10858,7 @@
   },
   {
     "Id": "364e4ae9-9343-4d56-952a-5f62b0f70db6",
-    "Title": "Een geavanceerde gegevensanalyse ophalen met behulp van Copilot in Excel met Python",
+    "Title": "Geavanceerde gegevensanalyse met behulp van Copilot in Excel App Skills",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/364e4ae9-9343-4d56-952a-5f62b0f70db6?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -10869,7 +10869,7 @@
   },
   {
     "Id": "cecc7821-39c1-4e12-8bd6-4d4348370585",
-    "Title": "Inzichten krijgen op basis van tekstgegevens met Copilot in Excel",
+    "Title": "Inzichten verkrijgen op basis van tekstgegevens met Copilot in Excel",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/cecc7821-39c1-4e12-8bd6-4d4348370585?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -11034,7 +11034,7 @@
   },
   {
     "Id": "966eb1a2-b5ec-4532-8a9d-f1aaeda7f90e",
-    "Title": "Inhoud opstellen en toevoegen met Copilot in Loop",
+    "Title": "Veelgestelde vragen over Copilot in Loop",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/966eb1a2-b5ec-4532-8a9d-f1aaeda7f90e?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -11045,7 +11045,7 @@
   },
   {
     "Id": "b5baf628-c39c-44e8-8b2f-d67bf23f9af6",
-    "Title": "Meer doen met je pagina-inhoud met Copilot in Loop",
+    "Title": "Veelgestelde vragen over Copilot in Loop",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/b5baf628-c39c-44e8-8b2f-d67bf23f9af6?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -11067,7 +11067,7 @@
   },
   {
     "Id": "5e2c071f-c734-4798-a7a5-2c9d8fa648d1",
-    "Title": "Een pagina samenvatten met Copilot in Loop",
+    "Title": "Veelgestelde vragen over Copilot in Loop",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/5e2c071f-c734-4798-a7a5-2c9d8fa648d1?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -11210,7 +11210,7 @@
   },
   {
     "Id": "1ec20ffb-5f02-43f3-bafb-6b0e99f42a4c",
-    "Title": "Pagina's maken met Copilot in SharePoint",
+    "Title": "Pagina's maken met AI in SharePoint",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/1ec20ffb-5f02-43f3-bafb-6b0e99f42a4c?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -11221,7 +11221,7 @@
   },
   {
     "Id": "afc720be-666b-4d87-801e-b8ff62f309bb",
-    "Title": "Schrijven met Copilot in de editor voor tekst met opmaak van SharePoint",
+    "Title": "Schrijven met AI in de teksteditor van SharePoint",
     "Description": "",
     "Url": "https://support.office.com/nl-nl/f1/article/afc720be-666b-4d87-801e-b8ff62f309bb?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -11736,37 +11736,48 @@
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
-{
-  "Id": "52c4ad04-1904-4b45-897a-5829c83c5838",
-  "Title": "Boekingen maken en beheren",
-  "Description": "",
-  "Url": "https://support.office.com/nl-nl/f1/article/6f59454d-6ed1-4733-8825-c9616564565d?embed=true&themeid=-1",
-  "TechnologyId": "",
-  "SubjectId": "",
-  "Source": "Microsoft",
-  "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-  "StatusNote": ""
-},
-{
-  "Id": "1a7d4a94-e573-4637-b37f-22cab6b83192",
-  "Title": "Een boekingsagenda instellen voor een bedrijf of afdeling in Microsoft Teams",
-  "Description": "",
-  "Url": "https://support.office.com/nl-nl/f1/article/d9d4faef-be86-4d2e-acb3-2281236a4a78?embed=true&themeid=-1",
-  "TechnologyId": "",
-  "SubjectId": "",
-  "Source": "Microsoft",
-  "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-  "StatusNote": ""
-},
-{
-  "Id": "f746d1a9-fb04-494d-a82b-c28145c46f17",
-  "Title": "Personeel toevoegen aan uw boekingsagenda in Microsoft Teams",
-  "Description": "",
-  "Url": "https://support.office.com/nl-nl/f1/article/48ef6574-0246-4c44-aadb-ac59180da419?embed=true&themeid=-1",
-  "TechnologyId": "",
-  "SubjectId": "",
-  "Source": "Microsoft",
-  "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-  "StatusNote": ""
-}
+  {
+    "Id": "b72144a1-81b6-47f5-ba49-9c956911ce17",
+    "Title": "Uw reserveringspagina aanpassen",
+    "Description": "",
+    "Url": "https://support.office.com/nl-nl/f1/article/116d7a84-a7a0-4911-a1e9-debb2cca7c43?embed=true&themeid=-1",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusNote": ""
+  },
+  {
+    "Id": "52c4ad04-1904-4b45-897a-5829c83c5838",
+    "Title": "Boekingen maken en beheren",
+    "Description": "",
+    "Url": "https://support.office.com/nl-nl/f1/article/6f59454d-6ed1-4733-8825-c9616564565d?embed=true&themeid=-1",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusNote": ""
+  },
+  {
+    "Id": "1a7d4a94-e573-4637-b37f-22cab6b83192",
+    "Title": "Een boekingsagenda instellen voor een bedrijf of afdeling in Microsoft Teams",
+    "Description": "",
+    "Url": "https://support.office.com/nl-nl/f1/article/d9d4faef-be86-4d2e-acb3-2281236a4a78?embed=true&themeid=-1",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusNote": ""
+  },
+  {
+    "Id": "f746d1a9-fb04-494d-a82b-c28145c46f17",
+    "Title": "Personeel toevoegen aan uw boekingsagenda in Microsoft Teams",
+    "Description": "",
+    "Url": "https://support.office.com/nl-nl/f1/article/48ef6574-0246-4c44-aadb-ac59180da419?embed=true&themeid=-1",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusNote": ""
+  }
 ]
