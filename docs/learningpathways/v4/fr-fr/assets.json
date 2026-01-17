@@ -177,13 +177,13 @@
   },
   {
     "Id": "645cc20d-5c98-4bdb-b559-380c5a27c5e5",
-    "Title": "Utiliser des composants Loop dans Word pour le web",
+    "Title": "Cet article a été mis hors service",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/645cc20d-5c98-4bdb-b559-380c5a27c5e5?embed=true&themeid=-1",
     "TechnologyId": "",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -881,7 +881,7 @@
   },
   {
     "Id": "22c40436-db14-4863-93c6-aa9a51134edd",
-    "Title": "Ajuster votre affichage dans une réunion Teams",
+    "Title": "Personnaliser l’affichage de votre réunion dans Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/bc428cc5-9ea2-4be5-87b1-ba434481b964?embed=true&themeid=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -1090,7 +1090,7 @@
   },
   {
     "Id": "3e42e8d8-89e8-4345-a79c-524a815f40ce",
-    "Title": "Vidéo : Fusionner et fractionner des cellules de tableau dans Word",
+    "Title": "Fusionner et fractionner des cellules de tableau dans Word",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/3e42e8d8-89e8-4345-a79c-524a815f40ce?embed=true&themeid=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -1222,7 +1222,7 @@
   },
   {
     "Id": "500d26ea-1f1f-4b6c-a2b7-a44213fca4ec",
-    "Title": "Créer dans Microsoft 365 entreprise",
+    "Title": "Créer dans Microsoft 365 pour les entreprises",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/500d26ea-1f1f-4b6c-a2b7-a44213fca4ec?embed=true&themeid=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -1541,7 +1541,7 @@
   },
   {
     "Id": "84d111d4-cce9-4cef-9240-167dff4b5965",
-    "Title": "Enregistrer dans Microsoft 365 entreprise",
+    "Title": "Enregistrer dans Microsoft 365 pour les entreprises",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/84d111d4-cce9-4cef-9240-167dff4b5965?embed=true&themeid=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -1904,7 +1904,7 @@
   },
   {
     "Id": "bc428cc5-9ea2-4be5-87b1-ba434481b964",
-    "Title": "Ajuster votre affichage dans une réunion Teams",
+    "Title": "Personnaliser l’affichage de votre réunion dans Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/bc428cc5-9ea2-4be5-87b1-ba434481b964?embed=true&themeid=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -2014,7 +2014,7 @@
   },
   {
     "Id": "c8c64c61-0136-4e47-be9d-263976ce6de5",
-    "Title": "Conseils pour des réunions plus efficaces",
+    "Title": "Premières choses à savoir sur les réunions dans Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/80640ac4-b009-42ea-abcb-660e729e63e5?embed=true&themeid=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -2058,7 +2058,7 @@
   },
   {
     "Id": "d76f6ade-0e4e-48d5-9fc1-17480b7e041e",
-    "Title": "Bienvenue dans le application Microsoft 365 Copilot",
+    "Title": "Bienvenue dans l’application Microsoft 365 Copilot",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/91b69f9c-9410-4eba-8b4f-8dab3efa43d1?embed=true&themeid=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -2069,7 +2069,7 @@
   },
   {
     "Id": "dbf2c1f3-dbc5-45a8-9f04-2d9a7e97032f",
-    "Title": "Communiquez ou démarrez une réunion en utilisant Teams",
+    "Title": "Planifier une réunion dans Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/34dd1c2a-8921-45a5-a22e-60ac515039ce?embed=true&themeid=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -2531,7 +2531,7 @@
   },
   {
     "Id": "61f3fb1a-4717-414c-9a8f-015a5f3ff4cb",
-    "Title": "Insérer des notes de bas de page et des notes de fin",
+    "Title": "Insérer des notes de bas de page et des notes de fin dans Word",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/61f3fb1a-4717-414c-9a8f-015a5f3ff4cb?embed=true&themeid=-1",
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
@@ -4038,7 +4038,7 @@
   },
   {
     "Id": "9bdaa597-38b8-4d15-948d-8125893ff060",
-    "Title": "Qu’est-ce qu’un masque des diapositives ?",
+    "Title": "Qu’est-ce qu’une diapositive master dans PowerPoint ?",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/b9abb2a0-7aef-4257-a14e-4329c904da54?embed=true&themeid=-1",
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
@@ -4368,7 +4368,7 @@
   },
   {
     "Id": "3b8246e0-cc3c-4ae7-b4e1-4b4b37d27f68",
-    "Title": "Sélectionner les dossiers OneDrive à synchroniser avec votre ordinateur",
+    "Title": "Choisir les dossiers OneDrive que vous souhaitez synchroniser sur Windows ou macOS",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/3b8246e0-cc3c-4ae7-b4e1-4b4b37d27f68?embed=true&themeId=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
@@ -4412,7 +4412,7 @@
   },
   {
     "Id": "586df57b-fdae-439c-ae5b-71cbe5bb0d4c",
-    "Title": "Partager des fichiers et des dossiers OneDrive",
+    "Title": "Partager des fichiers et des dossiers dans Microsoft OneDrive",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07?embed=true&themeid=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
@@ -4445,7 +4445,7 @@
   },
   {
     "Id": "6b95a532-e655-437b-afef-27bf639f3662",
-    "Title": "Sélectionner les dossiers OneDrive à synchroniser avec votre ordinateur",
+    "Title": "Choisir les dossiers OneDrive que vous souhaitez synchroniser sur Windows ou macOS",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/6b95a532-e655-437b-afef-27bf639f3662?embed=true&themeId=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
@@ -4456,7 +4456,7 @@
   },
   {
     "Id": "72f26d6c-bf9e-432c-8b96-e3c2437f5b65",
-    "Title": "Partager des fichiers et des dossiers OneDrive",
+    "Title": "Partager des fichiers et des dossiers dans Microsoft OneDrive",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/72f26d6c-bf9e-432c-8b96-e3c2437f5b65?embed=true&themeId=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
@@ -4643,7 +4643,7 @@
   },
   {
     "Id": "19ec0716-957a-46df-8b94-acb32832f0ef",
-    "Title": "Bien démarrer avec Microsoft 365 Copilot Créer",
+    "Title": "Bien démarrer avec Créer dans Microsoft 365 Copilot",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/08e83f3b-5dbf-4874-9c81-9ae06266163f?embed=true&themeid=-1",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4720,7 +4720,7 @@
   },
   {
     "Id": "47069cbb-0d61-4bf3-82bb-f2c70e63b337",
-    "Title": "Objets intéressants dans Word pour le web",
+    "Title": "Bienvenue dans Copilot dans Word",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/a2ca6252-01ab-48fa-8c42-0fb1d54969ff?embed=true&themeid=-1",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4742,7 +4742,7 @@
   },
   {
     "Id": "4f23fd44-75b2-4e03-8cf7-f69b0abaf629",
-    "Title": "Bienvenue dans le application Microsoft 365 Copilot",
+    "Title": "Bienvenue dans l’application Microsoft 365 Copilot",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/82db9126-8571-4ca0-b897-4c610d86221e?embed=true&themeid=-1",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4753,7 +4753,7 @@
   },
   {
     "Id": "5b424d93-175c-4e36-8331-56af9125a551",
-    "Title": "Video : Animations et transitions",
+    "Title": "Vidéo : Animations et transitions pour le web PowerPoint",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/07a941fb-b027-4f3e-b514-cd9866723f45?embed=true&themeid=-1",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4786,7 +4786,7 @@
   },
   {
     "Id": "8f2d5696-581b-4ca8-804d-022cfc2aef22",
-    "Title": "Bienvenue dans le application Microsoft 365 Copilot",
+    "Title": "Bienvenue dans l’application Microsoft 365 Copilot",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/3b28d5cb-5684-462e-8251-64c5a88d1973?embed=true&themeid=-1",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4797,13 +4797,13 @@
   },
   {
     "Id": "9ee15b3a-3003-4706-b7b1-456688c999f0",
-    "Title": "Bienvenue dans le application Microsoft 365 Copilot",
+    "Title": "Bienvenue dans l’application Microsoft 365 Copilot",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/9da7f0de-9012-4f14-9e66-0b4314f873f0?embed=true&themeid=-1",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "4f23fd44-75b2-4e03-8cf7-f69b0abaf629",
     "StatusNote": ""
   },
   {
@@ -4819,7 +4819,7 @@
   },
   {
     "Id": "a544ec77-ffa8-47de-9e8d-de57a02bb5a5",
-    "Title": "Bienvenue dans le application Microsoft 365 Copilot",
+    "Title": "Bienvenue dans l’application Microsoft 365 Copilot",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/91b69f9c-9410-4eba-8b4f-8dab3efa43d1?embed=true&themeid=-1",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -6623,7 +6623,7 @@
   },
   {
     "Id": "b33ae7a4-e14b-4e46-9440-94bfed214415",
-    "Title": "Conseil : utiliser PowerPoint Live pour afficher les diapositives d’une réunion",
+    "Title": "Présenter à partir de PowerPoint Live dans Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/ddfc73dd-b957-4f2b-8e42-ce078f51873c?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6689,7 +6689,7 @@
   },
   {
     "Id": "c6d0e61d-a61e-44a6-a972-04f2a8fa4155",
-    "Title": "Teams et canaux dans Microsoft Teams",
+    "Title": "aide Microsoft Teams Gratuit",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/c6d0e61d-a61e-44a6-a972-04f2a8fa4155?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -7679,7 +7679,7 @@
   },
   {
     "Id": "01832226-31b5-4568-8806-38c37dcc180e",
-    "Title": "Filtrer les données d’une plage ou d’un tableau",
+    "Title": "Filtrer les données d’une plage ou d’un tableau dans Excel",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/01832226-31b5-4568-8806-38c37dcc180e?embed=true&themeid=-1",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
@@ -7789,7 +7789,7 @@
   },
   {
     "Id": "1246bc29-c113-415d-80ba-7fac257beab2",
-    "Title": "Combiner le texte de deux cellules ou plus en une cellule",
+    "Title": "Combiner le texte de deux cellules ou plus dans une cellule dans Microsoft Excel",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/81ba0946-ce78-42ed-b3c3-21340eb164a6?embed=true&themeid=-1",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
@@ -8174,7 +8174,7 @@
   },
   {
     "Id": "77b781bf-5074-41b0-897a-dc37d4515f27",
-    "Title": "Trier les données d’une plage ou d’un tableau",
+    "Title": "Trier les données d’une plage ou d’un tableau dans Excel",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/77b781bf-5074-41b0-897a-dc37d4515f27?embed=true&themeid=-1",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
@@ -8493,7 +8493,7 @@
   },
   {
     "Id": "b12e1cc5-e98a-48d0-af9c-41afd3bda3d5",
-    "Title": "Numéroter automatiquement les lignes",
+    "Title": "Numérotez automatiquement les lignes dans Excel",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/76ce49e3-d8d2-459b-bd85-ee1d3973e6e6?embed=true&themeid=-1",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
@@ -8691,7 +8691,7 @@
   },
   {
     "Id": "fbf3ff68-e9c2-4a2b-8a15-a52ff5729dde",
-    "Title": "Fonction NB.SI",
+    "Title": "Utiliser la fonction NB.SI dans Microsoft Excel",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/e0de10c6-f885-4e71-abb4-1f464816df34?embed=true&themeid=-1",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
@@ -8790,7 +8790,7 @@
   },
   {
     "Id": "0ca67c26-f365-47d0-b1fe-f2f670288927",
-    "Title": "Utiliser des événements en direct pour atteindre de larges audiences dans Microsoft Teams",
+    "Title": "Premières choses à savoir sur les réunions dans Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/08d4d9df-d1a7-4968-b844-51c9d4aae3c2?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -8812,7 +8812,7 @@
   },
   {
     "Id": "1311f213-f56b-4c15-b496-5ecff888cd66",
-    "Title": "Réduire ou remplacer des réunions par des méthodes asynchrones dans Microsoft Teams",
+    "Title": "Premières choses à savoir sur les conversations dans Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/1673e0d9-7ab0-40a3-bbdb-9d821146135d?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -8845,7 +8845,7 @@
   },
   {
     "Id": "1a583551-1f93-4d71-bac1-5881d5f8b1e7",
-    "Title": "Créer des environnements de réunion inclusifs dans Microsoft Teams",
+    "Title": "Planifier une réunion dans Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/d60b63be-6e28-4cfd-ace3-c7bb91a6a35c?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -8856,7 +8856,7 @@
   },
   {
     "Id": "1a747a9c-dc47-480e-b3d7-1df74cbe2d29",
-    "Title": "Découvrez comment exécuter des réunions efficaces à l’aide d’applications Microsoft 365 dans Microsoft Teams",
+    "Title": "Conseils pour configurer des réunions et des événements volumineux dans Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/0525b436-2100-4a76-9756-c9cfe7ced243?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -8977,7 +8977,7 @@
   },
   {
     "Id": "2f1621f6-aace-403f-8394-8d2f0183b96c",
-    "Title": "Réduire la fatigue des réunions dans Microsoft Teams",
+    "Title": "Bienvenue dans les conseils Teams des experts !",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/f44be8a1-1bb4-4d02-8bc3-6bfd83ef3b5b?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -8988,7 +8988,7 @@
   },
   {
     "Id": "34357c34-d8c3-4ac9-970e-320dbc8b599c",
-    "Title": "Une journée avec Office 365",
+    "Title": "Day in the Life with Office 365",
     "Description": "",
     "Url": "https://docs.microsoft.com/office365/customlearning/dayinthelife?context=context%2Fchromeless&linktarget=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9032,7 +9032,7 @@
   },
   {
     "Id": "3a70afb4-a7b7-4dc4-ab56-e232a988c6ff",
-    "Title": "Liste de contrôle des réunions productives dans Microsoft Teams",
+    "Title": "Réunions dans Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/a3bb25d2-f364-4c3b-baa4-2e2f0a19b104?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9087,7 +9087,7 @@
   },
   {
     "Id": "40ce1d89-995c-4a18-9b7e-7482f8121ece",
-    "Title": "Enregistrer dans Microsoft 365 entreprise",
+    "Title": "Enregistrer dans Microsoft 365 pour les entreprises",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/84d111d4-cce9-4cef-9240-167dff4b5965?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9098,7 +9098,7 @@
   },
   {
     "Id": "47473ffc-75e5-4c71-959d-39c60f25d75e",
-    "Title": "Productivité personnelle dans l’espace de travail hybride dans Microsoft Teams",
+    "Title": "Premières choses à savoir sur les réunions dans Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/47473ffc-75e5-4c71-959d-39c60f25d75e?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9109,7 +9109,7 @@
   },
   {
     "Id": "480fd2ff-1e8a-4091-9100-09c6f5ab76c4",
-    "Title": "Créer un contrat de communication avec votre équipe dans Microsoft Teams",
+    "Title": "Microsoft Teams et la messagerie, vivant en harmonie",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/480fd2ff-1e8a-4091-9100-09c6f5ab76c4?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9131,7 +9131,7 @@
   },
   {
     "Id": "4a5a9fae-5803-4ce2-9f54-77535f6a6618",
-    "Title": "Renforcer l’empathie entre les fuseaux horaires dans Microsoft Teams",
+    "Title": "Planifier une réunion dans Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/b4054899-3acc-4716-8b37-5b95a382b957?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9153,7 +9153,7 @@
   },
   {
     "Id": "4ecdbc37-c34c-40b0-87fb-619e7625d1e2",
-    "Title": "Planifier des réunions effectives dans Microsoft Teams",
+    "Title": "Planifier une réunion dans Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/f0943ce9-fcb0-4df2-967d-a45473117c0f?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9208,7 +9208,7 @@
   },
   {
     "Id": "54302a7f-833c-4690-902b-1621f45dcb61",
-    "Title": "Planifier et diriger des réunions intentionnelles dans Microsoft Teams",
+    "Title": "Conseils pour la production de réunions et d’événements volumineux dans Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/dbc133fb-a1a7-49e7-a571-25bb6903a7ab?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9252,7 +9252,7 @@
   },
   {
     "Id": "59fce479-241d-45f2-a79c-e7485fd02066",
-    "Title": "Pendant votre trajet",
+    "Title": "During your Commute",
     "Description": "",
     "Url": "https://docs.microsoft.com/office365/customlearning/ditl_commute?context=context%2Fchromeless&linktarget=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9307,7 +9307,7 @@
   },
   {
     "Id": "5f7689f7-8095-47ed-88ae-a8da2cd873d4",
-    "Title": "Créer dans Microsoft 365 entreprise",
+    "Title": "Créer dans Microsoft 365 pour les entreprises",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/500d26ea-1f1f-4b6c-a2b7-a44213fca4ec?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9351,7 +9351,7 @@
   },
   {
     "Id": "699cf41d-7bb1-497e-82c8-067650637d2e",
-    "Title": "Prendre des pauses et planifier du temps personnel dans Microsoft Teams",
+    "Title": "Gérer votre calendrier dans Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/699cf41d-7bb1-497e-82c8-067650637d2e?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9362,7 +9362,7 @@
   },
   {
     "Id": "69b2a175-28e4-4d06-96cf-7bca2e8351f5",
-    "Title": "Productivité dans l’espace de travail hybride dans Microsoft Teams",
+    "Title": "Premières choses à savoir sur les réunions dans Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/69b2a175-28e4-4d06-96cf-7bca2e8351f5?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9384,7 +9384,7 @@
   },
   {
     "Id": "6f739c5e-bb13-4ce9-9301-abf4a9cac9e2",
-    "Title": "Réunion au bureau",
+    "Title": "Meeting at the Office",
     "Description": "",
     "Url": "https://docs.microsoft.com/office365/customlearning/ditl_meeting?context=context%2Fchromeless&linktarget=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9450,7 +9450,7 @@
   },
   {
     "Id": "7f1a4746-bfa5-49d3-8686-3b59dc3391b9",
-    "Title": "Rendre les réunions et le contenu associé accessibles à tous dans Microsoft Teams",
+    "Title": "Premières choses à savoir sur les réunions dans Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/71952c46-8843-468e-9e44-27fa82d0361a?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9461,7 +9461,7 @@
   },
   {
     "Id": "7f5ff126-4f76-4628-90ec-4ed1e88ef365",
-    "Title": "Partager des fichiers et des dossiers OneDrive",
+    "Title": "Partager des fichiers et des dossiers dans Microsoft OneDrive",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9472,7 +9472,7 @@
   },
   {
     "Id": "80640ac4-b009-42ea-abcb-660e729e63e5",
-    "Title": "Conseils pour des réunions plus efficaces",
+    "Title": "Premières choses à savoir sur les réunions dans Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/80640ac4-b009-42ea-abcb-660e729e63e5?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9483,7 +9483,7 @@
   },
   {
     "Id": "8b6e7a53-d2a9-49bc-98a8-74b82c95dd07",
-    "Title": "Rester connecté dans l’espace de travail hybride dans Microsoft Teams",
+    "Title": "Premières choses à savoir sur les réunions dans Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/8b6e7a53-d2a9-49bc-98a8-74b82c95dd07?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9516,7 +9516,7 @@
   },
   {
     "Id": "8fcf1237-4ba5-46b2-a3cb-19d9d526b409",
-    "Title": "Limiter les distractions dans les réunions dans Microsoft Teams",
+    "Title": "Gérer les notifications dans Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/a56da772-46fc-4331-b84d-e5327be5dbe8?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9527,7 +9527,7 @@
   },
   {
     "Id": "919b4bd2-6c85-4792-bf60-57258cabe71d",
-    "Title": "Gérer des réunions",
+    "Title": "Premières choses à savoir sur les réunions dans Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/69aefc02-b58c-4066-811c-d1b71dd2c552?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9571,7 +9571,7 @@
   },
   {
     "Id": "9655a0e0-34f0-4805-8221-420ae713e0d0",
-    "Title": "Collaborer avec des collègues",
+    "Title": "Collaborating with Colleagues",
     "Description": "",
     "Url": "https://docs.microsoft.com/office365/customlearning/ditl_collab?context=context%2Fchromeless&linktarget=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9648,7 +9648,7 @@
   },
   {
     "Id": "a6ff7745-0ab0-470f-8d77-5302cd94ebeb",
-    "Title": "Présentation du bien-être dans l’espace de travail hybride dans Microsoft Teams",
+    "Title": "Bienvenue dans les conseils Teams des experts !",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/a6ff7745-0ab0-470f-8d77-5302cd94ebeb?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9659,7 +9659,7 @@
   },
   {
     "Id": "a76fef68-d80d-4e30-88e6-9c85d6e4795a",
-    "Title": "Rejoindre une réunion Teams",
+    "Title": "Participer à une réunion dans Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/b6caa0d4-eecb-4aa0-bc75-c05f4cd907b2?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9769,7 +9769,7 @@
   },
   {
     "Id": "b1d3baac-83e4-4d1a-8f8c-bb5e02409a37",
-    "Title": "Connecter toute l'entreprise",
+    "Title": "Connecting Across the Company",
     "Description": "",
     "Url": "https://docs.microsoft.com/office365/customlearning/ditl_connect?context=context%2Fchromeless&linktarget=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9912,7 +9912,7 @@
   },
   {
     "Id": "c570f04f-08d9-4a37-b59d-8c92b47c26b9",
-    "Title": "Engage votre public dans des réunions hybrides dans Microsoft Teams",
+    "Title": "Conseils pour la présentation lors de réunions et d’événements volumineux dans Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/f54304a3-a908-4829-9974-3b217e7307b0?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9934,7 +9934,7 @@
   },
   {
     "Id": "c7fa8661-7524-43bf-9f6f-2cd5ac42a73a",
-    "Title": "Collaborer et co-créer du contenu partagé dans Microsoft Teams",
+    "Title": "Collaborer sur des fichiers dans Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/48183b44-c9a6-4beb-b5b7-44c310550ae9?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -10000,7 +10000,7 @@
   },
   {
     "Id": "cbacc0cb-73c3-4f95-b3f5-44b3af30fbae",
-    "Title": "Que faire avant, pendant et après les réunions hybrides dans Microsoft Teams",
+    "Title": "Réunions dans Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/6d4f1c922-e4c7-4040-916f-b220e93cfa6b?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -10055,7 +10055,7 @@
   },
   {
     "Id": "d14c1dfb-42fe-4b97-8e40-24b68eb61814",
-    "Title": "Conseils pour des réunions plus efficaces",
+    "Title": "Conseils pour configurer des réunions et des événements volumineux dans Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/d7c946a8-d327-4255-b202-6ce807c0875c?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -10077,7 +10077,7 @@
   },
   {
     "Id": "d5e2099d-6696-474b-b358-bd5ccb5e0657",
-    "Title": "Planifier et respecter les limites dans Microsoft Teams",
+    "Title": "Premières choses à savoir sur les réunions dans Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/d5e2099d-6696-474b-b358-bd5ccb5e0657?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -10088,7 +10088,7 @@
   },
   {
     "Id": "d868fd47-9aeb-46c2-b86c-8f02c89eac60",
-    "Title": "Considérations relatives aux espaces de réunion hybrides dans Microsoft Teams",
+    "Title": "Conseils pour la présentation lors de réunions et d’événements volumineux dans Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/6a526e5a-b036-42a9-b9fe-8131efd75390?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -10110,7 +10110,7 @@
   },
   {
     "Id": "e67f90ca-657b-4fc7-8382-6bb6e87f3b4b",
-    "Title": "En savoir plus sur les réunions hybrides dans Microsoft Teams",
+    "Title": "Premières choses à savoir sur les réunions dans Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/f06cae00-dcb3-466f-ba51-d6f80bdd25a5?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -10165,7 +10165,7 @@
   },
   {
     "Id": "f382cfa5-a565-4377-9496-af8f6eb0ebcf",
-    "Title": "Pendant le café du matin",
+    "Title": "During Morning Coffee",
     "Description": "",
     "Url": "https://docs.microsoft.com/office365/customlearning/ditl_coffee?context=context%2Fchromeless&linktarget=true",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -10187,7 +10187,7 @@
   },
   {
     "Id": "f7b18d2f-e5d1-44da-8d34-ec941041fb8b",
-    "Title": "Suivi",
+    "Title": "Collaborer",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/de33680b-bcb2-4714-8811-7e3e6c00dd8b?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -10484,7 +10484,7 @@
   },
   {
     "Id": "092599f1-5917-4bd6-bd59-58af628bbc39",
-    "Title": "Bienvenue dans le application Microsoft 365 Copilot",
+    "Title": "Bienvenue dans l’application Microsoft 365 Copilot",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/092599f1-5917-4bd6-bd59-58af628bbc39?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -10495,7 +10495,7 @@
   },
   {
     "Id": "24bd7d62-f3c7-47d8-8cce-ee78edc018d4",
-    "Title": "Bien démarrer avec le application mobile Microsoft 365 Copilot",
+    "Title": "Bien démarrer avec l’application mobile Microsoft 365 Copilot",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/24bd7d62-f3c7-47d8-8cce-ee78edc018d4?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -10561,7 +10561,7 @@
   },
   {
     "Id": "6ce4ac5a-3f81-4b2b-8519-efe3cdc6dbf5",
-    "Title": "Ajouter une image avec Copilot dans Word",
+    "Title": "Générer des images pour vos documents avec Copilot pour Word",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/6ce4ac5a-3f81-4b2b-8519-efe3cdc6dbf5?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -10583,7 +10583,7 @@
   },
   {
     "Id": "923d9763-f896-4da7-8a3f-5b12c3bfc475",
-    "Title": "Améliorez votre contenu avec Copilot dans Word",
+    "Title": "Réécrire du texte avec Copilot dans Word",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/923d9763-f896-4da7-8a3f-5b12c3bfc475?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -10649,7 +10649,7 @@
   },
   {
     "Id": "d70b140b-bb3f-46b7-be64-ceec526a8dcd",
-    "Title": "Élever votre jeu de présentation avec la fonctionnalité de réécriture de texte de Copilot dans PowerPoint",
+    "Title": "Réécrire du texte avec Copilot dans PowerPoint",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/d70b140b-bb3f-46b7-be64-ceec526a8dcd?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -10660,7 +10660,7 @@
   },
   {
     "Id": "ae906e57-db71-4f46-8ed5-c1e2cebe6a80",
-    "Title": "Ajouter une image à votre présentation avec Copilot pour PowerPoint",
+    "Title": "Ajouter une image à votre présentation avec Copilot dans PowerPoint",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/ae906e57-db71-4f46-8ed5-c1e2cebe6a80?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -10693,7 +10693,7 @@
   },
   {
     "Id": "a207eea3-7a56-4225-88f1-54dd37cdcf6a",
-    "Title": "Organiser cette présentation avec Copilot dans PowerPoint",
+    "Title": "Organize this presentation with Copilot in PowerPoint",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/a207eea3-7a56-4225-88f1-54dd37cdcf6a?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -10814,7 +10814,7 @@
   },
   {
     "Id": "52d97339-86c0-431c-b46c-e7b07b2898dd",
-    "Title": "Obtenir des insights sur les données numériques avec Copilot pour Excel",
+    "Title": "Obtenir des insights sur les données numériques avec Copilot dans Excel",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/52d97339-86c0-431c-b46c-e7b07b2898dd?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -10825,7 +10825,7 @@
   },
   {
     "Id": "05302e3f-de42-4475-b235-be9cb3d4e936",
-    "Title": "Visualiser vos données avec Copilot pour Excel ",
+    "Title": "Visualiser vos données avec Copilot dans Excel",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/05302e3f-de42-4475-b235-be9cb3d4e936?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -10847,7 +10847,7 @@
   },
   {
     "Id": "7838fb47-7309-4dac-ba7a-8080cb75ee06",
-    "Title": "Comprendre les formules avec Copilot pour Excel",
+    "Title": "Comprendre des formules avec Copilot pour Excel",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/7838fb47-7309-4dac-ba7a-8080cb75ee06?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -10858,7 +10858,7 @@
   },
   {
     "Id": "364e4ae9-9343-4d56-952a-5f62b0f70db6",
-    "Title": "Obtenir une analyse avancée des données à l’aide de Copilot pour Excel avec Python",
+    "Title": "Obtenir une analyse avancée des données à l’aide de Copilot dans Excel App Skills",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/364e4ae9-9343-4d56-952a-5f62b0f70db6?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -10869,7 +10869,7 @@
   },
   {
     "Id": "cecc7821-39c1-4e12-8bd6-4d4348370585",
-    "Title": "Obtenir des insights à partir de données textuelles avec Copilot pour Excel",
+    "Title": "Obtenir des insights à partir de données textuelles avec Copilot dans Excel",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/cecc7821-39c1-4e12-8bd6-4d4348370585?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -11034,7 +11034,7 @@
   },
   {
     "Id": "966eb1a2-b5ec-4532-8a9d-f1aaeda7f90e",
-    "Title": "Rédiger et ajouter du contenu avec Copilot pour Loop",
+    "Title": "Questions fréquentes à propos de Copilot dans Loop",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/966eb1a2-b5ec-4532-8a9d-f1aaeda7f90e?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -11045,7 +11045,7 @@
   },
   {
     "Id": "b5baf628-c39c-44e8-8b2f-d67bf23f9af6",
-    "Title": "Faites-en plus avec le contenu de votre page avec Copilot dans Loop",
+    "Title": "Questions fréquentes à propos de Copilot dans Loop",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/b5baf628-c39c-44e8-8b2f-d67bf23f9af6?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -11067,7 +11067,7 @@
   },
   {
     "Id": "5e2c071f-c734-4798-a7a5-2c9d8fa648d1",
-    "Title": "Résumez une page avec Copilot dans Loop",
+    "Title": "Questions fréquentes à propos de Copilot dans Loop",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/5e2c071f-c734-4798-a7a5-2c9d8fa648d1?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -11111,7 +11111,7 @@
   },
   {
     "Id": "794ab09c-c64a-45f3-bcbe-110a182a1806",
-    "Title": "Comparer vos fichiers avec Copilot pour OneDrive",
+    "Title": "Comparer vos fichiers avec Copilot dans OneDrive",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/794ab09c-c64a-45f3-bcbe-110a182a1806?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -11210,7 +11210,7 @@
   },
   {
     "Id": "1ec20ffb-5f02-43f3-bafb-6b0e99f42a4c",
-    "Title": "Créer des pages avec Copilot dans Microsoft Office SharePoint Online",
+    "Title": "Créer des pages avec l’IA dans SharePoint",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/1ec20ffb-5f02-43f3-bafb-6b0e99f42a4c?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -11221,7 +11221,7 @@
   },
   {
     "Id": "afc720be-666b-4d87-801e-b8ff62f309bb",
-    "Title": "Écrivez avec Copilot dans l'éditeur de texte enrichi SharePoint",
+    "Title": "Écrire avec l’IA dans l’éditeur de texte enrichi SharePoint",
     "Description": "",
     "Url": "https://support.office.com/fr-fr/f1/article/afc720be-666b-4d87-801e-b8ff62f309bb?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -11736,7 +11736,18 @@
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
-{
+  {
+    "Id": "b72144a1-81b6-47f5-ba49-9c956911ce17",
+    "Title": "Personnaliser votre page de réservation",
+    "Description": "",
+    "Url": "https://support.office.com/fr-fr/f1/article/116d7a84-a7a0-4911-a1e9-debb2cca7c43?embed=true&themeid=-1",
+    "TechnologyId": "",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusNote": ""
+  },
+  {
     "Id": "52c4ad04-1904-4b45-897a-5829c83c5838",
     "Title": "Créer et gérer des réservations",
     "Description": "",

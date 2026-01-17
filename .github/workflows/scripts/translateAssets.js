@@ -11,7 +11,7 @@ const outputPath = 'docs/learningpathways/v4/xx-xx/assets.json';
 
 let assetLangs = [];
 //let depricatedAssets = [];
-let sourceData = JSON.parse(fs.readFileSync(sourcePath, 'utf8'));
+//let sourceData = JSON.parse(fs.readFileSync(sourcePath, 'utf8'));
 
 /**
  * Main function to make API calls
@@ -27,9 +27,10 @@ async function main() {
 
     for (let i = 0; i < assetLangs.length; i++) {
       let lang = assetLangs[i];
-      console.log(`${LOG_SOURCE} - Starting update of  ${lang}`);
+      console.log(`${LOG_SOURCE} - Starting update of ${lang}`);
+      const sourceData = JSON.parse(fs.readFileSync(sourcePath, 'utf8'));
       await getAssets(lang,sourceData);
-      console.log(`${LOG_SOURCE} - Ending update of  ${lang}`);
+      console.log(`${LOG_SOURCE} - Ending update of ${lang}`);
       console.log(`------------------------------------------------------------------------------------------------------------`);
     }
     //console.log(`${LOG_SOURCE} - Depricated assets to check ${depricatedAssets}`);
@@ -62,6 +63,7 @@ async function getSupportedLanguages(manifestPath) {
 // Get language assets file
 async function getAssets(languageCode, source) {
   const retVal = [];
+  console.log(`Source length ${source.length}`);
   try {
     for (let i = 0; i < source.length; i++) {
       let asset = source[i];
@@ -69,6 +71,7 @@ async function getAssets(languageCode, source) {
       if (languageCode.toLowerCase() !== 'en-us') {
         asset.Url = asset.Url.replace('en-us',languageCode.toLowerCase() );
       }
+      console.log(`Start Update of ${languageCode} - ${asset.Url}`);
       const h1Text = await fetchH1(asset.Url);
       if (h1Text) {
         if (((!h1Text.startsWith('Sorry')) && (!h1Text.startsWith('This article has been retired'))) && h1Text != asset.Title) {
@@ -91,9 +94,10 @@ async function getAssets(languageCode, source) {
     return `Error processing languages: ${err.message}`;
   }
   
-  if (languageCode.toLowerCase() === 'en-us') {
-    sourceData = retVal;
-  }
+  // if (languageCode.toLowerCase() === 'en-us') {
+  //   console.log(`Resetting sourceData for ${languageCode}`);
+  //   sourceData = retVal;
+  // }
   fs.writeFileSync(outputPath.replace('xx-xx', languageCode.toLowerCase()), JSON.stringify(retVal, null, 2), 'utf8');
   console.log(`Updated ${languageCode} to file ${outputPath.replace('xx-xx', languageCode.toLowerCase())}`);
   return retVal;
