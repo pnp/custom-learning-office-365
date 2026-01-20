@@ -9,12 +9,6 @@ env:
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - 'docs/learningpathways/v4/en-us/assets.json'
-  pull_request:
-    paths:
-      - 'docs/learningpathways/v4/en-us/assets.json'
   
 jobs:
   replace-localization:
