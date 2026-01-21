@@ -1,5 +1,9 @@
 # Change Log
 
+## Content Update January 2026
+
+This released included creating an automated translation for assets, and flagging of content that is depricated. In addition, change the logos to the new Microsoft Office logos.
+
 ## Content Update September 2025
 
 This release included a large content update. It included new content regarding Copilot as well as some other technologies. In addition, there were many issues with broken links or missing content especially in the non-English lanagues. This has been addressed in this release.
