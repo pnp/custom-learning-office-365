@@ -3,6 +3,7 @@
 ## Content Update January 2026
 
 This released included creating an automated translation for assets, and flagging of content that is depricated. In addition, change the logos to the new Microsoft Office logos.
+Added Power Automate playlist
 
 ## Content Update September 2025
 

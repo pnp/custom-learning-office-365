@@ -56,6 +56,11 @@
       "Subjects": []
     },
     {
+      "Id": "b23dbda3-b7a6-4c19-be53-baff2d62cd7e",
+      "Name": "Power Platform",
+      "Subjects": []
+    },
+    {
       "Id": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
       "Name": "PowerPoint",
       "Subjects": []
@@ -425,6 +430,15 @@
           "Name": "Planner",
           "Image": "images/categories/planner.png",
           "TechnologyId": "2f571b54-44fa-4778-9277-c7935e36ffb3",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
+          "Id": "c9ded195-c2ab-4089-ae9f-fcb1ec1e4804",
+          "Name": "Power Automate",
+          "Image": "images/categories/power-automate.png",
+          "TechnologyId": "b23dbda3-b7a6-4c19-be53-baff2d62cd7e",
           "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []
