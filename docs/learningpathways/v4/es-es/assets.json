@@ -11779,5 +11779,49 @@
     "Source": "Microsoft",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
+  },
+  {
+    "Id": "a9c3e03b-0654-46af-a254-20252e580d01",
+    "Title": "Crear un flujo para una lista o biblioteca",
+    "Description": "",
+    "Url": "https://support.office.com/es-es/f1/article/a9c3e03b-0654-46af-a254-20252e580d01?embed=true&themeid=-1",
+    "TechnologyId": "b23dbda3-b7a6-4c19-be53-baff2d62cd7e",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusNote": ""
+  },
+  {
+    "Id": "23c0e172-1fc1-4ac8-a9db-cd0b81d634d8",
+    "Title": "Establecer un flujo de aviso",
+    "Description": "",
+    "Url": "https://support.office.com/es-es/f1/article/23c0e172-1fc1-4ac8-a9db-cd0b81d634d8?embed=true&themeid=-1",
+    "TechnologyId": "b23dbda3-b7a6-4c19-be53-baff2d62cd7e",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusNote": ""
+  },
+  {
+    "Id": "b6678daa-2c82-44eb-be3f-2a9cb56301e8",
+    "Title": "Editar un flujo de una lista",
+    "Description": "",
+    "Url": "https://support.office.com/es-es/f1/article/b6678daa-2c82-44eb-be3f-2a9cb56301e8?embed=true&themeid=-1",
+    "TechnologyId": "b23dbda3-b7a6-4c19-be53-baff2d62cd7e",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusNote": ""
+  },
+  {
+    "Id": "dee28c00-503a-48b3-89df-91a5084e6e43",
+    "Title": "Crear un flujo de trabajo automatizado para Microsoft Forms",
+    "Description": "",
+    "Url": "https://support.office.com/es-es/f1/article/dee28c00-503a-48b3-89df-91a5084e6e43?embed=true&themeid=-1",
+    "TechnologyId": "b23dbda3-b7a6-4c19-be53-baff2d62cd7e",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusNote": ""
   }
 ]
