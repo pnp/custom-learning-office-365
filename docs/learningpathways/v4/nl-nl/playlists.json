@@ -3876,5 +3876,25 @@
       "1c192167-9250-4ef8-b488-63c474d8b84f",
       "2fa7a228-8645-4dc4-beec-d75d6d0bc752"
     ]
+  },
+  {
+    "Id": "cb7397cf-6f5a-4909-8ae0-4d3fb7163f84",
+    "Title": "Aan de slag met Power Automate",
+    "Image": "images/categories/power-automate.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "b23dbda3-b7a6-4c19-be53-baff2d62cd7e",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "c9ded195-c2ab-4089-ae9f-fcb1ec1e4804",
+    "Description": "Leer de basis van het bouwen van geautomatiseerde workflows die tijd besparen en handmatig werk verminderen.",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusNote": "",
+    "Assets": [
+      "a9c3e03b-0654-46af-a254-20252e580d01",
+      "23c0e172-1fc1-4ac8-a9db-cd0b81d634d8",
+      "b6678daa-2c82-44eb-be3f-2a9cb56301e8",
+      "dee28c00-503a-48b3-89df-91a5084e6e43"
+    ]
   }
 ]

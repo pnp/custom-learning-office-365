@@ -66,6 +66,11 @@
       "Subjects": []
     },
     {
+      "Id": "b23dbda3-b7a6-4c19-be53-baff2d62cd7e",
+      "Name": "Power Platform",
+      "Subjects": []
+    },
+    {
       "Id": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
       "Name": "Office for the web",
       "Subjects": []
@@ -430,6 +435,15 @@
           "SubCategories": []
         },
         {
+          "Id": "c9ded195-c2ab-4089-ae9f-fcb1ec1e4804",
+          "Name": "Power Automate",
+          "Image": "images/categories/power-automate.png",
+          "TechnologyId": "b23dbda3-b7a6-4c19-be53-baff2d62cd7e",
+          "SubjectId": "",
+          "Source": "Microsoft",
+          "SubCategories": []
+        },
+        {
           "Id": "f05d3e34-3299-4776-a505-86f94b794194",
           "Name": "PowerPoint",
           "Image": "images/categories/powerpoint.png",
@@ -513,7 +527,7 @@
         {
           "Id": "f9b14990-420a-4678-87a8-8428928186c6",
           "Name": "Word",
-          "Image": "../images/categories/word.png",
+          "Image": "images/categories/word.png",
           "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
           "SubjectId": "",
           "Source": "Microsoft",
