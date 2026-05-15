@@ -11,14 +11,16 @@ import forEach from "lodash-es/forEach";
 import isEqual from "lodash-es/isEqual";
 
 import * as strings from "M365LPStrings";
-import { IAsset, ILocale, IMultilingualString, ITechnology, MultilingualString } from "../../../common/models/Models";
+import { IAsset, ILocale, IMetadataEntry, IMultilingualString, ITechnology, MultilingualString } from "../../../common/models/Models";
 import { params } from "../../../common/services/Parameters";
 import AssetDetail from "../Atoms/AssetDetail";
+
 
 
 export interface IAssetDetailsProps {
   technologies: ITechnology[];
   asset: IAsset;
+  assetStatus: IMetadataEntry
   edit: boolean;
   cancel: () => void;
   save: (asset: IAsset) => Promise<boolean>;
@@ -205,6 +207,7 @@ export default class AssetDetails extends React.Component<IAssetDetailsProps, IA
           <AssetDetail
             technologies={this.props.technologies}
             asset={this.state.editAsset}
+            assetStatus={this.props.assetStatus}
             currentLangIndex={currentLangIndex}
             updateDetail={this.updateAsset}
             edit={this.props.edit}

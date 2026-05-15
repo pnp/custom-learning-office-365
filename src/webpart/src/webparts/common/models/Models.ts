@@ -97,7 +97,7 @@ export interface IMetadata {
   Audiences: IMetadataEntry[];
   Sources: string[];
   Levels: IMetadataEntry[];
-  StatusTags: IMetadataEntry[];
+  StatusTag: IMetadataEntry[];
   Telemetry: { AppInsightKey: string; };
   Version: IVersion;
   ContentPacks: IContentPack[];

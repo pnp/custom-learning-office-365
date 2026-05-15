@@ -102,8 +102,14 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
         this._validConfig = await this._initService.validateLists((params.userRole === Roles.Owners));
         this._languageController = new LanguageController(this._cdn);
         await this._languageController.init();
+        
         if (this._validConfig) {
           this._cacheConfig = await this._languageController.getCacheConfig();
+          //Load Status tags into params based on language
+          if(this._languageController){
+            const metadata = await this._languageController.getMetadata();
+            params.statusTags = metadata.StatusTag;
+          }
           if (!this._cacheConfig) {
             this._firstConfig = true;
             this._cacheConfig = new CacheConfig();

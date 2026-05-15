@@ -530,7 +530,7 @@ export default class CustomLearningWebPart extends BaseClientSideWebPart<ICustom
             }
           }            
           
-          if (catId.length > 0) {
+          if (catId.length > 0 && plItems[catId]) {
             plItems[catId].push({
               key: cachedPlaylists[i].Id,
               text: cachedPlaylists[i].Title as string,

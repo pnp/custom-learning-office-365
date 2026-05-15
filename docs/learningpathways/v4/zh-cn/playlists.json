@@ -1,7 +1,7 @@
 [
   {
     "Id": "959166d8-1cb7-4315-af20-541598ebecaa",
-  "Title": "六个简单步骤 - 欢迎使用 Microsoft 365",
+    "Title": "六个简单步骤 - 欢迎使用 Microsoft 365",
     "Image": "images/playlists/six_simple_steps_-_welcome_to_office_365.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -9,7 +9,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9bde32c3-2f0b-4201-b4a3-74cef2c8f61d",
-  "Description": "通过六个简单步骤开始使用 Microsoft 365。在 office.com 登录并开始使用，安全地在云端创建和保存文件，与他人实时共享和协作，在 Microsoft Teams 的团队和频道中与团队协作，设置移动应用，并尝试新功能。",
+    "Description": "通过六个简单步骤开始使用 Microsoft 365。在 office.com 登录并开始使用，安全地在云端创建和保存文件，与他人实时共享和协作，在 Microsoft Teams 的团队和频道中与团队协作，设置移动应用，并尝试新功能。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -24,7 +24,7 @@
   },
   {
     "Id": "bb92e79e-fe45-4f82-83ab-704b75bb6223",
-  "Title": "开始使用 Teams",
+    "Title": "开始使用 Teams",
     "Image": "images/playlists/manage_meetings.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -32,7 +32,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9bde32c3-2f0b-4201-b4a3-74cef2c8f61d",
-  "Description": "通过七个简单步骤开始使用 Teams。了解团队和频道的概览，学习如何启动和管理您的团队，在频道中协作，上传和共享文件，开始和置顶聊天，加入 Teams 会议并管理会议。",
+    "Description": "通过七个简单步骤开始使用 Teams。了解团队和频道的概览，学习如何启动和管理您的团队，在频道中协作，上传和共享文件，开始和置顶聊天，加入 Teams 会议并管理会议。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -3415,7 +3415,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "Microsoft 365 Copilot 应用可帮助您查找或创建文件、提问、协作生成 AI 内容、设置助理提升工作效率，并添加各种自定义助理和应用。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "d76f6ade-0e4e-48d5-9fc1-17480b7e041e",
@@ -3433,7 +3433,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "Copilot 聊天是您的 AI 助手，可基于最新网络信息进行对话。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "61033adf-484d-45f5-a8c3-b89876963bd8",
@@ -3454,7 +3454,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "探索如何在 Word 中利用 AI 的力量帮助起草和转换文档并生成摘要。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "6ce4ac5a-3f81-4b2b-8519-efe3cdc6dbf5",
@@ -3477,7 +3477,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "PowerPoint 中的 Copilot 可帮助您将灵感变为精彩专业的演示文稿。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "3222ee03-f5a4-4d27-8642-9c387ab4854d",
@@ -3501,7 +3501,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "在 Outlook 中使用 Copilot 轻松跟进、准备和后续处理。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "3eb1d053-89b8-491c-8a6e-746015238d9b",
@@ -3522,7 +3522,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "Excel 中的 Copilot 可协助您轻松分析、理解和可视化数据。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "d7110502-0334-4b4f-a175-a73abdfc118a",
@@ -3547,7 +3547,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "在 OneNote 中与 Copilot 自由对话，提升您的工作效率。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "89e1f3cd-9cbc-4b34-84da-40d52b39aff5",
@@ -3568,7 +3568,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "Microsoft Teams 中的 Copilot 增强协作，帮助您充分利用 Teams 会议、通话和聊天。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "60c37fde-6e13-4412-8101-40bbbc711ec9",
@@ -3592,7 +3592,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "Loop 中的 Copilot 可帮助您开展头脑风暴、内容撰写等工作。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "966eb1a2-b5ec-4532-8a9d-f1aaeda7f90e",
@@ -3613,7 +3613,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "OneDrive 中的 Copilot 旨在彻底改变您与文件的互动方式并简化您的工作流程。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "7fc81e10-e0cf-4da8-af2e-9876a2770e5d",
@@ -3633,7 +3633,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "借助 Whiteboard 中的 Copilot，创建、组织和理解想法变得前所未有的轻松。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "798b4694-4eab-4928-b4cc-33952231c234",
@@ -3652,7 +3652,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "使用 Planner 中的 Copilot，像专业人士一样进行规划。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "1c986429-613a-47c3-816d-039dd91e60bf",
@@ -3671,7 +3671,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "通过 Forms 中的 Copilot，轻松创建相关、有趣且高效的调查、投票和其他表单。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "6a21bfbd-21b3-4e48-946c-7603b129521c"
@@ -3688,7 +3688,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "提升您的工作效率和协作能力，简化与网站、页面和文件的互动。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "1ec20ffb-5f02-43f3-bafb-6b0e99f42a4c",
@@ -3707,7 +3707,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "SharePoint 智能代理可以回答关于任何 SharePoint 网站或文档库内容的问题，只要提问者拥有权限。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "69e2faf9-2c1e-4baa-8305-23e625021bcf",
@@ -3729,7 +3729,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "Stream 中的 Copilot 帮助您快速高效地了解组织中的视频内容。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "0b531ea9-2d9d-4830-97e4-2c1b2b8ca31d"
@@ -3746,7 +3746,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "Viva Amplify 中的 Copilot 帮助您找到最佳措辞，确保您的发布内容有效传达信息。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "768222a0-9b83-402f-861e-9f7691183368",
@@ -3764,7 +3764,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "通过 Viva Engage 中的 Copilot，在 Engage Teams 应用或网页上创建帖子，提升您的在线影响力和互动。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "f43f275f-4eeb-4df0-baf9-c7db57329bd2",
@@ -3784,7 +3784,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "使用 Viva Pulse 中的 Copilot 自动汇总调查结果。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "c271f112-6c23-46e0-ae9c-e7b5f9584b24",
@@ -3802,7 +3802,7 @@
     "Source": "Microsoft",
     "CatId": "b40d7a3e-9357-4a03-84b4-fa98e2dbfe13",
     "Description": "使用 Microsoft 365 Copilot 迎接新一天的工作，快速查看邮件、查找相关文件，并了解会议内容。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "023638f0-684d-4c91-8110-21a9269adf6b",
@@ -3823,7 +3823,7 @@
     "Source": "Microsoft",
     "CatId": "b40d7a3e-9357-4a03-84b4-fa98e2dbfe13",
     "Description": "立即处理您的待办事项。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "6fdd7c6a-2db5-4882-a8aa-f2c2f6b3aa48",
@@ -3845,7 +3845,7 @@
     "Source": "Microsoft",
     "CatId": "b40d7a3e-9357-4a03-84b4-fa98e2dbfe13",
     "Description": "使用 Copilot 回顾本周工作，并为下周制定优先事项。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "d33438f4-a4be-42e0-9531-e02e25037859",
@@ -3864,7 +3864,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "探索使用 Copilot 提示词可以完成的任务。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "f6c3b467-f07c-4db1-ae54-ffac96184dd5",
@@ -3888,7 +3888,7 @@
     "Source": "Microsoft",
     "CatId": "c9ded195-c2ab-4089-ae9f-fcb1ec1e4804",
     "Description": "学习构建自动化工作流的基础知识，以节省时间并减少手动工作。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "a9c3e03b-0654-46af-a254-20252e580d01",
@@ -3908,7 +3908,7 @@
     "Source": "Microsoft",
     "CatId": "0a89d391-5a86-42c9-a3ae-03a18ebc19b7",
     "Description": "学习如何使用 Clipchamp 创建和编辑用于工作和个人用途的视频。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "750e8940-cd76-4abf-9767-b34d3d3285d7",
@@ -3931,7 +3931,7 @@
     "Source": "Microsoft",
     "CatId": "9c14c00c-1c53-45e0-9ea2-ffe9265d4336",
     "Description": "学习如何使用 Visio 创建和编辑图表。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "75a50ce3-6f12-4cf6-9b96-5e2026b8a3fe",
@@ -3950,7 +3950,7 @@
     "Source": "Microsoft",
     "CatId": "9c14c00c-1c53-45e0-9ea2-ffe9265d4336",
     "Description": "学习如何在 Visio 中为页面和文本设置格式。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "79c1ea54-a9a6-46ce-a4ca-798fa51c7f01",
@@ -3970,7 +3970,7 @@
     "Source": "Microsoft",
     "CatId": "3545fd1f-e834-4a3f-8106-a67b866bc611",
     "Description": "学习使用 Power Apps 构建应用的基础知识。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "66eb28d7-8fd3-4926-ad58-af3ffbe150c2",
@@ -3990,7 +3990,7 @@
     "Source": "Microsoft",
     "CatId": "3545fd1f-e834-4a3f-8106-a67b866bc611",
     "Description": "学习如何将 Copilot 与 Power Apps 配合使用，以增强应用开发。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "2767f8d4-8a1b-478f-80c1-070e209f1fae",
@@ -4008,7 +4008,7 @@
     "Source": "Microsoft",
     "CatId": "3545fd1f-e834-4a3f-8106-a67b866bc611",
     "Description": "学习创建 Canvas 应用的基础知识。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "32d8135e-a9f5-465d-927a-6b475a8552b8",

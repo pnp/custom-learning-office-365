@@ -14,13 +14,14 @@ import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
 import HOOLoading from "@n8d/htwoo-react/HOOLoading";
 
 import * as strings from 'M365LPStrings';
-import { IAsset, ITechnology, IMultilingualString } from "../../../common/models/Models";
+import { IAsset, ITechnology, IMultilingualString, IMetadataEntry } from "../../../common/models/Models";
 import { CustomWebpartSource } from "../../../common/models/Enums";
 import { params } from "../../../common/services/Parameters";
 
 export interface IAssetDetailProps {
   technologies: ITechnology[];
   asset: IAsset;
+  assetStatus: IMetadataEntry
   currentLangIndex: number;
   edit: boolean;
   updateDetail: (detail: IAsset) => void;
@@ -225,6 +226,9 @@ export default class AssetDetail extends React.Component<IAssetDetailProps, IAss
               }
               <HOOLabel label={strings.DetailEditTechnology} />
               <p className="adm-fieldvalue">{(this.state.selectedTechnology) ? this.state.selectedTechnology.Name : ""}</p>
+              <HOOLabel label={strings.DetailEditStatus} />
+              <p className="adm-fieldvalue">{(this.props.assetStatus) ? this.props.assetStatus.Name : ""}</p>
+              
               <HOOLabel label={strings.DetailEditUrl} />
               {(this.props.asset.Url instanceof Array) &&
                 <p className="adm-fieldvalue">{(this.props.asset.Url as IMultilingualString[])[this.props.currentLangIndex].Text}</p>

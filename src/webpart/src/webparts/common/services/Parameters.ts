@@ -1,6 +1,6 @@
 import { Logger, LogLevel } from "@pnp/logging";
 import { HttpClient } from "@microsoft/sp-http";
-import { IContentPack, IManifest, ICacheConfig, ICDN, ILocale, ICustomCDN, IWebhookConfig } from "../models/Models";
+import { IContentPack, IManifest, ICacheConfig, ICDN, ILocale, ICustomCDN, IWebhookConfig, IMetadataEntry } from "../models/Models";
 import { WebPartContext } from "@microsoft/sp-webpart-base";
 import forEach from "lodash-es/forEach";
 
@@ -34,6 +34,9 @@ export class Parameters {
   private _contentPacks: IContentPack[];
   private _assetOrigins: string[] = null;
   private _supportedLanguages: string[] = null;
+
+  //From Metadata
+  private _statusTags: IMetadataEntry[];
 
   //Configuration
   private _allCdn: ICDN[] = [];
@@ -202,6 +205,18 @@ export class Parameters {
     */
   get supportedLanguages(): string[] {
     return this._supportedLanguages;
+  }
+
+  //Set available status tags from metadata
+  set statusTags(value: IMetadataEntry[]) {
+    this._statusTags = value;
+  }
+
+  /**	
+    * List of status tags.
+    */
+  get statusTags(): IMetadataEntry[] {
+    return this._statusTags;
   }
 
   /**	

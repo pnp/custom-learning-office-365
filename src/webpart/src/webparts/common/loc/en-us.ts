@@ -47,6 +47,7 @@ define([], (): IM365LPStrings => {
     DetailEditCategory: "Category",
     DetailEditCategoryNoData: "No Categories are available",
     DetailEditTechnology: "Technology",
+    DetailEditStatus: "Status",
     DetailEditLevel: "Level",
     DetailEditAudience: "Audience",
     AssetSearchPlaceHolderLabel: "Search for Existing Assets",

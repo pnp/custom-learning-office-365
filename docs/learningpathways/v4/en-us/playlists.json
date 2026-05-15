@@ -3416,7 +3416,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "The Microsoft 365 Copilot app can help you find or create files, ask questions, collaborate on AI-generated content, set up agents that help you be more productive, and add a wide array of custom agents and apps.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "d76f6ade-0e4e-48d5-9fc1-17480b7e041e",
@@ -3434,7 +3434,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "Copilot Chat is your AI assistant, which grounds conversations in the latest information from the web.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "61033adf-484d-45f5-a8c3-b89876963bd8",
@@ -3455,7 +3455,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "Explore how you can use the power of AI in Word to help you draft and transform documents and generate summaries.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "6ce4ac5a-3f81-4b2b-8519-efe3cdc6dbf5",
@@ -3478,7 +3478,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "Copilot in PowerPoint can help you turn your inspiration into stunning and professional presentations.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "3222ee03-f5a4-4d27-8642-9c387ab4854d",
@@ -3502,7 +3502,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "Catch up, prepare, and follow-up in Outlook with ease with Copilot.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "3eb1d053-89b8-491c-8a6e-746015238d9b",
@@ -3523,7 +3523,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "Copilot in Excel works alongside you to help analyze, understand, and visualize your data with ease.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "d7110502-0334-4b4f-a175-a73abdfc118a",
@@ -3548,7 +3548,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "Freely chat with Copilot in OneNote and supercharge your productivity.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "89e1f3cd-9cbc-4b34-84da-40d52b39aff5",
@@ -3569,7 +3569,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "Copilot in Microsoft Teams enhances collaboration and helps you get the most out of your Teams meetings, calls, and chats.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "60c37fde-6e13-4412-8101-40bbbc711ec9",
@@ -3593,7 +3593,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "Copilot in Loop can help you get started with brainstorming, content drafting, and more.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "966eb1a2-b5ec-4532-8a9d-f1aaeda7f90e",
@@ -3614,7 +3614,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "Copilot in OneDrive is designed to revolutionize the way you interact with your files and streamline your workflow",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "7fc81e10-e0cf-4da8-af2e-9876a2770e5d",
@@ -3634,7 +3634,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "Creating, organizing, and understanding ideas has never been easier with Copilot in Whiteboard.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "798b4694-4eab-4928-b4cc-33952231c234",
@@ -3653,7 +3653,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "Plan like a pro with Copilot in Planner.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "1c986429-613a-47c3-816d-039dd91e60bf",
@@ -3672,7 +3672,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "Easily create surveys, polls, and other forms with that are relevant, engaging and effective with Copilot in Forms.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "6a21bfbd-21b3-4e48-946c-7603b129521c"
@@ -3689,7 +3689,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "Boost your productivity and collaboration, streamline interaction with your site, pages, and files.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "1ec20ffb-5f02-43f3-bafb-6b0e99f42a4c",
@@ -3708,7 +3708,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "SharePoint agents can answer questions about the content on any SharePoint site or document library that the asker has permissions with.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "69e2faf9-2c1e-4baa-8305-23e625021bcf",
@@ -3730,7 +3730,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "Copilot in Stream helps you to quickly and effectively catch up to videos in your organization.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "0b531ea9-2d9d-4830-97e4-2c1b2b8ca31d"
@@ -3747,7 +3747,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "Copilot in Viva Amplify helps you find the best wording to make sure your publications communicate your message effectively.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "768222a0-9b83-402f-861e-9f7691183368",
@@ -3765,7 +3765,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "Create posts and improve your online presence and engagement in the Engage Teams app or on the web with Copilot in Viva Engage.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "f43f275f-4eeb-4df0-baf9-c7db57329bd2",
@@ -3785,7 +3785,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "Use Copilot in Viva Pulse to automatically summarize survey results.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "c271f112-6c23-46e0-ae9c-e7b5f9584b24",
@@ -3803,7 +3803,7 @@
     "Source": "Microsoft",
     "CatId": "b40d7a3e-9357-4a03-84b4-fa98e2dbfe13",
     "Description": "Use Microsoft 365 Copilot to get ready for your work day, catch up on emails, find relevant files, and discover what was said.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "023638f0-684d-4c91-8110-21a9269adf6b",      
@@ -3824,7 +3824,7 @@
     "Source": "Microsoft",
     "CatId": "b40d7a3e-9357-4a03-84b4-fa98e2dbfe13",
     "Description": "Take action on your to-do list.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "6fdd7c6a-2db5-4882-a8aa-f2c2f6b3aa48",
@@ -3846,7 +3846,7 @@
     "Source": "Microsoft",
     "CatId": "b40d7a3e-9357-4a03-84b4-fa98e2dbfe13",
     "Description": "Recap your week and set your priorities for next week with Copilot.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "d33438f4-a4be-42e0-9531-e02e25037859",
@@ -3865,7 +3865,7 @@
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
     "Description": "Explore what you can get done with Copilot prompts.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "f6c3b467-f07c-4db1-ae54-ffac96184dd5",
@@ -3889,7 +3889,7 @@
     "Source": "Microsoft",
     "CatId": "c9ded195-c2ab-4089-ae9f-fcb1ec1e4804",
     "Description": "Learn the basics of building automated workflows that save time and reduce manual effort. ",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "a9c3e03b-0654-46af-a254-20252e580d01",
@@ -3909,7 +3909,7 @@
     "Source": "Microsoft",
     "CatId": "0a89d391-5a86-42c9-a3ae-03a18ebc19b7",
     "Description": "Learn the basics of how to use Clipchamp to create and edit videos for work and personal use.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "750e8940-cd76-4abf-9767-b34d3d3285d7",
@@ -3932,7 +3932,7 @@
     "Source": "Microsoft",
     "CatId": "9c14c00c-1c53-45e0-9ea2-ffe9265d4336",
     "Description": "Learn the basics of how to use Visio to create and edit diagrams.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "75a50ce3-6f12-4cf6-9b96-5e2026b8a3fe",
@@ -3951,7 +3951,7 @@
     "Source": "Microsoft",
     "CatId": "9c14c00c-1c53-45e0-9ea2-ffe9265d4336",
     "Description": "Learn how to format pages and text in Visio.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "79c1ea54-a9a6-46ce-a4ca-798fa51c7f01",
@@ -3971,7 +3971,7 @@
     "Source": "Microsoft",
     "CatId": "3545fd1f-e834-4a3f-8106-a67b866bc611",
     "Description": "Learn the basics of building apps with Power Apps.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "66eb28d7-8fd3-4926-ad58-af3ffbe150c2",
@@ -3991,7 +3991,7 @@
     "Source": "Microsoft",
     "CatId": "3545fd1f-e834-4a3f-8106-a67b866bc611",
     "Description": "Learn how to use Copilot with Power Apps to enhance your app development.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "2767f8d4-8a1b-478f-80c1-070e209f1fae",
@@ -4009,7 +4009,7 @@
     "Source": "Microsoft",
     "CatId": "3545fd1f-e834-4a3f-8106-a67b866bc611",
     "Description": "Learn the basics of creating can",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "32d8135e-a9f5-465d-927a-6b475a8552b8",

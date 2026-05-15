@@ -66,8 +66,13 @@
       "Subjects": []
     },
     {
+      "Id": "411f7436-e4ac-4588-85ec-6774679e31e0",
+      "Name": "Power Apps",
+      "Subjects": []
+    },
+    {
       "Id": "b23dbda3-b7a6-4c19-be53-baff2d62cd7e",
-      "Name": "Power Platform",
+      "Name": "Power Automate",
       "Subjects": []
     },
     {
@@ -447,7 +452,7 @@
           "Id": "3545fd1f-e834-4a3f-8106-a67b866bc611",
           "Name": "Power Apps",
           "Image": "images/categories/power-apps.png",
-          "TechnologyId": "b23dbda3-b7a6-4c19-be53-baff2d62cd7e",
+          "TechnologyId": "411f7436-e4ac-4588-85ec-6774679e31e0",
           "SubjectId": "",
           "Source": "Microsoft",
           "SubCategories": []

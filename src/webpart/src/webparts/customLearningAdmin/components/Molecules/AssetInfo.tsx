@@ -18,8 +18,9 @@ import * as strings from "M365LPStrings";
 import AssetDetailsCommands from "../Atoms/AssetDetailsCommands";
 import AssetDetails from "./AssetDetails";
 import AssetSearchPanel from "./AssetSearchPanel";
-import { IAsset, ITechnology, IPlaylist, IMultilingualString, Asset } from "../../../common/models/Models";
+import { IAsset, ITechnology, IPlaylist, IMultilingualString, Asset, IMetadataEntry } from "../../../common/models/Models";
 import { CustomWebpartSource, SearchFields } from "../../../common/models/Enums";
+import { params } from "../../../common/services/Parameters";
 
 export interface IAssetInfoProps {
   editDisabled: boolean;
@@ -250,6 +251,15 @@ export default class AssetInfo extends React.Component<IAssetInfoProps, IAssetIn
     });
   }
 
+  private getStatusTag(statusTagId: string): IMetadataEntry {
+    let retVal = params.statusTags[5];
+    const statusTag = params.statusTags.find(s => s.Id === statusTagId);
+    if (statusTag){
+      retVal = statusTag;
+    }      
+    return retVal;
+  }
+
   private getPivotItems = (): IHOOPivotItem[] => {
     const pivotItems: IHOOPivotItem[] = [];
     try {
@@ -301,6 +311,7 @@ export default class AssetInfo extends React.Component<IAssetInfoProps, IAssetIn
                 <AssetDetails
                   technologies={this.props.technologies}
                   asset={this.state.editAsset}
+                  assetStatus={this.getStatusTag(this.state.editAsset.StatusTagId)}
                   cancel={() => { this.setState({ editAsset: null, edit: false }); }}
                   save={this.upsertAsset}
                   edit={true} />
@@ -318,6 +329,7 @@ export default class AssetInfo extends React.Component<IAssetInfoProps, IAssetIn
                     <AssetDetailsCommands
                       assetIndex={index}
                       assetTotal={this.props.playlist.Assets.length - 1}
+                      assetStatus={this.getStatusTag(asset.StatusTagId)}
                       assetTitle={(asset.Title instanceof Array) ? (asset.Title as IMultilingualString[])[0].Text : asset.Title as string}
                       editDisabled={this.props.editDisabled || (asset && asset.Source !== CustomWebpartSource.Tenant) || (this.state.edit)}
                       allDisabled={this.props.editDisabled}
@@ -333,6 +345,7 @@ export default class AssetInfo extends React.Component<IAssetInfoProps, IAssetIn
                       <AssetDetails
                         technologies={this.props.technologies}
                         asset={asset}
+                        assetStatus={this.getStatusTag(asset.StatusTagId)}
                         cancel={() => { this.setState({ editAsset: null, edit: false }); }}
                         save={this.upsertAsset}
                         edit={this.state.edit} />

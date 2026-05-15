@@ -5,12 +5,15 @@ import HOOButton from "@n8d/htwoo-react/HOOButton";
 import HOOIcon from "@n8d/htwoo-react/HOOIcon";
 
 import * as strings from "M365LPStrings";
+import { IMetadataEntry } from "../../../common/models/Models";
+import styles from "../../../common/CustomLearningCommon.module.scss";
 
 
 export interface IAssetDetailsCommandsProps {
   assetIndex: number;
   assetTotal: number;
   assetTitle: string;
+  assetStatus: IMetadataEntry
   editDisabled: boolean;
   allDisabled: boolean;
   edit: () => void;
@@ -31,6 +34,13 @@ export default class AssetDetailsCommands extends React.PureComponent<IAssetDeta
     try {
       return (
         <div className="pl-edit-item">
+          {this.props.assetStatus &&
+            <HOOIcon
+              iconName={this.props.assetStatus.Id === "c11c485b-496d-479b-88a3-1744a7a028d7" ? "icon-star-emphasis-regular" : "icon-circle-filled"}
+              rootElementAttributes={{className : this.props.assetStatus.Id === "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664" ? styles.error : styles.info, "title" : this.props.assetStatus ? this.props.assetStatus.Name : "" }}
+            />
+          }
+          
           {!this.props.editDisabled &&
             <HOOIcon
               iconName="icon-person-available-regular"

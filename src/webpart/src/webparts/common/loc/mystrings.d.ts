@@ -43,6 +43,7 @@ declare interface IM365LPStrings {
   DetailEditCategory: string;
   DetailEditCategoryNoData: string;
   DetailEditTechnology: string;
+  DetailEditStatus: string;
   DetailEditLevel: string;
   DetailEditAudience: string;
   AssetSearchPlaceHolderLabel: string;

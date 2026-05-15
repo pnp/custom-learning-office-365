@@ -50,7 +50,7 @@ $baseFolder: '../../../../node_modules/';
 	padding-bottom: 100px;
 
 	.info {
-		color: #107c10;
+		color: #107c10; 
 	}
 
 	.error {
@@ -153,6 +153,16 @@ $baseFolder: '../../../../node_modules/';
 				width: 100%;
 
 				break-inside: avoid-column;
+			}
+		}
+
+		.inlineIcon{
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-start;
+
+			p{
+				margin-bottom:unset;
 			}
 		}
 

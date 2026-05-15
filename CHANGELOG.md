@@ -1,5 +1,11 @@
 # Change Log
 
+## Version 5.0.0.11
+
+This release includes new functionality to show if an asset or playlist has been depricated. 
+
+- New playlist for Clipchamp
+
 ## Content Update March 2026
 
 This release includes new documentation for the [JSON Schema for custom content packs](/installation/JSONSchema.md) and [how to create a custom content pack](/installation/CreateCustomContentPack.md).

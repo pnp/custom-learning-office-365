@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(awk 'NR>=3408 && NR<=4019 && /StatusTagId/' /Users/derekcash-peterson/Documents/Projects/custom-learning-office-365/docs/learningpathways/v4/en-us/playlists.json)",
+      "Read(//Users/derekcash-peterson/Documents/Projects/custom-learning-office-365/NR>=3408 && NR<=4019 && /dda75593-7969-4d64-bff1-1c21bb2d8c8b/**)",
+      "Bash(python3:*)"
+    ],
+    "additionalDirectories": [
+      "/Users/derekcash-peterson/Documents/Projects/custom-learning-office-365/docs/learningpathways/v4/en-us"
+    ]
+  }
+}

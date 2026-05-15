@@ -1,0 +1,33 @@
+name: Run Deprication Report
+
+defaults:
+  run:
+    shell: bash
+
+env:
+  NODE_VERSION: 22.x
+
+on:
+  workflow_dispatch:
+  
+jobs:
+  replace-localization:
+    name: Check for depricated assets
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo codebase
+        uses: actions/checkout@v6
+        with:
+          clean: true
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+          cache-dependency-path: '.github/workflows/scripts/package-lock.json'
+      - name: Install dependencies
+        working-directory: .github/workflows/scripts
+        run: npm ci
+      - name: Run deprication report script
+        run: node .github/workflows/scripts/depricationReport.js
+    

@@ -44,6 +44,7 @@ define([], (): IM365LPStrings => {
     DetailEditCategory: "类别",
     DetailEditCategoryNoData: "无可用类别",
     DetailEditTechnology: "技术",
+    DetailEditStatus: "地位",
     DetailEditLevel: "级别",
     DetailEditAudience: "受众",
     AssetSearchPlaceHolderLabel: "搜索现有资产",

@@ -1,7 +1,7 @@
 [
   {
     "Id": "959166d8-1cb7-4315-af20-541598ebecaa",
-  "Title": "6つの簡単なステップ - Microsoft 365 へようこそ",
+    "Title": "6つの簡単なステップ - Microsoft 365 へようこそ",
     "Image": "images/playlists/six_simple_steps_-_welcome_to_office_365.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -9,7 +9,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9bde32c3-2f0b-4201-b4a3-74cef2c8f61d",
-  "Description": "6つの簡単なステップで Microsoft 365 を始めましょう。office.com にサインインして開始し、クラウドにファイルを安全に作成・保存し、ファイルを共有してリアルタイムで他の人と共同作業し、Microsoft Teams でチームやチャネルで作業し、モバイルアプリを設定し、新しいことに挑戦しましょう。",
+    "Description": "6つの簡単なステップで Microsoft 365 を始めましょう。office.com にサインインして開始し、クラウドにファイルを安全に作成・保存し、ファイルを共有してリアルタイムで他の人と共同作業し、Microsoft Teams でチームやチャネルで作業し、モバイルアプリを設定し、新しいことに挑戦しましょう。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -24,7 +24,7 @@
   },
   {
     "Id": "bb92e79e-fe45-4f82-83ab-704b75bb6223",
-  "Title": "Teams の使い方を始める",
+    "Title": "Teams の使い方を始める",
     "Image": "images/playlists/manage_meetings.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -32,7 +32,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9bde32c3-2f0b-4201-b4a3-74cef2c8f61d",
-  "Description": "7つの簡単なステップで Teams を始めましょう。チームとチャネルの概要、チームの立ち上げ方法、チャネルでの作業、ファイルのアップロードと共有、チャットの開始とピン留め、Teams 会議への参加、会議の管理方法を学びます。",
+    "Description": "7つの簡単なステップで Teams を始めましょう。チームとチャネルの概要、チームの立ち上げ方法、チャネルでの作業、ファイルのアップロードと共有、チャットの開始とピン留め、Teams 会議への参加、会議の管理方法を学びます。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -47,7 +47,7 @@
   },
   {
     "Id": "31fe13c5-ec7d-4a3c-98db-89292b0c0824",
-  "Title": "Teams でチャットベースのワークスペースを作成する",
+    "Title": "Teams でチャットベースのワークスペースを作成する",
     "Image": "images/playlists/provide_a_chat-based_workspace_with_teams.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -55,7 +55,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "07aa7fb7-a187-4a04-a044-f881626a8cba",
-  "Description": "チームで作成し意思決定できる場所があれば、達成できることに限界はありません。Teams を使って、チャット、会議、ファイル共有、ビジネスアプリでの作業を一つの共有ワークスペースにまとめる方法を学びましょう。",
+    "Description": "チームで作成し意思決定できる場所があれば、達成できることに限界はありません。Teams を使って、チャット、会議、ファイル共有、ビジネスアプリでの作業を一つの共有ワークスペースにまとめる方法を学びましょう。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -70,7 +70,7 @@
   },
   {
     "Id": "fe736497-1a7c-4397-9963-17aab7e64557",
-  "Title": "インパクトのあるコンテンツを一緒に作成する",
+    "Title": "インパクトのあるコンテンツを一緒に作成する",
     "Image": "images/playlists/create_impactful_content_together.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -78,7 +78,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "07aa7fb7-a187-4a04-a044-f881626a8cba",
-  "Description": "Microsoft 365 でインパクトのあるコンテンツを一緒に作成しましょう。Microsoft 365 の概要、サインイン方法、ファイルの作成・保存・共有、他の人との共同作業、OneDrive から SharePoint Online へのファイル移動、ファイルやフォルダーの共有方法を学びます。",
+    "Description": "Microsoft 365 でインパクトのあるコンテンツを一緒に作成しましょう。Microsoft 365 の概要、サインイン方法、ファイルの作成・保存・共有、他の人との共同作業、OneDrive から SharePoint Online へのファイル移動、ファイルやフォルダーの共有方法を学びます。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -92,7 +92,7 @@
   },
   {
     "Id": "2ab5e51a-67b9-44af-9ca6-de681329f813",
-  "Title": "OneDrive でファイルを保存・共有する",
+    "Title": "OneDrive でファイルを保存・共有する",
     "Image": "images/playlists/save_and_share_files_with_onedrive.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -100,7 +100,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "07aa7fb7-a187-4a04-a044-f881626a8cba",
-  "Description": "OneDrive でファイルを保存・共有する方法を学びましょう。OneDrive の概要、基本操作、ファイルやフォルダーの作成・アップロード、ファイルとフォルダーの同期、スマートフォンやタブレットでの OneDrive モバイルアプリの設定方法を紹介します。",
+    "Description": "OneDrive でファイルを保存・共有する方法を学びましょう。OneDrive の概要、基本操作、ファイルやフォルダーの作成・アップロード、ファイルとフォルダーの同期、スマートフォンやタブレットでの OneDrive モバイルアプリの設定方法を紹介します。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -116,7 +116,7 @@
   },
   {
     "Id": "a40ae370-557f-4a5b-9b17-3d14bbb6893e",
-  "Title": "SharePoint でサイトとコンテンツを共有する",
+    "Title": "SharePoint でサイトとコンテンツを共有する",
     "Image": "images/playlists/share_sites_and_content_with_sharepoint.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -124,7 +124,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "07aa7fb7-a187-4a04-a044-f881626a8cba",
-  "Description": "SharePoint でサイトやコンテンツを共有する方法を学びます。SharePoint Online の概要、サイトやニュース、コンテンツの検索とフォロー、ドキュメント ライブラリでのファイルの作成・アップロード・共有、ファイルやフォルダーの同期、ファイル オン デマンドでの同期、モバイル デバイスでの接続方法などを紹介します。",
+    "Description": "SharePoint でサイトやコンテンツを共有する方法を学びます。SharePoint Online の概要、サイトやニュース、コンテンツの検索とフォロー、ドキュメント ライブラリでのファイルの作成・アップロード・共有、ファイルやフォルダーの同期、ファイル オン デマンドでの同期、モバイル デバイスでの接続方法などを紹介します。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -138,7 +138,7 @@
   },
   {
     "Id": "1bb00cc3-21a5-432d-b535-4b970feb332c",
-  "Title": "Yammer で組織をつなぐ",
+    "Title": "Yammer で組織をつなぐ",
     "Image": "images/playlists/connect_your_organization_with_yammer.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -146,7 +146,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "e83da7d3-653c-4c01-a262-336e07b88aba",
-  "Description": "Yammer で組織をつなぐ方法を学びます。Yammer の概要、サインインやプロフィール編集、通知設定、投稿へのいいね・返信・共有、投稿やファイルの添付・更新、コミュニティへの参加・作成、ファイルやコミュニティ リソースの共有方法などを紹介します。",
+    "Description": "Yammer で組織をつなぐ方法を学びます。Yammer の概要、サインインやプロフィール編集、通知設定、投稿へのいいね・返信・共有、投稿やファイルの添付・更新、コミュニティへの参加・作成、ファイルやコミュニティ リソースの共有方法などを紹介します。",
     "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": "",
     "Assets": [
@@ -161,7 +161,7 @@
   },
   {
     "Id": "fbf60a54-6a6c-4c6d-a121-c478f9531a98",
-  "Title": "Microsoft 365 アクセシビリティ概要とリソース",
+    "Title": "Microsoft 365 アクセシビリティ概要とリソース",
     "Image": "images/playlists/microsoft-365-accessiblitiy-overview-and-resources.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -169,7 +169,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
-  "Description": "Microsoft 365 のアクセシビリティ概要とリソースをすぐに利用しましょう。メール送信やファイル共有の前にアクセシビリティ チェッカーを実行し、すべての人が読み書きできるコンテンツか確認します。Microsoft 365 アクセシビリティの紹介、アクセシビリティ チェッカーの使い方、Office のアクセシブル テンプレートの入手方法などを学びます。",
+    "Description": "Microsoft 365 のアクセシビリティ概要とリソースをすぐに利用しましょう。メール送信やファイル共有の前にアクセシビリティ チェッカーを実行し、すべての人が読み書きできるコンテンツか確認します。Microsoft 365 アクセシビリティの紹介、アクセシビリティ チェッカーの使い方、Office のアクセシブル テンプレートの入手方法などを学びます。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -180,7 +180,7 @@
   },
   {
     "Id": "cf352e8f-caf6-4e52-86d5-ae218004e089",
-  "Title": "Outlook でよりアクセシブルなメールを作成する",
+    "Title": "Outlook でよりアクセシブルなメールを作成する",
     "Image": "images/playlists/create-more-accessible-emails-in-outlook.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -188,7 +188,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
-  "Description": "Outlook で視覚に制限のある方にも読みやすいアクセシブルなメールを作成する方法を学びます。HTML を既定のメッセージ形式に設定、既定フォントの設定、アクセシブルな署名の作成、画像への代替テキスト追加、箇条書きや表で構造を付与し、スクリーン リーダーが順序や関係を伝えやすくする方法などを紹介します。",
+    "Description": "Outlook で視覚に制限のある方にも読みやすいアクセシブルなメールを作成する方法を学びます。HTML を既定のメッセージ形式に設定、既定フォントの設定、アクセシブルな署名の作成、画像への代替テキスト追加、箇条書きや表で構造を付与し、スクリーン リーダーが順序や関係を伝えやすくする方法などを紹介します。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -199,7 +199,7 @@
   },
   {
     "Id": "76253e80-b36d-479a-9267-e73f2b5a8600",
-  "Title": "Word 文書をよりアクセシブルに作成する",
+    "Title": "Word 文書をよりアクセシブルに作成する",
     "Image": "images/playlists/create-more-accessible-word-documents.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -207,7 +207,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
-  "Description": "アクセシビリティ チェッカーでアクセシビリティの問題を確認・修正し、Word 文書をよりアクセシブルに作成する方法を学びます。画像やオブジェクトへの代替テキスト追加、見出しスタイルの活用、意味のあるファイル名やハイパーリンクの作成、表で情報の関係を整理、スクリーン リーダー利用者向けのアクセシビリティ向上のコツなどを紹介します。",
+    "Description": "アクセシビリティ チェッカーでアクセシビリティの問題を確認・修正し、Word 文書をよりアクセシブルに作成する方法を学びます。画像やオブジェクトへの代替テキスト追加、見出しスタイルの活用、意味のあるファイル名やハイパーリンクの作成、表で情報の関係を整理、スクリーン リーダー利用者向けのアクセシビリティ向上のコツなどを紹介します。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -221,7 +221,7 @@
   },
   {
     "Id": "c4d3a610-6289-4979-b0b6-b679ef28c13b",
-  "Title": "Excel ブックをよりアクセシブルに作成する",
+    "Title": "Excel ブックをよりアクセシブルに作成する",
     "Image": "images/playlists/create-more-accessible-excel-spread-sheets.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -229,7 +229,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
-  "Description": "グラフや表、説明的なラベル、画像やオブジェクトへの代替テキスト追加で、Excel ブックをよりアクセシブルに作成する方法を学びます。アクセシブル テンプレートの検索と利用、テンプレートの特徴、見出し・ラベル・シート名を説明的にして、すべての人がデータを理解しやすくする方法を紹介します。",
+    "Description": "グラフや表、説明的なラベル、画像やオブジェクトへの代替テキスト追加で、Excel ブックをよりアクセシブルに作成する方法を学びます。アクセシブル テンプレートの検索と利用、テンプレートの特徴、見出し・ラベル・シート名を説明的にして、すべての人がデータを理解しやすくする方法を紹介します。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -240,7 +240,7 @@
   },
   {
     "Id": "776fc7e7-cd09-4968-887f-cc04e8558b9e",
-  "Title": "PowerPoint プレゼンテーションをよりアクセシブルに作成する",
+    "Title": "PowerPoint プレゼンテーションをよりアクセシブルに作成する",
     "Image": "images/playlists/create-more-accessible-slides.in-powerpoint.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -248,7 +248,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "5bbbe57f-709b-40b2-bec8-af0633d3582b",
-  "Description": "PowerPoint プレゼンテーションをよりアクセシブルに作成する方法を学びます。アクセシブルな読み順のスライド作成、アクセシブル テンプレートやフォントの利用、グラフ・画像・ビジュアルへの代替テキスト追加、色覚障害や視覚・読字障害のある方にも見やすいグラフや画像のコツ、スクリーン リーダーで読める形式での保存方法などを紹介します。",
+    "Description": "PowerPoint プレゼンテーションをよりアクセシブルに作成する方法を学びます。アクセシブルな読み順のスライド作成、アクセシブル テンプレートやフォントの利用、グラフ・画像・ビジュアルへの代替テキスト追加、色覚障害や視覚・読字障害のある方にも見やすいグラフや画像のコツ、スクリーン リーダーで読める形式での保存方法などを紹介します。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -261,7 +261,7 @@
   },
   {
     "Id": "a19e4916-4fbe-42e4-95b6-8e85cb12a47b",
-  "Title": "共同作業",
+    "Title": "共同作業",
     "Image": "images/playlists/playlist_bw.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -269,7 +269,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "a7f1ca95-e0eb-4715-b846-89fc8d2afa56",
-  "Description": "一緒に最高の仕事をしましょう。Microsoft 365 を使えば、誰とでもどこでも共同作業ができます。共有、共同編集、コメント、会議など Microsoft 365 製品とサービスでのコラボレーション方法を学びます。",
+    "Description": "一緒に最高の仕事をしましょう。Microsoft 365 を使えば、誰とでもどこでも共同作業ができます。共有、共同編集、コメント、会議など Microsoft 365 製品とサービスでのコラボレーション方法を学びます。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -283,7 +283,7 @@
   },
   {
     "Id": "19a310b9-b50c-44ae-96e2-b30f17a38528",
-  "Title": "効果的な会議を運営する",
+    "Title": "効果的な会議を運営する",
     "Image": "images/playlists/hybrid_eff_meetings.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -291,7 +291,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
-  "Description": "効果的なハイブリッド会議の運営方法を学びます。会議のコツ、注意点、会議前・中・後にすべきこと、効果的な会議のスケジュール・計画・進行、チェックリストの活用、参加者の巻き込み、会議疲れの軽減方法などを紹介します。",
+    "Description": "効果的なハイブリッド会議の運営方法を学びます。会議のコツ、注意点、会議前・中・後にすべきこと、効果的な会議のスケジュール・計画・進行、チェックリストの活用、参加者の巻き込み、会議疲れの軽減方法などを紹介します。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -308,7 +308,7 @@
   },
   {
     "Id": "3cbbe474-ef4d-4154-aeb1-9a01d51764d4",
-  "Title": "インクルーシブな会議環境を作る",
+    "Title": "インクルーシブな会議環境を作る",
     "Image": "images/playlists/hybrid_incl_meetings.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -316,7 +316,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
-  "Description": "インクルーシブな会議環境の作り方を学びます。すべての人がアクセスできる会議やコンテンツの工夫、会議中の気が散る要素の制限、タイムゾーンを超えた共感の醸成方法などを紹介します。",
+    "Description": "インクルーシブな会議環境の作り方を学びます。すべての人がアクセスできる会議やコンテンツの工夫、会議中の気が散る要素の制限、タイムゾーンを超えた共感の醸成方法などを紹介します。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -328,7 +328,7 @@
   },
   {
     "Id": "fdaae787-a991-40ae-ad83-87f05c8cf8ea",
-  "Title": "非同期コラボレーションと共同編集",
+    "Title": "非同期コラボレーションと共同編集",
     "Image": "images/playlists/hybrid_async_collab.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -336,7 +336,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
-  "Description": "非同期コラボレーションや共同編集で会議を減らす・置き換える方法を学びます。Microsoft 365 でのコラボレーションのベストプラクティス、Office アプリ・Teams・OneDrive・SharePoint での共同編集、よくある共同編集エラーの対処法などを紹介します。",
+    "Description": "非同期コラボレーションや共同編集で会議を減らす・置き換える方法を学びます。Microsoft 365 でのコラボレーションのベストプラクティス、Office アプリ・Teams・OneDrive・SharePoint での共同編集、よくある共同編集エラーの対処法などを紹介します。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -353,7 +353,7 @@
   },
   {
     "Id": "6f3bbc71-627d-4427-9635-6aadd0a203f9",
-  "Title": "ライブイベントで大規模な聴衆にリーチする",
+    "Title": "ライブイベントで大規模な聴衆にリーチする",
     "Image": "images/playlists/hybrid_live_events.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -361,7 +361,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
-  "Description": "ライブイベントで大規模な聴衆にリーチする方法を学びます。Teams でのライブイベントの開始・計画・スケジュール設定、Viva Engage でのライブイベントのスケジュール方法などを紹介します。",
+    "Description": "ライブイベントで大規模な聴衆にリーチする方法を学びます。Teams でのライブイベントの開始・計画・スケジュール設定、Viva Engage でのライブイベントのスケジュール方法などを紹介します。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -372,7 +372,7 @@
   },
   {
     "Id": "285da770-2eb7-41ca-b403-c782ac69cd5d",
-  "Title": "健康を保つ",
+    "Title": "健康を保つ",
     "Image": "images/playlists/hybrid_stay_well.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -380,7 +380,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
-  "Description": "セルフケアのコツを実践して健康を保ちましょう。食事・休憩・運動のためにカレンダーをブロック、Teams で空き時間や予定をステータス表示、Teams チャンネルでの交流、通知の管理、Windows 10 の集中モードで集中力を高める方法などを紹介します。",
+    "Description": "セルフケアのコツを実践して健康を保ちましょう。食事・休憩・運動のためにカレンダーをブロック、Teams で空き時間や予定をステータス表示、Teams チャンネルでの交流、通知の管理、Windows 10 の集中モードで集中力を高める方法などを紹介します。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -394,7 +394,7 @@
   },
   {
     "Id": "21f572e7-98eb-49f3-9ff0-a9dc8eed583a",
-  "Title": "つながりを保つ",
+    "Title": "つながりを保つ",
     "Image": "images/playlists/hybrid_stay_connect.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -402,7 +402,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
-  "Description": "社会的つながりやソーシャルキャピタルは健康や仕事満足度の向上に関連します。ハイブリッド職場でつながりを保つには、Teams 会議やチャットで少人数ランチやソーシャルアワーなどのカジュアルな場を作る方法、定期的な 1on1 の継続や分割、チーム全体の情報共有に役立つチャンネル会話の活用などを紹介します。",
+    "Description": "社会的つながりやソーシャルキャピタルは健康や仕事満足度の向上に関連します。ハイブリッド職場でつながりを保つには、Teams 会議やチャットで少人数ランチやソーシャルアワーなどのカジュアルな場を作る方法、定期的な 1on1 の継続や分割、チーム全体の情報共有に役立つチャンネル会話の活用などを紹介します。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -413,7 +413,7 @@
   },
   {
     "Id": "8bbe76ed-6ac6-41a4-a253-3dd680cc15ef",
-  "Title": "生産性を保つ",
+    "Title": "生産性を保つ",
     "Image": "images/playlists/hybrid_stay_productive.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -421,7 +421,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
-  "Description": "生産性を高めるために物理・仮想ワークスペースを整えましょう。ハイブリッド・対面どちらが適したタスクや会議かを見極めてスケジュールを計画、Teams で集中時間や静かな時間・日を設定、ステータスメッセージの活用、チームの生産性向上のための最適な出社日やリモートワーク、会議の必要性や任意性の判断方法などを紹介します。",
+    "Description": "生産性を高めるために物理・仮想ワークスペースを整えましょう。ハイブリッド・対面どちらが適したタスクや会議かを見極めてスケジュールを計画、Teams で集中時間や静かな時間・日を設定、ステータスメッセージの活用、チームの生産性向上のための最適な出社日やリモートワーク、会議の必要性や任意性の判断方法などを紹介します。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -431,7 +431,7 @@
   },
   {
     "Id": "fa3a7737-b33d-4481-9b80-416d20b9ca9f",
-  "Title": "Microsoft 365 を仕事とデバイス全体で活用する",
+    "Title": "Microsoft 365 を仕事とデバイス全体で活用する",
     "Image": "images/playlists/use_across_devices.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -439,7 +439,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9030ff2c-5549-4ffe-8dc9-4dc184241dec",
-  "Description": "Microsoft 365 を仕事やあらゆるデバイスで活用し、つながりを保ち、ノートの作成・閲覧、どのデバイスからもファイルにアクセス、インパクトのあるコンテンツ作成、時間短縮、デジタルインクで自由に表現、3D で仕事を魅力的に、アクセシビリティやセキュリティ・プライバシーの確保などを紹介します。",
+    "Description": "Microsoft 365 を仕事やあらゆるデバイスで活用し、つながりを保ち、ノートの作成・閲覧、どのデバイスからもファイルにアクセス、インパクトのあるコンテンツ作成、時間短縮、デジタルインクで自由に表現、3D で仕事を魅力的に、アクセシビリティやセキュリティ・プライバシーの確保などを紹介します。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -456,7 +456,7 @@
   },
   {
     "Id": "9647e1aa-63a1-48d1-aea9-b0913f0f1e0b",
-  "Title": "Microsoft 365 をチーム全体で活用する",
+    "Title": "Microsoft 365 をチーム全体で活用する",
     "Image": "images/playlists/use_across_team.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -464,7 +464,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9030ff2c-5549-4ffe-8dc9-4dc184241dec",
-  "Description": "Microsoft 365 をチーム全体で活用し、チームの作成・整理、会話の最適化、Teams での共同作業、会議の管理、ファイルの共同編集方法などを学びます。",
+    "Description": "Microsoft 365 をチーム全体で活用し、チームの作成・整理、会話の最適化、Teams での共同作業、会議の管理、ファイルの共同編集方法などを学びます。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -477,7 +477,7 @@
   },
   {
     "Id": "cb4effb6-f78e-444a-98b7-6274ad2fe70c",
-  "Title": "Microsoft 365 を組織全体で活用する",
+    "Title": "Microsoft 365 を組織全体で活用する",
     "Image": "images/playlists/use_across_org.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -485,7 +485,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9030ff2c-5549-4ffe-8dc9-4dc184241dec",
-  "Description": "Microsoft 365 を組織全体で活用し、Viva Engage でネットワーク構築、SharePoint でホームベース設定、Microsoft Stream でビデオポータルを構築する方法を紹介します。",
+    "Description": "Microsoft 365 を組織全体で活用し、Viva Engage でネットワーク構築、SharePoint でホームベース設定、Microsoft Stream でビデオポータルを構築する方法を紹介します。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -496,7 +496,7 @@
   },
   {
     "Id": "1f5ec8e6-5fef-481a-ad87-59842c3d539b",
-  "Title": "Office 365 で始めるデジタルライフの一日",
+    "Title": "Office 365 で始めるデジタルライフの一日",
     "Image": "images/playlists/digital_day.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -504,7 +504,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9030ff2c-5549-4ffe-8dc9-4dc184241dec",
-  "Description": "Office 365 でデジタルライフをよりシンプルにする新しい方法を発見しましょう。デジタルな一日の始め方、朝のコーヒータイムや通勤中、オフィスでの会議、同僚との共同作業、社内でのつながり、フィッシングから身を守る方法などを紹介します。",
+    "Description": "Office 365 でデジタルライフをよりシンプルにする新しい方法を発見しましょう。デジタルな一日の始め方、朝のコーヒータイムや通勤中、オフィスでの会議、同僚との共同作業、社内でのつながり、フィッシングから身を守る方法などを紹介します。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -518,7 +518,7 @@
   },
   {
     "Id": "e51271b2-b4c0-4038-aa97-e4498c953afe",
-  "Title": "サイバーセキュリティの基礎",
+    "Title": "サイバーセキュリティの基礎",
     "Image": "images/playlists/LP-security-security-at-work.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -526,7 +526,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "51a0828d-1d27-4931-b547-9f2a698f33d8",
-  "Description": "サイバーセキュリティの基礎を学びましょう。サイバーセキュリティや多要素認証、Windows セキュリティのファイアウォールとネットワーク保護、情報の過剰共有の危険性、タンパープロテクションによるデバイスの保護方法などを紹介します。",
+    "Description": "サイバーセキュリティの基礎を学びましょう。サイバーセキュリティや多要素認証、Windows セキュリティのファイアウォールとネットワーク保護、情報の過剰共有の危険性、タンパープロテクションによるデバイスの保護方法などを紹介します。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -538,7 +538,7 @@
   },
   {
     "Id": "72863bbc-46ae-41dc-885d-0edb0a8abaa4",
-  "Title": "デジタルセーフティ",
+    "Title": "デジタルセーフティ",
     "Image": "images/playlists/LP-security-security-at-home.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -546,7 +546,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "51a0828d-1d27-4931-b547-9f2a698f33d8",
-  "Description": "このデジタルセーフティモジュールでデータを安全に保つヒントを学びましょう。在宅勤務のセキュリティ強化、OneDrive での共同作業、無線接続の安全性向上、Windows セキュリティによる家族のオンライン保護方法などを紹介します。",
+    "Description": "このデジタルセーフティモジュールでデータを安全に保つヒントを学びましょう。在宅勤務のセキュリティ強化、OneDrive での共同作業、無線接続の安全性向上、Windows セキュリティによる家族のオンライン保護方法などを紹介します。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -557,7 +557,7 @@
   },
   {
     "Id": "5872570a-e8a6-4d84-8802-4dd053b4dabc",
-  "Title": "主な脅威",
+    "Title": "主な脅威",
     "Image": "images/playlists/LP-security-5-simple-steps.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -565,7 +565,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "51a0828d-1d27-4931-b547-9f2a698f33d8",
-  "Description": "このデジタルセーフティモジュールでデータを安全に保つヒントを学びましょう。在宅勤務のセキュリティ強化、OneDrive での共同作業、無線接続の安全性向上、Windows セキュリティによる家族のオンライン保護方法などを紹介します。",
+    "Description": "このデジタルセーフティモジュールでデータを安全に保つヒントを学びましょう。在宅勤務のセキュリティ強化、OneDrive での共同作業、無線接続の安全性向上、Windows セキュリティによる家族のオンライン保護方法などを紹介します。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -577,7 +577,7 @@
   },
   {
     "Id": "35f25052-fa93-4daf-8d2e-b29935a002d0",
-  "Title": "Microsoft 365 でリモートワークを実現する",
+    "Title": "Microsoft 365 でリモートワークを実現する",
     "Image": "images/playlists/work_remotely_with_o365.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -585,7 +585,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9eb8fc25-dd5b-4459-81e9-ae382aca7a78",
-  "Description": "Microsoft Teams と Office 365 を活用して、どこにいても一人でも他の人とでも仕事を進める方法を学びます。",
+    "Description": "Microsoft Teams と Office 365 を活用して、どこにいても一人でも他の人とでも仕事を進める方法を学びます。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -597,7 +597,7 @@
   },
   {
     "Id": "d59b1053-3756-4d9f-82a8-0ac97b11529c",
-  "Title": "Access クイックスタート",
+    "Title": "Access クイックスタート",
     "Image": "images/playlists/access-quick-start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -605,7 +605,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-  "Description": "Access クイックスタートで素早く始めましょう。データベースの作成、Excel からのデータインポート、主キーの追加、データベースのバックアップ、分割クエリ・分割フォーム・レポートの作成方法を紹介します。",
+    "Description": "Access クイックスタートで素早く始めましょう。データベースの作成、Excel からのデータインポート、主キーの追加、データベースのバックアップ、分割クエリ・分割フォーム・レポートの作成方法を紹介します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -617,7 +617,7 @@
   },
   {
     "Id": "3c376578-f821-4184-9365-75011c163f68",
-  "Title": "Access 入門",
+    "Title": "Access 入門",
     "Image": "images/playlists/access-intro-to-access.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -625,7 +625,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-  "Description": "Access 入門で、テンプレートを使った迅速なデータベース構築、データの検索・レポート作成、リッチなデータ入力フォームの作成、データソースのインポート・変換・エクスポート方法を学びます。データベースの基本概念や用語、良い設計、テーブル・クエリ・フォーム・レポート・マクロ・モジュールなどのオブジェクトを使ったデータベース作成手順も紹介します。",
+    "Description": "Access 入門で、テンプレートを使った迅速なデータベース構築、データの検索・レポート作成、リッチなデータ入力フォームの作成、データソースのインポート・変換・エクスポート方法を学びます。データベースの基本概念や用語、良い設計、テーブル・クエリ・フォーム・レポート・マクロ・モジュールなどのオブジェクトを使ったデータベース作成手順も紹介します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -636,7 +636,7 @@
   },
   {
     "Id": "e112c3e9-685f-41a0-abb5-718ee4f43bb5",
-  "Title": "Access データベースの作成",
+    "Title": "Access データベースの作成",
     "Image": "images/playlists/access-create-an-access-database.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -644,7 +644,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-  "Description": "Access データベースの作成方法を学びます。デスクトップデータベースと Access Web アプリの違いや設計時の考慮点（IT 要件、データ・設計へのアクセス、ビジネス目標・要件）も解説。テンプレート、ゼロから、または Access Web アプリでのデータベース作成方法を紹介します。",
+    "Description": "Access データベースの作成方法を学びます。デスクトップデータベースと Access Web アプリの違いや設計時の考慮点（IT 要件、データ・設計へのアクセス、ビジネス目標・要件）も解説。テンプレート、ゼロから、または Access Web アプリでのデータベース作成方法を紹介します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -655,7 +655,7 @@
   },
   {
     "Id": "91128a67-3846-4a87-98c5-de91402260eb",
-  "Title": "テーブルの追加",
+    "Title": "テーブルの追加",
     "Image": "images/playlists/access-add-tables.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -663,7 +663,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-  "Description": "テーブルの作成方法とデータ型の設定方法を学びます。",
+    "Description": "テーブルの作成方法とデータ型の設定方法を学びます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -674,7 +674,7 @@
   },
   {
     "Id": "6649c605-0d13-4420-9282-3fa590c2fbc4",
-  "Title": "リレーションシップの活用",
+    "Title": "リレーションシップの活用",
     "Image": "images/playlists/access-use-relations.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -682,7 +682,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-  "Description": "Access でリレーションシップを活用し、複数のテーブル間でデータを組み合わせてリレーショナルデータベースの力を引き出しましょう。リレーションシップビュー、テーブル間の関係の種類、編集方法、ルックアップウィザードやリレーションシップウィンドウでの作成、一対一・多対多リレーションシップの作成方法も学びます。",
+    "Description": "Access でリレーションシップを活用し、複数のテーブル間でデータを組み合わせてリレーショナルデータベースの力を引き出しましょう。リレーションシップビュー、テーブル間の関係の種類、編集方法、ルックアップウィザードやリレーションシップウィンドウでの作成、一対一・多対多リレーションシップの作成方法も学びます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -695,7 +695,7 @@
   },
   {
     "Id": "56aba6b0-660b-4f8c-a7d8-9b1ad7593bb4",
-  "Title": "データの追加と編集",
+    "Title": "データの追加と編集",
     "Image": "images/playlists/access-add-and-edit-data.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -703,7 +703,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-  "Description": "Access でデータを追加・編集する方法を学びます。Excel スプレッドシートからのデータコピーによる効率的な編集、強力なクエリや便利なレポート機能の活用、他のデータソース（Excel や SharePoint など）とのリンクによる常に最新データの利用方法も紹介します。",
+    "Description": "Access でデータを追加・編集する方法を学びます。Excel スプレッドシートからのデータコピーによる効率的な編集、強力なクエリや便利なレポート機能の活用、他のデータソース（Excel や SharePoint など）とのリンクによる常に最新データの利用方法も紹介します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -713,7 +713,7 @@
   },
   {
     "Id": "b16495f6-4216-4eed-b208-7280a885ebbf",
-  "Title": "クエリでデータを管理する",
+    "Title": "クエリでデータを管理する",
     "Image": "images/playlists/access-manage-data-with-queries.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -721,7 +721,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-  "Description": "Access のクエリでデータを管理し、ビジネス上の疑問に答えたり、一括更新やデータ削除を行ったりしましょう。クエリの概要、用途、作成方法、クエリデザインによる基本的な検索クエリの作成、複数データソースを使った結合・外部結合・中間テーブルの活用方法も学びます。",
+    "Description": "Access のクエリでデータを管理し、ビジネス上の疑問に答えたり、一括更新やデータ削除を行ったりしましょう。クエリの概要、用途、作成方法、クエリデザインによる基本的な検索クエリの作成、複数データソースを使った結合・外部結合・中間テーブルの活用方法も学びます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -734,7 +734,7 @@
   },
   {
     "Id": "4eb4ff40-6b3f-45a7-ade9-f879a79e70f9",
-  "Title": "フォームの作成",
+    "Title": "フォームの作成",
     "Image": "images/playlists/access-create-forms.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -742,7 +742,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-  "Description": "同じフォームやレポートをよく使う場合は、Access デスクトップデータベースでナビゲーションフォームを作成してまとめましょう。フォームやレポートの追加、ラベルの変更、ビジュアルテーマの適用、ナビゲーションフォームを既定の表示フォームに設定する方法を学びます。",
+    "Description": "同じフォームやレポートをよく使う場合は、Access デスクトップデータベースでナビゲーションフォームを作成してまとめましょう。フォームやレポートの追加、ラベルの変更、ビジュアルテーマの適用、ナビゲーションフォームを既定の表示フォームに設定する方法を学びます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -751,7 +751,7 @@
   },
   {
     "Id": "8580d541-b2ba-4ae2-bd06-ec26ebc59485",
-  "Title": "レポートの作成",
+    "Title": "レポートの作成",
     "Image": "images/playlists/access-create-reports.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -759,7 +759,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-  "Description": "Access で見やすく分かりやすいレポートを作成・書式設定する方法を学びます。Access のレポートツールで基本的なレポートを作成し、グループ化・並べ替え・集計の追加、テーマやロゴの追加、条件付き書式によるデータの強調表示、レポートの印刷方法などを紹介します。",
+    "Description": "Access で見やすく分かりやすいレポートを作成・書式設定する方法を学びます。Access のレポートツールで基本的なレポートを作成し、グループ化・並べ替え・集計の追加、テーマやロゴの追加、条件付き書式によるデータの強調表示、レポートの印刷方法などを紹介します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -769,7 +769,7 @@
   },
   {
     "Id": "82c6b011-7190-412e-9d3e-6410eae0d752",
-  "Title": "データベースの保護",
+    "Title": "データベースの保護",
     "Image": "images/playlists/access-protect-databases.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -777,7 +777,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-  "Description": "Access でデータベースを保護しましょう。システム障害やデータベースの破損・データ欠損、過去バージョンの確認や復元に備えて、定期的なバックアップが推奨されます。データベースのバックアップ・復元手順を紹介します。",
+    "Description": "Access でデータベースを保護しましょう。システム障害やデータベースの破損・データ欠損、過去バージョンの確認や復元に備えて、定期的なバックアップが推奨されます。データベースのバックアップ・復元手順を紹介します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -786,7 +786,7 @@
   },
   {
     "Id": "2aa461ea-18f5-47d4-a29c-e63fda70f75b",
-  "Title": "グラフの作成",
+    "Title": "グラフの作成",
     "Image": "images/playlists/access-add-text-and-pictures.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -794,7 +794,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "175c2d96-040d-4275-9405-b4549bd63dee",
-  "Description": "Access でデータを視覚的に表示するグラフを作成しましょう。縦棒グラフ、横棒グラフ、折れ線グラフ、円グラフ、複合グラフの作成・書式設定方法を学びます。",
+    "Description": "Access でデータを視覚的に表示するグラフを作成しましょう。縦棒グラフ、横棒グラフ、折れ線グラフ、円グラフ、複合グラフの作成・書式設定方法を学びます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -807,7 +807,7 @@
   },
   {
     "Id": "a8cbac83-f7e8-45ff-a4a6-6b04f31a5745",
-  "Title": "Excel クイックスタート",
+    "Title": "Excel クイックスタート",
     "Image": "images/playlists/excel_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -815,7 +815,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-  "Description": "Excel クイックスタートガイドですぐに始めましょう。ブックの作成、データ入力、OneDrive への保存、フラッシュフィルによる自動入力、オートサムでの計算、グラフ作成、クイック分析での条件付き書式、先頭行の固定、他の人との共有・共同作業、モバイルアプリの設定方法などを学びます。",
+    "Description": "Excel クイックスタートガイドですぐに始めましょう。ブックの作成、データ入力、OneDrive への保存、フラッシュフィルによる自動入力、オートサムでの計算、グラフ作成、クイック分析での条件付き書式、先頭行の固定、他の人との共有・共同作業、モバイルアプリの設定方法などを学びます。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -828,7 +828,7 @@
   },
   {
     "Id": "842fb550-07cb-42d1-9a9f-c55789efed57",
-  "Title": "Excel 入門",
+    "Title": "Excel 入門",
     "Image": "images/playlists/welcome_to_excel.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -836,7 +836,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-  "Description": "Excel 入門コースで、ブックの作成、ワークシートの挿入・削除・移動・コピー・印刷、計算機としての利用、自動入力、ドロップダウンリストの作成方法を学びます。",
+    "Description": "Excel 入門コースで、ブックの作成、ワークシートの挿入・削除・移動・コピー・印刷、計算機としての利用、自動入力、ドロップダウンリストの作成方法を学びます。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -851,7 +851,7 @@
   },
   {
     "Id": "7450f58a-517f-48ae-bace-248346e52275",
-  "Title": "行と列",
+    "Title": "行と列",
     "Image": "images/playlists/rows_and_columns.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -859,7 +859,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-  "Description": "Excel の行と列を使ってデータを整理しましょう。行や列の挿入・削除、内容の選択、ウィンドウ枠の固定、行や列の表示・非表示、一意値のフィルターや重複削除、テキストの列分割、連続日付リストの作成方法などを学びます。",
+    "Description": "Excel の行と列を使ってデータを整理しましょう。行や列の挿入・削除、内容の選択、ウィンドウ枠の固定、行や列の表示・非表示、一意値のフィルターや重複削除、テキストの列分割、連続日付リストの作成方法などを学びます。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -874,7 +874,7 @@
   },
   {
     "Id": "59b01879-ea2a-4f76-b2e4-e437fc45c61d",
-  "Title": "セル",
+    "Title": "セル",
     "Image": "images/playlists/cells.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -882,7 +882,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-  "Description": "Excel のセル操作を学びましょう。セルの移動・コピー、列幅や行高さの変更、ワークシート内のテキストや数値の検索・置換、セルの結合・解除、データ検証の適用、テキスト（.txt や .csv）ファイルのインポート・エクスポート方法などを紹介します。",
+    "Description": "Excel のセル操作を学びましょう。セルの移動・コピー、列幅や行高さの変更、ワークシート内のテキストや数値の検索・置換、セルの結合・解除、データ検証の適用、テキスト（.txt や .csv）ファイルのインポート・エクスポート方法などを紹介します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -896,7 +896,7 @@
   },
   {
     "Id": "e6656c9b-a36a-4143-8fe4-5b6de0d9486b",
-  "Title": "書式設定",
+    "Title": "書式設定",
     "Image": "images/playlists/formatting.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -904,7 +904,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-  "Description": "Excel で時間を節約し、ワークシートを自分やチームにとって使いやすくする書式設定方法を学びます。数値（通貨・パーセント・日付・電話番号）の書式設定、条件付き書式による視覚的強調、セル書式の変更・コピー、透かしの追加、ゼロ値の表示・非表示、カスタム数値書式の作成方法などを紹介します。",
+    "Description": "Excel で時間を節約し、ワークシートを自分やチームにとって使いやすくする書式設定方法を学びます。数値（通貨・パーセント・日付・電話番号）の書式設定、条件付き書式による視覚的強調、セル書式の変更・コピー、透かしの追加、ゼロ値の表示・非表示、カスタム数値書式の作成方法などを紹介します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -920,7 +920,7 @@
   },
   {
     "Id": "9baa4835-b7d5-4e7e-8bea-0a53a1b91229",
-  "Title": "数式と関数",
+    "Title": "数式と関数",
     "Image": "images/playlists/formulas_and_functions.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -928,7 +928,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-  "Description": "Excel の数式と関数で計算や課題解決を行いましょう。XLOOKUP、VLOOKUP、SUM、SUMIF、SUMIFS、COUNTIF、IF、IFS、MATCH などの使い方を学び、値の検索、計算、時間短縮、自動データ管理を実現します。",
+    "Description": "Excel の数式と関数で計算や課題解決を行いましょう。XLOOKUP、VLOOKUP、SUM、SUMIF、SUMIFS、COUNTIF、IF、IFS、MATCH などの使い方を学び、値の検索、計算、時間短縮、自動データ管理を実現します。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -945,7 +945,7 @@
   },
   {
     "Id": "94333445-037d-4222-aa99-a84b1f6125f0",
-  "Title": "テーブル",
+    "Title": "テーブル",
     "Image": "images/playlists/tables.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -953,7 +953,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-  "Description": "Excel でテーブルを作成・書式設定し、データを視覚的にグループ化・分析しましょう。範囲やテーブルでのデータの並べ替え・フィルター、集計、スライサーによるフィルター方法を学びます。",
+    "Description": "Excel でテーブルを作成・書式設定し、データを視覚的にグループ化・分析しましょう。範囲やテーブルでのデータの並べ替え・フィルター、集計、スライサーによるフィルター方法を学びます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -966,7 +966,7 @@
   },
   {
     "Id": "50f79020-4453-479a-a7db-301f8863a5a3",
-  "Title": "グラフ",
+    "Title": "グラフ",
     "Image": "images/playlists/charts.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -974,7 +974,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-  "Description": "Excel のグラフでデータを視覚化し、聴衆に最大限のインパクトを与えましょう。グラフの作成、タイトルの追加・削除、凡例の表示・非表示、第 2 軸の追加・削除、トレンドラインやスパークラインによるデータ傾向の表示、クイック分析で最適なグラフを選ぶ方法を学びます。",
+    "Description": "Excel のグラフでデータを視覚化し、聴衆に最大限のインパクトを与えましょう。グラフの作成、タイトルの追加・削除、凡例の表示・非表示、第 2 軸の追加・削除、トレンドラインやスパークラインによるデータ傾向の表示、クイック分析で最適なグラフを選ぶ方法を学びます。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -989,7 +989,7 @@
   },
   {
     "Id": "6988bd71-e905-4699-a25c-ba148d6e5bad",
-  "Title": "ピボットテーブル",
+    "Title": "ピボットテーブル",
     "Image": "images/playlists/pivottables.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -997,7 +997,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-  "Description": "Excel のピボットテーブルは、データの計算・集計・分析や比較・パターン・傾向の把握に役立つ強力なツールです。ワークシート・テーブル・範囲の分析用ピボットテーブルの作成、フィールドリストでのフィールド配置、データのグループ化・グループ解除、並べ替え・フィルター、ピボットグラフの作成方法を学びます。",
+    "Description": "Excel のピボットテーブルは、データの計算・集計・分析や比較・パターン・傾向の把握に役立つ強力なツールです。ワークシート・テーブル・範囲の分析用ピボットテーブルの作成、フィールドリストでのフィールド配置、データのグループ化・グループ解除、並べ替え・フィルター、ピボットグラフの作成方法を学びます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1010,7 +1010,7 @@
   },
   {
     "Id": "3ee48085-019d-4256-9ad5-c2d03c82238c",
-  "Title": "Excel で共有と共同作業を行う",
+    "Title": "Excel で共有と共同作業を行う",
     "Image": "images/playlists/excel_share_and_co-author.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1018,7 +1018,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-  "Description": "Excel で共有と共同作業を行い、他のユーザーとリアルタイムで共同作業する方法を学びます。コメントやメモの使い方、同じファイルで同時に共同作業する方法、他のユーザーが共有したファイルの確認、ワークブックの特定領域のロックやロック解除、Excel ファイルの保護、Excel ファイルを PDF に保存または変換する方法などを紹介します。",
+    "Description": "Excel で共有と共同作業を行い、他のユーザーとリアルタイムで共同作業する方法を学びます。コメントやメモの使い方、同じファイルで同時に共同作業する方法、他のユーザーが共有したファイルの確認、ワークブックの特定領域のロックやロック解除、Excel ファイルの保護、Excel ファイルを PDF に保存または変換する方法などを紹介します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1033,7 +1033,7 @@
   },
   {
     "Id": "d4b4a842-2858-4cef-a090-51b567d90cc0",
-  "Title": "関数の一般的な使い方",
+    "Title": "関数の一般的な使い方",
     "Image": "images/playlists/common-use-of-functions.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1041,7 +1041,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-  "Description": "行に自動的に番号を付ける、2 つの日付の差を計算する、数式で名前を定義して使用する、2 つ以上のセルのテキストを 1 つのセルに結合する方法などを学びます。",
+    "Description": "行に自動的に番号を付ける、2 つの日付の差を計算する、数式で名前を定義して使用する、2 つ以上のセルのテキストを 1 つのセルに結合する方法などを学びます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1053,7 +1053,7 @@
   },
   {
     "Id": "ed55052f-97a3-495c-937f-273c89775b69",
-  "Title": "リンクされたデータ型",
+    "Title": "リンクされたデータ型",
     "Image": "images/playlists/excel_linked_data_types.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1061,7 +1061,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-  "Description": "Excel でリンクされたデータ型を使用して、都市、食べ物、株式、地理などのデータを取得する方法を学びます。また、Power BI を通じて組織が提供するデータ型も取得できます。",
+    "Description": "Excel でリンクされたデータ型を使用して、都市、食べ物、株式、地理などのデータを取得する方法を学びます。また、Power BI を通じて組織が提供するデータ型も取得できます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1072,7 +1072,7 @@
   },
   {
     "Id": "a11d16cf-2fff-40b9-8d92-817bf652ee70",
-  "Title": "Power Query を知る",
+    "Title": "Power Query を知る",
     "Image": "images/playlists/Get to know Power Query.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1080,7 +1080,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "85c785c2-c873-4483-9728-64a367fee3f1",
-  "Description": "Excel Power Query の使い方を学び、データ変換スキルを向上させましょう。Web や Excel テーブルからデータをインポートし、ヘッダー行の設定、データ型の変換、不要な行のフィルター、複数列への分割、クエリの結合やテーブルの結合などができます。",
+    "Description": "Excel Power Query の使い方を学び、データ変換スキルを向上させましょう。Web や Excel テーブルからデータをインポートし、ヘッダー行の設定、データ型の変換、不要な行のフィルター、複数列への分割、クエリの結合やテーブルの結合などができます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1099,7 +1099,7 @@
   },
   {
     "Id": "0c7a8a54-f7fc-4464-8f21-67c961b84f7c",
-  "Title": "Lists の使い方を始める",
+    "Title": "Lists の使い方を始める",
     "Image": "images/playlists/lists_get_started.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1107,7 +1107,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "4b40845d-fe5f-428f-8970-58455e5bf262",
-  "Description": "Microsoft Lists を使って情報を追跡し、作業を整理しましょう。Lists アプリからリストを作成したり、Teams チャンネルでリストを作成したり、リスト項目の追加や編集、リストの表示の作成や変更、リストビューの編集、リストの検索と管理、リストやリスト項目の共有、ビジネス情報の追跡などができます。",
+    "Description": "Microsoft Lists を使って情報を追跡し、作業を整理しましょう。Lists アプリからリストを作成したり、Teams チャンネルでリストを作成したり、リスト項目の追加や編集、リストの表示の作成や変更、リストビューの編集、リストの検索と管理、リストやリスト項目の共有、ビジネス情報の追跡などができます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1123,7 +1123,7 @@
   },
   {
     "Id": "eb082894-4f5d-4260-ad4d-d2ad2b4eeb36",
-  "Title": "Microsoft Loop の使い方を始める",
+    "Title": "Microsoft Loop の使い方を始める",
     "Image": "images/playlists/get-started-with-microsoft-loop.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1131,7 +1131,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "11842e4a-cc70-4367-b0e7-b4c6343adec9",
-  "Description": "Microsoft Loop は、強力で柔軟なキャンバスと、アプリ間で自由に移動し同期できるポータブル コンポーネントを組み合わせ、チームが一緒に考え、計画し、作成できるようにします。",
+    "Description": "Microsoft Loop は、強力で柔軟なキャンバスと、アプリ間で自由に移動し同期できるポータブル コンポーネントを組み合わせ、チームが一緒に考え、計画し、作成できるようにします。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1145,7 +1145,7 @@
   },
   {
     "Id": "261009d0-8b5c-4302-bb0f-c993e1ebb51c",
-  "Title": "Microsoft 365 for business クイック スタート",
+    "Title": "Microsoft 365 for business クイック スタート",
     "Image": "images/playlists/office_365_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1153,7 +1153,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-  "Description": "Microsoft 365 クイック スタートで素早く始めましょう。ファイルのオンライン作成と編集、OneDrive へのファイルのアップロード、ファイルやフォルダーの共有、リアルタイムでの共同作業、すべてのデバイスでどこからでも作業できるようにモバイル アプリをセットアップする方法を学びます。",
+    "Description": "Microsoft 365 クイック スタートで素早く始めましょう。ファイルのオンライン作成と編集、OneDrive へのファイルのアップロード、ファイルやフォルダーの共有、リアルタイムでの共同作業、すべてのデバイスでどこからでも作業できるようにモバイル アプリをセットアップする方法を学びます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1167,7 +1167,7 @@
   },
   {
     "Id": "8f026372-069d-4449-a116-938bf5aae7ea",
-  "Title": "Microsoft 365 の使い方を始める",
+    "Title": "Microsoft 365 の使い方を始める",
     "Image": "images/playlists/intro_to_office.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1175,7 +1175,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-  "Description": "Microsoft 365 の使い方を学び、生産性を向上させましょう。Teams や Office アプリでの作業、他のユーザーとの共同作業、クラウドへの安全なファイル保存、常に接続してインテリジェントな機能でより多くのことを達成する方法、office.com でのサインインと開始方法などを紹介します。",
+    "Description": "Microsoft 365 の使い方を学び、生産性を向上させましょう。Teams や Office アプリでの作業、他のユーザーとの共同作業、クラウドへの安全なファイル保存、常に接続してインテリジェントな機能でより多くのことを達成する方法、office.com でのサインインと開始方法などを紹介します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1186,7 +1186,7 @@
   },
   {
     "Id": "f4bbc974-3e87-4e2b-a4c8-7cb1d3c35fa3",
-  "Title": "作成と保存",
+    "Title": "作成と保存",
     "Image": "images/playlists/create_office_files.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1194,7 +1194,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-  "Description": "Microsoft 365 を使ってファイルを作成し保存する方法を学びます。Office デスクトップ アプリや office.com アプリで同じ方法でファイルを作成・保存し、OneDrive を使ってクラウドに保存、ファイル オン デマンドでファイルを同期する方法を紹介します。",
+    "Description": "Microsoft 365 を使ってファイルを作成し保存する方法を学びます。Office デスクトップ アプリや office.com アプリで同じ方法でファイルを作成・保存し、OneDrive を使ってクラウドに保存、ファイル オン デマンドでファイルを同期する方法を紹介します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1205,7 +1205,7 @@
   },
   {
     "Id": "f7fc4bc7-12f5-44bc-9bd4-c122e891061d",
-  "Title": "共有と共同作業",
+    "Title": "共有と共同作業",
     "Image": "images/playlists/store_online_and_collaborate.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1213,7 +1213,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-  "Description": "Microsoft 365 でどこで作業していても、ファイルの共有や共同作業は簡単です。ファイルの共有、権限の設定、リンクのコピー、同じファイルでの同時共同作業、@メンションで注意を引く方法、フォローアップで後で戻りたい箇所や他の人を会話に引き込む方法などを学びます。",
+    "Description": "Microsoft 365 でどこで作業していても、ファイルの共有や共同作業は簡単です。ファイルの共有、権限の設定、リンクのコピー、同じファイルでの同時共同作業、@メンションで注意を引く方法、フォローアップで後で戻りたい箇所や他の人を会話に引き込む方法などを学びます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1225,7 +1225,7 @@
   },
   {
     "Id": "fa7efdbf-ddd5-46b4-86c0-4d75b3893c85",
-  "Title": "Microsoft Teams で作業する",
+    "Title": "Microsoft Teams で作業する",
     "Image": "images/playlists/distribute_and_protect.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1233,7 +1233,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-  "Description": "Microsoft Teams でチームと共同作業し、チームの整理や会話を 1 か所で行う方法を学びます。チームやチャネルの作成、タブの追加、チャネルのピン留め、投稿の作成と書式設定、チャットの開始とピン留め、通話、Teams 会議への参加、効果的な会議のスケジュール、開始、運営のコツやベスト プラクティスなどを紹介します。",
+    "Description": "Microsoft Teams でチームと共同作業し、チームの整理や会話を 1 か所で行う方法を学びます。チームやチャネルの作成、タブの追加、チャネルのピン留め、投稿の作成と書式設定、チャットの開始とピン留め、通話、Teams 会議への参加、効果的な会議のスケジュール、開始、運営のコツやベスト プラクティスなどを紹介します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1248,7 +1248,7 @@
   },
   {
     "Id": "ffdf1665-6516-4d78-b9d3-39985b60c06b",
-  "Title": "Windows を最大限に活用する",
+    "Title": "Windows を最大限に活用する",
     "Image": "images/playlists/view_office_files.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1256,7 +1256,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-  "Description": "Windows を最大限に活用するためのツールを紹介します。検索バー、タスク ビュー、ファイル エクスプローラーの使い方、Microsoft Edge、プライバシー設定、言語の切り替え、パーソナライズされたタブ、コレクション、モバイル デバイスでの Edge の利用、Bing の Microsoft Search で Web や組織の検索結果を取得する方法などを学びます。",
+    "Description": "Windows を最大限に活用するためのツールを紹介します。検索バー、タスク ビュー、ファイル エクスプローラーの使い方、Microsoft Edge、プライバシー設定、言語の切り替え、パーソナライズされたタブ、コレクション、モバイル デバイスでの Edge の利用、Bing の Microsoft Search で Web や組織の検索結果を取得する方法などを学びます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1267,7 +1267,7 @@
   },
   {
     "Id": "861f0286-c3b5-4a76-9b7e-77c1bf39572d",
-  "Title": "どこからでも作業する",
+    "Title": "どこからでも作業する",
     "Image": "images/playlists/add_and_edit_text.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1275,7 +1275,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-  "Description": "Microsoft 365 を使えば、どこからでも作業できます。モバイル デバイスで OneDrive アプリをセットアップして、どこからでもファイルにアクセス、アップロード、共有できます。iOS や Android 用の Outlook アプリをセットアップして常に接続を維持し、時間を節約してより多くの成果を上げるためのトップ 10 のヒントも紹介します。",
+    "Description": "Microsoft 365 を使えば、どこからでも作業できます。モバイル デバイスで OneDrive アプリをセットアップして、どこからでもファイルにアクセス、アップロード、共有できます。iOS や Android 用の Outlook アプリをセットアップして常に接続を維持し、時間を節約してより多くの成果を上げるためのトップ 10 のヒントも紹介します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1285,7 +1285,7 @@
   },
   {
     "Id": "477ad890-043c-4d3c-982e-40c540f10009",
-  "Title": "Microsoft 365 の便利な機能",
+    "Title": "Microsoft 365 の便利な機能",
     "Image": "images/playlists/office_365_format_text.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1293,7 +1293,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
-  "Description": "Microsoft の便利な機能を紹介します。PowerPoint Designer でプロフェッショナルなスライドを作成し、Excel for the web のデータ分析で視覚的な要約や傾向、パターンからインサイトを得ます。Word の Editor でスペルや文法、ライティングの提案を受け、コンテンツをよりアクセシブルにする方法も学びます。",
+    "Description": "Microsoft の便利な機能を紹介します。PowerPoint Designer でプロフェッショナルなスライドを作成し、Excel for the web のデータ分析で視覚的な要約や傾向、パターンからインサイトを得ます。Word の Editor でスペルや文法、ライティングの提案を受け、コンテンツをよりアクセシブルにする方法も学びます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1305,7 +1305,7 @@
   },
   {
     "Id": "d8ec3a54-3ddf-4e02-8631-b89c3f032184",
-  "Title": "はじめに",
+    "Title": "はじめに",
     "Image": "images/playlists/Edge_GetStarted.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1313,7 +1313,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "77a22995-0b6d-488c-9747-dea9a7705711",
-  "Description": "Microsoft Edge の使い始め方を学びましょう。お気に入りへのサイト追加、設定・ツール・インターネットオプションの見つけ方、既定の検索エンジンを Microsoft Edge に変更する方法、サインインして複数デバイスで Edge を同期する方法、アクセシビリティ機能の活用方法などを紹介します。",
+    "Description": "Microsoft Edge の使い始め方を学びましょう。お気に入りへのサイト追加、設定・ツール・インターネットオプションの見つけ方、既定の検索エンジンを Microsoft Edge に変更する方法、サインインして複数デバイスで Edge を同期する方法、アクセシビリティ機能の活用方法などを紹介します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1327,7 +1327,7 @@
   },
   {
     "Id": "479705db-2e50-4a8b-8a2e-a2a3d59ce61b",
-  "Title": "プライバシーとセキュリティ",
+    "Title": "プライバシーとセキュリティ",
     "Image": "images/playlists/Edge_Security.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1335,7 +1335,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "77a22995-0b6d-488c-9747-dea9a7705711",
-  "Description": "Microsoft Edge で Web 閲覧時の安全を守る方法を学びましょう。プライバシー設定、トラッキング防止、InPrivate ブラウズ、履歴削除、ポップアップブロック、Cookie 削除などの機能を紹介します。",
+    "Description": "Microsoft Edge で Web 閲覧時の安全を守る方法を学びましょう。プライバシー設定、トラッキング防止、InPrivate ブラウズ、履歴削除、ポップアップブロック、Cookie 削除などの機能を紹介します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1349,7 +1349,7 @@
   },
   {
     "Id": "2af83d1d-0ad1-4194-bcaa-939f32153a87",
-  "Title": "パーソナライズ",
+    "Title": "パーソナライズ",
     "Image": "images/playlists/Edge_Personalize.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1357,7 +1357,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "77a22995-0b6d-488c-9747-dea9a7705711",
-  "Description": "Microsoft Edge を自分好みにパーソナライズする方法を学びましょう。ホームページの変更、拡張機能の追加、ダークテーマの利用、他言語の設定、文字サイズの拡大などを紹介します。",
+    "Description": "Microsoft Edge を自分好みにパーソナライズする方法を学びましょう。ホームページの変更、拡張機能の追加、ダークテーマの利用、他言語の設定、文字サイズの拡大などを紹介します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1370,7 +1370,7 @@
   },
   {
     "Id": "77061d5e-2222-4748-ac80-7d03d2587bd3",
-  "Title": "Forms クイックスタート",
+    "Title": "Forms クイックスタート",
     "Image": "images/playlists/forms_quick_startx.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1378,7 +1378,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "daeade40-9dfc-4d82-84be-9ae7544829dc",
-  "Description": "数分でフォームを作成しましょう。質問の追加、設定の定義、フォームの共有、結果の確認まで簡単な手順で学べます。",
+    "Description": "数分でフォームを作成しましょう。質問の追加、設定の定義、フォームの共有、結果の確認まで簡単な手順で学べます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1390,7 +1390,7 @@
   },
   {
     "Id": "b873fd99-81be-483a-a8e0-16fcfe0fa120",
-  "Title": "フォームの作成と結果の確認",
+    "Title": "フォームの作成と結果の確認",
     "Image": "images/playlists/create_a_formx.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1398,7 +1398,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "daeade40-9dfc-4d82-84be-9ae7544829dc",
-  "Description": "Forms を使ってアンケートやクイズ、投票を作成し、リアルタイムで結果を簡単に確認する方法を学びます。",
+    "Description": "Forms を使ってアンケートやクイズ、投票を作成し、リアルタイムで結果を簡単に確認する方法を学びます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1411,7 +1411,7 @@
   },
   {
     "Id": "fe752d83-36ae-4209-92f8-e340e9bf696e",
-  "Title": "共有と共同作業",
+    "Title": "共有と共同作業",
     "Image": "images/playlists/forms-share-collaborate.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1419,7 +1419,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "daeade40-9dfc-4d82-84be-9ae7544829dc",
-  "Description": "クイズやフォームで同僚と共同作業し、テンプレートとして他の人と共有する方法を学びます。",
+    "Description": "クイズやフォームで同僚と共同作業し、テンプレートとして他の人と共有する方法を学びます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1434,7 +1434,7 @@
   },
   {
     "Id": "d3acd5c2-0488-4104-935a-61fda884bc49",
-  "Title": "Teams クイックスタート",
+    "Title": "Teams クイックスタート",
     "Image": "images/playlists/teams_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1442,7 +1442,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-  "Description": "Microsoft Teams クイックスタートガイドですぐに始めましょう。Teams へのサインイン、チームやチャネルの選択、チャット、新しい会話の開始・返信、絵文字・ミーム・GIF の利用、ファイル共有、@メンションでの共同作業、アクティビティフィードの確認、メッセージ・人・ファイルの検索、モバイルアプリの設定方法などを学びます。",
+    "Description": "Microsoft Teams クイックスタートガイドですぐに始めましょう。Teams へのサインイン、チームやチャネルの選択、チャット、新しい会話の開始・返信、絵文字・ミーム・GIF の利用、ファイル共有、@メンションでの共同作業、アクティビティフィードの確認、メッセージ・人・ファイルの検索、モバイルアプリの設定方法などを学びます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1455,7 +1455,7 @@
   },
   {
     "Id": "bc9d8a0a-58f1-42cc-bdcf-9ee10b73ba24",
-  "Title": "Microsoft Teams 入門",
+    "Title": "Microsoft Teams 入門",
     "Image": "images/playlists/intro_to_microsoft_teams.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1463,7 +1463,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-  "Description": "Microsoft Teams はチームの整理や会話を 1 か所で行えるコラボレーションアプリです。Teams 入門では、チーム・チャネル・会議・会話・タブの概要、ファイル共有、リアルタイム共同作業、ファイル検索、チャットへのメンバー追加、通話、カレンダー管理、会議のスケジュール・参加・コンテンツ共有・録画、アクティビティフィードの確認、コマンドボックスでの検索方法などを学びます。",
+    "Description": "Microsoft Teams はチームの整理や会話を 1 か所で行えるコラボレーションアプリです。Teams 入門では、チーム・チャネル・会議・会話・タブの概要、ファイル共有、リアルタイム共同作業、ファイル検索、チャットへのメンバー追加、通話、カレンダー管理、会議のスケジュール・参加・コンテンツ共有・録画、アクティビティフィードの確認、コマンドボックスでの検索方法などを学びます。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -1476,7 +1476,7 @@
   },
   {
     "Id": "2346ff06-6646-4084-845d-2ee5971f3634",
-  "Title": "チャットと通話の開始",
+    "Title": "チャットと通話の開始",
     "Image": "images/playlists/start_chats_calls_and_meetings.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1484,7 +1484,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-  "Description": "Microsoft Teams でチャットや通話を開始しましょう。1 対 1 やグループチャットの開始、チャットからのビデオ・音声通話、チャットのピン留め、通話の発信、チャットの非表示・削除、代理人の設定による通話の発信・応答方法などを学びます。",
+    "Description": "Microsoft Teams でチャットや通話を開始しましょう。1 対 1 やグループチャットの開始、チャットからのビデオ・音声通話、チャットのピン留め、通話の発信、チャットの非表示・削除、代理人の設定による通話の発信・応答方法などを学びます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1498,7 +1498,7 @@
   },
   {
     "Id": "b6b28572-87d3-4c71-a565-8d4a8e18d406",
-  "Title": "チームのセットアップとカスタマイズ",
+    "Title": "チームのセットアップとカスタマイズ",
     "Image": "images/playlists/set_up_and_customize_your_team.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1506,7 +1506,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-  "Description": "Microsoft Teams でチームをセットアップし、カスタマイズする方法を学びます。パブリックまたはプライベートチームの作成、メンバー追加、チャネル作成、チーム管理でメンバー・チャネル・設定・アプリの確認、チームオーナー向けガイドでメンバー追加・削除、オーナー追加、チャネル管理、チーム設定変更、チャネルのピン留めやチームリストの並べ替え方法などを紹介します。",
+    "Description": "Microsoft Teams でチームをセットアップし、カスタマイズする方法を学びます。パブリックまたはプライベートチームの作成、メンバー追加、チャネル作成、チーム管理でメンバー・チャネル・設定・アプリの確認、チームオーナー向けガイドでメンバー追加・削除、オーナー追加、チャネル管理、チーム設定変更、チャネルのピン留めやチームリストの並べ替え方法などを紹介します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1517,7 +1517,7 @@
   },
   {
     "Id": "4374d7da-95a5-4e13-a14b-2e43e1277d53",
-  "Title": "アプリとツールの活用",
+    "Title": "アプリとツールの活用",
     "Image": "images/playlists/explore_apps_and_tools.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1525,7 +1525,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-  "Description": "Microsoft Teams のアプリでできることが広がります。アプリやツールの探索、タブやメッセージへのアプリ追加、チャネル全体に役立つ通知用コネクタの利用、ファイルをタブにする方法、コマンドボックスでの検索・クイックアクション・アプリ起動などの便利な使い方を学びます。",
+    "Description": "Microsoft Teams のアプリでできることが広がります。アプリやツールの探索、タブやメッセージへのアプリ追加、チャネル全体に役立つ通知用コネクタの利用、ファイルをタブにする方法、コマンドボックスでの検索・クイックアクション・アプリ起動などの便利な使い方を学びます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1535,7 +1535,7 @@
   },
   {
     "Id": "d4f4cae2-ce9a-483a-a786-93974e40b482",
-  "Title": "チームとチャネルで共同作業",
+    "Title": "チームとチャネルで共同作業",
     "Image": "images/playlists/collaborate_in_teams_and_channels.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1543,7 +1543,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-  "Description": "Microsoft Teams のチームやチャネルで共同作業する方法を学びます。パブリック・プライベートチャネルの作成、チャネルのピン留め、タブ追加、ファイル共有、今すぐ会議、チャネルの表示・非表示、通知のカスタマイズ、メッセージへの返信・いいね・保存、@メンション、ファイルの共同編集、会話の開始、チャネルへのメール送信、Planner での計画作成などを紹介します。",
+    "Description": "Microsoft Teams のチームやチャネルで共同作業する方法を学びます。パブリック・プライベートチャネルの作成、チャネルのピン留め、タブ追加、ファイル共有、今すぐ会議、チャネルの表示・非表示、通知のカスタマイズ、メッセージへの返信・いいね・保存、@メンション、ファイルの共同編集、会話の開始、チャネルへのメール送信、Planner での計画作成などを紹介します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1557,7 +1557,7 @@
   },
   {
     "Id": "7a057fc3-74eb-46ab-991d-50e2e665f95d",
-  "Title": "投稿とメッセージの操作",
+    "Title": "投稿とメッセージの操作",
     "Image": "images/playlists/work-with-post-and-messages.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1565,7 +1565,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-  "Description": "Microsoft Teams で投稿やメッセージを操作する方法を学びます。投稿の作成・書式設定、複数チャネルへの投稿、@メンションでの注意喚起、投稿やメッセージの保存方法などを紹介します。",
+    "Description": "Microsoft Teams で投稿やメッセージを操作する方法を学びます。投稿の作成・書式設定、複数チャネルへの投稿、@メンションでの注意喚起、投稿やメッセージの保存方法などを紹介します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1575,7 +1575,7 @@
   },
   {
     "Id": "044071b3-a780-4a24-b0b1-a4951ee48a3f",
-  "Title": "ファイルの検索と発見",
+    "Title": "ファイルの検索と発見",
     "Image": "images/playlists/upload-and-find-files.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1583,7 +1583,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-  "Description": "Microsoft Teams でファイルをアップロード・検索する方法を学びます。ファイルのアップロード・共有、チャネルへのファイル添付、ファイルタブへのアップロード、最近表示・編集したファイル、チャネル横断で作成・編集したファイル、Teams からダウンロードしたファイルの見つけ方などを紹介します。",
+    "Description": "Microsoft Teams でファイルをアップロード・検索する方法を学びます。ファイルのアップロード・共有、チャネルへのファイル添付、ファイルタブへのアップロード、最近表示・編集したファイル、チャネル横断で作成・編集したファイル、Teams からダウンロードしたファイルの見つけ方などを紹介します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1595,7 +1595,7 @@
   },
   {
     "Id": "729bcb7f-43bc-4d38-a0df-8fbf38b80e56",
-  "Title": "ライブイベントの設定と参加",
+    "Title": "ライブイベントの設定と参加",
     "Image": "images/playlists/setup-and-attend-live-events.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1603,7 +1603,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-  "Description": "大規模なオンラインイベントの開催には Microsoft Teams ライブイベントが便利です。Teams 会議の拡張機能で、ビデオ・参加者インタラクション・レポートを細かく制御しながら大規模イベントを実施できます。ライブイベントの作成・運営・参加・質問のモデレーション方法などを学びます。",
+    "Description": "大規模なオンラインイベントの開催には Microsoft Teams ライブイベントが便利です。Teams 会議の拡張機能で、ビデオ・参加者インタラクション・レポートを細かく制御しながら大規模イベントを実施できます。ライブイベントの作成・運営・参加・質問のモデレーション方法などを学びます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1615,7 +1615,7 @@
   },
   {
     "Id": "fae33957-cb84-4185-ab78-2bd3818b31ee",
-  "Title": "会議の管理",
+    "Title": "会議の管理",
     "Image": "images/playlists/manage_meetings.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1623,7 +1623,7 @@
     "SubjectId": "615f17eb-2c5b-4494-8541-4304435ca306",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-  "Description": "Microsoft Teams で効果的な会議を管理・運営するコツやベストプラクティスを学びます。Teams 会議への参加、今すぐ会議の作成、チャネルでの会議、会議の表示・スケジュール、画面や PowerPoint スライドの共有、会議中のアクティビティ確認や作業継続方法などを紹介します。動画トレーニングもご覧ください。",
+    "Description": "Microsoft Teams で効果的な会議を管理・運営するコツやベストプラクティスを学びます。Teams 会議への参加、今すぐ会議の作成、チャネルでの会議、会議の表示・スケジュール、画面や PowerPoint スライドの共有、会議中のアクティビティ確認や作業継続方法などを紹介します。動画トレーニングもご覧ください。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1638,7 +1638,7 @@
   },
   {
     "Id": "2b830deb-c2f7-46b4-9c0f-eb3150a9f083",
-  "Title": "アクティビティフィードの管理",
+    "Title": "アクティビティフィードの管理",
     "Image": "images/playlists/manage-your-activity-feed.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1646,7 +1646,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-  "Description": "Microsoft Teams の左側のアクティビティアイコンからアクティビティフィードを管理し、フォロー中のチームやチャネルの最新情報をまとめて確認できます。アクティビティフィードのフィルターや通知設定の管理、通知の受信先や頻度の調整方法などを学びます。",
+    "Description": "Microsoft Teams の左側のアクティビティアイコンからアクティビティフィードを管理し、フォロー中のチームやチャネルの最新情報をまとめて確認できます。アクティビティフィードのフィルターや通知設定の管理、通知の受信先や頻度の調整方法などを学びます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1656,7 +1656,7 @@
   },
   {
     "Id": "90ecbd2b-a1a7-4da1-8355-c1f65c4af298",
-  "Title": "外出先での Teams 活用",
+    "Title": "外出先での Teams 活用",
     "Image": "images/playlists/teams-on-the-go.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1664,7 +1664,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-  "Description": "Microsoft Teams モバイルアプリで 1 対 1 やグループチャットを開始し、少人数でのプライベートな会話や共同作業ができます。チャネル作成、会議参加、アクティビティフィードや通知の管理も外出先から可能です。",
+    "Description": "Microsoft Teams モバイルアプリで 1 対 1 やグループチャットを開始し、少人数でのプライベートな会話や共同作業ができます。チャネル作成、会議参加、アクティビティフィードや通知の管理も外出先から可能です。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1676,7 +1676,7 @@
   },
   {
     "Id": "2ba46e26-5c63-48b9-818c-f49354b3b5d1",
-  "Title": "Shifts でチームのシフト管理",
+    "Title": "Shifts でチームのシフト管理",
     "Image": "images/playlists/teams_shifts.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1684,7 +1684,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-  "Description": "Microsoft Teams の Shifts でチームのシフトを作成・更新・管理する方法を学びます。マネージャーはシフトスケジュールの作成・管理、リクエストの確認・承認・却下ができ、現場スタッフはシフトの確認・管理やチームとの連携が可能です。",
+    "Description": "Microsoft Teams の Shifts でチームのシフトを作成・更新・管理する方法を学びます。マネージャーはシフトスケジュールの作成・管理、リクエストの確認・承認・却下ができ、現場スタッフはシフトの確認・管理やチームとの連携が可能です。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1695,7 +1695,7 @@
   },
   {
     "Id": "6f59454d-6ed1-4733-8825-c9616564565d",
-  "Title": "予約の作成と管理",
+    "Title": "予約の作成と管理",
     "Image": "images/playlists/teams_bookings.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1703,7 +1703,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "47bae571-3841-4ef6-a2fe-aa6b075b6b19",
-  "Description": "Microsoft Teams の Bookings でチームの予定やカレンダーを一元管理できます。Bookings カレンダーの作成・メンバー追加、新しい予定タイプの作成、スタッフや参加者向けの対面・オンライン訪問の作成・管理方法を学びます。",
+    "Description": "Microsoft Teams の Bookings でチームの予定やカレンダーを一元管理できます。Bookings カレンダーの作成・メンバー追加、新しい予定タイプの作成、スタッフや参加者向けの対面・オンライン訪問の作成・管理方法を学びます。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -1714,7 +1714,7 @@
   },
   {
     "Id": "634948c6-8f39-4bc4-a0ee-f42dc12b511c",
-  "Title": "承認の作成",
+    "Title": "承認の作成",
     "Image": "images/playlists/teams_approvals.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1722,7 +1722,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "02354a27-0675-4f67-9c32-f616ce5b3bf3",
-  "Description": "Microsoft Teams の承認機能で、チームやパートナーとのリクエストやプロセスを効率化しましょう。新しい承認の作成、受信した承認の確認、過去の承認履歴の一括表示方法を学びます。",
+    "Description": "Microsoft Teams の承認機能で、チームやパートナーとのリクエストやプロセスを効率化しましょう。新しい承認の作成、受信した承認の確認、過去の承認履歴の一括表示方法を学びます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1737,7 +1737,7 @@
   },
   {
     "Id": "eda0aa68-24ac-46a1-83db-e04f929be0d6",
-  "Title": "はじめに",
+    "Title": "はじめに",
     "Image": "images/playlists/office_for_the_web_get_started.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1745,7 +1745,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
-  "Description": "Office.com は一日の始まりや作業再開時に最適なスタート地点です。",
+    "Description": "Office.com は一日の始まりや作業再開時に最適なスタート地点です。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -1755,7 +1755,7 @@
   },
   {
     "Id": "610da080-333a-449f-9f81-21c556c0a961",
-  "Title": "Outlook for the web（Web 版 Outlook）",
+    "Title": "Outlook for the web（Web 版 Outlook）",
     "Image": "images/playlists/Outlook_for_the_web.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1763,7 +1763,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
-  "Description": "Web 版 Outlook でメール・カレンダー・連絡先を簡単に管理できます。主な機能や、メッセージ送信・ファイル共有による共同作業方法を紹介します。",
+    "Description": "Web 版 Outlook でメール・カレンダー・連絡先を簡単に管理できます。主な機能や、メッセージ送信・ファイル共有による共同作業方法を紹介します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1778,7 +1778,7 @@
   },
   {
     "Id": "e2fb04a4-7e0c-40ff-994b-d92c80c00df0",
-  "Title": "Word for the web（Web 版 Word）",
+    "Title": "Word for the web（Web 版 Word）",
     "Image": "images/playlists/word_for_the_web.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1786,7 +1786,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
-  "Description": "Web 版 Word でドキュメントの作成、テキスト・画像・アートの追加、ファイル共有による共同作業がどこからでも可能です。",
+    "Description": "Web 版 Word でドキュメントの作成、テキスト・画像・アートの追加、ファイル共有による共同作業がどこからでも可能です。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1800,7 +1800,7 @@
   },
   {
     "Id": "803f7002-9bc0-4d96-a898-9770f1b8bcdf",
-  "Title": "Excel for the Web（Web 版 Excel）",
+    "Title": "Excel for the Web（Web 版 Excel）",
     "Image": "images/playlists/excel_for_the_web_for.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1808,7 +1808,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
-  "Description": "Web 版 Excel で、どこからでもあらゆるデバイスで Excel の機能を利用できます。",
+    "Description": "Web 版 Excel で、どこからでもあらゆるデバイスで Excel の機能を利用できます。",
     "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": "",
     "Assets": [
@@ -1823,7 +1823,7 @@
   },
   {
     "Id": "164ee353-bb72-4e17-8bed-d7824241b341",
-  "Title": "PowerPoint for the web（Web 版 PowerPoint）",
+    "Title": "PowerPoint for the web（Web 版 PowerPoint）",
     "Image": "images/playlists/office_for_the_web_for.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1831,7 +1831,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
-  "Description": "Web 版 PowerPoint で、どこからでもあらゆるデバイスでプレゼンテーションの作成・編集・発表ができます。",
+    "Description": "Web 版 PowerPoint で、どこからでもあらゆるデバイスでプレゼンテーションの作成・編集・発表ができます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1845,7 +1845,7 @@
   },
   {
     "Id": "69149089-33ca-4e3c-863d-713768570323",
-  "Title": "ドキュメントの共有",
+    "Title": "ドキュメントの共有",
     "Image": "images/playlists/office_for__web_share_documents.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1853,7 +1853,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "002ce882-04af-491f-9798-71c857606532",
-  "Description": "Office 365 なら、どこで作業していてもドキュメントを簡単に共有できます。",
+    "Description": "Office 365 なら、どこで作業していてもドキュメントを簡単に共有できます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1865,7 +1865,7 @@
   },
   {
     "Id": "c9ecc2e9-bc17-496a-8b0b-9242b6bb3eaf",
-  "Title": "OneDrive クイックスタート",
+    "Title": "OneDrive クイックスタート",
     "Image": "images/playlists/onedrive_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1873,7 +1873,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "4ee4d22a-7d53-48bb-9a14-adf34d01cd75",
-  "Description": "OneDrive クイックスタートガイドですぐに始めましょう。ファイルやフォルダーのアップロード、ブラウザーやデスクトップでの OneDrive 利用、Office アプリでの保存・開く、ファイル・フォルダーの作成・管理、検索・バックアップ・共有、アクセス権やリンクの管理、表示の切り替え、OneDrive での共同作業、モバイルアプリの設定方法などを学びます。",
+    "Description": "OneDrive クイックスタートガイドですぐに始めましょう。ファイルやフォルダーのアップロード、ブラウザーやデスクトップでの OneDrive 利用、Office アプリでの保存・開く、ファイル・フォルダーの作成・管理、検索・バックアップ・共有、アクセス権やリンクの管理、表示の切り替え、OneDrive での共同作業、モバイルアプリの設定方法などを学びます。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -1886,7 +1886,7 @@
   },
   {
     "Id": "d6021ad3-8709-4c7f-bd74-58517dfc902e",
-  "Title": "OneDrive 入門（職場または学校向け）",
+    "Title": "OneDrive 入門（職場または学校向け）",
     "Image": "images/playlists/intro_to_onedrive_work_or_school.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1894,7 +1894,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "4ee4d22a-7d53-48bb-9a14-adf34d01cd75",
-  "Description": "OneDrive の使い始め方を学びましょう。ファイルへのアクセス・編集、情報共有、クラウド保存による共同作業、ファイルの保護・バックアップ、OneDrive の概要、ナビゲーションウィンドウやツールバーの使い方、モバイルアプリの設定方法などを紹介します。動画トレーニングもご覧ください。",
+    "Description": "OneDrive の使い始め方を学びましょう。ファイルへのアクセス・編集、情報共有、クラウド保存による共同作業、ファイルの保護・バックアップ、OneDrive の概要、ナビゲーションウィンドウやツールバーの使い方、モバイルアプリの設定方法などを紹介します。動画トレーニングもご覧ください。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -1908,7 +1908,7 @@
   },
   {
     "Id": "3c24a6b8-a3d7-4133-ba59-08d705fe8160",
-  "Title": "OneDrive でファイルを管理する",
+    "Title": "OneDrive でファイルを管理する",
     "Image": "images/playlists/manage_your_files.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1916,7 +1916,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "4ee4d22a-7d53-48bb-9a14-adf34d01cd75",
-  "Description": "ファイルをアップロードして OneDrive で管理し、どこからでもアクセスできるようにしましょう。ファイル・フォルダーのアップロード・作成・削除・復元、クラウドでのファイル削除、OneDrive バックアップの有効化、OneDrive の復元方法などを学びます。動画トレーニングもご覧ください。",
+    "Description": "ファイルをアップロードして OneDrive で管理し、どこからでもアクセスできるようにしましょう。ファイル・フォルダーのアップロード・作成・削除・復元、クラウドでのファイル削除、OneDrive バックアップの有効化、OneDrive の復元方法などを学びます。動画トレーニングもご覧ください。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -1929,7 +1929,7 @@
   },
   {
     "Id": "f007841f-fde2-463c-8043-035084c00ba5",
-  "Title": "OneDrive で共有と同期",
+    "Title": "OneDrive で共有と同期",
     "Image": "images/playlists/onedrive_share_and_sync.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1937,7 +1937,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "4ee4d22a-7d53-48bb-9a14-adf34d01cd75",
-  "Description": "職場や学校の OneDrive で共有と同期を行う方法を学びます。ファイル・フォルダーの共有・同期、ディスク容量の管理、OneDrive ファイルオンデマンドでの同期により、OneDrive や SharePoint Online のすべてのファイルにダウンロードせずにアクセスできます。動画トレーニングもご覧ください。",
+    "Description": "職場や学校の OneDrive で共有と同期を行う方法を学びます。ファイル・フォルダーの共有・同期、ディスク容量の管理、OneDrive ファイルオンデマンドでの同期により、OneDrive や SharePoint Online のすべてのファイルにダウンロードせずにアクセスできます。動画トレーニングもご覧ください。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -1949,7 +1949,7 @@
   },
   {
     "Id": "a324d70a-4727-43e3-b78a-be93092d3dd0",
-  "Title": "OneNote クイックスタート",
+    "Title": "OneNote クイックスタート",
     "Image": "images/playlists/onenote_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1957,7 +1957,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-  "Description": "OneNote クイックスタートですぐに始めましょう。ノートブックの作成・開く・切り替え、ノート・ページ・セクションの追加、ページやノートブックの共有による整理・共同作業、モバイルアプリの設定でどこからでもファイルにアクセスする方法などを学びます。",
+    "Description": "OneNote クイックスタートですぐに始めましょう。ノートブックの作成・開く・切り替え、ノート・ページ・セクションの追加、ページやノートブックの共有による整理・共同作業、モバイルアプリの設定でどこからでもファイルにアクセスする方法などを学びます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1969,7 +1969,7 @@
   },
   {
     "Id": "55d81409-752a-4bd8-8c2b-cfc937359358",
-  "Title": "OneNote 入門",
+    "Title": "OneNote 入門",
     "Image": "images/playlists/intro_to_onenote.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1977,7 +1977,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-  "Description": "OneNote では、ノートの入力や音声録音、アイデアのスケッチや手書き、画像の追加、ノートの検索、ページのセクション分けやノートブックへの整理、ノートブックの共有による共同作業が可能です。OneNote 入門動画を見て、サインイン、新規ページ・セクションの追加、ページやセクションの名前変更、別のノートブックの開き方、OneNote のカスタマイズ方法を学びましょう。",
+    "Description": "OneNote では、ノートの入力や音声録音、アイデアのスケッチや手書き、画像の追加、ノートの検索、ページのセクション分けやノートブックへの整理、ノートブックの共有による共同作業が可能です。OneNote 入門動画を見て、サインイン、新規ページ・セクションの追加、ページやセクションの名前変更、別のノートブックの開き方、OneNote のカスタマイズ方法を学びましょう。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -1987,7 +1987,7 @@
   },
   {
     "Id": "b63ab88a-2478-44a0-80a9-661849142f29",
-  "Title": "OneNote でノートを取る",
+    "Title": "OneNote でノートを取る",
     "Image": "images/playlists/take_notes.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -1995,7 +1995,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-  "Description": "OneNote では、好きな方法でノートを取ることができます。ノートの入力、手書き、手書きノートのテキスト変換、音声ノートの録音も可能です。画像、ファイル、ビデオの挿入や、必要なだけページ、セクション、ノートブックを作成できます。",
+    "Description": "OneNote では、好きな方法でノートを取ることができます。ノートの入力、手書き、手書きノートのテキスト変換、音声ノートの録音も可能です。画像、ファイル、ビデオの挿入や、必要なだけページ、セクション、ノートブックを作成できます。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -2005,7 +2005,7 @@
   },
   {
     "Id": "8c0e0a94-ac56-4ed8-a385-caea31145761",
-  "Title": "OneNote でノートを整える",
+    "Title": "OneNote でノートを整える",
     "Image": "images/playlists/format_notes.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2013,7 +2013,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-  "Description": "OneNote でノートを整えて、思い通りの見た目にしましょう。テキストのハイライト、リストの作成、インデント、ノートの配置、スタイルの適用、ページやセクションの背景色の設定、表の挿入と書式設定で情報を視覚的に整理できます。",
+    "Description": "OneNote でノートを整えて、思い通りの見た目にしましょう。テキストのハイライト、リストの作成、インデント、ノートの配置、スタイルの適用、ページやセクションの背景色の設定、表の挿入と書式設定で情報を視覚的に整理できます。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -2022,7 +2022,7 @@
   },
   {
     "Id": "17a6d04a-e893-4b67-932f-529f70868150",
-  "Title": "OneNote で描画とスケッチ",
+    "Title": "OneNote で描画とスケッチ",
     "Image": "images/playlists/draw_and_sketch.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2030,7 +2030,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-  "Description": "OneNote で描画やスケッチをして、ノートに命を吹き込みましょう。ペン、鉛筆、蛍光ペン、太さや色を選択できます。円、三角形、四角形などの図形を作成したり、指やペン、マウスで図形を描くと OneNote がきれいに整えてくれます。",
+    "Description": "OneNote で描画やスケッチをして、ノートに命を吹き込みましょう。ペン、鉛筆、蛍光ペン、太さや色を選択できます。円、三角形、四角形などの図形を作成したり、指やペン、マウスで図形を描くと OneNote がきれいに整えてくれます。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -2039,7 +2039,7 @@
   },
   {
     "Id": "352e7758-5888-40c5-b765-edc83d7c64b3",
-  "Title": "OneNote で整理整頓",
+    "Title": "OneNote で整理整頓",
     "Image": "images/playlists/stay_organized.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2047,7 +2047,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-  "Description": "OneNote で整理整頓する方法を学びましょう。ノートの検索や絞り込み、ノートブックの整理、ナビゲーション ウィンドウの表示、ページの移動やコピー、セクションの移動やコピーなどができます。",
+    "Description": "OneNote で整理整頓する方法を学びましょう。ノートの検索や絞り込み、ノートブックの整理、ナビゲーション ウィンドウの表示、ページの移動やコピー、セクションの移動やコピーなどができます。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -2056,7 +2056,7 @@
   },
   {
     "Id": "30190ee7-5d18-4c8c-9104-42b06388bee7",
-  "Title": "OneNote で共有と同期",
+    "Title": "OneNote で共有と同期",
     "Image": "images/playlists/share_and_sync.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2064,7 +2064,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-  "Description": "OneNote ノートブック全体を共有・同期して他のユーザーと共同作業しましょう。共有相手や編集権限の設定、ページやノートブックの閲覧権限の設定、プライベートにしたいセクションのロックやパスワード保護も可能です。",
+    "Description": "OneNote ノートブック全体を共有・同期して他のユーザーと共同作業しましょう。共有相手や編集権限の設定、ページやノートブックの閲覧権限の設定、プライベートにしたいセクションのロックやパスワード保護も可能です。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -2073,7 +2073,7 @@
   },
   {
     "Id": "54d20fd4-0c72-404a-b0d8-93e64fcc0e36",
-  "Title": "モバイル デバイスでの OneNote",
+    "Title": "モバイル デバイスでの OneNote",
     "Image": "images/playlists/onenote_on_mobile_devices.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2081,7 +2081,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
-  "Description": "モバイル デバイスで OneNote を使えば、どこにいてもノートにアクセスして作業できます。iOS 用 OneNote、Android 用 OneNote、OneNote Online をご利用ください。",
+    "Description": "モバイル デバイスで OneNote を使えば、どこにいてもノートにアクセスして作業できます。iOS 用 OneNote、Android 用 OneNote、OneNote Online をご利用ください。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -2091,7 +2091,7 @@
   },
   {
     "Id": "e66fa8f3-ec7e-47f9-9d79-4d334f157563",
-  "Title": "Outlook クイック スタート",
+    "Title": "Outlook クイック スタート",
     "Image": "images/playlists/outlook_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2099,7 +2099,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-  "Description": "Outlook クイック スタート ガイドですぐに始めましょう。メール アカウントの追加、メールの作成と送信、@メンションの使用、優先受信トレイの表示、カレンダーや連絡先の管理、スケジューリング アシスタントでの予定の設定、連絡先の追加、Outlook での共同作業、ファイルの共有、オンライン会議や共有ノートの設定、モバイル アプリのセットアップ方法を学びます。",
+    "Description": "Outlook クイック スタート ガイドですぐに始めましょう。メール アカウントの追加、メールの作成と送信、@メンションの使用、優先受信トレイの表示、カレンダーや連絡先の管理、スケジューリング アシスタントでの予定の設定、連絡先の追加、Outlook での共同作業、ファイルの共有、オンライン会議や共有ノートの設定、モバイル アプリのセットアップ方法を学びます。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -2112,7 +2112,7 @@
   },
   {
     "Id": "79fe1eb2-571e-4cbe-98b9-913692ddd387",
-  "Title": "Outlook のセットアップとカスタマイズ",
+    "Title": "Outlook のセットアップとカスタマイズ",
     "Image": "images/playlists/set_up_and_customize.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2120,7 +2120,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-  "Description": "Outlook のセットアップやカスタマイズ方法を学びましょう。メールの整理、カレンダーの管理・共有、ファイル共有、連絡の維持、outlook.com アカウント・Microsoft 365 メールアカウント・Gmail アカウントの追加方法などを紹介します。",
+    "Description": "Outlook のセットアップやカスタマイズ方法を学びましょう。メールの整理、カレンダーの管理・共有、ファイル共有、連絡の維持、outlook.com アカウント・Microsoft 365 メールアカウント・Gmail アカウントの追加方法などを紹介します。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -2131,7 +2131,7 @@
   },
   {
     "Id": "44bb07ac-1c25-43fa-885d-4a0476734c9f",
-  "Title": "メールの作成と送信",
+    "Title": "メールの作成と送信",
     "Image": "images/playlists/create_and_send_email.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2139,7 +2139,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-  "Description": "Outlook でメールを作成・送信する方法、署名の作成、添付ファイルの送受信、送信済みメールの取り消しや差し替え方法を学びます。動画トレーニングもご覧ください。",
+    "Description": "Outlook でメールを作成・送信する方法、署名の作成、添付ファイルの送受信、送信済みメールの取り消しや差し替え方法を学びます。動画トレーニングもご覧ください。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -2152,7 +2152,7 @@
   },
   {
     "Id": "8d87d80d-b5df-45a9-9164-e03d74cca066",
-  "Title": "メールの管理",
+    "Title": "メールの管理",
     "Image": "images/playlists/manage_email.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2160,7 +2160,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-  "Description": "Outlook でメールを管理する方法を学びます。自動応答、メールの検索・フィルター、検索の絞り込み、会話の無視、クリーンアップ機能による受信トレイ整理などを紹介します。動画トレーニングもご覧ください。",
+    "Description": "Outlook でメールを管理する方法を学びます。自動応答、メールの検索・フィルター、検索の絞り込み、会話の無視、クリーンアップ機能による受信トレイ整理などを紹介します。動画トレーニングもご覧ください。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -2172,7 +2172,7 @@
   },
   {
     "Id": "ab55d6d4-c932-48a5-a062-a5e760fda581",
-  "Title": "受信トレイの整理",
+    "Title": "受信トレイの整理",
     "Image": "images/playlists/organize_your_inbox.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2180,7 +2180,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-  "Description": "受信トレイを整理するコツを学びましょう。フォローアップフラグの設定・表示・削除、リマインダーの設定、アクションアイテムの検索、色カテゴリの作成・割り当て、フォルダーの作成・移動・お気に入り追加、ルールの作成方法などを紹介します。",
+    "Description": "受信トレイを整理するコツを学びましょう。フォローアップフラグの設定・表示・削除、リマインダーの設定、アクションアイテムの検索、色カテゴリの作成・割り当て、フォルダーの作成・移動・お気に入り追加、ルールの作成方法などを紹介します。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -2191,7 +2191,7 @@
   },
   {
     "Id": "94a14949-5322-4bfb-b45a-f66e67286e98",
-  "Title": "Outlook の連絡先とタスク",
+    "Title": "Outlook の連絡先とタスク",
     "Image": "images/playlists/contacts_and_tasks.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2199,7 +2199,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-  "Description": "Outlook で連絡先やタスクを管理しましょう。連絡先の追加、グループ作成、Gmail 連絡先のインポート・エクスポート、タスクや ToDo リストの作成方法を学びます。",
+    "Description": "Outlook で連絡先やタスクを管理しましょう。連絡先の追加、グループ作成、Gmail 連絡先のインポート・エクスポート、タスクや ToDo リストの作成方法を学びます。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -2212,7 +2212,7 @@
   },
   {
     "Id": "534d99cd-2b9b-4a9d-acde-c83fcfc082aa",
-  "Title": "Outlook カレンダー",
+    "Title": "Outlook カレンダー",
     "Image": "images/playlists/calendar.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2220,7 +2220,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-  "Description": "Outlook のカレンダーでスケジュールを整理する方法を学びます。日・週・月表示の切り替え、予定や会議の作成、オンライン会議のスケジュール、カレンダーの共有・インポート、アイテムの検索、色カテゴリやリマインダーの活用、共有カレンダーのプレビュー有効化などを紹介します。",
+    "Description": "Outlook のカレンダーでスケジュールを整理する方法を学びます。日・週・月表示の切り替え、予定や会議の作成、オンライン会議のスケジュール、カレンダーの共有・インポート、アイテムの検索、色カテゴリやリマインダーの活用、共有カレンダーのプレビュー有効化などを紹介します。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -2235,7 +2235,7 @@
   },
   {
     "Id": "cf0a88b6-99be-4db9-8312-a762cfd9976a",
-  "Title": "受信トレイの管理",
+    "Title": "受信トレイの管理",
     "Image": "images/playlists/outlook-mobile-manage-your-inbox.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2243,7 +2243,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-  "Description": "Outlook モバイルで受信トレイを管理しましょう。メールの再生、招待への即時返信、スワイプ操作での管理、重要なメールの振り分け、Android ウィジェットでのツールアクセス方法などを紹介します。",
+    "Description": "Outlook モバイルで受信トレイを管理しましょう。メールの再生、招待への即時返信、スワイプ操作での管理、重要なメールの振り分け、Android ウィジェットでのツールアクセス方法などを紹介します。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -2255,7 +2255,7 @@
   },
   {
     "Id": "07666fb2-f6a8-416d-9805-78072ade58ca",
-  "Title": "時間の管理",
+    "Title": "時間の管理",
     "Image": "images/playlists/outlook-mobile-manage-your-time.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2263,7 +2263,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-  "Description": "Outlook モバイルで時間を管理し、会議のスケジュールや空き時間の確認を行いましょう。会議場所アシスタント、空き時間の送信、カレンダーの共有・統合、通知管理、モバイル活用のトップ 10 のコツも紹介します。",
+    "Description": "Outlook モバイルで時間を管理し、会議のスケジュールや空き時間の確認を行いましょう。会議場所アシスタント、空き時間の送信、カレンダーの共有・統合、通知管理、モバイル活用のトップ 10 のコツも紹介します。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -2279,7 +2279,7 @@
   },
   {
     "Id": "a0cbd9cd-bfeb-4976-b39d-8c21da669d0f",
-  "Title": "連絡先とつながり",
+    "Title": "連絡先とつながり",
     "Image": "images/playlists/outlook-mobile-people-and-connections.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2287,7 +2287,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-  "Description": "Outlook モバイルの連絡先とつながり機能で、連絡先の確認・スキャン・追加、@メンション、お気に入り登録、通知設定、フォルダーやグループのお気に入り追加方法などを学びます。",
+    "Description": "Outlook モバイルの連絡先とつながり機能で、連絡先の確認・スキャン・追加、@メンション、お気に入り登録、通知設定、フォルダーやグループのお気に入り追加方法などを学びます。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -2300,7 +2300,7 @@
   },
   {
     "Id": "8405be6d-8da0-40d4-aa5c-ac00d4697c2b",
-  "Title": "検索と共有",
+    "Title": "検索と共有",
     "Image": "images/playlists/outlook-mobile-search-and-share.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2308,7 +2308,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "46589138-0dde-4ea5-b9a1-313481a8eb06",
-  "Description": "Outlook モバイルでの検索やファイル・写真の共有、カレンダーのタイトル・件名・メールアドレス・イベント説明での検索、検索アイコンでの添付ファイル検索方法などを学びます。",
+    "Description": "Outlook モバイルでの検索やファイル・写真の共有、カレンダーのタイトル・件名・メールアドレス・イベント説明での検索、検索アイコンでの添付ファイル検索方法などを学びます。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -2320,7 +2320,7 @@
   },
   {
     "Id": "f0e74200-1232-4659-8e66-4a037496dcad",
-  "Title": "Planner クイックスタート",
+    "Title": "Planner クイックスタート",
     "Image": "images/playlists/planner_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2328,7 +2328,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "fcdc0676-03f7-40b9-80c1-167560c4018d",
-  "Description": "Planner クイックスタートですぐに始めましょう。サインイン、プラン作成、メンバー追加、タスク用バケットの設定、タスク・期限・コメント・添付ファイルの追加、進捗確認、メール通知の受信、モバイルデバイスでの利用方法などを学びます。",
+    "Description": "Planner クイックスタートですぐに始めましょう。サインイン、プラン作成、メンバー追加、タスク用バケットの設定、タスク・期限・コメント・添付ファイルの追加、進捗確認、メール通知の受信、モバイルデバイスでの利用方法などを学びます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2341,7 +2341,7 @@
   },
   {
     "Id": "66e36e66-d38b-4103-9c34-1201c2f2eb7f",
-  "Title": "ボードのアイデア",
+    "Title": "ボードのアイデア",
     "Image": "images/playlists/planner_ideas_for_board.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2349,7 +2349,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "fcdc0676-03f7-40b9-80c1-167560c4018d",
-  "Description": "Planner のボード活用アイデアを紹介します。製品ローンチなどのイベント計画、顧客サポート、コンテンツ公開、進捗管理など、実例を参考に Planner の使い方を学びましょう。",
+    "Description": "Planner のボード活用アイデアを紹介します。製品ローンチなどのイベント計画、顧客サポート、コンテンツ公開、進捗管理など、実例を参考に Planner の使い方を学びましょう。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2361,7 +2361,7 @@
   },
   {
     "Id": "4a1a5131-1a63-4398-8105-ae9a18c20af8",
-  "Title": "Planner の活用",
+    "Title": "Planner の活用",
     "Image": "images/playlists/planner_use_planner.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2369,7 +2369,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "fcdc0676-03f7-40b9-80c1-167560c4018d",
-  "Description": "Planner でチームを整理し、進捗レポートや個別タスクの管理を行いましょう。プラン作成、バケット・タスクの追加、タスク・期限の割り当て、Teams へのプラン追加、ToDo との比較、スケジュールビューでのカレンダー管理や Outlook カレンダーでの表示方法などを学びます。",
+    "Description": "Planner でチームを整理し、進捗レポートや個別タスクの管理を行いましょう。プラン作成、バケット・タスクの追加、タスク・期限の割り当て、Teams へのプラン追加、ToDo との比較、スケジュールビューでのカレンダー管理や Outlook カレンダーでの表示方法などを学びます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2386,7 +2386,7 @@
   },
   {
     "Id": "df1a81f5-17a5-4a7a-b214-dfeb4f677afb",
-  "Title": "PowerPoint クイックスタート",
+    "Title": "PowerPoint クイックスタート",
     "Image": "images/playlists/powerpoint_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2394,7 +2394,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
-  "Description": "PowerPoint クイックスタートガイドですぐに始めましょう。プレゼンテーションの作成、スライド・画像・図形・グラフの追加、OneDrive への保存、名前変更、テーマや PowerPoint Designer の活用、画面切り替えやアニメーションの追加、共有・共同作業、コメント追加、編集中のチャット、バージョン復元、発表者ビューやノートの利用、モバイルアプリの設定方法などを学びます。",
+    "Description": "PowerPoint クイックスタートガイドですぐに始めましょう。プレゼンテーションの作成、スライド・画像・図形・グラフの追加、OneDrive への保存、名前変更、テーマや PowerPoint Designer の活用、画面切り替えやアニメーションの追加、共有・共同作業、コメント追加、編集中のチャット、バージョン復元、発表者ビューやノートの利用、モバイルアプリの設定方法などを学びます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2408,7 +2408,7 @@
   },
   {
     "Id": "b7593732-a75a-4542-9d72-4932c505b92f",
-  "Title": "PowerPoint 入門",
+    "Title": "PowerPoint 入門",
     "Image": "images/playlists/welcome_to_powerpoint.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2416,7 +2416,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
-  "Description": "PowerPoint 入門コースで、プレゼンテーションの作成、テキスト・画像・アート・動画の追加、PowerPoint Designer でのデザイン選択、画面切り替えやアニメーションの追加、OneDrive への保存によるどこからでものアクセス、共有・共同作業方法を学びます。",
+    "Description": "PowerPoint 入門コースで、プレゼンテーションの作成、テキスト・画像・アート・動画の追加、PowerPoint Designer でのデザイン選択、画面切り替えやアニメーションの追加、OneDrive への保存によるどこからでものアクセス、共有・共同作業方法を学びます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2428,7 +2428,7 @@
   },
   {
     "Id": "4851d3e7-0790-4ccb-b943-cfa0558b4ef6",
-  "Title": "スライドとレイアウト",
+    "Title": "スライドとレイアウト",
     "Image": "images/playlists/slides_and_layouts.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2436,7 +2436,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
-  "Description": "PowerPoint でスライドやレイアウトを作成する方法を学びます。スライドマスターの作成、スライドの追加・並べ替え・複製・移動、レイアウトの適用、テーマでの色やデザイン追加、新規プレゼンテーションへのテンプレート適用、PowerPoint Designer でのデザイン提案、スライドマスターのカスタマイズ方法などを紹介します。動画トレーニングもご覧ください。",
+    "Description": "PowerPoint でスライドやレイアウトを作成する方法を学びます。スライドマスターの作成、スライドの追加・並べ替え・複製・移動、レイアウトの適用、テーマでの色やデザイン追加、新規プレゼンテーションへのテンプレート適用、PowerPoint Designer でのデザイン提案、スライドマスターのカスタマイズ方法などを紹介します。動画トレーニングもご覧ください。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2458,7 +2458,7 @@
   },
   {
     "Id": "9933fa88-bb9e-4dec-8124-abe44b89222c",
-  "Title": "PowerPoint のテキストとテーブル",
+    "Title": "PowerPoint のテキストとテーブル",
     "Image": "images/playlists/text_and_tables.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2466,7 +2466,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
-  "Description": "PowerPoint でテキストやテーブルを活用する方法を学びます。WordArt の挿入、スライドへのハイパーリンク追加、アウトラインからのプレゼン作成、スペルチェック、テーブルの作成・書式設定、Excel グラフのリンク挿入、スライド番号・日付・時刻の追加、図形やテキストボックスでのテキスト方向・位置の設定方法などを紹介します。",
+    "Description": "PowerPoint でテキストやテーブルを活用する方法を学びます。WordArt の挿入、スライドへのハイパーリンク追加、アウトラインからのプレゼン作成、スペルチェック、テーブルの作成・書式設定、Excel グラフのリンク挿入、スライド番号・日付・時刻の追加、図形やテキストボックスでのテキスト方向・位置の設定方法などを紹介します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2482,7 +2482,7 @@
   },
   {
     "Id": "8c91aac4-cb1b-4204-a53a-9aac2641f16a",
-  "Title": "PowerPoint の画像とグラフィック",
+    "Title": "PowerPoint の画像とグラフィック",
     "Image": "images/playlists/pictures_and_graphics.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2490,7 +2490,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
-  "Description": "PowerPoint で画像やグラフィックを追加し、プレゼンを視覚的に魅力的にしましょう。画像の挿入、アート効果の適用、SmartArt の追加、背景画像や会社ロゴの追加、グラフやアイコンの挿入方法などを学びます。",
+    "Description": "PowerPoint で画像やグラフィックを追加し、プレゼンを視覚的に魅力的にしましょう。画像の挿入、アート効果の適用、SmartArt の追加、背景画像や会社ロゴの追加、グラフやアイコンの挿入方法などを学びます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2505,7 +2505,7 @@
   },
   {
     "Id": "e1144779-6751-4415-a1d4-24e0303ea6db",
-  "Title": "スライドショーの発表",
+    "Title": "スライドショーの発表",
     "Image": "images/playlists/present_slideshows.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2513,7 +2513,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
-  "Description": "PowerPoint でスライドショーを発表する方法を学びます。スライドへの発表者ノート追加、タイミングや話し方のリハーサル、ナレーション付きスライドショーの録画、スライド・配布資料・ノートの印刷、自動再生プレゼンの作成方法などを紹介します。",
+    "Description": "PowerPoint でスライドショーを発表する方法を学びます。スライドへの発表者ノート追加、タイミングや話し方のリハーサル、ナレーション付きスライドショーの録画、スライド・配布資料・ノートの印刷、自動再生プレゼンの作成方法などを紹介します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2527,7 +2527,7 @@
   },
   {
     "Id": "fe0408f3-0971-4415-a100-f58a5dc2a0b8",
-  "Title": "アニメーション・動画・音声の活用",
+    "Title": "アニメーション・動画・音声の活用",
     "Image": "images/playlists/animation_video_and_audio.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2535,7 +2535,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
-  "Description": "PowerPoint でアニメーション・動画・音声を追加し、プレゼンをより魅力的かつプロフェッショナルに仕上げましょう。スライド間の画面切り替え、テキストやオブジェクトのアニメーション、モーフィング、動画や音声・音楽の挿入、画面録画の埋め込み方法などを学びます。",
+    "Description": "PowerPoint でアニメーション・動画・音声を追加し、プレゼンをより魅力的かつプロフェッショナルに仕上げましょう。スライド間の画面切り替え、テキストやオブジェクトのアニメーション、モーフィング、動画や音声・音楽の挿入、画面録画の埋め込み方法などを学びます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2549,7 +2549,7 @@
   },
   {
     "Id": "ee7fc2e1-a42d-452e-ab90-e8131b08a9b1",
-  "Title": "PowerPoint で共有と共同編集",
+    "Title": "PowerPoint で共有と共同編集",
     "Image": "images/playlists/share_and_co-author.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2557,7 +2557,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f05d3e34-3299-4776-a505-86f94b794194",
-  "Description": "PowerPoint で他の人とリアルタイムで共有・共同編集しましょう。コメントの活用、プレゼンの共有、ビデオ保存、個人情報や機密情報の削除、PDF 保存方法などを紹介します。",
+    "Description": "PowerPoint で他の人とリアルタイムで共有・共同編集しましょう。コメントの活用、プレゼンの共有、ビデオ保存、個人情報や機密情報の削除、PDF 保存方法などを紹介します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2570,7 +2570,7 @@
   },
   {
     "Id": "24216b89-7d0d-4263-b61e-2ecbda58f1df",
-  "Title": "SharePoint Online クイックスタート",
+    "Title": "SharePoint Online クイックスタート",
     "Image": "images/playlists/sharepoint_online_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2578,7 +2578,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "e5e2ae74-20ff-4626-937d-df4ff3405f29",
-  "Description": "SharePoint クイックスタート ガイドですぐに始めましょう。SharePoint へのサインイン、ニュースや情報の検索と発見、サイトの検索、サイトの作成、リストやドキュメント ライブラリの追加、フィルターによる表示内容の変更、ページや Web パーツの追加、他のユーザーとの共同作業、ドキュメント ライブラリからのドキュメントの開き方、ドキュメントの共有、ファイルの同期、モバイルアプリの設定方法を学びます。",
+    "Description": "SharePoint クイックスタート ガイドですぐに始めましょう。SharePoint へのサインイン、ニュースや情報の検索と発見、サイトの検索、サイトの作成、リストやドキュメント ライブラリの追加、フィルターによる表示内容の変更、ページや Web パーツの追加、他のユーザーとの共同作業、ドキュメント ライブラリからのドキュメントの開き方、ドキュメントの共有、ファイルの同期、モバイルアプリの設定方法を学びます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2591,7 +2591,7 @@
   },
   {
     "Id": "4d722e7d-6cb1-4399-998d-6f8645f63ffa",
-  "Title": "SharePoint Online 入門",
+    "Title": "SharePoint Online 入門",
     "Image": "images/playlists/intro_to_sharepoint_online.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2599,7 +2599,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "e5e2ae74-20ff-4626-937d-df4ff3405f29",
-  "Description": "この SharePoint Online 入門では、SharePoint を使ってイントラネット サイト、ページ、ドキュメント ライブラリ、リストを作成し、サイトやニュースを見つけてフォローし、モバイルで常につながる方法を学びます。ビデオ トレーニングで使い方を確認しましょう。",
+    "Description": "この SharePoint Online 入門では、SharePoint を使ってイントラネット サイト、ページ、ドキュメント ライブラリ、リストを作成し、サイトやニュースを見つけてフォローし、モバイルで常につながる方法を学びます。ビデオ トレーニングで使い方を確認しましょう。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2610,7 +2610,7 @@
   },
   {
     "Id": "d542016a-fdf9-4c8e-b4ea-eed1afc7df93",
-  "Title": "サイト、投稿、リストの作成",
+    "Title": "サイト、投稿、リストの作成",
     "Image": "images/playlists/create_sites_posts_and_lists.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2618,7 +2618,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "e5e2ae74-20ff-4626-937d-df4ff3405f29",
-  "Description": "SharePoint Online でサイト、投稿、リストを作成して、チームや組織をつなげましょう。チーム サイトやコミュニケーション サイトの作成、サイト上のニュース・アクティビティ・ドキュメントの確認、リストの利用・フィルター・更新、ニュース投稿の追加や削除、ページの作成による情報共有の方法を学びます。ビデオ トレーニングで使い方を確認しましょう。",
+    "Description": "SharePoint Online でサイト、投稿、リストを作成して、チームや組織をつなげましょう。チーム サイトやコミュニケーション サイトの作成、サイト上のニュース・アクティビティ・ドキュメントの確認、リストの利用・フィルター・更新、ニュース投稿の追加や削除、ページの作成による情報共有の方法を学びます。ビデオ トレーニングで使い方を確認しましょう。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2631,7 +2631,7 @@
   },
   {
     "Id": "6601f080-d86a-4d0c-9e60-150746bf8f96",
-  "Title": "SharePoint で共有と同期",
+    "Title": "SharePoint で共有と同期",
     "Image": "images/playlists/sharepoint_online_share_and_sync.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2639,7 +2639,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "e5e2ae74-20ff-4626-937d-df4ff3405f29",
-  "Description": "SharePoint ファイルの作成、共有、同期の方法を学びます。",
+    "Description": "SharePoint ファイルの作成、共有、同期の方法を学びます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2651,7 +2651,7 @@
   },
   {
     "Id": "63354a03-0b23-49c3-bf57-b992fdc3a00a",
-  "Title": "Sway クイックスタート",
+    "Title": "Sway クイックスタート",
     "Image": "images/playlists/sway-quick-start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2659,7 +2659,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "92083395-06d0-433f-ba0d-77c958d853b7",
-  "Description": "Sway での作成、コンテンツ追加、デザインと共有、さらに詳しく学ぶ方法を紹介します。",
+    "Description": "Sway での作成、コンテンツ追加、デザインと共有、さらに詳しく学ぶ方法を紹介します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2671,7 +2671,7 @@
   },
   {
     "Id": "9be47117-f14e-4cb6-ab52-41b59eac1178",
-  "Title": "Sway の共有とアクセス",
+    "Title": "Sway の共有とアクセス",
     "Image": "images/playlists/share-and-access-sway.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2679,7 +2679,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "92083395-06d0-433f-ba0d-77c958d853b7",
-  "Description": "Sway の共有とアクセス方法を学びます。Sway の共有、パスワードの追加、プライバシー設定、アクセシビリティ機能の利用、Sway のキーボード ショートカットについて紹介します。",
+    "Description": "Sway の共有とアクセス方法を学びます。Sway の共有、パスワードの追加、プライバシー設定、アクセシビリティ機能の利用、Sway のキーボード ショートカットについて紹介します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2692,7 +2692,7 @@
   },
   {
     "Id": "f23758f6-482e-4435-bd90-b815668f6305",
-  "Title": "Sway へのコンテンツ追加",
+    "Title": "Sway へのコンテンツ追加",
     "Image": "images/playlists/add-content-to-sway.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2700,7 +2700,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "92083395-06d0-433f-ba0d-77c958d853b7",
-  "Description": "Sway へのコンテンツ追加方法を学びます。コンテンツのインポート、検索、ビデオや音声ファイルの追加、Office ファイルやフォームなどの埋め込み、フォーカスポイントの追加、カードのコピー＆ペースト、クイックスタートでの Sway 作成方法を紹介します。",
+    "Description": "Sway へのコンテンツ追加方法を学びます。コンテンツのインポート、検索、ビデオや音声ファイルの追加、Office ファイルやフォームなどの埋め込み、フォーカスポイントの追加、カードのコピー＆ペースト、クイックスタートでの Sway 作成方法を紹介します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2719,7 +2719,7 @@
   },
   {
     "Id": "07e15804-1e84-4212-ac8d-a222df4e075c",
-  "Title": "Sway のカスタマイズ",
+    "Title": "Sway のカスタマイズ",
     "Image": "images/playlists/customize-sway.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "9fcd26c3-bcca-4452-a40a-f87e0daed348",
@@ -2727,7 +2727,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "92083395-06d0-433f-ba0d-77c958d853b7",
-  "Description": "Sway の情報フッターの削除、管理者設定の利用、ファイルサイズ制限の確認、よくある質問や管理者向けヘルプの取得方法を紹介します。",
+    "Description": "Sway の情報フッターの削除、管理者設定の利用、ファイルサイズ制限の確認、よくある質問や管理者向けヘルプの取得方法を紹介します。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2740,7 +2740,7 @@
   },
   {
     "Id": "918d6186-5b0d-47ed-8370-8e3b66c578aa",
-  "Title": "Viva Connections の使い方入門",
+    "Title": "Viva Connections の使い方入門",
     "Image": "images/playlists/vivaconnections_getstarted.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2748,7 +2748,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "6682f5e0-9f2a-4cd3-9ada-d404b8d34761",
-  "Description": "Microsoft Viva Connections は、日々の業務を完了し、会社のニュースに接続し、リソースにアクセスできる、パーソナライズされたアクション可能なホームベースを提供します。チームワークのハブから離れることなく利用できます。",
+    "Description": "Microsoft Viva Connections は、日々の業務を完了し、会社のニュースに接続し、リソースにアクセスできる、パーソナライズされたアクション可能なホームベースを提供します。チームワークのハブから離れることなく利用できます。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -2758,7 +2758,7 @@
   },
   {
     "Id": "554317b2-41dc-41c2-86c9-937d738a9fb5",
-  "Title": "Viva Engage の使い方入門",
+    "Title": "Viva Engage の使い方入門",
     "Image": "images/playlists/Engage_GetStarted.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2766,7 +2766,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "5a46b888-8b65-40aa-8644-c77cd487de13",
-  "Description": "Yammer を基盤に、Viva Engage は組織全体のリーダーや同僚をつなげ、互いの質問に答えたり、独自のストーリーを共有したり、職場での一体感を生み出します。コミュニティ、会話、パーソナライズされた発見に加え、ストーリーラインやストーリーによる自己表現や共有の新機能も備えています。",
+    "Description": "Yammer を基盤に、Viva Engage は組織全体のリーダーや同僚をつなげ、互いの質問に答えたり、独自のストーリーを共有したり、職場での一体感を生み出します。コミュニティ、会話、パーソナライズされた発見に加え、ストーリーラインやストーリーによる自己表現や共有の新機能も備えています。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2775,7 +2775,7 @@
   },
   {
     "Id": "a4d75f1e-6ca4-4a9d-8b4d-2f00d5a41cf2",
-  "Title": "コミュニティ",
+    "Title": "コミュニティ",
     "Image": "images/playlists/Engage_Communities.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2783,7 +2783,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "5a46b888-8b65-40aa-8644-c77cd487de13",
-  "Description": "Viva Engage のコミュニティは、会話、ファイル、イベント、更新情報の中心的な場所を提供します。コミュニティを作成すると、自動的にそのコミュニティの所有者になります。",
+    "Description": "Viva Engage のコミュニティは、会話、ファイル、イベント、更新情報の中心的な場所を提供します。コミュニティを作成すると、自動的にそのコミュニティの所有者になります。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2793,7 +2793,7 @@
   },
   {
     "Id": "bd9b2b47-0521-4ba5-a88d-3a23812971bf",
-  "Title": "ストーリーライン",
+    "Title": "ストーリーライン",
     "Image": "images/playlists/Engage_Storyline.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2801,7 +2801,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "5a46b888-8b65-40aa-8644-c77cd487de13",
-  "Description": "Viva Engage のストーリーラインで会話を始めたり、周囲の会話に参加したりできます。ストーリーラインは、職場内外で経験を共有し、マイルストーンを祝ったり、アイデアを提案したり、関心事を話し合う場所です。",
+    "Description": "Viva Engage のストーリーラインで会話を始めたり、周囲の会話に参加したりできます。ストーリーラインは、職場内外で経験を共有し、マイルストーンを祝ったり、アイデアを提案したり、関心事を話し合う場所です。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2813,7 +2813,7 @@
   },
   {
     "Id": "5196b273-8388-483e-afda-c50c3493a73f",
-  "Title": "リーダーシップ コーナー",
+    "Title": "リーダーシップ コーナー",
     "Image": "images/playlists/Engage_Leadership.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2821,7 +2821,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "5a46b888-8b65-40aa-8644-c77cd487de13",
-  "Description": "Viva Engage のリーダーシップ コーナーは、リーダーを知り、最新情報を得る場所です。リーダーが投稿している最新コンテンツを確認したり、参加しているコミュニティを見つけたり、AMA に参加して直接質問したりできます。リーダーについて学び、長期的な関係を築くためのツールが提供されます。",
+    "Description": "Viva Engage のリーダーシップ コーナーは、リーダーを知り、最新情報を得る場所です。リーダーが投稿している最新コンテンツを確認したり、参加しているコミュニティを見つけたり、AMA に参加して直接質問したりできます。リーダーについて学び、長期的な関係を築くためのツールが提供されます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2833,7 +2833,7 @@
   },
   {
     "Id": "5153bc03-af4a-4073-9dc2-029eed035eed",
-  "Title": "Viva の Q&A",
+    "Title": "Viva の Q&A",
     "Image": "images/playlists/Engage_Answers.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2841,7 +2841,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "5a46b888-8b65-40aa-8644-c77cd487de13",
-  "Description": "Viva の Q&A は、大規模組織の人々が質問や回答を通じて互いに学び合う新しい体験です。会話形式で質問し、従業員同士がクラウドソースされた回答でつながります。",
+    "Description": "Viva の Q&A は、大規模組織の人々が質問や回答を通じて互いに学び合う新しい体験です。会話形式で質問し、従業員同士がクラウドソースされた回答でつながります。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2859,7 +2859,7 @@
   },
   {
     "Id": "53f3a2d7-4ca9-42c3-86f9-e9ee0da2ed11",
-  "Title": "キャンペーン",
+    "Title": "キャンペーン",
     "Image": "images/playlists/Engage_Campaign.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2867,7 +2867,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "5a46b888-8b65-40aa-8644-c77cd487de13",
-  "Description": "Viva Engage のキャンペーンは、参加し、意見を共有し、コミュニティを構築する方法です。認証済みのキャンペーン ハッシュタグで投稿することで、どこからでもキャンペーンに参加できます。",
+    "Description": "Viva Engage のキャンペーンは、参加し、意見を共有し、コミュニティを構築する方法です。認証済みのキャンペーン ハッシュタグで投稿することで、どこからでもキャンペーンに参加できます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2879,7 +2879,7 @@
   },
   {
     "Id": "6ebe07a9-c245-47ae-91bf-82b035bf4ae4",
-  "Title": "アナリティクス",
+    "Title": "アナリティクス",
     "Image": "images/playlists/Engage_Analytics.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2887,7 +2887,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "5a46b888-8b65-40aa-8644-c77cd487de13",
-  "Description": "Viva Engage のアナリティクスは、コンテンツのパフォーマンスを把握し、今後のエンゲージメント向上に役立ちます。上部ナビゲーションのアナリティクス アイコンを選択してダッシュボードを表示できます。",
+    "Description": "Viva Engage のアナリティクスは、コンテンツのパフォーマンスを把握し、今後のエンゲージメント向上に役立ちます。上部ナビゲーションのアナリティクス アイコンを選択してダッシュボードを表示できます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2896,7 +2896,7 @@
   },
   {
     "Id": "17c3e0ab-4605-4386-9bf4-97f2222ca4cc",
-  "Title": "Viva Engage モバイルアプリ",
+    "Title": "Viva Engage モバイルアプリ",
     "Image": "images/playlists/Engage_App.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2904,7 +2904,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "5a46b888-8b65-40aa-8644-c77cd487de13",
-  "Description": "ご存知のとおり、おなじみの Yammer アプリは Viva Engage となり、同僚とつながるために必要なすべての機能を備えています。始めるには、モバイル端末のアプリストアで Viva Engage をダウンロードしてください。",
+    "Description": "ご存知のとおり、おなじみの Yammer アプリは Viva Engage となり、同僚とつながるために必要なすべての機能を備えています。始めるには、モバイル端末のアプリストアで Viva Engage をダウンロードしてください。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -2913,7 +2913,7 @@
   },
   {
     "Id": "5633fa3b-20ea-4d0a-ba50-d8db1fa1ee0b",
-  "Title": "Viva Goals の使い方入門",
+    "Title": "Viva Goals の使い方入門",
     "Image": "images/playlists/vivagoals_getstarted.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2921,7 +2921,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "0f76af36-ace7-4e17-9ccf-e82c6d5ff24f",
-  "Description": "Microsoft Viva Goals は、組織の戦略的優先事項を調整し、共通のミッションや目的のもとでチームを団結させます。Viva Goals の使い方入門では、目標、主要な成果、プロジェクトの作成方法、進捗のチェックインや更新、目標の評価と振り返り方法を学びます。",
+    "Description": "Microsoft Viva Goals は、組織の戦略的優先事項を調整し、共通のミッションや目的のもとでチームを団結させます。Viva Goals の使い方入門では、目標、主要な成果、プロジェクトの作成方法、進捗のチェックインや更新、目標の評価と振り返り方法を学びます。",
     "StatusTagId": "90fe6290-e063-4778-a8a1-7531c2a0a40e",
     "StatusNote": "",
     "Assets": [
@@ -2939,7 +2939,7 @@
   },
   {
     "Id": "4914ee96-5306-44a1-a27e-0aa297b66ff8",
-  "Title": "Viva Learning の使い方入門",
+    "Title": "Viva Learning の使い方入門",
     "Image": "images/playlists/vivalearning_getstarted.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2947,7 +2947,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "fa2b8bc0-3316-4102-a5a0-d71610d49d2a",
-  "Description": "Viva Learning は、Teams 内で学習のハブを作り、組織全体のコンテンツ ライブラリを共有・推奨・学習できるようにします。これにより、学習が日常の一部となり、LinkedIn Learning、Microsoft Learn、Microsoft 365 トレーニング、サードパーティのコンテンツ プロバイダーや LMS、会社独自のコンテンツにもアクセスできます。",
+    "Description": "Viva Learning は、Teams 内で学習のハブを作り、組織全体のコンテンツ ライブラリを共有・推奨・学習できるようにします。これにより、学習が日常の一部となり、LinkedIn Learning、Microsoft Learn、Microsoft 365 トレーニング、サードパーティのコンテンツ プロバイダーや LMS、会社独自のコンテンツにもアクセスできます。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -2966,7 +2966,7 @@
   },
   {
     "Id": "a958fdc7-d697-43f1-b3b3-a3f467ff94cd",
-  "Title": "Word クイックスタート",
+    "Title": "Word クイックスタート",
     "Image": "images/playlists/word_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2974,7 +2974,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-  "Description": "Word クイックスタート ガイドですぐに始めましょう。ドキュメントの作成、テキストの追加と書式設定、画像・図形・SmartArt・グラフの追加、OneDrive への保存、スタイルやテーマを使ったデザインと編集、スペルや文法のチェック、テキストの検索と置換、ドキュメントの共有、共同作業、変更履歴の追跡とレビュー、モバイルアプリの設定方法を学びます。",
+    "Description": "Word クイックスタート ガイドですぐに始めましょう。ドキュメントの作成、テキストの追加と書式設定、画像・図形・SmartArt・グラフの追加、OneDrive への保存、スタイルやテーマを使ったデザインと編集、スペルや文法のチェック、テキストの検索と置換、ドキュメントの共有、共同作業、変更履歴の追跡とレビュー、モバイルアプリの設定方法を学びます。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -2987,7 +2987,7 @@
   },
   {
     "Id": "5250bdca-1dac-4242-9ec9-3badda06b5f8",
-  "Title": "Word の入門",
+    "Title": "Word の入門",
     "Image": "images/playlists/welcome_to_word.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -2995,7 +2995,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-  "Description": "Word の入門コースで、ドキュメントの作成、変更履歴の確認と追跡、Editor でのスペル・文法・ライティングの向上、OneDrive への保存による PC・タブレット・スマートフォンからのファイルアクセス、チャットやコメント、共同作業による共有方法を学びます。",
+    "Description": "Word の入門コースで、ドキュメントの作成、変更履歴の確認と追跡、Editor でのスペル・文法・ライティングの向上、OneDrive への保存による PC・タブレット・スマートフォンからのファイルアクセス、チャットやコメント、共同作業による共有方法を学びます。",
     "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": "",
     "Assets": [
@@ -3004,7 +3004,7 @@
   },
   {
     "Id": "f74d0622-642d-4f98-906f-2960a2c05d31",
-  "Title": "作成と編集",
+    "Title": "作成と編集",
     "Image": "images/playlists/write_and_edit.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3012,7 +3012,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-  "Description": "Microsoft Word で最高の文章を書きましょう。テキストの追加・編集、検索と置換、文法とスペルのチェック、文字数の表示、ハイパーリンクの挿入と削除方法を学びます。",
+    "Description": "Microsoft Word で最高の文章を書きましょう。テキストの追加・編集、検索と置換、文法とスペルのチェック、文字数の表示、ハイパーリンクの挿入と削除方法を学びます。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -3025,7 +3025,7 @@
   },
   {
     "Id": "2bb5f49a-da1c-49e8-b7e8-04cfc6936f25",
-  "Title": "ページのレイアウト",
+    "Title": "ページのレイアウト",
     "Image": "images/playlists/layout_pages.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3033,7 +3033,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-  "Description": "Word でページをレイアウトする便利なオプションを紹介します。余白の変更、ニュースレター用の段組み、ページの向きの変更、ページ枠線の追加、ヘッダーやフッターの挿入、ページ番号や改ページの挿入方法を学びます。",
+    "Description": "Word でページをレイアウトする便利なオプションを紹介します。余白の変更、ニュースレター用の段組み、ページの向きの変更、ページ枠線の追加、ヘッダーやフッターの挿入、ページ番号や改ページの挿入方法を学びます。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -3049,7 +3049,7 @@
   },
   {
     "Id": "67cb976e-6129-4bed-a769-3691cb7562d8",
-  "Title": "表・画像・透かしの挿入",
+    "Title": "表・画像・透かしの挿入",
     "Image": "images/playlists/insert_tables_pictures_and_watermarks.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3057,7 +3057,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-  "Description": "Word で表、画像、透かしを挿入する方法を学びます。表の作成、画像の追加、アイコンや WordArt の挿入、ルーラーの表示・非表示、画像や図形の回転、画像の周囲にテキストを回り込ませる方法などを紹介します。",
+    "Description": "Word で表、画像、透かしを挿入する方法を学びます。表の作成、画像の追加、アイコンや WordArt の挿入、ルーラーの表示・非表示、画像や図形の回転、画像の周囲にテキストを回り込ませる方法などを紹介します。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -3073,7 +3073,7 @@
   },
   {
     "Id": "cef03778-baf8-4365-8b23-413c5edd6b66",
-  "Title": "Word で保存と印刷",
+    "Title": "Word で保存と印刷",
     "Image": "images/playlists/save_and_print.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3081,7 +3081,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-  "Description": "Word での保存と印刷方法を学びます。OneDrive への保存でどこからでもアクセス、Word 文書の PDF 変換・保存、PDF の編集、文書や封筒、ラベルの印刷、宛名リスト用ラベルの作成と印刷などを紹介します。",
+    "Description": "Word での保存と印刷方法を学びます。OneDrive への保存でどこからでもアクセス、Word 文書の PDF 変換・保存、PDF の編集、文書や封筒、ラベルの印刷、宛名リスト用ラベルの作成と印刷などを紹介します。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -3096,7 +3096,7 @@
   },
   {
     "Id": "fb5155d7-a802-4e95-b1ce-f8baea8cb44b",
-  "Title": "Word で共有と共同作業",
+    "Title": "Word で共有と共同作業",
     "Image": "images/playlists/share_and_coauthor.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3104,7 +3104,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-  "Description": "Word での共有と共同作業方法を学びます。ドキュメントの共有、他のユーザーとの共同作業、コメントの挿入・削除、変更履歴の追跡と承認、モバイル デバイスでの Word の利用方法などを紹介します。",
+    "Description": "Word での共有と共同作業方法を学びます。ドキュメントの共有、他のユーザーとの共同作業、コメントの挿入・削除、変更履歴の追跡と承認、モバイル デバイスでの Word の利用方法などを紹介します。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -3118,7 +3118,7 @@
   },
   {
     "Id": "26aa6ac6-24aa-43c5-ad1c-d93359ab3674",
-  "Title": "学校で Word を使う",
+    "Title": "学校で Word を使う",
     "Image": "images/playlists/use_word_for_reports.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3126,7 +3126,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-  "Description": "Word で数式や数式の入力、段落のインデント、線の挿入、参考文献リストの作成、脚注や文末脚注の挿入方法を学びます。",
+    "Description": "Word で数式や数式の入力、段落のインデント、線の挿入、参考文献リストの作成、脚注や文末脚注の挿入方法を学びます。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -3139,7 +3139,7 @@
   },
   {
     "Id": "4210a245-a2ae-4b6a-88a7-83ebef901aa7",
-  "Title": "Word のアクセシビリティと使いやすさの向上",
+    "Title": "Word のアクセシビリティと使いやすさの向上",
     "Image": "images/playlists/improve_accessibility_and_ease_of_use.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3147,7 +3147,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-  "Description": "Word のアクセシビリティと使いやすさを向上させる方法を学びます。スクリーン リーダーの利用、リーディング ツールによる読解力向上、アクセシビリティ チェッカーでの文書のアクセシブル化、作業を効率化するキーボード ショートカットの習得などを紹介します。",
+    "Description": "Word のアクセシビリティと使いやすさを向上させる方法を学びます。スクリーン リーダーの利用、リーディング ツールによる読解力向上、アクセシビリティ チェッカーでの文書のアクセシブル化、作業を効率化するキーボード ショートカットの習得などを紹介します。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -3158,7 +3158,7 @@
   },
   {
     "Id": "2885901b-1655-4311-a7f9-025852a659e4",
-  "Title": "テキストの書式設定",
+    "Title": "テキストの書式設定",
     "Image": "images/playlists/add_format_text.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3166,7 +3166,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "f9b14990-420a-4678-87a8-8428928186c6",
-  "Description": "Word でテキストの書式設定方法を学びます。フォント、フォント サイズ、フォント色の変更、書式のコピー、箇条書きや番号付きリストの作成、行間の変更、スタイルやテーマの適用で文書デザインを視覚的に向上させます。",
+    "Description": "Word でテキストの書式設定方法を学びます。フォント、フォント サイズ、フォント色の変更、書式のコピー、箇条書きや番号付きリストの作成、行間の変更、スタイルやテーマの適用で文書デザインを視覚的に向上させます。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -3179,7 +3179,7 @@
   },
   {
     "Id": "575bed47-83d8-49cb-affa-51d9497ab93b",
-  "Title": "Yammer クイックスタート",
+    "Title": "Yammer クイックスタート",
     "Image": "images/playlists/yammer_quick_start.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3187,7 +3187,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "e83da7d3-653c-4c01-a262-336e07b88aba",
-  "Description": "Yammer クイックスタートですぐに始めましょう。Yammer にサインインし、コミュニティの会話に参加し、組織で話題になっていることを確認し、Yammer モバイルアプリを設定して外出先でも利用できます。",
+    "Description": "Yammer クイックスタートですぐに始めましょう。Yammer にサインインし、コミュニティの会話に参加し、組織で話題になっていることを確認し、Yammer モバイルアプリを設定して外出先でも利用できます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -3199,7 +3199,7 @@
   },
   {
     "Id": "19382980-771c-413e-a2af-626165fdabba",
-  "Title": "Yammer ネットワークの成功展開",
+    "Title": "Yammer ネットワークの成功展開",
     "Image": "images/playlists/roll_out_a_successful_yammer_network.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3207,7 +3207,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "e83da7d3-653c-4c01-a262-336e07b88aba",
-  "Description": "Yammer ネットワークを成功させるためのヒントとベストプラクティスを紹介します。Yammer の概要、戦略の計画、ネットワークのパーソナライズ、適切なユースケースの特定、コミュニティの作成、ローンチ準備、ユーザー教育、継続的なエンゲージメント推進、Teams・SharePoint Online・Outlook との統合、成果の測定方法を学びます。",
+    "Description": "Yammer ネットワークを成功させるためのヒントとベストプラクティスを紹介します。Yammer の概要、戦略の計画、ネットワークのパーソナライズ、適切なユースケースの特定、コミュニティの作成、ローンチ準備、ユーザー教育、継続的なエンゲージメント推進、Teams・SharePoint Online・Outlook との統合、成果の測定方法を学びます。",
     "StatusTagId": "",
     "StatusNote": "",
     "Assets": [
@@ -3225,7 +3225,7 @@
   },
   {
     "Id": "02f5792f-4eed-4122-91ed-348560c3fac9",
-  "Title": "Yammer を毎日使う",
+    "Title": "Yammer を毎日使う",
     "Image": "images/playlists/use_yammer_every_day.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3233,7 +3233,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "e83da7d3-653c-4c01-a262-336e07b88aba",
-  "Description": "Yammer を毎日使って、組織内の人々やリーダー、コミュニティと交流し、知識を共有する方法を学びます。Yammer の概要、プロフィールや設定の変更、会話の開始、投稿の操作、ファイルの添付、コミュニティの発見と参加、通知の活用、アナウンスメントの操作、Yammer を最大限活用するためのヒントとベストプラクティスを紹介します。",
+    "Description": "Yammer を毎日使って、組織内の人々やリーダー、コミュニティと交流し、知識を共有する方法を学びます。Yammer の概要、プロフィールや設定の変更、会話の開始、投稿の操作、ファイルの添付、コミュニティの発見と参加、通知の活用、アナウンスメントの操作、Yammer を最大限活用するためのヒントとベストプラクティスを紹介します。",
     "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": "",
     "Assets": [
@@ -3247,7 +3247,7 @@
   },
   {
     "Id": "d4df5f82-2049-4c03-aab3-50e5a2dc8ad2",
-  "Title": "新機能と変更点",
+    "Title": "新機能と変更点",
     "Image": "images/playlists/set-up-Microsoft-365-learning-pathway.png",
     "LevelId": "ab49a955-3814-41fa-aa33-1b2757bc28ea",
     "AudienceId": "9fcd26c3-bcca-4452-a40a-f87e0daed348",
@@ -3255,7 +3255,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
-  "Description": "Microsoft 365 ラーニングパスウェイの最新アップデートの新機能と変更点を確認しましょう。",
+    "Description": "Microsoft 365 ラーニングパスウェイの最新アップデートの新機能と変更点を確認しましょう。",
     "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": "",
     "Assets": [
@@ -3265,7 +3265,7 @@
   },
   {
     "Id": "9a105f80-b260-44ad-ba1a-8e2ea9f5bfdc",
-  "Title": "学習コンテンツの計画",
+    "Title": "学習コンテンツの計画",
     "Image": "images/playlists/plan-your-traning-content.png",
     "LevelId": "ab49a955-3814-41fa-aa33-1b2757bc28ea",
     "AudienceId": "9fcd26c3-bcca-4452-a40a-f87e0daed348",
@@ -3273,7 +3273,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
-  "Description": "Learning Pathways のコンテンツや種類を確認し、組織に最適なものを決定しましょう。",
+    "Description": "Learning Pathways のコンテンツや種類を確認し、組織に最適なものを決定しましょう。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -3282,7 +3282,7 @@
   },
   {
     "Id": "545e374b-f33e-4d62-8e6f-3ec36b6b28fe",
-  "Title": "Learning Pathways のカスタマイズ",
+    "Title": "Learning Pathways のカスタマイズ",
     "Image": "images/playlists/customize-learning-pathways.png",
     "LevelId": "ab49a955-3814-41fa-aa33-1b2757bc28ea",
     "AudienceId": "9fcd26c3-bcca-4452-a40a-f87e0daed348",
@@ -3290,7 +3290,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
-  "Description": "Learning Pathways サイトのカスタマイズ方法、コンテンツの表示・非表示、カスタムプレイリストの作成方法を学びます。",
+    "Description": "Learning Pathways サイトのカスタマイズ方法、コンテンツの表示・非表示、カスタムプレイリストの作成方法を学びます。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -3306,7 +3306,7 @@
   },
   {
     "Id": "66f9b195-d48e-49e3-bb0e-1848a49b1351",
-  "Title": "導入促進",
+    "Title": "導入促進",
     "Image": "images/playlists/drive-adoption-of-learning-pathways.png",
     "LevelId": "ab49a955-3814-41fa-aa33-1b2757bc28ea",
     "AudienceId": "9fcd26c3-bcca-4452-a40a-f87e0daed348",
@@ -3314,7 +3314,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
-  "Description": "Learning Pathways の導入を促進するためのリソースやベストプラクティスを紹介します。",
+    "Description": "Learning Pathways の導入を促進するためのリソースやベストプラクティスを紹介します。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -3323,7 +3323,7 @@
   },
   {
     "Id": "08365272-6868-4482-9384-b720d0121533",
-  "Title": "効果測定",
+    "Title": "効果測定",
     "Image": "images/playlists/measure-your-impact.png",
     "LevelId": "ab49a955-3814-41fa-aa33-1b2757bc28ea",
     "AudienceId": "9fcd26c3-bcca-4452-a40a-f87e0daed348",
@@ -3331,7 +3331,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
-  "Description": "管理者は、SharePoint の組み込みサイト利用レポート機能を活用して、Microsoft 365 ラーニングパスウェイの組織的な効果を測定しましょう。",
+    "Description": "管理者は、SharePoint の組み込みサイト利用レポート機能を活用して、Microsoft 365 ラーニングパスウェイの組織的な効果を測定しましょう。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -3340,7 +3340,7 @@
   },
   {
     "Id": "037adb49-b480-4a70-8389-5caeaec1a640",
-  "Title": "チャンピオン プログラムの作成",
+    "Title": "チャンピオン プログラムの作成",
     "Image": "images/playlists/items.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "304b216c-ea4d-436c-83f8-93ba1319943b",
@@ -3348,7 +3348,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9d9a29c7-72fe-475e-9dd1-d999259d02cb",
-  "Description": "Office 365 サービスの導入を促進するためのベストプラクティスを紹介します。",
+    "Description": "Office 365 サービスの導入を促進するためのベストプラクティスを紹介します。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -3364,7 +3364,7 @@
   },
   {
     "Id": "2b21d8f8-3e30-41f5-b853-548edb8a4574",
-  "Title": "Microsoft To Do でタスク管理",
+    "Title": "Microsoft To Do でタスク管理",
     "Image": "images/playlists/microsoft-todo.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3372,7 +3372,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "9dfad94b-bc4b-46e9-a233-6626c098b763",
-  "Description": "Microsoft To Do でタスクを効果的に管理する方法を学びます。タスクの作成、期限やリマインダーの追加、リストによる整理、リストの共有、My Day で今日やるべきことに集中する方法を紹介します。",
+    "Description": "Microsoft To Do でタスクを効果的に管理する方法を学びます。タスクの作成、期限やリマインダーの追加、リストによる整理、リストの共有、My Day で今日やるべきことに集中する方法を紹介します。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -3388,7 +3388,7 @@
   },
   {
     "Id": "35a792f6-960b-48ef-9e15-ba5eeea9e02d",
-  "Title": "Microsoft Whiteboard の使い方入門",
+    "Title": "Microsoft Whiteboard の使い方入門",
     "Image": "images/playlists/microsoft-whiteboard.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3396,7 +3396,7 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "d234b88b-5b28-4396-8f8a-834638ebf7c6",
-  "Description": "Microsoft Whiteboard を使って他の人とコラボレーションする方法を学びます。新しいホワイトボードの作成、テキスト・画像・付箋などの追加、描画ツールの利用、ホワイトボードの共有方法を紹介します。",
+    "Description": "Microsoft Whiteboard を使って他の人とコラボレーションする方法を学びます。新しいホワイトボードの作成、テキスト・画像・付箋などの追加、描画ツールの利用、ホワイトボードの共有方法を紹介します。",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -3406,7 +3406,7 @@
   },
   {
     "Id": "a3276645-709e-4cd9-8e09-0c124a619b5b",
-  "Title": "Microsoft 365 Copilot アプリの使い方入門",
+    "Title": "Microsoft 365 Copilot アプリの使い方入門",
     "Image": "images/playlists/arrow-circle-up-sparkle.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3414,8 +3414,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
-  "Description": "Microsoft 365 Copilot アプリは、ファイルの検索や作成、質問、AI 生成コンテンツでの共同作業、生産性向上のためのエージェント設定、さまざまなカスタムエージェントやアプリの追加をサポートします。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "Description": "Microsoft 365 Copilot アプリは、ファイルの検索や作成、質問、AI 生成コンテンツでの共同作業、生産性向上のためのエージェント設定、さまざまなカスタムエージェントやアプリの追加をサポートします。",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "d76f6ade-0e4e-48d5-9fc1-17480b7e041e",
@@ -3424,7 +3424,7 @@
   },
   {
     "Id": "8ba5d55a-e0eb-4fe2-a486-b5e0a8b9169e",
-  "Title": "Microsoft 365 Copilot チャット",
+    "Title": "Microsoft 365 Copilot チャット",
     "Image": "images/playlists/chat-sparkle.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3432,8 +3432,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
-  "Description": "Copilot チャットは AI アシスタントであり、最新のウェブ情報に基づいた会話を提供します。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "Description": "Copilot チャットは AI アシスタントであり、最新のウェブ情報に基づいた会話を提供します。",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "61033adf-484d-45f5-a8c3-b89876963bd8",
@@ -3445,7 +3445,7 @@
   },
   {
     "Id": "71a46e62-9e05-409f-bd74-fa194192aa4f",
-  "Title": "Word で Copilot を使う入門",
+    "Title": "Word で Copilot を使う入門",
     "Image": "images/playlists/copilot_word.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3453,8 +3453,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
-  "Description": "Word で AI の力を活用し、文書の下書きや変換、要約の作成方法を学びましょう。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "Description": "Word で AI の力を活用し、文書の下書きや変換、要約の作成方法を学びましょう。",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "6ce4ac5a-3f81-4b2b-8519-efe3cdc6dbf5",
@@ -3468,7 +3468,7 @@
   },
   {
     "Id": "f45443ed-7424-4e8c-8e3e-924d534cbc9e",
-  "Title": "PowerPoint で Copilot を使う入門",
+    "Title": "PowerPoint で Copilot を使う入門",
     "Image": "images/playlists/copilot_powerpoint.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3476,8 +3476,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
-  "Description": "PowerPoint の Copilot は、ひらめきを魅力的でプロフェッショナルなプレゼンテーションに変えるお手伝いをします。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "Description": "PowerPoint の Copilot は、ひらめきを魅力的でプロフェッショナルなプレゼンテーションに変えるお手伝いをします。",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "3222ee03-f5a4-4d27-8642-9c387ab4854d",
@@ -3492,7 +3492,7 @@
   },
   {
     "Id": "2bfd1ce3-9a01-47fe-a58e-001b4cee3013",
-  "Title": "Outlook で Copilot を使う入門",
+    "Title": "Outlook で Copilot を使う入門",
     "Image": "images/playlists/copilot_outlook.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3500,8 +3500,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
-  "Description": "Copilot を使って Outlook での情報整理、準備、フォローアップを簡単に行いましょう。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "Description": "Copilot を使って Outlook での情報整理、準備、フォローアップを簡単に行いましょう。",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "3eb1d053-89b8-491c-8a6e-746015238d9b",
@@ -3513,7 +3513,7 @@
   },
   {
     "Id": "602296d2-7ddd-40ac-a441-e2e31afd9e90",
-  "Title": "Excel で Copilot を使う入門",
+    "Title": "Excel で Copilot を使う入門",
     "Image": "images/playlists/copilot_excel.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3521,8 +3521,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
-  "Description": "Excel の Copilot は、データの分析・理解・可視化を簡単にサポートします。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "Description": "Excel の Copilot は、データの分析・理解・可視化を簡単にサポートします。",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "d7110502-0334-4b4f-a175-a73abdfc118a",
@@ -3538,7 +3538,7 @@
   },
   {
     "Id": "53a74dcf-45ad-4e35-9f9b-1e405e9b5fef",
-  "Title": "OneNote で Copilot を使う入門",
+    "Title": "OneNote で Copilot を使う入門",
     "Image": "images/playlists/copilot_onenote.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3546,8 +3546,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
-  "Description": "OneNote の Copilot で自由にチャットし、生産性を大幅に向上させましょう。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "Description": "OneNote の Copilot で自由にチャットし、生産性を大幅に向上させましょう。",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "89e1f3cd-9cbc-4b34-84da-40d52b39aff5",
@@ -3559,7 +3559,7 @@
   },
   {
     "Id": "c39400b8-0807-4e3a-ae27-fd6f46d1b873",
-  "Title": "Teams で Copilot を使う入門",
+    "Title": "Teams で Copilot を使う入門",
     "Image": "images/playlists/copilot_teams.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3567,8 +3567,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
-  "Description": "Microsoft Teams の Copilot は、コラボレーションを強化し、会議・通話・チャットを最大限に活用できるようにします。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "Description": "Microsoft Teams の Copilot は、コラボレーションを強化し、会議・通話・チャットを最大限に活用できるようにします。",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "60c37fde-6e13-4412-8101-40bbbc711ec9",
@@ -3583,7 +3583,7 @@
   },
   {
     "Id": "e1376e29-2e6f-4cb6-a47f-31e83699e025",
-  "Title": "Loop で Copilot を使う入門",
+    "Title": "Loop で Copilot を使う入門",
     "Image": "images/playlists/copilot_loop.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3591,8 +3591,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
-  "Description": "Loop の Copilot は、ブレインストーミングやコンテンツの下書きなどをサポートします。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "Description": "Loop の Copilot は、ブレインストーミングやコンテンツの下書きなどをサポートします。",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "966eb1a2-b5ec-4532-8a9d-f1aaeda7f90e",
@@ -3604,7 +3604,7 @@
   },
   {
     "Id": "83679c0b-5aad-456b-945e-c998baca3d29",
-  "Title": "OneDrive で Copilot を使う入門",
+    "Title": "OneDrive で Copilot を使う入門",
     "Image": "images/playlists/document-sparkle.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3612,8 +3612,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
-  "Description": "OneDrive の Copilot は、ファイル操作を革新し、ワークフローを効率化するために設計されています。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "Description": "OneDrive の Copilot は、ファイル操作を革新し、ワークフローを効率化するために設計されています。",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "7fc81e10-e0cf-4da8-af2e-9876a2770e5d",
@@ -3624,7 +3624,7 @@
   },
   {
     "Id": "ebd7a2e7-d352-4249-b442-2363001ecf31",
-  "Title": "Whiteboard で Copilot を使う入門",
+    "Title": "Whiteboard で Copilot を使う入門",
     "Image": "images/playlists/copilot_whiteboard.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3632,8 +3632,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
-  "Description": "Whiteboard の Copilot でアイデアの創出・整理・理解がこれまでになく簡単になります。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "Description": "Whiteboard の Copilot でアイデアの創出・整理・理解がこれまでになく簡単になります。",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "798b4694-4eab-4928-b4cc-33952231c234",
@@ -3643,7 +3643,7 @@
   },
   {
     "Id": "55b156d1-196a-40c5-ba36-9c4e813d0a94",
-  "Title": "Planner で Copilot を使う入門",
+    "Title": "Planner で Copilot を使う入門",
     "Image": "images/playlists/task-list-sparkle.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3651,8 +3651,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
-  "Description": "Planner の Copilot でプロのように計画を立てましょう。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "Description": "Planner の Copilot でプロのように計画を立てましょう。",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "1c986429-613a-47c3-816d-039dd91e60bf",
@@ -3662,7 +3662,7 @@
   },
   {
     "Id": "9237d47f-1116-45ae-8f3f-c007aa2c6f6a",
-  "Title": "Forms で Copilot を使う入門",
+    "Title": "Forms で Copilot を使う入門",
     "Image": "images/playlists/form-sparkle.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3670,8 +3670,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
-  "Description": "Forms の Copilot で、関連性が高く魅力的で効果的なアンケートや投票、その他のフォームを簡単に作成できます。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "Description": "Forms の Copilot で、関連性が高く魅力的で効果的なアンケートや投票、その他のフォームを簡単に作成できます。",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "6a21bfbd-21b3-4e48-946c-7603b129521c"
@@ -3679,7 +3679,7 @@
   },
   {
     "Id": "033b0161-3c25-4fff-9b47-da803bd71098",
-  "Title": "SharePoint で Copilot を使う入門",
+    "Title": "SharePoint で Copilot を使う入門",
     "Image": "images/playlists/tab-desktop-multiple-sparkle.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3687,8 +3687,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
-  "Description": "生産性とコラボレーションを高め、サイト・ページ・ファイルとのやり取りを効率化しましょう。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "Description": "生産性とコラボレーションを高め、サイト・ページ・ファイルとのやり取りを効率化しましょう。",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "1ec20ffb-5f02-43f3-bafb-6b0e99f42a4c",
@@ -3698,7 +3698,7 @@
   },
   {
     "Id": "62ec4994-c133-4aa8-a497-d3a33ee5dcef",
-  "Title": "SharePoint エージェントの使い方入門",
+    "Title": "SharePoint エージェントの使い方入門",
     "Image": "images/playlists/tab-desktop-multiple-sparkle.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3706,8 +3706,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
-  "Description": "SharePoint エージェントは、質問者が権限を持つ任意の SharePoint サイトやドキュメント ライブラリのコンテンツに関する質問に回答できます。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "Description": "SharePoint エージェントは、質問者が権限を持つ任意の SharePoint サイトやドキュメント ライブラリのコンテンツに関する質問に回答できます。",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "69e2faf9-2c1e-4baa-8305-23e625021bcf",
@@ -3720,7 +3720,7 @@
   },
   {
     "Id": "66b58179-09c6-4df6-99ae-48acb2881189",
-  "Title": "Stream で Copilot を使う入門",
+    "Title": "Stream で Copilot を使う入門",
     "Image": "images/playlists/play-circle-sparkle.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3728,8 +3728,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
-  "Description": "Stream の Copilot で、組織内のビデオを素早く効果的に把握できます。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "Description": "Stream の Copilot で、組織内のビデオを素早く効果的に把握できます。",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "0b531ea9-2d9d-4830-97e4-2c1b2b8ca31d"
@@ -3737,7 +3737,7 @@
   },
   {
     "Id": "14811674-383b-4c9c-8340-3ce488a6a8e0",
-  "Title": "Viva Amplify で Copilot を使う入門",
+    "Title": "Viva Amplify で Copilot を使う入門",
     "Image": "images/playlists/mic-sparkle.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3745,8 +3745,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
-  "Description": "Viva Amplify の Copilot は、効果的にメッセージを伝えるための最適な表現を見つけるのに役立ちます。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "Description": "Viva Amplify の Copilot は、効果的にメッセージを伝えるための最適な表現を見つけるのに役立ちます。",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "768222a0-9b83-402f-861e-9f7691183368",
@@ -3755,7 +3755,7 @@
   },
   {
     "Id": "2a499a8e-5063-43e2-bae4-ae199d528c58",
-  "Title": "Viva Engage で Copilot を使う入門",
+    "Title": "Viva Engage で Copilot を使う入門",
     "Image": "images/playlists/person-sparkle.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3763,8 +3763,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
-  "Description": "Viva Engage の Copilot で投稿を作成し、Teams アプリや Web での存在感やエンゲージメントを高めましょう。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "Description": "Viva Engage の Copilot で投稿を作成し、Teams アプリや Web での存在感やエンゲージメントを高めましょう。",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "f43f275f-4eeb-4df0-baf9-c7db57329bd2",
@@ -3775,7 +3775,7 @@
   },
   {
     "Id": "d23a3ace-0d8b-4c7f-836d-c89cf7ac967a",
-  "Title": "Viva Pulse で Copilot を使う入門",
+    "Title": "Viva Pulse で Copilot を使う入門",
     "Image": "images/playlists/glance-sparkle.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3783,8 +3783,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
-  "Description": "Viva Pulse の Copilot でアンケート結果を自動的に要約しましょう。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "Description": "Viva Pulse の Copilot でアンケート結果を自動的に要約しましょう。",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "c271f112-6c23-46e0-ae9c-e7b5f9584b24",
@@ -3793,7 +3793,7 @@
   },
   {
     "Id": "cf6d549d-a533-4336-8ed6-0ca0a83eabbc",
-  "Title": "Copilot で月曜の朝を始めよう",
+    "Title": "Copilot で月曜の朝を始めよう",
     "Image": "images/playlists/calendar-sparkle.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3801,8 +3801,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "b40d7a3e-9357-4a03-84b4-fa98e2dbfe13",
-  "Description": "Microsoft 365 Copilot を使って仕事の準備、メールの確認、関連ファイルの検索、会話内容の把握を行いましょう。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "Description": "Microsoft 365 Copilot を使って仕事の準備、メールの確認、関連ファイルの検索、会話内容の把握を行いましょう。",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "023638f0-684d-4c91-8110-21a9269adf6b",
@@ -3814,7 +3814,7 @@
   },
   {
     "Id": "ebb0914d-ba3a-4cd5-ba78-c2ac025d8ecc",
-  "Title": "Copilot で仕事に取りかかろう",
+    "Title": "Copilot で仕事に取りかかろう",
     "Image": "images/playlists/notepad-sparkle.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3822,8 +3822,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "b40d7a3e-9357-4a03-84b4-fa98e2dbfe13",
-  "Description": "To Do リストのタスクを実行しましょう。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "Description": "To Do リストのタスクを実行しましょう。",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "6fdd7c6a-2db5-4882-a8aa-f2c2f6b3aa48",
@@ -3836,7 +3836,7 @@
   },
   {
     "Id": "1b691310-8057-42d7-9a24-202e3797bbde",
-  "Title": "Copilot で 1 週間を振り返ろう",
+    "Title": "Copilot で 1 週間を振り返ろう",
     "Image": "images/playlists/clock-sparkle.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3844,8 +3844,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "b40d7a3e-9357-4a03-84b4-fa98e2dbfe13",
-  "Description": "Copilot で 1 週間を振り返り、来週の優先事項を設定しましょう。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "Description": "Copilot で 1 週間を振り返り、来週の優先事項を設定しましょう。",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "d33438f4-a4be-42e0-9531-e02e25037859",
@@ -3855,7 +3855,7 @@
   },
   {
     "Id": "6e044930-49ff-4104-b9ae-80b345e507e7",
-  "Title": "Copilot プロンプトについて学ぶ",
+    "Title": "Copilot プロンプトについて学ぶ",
     "Image": "images/playlists/chat-sparkle.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
@@ -3863,8 +3863,8 @@
     "SubjectId": "",
     "Source": "Microsoft",
     "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
-  "Description": "Copilot プロンプトでできることを探ってみましょう。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "Description": "Copilot プロンプトでできることを探ってみましょう。",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "f6c3b467-f07c-4db1-ae54-ffac96184dd5",
@@ -3888,7 +3888,7 @@
     "Source": "Microsoft",
     "CatId": "c9ded195-c2ab-4089-ae9f-fcb1ec1e4804",
     "Description": "時間を節約し手作業を減らす自動化ワークフローの基本を学びます。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "a9c3e03b-0654-46af-a254-20252e580d01",
@@ -3908,7 +3908,7 @@
     "Source": "Microsoft",
     "CatId": "0a89d391-5a86-42c9-a3ae-03a18ebc19b7",
     "Description": "Clipchamp を使って、仕事や個人用途のビデオを作成・編集する基本を学びましょう。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "750e8940-cd76-4abf-9767-b34d3d3285d7",
@@ -3931,7 +3931,7 @@
     "Source": "Microsoft",
     "CatId": "9c14c00c-1c53-45e0-9ea2-ffe9265d4336",
     "Description": "Visio を使って図を作成・編集する基本を学びましょう。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "75a50ce3-6f12-4cf6-9b96-5e2026b8a3fe",
@@ -3950,7 +3950,7 @@
     "Source": "Microsoft",
     "CatId": "9c14c00c-1c53-45e0-9ea2-ffe9265d4336",
     "Description": "Visio でページやテキストの書式を設定する方法を学びましょう。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "79c1ea54-a9a6-46ce-a4ca-798fa51c7f01",
@@ -3970,7 +3970,7 @@
     "Source": "Microsoft",
     "CatId": "3545fd1f-e834-4a3f-8106-a67b866bc611",
     "Description": "Power Apps を使ったアプリ作成の基本を学びましょう。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "66eb28d7-8fd3-4926-ad58-af3ffbe150c2",
@@ -3990,7 +3990,7 @@
     "Source": "Microsoft",
     "CatId": "3545fd1f-e834-4a3f-8106-a67b866bc611",
     "Description": "Copilot を Power Apps で活用してアプリ開発を強化する方法を学びましょう。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "2767f8d4-8a1b-478f-80c1-070e209f1fae",
@@ -4008,7 +4008,7 @@
     "Source": "Microsoft",
     "CatId": "3545fd1f-e834-4a3f-8106-a67b866bc611",
     "Description": "Canvas アプリを作成する基本を学びましょう。",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": "",
     "Assets": [
       "32d8135e-a9f5-465d-927a-6b475a8552b8",

@@ -44,6 +44,7 @@ define([], (): IM365LPStrings => {
     DetailEditCategory: "カテゴリ",
     DetailEditCategoryNoData: "使用できるカテゴリはありません",
     DetailEditTechnology: "テクノロジ",
+    DetailEditStatus: "状態",
     DetailEditLevel: "レベル",
     DetailEditAudience: "対象ユーザー",
     AssetSearchPlaceHolderLabel: "既存の資産を検索する",
