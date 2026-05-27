@@ -13,29 +13,56 @@ Train employees with Microsoft 365 learning pathways, a digital, customizable le
 - Create your own training playlists: Add your own custom training content and playlists to feature your organization-specific scenarios
 - Always up-to-date content: As Office 365 changes, the Microsoft 365 learning pathways content will be updated. Content updates will be made and communicated to customers on a monthly basis
 
-## Version 5 Release
+## Prerequisites
 
-Version 5 has been released with added accessibility and technology updates. Included in the V5 release we have added a custom analytics webhook. For [webhook configuration instructions](installation/ConfigureAnalyticsWebHook.md). For for new installations see the [Installation Instructions](./installation/README.md). For upgrade instructions on an existing Microsoft 365 Learning Pathways site follow the [V4 to V5 Upgrade instructions](./installation/UpdateV4-V5.md).
+For a list of prerequisites and installation instructions see [Overview of multilingual support for learning pathways](https://github.com/pnp/custom-learning-office-365/tree/main/installation)
+
+>Note: if you are upgrading from V3 to V4 please review the [instructions](./installation/UpdateV3-V4.md) prior to doing the upgrade as these instructions will provide valuable instructions on enabling multilingual support.
+
+## Current Release & Installation
+
+Stable Version: ![drop](https://img.shields.io/badge/drop-5.0-green.svg)
+
+### Standard installation
+
+Version 5 has been released with added accessibility and technology updates. Included in the V5 release we have added a custom analytics webhook.
+- For [webhook configuration instructions](installation/ConfigureAnalyticsWebHook.md).
+- For for new installations see the [Installation Instructions](./installation/README.md).
+- For upgrade instructions on an existing Microsoft 365 Learning Pathways site follow the [V4 to V5 Upgrade instructions](./installation/UpdateV4-V5.md).
+
+### Build your own with the SharePoint Framework
+
+![drop](https://img.shields.io/badge/drop-1.19.0-green.svg)
+
+The Microsoft Custom Learning Web Part is built using the [SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview). To manually install and configure the web part and site collection you will need to complete the steps outlined in the [Manually installing and configuring Microsoft 365 learning pathways Instructions](./installation/README.md)
+
+### Teams Installation
+
+If you would like to install the Microsoft 365 Learning Pathways in Microsoft Teams you can do so as both a Teams Personal App and as a Teams Tab. YOu can get instructions for [Teams Installation in the Installation ReadMe](./installation/README.md#teams-installation).
+
+### Changing the URL of your Microsoft 365 learning pathways site
+
+If you need to rename the url of the main Microsoft 365 learning pathways site you can do so but it will also require you to run a PowerShell script to update the Tenant App property that controls what that site URL is for the web parts. After renaming the URL in the SharePoint Admin Center or via PowerShell additionally run teh following script to update the Tenant App property.
+[UpdateM365lpSiteUrl.ps1](./installation/UpdateM365lpSiteUrl.ps1)
+
+### Disabling telemetry collection
+
+Microsoft collects active usage data from your organization’s use of Microsoft 365 learning pathways and the use of Microsoft’s online content. Microsoft will use this data to help improve the future Microsoft 365 learning pathways solutions. To learn more about Microsoft privacy policies see [https://go.microsoft.com/fwlink/?LinkId=521839](https://go.microsoft.com/fwlink/?LinkId=521839).
+
+If you would like to opt out of this data collection, please follow these instructions:
+
+1. Go to script `M365lpConfiguration.ps1`.
+1. Change the `$optInTelemetry = $true` command line to `$false`.
+1. Run the script with the change implemented.
+
+If you are not performing a manual install and would like to turn telemetry tracking off, a separate script `TelemetryOptOut.ps1` has been included that when run will disable telemetry tracking.
+
 
 ## Overview Video
 
 A video was recorded during a PnP Monthly Community call and that video is available here: [Community Demo - Microsoft 365 Learning Pathways Architectural Overview](https://www.youtube.com/watch?v=-sLXl_rKGxQ). It may help you gain a better understanding of what Microsoft 365 learning pathways is and how to go about using it.
 
 In addition there is a new recording showing an overview of the V4 multilingual release available here: [Microsoft 365 learning pathways v4 Feature Overview](https://youtu.be/xayqnUAcGXc)
-
-## Current Release Version
-
-Stable Version: ![drop](https://img.shields.io/badge/drop-5.0-green.svg)
-
-## Prerequisites & Installation
-
-For a list of prerequisites and installation instructions see [Overview of multilingual support for learning pathways](https://github.com/pnp/custom-learning-office-365/tree/main/installation)
-
->Note: if you are upgrading from V3 to V4 please review the [instructions](./installation/UpdateV3-V4.md) prior to doing the upgrade as these instructions will provide valuable instructions on enabling multilingual support.
-
-### Teams Installation
-
-If you would like to install the Microsoft 365 Learning Pathways in Microsoft Teams you can do so as both a Teams Personal App and as a Teams Tab. YOu can get instructions for [Teams Installation in the Installation ReadMe](./installation/README.md#teams-installation).  
 
 ## Author(s)
 
@@ -50,29 +77,6 @@ THIS CODE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPL
 ## Change Log
 
 For a list of issues/updates made in each release see the [CHANGELOG](CHANGELOG.md).
-
-### SharePoint Framework Version
-
-![drop](https://img.shields.io/badge/drop-1.19.0-green.svg)
-
-The Microsoft Custom Learning Web Part is build using the [SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview). To manually install and configure the web part and site collection you will need to complete the steps outlined in the [Manually installing and configuring Microsoft 365 learning pathways Instructions](./installation/README.md)
-
-## Disabling telemetry collection
-
-Microsoft collects active usage data from your organization’s use of Microsoft 365 learning pathways and the use of Microsoft’s online content. Microsoft will use this data to help improve the future Microsoft 365 learning pathways solutions. To learn more about Microsoft privacy policies see [https://go.microsoft.com/fwlink/?LinkId=521839](https://go.microsoft.com/fwlink/?LinkId=521839).
-
-If you would like to opt out of this data collection, please follow these instructions:
-
-1. Go to script `M365lpConfiguration.ps1`.
-1. Change the `$optInTelemetry = $true` command line to `$false`.
-1. Run the script with the change implemented.
-
-If you are not performing a manual install and would like to turn telemetry tracking off, a separate script `TelemetryOptOut.ps1` has been included that when run will disable telemetry tracking.
-
-## Changing the URL of your Microsoft 365 learning pathways site
-
-If you need to rename the url of the main Microsoft 365 learning pathways site you can do so but it will also require you to run a PowerShell script to update the Tenant App property that controls what that site URL is for the web parts. After renaming the URL in the SharePoint Admin Center or via PowerShell additionally run teh following script to update the Tenant App property.
-[UpdateM365lpSiteUrl.ps1](./installation/UpdateM365lpSiteUrl.ps1)
 
 ## Contributions
 
