@@ -1,10 +1,11 @@
 # Change Log
 
-## Version 5.0.0.11
+## Version 5.0.0.11 - June, 01, 2026
 
 This release includes new functionality to show if an asset or playlist has been depricated. 
 
 - New playlist for Clipchamp
+- Fix for but [#993](../../../issues/993)
 
 ## Content Update March 2026
 
