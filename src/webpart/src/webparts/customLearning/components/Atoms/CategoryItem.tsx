@@ -26,21 +26,20 @@ declare module 'react' {
 export default class CategoryItem extends React.PureComponent<ICategoryItemProps> {
   private LOG_SOURCE: string = "CategoryItem";
 
-  constructor(props) {
+  constructor(props: ICategoryItemProps) {
     super(props);
   }
 
-  private handleKeyPress(event): void {
+  private handleKeyPress(event:React.KeyboardEvent): void {
     // Handles both mouse clicks and keyboard
     // activate with Enter or Space
 
     // Keypresses other then Enter and Space should not trigger a command
-    if (event instanceof KeyboardEvent && event.key !== "Enter" && event.key !== " ") {
-      return;
+    if (event.key !== 'Enter' && event.key !== ' ') {
+      return; // Tab and all other keys: do nothing, let the browser handle naturally
     }
-    if (!this.props.dragMode) {
-      this.props.selectItem(Templates.SubCategory, this.props.subcategoryId);
-    }
+    event.preventDefault();
+    this.props.selectItem(Templates.SubCategory, this.props.subcategoryId);
   }
 
   public render(): React.ReactElement<ICategoryItemProps> {

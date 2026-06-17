@@ -1,5 +1,12 @@
 # Change Log
 
+## Version 5.0.0.12 - June, 17, 2026
+
+Accessibility fix and content update
+
+- Fix for bug [#1006](../../../issues/1006)
+- Fix for bug [#1004](../../../issues/1004)
+
 ## Version 5.0.0.11 - June, 01, 2026
 
 This release includes new functionality to show if an asset or playlist has been depricated. 
