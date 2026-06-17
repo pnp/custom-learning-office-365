@@ -1,7 +1,7 @@
 [
   {
     "Id": "0d9f6fd5-6b0c-45a2-a0aa-0576ae1f6895",
-    "Title": "Monitor engagement in Viva Engage with analytics",
+    "Title": "Track engagement in Viva Engage with analytics",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/0d9f6fd5-6b0c-45a2-a0aa-0576ae1f6895?embed=true&themeid=-1",
     "TechnologyId": "",
@@ -188,7 +188,7 @@
   },
   {
     "Id": "6596fb5a-c25e-4dcb-b034-7cb38b611e38",
-    "Title": "Video: Improve accessibility with heading styles",
+    "Title": "Make your Word documents accessible to people with disabilities",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/68f1eeff-6113-410f-8313-b5d382cc3be1?embed=true&themeid=-1",
     "TechnologyId": "",
@@ -199,7 +199,7 @@
   },
   {
     "Id": "727e6ff1-ef1c-475d-90d0-196e26b5b753",
-    "Title": "Video: Create accessible links in Word",
+    "Title": "Make your Word documents accessible to people with disabilities",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/28305cc8-3be2-417c-a313-dc22082d1ee0?embed=true&themeid=-1",
     "TechnologyId": "",
@@ -298,7 +298,7 @@
   },
   {
     "Id": "9420d2d8-f04d-4d00-b852-2d846dbedfe9",
-    "Title": "Video: Improve accessibility with alt text",
+    "Title": "Make your Word documents accessible to people with disabilities",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/9c57ee44-bb48-40e3-aad4-7647fc1dba51?embed=true&themeid=-1",
     "TechnologyId": "",
@@ -364,7 +364,7 @@
   },
   {
     "Id": "9f920424-7de6-4002-b4ed-6503a3cfae2d",
-    "Title": "Video: Create accessible tables in Word",
+    "Title": "Make your Word documents accessible to people with disabilities",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/cb464015-59dc-46a0-ac01-6217c62210e5?embed=true&themeid=-1",
     "TechnologyId": "",
@@ -463,7 +463,7 @@
   },
   {
     "Id": "ce53495d-c30e-442a-b1d2-05593cc814c0",
-    "Title": "Video: Check the accessibility of your document",
+    "Title": "Make your Word documents accessible to people with disabilities",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/9d660cba-1fcd-45ad-a9d1-c4f4b5eb5b7d?embed=true&themeid=-1",
     "TechnologyId": "",
@@ -540,7 +540,7 @@
   },
   {
     "Id": "ee2a584b-5785-4dd6-8a2d-956131a29c81",
-    "Title": "First things to know about Loop components in Microsoft Teams",
+    "Title": "Send a Loop component in Microsoft Teams chats",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/ee2a584b-5785-4dd6-8a2d-956131a29c81?embed=true&themeid=-1",
     "TechnologyId": "",
@@ -667,12 +667,12 @@
     "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
     "Id": "191f671d-bed9-4b80-924a-8e64aae73858",
-    "Title": "Get accessible templates for Office",
+    "Title": "Create a file from a template with the Microsoft 365 Copilot app",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/ca086caa-2bd2-4ac8-8c12-4cd495bd4d76?embed=true&themeid=-1",
     "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
@@ -733,7 +733,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -854,7 +854,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -1074,7 +1074,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -1085,7 +1085,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -1145,7 +1145,7 @@
   },
   {
     "Id": "3fbd2586-f747-4c2d-9c01-b72b56034b4a",
-    "Title": "Video: Change your Microsoft 365 for business password",
+    "Title": "Change your Microsoft 365 for business password",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/df48c24e-d036-4d72-987f-b6197f618619?embed=true&themeid=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -1156,7 +1156,7 @@
   },
   {
     "Id": "41684255-24dc-4078-92c2-9a05f6684f63",
-    "Title": "Manage team settings",
+    "Title": "Manage team settings and permissions in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/92d238e6-0ae2-447e-af90-40b1052c4547?embed=true&themeid=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -1228,7 +1228,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -1294,7 +1294,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -1327,7 +1327,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -1360,7 +1360,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -1453,7 +1453,7 @@
   },
   {
     "Id": "79133902-8a9d-45e2-bb31-03bcd1613652",
-    "Title": "Why you need a Microsoft Account with some Microsoft 365 or Office products",
+    "Title": "Why do I need an account to sign in to Microsoft 365 or Office?",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/d1b81992-d824-4e3f-8351-e2c03172df62?embed=true&themeid=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -1525,7 +1525,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -1547,7 +1547,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -1585,7 +1585,7 @@
   },
   {
     "Id": "8c490008-3fb1-41b4-8152-6266b4474b05",
-    "Title": "Get started with Microsoft Teams",
+    "Title": "Start a call from a chat in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/8c490008-3fb1-41b4-8152-6266b4474b05?embed=true&themeid=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -1618,7 +1618,7 @@
   },
   {
     "Id": "92d238e6-0ae2-447e-af90-40b1052c4547",
-    "Title": "Manage team settings",
+    "Title": "Manage team settings and permissions in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/92d238e6-0ae2-447e-af90-40b1052c4547?embed=true&themeid=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -1635,7 +1635,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -1646,7 +1646,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -1756,7 +1756,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -1822,7 +1822,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -1833,7 +1833,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -1855,7 +1855,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -1954,7 +1954,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -2014,7 +2014,7 @@
   },
   {
     "Id": "c8c64c61-0136-4e47-be9d-263976ce6de5",
-    "Title": "First things to know about meetings in Microsoft Teams",
+    "Title": "Join a meeting in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/80640ac4-b009-42ea-abcb-660e729e63e5?embed=true&themeid=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -2053,12 +2053,12 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
     "Id": "d76f6ade-0e4e-48d5-9fc1-17480b7e041e",
-    "Title": "Welcome to the Microsoft 365 Copilot app",
+    "Title": "What is the Microsoft 365 Copilot app?",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/91b69f9c-9410-4eba-8b4f-8dab3efa43d1?embed=true&themeid=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -2086,7 +2086,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -2097,7 +2097,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -2212,7 +2212,7 @@
   },
   {
     "Id": "f5275f98-7ee6-40e1-8c6e-5dc452df128b",
-    "Title": "Get started with Microsoft Teams",
+    "Title": "Start a call from a chat in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/058173f5-031b-4f37-8724-ce2a50aa1d1d?embed=true&themeid=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -4550,7 +4550,7 @@
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -4742,7 +4742,7 @@
   },
   {
     "Id": "4f23fd44-75b2-4e03-8cf7-f69b0abaf629",
-    "Title": "Welcome to the Microsoft 365 Copilot app",
+    "Title": "What is the Microsoft 365 Copilot app?",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/82db9126-8571-4ca0-b897-4c610d86221e?embed=true&themeid=-1",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4781,12 +4781,12 @@
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
     "Id": "8f2d5696-581b-4ca8-804d-022cfc2aef22",
-    "Title": "Welcome to the Microsoft 365 Copilot app",
+    "Title": "What is the Microsoft 365 Copilot app?",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/3b28d5cb-5684-462e-8251-64c5a88d1973?embed=true&themeid=-1",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4797,7 +4797,7 @@
   },
   {
     "Id": "9ee15b3a-3003-4706-b7b1-456688c999f0",
-    "Title": "Welcome to the Microsoft 365 Copilot app",
+    "Title": "What is the Microsoft 365 Copilot app?",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/9da7f0de-9012-4f14-9e66-0b4314f873f0?embed=true&themeid=-1",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4819,7 +4819,7 @@
   },
   {
     "Id": "a544ec77-ffa8-47de-9e8d-de57a02bb5a5",
-    "Title": "Welcome to the Microsoft 365 Copilot app",
+    "Title": "What is the Microsoft 365 Copilot app?",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/91b69f9c-9410-4eba-8b4f-8dab3efa43d1?embed=true&themeid=-1",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
@@ -4836,7 +4836,7 @@
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -4858,7 +4858,7 @@
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -5468,7 +5468,7 @@
   },
   {
     "Id": "873100a0-0fac-4f93-88f7-1a0945ec93ed",
-    "Title": "Join the conversation",
+    "Title": "Get started with Viva Engage",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/873100a0-0fac-4f93-88f7-1a0945ec93ed?embed=true&themeid=-1",
     "TechnologyId": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
@@ -5551,7 +5551,7 @@
     "TechnologyId": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -5600,7 +5600,7 @@
   },
   {
     "Id": "f6047dff-8dc3-4d1e-a939-617e02211f3e",
-    "Title": "Monitor engagement in Viva Engage with analytics",
+    "Title": "Track engagement in Viva Engage with analytics",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/f6047dff-8dc3-4d1e-a939-617e02211f3e?embed=true&themeid=-1",
     "TechnologyId": "b8074cb4-dcd4-40ca-a6c1-17472b09e85e",
@@ -5639,7 +5639,7 @@
     "TechnologyId": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -5886,7 +5886,7 @@
   },
   {
     "Id": "006f78bc-67ce-465a-af1c-483534cdb011",
-    "Title": "Tips for Teams meetings",
+    "Title": "Hide, unhide, mute, add a chat to Favorites, or mark a chat as unread in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/23dd847d-52a6-4325-b0dd-9d8f2b29af50?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -5897,7 +5897,7 @@
   },
   {
     "Id": "0369eb90-79d0-44c2-95c0-dd7a1ef495cd",
-    "Title": "Manage and view a Shifts schedule",
+    "Title": "Configure settings for your team's schedule in Shifts",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/63acda7b-ea39-441a-b1c6-c404a72e79f7?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -5930,7 +5930,7 @@
   },
   {
     "Id": "089ff1b2-6cd7-4e86-ab50-a4390b4bcb21",
-    "Title": "Find and use apps",
+    "Title": "Find teams and personal apps in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/6e22a734-c002-4da0-ba63-681f155b142d?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -5941,7 +5941,7 @@
   },
   {
     "Id": "0a27994b-4d5d-4ac1-a40d-83b72edca946",
-    "Title": "Make calls",
+    "Title": "First things to know about calls in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/0a27994b-4d5d-4ac1-a40d-83b72edca946?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -5952,7 +5952,7 @@
   },
   {
     "Id": "0b506ce2-eb6d-4fca-9668-e56980ba755e",
-    "Title": "Get started with Chat",
+    "Title": "Start a call from a chat in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/0b506ce2-eb6d-4fca-9668-e56980ba755e?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -5974,7 +5974,7 @@
   },
   {
     "Id": "0db2a152-ac66-48cf-aa24-0eca94bf6c79",
-    "Title": "Manage team settings",
+    "Title": "Manage team settings and permissions in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/92d238e6-0ae2-447e-af90-40b1052c4547?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -5996,7 +5996,7 @@
   },
   {
     "Id": "10b2e2a2-c6e7-4905-9c2d-648e26c957ea",
-    "Title": "Schedule a webinar",
+    "Title": "Schedule a webinar in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/10b2e2a2-c6e7-4905-9c2d-648e26c957ea?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6018,7 +6018,7 @@
   },
   {
     "Id": "164a6fee-3705-4e5e-9b5d-3a8509386693",
-    "Title": "Search and filter people and files",
+    "Title": "Manage your contacts with the People App in Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/164a6fee-3705-4e5e-9b5d-3a8509386693?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6029,7 +6029,7 @@
   },
   {
     "Id": "180ed260-d3ef-4247-9f24-1984fc76d5f0",
-    "Title": "Work with external guests",
+    "Title": "Add guests to a team in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/180ed260-d3ef-4247-9f24-1984fc76d5f0?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6051,7 +6051,7 @@
   },
   {
     "Id": "1f8eecb7-0714-4147-abfa-07dcc14c21d6",
-    "Title": "Set up a delegate to take your calls",
+    "Title": "Share a phone line with a delegate in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/75e8c522-dde0-45b3-8fd1-8341f19740f9?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6084,7 +6084,7 @@
   },
   {
     "Id": "2de922ed-16a4-4685-ae62-6887859a9ff3",
-    "Title": "Activity feed on the go",
+    "Title": "Explore the Activity feed in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/f9a524fa-c7a2-41ee-9961-6d8d16f5550e?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6106,7 +6106,7 @@
   },
   {
     "Id": "31682332-4dba-42e5-9e3b-bf7dd178d106",
-    "Title": "Search and filter messages",
+    "Title": "Search for messages and more in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/31682332-4dba-42e5-9e3b-bf7dd178d106?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6117,7 +6117,7 @@
   },
   {
     "Id": "31e38b35-96ab-447a-acb2-97bb5c0716c0",
-    "Title": "Collaborate in Teams",
+    "Title": "Chat with others in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/31e38b35-96ab-447a-acb2-97bb5c0716c0?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6128,7 +6128,7 @@
   },
   {
     "Id": "32525960-bb69-4c94-a0be-cb6551fafc05",
-    "Title": "Create a channel on the go",
+    "Title": "Create a standard, private, or shared channel in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/e7a76df3-bfe7-42aa-b016-8f5334e48877?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6139,7 +6139,7 @@
   },
   {
     "Id": "3479773b-2526-4473-804f-23d458c2aaca",
-    "Title": "Get started with Apps in Microsoft Teams",
+    "Title": "Find teams and personal apps in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/3479773b-2526-4473-804f-23d458c2aaca?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6150,7 +6150,7 @@
   },
   {
     "Id": "37566690-8652-4eac-abed-bfe6de084828",
-    "Title": "Show your screen during a meeting",
+    "Title": "Present content in Microsoft Teams meetings",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/90c84e5a-b6fe-4ed4-9687-5923d230d3a7?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6167,12 +6167,12 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
     "Id": "3993d9e5-06b3-4654-9e8f-9d2de79d2f8e",
-    "Title": "Upload and share files",
+    "Title": "Share files in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/57b669db-678e-424e-b0a0-15d19215cb12?embed=true&themeId=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6205,7 +6205,7 @@
   },
   {
     "Id": "422bf3aa-9ae8-46f1-83a2-e65720e1a34d",
-    "Title": "Video: What is Microsoft Teams?",
+    "Title": "Microsoft Teams Features by platform",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/422bf3aa-9ae8-46f1-83a2-e65720e1a34d?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6216,7 +6216,7 @@
   },
   {
     "Id": "425d6970-6e27-47b6-bc61-4c38fff51c4f",
-    "Title": "Overview of Teams calls",
+    "Title": "First things to know about calls in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/425d6970-6e27-47b6-bc61-4c38fff51c4f?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6238,7 +6238,7 @@
   },
   {
     "Id": "43e3e7df-9e45-4521-bbec-e0be6c812ffb",
-    "Title": "What is Shifts?",
+    "Title": "Get started in Shifts",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/f8efe6e4-ddb3-4d23-b81b-bb812296b821?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6260,7 +6260,7 @@
   },
   {
     "Id": "56eca039-312a-41b2-923d-870439901e49",
-    "Title": "Tips for Teams files",
+    "Title": "Explore the Files list in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/56eca039-312a-41b2-923d-870439901e49?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6271,7 +6271,7 @@
   },
   {
     "Id": "5ba5b778-d656-45b1-91cc-6e9abebe767e",
-    "Title": "Start a chat on the go",
+    "Title": "Chat with others in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/9c7b1258-28f0-434a-a341-569ea0b36f05?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6293,7 +6293,7 @@
   },
   {
     "Id": "6723dc43-dbc0-46e6-af49-8a2d1c5cb937",
-    "Title": "Sign in and get started with Teams",
+    "Title": "How to log in to Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/6723dc43-dbc0-46e6-af49-8a2d1c5cb937?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6304,7 +6304,7 @@
   },
   {
     "Id": "67e02503-fb3d-4c38-938e-570a04231155",
-    "Title": "Join a meeting on the go",
+    "Title": "Join a meeting in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/b5fbcb18-b4ab-4e6a-8176-55d844f21f45?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6332,12 +6332,12 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
     "Id": "6dd4a6fd-d88f-4baf-b08e-06755a680926",
-    "Title": "Join a Teams meeting",
+    "Title": "Join a meeting in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/078e9868-f1aa-4414-8bb9-ee88e9236ee4?embed=true&themeId=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6354,12 +6354,12 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
     "Id": "712ef898-a27e-42fa-a9c1-bfd0733bae97",
-    "Title": "Hide chats and delete messages",
+    "Title": "Hide, unhide, mute, add a chat to Favorites, or mark a chat as unread in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/10e105ed-0c22-4d94-b7b6-d543a27c472b?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6370,7 +6370,7 @@
   },
   {
     "Id": "7237da86-9409-40e1-9b05-fc3eba33404c",
-    "Title": "Manage meetings",
+    "Title": "Join a meeting in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/ba44d0fd-da3c-4541-a3eb-a868f5e2b137?embed=true&themeId=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6398,7 +6398,7 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -6436,7 +6436,7 @@
   },
   {
     "Id": "7eb9c719-9452-4a9a-b3b6-69f48149ba1c",
-    "Title": "Meet instantly",
+    "Title": "Start an instant meeting in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/26e06837-853d-4df1-a729-06bf700d4ecf?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6480,7 +6480,7 @@
   },
   {
     "Id": "909b75b4-5448-455c-9c9a-5115acf4d3d8",
-    "Title": "Get started with Meetings",
+    "Title": "Join a meeting in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/909b75b4-5448-455c-9c9a-5115acf4d3d8?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6491,7 +6491,7 @@
   },
   {
     "Id": "920382b4-2cca-40f1-ac20-05afed2005bd",
-    "Title": "Join a Teams meeting",
+    "Title": "Join a meeting in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/078e9868-f1aa-4414-8bb9-ee88e9236ee4?embed=true&themeId=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6574,12 +6574,12 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
     "Id": "a8073654-eb8d-44ca-a7ae-1287b32d599d",
-    "Title": "Post a message to multiple channels",
+    "Title": "Cross-post a channel conversation in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/2cdaa17e-d548-46e7-907d-4e50b7e8f8b9?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6640,7 +6640,7 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -6651,12 +6651,12 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
     "Id": "b9c56f09-1b13-406f-841c-656fdf251942",
-    "Title": "Create a Shifts schedule",
+    "Title": "Create a team schedule in Shifts",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/2b94ca38-36db-4a1c-8fee-f8f0fec9a984?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6678,7 +6678,7 @@
   },
   {
     "Id": "c3d63c10-77d5-4204-a566-53ddcf723b46",
-    "Title": "Overview of teams and channels",
+    "Title": "Create a team from scratch in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/c3d63c10-77d5-4204-a566-53ddcf723b46?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6706,7 +6706,7 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -6722,7 +6722,7 @@
   },
   {
     "Id": "d3cc8fad-9655-4f2d-b8f5-197a1b3951a1",
-    "Title": "Manage meetings",
+    "Title": "Join a meeting in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/ba44d0fd-da3c-4541-a3eb-a868f5e2b137?embed=true&themeId=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6733,7 +6733,7 @@
   },
   {
     "Id": "d3fb0e97-4afa-4919-86e8-021102ed5c2b",
-    "Title": "Tips for Teams calls",
+    "Title": "First things to know about calls in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/d3fb0e97-4afa-4919-86e8-021102ed5c2b?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6744,7 +6744,7 @@
   },
   {
     "Id": "d46890d8-e8bf-4642-97cd-6379b0c7dddd",
-    "Title": "Upload and share files",
+    "Title": "Share files in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/57b669db-678e-424e-b0a0-15d19215cb12?embed=true&themeId=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6755,7 +6755,7 @@
   },
   {
     "Id": "d6b86155-c9a5-4c35-a009-67f74ffe0c69",
-    "Title": "Create a plan with Planner",
+    "Title": "Getting started with Planner in Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/d000976a-7490-4ddf-b9af-09ee764891e2?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6766,7 +6766,7 @@
   },
   {
     "Id": "d7978db0-33b5-4ad3-93ac-ef0bd3c2a670",
-    "Title": "Chat and share files in Teams",
+    "Title": "Send a file, picture, or link in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/d7978db0-33b5-4ad3-93ac-ef0bd3c2a670?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6783,7 +6783,7 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -6805,12 +6805,12 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
     "Id": "f44bd700-38dc-4838-87af-a6e6c3fe3998",
-    "Title": "Manage notification settings",
+    "Title": "Manage notifications in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/348672f7-9ed0-4b96-86ed-d6fdcecb4096?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -6832,7 +6832,7 @@
   },
   {
     "Id": "f581aeaf-cc73-4dce-8a7b-12ecce5e7fdf",
-    "Title": "Tip: Send email to a channel",
+    "Title": "Send an email to a channel in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/2c17dbae-acdf-4209-a761-b463bdaaa4ca?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
@@ -7091,7 +7091,7 @@
     "TechnologyId": "c71d06be-133b-4c49-8fbf-404f7cc3c38f",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -8130,7 +8130,7 @@
   },
   {
     "Id": "6f40e6e4-85af-45e0-b39d-65dd504a3246",
-    "Title": "Insert or delete rows and columns",
+    "Title": "Insert or delete rows and columns in Excel",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/6f40e6e4-85af-45e0-b39d-65dd504a3246?embed=true&themeid=-1",
     "TechnologyId": "d3ee44dc-f4ff-424b-a3be-3580954fc479",
@@ -8724,7 +8724,7 @@
   },
   {
     "Id": "753e0607-0bfd-4712-ad7e-18490dd565a2",
-    "Title": "Viva Connections on the go",
+    "Title": "Viva Connections on mobile devices",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/753e0607-0bfd-4712-ad7e-18490dd565a2?embed=true&themeid=-1",
     "TechnologyId": "e031aa9d-5421-4ee9-8bc6-1b871bafc7f0",
@@ -8790,7 +8790,7 @@
   },
   {
     "Id": "0ca67c26-f365-47d0-b1fe-f2f670288927",
-    "Title": "First things to know about meetings in Microsoft Teams",
+    "Title": "Join a meeting in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/08d4d9df-d1a7-4968-b844-51c9d4aae3c2?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -8812,7 +8812,7 @@
   },
   {
     "Id": "1311f213-f56b-4c15-b496-5ecff888cd66",
-    "Title": "First things to know about chats in Microsoft Teams",
+    "Title": "Reduce or replace meetings with asynchronous methods in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/1673e0d9-7ab0-40a3-bbdb-9d821146135d?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -8977,7 +8977,7 @@
   },
   {
     "Id": "2f1621f6-aace-403f-8394-8d2f0183b96c",
-    "Title": "Welcome to Teams tips from the experts!",
+    "Title": "Reduce meeting fatigue in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/f44be8a1-1bb4-4d02-8bc3-6bfd83ef3b5b?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9016,7 +9016,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -9082,7 +9082,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -9093,12 +9093,12 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
     "Id": "47473ffc-75e5-4c71-959d-39c60f25d75e",
-    "Title": "First things to know about meetings in Microsoft Teams",
+    "Title": "Join a meeting in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/47473ffc-75e5-4c71-959d-39c60f25d75e?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9225,7 +9225,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -9247,7 +9247,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -9313,7 +9313,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -9362,7 +9362,7 @@
   },
   {
     "Id": "69b2a175-28e4-4d06-96cf-7bca2e8351f5",
-    "Title": "First things to know about meetings in Microsoft Teams",
+    "Title": "Join a meeting in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/69b2a175-28e4-4d06-96cf-7bca2e8351f5?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9450,7 +9450,7 @@
   },
   {
     "Id": "7f1a4746-bfa5-49d3-8686-3b59dc3391b9",
-    "Title": "First things to know about meetings in Microsoft Teams",
+    "Title": "Join a meeting in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/71952c46-8843-468e-9e44-27fa82d0361a?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9472,7 +9472,7 @@
   },
   {
     "Id": "80640ac4-b009-42ea-abcb-660e729e63e5",
-    "Title": "First things to know about meetings in Microsoft Teams",
+    "Title": "Join a meeting in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/80640ac4-b009-42ea-abcb-660e729e63e5?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9483,7 +9483,7 @@
   },
   {
     "Id": "8b6e7a53-d2a9-49bc-98a8-74b82c95dd07",
-    "Title": "First things to know about meetings in Microsoft Teams",
+    "Title": "Join a meeting in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/8b6e7a53-d2a9-49bc-98a8-74b82c95dd07?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9527,7 +9527,7 @@
   },
   {
     "Id": "919b4bd2-6c85-4792-bf60-57258cabe71d",
-    "Title": "First things to know about meetings in Microsoft Teams",
+    "Title": "Join a meeting in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/69aefc02-b58c-4066-811c-d1b71dd2c552?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9544,7 +9544,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -9555,7 +9555,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -9648,7 +9648,7 @@
   },
   {
     "Id": "a6ff7745-0ab0-470f-8d77-5302cd94ebeb",
-    "Title": "Welcome to Teams tips from the experts!",
+    "Title": "Introduction to well-being in the hybrid workplace in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/a6ff7745-0ab0-470f-8d77-5302cd94ebeb?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -9890,7 +9890,7 @@
   },
   {
     "Id": "bf1852e6-bb03-49a5-b1e8-e1e821158ac8",
-    "Title": "Collaborate in Teams",
+    "Title": "Chat with others in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/31e38b35-96ab-447a-acb2-97bb5c0716c0?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -10077,7 +10077,7 @@
   },
   {
     "Id": "d5e2099d-6696-474b-b358-bd5ccb5e0657",
-    "Title": "First things to know about meetings in Microsoft Teams",
+    "Title": "Join a meeting in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/d5e2099d-6696-474b-b358-bd5ccb5e0657?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -10110,7 +10110,7 @@
   },
   {
     "Id": "e67f90ca-657b-4fc7-8382-6bb6e87f3b4b",
-    "Title": "First things to know about meetings in Microsoft Teams",
+    "Title": "Join a meeting in Microsoft Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/f06cae00-dcb3-466f-ba51-d6f80bdd25a5?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -10138,7 +10138,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -10484,7 +10484,7 @@
   },
   {
     "Id": "092599f1-5917-4bd6-bd59-58af628bbc39",
-    "Title": "Welcome to the Microsoft 365 Copilot app",
+    "Title": "What is the Microsoft 365 Copilot app?",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/092599f1-5917-4bd6-bd59-58af628bbc39?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -10528,7 +10528,7 @@
   },
   {
     "Id": "fd8d88af-9492-48cd-8385-7e8615b42d80",
-    "Title": "Ask questions and get answers using Microsoft 365 Copilot Chat",
+    "Title": "Get instant answers with Microsoft 365 Copilot Chat",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/fd8d88af-9492-48cd-8385-7e8615b42d80?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -10539,7 +10539,7 @@
   },
   {
     "Id": "cffb11c2-bb06-4d5b-bd4b-9497895daff3",
-    "Title": "Catch up on things quickly using Microsoft 365 Copilot Chat",
+    "Title": "Catch up on work quickly using Microsoft 365 Copilot Chat",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/cffb11c2-bb06-4d5b-bd4b-9497895daff3?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -10649,7 +10649,7 @@
   },
   {
     "Id": "d70b140b-bb3f-46b7-be64-ceec526a8dcd",
-    "Title": "Rewrite text with Copilot in PowerPoint",
+    "Title": "Elevate your presentation game with Copilot's text rewrite feature in PowerPoint",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/d70b140b-bb3f-46b7-be64-ceec526a8dcd?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -10864,7 +10864,7 @@
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -10946,7 +10946,7 @@
   },
   {
     "Id": "60c37fde-6e13-4412-8101-40bbbc711ec9",
-    "Title": "Get started with Microsoft 365 Copilot Chat in Teams",
+    "Title": "Start a conversation with Microsoft 365 Copilot chat in Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/60c37fde-6e13-4412-8101-40bbbc711ec9?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -10957,7 +10957,7 @@
   },
   {
     "Id": "0bf9dd3c-96f7-44e2-8bb8-790bedf066b1",
-    "Title": "Use Copilot in Microsoft Teams meetings",
+    "Title": "Catch up on meetings with Microsoft 365 Copilot in Teams",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/0bf9dd3c-96f7-44e2-8bb8-790bedf066b1?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -10968,7 +10968,7 @@
   },
   {
     "Id": "97c55ffb-1499-4b0a-8caa-980ebb4b697b",
-    "Title": "Get started with Copilot in Microsoft Teams Phone",
+    "Title": "Get started with Microsoft 365 Copilot in Teams Phone",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/97c55ffb-1499-4b0a-8caa-980ebb4b697b?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -10990,7 +10990,7 @@
   },
   {
     "Id": "cccccca2-9dc8-49a9-ab76-b1a8ee21486c",
-    "Title": "Use Copilot in Microsoft Teams chat and channels",
+    "Title": "How to use Microsoft 365 Copilot in Teams chats and channels",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/cccccca2-9dc8-49a9-ab76-b1a8ee21486c?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -11012,7 +11012,7 @@
   },
   {
     "Id": "a59cb88c-0f6b-4a20-a47a-3a1c9a818bd9",
-    "Title": "Use Copilot without recording a Teams meeting",
+    "Title": "Use Copilot without transcribing or recording a Teams meeting or call",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/a59cb88c-0f6b-4a20-a47a-3a1c9a818bd9?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -11056,7 +11056,7 @@
   },
   {
     "Id": "e0044a51-6919-46bf-8dac-2e4f300988d5",
-    "Title": "Recap changes in Loop with Copilot",
+    "Title": "Recap changes in Loop",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/e0044a51-6919-46bf-8dac-2e4f300988d5?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -11243,7 +11243,7 @@
   },
   {
     "Id": "69e2faf9-2c1e-4baa-8305-23e625021bcf",
-    "Title": "Get started with SharePoint agents",
+    "Title": "Get started with agents in SharePoint",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/69e2faf9-2c1e-4baa-8305-23e625021bcf?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -11254,7 +11254,7 @@
   },
   {
     "Id": "bda7dd7a-2498-49de-acd7-a830d6d9fb24",
-    "Title": "Interact with SharePoint agents",
+    "Title": "Interact with agents in SharePoint",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/bda7dd7a-2498-49de-acd7-a830d6d9fb24?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -11265,7 +11265,7 @@
   },
   {
     "Id": "d16c6ca1-a8e3-4096-af49-67e1cfdddd42",
-    "Title": "Create a SharePoint agent",
+    "Title": "Create an agent in SharePoint",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/d16c6ca1-a8e3-4096-af49-67e1cfdddd42?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -11463,7 +11463,7 @@
   },
   {
     "Id": "beb15deb-3241-4711-a480-9cbd8dc4d755",
-    "Title": "Create a presentation from existing files",
+    "Title": "Create a new presentation with Copilot in PowerPoint",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/beb15deb-3241-4711-a480-9cbd8dc4d755?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -11485,7 +11485,7 @@
   },
   {
     "Id": "d718645c-601c-454a-854d-78a9215ba0a0",
-    "Title": "Draft an email",
+    "Title": "Draft an email message with Copilot in Outlook",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/d718645c-601c-454a-854d-78a9215ba0a0?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -11551,7 +11551,7 @@
   },
   {
     "Id": "f6c3b467-f07c-4db1-ae54-ffac96184dd5",
-    "Title": "Learn about Copilot prompts",
+    "Title": "Get started writing prompts in Microsoft 365 Copilot",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/f6c3b467-f07c-4db1-ae54-ffac96184dd5?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -11562,7 +11562,7 @@
   },
   {
     "Id": "77251d6c-e162-479d-b398-9e46cf73da55",
-    "Title": "Get better results with Copilot prompting",
+    "Title": "Get better Copilot responses with great prompting",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/77251d6c-e162-479d-b398-9e46cf73da55?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -11584,7 +11584,7 @@
   },
   {
     "Id": "55373730-2627-46a5-b0d8-772abe22dba4",
-    "Title": "How to save prompts ",
+    "Title": "Save your favorite prompts to use again",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/55373730-2627-46a5-b0d8-772abe22dba4?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -11595,7 +11595,7 @@
   },
   {
     "Id": "75402b14-b419-494d-9e58-1709b4f334a2",
-    "Title": "Share your best prompts",
+    "Title": "Share your best prompts with others",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/75402b14-b419-494d-9e58-1709b4f334a2?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -11606,7 +11606,7 @@
   },
   {
     "Id": "66de2ffd-deb2-4f0c-8984-098316104389",
-    "Title": "Keep it short and sweet: a guide on the length of documents that you provide to Copilot",
+    "Title": "How reference and document lengths affect Copilot responses",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/66de2ffd-deb2-4f0c-8984-098316104389?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
