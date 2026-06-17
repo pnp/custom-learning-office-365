@@ -50,15 +50,16 @@ export default class SubCategoryItem extends React.Component<ISubCategoryItemPro
     return true;
   }
 
-  private handleKeyPress(event): void {
+  private handleKeyPress(event:React.KeyboardEvent): void {
     // Handles both mouse clicks and keyboard
-    // activate with Enter or Space
-
-    // Keypresses other then Enter and Space should not trigger a command
-    if (event instanceof KeyboardEvent && event.key !== "Enter" && event.key !== " ") {
-      return;
-    }
-    this.props.onClick();
+        // activate with Enter or Space
+    
+        // Keypresses other then Enter and Space should not trigger a command
+        if (event.key !== 'Enter' && event.key !== ' ') {
+          return; // Tab and all other keys: do nothing, let the browser handle naturally
+        }
+        event.preventDefault();
+        this.props.onClick();
   }
 
   public render(): React.ReactElement<ISubCategoryItemProps> {
