@@ -2020,7 +2020,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -6310,7 +6310,7 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -6486,7 +6486,7 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -6497,7 +6497,7 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -6557,9 +6557,9 @@
   },
   {
     "Id": "99d33aaa-0743-47c6-a476-eb0a24abcb7e",
-    "Title": "Work in channels",
+    "Title": "Send or reply to a channel message in Microsoft Teams",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/99d33aaa-0743-47c6-a476-eb0a24abcb7e?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/5c8131ce-eaad-4798-bc73-e33f4652a9c4?embed=true&themeid=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -6711,9 +6711,9 @@
   },
   {
     "Id": "d20b058b-bed7-47e5-8335-5f897bd1a091",
-    "Title": "Create a team with team templates",
+    "Title": "Create a team from a template in Microsoft Teams",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/702a2977-e662-4038-bef5-bdf8ee47b17b?embed=true&themeId=-1",
+    "Url": "https://support.office.com/en-us/f1/article/a90c30f3-9940-4897-ab5b-988e69e4cd9c?embed=true&themeId=-1",
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -8796,7 +8796,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -9104,7 +9104,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -9368,7 +9368,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -9456,7 +9456,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -9489,7 +9489,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -9533,7 +9533,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -10083,7 +10083,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -10116,7 +10116,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
