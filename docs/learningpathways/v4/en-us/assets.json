@@ -12076,5 +12076,71 @@
     "Source": "Microsoft",
     "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
     "StatusNote": ""
+  },
+  {
+    "Id": "0654e7d0-e1a8-47ab-a692-f7c982c27343",
+    "Title": "Get started with town hall in Microsoft Teams",
+    "Description": "",
+    "Url": "https://support.microsoft.com/en-us/teams/get-started-with-town-hall-in-microsoft-teams",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "615f17eb-2c5b-4494-8541-4304435ca306",
+    "Source": "Microsoft",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusNote": ""
+  },
+  {
+    "Id": "dfa82b8b-e127-4284-b5f9-73e90bad30f9",
+    "Title": "Schedule a town hall in Microsoft Teams",
+    "Description": "",
+    "Url": "https://support.microsoft.com/en-us/teams/schedule-a-town-hall-in-microsoft-teams",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "615f17eb-2c5b-4494-8541-4304435ca306",
+    "Source": "Microsoft",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusNote": ""
+  },
+  {
+    "Id": "92c1573c-de86-41d8-a74b-94a7e8c083aa",
+    "Title": "Customize a town hall in Microsoft Teams",
+    "Description": "",
+    "Url": "https://support.microsoft.com/en-us/teams/customize-a-town-hall-in-microsoft-teams",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "615f17eb-2c5b-4494-8541-4304435ca306",
+    "Source": "Microsoft",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusNote": ""
+  },
+  {
+    "Id": "a8b66fc5-115f-4b80-88d7-0fccd4fbf7b9",
+    "Title": "Host a town hall in Microsoft Teams",
+    "Description": "",
+    "Url": "https://support.microsoft.com/en-us/teams/host-a-town-hall-in-microsoft-teams",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "615f17eb-2c5b-4494-8541-4304435ca306",
+    "Source": "Microsoft",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusNote": ""
+  },
+  {
+    "Id": "159ea4d2-aec5-49c5-b982-b5baa4fbbb92",
+    "Title": "Attend a town hall in Microsoft Teams",
+    "Description": "",
+    "Url": "https://support.microsoft.com/en-us/teams/attend-a-town-hall-in-microsoft-teams",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "615f17eb-2c5b-4494-8541-4304435ca306",
+    "Source": "Microsoft",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusNote": ""
+  },
+  {
+    "Id": "9fdd9a1a-2566-4cde-a076-ab28ebe44f34",
+    "Title": "Town hall insights in Microsoft Teams",
+    "Description": "",
+    "Url": "https://support.microsoft.com/en-us/teams/town-hall-insights-in-microsoft-teams",
+    "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
+    "SubjectId": "615f17eb-2c5b-4494-8541-4304435ca306",
+    "Source": "Microsoft",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusNote": ""
   }
 ]
