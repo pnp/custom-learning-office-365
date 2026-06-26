@@ -1147,18 +1147,11 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
+    "CatId": "",
     "Description": "Get started quickly with the Microsoft 365 Quick Start. Learn how to create and work on files online, upload files to OneDrive, share files and folders, collaborate with others in real time, and set up your mobile apps to work from anywhere on all your devices.",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": "",
-    "Assets": [
-      "3ccfd6e1-bc78-46b3-979b-2da71905fd7f",
-      "5f7689f7-8095-47ed-88ae-a8da2cd873d4",
-      "40ce1d89-995c-4a18-9b7e-7482f8121ece",
-      "93123baa-08fc-408d-af15-a6a87e7b545f",
-      "c0a66323-d0ac-4c7f-8aa3-8eca9bf92817",
-      "ec5c071b-adf4-4bea-b128-5e99a6177b29"
-    ]
+    "Assets": []
   },
   {
     "Id": "8f026372-069d-4449-a116-938bf5aae7ea",
