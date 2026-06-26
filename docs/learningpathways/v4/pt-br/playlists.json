@@ -1147,7 +1147,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "CatId": "beab7761-afae-4987-b8c2-57194fa945b6",
+    "CatId": "",
     "Description": "Comece rapidamente com o guia de Introdução ao Microsoft 365. Aprenda a criar e trabalhar em arquivos online, enviar arquivos para o OneDrive, compartilhar arquivos e pastas, colaborar em tempo real e configurar aplicativos móveis para trabalhar de qualquer lugar em todos os seus dispositivos.",
     "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": "",
@@ -3517,7 +3517,6 @@
       "05302e3f-de42-4475-b235-be9cb3d4e936",
       "d866d926-9791-4e5f-be2a-c6dd9e587a47",
       "7838fb47-7309-4dac-ba7a-8080cb75ee06",
-      "364e4ae9-9343-4d56-952a-5f62b0f70db6",
       "cecc7821-39c1-4e12-8bd6-4d4348370585",
       "7a13758f-d61e-4a56-8440-f2c9a07802ec"
     ]
@@ -3582,10 +3581,7 @@
     "StatusNote": "",
     "Assets": [
       "966eb1a2-b5ec-4532-8a9d-f1aaeda7f90e",
-      "b5baf628-c39c-44e8-8b2f-d67bf23f9af6",
-      "e0044a51-6919-46bf-8dac-2e4f300988d5",
-      "5e2c071f-c734-4798-a7a5-2c9d8fa648d1",
-      "cdba1c99-3a3f-4f0d-bb1b-8ca62d0bb23d"
+      "e0044a51-6919-46bf-8dac-2e4f300988d5"
     ]
   },
   {
