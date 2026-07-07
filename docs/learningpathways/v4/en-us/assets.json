@@ -4330,7 +4330,7 @@
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -4561,7 +4561,7 @@
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -4731,9 +4731,9 @@
   },
   {
     "Id": "4d39f76b-ee15-4029-8a4c-fa7d14f0c80f",
-    "Title": "Get to know Excel for the web",
+    "Title": "Basic tasks in Excel for the web",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/c8545b3f-3b5a-4fa3-bf02-dfbaca82313a?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/0dcac23b-8430-4289-87a5-f2c97bdb49e1?embed=true&themeid=-1",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -4863,13 +4863,13 @@
   },
   {
     "Id": "b65ec000-8e8e-47c6-b05c-d2763fe95d42",
-    "Title": "Flash Fill",
+    "Title": "Using Flash Fill in Excel",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/9159216a-75a0-4c11-82e6-8eca29cb3b89?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/3f9bcf1e-db93-4890-94a0-1578341f73f7?embed=true&themeid=-1",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -4929,13 +4929,13 @@
   },
   {
     "Id": "e33f0fd2-f936-4c5b-a0c6-552da24fe00e",
-    "Title": "Create formulas",
+    "Title": "Overview of formulas in Excel for the web",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/b0c54a42-0057-41dc-9d33-098deccb2278?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/34519a4e-1e8d-4f4b-84d4-d642c4f63263?embed=true&themeid=-1",
     "TechnologyId": "944d9b59-7c3c-49cf-8ca5-a029ae3bd9c2",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -9441,11 +9441,11 @@
     "Id": "7d4dc4cb-620e-4b5d-89b6-d9da676b7c0a",
     "Title": "Analyze Data in Excel",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/0bf9b811-0c6a-4130-b6df-ee14245a14c8?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/3223aab8-f543-4fda-85ed-76bb0295ffc4?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
