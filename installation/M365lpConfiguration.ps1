@@ -175,7 +175,10 @@ if ($SiteAdmin) {
     Write-Warning "Could not find `"Microsoft 365 learning pathways`" app. Please install in it your app catalog and run this script again."
     break
   }
-  $sitePagesList = Get-PnPList -Identity "Site Pages"
+  # Resolve by stable EntityTypeName instead of the localized Title, since SharePoint
+  # renames the built-in "Site Pages" library according to the site's default language
+  # (e.g. "Páginas del sitio" on es-ES sites) - see issue #1013
+  $sitePagesList = Get-PnPList | Where-Object { $_.EntityTypeName -eq "SitePages" }
   if ($null -ne $sitePagesList) {    
     # Delete pages if they exist. Alert user.
     $clv = Get-PnPListItem -List $sitePagesList -Query "<View><Query><Where><Eq><FieldRef Name='FileLeafRef'/><Value Type='Text'>CustomLearningViewer.aspx</Value></Eq></Where></Query></View>"
