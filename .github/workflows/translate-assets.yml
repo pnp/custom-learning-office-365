@@ -5,7 +5,7 @@ defaults:
     shell: bash
 
 env:
-  NODE_VERSION: 22.x
+  NODE_VERSION: 24.x
 
 on:
   workflow_dispatch:
@@ -22,7 +22,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 24
           cache: 'npm'
           cache-dependency-path: '.github/workflows/scripts/package-lock.json'
       - name: Install dependencies
