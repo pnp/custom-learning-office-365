@@ -196,7 +196,7 @@
   "Categories": [
     {
       "Id": "d7a170e9-8bd3-4a4a-a595-1b4faf37bf71",
-      "Name": "PnP Copilot Prompts",
+      "Name": "Copilot",
       "Image": "",
       "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
       "SubjectId": "",
@@ -204,97 +204,7 @@
       "SubCategories": [
         {
           "Id": "61a96d16-7d5f-42a6-a74c-6b3e11634044",
-          "Name": "Email & Inbox Management",
-          "Image": "",
-          "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
-          "SubjectId": null,
-          "Source": "",
-          "SubCategories": []
-        },
-        {
-          "Id": "21b73171-c599-494c-875d-5cb5c1fcfd33",
-          "Name": "Meeting Prep & Calendar Management",
-          "Image": "",
-          "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
-          "SubjectId": null,
-          "Source": "",
-          "SubCategories": []
-        },
-        {
-          "Id": "c6da53a4-28a7-4057-914f-b1d0a58a311e",
-          "Name": "Meeting Minutes, Notes & Follow-ups",
-          "Image": "",
-          "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
-          "SubjectId": null,
-          "Source": "",
-          "SubCategories": []
-        },
-        {
-          "Id": "1a2970c8-557a-4c2c-9173-7f71713e4b3b",
-          "Name": "Personal Productivity & Daily Planning",
-          "Image": "",
-          "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
-          "SubjectId": null,
-          "Source": "",
-          "SubCategories": []
-        },
-        {
-          "Id": "c555747a-f34b-4edd-af71-3d049ef46336",
-          "Name": "Business Analysis, Risk & Compliance Reports",
-          "Image": "",
-          "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
-          "SubjectId": null,
-          "Source": "",
-          "SubCategories": []
-        },
-        {
-          "Id": "a432d980-83bd-40e3-9f98-502a7bfbf9f1",
-          "Name": "HR & People Management",
-          "Image": "",
-          "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
-          "SubjectId": null,
-          "Source": "",
-          "SubCategories": []
-        },
-        {
-          "Id": "41bfa210-cff2-4f36-8e80-bb10239ec89f",
-          "Name": "Office Document Creation",
-          "Image": "",
-          "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
-          "SubjectId": null,
-          "Source": "",
-          "SubCategories": []
-        },
-        {
-          "Id": "e104586a-3d24-4c24-ac71-16cd4321c77c",
-          "Name": "Diagrams, Dashboards & Visual Generators",
-          "Image": "",
-          "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
-          "SubjectId": null,
-          "Source": "",
-          "SubCategories": []
-        },
-        {
-          "Id": "f89cf40a-8a65-4e2d-a26d-06a7c53ee11b",
-          "Name": "Developer & IT Pro Tools",
-          "Image": "",
-          "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
-          "SubjectId": null,
-          "Source": "",
-          "SubCategories": []
-        },
-        {
-          "Id": "8ce0f427-9f62-4d50-b57c-532f308a5156",
-          "Name": "Prompt Engineering & Copilot Mastery",
-          "Image": "",
-          "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
-          "SubjectId": null,
-          "Source": "",
-          "SubCategories": []
-        },
-        {
-          "Id": "e5cae65c-1f9e-445b-afc7-ba82dfe90e2d",
-          "Name": "Fun, Creative & Ideation Prompts",
+          "Name": "Pnp Community Prompts",
           "Image": "",
           "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
           "SubjectId": null,
