@@ -91,7 +91,7 @@
     "Id": "85015909-86c9-48ff-826a-fa82da82633a",
     "Title": "Microsoft 365 Copilot Life Coach",
     "Description": "This prompt acts as a life coach that will track and reflect on my daily journals.",
-    "Url": "https://github.com/pnp/copilot-prompts/tree/main/samples/prompts/m365-Copilot-LifeCoach",
+    "Url": "https://derekcp.com/copilot-prompts/samples/prompts/m365-Copilot-LifeCoach/",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
     "SubjectId": "",
     "Source": "PnpCopilot",
