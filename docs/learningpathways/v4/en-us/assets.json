@@ -661,7 +661,7 @@
   },
   {
     "Id": "09931f62-ec76-4ecb-8bd8-c07bc792e00c",
-    "Title": "Microsoft 365 Accessibility Intro",
+    "Title": "Accessibility tools for Microsoft 365",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/b5087b20-1387-4686-a0a5-8e11c5f46cdf?embed=true&themeid=-1",
     "TechnologyId": "054bac6f-2670-4cd1-8b38-087ff82754a2",
@@ -777,7 +777,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -1321,7 +1321,7 @@
   },
   {
     "Id": "5a0d2fa9-1c47-4d5a-931b-a3d81f2e336f",
-    "Title": "Move a file from OneDrive to SharePoint Online",
+    "Title": "Move files and folders between OneDrive and SharePoint",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/5916f90d-f58a-4bf9-b135-10853f516d0b?embed=true&themeId=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -2234,7 +2234,7 @@
   },
   {
     "Id": "fb440590-1b4d-4562-94ba-61123b299e3d",
-    "Title": "Create and save",
+    "Title": "Video: Create, save, and open files",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/5786b4fc-9265-4490-b4b7-3324579ea260?embed=true&themeId=-1",
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
@@ -4544,7 +4544,7 @@
   },
   {
     "Id": "af839c61-f18f-4ae5-9698-325d3cf14f36",
-    "Title": "Upload files and folders",
+    "Title": "Upload and save files and folders to OneDrive",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/a5710114-6aeb-4bf5-a336-dffa7cc0b77a?embed=true&themeId=-1",
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
@@ -5804,7 +5804,7 @@
     "TechnologyId": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -8818,7 +8818,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c966",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
