@@ -1,0 +1,18 @@
+{
+  "Telemetry": {
+    "AppInsightKey": "70579abe-635e-45fc-b0da-46272a4d6c04"
+  },
+  "Version": {
+    "Manifest": "v4",
+    "ManifestMinWebPart": "5.0.0",
+    "CurrentWebPart": "5.0.0",
+    "RepoURL": "https://github.com/pnp/custom-learning-office-365#updating-the-solution"
+  },
+  "ContentPacks": [],
+  "AssetOrigins": [
+    "https://github.com/pnp/copilot-prompts"
+  ],
+  "Languages": [
+    "en-US"
+  ]
+}

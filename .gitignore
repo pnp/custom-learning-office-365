@@ -65,3 +65,6 @@ typings/
 # ignore styleguide tmp folder
 .tmp
 .DS_Store
+
+# ignore Claude folder
+.claude/
