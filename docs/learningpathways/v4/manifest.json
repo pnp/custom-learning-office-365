@@ -13,7 +13,7 @@
     {
       "Id": "00cecf29-512f-41ea-809d-a7addf04045d",
       "Name": "M365 Community",
-      "Description": "Add new playlists with Copilot prompts for your organization to use.",
+      "Description": "Better practices and samples from the greater M365 and Power Platform Community.",
       "Image": "https://pnp.github.io/custom-learning-office-365/pnpCopilot/v4/en-us/images/categories/copilot.png",
       "ProvisionUrl": "",
       "CdnBase": "https://pnp.github.io/custom-learning-office-365/m365Community/"
