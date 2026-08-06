@@ -120,7 +120,9 @@ if ($AppCatalogAdmin) {
       Set-PnPTenantSite -Identity $appcatalog -DenyAddAndCustomizePages:$false
       $noScript = $true
     }
-  } catch { }
+  } catch {
+    Write-Warning "Failed to set noscript for $appcatalog"
+  }
     
   try {
     # Test that user can write values to the App Catalog
@@ -129,7 +131,7 @@ if ($AppCatalogAdmin) {
   catch {
     # Get the username and 
     $user = ((Get-PnPConnection).PSCredential).username 
-    Write-Warning "$user cannot write to App Catalog site" -BackgroundColor Black -ForegroundColor Red
+    Write-Warning "$user cannot write to App Catalog site"
     Write-Warning "Please make sure they are a Site Collection Admin for $appcatalog"
     Write-Warning $_
 
@@ -158,7 +160,9 @@ if ($AppCatalogAdmin) {
     if($noScript -eq $true) {
       Set-PnPTenantSite -Identity $appcatalog -DenyAddAndCustomizePages:$true
     }
-  } catch { }
+  } catch {
+  Write-Warning "Failed to revert noscript for $appcatalog"
+  }
 }
 #endregion
 #region Content stuff
@@ -175,8 +179,22 @@ if ($SiteAdmin) {
     Write-Warning "Could not find `"Microsoft 365 learning pathways`" app. Please install in it your app catalog and run this script again."
     break
   }
-  $sitePagesList = Get-PnPList -Identity "Site Pages"
-  if ($null -ne $sitePagesList) {    
+
+  # Validate if Custom scripts is blocked for the site
+  try {
+    $noScript = $false
+    $siteInfo = Get-PnPTenantSite -Url $clSite
+    if ($siteInfo.DenyAddAndCustomizePages -ne "Disabled") { 
+      # Enable custom scripts on the site (allowed)
+      Set-PnPTenantSite -Identity $clSite -DenyAddAndCustomizePages:$false
+      $noScript = $true
+    }
+  } catch {
+    Write-Warning "Failed to set noscript for $clSite"
+  }
+
+  $sitePagesList = Get-PnPList -Identity "SitePages"
+  if ($null -ne $sitePagesList) {
     # Delete pages if they exist. Alert user.
     $clv = Get-PnPListItem -List $sitePagesList -Query "<View><Query><Where><Eq><FieldRef Name='FileLeafRef'/><Value Type='Text'>CustomLearningViewer.aspx</Value></Eq></Where></Query></View>"
     if ($null -ne $clv) {
@@ -268,7 +286,7 @@ if ($SiteAdmin) {
         Write-Host "Found an existing CustomLearningAdmin.aspx page. Deleting it."
         # Renaming and moving to Recycle Bin to prevent potential naming overlap
         Set-PnPListItem -List $sitePagesList -Identity $cla.Id -Values @{"FileLeafRef" = "CustomLearningAdmin$((Get-Date).Minute)$((Get-date).second).aspx" }
-        Move-PnPListItemToRecycleBin -List $sitePagesList -Identity $cla.Id -Force    
+        Move-PnPListItemToRecycleBin -List $sitePagesList -Identity $cla.Id -Force
       }
       $claPage = Add-PnPPage "CustomLearningAdmin" -Publish
       $claSection = Add-PnPPageSection -Page $claPage -SectionTemplate OneColumn -Order 1
@@ -283,6 +301,15 @@ if ($SiteAdmin) {
   else { 
     Write-Warning "Could not find `"Site Pages`" library. Please make sure you are running this on a Modern SharePoint site"
     return
+  }
+
+  # Revert to original setting (blocked)
+  try {
+    if($noScript -eq $true) {
+      Set-PnPTenantSite -Identity $clSite -DenyAddAndCustomizePages:$true
+    }
+  } catch {
+  Write-Warning "Failed to revert noscript for $clSite"
   }
 }
 Disconnect-PnPOnline # Disconnect from SharePoint Admin
