@@ -193,8 +193,11 @@ if ($SiteAdmin) {
     Write-Warning "Failed to set noscript for $clSite"
   }
 
-  $sitePagesList = Get-PnPList -Identity "SitePages"
-  if ($null -ne $sitePagesList) {
+  # Resolve by stable EntityTypeName instead of the localized Title, since SharePoint
+  # renames the built-in "Site Pages" library according to the site's default language
+  # (e.g. "Páginas del sitio" on es-ES sites) - see issue #1013
+  $sitePagesList = Get-PnPList | Where-Object { $_.EntityTypeName -eq "SitePages" }
+  if ($null -ne $sitePagesList) {    
     # Delete pages if they exist. Alert user.
     $clv = Get-PnPListItem -List $sitePagesList -Query "<View><Query><Where><Eq><FieldRef Name='FileLeafRef'/><Value Type='Text'>CustomLearningViewer.aspx</Value></Eq></Where></Query></View>"
     if ($null -ne $clv) {
