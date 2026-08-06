@@ -2,7 +2,7 @@
   {
     "Id": "93080ed0-8967-48f8-8117-70e910ddc274",
     "Title": "Email & Inbox Management",
-    "Image": "",
+    "Image": "https://pnp.github.io/custom-learning-office-365/m365Community/v4/en-us/images/customfeatured.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -28,7 +28,7 @@
   {
     "Id": "5ce752cf-5a73-48cb-8b53-46c0a81c6983",
     "Title": "Meeting Prep & Calendar Management",
-    "Image": "",
+    "Image": "https://pnp.github.io/custom-learning-office-365/m365Community/v4/en-us/images/customfeatured.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -56,7 +56,7 @@
   {
     "Id": "8ca689db-b782-4a10-841c-d024c6323dc2",
     "Title": "Meeting Minutes, Notes & Follow-ups",
-    "Image": "",
+    "Image": "https://pnp.github.io/custom-learning-office-365/m365Community/v4/en-us/images/customfeatured.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -90,7 +90,7 @@
   {
     "Id": "97333e2e-d5e6-49e6-b95d-8df5205b9c8c",
     "Title": "Personal Productivity & Daily Planning",
-    "Image": "",
+    "Image": "https://pnp.github.io/custom-learning-office-365/m365Community/v4/en-us/images/customfeatured.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -122,7 +122,7 @@
   {
     "Id": "8072ea04-30ad-4640-be59-6eb4bc158f51",
     "Title": "Business Analysis, Risk & Compliance Reports",
-    "Image": "",
+    "Image": "https://pnp.github.io/custom-learning-office-365/m365Community/v4/en-us/images/customfeatured.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -152,7 +152,7 @@
   {
     "Id": "e7897abe-8edb-412c-8a95-22dbc6263e06",
     "Title": "HR & People Management",
-    "Image": "",
+    "Image": "https://pnp.github.io/custom-learning-office-365/m365Community/v4/en-us/images/customfeatured.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -173,7 +173,7 @@
   {
     "Id": "7148f78f-05cb-4e5c-a4a2-aec50cb449ee",
     "Title": "Office Document Creation",
-    "Image": "",
+    "Image": "https://pnp.github.io/custom-learning-office-365/m365Community/v4/en-us/images/customfeatured.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -195,7 +195,7 @@
   {
     "Id": "2be4ca71-37f7-4ef5-ba85-e42ba6419ea8",
     "Title": "Diagrams, Dashboards & Visual Generators",
-    "Image": "",
+    "Image": "https://pnp.github.io/custom-learning-office-365/m365Community/v4/en-us/images/customfeatured.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -216,7 +216,7 @@
   {
     "Id": "e709e345-28fd-4eb7-b6d5-8be2b80824c9",
     "Title": "Developer & IT Pro Tools",
-    "Image": "",
+    "Image": "https://pnp.github.io/custom-learning-office-365/m365Community/v4/en-us/images/customfeatured.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -243,7 +243,7 @@
   {
     "Id": "a5d6eee6-2d3a-4477-888a-c8131963d0f4",
     "Title": "Prompt Engineering & Copilot Mastery",
-    "Image": "",
+    "Image": "https://pnp.github.io/custom-learning-office-365/m365Community/v4/en-us/images/customfeatured.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -265,7 +265,7 @@
   {
     "Id": "b3c616d8-f356-44ee-a310-fd8c958351fd",
     "Title": "Fun, Creative & Ideation Prompts",
-    "Image": "",
+    "Image": "https://pnp.github.io/custom-learning-office-365/m365Community/v4/en-us/images/customfeatured.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
