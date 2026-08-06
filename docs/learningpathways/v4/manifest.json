@@ -14,7 +14,7 @@
       "Id": "00cecf29-512f-41ea-809d-a7addf04045d",
       "Name": "M365 Community",
       "Description": "Better practices and samples from the greater M365 and Power Platform Community.",
-      "Image": "https://pnp.github.io/custom-learning-office-365/m365Community/v4/en-us/images/customfeatured.png",
+      "Image": "https://pnp.github.io/custom-learning-office-365/m365Community/v4/en-us/images/categories/customfeatured.png",
       "ProvisionUrl": "",
       "CdnBase": "https://pnp.github.io/custom-learning-office-365/m365Community/"
     }
