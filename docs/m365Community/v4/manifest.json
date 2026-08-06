@@ -10,7 +10,8 @@
   },
   "ContentPacks": [],
   "AssetOrigins": [
-    "https://github.com/pnp/copilot-prompts"
+    "https://github.com/pnp/copilot-prompts",
+    "https://derekcp.com/copilot-prompts/"
   ],
   "Languages": [
     "en-US"
