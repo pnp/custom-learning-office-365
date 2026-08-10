@@ -259,7 +259,7 @@
         {
           "Id": "190d2429-e561-47a2-99a4-b50145fa1825",
           "Name": "Microsoft 365 Better Practices",
-          "Image": "images/categories/customfeatured.png",
+          "Image": "images/categories/office_basics.png",
           "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
           "SubjectId": null,
           "Source": "",
@@ -268,7 +268,7 @@
         {
           "Id": "290e4ec3-dcc6-43cd-9e9d-f7c9ae938beb",
           "Name": "Security",
-          "Image": "images/categories/customfeatured.png",
+          "Image": "images/categories/LP-security-subcategory.png",
           "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
           "SubjectId": null,
           "Source": "",
@@ -277,7 +277,7 @@
         {
           "Id": "4dace91b-0859-4e9c-92b1-09df6d590d5e",
           "Name": "SharePoint Better Practices",
-          "Image": "images/categories/customfeatured.png",
+          "Image": "images/categories/sharepoint.png",
           "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
           "SubjectId": null,
           "Source": "",
