@@ -296,7 +296,7 @@
     "SubjectId": "",
     "Source": "PnpCommunityDocs",
     "CatId": "bdd7dfc6-d269-402d-8593-791a204ed565",
-    "Description": "Understand where the tenant display name is used throughout M365",
+    "Description": "Tenant-level administration guidance from the Microsoft 365 community. Learn what the organization name field really controls, everywhere that display name surfaces for your users, and the far-reaching impact of changing it.",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -313,7 +313,7 @@
     "SubjectId": "",
     "Source": "PnpCommunityDocs",
     "CatId": "8f8c54a0-32ff-400f-91e6-e03a183ad631",
-    "Description": "PowerShell is an automation scripting language from Microsoft, which was originally only available on Windows devices, and built on top of the .NET Framework. Since 2016, we also have PowerShell Core which is open-source, cross-platform, and built on top of .NET Core.",
+    "Description": "Automate repetitive Microsoft 365 work with script and low code. Compare the PowerShell options for SharePoint — PnP PowerShell, the SharePoint Online module, CSOM, and CLI for Microsoft 365 — build and modify modern client-side pages from script, and walk through a low-code Teams provisioning solution that keeps owners accountable.",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -332,7 +332,7 @@
     "SubjectId": "",
     "Source": "PnpCommunityDocs",
     "CatId": "4e0b848a-4c38-4678-91be-9b074668c7a3",
-    "Description": "Useful links to help you follow the Microsoft 365 community on social media",
+    "Description": "Get your bearings in Microsoft 365. A glossary of the terms you'll hear, which group type to use in Microsoft 365 versus Microsoft Entra, how the search technologies differ, query string tricks for pages and lists, what content types and site columns actually are, the kinds of apps you can build, working in the government cloud, and where to follow the community.",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -357,7 +357,7 @@
     "SubjectId": "",
     "Source": "PnpCommunityDocs",
     "CatId": "e0d5a23d-d5a5-47d8-8e6a-b81ef64f7258",
-    "Description": "Org-wide communication supports employees’ understanding of the organization, sharing timely updates, creating the company culture, driving employee engagement, sending crisis communications, and creating opportunities for discussion, innovation, and feedback. Relying on one communication channel -...",
+    "Description": "Reach the whole organization without relying on email. How to plan org-wide communication around your culture, company size, and audience, the shift from company-wide email to SharePoint news and news digests, and the principles of communication and search that underpin the Microsoft 365 Maturity Model.",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -367,7 +367,6 @@
       "560c7852-686a-4158-b7b5-079dd0c08cc8"
     ]
   },
- 
   {
     "Id": "cf89afd4-31ca-4d4c-a7e3-0ec37242d0a5",
     "Title": "Information Architecture",
@@ -378,7 +377,7 @@
     "SubjectId": "",
     "Source": "PnpCommunityDocs",
     "CatId": "f4bf165e-5351-48ce-99cf-2dacc2eb8b7b",
-    "Description": "Better practices for creating and maintaining good information architecture.",
+    "Description": "Structure content so people can still find it later. Building useful list and library views, document sets for legacy process automation, how site columns become managed properties available to search, managed metadata versus lookup columns, flat site topology, list and library formatting, content type inheritance, and living with lists well past the 5,000-item view threshold.",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -402,7 +401,7 @@
     "SubjectId": "",
     "Source": "PnpCommunityDocs",
     "CatId": "544604ae-1dcb-42e8-84d0-5c01525d4841",
-    "Description": "The Power Platform is Microsoft’s answer to the growing need in business for a way to build and customize professional-grade business solutions quickly, with the ability to connect to over 200 data sources including, SharePoint Online, Azure SQL, Twitter and more.",
+    "Description": "Set up the Power Platform deliberately before it sprawls. Defining an environment strategy across personal, departmental, and application scenarios — including why the default environment is special — and choosing between Power Automate and Azure Logic Apps based on their key differences and the tools you build each with.",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -420,7 +419,7 @@
     "SubjectId": "",
     "Source": "PnpCommunityDocs",
     "CatId": "544604ae-1dcb-42e8-84d0-5c01525d4841",
-    "Description": "A series on how to weigh technology choices in Microsoft 365: establishing decision criteria, data storage, front end, and comparing links, news links, and links to a document.",
+    "Description": "A decision framework for solution builders. Establish criteria like technical fit, skills required, time to market, and solution longevity; choose where the data lives; pick a front end from SharePoint list forms through Power Apps to SPFx; compare Link, News Link, and Link to a Document; and design the result to scale.",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -441,7 +440,7 @@
     "SubjectId": "",
     "Source": "PnpCommunityDocs",
     "CatId": "544604ae-1dcb-42e8-84d0-5c01525d4841",
-    "Description": "A short guide on the many (many) options for managing tasks in M365 and how they stack up.",
+    "Description": "Choose where work actually gets tracked. A side-by-side look at the many task management options in Microsoft 365 — Planner, Microsoft Lists, To Do and the rest — with the pros and cons of each and guidance on which one fits your scenario.",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -458,7 +457,7 @@
     "SubjectId": "",
     "Source": "PnpCommunityDocs",
     "CatId": "190d2429-e561-47a2-99a4-b50145fa1825",
-    "Description": "How to foster accessibility by design",
+    "Description": "Habits that keep a Microsoft 365 rollout healthy. Designing for accessibility from the start rather than retrofitting it, propagating content types from the content type gallery, choosing a Teams naming convention and the cost of bad names, OneDrive PC folder backup for end users, and why adoption projects fail.",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -479,7 +478,7 @@
     "SubjectId": "",
     "Source": "PnpCommunityDocs",
     "CatId": "290e4ec3-dcc6-43cd-9e9d-f7c9ae938beb",
-    "Description": "Microsoft 365, as a service, contains many administration portals, options, and configuration settings focused solely on Security. Each service is protected predominantly by Microsoft Entra ID for Authentication, with each application authorizing users to access either the app itself content that...",
+    "Description": "Practical security groundwork for Microsoft 365. Security defaults, licensing, and multi-factor authentication; tenant, site, and sharing settings in SharePoint Online; how guest access differs between SharePoint and Teams; what admins need to know before enabling shared channels; the Power Platform DLP policies to have in place on day one; and running guest access reviews with identity governance.",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -501,7 +500,7 @@
     "SubjectId": "",
     "Source": "PnpCommunityDocs",
     "CatId": "4dace91b-0859-4e9c-92b1-09df6d590d5e",
-    "Description": "Building a new Intranet from scratch, but struggling where to start. This article will go through the sources, patterns and ideas to help you get started.",
+    "Description": "Better practices for the SharePoint and Teams workspaces people use every day. Selecting a navigation strategy, team site versus communication site, list columns versus site columns, where your files really live when you work through Teams, permissions on group-connected sites, naming guidelines for sites and files, versioning, importing data, a new site checklist, auto-applying retention labels, and identifying and empowering your champions.",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
@@ -534,7 +533,7 @@
     "SubjectId": "",
     "Source": "PnpCommunityDocs",
     "CatId": "93efbc58-c402-457a-8f65-4eb9fe9deaaf",
-    "Description": "A learning strategy for querying and filtering Highlighted Content Web Parts, with KQL, CAML and Managed Properties. Includes example scenarios",
+    "Description": "Worked examples you can borrow. Querying the Highlighted Content web part with KQL and CAML, document lifecycle and library scenarios, sending SharePoint files as attachments with Power Automate, shared channels for internal and external collaboration, site templates for project life cycles, cascading lists in SharePoint and Power Apps, and ways to put Learning Pathways to work in your organization.",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
