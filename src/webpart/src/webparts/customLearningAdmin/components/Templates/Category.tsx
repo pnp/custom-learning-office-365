@@ -357,6 +357,7 @@ export default class Category extends React.Component<ICategoryProps, ICategoryS
                 <HOODialogActions>
                   <HOOButton
                     iconName="hoo-icon-close"
+                    iconTitle={strings.CloseButton}
                     onClick={() => { this.setState({ message: "", success: true }); }}
                     type={0}
                   />

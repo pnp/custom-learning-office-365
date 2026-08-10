@@ -123,6 +123,7 @@ export default class UpdateConfiguration extends React.PureComponent<IUpdateConf
                 <HOOButton
                   iconName="hoo-icon-close"
                   onClick={this.buttonClick}
+                  iconTitle={strings.CloseButton}
                   type={0}
                 />
               </HOODialogActions>

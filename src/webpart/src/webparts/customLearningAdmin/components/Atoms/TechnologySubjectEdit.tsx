@@ -3,6 +3,7 @@ import { Logger, LogLevel } from "@pnp/logging";
 import HOOButton, { HOOButtonType } from "@n8d/htwoo-react/HOOButton";
 
 import { ISubject } from "../../../common/models/Models";
+import * as strings from "M365LPStrings";
 
 export interface ITechnologySubjectEditProps {
   technologyId: string;
@@ -25,6 +26,7 @@ export default class TechnologySubjectEdit extends React.PureComponent<ITechnolo
           <span className="pl-edit-title">{this.props.subject.Name}</span>
           <span className="pl-edit-actions">
             <HOOButton type={HOOButtonType.Icon}
+              iconTitle={`${(this.props.visible) ? strings.Hide : strings.Show} ${strings.TechnologyHeadingLabel}`}
               iconName={(this.props.visible) ? "icon-eye-filled" : "icon-eye-off-filled"}
               onClick={() => { this.props.onVisibility(this.props.visible); }} />
           </span>
