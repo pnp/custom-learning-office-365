@@ -43,6 +43,7 @@ export default class About extends React.PureComponent<IAboutProps> {
         <div data-component={this.LOG_SOURCE} className="about">
           <div className="buttonRight">
             <HOOButton type={HOOButtonType.Icon} iconName="icon-dismiss-regular"
+              iconTitle={strings.CloseButton}
               onClick={this.props.close} />
           </div>
           <HOOLabel label={`${strings.AboutGroupHeader} - ${strings.AboutGroupTitle2}`} />

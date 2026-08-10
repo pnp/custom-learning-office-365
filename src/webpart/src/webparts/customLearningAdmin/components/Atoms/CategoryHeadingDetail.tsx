@@ -118,6 +118,7 @@ export default class CategoryHeadingDetail extends React.PureComponent<ICategory
                     {(locale.code !== params.defaultLanguage) &&
                       <HOOButton
                         iconName="icon-delete-regular"
+                        iconTitle={strings.DeleteButton}
                         onClick={() => { this.deleteLanguage(idx); }}
                         type={0}
                       />

@@ -50,7 +50,9 @@ export default class FilterPanel extends React.PureComponent<IFilterPanelProps, 
               {strings.FilterPanelHeader}
             </div>
             <div className="sldpnl-toggle">
-              <HOOButton type={HOOButtonType.Icon} iconName={(this.state.show) ? "icon-chevron-up-regular" : "icon-chevron-down-regular"} disabled={false} onClick={() => { this.showFilter(); }} />
+              <HOOButton type={HOOButtonType.Icon} 
+              iconTitle={`${(this.state.show) ? strings.Hide : strings.Show}`}
+              iconName={(this.state.show) ? "icon-chevron-up-regular" : "icon-chevron-down-regular"} disabled={false} onClick={() => { this.showFilter(); }} />
             </div>
           </div>
           <div className="sldpnl-content">

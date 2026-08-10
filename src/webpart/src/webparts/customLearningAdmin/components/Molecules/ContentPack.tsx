@@ -115,6 +115,7 @@ export default class ContentPack extends React.Component<IContentPackProps, ICon
         <div data-component={this.LOG_SOURCE} className="about">
           <div className="buttonRight">
             <HOOButton type={HOOButtonType.Icon} iconName="icon-dismiss-regular"
+              iconTitle={strings.CloseButton}
               onClick={this.props.close} />
           </div>
           <h3>{strings.AdminAddCdnLabel}</h3>
