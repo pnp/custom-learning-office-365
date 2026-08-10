@@ -288,8 +288,8 @@
   },
   {
     "Id": "c455872b-e72f-4fcd-9a5d-585ccc4c10ba",
-    "Title": "Understanding tenant display name usage",
-    "Image": "images/categories/CommunityDocs.png",
+    "Title": "Administration Topics",
+    "Image": "images/categories/customfeatured.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -305,8 +305,8 @@
   },
   {
     "Id": "d61b06c6-251b-413e-a2c4-f7281b234648",
-    "Title": "Benefits of using PowerShell with SharePoint",
-    "Image": "images/categories/CommunityDocs.png",
+    "Title": "Automation Topics",
+    "Image": "images/categories/customfeatured.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -317,47 +317,15 @@
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "2f7a8b67-f049-4f9e-a74f-7b8283cdef27"
-    ]
-  },
-  {
-    "Id": "32f240ed-4e16-44f9-b918-fdb804bb0f19",
-    "Title": "Should everyone create Teams - Low Code Provisioning solution",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "8f8c54a0-32ff-400f-91e6-e03a183ad631",
-    "Description": "This article shall shed a light on two aspects of Modern Workplace: Microsoft Teams Provisioning using a low-code solution while ensuring that Teams Owners are digitally literate enough to be responsible owners.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "7b8dda28-ffb5-4c31-8b00-fc5789244af7"
-    ]
-  },
-  {
-    "Id": "478c1739-3621-4705-b004-44d6b0edb72b",
-    "Title": "Working with modern client-side pages using PnP PowerShell",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "8f8c54a0-32ff-400f-91e6-e03a183ad631",
-    "Description": "If you need to work with SharePoint Online, whether it's doing some minor modifications or building a custom SharePoint provisioning solution, PnP PowerShell is one of the greatest tools there is. It will certainly help you achieve your goals. PnP is a lot more than just PowerShell, but since I'm...",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
+      "2f7a8b67-f049-4f9e-a74f-7b8283cdef27",
+      "7b8dda28-ffb5-4c31-8b00-fc5789244af7",
       "f1b28a18-c114-43ce-97c4-3915de347c44"
     ]
   },
   {
     "Id": "8bc2b5ad-2f75-4eb6-b177-898bac89420a",
-    "Title": "Follow Microsoft 365 on Social Media",
-    "Image": "images/categories/CommunityDocs.png",
+    "Title": "Basics & Definitions",
+    "Image": "images/categories/customfeatured.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -368,149 +336,21 @@
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "164f23cd-0092-4890-99f0-c291d42f7ff1"
-    ]
-  },
-  {
-    "Id": "8a1b0a14-931c-40b0-842d-9b687d34da96",
-    "Title": "Microsoft 365 Glossary",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "4e0b848a-4c38-4678-91be-9b074668c7a3",
-    "Description": "As with any technology, there are lots of terms we toss around to explain things. Just understanding what each term means can be half the battle. Whether you are entirely new to Microsoft 365 or have been using it for years, there are always new terms to learn. The fact that Microsoft uses common...",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "89162d5e-eb78-4f9f-b3bd-25560c2eebc9"
-    ]
-  },
-  {
-    "Id": "5467027e-020f-47e2-afec-2e12266dc18a",
-    "Title": "Groups in Microsoft 365 and Azure, and Which is Right for You",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "4e0b848a-4c38-4678-91be-9b074668c7a3",
-    "Description": "There are a lot of groups in Azure and Microsoft 365. They can be confusing. This article explains them so you can figure out which one is best for you.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "331d2504-9f0f-4b03-bf27-622a41ca396f"
-    ]
-  },
-  {
-    "Id": "3e380aa6-dec6-405a-801a-91e8e4f4a500",
-    "Title": "Microsoft 365 Search Technologies",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "4e0b848a-4c38-4678-91be-9b074668c7a3",
-    "Description": "Content can be searched using various search technologies. The existing variants are based on the same search index, but differ in usage and configuration.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "f8587ba7-917d-4803-a61b-e9e8cb632c1b"
-    ]
-  },
-  {
-    "Id": "caa2ef08-e09e-4fc7-9694-895c37740a06",
-    "Title": "Query String URL Tricks for SharePoint and Microsoft 365",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "4e0b848a-4c38-4678-91be-9b074668c7a3",
-    "Description": "Creative ways to filter, embed, and change page content by learning the secrets of URL query strings.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "83247f0f-dbae-4d18-b0b1-36f0e45e12ab"
-    ]
-  },
-  {
-    "Id": "ddccd32e-5b15-409c-b4e3-a797ee571bb7",
-    "Title": "Use the Government Cloud for SharePoint and Microsoft 365",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "4e0b848a-4c38-4678-91be-9b074668c7a3",
-    "Description": "A quick knowledge primer for site owners and Microsoft 365 experts on working in the M365 government cloud.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "8a08adf2-9a89-4b93-a042-eb3d740ac9ea"
-    ]
-  },
-  {
-    "Id": "a67bc10a-08ce-48e0-85e9-57b81897f5a1",
-    "Title": "What is a content type?",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "4e0b848a-4c38-4678-91be-9b074668c7a3",
-    "Description": "The easy answer here is a Content Type is a type of content, but that isn't very helpful. A Content Type is like a business object: something that you move around your desk or computer every day.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "2d5cd5d6-add4-4c5e-bc9e-0d65ddf3b3fd"
-    ]
-  },
-  {
-    "Id": "5cb64bf8-bdab-4154-961d-cf95d5c130b4",
-    "Title": "What is a site column?",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "4e0b848a-4c38-4678-91be-9b074668c7a3",
-    "Description": "A Site Column is a template of a configured column. By creating a Site Column, you can reuse it anywhere else in the site and not have to manually rebuild its configuration at each reuse.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "aeadac29-6e9d-4d3e-a056-746dafcafe18"
-    ]
-  },
-  {
-    "Id": "27c162a2-6a73-4d35-89cc-bc6b50e77c91",
-    "Title": "What kind of apps can you build on Microsoft 365?",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "4e0b848a-4c38-4678-91be-9b074668c7a3",
-    "Description": "Microsoft 365 is a rich platform for building applications. Here are the types of apps you can build on Microsoft 365.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
+      "164f23cd-0092-4890-99f0-c291d42f7ff1",
+      "89162d5e-eb78-4f9f-b3bd-25560c2eebc9",
+      "331d2504-9f0f-4b03-bf27-622a41ca396f",
+      "f8587ba7-917d-4803-a61b-e9e8cb632c1b",
+      "83247f0f-dbae-4d18-b0b1-36f0e45e12ab",
+      "8a08adf2-9a89-4b93-a042-eb3d740ac9ea",
+      "2d5cd5d6-add4-4c5e-bc9e-0d65ddf3b3fd",
+      "aeadac29-6e9d-4d3e-a056-746dafcafe18",
       "0409887c-0935-430c-ab42-bf2c204999dd"
     ]
   },
   {
     "Id": "42e2ab1d-d071-4659-be29-f9f18ccd6834",
-    "Title": "How to Share Org-Wide Communication in Microsoft 365",
-    "Image": "images/categories/CommunityDocs.png",
+    "Title": "Effective Communication",
+    "Image": "images/categories/customfeatured.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -521,268 +361,41 @@
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "2b20d8df-84ae-408c-81f8-fba5a1402595"
-    ]
-  },
-  {
-    "Id": "a7b3cebc-34ae-4c4c-9c6e-713b2e88e63b",
-    "Title": "The Evolution of Company-wide Email Communication to SharePoint News",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "e0d5a23d-d5a5-47d8-8e6a-b81ef64f7258",
-    "Description": "Since the advent of email, the most common way most organizations have shared news and updates to the entire organization at once has been through emails to a org-wide distribution list. As Microsoft 365 continues to expand capabilities and offers us multiple communication channels to use, it may...",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "ec5d8df0-e936-496a-8edb-8434916c5a7f"
-    ]
-  },
-  {
-    "Id": "4b852429-c3e1-4ee4-af00-41f835e2ec4d",
-    "Title": "The Principles of Communication – supporting the Microsoft 365 Maturity Model",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "e0d5a23d-d5a5-47d8-8e6a-b81ef64f7258",
-    "Description": "Seven principles of communication as used to inform the Communication Competency within the Microsoft 365 Maturity Model",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "a78535d2-b6e8-413b-8688-b324c9f42fdd"
-    ]
-  },
-  {
-    "Id": "f22e3243-c03b-4ca1-a264-fa452ed5c1d4",
-    "Title": "The Principles of Search – supporting the Microsoft 365 Maturity Model",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "e0d5a23d-d5a5-47d8-8e6a-b81ef64f7258",
-    "Description": "Principles of Search as used to inform the Search Competency within the Microsoft 365 Maturity Model",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
+      "2b20d8df-84ae-408c-81f8-fba5a1402595",
+      "ec5d8df0-e936-496a-8edb-8434916c5a7f",
+      "a78535d2-b6e8-413b-8688-b324c9f42fdd",
       "560c7852-686a-4158-b7b5-079dd0c08cc8"
     ]
   },
+ 
   {
     "Id": "cf89afd4-31ca-4d4c-a7e3-0ec37242d0a5",
-    "Title": "Creating Useful Views for Lists & Libraries",
-    "Image": "images/categories/CommunityDocs.png",
+    "Title": "Information Architecture",
+    "Image": "images/categories/customfeatured.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "PnpCommunityDocs",
     "CatId": "f4bf165e-5351-48ce-99cf-2dacc2eb8b7b",
-    "Description": "Support your end users by creating efficient and effective Views",
+    "Description": "Better practices for creating and maintaining good information architecture.",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "c53fe626-6b8e-4a72-b5e9-2ac2b2429c12"
-    ]
-  },
-  {
-    "Id": "c9bce172-74c2-48e8-84f5-4bd01f1c26c3",
-    "Title": "Document Sets for Fast Legacy Process Automation",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "f4bf165e-5351-48ce-99cf-2dacc2eb8b7b",
-    "Description": "A proven strategy for content classification in SharePoint libraries with the magic of no-code all-configuration content Document Sets.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "eeeeb74f-7c12-4fc6-ba9e-7f4219ba4212"
-    ]
-  },
-  {
-    "Id": "d0ba1e2c-ada9-45b4-9c27-8eb6c0e48cf0",
-    "Title": "How Do Site Columns Become Managed Properties - Thus Available for Search?",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "f4bf165e-5351-48ce-99cf-2dacc2eb8b7b",
-    "Description": "Before we jump to the topic at hand, a little recap of the terminology involved:",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "ec73dc3c-599c-4a03-a1b2-964d902f7749"
-    ]
-  },
-  {
-    "Id": "84eb69ed-043e-4d9e-b774-517e25f7454b",
-    "Title": "Information Architecture - Managed Metadata versus Lookup columns",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "f4bf165e-5351-48ce-99cf-2dacc2eb8b7b",
-    "Description": "Before we jump to the topic at hand, a little recap of the terminology involved:",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "bf26bde4-9dfe-4d76-890a-a2e4adc4e6a4"
-    ]
-  },
-  {
-    "Id": "3563e7d9-21db-4730-b76a-c176544e5e33",
-    "Title": "Information Architecture - Site Topology",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "f4bf165e-5351-48ce-99cf-2dacc2eb8b7b",
-    "Description": "With the advent of modern pages in SharePoint Online, the classic top-down site topology, as we know it, has evolved to a flat structure that is designed to adapt to your changing organizational structure and content.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "f02b4a0b-053e-4014-8d5c-a48e9ef267ad"
-    ]
-  },
-  {
-    "Id": "ffc4705a-fa44-4e67-8dc4-3843d8922bb1",
-    "Title": "List and Library Formatting",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "f4bf165e-5351-48ce-99cf-2dacc2eb8b7b",
-    "Description": "A short guide on the many options for styling Lists and Libraries in SharePoint and Microsoft365.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "3512722f-6076-484f-90b4-1442c2f9ed6f"
-    ]
-  },
-  {
-    "Id": "e3077d9f-1b84-46ad-aed0-09cad6c23387",
-    "Title": "Living Large with Large Lists and Large Libraries",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "f4bf165e-5351-48ce-99cf-2dacc2eb8b7b",
-    "Description": "Best practices and strategies for building and operating large SharePoint Lists and Libraries well above the 5000 item threshold.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "fbffcc1d-bf7b-4a60-b063-7898bc74fa1f"
-    ]
-  },
-  {
-    "Id": "4d509480-a0c1-4202-afa1-45e75bc5d346",
-    "Title": "Taking Advantage of the Content Type Inheritance Model in SharePoint",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "f4bf165e-5351-48ce-99cf-2dacc2eb8b7b",
-    "Description": "Taking advantage of the Content Type hierarchy is an important part of a powerful information architecture, regardless whether you're working with documents, list items, pages, etc.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
+      "c53fe626-6b8e-4a72-b5e9-2ac2b2429c12",
+      "eeeeb74f-7c12-4fc6-ba9e-7f4219ba4212",
+      "ec73dc3c-599c-4a03-a1b2-964d902f7749",
+      "bf26bde4-9dfe-4d76-890a-a2e4adc4e6a4",
+      "f02b4a0b-053e-4014-8d5c-a48e9ef267ad",
+      "3512722f-6076-484f-90b4-1442c2f9ed6f",
+      "fbffcc1d-bf7b-4a60-b063-7898bc74fa1f",
       "c3d4ee36-0095-4b11-a580-dc31a1f02247"
     ]
   },
   {
-    "Id": "081f5a21-901e-4455-a062-83d8bd552961",
-    "Title": "A Guided Tour Designed to Help You Select an Effective Navigation Strategy",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "544604ae-1dcb-42e8-84d0-5c01525d4841",
-    "Description": "Modern navigation in SharePoint Online can be tricky. There are many different native options provided by Microsoft. Let's take a look at what's available and discuss some more robust alternatives.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "23e91092-8bd0-43c8-b133-f064ea39f165"
-    ]
-  },
-  {
-    "Id": "081665cd-d295-443a-ba95-0be05cd41c89",
-    "Title": "Auto Apply Retention Labels in Office 365 Using Content Types and Metadata",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "544604ae-1dcb-42e8-84d0-5c01525d4841",
-    "Description": "I think we all agree automating as much retention as possible is a good thing. The less we have to rely on information workers to manually apply a retention label, the better. The information architecture you've diligently defined in your tenant can now be leveraged using auto-apply conditions to...",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "41634771-68a4-4d40-af8d-d33a779d003d"
-    ]
-  },
-  {
-    "Id": "5e7baa0c-d145-44e3-bb60-dda6d8985684",
-    "Title": "Can Machine Learning be used to assign managed metadata attributes for items?",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "544604ae-1dcb-42e8-84d0-5c01525d4841",
-    "Description": "Metadata adoption is tough. With the introduction of Machine Learning into the SharePoint ecosystem, Administrators and System Architects are asking if it can be leveraged to reduce our dependency on Users to assign metadata. This article shares the results of an exploration into the technical...",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "80a26744-2c01-4a9d-92c2-05d58a2abe7d"
-    ]
-  },
-  {
-    "Id": "0799be0c-bc6b-43cf-934e-c5c54a80c9cb",
-    "Title": "Changing Microsoft Teams from Private to Public, what to expect in SharePoint?",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "544604ae-1dcb-42e8-84d0-5c01525d4841",
-    "Description": "As you may already know, when creating a Microsoft Teams, you can choose the privacy settings to be:",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "4fa951fd-ccfb-445f-bf7d-02a0721ec3c5"
-    ]
-  },
-  {
     "Id": "16114fca-c1ae-4887-a621-e77d18fa1518",
-    "Title": "Defining a Power Platform Environment Strategy",
-    "Image": "images/categories/CommunityDocs.png",
+    "Title": "Power Platform Better Practices",
+    "Image": "images/categories/customfeatured.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -793,118 +406,35 @@
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "c774ed0c-be03-499e-ae9d-894377d2698c"
-    ]
-  },
-  {
-    "Id": "ab71a884-a98c-464e-bb6a-6d85979c5fb1",
-    "Title": "Designing your solution for scale",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "544604ae-1dcb-42e8-84d0-5c01525d4841",
-    "Description": "This article refers to design considerations of scaling your solutions, for example, in this scenario - you have built your solution and tested on a site or library, you have demoed to your boss, they are very happy and then he goes \"Hey now, great solution, can you get this out to 1,000 sites...",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "05d13d15-027f-4ea6-a541-cfc39d664b28"
-    ]
-  },
-  {
-    "Id": "7b8be943-bfeb-4a33-ba33-32c548861e01",
-    "Title": "List columns or Site columns - Which one to choose?",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "544604ae-1dcb-42e8-84d0-5c01525d4841",
-    "Description": "We have two (2) types of columns in SharePoint:",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "1f135902-71f6-4724-9161-abfbff69bd27"
+      "c774ed0c-be03-499e-ae9d-894377d2698c",
+      "cdb690dd-9d75-44b8-aa80-7fb4d24c8c1c"
     ]
   },
   {
     "Id": "f282ec8c-c50f-438c-a9b9-46e6b68195a9",
     "Title": "Making Good Technology Decisions",
-    "Image": "images/categories/CommunityDocs.png",
+    "Image": "images/categories/customfeatured.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "PnpCommunityDocs",
     "CatId": "544604ae-1dcb-42e8-84d0-5c01525d4841",
-    "Description": "A four-part series on how to weigh technology choices in Microsoft 365: establishing decision criteria, data storage, front end, and comparing links, news links, and links to a document.",
+    "Description": "A series on how to weigh technology choices in Microsoft 365: establishing decision criteria, data storage, front end, and comparing links, news links, and links to a document.",
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
       "8b29d035-fc0c-4680-9bda-8fb58e22cb4e",
       "3ff36381-9334-49ee-ac33-9b85e46b9f56",
       "1cad86a9-84d9-43a9-83ad-ce5903119464",
-      "82c8ba31-5839-43cb-b179-bb923eaf8860"
-    ]
-  },
-  {
-    "Id": "c6d8fd7d-0de5-4146-8874-dfa0d266dffc",
-    "Title": "Power Automate vs Logic Apps",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "544604ae-1dcb-42e8-84d0-5c01525d4841",
-    "Description": "Power Automate and Azure Logic Apps are workflow services that can automate your processes, business, or system and integrate with Microsoft and 3rd party services with over 300 connectors. These powerful services are designed to get you going quickly, building the workflow between business...",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "cdb690dd-9d75-44b8-aa80-7fb4d24c8c1c"
-    ]
-  },
-  {
-    "Id": "874dbd2a-d7bb-4351-b563-746cbb0d8b06",
-    "Title": "Should I store my files in Microsoft Teams or in SharePoint? An understanding of behind the scenes",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "544604ae-1dcb-42e8-84d0-5c01525d4841",
-    "Description": "To use a product efficiently, it's important to understand a minimum about it. What it does, what can you do with it, what are the limitations, etc.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "3d5b366d-e19c-4045-b87b-815353c754c6"
-    ]
-  },
-  {
-    "Id": "82a10ee1-1b10-4d06-bf29-bfef62ec16aa",
-    "Title": "Team Site vs. Communication Site -  Which one should I choose?",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "544604ae-1dcb-42e8-84d0-5c01525d4841",
-    "Description": "Choosing between a team site and a communication site should start with your intent and desired business outcomes. Though there are nuances to explore, at the most basic, think about these two use cases:",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "5c384ab0-2255-476f-8d05-91a3ec4ae7e0"
+      "82c8ba31-5839-43cb-b179-bb923eaf8860",
+      "05d13d15-027f-4ea6-a541-cfc39d664b28"
     ]
   },
   {
     "Id": "ba6a1732-1c9c-410a-baf9-425545be8504",
-    "Title": "What task management platform is best for me?",
-    "Image": "images/categories/CommunityDocs.png",
+    "Title": "Task Management",
+    "Image": "images/categories/customfeatured.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -920,8 +450,8 @@
   },
   {
     "Id": "8292fa92-f101-4260-a3b3-ac4a0bf883e6",
-    "Title": "Accessibility by design",
-    "Image": "images/categories/CommunityDocs.png",
+    "Title": "M365 Better Practices",
+    "Image": "images/categories/customfeatured.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -932,81 +462,17 @@
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "7f52296a-7816-441a-a628-30029acd72b7"
-    ]
-  },
-  {
-    "Id": "16d6500f-9c4e-4f4b-b561-9382cf5ca641",
-    "Title": "Content Type Propagation",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "190d2429-e561-47a2-99a4-b50145fa1825",
-    "Description": "Content types are a central part of SharePoint. This article will not go into deep details on how to use content types because it depends too much on the use case. This article will cover the backend \"stuff\" that propagates the content types to our end users.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "bbdf153f-9742-4f6e-ba57-6bd57b01a14b"
-    ]
-  },
-  {
-    "Id": "63fdc708-3282-47a8-aed3-d6c593067b17",
-    "Title": "The Importance of a Teams Naming Convention",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "190d2429-e561-47a2-99a4-b50145fa1825",
-    "Description": "A short guide on selecting a naming convention in Microsoft Teams.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "896db256-c7fd-40c6-89db-a6d081706f3a"
-    ]
-  },
-  {
-    "Id": "e99ec893-6404-4b00-a386-606bfe54224c",
-    "Title": "OneDrive PC Folder Backup Benefits for End Users",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "190d2429-e561-47a2-99a4-b50145fa1825",
-    "Description": "OneDrive PC Folder Backup is a OneDrive sync feature that works with Windows 10 and 11. This feature allows business users to automatically backup/redirect their Windows clients Desktops, Documents and Pictures folders to OneDrive for Business.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "f693a19c-5093-4425-adf2-705bd2a70494"
-    ]
-  },
-  {
-    "Id": "ded1c38f-fd97-4053-b715-e3319457d67d",
-    "Title": "Why Microsoft 365 adoption projects fail",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "190d2429-e561-47a2-99a4-b50145fa1825",
-    "Description": "Why Microsoft 365 adoption projects fail - a deeper look into corporate mental models, organizational structures, and patterns in working behavior",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
+      "7f52296a-7816-441a-a628-30029acd72b7",
+      "bbdf153f-9742-4f6e-ba57-6bd57b01a14b",
+      "896db256-c7fd-40c6-89db-a6d081706f3a",
+      "f693a19c-5093-4425-adf2-705bd2a70494",
       "98525674-e176-47ed-996f-4b02b83fcb95"
     ]
   },
   {
     "Id": "7d424ebe-ac07-4a3f-a85f-8563d9c0cbcf",
-    "Title": "Basic Security Set Up for Microsoft 365",
-    "Image": "images/categories/CommunityDocs.png",
+    "Title": "Security",
+    "Image": "images/categories/customfeatured.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -1017,98 +483,18 @@
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "af0d6303-ed8d-4ff5-b5f6-d0c8c5198b17"
-    ]
-  },
-  {
-    "Id": "1b244c75-5fe9-4b31-b081-fdb5df530f27",
-    "Title": "Managing External Guests in SharePoint vs Teams",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "290e4ec3-dcc6-43cd-9e9d-f7c9ae938beb",
-    "Description": "\"Guest\", such a beautiful word. In my humble opinion Guest Users is one of the most valuable assets we have, and learning how to best collaborate with Guest users is an essential skill set.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "99b682be-3329-406e-b663-8b48c4b52f6e"
-    ]
-  },
-  {
-    "Id": "2e7ebfd7-13a8-4b5d-9e42-60cd87900438",
-    "Title": "Managing SharePoint Online Security: A Team Effort",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "290e4ec3-dcc6-43cd-9e9d-f7c9ae938beb",
-    "Description": "Security has always been an important topic, and even more nowadays. We want our users to securely access the environment, share files, and our IT team to sleep at night don't we?",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "46132aba-d1cc-48df-a100-343dc4accfab"
-    ]
-  },
-  {
-    "Id": "a2561f12-38ed-4dac-9489-4b557925fb36",
-    "Title": "Teams Shared Channels for Admins",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "290e4ec3-dcc6-43cd-9e9d-f7c9ae938beb",
-    "Description": "A Teams \"Shared Channel\" is one of the greatest, if not THE Greatest new feature released to Teams in 2022.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "c6cd5a55-5e27-4465-8fc0-b2e592198083"
-    ]
-  },
-  {
-    "Id": "7b979996-325d-4554-9fe3-60d7ea2660ca",
-    "Title": "The Power Platform DLP policies you should be considering on Day 1",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "290e4ec3-dcc6-43cd-9e9d-f7c9ae938beb",
-    "Description": "Protecting your organization's data is a big topic and as you would expect, Microsoft is putting a lot of focus into this area.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "c4d6938c-7730-4497-b6af-40cd94a4dd9a"
-    ]
-  },
-  {
-    "Id": "a416d4cb-91d0-4551-9be7-102eea091ff0",
-    "Title": "Performing Guests Reviews with Azure Identity Governance",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "290e4ec3-dcc6-43cd-9e9d-f7c9ae938beb",
-    "Description": "A short guide on performing Guests Reviews using Azure P2 and its Identity Governance features.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
+      "af0d6303-ed8d-4ff5-b5f6-d0c8c5198b17",
+      "99b682be-3329-406e-b663-8b48c4b52f6e",
+      "46132aba-d1cc-48df-a100-343dc4accfab",
+      "c6cd5a55-5e27-4465-8fc0-b2e592198083",
+      "c4d6938c-7730-4497-b6af-40cd94a4dd9a",
       "61f72258-8cbd-465a-ba5e-456f310a2a08"
     ]
   },
   {
     "Id": "44dc58f4-5c85-4b87-9c68-8e008cb6f1fc",
-    "Title": "Building great content for your Intranet",
-    "Image": "images/categories/CommunityDocs.png",
+    "Title": "SharePoint/Teams Better Practices",
+    "Image": "images/categories/customfeatured.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -1119,166 +505,29 @@
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "6ef78e1d-493f-41a3-906a-1342f9e17cfd"
-    ]
-  },
-  {
-    "Id": "e1aecb05-e349-4bdd-9805-1f4ad305c2eb",
-    "Title": "Empowering Your Microsoft 365 Champions",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "4dace91b-0859-4e9c-92b1-09df6d590d5e",
-    "Description": "How to support a Microsoft 365 champions group in your organization. A follow up to Identifying Your Microsoft 365 Champions.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "12623a36-ca12-402d-9daf-48fce94b20c7"
-    ]
-  },
-  {
-    "Id": "9a686b09-38e3-4268-81ad-633b8cde3c43",
-    "Title": "File Naming on an Intranet",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "4dace91b-0859-4e9c-92b1-09df6d590d5e",
-    "Description": "Over time, you'll want to keep the documents you offer the organization up to date. One problem you'll run into is SharePoint thinking files with different names are totally different, when in fact you want them to be considered versions of the same file.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "36a637e5-0c75-4841-95bc-919155062b30"
-    ]
-  },
-  {
-    "Id": "ceb6e87b-bbd0-499f-b32f-a813ce01d9e9",
-    "Title": "Identifying Your Microsoft 365 Champions",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "4dace91b-0859-4e9c-92b1-09df6d590d5e",
-    "Description": "Identifying influencers in your organization to help support SharePoint and Microsoft 365 initiatives through feedback, change management support, and self-service opportunities.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "f84b1bb8-d483-4ae9-b49a-77e185191c9a"
-    ]
-  },
-  {
-    "Id": "905c6224-972e-4b6c-a6c9-259c646f6d4e",
-    "Title": "Importing data into SharePoint",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "4dace91b-0859-4e9c-92b1-09df6d590d5e",
-    "Description": "This guide will help users understand the various options available to import files and data into SharePoint. We cover several different approaches:",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "15e7bc57-66a5-40c3-997c-d9bbc98b50a5"
-    ]
-  },
-  {
-    "Id": "013ebb36-122d-4546-9f15-74e5c613f653",
-    "Title": "Planning Permissions with Group-based SharePoint Sites... when you're used to Regular SharePoint Permissions.",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "4dace91b-0859-4e9c-92b1-09df6d590d5e",
-    "Description": "When you're a Site Owner of a SharePoint Site Collection, you should ask yourself - Is this SharePoint site collection associated with a modern Office 365 Group?",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "fb075fcf-cd06-444b-a417-aa8eebb87316"
-    ]
-  },
-  {
-    "Id": "e6bcb7ee-e5b3-4fa8-a42e-f7db2f34cd40",
-    "Title": "SharePoint Naming Guidelines",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "4dace91b-0859-4e9c-92b1-09df6d590d5e",
-    "Description": "This article describes some useful guidance in naming artifacts such as sites, lists, columns and content types; this helps to avoid issues later with either technical limits, adoption and best practice.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "614243c9-c287-4fc8-9e13-c85d4079edc6"
-    ]
-  },
-  {
-    "Id": "1e2b5f2e-a7b1-4e89-9675-b7cb6592c2eb",
-    "Title": "Site Builder/Owner - New Site Checklist",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "4dace91b-0859-4e9c-92b1-09df6d590d5e",
-    "Description": "The purpose of this guide is to help document the initial setup of a site and provide resources for next steps and ongoing support. Consider this a starting checklist, which you may well adapt for your own purposes.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "b755fc2b-34fb-49b4-adb3-b98214031553"
-    ]
-  },
-  {
-    "Id": "350f5e46-f7cb-4d0b-87f2-8b4761b3178f",
-    "Title": "Versioning in SharePoint",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "4dace91b-0859-4e9c-92b1-09df6d590d5e",
-    "Description": "Document collaboration, co-authoring, and List updates with human beings is much better with versioning enabled. People make mistakes, and versioning provides a safety net.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "cb614a07-9ea3-4b7c-9590-348028ca6dbc"
-    ]
-  },
-  {
-    "Id": "1795c3b5-06b4-4c20-a0f6-c396f9b3798f",
-    "Title": "Why SharePoint Training is Important",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "4dace91b-0859-4e9c-92b1-09df6d590d5e",
-    "Description": "Yes... We hear that often. So first, let's have a quick introduction. SharePoint is a platform. A product. You collaborate and share information across the organization, quickly and securely. You reduce email traffic, and always have the latest version of a document or file. You can even have a...",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
+      "23e91092-8bd0-43c8-b133-f064ea39f165",
+      "41634771-68a4-4d40-af8d-d33a779d003d",
+      "80a26744-2c01-4a9d-92c2-05d58a2abe7d",
+      "4fa951fd-ccfb-445f-bf7d-02a0721ec3c5",
+      "1f135902-71f6-4724-9161-abfbff69bd27",
+      "3d5b366d-e19c-4045-b87b-815353c754c6",
+      "5c384ab0-2255-476f-8d05-91a3ec4ae7e0",
+      "6ef78e1d-493f-41a3-906a-1342f9e17cfd",
+      "12623a36-ca12-402d-9daf-48fce94b20c7",
+      "36a637e5-0c75-4841-95bc-919155062b30",
+      "f84b1bb8-d483-4ae9-b49a-77e185191c9a",
+      "15e7bc57-66a5-40c3-997c-d9bbc98b50a5",
+      "fb075fcf-cd06-444b-a417-aa8eebb87316",
+      "614243c9-c287-4fc8-9e13-c85d4079edc6",
+      "b755fc2b-34fb-49b4-adb3-b98214031553",
+      "cb614a07-9ea3-4b7c-9590-348028ca6dbc",
       "2725b12d-bba9-4916-999b-0b3184954497"
     ]
   },
   {
     "Id": "c42c9d4d-035c-41b2-9e5a-2fc3e3c912db",
-    "Title": "Advanced Highlighted Content Web Part",
-    "Image": "images/categories/CommunityDocs.png",
+    "Title": "Useful Scenarios",
+    "Image": "images/categories/customfeatured.png",
     "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
     "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -1289,142 +538,14 @@
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "28c478c2-175d-475e-83ba-a337b1d57e58"
-    ]
-  },
-  {
-    "Id": "a1ab1899-7e03-49d6-85e1-374fd88c8231",
-    "Title": "Document Lifecycle Scenarios",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "93efbc58-c402-457a-8f65-4eb9fe9deaaf",
-    "Description": "Document Lifecycle Scenarios - showing different ways to think through how we manage documents based on their relative weight and importance",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "370b49db-3928-4b9a-a09a-310ded7aa019"
-    ]
-  },
-  {
-    "Id": "20e6b211-9151-4675-a959-edf1d9832e94",
-    "Title": "How can I use Learning Pathways in my organization?",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "93efbc58-c402-457a-8f65-4eb9fe9deaaf",
-    "Description": "Learning Pathways is a customizable, on-demand learning solution in Microsoft 365. Learning Pathways offers a fully customizable SharePoint Online communication site (that may be used as a training portal), easy provisioning from the Microsoft 365 Learning Pathways, the ability to make your own...",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "597eb8a3-9e2e-49d7-960d-17ec6c559ca0"
-    ]
-  },
-  {
-    "Id": "9275326e-6ec8-43a1-86f4-df8afafa3f5d",
-    "Title": "Library scenarios",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "93efbc58-c402-457a-8f65-4eb9fe9deaaf",
-    "Description": "This guide will provide scenario-based guidance for the planning of SharePoint document libraries.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "e720dc54-717e-4824-b229-e7a289052104"
-    ]
-  },
-  {
-    "Id": "6c164432-eb41-44c6-a43e-2b54b372133e",
-    "Title": "Power Automate - Send SharePoint files as attachments",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "93efbc58-c402-457a-8f65-4eb9fe9deaaf",
-    "Description": "We have a library with a number of folders, and each of the folders contains multiple files. These files need to be sent out as attachments, when needed. There are many use cases for this capability, but the example in this article is related to contract management. As you might have guessed, these...",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "3f3db4ea-5f3b-4b33-9838-b3f098a1dff2"
-    ]
-  },
-  {
-    "Id": "a8e71866-0fad-4efd-a81c-b642e4ae9d65",
-    "Title": "Using Shared Channels (Teams Connect) for External Collaboration",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "93efbc58-c402-457a-8f65-4eb9fe9deaaf",
-    "Description": "A short guide on setting up Shared Channels for Cross-Tenant (External) Collaboration.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "87270f06-bb45-4c8a-bf72-069c634e91fd"
-    ]
-  },
-  {
-    "Id": "c6625a75-d0c2-46a3-b08e-e01010c4c4f5",
-    "Title": "Using Shared Channels (Teams Connect) for Internal Collaboration",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "93efbc58-c402-457a-8f65-4eb9fe9deaaf",
-    "Description": "A short guide on setting up Shared Channels for Internal Collaboration within your Tenant.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "1b0ea6b3-25a1-48d2-921f-a34fb5c0c24b"
-    ]
-  },
-  {
-    "Id": "cbb23fbc-aa24-4b04-b9bb-5981c3c1fd2a",
-    "Title": "Using Site Templates to Manage Project Life Cycles",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "93efbc58-c402-457a-8f65-4eb9fe9deaaf",
-    "Description": "One possible use for Site Templates (which used to be called Site Designs) is to manage the life cycle of a unit of work. Site Templates allow us to do such things as create lists and libraries, apply a theme, install an add-in or solution, set permissions, etc. (See: Site template JSON schema)",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
-      "a1abf44d-349d-4863-a1ab-27cfe48f33cc"
-    ]
-  },
-  {
-    "Id": "8a12cdf7-c4c1-481f-a13a-65d5cd0d6f10",
-    "Title": "Working with Cascading Lists in SharePoint and Power Apps",
-    "Image": "images/categories/CommunityDocs.png",
-    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
-    "AudienceId": "092298e4-2cad-4ee5-89a8-68b2ad07dc96",
-    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
-    "SubjectId": "",
-    "Source": "PnpCommunityDocs",
-    "CatId": "93efbc58-c402-457a-8f65-4eb9fe9deaaf",
-    "Description": "This example shows how you can cascade SharePoint lists and only show a subset of the data.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
-    "StatusNote": "",
-    "Assets": [
+      "28c478c2-175d-475e-83ba-a337b1d57e58",
+      "370b49db-3928-4b9a-a09a-310ded7aa019",
+      "597eb8a3-9e2e-49d7-960d-17ec6c559ca0",
+      "e720dc54-717e-4824-b229-e7a289052104",
+      "3f3db4ea-5f3b-4b33-9838-b3f098a1dff2",
+      "87270f06-bb45-4c8a-bf72-069c634e91fd",
+      "1b0ea6b3-25a1-48d2-921f-a34fb5c0c24b",
+      "a1abf44d-349d-4863-a1ab-27cfe48f33cc",
       "77f28089-071f-4f0c-b404-e68450140619"
     ]
   }
