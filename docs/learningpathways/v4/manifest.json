@@ -10,7 +10,14 @@
     "RepoURL": "https://github.com/pnp/custom-learning-office-365#updating-the-solution"
   },
   "ContentPacks": [
-    
+    {
+      "Id": "00cecf29-512f-41ea-809d-a7addf04045d",
+      "Name": "M365 Community",
+      "Description": "Better practices and samples from the greater M365 and Power Platform Community. Please note that this content is only available in English.",
+      "Image": "https://pnp.github.io/custom-learning-office-365/m365Community/v4/neutral/images/categories/customfeatured.png",
+      "ProvisionUrl": "",
+      "CdnBase": "https://pnp.github.io/custom-learning-office-365/m365Community/"
+    }
   ],
   "AssetOrigins": [
     "https://support.office.com",

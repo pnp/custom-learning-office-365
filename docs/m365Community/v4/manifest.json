@@ -11,7 +11,8 @@
   "ContentPacks": [],
   "AssetOrigins": [
     "https://github.com/pnp/copilot-prompts",
-    "https://derekcp.com/copilot-prompts/"
+    "https://derekcp.com/copilot-prompts/",
+    "https://pnp.github.io/community-docs/"
   ],
   "Languages": [
     "en-US"
