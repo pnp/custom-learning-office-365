@@ -195,10 +195,110 @@
   ],
   "Categories": [
     {
+      "Id": "3c4dbb08-7617-4f2b-aeff-9845229c50d0",
+      "Name": "Community Documents",
+      "Image": "images/categories/CommunityDocs.png",
+      "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+      "SubjectId": "",
+      "Source": "",
+      "SubCategories": [
+        {
+          "Id": "bdd7dfc6-d269-402d-8593-791a204ed565",
+          "Name": "Administration",
+          "Image": "images/categories/CommunityDocs.png",
+          "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+          "SubjectId": null,
+          "Source": "",
+          "SubCategories": []
+        },
+        {
+          "Id": "8f8c54a0-32ff-400f-91e6-e03a183ad631",
+          "Name": "Automation",
+          "Image": "images/categories/CommunityDocs.png",
+          "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+          "SubjectId": null,
+          "Source": "",
+          "SubCategories": []
+        },
+        {
+          "Id": "4e0b848a-4c38-4678-91be-9b074668c7a3",
+          "Name": "Basics and Definitions",
+          "Image": "images/categories/CommunityDocs.png",
+          "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+          "SubjectId": null,
+          "Source": "",
+          "SubCategories": []
+        },
+        {
+          "Id": "e0d5a23d-d5a5-47d8-8e6a-b81ef64f7258",
+          "Name": "Effective Communication",
+          "Image": "images/categories/CommunityDocs.png",
+          "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+          "SubjectId": null,
+          "Source": "",
+          "SubCategories": []
+        },
+        {
+          "Id": "f4bf165e-5351-48ce-99cf-2dacc2eb8b7b",
+          "Name": "Information Architecture",
+          "Image": "images/categories/CommunityDocs.png",
+          "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+          "SubjectId": null,
+          "Source": "",
+          "SubCategories": []
+        },
+        {
+          "Id": "544604ae-1dcb-42e8-84d0-5c01525d4841",
+          "Name": "Making Better Decisions",
+          "Image": "images/categories/CommunityDocs.png",
+          "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+          "SubjectId": null,
+          "Source": "",
+          "SubCategories": []
+        },
+        {
+          "Id": "190d2429-e561-47a2-99a4-b50145fa1825",
+          "Name": "Microsoft 365 Better Practices",
+          "Image": "images/categories/CommunityDocs.png",
+          "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+          "SubjectId": null,
+          "Source": "",
+          "SubCategories": []
+        },
+        {
+          "Id": "290e4ec3-dcc6-43cd-9e9d-f7c9ae938beb",
+          "Name": "Security",
+          "Image": "images/categories/CommunityDocs.png",
+          "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+          "SubjectId": null,
+          "Source": "",
+          "SubCategories": []
+        },
+        {
+          "Id": "4dace91b-0859-4e9c-92b1-09df6d590d5e",
+          "Name": "SharePoint Better Practices",
+          "Image": "images/categories/CommunityDocs.png",
+          "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+          "SubjectId": null,
+          "Source": "",
+          "SubCategories": []
+        },
+        {
+          "Id": "93efbc58-c402-457a-8f65-4eb9fe9deaaf",
+          "Name": "Useful Scenarios",
+          "Image": "images/categories/CommunityDocs.png",
+          "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+          "SubjectId": null,
+          "Source": "",
+          "SubCategories": []
+        }
+      ]
+    },
+    {
       "Id": "d7a170e9-8bd3-4a4a-a595-1b4faf37bf71",
       "Name": "Copilot",
       "Image": "images/categories/copilot.png",
-      "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
+      "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
       "SubjectId": "",
       "Source": "",
       "SubCategories": [
@@ -212,7 +312,7 @@
           "SubCategories": []
         }
       ]
-    }
+    }    
   ],
   "Audiences": [
     {
