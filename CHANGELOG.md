@@ -1,5 +1,13 @@
 # Change Log
 
+## Version 5.0.0.13 - August, 11, 2026
+
+Accessibility fix and content update
+
+- Fix for bug [#1012](../../issues/1012)
+- Adding new content pack for M365 Community Content including Community Docs and PnP Copilot Prompt Library
+- Removed Success Center Content Pack because it relied on the lookbook which has been out of service for a long time.
+
 ## Version 5.0.0.12 - June, 17, 2026
 
 Accessibility fix and content update
