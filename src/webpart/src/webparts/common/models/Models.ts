@@ -52,7 +52,7 @@ export class SubCat implements ICategory {
   constructor(
     public Id: string = getGUID(),
     public Name: string | IMultilingualString[] = [new MultilingualString()],
-    public Image: string | IMultilingualString[] = [new MultilingualString(params.defaultLanguage, `${params.baseCdnPath}${params.defaultLanguage}/images/categories/customfeatured.png`)],
+    public Image: string | IMultilingualString[] = [new MultilingualString(params.defaultLanguage, `${params.baseCdnPath}neutral/images/categories/customfeatured.png`)],
     public TechnologyId: string = "",
     public SubjectId: string = "",
     public Source: string = CustomWebpartSource.Tenant,

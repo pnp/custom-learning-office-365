@@ -195,6 +195,7 @@ export default class AssetDetails extends React.Component<IAssetDetailsProps, IA
               {this.props.edit && this._currentLanguageOptions.length > 0 &&
 
                 <HOODropDown
+                  rootElementAttributes={{ "aria-label": strings.AddLanguagePlaceholder }}
                   value={""}
                   options={addLanguageOptions}
                   placeholder="⚑ Add language"

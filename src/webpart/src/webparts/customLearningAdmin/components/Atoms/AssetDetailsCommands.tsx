@@ -7,6 +7,7 @@ import HOOIcon from "@n8d/htwoo-react/HOOIcon";
 import * as strings from "M365LPStrings";
 import { IMetadataEntry } from "../../../common/models/Models";
 import styles from "../../../common/CustomLearningCommon.module.scss";
+import { handleActivationKey } from "../../../common/Utilities";
 
 
 export interface IAssetDetailsCommandsProps {
@@ -47,7 +48,11 @@ export default class AssetDetailsCommands extends React.PureComponent<IAssetDeta
               rootElementAttributes={{ "aria-label": strings.AssetDetailsManageHeader }}
             />
           }
-          <span className="pl-edit-title" onClick={this.props.select}>{this.props.assetTitle}</span>
+          <span className="pl-edit-title"
+            role="button"
+            tabIndex={0}
+            onClick={this.props.select}
+            onKeyDown={(e) => handleActivationKey(e, this.props.select)}>{this.props.assetTitle}</span>
           {!this.props.allDisabled &&
             <menu className="pl-edit-actions" role="toolbar">
               <li>

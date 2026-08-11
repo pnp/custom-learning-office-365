@@ -48,8 +48,9 @@ export default class About extends React.PureComponent<IAboutProps> {
           </div>
           <HOOLabel label={`${strings.AboutGroupHeader} - ${strings.AboutGroupTitle2}`} />
           <div className="about-field-grid">
-            <HOOLabel label={strings.AboutLearningSiteUrl} />
+            <HOOLabel label={strings.AboutLearningSiteUrl} for="about-learning-site-url" />
             <HOOText
+              forId="about-learning-site-url"
               onChange={null}
               value={params.learningSiteUrl}
               inputElementAttributes={{
@@ -60,8 +61,9 @@ export default class About extends React.PureComponent<IAboutProps> {
               }}
             />
 
-            <HOOLabel label={strings.AboutDefaultSiteLanguage} />
+            <HOOLabel label={strings.AboutDefaultSiteLanguage} for="about-default-site-language" />
             <HOOText
+              forId="about-default-site-language"
               onChange={null}
               value={defaultLanguageValue}
               inputElementAttributes={{
@@ -72,8 +74,9 @@ export default class About extends React.PureComponent<IAboutProps> {
               }}
             />
 
-            <HOOLabel label={strings.AboutTelemetryStatus} />
+            <HOOLabel label={strings.AboutTelemetryStatus} for="about-telemetry-status" />
             <HOOText
+              forId="about-telemetry-status"
               onChange={null}
               value={params.telemetryOn.toString()}
               inputElementAttributes={{
@@ -84,8 +87,9 @@ export default class About extends React.PureComponent<IAboutProps> {
               }}
             />
 
-            <HOOLabel label={strings.AboutCurrentWPVersion} />
+            <HOOLabel label={strings.AboutCurrentWPVersion} for="about-current-wp-version" />
             <HOOText
+              forId="about-current-wp-version"
               onChange={null}
               value={params.webPartVersion}
               inputElementAttributes={{
@@ -96,8 +100,9 @@ export default class About extends React.PureComponent<IAboutProps> {
               }}
             />
 
-            <HOOLabel label={strings.AboutMultilingualEnabled} />
+            <HOOLabel label={strings.AboutMultilingualEnabled} for="about-multilingual-enabled" />
             <HOOText
+              forId="about-multilingual-enabled"
               onChange={null}
               value={params.multilingualEnabled.toString()}
               inputElementAttributes={{
@@ -108,8 +113,9 @@ export default class About extends React.PureComponent<IAboutProps> {
               }}
             />
 
-            <HOOLabel label={strings.AboutMultilingualLanguages} />
+            <HOOLabel label={strings.AboutMultilingualLanguages} for="about-multilingual-languages" />
             <HOOText
+              forId="about-multilingual-languages"
               onChange={null}
               value={multilingualLanguages}
               inputElementAttributes={{
@@ -120,8 +126,9 @@ export default class About extends React.PureComponent<IAboutProps> {
               }}
             />
 
-            <HOOLabel label={strings.AboutCurrentUserLanguage} />
+            <HOOLabel label={strings.AboutCurrentUserLanguage} for="about-current-user-language" />
             <HOOText
+              forId="about-current-user-language"
               onChange={null}
               value={params.userLanguage}
               inputElementAttributes={{
@@ -132,8 +139,9 @@ export default class About extends React.PureComponent<IAboutProps> {
               }}
             />
 
-            <HOOLabel label={strings.AboutAllCDNs} />
+            <HOOLabel label={strings.AboutAllCDNs} for="about-all-cdns" />
             <HOOText
+              forId="about-all-cdns"
               onChange={null}
               value={allCdn}
               inputElementAttributes={{
@@ -144,8 +152,9 @@ export default class About extends React.PureComponent<IAboutProps> {
               }}
             />
 
-            <HOOLabel label={strings.AboutBaseCDNPath} />
+            <HOOLabel label={strings.AboutBaseCDNPath} for="about-base-cdn-path" />
             <HOOText
+              forId="about-base-cdn-path"
               onChange={null}
               value={params.baseCdnPath}
               inputElementAttributes={{
@@ -156,8 +165,9 @@ export default class About extends React.PureComponent<IAboutProps> {
               }}
             />
 
-            <HOOLabel label={strings.AboutSupportedLanguages} />
+            <HOOLabel label={strings.AboutSupportedLanguages} for="about-supported-languages" />
             <HOOText
+              forId="about-supported-languages"
               onChange={null}
               value={supportedLanguages}
               inputElementAttributes={{
@@ -168,8 +178,9 @@ export default class About extends React.PureComponent<IAboutProps> {
               }}
             />
 
-            <HOOLabel label={strings.AboutConfiguredLanguages} />
+            <HOOLabel label={strings.AboutConfiguredLanguages} for="about-configured-languages" />
             <HOOText
+              forId="about-configured-languages"
               onChange={null}
               value={configuredLanguages}
               inputElementAttributes={{
@@ -180,8 +191,9 @@ export default class About extends React.PureComponent<IAboutProps> {
               }}
             />
 
-            <HOOLabel label={strings.AboutContentPackAssetOrigins} />
+            <HOOLabel label={strings.AboutContentPackAssetOrigins} for="about-content-pack-asset-origins" />
             <HOOText
+              forId="about-content-pack-asset-origins"
               onChange={null}
               value={assetOrigins}
               inputElementAttributes={{
@@ -192,8 +204,9 @@ export default class About extends React.PureComponent<IAboutProps> {
               }}
             />
 
-            <HOOLabel label={strings.AboutCacheLastUpdate} />
+            <HOOLabel label={strings.AboutCacheLastUpdate} for="about-cache-last-update" />
             <HOOText
+              forId="about-cache-last-update"
               onChange={null}
               value={(params.lastUpdatedCache) ? `${params.lastUpdatedCache.toDateString()} ${params.lastUpdatedCache.toTimeString()}` : "N/A"}
               inputElementAttributes={{

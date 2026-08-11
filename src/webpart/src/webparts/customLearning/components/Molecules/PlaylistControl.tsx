@@ -101,7 +101,7 @@ export default class PlaylistControl extends React.Component<IPlaylistControlPro
     }
   }
 
-  private selectAsset = (key: string): void => {
+  private selectAsset = (key: string | number): void => {
     this.setState({
       ddShow: false
     }, () => {
@@ -120,6 +120,7 @@ export default class PlaylistControl extends React.Component<IPlaylistControlPro
             </div>
             <span className="playerctrl-title">
               <HOODropDown
+                rootElementAttributes={{ "aria-label": strings.DefaultAssetLabel }}
                 value={this.props.currentAsset.Id}
                 options={this.state.assetOptions}
                 onChange={this.selectAsset} />

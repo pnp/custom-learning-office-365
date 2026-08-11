@@ -4,7 +4,7 @@ import { Logger, LogLevel } from '@pnp/logging';
 import isEqual from "lodash-es/isEqual";
 import includes from "lodash-es/includes";
 
-import { IAsset } from '../../../common/models/Models';
+import { IAsset, IMultilingualString } from '../../../common/models/Models';
 import styles from "../../../common/CustomLearningCommon.module.scss";
 import { CustomWebpartSource } from '../../../common/models/Enums';
 import { AppInsightsService } from '../../../common/services/AppInsightsService';
@@ -223,6 +223,7 @@ export default class AssetView extends React.Component<IAssetViewProps, IAssetVi
     try {
       if (!this.props.asset) { return null; }
       return (
+        
         <div
           data-component={this.LOG_SOURCE}
           ref={this._IFrameCont}
@@ -230,6 +231,7 @@ export default class AssetView extends React.Component<IAssetViewProps, IAssetVi
         >
           <iframe
             id="contentIFrame"
+            title={(this.props.asset.Title instanceof Array) ? (this.props.asset.Title as IMultilingualString[])[0].Text : this.props.asset.Title as string}
             ref={this._IFrame}
             scrolling="No"
             frameBorder="0"

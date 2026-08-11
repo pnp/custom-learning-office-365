@@ -3,6 +3,8 @@ import * as React from "react";
 
 import isEqual from "lodash-es/isEqual";
 
+import { handleActivationKey } from "../../../common/Utilities";
+
 export interface IContentPackItemProps {
   imageSource: string;
   title: string;
@@ -34,7 +36,11 @@ export default class ContentPackItem extends React.Component<IContentPackItemPro
   public render(): React.ReactElement<IContentPackItemProps> {
     try {
       return (
-        <div data-component={this.LOG_SOURCE} className="plov-item" onClick={this.props.onClick}>
+        <div data-component={this.LOG_SOURCE} className="plov-item"
+          role="button"
+          tabIndex={0}
+          onClick={this.props.onClick}
+          onKeyDown={(e) => handleActivationKey(e, this.props.onClick)}>
           <div className="plov-img">
             <img src={this.props.imageSource} width="278px" height="200px" loading="lazy" />
           </div>

@@ -79,7 +79,11 @@ export default class Paging extends React.Component<IPagingProps, IPagingState> 
       return (
         <ol className="pagination" data-component={this.LOG_SOURCE}>
           <li className={`pagination-item ${(showFirstMore) ? "" : "hidden"} `}>
-            <button className="pagination-button" onClick={this.movePrevious}>&lt;&lt;</button>
+            <button
+              title={`${this.state.displayPages[this.state.displayPages.length - 1] - 1} of ${this.props.pages} pages`}
+              className="pagination-button" 
+              onClick={this.movePrevious} 
+              aria-label={`${this.state.displayPages[this.state.displayPages.length - 1] - 1} of ${this.props.pages} pages`}>&lt;&lt;</button>
           </li>
 
           {this.props.pages && this.state.displayPages.map((page: number, idx) => {
@@ -87,7 +91,7 @@ export default class Paging extends React.Component<IPagingProps, IPagingState> 
               <li key={idx} className={`pagination-item ${(page === -1) ? "hidden" : ""} `}>
                 <button className={`pagination-button ${(page === this.props.currentPage) ? "selected" : ""}`}
                   onClick={() => { this.props.changePage(page); }}
-                  aria-title={`${page + 1} of ${this.props.pages} pages`}
+                  aria-label={`${page + 1} of ${this.props.pages} pages`}
                 >{page + 1}</button>
               </li>
             );
@@ -97,6 +101,7 @@ export default class Paging extends React.Component<IPagingProps, IPagingState> 
             <button className="pagination-button"
               title={`${this.state.displayPages[this.state.displayPages.length - 1] + 1} of ${this.props.pages} pages`}
               onClick={this.moveNext}
+              aria-label={`${this.state.displayPages[this.state.displayPages.length - 1] + 1} of ${this.props.pages} pages`}
             >&gt;&gt;</button>
           </li>
         </ol>

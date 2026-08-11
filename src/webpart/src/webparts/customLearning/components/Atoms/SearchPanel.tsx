@@ -109,7 +109,8 @@ export default class SearchPanel extends React.PureComponent<ISearchPanelProps, 
             value={this.state.searchValue}
             disabled={false}
             onChange={(event) => this.executeSearch(event.target.value, false)}
-            onSearch={newValue => this.executeSearch(newValue, true)} />
+            onSearch={newValue => this.executeSearch(newValue, true)}
+            inputElementAttributes={{ "aria-label": strings.SearchPanelPlaceHolderLabel }} />
           <div className="srch-result">
             {this.state.searchResults.length > 0 && (this.state.searchResults[0].Result.Id !== "0") &&
               <SearchResults

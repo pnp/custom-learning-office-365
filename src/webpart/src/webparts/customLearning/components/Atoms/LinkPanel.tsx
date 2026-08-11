@@ -33,6 +33,7 @@ export default class LinkPanel extends React.PureComponent<ILinkPanelProps> {
           <div className="copypanel">
             <HOOText value={this.props.linkUrl} onChange={() => { }}
               rootElementAttributes={{
+                "aria-label": strings.LinkPanelCopyLabel,
                 style: {
                   width: '100%'
                 }

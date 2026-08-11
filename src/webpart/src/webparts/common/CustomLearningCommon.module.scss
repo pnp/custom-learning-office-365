@@ -241,3 +241,34 @@ $baseFolder: '../../../../node_modules/';
 
 @include mixins.setupGrid(".customLearning", ".category-overview");
 @include mixins.plovGrid(".customLearning", ".plov");
+
+
+// Keyboard focus indicator.
+$focus-ring-width: 2px;
+$focus-ring-color: var(--themePrimary, #0078d4);
+$focusable: 'a[href], button, summary, [tabindex], [role="button"], [role="link"], [role="option"], [role="tab"], [role="menuitem"]';
+
+.customLearning {
+	:global {
+		#{$focusable} {
+			&:focus-visible {
+				outline: $focus-ring-width solid $focus-ring-color !important;
+				outline-offset: 2px;
+			}
+		}
+		.hoo-option:focus-visible,
+		.hoo-select-text:focus-visible {
+			outline: $focus-ring-width solid $focus-ring-color !important;
+			outline-offset: -$focus-ring-width;
+		}
+
+		// Themed colours are ignored in Windows High Contrast.
+		@media (forced-colors: active) {
+			#{$focusable} {
+				&:focus-visible {
+					outline-color: Highlight !important;
+				}
+			}
+		}
+	}
+}
