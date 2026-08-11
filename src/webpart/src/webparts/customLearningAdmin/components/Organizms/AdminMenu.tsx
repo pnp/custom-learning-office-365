@@ -257,7 +257,7 @@ export default class AdminMenu extends React.PureComponent<IAdminMenuProps, IAdm
                 options={this._tabOptions}
                 containsTypeAhead={false}
                 onChange={(ev) => this.props.selectTab(ev as string)}
-                rootElementAttributes={{ className: "adm-header-cat" }} />
+                rootElementAttributes={{ className: "adm-header-cat", "aria-label": strings.DefaultFilterLabel }} />
             </div>
 
           </nav>

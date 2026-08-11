@@ -6,6 +6,7 @@ import isEqual from "lodash-es/isEqual";
 import { IMetadataEntry } from "../../../common/models/Models";
 import * as strings from "M365LPStrings";
 import HOOIcon from "@n8d/htwoo-react/HOOIcon";
+import { handleActivationKey } from "../../../common/Utilities";
 
 export interface ISubCategoryItemProps {
   index: number;
@@ -50,18 +51,6 @@ export default class SubCategoryItem extends React.Component<ISubCategoryItemPro
     return true;
   }
 
-  private handleKeyPress(event:React.KeyboardEvent): void {
-    // Handles both mouse clicks and keyboard
-        // activate with Enter or Space
-    
-        // Keypresses other then Enter and Space should not trigger a command
-        if (event.key !== 'Enter' && event.key !== ' ') {
-          return; // Tab and all other keys: do nothing, let the browser handle naturally
-        }
-        event.preventDefault();
-        this.props.onClick();
-  }
-
   public render(): React.ReactElement<ISubCategoryItemProps> {
     try {
       return (
@@ -69,7 +58,7 @@ export default class SubCategoryItem extends React.Component<ISubCategoryItemPro
           tabIndex={0}
           className="plov-item"
           onClick={this.props.onClick}
-          onKeyDown={(e) => this.handleKeyPress(e)}
+          onKeyDown={(e) => handleActivationKey(e, this.props.onClick)}
           key={`item-${this.props.index}`}
           role="link"
           draggable={this.props.dragMode}

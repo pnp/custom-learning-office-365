@@ -128,6 +128,7 @@ export default class CategoryHeadingDetail extends React.PureComponent<ICategory
               })}
               {params.multilingualEnabled && addLanguageOptions.length > 0 &&
                 <HOODropDown
+                  rootElementAttributes={{ "aria-label": strings.AddLanguagePlaceholder }}
                   value={""}
                   options={addLanguageOptions}
                   placeholder="⚑ Add language"

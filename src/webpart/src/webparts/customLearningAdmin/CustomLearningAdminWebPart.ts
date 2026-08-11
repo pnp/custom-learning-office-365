@@ -108,6 +108,7 @@ export default class CustomLearningAdminWebPart extends BaseClientSideWebPart<IC
           //Load Status tags into params based on language
           if(this._languageController){
             const metadata = await this._languageController.getMetadata();
+            // eslint-disable-next-line require-atomic-updates
             params.statusTags = metadata.StatusTag;
           }
           if (!this._cacheConfig) {

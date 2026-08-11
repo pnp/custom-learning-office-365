@@ -165,6 +165,7 @@ export default class PlaylistDetails extends React.Component<IPlaylistDetailsPro
               {this.props.editMode && addLanguageOptions.length > 0 &&
                 <div className="adm-pivotCombo">
                   <HOODropDown
+                    rootElementAttributes={{ "aria-label": strings.AddLanguagePlaceholder }}
                     value={""}
                     options={addLanguageOptions}
                     placeholder="⚑ Add language"

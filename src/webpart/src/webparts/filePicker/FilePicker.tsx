@@ -4,6 +4,7 @@ import * as React from "react";
 import { FileItem } from "./Models";
 import { authSvc } from "../common/services/AuthService";
 import { params } from "../common/services/Parameters";
+import * as strings from "M365LPStrings";
 
 export interface IFilePickerProps {
   title: string;
@@ -200,7 +201,7 @@ export default class FilePicker extends React.PureComponent<IFilePickerProps, IF
     try {
       if (!this.state.valid) { return null; }
       return (
-        <iframe ref={this._IFrameElement} data-component={this.LOG_SOURCE} className="hoo-dlg-iframe" src="" loading="lazy" />
+        <iframe ref={this._IFrameElement} title={strings.FilePickerHeader} data-component={this.LOG_SOURCE} className="hoo-dlg-iframe" src="" loading="lazy" />
       );
     } catch (err) {
       console.error(`${this.LOG_SOURCE} (render) - ${err}`);

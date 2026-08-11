@@ -5,6 +5,7 @@ import * as React from "react";
 import HOOIcon from "@n8d/htwoo-react/HOOIcon";
 import HOOLoading from "@n8d/htwoo-react/HOOLoading";
 import * as strings from "M365LPStrings";
+import { handleActivationKey } from "../../../common/Utilities";
 
 export interface IPlaylistItemProps {
   playlistId: string;
@@ -32,7 +33,7 @@ export default class PlaylistItem extends React.PureComponent<IPlaylistItemProps
       const title = this.props.playlistTitle + (this.props.playlistEditable ? " - Custom Playlist" : "");
 
       return (
-        <div data-component={this.LOG_SOURCE} className="pl-edit-item" title={title} aria-title={title}>
+        <div data-component={this.LOG_SOURCE} className="pl-edit-item" title={title} aria-label={title}>
           {this.props.playlistEditable &&
             <HOOIcon
               iconName="icon-person-available-regular"
@@ -43,7 +44,11 @@ export default class PlaylistItem extends React.PureComponent<IPlaylistItemProps
             />
 
           }
-          <span className="pl-edit-title" onClick={this.props.onClick}>{this.props.playlistTitle}</span>
+          <span className="pl-edit-title"
+            role="button"
+            tabIndex={0}
+            onClick={this.props.onClick}
+            onKeyDown={(e) => handleActivationKey(e, this.props.onClick)}>{this.props.playlistTitle}</span>
           <div className='fullWidth'>
             <HOOLoading maxValue={100}
               minValue={0}

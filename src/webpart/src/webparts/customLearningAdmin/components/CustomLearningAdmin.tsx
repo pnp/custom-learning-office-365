@@ -315,7 +315,7 @@ export default class CustomLearningAdmin extends React.Component<ICustomLearning
           </div>
           <AdminMenu
             loadingCdn={this.state.loadingCdn}
-            placeholderUrl={`${params.baseCdnPath}${params.defaultLanguage}/images/categories/customfeatured.png`}
+            placeholderUrl={`${params.baseCdnPath}neutral/images/categories/customfeatured.png`}
             currentCDNId={this.state.currentCDNId}
             selectCDN={this.selectCDN}
             selectTab={this.selectTab}

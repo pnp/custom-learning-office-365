@@ -3,6 +3,7 @@ import * as React from "react";
 
 import HOOIcon from "@n8d/htwoo-react/HOOIcon";
 import { Templates } from '../../../common/models/Enums';
+import { handleActivationKey } from '../../../common/Utilities';
 
 export interface ICategoryItemProps {
   index: number;
@@ -30,18 +31,6 @@ export default class CategoryItem extends React.PureComponent<ICategoryItemProps
     super(props);
   }
 
-  private handleKeyPress(event:React.KeyboardEvent): void {
-    // Handles both mouse clicks and keyboard
-    // activate with Enter or Space
-
-    // Keypresses other then Enter and Space should not trigger a command
-    if (event.key !== 'Enter' && event.key !== ' ') {
-      return; // Tab and all other keys: do nothing, let the browser handle naturally
-    }
-    event.preventDefault();
-    this.props.selectItem(Templates.SubCategory, this.props.subcategoryId);
-  }
-
   public render(): React.ReactElement<ICategoryItemProps> {
     try {
       let categoryImage;
@@ -57,7 +46,7 @@ export default class CategoryItem extends React.PureComponent<ICategoryItemProps
           tabIndex={0}
           className="category-item"
           onClick={() => { if (!this.props.dragMode) { this.props.selectItem(Templates.SubCategory, this.props.subcategoryId); } }}
-          onKeyDown={(e) => this.handleKeyPress(e)}
+          onKeyDown={(e) => handleActivationKey(e, () => { this.props.selectItem(Templates.SubCategory, this.props.subcategoryId); })}
           key={`item-${this.props.index}`}
           role="button"
           draggable={this.props.dragMode}

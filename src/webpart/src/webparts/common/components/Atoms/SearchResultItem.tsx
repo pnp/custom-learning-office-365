@@ -4,6 +4,7 @@ import { Logger, LogLevel } from "@pnp/logging";
 import { ICategory, IPlaylist, ISearchResult } from "../../models/Models";
 import { Templates, SearchResultView } from "../../models/Enums";
 import * as strings from "M365LPStrings";
+import { handleActivationKey } from "../../Utilities";
 
 export interface ISearchResultItemProps {
   result: ISearchResult;
@@ -20,13 +21,23 @@ export default class SearchResultItem extends React.PureComponent<ISearchResultI
 
   public render(): React.ReactElement<ISearchResultItemProps> {
     try {
+      const parentId = this.props.result.Parent ? this.props.result.Parent.Id : null;
+      const loadAsset = (): void => { this.props.loadSearchResult(null, parentId, this.props.result.Result.Id); };
+      const loadAssetParentPlaylist = (): void => { this.props.loadSearchResult(null, this.props.result.Parent.Id, null); };
+      const loadPlaylist = (): void => { this.props.loadSearchResult(parentId, this.props.result.Result.Id, null); };
+      const loadPlaylistParentCategory = (): void => { this.props.loadSearchResult(this.props.result.Parent.Id, null, null); };
+
       return (
         <>
           {(this.props.result.Type === Templates.Asset) &&
             <li className="srchr-item">
-              <article className="plov-item plov-noimg" tabIndex={0} role="link">
+              <article className="plov-item plov-noimg">
                 <div className="plov-desc">
-                  <h3 className="plov-title" onClick={() => { this.props.loadSearchResult(null, this.props.result.Parent ? this.props.result.Parent.Id : null, this.props.result.Result.Id); }}>{this.props.result.Result.Title}</h3>
+                  <h3 className="plov-title"
+                    role="link"
+                    tabIndex={0}
+                    onClick={loadAsset}
+                    onKeyDown={(e) => handleActivationKey(e, loadAsset)}>{this.props.result.Result.Title}</h3>
 
                   {this.props.resultView === SearchResultView.Full &&
                     <p className="plov-short">{(this.props.result.Result as IPlaylist).Description}</p>
@@ -34,7 +45,11 @@ export default class SearchResultItem extends React.PureComponent<ISearchResultI
                   {this.props.resultView === SearchResultView.Full &&
                     <div className="plov-audience">
                       <span>{strings.SearchResultItemPlayListLabel}</span>
-                      <span className="plov-title" onClick={() => { this.props.loadSearchResult(null, this.props.result.Parent.Id, null); }}>{(this.props.result.Parent as IPlaylist).Title}</span>
+                      <span className="plov-title"
+                        role="link"
+                        tabIndex={0}
+                        onClick={loadAssetParentPlaylist}
+                        onKeyDown={(e) => handleActivationKey(e, loadAssetParentPlaylist)}>{(this.props.result.Parent as IPlaylist).Title}</span>
                     </div>
                   }
                 </div>
@@ -43,16 +58,24 @@ export default class SearchResultItem extends React.PureComponent<ISearchResultI
           }
           {(this.props.result.Type === Templates.Playlist) &&
             <li className="srchr-item">
-              <article className="plov-item plov-noimg" tabIndex={0} role="link">
+              <article className="plov-item plov-noimg">
                 <div className="plov-desc">
-                  <h3 className="plov-title" onClick={() => { this.props.loadSearchResult(this.props.result.Parent ? this.props.result.Parent.Id : null, this.props.result.Result.Id, null); }}>{this.props.result.Result.Title}</h3>
+                  <h3 className="plov-title"
+                    role="link"
+                    tabIndex={0}
+                    onClick={loadPlaylist}
+                    onKeyDown={(e) => handleActivationKey(e, loadPlaylist)}>{this.props.result.Result.Title}</h3>
                   {this.props.resultView !== SearchResultView.Minimal &&
                     <p className="plov-short">{(this.props.result.Result as IPlaylist).Description}</p>
                   }
                   {this.props.resultView === SearchResultView.Full &&
                     <div className="plov-audience">
                       <span>{strings.SearchResultItemCategoryLabel}</span>
-                      <span className="plov-title" onClick={() => { this.props.loadSearchResult(this.props.result.Parent.Id, null, null); }}>{(this.props.result.Parent as ICategory).Name}</span>
+                      <span className="plov-title"
+                        role="link"
+                        tabIndex={0}
+                        onClick={loadPlaylistParentCategory}
+                        onKeyDown={(e) => handleActivationKey(e, loadPlaylistParentCategory)}>{(this.props.result.Parent as ICategory).Name}</span>
                     </div>
                   }
                 </div>
