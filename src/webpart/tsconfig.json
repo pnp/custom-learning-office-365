@@ -3,7 +3,15 @@
   "compilerOptions": {
     "rootDir": "./src",
     "outDir": "./lib",
-    "strictNullChecks":false
+    "rootDirs": [
+      "./src",
+      "./temp/loc-ts",
+      "./temp/sass-ts",
+      "./temp/static-asset-ts"
+    ],
+    "strict": false,
+    "noImplicitAny": false,
+    "strictNullChecks": false
   },
   "include": [
     "src/**/*.ts",

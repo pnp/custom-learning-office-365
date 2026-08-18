@@ -92,7 +92,6 @@ export class DataService implements IDataService {
         Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getMetadata) Fetch Error: ${results.statusText}`, LogLevel.Error);
         return null;
       }
-      return null;
     }
     catch (err) {
       Logger.write(`🎓 M365LP:${this.LOG_SOURCE} (getMetadata) - ${err}`, LogLevel.Error);
