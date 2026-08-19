@@ -125,7 +125,7 @@ export default class CategoryList extends React.Component<ICategoryListProps, IC
           {this.state.subcategories.map((subcategory, idx) => {
             if (subcategory.Count && subcategory.Count > 0) {
               return (
-                <li>
+                <li key={subcategory.Id}>
                   <CategoryItem
                     index={idx}
                     dragMode={dragMode}
