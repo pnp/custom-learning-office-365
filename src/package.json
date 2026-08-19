@@ -9,5 +9,8 @@
     "webpart:clean": "npm run clean --workspace webpart",
     "webpart:dev": "npm start --workspace webpart",
     "webpart:build": "npm run build --workspace webpart"
+  },
+  "overrides": {
+    "typescript": "5.8.3"
   }
 }

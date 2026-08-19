@@ -126,7 +126,7 @@ export class CustomDataService implements ICustomDataService {
           } catch (errJSON) {
             //If JSON data can't be parsed, remove item as it will be regenerated.
             if (config != null) {
-              this._sp.web.lists.getByTitle(CustomListNames.customConfigName).items.getById(config.Id).delete();
+              await this._sp.web.lists.getByTitle(CustomListNames.customConfigName).items.getById(config.Id).delete();
               config = null;
             }
           }
