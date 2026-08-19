@@ -8,6 +8,8 @@ const {
 const dartSass = require('sass');
 const gulpSass = require('gulp-sass');
 const sass = gulpSass(dartSass);
+const fs = require('fs');
+const path = require('path');
 
 const sassDefInclude = [...require.main.paths, '.'];
 
@@ -40,7 +42,7 @@ const docs = (cb) => {
 
 }
 
-const styles = () => {
+const compileStyles = () => {
 
     return src('./source/scss/*.scss')
         .pipe($.plumber())
@@ -70,6 +72,21 @@ const styles = () => {
         .pipe(dest('source/css'));
 
 };
+
+// The webpart's Heft/Dart-Sass build can only resolve extensionless `@use`/`load-css`
+// imports to `.scss`/`.sass` files, never to plain `.css`, so main.spfx also needs a
+// `.scss`-extension copy of the same compiled output for the webpart to load.
+const copyMainSpfxAsScss = (cb) => {
+
+    fs.copyFileSync(
+        path.join(__dirname, 'source/css/main.spfx.css'),
+        path.join(__dirname, 'source/css/main.spfx.scss')
+    );
+    cb();
+
+};
+
+const styles = series(compileStyles, copyMainSpfxAsScss);
 
 const pluginJSOverride = () => {
 

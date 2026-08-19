@@ -13,6 +13,10 @@ solution
 temp
 release
 *.sppkg
+lib-dts
+lib-commonjs
+lib-esm
+jest-output
 
 # Coverage directory used by tools like istanbul
 coverage

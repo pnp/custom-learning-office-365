@@ -1,5 +1,8 @@
 # Change Log
 
+## Version 5.0.0.14 - August 20, 2026
+Updated SPFx version to V1.23.2
+
 ## Version 5.0.0.13 - August, 11, 2026
 
 Accessibility fix and content update

@@ -205,7 +205,7 @@
         {
           "Id": "bdd7dfc6-d269-402d-8593-791a204ed565",
           "Name": "Administration",
-          "Image": "images/categories/customfeatured.png",
+          "Image": "images/categories/administration.png",
           "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
           "SubjectId": null,
           "Source": "",
@@ -214,7 +214,7 @@
         {
           "Id": "8f8c54a0-32ff-400f-91e6-e03a183ad631",
           "Name": "Automation",
-          "Image": "images/categories/customfeatured.png",
+          "Image": "images/categories/automation.png",
           "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
           "SubjectId": null,
           "Source": "",
@@ -223,7 +223,7 @@
         {
           "Id": "4e0b848a-4c38-4678-91be-9b074668c7a3",
           "Name": "Basics and Definitions",
-          "Image": "images/categories/customfeatured.png",
+          "Image": "images/categories/Basics-n-Definition.png",
           "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
           "SubjectId": null,
           "Source": "",
@@ -232,7 +232,7 @@
         {
           "Id": "e0d5a23d-d5a5-47d8-8e6a-b81ef64f7258",
           "Name": "Effective Communication",
-          "Image": "images/categories/customfeatured.png",
+          "Image": "images/categories/effective-communication.png",
           "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
           "SubjectId": null,
           "Source": "",
@@ -241,7 +241,7 @@
         {
           "Id": "f4bf165e-5351-48ce-99cf-2dacc2eb8b7b",
           "Name": "Information Architecture",
-          "Image": "images/categories/customfeatured.png",
+          "Image": "images/categories/information-architecture.png",
           "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
           "SubjectId": null,
           "Source": "",
@@ -250,7 +250,7 @@
         {
           "Id": "544604ae-1dcb-42e8-84d0-5c01525d4841",
           "Name": "Making Better Decisions",
-          "Image": "images/categories/customfeatured.png",
+          "Image": "images/categories/making-better-decisions.png",
           "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
           "SubjectId": null,
           "Source": "",
@@ -286,7 +286,7 @@
         {
           "Id": "93efbc58-c402-457a-8f65-4eb9fe9deaaf",
           "Name": "Useful Scenarios",
-          "Image": "images/categories/customfeatured.png",
+          "Image": "images/categories/useful-scenarios.png",
           "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
           "SubjectId": null,
           "Source": "",

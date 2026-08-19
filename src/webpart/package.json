@@ -3,30 +3,27 @@
   "description": "Microsoft 365 learning pathways",
   "version": "5.0.0",
   "private": true,
-  "main": "lib/index.js",
   "engines": {
-    "node": ">=18.17.1 <19.0.0"
+    "node": ">=22.14.0 < 23.0.0"
   },
   "scripts": {
-    "build": "gulp bundle",
-    "clean": "gulp clean",
-    "preversion": "node ./tools/pre-version.js",
-    "postversion": "gulp dist",
-    "lint": "eslint ./src"
+    "build": "heft test --clean --production && heft package-solution --production",
+    "clean": "heft clean",
+    "start": "heft start --clean",
+    "eject-webpack": "heft eject-webpack"
   },
   "dependencies": {
     "@microsoft/applicationinsights-web": "^3.2.1",
-    "@microsoft/sp-adaptive-card-extension-base": "1.19.0",
-    "@microsoft/sp-component-base": "1.19.0",
-    "@microsoft/sp-core-library": "1.19.0",
-    "@microsoft/sp-lodash-subset": "1.19.0",
-    "@microsoft/sp-property-pane": "1.19.0",
-    "@microsoft/sp-webpart-base": "1.19.0",
-    "@n8d/htwoo-react": "^2.5.10",
+    "@microsoft/sp-adaptive-card-extension-base": "1.23.2",
+    "@microsoft/sp-component-base": "1.23.2",
+    "@microsoft/sp-core-library": "1.23.2",
+    "@microsoft/sp-lodash-subset": "1.23.2",
+    "@microsoft/sp-property-pane": "1.23.2",
+    "@microsoft/sp-webpart-base": "1.23.2",
+    "@n8d/htwoo-react": "^2.10.1",
     "@pnp/logging": "^4.2.0",
     "@pnp/sp": "^4.2.0",
     "applicationinsights-js": "^1.0.21",
-    "eslint": "2.5.1",
     "learning-pathways-styleguide": "0.0.1",
     "lodash-es": "^4.17.21",
     "react": "17.0.1",
@@ -35,22 +32,27 @@
     "tslib": "2.3.1"
   },
   "devDependencies": {
-    "@microsoft/eslint-config-spfx": "1.20.1",
-    "@microsoft/eslint-plugin-spfx": "1.20.1",
-    "@microsoft/rush-stack-compiler-4.7": "0.1.0",
-    "@microsoft/sp-build-web": "1.20.1",
-    "@microsoft/sp-module-interfaces": "1.20.1",
-    "@rushstack/eslint-config": "2.5.1",
+    "@microsoft/eslint-config-spfx": "1.23.2",
+    "@microsoft/eslint-plugin-spfx": "1.23.2",
+    "@microsoft/sp-module-interfaces": "1.23.2",
+    "@microsoft/spfx-heft-plugins": "1.22.2",
+    "@microsoft/spfx-web-build-rig": "1.23.2",
+    "@rushstack/heft": "1.2.17",
     "@types/applicationinsights-js": "^1.0.9",
+    "@types/jest": "30.0.0",
     "@types/lodash-es": "^4.17.12",
     "@types/react": "17.0.45",
     "@types/react-dom": "17.0.17",
     "@types/webpack-env": "~1.15.2",
-    "ajv": "^6.12.5",
-    "eslint": "8.7.0",
-    "eslint-plugin-react-hooks": "4.3.0",
-    "gulp": "4.0.2",
-    "gulp-sequence": "^1.0.0",
-    "typescript": "4.7.4"
+    "css-loader": "7.1.2",
+    "eslint": "9.37.0",
+    "eslint-plugin-react-hooks": "5.2.0",
+    "typescript": "5.8.3"
+  },
+  "overrides": {
+    "@rushstack/heft": "1.2.17"
+  },
+  "resolutions": {
+    "@types/react": "17.0.45"
   }
 }
