@@ -1,31 +1,34 @@
 # Microsoft 365 learning pathways
 
-## Important Update for Microsoft 365 Learning Pathways 
+## Important Update for Microsoft 365 Learning Pathways
 
-We have some exciting news! **Starting December 1, 2025 Microsoft 365 Learning Pathways will be 100% community supported**. Our goal is to be able to better serve content to you our users. To see what this means for you and your organization check out the official [Driving Adoption](https://aka.ms/M365LPUpdate) as well as the [M365 Community Announcement](CommunitySupported.md).
+We have some exciting news! **Microsoft 365 Learning Pathways will be 100% community supported**. Our goal is to be able to better serve content to you our users. To see what this means for you and your organization check out the official [Driving Adoption](https://aka.ms/M365LPUpdate) as well as the [M365 Community Announcement](CommunitySupported.md).
 
 ## What is Microsoft 365 Learning Pathways
 
-Train employees with Microsoft 365 learning pathways, a digital, customizable learning solution that helps customers transform their organization. Microsoft 365 learning pathways provides:
+Microsoft 365 learning pathways is a, digital, customizable learning solution that helps customers transform their organization. Microsoft 365 learning pathways provides:
 
-- Comprehensive end user training content: product and scenario-based training, in video and article format
-- Easily customizable: Hide and show content to align with how you have set up Office 365 in your environment
-- Create your own training playlists: Add your own custom training content and playlists to feature your organization-specific scenarios
-- Always up-to-date content: As Office 365 changes, the Microsoft 365 learning pathways content will be updated. Content updates will be made and communicated to customers on a monthly basis
+- Comprehensive end user training content: Product and scenario-based training, in video and article format
+- Easy customization: Hide and show content to align with how you have set up Office 365 in your environment
+- Ability to create your own training playlists: Add your own custom training content and playlists to feature your organization-specific scenarios
+- Up-to-date content: As Office 365 changes, the Microsoft 365 learning pathways content will be updated. Content updates will be made and communicated to customers on a monthly basis
 
 ## Prerequisites
 
 For a list of prerequisites and installation instructions see [Overview of multilingual support for learning pathways](https://github.com/pnp/custom-learning-office-365/tree/main/installation)
 
->Note: if you are upgrading from V3 to V4 please review the [instructions](./installation/UpdateV3-V4.md) prior to doing the upgrade as these instructions will provide valuable instructions on enabling multilingual support.
-
 ## Current Release & Installation
 
 Stable Version: ![drop](https://img.shields.io/badge/drop-5.0-green.svg)
 
+Version 5 has been released with added accessibility and technology updates.
+
+Note: Support for versions 1-3 has expired as of January 1, 2026. Support for version 4 will expire on December 31, 2026.
+
 ### Standard installation
 
-Version 5 has been released with added accessibility and technology updates. Included in the V5 release we have added a custom analytics webhook.
+Version 5 has added accessibility and technology updates. Included in the V5 release we have added a custom analytics webhook.
+
 - For [webhook configuration instructions](installation/ConfigureAnalyticsWebHook.md).
 - For for new installations see the [Installation Instructions](./installation/README.md).
 - For upgrade instructions on an existing Microsoft 365 Learning Pathways site follow the [V4 to V5 Upgrade instructions](./installation/UpdateV4-V5.md).
@@ -56,7 +59,6 @@ If you would like to opt out of this data collection, please follow these instru
 1. Run the script with the change implemented.
 
 If you are not performing a manual install and would like to turn telemetry tracking off, a separate script `TelemetryOptOut.ps1` has been included that when run will disable telemetry tracking.
-
 
 ## Overview Video
 
