@@ -2,10 +2,10 @@
 >
 >Please note Version 3 and Version 4 are no longer supported. [View the latest installation instructions.](README.md)
 
-# Version 4.x.x Upgrade Notice
+## Version 4.x.x Upgrade Notice
 >
 >The version 4.x.x version is a major update and includes changes to the schema as well as support for multilingual pages.
-
+>
 >**_PLEASE_** review the content of [Adding Multilingual Support to Microsoft 365 learning pathways](AddingMultilingualSupport.md) document before proceeding.
 
 Although it has been tested thoroughly, as with any major update you should plan for the worst and back up your content first. There are many third party solutions that will assist you with this, if you do not have access to any then the simplest method is to back up your content using Microsoft Excel. Specifically all the items in the _CustomPlaylists_ and _CustomAssets_ lists plus the `CustomSubCategories` item in the _CustomConfig_ list. Please see [Backup Playlist Content](BackupInstructions.md) for more detail instructions.
