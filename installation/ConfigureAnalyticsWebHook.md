@@ -19,7 +19,7 @@ The `MicrosoftCustomLearningWebhookConfig` tenant app property contains a string
 }
 ```
 
-- Url: The url that will receive the POST request from instances of the Microsoft 365 learning pathways webpart.
+- Url: The url that will receive the POST request from instances of the Microsoft 365 Learning Pathways webpart.
 - AnonymizeUser: (default is true) - true sends user identity as SHA256 hash, false sends user data unencrypted.
 - KeyHeader: (Optional) - If you would like to include a custom header in the POST http call for an API key, please include the name for the property. If a Key is set but not a KeyHeader the value M365LP-API-KE will be used.
 - Key: (Optional) - The API key to include in the POST http call using the KeyHeader value as the property name.

@@ -1,6 +1,6 @@
 # Backup custom content for Microsoft 365 learning pathways
 
-All custom content for Microsoft 365 learning pathways is stored in lists in the master learning pathways site collection. Navigate to the `Site Contents` list of your site and locate the following lists:
+All custom content for Microsoft 365 Learning Pathways is stored in lists in the master Learning Pathways site collection. Navigate to the `Site Contents` list of your site and locate the following lists:
 
 1. CustomConfig: If you've created custom sub-categories there will be a list item called `CustomSubCategories`, that list item should be backed up.
 
