@@ -16,7 +16,7 @@ This method will install the Learning Pathways site template previously hosted f
 
 ## Upgrade Instructions
 
-If you are upgrading an existing Microsoft 365 Learning Pathways site please follow the instructions for your version. For V4 to V5 upgrade please follow the [V4 to V5 Upgrade instructions](./UpdateV4-V5.md).For previous upgrade instruction please follow [V3-V4 Upgrade](UpdateV3-V4.md). 
+If you are upgrading an existing Microsoft 365 Learning Pathways site please follow the instructions for your version. For V4 to V5 upgrade please follow the [V4 to V5 Upgrade instructions](./UpdateV4-V5.md).For previous upgrade instruction please follow [V3-V4 Upgrade](UpdateV3-V4.md).
 
 ## Minimal Installation Overview
 
@@ -49,6 +49,7 @@ You will want to add everyone who should be able to view content to the Visitors
 Add `Microsoft 365 learning pathways` App to the site collection.
 
 ## Ensure Custom Scripts is allowed on the App Catalog Site
+
 Navigate to the SharePoint Admin Center. If you are deploying using the Tenant App Catalog ensure that custom scripts is allowed on the app catalog. If you are using a site app catalog ensure that custom scripts is set on the site you are deploying to.
 
 ## Execute PowerShell Configuration Script
