@@ -4,7 +4,7 @@ There are 3 main files used for configuring Microsoft 365 Learning Pathways. The
 ## Metadata.json Schema
 Overview
 --------
-This document describes the JSON structure used by the learning pathways `metadata.json`. It documents the top-level properties, object shapes, field types, cardinality, common constraints and cross-references.
+This document describes the JSON structure used by the Microsoft 365 Learning Pathways `metadata.json`. It documents the top-level properties, object shapes, field types, cardinality, common constraints and cross-references.
 
 Top-level structure
 -------------------

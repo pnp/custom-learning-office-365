@@ -12,7 +12,7 @@ Although it has been tested thoroughly, as with any major update you should plan
 
 ## Additional Update for CDN Url
 
-The base CDN url of the web part has changed in version 3.x.x. For the majority of users the web part will handle this change internally, however, in some instances customers who have installed learning pathways manually between July 27, 2019 and November 4, 2019 may have an invalid CDN endpoint. If after updating to version 3.x.x the content won't load, please run the [UpdateM365lpCDN.ps1](UpdateM365lpCDN.ps1) PowerShell script to correct the CDN endpoint. Even if you do not have a problem, you may optionally run this script to update to the most optimized CDN url.
+The base CDN url of the web part has changed in version 3.x.x. For the majority of users the web part will handle this change internally, however, in some instances customers who have installed Microsoft 365 Learning Pathways manually between July 27, 2019 and November 4, 2019 may have an invalid CDN endpoint. If after updating to version 3.x.x the content won't load, please run the [UpdateM365lpCDN.ps1](UpdateM365lpCDN.ps1) PowerShell script to correct the CDN endpoint. Even if you do not have a problem, you may optionally run this script to update to the most optimized CDN url.
 
 The current solution is provided in it's packaged form in the web part folder [customlearning.sppkg](customlearning.sppkg).
 
@@ -32,7 +32,7 @@ Upload this file into the app catalog by selecting upload, finding the file, and
 
 ![Deploy package to tenant](../images/DeployM365LP.png)
 
-If you've updated the package you will also want to update it in the custom learning site collection. Navigate to the site collection that is your custom learning main site, then site contents, and then click on the menu for `Microsoft 365 learning pathways` and select Details. (Previously called Custom Learning for Office 365)
+If you've updated the package you will also want to update it in the custom learning site collection. Navigate to the site collection that is your custom learning main site, then site contents, and then click on the menu for `Microsoft 365 Learning Pathways` and select Details. (Previously called Custom Learning for Office 365)
 
 ![Site Collection App Version](../images/SiteCollectionAppVersion.png)
 

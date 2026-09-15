@@ -2,7 +2,7 @@
 >
 >The version 5.x.x version is a major update and includes major changes to the user interface and the technology under the covers. There is not change to the underlying data structure.
 >
->**_PLEASE_** If you are upgrading from V3 to V5 review the content of [Adding Multilingual Support to Microsoft 365 learning pathways](AddingMultilingualSupport.md) document before proceeding.
+>**_PLEASE_** If you are upgrading from V3 to V5 review the content of [Adding Multilingual Support to Microsoft 365 Learning Pathways](AddingMultilingualSupport.md) document before proceeding.
 >
 >Although it has been tested thoroughly, as with any major update you should plan for the worst and back up your content first. There are many third party solutions that will assist you with this, if you do not have access to any then the simplest method is to back up your content using Microsoft Excel. Specifically all the items in the _CustomPlaylists_ and _CustomAssets_ lists plus the `CustomSubCategories` item in the _CustomConfig_ list. Please see [Backup Playlist Content](BackupInstructions.md) for more detail instructions. 
 
@@ -24,7 +24,7 @@ Upload this file into the app catalog by selecting upload, finding the file, and
 
 ![Deploy package to tenant](../images/DeployM365LP.png)
 
-If you've updated the package you will also want to update it in the custom learning site collection. Navigate to the site collection that is your custom learning main site, then site contents, and then click on the menu for `Microsoft 365 learning pathways` and select Details. (Previously called Custom Learning for Office 365)
+If you've updated the package you will also want to update it in the custom learning site collection. Navigate to the site collection that is your custom learning main site, then site contents, and then click on the menu for `Microsoft 365 Learning Pathways` and select Details. (Previously called Custom Learning for Office 365)
 
 ![Site Collection App Version](../images/SiteCollectionAppVersion.png)
 
