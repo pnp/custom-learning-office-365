@@ -2,11 +2,13 @@
 
 ## Installation Options
 
-There are two manual installation options for Microsoft 365 Learning Pathways.
+There are two manual installation options for Microsoft 365 Learning Pathways
+*the minimal install
+*The site template installation
 
 ### Minimal Install
 
-This will install the webpart and set it up for use in your tenant. This will not create any pages other than the admin page and viewer page. Please follow the [Minimal Installation Overview](README.md#Minimal-Installation-Overview) for instructions.
+The minimal install will install the webpart and set it up for use in your tenant. This will not create any pages other than the admin page and viewer page. Please follow the [Minimal Installation Overview](README.md#Minimal-Installation-Overview) for instructions.
 
 ### Site Template Installation (formerly via LookBook)
 
@@ -14,7 +16,7 @@ This method will install the Learning Pathways site template previously hosted f
 
 ## Upgrade Instructions
 
-If you are upgrading an existing Microsoft 365 Learning Pathways site please follow the instructions for your version. For V3-V4 upgrade instruction please follow [V3-V4 Upgrade](UpdateV3-V4.md). For V4 to V5 upgrade please follow the [V4 to V5 Upgrade instructions](./UpdateV4-V5.md).
+If you are upgrading an existing Microsoft 365 Learning Pathways site please follow the instructions for your version. For V4 to V5 upgrade please follow the [V4 to V5 Upgrade instructions](./UpdateV4-V5.md).For previous upgrade instruction please follow [V3-V4 Upgrade](UpdateV3-V4.md). 
 
 ## Minimal Installation Overview
 
@@ -30,17 +32,17 @@ To manually install and configure the web part and site collection you will need
 
 ## Prerequisites
 
-- You will need to be a SharePoint Administrator to be able to deploy this solution to the target tenant and have Site Collection
+- You will need to be a SharePoint Administrator to be able to deploy this solution to the target tenant and have Site Collection.
 - You must have set up and configured the tenant-wide App Catalog. Please see [Set up your Office 365 tenant](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant#create-app-catalog-site) and follow the Create app catalog site section. If your tenant-wide App Catalog has already been provisioned you will need access to an account that has rights to upload a package to it to complete this setup process. Generally this is an account with the SharePoint administrator role. If an account with that role does not work, go to the SharePoint admin center and find the Site Collection Administrators for the app catalog site collection and either log in as one of the Site Collection Administrators, or add the SharePoint administrator account that failed to the Site Collection Administrators. You will also need access to an account that is a SharePoint Administrator.
 - Provisioning with the PnP Lookbook template will provision all 10 langauges. If you need multilingual support ensure that your default language is set on the site collection BEFORE installing the Lookbook template. For more information on multilingual support see [Overview of multilingual support for learning pathways](https://docs.microsoft.com/en-us/office365/customlearning/custom_overview_ml).
 
 ## Install WebPart in Tenant App Catalog
 
-To install the Microsoft 365 learning pathways solution you will upload the `customlearning.sppkg` file to the tenant-wide App Catalog and deploy it. Please see [Use the App Catalog to make custom business apps available for your SharePoint Online environment](https://docs.microsoft.com/en-us/sharepoint/use-app-catalog) for detailed instructions on how to add an app to the app catalog.
+To install the Microsoft 365 learning pathways solution in your tenant app catalog, you will need to upload the `customlearning.sppkg` file to the tenant-wide App Catalog and deploy it. Please see [Use the App Catalog to make custom business apps available for your SharePoint Online environment](https://docs.microsoft.com/en-us/sharepoint/use-app-catalog) for detailed instructions on how to add an app to the app catalog.
 
 ## Provision/Identify Modern Communication Site
 
-Either identify and existing or provision a new modern communication site in your SharePoint Online tenant. For more information about how to provision a communication site see [Create a communication site in SharePoint Online](https://support.office.com/en-us/article/create-a-communication-site-in-sharepoint-online-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb) and follow the Steps to create a communication site.
+Either identify an existing communication site or provision a new modern communication site in your SharePoint Online tenant. For more information about how to provision a communication site see [Create a communication site in SharePoint Online](https://support.office.com/en-us/article/create-a-communication-site-in-sharepoint-online-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb) and follow the Steps to create a communication site.
 
 You will want to add everyone who should be able to view content to the Visitors group and everyone who should be able to administer custom playlists to the Members group. To configure the site for Microsoft 365 learning pathways the first time the user must be either a site collection administrator or part of the Owners group.
 
@@ -72,7 +74,7 @@ When prompted enter the credentials of a Site Collection Owner of the M365LP Sit
 
 After both parts of the script have successfully executed Microsoft 365 learning pathways will be installed and configured and ready for you to customize and use.
 
-## API permissions
+## API Permissions
 
 New in version 5 we have changed the way that we are providing functionality for uploading custom images for custom images. To that end we are using Microsoft Graph Files.ReadWrite.All permissions. After you install the solution you will need to go to the SharePoint Admin Center. Under Advanced select API Access. Select the pending request for File.ReadWrite.All and approve it. Note: You will need to be a global admin to approve this setting. Not approving this setting will not affect how Microsoft 365 Learning Pathways works except that you will not be able to add custom images for your playlists or assets.
 
