@@ -1,6 +1,6 @@
 # Adding Multilingual Support to Microsoft 365 learning pathways
 
-With the release of the [Multilingual Pages for SharePoint Online](https://support.office.com/article/2bb7d610-5453-41c6-a0e8-6f40b3ed750c), we releasing version 4.x of the Microsoft 365 Learning Pathways solution. As part of this version, we have added support for multiple languages, to learn more see [Overview of multilingual support for Learning Pathways](https://docs.microsoft.com/en-us/office365/customlearning/custom_overview_ml). Depending on the needs of your organization we have outlined below 3 possible scenarios for upgrading to this new release.
+With the release of the 4.x of the Microsoft Learning Pathways Solution,  [Multilingual Pages for SharePoint Online](https://support.office.com/article/2bb7d610-5453-41c6-a0e8-6f40b3ed750c) has been added. To learn more about the multilanguage suppoer for this version and future versions, see [Overview of multilingual support for Learning Pathways](https://docs.microsoft.com/en-us/office365/customlearning/custom_overview_ml). Depending on the needs of your organization we have outlined  three possible scenarios for upgrading to this new release.
 
 ## Scenario 1: We do not need multilingual support
 
