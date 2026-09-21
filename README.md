@@ -1,4 +1,4 @@
-# Microsoft 365 learning pathways
+# Microsoft 365 Learning Pathways
 
 ## Important Update for Microsoft 365 Learning Pathways
 
@@ -6,7 +6,7 @@ We have some exciting news! **Microsoft 365 Learning Pathways will be 100% commu
 
 ## What is Microsoft 365 Learning Pathways
 
-Microsoft 365 learning pathways is a, digital, customizable learning solution that helps customers transform their organization. Microsoft 365 learning pathways provides:
+Microsoft 365 Learning Pathways is a, digital, customizable learning solution that helps customers transform their organization. Microsoft 365 learning pathways provides:
 
 - Comprehensive end user training content: Product and scenario-based training, in video and article format
 - Easy customization: Hide and show content to align with how you have set up Office 365 in your environment
@@ -15,7 +15,7 @@ Microsoft 365 learning pathways is a, digital, customizable learning solution th
 
 ## Prerequisites
 
-For a list of prerequisites and installation instructions see [Overview of multilingual support for learning pathways](https://github.com/pnp/custom-learning-office-365/tree/main/installation)
+For a list of prerequisites and installation instructions see [Overview of multilingual support for Learning Pathways](https://github.com/pnp/custom-learning-office-365/tree/main/installation)
 
 ## Current Release & Installation
 
@@ -43,14 +43,14 @@ The Microsoft Custom Learning Web Part is built using the [SharePoint Framework]
 
 If you would like to install the Microsoft 365 Learning Pathways in Microsoft Teams you can do so as both a Teams Personal App and as a Teams Tab. YOu can get instructions for [Teams Installation in the Installation ReadMe](./installation/README.md#teams-installation).
 
-### Changing the URL of your Microsoft 365 learning pathways site
+### Changing the URL of your Microsoft 365 Learning Pathways site
 
-If you need to rename the url of the main Microsoft 365 learning pathways site you can do so but it will also require you to run a PowerShell script to update the Tenant App property that controls what that site URL is for the web parts. After renaming the URL in the SharePoint Admin Center or via PowerShell additionally run teh following script to update the Tenant App property.
+If you need to rename the url of the main Microsoft 365 Learning Pathways site you can do so but it will also require you to run a PowerShell script to update the Tenant App property that controls what that site URL is for the web parts. After renaming the URL in the SharePoint Admin Center or via PowerShell additionally run teh following script to update the Tenant App property.
 [UpdateM365lpSiteUrl.ps1](./installation/UpdateM365lpSiteUrl.ps1)
 
 ### Disabling telemetry collection
 
-Microsoft collects active usage data from your organization’s use of Microsoft 365 learning pathways and the use of Microsoft’s online content. Microsoft will use this data to help improve the future Microsoft 365 learning pathways solutions. To learn more about Microsoft privacy policies see [https://go.microsoft.com/fwlink/?LinkId=521839](https://go.microsoft.com/fwlink/?LinkId=521839).
+Microsoft collects active usage data from your organization’s use of Microsoft 365 learning pathways and the use of Microsoft’s online content. Microsoft will use this data to help improve the future Microsoft 365 Learning Pathways solutions. To learn more about Microsoft privacy policies see [https://go.microsoft.com/fwlink/?LinkId=521839](https://go.microsoft.com/fwlink/?LinkId=521839).
 
 If you would like to opt out of this data collection, please follow these instructions:
 
@@ -62,9 +62,9 @@ If you are not performing a manual install and would like to turn telemetry trac
 
 ## Overview Video
 
-A video was recorded during a PnP Monthly Community call to communicate what and how learning pathways can be helpful. That video is available here: [Community Demo - Microsoft 365 Learning Pathways Architectural Overview](https://www.youtube.com/watch?v=-sLXl_rKGxQ). It may help you gain a better understanding of what Microsoft 365 learning pathways is and how to go about using it.
+A video was recorded during a PnP Monthly Community call to communicate what and how Learning Pathways can be helpful. That video is available here: [Community Demo - Microsoft 365 Learning Pathways Architectural Overview](https://www.youtube.com/watch?v=-sLXl_rKGxQ). It may help you gain a better understanding of what Microsoft 365 learning pathways is and how to go about using it.
 
-In addition there is a new recording showing an overview of the V4 multilingual release available here: [Microsoft 365 learning pathways v4 Feature Overview](https://youtu.be/xayqnUAcGXc)
+In addition there is a new recording showing an overview of the V4 multilingual release available here: [Microsoft 365 Learning Pathways v4 Feature Overview](https://youtu.be/xayqnUAcGXc)
 
 ## Author(s)
 

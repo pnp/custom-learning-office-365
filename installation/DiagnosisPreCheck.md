@@ -1,8 +1,8 @@
 # Diagnosing “Microsoft 365 learning pathways has a configuration issue. Ask your administrator for assistance.” Pre-Check
 
 1. Open the developer console in the browser. You can normally do this by pressing F12, which works on most browsers including Chrome, Chromium Edge, IE, Edge, etc...
-1. Always do the diagnosis from the M365 learning pathways admin page, unless you're having the problem only on a particular instance of the web part. To get to the admin page, in the Site Pages library of the main learning pathways site open the “CustomLearningAdmin.aspx” page.
-1. Once the page loads, filter the `Console` to only show error messages. Doing so can help you zero in on the exact issue. Note that there are a lot of errors in the console that come from other things, it's important that you separate out for only issues related to learning pathways, they will be clearly labeled as such.
+1. Always do the diagnosis from the M365 Learning Pathways admin page, unless you're having the problem only on a particular instance of the web part. To get to the admin page, in the Site Pages library of the main Learning Pathways site open the “CustomLearningAdmin.aspx” page.
+1. Once the page loads, filter the `Console` to only show error messages. Doing so can help you zero in on the exact issue. Note that there are a lot of errors in the console that come from other things, it's important that you separate out for only issues related to Learning Pathways, they will be clearly labeled as such.
 
    ![Dev Tools Console Error Filter Screenshot](../images/DevToolConsoleErrorFilter.png)
 

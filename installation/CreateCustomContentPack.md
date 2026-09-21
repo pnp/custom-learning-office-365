@@ -3,7 +3,7 @@
 This guide explains how to create a Custom Content Pack for Microsoft 365 Learning Pathways. A custom content pack allows you to create a list list of categories or sub-categories for your organization. It allows you to add custom metadata and tag your content to your need. You can use this in conjunction with the out of the box content pack or replace the out of the box content. Emily Mancini provides a great step by step video for [creating your custom content pack](https://www.youtube.com/watch?v=dzqEI5NKQ2U).
 
 ## Prerequisites
-- A provisioned Microsoft 365 learning pathways site (v4.0 or later).
+- A provisioned Microsoft 365 Learning Pathways site (v4.0 or later).
 - Administrator access to the Learning Pathways Administration page.
 - A github account with the ability to create a public respository
 
