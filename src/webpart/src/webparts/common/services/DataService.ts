@@ -469,6 +469,13 @@ export class DataService implements IDataService {
         });
       }
 
+      //Make a copy for public property (includes custom sub categories)
+      //Keep the abandoned category found during the full refresh, it is not part of the cache
+      const abandonedCat = find(this.categoriesAll, { Id: "0" });
+      this.categoriesAll = cloneDeep(cache.Categories);
+      if (abandonedCat)
+        this.categoriesAll.unshift(abandonedCat);
+
       //Merge customer hidden subcategories
       if (this.customization.HiddenSubCategories.length > 0) {
         cache.Categories = remove(cache.Categories, (item) => {
@@ -480,9 +487,6 @@ export class DataService implements IDataService {
           return (item.SubCategories.length > 0);
         });
       }
-
-      //Make a copy for public property (includes custom sub categories)
-      this.categoriesAll = cloneDeep(cache.Categories);
 
       //recalculate category counts
       this.calculateCategoryCount(cache.Categories, cache.CachedPlaylists);
