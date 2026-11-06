@@ -1,5 +1,8 @@
 # Change Log
 
+## Version 5.0.0.15 - November, 06, 2026
+- Fix for bug [#1049](../../issues/1049)
+
 ## Version 5.0.0.14 - August 20, 2026
 Updated SPFx version to V1.23.2
 
