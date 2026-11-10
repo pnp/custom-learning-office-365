@@ -3,6 +3,7 @@
 ## Version 5.0.0.16 - November, 10, 2026
 - Fix for bug with category playlist showing GUID when creating new playlist
 - Content update: Removing and retiring dead content
+- Content update: Adding 8 new playlists in all languages: Copilot Notebooks, Researcher and Analyst agents, Build your own agent, Agents built by Microsoft, Copilot in Teams meetings, Copilot and Python in Excel, Multifactor authentication and Microsoft Authenticator, and Sensitivity labels
 
 ## Version 5.0.0.15 - November, 06, 2026
 - Fix for bug [#1049](../../issues/1049)

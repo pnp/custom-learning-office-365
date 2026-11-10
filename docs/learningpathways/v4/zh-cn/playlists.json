@@ -559,6 +559,49 @@
     ]
   },
   {
+    "Id": "50be15f4-f8ed-4355-b80f-9a63d7e35496",
+    "Title": "使用多重身份验证安全登录",
+    "Image": "images/playlists/LP-security-security-at-work.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "51a0828d-1d27-4931-b547-9f2a698f33d8",
+    "Description": "使用多重身份验证保护你的帐户。了解它是什么，为 Microsoft 365 设置它，并将你的帐户添加到 Microsoft Authenticator。",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusNote": "",
+    "Assets": [
+      "51a18a97-1564-4d0c-a7f3-72661a63f100",
+      "67c48e43-c537-4dbe-b696-aae435c721cf",
+      "9783c865-0308-42fb-a519-8cf666fe0acc",
+      "92544b53-7706-4581-a142-30344a2a2a57",
+      "28180870-c256-4ebf-8bd7-5335571bf9a8"
+    ]
+  },
+  {
+    "Id": "038c35ce-9a8d-42b9-bded-8f903eefcc95",
+    "Title": "使用敏感度标签保护文件",
+    "Image": "images/playlists/LP-security-security-at-work.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "51a0828d-1d27-4931-b547-9f2a698f33d8",
+    "Description": "了解敏感度标签如何帮助保护文件和电子邮件。在 Office 应用、OneNote 和文件资源管理器中应用标签，并跟踪或撤销对文件的访问。标签必须由管理员发布，并且可能需要特定许可证。",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusNote": "",
+    "Assets": [
+      "2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9",
+      "622e0d9c-f38c-470a-bcdb-9e90b24d71a1",
+      "5e822ea9-4b50-4e83-8e5b-1a30ffb2d08d",
+      "67829155-2d0e-4122-9677-7c53c8cba18a",
+      "1de9a543-c2df-44b6-9464-396b23018f96",
+      "f3c960aa-e094-4447-9c88-6fd7c4b4d33c"
+    ]
+  },
+  {
     "Id": "35f25052-fa93-4daf-8d2e-b29935a002d0",
     "Title": "使用 Microsoft 365 远程办公",
     "Image": "images/playlists/work_remotely_with_o365.png",
@@ -3813,6 +3856,130 @@
       "66de2ffd-deb2-4f0c-8984-098316104389",
       "1c192167-9250-4ef8-b488-63c474d8b84f",
       "2fa7a228-8645-4dc4-beec-d75d6d0bc752"
+    ]
+  },
+  {
+    "Id": "48ab5eca-2121-44c5-b533-f366fe853b9f",
+    "Title": "Microsoft Copilot 笔记本入门",
+    "Image": "images/playlists/copilot.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
+    "Description": "使用 Copilot 笔记本在一个工作区中汇集聊天、文件、页面和会议笔记。针对你的来源提问、获取见解，并将笔记本转换为音频概述。",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "0775e693-11c6-4d80-8aba-fcc81a737a06",
+      "4071d73d-8bdd-478f-8968-8dc1d7c3d43e",
+      "c8b09545-de92-49fe-b2a3-64940f175b9a",
+      "a22df989-b9cd-47fb-abac-e888d8f10cd9",
+      "f1104457-9d10-44f1-83ce-d274d45543d1"
+    ]
+  },
+  {
+    "Id": "73fa39fb-497d-4182-abb3-90ade735b284",
+    "Title": "Copilot 中的研究助手和分析助手",
+    "Image": "images/playlists/copilot.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
+    "Description": "了解研究助手和分析助手这两个可处理复杂任务的 Copilot 代理。使用研究助手进行多步骤研究并获得带引用来源的报告，使用分析助手分析你的数据。",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "e63ab760-f3de-4c47-ae87-dad601b0e9c4",
+      "ea037537-30a6-45c4-84b6-84f32f6c75c2",
+      "ff505b9c-a06c-4be9-b855-69d89b1d25d2"
+    ]
+  },
+  {
+    "Id": "f81bb019-5600-440c-b5d7-a19abf83c4f1",
+    "Title": "使用 Copilot 生成自己的代理",
+    "Image": "images/playlists/copilot.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
+    "Description": "无需编写代码即可创建自己的 Copilot 代理。从提示或模板开始，让其基于你的文件，并与团队共享。",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "943e563d-602d-40fa-bdd1-dbc83f582466",
+      "ee209698-16bd-4d5c-9e4a-a999528c9d00",
+      "492cc5ad-b444-4cc6-83b7-3802a26688b4",
+      "d16c6ca1-a8e3-4096-af49-67e1cfdddd42",
+      "6dcbf7b5-8c13-44e5-a68a-dbd71fb76ad3"
+    ]
+  },
+  {
+    "Id": "38647b23-56d4-47cb-94db-68d39de5e5c2",
+    "Title": "由 Microsoft 生成的代理",
+    "Image": "images/playlists/copilot.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
+    "Description": "了解 Microsoft 为你构建的代理，包括研究助手、分析助手和 Facilitator，以及它们如何帮助你完成工作。",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "9cc7cccf-b1ed-4b17-b416-2c15e5e13d5a",
+      "37657f91-39b5-40eb-9421-45141e3ce9f6",
+      "e63ab760-f3de-4c47-ae87-dad601b0e9c4",
+      "ff505b9c-a06c-4be9-b855-69d89b1d25d2"
+    ]
+  },
+  {
+    "Id": "8448a58a-7934-400b-9bc8-43c731d38c9f",
+    "Title": "Teams 会议中的 Copilot",
+    "Image": "images/playlists/copilot_teams.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
+    "Description": "借助 Copilot 更好地利用 Teams 会议。回顾错过的内容、收听音频回顾、使用 Facilitator，并在不录制或转录的情况下使用 Copilot。",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "f9a51413-675d-46f3-b583-5f989eb83e9d",
+      "c2e3a0fe-504f-4b2c-bf85-504938f110ef",
+      "04bd2828-5c4e-4132-ac86-a87b9ec28984",
+      "0bf9dd3c-96f7-44e2-8bb8-790bedf066b1",
+      "37657f91-39b5-40eb-9421-45141e3ce9f6",
+      "a59cb88c-0f6b-4a20-a47a-3a1c9a818bd9"
+    ]
+  },
+  {
+    "Id": "0070bc25-4076-4b5b-8a3c-88b5418c25ed",
+    "Title": "Excel 中的 Copilot 和 Python",
+    "Image": "images/playlists/copilot_excel.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "a2b630aa-322f-4b61-89f9-fd70684b8b61",
+    "Description": "使用 Excel 中的 Copilot 和 Excel 中的 Python 分析数据。获取直接答案和见解，然后了解 Excel 中的 Python 和 DataFrame 的基础知识。某些功能需要 Excel 中的 Python 或 Microsoft 365 Copilot 许可证。",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "bb6d0b9c-f42a-46ea-b67d-f7d4ebb2b51b",
+      "52d97339-86c0-431c-b46c-e7b07b2898dd",
+      "55643c2e-ff56-4168-b1ce-9428c8308545",
+      "a33fbcbe-065b-41d3-82cf-23d05397f53d",
+      "a10495b2-8372-4f0f-9179-32771fe0dc04"
     ]
   },
   {
