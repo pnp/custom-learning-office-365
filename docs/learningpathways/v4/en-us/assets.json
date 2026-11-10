@@ -3483,7 +3483,7 @@
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -4205,7 +4205,7 @@
     "Id": "ea4cc5f5-ea5d-4213-9c7d-ed01a7952ed0",
     "Title": "Add a watermark to your slides",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/ea4cc5f5-ea5d-4213-9c7d-ed01a7952ed0?embed=true&themeid=-1",
+    "Url": "https://support.office.com/en-us/f1/article/2374ae14-b50e-4a7f-9d06-bd82206e16ec?embed=true&themeid=-1",
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -7454,7 +7454,7 @@
     "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "90fe6290-e063-4778-a8a1-7531c2a0a40e",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -7465,7 +7465,7 @@
     "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "90fe6290-e063-4778-a8a1-7531c2a0a40e",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -9401,7 +9401,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -9610,7 +9610,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -9725,13 +9725,13 @@
   },
   {
     "Id": "ac343dbd-1ffb-4235-a34f-5b71be6dc9ee",
-    "Title": "Learning pathways content updates",
+    "Title": "Learning pathways updates",
     "Description": "",
-    "Url": "https://support.office.com/en-us/f1/article/baf75dc9-bded-4cb7-9634-04c5150870b0?embed=true&themeid=-1",
+    "Url": "https://github.com/pnp/custom-learning-office-365/blob/main/CHANGELOG.md?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -9973,7 +9973,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -12019,7 +12019,7 @@
     "TechnologyId": "",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {

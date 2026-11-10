@@ -35,7 +35,6 @@
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "b98d533f-118e-4bae-bf44-3df2470c2b12",
       "702a2977-e662-4038-bef5-bdf8ee47b17b",
       "2766a75b-342a-4ed9-810d-f3c0f06c3207",
       "3993d9e5-06b3-4654-9e8f-9d2de79d2f8e",
@@ -61,7 +60,6 @@
       "88f61508-284d-417f-a53d-9e082164050b",
       "afe89455-43ed-47b9-af79-a82a374ba0bd",
       "37d98b29-08fb-4b8e-ab97-b129a0e9966d",
-      "b98d533f-118e-4bae-bf44-3df2470c2b12",
       "702a2977-e662-4038-bef5-bdf8ee47b17b",
       "b99bbb59-0e61-4a57-a01e-72f95ae8b815"
     ]
@@ -355,7 +353,6 @@
     "StatusNote": "",
     "Assets": [
       "c8c64c61-0136-4e47-be9d-263976ce6de5",
-      "c9bd21e2-4cef-4473-b1f0-147e8f144af0",
       "6dc89bcf-9420-4820-ac10-e1c13d2b2e68"
     ]
   },
@@ -411,11 +408,9 @@
     "Source": "Microsoft",
     "CatId": "2fc3f8c2-3c76-44e2-93ad-086edfba6d9a",
     "Description": "Richt uw fysieke en virtuele werkplek in voor productiviteit. Leer welke taken en vergadertypes beter zijn voor hybride of fysieke samenwerking, zodat u uw planning kunt optimaliseren. Maak focustijd in Teams, stel stille uren en dagen in en voeg een statusbericht toe. Bepaal voor het team welke dagen geschikt zijn voor fysieke vergaderingen en welk werk op afstand kan worden gedaan. Beslis ook wanneer vergaderingen noodzakelijk zijn en wanneer ze optioneel zijn.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": "",
-    "Assets": [
-      "c8c64c61-0136-4e47-be9d-263976ce6de5"
-    ]
+    "Assets": []
   },
   {
     "Id": "fa3a7737-b33d-4481-9b80-416d20b9ca9f",
@@ -1447,7 +1442,6 @@
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
-      "b98d533f-118e-4bae-bf44-3df2470c2b12",
       "afe89455-43ed-47b9-af79-a82a374ba0bd",
       "c8c64c61-0136-4e47-be9d-263976ce6de5",
       "c3d63c10-77d5-4204-a566-53ddcf723b46",
@@ -1528,7 +1522,6 @@
       "c3d63c10-77d5-4204-a566-53ddcf723b46",
       "2766a75b-342a-4ed9-810d-f3c0f06c3207",
       "a6041b90-0805-4140-b8ae-1ee3805908d7",
-      "77d55b36-b274-4fee-acbe-978ccf14c7e6",
       "f581aeaf-cc73-4dce-8a7b-12ecce5e7fdf",
       "d6b86155-c9a5-4c35-a009-67f74ffe0c69"
     ]
@@ -1794,7 +1787,6 @@
       "1b661d1e-c4a6-4613-98b1-b09bb05473c8",
       "6f208b1e-32a8-4cb3-9966-6bf5d04d6a52",
       "b65ec000-8e8e-47c6-b05c-d2763fe95d42",
-      "38a368cf-15b6-4ca0-804c-8d0fdc5f3683",
       "d1233064-273d-4d58-a955-686688f4b529"
     ]
   },
@@ -1973,7 +1965,8 @@
     "StatusNote": "",
     "Assets": [
       "a49a3e1d-eafd-4cd0-8a1e-1e0cf558323d",
-      "705a4818-8534-43e6-ab44-5d4af5eb87f8"
+      "705a4818-8534-43e6-ab44-5d4af5eb87f8",
+      "918472c6-10d8-46f5-a2f1-fed68ca17e39"
     ]
   },
   {
@@ -1987,11 +1980,9 @@
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
     "Description": "Maak notities op in OneNote zodat ze er precies uitzien zoals u wilt. Markeer tekst, maak lijsten, laat tekst inspringen, lijn notities uit en pas stijlen toe. Geef een pagina of sectie een achtergrondkleur om deze visueel aantrekkelijker te maken. Voeg een tabel in en formatteer deze om informatie visueel te organiseren.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": "",
-    "Assets": [
-      "918472c6-10d8-46f5-a2f1-fed68ca17e39"
-    ]
+    "Assets": []
   },
   {
     "Id": "17a6d04a-e893-4b67-932f-529f70868150",
@@ -2004,11 +1995,9 @@
     "Source": "Microsoft",
     "CatId": "6b41ec6b-db5f-4e1b-9eb7-6330e2151b83",
     "Description": "Teken of schets in OneNote om uw notities tot leven te brengen. U kunt een pen, potlood of markeerstift kiezen, de dikte en de kleur. Maak vormen zoals een cirkel, driehoek of rechthoek, of teken zelfs vormen met uw vinger, pen of muis en OneNote maakt ze netjes voor u.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": "",
-    "Assets": [
-      "62e5c64c-5903-4622-a014-e1228c298f19"
-    ]
+    "Assets": []
   },
   {
     "Id": "352e7758-5888-40c5-b765-edc83d7c64b3",
@@ -2241,7 +2230,6 @@
     "StatusNote": "",
     "Assets": [
       "672f8ae7-1843-4dff-acb4-d3a998f5f392",
-      "555babd1-f307-48ef-a2cf-f6ea1aae6fdc",
       "f21a4063-db88-40ab-9376-8e324711f6d8",
       "6d35e08b-ca70-42b8-abf7-cca1ddbd267d",
       "0e8be5a2-c2e1-4702-bb76-0ee7228b9d35",
@@ -2265,7 +2253,6 @@
     "StatusNote": "",
     "Assets": [
       "672f8ae7-1843-4dff-acb4-d3a998f5f392",
-      "555babd1-f307-48ef-a2cf-f6ea1aae6fdc",
       "f21a4063-db88-40ab-9376-8e324711f6d8",
       "6d35e08b-ca70-42b8-abf7-cca1ddbd267d",
       "0e8be5a2-c2e1-4702-bb76-0ee7228b9d35"
@@ -2618,8 +2605,7 @@
     "Assets": [
       "98cb2ff2-c27e-42ea-b055-c2d895f8a5de",
       "87a96948-4dd7-43e4-aca1-53f3e18bea9b",
-      "f4372eb3-df5b-4a30-ad39-32451c5bcb6f",
-      "88d0ebed-bbd7-4d00-8c1c-0d18a5543b43"
+      "f4372eb3-df5b-4a30-ad39-32451c5bcb6f"
     ]
   },
   {
@@ -2904,8 +2890,6 @@
       "70da5353-257c-41a5-adef-7a62f80acbdc",
       "43673d1c-0dd7-42ba-97aa-6e712db171d1",
       "0587147d-84ed-438f-8a24-5c75f539814c",
-      "c0244789-4388-4d2d-9d20-3678900d9b98",
-      "c0d9f91e-22e6-48ea-ba3a-23ebe7f059d8",
       "365500a4-0599-41cd-bc86-09bef4206284",
       "d195c526-1b6b-45e1-82fd-8daa21dd84a4"
     ]
@@ -2971,9 +2955,7 @@
     "Description": "Met deze introductie tot Word ziet u hoe u een document maakt en Word gebruikt om wijzigingen te beoordelen en bij te houden, uw spelling, grammatica en schrijven te verbeteren met Editor, uw documenten opslaat in OneDrive zodat u overal toegang hebt vanaf uw computer, tablet of telefoon, en uw werk deelt om te chatten, opmerkingen toe te voegen en samen te werken met anderen, waar ze ook zijn.",
     "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": "",
-    "Assets": [
-      "28508ada-9a3c-4333-a17b-cb29723eb64c"
-    ]
+    "Assets": []
   },
   {
     "Id": "f74d0622-642d-4f98-906f-2960a2c05d31",
@@ -2989,6 +2971,7 @@
     "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": "",
     "Assets": [
+      "28508ada-9a3c-4333-a17b-cb29723eb64c",
       "d85d0739-bbb9-4236-b6a4-4955b1f9a8d1",
       "5f8e48e0-4c15-48d9-b059-04b9038310dc",
       "8a55148a-bfef-4290-87f7-5898b825b719",
@@ -3269,10 +3252,8 @@
     "Assets": [
       "772b884b-e39a-47c7-9fa1-b15763b94a0d",
       "52f9d6fa-5aeb-4a95-86b3-4dd33e7aecbf",
-      "958efe0a-d2be-49ed-985c-7d94f6b4939a",
       "bde1314a-6306-4ce4-bcca-a44aa8443574",
       "bca12e53-39f9-40dc-8ed1-3bc5b8a8866f",
-      "75099275-b96c-40bf-b323-0f3dadf14d12",
       "a9ff5268-4624-4c1a-b7aa-b6ab92f5a3b1",
       "484add06-6934-4c16-a995-e1caa4a4d7a8"
     ]
@@ -3288,11 +3269,9 @@
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
     "Description": "Ontdek bronnen en best practices om de adoptie van Learning Pathways te stimuleren.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": "",
-    "Assets": [
-      "3a7eb2bf-d540-4558-b716-2bdb005ff325"
-    ]
+    "Assets": []
   },
   {
     "Id": "08365272-6868-4482-9384-b720d0121533",
@@ -3305,11 +3284,9 @@
     "Source": "Microsoft",
     "CatId": "281c0108-6e20-4fc3-9459-ba267857498e",
     "Description": "Beheerders kunnen de ingebouwde rapportagemogelijkheden voor sitegebruik van SharePoint gebruiken om de organisatorische impact van Microsoft 365 learning pathways te meten.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": "",
-    "Assets": [
-      "9aef3bef-66d8-416c-8284-599cba190245"
-    ]
+    "Assets": []
   },
   {
     "Id": "037adb49-b480-4a70-8389-5caeaec1a640",
@@ -3322,17 +3299,9 @@
     "Source": "Microsoft",
     "CatId": "9d9a29c7-72fe-475e-9dd1-d999259d02cb",
     "Description": "Stimuleer de adoptie van uw Office 365-diensten met deze best practices.",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": "",
     "Assets": [
-      "3e0d1265-ef57-4a1e-a37e-bbebe7063202",
-      "dbf90b66-4789-40d0-a383-0beb3773a333",
-      "3d38374f-6557-454e-990b-01343aeed052",
-      "1b125568-42c5-44fb-96f4-3f2dc0c2f863",
-      "b422f96b-2363-431c-adbb-e904c5a1ab21",
-      "5f9e1449-baf4-40ec-9e56-7291e55aaed4",
-      "d41383d4-bedb-4ae8-9c13-3c6c25242aef",
-      "0679506f-b8d5-49a9-af19-7fb9847dcde0"
     ]
   },
   {
@@ -3944,8 +3913,7 @@
     "Assets": [
       "66eb28d7-8fd3-4926-ad58-af3ffbe150c2",
       "3f2b07ed-3424-4dbd-bc8a-8c42de55ff21",
-      "8afabafb5-7c60-40e0-b19a-aeaeca7a7ab1",
-      "6ece2434-777b-4908-8304-257ee14ca6b2"
+      "8afabafb5-7c60-40e0-b19a-aeaeca7a7ab1"
     ]
   },
   {
