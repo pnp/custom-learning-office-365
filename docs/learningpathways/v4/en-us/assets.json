@@ -4203,7 +4203,7 @@
   },
   {
     "Id": "ea4cc5f5-ea5d-4213-9c7d-ed01a7952ed0",
-    "Title": "Add a watermark to your slides",
+    "Title": "Add a watermark to a photo with PowerPoint",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/2374ae14-b50e-4a7f-9d06-bd82206e16ec?embed=true&themeid=-1",
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
@@ -9049,7 +9049,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -9725,7 +9725,7 @@
   },
   {
     "Id": "ac343dbd-1ffb-4235-a34f-5b71be6dc9ee",
-    "Title": "Learning pathways updates",
+    "Title": "Error fetching H1: Request failed with status code 503",
     "Description": "",
     "Url": "https://github.com/pnp/custom-learning-office-365/blob/main/CHANGELOG.md?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -12145,7 +12145,7 @@
   },
   {
     "Id": "0775e693-11c6-4d80-8aba-fcc81a737a06",
-    "Title": "Get started with Microsoft Copilot Notebooks",
+    "Title": "Get started with Microsoft 365 Copilot Notebooks",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/0775e693-11c6-4d80-8aba-fcc81a737a06?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -12156,7 +12156,7 @@
   },
   {
     "Id": "4071d73d-8bdd-478f-8968-8dc1d7c3d43e",
-    "Title": "How Microsoft Copilot Notebooks works",
+    "Title": "How Microsoft 365 Copilot Notebooks works",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/4071d73d-8bdd-478f-8968-8dc1d7c3d43e?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -12167,7 +12167,7 @@
   },
   {
     "Id": "c8b09545-de92-49fe-b2a3-64940f175b9a",
-    "Title": "Get answers and insights about your Microsoft Copilot Notebook",
+    "Title": "Get answers and insights about your Microsoft 365 Copilot Notebook",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/c8b09545-de92-49fe-b2a3-64940f175b9a?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -12178,7 +12178,7 @@
   },
   {
     "Id": "a22df989-b9cd-47fb-abac-e888d8f10cd9",
-    "Title": "Get an audio overview of your Microsoft Copilot Notebook",
+    "Title": "Get an audio overview of your Microsoft 365 Copilot Notebook",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/a22df989-b9cd-47fb-abac-e888d8f10cd9?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -12189,7 +12189,7 @@
   },
   {
     "Id": "f1104457-9d10-44f1-83ce-d274d45543d1",
-    "Title": "Compare Microsoft Copilot Notebooks and Microsoft OneNote Notebooks",
+    "Title": "Compare Microsoft 365 Copilot Notebooks and Microsoft OneNote Notebooks",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/f1104457-9d10-44f1-83ce-d274d45543d1?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -12200,7 +12200,7 @@
   },
   {
     "Id": "e63ab760-f3de-4c47-ae87-dad601b0e9c4",
-    "Title": "Get started with Researcher in Microsoft Copilot",
+    "Title": "Get started with Researcher in Microsoft 365 Copilot",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/e63ab760-f3de-4c47-ae87-dad601b0e9c4?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -12211,7 +12211,7 @@
   },
   {
     "Id": "ea037537-30a6-45c4-84b6-84f32f6c75c2",
-    "Title": "Use Researcher in Microsoft Copilot Notebooks",
+    "Title": "Use Researcher in Microsoft 365 Copilot Notebooks",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/ea037537-30a6-45c4-84b6-84f32f6c75c2?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -12222,7 +12222,7 @@
   },
   {
     "Id": "ff505b9c-a06c-4be9-b855-69d89b1d25d2",
-    "Title": "Get started with Analyst in Microsoft Copilot",
+    "Title": "Get started with Analyst in Microsoft 365 Copilot",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/ff505b9c-a06c-4be9-b855-69d89b1d25d2?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -12233,7 +12233,7 @@
   },
   {
     "Id": "943e563d-602d-40fa-bdd1-dbc83f582466",
-    "Title": "Get started with agents in the Microsoft Copilot app",
+    "Title": "Get started with agents in the Microsoft 365 Copilot app",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/943e563d-602d-40fa-bdd1-dbc83f582466?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -12244,7 +12244,7 @@
   },
   {
     "Id": "ee209698-16bd-4d5c-9e4a-a999528c9d00",
-    "Title": "Build your own agent with Microsoft Copilot",
+    "Title": "Build your own agent with Microsoft 365 Copilot",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/ee209698-16bd-4d5c-9e4a-a999528c9d00?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -12343,7 +12343,7 @@
   },
   {
     "Id": "a10495b2-8372-4f0f-9179-32771fe0dc04",
-    "Title": "Python in Excel DataFrames",
+    "Title": "Python in Excel DataFrames ",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/a10495b2-8372-4f0f-9179-32771fe0dc04?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -12420,7 +12420,7 @@
   },
   {
     "Id": "5e822ea9-4b50-4e83-8e5b-1a30ffb2d08d",
-    "Title": "Microsoft Purview sensitivity labels in OneNote",
+    "Title": "Microsoft Purview sensitivity labels in OneNote ",
     "Description": "",
     "Url": "https://support.office.com/en-us/f1/article/5e822ea9-4b50-4e83-8e5b-1a30ffb2d08d?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",

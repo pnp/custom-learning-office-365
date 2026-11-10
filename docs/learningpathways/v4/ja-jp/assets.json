@@ -194,7 +194,7 @@
     "TechnologyId": "",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -205,7 +205,7 @@
     "TechnologyId": "",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -304,7 +304,7 @@
     "TechnologyId": "",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -370,7 +370,7 @@
     "TechnologyId": "",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -2075,7 +2075,7 @@
     "TechnologyId": "0ae04ffb-5e69-461d-919d-a2215109bf49",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -2724,7 +2724,7 @@
     "TechnologyId": "0eb89b8a-87cf-4388-b146-1e073588b029",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -3483,7 +3483,7 @@
     "TechnologyId": "4ba51921-475f-481d-8bc3-c9b0f658342c",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -4203,9 +4203,9 @@
   },
   {
     "Id": "ea4cc5f5-ea5d-4213-9c7d-ed01a7952ed0",
-    "Title": "透かしをスライドに追加する",
+    "Title": "PowerPoint を使用して写真に透かしを追加する",
     "Description": "",
-    "Url": "https://support.office.com/ja-jp/f1/article/ea4cc5f5-ea5d-4213-9c7d-ed01a7952ed0?embed=true&themeid=-1",
+    "Url": "https://support.office.com/ja-jp/f1/article/2374ae14-b50e-4a7f-9d06-bd82206e16ec?embed=true&themeid=-1",
     "TechnologyId": "8770a224-6b62-406f-9fd2-a51d4a8131a8",
     "SubjectId": "",
     "Source": "Microsoft",
@@ -4418,7 +4418,7 @@
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -4506,7 +4506,7 @@
     "TechnologyId": "8e068419-be9e-4a9b-8cc2-a4463df73d8b",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -5958,7 +5958,7 @@
     "TechnologyId": "c209f64e-0291-437a-9615-17747eab50d0",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -7454,7 +7454,7 @@
     "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "90fe6290-e063-4778-a8a1-7531c2a0a40e",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -7465,7 +7465,7 @@
     "TechnologyId": "c9886f47-0928-4408-a2f7-c0328bca7122",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "90fe6290-e063-4778-a8a1-7531c2a0a40e",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -8851,7 +8851,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -8862,7 +8862,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -8895,7 +8895,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -9038,18 +9038,18 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
     "Id": "3a7eb2bf-d540-4558-b716-2bdb005ff325",
-    "Title": "学習経路の導入を促進する",
+    "Title": "この記事は廃止されました",
     "Description": "",
     "Url": "https://support.office.com/ja-jp/f1/article/34dd1983-db3b-47a2-9f2a-d0960ca1d0c4?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -9137,7 +9137,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -9395,13 +9395,13 @@
   },
   {
     "Id": "75099275-b96c-40bf-b323-0f3dadf14d12",
-    "Title": "ユーザー設定の再生リストを作成する",
+    "Title": "この記事は廃止されました",
     "Description": "",
     "Url": "https://support.office.com/ja-jp/f1/article/465db7f1-e242-445b-b601-1be3359e93bb?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -9445,7 +9445,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -9604,13 +9604,13 @@
   },
   {
     "Id": "9aef3bef-66d8-416c-8284-599cba190245",
-    "Title": "影響を測定する",
+    "Title": "この記事は廃止されました",
     "Description": "",
     "Url": "https://support.office.com/ja-jp/f1/article/3638d73e3-8dbc-4dda-b60a-5ec697a5dfc7?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -9725,13 +9725,13 @@
   },
   {
     "Id": "ac343dbd-1ffb-4235-a34f-5b71be6dc9ee",
-    "Title": "この記事は廃止されました",
+    "Title": "CHANGELOG.md",
     "Description": "",
-    "Url": "https://support.office.com/ja-jp/f1/article/baf75dc9-bded-4cb7-9634-04c5150870b0?embed=true&themeid=-1",
+    "Url": "https://github.com/pnp/custom-learning-office-365/blob/main/CHANGELOG.md?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
+    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
     "StatusNote": ""
   },
   {
@@ -9918,7 +9918,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -9973,7 +9973,7 @@
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -10644,7 +10644,7 @@
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -10743,7 +10743,7 @@
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -11040,7 +11040,7 @@
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -11051,7 +11051,7 @@
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -11073,7 +11073,7 @@
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -12019,7 +12019,7 @@
     "TechnologyId": "",
     "SubjectId": "",
     "Source": "Microsoft",
-    "StatusTagId": "dda75593-7969-4d64-bff1-1c21bb2d8c8b",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": ""
   },
   {
@@ -12145,7 +12145,7 @@
   },
   {
     "Id": "0775e693-11c6-4d80-8aba-fcc81a737a06",
-    "Title": "Microsoft Copilot ノートブックの使用を開始する",
+    "Title": "Microsoft 365 Copilot ノートブックの使用開始",
     "Description": "",
     "Url": "https://support.office.com/ja-jp/f1/article/0775e693-11c6-4d80-8aba-fcc81a737a06?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -12156,7 +12156,7 @@
   },
   {
     "Id": "4071d73d-8bdd-478f-8968-8dc1d7c3d43e",
-    "Title": "Microsoft Copilot ノートブックのしくみ",
+    "Title": "Microsoft 365 Copilot ノートブックのしくみ",
     "Description": "",
     "Url": "https://support.office.com/ja-jp/f1/article/4071d73d-8bdd-478f-8968-8dc1d7c3d43e?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -12167,7 +12167,7 @@
   },
   {
     "Id": "c8b09545-de92-49fe-b2a3-64940f175b9a",
-    "Title": "Microsoft Copilot ノートブックに関する回答と分析情報を取得する",
+    "Title": "Microsoft 365 Copilot Notebook に関する回答と分析情報を取得する",
     "Description": "",
     "Url": "https://support.office.com/ja-jp/f1/article/c8b09545-de92-49fe-b2a3-64940f175b9a?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -12178,7 +12178,7 @@
   },
   {
     "Id": "a22df989-b9cd-47fb-abac-e888d8f10cd9",
-    "Title": "Microsoft Copilot Notebook のオーディオ概要を取得する",
+    "Title": "Microsoft 365 Copilot ノートブックのオーディオの概要を取得する",
     "Description": "",
     "Url": "https://support.office.com/ja-jp/f1/article/a22df989-b9cd-47fb-abac-e888d8f10cd9?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -12189,7 +12189,7 @@
   },
   {
     "Id": "f1104457-9d10-44f1-83ce-d274d45543d1",
-    "Title": "Microsoft Copilot ノートブックと Microsoft OneNote ノートブックの比較",
+    "Title": "Microsoft 365 Copilot ノートブックと Microsoft OneNote Notebook を比較する",
     "Description": "",
     "Url": "https://support.office.com/ja-jp/f1/article/f1104457-9d10-44f1-83ce-d274d45543d1?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -12200,7 +12200,7 @@
   },
   {
     "Id": "e63ab760-f3de-4c47-ae87-dad601b0e9c4",
-    "Title": "Microsoft Copilot のリサーチ ツールの使用を開始する",
+    "Title": "Microsoft 365 Copilotでの研究者の概要",
     "Description": "",
     "Url": "https://support.office.com/ja-jp/f1/article/e63ab760-f3de-4c47-ae87-dad601b0e9c4?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -12211,7 +12211,7 @@
   },
   {
     "Id": "ea037537-30a6-45c4-84b6-84f32f6c75c2",
-    "Title": "Microsoft Copilot ノートブックでリサーチ ツールを使用する",
+    "Title": "Microsoft 365 Copilot ノートブックで研究者を使用する",
     "Description": "",
     "Url": "https://support.office.com/ja-jp/f1/article/ea037537-30a6-45c4-84b6-84f32f6c75c2?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -12222,7 +12222,7 @@
   },
   {
     "Id": "ff505b9c-a06c-4be9-b855-69d89b1d25d2",
-    "Title": "Microsoft Copilot のアナリストの使用を開始する",
+    "Title": "Microsoft 365 Copilotでのアナリストの概要",
     "Description": "",
     "Url": "https://support.office.com/ja-jp/f1/article/ff505b9c-a06c-4be9-b855-69d89b1d25d2?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -12233,7 +12233,7 @@
   },
   {
     "Id": "943e563d-602d-40fa-bdd1-dbc83f582466",
-    "Title": "Microsoft Copilot アプリでエージェントの使用を開始する",
+    "Title": "Microsoft 365 Copilot アプリでのエージェントの使用",
     "Description": "",
     "Url": "https://support.office.com/ja-jp/f1/article/943e563d-602d-40fa-bdd1-dbc83f582466?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -12244,7 +12244,7 @@
   },
   {
     "Id": "ee209698-16bd-4d5c-9e4a-a999528c9d00",
-    "Title": "Microsoft Copilot を使用して独自のエージェントを構築する",
+    "Title": "Microsoft 365 Copilotを使用して独自のエージェントを構築する",
     "Description": "",
     "Url": "https://support.office.com/ja-jp/f1/article/ee209698-16bd-4d5c-9e4a-a999528c9d00?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -12288,7 +12288,7 @@
   },
   {
     "Id": "c2e3a0fe-504f-4b2c-bf85-504938f110ef",
-    "Title": "Microsoft Teams の要約",
+    "Title": "Microsoft Teamsの要約",
     "Description": "",
     "Url": "https://support.office.com/ja-jp/f1/article/c2e3a0fe-504f-4b2c-bf85-504938f110ef?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -12310,7 +12310,7 @@
   },
   {
     "Id": "bb6d0b9c-f42a-46ea-b67d-f7d4ebb2b51b",
-    "Title": "データ分析の質問に対する直接的な回答を得る",
+    "Title": "データ分析に関する質問に対する直接の回答を得る",
     "Description": "",
     "Url": "https://support.office.com/ja-jp/f1/article/bb6d0b9c-f42a-46ea-b67d-f7d4ebb2b51b?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -12343,7 +12343,7 @@
   },
   {
     "Id": "a10495b2-8372-4f0f-9179-32771fe0dc04",
-    "Title": "Python in Excel の DataFrames",
+    "Title": "Python in Excel の DataFrames ",
     "Description": "",
     "Url": "https://support.office.com/ja-jp/f1/article/a10495b2-8372-4f0f-9179-32771fe0dc04?embed=true&themeid=-1",
     "TechnologyId": "44c7891e-fc61-4148-88b1-e04c2e3ccf32",
@@ -12354,7 +12354,7 @@
   },
   {
     "Id": "67c48e43-c537-4dbe-b696-aae435c721cf",
-    "Title": "Microsoft 365 の多要素認証を設定する",
+    "Title": "Set up multi-factor authentication for Microsoft 365",
     "Description": "",
     "Url": "https://support.office.com/ja-jp/f1/article/67c48e43-c537-4dbe-b696-aae435c721cf?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -12409,7 +12409,7 @@
   },
   {
     "Id": "622e0d9c-f38c-470a-bcdb-9e90b24d71a1",
-    "Title": "秘密度ラベルは、Office のファイルとメールに自動的に適用されるか、推奨されます",
+    "Title": "秘密度ラベルは、Office のファイルとメールに自動的に適用または推奨されます",
     "Description": "",
     "Url": "https://support.office.com/ja-jp/f1/article/622e0d9c-f38c-470a-bcdb-9e90b24d71a1?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -12420,7 +12420,7 @@
   },
   {
     "Id": "5e822ea9-4b50-4e83-8e5b-1a30ffb2d08d",
-    "Title": "OneNote の Microsoft Purview 秘密度ラベル",
+    "Title": "OneNote の Microsoft Purview 秘密度ラベル ",
     "Description": "",
     "Url": "https://support.office.com/ja-jp/f1/article/5e822ea9-4b50-4e83-8e5b-1a30ffb2d08d?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -12442,7 +12442,7 @@
   },
   {
     "Id": "1de9a543-c2df-44b6-9464-396b23018f96",
-    "Title": "ファイルへのアクセスの追跡と取り消し",
+    "Title": "ファイルへのアクセスを追跡および取り消す",
     "Description": "",
     "Url": "https://support.office.com/ja-jp/f1/article/1de9a543-c2df-44b6-9464-396b23018f96?embed=true&themeid=-1",
     "TechnologyId": "e75b9087-6bb2-417f-a696-e667bea533a7",
@@ -12519,7 +12519,7 @@
   },
   {
     "Id": "46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83",
-    "Title": "Boost SharePoint ニュースを organization ニュース サイトから",
+    "Title": "organizationニュース サイトから SharePoint ニュースを宣伝する",
     "Description": "",
     "Url": "https://support.office.com/ja-jp/f1/article/46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83?embed=true&themeid=-1",
     "TechnologyId": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
@@ -12530,7 +12530,7 @@
   },
   {
     "Id": "a3db52fc-b48f-486a-be6a-336c3f9c41ce",
-    "Title": "コミュニケーション サイトとニュース投稿を含むブログの作成",
+    "Title": "コミュニケーション サイトとニュース投稿を含むブログを作成する",
     "Description": "",
     "Url": "https://support.office.com/ja-jp/f1/article/a3db52fc-b48f-486a-be6a-336c3f9c41ce?embed=true&themeid=-1",
     "TechnologyId": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
@@ -12596,7 +12596,7 @@
   },
   {
     "Id": "b4221e42-d47c-49fc-92a6-04ed88befc0c",
-    "Title": "Office アプリ内から SharePoint ベースのファイルを開く、またはチェックアウトする",
+    "Title": "Office アプリ内から SharePoint ベースのファイルを開く、またはチェックする",
     "Description": "",
     "Url": "https://support.office.com/ja-jp/f1/article/b4221e42-d47c-49fc-92a6-04ed88befc0c?embed=true&themeid=-1",
     "TechnologyId": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
@@ -12618,7 +12618,7 @@
   },
   {
     "Id": "258e5f33-1b5a-4766-a503-d86655cf950d",
-    "Title": "SharePoint サイトのグループとアクセス許可について",
+    "Title": "Understand groups and permissions on a SharePoint site",
     "Description": "",
     "Url": "https://support.office.com/ja-jp/f1/article/258e5f33-1b5a-4766-a503-d86655cf950d?embed=true&themeid=-1",
     "TechnologyId": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
