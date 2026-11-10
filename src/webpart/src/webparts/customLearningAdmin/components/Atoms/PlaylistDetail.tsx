@@ -2,6 +2,7 @@ import { Logger, LogLevel } from "@pnp/logging";
 import * as React from "react";
 
 import HOODropDown, { IHOODropDownGroup, IHOODropDownItem } from "@n8d/htwoo-react/HOODropDown";
+import HOODropDownGrouped from "./HOODropDownGrouped";
 import HOOLabel from "@n8d/htwoo-react/HOOLabel";
 import HOOText from "@n8d/htwoo-react/HOOText";
 import cloneDeep from "lodash-es/cloneDeep";
@@ -230,7 +231,7 @@ export default class PlaylistDetail extends React.Component<IPlaylistDetailProps
                   }
                 }} />
               <HOOLabel label={strings.DetailEditCategory} for={strings.DetailEditCategory} required={true} />
-              <HOODropDown
+              <HOODropDownGrouped
                 value={this.props.detail.CatId}
                 options={this.state.recursiveCategories}
                 onChange={this.selectCatId}
