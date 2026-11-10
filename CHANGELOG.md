@@ -1,5 +1,9 @@
 # Change Log
 
+## Version 5.0.0.16 - November, 10, 2026
+- Fix for bug with category playlist showing GUID when creating new playlist
+- Content update: Removing and retiring dead content
+
 ## Version 5.0.0.15 - November, 06, 2026
 - Fix for bug [#1049](../../issues/1049)
 
