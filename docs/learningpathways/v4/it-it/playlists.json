@@ -2652,6 +2652,113 @@
     ]
   },
   {
+    "Id": "6e706d1a-ef39-453f-a145-a326cab036a3",
+    "Title": "Creare e personalizzare le pagine di SharePoint",
+    "Image": "images/playlists/create_sites_posts_and_lists.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "e5e2ae74-20ff-4626-937d-df4ff3405f29",
+    "Description": "Crea pagine moderne per il tuo sito SharePoint. Crea una pagina, aggiungi sezioni, colonne e web part, parti da un modello di pagina e mostra le notizie con la web part Notizie.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "b3d46deb-27a6-4b1e-87b8-df851e503dec",
+      "a54ecb22-ce73-46db-8d08-95a810ffcbde",
+      "faa92408-0c84-4e3d-8460-3c28065e7873",
+      "c2dcee50-f5d7-434b-8cb9-a7feefd9f165"
+    ]
+  },
+  {
+    "Id": "f47a1437-1d35-4e85-a622-d628cdcf4484",
+    "Title": "Creare e condividere notizie in SharePoint",
+    "Image": "images/playlists/intro_to_sharepoint_online.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "e5e2ae74-20ff-4626-937d-df4ff3405f29",
+    "Description": "Mantieni le persone informate con le notizie di SharePoint. Crea e condividi post di notizie, mostrali con la web part Notizie, promuovi le notizie importanti e pubblica post in stile blog da un sito di comunicazione.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "495f8f1a-3bef-4045-b33a-55e5abe7aed7",
+      "2080ed96-2e53-46cb-b208-5901372e3af5",
+      "c2dcee50-f5d7-434b-8cb9-a7feefd9f165",
+      "46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83",
+      "a3db52fc-b48f-486a-be6a-336c3f9c41ce",
+      "4411e38f-9bc5-4ecc-bd33-3dbe939ac84c"
+    ]
+  },
+  {
+    "Id": "93eb70a7-35f8-4a8e-9d81-95707531d3d6",
+    "Title": "Gestire le versioni e l’estrazione nelle raccolte di SharePoint",
+    "Image": "images/playlists/sharepoint_online_share_and_sync.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "e5e2ae74-20ff-4626-937d-df4ff3405f29",
+    "Description": "Mantieni il controllo dei file nelle raccolte di SharePoint. Scopri come funziona il controllo delle versioni, visualizza e gestisci la cronologia delle versioni e configura l’estrazione. L’estrazione obbligatoria impedisce la co-creazione simultanea.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "0f6cd105-974f-44a4-aadb-43ac5bdfd247",
+      "53262060-5092-424d-a50b-c798b0ec32b1",
+      "1555d642-23ee-446a-990a-bcab618c7a37",
+      "7e941339-e972-4c7a-a79a-80a1fcf84076",
+      "0c73792b-f727-4e19-a1f9-3173899e695b",
+      "b4221e42-d47c-49fc-92a6-04ed88befc0c"
+    ]
+  },
+  {
+    "Id": "8c8bbe21-f4b7-4d15-add4-7ebf2bcc1339",
+    "Title": "Condividere e gestire l’accesso al tuo sito SharePoint",
+    "Image": "images/playlists/share_sites_and_content_with_sharepoint.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "e5e2ae74-20ff-4626-937d-df4ff3405f29",
+    "Description": "Decidi chi può visualizzare e modificare il tuo sito SharePoint. Condividi un sito, scopri i ruoli di proprietari, membri e visitatori, condividi file e cartelle e gestisci le richieste di accesso.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "958771a8-d041-4eb8-b51c-afea2eae3658",
+      "258e5f33-1b5a-4766-a503-d86655cf950d",
+      "e923c4f0-89f5-4cf0-8948-391e31fc0b30",
+      "94b26e0b-2822-49d4-929a-8455698654b3",
+      "95e83c3d-e1b0-4aae-9d08-e94dcaa4942e"
+    ]
+  },
+  {
+    "Id": "5c4a36bc-4efa-45c2-93b2-40a44c1be9b8",
+    "Title": "Gestire il tuo sito SharePoint come proprietario",
+    "Image": "images/playlists/sharepoint_online_quick_start.png",
+    "LevelId": "728fc9bd-0e13-4b9f-a7b5-51bd1f01c524",
+    "AudienceId": "82a23325-2e47-4ff9-8747-b6e01c452b81",
+    "TechnologyId": "c15c2729-22b4-464b-ba9a-1052d88e2bf4",
+    "SubjectId": "",
+    "Source": "Microsoft",
+    "CatId": "e5e2ae74-20ff-4626-937d-df4ff3405f29",
+    "Description": "Gestisci il tuo sito SharePoint come proprietario del sito. Aggiorna le informazioni del sito, applica i modelli di sito e scopri come funzionano i siti hub. Solo gli amministratori di SharePoint possono creare un sito hub e un sito associato a un hub usa il tema dell’hub.",
+    "StatusTagId": "c11c485b-496d-479b-88a3-1744a7a028d7",
+    "StatusNote": "",
+    "Assets": [
+      "21761aac-f7f7-4499-b0ca-cf283477c32f",
+      "8376034d-d0c7-446e-9178-6ab51c58df42",
+      "39382463-0e45-4d1b-be27-0e96aeec8398",
+      "fe26ae84-14b7-45b6-a6d1-948b3966427f",
+      "ae0009fd-af04-4d3d-917d-88edb43efc05",
+      "e2daed64-658c-4462-aeaf-7d1a92eba098"
+    ]
+  },
+  {
     "Id": "63354a03-0b23-49c3-bf57-b992fdc3a00a",
     "Title": "Guida rapida a Sway",
     "Image": "images/playlists/sway-quick-start.png",
