@@ -3031,7 +3031,7 @@
     "Source": "Microsoft",
     "CatId": "0f76af36-ace7-4e17-9ccf-e82c6d5ff24f",
     "Description": "Microsoft Viva Goals 使您的组织战略优先事项保持一致，并将团队团结在共同使命和目标下。在 Viva Goals 入门中，学习如何创建目标、关键结果和项目，还可以学习签到、更新进度以及评估和反思目标。",
-    "StatusTagId": "90fe6290-e063-4778-a8a1-7531c2a0a40e",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": "",
     "Assets": [
       "bd651be7-472a-4f40-8fdd-6fcead79f3ad",
@@ -3294,7 +3294,7 @@
     "Source": "Microsoft",
     "CatId": "e83da7d3-653c-4c01-a262-336e07b88aba",
     "Description": "通过 Yammer 快速入门指南，快速开始使用 Yammer。登录 Yammer 并加入社区对话，了解组织中的热门话题，并设置 Yammer 移动应用随时随地使用 Yammer。",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": "",
     "Assets": [
       "d863154a-4223-4ea2-8855-ccc971321b8e",
@@ -3314,7 +3314,7 @@
     "Source": "Microsoft",
     "CatId": "e83da7d3-653c-4c01-a262-336e07b88aba",
     "Description": "遵循这些技巧和最佳实践，成功部署 Yammer 网络。了解 Yammer 概览、制定策略、个性化 Yammer 网络、识别合适的用例、创建社区、为上线做准备、培训用户、持续推动参与度，将 Yammer 集成到 Teams、SharePoint Online 和 Outlook，并衡量成功。",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": "",
     "Assets": [
       "1b0f3b3e-89ee-4b66-aac5-30def12f287c",

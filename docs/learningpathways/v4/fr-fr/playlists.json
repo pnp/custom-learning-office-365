@@ -3031,7 +3031,7 @@
     "Source": "Microsoft",
     "CatId": "0f76af36-ace7-4e17-9ccf-e82c6d5ff24f",
     "Description": "Microsoft Viva Goals aligne les priorités stratégiques de votre organisation et unit les équipes autour de missions et d’objectifs communs. Dans Démarrer avec Viva Goals, apprenez à créer des objectifs, des résultats clés et des projets. Découvrez aussi comment faire le suivi, mettre à jour votre progression, évaluer et réfléchir à vos objectifs.",
-    "StatusTagId": "90fe6290-e063-4778-a8a1-7531c2a0a40e",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": "",
     "Assets": [
       "bd651be7-472a-4f40-8fdd-6fcead79f3ad",
@@ -3294,7 +3294,7 @@
     "Source": "Microsoft",
     "CatId": "e83da7d3-653c-4c01-a262-336e07b88aba",
     "Description": "Démarrez rapidement avec le guide de démarrage rapide Yammer. Connectez-vous à Yammer et rejoignez les conversations communautaires, découvrez les tendances dans votre organisation et configurez l’application mobile Yammer pour l’utiliser en déplacement.",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": "",
     "Assets": [
       "d863154a-4223-4ea2-8855-ccc971321b8e",
@@ -3314,7 +3314,7 @@
     "Source": "Microsoft",
     "CatId": "e83da7d3-653c-4c01-a262-336e07b88aba",
     "Description": "Suivez ces conseils et bonnes pratiques pour déployer un réseau Yammer réussi. Obtenez un aperçu de Yammer, planifiez votre stratégie, personnalisez un réseau Yammer, identifiez les bons cas d’utilisation, créez une communauté, préparez le lancement, formez les utilisateurs, favorisez l’engagement continu, intégrez Yammer à Teams, SharePoint Online et Outlook, et mesurez le succès.",
-    "StatusTagId": "",
+    "StatusTagId": "4eb25076-b5d0-41cb-afa6-4e0c5a1c9664",
     "StatusNote": "",
     "Assets": [
       "1b0f3b3e-89ee-4b66-aac5-30def12f287c",
